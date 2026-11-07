@@ -1,0 +1,145 @@
+{
+  "ticker": "IRM",
+  "company": "Iron Mountain",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+14%",
+  "verdict": "Iron Mountain posted record revenue of $2.0B, up 13.5%, and net income jumped 49% to $129M as its data-center, digital and asset-lifecycle businesses grew more than 30%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.99B",
+      "note": "+13.5% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.41",
+      "note": "+46% YoY"
+    },
+    {
+      "label": "AFFO per share",
+      "value": "$1.53",
+      "note": "+16% YoY \u2014 the REIT cash yardstick"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$748M",
+      "note": "+13% YoY, also a record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Storage rental",
+      "amountM": 1150,
+      "yoy": "+11%",
+      "note": "Renting secure space for paper records, data-center capacity and other stored assets \u2014 the steady core of the business."
+    },
+    {
+      "name": "Service",
+      "amountM": 841,
+      "yoy": "+17%",
+      "note": "Services around the storage: document digitization, secure destruction, data-center services and asset lifecycle management."
+    }
+  ],
+  "flow": {
+    "revenueM": 1991,
+    "costOfRevenueM": 927,
+    "grossProfitM": 1064,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 349,
+        "f100": "SG&A",
+        "note": "Selling and running the global business."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 292,
+        "f100": "Depreciation & amortization",
+        "note": "Spreading the cost of warehouses, data centers and equipment over their lives \u2014 largely non-cash."
+      },
+      {
+        "name": "Acquisition & disposal costs",
+        "amountM": 12,
+        "f100": "Acquisition & disposal",
+        "note": "$5M of acquisition and integration costs plus $8M of losses on disposing of property and equipment."
+      }
+    ],
+    "operatingIncomeM": 411,
+    "otherIncomeM": -225,
+    "taxM": 57,
+    "netIncomeM": 129
+  },
+  "otherDetail": "Net interest expense of $217M on the company's debt, plus $8M of other expenses.",
+  "takeaways": [
+    {
+      "stat": "+30%",
+      "statColor": "#3d7bc8",
+      "title": "Growth businesses are carrying growth",
+      "text": "Data center, digital and asset lifecycle management together grew over 30%; Iron Mountain signed 102MW of data-center leases in the quarter, 137MW year to date."
+    },
+    {
+      "stat": "$1.53",
+      "statColor": "#3e8e5a",
+      "title": "Cash profit hit a record",
+      "text": "AFFO \u2014 the cash yardstick REIT investors watch \u2014 rose 17% to a record $458M, or $1.53 per share."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#5b6b7c",
+      "title": "Dividend raised",
+      "text": "Full-year guidance was raised, and the quarterly dividend goes up 15% to $0.993 per share, paid January 6, 2027."
+    }
+  ],
+  "footerNote": "Net income attributable to Iron Mountain was $124M after $5M attributable to noncontrolling interests; the $0.41 EPS is on the attributable figure. Acquisition & disposal costs absorb a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/q32026earningspressrelea.htm"
+    },
+    {
+      "label": "Q3 2026 supplemental financial information (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/q32026srpfinal.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Storage rental",
+      "amount": 57.76
+    },
+    {
+      "label": "Service",
+      "amount": 42.24
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.56
+    },
+    {
+      "label": "SG&A",
+      "amount": -17.53
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -14.67
+    },
+    {
+      "label": "Acquisition & disposal",
+      "amount": -0.6
+    },
+    {
+      "label": "Other expense",
+      "amount": -11.3
+    },
+    {
+      "label": "Tax",
+      "amount": -2.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.48
+    }
+  ]
+}

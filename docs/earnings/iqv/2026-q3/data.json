@@ -1,0 +1,141 @@
+{
+  "ticker": "IQV",
+  "company": "IQVIA",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+8%",
+  "verdict": "IQVIA grew revenue 8% to $4.43B and won $3.2B of new clinical-trial work \u2014 its strongest bookings quarter since 2022 \u2014 while GAAP net income came to $350M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.43B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.10",
+      "note": "diluted"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.34",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$667M",
+      "note": "120% of adjusted net income"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Research & Development Solutions",
+      "amountM": 2639,
+      "yoy": "+9%",
+      "note": "Running clinical trials for drug makers \u2014 net new bookings of $3.2B, up 15%, and a backlog of $32.6B."
+    },
+    {
+      "name": "Commercial Solutions",
+      "amountM": 1789,
+      "yoy": "+7%",
+      "note": "Data, analytics and technology that help drug makers sell and market their products."
+    }
+  ],
+  "flow": {
+    "revenueM": 4428,
+    "costOfRevenueM": 2930,
+    "grossProfitM": 1498,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 569,
+        "f100": "SG&A",
+        "note": "Selling and running a 90,000-person global services business."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 321,
+        "f100": "Depreciation & amortization",
+        "note": "Spreading the cost of past acquisitions and equipment over time."
+      },
+      {
+        "name": "Restructuring costs",
+        "amountM": 36,
+        "note": "Reshaping the business under its new, simpler two-segment structure."
+      }
+    ],
+    "operatingIncomeM": 572,
+    "otherIncomeM": -186,
+    "equityM": 42,
+    "taxM": 76,
+    "netIncomeM": 352
+  },
+  "otherDetail": "Interest expense of $203M, partly offset by $42M of earnings from unconsolidated affiliates, $12M of interest income and $5M of other income \u2014 a net $144M cost.",
+  "takeaways": [
+    {
+      "stat": "$3.2B",
+      "statColor": "#3d7bc8",
+      "title": "Bookings are surging",
+      "text": "R&D Solutions won $3.2B of net new business, up 15% \u2014 a 1.2x book-to-bill \u2014 and last-twelve-month bookings reached $11.7B."
+    },
+    {
+      "stat": "$667M",
+      "statColor": "#3e8e5a",
+      "title": "Cash conversion is strong",
+      "text": "Free cash flow of $667M was 120% of adjusted net income; net debt stood at $13.8B, or 3.45x adjusted EBITDA."
+    },
+    {
+      "stat": "$12.90\u201313.00",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "IQVIA lifted its full-year outlook: revenue of $17.35\u201317.50B and adjusted EPS of $12.90\u2013$13.00."
+    }
+  ],
+  "footerNote": "Net income of $352M is before $2M attributable to noncontrolling interests; net income attributable to IQVIA was $350M, the basis for the $2.10 EPS. A review of inactive trials also removed about $2.1B from reported backlog \u2014 an accounting cleanup with no effect on revenue or profit.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026067406/iqv-q3x2026earningspressre.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Research & Development Solutions",
+      "amount": 59.6
+    },
+    {
+      "label": "Commercial Solutions",
+      "amount": 40.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.17
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.85
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -7.25
+    },
+    {
+      "label": "Restructuring costs",
+      "amount": -0.81
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.25
+    },
+    {
+      "label": "Tax",
+      "amount": -1.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.95
+    }
+  ]
+}

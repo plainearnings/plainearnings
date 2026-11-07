@@ -1,0 +1,144 @@
+{
+  "ticker": "ISRG",
+  "company": "Intuitive Surgical",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+22%",
+  "verdict": "Intuitive's revenue jumped 22% to $3.05B as da Vinci procedures grew 14% \u2014 but a $450M antitrust settlement charge cut GAAP net income to $523M; without the charge, profit was about $1.05B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.05B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.49",
+      "note": "vs $1.95 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$3.00",
+      "note": "excludes the settlement charge"
+    },
+    {
+      "label": "da Vinci systems placed",
+      "value": "546",
+      "note": "315 of them da Vinci 5"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Instruments & accessories",
+      "amountM": 1797,
+      "yoy": "+18%",
+      "note": "The single-use tools and accessories consumed by every robotic procedure \u2014 the recurring engine, growing with procedure volume."
+    },
+    {
+      "name": "Systems",
+      "amountM": 769,
+      "yoy": "+30%",
+      "note": "Selling and leasing da Vinci and Ion robots: 546 da Vinci systems placed in the quarter, 291 of them under leases."
+    },
+    {
+      "name": "Services",
+      "amountM": 483,
+      "yoy": "+22%",
+      "note": "Service contracts keeping an installed base of 12,094 da Vinci systems (and 1,152 Ion systems) running."
+    }
+  ],
+  "flow": {
+    "revenueM": 3049,
+    "costOfRevenueM": 965,
+    "grossProfitM": 2084,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1084,
+        "f100": "SG&A",
+        "note": "Selling and support plus the back office \u2014 this quarter it also carries a $455M litigation charge for settling an antitrust class action."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 408,
+        "note": "Developing the next robots, instruments and imaging."
+      }
+    ],
+    "operatingIncomeM": 592,
+    "otherIncomeM": 76,
+    "taxM": 144,
+    "netIncomeM": 524
+  },
+  "otherDetail": "Interest and other income, net \u2014 Intuitive earns interest on its large cash and investment pile.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Procedure growth is the story",
+      "text": "Worldwide procedures grew about 15% (da Vinci +14%, Ion +31%), pulling instrument revenue up 18% and expanding the installed base 12% to 12,094 systems."
+    },
+    {
+      "stat": "$450M",
+      "statColor": "#b8443c",
+      "title": "One charge halved GAAP profit",
+      "text": "Settling antitrust class-action litigation cost $450M before tax ($347M, or $0.99 a share, after tax). Non-GAAP net income, which excludes it, rose to $1.05B from $867M."
+    },
+    {
+      "stat": "$2.94B",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks at full speed",
+      "text": "Intuitive repurchased 7.8 million shares for $2.94B in the quarter \u2014 more than five times its GAAP net income."
+    }
+  ],
+  "oneTimers": [
+    "A $450M pre-tax charge (inside SG&A, which shows $455M of litigation charges) to settle previously disclosed antitrust class-action litigation; $347M after tax, or $0.99 per share.",
+    "Cost of revenue includes a $28M benefit from IEEPA tariff refunds for tariffs paid in prior periods ($22M of benefit to net income after tax)."
+  ],
+  "footerNote": "Net income attributable to Intuitive was $523M after $2M attributable to a joint-venture partner; the $1.49 EPS is on the attributable figure. Figures are rounded to $M; services revenue and cost of revenue absorb $1M rounding differences so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000067/q326ex-991earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Instruments & accessories",
+      "amount": 58.94
+    },
+    {
+      "label": "Systems",
+      "amount": 25.22
+    },
+    {
+      "label": "Services",
+      "amount": 15.84
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.65
+    },
+    {
+      "label": "SG&A",
+      "amount": -35.55
+    },
+    {
+      "label": "R&D",
+      "amount": -13.38
+    },
+    {
+      "label": "Other income",
+      "amount": 2.49
+    },
+    {
+      "label": "Tax",
+      "amount": -4.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.19
+    }
+  ]
+}

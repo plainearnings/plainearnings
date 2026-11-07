@@ -1,0 +1,143 @@
+{
+  "ticker": "IR",
+  "company": "Ingersoll Rand",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+6%",
+  "verdict": "Ingersoll Rand grew revenue 6% to $2.06B \u2014 and reported profit nearly tripled to $670M, because about $355M of settlement recoveries from the old ILC Dover deal landed in the quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.06B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.73",
+      "note": "vs $0.61 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.07",
+      "note": "+24% YoY"
+    },
+    {
+      "label": "Orders",
+      "value": "$2.35B",
+      "note": "+21% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Industrial Technologies & Services",
+      "amountM": 1620,
+      "yoy": "+5%",
+      "note": "Compressors, vacuum and blower systems, power tools and lifting equipment \u2014 orders jumped 25% on long-cycle projects."
+    },
+    {
+      "name": "Precision & Science Technologies",
+      "amountM": 445,
+      "yoy": "+7%",
+      "note": "Precision liquid, gas and powder handling for life sciences, aerospace and defense \u2014 life-sciences orders grew double digits."
+    }
+  ],
+  "flow": {
+    "revenueM": 2065,
+    "costOfRevenueM": 1141,
+    "grossProfitM": 924,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 390,
+        "note": "Selling the equipment and running the company."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 107,
+        "f100": "Amortization",
+        "note": "Spreading the cost of past acquisitions over time \u2014 a non-cash charge."
+      },
+      {
+        "name": "ILC Dover settlements & other operating income",
+        "amountM": -355,
+        "f100": "Settlement gains",
+        "note": "Money back, not a cost: settlements with insurers and others over the ILC Dover transaction, plus IEEPA tariff refunds, booked as operating income."
+      }
+    ],
+    "operatingIncomeM": 782,
+    "otherIncomeM": -57,
+    "taxM": 54,
+    "netIncomeM": 671
+  },
+  "otherDetail": "Interest expense of $63M, partly offset by $5M of other income.",
+  "takeaways": [
+    {
+      "stat": "$355M",
+      "statColor": "#3e8e5a",
+      "title": "A settlement did the heavy lifting",
+      "text": "GAAP net income of $671M includes about $355M of operating gains, mostly ILC Dover settlement recoveries. Adjusted net income \u2014 the underlying run-rate \u2014 was $415M, up 24%."
+    },
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Orders are booming",
+      "text": "Orders rose 21% to $2.35B (18% organic), including a roughly $195M engineered-to-order infrastructure order; both segments grew."
+    },
+    {
+      "stat": "$623M",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow doubled",
+      "text": "Free cash flow was $623M versus $326M a year ago, helped by $162.5M of settlement cash collected in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Other operating income of $355M: Ingersoll Rand reached settlements with insurers and other parties over the ILC Dover transaction totaling about $425M of gross recoveries ($25M collected in Q2, $162.5M in Q3, the rest expected in Q4), alongside IEEPA tariff refunds. Excluding tariff refunds, adjusted EPS was $1.01 instead of $1.07."
+  ],
+  "footerNote": "Net income of $671M is before $2M attributable to noncontrolling interests; net income attributable to Ingersoll Rand was $670M, the basis for the $1.73 EPS. Figures are rounded to $M; selling & administrative absorbs a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026068260/ir2026q3ex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Industrial Technologies & Services",
+      "amount": 78.45
+    },
+    {
+      "label": "Precision & Science Technologies",
+      "amount": 21.55
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -55.25
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -18.89
+    },
+    {
+      "label": "Amortization",
+      "amount": -5.18
+    },
+    {
+      "label": "Settlement gains",
+      "amount": 17.19
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.76
+    },
+    {
+      "label": "Tax",
+      "amount": -2.62
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.49
+    }
+  ]
+}
