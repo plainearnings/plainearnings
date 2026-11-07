@@ -1,0 +1,147 @@
+{
+  "company": "Marvell Technology",
+  "flow": {
+    "costOfRevenueM": 1283.7,
+    "grossProfitM": 1455.6,
+    "netIncomeM": 308.0,
+    "operatingIncomeM": 459.7,
+    "opex": [
+      {
+        "amountM": 741.1,
+        "name": "Research and development",
+        "note": "Designing new data-infrastructure chips and platforms; up 43% YoY as hiring and stock pay rose."
+      },
+      {
+        "amountM": 257.6,
+        "name": "Selling, general and administrative",
+        "note": "Selling the chips and running the company; up 34% YoY."
+      },
+      {
+        "amountM": -2.8,
+        "name": "Restructuring related charges (gains), net",
+        "note": "A small net gain (a credit) this quarter \u2014 items such as contract changes and property sales, net of severance and facility-exit costs, came out in Marvell's favor."
+      }
+    ],
+    "otherIncomeM": -81.4,
+    "revenueM": 2739.3,
+    "taxM": 70.3
+  },
+  "follow100": [
+    {
+      "amount": 79.27,
+      "label": "Data center"
+    },
+    {
+      "amount": 20.73,
+      "label": "Communications and other"
+    },
+    {
+      "amount": -46.86,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -27.05,
+      "label": "R&D"
+    },
+    {
+      "amount": -9.4,
+      "label": "SG&A"
+    },
+    {
+      "amount": 0.1,
+      "label": "Restructuring gain"
+    },
+    {
+      "amount": -2.97,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.57,
+      "label": "Tax"
+    },
+    {
+      "amount": 11.24,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Communications and other takes $20.73 of every $100 and Data Center $79.27. The spending rows add to $99.99 rather than exactly $100.00 because each row is rounded to two decimals.",
+  "footerNote": "Marvell reports revenue in two end markets: Data center, and Communications and other.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+37%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.22 a year ago",
+      "value": "$0.33"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "+46% YoY, 79% of revenue",
+      "value": "$2.17B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "$606M operating cash flow \u2212 $127M capex",
+      "value": "$479M"
+    }
+  ],
+  "oneTimers": [
+    "A net $52.0M fair-value loss sat inside interest and other loss, net: a $101.9M increase in the fair value of the contingent consideration owed for the Celestial acquisition, partly offset by a $49.9M unrealized gain on a forward stock purchase contract. Both are excluded from non-GAAP results.",
+    "GAAP profit is far below non-GAAP profit ($308.0M vs $865.9M) mainly because GAAP includes $326.2M of stock-based compensation and $214.9M of amortization of acquired intangible assets, both excluded from non-GAAP."
+  ],
+  "otherDetail": "Interest expense of $61.6M plus other expense, net of $19.8M \u2014 a net $81.4M non-operating loss. Inside it, a $101.9M rise in the fair value of the Celestial acquisition contingent consideration was partly offset by a $49.9M gain on a forward stock purchase contract.",
+  "periodEnd": "2026-08-01",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "reportedDate": "2026-08-27",
+  "revenueYoY": "+37%",
+  "segments": [
+    {
+      "amountM": 2171.5,
+      "name": "Data center",
+      "note": "AI and cloud data-center chips \u2014 custom silicon, connectivity, ethernet switching and storage; up 46% YoY and 79% of all revenue.",
+      "yoy": "+46%"
+    },
+    {
+      "amountM": 567.8,
+      "name": "Communications and other",
+      "note": "Enterprise networking, carrier infrastructure, consumer and automotive/industrial chips, which Marvell now reports as one combined end market; up 10% YoY.",
+      "yoy": "+10%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm"
+    },
+    {
+      "label": "Form 10-Q, incl. revenue disaggregation by end market (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+46%",
+      "statColor": "#3d7bc8",
+      "text": "Data Center revenue hit $2,171.5M, up 46% from a year ago and 18% from last quarter \u2014 79% of all revenue. Marvell said AI-related bookings remain exceptionally robust and raised its outlook for fiscal 2027 and 2028.",
+      "title": "Data Center is carrying the growth"
+    },
+    {
+      "stat": "$0.33 vs $0.94",
+      "statColor": "#5b6b7c",
+      "text": "GAAP EPS was $0.33 against $0.94 non-GAAP. The gap is mostly $326.2M of stock-based compensation and $214.9M of amortization on past acquisitions, plus a net $52.0M fair-value loss tied to the Celestial deal \u2014 all real costs that non-GAAP leaves out.",
+      "title": "GAAP profit looks much smaller than non-GAAP"
+    },
+    {
+      "stat": "$3.15B",
+      "statColor": "#3e8e5a",
+      "text": "Marvell guided Q3 FY27 revenue to $3.15B (\u00b15%), with GAAP EPS of $0.53 (\u00b1$0.05) and non-GAAP EPS of $1.10 (\u00b1$0.05) \u2014 a big step up from this quarter's $2.74B as its Custom business accelerates.",
+      "title": "Next quarter is guided to another record"
+    }
+  ],
+  "ticker": "MRVL",
+  "verdict": "Marvell set another revenue record at $2.74B, up 37%, as Data Center sales jumped 46% to 79% of the business \u2014 but stock pay, acquisition amortization and a Celestial fair-value charge held GAAP profit to $308M, well below the $866M non-GAAP figure."
+}
