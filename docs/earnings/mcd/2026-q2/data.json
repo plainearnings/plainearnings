@@ -1,0 +1,133 @@
+{
+  "company": "McDonald's",
+  "flow": {
+    "costOfRevenueM": 2944,
+    "grossProfitM": 4155,
+    "netIncomeM": 2362,
+    "operatingIncomeM": 3338,
+    "opex": [
+      {
+        "amountM": 817,
+        "name": "Selling, general & administrative",
+        "note": "Head office, marketing support and running the global franchising machine \u2014 includes $111M of depreciation and amortization."
+      }
+    ],
+    "otherIncomeM": -402,
+    "revenueM": 7099,
+    "taxM": 574
+  },
+  "follow100": [
+    {
+      "amount": 61.88,
+      "label": "Franchised restaurants"
+    },
+    {
+      "amount": 35.57,
+      "label": "Company-owned restaurants"
+    },
+    {
+      "amount": 2.55,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -41.47,
+      "label": "Cost of restaurants"
+    },
+    {
+      "amount": -11.51,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.66,
+      "label": "Other expense"
+    },
+    {
+      "amount": -8.09,
+      "label": "Tax"
+    },
+    {
+      "amount": 33.27,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Restaurant costs are shown net of $37M of other operating income (mostly gains on restaurant sales). McDonald's reports in rounded millions: 'Other revenues' is shown as $181M (reported $182M) and net other expense as $402M so each line ties exactly to the reported totals.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+6% YoY; $3.38 excluding restructuring charges",
+      "value": "$3.32"
+    },
+    {
+      "label": "Global comparable sales",
+      "note": "U.S. +0.8%",
+      "value": "+1.3%"
+    },
+    {
+      "label": "Operating income",
+      "note": "+3% YoY",
+      "value": "$3.3B"
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $52M ($0.06 per share) for restructuring under the 'Accelerating the Organization' program; the year-ago quarter had $43M of similar charges. Excluding them, operating income rose 4%."
+  ],
+  "otherDetail": "Interest expense of $409M on McDonald's debt, partly offset by $6M of nonoperating income.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-08-04",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "amountM": 4393,
+      "name": "Franchised restaurants",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 2525,
+      "name": "Company-owned restaurants",
+      "note": "Food and drink sold at restaurants McDonald's runs itself.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 181,
+      "name": "Other revenues",
+      "note": "Initial fees from new restaurants and other smaller income.",
+      "yoy": "+6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/exhibit991-6302026.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+1.3%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable sales rose 1.3% (U.S. +0.8%) \u2014 higher checks and favorable product mix offset fewer U.S. guest visits.",
+      "title": "Comps stayed positive"
+    },
+    {
+      "stat": "$3.32",
+      "statColor": "#3e8e5a",
+      "text": "Diluted EPS was $3.32, up 6%. Excluding $52M of restructuring charges tied to the 'Accelerating the Organization' program, it was $3.38.",
+      "title": "EPS rose 6%"
+    },
+    {
+      "stat": "62%",
+      "statColor": "#5b6b7c",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $4.4B, 62% of all revenue, and nearly pure margin. Company-run stores bring in most of the rest at much thinner margins.",
+      "title": "Franchisees carry the model"
+    }
+  ],
+  "ticker": "MCD",
+  "verdict": "McDonald's grew revenue 4% to $7.1B and squeezed operating profit up 3% \u2014 franchise fees did the work while U.S. guest counts stayed soft."
+}

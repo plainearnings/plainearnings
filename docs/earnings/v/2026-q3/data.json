@@ -1,0 +1,183 @@
+{
+  "company": "Visa",
+  "flow": {
+    "costOfRevenueM": 4680,
+    "grossProfitM": 11633,
+    "netIncomeM": 5628,
+    "operatingIncomeM": 6877,
+    "opex": [
+      {
+        "amountM": 2458,
+        "name": "Personnel",
+        "note": "Pay and benefits \u2014 includes $563M of severance costs from Visa's efficiency drive (see one-time items)."
+      },
+      {
+        "amountM": 503,
+        "name": "General & administrative",
+        "note": "Running the company day to day."
+      },
+      {
+        "amountM": 649,
+        "name": "Marketing",
+        "note": "Brand, sponsorship and card marketing."
+      },
+      {
+        "amountM": 253,
+        "name": "Litigation provision",
+        "note": "Mostly the interchange multidistrict litigation (MDL) case \u2014 a legal charge Visa excludes from its non-GAAP results."
+      },
+      {
+        "amountM": 893,
+        "compact": true,
+        "name": "Network, professional & depreciation",
+        "note": "Network and processing ($280M), professional fees ($246M) and depreciation & amortization ($367M).",
+        "shortName": "Network, prof. & depreciation"
+      }
+    ],
+    "otherIncomeM": -44,
+    "revenueM": 16313,
+    "taxM": 1205
+  },
+  "follow100": [
+    {
+      "amount": 30.17,
+      "label": "Service revenue"
+    },
+    {
+      "amount": 37.04,
+      "label": "Data processing revenue"
+    },
+    {
+      "amount": 23.62,
+      "label": "International transaction revenue"
+    },
+    {
+      "amount": 9.17,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -28.69,
+      "label": "Client incentives"
+    },
+    {
+      "amount": -15.07,
+      "label": "Personnel"
+    },
+    {
+      "amount": -3.08,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -3.98,
+      "label": "Marketing"
+    },
+    {
+      "amount": -1.55,
+      "label": "Litigation provision"
+    },
+    {
+      "amount": -5.47,
+      "label": "Network, professional & depreciation"
+    },
+    {
+      "amount": -0.27,
+      "label": "Other expense"
+    },
+    {
+      "amount": -7.39,
+      "label": "Tax"
+    },
+    {
+      "amount": 34.5,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Per $100 of gross revenue (before client incentives). Measured against Visa's reported net revenue of $11.6B instead, the kept profit is $48.38 per $100. Rows may not add exactly due to rounding.",
+  "footerNote": "Visa reports 'net revenue' of $11,633M; this page starts from gross revenue of $16,313M so the $4,680M of client incentives shows as a cost.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "note": "to $11.6B",
+      "value": "+14%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.69 a year ago",
+      "value": "$2.97"
+    },
+    {
+      "label": "Payments volume",
+      "note": "cross-border volume +15%",
+      "value": "+11%"
+    },
+    {
+      "label": "Client incentives",
+      "note": "29% of gross revenue",
+      "value": "$4.7B"
+    }
+  ],
+  "oneTimers": [
+    "Severance costs of $563M (inside personnel expense) from Visa's drive for operational efficiencies \u2014 excluded from its non-GAAP results.",
+    "A litigation provision of $253M for the interchange multidistrict litigation (MDL) case and other legal matters ($237M flagged as the special item), also excluded from non-GAAP results. Non-GAAP net income was $6.3B ($3.32 per share)."
+  ],
+  "otherDetail": "Investment income and other gains of $150M, less $194M of interest expense \u2014 net \u2212$44M.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-07-28",
+  "revenueYoY": "+14%",
+  "segments": [
+    {
+      "amountM": 4922,
+      "name": "Service revenue",
+      "note": "Fees from banks for using the Visa brand and network on cards.",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 6042,
+      "name": "Data processing revenue",
+      "note": "Fees for clearing and processing each transaction.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 3853,
+      "name": "International transaction revenue",
+      "note": "Fees when a card is used outside its home country \u2014 cross-border volume rose 15%.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 1496,
+      "name": "Other revenue",
+      "note": "Value-added services \u2014 fraud tools, data and consulting for banks and merchants.",
+      "yoy": "+45%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "text": "Net revenue rose 14% to $11.6B \u2014 data processing +17%, service revenue +14%, international transactions +6% on cross-border volume +15%, and other revenue +45%. Processed transactions grew 10%.",
+      "title": "Every line grew"
+    },
+    {
+      "stat": "$563M",
+      "statColor": "#5b6b7c",
+      "text": "Personnel costs jumped 41% because of $563M of severance charges as Visa reshapes its workforce \u2014 the main reason GAAP profit grew only 7% while revenue grew 14%. Non-GAAP EPS was $3.32.",
+      "title": "A big severance bill"
+    },
+    {
+      "stat": "$4.7B",
+      "statColor": "#3e8e5a",
+      "text": "Client incentives \u2014 rebates paid to issuing banks and partners \u2014 rose 18% to $4.7B, about 29 cents of every gross revenue dollar. They grow fast because the biggest banks negotiate hard to stay on the network.",
+      "title": "Incentives keep climbing"
+    }
+  ],
+  "ticker": "V",
+  "verdict": "Visa's net revenue rose 14% to $11.6B as payments volume grew 11% \u2014 but a $563M severance bill inside personnel costs held GAAP profit growth to 7%."
+}

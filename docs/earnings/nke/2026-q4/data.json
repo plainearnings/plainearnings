@@ -1,0 +1,172 @@
+{
+  "company": "Nike",
+  "flow": {
+    "costOfRevenueM": 5579,
+    "grossProfitM": 5393,
+    "netIncomeM": 1069,
+    "operatingIncomeM": 1311,
+    "opex": [
+      {
+        "amountM": 1203,
+        "name": "Demand creation",
+        "note": "Advertising and sports marketing \u2014 down 4% on lower brand marketing spending."
+      },
+      {
+        "amountM": 2879,
+        "name": "Operating overhead",
+        "note": "Salaries, technology and running the business \u2014 down 1% on lower administrative costs."
+      }
+    ],
+    "otherIncomeM": 18,
+    "revenueM": 10972,
+    "taxM": 260
+  },
+  "follow100": [
+    {
+      "amount": 44.04,
+      "label": "North America"
+    },
+    {
+      "amount": 27.12,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 14.55,
+      "label": "Asia Pacific & Latin America"
+    },
+    {
+      "amount": 11.82,
+      "label": "Greater China"
+    },
+    {
+      "amount": 2.22,
+      "label": "Converse"
+    },
+    {
+      "amount": 0.26,
+      "label": "Global Brand & Corporate"
+    },
+    {
+      "amount": -50.85,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -10.96,
+      "label": "Demand creation"
+    },
+    {
+      "amount": -26.24,
+      "label": "Operating overhead"
+    },
+    {
+      "amount": 0.16,
+      "label": "Other income"
+    },
+    {
+      "amount": -2.37,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.74,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "The $986M expected IEEPA tariff recovery sits inside cost of sales (lowering it), exactly as Nike reports it.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago (\u22124% currency-neutral)",
+      "value": "\u22121%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.14 \u2014 includes a $0.52 tariff-recovery benefit",
+      "value": "$0.72"
+    },
+    {
+      "label": "Gross margin",
+      "note": "up from 40.3%, on the expected tariff recovery",
+      "value": "49.2%"
+    },
+    {
+      "label": "Net income",
+      "note": "up 407% YoY",
+      "value": "$1.1B"
+    }
+  ],
+  "oneTimers": [
+    "The expected recovery of $986M of IEEPA tariffs (ruled unlawful) is booked inside cost of sales \u2014 it lifted gross margin by about 900 basis points and EPS by $0.52, and accounts for most of the jump from last year's $211M net income to this year's $1,069M. It is an expected refund, not cash already received, and it will not repeat."
+  ],
+  "otherDetail": "$8M of net interest income and $10M of other income.",
+  "periodEnd": "2026-05-31",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "reportedDate": "2026-06-30",
+  "revenueYoY": "\u22121%",
+  "segments": [
+    {
+      "amountM": 4832,
+      "name": "North America",
+      "note": "Nike's home market \u2014 the one big region that grew, on wholesale demand.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 2975,
+      "name": "Europe, Middle East & Africa",
+      "note": "Europe, the Middle East and Africa.",
+      "yoy": "\u22121%"
+    },
+    {
+      "amountM": 1596,
+      "name": "Asia Pacific & Latin America",
+      "note": "Asia-Pacific (outside Greater China) and Latin America.",
+      "yoy": "+1%"
+    },
+    {
+      "amountM": 1297,
+      "name": "Greater China",
+      "note": "China \u2014 the weakest big market, down double digits for another quarter.",
+      "yoy": "\u221212%"
+    },
+    {
+      "amountM": 244,
+      "name": "Converse",
+      "note": "The Converse sneaker brand \u2014 down 32% across all territories.",
+      "yoy": "\u221232%"
+    },
+    {
+      "amountM": 28,
+      "name": "Global Brand & Corporate",
+      "note": "Global brand divisions plus corporate leftovers.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$986M",
+      "statColor": "#5b6b7c",
+      "text": "The expected recovery of IEEPA tariffs added $986M back into gross profit \u2014 roughly 900 basis points of margin and $0.52 of the $0.72 EPS. Strip it out and this was a flat, difficult quarter.",
+      "title": "A tariff refund remade the quarter"
+    },
+    {
+      "stat": "\u22121%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue fell 1% to $11.0B, unevenly: North America grew 3%, but Greater China fell 12% and Converse 32%. Wholesale revenue rose 4% while Nike's own stores and app fell 7%.",
+      "title": "Sales still shrinking"
+    },
+    {
+      "stat": "49.2%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin leapt from 40.3% to 49.2% \u2014 almost entirely the tariff recovery, an expected refund rather than money already in the bank. It flatters this quarter and will not repeat.",
+      "title": "Margin jumped \u2014 on paper"
+    }
+  ],
+  "ticker": "NKE",
+  "verdict": "Nike's sales slipped 1% to $11.0B \u2014 but reported profit jumped five-fold to $1.1B, almost entirely because of a $986M expected refund of tariffs that courts ruled unlawful."
+}

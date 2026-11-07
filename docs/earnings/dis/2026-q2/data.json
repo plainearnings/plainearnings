@@ -1,0 +1,148 @@
+{
+  "company": "Disney",
+  "flow": {
+    "costOfRevenueM": 15901,
+    "grossProfitM": 9267,
+    "netIncomeM": 2465,
+    "operatingIncomeM": 3550,
+    "opex": [
+      {
+        "amountM": 4073,
+        "name": "Selling, general & administrative",
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "amountM": 1405,
+        "name": "Depreciation & amortization",
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "amountM": 239,
+        "name": "Restructuring & impairment charges",
+        "note": "Charges as Disney reshapes parts of the business \u2014 see the one-time items below.",
+        "compact": true
+      }
+    ],
+    "otherIncomeM": -183,
+    "revenueM": 25168,
+    "taxM": 902
+  },
+  "follow100": [
+    {
+      "amount": 90.13,
+      "label": "Services"
+    },
+    {
+      "amount": 9.87,
+      "label": "Products"
+    },
+    {
+      "amount": -63.18,
+      "label": "Cost of services & products"
+    },
+    {
+      "amount": -16.18,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.58,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -0.95,
+      "label": "Restructuring & impairments"
+    },
+    {
+      "amount": -0.73,
+      "label": "Other expense (interest, net)"
+    },
+    {
+      "amount": -3.58,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.79,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of the $9.79 kept as profit per $100 of revenue, about $0.87 belongs to noncontrolling partners \u2014 $8.93 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "footerNote": "Segment operating income: Entertainment $1,336M, Sports $652M, Experiences $2,615M (before corporate costs). Of the $2,465M of net income, $218M belongs to noncontrolling partners; $2,247M is attributable to Disney shareholders. The cost split (cost of services / cost of products) comes from Disney's Q2 FY26 10-Q; the earnings release reports the same totals.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+7%"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "+8% YoY, excludes charges",
+      "value": "$1.57"
+    },
+    {
+      "label": "Segment operating income",
+      "note": "+4% YoY",
+      "value": "$4.6B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.81 \u2014 last year had a one-off tax benefit",
+      "value": "$1.27"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and impairment charges were $239M in the quarter.",
+    "The year-ago quarter included a one-off income-tax benefit of about $1.0B from the resolution of a prior-year tax matter \u2014 the main reason reported EPS fell year over year despite higher profit before tax."
+  ],
+  "otherDetail": "Interest expense, net, of $240M on Disney's debt, partly offset by $57M of equity income from companies Disney part-owns.",
+  "periodEnd": "2026-03-28",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-05-06",
+  "revenueYoY": "+7%",
+  "segments": [
+    {
+      "amountM": 22684,
+      "name": "Services",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 2484,
+      "name": "Products",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells.",
+      "yoy": "+5%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000036/fy2026_q2xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000037/dis-20260328.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 7% to $25.2B. Entertainment revenue grew 10% \u2014 Avatar: Fire and Ash and Zootopia 2 in theaters, plus streaming subscribers paying higher rates \u2014 and Experiences (parks and cruises) grew 7%.",
+      "title": "Streaming and theaters carried growth"
+    },
+    {
+      "stat": "$2.6B",
+      "statColor": "#3e8e5a",
+      "text": "Experiences operating income rose 5% to $2.6B \u2014 more than Entertainment ($1.3B) and Sports ($652M) combined \u2014 as guests kept spending at the parks.",
+      "title": "Parks are the profit engine"
+    },
+    {
+      "stat": "$1.27",
+      "statColor": "#5b6b7c",
+      "text": "GAAP EPS dropped from $1.81 to $1.27 even though pre-tax profit rose 9%: the year-ago quarter included a one-off ~$1.0B tax benefit from resolving a prior-year tax matter. Adjusted EPS, which strips out one-offs, rose 8% to $1.57.",
+      "title": "Reported EPS fell \u2014 blame last year"
+    }
+  ],
+  "ticker": "DIS",
+  "verdict": "Disney's revenue rose 7% to $25.2B and adjusted EPS grew 8% \u2014 but reported EPS fell to $1.27 because last year's quarter was flattered by a one-off ~$1.0B tax benefit."
+}

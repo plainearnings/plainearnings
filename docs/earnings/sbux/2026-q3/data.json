@@ -1,0 +1,162 @@
+{
+  "company": "Starbucks",
+  "flow": {
+    "costOfRevenueM": 7158,
+    "grossProfitM": 2165,
+    "netIncomeM": 1045,
+    "operatingIncomeM": 902,
+    "opex": [
+      {
+        "amountM": 599,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 down 12% YoY as the turnaround cut overhead."
+      },
+      {
+        "amountM": 362,
+        "name": "Depreciation & amortization",
+        "note": "Wear and tear on coffeehouses, roasteries and equipment \u2014 down 15% YoY, mostly because China stores left the books."
+      },
+      {
+        "amountM": 302,
+        "name": "Restructuring & impairments",
+        "note": "Store closures and write-downs under 'Back to Starbucks' \u2014 up from just $21M a year ago."
+      }
+    ],
+    "otherIncomeM": 517,
+    "revenueM": 9323,
+    "taxM": 374
+  },
+  "follow100": [
+    {
+      "amount": 79.32,
+      "label": "North America"
+    },
+    {
+      "amount": 14.19,
+      "label": "International"
+    },
+    {
+      "amount": 6.31,
+      "label": "Channel Development"
+    },
+    {
+      "amount": 0.18,
+      "label": "Corporate & other"
+    },
+    {
+      "amount": -76.78,
+      "label": "Cost of running stores"
+    },
+    {
+      "amount": -6.43,
+      "label": "G&A"
+    },
+    {
+      "amount": -3.88,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -3.24,
+      "label": "Restructuring & impairments"
+    },
+    {
+      "amount": 5.55,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.01,
+      "label": "Tax"
+    },
+    {
+      "amount": 11.21,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Reported operating income of $980M includes $79M of income from equity investees; this page shows that in Other income (the same treatment as the Q4 FY26 page), so the operating-profit block reads $902M. Starbucks reports in tenths of millions \u2014 lines are rounded to whole millions and tie exactly. Essentially all of the $1,045M of net earnings is attributable to Starbucks (noncontrolling interests were about $0M).",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "note": "transactions +4.2%, average ticket +3.5%",
+      "value": "+7.9%"
+    },
+    {
+      "label": "Revenue",
+      "note": "to $9.3B \u2014 the China JV conversion replaced store sales with royalties",
+      "value": "\u22121%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.49 a year ago; non-GAAP EPS was $0.85",
+      "value": "$0.91"
+    },
+    {
+      "label": "Net earnings",
+      "note": "+87% YoY, lifted by the $536M divestiture gain",
+      "value": "$1.0B"
+    }
+  ],
+  "oneTimers": [
+    "A $536M one-time gain on divesting Starbucks' China retail operations into a joint venture (net proceeds were $2.5B; about 8,000 company-run stores became licensed stores). GAAP EPS of $0.91 sits above non-GAAP EPS of $0.85 mainly because of it.",
+    "Restructuring and impairment charges of $303M \u2014 store closures and write-downs under 'Back to Starbucks' \u2014 versus just $21M a year ago."
+  ],
+  "otherDetail": "A $536M gain on converting Starbucks' China retail business into a joint venture (the stores are now licensed, not company-run), plus $79M of income from equity investees \u2014 including that China JV \u2014 and $37M of interest and other income, less $135M of interest expense.",
+  "periodEnd": "2026-06-28",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-07-29",
+  "revenueYoY": "\u22121%",
+  "segments": [
+    {
+      "amountM": 7395,
+      "name": "North America",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales rose 8.1%.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 1323,
+      "name": "International",
+      "note": "Coffeehouses outside North America. Revenue fell 34% because China stores became licensed (paying royalties) instead of company-run, after Starbucks moved them into a joint venture.",
+      "yoy": "\u221234%"
+    },
+    {
+      "amountM": 588,
+      "name": "Channel Development",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores.",
+      "yoy": "+22%"
+    },
+    {
+      "amountM": 17,
+      "name": "Corporate & other",
+      "note": "Small leftover businesses and unallocated items.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000129/sbux-06282026xearningsrele.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.9%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable store sales rose 7.9% \u2014 more transactions (+4.2%) and bigger tickets (+3.5%). North America comps rose 8.1%: the turnaround is showing up where it matters, in the stores.",
+      "title": "The stores are back"
+    },
+    {
+      "stat": "\u221234%",
+      "statColor": "#5b6b7c",
+      "text": "International revenue fell 34% because about 8,000 China stores stopped being company-run and became licensed under the new joint venture \u2014 Starbucks now earns royalties and JV income instead of store sales. That switch is also why total revenue fell 1% despite the strong comps.",
+      "title": "China changed shape, not size"
+    },
+    {
+      "stat": "$536M",
+      "statColor": "#3e8e5a",
+      "text": "Reported profit rose 87% to $1.0B, but $536M of it is the one-time gain on the China divestiture. Before that gain, operating profit was $902M \u2014 up only modestly, with roughly $0.3B of restructuring charges weighing on it.",
+      "title": "A one-off gain did the profit lifting"
+    }
+  ],
+  "ticker": "SBUX",
+  "verdict": "Starbucks' turnaround showed up in the stores \u2014 global comparable sales jumped 7.9% \u2014 and a $536M gain on the China joint-venture deal lifted reported profit 87% to $1.0B."
+}
