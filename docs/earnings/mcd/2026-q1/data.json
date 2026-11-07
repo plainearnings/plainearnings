@@ -1,0 +1,141 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "revenueYoY": "+9%",
+  "verdict": "McDonald's grew revenue 9% to $6.5B and operating profit 12% \u2014 global comparable sales rose 3.8%, with the U.S. bouncing back to +3.9% after last year's dip.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "vs a year ago (+4% in constant currencies)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.78",
+      "note": "+7% YoY; $2.83 excluding restructuring charges"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+3.8%",
+      "note": "U.S. +3.9%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$3.0B",
+      "note": "+12% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 4007,
+      "yoy": "+9%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2317,
+      "yoy": "+9%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 193,
+      "yoy": "+19%",
+      "note": "Fees from franchisees for technology and digital platforms, plus brand-licensing income."
+    }
+  ],
+  "flow": {
+    "revenueM": 6517,
+    "costOfRevenueM": 2805,
+    "grossProfitM": 3712,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 759,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 includes $111M of depreciation and amortization."
+      }
+    ],
+    "operatingIncomeM": 2953,
+    "otherIncomeM": -411,
+    "taxM": 559,
+    "netIncomeM": 1983
+  },
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 61.49
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 35.55
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.96
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -43.04
+    },
+    {
+      "label": "SG&A",
+      "amount": -11.65
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.31
+    },
+    {
+      "label": "Tax",
+      "amount": -8.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3.8%",
+      "statColor": "#3d7bc8",
+      "title": "Comps bounced back",
+      "text": "Global comparable sales rose 3.8% \u2014 the U.S. +3.9% (versus -3.6% a year ago) on higher checks, International Operated Markets +3.9% and licensed markets +3.4%. Systemwide sales across all restaurants rose 11% to over $34B."
+    },
+    {
+      "stat": "$2.78",
+      "statColor": "#3e8e5a",
+      "title": "EPS rose 7%",
+      "text": "Diluted EPS was $2.78, up 7% (currency flattered it by $0.13). Excluding $47M of restructuring charges tied to the 'Accelerating the Organization' program, it was $2.83. Operating income rose 12% to $3.0B."
+    },
+    {
+      "stat": "61%",
+      "statColor": "#5b6b7c",
+      "title": "Franchisees carry the model",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $4.0B, 61% of all revenue, and produced $3.3B of margin. Company-run stores brought in most of the rest at much thinner margins ($285M)."
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $47M ($0.05 per share) for restructuring under the 'Accelerating the Organization' program; the year-ago quarter had $66M of similar charges. Excluding them, operating income rose 11%."
+  ],
+  "otherDetail": "Interest expense of $400M on McDonald's debt, plus $11M of net nonoperating expense.",
+  "footerNote": "Restaurant costs are shown net of $69M of other operating income (gains on restaurant sales and equity earnings, less $47M of impairment and restructuring charges), and include $166M of 'other restaurant expenses' from the 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000048/exhibit991-33126xq1.htm"
+    },
+    {
+      "label": "Supplemental financial information \u2014 Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000048/exhibit992-33126xq1.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 income statement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000051/mcd-20260331.htm"
+    }
+  ]
+}

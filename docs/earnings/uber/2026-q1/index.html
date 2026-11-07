@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uber — Q1 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Uber Q1 2026 earnings in plain English: Uber&#x27;s bookings grew 25% to $53.7B and operating profit rose 57% to $1.9B — but a $1.5B paper loss on its investment stakes cut reported profit to $282M.">
+<meta property="og:title" content="Uber — Q1 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Uber&#x27;s bookings grew 25% to $53.7B and operating profit rose 57% to $1.9B — but a $1.5B paper loss on its investment stakes cut reported profit to $282M.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/uber/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/uber/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Uber quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Uber <span class="thin">(UBER)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+10%</span>
+        <span class="q-meta">Reported 2026-11-04 · Revenue $14.8B</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+12%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $14.2B</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+14%</span>
+        <span class="q-meta">Reported 2026-05-06 · Revenue $13.2B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Uber — Q1 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 2026</strong> · Quarter ended 2026-03-31<br>
+      Reported 2026-05-06
+    </div>
+  </header>
+
+  <p class="verdict">Uber&#x27;s bookings grew 25% to $53.7B and operating profit rose 57% to $1.9B — but a $1.5B paper loss on its investment stakes cut reported profit to $282M.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Gross Bookings<b>$53.7B</b></span><span class="chip">Revenue growth<b>+14%</b></span><span class="chip">EPS (GAAP)<b>$0.13</b></span><span class="chip">Adjusted EBITDA<b>$2.5B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Uber's Q1 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Uber took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Mobility</span><div class="htrack"><div class="hfill" data-w="93.7" style="background:#3D7BC8"></div></div><span class="hval">$51.49</span></div>
+          <div class="hrow"><span class="hlabel">Delivery</span><div class="htrack"><div class="hfill" data-w="69.8" style="background:#3D7BC8"></div></div><span class="hval">$38.39</span></div>
+          <div class="hrow"><span class="hlabel">Freight</span><div class="htrack"><div class="hfill" data-w="18.4" style="background:#3D7BC8"></div></div><span class="hval">$10.13</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$54.97</span></div>
+          <div class="hrow"><span class="hlabel">Operations &amp; support</span><div class="htrack"><div class="hfill" data-w="10.5" style="background:#D96A57"></div></div><span class="hval">−$5.78</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="18.3" style="background:#CF5F4E"></div></div><span class="hval">−$10.04</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="13.1" style="background:#CF5F4E"></div></div><span class="hval">−$7.20</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="11.0" style="background:#CF5F4E"></div></div><span class="hval">−$6.04</span></div>
+          <div class="hrow"><span class="hlabel">Depreciation</span><div class="htrack"><div class="hfill" data-w="2.5" style="background:#D96A57"></div></div><span class="hval">−$1.39</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="19.9" style="background:#D96A57"></div></div><span class="hval">−$10.96</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="2.7" style="background:#B8443C"></div></div><span class="hval">−$1.47</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="3.9" style="background:#3E8E5A"></div></div><span class="hval">$2.14</span></div>
+      <p class="hnote">Of the $2.14 kept as profit per $100 of revenue, $0.14 belongs to non-controlling partners — $1.99 is Uber shareholders&#x27;. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+25%</div>
+            <h3>Bookings still booming</h3>
+            <p>Gross Bookings — everything riders and eaters spent on the platform — grew 25% to $53.7B, with trips up 20% to 3.6 billion and 50 million Uber One members. Revenue grew 14% to $13.2B; billing-model changes held reported Mobility revenue growth to 5% even as ride bookings rose 25%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$1.9B</div>
+            <h3>Core profit up 57%</h3>
+            <p>Operating income rose 57% to $1.9B and Adjusted EBITDA 33% to $2.5B. The cleaner read on this quarter is the operating line — the bottom line was decided by investments, not by rides or deliveries.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">-$1.5B</div>
+            <h3>A paper loss did the damage</h3>
+            <p>Other expense, net, was $1,494M — mostly a $1,474M unrealized loss on debt and equity securities. It cut reported net income to $282M ($263M to Uber shareholders, $0.13 a share), down from $1,774M a year ago, when a tax benefit flattered results instead.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>An unrealized loss of about $1,474M on debt and equity securities sits in other income (expense), net — a paper loss on the value of Uber&#x27;s investment stakes, not cash lost from rides or deliveries.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="current">Q1 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1543151/000154315126000019/uberq126earningspressrelea.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net income of $282M includes $19M attributable to non-controlling interests; $263M is attributable to Uber shareholders (the $0.13 EPS figure). Cost of revenue is shown excluding depreciation and amortization, exactly as Uber reports it.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":13.203,"nodes":{"seg0":{"name":"Mobility","amt":"$6.8B","value":6.798,"col":0,"color":"#3D7BC8","note":"+5% \u00b7 51.5% of revenue","plain":"Rides \u2014 the original Uber business. Bookings rose 25%, but revenue grew just 5%: business-model changes in how some trips are billed (insurance and driver costs) reshape the top line.","quarter":"51.5% of all revenue this quarter."},"seg1":{"name":"Delivery","amt":"$5.1B","value":5.068,"col":0,"color":"#7A68C4","note":"+34% \u00b7 38.4% of revenue","plain":"Food and grocery delivery \u2014 Uber Eats and couriers, growing far faster than rides.","quarter":"38.4% of all revenue this quarter."},"seg2":{"name":"Freight","amt":"$1.3B","value":1.337,"col":0,"color":"#2E7CC4","note":"+6% \u00b7 10.1% of revenue","plain":"Trucking logistics \u2014 matching shippers with carriers.","quarter":"10.1% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$13.2B","value":13.203,"col":1,"color":"#2F3B4C","note":"+14%","plain":"All the money Uber took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$13.2B, +14% vs a year ago."},"gross":{"name":"Gross profit","amt":"$5.9B","value":5.945,"col":2,"color":"#69B578","note":"45% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"45 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($7.3B)","value":7.258,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$7.3B \u2014 about 55 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$1.9B","value":1.923,"col":3,"color":"#4C9A67","note":"14.6% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 14.6% margin."},"opex":{"name":"Operating expenses","amt":"($4.0B)","value":4.022,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$4.0B total, split into Operations and support, Sales & marketing, Research & development, General & administrative, Depreciation & amortization on the right."},"otherexp":{"name":"Other expense","amt":"($1.4B)","value":1.447,"col":4,"color":"#B8443C","note":"","plain":"Interest income of $175M, less $108M of interest expense, a $1,494M other-expense line \u2014 mostly a $1,474M unrealized loss on debt and equity securities \u2014 and a $20M equity-method loss.","quarter":"$1.4B taken out of profit."},"ox0":{"name":"Operations and support","amt":"($763M)","value":0.763,"col":4,"color":"#CF5F4E","note":"5.8% of revenue","plain":"Running the platform day to day \u2014 support, operations and local teams.","quarter":"$763M \u2014 5.8% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($1.3B)","value":1.326,"col":4,"color":"#CF5F4E","note":"10% of revenue","plain":"Promotions, advertising and winning riders, eaters and drivers.","quarter":"$1.3B \u2014 10% of revenue."},"ox2":{"name":"Research & development","amt":"($951M)","value":0.951,"col":4,"color":"#CF5F4E","note":"7.2% of revenue","plain":"Building the platform and its autonomous-vehicle partnerships.","quarter":"$951M \u2014 7.2% of revenue."},"ox3":{"name":"General & administrative","amt":"($798M)","value":0.798,"col":4,"color":"#CF5F4E","note":"6% of revenue","plain":"Running the company \u2014 legal, finance and the back office.","quarter":"$798M \u2014 6% of revenue."},"ox4":{"name":"Depreciation & amortization","amt":"($184M)","value":0.184,"col":4,"color":"#CF5F4E","note":"1.4% of revenue","plain":"Spreading the cost of equipment and past acquisitions over their useful lives.","quarter":"$184M \u2014 1.4% of revenue.","compact":true,"compactLabel":"Depreciation & amortization: $184M (1.4% of revenue)"},"net":{"name":"Net profit","amt":"$282M","value":0.282,"col":4,"color":"#3E8E5A","note":"2.1% margin","plain":"The bottom line \u2014 what Uber actually earned after everything.","quarter":"$282M \u2014 about 2.1 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($194M)","value":0.194,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$194M \u2014 roughly a 40.8% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3","ox4"]],"links":[{"s":"seg0","d":"rev","v":6.798,"c":"#94b6e1","amt":"$6.8B"},{"s":"seg1","d":"rev","v":5.068,"c":"#b6acdf","amt":"$5.1B"},{"s":"seg2","d":"rev","v":1.337,"c":"#8cb7df","amt":"$1.3B"},{"s":"rev","d":"gross","v":5.945,"c":"#BFE0C6","amt":"$5.9B"},{"s":"rev","d":"cost","v":7.258,"c":"#F4C7B9","amt":"$7.3B"},{"s":"gross","d":"op","v":1.923,"c":"#ACD8B8","amt":"$1.9B"},{"s":"gross","d":"opex","v":4.022,"c":"#F2B3A4","amt":"$4.0B"},{"s":"op","d":"net","v":0.282,"c":"#ACD8B8","amt":"$282M"},{"s":"op","d":"otherexp","v":1.447,"c":"#dfaba7","amt":"$1.4B"},{"s":"op","d":"tax","v":0.194,"c":"#dfaba7","amt":"$194M"},{"s":"opex","d":"ox0","v":0.763,"c":"#F6C0B1","amt":"$763M"},{"s":"opex","d":"ox1","v":1.326,"c":"#F6C0B1","amt":"$1.3B"},{"s":"opex","d":"ox2","v":0.951,"c":"#F6C0B1","amt":"$951M"},{"s":"opex","d":"ox3","v":0.798,"c":"#F6C0B1","amt":"$798M"},{"s":"opex","d":"ox4","v":0.184,"c":"#F6C0B1","amt":"$184M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

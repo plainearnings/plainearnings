@@ -1,0 +1,138 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-12-27",
+  "reportedDate": "2026-02-02",
+  "revenueYoY": "+5%",
+  "verdict": "Disney's revenue rose 5% to $26.0B and its parks set a record \u2014 but Entertainment profit fell 35% on higher programming and marketing costs, pulling total segment profit down 9%.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.63",
+      "note": "-7% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$4.6B",
+      "note": "-9% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.34",
+      "note": "vs $1.40 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 23206,
+      "yoy": "+5%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2775,
+      "yoy": "+5%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "flow": {
+    "revenueM": 25981,
+    "costOfRevenueM": 16669,
+    "grossProfitM": 9312,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 4121,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1316,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      }
+    ],
+    "operatingIncomeM": 3875,
+    "otherIncomeM": -182,
+    "taxM": 1209,
+    "netIncomeM": 2484
+  },
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.32
+    },
+    {
+      "label": "Products",
+      "amount": 10.68
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -64.16
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.86
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.07
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.7
+    },
+    {
+      "label": "Tax",
+      "amount": -4.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.56
+    }
+  ],
+  "follow100Note": "Of the $9.56 kept as profit per $100 of revenue, about $0.32 belongs to noncontrolling partners \u2014 $9.25 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter at the parks",
+      "text": "Revenue rose 5% to $26.0B. Experiences \u2014 parks, resorts and cruises \u2014 set a record with $10.0B of revenue, and Entertainment revenue grew 7% on a big theatrical slate (Zootopia 2, Avatar: Fire and Ash) and higher streaming rates."
+    },
+    {
+      "stat": "$3.3B",
+      "statColor": "#3e8e5a",
+      "title": "Parks are the profit engine",
+      "text": "Experiences operating income rose 6% to $3.3B \u2014 three times Entertainment's \u2014 as domestic park profit grew 8% on 1% higher attendance and 4% higher spending per guest."
+    },
+    {
+      "stat": "-35%",
+      "statColor": "#5b6b7c",
+      "title": "Entertainment profit shrank",
+      "text": "Entertainment operating income fell 35% to $1.1B: higher programming, production and marketing costs for the quarter's big releases outweighed the extra revenue. Sports profit also fell, partly on a temporary YouTube TV carriage suspension."
+    }
+  ],
+  "oneTimers": [
+    "The temporary suspension of YouTube TV carriage cost the Sports segment about $110M of operating income in the quarter.",
+    "There were no restructuring and impairment charges this quarter (a year ago there were $143M)."
+  ],
+  "otherDetail": "Interest expense, net, of $275M on Disney's debt, partly offset by $93M of equity income from companies Disney part-owns.",
+  "footerNote": "Segment operating income: Entertainment $1,100M, Sports $191M, Experiences $3,309M (before corporate costs). Of the $2,484M of net income, $82M belongs to noncontrolling partners; $2,402M is attributable to Disney shareholders. The cost split (cost of services / cost of products) comes from Disney's Q1 FY26 10-Q; the earnings release reports the same totals.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000018/fy2026_q1xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm"
+    }
+  ]
+}

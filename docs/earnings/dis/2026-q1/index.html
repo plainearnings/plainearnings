@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disney — Q1 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Disney Q1 FY26 earnings in plain English: Disney&#x27;s revenue rose 5% to $26.0B and its parks set a record — but Entertainment profit fell 35% on higher programming and marketing costs, pulling total segment profit down 9%.">
+<meta property="og:title" content="Disney — Q1 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Disney&#x27;s revenue rose 5% to $26.0B and its parks set a record — but Entertainment profit fell 35% on higher programming and marketing costs, pulling total segment profit down 9%.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/dis/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/dis/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Disney quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Disney <span class="thin">(DIS)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+7%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $25.2B</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 FY26</span>
+        <span class="q-badge">+7%</span>
+        <span class="q-meta">Reported 2026-05-06 · Revenue $25.2B</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 FY26</span>
+        <span class="q-badge">+5%</span>
+        <span class="q-meta">Reported 2026-02-02 · Revenue $26B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Disney — Q1 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 FY26</strong> · Quarter ended 2025-12-27<br>
+      Reported 2026-02-02
+    </div>
+  </header>
+
+  <p class="verdict">Disney&#x27;s revenue rose 5% to $26.0B and its parks set a record — but Entertainment profit fell 35% on higher programming and marketing costs, pulling total segment profit down 9%.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+5%</b></span><span class="chip">Adjusted EPS<b>$1.63</b></span><span class="chip">Segment operating income<b>$4.6B</b></span><span class="chip">EPS (GAAP)<b>$1.34</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Disney's Q1 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Disney took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Services</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$89.32</span></div>
+          <div class="hrow"><span class="hlabel">Products</span><div class="htrack"><div class="hfill" data-w="12.0" style="background:#3D7BC8"></div></div><span class="hval">$10.68</span></div>
+          <div class="hrow"><span class="hlabel">Cost of services &amp; products</span><div class="htrack"><div class="hfill" data-w="71.8" style="background:#D96A57"></div></div><span class="hval">−$64.16</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="17.8" style="background:#CF5F4E"></div></div><span class="hval">−$15.86</span></div>
+          <div class="hrow"><span class="hlabel">Depreciation &amp; amortization</span><div class="htrack"><div class="hfill" data-w="5.7" style="background:#D96A57"></div></div><span class="hval">−$5.07</span></div>
+          <div class="hrow"><span class="hlabel">Other expense (interest, net)</span><div class="htrack"><div class="hfill" data-w="0.8" style="background:#D96A57"></div></div><span class="hval">−$0.70</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="5.2" style="background:#B8443C"></div></div><span class="hval">−$4.65</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="10.7" style="background:#3E8E5A"></div></div><span class="hval">$9.56</span></div>
+      <p class="hnote">Of the $9.56 kept as profit per $100 of revenue, about $0.32 belongs to noncontrolling partners — $9.25 is Disney shareholders&#x27;. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+5%</div>
+            <h3>A record quarter at the parks</h3>
+            <p>Revenue rose 5% to $26.0B. Experiences — parks, resorts and cruises — set a record with $10.0B of revenue, and Entertainment revenue grew 7% on a big theatrical slate (Zootopia 2, Avatar: Fire and Ash) and higher streaming rates.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$3.3B</div>
+            <h3>Parks are the profit engine</h3>
+            <p>Experiences operating income rose 6% to $3.3B — three times Entertainment&#x27;s — as domestic park profit grew 8% on 1% higher attendance and 4% higher spending per guest.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">-35%</div>
+            <h3>Entertainment profit shrank</h3>
+            <p>Entertainment operating income fell 35% to $1.1B: higher programming, production and marketing costs for the quarter&#x27;s big releases outweighed the extra revenue. Sports profit also fell, partly on a temporary YouTube TV carriage suspension.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>The temporary suspension of YouTube TV carriage cost the Sports segment about $110M of operating income in the quarter.</li><li>There were no restructuring and impairment charges this quarter (a year ago there were $143M).</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 FY26</a></li><li><a href="../2026-q2/" class="">Q2 FY26</a></li><li><a href="../2026-q1/" class="current">Q1 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1744489/000174448926000018/fy2026_q1xprxex991.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm">Quarterly report 10-Q — cost detail (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Segment operating income: Entertainment $1,100M, Sports $191M, Experiences $3,309M (before corporate costs). Of the $2,484M of net income, $82M belongs to noncontrolling partners; $2,402M is attributable to Disney shareholders. The cost split (cost of services / cost of products) comes from Disney&#x27;s Q1 FY26 10-Q; the earnings release reports the same totals.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":25.981,"nodes":{"seg0":{"name":"Services","amt":"$23.2B","value":23.206,"col":0,"color":"#3D7BC8","note":"+5% \u00b7 89.3% of revenue","plain":"Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money.","quarter":"89.3% of all revenue this quarter."},"seg1":{"name":"Products","amt":"$2.8B","value":2.775,"col":0,"color":"#7A68C4","note":"+5% \u00b7 10.7% of revenue","plain":"Merchandise, food and drinks, and other things Disney physically sells.","quarter":"10.7% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$26.0B","value":25.981,"col":1,"color":"#2F3B4C","note":"+5%","plain":"All the money Disney took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$26.0B, +5% vs a year ago."},"gross":{"name":"Gross profit","amt":"$9.3B","value":9.312,"col":2,"color":"#69B578","note":"35.8% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"35.8 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($16.7B)","value":16.669,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$16.7B \u2014 about 64.2 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$3.9B","value":3.875,"col":3,"color":"#4C9A67","note":"14.9% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 14.9% margin."},"opex":{"name":"Operating expenses","amt":"($5.4B)","value":5.437,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$5.4B total, split into Selling, general & administrative, Depreciation & amortization on the right."},"otherexp":{"name":"Other expense","amt":"($182M)","value":0.182,"col":4,"color":"#B8443C","note":"","plain":"Interest expense, net, of $275M on Disney's debt, partly offset by $93M of equity income from companies Disney part-owns.","quarter":"$182M taken out of profit."},"ox0":{"name":"Selling, general & administrative","amt":"($4.1B)","value":4.121,"col":4,"color":"#CF5F4E","note":"15.9% of revenue","plain":"Marketing the movies, shows and parks, and running the company.","quarter":"$4.1B \u2014 15.9% of revenue."},"ox1":{"name":"Depreciation & amortization","amt":"($1.3B)","value":1.316,"col":4,"color":"#CF5F4E","note":"5.1% of revenue","plain":"The wear and tear on parks, cruise ships and equipment, spread over their working lives.","quarter":"$1.3B \u2014 5.1% of revenue."},"net":{"name":"Net profit","amt":"$2.5B","value":2.484,"col":4,"color":"#3E8E5A","note":"9.6% margin","plain":"The bottom line \u2014 what Disney actually earned after everything.","quarter":"$2.5B \u2014 about 9.6 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($1.2B)","value":1.209,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$1.2B \u2014 roughly a 32.7% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1"]],"links":[{"s":"seg0","d":"rev","v":23.206,"c":"#94b6e1","amt":"$23.2B"},{"s":"seg1","d":"rev","v":2.775,"c":"#b6acdf","amt":"$2.8B"},{"s":"rev","d":"gross","v":9.312,"c":"#BFE0C6","amt":"$9.3B"},{"s":"rev","d":"cost","v":16.669,"c":"#F4C7B9","amt":"$16.7B"},{"s":"gross","d":"op","v":3.875,"c":"#ACD8B8","amt":"$3.9B"},{"s":"gross","d":"opex","v":5.437,"c":"#F2B3A4","amt":"$5.4B"},{"s":"op","d":"net","v":2.484,"c":"#ACD8B8","amt":"$2.5B"},{"s":"op","d":"otherexp","v":0.182,"c":"#dfaba7","amt":"$182M"},{"s":"op","d":"tax","v":1.209,"c":"#dfaba7","amt":"$1.2B"},{"s":"opex","d":"ox0","v":4.121,"c":"#F6C0B1","amt":"$4.1B"},{"s":"opex","d":"ox1","v":1.316,"c":"#F6C0B1","amt":"$1.3B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

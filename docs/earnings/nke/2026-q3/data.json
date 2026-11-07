@@ -1,0 +1,173 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-02-28",
+  "reportedDate": "2026-03-31",
+  "revenueYoY": "0%",
+  "verdict": "Nike's sales were flat at $11.3B and profit fell 35% to $520M \u2014 higher tariffs squeezed the margin, and a far higher tax rate than last year's one-off-flattered quarter did the rest.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "flat vs a year ago (-3% currency-neutral)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.35",
+      "note": "-35% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "40.2%",
+      "note": "down from 41.5%, on higher tariffs"
+    },
+    {
+      "label": "Net income",
+      "value": "$520M",
+      "note": "-35% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 5026,
+      "yoy": "+3%",
+      "note": "Nike's home market \u2014 the one big region that grew, on wholesale demand."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 2874,
+      "yoy": "+2%",
+      "note": "Europe, the Middle East and Africa \u2014 up on reported numbers, down 7% without currency help."
+    },
+    {
+      "name": "Asia Pacific & Latin America",
+      "amountM": 1490,
+      "yoy": "+1%",
+      "note": "Asia-Pacific (outside Greater China) and Latin America."
+    },
+    {
+      "name": "Greater China",
+      "amountM": 1615,
+      "yoy": "-7%",
+      "note": "China \u2014 down again, -10% without currency help."
+    },
+    {
+      "name": "Converse",
+      "amountM": 264,
+      "yoy": "-35%",
+      "note": "The Converse sneaker brand \u2014 down across all territories."
+    },
+    {
+      "name": "Global Brand & Corporate",
+      "amountM": 10,
+      "yoy": "",
+      "note": "Global brand divisions plus corporate leftovers."
+    }
+  ],
+  "flow": {
+    "revenueM": 11279,
+    "costOfRevenueM": 6749,
+    "grossProfitM": 4530,
+    "opex": [
+      {
+        "name": "Demand creation",
+        "amountM": 1090,
+        "note": "Advertising and sports marketing \u2014 flat YoY, with higher sports marketing offset by lower brand marketing."
+      },
+      {
+        "name": "Operating overhead",
+        "amountM": 2887,
+        "note": "Salaries, technology and running the business \u2014 up 3%, including employee severance costs from the 'Win Now' reset."
+      }
+    ],
+    "operatingIncomeM": 553,
+    "otherIncomeM": 97,
+    "taxM": 130,
+    "netIncomeM": 520
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 44.56
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 25.48
+    },
+    {
+      "label": "Asia Pacific & Latin America",
+      "amount": 13.21
+    },
+    {
+      "label": "Greater China",
+      "amount": 14.32
+    },
+    {
+      "label": "Converse",
+      "amount": 2.34
+    },
+    {
+      "label": "Global Brand & Corporate",
+      "amount": 0.09
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -59.84
+    },
+    {
+      "label": "Demand creation",
+      "amount": -9.66
+    },
+    {
+      "label": "Operating overhead",
+      "amount": -25.6
+    },
+    {
+      "label": "Other income",
+      "amount": 0.86
+    },
+    {
+      "label": "Tax",
+      "amount": -1.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "0%",
+      "statColor": "#3d7bc8",
+      "title": "Sales went sideways",
+      "text": "Revenue was flat at $11.3B (-3% without currency help). Wholesale revenue rose 5% and North America grew 3%, but Nike Direct fell 4%, Greater China fell 7% and Converse dropped 35%."
+    },
+    {
+      "stat": "40.2%",
+      "statColor": "#5b6b7c",
+      "title": "Tariffs squeezed the margin",
+      "text": "Gross margin fell 130 basis points to 40.2%, primarily on higher tariffs in North America. Inventories were $7.5B, down 1% \u2014 cleaner, but carrying higher tariff-driven product costs."
+    },
+    {
+      "stat": "20.0%",
+      "statColor": "#3e8e5a",
+      "title": "The tax rate explains the profit drop",
+      "text": "Pre-tax profit fell 23%, but net income fell 35% to $520M: last year's 5.9% tax rate included a one-time, non-cash deferred tax benefit, while this year's rate was 20.0%. EPS was $0.35."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter's unusually low 5.9% tax rate included a one-time, non-cash deferred tax benefit from U.S. tax regulations on foreign-currency gains and losses \u2014 the main reason net income fell 35% while pre-tax profit fell 23%.",
+    "Operating overhead included employee severance costs from the 'Win Now' actions (the amount was not broken out)."
+  ],
+  "otherDetail": "$15M of net interest income and $82M of other income.",
+  "footerNote": "Segment revenues are Nike's divisional revenues; 'Global Brand & Corporate' combines Global Brand Divisions ($7M) and Corporate ($3M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000026/q3fy26exhibit991er.htm"
+    }
+  ]
+}
