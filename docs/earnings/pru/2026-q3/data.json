@@ -1,0 +1,159 @@
+{
+  "ticker": "PRU",
+  "company": "Prudential Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "Prudential earned $1.39B as its PGIM investment arm and U.S. businesses held firm, but a sales suspension at Prudential of Japan cut that business's earnings by a quarter and pulled premiums well below last year.",
+  "revenueYoY": "-12%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$14.9B",
+      "note": "operating revenue, -12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.96",
+      "note": "vs $4.01 a year ago"
+    },
+    {
+      "label": "Adjusted operating EPS",
+      "value": "$3.77",
+      "note": "non-GAAP, vs $4.05 a year ago"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$1.62T",
+      "note": "across the company"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 6823,
+      "yoy": "-26%",
+      "note": "What customers pay for life insurance, annuities and group coverage, earned over the coverage period \u2014 down sharply from a big prior-year quarter."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 5971,
+      "yoy": "+8%",
+      "note": "Interest and dividends on the large portfolio Prudential invests between collecting premiums and paying claims."
+    },
+    {
+      "name": "Policy charges & fee income",
+      "amountM": 1118,
+      "yoy": "-1%",
+      "note": "Fees charged on policyholder accounts, such as annuity and life policy accounts."
+    },
+    {
+      "name": "Asset management & service fees",
+      "amountM": 1015,
+      "yoy": "+2%",
+      "note": "Fees from PGIM, Prudential's investment-management arm, for managing money for institutions and individuals."
+    }
+  ],
+  "flow": {
+    "revenueM": 14927,
+    "costOfRevenueM": 9443,
+    "grossProfitM": 5484,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 2923,
+        "note": "Running the company \u2014 staff, technology and servicing policies and investments."
+      },
+      {
+        "name": "Amortization of policy acquisition costs",
+        "amountM": 442,
+        "note": "Spreading the upfront cost of selling policies (such as agent commissions) over the life of each policy."
+      }
+    ],
+    "operatingIncomeM": 2119,
+    "otherIncomeM": -478,
+    "equityM": 4,
+    "taxM": 257,
+    "netIncomeM": 1388
+  },
+  "otherDetail": "A $466M loss on Prudential's catch-all 'other income' line and a $32M drop in the value of market risk benefits (guarantees attached to annuities), partly offset by $20M of realized investment gains \u2014 a net $478M drag \u2014 plus $21M of earnings from joint ventures, less $17M of profit attributable to noncontrolling interests.",
+  "footerNote": "Insurer adaptation, following Prudential's own presentation: revenue here is operating revenue \u2014 premiums, net investment income, policy charges and asset-management fees ($14,927M). Market-driven lines that sit inside total GAAP revenue (other income, realized gains and market-risk-benefit changes, a net -$478M) are shown below operating income instead; total GAAP revenue was $14,449M. The cost of revenue combines policyholder benefits ($7,972M), interest credited to policyholder accounts ($1,446M), dividends to policyholders ($110M) and a -$85M change in estimates for future policy benefits. Net income is the $1,388M attributable to Prudential shareholders; total net income was $1,405M.",
+  "follow100": [
+    {
+      "label": "Premiums",
+      "amount": 45.71
+    },
+    {
+      "label": "Net investment income",
+      "amount": 40.0
+    },
+    {
+      "label": "Policy charges & fee income",
+      "amount": 7.49
+    },
+    {
+      "label": "Asset management & service fees",
+      "amount": 6.8
+    },
+    {
+      "label": "Benefits, claims & policyholder credits",
+      "amount": -63.26
+    },
+    {
+      "label": "General & administrative",
+      "amount": -19.58
+    },
+    {
+      "label": "Market & other items, net",
+      "amount": -3.18
+    },
+    {
+      "label": "Amortization of policy acquisition costs",
+      "amount": -2.96
+    },
+    {
+      "label": "Tax",
+      "amount": -1.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.3
+    }
+  ],
+  "follow100Note": "Measured against operating revenue of $14,927M, as explained in the notes below. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-25%",
+      "statColor": "#cf5f4e",
+      "title": "Japan suspension bites",
+      "text": "Japan Businesses' adjusted operating income fell to $559M from $750M as the Prudential of Japan sales suspension cut constant-dollar sales 36% and raised expenses. Prudential also agreed to sell its Brazil, Mexico and South Africa businesses to simplify the company."
+    },
+    {
+      "stat": "$9.0B",
+      "statColor": "#3e8e5a",
+      "title": "PGIM keeps winning money",
+      "text": "PGIM took in $9.0B of third-party net inflows \u2014 its best quarter in two and a half years \u2014 and earned $263M, up from $244M, on higher asset-management fees. Total company assets under management reached $1.62 trillion."
+    },
+    {
+      "stat": "$3.9B",
+      "statColor": "#3d7bc8",
+      "title": "U.S. annuity sales boom",
+      "text": "Retail annuity sales of $3.9B were the highest since 2013, with record sales of registered index-linked annuities. U.S. Businesses earned $1,173M on an adjusted basis, about flat with a year ago."
+    }
+  ],
+  "oneTimers": [
+    "GAAP net income includes $368M of pre-tax net realized investment losses and related charges (including $184M of credit-related losses) and a $32M pre-tax loss from changes in the value of market risk benefits, partly offset by $295M of pre-tax earnings from divested and run-off businesses and $104M of gains from market experience updates.",
+    "Prudential's headline adjusted operating income was $1,321M, or $3.77 per share (non-GAAP) \u2014 it strips out the market-driven items above."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000219/exhibit991-3q26earningspre.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000221/pru-20260930.htm"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "ticker": "PPL",
+  "company": "PPL Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "verdict": "PPL grew revenue 12% to $2.5B as new rates took effect in Kentucky, Pennsylvania and Rhode Island, earned $367M, and raised its long-term growth target on the strength of data-center demand for power.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.5B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.49",
+      "note": "vs $0.43 a year ago"
+    },
+    {
+      "label": "Ongoing EPS",
+      "value": "$0.54",
+      "note": "non-GAAP, vs $0.48 a year ago"
+    },
+    {
+      "label": "Capital plan",
+      "value": "$25B",
+      "note": "2027\u20132030; ~10%/yr rate-base growth"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Kentucky Regulated",
+      "amountM": 1048,
+      "yoy": "+11%",
+      "note": "Louisville Gas & Electric and Kentucky Utilities \u2014 electricity and gas in Kentucky, where new retail rates took effect January 1, 2026."
+    },
+    {
+      "name": "Pennsylvania Regulated",
+      "amountM": 918,
+      "yoy": "+17%",
+      "note": "PPL Electric Utilities \u2014 delivering electricity in eastern Pennsylvania; new distribution rates took effect July 1, 2026, plus more transmission revenue."
+    },
+    {
+      "name": "Rhode Island Regulated",
+      "amountM": 530,
+      "yoy": "+4%",
+      "note": "Rhode Island Energy \u2014 electricity and gas in Rhode Island, with new base rates from September 1, 2026."
+    },
+    {
+      "name": "Corporate & Other",
+      "amountM": 1,
+      "yoy": "",
+      "note": "A small amount of revenue not assigned to the three utilities.",
+      "compact": true,
+      "shortName": "Corp. & Other"
+    }
+  ],
+  "flow": {
+    "revenueM": 2497,
+    "costOfRevenueM": 732,
+    "grossProfitM": 1765,
+    "opex": [
+      {
+        "name": "Other operation & maintenance",
+        "amountM": 617,
+        "note": "Running the grids and gas networks day to day \u2014 crews, repairs and customer service."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 366,
+        "note": "Spreading the cost of poles, wires, pipes and plants over their useful lives \u2014 rising as PPL invests."
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 117,
+        "note": "Mostly property taxes on utility assets."
+      }
+    ],
+    "operatingIncomeM": 665,
+    "otherIncomeM": -212,
+    "taxM": 86,
+    "netIncomeM": 367
+  },
+  "otherDetail": "Other income of $22M, less interest expense of $234M on the debt that funds grid investment \u2014 a net $212M drag.",
+  "footerNote": "Adaptation for a utility: fuel ($246M) plus energy purchases ($486M) are treated as the cost of revenue; the remaining operating lines mirror PPL's income statement. Segment revenues are external-customer revenues from the 10-Q segment note.",
+  "follow100": [
+    {
+      "label": "Kentucky Regulated",
+      "amount": 41.97
+    },
+    {
+      "label": "Pennsylvania Regulated",
+      "amount": 36.76
+    },
+    {
+      "label": "Rhode Island Regulated",
+      "amount": 21.23
+    },
+    {
+      "label": "Corporate & Other",
+      "amount": 0.04
+    },
+    {
+      "label": "Fuel & energy purchases",
+      "amount": -29.32
+    },
+    {
+      "label": "Other operation & maintenance",
+      "amount": -24.71
+    },
+    {
+      "label": "Depreciation",
+      "amount": -14.66
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -8.49
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -4.69
+    },
+    {
+      "label": "Tax",
+      "amount": -3.44
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.69
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "New rates are flowing",
+      "text": "Pennsylvania revenue rose 17% after new distribution base rates took effect July 1, 2026. Kentucky grew 11% on rates in place since January, and Rhode Island 4% on rates from September \u2014 rate cases turning into revenue across all three states."
+    },
+    {
+      "stat": "$25B",
+      "statColor": "#3e8e5a",
+      "title": "A bigger building plan",
+      "text": "PPL lifted its 2027\u20132030 capital plan to $25B, targeting about 10% annual growth in its rate base \u2014 the asset value regulators let it earn on \u2014 and raised its long-term EPS growth target to 7\u20139% a year through 2030. Its 2027 EPS forecast is $2.06\u2013$2.14."
+    },
+    {
+      "stat": "35.3 GW",
+      "statColor": "#5b6b7c",
+      "title": "Data centers keep coming",
+      "text": "Pennsylvania's data-center pipeline grew for the 11th straight quarter to about 35.3 gigawatts in advanced planning. PPL's Invitium Energy venture agreed terms for roughly 2 GW of new generation to serve a QTS data center in Salem Township."
+    }
+  ],
+  "oneTimers": [
+    "Special items cut GAAP EPS by $0.05, to $0.49 from ongoing EPS of $0.54 (non-GAAP): $44M after tax, mostly Rhode Island acquisition integration, a hold-harmless commitment and rate-case disallowances, plus IT and customer-system integration costs."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000050/ppl-9302026exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000052/ppl-20260930.htm"
+    }
+  ]
+}

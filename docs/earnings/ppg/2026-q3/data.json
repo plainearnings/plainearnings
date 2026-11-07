@@ -1,0 +1,162 @@
+{
+  "ticker": "PPG",
+  "company": "PPG Industries",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "PPG grew sales 7% to $4.4B on higher prices and volumes \u2014 led by aerospace and protective coatings \u2014 and earned a record third-quarter profit per share, even as raw-material inflation squeezed its industrial coatings margins.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.4B",
+      "note": "+7% YoY; organic sales +5%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.12",
+      "note": "continuing operations; record Q3, vs $1.96"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.25",
+      "note": "non-GAAP, +6% YoY"
+    },
+    {
+      "label": "Performance Coatings sales",
+      "value": "+10%",
+      "note": "fastest-growing segment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Global Architectural Coatings",
+      "amountM": 1055,
+      "yoy": "+4%",
+      "note": "House paints and building coatings \u2014 Latin America led, with higher prices in every region."
+    },
+    {
+      "name": "Performance Coatings",
+      "amountM": 1554,
+      "yoy": "+10%",
+      "note": "Aerospace, protective & marine and car-repair (refinish) coatings \u2014 aerospace grew double digits and its order backlog stayed near $300M."
+    },
+    {
+      "name": "Industrial Coatings",
+      "amountM": 1744,
+      "yoy": "+5%",
+      "note": "Coatings for car factories, packaging and general industry \u2014 the biggest segment, with packaging up double digits on share gains."
+    }
+  ],
+  "flow": {
+    "revenueM": 4353,
+    "costOfRevenueM": 2589,
+    "grossProfitM": 1764,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 876,
+        "note": "Selling paint and running the company day to day, including $92M of corporate expenses."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 108,
+        "note": "Wear and tear on factories and equipment, spread over their useful lives."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 106,
+        "note": "Developing new coatings and specialty products."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 26,
+        "note": "Writing down the value of brands and technology bought in past acquisitions."
+      }
+    ],
+    "operatingIncomeM": 648,
+    "otherIncomeM": -17,
+    "taxM": 153,
+    "netIncomeM": 478
+  },
+  "otherDetail": "Net interest expense of $22M (interest expense of $67M less interest income of $45M), partly offset by $5M of other income \u2014 a net $17M drag.",
+  "footerNote": "Net income here is the $478M from continuing operations including noncontrolling interests; $473M was attributable to PPG shareholders. Including a $22M loss from discontinued operations, total net income attributable to PPG was $451M.",
+  "follow100": [
+    {
+      "label": "Global Architectural Coatings",
+      "amount": 24.24
+    },
+    {
+      "label": "Performance Coatings",
+      "amount": 35.7
+    },
+    {
+      "label": "Industrial Coatings",
+      "amount": 40.06
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -59.48
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -20.12
+    },
+    {
+      "label": "Depreciation",
+      "amount": -2.48
+    },
+    {
+      "label": "Research & development",
+      "amount": -2.43
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.6
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.39
+    },
+    {
+      "label": "Tax",
+      "amount": -3.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.99
+    }
+  ],
+  "follow100Note": "Kept-as-profit is profit from continuing operations, including the small share belonging to noncontrolling interests. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Performance Coatings led",
+      "text": "Segment sales rose 10% to $1.55B with organic growth of 8%, led by aerospace, protective & marine and refinish coatings. Its profit margin (EBITDA) widened to 23.9% of sales."
+    },
+    {
+      "stat": "24.0%",
+      "statColor": "#3e8e5a",
+      "title": "Architectural margins jumped",
+      "text": "Global Architectural Coatings' EBITDA margin rose 3 points to 24.0% of sales on Latin American strength, higher prices and cost cuts, even though paint volumes dipped slightly."
+    },
+    {
+      "stat": "-11%",
+      "statColor": "#cf5f4e",
+      "title": "Industrial lagged",
+      "text": "Industrial Coatings' EBITDA fell 11% and its margin shrank to 14.4% as raw-material inflation outran price increases \u2014 the one soft spot, despite double-digit growth in packaging coatings."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted EPS of $2.25 (non-GAAP) excludes $20M of acquisition-related amortization, $11M of restructuring costs and smaller items; GAAP EPS from continuing operations was $2.12.",
+    "A business PPG is exiting lost $22M after tax in discontinued operations, which is why total net income attributable to PPG ($451M) is lower than the continuing-operations figure used in the chart."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/79879/000007987926000315/exhibit99-3q2026earningsre.htm"
+    }
+  ]
+}

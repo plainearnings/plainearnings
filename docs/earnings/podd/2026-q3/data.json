@@ -1,0 +1,142 @@
+{
+  "ticker": "PODD",
+  "company": "Insulet Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Insulet grew revenue 19% to $842M as its Omnipod insulin pumps sold briskly abroad, and net income jumped 61% to $141M because the bigger sales base spread its costs thinner.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$842M",
+      "note": "+19% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.03",
+      "note": "vs $1.24 a year ago"
+    },
+    {
+      "label": "Operating income",
+      "value": "$190M",
+      "note": "+61% YoY; 22.5% of revenue"
+    },
+    {
+      "label": "International Omnipod",
+      "value": "+32%",
+      "note": "revenue growth, to $266M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Omnipod",
+      "amountM": 570,
+      "yoy": "+15%",
+      "note": "Omnipod insulin pumps sold in the United States \u2014 the wearable, tubeless pump is the company's main product."
+    },
+    {
+      "name": "International Omnipod",
+      "amountM": 266,
+      "yoy": "+32%",
+      "note": "Omnipod sales outside the U.S. \u2014 the fastest-growing piece, helped by new glucose-sensor integrations across Europe and Australia."
+    },
+    {
+      "name": "Drug Delivery",
+      "amountM": 6,
+      "yoy": "-23%",
+      "note": "Using the Pod platform to deliver drugs other than insulin \u2014 a small, shrinking side business."
+    }
+  ],
+  "flow": {
+    "revenueM": 842,
+    "costOfRevenueM": 210,
+    "grossProfitM": 632,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 91,
+        "note": "Developing the next pumps, including Omnipod 6 and a fully closed-loop system that doses insulin automatically."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 351,
+        "note": "The sales force, customer support and head office \u2014 including an expanded U.S. sales team."
+      }
+    ],
+    "operatingIncomeM": 190,
+    "otherIncomeM": -13,
+    "taxM": 36,
+    "netIncomeM": 141
+  },
+  "otherDetail": "Net interest expense of $12M, a $0.3M loss on refinancing debt and $0.2M of other expense (shown rounded) \u2014 a net $13M drag.",
+  "follow100": [
+    {
+      "label": "U.S. Omnipod",
+      "amount": 67.7
+    },
+    {
+      "label": "International Omnipod",
+      "amount": 31.59
+    },
+    {
+      "label": "Drug Delivery",
+      "amount": 0.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.94
+    },
+    {
+      "label": "Research & development",
+      "amount": -10.81
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -41.69
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.54
+    },
+    {
+      "label": "Tax",
+      "amount": -4.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.74
+    }
+  ],
+  "follow100Note": "Of every $100 of sales, $16.74 became profit \u2014 up from $12.41 a year ago. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+32%",
+      "statColor": "#3d7bc8",
+      "title": "International is the growth engine",
+      "text": "International Omnipod revenue rose 32% to $266M \u2014 nearly a third of all sales \u2014 as Omnipod 5 gained sensor integrations in more countries. U.S. revenue grew a solid 15% to $570M."
+    },
+    {
+      "stat": "22.5%",
+      "statColor": "#3e8e5a",
+      "title": "Margins leapt",
+      "text": "Operating income reached 22.5% of revenue, up from 16.7% a year ago. Gross margin hit 75% and running costs grew much slower than sales, so GAAP operating income rose 61% to $190M."
+    },
+    {
+      "stat": "$1B",
+      "statColor": "#5b6b7c",
+      "title": "A big buyback",
+      "text": "The board approved a $1 billion share repurchase program, with about $400M planned for the fourth quarter of 2026, funded from the company's $584M of cash."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include a favorable $4.5M adjustment to warranty estimates tied to the voluntary medical device corrections issued in March and May 2026. Excluding that and a $0.3M debt-refinancing loss, adjusted operating income was $185M and adjusted EPS was $1.99 (both non-GAAP)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000190/podd2026-09x30ex991.htm"
+    }
+  ]
+}
