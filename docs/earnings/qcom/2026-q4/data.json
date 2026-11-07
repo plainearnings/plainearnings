@@ -1,0 +1,161 @@
+{
+  "company": "Qualcomm",
+  "flow": {
+    "costOfRevenueM": 5084,
+    "grossProfitM": 5238,
+    "netIncomeM": 1251,
+    "operatingIncomeM": 1356,
+    "opex": [
+      {
+        "amountM": 2684,
+        "name": "Research and development",
+        "note": "Building chips, modems and AI platforms; up 13% YoY."
+      },
+      {
+        "amountM": 963,
+        "name": "Selling, general and administrative",
+        "note": "Selling, legal costs and running the company; up 6% YoY."
+      },
+      {
+        "amountM": 235,
+        "name": "Other",
+        "note": "Restructuring and restructuring-related charges of $235M \u2014 a one-time cost that Qualcomm excludes from its non-GAAP results."
+      }
+    ],
+    "otherIncomeM": -183,
+    "revenueM": 10322,
+    "taxM": -78
+  },
+  "follow100": [
+    {
+      "amount": 87.34,
+      "label": "QCT"
+    },
+    {
+      "amount": 12.63,
+      "label": "QTL"
+    },
+    {
+      "amount": 0.03,
+      "label": "Other and reconciling items"
+    },
+    {
+      "amount": -49.25,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -26.0,
+      "label": "R&D"
+    },
+    {
+      "amount": -9.33,
+      "label": "SG&A"
+    },
+    {
+      "amount": -2.28,
+      "label": "Other"
+    },
+    {
+      "amount": -1.77,
+      "label": "Other expense"
+    },
+    {
+      "amount": 0.76,
+      "label": "Tax"
+    },
+    {
+      "amount": 12.12,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Tax added $0.76 back to every $100 because Qualcomm recorded a $78M tax benefit this quarter, not a tax bill. The spending rows add to $99.99 rather than exactly $100.00 because each row is rounded to two decimals.",
+  "footerNote": "Qualcomm does not print a gross profit line; gross profit here is total revenues less cost of revenues, exactly as its statement of operations foots. Qualcomm guided Q1 FY27 revenue to $10.4B\u2013$11.2B and reiterated a $5B fiscal 2027 Data Center revenue target. Non-GAAP figures it headlines (revenue $10,442M, EPS $2.17) exclude QSI, share-based compensation, the restructuring charge and the legal-settlement payment. Chart note: Qualcomm's tax line was a $78M benefit, not a bill, so the chart draws it as its own green 'Tax benefit' source flowing into net profit \u2014 it is not folded into any other line.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "-8%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs a $2.89 loss a year ago",
+      "value": "$1.17"
+    },
+    {
+      "label": "Automotive revenue",
+      "note": "+89% YoY, first $2B quarter",
+      "value": "$2.0B"
+    },
+    {
+      "label": "Cash returned",
+      "note": "$1,011M buybacks + $987M dividends in Q4",
+      "value": "$2.0B"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and restructuring-related charges of $235M are the whole of the 'Other' operating-expense line this quarter; Qualcomm excludes them from non-GAAP results, along with $141M of acquisition-related charges spread across its cost lines.",
+    "GAAP revenue includes a $120M payment to a customer resulting from a recent legal settlement, recorded as unallocated revenue. That is why non-GAAP revenue of $10,442M is higher than GAAP revenue of $10,322M.",
+    "The year-ago quarter is a distorted comparison: in Q4 FY25 Qualcomm booked a $6,088M income tax expense (largely a valuation allowance on deferred tax assets) and a net loss of $3,117M. In fiscal 2026 it released that valuation allowance, a $5.7B tax benefit recorded earlier in the year."
+  ],
+  "otherDetail": "Interest expense of $170M plus investment and other expense, net of $13M \u2014 a net $183M non-operating cost. Inside the investment results, QSI's strategic investments lost about $120M in the quarter after gains earlier in the year, partly offset by gains on deferred-compensation plan assets.",
+  "periodEnd": "2026-09-27",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "-8%",
+  "segments": [
+    {
+      "amountM": 9015,
+      "name": "QCT",
+      "note": "The chip business (Snapdragon and Dragonwing), down 8% YoY. Inside it: Handsets $5,137M (down 26%), Automotive $1,990M (up 89%, a record first $2B quarter) and IoT $1,888M (up 4%).",
+      "yoy": "-8%"
+    },
+    {
+      "amountM": 1304,
+      "name": "QTL",
+      "note": "Patent licensing, down 7% YoY \u2014 and very profitable: earnings before tax of $918M, or 70% of its revenue.",
+      "yoy": "-7%"
+    },
+    {
+      "amountM": 3,
+      "name": "Other and reconciling items",
+      "note": "QSI, the strategic-investments arm, earned no revenue. Nonreportable segments (Data Center, QGOV and Modular) brought in $123M, less a $120M payment to a customer from a legal settlement recorded as unallocated revenue \u2014 a net $3M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm"
+    },
+    {
+      "label": "Form 10-K, Note 8 segment information and reconciling items (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 FY26, segment reconciling items for the first nine months (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+89%",
+      "statColor": "#3d7bc8",
+      "text": "Automotive revenue reached $1,990M \u2014 Qualcomm's first $2B automotive quarter \u2014 up 89% from a year ago. Together, Automotive and IoT grew 36% YoY and are carrying the business while handsets shrink.",
+      "title": "Cars are the growth engine"
+    },
+    {
+      "stat": "-26%",
+      "statColor": "#5b6b7c",
+      "text": "Handset revenue fell to $5,137M, down 26% YoY, dragging QCT down 8% and total revenue down 8% to $10,322M. Qualcomm renewed long-term QTL license agreements with Apple, Huawei and Transsion during the quarter.",
+      "title": "Handsets pulled revenue down"
+    },
+    {
+      "stat": "$1.25B",
+      "statColor": "#3e8e5a",
+      "text": "Net income was $1,251M, against a $3,117M net loss a year ago \u2014 that loss came from a $6,088M tax expense, not from operations. This quarter tax was actually a $78M benefit on $1,173M of pre-tax profit.",
+      "title": "Profit bounced back from last year's tax hit"
+    }
+  ],
+  "ticker": "QCOM",
+  "verdict": "Qualcomm's revenue fell 8% to $10.3B as handset chip sales dropped 26%, but automotive chips nearly doubled to a record $2.0B \u2014 and a $235M restructuring charge plus a $120M legal-settlement payment held GAAP profit to $1.25B."
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "NET",
+  "company": "Cloudflare",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "segments": [
+    {
+      "name": "Cloudflare platform",
+      "amountM": 782.513,
+      "note": "All of Cloudflare's revenue \u2014 its connectivity cloud platform for making websites, applications and networks faster and more secure. Cloudflare reports as a single operating segment, so this is the total revenue; up 39% YoY.",
+      "yoy": "+39%"
+    }
+  ],
+  "flow": {
+    "revenueM": 782.513,
+    "costOfRevenueM": 225.279,
+    "grossProfitM": 557.234,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 337.987,
+        "note": "Selling the platform and winning customers; includes $63.178M of stock-based compensation and related payroll taxes, and $4.563M of amortization of acquired intangible assets."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 168.204,
+        "note": "Building the platform and new products (R&D); includes $66.474M of stock-based compensation and related payroll taxes."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 107.951,
+        "note": "The back office (G&A); includes $39.754M of stock-based compensation and related payroll taxes and a $10.667M legal reserve and settlements charge."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 11.018,
+        "note": "Restructuring and other charges in the quarter; $161.711M for the first nine months of 2026."
+      }
+    ],
+    "operatingIncomeM": -67.926,
+    "otherIncomeM": 40.631,
+    "taxM": 6.77,
+    "netIncomeM": -34.065
+  },
+  "oneTimers": [
+    "Restructuring and other charges were $11.018M in Q3 ($161.711M in the first nine months) \u2014 excluded from Cloudflare's non-GAAP results.",
+    "A legal reserve and settlements charge of $10.667M sits inside general and administrative expense in Q3 \u2014 also excluded from non-GAAP results.",
+    "Stock-based compensation and related employer payroll taxes totaled $174.103M in Q3 across cost of revenue and operating expenses \u2014 the main reason GAAP shows a loss while non-GAAP operating income was $137.084M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/q326exhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Cloudflare platform",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.79
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -43.19
+    },
+    {
+      "label": "R&D",
+      "amount": -21.5
+    },
+    {
+      "label": "G&A",
+      "amount": -13.8
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.41
+    },
+    {
+      "label": "Other income",
+      "amount": 5.19
+    },
+    {
+      "label": "Tax",
+      "amount": -0.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -4.35
+    }
+  ],
+  "verdict": "Cloudflare's revenue jumped 39% to $783M \u2014 its fastest growth in nearly four years \u2014 but stock pay, restructuring and legal charges left it with a $34M GAAP net loss despite $82M of free cash flow.",
+  "revenueYoY": "+39%",
+  "otherDetail": "Interest income of $45.363M, less $3.545M of interest expense and $1.187M of other expense, net \u2014 total non-operating income of $40.631M.",
+  "footerNote": "Cloudflare reports a single operating segment. GAAP loss from operations was $67.926M; non-GAAP income from operations was $137.084M after adding back stock-based compensation and other items listed in the release. Chart note: Cloudflare's running costs exceeded its gross profit; other income covered part of the gap, so the chart draws the remaining $34M net loss as a 'Covered by cash on hand' source, which also covers the $7M tax bill.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+39%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.10",
+      "note": "basic and diluted, vs $0.00 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$82M",
+      "note": "$82.080M, 10% of revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "71.2%",
+      "note": "GAAP, vs 74.0% a year ago"
+    }
+  ],
+  "follow100Note": "Sales and marketing alone takes $43.19 of every $100 Cloudflare takes in, and the quarter ends with a $4.35 loss per $100 of revenue. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+39%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated to a near-four-year high",
+      "text": "Revenue hit $782.5M, up 39% YoY. Management called it Cloudflare's best quarter ever and its fastest revenue growth in nearly four years, with current RPO up 37% YoY."
+    },
+    {
+      "stat": "-$68M",
+      "statColor": "#5b6b7c",
+      "title": "GAAP operating loss widened",
+      "text": "GAAP loss from operations was $67.9M, or 8.7% of revenue, versus a $37.5M loss a year ago. Stock-based compensation of $174.1M sits inside the GAAP costs; excluding it and other items, non-GAAP operating income was $137.1M."
+    },
+    {
+      "stat": "$82M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed positive despite the loss",
+      "text": "Net cash from operations was $215.4M and free cash flow (operations less equipment purchases and capitalized software) was $82.1M, or 10% of revenue. Cash, equivalents and available-for-sale securities were $5,128.7M at September 30."
+    }
+  ]
+}
