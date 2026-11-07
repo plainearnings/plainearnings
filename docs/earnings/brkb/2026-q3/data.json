@@ -1,0 +1,222 @@
+{
+  "company": "Berkshire Hathaway",
+  "flow": {
+    "costOfRevenueM": 76291,
+    "equityM": -74,
+    "grossProfitM": 29356,
+    "netIncomeM": 22112,
+    "operatingIncomeM": 14221,
+    "opex": [
+      {
+        "amountM": 4788,
+        "name": "Insurance underwriting expenses",
+        "note": "Commissions, agents and running the insurance operations."
+      },
+      {
+        "amountM": 7888,
+        "name": "Selling, general & administrative",
+        "note": "Offices, sales teams and admin across the non-insurance businesses."
+      },
+      {
+        "amountM": 333,
+        "compact": true,
+        "name": "Interest \u2014 Insurance & Other",
+        "note": "Interest on borrowings outside the railroad and energy group."
+      },
+      {
+        "amountM": 1100,
+        "name": "Other expenses",
+        "note": "Miscellaneous operating costs in the railroad and energy group."
+      },
+      {
+        "amountM": 1026,
+        "compact": true,
+        "name": "Interest \u2014 railroad, utilities & energy",
+        "note": "Interest on BNSF and Berkshire Hathaway Energy debt."
+      }
+    ],
+    "otherIncomeM": 12925,
+    "revenueM": 105647,
+    "taxM": 4960
+  },
+  "follow100": [
+    {
+      "amount": 21.24,
+      "label": "Insurance premiums earned"
+    },
+    {
+      "amount": 57.01,
+      "label": "Sales and service revenues"
+    },
+    {
+      "amount": 2.69,
+      "label": "Leasing revenues"
+    },
+    {
+      "amount": 5.22,
+      "label": "Investment income"
+    },
+    {
+      "amount": 6.47,
+      "label": "Railroad revenues"
+    },
+    {
+      "amount": 6.23,
+      "label": "Utilities & energy revenues"
+    },
+    {
+      "amount": 1.14,
+      "label": "Service & other income"
+    },
+    {
+      "amount": -86.54,
+      "label": "All costs and expenses"
+    },
+    {
+      "amount": 11.31,
+      "label": "Investment gains"
+    },
+    {
+      "amount": 0.93,
+      "label": "Equity method earnings"
+    },
+    {
+      "amount": -4.69,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.07,
+      "label": "Noncontrolling interests"
+    },
+    {
+      "amount": 20.93,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: the stock portfolio added $11.31 of every $100 \u2014 nearly as much as the $13.46 the operating businesses kept. That is why Berkshire's headline profit swings with the market, and why Buffett tells investors to watch operating earnings instead. Rows may not add exactly due to rounding.",
+  "footerNote": "Berkshire has no single gross-profit line: costs are split following the 10-Q's own structure.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+11% YoY",
+      "value": "$105.6B"
+    },
+    {
+      "label": "EPS (GAAP, Class B)",
+      "note": "vs $14.28 a year ago",
+      "value": "$10.33"
+    },
+    {
+      "label": "Operating earnings",
+      "note": "\u22125.8% YoY \u2014 the number Buffett says matters",
+      "value": "$12.7B"
+    },
+    {
+      "label": "Buybacks",
+      "note": "vs $4.8B in all of H1 2026",
+      "value": "$9.6B"
+    }
+  ],
+  "oneTimers": [
+    "No Kraft Heinz impairment this quarter. The $3.76B after-tax impairment on Berkshire's Kraft Heinz stake was booked in Q2 2025, so it flatters the nine-month comparison but does not touch Q3.",
+    "\"Other\" earnings include a currency swing: a loss on Berkshire's non-U.S.-dollar debt this quarter versus a gain a year ago \u2014 one reason the \"Other\" line fell from $1,381M to $1,236M.",
+    "No big catastrophe losses this year. Berkshire had no significant catastrophe events in the first nine months of 2026; the same period in 2025 carried about $850M of after-tax catastrophe losses. In other words, the underwriting decline happened despite a calmer disaster year \u2014 it is a claims-cost story (GEICO), not a hurricane story.",
+    "A $16.2B acquisition spree in nine months. Berkshire spent $16,205M acquiring businesses in the first nine months of 2026, versus $918M in the same period last year \u2014 the 10-Q does not break out the deals by name in the cash-flow statement, but the pace is a sharp change from the quiet 2025."
+  ],
+  "otherDetail": "Investment gains of $11,946M \u2014 mostly unrealized gains on Berkshire's stock portfolio \u2014 plus $979M of equity-method earnings, less $74M attributable to noncontrolling interests.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-07",
+  "revenueYoY": "+11%",
+  "segments": [
+    {
+      "amountM": 22435,
+      "name": "Insurance premiums earned",
+      "note": "Premiums from GEICO, reinsurance and primary insurance. Flat year over year \u2014 Berkshire is turning away business it thinks is underpriced.",
+      "yoy": "flat"
+    },
+    {
+      "amountM": 60225,
+      "name": "Sales and service revenues",
+      "note": "The biggest bucket: everything the manufacturing, service and retailing businesses sell \u2014 from Dairy Queen to Precision Castparts to Pilot truck stops.",
+      "yoy": "+18%"
+    },
+    {
+      "amountM": 2842,
+      "compact": true,
+      "name": "Leasing revenues",
+      "note": "Renting out railcars, aircraft and other equipment.",
+      "shortName": "Leasing",
+      "yoy": "+13%"
+    },
+    {
+      "amountM": 5511,
+      "compact": true,
+      "name": "Investment income",
+      "note": "What the insurance float and the cash pile earn \u2014 mostly interest on Treasury bills now, plus dividends.",
+      "shortName": "Investment income",
+      "yoy": "\u22123%"
+    },
+    {
+      "amountM": 6840,
+      "compact": true,
+      "name": "Railroad revenues",
+      "note": "BNSF freight revenue \u2014 what shippers pay to move goods by rail.",
+      "shortName": "Railroad",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 6586,
+      "compact": true,
+      "name": "Utilities & energy revenues",
+      "note": "Berkshire Hathaway Energy: electric and gas utilities, pipelines, renewables.",
+      "shortName": "Utilities & energy",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 1208,
+      "compact": true,
+      "name": "Service & other income",
+      "note": "Smaller service income inside the railroad and energy group.",
+      "shortName": "Other service income",
+      "yoy": "\u22125%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2026 (berkshirehathaway.com)",
+      "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+    },
+    {
+      "label": "Earnings press release (BusinessWire, November 7, 2026)",
+      "url": "https://www.businesswire.com/news/home/20261107409212/en/Berkshire-Hathaway-Inc.-News-Release"
+    },
+    {
+      "label": "Berkshire Hathaway investor relations",
+      "url": "https://www.berkshirehathaway.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "\u221243%",
+      "statColor": "#cf5f4e",
+      "text": "Insurance underwriting profit fell 43% to $1,352M, and every one of Berkshire's three insurance groups earned less. GEICO's loss ratio jumped to 76.6% as claims costs rose \u2014 and there were no big catastrophes to blame. Insurance investment income also fell 14% as lower rates cut what the float earns.",
+      "title": "GEICO is the weak spot"
+    },
+    {
+      "stat": "$9.6B",
+      "statColor": "#3e8e5a",
+      "text": "Berkshire repurchased $9.6B of its own stock in the quarter \u2014 more than the $4.8B it bought in the entire first half, bringing the nine-month total to $14.4B. With the cash pile still at $377.4B, management is choosing its own shares over new deals and T-bills.",
+      "title": "The buyback is the headline"
+    },
+    {
+      "stat": "\u221228%",
+      "statColor": "#5b6b7c",
+      "text": "Net earnings fell to $22.1B from $30.8B, but $7.9B of that gap is smaller after-tax investment gains ($9.4B vs $17.3B). Operating earnings \u2014 the number Buffett says matters \u2014 fell only 5.8%, and BNSF (+19%), energy (+8%) and manufacturing/service/retailing (+12%) all grew.",
+      "title": "The 28% profit drop is mostly the market, not the businesses"
+    }
+  ],
+  "ticker": "BRK.B",
+  "verdict": "Berkshire's operating profit slipped 5.8% as GEICO's claims costs jumped, but the real story is the $9.6 billion buyback \u2014 more than the whole first half combined \u2014 while the 28% drop in headline profit mostly reflects smaller stock-market gains than last year, not weaker businesses."
+}

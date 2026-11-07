@@ -1,0 +1,155 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-29",
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 37847,
+      "note": "Office 365, LinkedIn and Dynamics \u2014 the workplace software and business apps; revenue up 14% YoY.",
+      "yoy": "+14%",
+      "shortName": "Productivity & Business"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 39306,
+      "note": "Azure and server products \u2014 the cloud infrastructure business; revenue up 32% YoY.",
+      "yoy": "+32%"
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 12854,
+      "note": "Windows, Xbox and search advertising \u2014 the consumer devices and gaming business; revenue down 4% YoY.",
+      "yoy": "-4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 90007,
+    "costOfRevenueM": 29525,
+    "grossProfitM": 60482,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 9997,
+        "note": "Engineers and researchers building products, including AI and cloud."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 7595,
+        "note": "Selling, advertising and supporting customers."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 2287,
+        "note": "Running the company \u2014 finance, legal, HR and offices."
+      }
+    ],
+    "operatingIncomeM": 40603,
+    "otherIncomeM": 3444,
+    "taxM": 8281,
+    "netIncomeM": 35766
+  },
+  "oneTimers": [
+    "$3.2B gain from Microsoft's investment in Anthropic, lifting other income and net income.",
+    "Lower-than-expected expenses from the Voluntary Retirement Program, partly offset by severance expense and impairment charges in Xbox \u2014 together the discrete items added $0.27 to diluted EPS.",
+    "$480M net gain from investments in OpenAI (+$0.07 EPS), excluded from non-GAAP results (non-GAAP net income was $35.3B, EPS $4.74)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Productivity & Business",
+      "amount": 42.05
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 43.67
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 14.28
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.8
+    },
+    {
+      "label": "R&D",
+      "amount": -11.11
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.44
+    },
+    {
+      "label": "G&A",
+      "amount": -2.54
+    },
+    {
+      "label": "Other income",
+      "amount": 3.83
+    },
+    {
+      "label": "Tax",
+      "amount": -9.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.74
+    }
+  ],
+  "verdict": "Microsoft closed fiscal 2026 with $90B in revenue, Azure up 43% and past $100B for the year \u2014 and a $3.2B Anthropic gain flattered the bottom line.",
+  "revenueYoY": "+18%",
+  "otherDetail": "Other income of $3,444M, including a $3.2B gain on the Anthropic investment and a $480M net gain on OpenAI investments.",
+  "footerNote": "Segments use Microsoft's pre-FY27 reporting structure (Productivity and Business Processes, Intelligent Cloud, More Personal Computing).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.81",
+      "note": "vs $3.65 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+43%",
+      "note": "up from 40% last quarter"
+    },
+    {
+      "label": "Commercial RPO",
+      "value": "$678B",
+      "note": "+84% YoY"
+    }
+  ],
+  "follow100Note": "Intelligent Cloud is now the largest piece at $43.67 of every $100 \u2014 ahead of Productivity and Business Processes at $42.05.",
+  "takeaways": [
+    {
+      "stat": "+43%",
+      "statColor": "#3d7bc8",
+      "title": "Azure is still accelerating",
+      "text": "Azure grew 43%, up from 40% the prior quarter, and passed $100B in revenue for the full fiscal year."
+    },
+    {
+      "stat": "$678B",
+      "statColor": "#3e8e5a",
+      "title": "The backlog is enormous",
+      "text": "Commercial remaining performance obligation hit $678B, up 84% \u2014 years of contracted cloud and AI spending not yet recognized."
+    },
+    {
+      "stat": "$3.2B",
+      "statColor": "#5b6b7c",
+      "title": "The bottom line got a boost",
+      "text": "A $3.2B gain on Microsoft's Anthropic investment lifted other income \u2014 and discrete items together added $0.27 to EPS."
+    }
+  ]
+}

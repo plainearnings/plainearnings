@@ -1,0 +1,137 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-26",
+  "reportedDate": "2026-08-26",
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 89023,
+      "note": "AI data-center platforms (Blackwell Ultra ramp); up 117% YoY and 93% of total revenue. Within it, Hyperscale was $48,710M (+102% YoY) and AI Clouds, Industrial & Enterprise was $40,313M (+138% YoY).",
+      "yoy": "+117%"
+    },
+    {
+      "name": "Edge Computing",
+      "amountM": 7198,
+      "note": "PC, workstation, robotics and automotive platforms; up 27% YoY, driven by strong Blackwell workstation sales partly offset by slower consumer PC sales.",
+      "yoy": "+27%"
+    }
+  ],
+  "flow": {
+    "revenueM": 96221,
+    "costOfRevenueM": 24079,
+    "grossProfitM": 72142,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 7054,
+        "note": "R&D spending on new chips and platforms like Vera Rubin; up 64% YoY as Nvidia hires and builds faster."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 1354,
+        "note": "Sales and admin costs; up 21% YoY, growing far slower than revenue."
+      }
+    ],
+    "operatingIncomeM": 63734,
+    "otherIncomeM": 7773,
+    "taxM": 11819,
+    "netIncomeM": 59688
+  },
+  "oneTimers": [
+    "Net gains from equity securities of $7,771M lifted GAAP other income (excluded from non-GAAP results) \u2014 the main reason GAAP net income of $59,688M exceeds non-GAAP net income of $53,954M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "label": "CFO commentary, incl. revenue by market platform (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 92.52
+    },
+    {
+      "label": "Edge Computing",
+      "amount": 7.48
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.02
+    },
+    {
+      "label": "R&D",
+      "amount": -7.33
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.41
+    },
+    {
+      "label": "Other income",
+      "amount": 8.08
+    },
+    {
+      "label": "Tax",
+      "amount": -12.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 62.03
+    }
+  ],
+  "verdict": "Nvidia's revenue more than doubled to $96.2B on the Blackwell Ultra ramp \u2014 data centers are now 93% of the business \u2014 but $7.8B of the $59.7B profit came from gains on its stock portfolio, not from selling chips.",
+  "revenueYoY": "+106%",
+  "otherDetail": "Other income of $7,773M, almost entirely a $7,771M net gain on equity securities (excluded from non-GAAP results).",
+  "footerNote": "Revenue by market platform, as reported in Nvidia's CFO commentary: Data Center and Edge Computing.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+106%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.46",
+      "note": "vs $1.08 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$89.0B",
+      "note": "+117% YoY, 93% of revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "75.0%",
+      "note": "up 2.6 points YoY"
+    }
+  ],
+  "follow100Note": "Data Center takes $92.52 of every $100 \u2014 and $8.08 more comes back from gains on Nvidia's stock holdings. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+117%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center is the whole story",
+      "text": "Data Center revenue hit $89.0B, up 117% \u2014 93% of all revenue. Hyperscalers alone bought $48.7B of AI platforms, and AI clouds, industrial and enterprise customers another $40.3B."
+    },
+    {
+      "stat": "$7.8B",
+      "statColor": "#cf5f4e",
+      "title": "A big chunk of profit isn't from chips",
+      "text": "Net gains on equity securities added $7,771M to other income. GAAP net income of $59.7B beats non-GAAP's $54.0B almost entirely because of those paper gains."
+    },
+    {
+      "stat": "~$108B",
+      "statColor": "#3e8e5a",
+      "title": "Next quarter is already guided higher",
+      "text": "Nvidia guided Q3 FY27 revenue to ~$108B (\u00b12%) at a 74% gross margin \u2014 and assumes zero data-center revenue from China in the outlook."
+    }
+  ]
+}

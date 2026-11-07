@@ -89,12 +89,26 @@
     });
   });
 
-  /* labels outside the bands */
+  /* labels outside the bands.
+     Fixed sides: col 0 and col 4 anchor right (labels to the left of their
+     bars); col 1/2 sit in the gap to their right; opex anchors right (its
+     center/bottom choice against the Cost of revenue label is unchanged).
+     Col-3 labels (other income, operating profit) choose a side per label,
+     with a vertical nudge if both sides still collide: the gap right of
+     col 3 is shared with the col-4 labels and the gap left of col 3 with
+     the col-2 labels, and which side is free depends on the numbers
+     (Berkshire's long first opex name collides with operating profit on
+     the right; Alphabet's gross-profit label sits on operating profit's
+     height on the left). Sides and nudges are decided from the labels'
+     TRUE rendered extents, measured with getBBox: estimated char widths
+     flagged near-misses that render clean and the nudges they triggered
+     pushed labels onto the flows. */
   var grossOpVal = null;
   LINKS.forEach(function (l) { if (l.s === "gross" && l.d === "op") grossOpVal = l.v; });
-  COLS.forEach(function (ids, ci) {
+  var CY = {};
+  COLS.forEach(function (ids) {
     ids.forEach(function (id) {
-      var n = NODES[id], p = POS[id];
+      var p = POS[id];
       var cy = (p.y0 + p.y1) / 2;
       if (id === "gross" && grossOpVal !== null) cy = p.y0 + grossOpVal * K / 2;
       if (id === "opex" && POS.cost) {
@@ -106,26 +120,99 @@
         cy = Math.abs(bottomCy - costCy) > Math.abs(centerCy - costCy) ? bottomCy : centerCy;
       }
       if (id === "otherin") cy += 6;
-      var rightSide = !(ci === 0 || ci === COLS.length - 1 || id === "opex");
-      var x = rightSide ? COLX[ci] + BARW + 13 : COLX[ci] - 13;
+      CY[id] = cy;
+    });
+  });
+  function labelLines(id) {
+    var n = NODES[id];
+    if (n.compactLabel) return [{ t: n.compactLabel, cls: "compact", dy: 0 }];
+    var lines = [
+      { t: n.name, cls: "lname", dy: n.note ? -20 : -10 },
+      { t: n.amt, cls: "lamt", dy: n.note ? 0 : 11 }
+    ];
+    if (n.note) lines.push({ t: n.note, cls: "lnote", dy: 19 });
+    return lines;
+  }
+  /* Provisional placement (historical defaults), then measure-and-adjust. */
+  var lblTexts = {};
+  COLS.forEach(function (ids, ci) {
+    ids.forEach(function (id) {
+      var anchorRight = ci === 0 || ci === COLS.length - 1 || (ci === 3 && id === "opex");
+      var x = anchorRight ? COLX[ci] - 13 : COLX[ci] + BARW + 13;
       var g = el("g", { "class": "lbl" });
-      var lines;
-      if (n.compactLabel) {
-        lines = [{ t: n.compactLabel, cls: "compact", dy: 0 }];
-      } else {
-        lines = [
-          { t: n.name, cls: "lname", dy: n.note ? -20 : -10 },
-          { t: n.amt, cls: "lamt", dy: n.note ? 0 : 11 }
-        ];
-        if (n.note) lines.push({ t: n.note, cls: "lnote", dy: 19 });
-      }
-      lines.forEach(function (ln) {
-        var t = el("text", { x: x, y: cy + ln.dy, "text-anchor": rightSide ? "start" : "end", "class": ln.cls, "dominant-baseline": "middle" });
+      var ts = labelLines(id).map(function (ln) {
+        var t = el("text", { x: x, y: CY[id] + ln.dy, "text-anchor": anchorRight ? "end" : "start", "class": ln.cls, "dominant-baseline": "middle" });
         t.textContent = ln.t;
         g.appendChild(t);
+        return t;
       });
       svg.appendChild(g);
       lblEls[id] = g;
+      lblTexts[id] = ts;
+    });
+  });
+  function measuredBoxes(id) {
+    return lblTexts[id].map(function (t) {
+      var b = t.getBBox();
+      return [b.x, b.x + b.width, b.y, b.y + b.height];
+    });
+  }
+  var measured = {};
+  Object.keys(lblTexts).forEach(function (id) { measured[id] = measuredBoxes(id); });
+  function shiftedBoxes(id, anchorRight, dy) {
+    var ci = NODES[id].col;
+    var anchor = anchorRight ? COLX[ci] - 13 : COLX[ci] + BARW + 13;
+    return measured[id].map(function (b) {
+      var w = b[1] - b[0];
+      return anchorRight
+        ? [anchor - w, anchor, b[2] + dy, b[3] + dy]
+        : [anchor, anchor + w, b[2] + dy, b[3] + dy];
+    });
+  }
+  function countCollisions(boxes, placed) {
+    var n = 0;
+    boxes.forEach(function (b) {
+      placed.forEach(function (p) {
+        if (b[0] < p[1] && b[1] > p[0] && b[2] < p[3] && b[3] > p[2]) n += 1;
+      });
+    });
+    return n;
+  }
+  var placedBoxes = [];
+  COLS.forEach(function (ids, ci) {
+    ids.forEach(function (id) {
+      if (ci === 3 && id !== "opex") return;
+      placedBoxes = placedBoxes.concat(measured[id]);
+    });
+  });
+  COLS.forEach(function (ids, ci) {
+    ids.forEach(function (id) {
+      if (ci !== 3 || id === "opex") return;
+      var best = null;
+      [true, false].forEach(function (anchorRight) {
+        [0, 16, -16, 32, -32, 48, -48].forEach(function (dy) {
+          var boxes = shiftedBoxes(id, anchorRight, dy);
+          var top = Math.min.apply(null, boxes.map(function (b) { return b[2]; }));
+          var bottom = Math.max.apply(null, boxes.map(function (b) { return b[3]; }));
+          if (top < 58 || bottom > 596) return;
+          var n = countCollisions(boxes, placedBoxes);
+          var cand = [n, Math.abs(dy), anchorRight ? 1 : 0];
+          if (!best || cand[0] < best[0][0] ||
+              (cand[0] === best[0][0] && cand[1] < best[0][1]) ||
+              (cand[0] === best[0][0] && cand[1] === best[0][1] && cand[2] < best[0][2])) {
+            best = [cand, anchorRight, dy];
+          }
+        });
+      });
+      var anchorRight = best[1], dy = best[2];
+      var x = anchorRight ? COLX[ci] - 13 : COLX[ci] + BARW + 13;
+      lblTexts[id].forEach(function (t, i) {
+        t.setAttribute("x", x);
+        t.setAttribute("text-anchor", anchorRight ? "end" : "start");
+        t.setAttribute("y", CY[id] + dy + labelLines(id)[i].dy);
+      });
+      CY[id] = CY[id] + dy;
+      placedBoxes = placedBoxes.concat(shiftedBoxes(id, anchorRight, dy));
     });
   });
 

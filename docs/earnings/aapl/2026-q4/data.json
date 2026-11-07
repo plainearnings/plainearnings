@@ -1,0 +1,170 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-02",
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 57583,
+      "note": "Apple's flagship smartphone; September quarter record revenue, up 17% YoY.",
+      "yoy": "+17%"
+    },
+    {
+      "name": "Mac",
+      "amountM": 10792,
+      "note": "Mac computers; up 24% YoY.",
+      "yoy": "+24%"
+    },
+    {
+      "name": "iPad",
+      "amountM": 6229,
+      "note": "iPad tablets; down 10% YoY.",
+      "yoy": "-10%",
+      "compact": true
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 8300,
+      "note": "Apple Watch, AirPods, HomePod, Apple TV and accessories; down 8% YoY.",
+      "yoy": "-8%",
+      "compact": true,
+      "shortName": "Wearables"
+    },
+    {
+      "name": "Services",
+      "amountM": 31573,
+      "note": "App Store, Apple Music, iCloud, Apple Pay, Apple TV+ and licensing; all-time high revenue, up 10% YoY.",
+      "yoy": "+10%"
+    }
+  ],
+  "flow": {
+    "revenueM": 114477,
+    "costOfRevenueM": 59657,
+    "grossProfitM": 54820,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 11730,
+        "note": "Spending to design future products and technologies."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7459,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 35631,
+    "otherIncomeM": 504,
+    "taxM": 5424,
+    "netIncomeM": 30711
+  },
+  "oneTimers": [
+    "Tariff refunds added approximately 1 percentage point to gross margin and $0.05 to diluted EPS in the quarter \u2014 a one-off benefit called out in the release, not recurring run-rate profit."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 50.3
+    },
+    {
+      "label": "Mac",
+      "amount": 9.43
+    },
+    {
+      "label": "iPad",
+      "amount": 5.44
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 7.25
+    },
+    {
+      "label": "Services",
+      "amount": 27.58
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.11
+    },
+    {
+      "label": "R&D",
+      "amount": -10.25
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.52
+    },
+    {
+      "label": "Other income",
+      "amount": 0.44
+    },
+    {
+      "label": "Tax",
+      "amount": -4.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.83
+    }
+  ],
+  "verdict": "Apple's September quarter set records \u2014 $114.5B in revenue, iPhone up 17% to $57.6B \u2014 with Services at an all-time high and a one-off tariff refund adding a point to the margin.",
+  "revenueYoY": "+12%",
+  "otherDetail": "Other income of $504M, net.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.10",
+      "note": "up 14% YoY"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$57.6B",
+      "note": "September quarter record, +17%"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$31.6B",
+      "note": "all-time high, +10%"
+    }
+  ],
+  "follow100Note": "iPhone alone is $50.30 of every $100 Apple takes in. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "iPhone 17 drove a record quarter",
+      "text": "iPhone revenue hit a September-quarter record $57.6B, up 17% on the iPhone 17 lineup \u2014 half of everything Apple sold."
+    },
+    {
+      "stat": "$31.6B",
+      "statColor": "#3e8e5a",
+      "title": "Services is the quiet giant",
+      "text": "Services set an all-time high at $31.6B, up 10% \u2014 nearly 28% of revenue, and the steadiest growth Apple has."
+    },
+    {
+      "stat": "+1pt",
+      "statColor": "#5b6b7c",
+      "title": "The margin got a one-off lift",
+      "text": "Gross margin of 47.9% included about 1 point from tariff refunds, worth $0.05 of EPS \u2014 a one-off, not the run rate."
+    }
+  ]
+}
