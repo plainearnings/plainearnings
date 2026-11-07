@@ -1,0 +1,144 @@
+{
+  "ticker": "IEX",
+  "company": "IDEX Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+8%",
+  "verdict": "IDEX posted record sales of $952M, up 8%, as its health and science unit jumped 14% on AI data-center and semiconductor demand \u2014 and profit per share rose 15%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$951.7M",
+      "note": "+8% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.95",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.33",
+      "note": "+15% YoY, also a record"
+    },
+    {
+      "label": "Orders",
+      "value": "$991M",
+      "note": "+13% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Health & Science Technologies",
+      "amountM": 433.5,
+      "yoy": "+14%",
+      "note": "Precision components for medical diagnostics, semiconductors, data-center power and space \u2014 the growth engine this quarter, up 14% on AI-driven demand."
+    },
+    {
+      "name": "Fluid & Metering Technologies",
+      "amountM": 327.9,
+      "yoy": "+3%",
+      "note": "Pumps and meters that move and measure liquids and gases, from water systems to energy."
+    },
+    {
+      "name": "Fire & Safety / Diversified Products",
+      "amountM": 190.3,
+      "yoy": "+5%",
+      "f100": "Fire & Safety / Diversified",
+      "note": "Rescue tools, fire equipment and engineered fasteners. Segment sales were $191.5M; shown here net of $1.2M of sales between IDEX's own segments, which the company eliminates."
+    }
+  ],
+  "flow": {
+    "revenueM": 951.7,
+    "costOfRevenueM": 522.2,
+    "grossProfitM": 429.5,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 218.1,
+        "f100": "SG&A",
+        "note": "Selling and running the company's 50+ businesses \u2014 its main running cost, including $32.6M of acquisition-related amortization."
+      },
+      {
+        "name": "Restructuring & impairments",
+        "amountM": 3.4,
+        "note": "One-off costs of reshaping parts of the business and writing down assets."
+      }
+    ],
+    "operatingIncomeM": 208.0,
+    "otherIncomeM": -15.3,
+    "taxM": 48.7,
+    "netIncomeM": 144.0
+  },
+  "otherDetail": "Interest expense of $15.4M, partly offset by $0.1M of other income.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "AI demand is lifting HST",
+      "text": "Health & Science Technologies sales jumped 14% (13% organic) on data-center power and semiconductor demand \u2014 46% of IDEX's total sales now come from this segment."
+    },
+    {
+      "stat": "$991M",
+      "statColor": "#3e8e5a",
+      "title": "Orders point to more growth",
+      "text": "Orders rose 13% to $991M \u2014 more than the quarter's sales \u2014 and IDEX raised full-year guidance again, to organic sales growth of 6.5\u20136.8%."
+    },
+    {
+      "stat": "$2.33",
+      "statColor": "#5b6b7c",
+      "title": "Two profit numbers",
+      "text": "GAAP EPS was $1.95; the $2.33 'adjusted' figure the company headlines strips out amortization and restructuring. Profit margin widened either way."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted EPS of $2.33 excludes $3.4M of restructuring charges and asset impairments and $32.6M of intangible-asset amortization; GAAP EPS was $1.95."
+  ],
+  "footerNote": "Net income of $144.0M is before a $0.1M loss allocated to noncontrolling interests; net income attributable to IDEX was $144.1M, which is what the $1.95 EPS is based on.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000026/iex-20260930xex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Health & Science Technologies",
+      "amount": 45.55
+    },
+    {
+      "label": "Fluid & Metering Technologies",
+      "amount": 34.45
+    },
+    {
+      "label": "Fire & Safety / Diversified",
+      "amount": 20.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.87
+    },
+    {
+      "label": "SG&A",
+      "amount": -22.92
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -0.36
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.61
+    },
+    {
+      "label": "Tax",
+      "amount": -5.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.13
+    }
+  ]
+}

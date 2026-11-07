@@ -1,0 +1,160 @@
+{
+  "ticker": "IDXX",
+  "company": "Idexx Laboratories",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+10%",
+  "verdict": "IDEXX grew revenue 10% to $1.21B as pet diagnostics kept expanding, and profit grew faster \u2014 net income rose 15% to $317M as margins widened.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.21B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.01",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "CAG revenue",
+      "value": "$1.12B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "62.9%",
+      "note": "vs 61.8% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Companion Animal Group",
+      "amountM": 1116,
+      "yoy": "+10%",
+      "note": "Diagnostics for dogs and cats: lab instruments, rapid tests and reference-lab services \u2014 the core business, with recurring diagnostics revenue up 11%."
+    },
+    {
+      "name": "Water",
+      "amountM": 59,
+      "yoy": "+8%",
+      "note": "Tests that check water for microbial contamination, sold to utilities and labs."
+    },
+    {
+      "name": "Livestock, Poultry & Dairy",
+      "amountM": 35,
+      "yoy": "+3%",
+      "note": "Diagnostics that keep farm animals healthy and milk and meat safe."
+    },
+    {
+      "name": "Other",
+      "amountM": 4,
+      "yoy": "+3%",
+      "note": "Smaller product lines outside the three main groups."
+    }
+  ],
+  "flow": {
+    "revenueM": 1214,
+    "costOfRevenueM": 450,
+    "grossProfitM": 764,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 69,
+        "note": "New analyzers, tests and software \u2014 including an AI clinical assistant added by acquisition this quarter."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 170,
+        "note": "The sales force and marketing that put IDEXX instruments into vet clinics."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 123,
+        "note": "The back office: finance, legal and company-wide administration."
+      }
+    ],
+    "operatingIncomeM": 402,
+    "otherIncomeM": -3,
+    "taxM": 82,
+    "netIncomeM": 317
+  },
+  "otherDetail": "Interest and other non-operating items, net \u2014 a small $3M net cost, even after a gain on an equity investment.",
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "title": "Diagnostics keep compounding",
+      "text": "CAG Diagnostics recurring revenue grew 11%, led by a 14% jump in VetLab consumables as more clinics ran more tests on a premium instrument base that grew 11%."
+    },
+    {
+      "stat": "$4.01",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew faster than sales",
+      "text": "EPS rose 18% to $4.01 \u2014 revenue grew 10%, but gross margin widened to 62.9% and costs grew more slowly, so net income climbed 15% to $317M."
+    },
+    {
+      "stat": "$15.06",
+      "statColor": "#5b6b7c",
+      "title": "Full-year outlook raised",
+      "text": "IDEXX lifted its 2026 EPS outlook to $14.96\u2013$15.16 (midpoint $15.06), a $0.25 raise, on a stronger revenue outlook."
+    }
+  ],
+  "oneTimers": [
+    "EPS included a $0.03-per-share benefit from a non-operating gain on an equity investment and $0.01 from share-based compensation tax benefits."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926120892/tm2628647d1_ex99-1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Companion Animal Group",
+      "amount": 91.93
+    },
+    {
+      "label": "Water",
+      "amount": 4.86
+    },
+    {
+      "label": "Livestock, Poultry & Dairy",
+      "amount": 2.88
+    },
+    {
+      "label": "Other",
+      "amount": 0.33
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -37.07
+    },
+    {
+      "label": "R&D",
+      "amount": -5.68
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -14.0
+    },
+    {
+      "label": "G&A",
+      "amount": -10.13
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.25
+    },
+    {
+      "label": "Tax",
+      "amount": -6.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.11
+    }
+  ]
+}

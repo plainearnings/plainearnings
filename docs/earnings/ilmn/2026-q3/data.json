@@ -1,0 +1,133 @@
+{
+  "ticker": "ILMN",
+  "company": "Illumina",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+4%",
+  "verdict": "Illumina's revenue rose 4% to $1.13B and GAAP net income jumped to $220M \u2014 though an expected $79M tariff refund flattered costs; without the refund effects, operating profit was $292M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.13B",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.43",
+      "note": "vs $0.98 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$378M",
+      "note": "vs $253M a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "73.5%",
+      "note": "includes the $79M tariff-refund benefit"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product revenue",
+      "amountM": 946,
+      "yoy": "+2%",
+      "note": "Gene-sequencing machines and the consumable kits each run uses \u2014 placements of the high-end NovaSeq X were robust in the quarter."
+    },
+    {
+      "name": "Service & other revenue",
+      "amountM": 183,
+      "yoy": "+17%",
+      "note": "Service contracts, maintenance and other services for the installed base of sequencers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1129,
+    "costOfRevenueM": 299,
+    "grossProfitM": 830,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 244,
+        "note": "Developing the next sequencers, chemistry and analysis software."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 281,
+        "f100": "SG&A",
+        "note": "Selling to labs and hospitals, plus the back office."
+      }
+    ],
+    "operatingIncomeM": 305,
+    "otherIncomeM": -41,
+    "taxM": 44,
+    "netIncomeM": 220
+  },
+  "otherDetail": "Interest and other non-operating items, net \u2014 a $41M net cost this quarter.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Clinical demand drove the beat",
+      "text": "Revenue of $1.13B grew 4% and came in above guidance on healthy clinical demand and strong NovaSeq X placements; service revenue grew 17%."
+    },
+    {
+      "stat": "$79M",
+      "statColor": "#b8443c",
+      "title": "A refund is inside the profit",
+      "text": "Expected IEEPA tariff refunds added a $79M benefit inside cost of revenue (and cut revenue by $37M for customer credits). Excluding them, operating profit was $292M, not $305M."
+    },
+    {
+      "stat": "$378M",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation improved",
+      "text": "Free cash flow rose to $378M from $253M a year ago, and Illumina raised full-year guidance: revenue of $4.64\u20134.66B and non-GAAP EPS of $5.40\u2013$5.45."
+    }
+  ],
+  "oneTimers": [
+    "Expected refunds of IEEPA tariffs: a $79M benefit recognized as a reduction of cost of revenue, and a $37M reduction of revenue for the portion expected to be credited back to customers. Excluding both, revenue was $1.166B, operating profit $292M and non-GAAP EPS $1.44."
+  ],
+  "footerNote": "GAAP figures include the expected IEEPA tariff-refund effects described in the one-time items box.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000202/q326earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product revenue",
+      "amount": 83.79
+    },
+    {
+      "label": "Service & other revenue",
+      "amount": 16.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.48
+    },
+    {
+      "label": "R&D",
+      "amount": -21.61
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.89
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.63
+    },
+    {
+      "label": "Tax",
+      "amount": -3.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.49
+    }
+  ]
+}
