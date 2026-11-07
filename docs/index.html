@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Plain Earnings — Earnings reports, in plain English</title>
-<meta name="description" content="Major companies' earnings reports explained in plain English, with interactive charts that follow each dollar from revenue to net profit.">
+<meta name="description" content="Major companies' earnings reports explained in plain English. Interactive charts follow each dollar from revenue to net profit. Free, no account.">
 <meta property="og:title" content="Plain Earnings — Earnings reports, in plain English">
 <meta property="og:description" content="Follow each dollar from revenue to net profit. No finance degree needed.">
 <meta property="og:type" content="website">
@@ -12,31 +12,117 @@
 <link rel="alternate" type="application/rss+xml" title="Plain Earnings — new reports" href="feed.xml">
 </head>
 <body>
-<header class="site-header">
-  <div class="brand">Plain Earnings</div>
-  <div class="tagline">Earnings reports, in plain English.</div>
+<header class="topbar">
+  <a class="brand" href="./">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a>
+  <nav>
+    <a href="#companies">Companies</a>
+    <a href="#how">How it works</a>
+    <a href="#digest">Monthly digest</a>
+    <a href="feed.xml">RSS</a>
+  </nav>
 </header>
-<main>
-  <p class="intro">Every quarter, big companies publish dense financial reports. We turn each one into a single interactive chart that follows the money — where it came from, what was spent, and what was kept as profit — with every term explained like you're five, then like you're smart.</p>
 
-  <section class="card">
-    <h2>Coming first</h2>
-    <ul class="companies">
-      <li><strong>Microsoft</strong> — FY27 Q1 is ready as our template report</li>
-      <li><strong>Moderna</strong> — Q3 2026, drafted and in review</li>
-      <li><strong>Nvidia</strong> — next report lands November 17, 2026</li>
-      <li><strong>Alphabet &amp; Meta</strong> — latest quarters charted, pages on the way</li>
-    </ul>
-    <p class="note">Full company list: 30 launch companies, from Nvidia and Apple to Costco and JPMorgan.</p>
+<section class="hero">
+  <h1>Earnings reports,<br>in plain English.</h1>
+  <p class="sub">Every quarter, big companies publish dense financial reports. We turn each one into a single interactive chart that follows the money — where it came from, what got spent, and what was kept as profit. Every term explained, every number traced to the official filing.</p>
+
+  <svg class="hero-flow" viewBox="0 0 720 120" role="img" aria-label="Stylised money flow: revenue splits into costs and profit">
+    <rect x="0" y="30" width="150" height="60" rx="8" fill="#2f3b4c"/>
+    <text x="75" y="57" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">REVENUE</text>
+    <text x="75" y="76" text-anchor="middle" fill="#c8d2e0" font-size="12">$100 in</text>
+    <path d="M150 45 C 260 30, 300 28, 400 26 L 400 44 C 300 46, 260 55, 150 60 Z" fill="#d97757" opacity="0.85"/>
+    <path d="M150 60 C 260 65, 300 72, 400 74 L 400 94 C 300 92, 260 80, 150 75 Z" fill="#3d9970" opacity="0.9"/>
+    <rect x="400" y="22" width="150" height="26" rx="6" fill="#f3e2dc"/>
+    <text x="475" y="39" text-anchor="middle" fill="#8a4a38" font-size="12" font-weight="600">Direct costs · $32</text>
+    <rect x="400" y="52" width="150" height="20" rx="6" fill="#f7ead9"/>
+    <text x="475" y="66" text-anchor="middle" fill="#8a6a38" font-size="12" font-weight="600">Running costs · $18</text>
+    <rect x="400" y="76" width="150" height="22" rx="6" fill="#dcefe5"/>
+    <text x="475" y="91" text-anchor="middle" fill="#256048" font-size="12" font-weight="700">Profit kept · $40</text>
+    <text x="640" y="63" fill="#6b7686" font-size="12">every dollar,</text>
+    <text x="640" y="80" fill="#6b7686" font-size="12">accounted for</text>
+  </svg>
+
+  <div class="search-wrap">
+    <input id="company-search" type="search" placeholder="Search a company or ticker — try “Nvidia” or “COST”" autocomplete="off" aria-label="Search companies">
+    <div id="search-count" class="search-count"></div>
+  </div>
+</section>
+
+<section class="strip" aria-label="Latest activity">
+  <div class="strip-item"><span class="dot dot-green"></span><strong>Microsoft FY27 Q1</strong>&nbsp;— our template report, chart verified</div>
+  <div class="strip-item"><span class="dot dot-amber"></span><strong>Moderna Q3 2026</strong>&nbsp;— drafted, in review</div>
+  <div class="strip-item"><span class="dot dot-blue"></span><strong>Nvidia</strong>&nbsp;— reports Nov 17, page follows days later</div>
+</section>
+
+<main>
+  <section id="companies">
+    <h2>The launch list — 30 companies</h2>
+    <p class="section-sub">The names a curious reader most wants explained: the AI giants, the brands in your pocket and your kitchen, and the money machines. Reports roll out company by company, newest quarter first, then three years of history.</p>
+    <div id="tiles" class="tiles"></div>
+    <p id="no-results" class="no-results" hidden>No match on the launch list yet — the full watchlist covers all 500+ S&amp;P 500 companies, and pages are being built in order.</p>
   </section>
 
-  <section class="card">
-    <h2>The monthly digest</h2>
-    <p>One free email a month: every new report, explained. No spam, no advice, unsubscribe any time. Sign-up opens with the first published reports.</p>
+  <section id="how">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h3>We read the filing</h3><p>Every number comes from the company's official earnings release filed with the SEC — never summaries, never estimates.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>We chart the money</h3><p>Revenue flows in on the left; costs flow out; profit is what's left. Hover any block to trace that dollar's whole path. If the numbers don't balance, the page doesn't ship.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>You get the story</h3><p>A one-sentence verdict, the handful of numbers that matter, and three takeaways — in plain English, in about two minutes.</p></div>
+    </div>
+  </section>
+
+  <section id="digest" class="digest">
+    <div>
+      <h2>The monthly digest</h2>
+      <p>One free email a month: every new report, explained, plus what's reporting next month. No spam, no stock tips, unsubscribe anytime. Sign-up opens as the first reports publish — or follow along by <a href="feed.xml">RSS</a> today, including one feed per company.</p>
+    </div>
+    <form class="digest-form" onsubmit="return false;">
+      <input type="email" placeholder="you@example.com" aria-label="Email address" disabled>
+      <button type="submit" disabled>Opening soon</button>
+    </form>
   </section>
 </main>
+
 <footer>
-  <p>Plain Earnings is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
 </footer>
+
+<script>
+fetch('companies.json')
+  .then(r => r.json())
+  .then(data => {
+    const tiles = document.getElementById('tiles');
+    const input = document.getElementById('company-search');
+    const count = document.getElementById('search-count');
+    const none = document.getElementById('no-results');
+    const statusText = {
+      'template-ready': 'Template report ready',
+      'draft-in-review': 'Draft in review',
+      'reporting-soon': 'Reports soon',
+      'coming-soon': 'Coming soon'
+    };
+    function render(list) {
+      tiles.innerHTML = list.map(c => `
+        <article class="tile">
+          <div class="tile-top"><span class="ticker">${c.ticker}</span><span class="chip chip-${c.status}">${statusText[c.status] || 'Coming soon'}</span></div>
+          <div class="tile-name">${c.name}</div>
+          <div class="tile-sector">${c.sector}</div>
+          <div class="tile-quarter">${c.latestQuarter ? 'Latest: ' + c.latestQuarter : ''}</div>
+        </article>`).join('');
+      none.hidden = list.length > 0;
+      count.textContent = input.value ? list.length + ' of ' + data.companies.length + ' companies' : '';
+    }
+    render(data.companies);
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      render(q ? data.companies.filter(c =>
+        c.ticker.toLowerCase().includes(q) || c.name.toLowerCase().includes(q) || c.sector.toLowerCase().includes(q)
+      ) : data.companies);
+    });
+  });
+</script>
 </body>
 </html>
