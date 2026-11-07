@@ -1,0 +1,203 @@
+{
+  "ticker": "BKNG",
+  "company": "Booking Holdings",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "Booking's travel business kept growing \u2014 gross bookings rose 10% and room nights rose 7% \u2014 but a $900M FTC charge cut reported revenue by 1% and left net income almost flat at $2.7B.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "GAAP revenue was $8.9B; without the $900M FTC reduction, adjusted revenue rose 9% to $9.8B"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.61",
+      "note": "Up 7% from $3.38 a year ago \u2014 per-share figures reflect the 25-for-1 stock split on April 2, 2026"
+    },
+    {
+      "label": "Gross bookings",
+      "value": "$54.5B",
+      "note": "Up 10% from a year ago; room nights rose 7% to 345 million"
+    },
+    {
+      "label": "FTC revenue hit",
+      "value": "-$900M",
+      "note": "A $900M revenue reduction plus a $100M accrued loss for an FTC matter involving Priceline \u2014 excluded from adjusted results"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Merchant revenues",
+      "amountM": 6998,
+      "note": "Booking collects the traveler's money itself and pays the hotel or airline \u2014 up 14% as Booking.com keeps shifting to this model",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Agency revenues",
+      "amountM": 2463,
+      "note": "Hotels and other providers pay Booking a commission and collect the traveler's money themselves \u2014 down 4% in the shift to merchant",
+      "yoy": "-4%"
+    },
+    {
+      "name": "Advertising and other revenues",
+      "amountM": 332,
+      "note": "Advertising on Booking's sites and OpenTable restaurant revenue \u2014 up 8%",
+      "yoy": "+8%"
+    },
+    {
+      "name": "FTC matter",
+      "amountM": -900,
+      "note": "A $900M reduction in revenue recorded for a possible FTC resolution involving Priceline \u2014 there was no such charge a year ago",
+      "yoy": "n/a"
+    }
+  ],
+  "flow": {
+    "revenueM": 8893,
+    "costOfRevenueM": 0,
+    "grossProfitM": 8893,
+    "opex": [
+      {
+        "name": "Marketing expenses",
+        "amountM": 2588,
+        "note": "Ads and partner marketing to bring in travelers \u2014 4.8% of gross bookings, vs 4.7% a year ago"
+      },
+      {
+        "name": "Sales and other expenses",
+        "amountM": 1097,
+        "note": "Payment processing for merchant bookings and customer-service costs \u2014 merchant transaction costs rose $72M as merchant bookings grew"
+      },
+      {
+        "name": "Personnel",
+        "amountM": 944,
+        "note": "Pay for about 25,850 employees, including $145M of stock-based pay \u2014 roughly flat from a year ago"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 338,
+        "note": "Running the company \u2014 includes the $100M accrued loss for the FTC matter, which is why it rose 33%",
+        "compact": true
+      },
+      {
+        "name": "Information technology",
+        "amountM": 302,
+        "note": "Cloud, software and generative AI costs \u2014 up 25%",
+        "compact": true
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 183,
+        "note": "Wear and tear on buildings, equipment and software \u2014 up 15%",
+        "compact": true
+      },
+      {
+        "name": "Transformation costs",
+        "amountM": 23,
+        "note": "Costs of the company's transformation program \u2014 down from $105M a year ago; there was no impairment charge this quarter, vs $457M a year ago"
+      }
+    ],
+    "operatingIncomeM": 3418,
+    "otherIncomeM": 5,
+    "taxM": 706,
+    "netIncomeM": 2717
+  },
+  "follow100": [
+    {
+      "label": "Merchant revenues",
+      "amount": 78.69
+    },
+    {
+      "label": "Agency revenues",
+      "amount": 27.7
+    },
+    {
+      "label": "Advertising and other",
+      "amount": 3.73
+    },
+    {
+      "label": "FTC matter",
+      "amount": -10.12
+    },
+    {
+      "label": "Marketing",
+      "amount": -29.1
+    },
+    {
+      "label": "Sales & other",
+      "amount": -12.34
+    },
+    {
+      "label": "Personnel",
+      "amount": -10.62
+    },
+    {
+      "label": "G&A",
+      "amount": -3.8
+    },
+    {
+      "label": "IT",
+      "amount": -3.4
+    },
+    {
+      "label": "Depreciation",
+      "amount": -2.06
+    },
+    {
+      "label": "Transformation",
+      "amount": -0.26
+    },
+    {
+      "label": "Other income",
+      "amount": 0.06
+    },
+    {
+      "label": "Tax",
+      "amount": -7.94
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.55
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-$900M",
+      "statColor": "#b8443c",
+      "title": "An FTC matter masked the growth",
+      "text": "Booking cut revenue by $900M and accrued another $100M in general and administrative costs for a possible FTC resolution involving Priceline's disclosures, fees, customer support and billing. Without it, adjusted revenue rose 9% to $9.8B and adjusted EPS rose 17% to $4.66."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Merchant is now the engine",
+      "text": "Merchant revenue rose 14% to $7.0B as Booking collects more travelers' payments itself, while agency revenue fell 4% to $2.5B \u2014 the ongoing shift from agency to merchant at Booking.com."
+    },
+    {
+      "stat": "345M",
+      "statColor": "#3e8e5a",
+      "title": "Travel demand stayed resilient",
+      "text": "Room nights rose 7% to 345 million and gross bookings rose 10% to $54.5B, even though softer long-haul international travel linked to the conflict in the Middle East weighed on demand late in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "FTC matter: a $900M reduction in revenue and a $100M accrued loss included in general and administrative expenses, after FTC staff said in July 2026 they intended to recommend a complaint against Priceline over disclosures, fees, customer support and billing. No settlement had been agreed, litigation remains possible, and the FTC could seek more than the amounts recorded.",
+    "Transformation costs were $23M in the quarter, down from $105M a year ago.",
+    "There was no impairment charge this quarter, compared with a $457M impairment a year ago.",
+    "Stock split: Booking completed a 25-for-1 stock split on April 2, 2026, and all share and per-share figures in the filings are retroactively adjusted \u2014 that is why GAAP EPS is $3.61, not a pre-split figure."
+  ],
+  "otherDetail": "Net other income was just $5M: interest expense of -$311M, interest and dividend income of +$221M, and other income of +$95M. That $95M was $107M of foreign-currency transaction gains partly offset by $12M of other losses, including an $18M net loss on equity securities.",
+  "footerNote": "Booking Holdings reports no cost of revenue \u2014 every cost is an operating expense, so gross profit equals revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000044/q3-26bkngearningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000045/bkng-20260930.htm"
+    }
+  ]
+}

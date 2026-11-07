@@ -1,0 +1,148 @@
+{
+  "company": "Nu Holdings",
+  "flow": {
+    "costOfRevenueM": 3167,
+    "grossProfitM": 2346,
+    "netIncomeM": 1061,
+    "operatingIncomeM": 1216,
+    "opex": [
+      {
+        "amountM": 226,
+        "name": "Customer support and operations",
+        "note": "Customer support and day-to-day operations for an app-only bank with no branches."
+      },
+      {
+        "amountM": 600,
+        "name": "General and administrative expenses",
+        "note": "Staff, technology and running the company \u2014 the biggest operating cost block."
+      },
+      {
+        "amountM": 103,
+        "name": "Marketing expenses",
+        "note": "Advertising and customer acquisition."
+      },
+      {
+        "amountM": 201,
+        "name": "Other expenses",
+        "note": "Other operating expenses as reported in the statement."
+      }
+    ],
+    "otherIncomeM": 20,
+    "revenueM": 5513,
+    "taxM": 175
+  },
+  "follow100": [
+    {
+      "amount": 86.34,
+      "label": "Interest income & gains"
+    },
+    {
+      "amount": 13.66,
+      "label": "Fees & commissions"
+    },
+    {
+      "amount": -57.45,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -4.1,
+      "label": "Customer support"
+    },
+    {
+      "amount": -10.88,
+      "label": "General & admin"
+    },
+    {
+      "amount": -1.87,
+      "label": "Marketing"
+    },
+    {
+      "amount": -3.65,
+      "label": "Other expenses"
+    },
+    {
+      "amount": 0.36,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.17,
+      "label": "Tax"
+    },
+    {
+      "amount": 19.25,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Nu is a digital bank; cost of revenue is mostly interest paid to depositors and loan-loss provisions. Converted from $ thousands.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Total revenue $5.5B vs $3.7B in Q2 2025, in dollars",
+      "value": "+50%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "Diluted earnings per share, vs $0.13 a year ago",
+      "value": "$0.22"
+    },
+    {
+      "label": "Customers",
+      "note": "138.9 million total, up from 122.7 million a year ago; about 4 million added in the quarter",
+      "value": "139M"
+    },
+    {
+      "label": "Deposits",
+      "note": "Customer deposits held with Nu, up 18% year over year on an FX-neutral basis",
+      "value": "$45.3B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other income of $25M, less a $5M share of losses from associates \u2014 net +$20M.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-08-13",
+  "revenueYoY": "+50%",
+  "segments": [
+    {
+      "amountM": 4760,
+      "name": "Interest income & instrument gains",
+      "note": "Interest earned on loans, credit cards and investments, plus gains on financial instruments \u2014 the core money a bank makes from lending. Reported as 'Interest income and gains on financial instruments'.",
+      "yoy": "+52%"
+    },
+    {
+      "amountM": 753,
+      "name": "Fee and commission income",
+      "note": "Fees and commissions from cards and other services customers use in the app.",
+      "yoy": "+39%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426004225/nufs2q26_6k.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.1B",
+      "statColor": "#3e8e5a",
+      "text": "Net income reached $1,061M, up from $637M a year ago \u2014 the first time Nu has earned more than a billion dollars in a single quarter. Return on equity was 33%.",
+      "title": "First billion-dollar profit quarter"
+    },
+    {
+      "stat": "139M",
+      "statColor": "#3d7bc8",
+      "text": "Nu added about 4 million customers in the quarter to reach 138.9 million \u2014 almost 118 million in Brazil, 15.8 million in Mexico and over 5 million in Colombia. In August it launched as a full bank in Mexico.",
+      "title": "Still adding millions of customers"
+    },
+    {
+      "stat": "$39.4B",
+      "statColor": "#5b6b7c",
+      "text": "The credit portfolio grew 37% year over year to $39.4B, while deposits rose to $45.3B. Loan-loss costs remain the swing factor: expected credit losses were $1,482M in the quarter, the single biggest cost after interest paid.",
+      "title": "Lending is growing faster than deposits"
+    }
+  ],
+  "ticker": "NU",
+  "verdict": "Nu passed $1 billion in quarterly profit for the first time, as revenue rose 50% in dollar terms and its app-based bank reached 139 million customers across Brazil, Mexico and Colombia."
+}

@@ -1,0 +1,207 @@
+{
+  "ticker": "XOM",
+  "company": "ExxonMobil",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "ExxonMobil's profit more than doubled to $15.4 billion as surging refining margins lifted Energy Products earnings to $7.2 billion and sales rose 33% to $110.5 billion.",
+  "revenueYoY": "+33%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+33%",
+      "note": "Sales and other operating revenue of $110.5B, up from $83.3B a year ago; total revenue including other income was $113.2B"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.72",
+      "note": "Up from $1.76 a year ago; adjusted EPS was $4.23, excluding timing effects and identified items"
+    },
+    {
+      "label": "Energy Products earnings",
+      "value": "$7.2B",
+      "note": "Refining and fuels earnings (GAAP), up from $1.8B a year ago on surging margins; $9.1B on an adjusted basis"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$19.1B",
+      "note": "Cash flow from operations was $25.7B; $9.4B was returned to shareholders in dividends and buybacks"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Upstream",
+      "amountM": 11192,
+      "note": "Oil and gas production \u2014 crude and gas sold to outside buyers. Most output goes to ExxonMobil's own refineries, so earnings are the better gauge: $7.1B, up from $5.7B a year ago.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "Energy Products",
+      "amountM": 87155,
+      "note": "Refining and fuels \u2014 gasoline, diesel and jet fuel sold worldwide, by far the largest sales line. Earnings jumped to $7.2B from $1.8B a year ago as refining margins surged.",
+      "yoy": "+39%"
+    },
+    {
+      "name": "Chemical Products",
+      "amountM": 6445,
+      "note": "Basic chemicals and plastics that go into packaging, cars and everyday goods. Earnings were $735M, up from $515M a year ago.",
+      "yoy": "+13%",
+      "compact": true
+    },
+    {
+      "name": "Specialty Products",
+      "amountM": 5704,
+      "note": "Higher-value products \u2014 lubricants, basestocks and specialty fluids. Earnings rose to $1.3B from $740M a year ago on higher basestock margins.",
+      "yoy": "+28%",
+      "compact": true
+    },
+    {
+      "name": "Other",
+      "amountM": 7,
+      "note": "Sales and other operating revenue in Corporate and Financing that is not part of a reportable segment \u2014 the small remainder so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "flow": {
+    "revenueM": 110503,
+    "costOfRevenueM": 76943,
+    "grossProfitM": 33560,
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 2677,
+        "note": "Sales teams, offices and running the company."
+      },
+      {
+        "name": "Depreciation and depletion",
+        "amountM": 6803,
+        "note": "The cost of wells, refineries and plants wearing out over time, including impairments."
+      },
+      {
+        "name": "Other taxes and duties",
+        "amountM": 5226,
+        "note": "Taxes and duties on products and operations \u2014 separate from income tax."
+      },
+      {
+        "name": "Exploration expenses",
+        "amountM": 116,
+        "note": "Searching for new oil and gas, including dry holes."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 183,
+        "note": "The cost of borrowing money."
+      },
+      {
+        "name": "Non-service pension and postretirement benefit expense",
+        "amountM": -20,
+        "note": "A credit this quarter: pension and retiree-benefit costs outside service cost reduced expenses by $20M.",
+        "shortName": "Pension credit"
+      }
+    ],
+    "operatingIncomeM": 18575,
+    "otherIncomeM": 2052,
+    "taxM": 5214,
+    "netIncomeM": 15413
+  },
+  "follow100": [
+    {
+      "label": "Upstream",
+      "amount": 10.13
+    },
+    {
+      "label": "Energy Products",
+      "amount": 78.87
+    },
+    {
+      "label": "Chemical Products",
+      "amount": 5.83
+    },
+    {
+      "label": "Specialty Products",
+      "amount": 5.16
+    },
+    {
+      "label": "Other",
+      "amount": 0.01
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -69.63
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.42
+    },
+    {
+      "label": "Depreciation & depletion",
+      "amount": -6.16
+    },
+    {
+      "label": "Other taxes & duties",
+      "amount": -4.73
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.1
+    },
+    {
+      "label": "Interest",
+      "amount": -0.17
+    },
+    {
+      "label": "Pension credit",
+      "amount": 0.02
+    },
+    {
+      "label": "Other income",
+      "amount": 1.86
+    },
+    {
+      "label": "Tax",
+      "amount": -4.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.95
+    }
+  ],
+  "follow100Note": "The pension line is a $20M credit, so it adds $0.02 back for every $100 of sales. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$7.2B",
+      "statColor": "#3e8e5a",
+      "title": "Refining carried the quarter",
+      "text": "Energy Products earnings (GAAP) rose to $7.2B from $1.8B a year ago \u2014 $9.1B adjusted \u2014 as refining margins surged, year-to-date fuels utilization hit a record excluding Middle East impacts, and crude units at the U.S. Gulf Coast refineries ran at 100%."
+    },
+    {
+      "stat": "+104%",
+      "statColor": "#3d7bc8",
+      "title": "Profit more than doubled",
+      "text": "Net income rose to $15.4B from $7.5B a year ago on sales up 33% to $110.5B. Upstream earned $7.1B on production of 4,496 thousand barrels of oil-equivalent a day, and both Guyana and Kearl passed 1 billion barrels produced."
+    },
+    {
+      "stat": "$1.07",
+      "statColor": "#5b6b7c",
+      "title": "Dividend up for a 44th year",
+      "text": "ExxonMobil declared a fourth-quarter dividend of $1.07 a share, payable December 10, 2026 \u2014 its 44th straight annual increase. It returned $9.4B to shareholders in the quarter ($4.3B of dividends and $5.1B of buybacks) and announced $20B of buybacks for 2027."
+    }
+  ],
+  "oneTimers": [
+    "A $675M gain on the sale of assets in U.S. Upstream, partly offset by $226M of other identified items, for a net $449M gain included in GAAP earnings.",
+    "Unfavorable timing effects of $2,541M \u2014 mainly unsettled derivatives marked to end-of-quarter prices before the matching physical sales are booked \u2014 cut GAAP earnings. Excluding timing effects and identified items, adjusted earnings were $17,505M, or $4.23 a share."
+  ],
+  "otherDetail": "Income from equity affiliates of $1,126M plus other income of $1,535M, less the $609M of net income attributable to noncontrolling interests \u2014 outside partners' shares of joint ventures \u2014 leaving $2,052M.",
+  "footerNote": "Revenue is sales and other operating revenue; equity and other income are shown as other income in the flow.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/livef8k3q26991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm"
+    }
+  ]
+}

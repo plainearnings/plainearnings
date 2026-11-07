@@ -1,0 +1,156 @@
+{
+  "company": "Hims & Hers",
+  "flow": {
+    "costOfRevenueM": 272,
+    "grossProfitM": 481,
+    "netIncomeM": -86,
+    "operatingIncomeM": -97,
+    "opex": [
+      {
+        "amountM": 262,
+        "name": "Marketing",
+        "note": "Ads and the cost of signing up new customers \u2014 the biggest running cost. Up 20% YoY, but a smaller share of sales than a year ago (35% vs 40%)."
+      },
+      {
+        "amountM": 96,
+        "name": "Operations and support",
+        "note": "Fulfilling orders, running pharmacies and supporting customers. Up 44% YoY as order volumes grew and acquired businesses were added."
+      },
+      {
+        "amountM": 55,
+        "name": "Technology and development",
+        "note": "Building the app, website and AI clinical tools, and paying the engineers behind them. Up 45% YoY."
+      },
+      {
+        "amountM": 165,
+        "name": "General and administrative",
+        "note": "Running the company \u2014 finance, legal and admin. Up 146% YoY; it includes a $48M legal charge and $29M of acquisition costs (see one-offs)."
+      }
+    ],
+    "otherIncomeM": 5,
+    "revenueM": 753,
+    "taxM": -6
+  },
+  "follow100": [
+    {
+      "amount": 82.6,
+      "label": "United States"
+    },
+    {
+      "amount": 17.4,
+      "label": "Rest of the world"
+    },
+    {
+      "amount": -36.12,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -34.79,
+      "label": "Marketing"
+    },
+    {
+      "amount": -12.75,
+      "label": "Operations & support"
+    },
+    {
+      "amount": -7.3,
+      "label": "Tech & development"
+    },
+    {
+      "amount": -21.91,
+      "label": "General & admin"
+    },
+    {
+      "amount": 0.66,
+      "label": "Other income"
+    },
+    {
+      "amount": 0.8,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": -11.42,
+      "label": "Net loss"
+    }
+  ],
+  "footerNote": "Reports in thousands; figures are rounded to $M (operations and support $96M, exact $95.5M, so the lines add up).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Revenue was $753M, vs $545M a year ago",
+      "value": "+38%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "vs $0.17 a year ago \u2014 the company made a loss this quarter",
+      "value": "-$0.37"
+    },
+    {
+      "label": "Subscribers",
+      "note": "Up 19% YoY \u2014 people on a recurring subscription plan at quarter end",
+      "value": "2.89M"
+    },
+    {
+      "label": "International revenue",
+      "note": "Up 1,641% YoY, from $8M \u2014 the Eucalyptus acquisition closed in June",
+      "value": "$131M"
+    }
+  ],
+  "oneTimers": [
+    "General and administrative costs include a $48M legal contingencies charge in Q2 alone ($63M in the first half) that the company treats as non-recurring in its Adjusted EBITDA \u2014 it is the main reason that line jumped 146% YoY.",
+    "General and administrative costs also include $29M of acquisition and transaction-related costs in Q2, largely tied to buying Eucalyptus \u2014 an Australian digital-health platform bought for a $969M accounting purchase price ($225M cash up front, the rest deferred and contingent) that closed in June 2026.",
+    "Operations and support includes $5M of restructuring and other charges in Q2 ($38M in the first half, including inventory write-downs in cost of revenue in Q1) tied to the company's 2026 shift in its US weight-loss offering toward branded GLP-1 medicines, with compounded GLP-1s offered only on a limited scale."
+  ],
+  "otherDetail": "Other income was $5M, net: a $5M gain from the change in value of equity securities, plus $4M of other income, less a $4M loss from the change in value of liabilities.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-08-10",
+  "revenueYoY": "+38%",
+  "segments": [
+    {
+      "amountM": 622,
+      "name": "United States",
+      "note": "Sales in the US \u2014 mostly online telehealth (care by app or phone) for weight loss, hair, skin and other treatments, plus the products that go with them. Up 16%, helped by branded weight-loss offerings; the Hers brand alone was over 40% of US sales.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 131,
+      "name": "Rest of the world",
+      "note": "Sales outside the US. Up more than 17-fold, mainly because of recent acquisitions \u2014 Eucalyptus, an Australian digital-health platform, closed in June, on top of earlier deals in Europe and Canada.",
+      "yoy": "+1,641%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+38%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 38% to $753M. US sales grew 16% to $622M, while sales outside the US jumped from $8M to $131M after the Eucalyptus deal closed in June. Subscribers reached 2.89M, up 19%, and each subscriber brought in $92 a month on average, up 21%. Management raised full-year revenue guidance to $3.1B\u2013$3.3B.",
+      "title": "Growth sped up again \u2014 mostly abroad"
+    },
+    {
+      "stat": "64%",
+      "statColor": "#cf5f4e",
+      "text": "Gross margin fell from 76% to 64%. The cost of revenue more than doubled, up 112% to $272M, because weight-loss offerings \u2014 including GLP-1 drugs (medicines first used for diabetes, now widely used for weight loss) \u2014 cost more to buy, package and ship, and ship more often, and the fast-growing international mix costs more to serve.",
+      "title": "Each sale got less profitable"
+    },
+    {
+      "stat": "-$86M",
+      "statColor": "#5b6b7c",
+      "text": "The bottom line swung from a $43M profit a year ago to an $86M loss. General and administrative costs alone rose $98M, including a $48M legal charge and $29M of deal costs. Leaving out those and similar items, the company's own Adjusted EBITDA measure was still positive at $60M, down from $82M a year ago.",
+      "title": "One-off costs tipped it into a loss"
+    }
+  ],
+  "ticker": "HIMS",
+  "verdict": "Hims & Hers grew revenue 38% to $753M as its newly bought international business surged, but higher product costs and a big jump in admin and legal costs swung it to an $86M loss."
+}

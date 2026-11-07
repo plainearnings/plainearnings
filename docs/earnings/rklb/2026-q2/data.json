@@ -1,0 +1,136 @@
+{
+  "company": "Rocket Lab",
+  "flow": {
+    "costOfRevenueM": 149.49,
+    "grossProfitM": 84.576,
+    "netIncomeM": -49.258,
+    "operatingIncomeM": -57.514,
+    "opex": [
+      {
+        "amountM": 82.429,
+        "name": "Research and development, net",
+        "note": "Developing the Neutron rocket, Electron and spacecraft \u2014 up 25% from $66M a year earlier."
+      },
+      {
+        "amountM": 59.661,
+        "name": "Selling, general and administrative",
+        "note": "Running and selling the company \u2014 up 50% from $40M a year earlier, including deal costs for acquisitions."
+      }
+    ],
+    "otherIncomeM": 13.583,
+    "revenueM": 234.066,
+    "taxM": 5.327
+  },
+  "follow100": [
+    {
+      "amount": 19.05,
+      "label": "Launch Services"
+    },
+    {
+      "amount": 80.95,
+      "label": "Space Systems"
+    },
+    {
+      "amount": -63.87,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -35.22,
+      "label": "R&D"
+    },
+    {
+      "amount": -25.49,
+      "label": "SG&A"
+    },
+    {
+      "amount": 5.8,
+      "label": "Other income"
+    },
+    {
+      "amount": -2.28,
+      "label": "Tax"
+    },
+    {
+      "amount": -21.04,
+      "label": "Net loss"
+    }
+  ],
+  "footerNote": "Net loss is the filed $49.3M; the loss per share attributable to common stockholders was -$0.08.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Revenue was a record $234M, up from $144M in Q2 2025",
+      "value": "+62%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "Basic and diluted; net loss was $49M, vs -$0.13 and a $66M loss a year earlier",
+      "value": "-$0.08"
+    },
+    {
+      "label": "Backlog",
+      "note": "Orders booked but not yet flown or built; up 137% year over year \u2014 $1.42B Space Systems and $940M Launch Services",
+      "value": "$2.36B"
+    },
+    {
+      "label": "Cash",
+      "note": "Cash and equivalents at June 30, plus $258M in marketable securities",
+      "value": "$2.13B"
+    }
+  ],
+  "oneTimers": [
+    "$8.6M of transaction costs sit inside SG&A in Q2 (per the non-GAAP reconciliation in the release) \u2014 deal costs tied to closing the Mynaric and Motiv acquisitions and the announced Iridium deal. They are part of the reported $49M loss, not on top of it."
+  ],
+  "otherDetail": "Other income was $13.6M net: $16.5M of interest income on the large cash pile, partly offset by a $2.0M foreign-exchange loss, $0.6M of interest expense and $0.4M of other expense.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-08-10",
+  "revenueYoY": "+62%",
+  "segments": [
+    {
+      "amountM": 44.586,
+      "name": "Launch Services",
+      "note": "Rockets: Electron and HASTE launches. Six Electron missions flew in the quarter, but sales dipped on the timing of when launch revenue is recognised.",
+      "yoy": "-4%"
+    },
+    {
+      "amountM": 189.48,
+      "name": "Space Systems",
+      "note": "Satellites, spacecraft parts and mission services \u2014 now about four-fifths of all sales, boosted by large government satellite work.",
+      "yoy": "+94%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm"
+    },
+    {
+      "label": "10-Q filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+62%",
+      "statColor": "#3d7bc8",
+      "text": "Space Systems revenue nearly doubled to $189M and is now 81% of sales. Launch Services slipped 4% to $45M even though six Electron missions flew, because two were HASTE missions whose revenue had partly been recognised in earlier quarters.",
+      "title": "Growth came from satellites, not just rockets"
+    },
+    {
+      "stat": "$2.36B",
+      "statColor": "#3e8e5a",
+      "text": "Backlog \u2014 orders booked but not yet flown or built \u2014 hit $2.36B, up 137% year over year, with about 45% expected to turn into revenue within 12 months. Rocket Lab guided Q3 revenue to $250M\u2013$265M, another record if it lands.",
+      "title": "Backlog is at a record \u2014 and Q3 is guided higher"
+    },
+    {
+      "stat": "-$49M",
+      "statColor": "#b8443c",
+      "text": "Gross profit jumped to $85M, yet $82M of research and development plus $60M of SG&A left a $58M operating loss. The $49M net loss was smaller than the $66M loss a year earlier, and a $2.13B cash balance gives the company room to keep funding Neutron, whose first Stage 1 tank is targeted for delivery to the launch pad in Q4 2026.",
+      "title": "Still losing money, but the loss narrowed"
+    }
+  ],
+  "ticker": "RKLB",
+  "verdict": "Rocket Lab grew revenue 62% to a record $234M and lifted its backlog to a record $2.36B, but it still lost $49M as research and overhead outran its gross profit."
+}

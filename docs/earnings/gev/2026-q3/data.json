@@ -1,0 +1,158 @@
+{
+  "company": "GE Vernova",
+  "flow": {
+    "costOfRevenueM": 9536,
+    "grossProfitM": 3106,
+    "netIncomeM": 1289,
+    "operatingIncomeM": 1394,
+    "opex": [
+      {
+        "amountM": 1354,
+        "name": "Selling, general and administrative",
+        "note": "Sales teams, offices and running the company. Grew slower than revenue \u2014 $1,354M vs $1,221M a year ago."
+      },
+      {
+        "amountM": 358,
+        "name": "Research and development",
+        "note": "Developing new turbines, grid and energy-transition technology \u2014 about $0.4B in the quarter as reported in the release narrative."
+      }
+    ],
+    "otherIncomeM": 388,
+    "revenueM": 12642,
+    "taxM": 493
+  },
+  "follow100": [
+    {
+      "amount": 47.99,
+      "label": "Power"
+    },
+    {
+      "amount": 30.55,
+      "label": "Electrification"
+    },
+    {
+      "amount": 21.68,
+      "label": "Wind"
+    },
+    {
+      "amount": -0.22,
+      "label": "Other / eliminations"
+    },
+    {
+      "amount": -75.43,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -10.71,
+      "label": "SG&A"
+    },
+    {
+      "amount": -2.83,
+      "label": "R&D"
+    },
+    {
+      "amount": 3.07,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.9,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.2,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Gross profit is shown as $3,106M (revenue less reported costs) so the lines add up exactly; the release rounds it to $3,107M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Revenue of $12.6B, up from $10.0B a year ago; +18% organically, led by Power and Electrification",
+      "value": "+27%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "Up from $1.64 a year ago; net income was $1.3B, a 10.2% margin",
+      "value": "$4.81"
+    },
+    {
+      "label": "Backlog",
+      "note": "Orders of $29.3B in the quarter, +96% organically; backlog grew $20B in three months",
+      "value": "$197B"
+    },
+    {
+      "label": "Electrification revenue",
+      "note": "+51% as reported (+16% organically) \u2014 grid equipment is booming, helped by the Prolec GE acquisition",
+      "value": "$3.9B"
+    }
+  ],
+  "oneTimers": [
+    "Separation costs of $31M (from the spin-out from GE) and restructuring charges of $6M were excluded from adjusted EBITDA of $1,943M.",
+    "GE Vernova paid about $350M in the quarter to transfer part of its retiree benefit obligations to an insurer, which took over legal and administrative responsibility for them.",
+    "The company resolved all outstanding litigation over the Vineyard Wind offshore project in Massachusetts."
+  ],
+  "otherDetail": "Other income of $388M is made up of $71M of interest and other financial income, $212M of non-operating benefit income (pension and retiree-benefit plans), and $105M of other income \u2014 net. That $105M includes $31M of equity-method investment income, $35M of gains on purchases and sales of business interests, $21M from derivatives, $7M of net interest and investment income, $4M of licensing income and $6M of other items (components total $104M; $1M rounding in the filing).",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+27%",
+  "segments": [
+    {
+      "amountM": 6067,
+      "name": "Power",
+      "note": "Gas turbines and other power-plant equipment and services \u2014 the biggest business. Revenue +25% on heavy-duty and aeroderivative turbine deliveries; gas equipment backlog plus slot reservations reached 122 GW.",
+      "yoy": "+25%"
+    },
+    {
+      "amountM": 3862,
+      "name": "Electrification",
+      "note": "Grid equipment \u2014 substations, transformers and high-voltage gear that move electricity. Revenue +51% as reported, including Prolec GE; +16% organically.",
+      "yoy": "+51%"
+    },
+    {
+      "amountM": 2741,
+      "name": "Wind",
+      "note": "Wind turbines, onshore and offshore, plus servicing. Revenue +4%, and the segment swung to a small $72M EBITDA profit from a $61M loss a year ago.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": -28,
+      "name": "Other/eliminations",
+      "note": "Other revenues minus sales between GE Vernova's own segments, removed so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gevpressrelease3q26.htm"
+    },
+    {
+      "label": "10-Q filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$29.3B",
+      "statColor": "#3d7bc8",
+      "text": "Orders rose 96% organically to $29.3B, driven by Power equipment, and total backlog grew $20B in one quarter to $197B. Gas Power equipment backlog plus slot reservation agreements rose from 116 GW to 122 GW, and the company now expects at least 130 GW under contract by year-end 2026.",
+      "title": "Orders nearly doubled"
+    },
+    {
+      "stat": "+51%",
+      "statColor": "#3e8e5a",
+      "text": "Electrification revenue jumped 51% to $3.9B (+16% without the Prolec GE acquisition) as utilities buy substations and transmission gear, while Power revenue rose 25% to $6.1B. Electrification equipment backlog reached $42.2B, up 60% in a year.",
+      "title": "Grid gear is the growth star"
+    },
+    {
+      "stat": "$5.4B",
+      "statColor": "#5b6b7c",
+      "text": "Free cash flow was $5.4B, up from $732M a year ago, lifting the cash balance to $16.8B. Management raised full-year 2026 guidance to $46.5\u2013$47.5B of revenue and $16\u2013$17B of free cash flow, and the board lifted the share-buyback authorization to $20B.",
+      "title": "Cash poured in, guidance went up"
+    }
+  ],
+  "ticker": "GEV",
+  "verdict": "GE Vernova had a very strong quarter \u2014 sales jumped 27% to $12.6B as surging demand for gas turbines and grid equipment swelled orders to $29.3B and the backlog to $197B, producing $1.3B of profit."
+}

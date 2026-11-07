@@ -1,0 +1,148 @@
+{
+  "ticker": "MELI",
+  "company": "MercadoLibre",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "MercadoLibre grew revenue 45% to $10.8B as shoppers bought more often and Mercado Pago handled $109B of payments, while spending on free shipping and new warehouses held operating profit to $676M.",
+  "revenueYoY": "+45%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+45%",
+      "note": "Net revenues & financial income of $10.8B vs $7.4B in Q3 2025, in dollars; up 41% ignoring currency moves"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$8.83",
+      "note": "Diluted earnings per share, vs $8.32 a year ago; net income was $448M"
+    },
+    {
+      "label": "Gross merchandise volume",
+      "value": "$22.8B",
+      "note": "The total value of goods sold on the marketplace (GMV), up 38% in dollars; 94 million unique buyers, up 22%"
+    },
+    {
+      "label": "Total payment volume",
+      "value": "$108.8B",
+      "note": "The total value of payments processed by Mercado Pago (TPV), up 53% in dollars; 93 million monthly fintech users"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commerce",
+      "amountM": 6141,
+      "note": "Marketplace fees, shipping, first-party product sales, advertising and MELI+ subscriptions.",
+      "yoy": "+47%"
+    },
+    {
+      "name": "Fintech",
+      "amountM": 4609,
+      "note": "Mercado Pago payment fees, financing fees and interest earned on consumer and merchant credit, plus point-of-sale devices.",
+      "yoy": "+42%"
+    }
+  ],
+  "flow": {
+    "revenueM": 10750,
+    "costOfRevenueM": 6366,
+    "grossProfitM": 4384,
+    "opex": [
+      {
+        "name": "Product and technology development",
+        "amountM": 745,
+        "note": "Building and running the marketplace, payments platform and AI tools."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 1243,
+        "note": "Advertising and customer acquisition, including a bigger affiliates program push in Brazil."
+      },
+      {
+        "name": "Provision for doubtful accounts",
+        "amountM": 1342,
+        "note": "Money set aside for loans and credit-card balances that may not be repaid, as the credit book grows."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 378,
+        "note": "Staff and running the company, including hiring tied to new fulfillment capacity."
+      }
+    ],
+    "operatingIncomeM": 676,
+    "otherIncomeM": -75,
+    "taxM": 153,
+    "netIncomeM": 448
+  },
+  "follow100": [
+    {
+      "label": "Commerce",
+      "amount": 57.13
+    },
+    {
+      "label": "Fintech",
+      "amount": 42.87
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.22
+    },
+    {
+      "label": "Product & tech",
+      "amount": -6.93
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.56
+    },
+    {
+      "label": "Bad-debt provision",
+      "amount": -12.48
+    },
+    {
+      "label": "General & admin",
+      "amount": -3.52
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.7
+    },
+    {
+      "label": "Tax",
+      "amount": -1.42
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.17
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+45%",
+      "statColor": "#3d7bc8",
+      "title": "Growth stayed very fast",
+      "text": "Revenue reached $10,750M, up 45% in dollars and 41% ignoring currency moves, with Brazil the strongest of the big markets. Commerce revenue rose 47% in dollars and Fintech 42%, so both halves of the business grew at a similar pace."
+    },
+    {
+      "stat": "6.3%",
+      "statColor": "#cf5f4e",
+      "title": "Margin was spent on purpose",
+      "text": "Income from operations fell 6% to $676M, a 6.3% margin, as more free shipping, new fulfillment space added ahead of peak season and extra affiliate marketing in Brazil cost more than they returned this quarter. Net income still rose 6% to $448M on a lower tax bill and smaller currency losses."
+    },
+    {
+      "stat": "~$18B",
+      "statColor": "#3e8e5a",
+      "title": "The credit book keeps scaling",
+      "text": "The credit portfolio reached almost $18B, up 62% year over year, with credit cards now 47% of it. Late loans stayed contained \u2014 the 15\u201390 day non-performing ratio was 7.0%, broadly stable and close to all-time lows \u2014 while the lending spread after losses (NIMAL) was 20.1%."
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Below operating income, $55M of interest income and other financial gains was more than offset by $58M of interest expense and other financial losses and $72M of foreign-currency losses, for a net other expense of $75M.",
+  "footerNote": "MercadoLibre reports 'net revenues and financial income' \u2014 marketplace sales plus Mercado Pago's financial income; its cost line includes financial expenses.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/meli-20260930xex991.htm"
+    }
+  ]
+}

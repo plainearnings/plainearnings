@@ -1,0 +1,175 @@
+{
+  "company": "Circle",
+  "flow": {
+    "costOfRevenueM": 412,
+    "grossProfitM": 453,
+    "netIncomeM": 226,
+    "operatingIncomeM": 208,
+    "opex": [
+      {
+        "amountM": 124,
+        "name": "Compensation expenses",
+        "note": "Pay and benefits for staff, including stock-based compensation."
+      },
+      {
+        "amountM": 60,
+        "name": "General and administrative expenses",
+        "note": "Running the company \u2014 offices, legal, finance and admin."
+      },
+      {
+        "amountM": 34,
+        "name": "Depreciation and amortization expenses",
+        "note": "Spreading the cost of software, equipment and acquired assets over their useful lives."
+      },
+      {
+        "amountM": 18,
+        "name": "IT infrastructure costs",
+        "note": "The computing and systems that run the platform."
+      },
+      {
+        "amountM": 11,
+        "name": "Marketing expenses",
+        "note": "Promoting USDC and Circle's platform."
+      },
+      {
+        "amountM": -2,
+        "name": "Digital assets losses (gains)",
+        "note": "A $2M gain \u2014 digital assets held in day-to-day operations rose in value, so this line reduced expenses.",
+        "shortName": "Digital asset gains"
+      }
+    ],
+    "otherIncomeM": 20,
+    "revenueM": 865,
+    "taxM": 2
+  },
+  "follow100": [
+    {
+      "amount": 76.07,
+      "label": "Reserve income"
+    },
+    {
+      "amount": 23.93,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -47.63,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -14.34,
+      "label": "Compensation"
+    },
+    {
+      "amount": -6.94,
+      "label": "G&A"
+    },
+    {
+      "amount": -3.93,
+      "label": "Depreciation & amort."
+    },
+    {
+      "amount": -2.08,
+      "label": "IT infrastructure"
+    },
+    {
+      "amount": -1.27,
+      "label": "Marketing"
+    },
+    {
+      "amount": 0.23,
+      "label": "Digital asset gains"
+    },
+    {
+      "amount": 2.31,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.23,
+      "label": "Tax"
+    },
+    {
+      "amount": 26.13,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 Circle took in, about $48 went straight back out to distribution partners \u2014 yet thanks to the $182M ARC token presale, it still kept $26 as profit.",
+  "footerNote": "Circle's cost of revenue is mostly the cut of reserve income paid to USDC distribution partners like Coinbase.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Total revenue and reserve income was $865M, up from $740M a year ago",
+      "value": "+17%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "vs $0.64 a year ago; net income was $226M",
+      "value": "$0.84"
+    },
+    {
+      "label": "USDC in circulation",
+      "note": "End of period, flat vs a year ago; the average for the quarter was $73.3B, up 8%",
+      "value": "$73.9B"
+    },
+    {
+      "label": "ARC token presale",
+      "note": "Presale revenue recognized in Other revenue as the Arc network launched on Sep 16 \u2014 the reason Other revenue jumped 627%",
+      "value": "$182M"
+    }
+  ],
+  "oneTimers": [
+    "$182M of Other revenue came from the ARC token presale \u2014 gross proceeds were $242M for 807.5 million tokens at $0.30 each, with the rest still deferred. It is launch-related revenue, not recurring subscription or transaction income.",
+    "Operating expenses include a $9M restructuring charge for a workforce reduction of about 5%, $8M of acquisition-related costs (mainly the pending Tazapay deal) and $43M of stock-based compensation \u2014 items Circle excludes from its non-GAAP Adjusted EBITDA of $317M."
+  ],
+  "otherDetail": "Other income of $20M, net: $19M of gains on digital assets held for investment and strategic investments plus $14M of interest on corporate cash, partly offset by a $14M fair-value loss on convertible debt, warrants, embedded derivatives and U.S. Treasury securities, plus $1M of foreign-currency gains.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+17%",
+  "segments": [
+    {
+      "amountM": 658,
+      "name": "Reserve income",
+      "note": "Interest earned on the cash and U.S. Treasuries backing USDC (a dollar-tracking crypto token). It fell because the return rate on those reserves dropped to 3.5% (down 61 basis points), even though average USDC in circulation grew 8% to $73.3B.",
+      "yoy": "-8%"
+    },
+    {
+      "amountM": 207,
+      "name": "Other revenue",
+      "note": "Transaction, subscription and other revenue. Almost all of the jump is $182M recognized from the ARC token presale; subscription and services brought in $20M and transaction revenue $5M.",
+      "yoy": "+627%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/finalq3epr-110326.htm"
+    },
+    {
+      "label": "10-Q filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+627%",
+      "statColor": "#3d7bc8",
+      "text": "Other revenue jumped to $207M because Circle recognized $182M from preselling ARC, the token for its new Arc blockchain, which launched on September 16. Without the presale, total revenue would have fallen versus a year ago.",
+      "title": "A token presale did the heavy lifting"
+    },
+    {
+      "stat": "-8%",
+      "statColor": "#b8443c",
+      "text": "Reserve income \u2014 the interest on the cash backing USDC \u2014 fell 8% to $658M as the return rate dropped 61 basis points to 3.5%, outweighing 8% growth in average USDC in circulation to $73.3B.",
+      "title": "Lower rates are squeezing the core engine"
+    },
+    {
+      "stat": "52%",
+      "statColor": "#3e8e5a",
+      "text": "After paying distribution partners, Circle kept 52% of revenue (its RLDC margin), up from 39% a year ago, as distribution costs fell 8% to $412M. Operating income rose to $208M from $81M, and Adjusted EBITDA (non-GAAP) rose 85% to $317M.",
+      "title": "Circle kept more of each dollar"
+    }
+  ],
+  "ticker": "CRCL",
+  "verdict": "Circle earned $226M on $865M of revenue because a one-time $182M ARC token presale more than made up for lower interest rates cutting the interest it earns on the cash backing USDC (a dollar-tracking crypto token)."
+}
