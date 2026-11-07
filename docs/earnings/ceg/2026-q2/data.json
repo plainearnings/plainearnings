@@ -1,0 +1,157 @@
+{
+  "ticker": "CEG",
+  "company": "Constellation Energy",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-06",
+  "revenueYoY": "+23%",
+  "verdict": "Constellation's revenue rose 23% to $7.5B with Calpine now aboard, but unrealized hedge losses cut GAAP profit to $513M even as adjusted earnings rose by a third.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+23%",
+      "note": "Revenue was $7,504M, vs $6,101M a year ago \u2014 the Calpine deal closed in January 2026"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.42",
+      "note": "vs $2.67 a year ago \u2014 held back by unrealized fair-value losses"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.55",
+      "note": "vs $1.91 a year ago \u2014 the company's preferred operating measure"
+    },
+    {
+      "label": "FY guidance (adjusted EPS)",
+      "value": "$11.50\u2013$12.50",
+      "note": "raised from the prior range"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Power sales",
+      "amountM": 5355,
+      "yoy": "+13%",
+      "note": "Electricity sold ($4,959M) plus capacity payments ($396M) \u2014 paying Constellation to keep plants available to the grid. From the 10-Q revenue note."
+    },
+    {
+      "name": "Gas & other contract revenue",
+      "amountM": 488,
+      "yoy": "+19%",
+      "note": "Natural gas sales ($327M) and other customer-contract revenue ($161M), largely from the acquired Calpine business."
+    },
+    {
+      "name": "Other revenue sources",
+      "amountM": 1661,
+      "yoy": "+77%",
+      "note": "Revenue outside customer contracts \u2014 mainly mark-to-market moves on power hedges and similar items. Volatile by nature, and the reason GAAP profit swings."
+    }
+  ],
+  "flow": {
+    "revenueM": 7504,
+    "costOfRevenueM": 4023,
+    "grossProfitM": 3481,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 2253,
+        "note": "Running the nuclear, gas and renewables fleet day to day \u2014 up 39% YoY with Calpine's plants added."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 443,
+        "note": "Spreading the cost of power plants and equipment over their lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 207,
+        "note": "Property and similar taxes \u2014 separate from income tax, which sits below."
+      }
+    ],
+    "operatingIncomeM": 578,
+    "otherIncomeM": 322,
+    "equityM": 6,
+    "taxM": 398,
+    "netIncomeM": 508
+  },
+  "otherDetail": "Other income added $328M in total counting the $6M equity line: $603M of other income (largely nuclear decommissioning trust gains) and a $2M gain on asset sales, minus $283M of net interest expense, plus $6M of income from unconsolidated affiliates.",
+  "oneTimers": [
+    "Unrealized losses on fair-value adjustments (hedges and related items) cost $340M after tax in the quarter \u2014 the biggest single reason GAAP EPS ($1.42) sits far below adjusted operating EPS ($2.55).",
+    "Amortization of commodity contracts acquired with Calpine cost $149M after tax, and Calpine merger and integration costs were $84M after tax; decommissioning-related gains added $221M after tax the other way. Adjusted operating earnings were $920M in total."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm"
+    },
+    {
+      "label": "Form 10-Q \u2014 revenue disaggregation, Note 4 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630.htm"
+    }
+  ],
+  "footerNote": "Adaptation: reported operating income of $580M includes a $2M gain on asset sales; here that gain is counted in other income, so operating income shows as $578M. Total net income was $508M; $513M was attributable to common shareholders because noncontrolling interests absorbed a $5M loss. Constellation had not yet reported Q3 2026 when this page was built, so Q2 2026 is its latest quarter.",
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Calpine transformed the scale",
+      "text": "Revenue rose 23% to $7.5B. The acquired Calpine fleet supplied 27,642 of 89,815 total GWh sold in the quarter, on top of 44,160 GWh of nuclear generation."
+    },
+    {
+      "stat": "920 MW",
+      "statColor": "#3e8e5a",
+      "title": "Big customers are signing long deals",
+      "text": "Constellation signed another 920 MW of 15\u201320-year power purchase agreements for nuclear power starting 2029\u20132032, and raised full-year adjusted EPS guidance to $11.50\u2013$12.50."
+    },
+    {
+      "stat": "$1.42",
+      "statColor": "#cf5f4e",
+      "title": "GAAP profit is the noisy number",
+      "text": "GAAP EPS fell to $1.42 from $2.67 on $340M of after-tax unrealized fair-value losses and Calpine deal costs \u2014 while adjusted operating EPS rose 34% to $2.55. Watch both: the adjustments recur every quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Power sales",
+      "amount": 71.36
+    },
+    {
+      "label": "Gas & other contract revenue",
+      "amount": 6.5
+    },
+    {
+      "label": "Other revenue sources",
+      "amount": 22.13
+    },
+    {
+      "label": "Purchased power & fuel",
+      "amount": -53.61
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": -30.02
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.9
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -2.76
+    },
+    {
+      "label": "Other income",
+      "amount": 4.37
+    },
+    {
+      "label": "Tax",
+      "amount": -5.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 93.23
+    }
+  ]
+}

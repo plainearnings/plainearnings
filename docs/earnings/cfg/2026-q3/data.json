@@ -1,0 +1,154 @@
+{
+  "ticker": "CFG",
+  "company": "Citizens Financial Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-16",
+  "revenueYoY": "+10%",
+  "verdict": "Citizens grew profit 29% to $636M as net interest income rose 13% on a wider lending margin \u2014 and it raised the dividend 13%.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "Total revenue was $2,322M, vs $2,118M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.41",
+      "note": "up 34% YoY, from $1.05"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$1.68B",
+      "note": "up 13% YoY; net interest margin widened to 3.19%"
+    },
+    {
+      "label": "Return on tangible equity",
+      "value": "15.1%",
+      "note": "vs 11.7% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 1675,
+      "yoy": "+13%",
+      "note": "Interest earned on loans and securities minus interest paid on deposits and borrowings \u2014 the bank's core engine. Margin widened 19 bps YoY to 3.19%."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 647,
+      "yoy": "+3%",
+      "note": "Fees and other non-interest income \u2014 record Wealth revenue partly offset lower Mortgage and Capital Markets fees."
+    }
+  ],
+  "flow": {
+    "revenueM": 2322,
+    "costOfRevenueM": 125,
+    "grossProfitM": 2197,
+    "opex": [
+      {
+        "name": "Salaries & employee benefits",
+        "amountM": 750,
+        "note": "Pay and benefits \u2014 the biggest cost, up 6% YoY on the Private Bank and Wealth build-out."
+      },
+      {
+        "name": "Equipment & software",
+        "amountM": 202,
+        "note": "Technology and equipment \u2014 up 3% YoY."
+      },
+      {
+        "name": "Outside services",
+        "amountM": 174,
+        "note": "Outside help \u2014 up 8% YoY, including work on the 'Reimagine the Bank' program."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 160,
+        "note": "Everything else it takes to run the bank."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 107,
+        "note": "Branches and offices \u2014 flat YoY."
+      }
+    ],
+    "operatingIncomeM": 804,
+    "otherIncomeM": 0,
+    "taxM": 168,
+    "netIncomeM": 636
+  },
+  "oneTimers": [
+    "Preferred stock early redemption costs were $4M in the quarter (noted in the release's per-share footnotes)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm"
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses ($125M) plays the role of cost of revenue: revenue minus the provision and running costs gives pre-tax profit of $804M. Net income of $636M is before $37M of preferred dividends; $599M was available to common stockholders.",
+  "takeaways": [
+    {
+      "stat": "3.19%",
+      "statColor": "#3d7bc8",
+      "title": "The lending margin widened",
+      "text": "Net interest margin (fully taxable-equivalent) rose to 3.19%, up 19 bps from a year ago, driving net interest income up 13% to $1,675M. Average loans grew, led by the Private Bank."
+    },
+    {
+      "stat": "0.37%",
+      "statColor": "#3e8e5a",
+      "title": "Credit stayed calm",
+      "text": "Net charge-offs were 0.37% of average loans, stable vs last quarter, and the provision for credit losses fell to $125M from $154M a year ago. The allowance covers 1.47% of loans."
+    },
+    {
+      "stat": "$0.52",
+      "statColor": "#5b6b7c",
+      "title": "More cash back to owners",
+      "text": "Citizens raised its quarterly dividend 13% to $0.52 per share and expanded its buyback capacity to $1.95B. The Private Bank contributed $0.16 of the quarter's $1.41 EPS, with spot deposits of $18.5B."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 72.14
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 27.86
+    },
+    {
+      "label": "Credit costs",
+      "amount": -5.38
+    },
+    {
+      "label": "Salaries & benefits",
+      "amount": -32.3
+    },
+    {
+      "label": "Equipment & software",
+      "amount": -8.7
+    },
+    {
+      "label": "Outside services",
+      "amount": -7.49
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -6.89
+    },
+    {
+      "label": "Occupancy",
+      "amount": -4.61
+    },
+    {
+      "label": "Tax",
+      "amount": -7.24
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 72.61
+    }
+  ]
+}

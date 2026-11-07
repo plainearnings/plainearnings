@@ -1,0 +1,155 @@
+{
+  "ticker": "CF",
+  "company": "CF Industries",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+12%",
+  "verdict": "CF earned $436M for its owners in Q3 as higher nitrogen prices lifted sales 12% to $1.86B \u2014 and a $62M insurance payout softened the hit from the Yazoo City outage.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "Net sales were $1,860M, vs $1,659M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.87",
+      "note": "vs $2.19 a year ago \u2014 attributable to common stockholders"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$833M",
+      "note": "vs $667M a year ago"
+    },
+    {
+      "label": "Share buybacks",
+      "value": "$367M",
+      "note": "3.0M shares repurchased in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "UAN",
+      "amountM": 639,
+      "yoy": "+24%",
+      "note": "Urea ammonium nitrate solution \u2014 a liquid fertilizer. The largest segment this quarter; volumes rose 27%."
+    },
+    {
+      "name": "Ammonia",
+      "amountM": 534,
+      "yoy": "+17%",
+      "note": "Anhydrous ammonia \u2014 the base nitrogen product, sold as fertilizer and for industrial uses. Prices rose 27% per ton."
+    },
+    {
+      "name": "Granular urea",
+      "amountM": 456,
+      "yoy": "+8%",
+      "note": "Solid urea fertilizer, upgraded from ammonia on-site."
+    },
+    {
+      "name": "Other",
+      "amountM": 164,
+      "yoy": "+17%",
+      "note": "Diesel exhaust fluid, urea liquor, nitric acid and similar products."
+    },
+    {
+      "name": "AN",
+      "amountM": 67,
+      "yoy": "-45%",
+      "note": "Ammonium nitrate \u2014 fertilizer and explosives ingredient. Sales halved because the Yazoo City complex outage cut supply."
+    }
+  ],
+  "flow": {
+    "revenueM": 1860,
+    "costOfRevenueM": 1140,
+    "grossProfitM": 720,
+    "opex": [
+      {
+        "name": "SG&A & other operating items, net",
+        "amountM": 23,
+        "note": "Selling, general and administrative costs of $87M, mostly offset by a $62M business-interruption insurance recovery for the Yazoo City outage and $2M of other operating income \u2014 a net $23M cost."
+      }
+    ],
+    "operatingIncomeM": 697,
+    "otherIncomeM": -82,
+    "equityM": 4,
+    "taxM": 99,
+    "netIncomeM": 520
+  },
+  "otherDetail": "Interest and other items cost $78M net after counting the $4M equity line: $168M of interest expense, partly offset by $92M of interest income, plus $6M of other non-operating costs and $4M of earnings from an operating affiliate.",
+  "oneTimers": [
+    "A $62M business-interruption insurance recovery (for the November 2025 incident and ongoing outage at the Yazoo City complex) is counted inside operating results \u2014 without it, operating costs net would have been about $85M and operating earnings about $639M on this page's basis.",
+    "Nine-month 2026 results (not this quarter) include a gain of about $170M from a litigation settlement and a $23M asset impairment."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000023/cf-11042026_ex991xearnings.htm"
+    }
+  ],
+  "footerNote": "Adaptation: CF reports operating earnings of $701M including $4M of equity income from an affiliate; here that $4M rides on the flow's equity line, so operating income shows as $697M. Total net earnings were $520M; $436M was attributable to common stockholders after $84M went to noncontrolling interests \u2014 mainly the JERA and Mitsui stakes in the Blue Point One joint venture, which CF consolidates.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Prices did the lifting",
+      "text": "Sales rose 12% to $1.86B. Ammonia prices rose 27% per ton and UAN volumes jumped 27%; excluding lost Yazoo City supply, volumes would have been up about 13% overall."
+    },
+    {
+      "stat": "-45%",
+      "statColor": "#cf5f4e",
+      "title": "Yazoo City is still a drag",
+      "text": "AN sales fell 45% to $67M and the segment's gross margin shrank to $3M because the Mississippi complex remains partly out after last November's incident. Insurance recoveries \u2014 $62M this quarter \u2014 are cushioning the loss."
+    },
+    {
+      "stat": "$2.03B",
+      "statColor": "#3e8e5a",
+      "title": "Cash keeps compounding",
+      "text": "Free cash flow over the last twelve months was $2.03B. CF spent $367M on buybacks in Q3 alone, and construction of the low-carbon Blue Point One ammonia plant began in August."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "UAN",
+      "amount": 34.35
+    },
+    {
+      "label": "Ammonia",
+      "amount": 28.71
+    },
+    {
+      "label": "Granular urea",
+      "amount": 24.52
+    },
+    {
+      "label": "Other",
+      "amount": 8.82
+    },
+    {
+      "label": "AN",
+      "amount": 3.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.29
+    },
+    {
+      "label": "Operating costs, net",
+      "amount": -1.24
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.19
+    },
+    {
+      "label": "Tax",
+      "amount": -5.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 72.04
+    }
+  ]
+}

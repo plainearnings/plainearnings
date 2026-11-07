@@ -1,0 +1,143 @@
+{
+  "ticker": "CDW",
+  "company": "CDW Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+18%",
+  "verdict": "CDW sales jumped 18% to $6.75B on enterprise AI demand \u2014 financial-services sales alone rose 73% \u2014 though a richer hardware mix trimmed gross margin to 20.5%.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "Net sales were $6,754M, vs $5,737M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.46",
+      "note": "up 12% YoY; non-GAAP EPS was $3.26, up 20%"
+    },
+    {
+      "label": "Commercial sales",
+      "value": "$4.0B",
+      "note": "up 21% YoY \u2014 CDW's largest customer group"
+    },
+    {
+      "label": "Gross margin",
+      "value": "20.5%",
+      "note": "down from 21.9% \u2014 mix shifted toward lower-margin hardware"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial",
+      "amountM": 3979,
+      "yoy": "+21%",
+      "note": "Sales to businesses: Corporate $2,606M (+17%), Healthcare $802M (+9%) and Financial Services $572M (+73%)."
+    },
+    {
+      "name": "Education",
+      "amountM": 982,
+      "yoy": "+8%",
+      "note": "Sales to schools and universities."
+    },
+    {
+      "name": "Government",
+      "amountM": 913,
+      "yoy": "+10%",
+      "note": "Sales to federal, state and local government."
+    },
+    {
+      "name": "Other (UK & Canada)",
+      "amountM": 880,
+      "yoy": "+26%",
+      "note": "CDW's UK and Canadian operations, reported together."
+    }
+  ],
+  "flow": {
+    "revenueM": 6754,
+    "costOfRevenueM": 5369,
+    "grossProfitM": 1385,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 896,
+        "note": "Sales teams, services staff and running the company \u2014 up 10% YoY on performance pay, workplace-optimization and acquisition costs."
+      }
+    ],
+    "operatingIncomeM": 489,
+    "otherIncomeM": -65,
+    "taxM": 114,
+    "netIncomeM": 310
+  },
+  "otherDetail": "Net interest expense was $66M \u2014 interest on borrowings, net of interest earned \u2014 partly offset by less than $1M of other income; shown as a net $65M cost after rounding.",
+  "oneTimers": [
+    "Non-GAAP operating income was $620M vs $490M GAAP \u2014 the roughly $130M gap is mainly stock-based pay, amortization and the workplace-optimization and acquisition costs CDW excludes from its non-GAAP figures."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to $M from amounts reported to one decimal (net sales $6,754.5M; operating income $489.5M), so some lines differ by $1M from the release.",
+  "takeaways": [
+    {
+      "stat": "+73%",
+      "statColor": "#3d7bc8",
+      "title": "Financial services went all-in on AI",
+      "text": "Sales to financial-services customers rose 73% YoY. Demand centered on data storage, servers, notebooks and software as enterprises build out AI infrastructure."
+    },
+    {
+      "stat": "20.5%",
+      "statColor": "#cf5f4e",
+      "title": "Growth came at thinner margins",
+      "text": "Gross margin fell to 20.5% from 21.9% because the mix shifted into lower-margin product categories \u2014 gross profit still grew 10% to $1,385M on the bigger sales base."
+    },
+    {
+      "stat": "$3.26",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks amplified EPS",
+      "text": "Non-GAAP EPS rose 20% to $3.26, faster than profit growth, because buybacks cut diluted shares to 126M from 132M a year ago. CDW also declared a $0.68 quarterly dividend."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Commercial",
+      "amount": 58.91
+    },
+    {
+      "label": "Education",
+      "amount": 14.54
+    },
+    {
+      "label": "Government",
+      "amount": 13.52
+    },
+    {
+      "label": "Other (UK & Canada)",
+      "amount": 13.03
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.49
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -13.27
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.96
+    },
+    {
+      "label": "Tax",
+      "amount": -1.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 95.41
+    }
+  ]
+}

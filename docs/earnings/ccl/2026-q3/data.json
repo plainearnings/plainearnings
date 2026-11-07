@@ -1,0 +1,132 @@
+{
+  "ticker": "CCL",
+  "company": "Carnival Corporation",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-29",
+  "revenueYoY": "+3%",
+  "verdict": "Carnival set records in its summer quarter \u2014 $8.4B of revenue and $1.9B of profit \u2014 as record bookings for 2027 outran a spike in fuel prices.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+3%",
+      "note": "Revenue was a record $8.4B, vs $8.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.40",
+      "note": "vs $1.33 a year ago; adjusted EPS was $1.43, flat YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$3.0B",
+      "note": "level with last year's record, $110M ahead of June guidance"
+    },
+    {
+      "label": "Customer deposits",
+      "value": "$7.6B",
+      "note": "a third-quarter record, up nearly 7% YoY on flat capacity"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Passenger ticket",
+      "amountM": 5529,
+      "yoy": "+2%",
+      "note": "Ticket sales \u2014 the fare passengers pay to sail. An all-time high, with net yields (revenue per berth-day, constant currency) up 2.4%."
+    },
+    {
+      "name": "Onboard & other",
+      "amountM": 2906,
+      "yoy": "+7%",
+      "note": "Spending once aboard \u2014 drinks, excursions, spas, casinos \u2014 plus tour and other revenue. The fastest-growing piece."
+    }
+  ],
+  "flow": {
+    "revenueM": 8435,
+    "costOfRevenueM": 4628,
+    "grossProfitM": 3807,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 834,
+        "note": "Marketing the cruise brands and running the company ashore \u2014 up 7% YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 754,
+        "note": "Spreading the cost of the fleet and other long-lived assets over their lives \u2014 a non-cash charge."
+      }
+    ],
+    "operatingIncomeM": 2219,
+    "otherIncomeM": -280,
+    "taxM": 16,
+    "netIncomeM": 1923
+  },
+  "otherDetail": "Interest and other items cost $280M net: $285M of interest expense and $23M of debt-extinguishment costs, partly offset by $17M of interest income and $10M of other income.",
+  "oneTimers": [
+    "Adjusted net income was $1,963M vs $1,920M GAAP (attributable) \u2014 the gap is $23M of debt extinguishment and modification costs, $8M of restructuring expense, $2M of ship-sale and impairment losses and $10M of other items the company strips out."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000104/a20263qearningsrelease8-k.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to $M, so lines may differ by $1M from the release (operating income is shown as $2,219M; the release reports $2,220M). Net income of $1,923M includes $3M earned by noncontrolling interests; $1,920M was attributable to Carnival Corporation. Cruise operating costs of $4,628M comprise commissions & transportation $988M, onboard costs $902M, other ship operating $1,081M, payroll $641M, fuel $615M and food $401M.",
+  "takeaways": [
+    {
+      "stat": "+2.4%",
+      "statColor": "#3d7bc8",
+      "title": "Pricing power is real",
+      "text": "Net yields \u2014 what Carnival earns per available berth-day, in constant currency \u2014 rose 2.4% to an all-time high, more than a point ahead of guidance, on flat capacity growth."
+    },
+    {
+      "stat": "$615M",
+      "statColor": "#cf5f4e",
+      "title": "Fuel ate the upside",
+      "text": "Fuel cost $615M vs $451M a year ago \u2014 a $131M ($0.10 per share) drag with currency effects. Adjusted EPS was flat at $1.43 despite record revenue; management still lifted the full-year outlook by over $150M vs June guidance."
+    },
+    {
+      "stat": "$7.6B",
+      "statColor": "#3e8e5a",
+      "title": "2027 is already selling at records",
+      "text": "Customer deposits hit a third-quarter record $7.6B, and 2027 booked occupancy and pricing are at record levels. Carnival also bought back about $1.2B of shares this year and won an S&P upgrade to investment grade."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Passenger ticket",
+      "amount": 65.55
+    },
+    {
+      "label": "Onboard & other",
+      "amount": 34.45
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.87
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -9.89
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -8.94
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.32
+    },
+    {
+      "label": "Tax",
+      "amount": -0.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 77.21
+    }
+  ]
+}

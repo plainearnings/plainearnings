@@ -1,0 +1,160 @@
+{
+  "ticker": "CDNS",
+  "company": "Cadence Design Systems",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "revenueYoY": "+22%",
+  "verdict": "Cadence grew revenue 22% to $1.63B and raised its full-year outlook, but stock pay, deal amortization and a restructuring charge held GAAP profit flat at $290M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+22%",
+      "note": "vs a year ago \u2014 double-digit growth in every product category"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.05",
+      "note": "flat YoY; non-GAAP EPS was $2.11, up from $1.93"
+    },
+    {
+      "label": "Backlog",
+      "value": "$8.2B",
+      "note": "a record \u2014 orders booked but not yet delivered"
+    },
+    {
+      "label": "Recurring revenue",
+      "value": "+18%",
+      "note": "subscription-style revenue, the stable core of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product & maintenance",
+      "amountM": 1487,
+      "yoy": "+23%",
+      "note": "Chip-design software licenses (EDA tools) plus maintenance \u2014 Core EDA grew 20%, IP 24% and System Design & Analysis 30%."
+    },
+    {
+      "name": "Services",
+      "amountM": 146,
+      "yoy": "+11%",
+      "note": "Design services and help getting Cadence tools running at customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1633,
+    "costOfRevenueM": 236,
+    "grossProfitM": 1397,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 538,
+        "note": "Building the design tools and the new AI 'Super Agents' \u2014 the biggest running cost, up 27% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 242,
+        "note": "Selling to chipmakers and systems companies \u2014 up 26% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 113,
+        "note": "Running the company day to day \u2014 up 45% YoY, lifted by deal-related costs."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 34,
+        "note": "Spreading the cost of technology bought in past acquisitions over its useful life \u2014 a non-cash charge."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 42,
+        "note": "One-off restructuring costs booked in the quarter (see one-offs)."
+      }
+    ],
+    "operatingIncomeM": 428,
+    "otherIncomeM": -20,
+    "taxM": 118,
+    "netIncomeM": 290
+  },
+  "otherDetail": "Interest expense of $30M, partly offset by $10M of other income \u2014 a net $20M cost below the operating line.",
+  "oneTimers": [
+    "Restructuring cost $42M in the quarter, and amortization of acquired intangibles was $80M in total ($34M in operating expenses, the rest in cost of revenue) \u2014 both are excluded from Cadence's non-GAAP results.",
+    "Stock-based compensation \u2014 shares paid to employees \u2014 was $145M in the quarter. It is the main reason non-GAAP net income ($581M, $2.11 per share) is roughly double the GAAP figure."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cdns10262026ex9901.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to $M from amounts reported in thousands, so some lines differ by $1M from a straight rounding of the release (operating income $428M here vs $429M rounded; tax $118M vs $119M). Cost of revenue of $236M is cost of product & maintenance ($174M) plus cost of services ($62M).",
+  "takeaways": [
+    {
+      "stat": "$8.2B",
+      "statColor": "#3d7bc8",
+      "title": "A record order book",
+      "text": "Backlog hit a record $8.2B, with $4.2B of revenue already contracted for the next 12 months. Management raised the 2026 outlook to 21% revenue growth and $8.40 of non-GAAP EPS."
+    },
+    {
+      "stat": "26.2%",
+      "statColor": "#cf5f4e",
+      "title": "GAAP margin compressed",
+      "text": "GAAP operating margin fell to 26.2% from 31.8% as stock pay, acquisition amortization and restructuring grew faster than sales. On Cadence's non-GAAP basis the margin was 44.1%."
+    },
+    {
+      "stat": "+30%",
+      "statColor": "#3e8e5a",
+      "title": "Systems is the growth edge",
+      "text": "System Design & Analysis revenue grew 30%, IP 24% and Core EDA 20% \u2014 AI-driven chip design is pulling every category, and Cadence's hardware line had another record quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product & maintenance",
+      "amount": 91.06
+    },
+    {
+      "label": "Services",
+      "amount": 8.94
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -14.45
+    },
+    {
+      "label": "R&D",
+      "amount": -32.95
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -14.82
+    },
+    {
+      "label": "G&A",
+      "amount": -6.92
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.08
+    },
+    {
+      "label": "Restructuring",
+      "amount": -2.57
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.22
+    },
+    {
+      "label": "Tax",
+      "amount": -7.23
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 82.24
+    }
+  ]
+}
