@@ -1,0 +1,170 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-10-01",
+  "verdict": "Nike's revenue fell 4% to $11.2B as Greater China dropped 22% and Converse shrank by more than a quarter, but tighter costs under the new 'Pace' program kept net profit nearly flat at $712M — and gross margin actually improved.",
+  "revenueYoY": "-4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "-4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Diluted EPS",
+      "value": "$0.48",
+      "note": "-2% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "42.8%",
+      "note": "+0.6 pts YoY"
+    },
+    {
+      "label": "North America revenue",
+      "value": "$5.1B",
+      "note": "+2% — the only region that grew"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 5127,
+      "note": "Nike's home market — the only region that grew, on footwear +1% and apparel +6%.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3176,
+      "note": "Footwear fell 11%, partly offset by apparel growth of 5%.",
+      "yoy": "-5%"
+    },
+    {
+      "name": "Asia Pacific & Latin America",
+      "amountM": 1463,
+      "note": "Roughly flat once currency moves are stripped out.",
+      "yoy": "-2%"
+    },
+    {
+      "name": "Greater China",
+      "amountM": 1180,
+      "note": "The problem spot — footwear fell 22% as Nike repositions the brand and works through excess stock.",
+      "yoy": "-22%"
+    },
+    {
+      "name": "Converse",
+      "amountM": 263,
+      "note": "The Chuck Taylor brand — down 28%, with declines in every territory.",
+      "yoy": "-28%"
+    },
+    {
+      "name": "Global Brand & Corporate",
+      "amountM": 4,
+      "note": "Licensing and other brand-division revenue, net of a small corporate revenue adjustment."
+    }
+  ],
+  "flow": {
+    "revenueM": 11213,
+    "costOfRevenueM": 6415,
+    "grossProfitM": 4798,
+    "opex": [
+      {
+        "name": "Demand creation",
+        "amountM": 1252,
+        "note": "Advertising and sports marketing — up 5% as Nike spent behind major sports events."
+      },
+      {
+        "name": "Operating overhead",
+        "amountM": 2658,
+        "note": "Salaries, technology and running the business — down 6% on cost discipline under the Pace program."
+      }
+    ],
+    "operatingIncomeM": 888,
+    "otherIncomeM": 33,
+    "taxM": 209,
+    "netIncomeM": 712
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 45.72
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 28.32
+    },
+    {
+      "label": "Asia Pacific & Latin America",
+      "amount": 13.05
+    },
+    {
+      "label": "Greater China",
+      "amount": 10.52
+    },
+    {
+      "label": "Converse",
+      "amount": 2.35
+    },
+    {
+      "label": "Global Brand & Corporate",
+      "amount": 0.04
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -57.21
+    },
+    {
+      "label": "Demand creation",
+      "amount": -11.17
+    },
+    {
+      "label": "Operating overhead",
+      "amount": -23.7
+    },
+    {
+      "label": "Other income",
+      "amount": 0.29
+    },
+    {
+      "label": "Tax",
+      "amount": -1.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 93.65
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+2%",
+      "statColor": "#3d7bc8",
+      "title": "North America is stabilizing",
+      "text": "Home-market revenue rose 2% to $5.1B — the only region in growth — and wholesale overall fell just 1%, suggesting the product reset is landing with retailers."
+    },
+    {
+      "stat": "-22%",
+      "statColor": "#5b6b7c",
+      "title": "Greater China is the drag",
+      "text": "China revenue fell 22% (26% before currency) and Converse dropped 28%. Nike says it is repositioning both brands rather than discounting its way out."
+    },
+    {
+      "stat": "$2.5B",
+      "statColor": "#3e8e5a",
+      "title": "Pace: the big cost program",
+      "text": "Nike's new transformation program targets about $2.5B of savings through fiscal 2031, at roughly $1.0B of charges along the way. Overhead already fell 6% this quarter."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/q1fy27exhibit991er.htm"
+    }
+  ],
+  "otherDetail": "Other income of $33M, net — $14M of net interest income plus $19M of other income.",
+  "oneTimers": [
+    "Nike's 'Pace' transformation brings severance and employee-related charges — about $0.3B expected in fiscal 2027 (roughly $0.15 per share) — that sit inside its normal cost lines rather than on a separate line. Nike's adjusted EPS leaves them out; the GAAP diluted EPS here is $0.48."
+  ]
+}

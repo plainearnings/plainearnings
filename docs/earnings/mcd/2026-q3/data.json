@@ -1,0 +1,137 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "McDonald's grew operating profit 7% to $3.6B on just 1% revenue growth — franchise fees and cost discipline did the lifting while U.S. guest counts slipped slightly.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Diluted EPS",
+      "value": "$3.51",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Global comp sales",
+      "value": "+1.5%",
+      "note": "U.S. comps -0.2%"
+    },
+    {
+      "label": "Systemwide sales",
+      "value": "$38B+",
+      "note": "+4% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 4487,
+      "note": "Rent and royalty fees paid by franchisees — the profit engine. McDonald's owns many restaurant sites and leases them to the operators who run them.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2480,
+      "note": "Food sales at restaurants McDonald's runs itself — a shrinking share, as more stores are sold to franchisees.",
+      "yoy": "-3%"
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 190,
+      "note": "Fees from developmental licensees and affiliates abroad, plus other services.",
+      "yoy": "+26%"
+    }
+  ],
+  "flow": {
+    "revenueM": 7157,
+    "costOfRevenueM": 2803,
+    "grossProfitM": 4354,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 759,
+        "note": "Head office, marketing support and running the global franchising machine — includes $118M of depreciation and amortization."
+      }
+    ],
+    "operatingIncomeM": 3595,
+    "otherIncomeM": -407,
+    "taxM": 702,
+    "netIncomeM": 2486
+  },
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 62.69
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 34.65
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.65
+    },
+    {
+      "label": "Restaurant costs (net)",
+      "amount": -39.16
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.61
+    },
+    {
+      "label": "Interest expense",
+      "amount": -5.69
+    },
+    {
+      "label": "Tax",
+      "amount": -9.81
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 65.28
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+1.5%",
+      "statColor": "#3d7bc8",
+      "title": "Comps grew — barely, at home",
+      "text": "Global comparable sales rose 1.5%, but U.S. comps slipped 0.2% as guest counts fell; international licensed markets led with +4.2%."
+    },
+    {
+      "stat": "$38B",
+      "statColor": "#3d7bc8",
+      "title": "The system dwarfs the P&L",
+      "text": "Systemwide sales topped $38B, up 4% — McDonald's books only the fees on most of it. Loyalty members alone spent more than $11B in the quarter."
+    },
+    {
+      "stat": "+10%",
+      "statColor": "#3e8e5a",
+      "title": "Profit per share outran sales",
+      "text": "Diluted EPS rose 10% to $3.51 on cost cuts and a shrinking share count, and the quarterly dividend was raised 4% to $1.93 per share."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000080/exhibit991-9302026.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000083/mcd-20260930.htm"
+    }
+  ],
+  "otherDetail": "Other expense of $407M, net — $408M of interest expense on McDonald's borrowings, partly offset by $1M of nonoperating income.",
+  "footerNote": "McDonald's own revenue is mostly fees: franchisees rung up over $38B of systemwide sales in the quarter, of which McDonald's records only its rent, royalties and company-restaurant sales.",
+  "oneTimers": [
+    "Results include $56M of pre-tax restructuring charges from the 'Accelerating the Organization' program (about $0.06 per share). Excluding them, EPS was $3.57."
+  ]
+}

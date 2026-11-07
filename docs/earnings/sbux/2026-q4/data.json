@@ -1,0 +1,161 @@
+{
+  "ticker": "SBUX",
+  "company": "Starbucks",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-29",
+  "verdict": "Starbucks' turnaround reached the stores — comparable sales rose 7.2% — even as revenue fell 4% to $9.1B because China is now a licensed business; profit rebounded to $677M as last year's huge restructuring bill faded.",
+  "revenueYoY": "-4.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "-4.5%",
+      "note": "China converted to a licensed JV"
+    },
+    {
+      "label": "GAAP EPS",
+      "value": "$0.59",
+      "note": "vs $0.12 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$0.80",
+      "note": "+54% YoY"
+    },
+    {
+      "label": "Global comp sales",
+      "value": "+7.2%",
+      "note": "ticket +5.2%, transactions +1.8%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 7328,
+      "note": "The U.S. and Canada — company-run and licensed coffeehouses. Comparable sales rose 7.9% as the turnaround took hold.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "International",
+      "amountM": 1306,
+      "note": "Everywhere else. Revenue fell 37% because China stores moved to a licensed joint venture — Starbucks now collects royalties instead of the till sales it used to book.",
+      "yoy": "-37%"
+    },
+    {
+      "name": "Channel Development",
+      "amountM": 494,
+      "note": "Packaged coffee and ready-to-drink products in grocery stores, including the Global Coffee Alliance with Nestlé.",
+      "yoy": "-9%"
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 13,
+      "note": "Mostly unallocated corporate items that don't belong to a segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 9141,
+    "costOfRevenueM": 7107,
+    "grossProfitM": 2034,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 517,
+        "note": "Running the company — down 19% YoY as the turnaround cut overhead."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 357,
+        "note": "Wear and tear on coffeehouses, roasteries and equipment — down 17% YoY."
+      },
+      {
+        "name": "Restructuring & impairments",
+        "amountM": 273,
+        "note": "Closing underperforming stores under 'Back to Starbucks' — about 250 North America coffeehouses closed in the quarter. Down from $755M a year ago."
+      }
+    ],
+    "operatingIncomeM": 887,
+    "otherIncomeM": 42,
+    "taxM": 252,
+    "netIncomeM": 677
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 80.17
+    },
+    {
+      "label": "International",
+      "amount": 14.29
+    },
+    {
+      "label": "Channel Development",
+      "amount": 5.4
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.14
+    },
+    {
+      "label": "Coffeehouse & product costs",
+      "amount": -77.75
+    },
+    {
+      "label": "G&A",
+      "amount": -5.66
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.91
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -2.99
+    },
+    {
+      "label": "Other income (incl. joint ventures)",
+      "amount": 0.46
+    },
+    {
+      "label": "Tax",
+      "amount": -2.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 92.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.9%",
+      "statColor": "#3d7bc8",
+      "title": "North America comps snapped back",
+      "text": "Comparable sales rose 7.9% in North America — average ticket +5.0% and transactions +2.7% — the clearest sign yet that 'Back to Starbucks' is working."
+    },
+    {
+      "stat": "10.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins rebuilt",
+      "text": "Operating margin reached 10.8%, up from 2.9% a year ago when restructuring charges peaked; excluding one-off items, the margin was 14.0%."
+    },
+    {
+      "stat": "41,607",
+      "statColor": "#5b6b7c",
+      "title": "Still growing the footprint",
+      "text": "Starbucks opened 303 net new coffeehouses in the quarter, ending with 41,607 worldwide — even while closing about 250 weak North America stores."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000154/sbux-09272026xearningsrele.htm"
+    }
+  ],
+  "otherDetail": "Other income of $42M, net — $105M earned from joint ventures (such as the North America Coffee Partnership) plus $58M of interest and other income, minus $121M of interest expense.",
+  "footerNote": "As Starbucks reports it, operating income is $991.8M including the $104.9M of joint-venture income; in this chart that income sits in Other income so the expense lines match Starbucks' own cost breakdown exactly.",
+  "oneTimers": [
+    "Restructuring and impairment charges were $273M in the quarter (store closures), versus $755M a year ago. GAAP EPS of $0.59 compares with non-GAAP EPS of $0.80, which leaves these charges out.",
+    "Revenue comparisons are distorted by China: converting company-run stores there to a licensed joint venture in Q3 FY26 removed their sales from revenue and replaced them with royalties — the main reason International revenue fell 37%."
+  ]
+}

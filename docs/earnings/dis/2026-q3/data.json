@@ -1,0 +1,147 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-08-05",
+  "verdict": "Disney grew revenue 7% to $25.2B and segment profit 21% — streaming and parks both delivered — but an $812M writedown on its A+E stake, and comparison against last year's one-off tax benefit, cut reported EPS to $1.51.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.06",
+      "note": "+28% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$5.6B",
+      "note": "+21% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.51",
+      "note": "vs $2.92 — last year had a one-off tax benefit"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 22675,
+      "note": "Streaming subscriptions, TV network fees, park admissions, hotel rooms and cruises — the recurring heart of Disney.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "Products",
+      "amountM": 2573,
+      "note": "Merchandise, food and drinks sold at the parks, resorts and stores.",
+      "yoy": "+6%"
+    }
+  ],
+  "flow": {
+    "revenueM": 25248,
+    "costOfRevenueM": 15106,
+    "grossProfitM": 10142,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 3968,
+        "note": "Marketing the movies, shows and parks, and running the company — down 4% YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1414,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives — up 6% YoY."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 900,
+        "note": "Mostly an $812M writedown of Disney's stake in A+E Networks — see the one-time items below."
+      }
+    ],
+    "operatingIncomeM": 3860,
+    "otherIncomeM": -215,
+    "taxM": 801,
+    "netIncomeM": 2844
+  },
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.81
+    },
+    {
+      "label": "Products",
+      "amount": 10.19
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -59.83
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.72
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.6
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -3.56
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.85
+    },
+    {
+      "label": "Tax",
+      "amount": -3.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 88.73
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+64%",
+      "statColor": "#3d7bc8",
+      "title": "Entertainment profit jumped",
+      "text": "Entertainment operating income rose 64% to $1.68B as streaming grew, lifting total segment profit 21% to $5.6B — well ahead of Disney's own guidance."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3e8e5a",
+      "title": "Parks kept packing them in",
+      "text": "Experiences profit rose 20% to $3.0B, with spending per guest up 4% — helped by roughly $100M of tariff refunds booked in the quarter."
+    },
+    {
+      "stat": "-17%",
+      "statColor": "#5b6b7c",
+      "title": "Sports had a soft quarter",
+      "text": "Sports profit fell 17% to $858M: short NBA playoff series and a TV carriage dispute cost more than higher subscription and ad fees added."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/fy2026_q3xerxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q — cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+    }
+  ],
+  "otherDetail": "Other expense of $215M, net — $298M of net interest expense on Disney's debt, partly offset by $83M of equity income from companies Disney part-owns (such as Hulu).",
+  "footerNote": "Segment operating income: Entertainment $1,680M, Sports $858M, Experiences $3,017M (before corporate costs). Of the $2,844M of net income, $206M belongs to noncontrolling partners; $2,638M is attributable to Disney shareholders.",
+  "follow100Note": "Of the $11.27 kept as profit per $100 of revenue, about $0.82 belongs to noncontrolling partners — $10.45 is Disney shareholders'.",
+  "oneTimers": [
+    "Restructuring and impairment charges were $900M, dominated by an $812M writedown of Disney's 50% stake in A+E Global Media — which Disney has agreed to sell to Hearst for about $1.2B.",
+    "The year-ago quarter included a one-time $2.7B income-tax benefit, which is why reported EPS fell from $2.92 to $1.51 even though pre-tax profit rose 14%."
+  ]
+}
