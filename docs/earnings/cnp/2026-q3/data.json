@@ -1,0 +1,156 @@
+{
+  "ticker": "CNP",
+  "company": "CenterPoint Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "CenterPoint grew revenue 10% to $2.2B and earned $331M as Houston's electric demand and rate recovery lifted its electric business \u2014 and it raised guidance while expanding its 10-year building plan to $70.7B.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "$2.2B in revenue, vs $2.0B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.50",
+      "note": "vs $0.45 a year ago; non-GAAP EPS was $0.53"
+    },
+    {
+      "label": "Net income",
+      "value": "$331M",
+      "note": "vs $293M a year ago"
+    },
+    {
+      "label": "10-year capital plan",
+      "value": "$70.7B",
+      "note": "Raised by $4.0B to build capacity for Greater Houston growth"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric",
+      "amountM": 1549,
+      "yoy": "+13%",
+      "note": "Delivering electricity \u2014 transmission, distribution and generation, mainly Houston (Houston Electric) and Indiana. Growth and rate recovery drove the rise."
+    },
+    {
+      "name": "Natural gas",
+      "amountM": 640,
+      "yoy": "+3%",
+      "note": "Gas distribution to homes and businesses in Texas, Minnesota, Indiana and other states."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 2,
+      "yoy": "+100%",
+      "note": "Small corporate and other revenue, net of eliminations."
+    }
+  ],
+  "flow": {
+    "revenueM": 2191,
+    "costOfRevenueM": 188,
+    "grossProfitM": 2003,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 747,
+        "note": "Running and maintaining the wires, pipes and plants day to day \u2014 flat versus a year ago relative to growth."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 444,
+        "note": "A non-cash charge spreading the cost of the grid and pipelines over their long useful lives \u2014 it rises as the company builds more."
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 145,
+        "note": "Property and other non-income taxes."
+      }
+    ],
+    "operatingIncomeM": 667,
+    "otherIncomeM": -254,
+    "taxM": 82,
+    "netIncomeM": 331
+  },
+  "follow100": [
+    {
+      "label": "Electric",
+      "amount": 70.7
+    },
+    {
+      "label": "Natural gas",
+      "amount": 29.21
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.09
+    },
+    {
+      "label": "Fuel, purchased power & gas",
+      "amount": -8.58
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": -34.09
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -20.26
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -6.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -11.59
+    },
+    {
+      "label": "Tax",
+      "amount": -3.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.11
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference.",
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Electric is the growth story",
+      "text": "Electric revenue rose 13% to $1,549M. Growth and rate recovery added $0.09 a share versus a year ago and weather and usage added $0.03, partly offset by $0.04 of higher financing costs. Gas revenue rose 3% to $640M."
+    },
+    {
+      "stat": "$70.7B",
+      "statColor": "#3e8e5a",
+      "title": "A bigger building plan",
+      "text": "CenterPoint raised its 10-year capital plan by $4.0B to $70.7B and pulled $1.5B of spending into 2026\u20132030, supporting rate-base growth of more than 14% a year through 2030 \u2014 and it sees at least $10B more of possible projects through 2035 as Houston demand accelerates."
+    },
+    {
+      "stat": "$1.90\u2013$1.92",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised, 2027 started higher",
+      "text": "Full-year 2026 non-GAAP EPS guidance rose to $1.90\u2013$1.92, and 2027 guidance was initiated at $2.07\u2013$2.09 \u2014 about 9% growth at the midpoint each year. The company extended its 7%\u20139% annual growth outlook through 2030."
+    }
+  ],
+  "oneTimers": [
+    "Non-GAAP EPS of $0.53 excludes items GAAP counts: a $19M cost from temporary emergency electric energy facilities removed from rate base, $19M of mark-to-market loss on indexed debt securities (partly offset by a $17M gain on equity securities) and $2M of merger and divestiture impacts \u2014 non-GAAP income was $354M versus $331M GAAP. The sale of the Ohio natural gas business closed on October 1, 2026, just after the quarter ended."
+  ],
+  "otherDetail": "Other expense of $254M, net: $259M of interest expense and $22M of interest on securitization bonds, partly offset by $30M of other income, a $21M gain on equity securities, and a $24M loss on indexed debt securities.",
+  "footerNote": "For a utility, the direct cost of revenue is the fuel, purchased power and natural gas the company buys to serve customers ($187M utility plus $1M non-utility).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1130310/000110465926118963/tm2628051d1_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1130310/000113031026000048/cnp-20260930.htm"
+    }
+  ]
+}

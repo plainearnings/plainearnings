@@ -1,0 +1,171 @@
+{
+  "ticker": "CNC",
+  "company": "Centene",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Centene's revenue rose 2% to $50.6B, but medical costs ate 92.7% of premiums and premium taxes tipped the quarter to a small $65M loss \u2014 even though its underlying (adjusted) profit was $0.58 a share and it raised full-year guidance.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "$50.6B in total revenue, vs $49.7B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.14",
+      "note": "vs adjusted EPS of $0.58 \u2014 see one-off items"
+    },
+    {
+      "label": "Health benefits ratio",
+      "value": "92.7%",
+      "note": "Share of premiums spent on medical care \u2014 better than the company expected"
+    },
+    {
+      "label": "Members",
+      "value": "25.7M",
+      "note": "Down from 28.0M a year ago as Marketplace and Medicaid rolls shrank"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Medicaid",
+      "amountM": 24039,
+      "yoy": "+4%",
+      "note": "Health coverage for low-income members paid by states \u2014 Centene's biggest line, helped by rate rises and state directed payments."
+    },
+    {
+      "name": "Medicare",
+      "amountM": 11263,
+      "yoy": "+20%",
+      "note": "Medicare Advantage, Medicare Supplement and the fast-growing Medicare prescription-drug plan (PDP), which reached 8.9M members."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 8700,
+      "yoy": "-21%",
+      "note": "Marketplace (Obamacare exchange) plans and other commercial coverage \u2014 revenue fell as Marketplace membership dropped to 3.4M from 5.8M."
+    },
+    {
+      "name": "Premium tax",
+      "amountM": 5542,
+      "yoy": "+16%",
+      "note": "Taxes states levy on premiums, billed to states as revenue and paid straight back as an expense below \u2014 it inflates both sides equally."
+    },
+    {
+      "name": "Other premium & service",
+      "amountM": 1103,
+      "yoy": "-18%",
+      "note": "Service fees and other smaller premium lines."
+    }
+  ],
+  "flow": {
+    "revenueM": 50647,
+    "costOfRevenueM": 41803,
+    "grossProfitM": 8844,
+    "opex": [
+      {
+        "name": "Premium tax expense",
+        "amountM": 5617,
+        "note": "The premium taxes collected above, paid back to states \u2014 slightly more than was billed this quarter."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 3235,
+        "note": "Running the company \u2014 7.2% of premium and service revenue (6.5% on the company's adjusted basis)."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 299,
+        "note": "Depreciation ($138M) plus amortization of acquired intangible assets ($161M) \u2014 a non-cash charge spreading past deal and asset costs over time."
+      }
+    ],
+    "operatingIncomeM": -307,
+    "otherIncomeM": 185,
+    "taxM": -57,
+    "netIncomeM": -65
+  },
+  "follow100": [
+    {
+      "label": "Medicaid",
+      "amount": 47.46
+    },
+    {
+      "label": "Medicare",
+      "amount": 22.24
+    },
+    {
+      "label": "Commercial",
+      "amount": 17.18
+    },
+    {
+      "label": "Premium tax",
+      "amount": 10.94
+    },
+    {
+      "label": "Other premium & service",
+      "amount": 2.18
+    },
+    {
+      "label": "Medical & service costs",
+      "amount": -82.54
+    },
+    {
+      "label": "Premium tax expense",
+      "amount": -11.09
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.39
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -0.59
+    },
+    {
+      "label": "Other income",
+      "amount": 0.37
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.11
+    },
+    {
+      "label": "Net loss",
+      "amount": -0.13
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "92.7%",
+      "statColor": "#3d7bc8",
+      "title": "Medical costs beat the plan",
+      "text": "The health benefits ratio \u2014 medical costs as a share of premiums \u2014 was 92.7%, better than expected, driven by Medicare, with Medicaid and Marketplace on track. Centene raised full-year adjusted EPS guidance by $0.40 to more than $5.20 and cut its full-year HBR outlook to about 90.75%."
+    },
+    {
+      "stat": "25.7M",
+      "statColor": "#5b6b7c",
+      "title": "Fewer members, more premium each",
+      "text": "Total membership fell to 25.7M from 28.0M a year ago \u2014 Marketplace dropped to 3.4M from 5.8M and Medicaid to 11.9M from 12.7M \u2014 but premium and service revenue still rose 0.5% to $45.1B on rate increases and growth in the Medicare drug plan, which added about a million members."
+    },
+    {
+      "stat": "-$1.1B",
+      "statColor": "#3e8e5a",
+      "title": "Debt is coming down",
+      "text": "Centene cut debt by $1.1B during the quarter, including fully redeeming its 2027 senior notes in October. Operating cash flow was negative $3.7B in the quarter, a timing effect of premium and claims payment cycles."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include $307M of pre-tax 'other adjustments' the company strips out of adjusted EPS \u2014 mainly $276M of severance from enterprise optimization and contract exits and $35M of related vendor costs, partly offset by an $18M net gain on real estate. With $161M of amortization of acquired intangibles also excluded, adjusted net earnings were $290M ($0.58 a share) versus a GAAP loss."
+  ],
+  "otherDetail": "Other income of $185M, net: $333M of investment and other income plus a $1M gain on debt extinguishment, less $149M of interest expense.",
+  "footerNote": "For a health insurer, medical costs and the cost of services play the role of cost of revenue. Net loss of $65M includes $6M of earnings attributable to noncontrolling interests; the loss attributable to Centene shareholders was $71M ($0.14 a share).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000194/a20261027ex991pressrelease.htm"
+    }
+  ]
+}

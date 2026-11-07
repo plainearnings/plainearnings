@@ -1,0 +1,143 @@
+{
+  "ticker": "COO",
+  "company": "CooperCompanies",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-09",
+  "verdict": "CooperCompanies grew revenue just 1% to $1.07B, but a $307M one-off tax benefit lifted net income to $433M \u2014 more than four times a year ago \u2014 while its contact-lens business deliberately shrank U.S. inventory.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "$1.07B in revenue, vs $1.06B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.24",
+      "note": "vs $0.49 a year ago \u2014 lifted by the one-off tax benefit"
+    },
+    {
+      "label": "One-off tax benefit",
+      "value": "$307M",
+      "note": "Discrete benefit from completing a UK tax examination \u2014 see one-off items"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$273M",
+      "note": "Up 66% YoY \u2014 $342M of operating cash flow minus $69M of capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "CooperVision",
+      "amountM": 717,
+      "yoy": "0%",
+      "note": "Contact lenses \u2014 toric and multifocal lenses rose 2% organically while standard lenses fell 1%. Revenue was flat as the company proactively reduced U.S. channel inventory, which will also weigh on the fourth quarter."
+    },
+    {
+      "name": "CooperSurgical",
+      "amountM": 349,
+      "yoy": "+2%",
+      "note": "Medical devices for women's health and surgery \u2014 office and surgical products $208M (+2% organically) and fertility products $141M (+5% organically)."
+    }
+  ],
+  "flow": {
+    "revenueM": 1066,
+    "costOfRevenueM": 354,
+    "grossProfitM": 712,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 401,
+        "note": "Selling lenses and devices and running the company \u2014 down from $422M a year ago on expense management."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 47,
+        "note": "A non-cash charge spreading the cost of past acquisitions over time."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 42,
+        "note": "Developing new lenses and devices \u2014 down slightly from $45M a year ago."
+      }
+    ],
+    "operatingIncomeM": 222,
+    "otherIncomeM": -20,
+    "taxM": -231,
+    "netIncomeM": 433
+  },
+  "follow100": [
+    {
+      "label": "CooperVision",
+      "amount": 67.26
+    },
+    {
+      "label": "CooperSurgical",
+      "amount": 32.74
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -33.21
+    },
+    {
+      "label": "SG&A",
+      "amount": -37.62
+    },
+    {
+      "label": "Amortization",
+      "amount": -4.41
+    },
+    {
+      "label": "R&D",
+      "amount": -3.94
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.88
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 21.66
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 40.61
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference.",
+  "takeaways": [
+    {
+      "stat": "$307M",
+      "statColor": "#3e8e5a",
+      "title": "A tax settlement did the heavy lifting",
+      "text": "Net income jumped to $433M from $98M a year ago almost entirely because of a $307M discrete tax benefit: the UK tax authority (HMRC) finished examining Cooper's 2021 transfer of intellectual property to the UK, and a reserve set aside for it was released. The total tax line was a $231M benefit."
+    },
+    {
+      "stat": "0%",
+      "statColor": "#3d7bc8",
+      "title": "Contact lenses stood still \u2014 on purpose",
+      "text": "CooperVision revenue was flat at $717M as the company proactively cut U.S. channel inventory, a drag it says will continue into the fourth quarter. CooperSurgical grew 2% to $349M, and overall gross margin improved to 67% from 65%."
+    },
+    {
+      "stat": "$339M",
+      "statColor": "#5b6b7c",
+      "title": "Cash is going to buybacks",
+      "text": "Free cash flow rose 66% to $273M, and Cooper repurchased $339M of its own stock in the quarter. The board expanded the buyback authorization from $2B to $3B, with about $1.5B still available."
+    }
+  ],
+  "oneTimers": [
+    "A $307.2M discrete tax benefit from the favorable completion of HMRC's examination of the fiscal 2021 transfer of intellectual property and related assets to the United Kingdom \u2014 it reverses a reserve recorded in 2021 and is the primary driver of the quarter's $231M total tax benefit and the jump in GAAP EPS to $2.24.",
+    "Smaller items the company excludes from non-GAAP results include $4.3M of strategic review costs and $2.2M of litigation expense and associated legal costs in the quarter."
+  ],
+  "otherDetail": "Other expense of $20M, net: $21.5M of interest expense, partly offset by $1.3M of other income (figures rounded to $M).",
+  "footerNote": "CooperCompanies reports to one decimal place in $M; figures here are rounded to whole $M so the lines balance (net income was $432.8M as reported). Its fiscal year ends October 31, so this is the third quarter of fiscal 2026.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026061155/cooperq32026pressrelease.htm"
+    }
+  ]
+}

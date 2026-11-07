@@ -1,0 +1,132 @@
+{
+  "ticker": "COF",
+  "company": "Capital One",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Capital One earned $3.5B on $16.3B of revenue as the Discover business it bought in 2025 lifted interest and fee income \u2014 and excluding deal costs, EPS was $6.69 instead of $5.61.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "$16.3B in total net revenue, vs $15.4B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.61",
+      "note": "vs $4.83 a year ago; adjusted EPS was $6.69"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$12.9B",
+      "note": "+4% YoY; net interest margin was 8.41%"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.9B",
+      "note": "$3.1B of net charge-offs, partly offset by a $225M loan reserve release"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 12886,
+      "yoy": "+4%",
+      "note": "Interest earned on card balances, auto loans and other lending, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, now including a full quarter of Discover."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 3458,
+      "yoy": "+17%",
+      "note": "Card fees, interchange (the cut merchants pay when a card is used) and other fee income \u2014 lifted by the Discover card portfolio and its payment network."
+    }
+  ],
+  "flow": {
+    "revenueM": 16344,
+    "costOfRevenueM": 2916,
+    "grossProfitM": 13428,
+    "opex": [
+      {
+        "name": "Operating expense",
+        "amountM": 7262,
+        "note": "Running the bank \u2014 people, technology and operations. It fell 2% from the second quarter."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1594,
+        "note": "Card marketing and advertising \u2014 down 4% from the second quarter but up 14% from a year ago as the combined company promotes its cards."
+      }
+    ],
+    "operatingIncomeM": 4572,
+    "otherIncomeM": 0,
+    "taxM": 1033,
+    "netIncomeM": 3539
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 78.85
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 21.15
+    },
+    {
+      "label": "Credit costs",
+      "amount": -17.84
+    },
+    {
+      "label": "Operating expense",
+      "amount": -44.43
+    },
+    {
+      "label": "Marketing",
+      "amount": -9.75
+    },
+    {
+      "label": "Tax",
+      "amount": -6.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.65
+    }
+  ],
+  "follow100Note": "Segment shares are rounded so the rows add to $100; the exact split is 78.85 / 21.16.",
+  "takeaways": [
+    {
+      "stat": "8.41%",
+      "statColor": "#3d7bc8",
+      "title": "The card engine earns a wide spread",
+      "text": "Net interest margin \u2014 what the bank earns on its loans minus what it pays for funds \u2014 rose 40 basis points from the second quarter to 8.41%. Period-end loans reached $462.5B, including $276.4B of credit card loans, now including Discover's portfolio."
+    },
+    {
+      "stat": "$6.69",
+      "statColor": "#3e8e5a",
+      "title": "Deal costs hide the run-rate",
+      "text": "Adjusted EPS was $6.69 versus $5.61 GAAP. The gap is deal items: $483M of acquisition amortization, $338M of Discover integration costs and $47M of Brex integration costs, all pre-tax. Management says the Discover integration is progressing well and synergy delivery is on track."
+    },
+    {
+      "stat": "$2.9B",
+      "statColor": "#5b6b7c",
+      "title": "Credit costs eased",
+      "text": "The provision for credit losses fell to $2.9B from $3.0B in the second quarter: $3.1B of loans were charged off as uncollectible, partly offset by releasing $225M of reserves set aside earlier. Deposits ended the quarter at $480.7B."
+    }
+  ],
+  "oneTimers": [
+    "Adjusting items totaled $868M pre-tax: $483M of acquisition-related amortization, $338M of Discover integration expenses and $47M of Brex integration expenses (Brex, a payments company, was acquired on April 7, 2026). Excluding them, net income per share was $6.69 instead of $5.61."
+  ],
+  "footerNote": "For a bank, the provision for credit losses (money set aside for loans that may not be repaid) plays the role of cost of revenue. Year-ago comparisons include Discover, whose merger with Capital One closed in 2025, so the card portfolio and network are much larger than they were before the deal.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm"
+    }
+  ]
+}

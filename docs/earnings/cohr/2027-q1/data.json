@@ -1,0 +1,145 @@
+{
+  "ticker": "COHR",
+  "company": "Coherent",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Coherent's revenue jumped 50% to $2.37B as AI datacenters switch from copper to optical links, and net income rose to $382M \u2014 with the company expecting pro forma revenue growth above 60% this fiscal year.",
+  "revenueYoY": "+50%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+50%",
+      "note": "$2.37B in revenue, vs $1.58B a year ago (+56% pro forma)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.90",
+      "note": "vs $1.19 a year ago; non-GAAP EPS was $2.09"
+    },
+    {
+      "label": "Gross margin (GAAP)",
+      "value": "39.1%",
+      "note": "Up from 36.6% a year ago on pricing and cost improvements"
+    },
+    {
+      "label": "Datacenter & Communications",
+      "value": "$2.0B",
+      "note": "+79% YoY \u2014 82% of all revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Datacenter & Communications",
+      "amountM": 1951,
+      "yoy": "+79%",
+      "note": "Lasers, transceivers and optical switches that move data inside and between AI datacenters \u2014 the growth engine, driven by AI demand and data-center interconnect."
+    },
+    {
+      "name": "Industrial",
+      "amountM": 419,
+      "yoy": "-15%",
+      "note": "Photonics for factories, medical and other industrial uses \u2014 down mainly because Coherent sold its aerospace and defense business in September 2025 and its Munich business in January 2026."
+    }
+  ],
+  "flow": {
+    "revenueM": 2370,
+    "costOfRevenueM": 1442,
+    "grossProfitM": 928,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 237,
+        "note": "Building new photonics products \u2014 transceivers, optical circuit switches and multi-rail systems for AI datacenters. 10% of revenue."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 304,
+        "note": "Selling and running the company \u2014 13% of revenue, down from 16% a year ago as revenue outgrew costs; it includes higher stock-based pay. (Shown as $304M so the rounded lines balance; $305M before rounding.)"
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 9,
+        "note": "Costs of consolidating and closing manufacturing sites, mainly employee termination and move costs (shown rounded; see note below)."
+      }
+    ],
+    "operatingIncomeM": 378,
+    "otherIncomeM": -19,
+    "taxM": -23,
+    "netIncomeM": 382
+  },
+  "follow100": [
+    {
+      "label": "Datacenter & Communications",
+      "amount": 82.32
+    },
+    {
+      "label": "Industrial",
+      "amount": 17.68
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.84
+    },
+    {
+      "label": "R&D",
+      "amount": -10.0
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.83
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.38
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.8
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.12
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+79%",
+      "statColor": "#3d7bc8",
+      "title": "AI datacenters are the story",
+      "text": "Datacenter & Communications revenue rose 79% to about $2.0B as AI datacenters transition from copper to optical connectivity. Industrial revenue fell 15% to $419M, mostly because of businesses Coherent sold. Management expects a first $3B revenue quarter by the end of fiscal 2027."
+    },
+    {
+      "stat": "39.1%",
+      "statColor": "#3e8e5a",
+      "title": "Margins are climbing",
+      "text": "GAAP gross margin rose to 39.1% from 36.6% a year ago on pricing, lower input costs and manufacturing yield gains. Coherent now targets its first quarter of non-GAAP gross margin above 45% before the end of calendar 2028."
+    },
+    {
+      "stat": "$776M",
+      "statColor": "#5b6b7c",
+      "title": "Spending hard to keep up",
+      "text": "Coherent spent $776M on property and equipment in the quarter and built up $737M of inventory, so operating cash flow was negative $93M despite the profit \u2014 it is investing ahead of expected demand. Second-quarter revenue is guided to $2.55B\u2013$2.75B."
+    }
+  ],
+  "oneTimers": [
+    "The tax line was a $23M benefit rather than a cost, helped by deferred-tax effects \u2014 one reason net income grew faster than pre-tax income. Non-GAAP EPS of $2.09 excludes $74M of stock-based compensation, acquired-intangible amortization, restructuring and similar items that GAAP counts."
+  ],
+  "otherDetail": "Other expense of $19M, net: $46M of interest expense, partly offset by $27M of other income.",
+  "footerNote": "Coherent reports in thousands; figures here are rounded to $M so the lines balance (gross profit $928M and operating income $378M as reported; segment amounts are $1,952M and $419M before this rounding). Net earnings of $382M include a $3M loss attributable to noncontrolling interests, so $385M was attributable to Coherent shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526447200/d176836dex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm"
+    }
+  ]
+}
