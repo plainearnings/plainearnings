@@ -1,0 +1,172 @@
+{
+  "company": "Albemarle",
+  "costLabel": "Cost of goods sold",
+  "costNote": "Mining and converting lithium and bromine \u2014 including expensive spodumene feedstock processed this quarter. A year ago gross margin was just 9%; lithium pricing recovery lifted it to 19%.",
+  "flow": {
+    "costOfRevenueM": 1252,
+    "grossProfitM": 301,
+    "netIncomeM": 317,
+    "operatingIncomeM": 149,
+    "opex": [
+      {
+        "amountM": 136,
+        "name": "Selling, general & administrative",
+        "note": "Held flat while sales rose 19% \u2014 part of more than $150M of run-rate cost and productivity savings delivered year to date."
+      },
+      {
+        "amountM": 8,
+        "name": "Restructuring & asset write-offs",
+        "note": "Charges from the ongoing footprint and cost program."
+      },
+      {
+        "amountM": 8,
+        "name": "Research & development",
+        "note": "Process and product development, trimmed as spending was refocused."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": 205,
+        "label": "Equity earnings of joint ventures",
+        "note": "Albemarle's share of profits from its lithium joint ventures (chiefly Talison in Australia, which pays the dividends that funded much of this quarter's cash flow). Reported after tax \u2014 and bigger than operating income itself."
+      },
+      {
+        "amountM": -28,
+        "label": "Interest & financing expenses",
+        "note": "Down from $51M a year ago as debt was paid down."
+      },
+      {
+        "amountM": 13,
+        "label": "Other income, net",
+        "note": "Miscellaneous gains and income."
+      }
+    ],
+    "otherIncomeM": 190,
+    "revenueM": 1553,
+    "taxM": 22
+  },
+  "follow100": [
+    {
+      "amount": 70.83,
+      "label": "Energy Storage (lithium)"
+    },
+    {
+      "amount": 25.05,
+      "label": "Specialties"
+    },
+    {
+      "amount": 4.12,
+      "label": "Corporate & other"
+    },
+    {
+      "amount": -80.62,
+      "label": "Cost of goods sold"
+    },
+    {
+      "amount": -8.76,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -0.52,
+      "label": "Restructuring & asset write-offs"
+    },
+    {
+      "amount": -0.52,
+      "label": "Research & development"
+    },
+    {
+      "amount": 12.23,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.42,
+      "label": "Tax"
+    },
+    {
+      "amount": 20.41,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income is the consolidated $317M; $297M was attributable to Albemarle and $255M to common shareholders after $20M to noncontrolling interests and $42M of mandatory convertible preferred dividends. Operating income was $148M in the release; $1M of rounding is absorbed in the operating line here. Energy Storage sales are stated as $1.1B in the release; Corporate & other is the remainder.",
+  "kpis": [
+    {
+      "label": "Sales growth",
+      "note": "",
+      "value": "+19%"
+    },
+    {
+      "label": "EPS (diluted, to common)",
+      "note": "",
+      "value": "$2.15"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$2.58"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "",
+      "value": "$646M"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Lithium price snap-back",
+      "text": "Energy Storage pricing rose 68% year over year. Adjusted EBITDA nearly tripled to $646M \u2014 a reminder that Albemarle's earnings are, above all, a levered bet on the lithium price."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+19%",
+  "segments": [
+    {
+      "amountM": 1100,
+      "name": "Energy Storage (lithium)",
+      "note": "Lithium for EV batteries and grid storage \u2014 sales up 58% to $1.1B purely on pricing (+68%); volumes actually fell versus last year's record quarter. Segment Adjusted EBITDA $560M, up 351%.",
+      "yoy": "+58%"
+    },
+    {
+      "amountM": 389,
+      "name": "Specialties",
+      "note": "Bromine and lithium specialties \u2014 pricing +10%, volumes +3%; Adjusted EBITDA $99M, up 31%, and the full-year outlook was raised to $350\u2013375M.",
+      "yoy": "+13%"
+    },
+    {
+      "amountM": 64,
+      "name": "Corporate & other",
+      "note": "Remainder after the two segments \u2014 Ketjen's refining-catalyst business is now an equity-method stake (51% sold in March 2026) whose results land in equity income, not sales.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Albemarle Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000052/0000915913-26-000052-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+186%",
+      "statColor": "green",
+      "text": "Adjusted EBITDA nearly tripled to $646M. Nothing about the cost base explains that \u2014 lithium prices do. Energy Storage EBITDA alone rose 351%.",
+      "title": "It's the lithium price, again"
+    },
+    {
+      "stat": "$205M",
+      "statColor": "green",
+      "text": "Equity earnings from joint ventures (mainly Talison) exceeded Albemarle's own operating income. The JV structure is where much of the lithium profit is booked.",
+      "title": "The JVs out-earn the parent"
+    },
+    {
+      "stat": "$300\u2013350M",
+      "statColor": "neutral",
+      "text": "Full-year capex guidance was cut again (from ~$500M) on capital-efficiency gains and resequenced projects \u2014 discipline while prices recover, with volumes guided to 225\u2013235 kt LCE for the year.",
+      "title": "Capex discipline"
+    }
+  ],
+  "ticker": "ALB",
+  "verdict": "The lithium roller-coaster is climbing again: prices +68% in Energy Storage tripled EBITDA and swung Albemarle back to a $317M profit."
+}

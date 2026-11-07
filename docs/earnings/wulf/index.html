@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TeraWulf (WULF) Earnings — Plain Earnings</title>
+<meta name="description" content="TeraWulf earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="TeraWulf (WULF) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../#companies">Companies</a>
+    <a href="../../feed.xml">RSS</a>
+  </nav>
+</header>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>TeraWulf <span class="thin">(WULF)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+51%</span>
+        <span class="q-meta">Reported 2026-11-06 · Revenue $76M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>TeraWulf — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-06
+    </div>
+  </header>
+
+  <p class="verdict">TeraWulf&#x27;s revenue jumped 51% to $76M as renting data-center space to AI customers became 83% of the business — but the $710M headline profit is a paper gain on its own warrants, not cash from a business that still lost $88M running itself.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+51%</b></span><span class="chip">EPS (GAAP basic)<b>$1.42</b></span><span class="chip">HPC lease revenue<b>$63M</b></span><span class="chip">Operating loss<b>-$88M</b></span>
+  </div>
+
+  <section class="onetimers">
+    <h2>A different kind of report — read this first</h2>
+    <p class="sub">TeraWulf breaks one of our usual rules, so we adapted the layout — openly:</p>
+    <ul><li><strong>The chart starts from total money in — $874M — not revenue.</strong> Official revenue is $76M, but another $798M of mostly non-cash gains (a $728M warrant revaluation above all) sits below the operating line. Starting from revenue would hide the biggest part of the story.</li><li><strong>Follow the orange.</strong> Money from gains is orange; money customers paid is blue. The orange river is mostly one paper gain flowing through to the bottom line — it is not cash the company can spend.</li><li><strong>The “Follow $100” table is per $100 of total money in</strong>, not per $100 of revenue, and chart percentages are shares of total money in.</li><li><strong>Nothing is hidden:</strong> the official figures are revenue $76.2M, gross profit $51.0M, an operating LOSS of $88.2M and net income of $709.5M — and all three of our balance checks pass on the adapted flow.</li></ul>
+  </section>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of TeraWulf's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of money in</h2>
+        <p>Charts in millions are hard to feel. Here is the same quarter, shrunk down: for every $100 that came in — from customers and from gains — this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">HPC lease revenue</span><div class="htrack"><div class="hfill" data-w="7.9" style="background:#3D7BC8"></div></div><span class="hval">$7.21</span></div>
+      <div class="hrow"><span class="hlabel">Digital asset revenue</span><div class="htrack"><div class="hfill" data-w="1.6" style="background:#3D7BC8"></div></div><span class="hval">$1.49</span></div>
+      <div class="hrow"><span class="hlabel">Warrant &amp; investment gains</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$91.30</span></div>
+      <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="3.1" style="background:#D96A57"></div></div><span class="hval">−$2.86</span></div>
+      <div class="hrow"><span class="hlabel">Power &amp; site operations</span><div class="htrack"><div class="hfill" data-w="4.9" style="background:#D96A57"></div></div><span class="hval">−$4.46</span></div>
+      <div class="hrow"><span class="hlabel">Selling, general &amp; administrative</span><div class="htrack"><div class="hfill" data-w="7.1" style="background:#D96A57"></div></div><span class="hval">−$6.52</span></div>
+      <div class="hrow"><span class="hlabel">Depreciation</span><div class="htrack"><div class="hfill" data-w="3.8" style="background:#D96A57"></div></div><span class="hval">−$3.43</span></div>
+      <div class="hrow"><span class="hlabel">Impairment &amp; disposal losses</span><div class="htrack"><div class="hfill" data-w="1.6" style="background:#D96A57"></div></div><span class="hval">−$1.49</span></div>
+      <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="89.0" style="background:#3E8E5A"></div></div><span class="hval">$81.24</span></div>
+      <p class="hnote">Per $100 of total money in ($874M), not per $100 of revenue: $91 of every $100 that &#x27;came in&#x27; was gains — $83 of it the non-cash warrant revaluation alone. Measured against revenue alone, the gains would be about $1,050 per $100.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+51%</div>
+            <h3>AI rent is now the business</h3>
+            <p>Revenue rose 51% to $76.2M, and $63.0M of it — 83% — came from HPC leases (long-term rentals of powered data-center space to AI customers), up from just $7.2M a year ago. Bitcoin mining revenue fell 69% to $13.2M as power is redirected to leasing. After quarter-end, TeraWulf signed a 20-year lease with Anthropic worth roughly $19B of contracted revenue.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$710M</div>
+            <h3>The profit is paper, not cash</h3>
+            <p>Net income was $709.5M, but $728M of it is a non-cash gain: TeraWulf&#x27;s warrant liabilities fell in value, and accounting rules book that as income. Operations themselves lost $88.2M, and the company&#x27;s own Adjusted EBITDA was -$12.8M. Diluted EPS was actually -$0.03, because converting the warrants would erase the gain.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#cf5f4e">$54M</div>
+            <h3>Debt is getting expensive</h3>
+            <p>Interest expense jumped to $53.6M in the quarter, from $9.8M a year ago, as TeraWulf borrows heavily to build data centers. It ended the quarter with 102 MW of capacity earning rent and another 336 MW under construction.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>A $728M non-cash gain from the change in fair value of warrant and derivative liabilities — the biggest single line of the quarter. It reverses if the warrants gain value again.</li><li>A $95M gain on the sale of an equity interest in an investee — a stake TeraWulf sold during the quarter.</li><li>Impairment of property, plant and equipment of $9.7M, plus $3.9M of losses on equipment disposals.</li></ul>
+      </section>
+    <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm">Form 10-Q (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net income is the consolidated figure; $709.9M was attributable to TeraWulf Inc. after noncontrolling interests absorbed a $0.4M loss. Figures are rounded to $M; the $0.03M tax provision rounds to $0.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+</footer>
+</div>
+</div>
+
+<footer>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
+  <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+</footer>
+
+<script>window.REPORT = {"revenueB":0.874,"nodes":{"seg0":{"name":"HPC lease revenue","amt":"$63M","value":0.063,"col":0,"color":"#3D7BC8","note":"7.2% of all money in","plain":"Renting powered data-center space to AI and high-performance-computing customers \u2014 the Lake Mariner campus in New York. Up from $7M a year ago as new capacity started earning rent.","quarter":"7.2% of all money in this quarter."},"seg1":{"name":"Digital asset revenue","amt":"$13M","value":0.013,"col":0,"color":"#7A68C4","note":"1.5% of all money in","plain":"Bitcoin TeraWulf mines itself. Down 69% as power and space are shifted away from mining toward HPC leasing.","quarter":"1.5% of all money in this quarter."},"gain":{"name":"Warrant & investment gains","amt":"$798M","value":0.798,"col":0,"color":"#E8930C","note":"91.3% of all money in \u00b7 mostly non-cash","plain":"Money that arrived on paper, not from customers: a $728M non-cash gain as TeraWulf's warrant liabilities fell in value, a $95M gain on selling an equity stake, and $29M of interest income, less $54M of interest expense and a $0.5M share of a joint venture's loss.","quarter":"$798M of the $874M total money in."},"rev":{"name":"Total money in","amt":"$874M","value":0.874,"col":1,"color":"#2F3B4C","note":"revenue + gains","plain":"All the money that flowed in during the quarter: $76M that customers paid, plus $798M of mostly non-cash gains \u2014 chiefly the revaluation of TeraWulf's own warrants.","quarter":"$874M in total."},"gross":{"name":"Left after direct costs","amt":"$849M","value":0.849,"col":2,"color":"#69B578","note":"the warrant gain has no direct cost","plain":"Everything that came in, minus the direct cost of earning the revenue. The gains have no direct cost, so they pass through untouched.","quarter":"$849M left after direct costs."},"cost":{"name":"Cost of revenue","amt":"($25M)","value":0.025,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$25M of direct costs.","compact":true,"compactLabel":"Cost of revenue: ($25M)"},"opex":{"name":"Operating expenses","amt":"($139M)","value":0.139,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running the company, itemized here because it is small next to the gains: Power & site operations $39M, Selling, general & administrative $57M, Depreciation $30M, Impairment & disposal losses $13M. The $100 table below breaks it out line by line.","quarter":"$139M total running costs."},"op":{"name":"Profit after running costs","amt":"$710M","value":0.71,"col":3,"color":"#4C9A67","note":"only positive because of the gains","plain":"What is left of all the money in after direct costs and running costs. On the official income statement the running business alone shows an operating LOSS of $88M \u2014 this node is positive only because the $798M of gains is counted in the money in.","quarter":"$710M after all running costs."},"net":{"name":"Net profit","amt":"$710M","value":0.71,"col":4,"color":"#3E8E5A","note":"on paper \u2014 mostly not cash","plain":"The bottom line \u2014 what the company officially earned after everything.","quarter":"$710M for the quarter."}},"cols":[["seg0","seg1","gain"],["rev"],["gross","cost"],["op","opex"],["net"]],"links":[{"s":"seg0","d":"rev","v":0.063,"c":"#94b6e1","amt":"$63M"},{"s":"seg1","d":"rev","v":0.013,"c":"#b6acdf","amt":"$13M"},{"s":"gain","d":"rev","v":0.798,"c":"#F5C169","amt":"$798M"},{"s":"rev","d":"gross","v":0.849,"c":"#F2CE9F","amt":"$849M"},{"s":"rev","d":"cost","v":0.025,"c":"#F4C7B9","amt":"$25M"},{"s":"gross","d":"op","v":0.71,"c":"#ACD8B8","amt":"$710M"},{"s":"gross","d":"opex","v":0.139,"c":"#F2B3A4","amt":"$139M"},{"s":"op","d":"net","v":0.71,"c":"#ACD8B8","amt":"$710M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+{
+  "company": "Assurant",
+  "costLabel": "Policyholder benefits",
+  "costNote": "Claims paid to policyholders \u2014 device repairs and replacements, housing claims and the like. Reportable catastrophes added $19.7M inside Global Housing this quarter.",
+  "flow": {
+    "costOfRevenueM": 782,
+    "grossProfitM": 2747,
+    "netIncomeM": 275,
+    "operatingIncomeM": 379,
+    "opex": [
+      {
+        "amountM": 2368,
+        "name": "Underwriting, selling, general & administrative",
+        "note": "Assurant's model is partner-heavy: commissions and revenue shares to the mobile carriers, automakers, lenders and property managers who distribute its products, plus operating costs. This is where most of the money goes."
+      }
+    ],
+    "otherIncomeM": -28,
+    "revenueM": 3529,
+    "taxM": 76
+  },
+  "follow100": [
+    {
+      "amount": 80.14,
+      "label": "Net earned premiums"
+    },
+    {
+      "amount": 16.44,
+      "label": "Fees & other income"
+    },
+    {
+      "amount": 3.43,
+      "label": "Net investment income, net of realized losses"
+    },
+    {
+      "amount": -22.16,
+      "label": "Policyholder benefits"
+    },
+    {
+      "amount": -67.1,
+      "label": "Underwriting, selling, general & administrative"
+    },
+    {
+      "amount": -0.79,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.15,
+      "label": "Tax"
+    },
+    {
+      "amount": 7.79,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Insurer layout: premiums and fees are revenue; policyholder benefits are the direct-cost block. Interest expense of $28M, which Assurant lists among benefits and expenses, is shown below the operating line. Segment figures: Global Lifestyle premiums/fees of $2,661M with Adjusted EBITDA of $237M; Global Housing about $749M with Adjusted EBITDA of $268M. Figures rounded to whole $M.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$5.49"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$6.15"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "",
+      "value": "$464M"
+    },
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+9.2%"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+9.2%",
+  "segments": [
+    {
+      "amountM": 2828,
+      "name": "Net earned premiums",
+      "note": "Protection premiums \u2014 overwhelmingly from Global Lifestyle (device protection, extended service contracts, vehicle coverage: $2,661M of premiums/fees combined) and Global Housing (renters/homeowners: ~$749M).",
+      "yoy": "+7.6%"
+    },
+    {
+      "amountM": 580,
+      "name": "Fees & other income",
+      "note": "Fee-for-service work \u2014 device supply chain and logistics, inspections, valuations and financial services \u2014 the asset-light side growing fastest.",
+      "yoy": "+19.7%"
+    },
+    {
+      "amountM": 121,
+      "name": "Net investment income, net of realized losses",
+      "note": "$147M of investment income minus $25M of net realized losses and equity fair-value declines.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Assurant Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 3, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000075/0001267238-26-000075-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$6.15",
+      "statColor": "green",
+      "text": "Adjusted EPS of $6.15 (GAAP $5.49) \u2014 Assurant raised its full-year outlook to low double-digit adjusted EPS growth, targeting a 10th straight year of profitable growth.",
+      "title": "Outlook raised"
+    },
+    {
+      "stat": "+23%",
+      "statColor": "green",
+      "text": "Connected Living earnings grew 23% (phone supply-chain volumes and device protection), driving Global Lifestyle Adjusted EBITDA up 15% to $237M.",
+      "title": "Phones are the engine"
+    },
+    {
+      "stat": "$268M",
+      "statColor": "green",
+      "text": "Global Housing Adjusted EBITDA rose 5% to $268M despite $19.7M of reportable catastrophes; excluding catastrophes it was up 11%.",
+      "title": "Housing hums along"
+    }
+  ],
+  "ticker": "AIZ",
+  "verdict": "The specialty insurer's model keeps compounding: premiums and fees up ~10%, EBITDA up, and the full-year outlook raised."
+}

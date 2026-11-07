@@ -1,0 +1,151 @@
+{
+  "company": "Ameren",
+  "costLabel": "Fuel & purchased power",
+  "costNote": "The energy itself: fuel burned in Ameren's power plants and electricity bought from others, plus gas bought for resale \u2014 $837M total. Utilities pass much of this through to customers, so the real business is the margin on top.",
+  "flow": {
+    "costOfRevenueM": 837,
+    "grossProfitM": 2045,
+    "netIncomeM": 677,
+    "operatingIncomeM": 900,
+    "opex": [
+      {
+        "amountM": 535,
+        "name": "Operations & maintenance",
+        "note": "Running the grid and plants \u2014 this year heavier tree-trimming and energy-center maintenance nudged it up."
+      },
+      {
+        "amountM": 436,
+        "name": "Depreciation & amortization",
+        "note": "Wearing out a very large asset base \u2014 and growing, as Ameren keeps investing in grid infrastructure."
+      },
+      {
+        "amountM": 174,
+        "name": "Taxes other than income taxes",
+        "note": "Property taxes and similar levies on the network."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": 112,
+        "label": "Other income, net",
+        "note": "Includes the allowed return on certain investments and earnings on innovative energy-technology investments."
+      },
+      {
+        "amountM": -216,
+        "label": "Interest charges",
+        "note": "Interest on the debt that finances the grid build-out."
+      }
+    ],
+    "otherIncomeM": -104,
+    "revenueM": 2882,
+    "taxM": 119
+  },
+  "follow100": [
+    {
+      "amount": 94.45,
+      "label": "Electric"
+    },
+    {
+      "amount": 5.55,
+      "label": "Natural gas"
+    },
+    {
+      "amount": -29.04,
+      "label": "Fuel & purchased power"
+    },
+    {
+      "amount": -18.56,
+      "label": "Operations & maintenance"
+    },
+    {
+      "amount": -15.13,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -6.04,
+      "label": "Taxes other than income taxes"
+    },
+    {
+      "amount": -3.61,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.13,
+      "label": "Tax"
+    },
+    {
+      "amount": 23.49,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Utility layout: fuel, purchased power and gas bought for resale are shown as the direct-cost block; depreciation and property-type taxes sit in running costs. Net income is the consolidated $677M; $676M was attributable to common shareholders.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$2.42"
+    },
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+6.8%"
+    },
+    {
+      "label": "2026 EPS guidance",
+      "note": "",
+      "value": "$5.35\u20135.55"
+    },
+    {
+      "label": "2027 EPS guidance",
+      "note": "",
+      "value": "$5.70\u20135.90"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+6.8%",
+  "segments": [
+    {
+      "amountM": 2722,
+      "name": "Electric",
+      "note": "Electricity for Missouri and Illinois \u2014 94% of revenue. Warmer weather lifted Missouri retail sales, and regulated investment in the grid earns a growing return.",
+      "yoy": "+6.2%"
+    },
+    {
+      "amountM": 160,
+      "name": "Natural gas",
+      "note": "Gas delivery \u2014 a small, seasonal slice that matters more in winter.",
+      "yoy": "+17.6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ameren Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 5, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000029/0001002910-26-000029-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.42",
+      "statColor": "green",
+      "text": "EPS of $2.42 matched the adjusted figure and rose versus adjusted $2.17 a year ago (GAAP $2.35 included a one-off tax benefit). Infrastructure investment and warm-weather sales did the work.",
+      "title": "Clean quarter, no adjustments"
+    },
+    {
+      "stat": "8\u201310%",
+      "statColor": "green",
+      "text": "Ameren raised 2026 guidance to $5.35\u2013$5.55, set 2027 at $5.70\u2013$5.90, and guided to 8\u201310% annual EPS growth for 2027\u20132031 \u2014 top-tier for a regulated utility.",
+      "title": "Growth guidance stands out"
+    },
+    {
+      "stat": "$216M",
+      "statColor": "neutral",
+      "text": "Interest charges of $216M ate about a quarter of operating income \u2014 the flip side of funding a multi-year grid build with debt.",
+      "title": "Debt funds the build"
+    }
+  ],
+  "ticker": "AEE",
+  "verdict": "The regulated-utility script, executed: grid investment plus warm weather delivered $2.42 a share and a guidance raise."
+}

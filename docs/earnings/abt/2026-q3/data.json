@@ -1,0 +1,176 @@
+{
+  "company": "Abbott",
+  "costLabel": "Cost of products sold",
+  "costNote": "Making the products, before amortization. Abbott reports the $841M of intangible amortization as its own line (in running costs below, in this chart) because it mostly comes from acquisitions \u2014 it doubled with the Exact Sciences deal.",
+  "flow": {
+    "costOfRevenueM": 5628,
+    "grossProfitM": 7385,
+    "netIncomeM": 920,
+    "operatingIncomeM": 1358,
+    "opex": [
+      {
+        "amountM": 4266,
+        "name": "Selling, general & administrative",
+        "note": "Up 40% as Abbott absorbs Exact Sciences (closed March 2026) and carries legal-settlement and deal-related charges inside specified items."
+      },
+      {
+        "amountM": 920,
+        "name": "Research & development",
+        "note": "Up 20% \u2014 the pipeline absorbed Exact Sciences' cancer-diagnostics research on top of Abbott's own programs."
+      },
+      {
+        "amountM": 841,
+        "name": "Amortization of intangibles",
+        "note": "Writing down the value of technology and brands bought in past deals. Doubled year over year after Exact Sciences."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -297,
+        "label": "Interest expense, net",
+        "note": "Interest on a bigger debt pile after acquisition financing, net of interest earned. Was just $44M a year ago."
+      },
+      {
+        "amountM": 170,
+        "label": "Other income & FX, net",
+        "note": "$164M of other income plus a $6M currency gain."
+      }
+    ],
+    "otherIncomeM": -127,
+    "revenueM": 13013,
+    "taxM": 311
+  },
+  "follow100": [
+    {
+      "amount": 44.82,
+      "label": "Medical Devices"
+    },
+    {
+      "amount": 25.4,
+      "label": "Diagnostics"
+    },
+    {
+      "amount": 17.38,
+      "label": "Nutrition"
+    },
+    {
+      "amount": 12.4,
+      "label": "Established Pharmaceuticals"
+    },
+    {
+      "amount": -43.25,
+      "label": "Cost of products sold"
+    },
+    {
+      "amount": -32.78,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -7.07,
+      "label": "Research & development"
+    },
+    {
+      "amount": -6.46,
+      "label": "Amortization of intangibles"
+    },
+    {
+      "amount": -0.98,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.39,
+      "label": "Tax"
+    },
+    {
+      "amount": 7.07,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Sales growth (reported)",
+      "note": "",
+      "value": "+14.5%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$0.53"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$1.42"
+    },
+    {
+      "label": "Medical Devices sales",
+      "note": "",
+      "value": "$5.83B"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Specified items \u2014 $1.56B after tax",
+      "text": "GAAP results exclude nothing; adjusted EPS of $1.42 strips out $1.557B of after-tax charges ($0.89/share): intangible amortization, legal settlements, Exact Sciences acquisition and restructuring costs."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+14.5%",
+  "segments": [
+    {
+      "amountM": 5832,
+      "name": "Medical Devices",
+      "note": "The biggest business \u2014 glucose sensors (Libre), heart devices, electrophysiology. Up 6.9% reported, 7.8% comparable; Libre Duo (glucose + ketone) won FDA approval in August.",
+      "yoy": "+6.9%"
+    },
+    {
+      "amountM": 3305,
+      "name": "Diagnostics",
+      "note": "Reported sales jumped 46.7% because Exact Sciences (cancer screening, incl. Cologuard) joined in March; underlying comparable growth was 6.4%.",
+      "yoy": "+46.7%"
+    },
+    {
+      "amountM": 2262,
+      "name": "Nutrition",
+      "note": "Similac and adult nutrition (Ensure). Up 5.1%, led by pediatric nutrition at nearly +9%.",
+      "yoy": "+5.1%"
+    },
+    {
+      "amountM": 1614,
+      "name": "Established Pharmaceuticals",
+      "note": "Branded generics sold outside the US. Sold entirely internationally.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Abbott Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 21, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026062953/0001628280-26-062953-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$0.53",
+      "statColor": "red",
+      "text": "GAAP EPS fell 44% to $0.53 as specified items hit $1.56B after tax \u2014 amortization, legal settlements and Exact Sciences deal costs. The adjusted number Abbott steers by was $1.42, up modestly.",
+      "title": "GAAP profit halved by deal charges"
+    },
+    {
+      "stat": "+7.0%",
+      "statColor": "green",
+      "text": "Reported sales rose 14.5% with Exact Sciences included; on the comparable basis Abbott prefers (both years incl. Exact) growth was 7.0% \u2014 balanced across all four divisions.",
+      "title": "Underlying growth is 7%"
+    },
+    {
+      "stat": "$5.50\u20135.55",
+      "statColor": "green",
+      "text": "Abbott tightened full-year adjusted EPS guidance to $5.50\u2013$5.55 and expects Q4 adjusted EPS of $1.62\u2013$1.67, with comparable sales growth of about 6% for the year.",
+      "title": "Guidance tightened, not cut"
+    }
+  ],
+  "ticker": "ABT",
+  "verdict": "Growth is real but expensive: sales up 14.5% with Exact Sciences aboard, while deal costs halved GAAP profit."
+}

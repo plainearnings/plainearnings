@@ -1,0 +1,195 @@
+{
+  "company": "American Electric Power",
+  "costLabel": "Fuel & purchased electricity",
+  "costNote": "Fuel burned and power bought to serve customers, $2,087M \u2014 the utility's direct cost. Demand from new data centers is pulling this (and revenue) up fast.",
+  "flow": {
+    "costOfRevenueM": 2087,
+    "grossProfitM": 4745,
+    "netIncomeM": 1218,
+    "operatingIncomeM": 1812,
+    "opex": [
+      {
+        "amountM": 1028,
+        "name": "Other operation",
+        "note": "Running generation, transmission and distribution day to day."
+      },
+      {
+        "amountM": 1025,
+        "name": "Depreciation & amortization",
+        "note": "A huge, fast-growing asset base: AEP just lifted its five-year capital plan to $100B."
+      },
+      {
+        "amountM": 447,
+        "name": "Maintenance",
+        "note": "Keeping plants and lines in shape."
+      },
+      {
+        "amountM": 433,
+        "name": "Taxes other than income taxes",
+        "note": "Property and similar taxes across an 11-state footprint."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -606,
+        "label": "Interest expense",
+        "note": "The cost of financing the grid \u2014 AEP's biggest below-the-line item."
+      },
+      {
+        "amountM": 81,
+        "label": "Allowance for equity funds (AFUDC)",
+        "note": "A regulated-utility credit: the deemed return on equity money tied up in construction projects."
+      },
+      {
+        "amountM": 56,
+        "label": "Other income & equity earnings",
+        "note": "$6M other income, $25M of non-service pension credits and $25M of equity earnings from unconsolidated subsidiaries (which AEP reports after tax)."
+      }
+    ],
+    "otherIncomeM": -469,
+    "revenueM": 6832,
+    "taxM": 125
+  },
+  "follow100": [
+    {
+      "amount": 57.42,
+      "label": "Vertically Integrated Utilities"
+    },
+    {
+      "amount": 27.12,
+      "label": "Transmission & Distribution Utilities"
+    },
+    {
+      "amount": 13.5,
+      "label": "Generation & Marketing"
+    },
+    {
+      "amount": 1.96,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -30.55,
+      "label": "Fuel & purchased electricity"
+    },
+    {
+      "amount": -15.05,
+      "label": "Other operation"
+    },
+    {
+      "amount": -15.0,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -6.54,
+      "label": "Maintenance"
+    },
+    {
+      "amount": -6.34,
+      "label": "Taxes other than income taxes"
+    },
+    {
+      "amount": -6.86,
+      "label": "Other expense"
+    },
+    {
+      "amount": -1.83,
+      "label": "Tax"
+    },
+    {
+      "amount": 17.83,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Utility layout: fuel and purchased electricity are the direct-cost block; figures are from AEP's Q3 2026 Form 10-Q. Net income is the consolidated $1,218M; $1,187M was attributable to AEP common shareholders after noncontrolling interests.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP)",
+      "note": "",
+      "value": "$2.18"
+    },
+    {
+      "label": "Operating EPS",
+      "note": "",
+      "value": "$2.23"
+    },
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+13.7%"
+    },
+    {
+      "label": "5-yr capital plan",
+      "note": "",
+      "value": "$100B"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "GAAP vs operating",
+      "text": "The $29M gap between GAAP earnings ($1,187M) and operating earnings ($1,216M) is mainly mark-to-market on risk-management positions \u2014 AEP strips it from its headline measure."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+13.7%",
+  "segments": [
+    {
+      "amountM": 3923,
+      "name": "Vertically Integrated Utilities",
+      "note": "Generation + delivery in states like Ohio, West Virginia and Oklahoma \u2014 where the data-center load boom is landing. 15 GW of new load commitments signed in Q3 alone.",
+      "yoy": "+11.7%"
+    },
+    {
+      "amountM": 1853,
+      "name": "Transmission & Distribution Utilities",
+      "note": "Wires-only utilities (incl. Texas) that buy power and deliver it. AEP is the largest US transmission owner; transmission rate base is set to nearly double by 2031.",
+      "yoy": "+10.3%"
+    },
+    {
+      "amountM": 922,
+      "name": "Generation & Marketing",
+      "note": "Competitive generation and wholesale marketing \u2014 up 33% on power-market demand.",
+      "yoy": "+32.9%"
+    },
+    {
+      "amountM": 134,
+      "name": "Other revenues",
+      "note": "Transmission holdco and miscellaneous activities.",
+      "yoy": "+6.3%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AEP Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 28, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000040/0000004904-26-000040-index.htm"
+    },
+    {
+      "label": "AEP Form 10-Q for Q3 2026 (full income statement) \u2014 SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000072/aep-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "84 GW",
+      "statColor": "green",
+      "text": "AEP's contracted incremental load is expected to reach 84 GW by 2031 under signed agreements \u2014 an enormous data-center and industrial pipeline for an 11-state utility.",
+      "title": "The load queue is the story"
+    },
+    {
+      "stat": "$100B",
+      "statColor": "green",
+      "text": "The five-year capital plan jumped to $100B (rate base CAGR 13%+, to $162B by 2031), underpinning guided operating EPS growth of 9\u201311% a year for 2027\u20132031.",
+      "title": "Capex super-cycle"
+    },
+    {
+      "stat": "$21B",
+      "statColor": "neutral",
+      "text": "Take-or-pay contracts with large new customers are expected to offset up to $21B of fixed costs for existing residential customers \u2014 AEP's answer to the 'data centers raise my bill' argument.",
+      "title": "Affordability pitch"
+    }
+  ],
+  "ticker": "AEP",
+  "verdict": "AEP is the data-center power play among utilities: revenue up 14%, a $100B build plan, and 9\u201311% guided EPS growth."
+}

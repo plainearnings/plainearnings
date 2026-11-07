@@ -1,0 +1,163 @@
+{
+  "company": "Accenture",
+  "costLabel": "Cost of services",
+  "costNote": "The consultants and delivery staff doing client work \u2014 68 cents of every revenue dollar. Gross margin held at 32.0%.",
+  "flow": {
+    "costOfRevenueM": 12694,
+    "grossProfitM": 5985,
+    "netIncomeM": 2034,
+    "operatingIncomeM": 2863,
+    "opex": [
+      {
+        "amountM": 1809,
+        "name": "Sales & marketing",
+        "note": "Winning the work \u2014 pursuits and account teams. Bookings were $22.2B in the quarter (book-to-bill 1.2)."
+      },
+      {
+        "amountM": 1313,
+        "name": "General & administrative",
+        "note": "Running a ~800,000-person firm: management, finance, IT and offices."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": 103,
+        "label": "Interest income",
+        "note": "Interest earned on cash balances."
+      },
+      {
+        "amountM": -104,
+        "label": "Interest expense",
+        "note": "Cost of debt \u2014 roughly cancels the interest income."
+      },
+      {
+        "amountM": -64,
+        "label": "Other expense, net",
+        "note": "Pension and miscellaneous non-operating items."
+      }
+    ],
+    "otherIncomeM": -65,
+    "revenueM": 18679,
+    "taxM": 764
+  },
+  "follow100": [
+    {
+      "amount": 50.5,
+      "label": "Americas"
+    },
+    {
+      "amount": 35.23,
+      "label": "EMEA"
+    },
+    {
+      "amount": 14.27,
+      "label": "Growth Markets"
+    },
+    {
+      "amount": -67.96,
+      "label": "Cost of services"
+    },
+    {
+      "amount": -9.68,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.03,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.35,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.09,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.89,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income is the consolidated $2,034M; $1,991M was attributable to Accenture plc after noncontrolling interests.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+6%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$3.29"
+    },
+    {
+      "label": "New bookings",
+      "note": "",
+      "value": "$22.2B"
+    },
+    {
+      "label": "Operating margin",
+      "note": "",
+      "value": "15.3%"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "No optimization charge this year",
+      "text": "Q4 operating margin jumped 370bp partly because last year's fourth quarter carried $615M of 'business optimization' (restructuring) costs and this year's carried none. Against last year's adjusted margin, the gain was 20bp."
+    }
+  ],
+  "periodEnd": "2026-08-31",
+  "quarterLabel": "Q4 FY2026",
+  "quarterSlug": "2026-q4",
+  "reportedDate": "2026-10-01",
+  "revenueYoY": "+6%",
+  "segments": [
+    {
+      "amountM": 9432,
+      "name": "Americas",
+      "note": "The largest market \u2014 US, Canada and Latin America. Grew 7% in dollars.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 6581,
+      "name": "EMEA",
+      "note": "Europe, Middle East and Africa. Grew 6% despite a small currency drag.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 2666,
+      "name": "Growth Markets",
+      "note": "Asia-Pacific and other faster-growing markets. Grew 3% in dollars, 7% in local currency.",
+      "yoy": "+3%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Accenture Q4 FY2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 1, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/0001467373-26-000037-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.29",
+      "statColor": "green",
+      "text": "Q4 EPS rose 46% \u2014 flattered by comparison with a year-ago quarter that absorbed $615M of restructuring. Versus adjusted EPS last year, growth was 9%.",
+      "title": "EPS up 46% (with an easy comparison)"
+    },
+    {
+      "stat": "$84.5B",
+      "statColor": "green",
+      "text": "Full-year bookings hit $84.5B with a record 141 quarterly client bookings of $100M+; Q4 bookings were $22.2B, led by managed services at a 1.4 book-to-bill.",
+      "title": "Bookings stayed strong"
+    },
+    {
+      "stat": "3\u20136%",
+      "statColor": "neutral",
+      "text": "Fiscal 2027 guidance: revenue growth of 3\u20136% in local currency and GAAP EPS of $14.39\u201314.81 \u2014 steady, not spectacular, with at least $9.5B of planned shareholder returns ($11.5B in FY26).",
+      "title": "FY27 outlook is measured"
+    }
+  ],
+  "ticker": "ACN",
+  "verdict": "Accenture closed its year above guidance: 6% growth, a 370bp margin jump (against a restructuring-hit quarter) and record bookings."
+}

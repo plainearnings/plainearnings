@@ -1,0 +1,181 @@
+{
+  "company": "Akamai Technologies",
+  "costLabel": "Cost of revenue",
+  "costNote": "Running one of the world's largest edge networks \u2014 servers, bandwidth and data centers. It jumped 18% year over year as Akamai builds out cloud capacity ahead of the revenue it has already signed.",
+  "flow": {
+    "costOfRevenueM": 505,
+    "grossProfitM": 617,
+    "netIncomeM": 117,
+    "operatingIncomeM": 109,
+    "opex": [
+      {
+        "amountM": 174,
+        "name": "General & administrative",
+        "note": "Includes heavy stock-based compensation and the corporate build-out behind the cloud pivot."
+      },
+      {
+        "amountM": 165,
+        "name": "Sales & marketing",
+        "note": "Selling security and cloud services to enterprises."
+      },
+      {
+        "amountM": 141,
+        "name": "Research & development",
+        "note": "New launches this quarter included Akamai Inference and Akamai Agent Sandbox for AI workloads."
+      },
+      {
+        "amountM": 28,
+        "name": "Amortization & restructuring",
+        "note": "$26M of amortization on acquired intangibles plus a $2M restructuring charge."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": 41,
+        "label": "Interest & securities income, net",
+        "note": "Returns on Akamai's cash and investment portfolio."
+      },
+      {
+        "amountM": -11,
+        "label": "Interest expense",
+        "note": "Cost of debt."
+      },
+      {
+        "amountM": -1,
+        "label": "Other expense, net",
+        "note": "Small residual items."
+      }
+    ],
+    "otherIncomeM": 29,
+    "revenueM": 1122,
+    "taxM": 21
+  },
+  "follow100": [
+    {
+      "amount": 55.44,
+      "label": "Security"
+    },
+    {
+      "amount": 34.85,
+      "label": "Delivery & other cloud apps"
+    },
+    {
+      "amount": 9.71,
+      "label": "Cloud Infrastructure Services"
+    },
+    {
+      "amount": -45.01,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -15.51,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -14.71,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -12.57,
+      "label": "Research & development"
+    },
+    {
+      "amount": -2.5,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": 2.58,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.87,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.43,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's thousands presentation; minor rounding differences may occur.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+6%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$0.77"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "note": "",
+      "value": "$1.77"
+    },
+    {
+      "label": "Cloud Infrastructure revenue",
+      "note": "",
+      "value": "$109M"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Investment phase",
+      "text": "GAAP operating income fell 35% to $109M (a 10% margin) as Akamai spends ahead of its cloud build-out. Non-GAAP operating income was $286M (25% margin) \u2014 the $177M gap is mostly stock compensation and amortization."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+6%",
+  "segments": [
+    {
+      "amountM": 622,
+      "name": "Security",
+      "note": "Web app/API protection, zero-trust and anti-DDoS \u2014 now 55% of revenue and still growing 9%.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 391,
+      "name": "Delivery & other cloud apps",
+      "note": "The original content-delivery business \u2014 still huge, but shrinking 3% as media traffic pricing grinds down.",
+      "yoy": "-3%"
+    },
+    {
+      "amountM": 109,
+      "name": "Cloud Infrastructure Services",
+      "note": "The growth bet: compute, storage and AI inference on Akamai's edge. Up 34% \u2014 small today, guided to $1.1\u20131.3B of revenue in 2027.",
+      "yoy": "+34%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Akamai Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 5, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000074/0001086222-26-000074-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$14B",
+      "statColor": "green",
+      "text": "Akamai has signed more than $14B of multi-year Cloud Infrastructure commitments this year \u2014 the backlog behind its claim that 2027 revenue growth jumps to 17\u201322% and 2028 revenue tops $7.0B.",
+      "title": "The backlog is the headline"
+    },
+    {
+      "stat": "10%",
+      "statColor": "red",
+      "text": "GAAP operating margin compressed to 10% (from 16%) \u2014 the cost of building a cloud business before its revenue arrives. GAAP EPS fell 21% to $0.77.",
+      "title": "Profit is being spent on the pivot"
+    },
+    {
+      "stat": "$622M",
+      "statColor": "green",
+      "text": "Security is now the majority of the company and compounding at 9%; legacy delivery shrinks slowly at \u22123%. The mix shift is nearly complete.",
+      "title": "Security is the core now"
+    }
+  ],
+  "ticker": "AKAM",
+  "verdict": "A pivot quarter: today's profit dips (GAAP EPS $0.77) to fund a cloud business with $14B of signed commitments."
+}

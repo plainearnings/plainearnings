@@ -1,0 +1,165 @@
+{
+  "company": "Allstate",
+  "costLabel": "Claims & policy benefits",
+  "costNote": "Insurance claims \u2014 $9,943M of property-casualty claims plus $77M of accident/health benefits. Catastrophe losses ran 7.1 combined-ratio points higher than last year's unusually light quarter, partly offset by more favorable reserve releases on old claims.",
+  "flow": {
+    "costOfRevenueM": 10020,
+    "grossProfitM": 7328,
+    "netIncomeM": 2080,
+    "operatingIncomeM": 2714,
+    "opex": [
+      {
+        "amountM": 2308,
+        "name": "Operating costs & expenses",
+        "note": "Running 217.6 million policies \u2014 agents, claims operations and the ALLIE AI service platform. Shown net of a $28M pension remeasurement gain."
+      },
+      {
+        "amountM": 2220,
+        "name": "Amortization of policy acquisition costs",
+        "note": "Spreading the commissions paid to win and renew policies over their terms (DAC)."
+      },
+      {
+        "amountM": 86,
+        "name": "Amortization & restructuring",
+        "note": "$46M of amortization on purchased intangibles plus $40M of restructuring charges."
+      }
+    ],
+    "otherIncomeM": -97,
+    "revenueM": 17348,
+    "taxM": 537
+  },
+  "follow100": [
+    {
+      "amount": 91.4,
+      "label": "Property & casualty premiums"
+    },
+    {
+      "amount": 4.17,
+      "label": "Other revenue"
+    },
+    {
+      "amount": 3.64,
+      "label": "Net investment income"
+    },
+    {
+      "amount": 0.78,
+      "label": "Accident & health"
+    },
+    {
+      "amount": -57.76,
+      "label": "Claims & policy benefits"
+    },
+    {
+      "amount": -13.3,
+      "label": "Operating costs & expenses"
+    },
+    {
+      "amount": -12.8,
+      "label": "Amortization of policy acquisition costs"
+    },
+    {
+      "amount": -0.5,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": -0.56,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.1,
+      "label": "Tax"
+    },
+    {
+      "amount": 11.99,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Insurer layout: premiums and other revenue are the top line; claims are the direct-cost block. Net income is the consolidated $2,080M; $2,050M was applicable to common shareholders after preferred dividends. Interest expense of $97M, listed by Allstate among costs and expenses, is shown below the operating line.",
+  "kpis": [
+    {
+      "label": "EPS (diluted, to common)",
+      "note": "",
+      "value": "$8.03"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$9.76"
+    },
+    {
+      "label": "Recorded combined ratio",
+      "note": "",
+      "value": "86.6"
+    },
+    {
+      "label": "Policies in force",
+      "note": "",
+      "value": "217.6M"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Tough comparison year",
+      "text": "A year ago Allstate booked a $720M gain on selling its group health business; this year there was none, and investments swung to a $545M loss \u2014 the two explain most of the drop from $3.7B to $2.1B of net income (to common)."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+0.5%",
+  "segments": [
+    {
+      "amountM": 15856,
+      "name": "Property & casualty premiums",
+      "note": "Auto and homeowners premiums earned \u2014 up 4.0% as policies in force grew 3.3% (auto +3.4%, homeowners +3.3%) and rate increases earned through. Recorded combined ratio 86.6.",
+      "yoy": "+4.0%"
+    },
+    {
+      "amountM": 724,
+      "name": "Other revenue",
+      "note": "Protection Plans (device and appliance coverage, growing fast internationally), dealer services, roadside and identity protection.",
+      "yoy": "+4.8%"
+    },
+    {
+      "amountM": 632,
+      "name": "Net investment income",
+      "note": "$1,177M of investment income (up 24%) minus $545M of net losses on investments and derivatives \u2014 the swing item in this quarter's GAAP result.",
+      "yoy": ""
+    },
+    {
+      "amountM": 136,
+      "name": "Accident & health",
+      "note": "Supplemental accident and health coverage \u2014 small since the group health business was sold in 2025.",
+      "yoy": "+23.6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Allstate Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000126/0000899051-26-000126-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$9.76",
+      "statColor": "green",
+      "text": "Adjusted EPS of $9.76 vs GAAP $8.03 \u2014 the gap is mostly the $545M of investment/derivative losses that adjusted earnings exclude. Underwriting itself was strong: combined ratio 86.6 even with heavy catastrophes.",
+      "title": "Core underwriting is excellent"
+    },
+    {
+      "stat": "217.6M",
+      "statColor": "green",
+      "text": "Total policies in force hit 217.6 million \u2014 Property-Liability policies up 3.3%, with auto and home both gaining share on new 'Affordable, Simple and Connected' products.",
+      "title": "Growth, not just price"
+    },
+    {
+      "stat": "-45%",
+      "statColor": "red",
+      "text": "Net income to common fell 45% to $2.05B \u2014 but the comparison is against a quarter with a $720M disposal gain and investment gains. Premiums, the controllable part, rose 4%.",
+      "title": "Headline profit down on one-offs"
+    }
+  ],
+  "ticker": "ALL",
+  "verdict": "Excellent underwriting (86.6 combined ratio) and policy growth \u2014 GAAP profit only looks weak against last year's disposal gain."
+}

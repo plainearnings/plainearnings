@@ -1,0 +1,163 @@
+{
+  "company": "Autodesk",
+  "costLabel": "Cost of revenue",
+  "costNote": "Hosting the cloud platform and supporting subscribers \u2014 just $176M against $2.05B of revenue. Software economics: 91 cents of every dollar survives as gross profit.",
+  "flow": {
+    "costOfRevenueM": 176,
+    "grossProfitM": 1870,
+    "netIncomeM": 492,
+    "operatingIncomeM": 599,
+    "opex": [
+      {
+        "amountM": 616,
+        "name": "Marketing & sales",
+        "note": "The sales reorganization year \u2014 Autodesk is shifting more selling to partners and its own transaction platform. Still the biggest single cost."
+      },
+      {
+        "amountM": 464,
+        "name": "Research & development",
+        "note": "Building AI features into AutoCAD, Revit, Fusion and the Forma platform."
+      },
+      {
+        "amountM": 179,
+        "name": "General & administrative",
+        "note": "Finance, legal, HR and running the company."
+      },
+      {
+        "amountM": 12,
+        "name": "Amortization & restructuring, net",
+        "note": "$13M of amortization on purchased intangibles, net of a $1M restructuring credit."
+      }
+    ],
+    "otherIncomeM": -6,
+    "revenueM": 2046,
+    "taxM": 101
+  },
+  "follow100": [
+    {
+      "amount": 83.48,
+      "label": "Design"
+    },
+    {
+      "amount": 11.93,
+      "label": "Make"
+    },
+    {
+      "amount": 4.59,
+      "label": "Other"
+    },
+    {
+      "amount": -8.6,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -30.11,
+      "label": "Marketing & sales"
+    },
+    {
+      "amount": -22.68,
+      "label": "Research & development"
+    },
+    {
+      "amount": -8.75,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.59,
+      "label": "Amortization & restructuring, net"
+    },
+    {
+      "amount": -0.29,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.94,
+      "label": "Tax"
+    },
+    {
+      "amount": 24.05,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+16%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$2.33"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "note": "",
+      "value": "$3.30"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "",
+      "value": "$561M"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "MaintainX acquisition",
+      "text": "Autodesk closed its MaintainX acquisition and raised FY27 billings/revenue guidance partly on its contribution \u2014 while flagging about $45M of related transaction costs in its cash-flow outlook."
+    }
+  ],
+  "periodEnd": "2026-07-31",
+  "quarterLabel": "Q2 FY2027",
+  "quarterSlug": "2027-q2",
+  "reportedDate": "2026-08-27",
+  "revenueYoY": "+16%",
+  "segments": [
+    {
+      "amountM": 1708,
+      "name": "Design",
+      "note": "AutoCAD, Revit and the design-side portfolios \u2014 83% of revenue. Grew 16% (14% in constant currency).",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 244,
+      "name": "Make",
+      "note": "Construction and manufacturing-execution software (Autodesk Construction Cloud, Fusion operations) \u2014 the fastest grower at +26%, aided by MaintainX.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 94,
+      "name": "Other",
+      "note": "Legacy and miscellaneous products, shrinking 3%.",
+      "yoy": "-3%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Autodesk Q2 FY2027 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Aug 27, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000051/0000769397-26-000051-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.33",
+      "statColor": "green",
+      "text": "GAAP EPS leapt from $1.46 to $2.33 \u2014 a year ago Autodesk was absorbing sales-model transition costs. Non-GAAP EPS was $3.30, and GAAP operating margin hit 29%.",
+      "title": "GAAP profit caught up"
+    },
+    {
+      "stat": "+26%",
+      "statColor": "green",
+      "text": "The 'Make' portfolio (construction + manufacturing execution) is small but growing 26% \u2014 the strategic second engine behind the Design core.",
+      "title": "Make is the growth engine"
+    },
+    {
+      "stat": "$561M",
+      "statColor": "green",
+      "text": "Free cash flow of $561M in the quarter, up 24%. FY27 FCF guidance was narrowed: stronger underlying cash generation, partly spent on MaintainX deal and financing costs.",
+      "title": "Cash flow compounding"
+    }
+  ],
+  "ticker": "ADSK",
+  "verdict": "Textbook software leverage: 16% growth at a 91% gross margin turned into a 60% jump in GAAP EPS."
+}

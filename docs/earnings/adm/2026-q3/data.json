@@ -1,0 +1,176 @@
+{
+  "company": "Archer Daniels Midland",
+  "costLabel": "Cost of products sold",
+  "costNote": "Mostly the crops themselves \u2014 corn, soy and other commodities ADM buys from farmers \u2014 plus processing. It runs at 92 cents per revenue dollar; ADM's profit lives in the thin spread on top.",
+  "flow": {
+    "costOfRevenueM": 20449,
+    "grossProfitM": 1886,
+    "netIncomeM": 826,
+    "operatingIncomeM": 935,
+    "opex": [
+      {
+        "amountM": 946,
+        "name": "Selling, general & administrative",
+        "note": "Running the global origination, trading and processing network, plus corporate functions."
+      },
+      {
+        "amountM": 5,
+        "name": "Impairment, exit & restructuring",
+        "note": "Only $5M this quarter \u2014 versus $246M a year ago. The non-repeat of those charges is a big part of why profit jumped."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": 157,
+        "label": "Equity earnings of affiliates",
+        "note": "ADM's share of profits from joint ventures and stakes, chiefly Wilmar."
+      },
+      {
+        "amountM": 99,
+        "label": "Interest & investment income",
+        "note": "Interest and returns on financial assets."
+      },
+      {
+        "amountM": -165,
+        "label": "Interest expense",
+        "note": "Cost of debt."
+      },
+      {
+        "amountM": -29,
+        "label": "Other expense, net",
+        "note": "Miscellaneous below-the-line items."
+      }
+    ],
+    "otherIncomeM": 62,
+    "revenueM": 22335,
+    "taxM": 171
+  },
+  "follow100": [
+    {
+      "amount": 78.11,
+      "label": "Ag Services & Oilseeds"
+    },
+    {
+      "amount": 13.15,
+      "label": "Carbohydrate Solutions"
+    },
+    {
+      "amount": 8.22,
+      "label": "Nutrition"
+    },
+    {
+      "amount": 0.51,
+      "label": "Other business"
+    },
+    {
+      "amount": -91.56,
+      "label": "Cost of products sold"
+    },
+    {
+      "amount": -4.24,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -0.02,
+      "label": "Impairment, exit & restructuring"
+    },
+    {
+      "amount": 0.28,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.77,
+      "label": "Tax"
+    },
+    {
+      "amount": 3.7,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net earnings are the consolidated $826M including non-controlling interests; $821M was attributable to ADM. Segment revenue is revenue from external customers per the Q3 2026 Form 10-Q segment note.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$1.70"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$1.77"
+    },
+    {
+      "label": "Revenue",
+      "note": "",
+      "value": "$22.3B"
+    },
+    {
+      "label": "FY26 adj. EPS guide",
+      "note": "",
+      "value": "$5.50\u20135.80"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+9.6%",
+  "segments": [
+    {
+      "amountM": 17445,
+      "name": "Ag Services & Oilseeds",
+      "note": "Sourcing, trading, transporting and crushing soy and other oilseeds. Segment operating profit more than doubled to $778M on a constructive biofuels market and strong North American execution.",
+      "yoy": "+11.7%"
+    },
+    {
+      "amountM": 2938,
+      "name": "Carbohydrate Solutions",
+      "note": "Starches, sweeteners and corn processing (incl. ethanol via Vantage). Operating profit rose to $470M from $336M.",
+      "yoy": "+7.5%"
+    },
+    {
+      "amountM": 1837,
+      "name": "Nutrition",
+      "note": "Human and animal nutrition ingredients \u2014 the higher-margin growth bet. Operating profit edged up to $134M even as revenue dipped.",
+      "yoy": "-4.1%"
+    },
+    {
+      "amountM": 115,
+      "name": "Other business",
+      "note": "Smaller activities outside the three reportable segments, including captive insurance.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "ADM Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 3, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000045/0000007084-26-000045-index.htm"
+    },
+    {
+      "label": "ADM Form 10-Q for Q3 2026 (segment revenue) \u2014 SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000057/adm-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.70",
+      "statColor": "green",
+      "text": "EPS of $1.70 versus $0.22 a year ago \u2014 last year's quarter carried $246M of impairment and restructuring charges plus weaker crushing margins; this year segment operating profit grew in all three segments.",
+      "title": "Profit surged off a low base"
+    },
+    {
+      "stat": "$778M",
+      "statColor": "green",
+      "text": "Ag Services & Oilseeds operating profit more than doubled to $778M (crushing alone $311M vs $13M), riding biofuel demand and ADM's North American footprint.",
+      "title": "Oilseeds did the heavy lifting"
+    },
+    {
+      "stat": "$5.50\u20135.80",
+      "statColor": "green",
+      "text": "Management raised full-year adjusted EPS guidance to about $5.50\u2013$5.80 (from $5.15\u2013$5.60) and expects Q4 operating profit to improve year over year in every segment.",
+      "title": "Guidance raised again"
+    }
+  ],
+  "ticker": "ADM",
+  "verdict": "A biofuel-fueled rebound: revenue up 10%, profit up nearly eightfold off a charge-heavy year-ago quarter, and guidance raised."
+}

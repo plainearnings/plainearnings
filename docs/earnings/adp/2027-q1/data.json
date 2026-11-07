@@ -1,0 +1,133 @@
+{
+  "company": "Automatic Data Processing",
+  "costLabel": "Costs of revenues",
+  "costNote": "Delivering the service: payroll and HR operations staff, the PEO's worksite-employee benefit costs, product R&D ($251M) and depreciation ($129M). ADP reports these as 'total costs of revenues'.",
+  "flow": {
+    "costOfRevenueM": 2965,
+    "grossProfitM": 2526,
+    "netIncomeM": 1125,
+    "operatingIncomeM": 1463,
+    "opex": [
+      {
+        "amountM": 1063,
+        "name": "Selling, general & administrative",
+        "note": "Sales, account management and corporate overhead."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -148,
+        "label": "Interest expense",
+        "note": "ADP lists interest expense among its operating expenses; it is shown here below the operating line, as most companies present it."
+      },
+      {
+        "amountM": 140,
+        "label": "Other income, net",
+        "note": "Corporate investments and other non-operating gains."
+      }
+    ],
+    "otherIncomeM": -8,
+    "revenueM": 5491,
+    "taxM": 330
+  },
+  "follow100": [
+    {
+      "amount": 67.11,
+      "label": "Employer Services"
+    },
+    {
+      "amount": 32.89,
+      "label": "PEO Services & other"
+    },
+    {
+      "amount": -54.0,
+      "label": "Costs of revenues"
+    },
+    {
+      "amount": -19.36,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -0.15,
+      "label": "Other expense"
+    },
+    {
+      "amount": -6.01,
+      "label": "Tax"
+    },
+    {
+      "amount": 20.49,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Revenue components: Employer Services $3,685M and PEO Services $1,808M (including $329M of interest earned on funds held for clients), less $3M of reconciling 'other'.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+6%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$2.83"
+    },
+    {
+      "label": "Adjusted EBIT margin",
+      "note": "",
+      "value": "26.8%"
+    },
+    {
+      "label": "Client funds interest",
+      "note": "",
+      "value": "$329M"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q1 FY2027",
+  "quarterSlug": "2027-q1",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+6%",
+  "segments": [
+    {
+      "amountM": 3685,
+      "name": "Employer Services",
+      "note": "Payroll and HCM software/services for employers of every size, including $329M of interest earned on client funds awaiting payment. Segment margin 36.5%, up 130bp; US pays per control rose 2%.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 1806,
+      "name": "PEO Services & other",
+      "note": "The professional employer organization \u2014 ADP becomes co-employer for ~771,000 worksite employees. Revenue up 7% (4% excluding zero-margin benefits pass-throughs); segment margin 13.0%. Includes a small negative 'other' reconciling item.",
+      "yoy": "+7%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ADP Q1 FY2027 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 28, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000081/0000008670-26-000081-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$329M",
+      "statColor": "green",
+      "text": "Interest earned on the $36.9B of client money ADP holds between payday deductions and payouts rose 15% to $329M, as the yield on those balances climbed 30bp to 3.6% \u2014 high rates are a real profit engine.",
+      "title": "The float keeps paying"
+    },
+    {
+      "stat": "26.8%",
+      "statColor": "green",
+      "text": "Adjusted EBIT margin expanded 130bp to 26.8% \u2014 ADP beat its own plan on revenue, margin and EPS, and raised full-year guidance for revenue and adjusted EPS growth.",
+      "title": "Margins expanding, guidance raised"
+    },
+    {
+      "stat": "771k",
+      "statColor": "neutral",
+      "text": "The PEO now pays about 771,000 worksite employees (+2%). Its reported revenue overstates the business \u2014 much of the $1.8B is zero-margin benefits money passing through.",
+      "title": "PEO scale keeps growing"
+    }
+  ],
+  "ticker": "ADP",
+  "verdict": "A steady compounder's quarter: 6% growth, margins up 130bp, and the client-money float contributing more as yields rise."
+}

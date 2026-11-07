@@ -1,0 +1,154 @@
+{
+  "company": "Arthur J. Gallagher",
+  "costLabel": "Compensation",
+  "costNote": "Gallagher is a people business, so pay is its direct cost of service: $2,237M across producers, brokers and service staff (55% of revenue, before reimbursements). The AssuredPartners acquisition \u2014 the largest in company history \u2014 added thousands of employees.",
+  "flow": {
+    "costOfRevenueM": 2237,
+    "grossProfitM": 1739,
+    "netIncomeM": 406,
+    "operatingIncomeM": 683,
+    "opex": [
+      {
+        "amountM": 645,
+        "name": "Operating expenses",
+        "note": "Offices, technology and travel across the global network."
+      },
+      {
+        "amountM": 291,
+        "name": "Amortization",
+        "note": "Writing down the value of the hundreds of agencies Gallagher has acquired \u2014 a permanent feature of its roll-up model."
+      },
+      {
+        "amountM": 58,
+        "name": "Depreciation",
+        "note": "Buildings, equipment and systems."
+      },
+      {
+        "amountM": 62,
+        "name": "Reimbursements & earnout changes",
+        "note": "$46M of client costs billed back (they also appear in revenue, so they wash) plus $16M of revised estimates for acquisition earnout payments."
+      }
+    ],
+    "otherIncomeM": -168,
+    "revenueM": 3976,
+    "taxM": 109
+  },
+  "follow100": [
+    {
+      "amount": 87.35,
+      "label": "Brokerage"
+    },
+    {
+      "amount": 12.65,
+      "label": "Risk Management"
+    },
+    {
+      "amount": -56.26,
+      "label": "Compensation"
+    },
+    {
+      "amount": -16.22,
+      "label": "Operating expenses"
+    },
+    {
+      "amount": -7.32,
+      "label": "Amortization"
+    },
+    {
+      "amount": -1.46,
+      "label": "Depreciation"
+    },
+    {
+      "amount": -1.56,
+      "label": "Reimbursements & earnout changes"
+    },
+    {
+      "amount": -4.23,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.74,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.21,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Gallagher reports three segments and no consolidated cost-of-revenue line; compensation is treated here as the direct cost of service, consistent with a people business. Consolidated figures are the sum of the Brokerage, Risk Management and Corporate segment statements in the release (revenue includes $46M of reimbursements, which also appear in expenses). Net earnings of $406M were $403M attributable to controlling interests.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$1.55"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$3.00"
+    },
+    {
+      "label": "Revenue growth (B+RM)",
+      "note": "",
+      "value": "+18%"
+    },
+    {
+      "label": "Adjusted EBITDAC growth",
+      "note": "",
+      "value": "+25%"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "AssuredPartners integration",
+      "text": "Gallagher closed AssuredPartners \u2014 the largest acquisition in its history \u2014 and the quarter carries acquisition integration costs (a $103M pretax adjustment item in Brokerage) plus elevated amortization. Adjusted EPS of $3.00 strips these out; GAAP was $1.55."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+18%",
+  "segments": [
+    {
+      "amountM": 3473,
+      "name": "Brokerage",
+      "note": "Insurance brokerage \u2014 commissions and fees of $3,473M, up 19% reported with 5% organic growth. Segment net earnings $515M; adjusted EBITDAC $1,222M.",
+      "yoy": "+18.9%"
+    },
+    {
+      "amountM": 503,
+      "name": "Risk Management",
+      "note": "Claims handling and risk services for clients (third-party administration) \u2014 $457M of fees plus $46M of reimbursements. Segment net earnings $61M.",
+      "yoy": "+13.8%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gallagher Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 29, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000108/0000354190-26-000108-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "26th",
+      "statColor": "green",
+      "text": "Adjusted EBITDAC grew 25% \u2014 the 26th consecutive quarter of double-digit growth \u2014 with margins still expanding. Brokerage organic growth was 5%.",
+      "title": "The streak continues"
+    },
+    {
+      "stat": "$1.55",
+      "statColor": "neutral",
+      "text": "GAAP EPS of $1.55 is barely half the adjusted $3.00: the gap is amortization ($212M after tax effect in adjustments), AssuredPartners integration and workforce/lease charges. Investors pay for the adjusted number; the GAAP one funds the roll-up.",
+      "title": "GAAP vs adjusted is the whole debate"
+    },
+    {
+      "stat": "-$170M",
+      "statColor": "red",
+      "text": "The Corporate segment lost $170M \u2014 mostly $168M of interest on acquisition debt. It is the carrying cost of the roll-up model.",
+      "title": "Corporate drag is the debt bill"
+    }
+  ],
+  "ticker": "AJG",
+  "verdict": "The roll-up rolls on: revenue +18%, adjusted profit +25% \u2014 while GAAP EPS of $1.55 shows what the acquisition machine costs."
+}

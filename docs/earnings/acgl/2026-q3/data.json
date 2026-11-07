@@ -1,0 +1,173 @@
+{
+  "company": "Arch Capital",
+  "costLabel": "Claims & loss expenses",
+  "costNote": "Claims paid and reserved for, plus the cost of adjusting them \u2014 an insurer's cost of goods sold. The quarter included $234M of pre-tax catastrophe losses, partly offset by $179M of favorable development on old reserves.",
+  "costNoteShort": "claims",
+  "flow": {
+    "costOfRevenueM": 2206,
+    "grossProfitM": 2449,
+    "netIncomeM": 1035,
+    "operatingIncomeM": 1230,
+    "opex": [
+      {
+        "amountM": 712,
+        "name": "Acquisition expenses",
+        "note": "Commissions and the cost of winning the premiums \u2014 mostly broker and agent commissions."
+      },
+      {
+        "amountM": 455,
+        "name": "Other operating expenses",
+        "note": "Staff and running the three segments (insurance, reinsurance, mortgage)."
+      },
+      {
+        "amountM": 52,
+        "name": "Corporate, deal & amortization",
+        "note": "$30M amortization of intangibles, $17M transaction costs and $5M net corporate expenses."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -62,
+        "label": "Interest expense",
+        "note": "Cost of debt \u2014 up from $37M after Arch's June 2026 capital raise."
+      },
+      {
+        "amountM": 18,
+        "label": "Foreign-exchange gains",
+        "note": "Currency movements added $18M."
+      },
+      {
+        "amountM": 33,
+        "label": "Income from operating affiliates",
+        "note": "Arch's share of profits from operating affiliates; Arch reports this line after tax, and it is grouped here so the statement balances."
+      }
+    ],
+    "otherIncomeM": -11,
+    "revenueM": 4655,
+    "taxM": 184
+  },
+  "follow100": [
+    {
+      "amount": 87.54,
+      "label": "Premiums earned & underwriting income"
+    },
+    {
+      "amount": 12.37,
+      "label": "Investment income, net"
+    },
+    {
+      "amount": 0.09,
+      "label": "Other income"
+    },
+    {
+      "amount": -47.39,
+      "label": "Claims & loss expenses"
+    },
+    {
+      "amount": -15.3,
+      "label": "Acquisition expenses"
+    },
+    {
+      "amount": -9.77,
+      "label": "Other operating expenses"
+    },
+    {
+      "amount": -1.12,
+      "label": "Corporate, deal & amortization"
+    },
+    {
+      "amount": -0.24,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.95,
+      "label": "Tax"
+    },
+    {
+      "amount": 22.23,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Insurer layout: 'revenue' is net premiums earned plus investment and other income; claims (losses & loss adjustment) are the direct-cost block. Net income is the $1,035M available to Arch; common shareholders received $1,025M after $10M of preferred dividends. Income from operating affiliates ($33M), reported after tax by Arch, is grouped into other income.",
+  "kpis": [
+    {
+      "label": "EPS (diluted)",
+      "note": "",
+      "value": "$3.00"
+    },
+    {
+      "label": "Operating EPS",
+      "note": "",
+      "value": "$2.67"
+    },
+    {
+      "label": "Combined ratio ex-cat/PYD",
+      "note": "",
+      "value": "81.2%"
+    },
+    {
+      "label": "Book value / share",
+      "note": "",
+      "value": "$67.90"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Catastrophes vs old reserves",
+      "text": "$234M of pre-tax catastrophe losses hit the quarter, while prior-year reserves developed favorably by $179M \u2014 the two largely offset inside the claims line."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "",
+  "segments": [
+    {
+      "amountM": 4075,
+      "name": "Premiums earned & underwriting income",
+      "note": "Net premiums earned of $4,014M (insurance $1,937M, reinsurance $1,807M, mortgage $270M) plus $61M of other underwriting income. Gross written premiums were $5,391M before ceding $1,546M to reinsurers.",
+      "yoy": ""
+    },
+    {
+      "amountM": 576,
+      "name": "Investment income, net",
+      "note": "$451M of net investment income plus $224M from equity-method investments, minus $99M of net realized losses as rising rates hit bond values.",
+      "yoy": ""
+    },
+    {
+      "amountM": 4,
+      "name": "Other income",
+      "note": "Small miscellaneous income items.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Arch Capital Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 27, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1263813/000126381326000047/0001263813-26-000047-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$702M",
+      "statColor": "green",
+      "text": "Underwriting income of $702M (insurance $108M, reinsurance $393M, mortgage $201M) with a combined ratio excluding catastrophes and prior-year development of 81.2%.",
+      "title": "Underwriting carried the quarter"
+    },
+    {
+      "stat": "$3.00",
+      "statColor": "neutral",
+      "text": "EPS of $3.00 was down from $3.56 a year ago: investments swung to $99M of realized losses (vs $210M of gains) as rates rose, even though underwriting improved.",
+      "title": "Profit down on investment marks"
+    },
+    {
+      "stat": "$1.4B",
+      "statColor": "neutral",
+      "text": "Arch returned $1.4B via buybacks in one quarter \u2014 a big reason book value per share slipped 0.2% sequentially to $67.90 despite a profitable quarter.",
+      "title": "Huge buyback quarter"
+    }
+  ],
+  "ticker": "ACGL",
+  "verdict": "Textbook Arch: underwriting profit of $702M did the heavy lifting while rising rates nicked the investment portfolio."
+}

@@ -1,0 +1,148 @@
+{
+  "company": "AES Corporation",
+  "costLabel": "Cost of sales",
+  "costNote": "Fuel and operating costs of the power plants and utilities \u2014 $2,890M. AES calls what remains 'operating margin' (25.4% of revenue, up from 21.9% a year ago).",
+  "flow": {
+    "costOfRevenueM": 2890,
+    "grossProfitM": 982,
+    "netIncomeM": 527,
+    "operatingIncomeM": 914,
+    "opex": [
+      {
+        "amountM": 68,
+        "name": "General & administrative",
+        "note": "Corporate overhead only. AES books its interest bill below this line (it appears in other expense here); plant-level running costs sit in cost of sales."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -361,
+        "label": "Interest expense",
+        "note": "AES carries heavy project debt across its global fleet \u2014 the single biggest below-the-line cost."
+      },
+      {
+        "amountM": 71,
+        "label": "Interest income",
+        "note": "Earned on cash and deposits."
+      },
+      {
+        "amountM": -91,
+        "label": "Asset impairments",
+        "note": "Write-downs of asset values in the quarter."
+      },
+      {
+        "amountM": -28,
+        "label": "Extinguishment, FX & other, net",
+        "note": "A $13M loss on early debt repayment, $14M of currency losses and $25M of other expense, partly offset by $21M of other income and a $3M disposal gain."
+      },
+      {
+        "amountM": 12,
+        "label": "Equity earnings of affiliates",
+        "note": "AES's share of joint-venture profits, reported after tax in its statement."
+      }
+    ],
+    "otherIncomeM": -397,
+    "revenueM": 3872,
+    "taxM": -10
+  },
+  "follow100": [
+    {
+      "amount": 68.41,
+      "label": "Non-regulated"
+    },
+    {
+      "amount": 31.59,
+      "label": "Regulated"
+    },
+    {
+      "amount": -74.64,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -1.76,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -10.25,
+      "label": "Other expense"
+    },
+    {
+      "amount": 0.26,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 13.61,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "AES did not furnish an earnings release this quarter; figures are from its Q3 2026 Form 10-Q (filed Nov 3, 2026). Net income is the consolidated $527M; $553M was attributable to AES because noncontrolling interests absorbed a $26M loss. AES presents interest expense inside its operating section; it is shown below the operating line here, as most companies present it.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+15.5%"
+    },
+    {
+      "label": "Net income attributable",
+      "note": "",
+      "value": "$553M"
+    },
+    {
+      "label": "Operating margin",
+      "note": "",
+      "value": "25.4%"
+    },
+    {
+      "label": "Asset impairments",
+      "note": "",
+      "value": "$91M"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+15.5%",
+  "segments": [
+    {
+      "amountM": 2649,
+      "name": "Non-regulated",
+      "note": "Contracted and merchant power: the Renewables unit ($1,104M of revenue) and Energy Infrastructure ($1,536M) \u2014 generation sold under long-term contracts and into markets.",
+      "yoy": "+16.7%"
+    },
+    {
+      "amountM": 1223,
+      "name": "Regulated",
+      "note": "The Utilities unit ($1,256M before corporate/eliminations) \u2014 AES Ohio and AES Indiana earn regulated returns.",
+      "yoy": "+13.0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AES Form 10-Q for Q3 2026 \u2014 SEC EDGAR (filed Nov 3, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000156/aes-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15.5%",
+      "statColor": "green",
+      "text": "Revenue rose to $3.87B and operating margin widened from 21.9% to 25.4% \u2014 renewables growth plus stronger regulated and contracted generation.",
+      "title": "Top line and margin both up"
+    },
+    {
+      "stat": "$91M",
+      "statColor": "red",
+      "text": "Asset impairments of $91M and a $361M interest bill are the drag: of $982M of operating margin, interest alone consumed more than a third.",
+      "title": "Impairments and interest bite"
+    },
+    {
+      "stat": "$553M",
+      "statColor": "green",
+      "text": "Net income attributable to AES ($553M) is higher than the consolidated $527M because outside partners in AES subsidiaries absorbed a $26M loss \u2014 an unusual sign convention, disclosed in the footer.",
+      "title": "Attributable beats consolidated"
+    }
+  ],
+  "ticker": "AES",
+  "verdict": "Growth with leverage: revenue up 15.5% and margins wider, but a $361M quarterly interest bill and $91M of impairments take their cut."
+}

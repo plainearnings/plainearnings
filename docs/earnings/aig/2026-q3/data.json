@@ -1,0 +1,134 @@
+{
+  "company": "American International Group",
+  "costLabel": "Losses & claim expenses",
+  "costNote": "Claims and the cost of adjusting them \u2014 $4,023M. Catastrophe losses were $283M (severe convective storms), nearly triple last year's unusually light $100M, and old-reserve releases helped less ($91M vs $180M).",
+  "flow": {
+    "costOfRevenueM": 4023,
+    "grossProfitM": 3420,
+    "netIncomeM": 849,
+    "operatingIncomeM": 1220,
+    "opex": [
+      {
+        "amountM": 1266,
+        "name": "General operating & other expenses",
+        "note": "Running a global insurer \u2014 staff, systems and offices."
+      },
+      {
+        "amountM": 934,
+        "name": "Amortization of policy acquisition costs",
+        "note": "Spreading the commissions and costs of winning this year's policies over their lives (DAC)."
+      }
+    ],
+    "otherIncomeM": -101,
+    "revenueM": 7443,
+    "taxM": 270
+  },
+  "follow100": [
+    {
+      "amount": 86.7,
+      "label": "Premiums"
+    },
+    {
+      "amount": 13.3,
+      "label": "Investment income, net of realized losses"
+    },
+    {
+      "amount": -54.05,
+      "label": "Losses & claim expenses"
+    },
+    {
+      "amount": -17.01,
+      "label": "General operating & other expenses"
+    },
+    {
+      "amount": -12.55,
+      "label": "Amortization of policy acquisition costs"
+    },
+    {
+      "amount": -1.36,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.63,
+      "label": "Tax"
+    },
+    {
+      "amount": 11.41,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Insurer layout: premiums and investment income are revenue; claims are the direct-cost block. Figures are from AIG's Q3 2026 Form 10-Q (the release carries segment detail). Net income is the consolidated $849M; $844M was attributable to AIG common shareholders. Interest expense of $101M, which AIG lists among benefits and expenses, is shown below the operating line.",
+  "kpis": [
+    {
+      "label": "EPS (diluted)",
+      "note": "",
+      "value": "$1.60"
+    },
+    {
+      "label": "Adjusted after-tax EPS",
+      "note": "",
+      "value": "$2.06"
+    },
+    {
+      "label": "Combined ratio",
+      "note": "",
+      "value": "91.3%"
+    },
+    {
+      "label": "Net premiums written",
+      "note": "",
+      "value": "$6.7B"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+17.2%",
+  "segments": [
+    {
+      "amountM": 6453,
+      "name": "Premiums",
+      "note": "General Insurance premiums earned. Net premiums WRITTEN were $6.65B, up 7% (Global Commercial +7%, Global Personal +9% in constant currency); underwriting income was $564M.",
+      "yoy": "+6.3%"
+    },
+    {
+      "amountM": 990,
+      "name": "Investment income, net of realized losses",
+      "note": "$1,100M of net investment income (GI earned $1,032M, up 9%, and fair-value gains on equities/Corebridge helped) minus $110M of net realized losses.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "AIG Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 3, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000108/0000005272-26-000108-index.htm"
+    },
+    {
+      "label": "AIG Form 10-Q for Q3 2026 (consolidated statement) \u2014 SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000104/aig-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "91.3%",
+      "statColor": "neutral",
+      "text": "The combined ratio worsened from 86.8% as catastrophe losses nearly tripled to $283M and reserve releases shrank \u2014 but the accident-year ratio ex-CAT held at 88.4%, so the core book is steady.",
+      "title": "Combined ratio up on storms, not slippage"
+    },
+    {
+      "stat": "$844M",
+      "statColor": "green",
+      "text": "Net income rose 63% to $844M ($1.60/share) even as underwriting income fell 29% \u2014 fair-value investment gains and 9% higher GI investment income more than filled the gap.",
+      "title": "Investments carried GAAP profit"
+    },
+    {
+      "stat": "$787M",
+      "statColor": "green",
+      "text": "AIG returned $787M in the quarter ($527M buybacks, $260M dividends), declared a $0.50 dividend, and grew adjusted book value per share 5% to $81.25.",
+      "title": "Capital returns continue"
+    }
+  ],
+  "ticker": "AIG",
+  "verdict": "Underwriting got harder (storms), investments got kinder: net income up 63% with premiums growing 7%."
+}

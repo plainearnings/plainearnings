@@ -1,0 +1,141 @@
+{
+  "company": "Agilent Technologies",
+  "costLabel": "Cost of products & services",
+  "costNote": "What it costs Agilent to build the instruments and deliver the services it sold. It FELL in dollars ($836M vs $850M a year ago) even as revenue rose 8% \u2014 the main reason margins expanded.",
+  "flow": {
+    "costOfRevenueM": 836,
+    "grossProfitM": 1042,
+    "netIncomeM": 362,
+    "operatingIncomeM": 444,
+    "opex": [
+      {
+        "amountM": 475,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams, service organization and head-office costs \u2014 the biggest running cost."
+      },
+      {
+        "amountM": 123,
+        "name": "Research & development",
+        "note": "Developing the next generation of lab instruments and diagnostics."
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 1878,
+    "taxM": 82
+  },
+  "follow100": [
+    {
+      "amount": 41.85,
+      "label": "Agilent CrossLab"
+    },
+    {
+      "amount": 39.72,
+      "label": "Life Sciences & Diagnostics"
+    },
+    {
+      "amount": 18.42,
+      "label": "Applied Markets"
+    },
+    {
+      "amount": -44.52,
+      "label": "Cost of products & services"
+    },
+    {
+      "amount": -25.29,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -6.55,
+      "label": "Research & development"
+    },
+    {
+      "amount": -4.37,
+      "label": "Tax"
+    },
+    {
+      "amount": 19.28,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+8.1%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$1.28"
+    },
+    {
+      "label": "Operating margin",
+      "note": "",
+      "value": "23.6%"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "note": "",
+      "value": "$1.62"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Tariff refunds",
+      "text": "About $17M of net benefit in the quarter (roughly $0.06 of non-GAAP EPS and ~110bp of non-GAAP operating margin) came from tariff refunds \u2014 not from selling more instruments."
+    }
+  ],
+  "periodEnd": "2026-07-31",
+  "quarterLabel": "Q3 FY2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-08-26",
+  "revenueYoY": "+8.1%",
+  "segments": [
+    {
+      "amountM": 786,
+      "name": "Agilent CrossLab",
+      "note": "Services, consumables and informatics attached to labs Agilent has already equipped \u2014 the recurring-revenue engine. Grew 6% reported, 5% core.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 746,
+      "name": "Life Sciences & Diagnostics",
+      "note": "Instruments and diagnostics for pharma, biotech and clinical labs \u2014 the fastest-growing group this quarter. Grew 11% reported, 10% core.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 346,
+      "name": "Applied Markets",
+      "note": "Instruments for chemical, energy, food and environmental testing. Grew 7% reported and core.",
+      "yoy": "+7%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Agilent Q3 FY2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Aug 26, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000036/0001090872-26-000036-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+8.1%",
+      "statColor": "green",
+      "text": "Revenue rose 8.1% to $1.88B while GAAP operating margin widened 290 basis points to 23.6% \u2014 costs were essentially flat, so growth dropped through to profit.",
+      "title": "Growth with margin attached"
+    },
+    {
+      "stat": "$1.62",
+      "statColor": "green",
+      "text": "Non-GAAP EPS of $1.62 included about $0.06 (~$17M) of net tariff-refund benefit, and non-GAAP operating margin got a ~110bp lift. GAAP EPS was $1.28, up 8%.",
+      "title": "Tariff refunds flattered non-GAAP"
+    },
+    {
+      "stat": "Raised",
+      "statColor": "green",
+      "text": "Agilent raised FY26 revenue guidance to $7.49\u20137.51B (up 7.8\u20138.1%) and non-GAAP EPS to $6.18\u20136.21, citing continued operational momentum.",
+      "title": "Full-year guidance lifted"
+    }
+  ],
+  "ticker": "A",
+  "verdict": "Growth and discipline together: revenue up 8%, GAAP operating margin up nearly 3 points, and guidance raised."
+}

@@ -1,0 +1,175 @@
+{
+  "company": "Analog Devices",
+  "costLabel": "Cost of sales",
+  "costNote": "Making the chips \u2014 wafers, packaging, testing. Revenue grew so much faster (+40%) that gross margin widened 520bp to 67.3%.",
+  "flow": {
+    "costOfRevenueM": 1314,
+    "grossProfitM": 2708,
+    "netIncomeM": 1340,
+    "operatingIncomeM": 1613,
+    "opex": [
+      {
+        "amountM": 534,
+        "name": "Research & development",
+        "note": "Designing the next analog, mixed-signal and power chips \u2014 ADI's core long-term bet."
+      },
+      {
+        "amountM": 397,
+        "name": "Selling, marketing, general & administrative",
+        "note": "Sales engineers, distribution and head-office costs."
+      },
+      {
+        "amountM": 164,
+        "name": "Amortization & special items, net",
+        "note": "$188M of amortization on past acquisitions (mainly Maxim), partly offset by a $24M net special-charges credit this quarter."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -89,
+        "label": "Interest expense",
+        "note": "Cost of ADI's debt."
+      },
+      {
+        "amountM": 25,
+        "label": "Interest income",
+        "note": "Earned on cash and investments."
+      },
+      {
+        "amountM": -3,
+        "label": "Other, net",
+        "note": "Small miscellaneous non-operating expense."
+      }
+    ],
+    "otherIncomeM": -67,
+    "revenueM": 4022,
+    "taxM": 206
+  },
+  "follow100": [
+    {
+      "amount": 49.03,
+      "label": "Industrial"
+    },
+    {
+      "amount": 24.81,
+      "label": "Automotive"
+    },
+    {
+      "amount": 16.29,
+      "label": "Communications"
+    },
+    {
+      "amount": 9.87,
+      "label": "Consumer"
+    },
+    {
+      "amount": -32.67,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -13.28,
+      "label": "Research & development"
+    },
+    {
+      "amount": -9.87,
+      "label": "Selling, marketing, general & administrative"
+    },
+    {
+      "amount": -4.08,
+      "label": "Amortization & special items, net"
+    },
+    {
+      "amount": -1.67,
+      "label": "Other expense"
+    },
+    {
+      "amount": -5.12,
+      "label": "Tax"
+    },
+    {
+      "amount": 33.32,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+40%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$2.74"
+    },
+    {
+      "label": "Gross margin",
+      "note": "",
+      "value": "67.3%"
+    },
+    {
+      "label": "Returned to shareholders",
+      "note": "",
+      "value": "$1.7B"
+    }
+  ],
+  "periodEnd": "2026-08-01",
+  "quarterLabel": "Q3 FY2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-08-19",
+  "revenueYoY": "+40%",
+  "segments": [
+    {
+      "amountM": 1972,
+      "name": "Industrial",
+      "note": "Factory automation, aerospace, energy and test gear \u2014 about half of revenue and up 53% as the industrial recovery met AI infrastructure demand.",
+      "yoy": "+53%"
+    },
+    {
+      "amountM": 998,
+      "name": "Automotive",
+      "note": "Chips for EVs and in-car electronics. Up 16% \u2014 the slowest of the big three this quarter.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 655,
+      "name": "Communications",
+      "note": "Nearly doubled (+84%) on data-center demand \u2014 the AI build-out pulling ADI's power and connectivity chips into servers.",
+      "yoy": "+84%"
+    },
+    {
+      "amountM": 397,
+      "name": "Consumer",
+      "note": "Chips for phones, wearables and gadgets. Up 6%.",
+      "yoy": "+6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Analog Devices Q3 FY2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Aug 19, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000103/0000006281-26-000103-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+40%",
+      "statColor": "green",
+      "text": "A record quarter: revenue up 40% to $4.02B, operating income nearly doubled to $1.61B (40.1% margin), and management guided to a record Q4.",
+      "title": "AI demand lit the fuse"
+    },
+    {
+      "stat": "84%",
+      "statColor": "green",
+      "text": "Communications revenue \u2014 the bucket that holds data-center sales \u2014 grew 84%. Industrial, still the biggest bucket, grew 53%.",
+      "title": "Data centers are the growth story"
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "green",
+      "text": "Shareholders got $1.7B back in the quarter via dividends and buybacks; trailing-twelve-month free cash flow was $4.9B, 36% of revenue.",
+      "title": "Cash machine running"
+    }
+  ],
+  "ticker": "ADI",
+  "verdict": "A record quarter: the AI data-center build-out plus an industrial recovery pushed revenue up 40% and nearly doubled operating profit."
+}

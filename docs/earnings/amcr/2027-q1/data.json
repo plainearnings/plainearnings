@@ -1,0 +1,166 @@
+{
+  "company": "Amcor",
+  "costLabel": "Cost of sales",
+  "costNote": "Resin, films, aluminum and the energy and freight to convert them into packaging \u2014 81 cents of every sales dollar. Energy and distribution costs spiked late in the quarter, squeezing this line.",
+  "flow": {
+    "costOfRevenueM": 4970,
+    "grossProfitM": 1159,
+    "netIncomeM": 242,
+    "operatingIncomeM": 454,
+    "opex": [
+      {
+        "amountM": 468,
+        "name": "Selling, general & administrative",
+        "note": "Selling and administering a packaging giant formed by the Amcor\u2013Berry combination."
+      },
+      {
+        "amountM": 140,
+        "name": "Amortization of acquired intangibles",
+        "note": "The Berry merger's customer relationships and technology, written down over time."
+      },
+      {
+        "amountM": 56,
+        "name": "Restructuring, transaction & integration, net",
+        "note": "$62M of merger integration and restructuring, net of $6M of other income \u2014 the ongoing cost of combining two packaging giants."
+      },
+      {
+        "amountM": 41,
+        "name": "Research & development",
+        "note": "Materials and packaging design \u2014 recyclable and lighter formats."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -153,
+        "label": "Interest expense, net",
+        "note": "On the debt taken on for the Berry acquisition \u2014 a heavy, fixed drag for now."
+      },
+      {
+        "amountM": -1,
+        "label": "Other non-operating & equity income, net",
+        "note": "A $2M non-operating expense partly offset by $1M of equity income from affiliates."
+      }
+    ],
+    "otherIncomeM": -154,
+    "revenueM": 6129,
+    "taxM": 58
+  },
+  "follow100": [
+    {
+      "amount": 54.81,
+      "label": "Global Flexible Packaging"
+    },
+    {
+      "amount": 45.19,
+      "label": "Global Rigid Packaging"
+    },
+    {
+      "amount": -81.09,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -7.64,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -2.28,
+      "label": "Amortization of acquired intangibles"
+    },
+    {
+      "amount": -0.91,
+      "label": "Restructuring, transaction & integration, net"
+    },
+    {
+      "amount": -0.67,
+      "label": "Research & development"
+    },
+    {
+      "amount": -2.51,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.95,
+      "label": "Tax"
+    },
+    {
+      "amount": 3.95,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Amcor is in a fiscal 'transition period' after the Berry Global merger (year-end change); this is the September 2026 quarter, conventionally Q1 FY2027. Sales growth includes significant raw-material cost pass-through (10 points in Flexibles, 4 in Rigid) \u2014 charging customers for resin inflation, not volume.",
+  "kpis": [
+    {
+      "label": "Sales growth (reported)",
+      "note": "",
+      "value": "+7%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$0.52"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$0.95"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "",
+      "value": "$883M"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Merger costs still flowing",
+      "text": "Restructuring, transaction and integration costs were $62M in the quarter and amortization of Berry intangibles $140M \u2014 the gap between GAAP EPS ($0.52) and adjusted EPS ($0.95) is mostly the merger's tail."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q1 FY2027",
+  "quarterSlug": "2027-q1",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+7%",
+  "segments": [
+    {
+      "amountM": 3359,
+      "name": "Global Flexible Packaging",
+      "note": "Films and pouches for food, pharma and consumer goods \u2014 reported sales +10%, but that was all raw-material pass-through: volumes were flat and organic growth was 0%.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 2770,
+      "name": "Global Rigid Packaging",
+      "note": "Bottles, containers and closures (the ex-Berry business) \u2014 volumes up ~4% excluding non-core/divested lines; organic growth +2%.",
+      "yoy": "+3%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Amcor September 2026 quarter earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879026000062/0001748790-26-000062-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "1%",
+      "statColor": "neutral",
+      "text": "Organic volume growth was just 1% (focus categories +3%) \u2014 the 7% sales headline is mostly resin cost pass-through, especially in Flexibles where it added 10 points.",
+      "title": "Growth is thinner than it looks"
+    },
+    {
+      "stat": "$883M",
+      "statColor": "neutral",
+      "text": "Adjusted EBITDA was flat at $883M despite higher sales: late-quarter energy and distribution inflation ate the gains. Management says mitigation actions keep it out of 2027 results.",
+      "title": "Cost spike ate the growth"
+    },
+    {
+      "stat": "$650M",
+      "statColor": "green",
+      "text": "Berry synergy realization is tracking to the three-year $650M target \u2014 the core of the investment case while GAAP EPS ($0.52) still carries merger amortization and integration costs.",
+      "title": "Synergies on track"
+    }
+  ],
+  "ticker": "AMCR",
+  "verdict": "A merger still being digested: volumes inch up 1%, cost inflation flattens EBITDA, and the synergy clock is the real story."
+}

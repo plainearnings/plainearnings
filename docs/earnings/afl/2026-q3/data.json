@@ -1,0 +1,117 @@
+{
+  "company": "Aflac",
+  "costLabel": "Benefits & claims",
+  "costNote": "What policyholders claimed \u2014 the insurer's core cost. It was flat at $1,439M (+0.2%) even though reserve remeasurement gains of $453M (from updated actuarial assumptions) reduced it.",
+  "flow": {
+    "costOfRevenueM": 1439,
+    "grossProfitM": 1832,
+    "netIncomeM": 303,
+    "operatingIncomeM": 500,
+    "opex": [
+      {
+        "amountM": 1332,
+        "name": "Acquisition & operating expenses",
+        "note": "Commissions to Aflac's sales associates plus the cost of running the US and Japan operations. Up just 1.7%."
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 3271,
+    "taxM": 197
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Premiums & investment results, net"
+    },
+    {
+      "amount": -43.99,
+      "label": "Benefits & claims"
+    },
+    {
+      "amount": -40.72,
+      "label": "Acquisition & operating expenses"
+    },
+    {
+      "amount": -6.02,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.26,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Insurer layout based on Aflac's condensed GAAP statement: GAAP revenue of $3,271M is stated AFTER $1,072M of net investment losses (itemized in the release: $842M losses on sales/redemptions, $146M derivatives/FX, $102M credit-loss provisions, $1M impairments, less a $19M equity gain), so revenue fell 31% while premiums were roughly flat. The tax line includes a $51M valuation allowance on deferred tax assets.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$0.61"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$2.43"
+    },
+    {
+      "label": "Net investment losses",
+      "note": "",
+      "value": "-$1.07B"
+    },
+    {
+      "label": "Returned to shareholders",
+      "note": "",
+      "value": "$1.1B"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Portfolio repositioning \u2014 $842M of realized losses",
+      "text": "Aflac deliberately sold low-yielding bonds during the quarter to reinvest at better rates, crystallizing $842M of losses on sales and redemptions. GAAP punishes the sale now; the benefit arrives as higher investment income later."
+    },
+    {
+      "label": "Tax valuation allowance \u2014 $51M",
+      "text": "A $51M ($0.10/share) valuation allowance against deferred tax assets tied to capital-loss carryforwards \u2014 a direct knock-on from realizing those capital losses."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "-31.0%",
+  "segments": [
+    {
+      "amountM": 3271,
+      "name": "Premiums & investment results, net",
+      "note": "Aflac reports one net revenue line. Inside it: Japan premiums $1,508M and US premiums about $1.5B (both roughly flat in local terms), adjusted net investment income of $639M (Japan) and $212M (US), MINUS $1,072M of net investment losses from repositioning the bond portfolio. Japan's adjusted revenues were $2,156M, the US segment's $1,781M and Corporate & Other's $360M.",
+      "yoy": "-31.0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Aflac Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Nov 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4977/000110465926112633/0001104659-26-112633-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$0.61",
+      "statColor": "red",
+      "text": "GAAP EPS collapsed from $3.08 to $0.61 \u2014 almost entirely the $1.07B of net investment losses, most of them deliberate sales in a portfolio repositioning. Adjusted EPS, which excludes them, was $2.43.",
+      "title": "A self-inflicted GAAP wound"
+    },
+    {
+      "stat": "$453M",
+      "statColor": "green",
+      "text": "Reserve remeasurement gains of $453M (unlocking actuarial assumptions, helped by new reinsurance deals) flattered adjusted earnings \u2014 US pretax adjusted earnings rose 31.5% to $493M partly on this.",
+      "title": "Reserve releases did quiet work"
+    },
+    {
+      "stat": "44 yrs",
+      "statColor": "green",
+      "text": "Even in a messy quarter Aflac returned $1.1B ($804M buybacks + $305M dividends) and declared its 44th consecutive annual dividend increase \u2014 $0.61 for Q4.",
+      "title": "Dividend streak intact"
+    }
+  ],
+  "ticker": "AFL",
+  "verdict": "A deliberate bond-portfolio overhaul torched GAAP profit ($0.61 vs $3.08); the underlying insurance business was steady, with adjusted EPS of $2.43."
+}

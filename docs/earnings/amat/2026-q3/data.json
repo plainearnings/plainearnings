@@ -1,0 +1,160 @@
+{
+  "company": "Applied Materials",
+  "costLabel": "Cost of products sold",
+  "costNote": "Building the machines that build chips. Gross margin hit 50.3% \u2014 the 13th straight quarter of year-over-year expansion \u2014 because the mix keeps shifting to higher-value systems.",
+  "flow": {
+    "costOfRevenueM": 4529,
+    "grossProfitM": 4586,
+    "netIncomeM": 2538,
+    "operatingIncomeM": 3075,
+    "opex": [
+      {
+        "amountM": 1100,
+        "name": "Research, development & engineering",
+        "note": "The EPIC Center program now counts 11 partnership engagements with leading chipmakers and universities \u2014 co-developing the next process nodes."
+      },
+      {
+        "amountM": 249,
+        "name": "Marketing & selling",
+        "note": "Selling and supporting systems at the world's largest fabs."
+      },
+      {
+        "amountM": 162,
+        "name": "General & administrative",
+        "note": "Down from $204M a year ago \u2014 corporate costs were cut and reallocated to the segments this year."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -68,
+        "label": "Interest expense",
+        "note": "Cost of debt."
+      },
+      {
+        "amountM": -100,
+        "label": "Interest & other, net",
+        "note": "A net expense this quarter as mark-to-market losses on strategic equity investments outweighed interest income (a year ago this line added $396M)."
+      }
+    ],
+    "otherIncomeM": -168,
+    "revenueM": 9115,
+    "taxM": 369
+  },
+  "follow100": [
+    {
+      "amount": 77.24,
+      "label": "Semiconductor Systems"
+    },
+    {
+      "amount": 19.54,
+      "label": "Applied Global Services"
+    },
+    {
+      "amount": 3.23,
+      "label": "Display & other"
+    },
+    {
+      "amount": -49.69,
+      "label": "Cost of products sold"
+    },
+    {
+      "amount": -12.07,
+      "label": "Research, development & engineering"
+    },
+    {
+      "amount": -2.73,
+      "label": "Marketing & selling"
+    },
+    {
+      "amount": -1.78,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -1.84,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.05,
+      "label": "Tax"
+    },
+    {
+      "amount": 27.84,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+25%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$3.17"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "note": "",
+      "value": "$3.50"
+    },
+    {
+      "label": "Gross margin",
+      "note": "",
+      "value": "50.3%"
+    }
+  ],
+  "periodEnd": "2026-07-26",
+  "quarterLabel": "Q3 FY2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-08-13",
+  "revenueYoY": "+25%",
+  "segments": [
+    {
+      "amountM": 7040,
+      "name": "Semiconductor Systems",
+      "note": "The wafer-fab equipment itself \u2014 foundry/logic 67% of segment sales, DRAM 26%, flash 7%. Segment operating margin 37.7%; management raised its calendar-2026 outlook for this segment again.",
+      "yoy": "+26.5%"
+    },
+    {
+      "amountM": 1781,
+      "name": "Applied Global Services",
+      "note": "Spares, service and fab-optimization subscriptions \u2014 the recurring layer. Operating margin 30.1%.",
+      "yoy": "+21.7%"
+    },
+    {
+      "amountM": 294,
+      "name": "Display & other",
+      "note": "Display equipment and corporate/other items \u2014 the small remainder.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Applied Materials Q3 FY2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Aug 13, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000000695126000083/0000006951-26-000083-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$9.12B",
+      "statColor": "green",
+      "text": "Record revenue, up 25%, with the highest sequential growth in company history \u2014 AI chip demand for leading-edge logic, DRAM and advanced packaging is pulling equipment orders.",
+      "title": "AI capex, monetized"
+    },
+    {
+      "stat": "50.3%",
+      "statColor": "green",
+      "text": "Gross margin expanded for the 13th consecutive quarter year over year \u2014 Applied keeps capturing more value per tool as chips get harder to make.",
+      "title": "Margins keep climbing"
+    },
+    {
+      "stat": "$369M",
+      "statColor": "neutral",
+      "text": "The tax bill was unusually light (12.7% of pre-tax income vs 30.6% a year ago), flattering GAAP EPS growth of 43%. Operating performance alone was still a record.",
+      "title": "A tax tailwind too"
+    }
+  ],
+  "ticker": "AMAT",
+  "verdict": "The AI build-out's arms dealer: record $9.1B revenue, record operating income, and demand visibility into 2027."
+}

@@ -1,0 +1,139 @@
+{
+  "company": "Allegion",
+  "costLabel": "Cost of products sold",
+  "costNote": "Steel, electronics and factory costs for locks, door hardware and access systems \u2014 $624M, about 53 cents per revenue dollar.",
+  "flow": {
+    "costOfRevenueM": 624,
+    "grossProfitM": 549,
+    "netIncomeM": 221,
+    "operatingIncomeM": 285,
+    "opex": [
+      {
+        "amountM": 264,
+        "name": "Selling & administrative expenses",
+        "note": "One combined line in Allegion's statement \u2014 sales channels (builders, institutions, retailers) plus administration. It grew just 3% while revenue rose 9.6% \u2014 that's the margin story."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -24,
+        "label": "Interest expense",
+        "note": "On $2.03B of total debt."
+      },
+      {
+        "amountM": 7,
+        "label": "Other income, net",
+        "note": "Includes a $4.1M gain on non-operating investments and $0.9M of interest on tariff refunds."
+      }
+    ],
+    "otherIncomeM": -17,
+    "revenueM": 1173,
+    "taxM": 47
+  },
+  "follow100": [
+    {
+      "amount": 80.31,
+      "label": "Americas"
+    },
+    {
+      "amount": 19.69,
+      "label": "International"
+    },
+    {
+      "amount": -53.2,
+      "label": "Cost of products sold"
+    },
+    {
+      "amount": -22.51,
+      "label": "Selling & administrative expenses"
+    },
+    {
+      "amount": -1.45,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.01,
+      "label": "Tax"
+    },
+    {
+      "amount": 18.84,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's decimal presentation; operating income was $284.6M as reported.",
+  "kpis": [
+    {
+      "label": "EPS (GAAP)",
+      "note": "",
+      "value": "$2.59"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$2.60"
+    },
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+9.6%"
+    },
+    {
+      "label": "Operating margin",
+      "note": "",
+      "value": "24.3%"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Tariff refunds \u2014 $19.9M",
+      "text": "Q3 results include $19.9M of IEEPA tariff refunds in operating income (plus $0.9M of interest income) \u2014 money back from the US government that Allegion excludes from its adjusted figures. Without it, operating income still grew double digits."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+9.6%",
+  "segments": [
+    {
+      "amountM": 942,
+      "name": "Americas",
+      "note": "Schlage, Von Duprin, LCN and more \u2014 up 11.7% (9.1% organic): non-residential (offices, schools, hospitals) grew low-double digits organically on volume and price; residential rose mid-single digits. Adjusted segment operating margin 30.1%.",
+      "yoy": "+11.7%"
+    },
+    {
+      "amountM": 231,
+      "name": "International",
+      "note": "Europe and Asia-Pacific brands (SimonsVoss, Interflex, CISA) \u2014 up 1.8% reported but down 0.2% organically as volumes fell; acquisitions/divestitures added 2.5 points. Adjusted margin 13.9%.",
+      "yoy": "+1.8%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Allegion Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 22, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000042/0001579241-26-000042-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+18.8%",
+      "statColor": "green",
+      "text": "EPS rose 18.8% to $2.59 \u2014 and adjusted EPS was $2.60, so for once the GAAP and adjusted stories nearly match (the $19.9M tariff refund inside GAAP is excluded from adjusted).",
+      "title": "Clean double-digit growth"
+    },
+    {
+      "stat": "30.1%",
+      "statColor": "green",
+      "text": "The Americas segment runs at a 30.1% adjusted operating margin on institutional door hardware \u2014 pricing power plus volume leverage as non-residential construction demand holds up.",
+      "title": "Americas is a profit engine"
+    },
+    {
+      "stat": "$9.05\u20139.10",
+      "statColor": "green",
+      "text": "Full-year outlook raised: reported revenue growth of 9.5\u201310.5% and adjusted EPS of $9.05\u2013$9.10, with available cash flow targeted at 85\u201395% of adjusted net income.",
+      "title": "Guidance raised"
+    }
+  ],
+  "ticker": "ALLE",
+  "verdict": "Textbook Allegion: Americas non-residential strength, a 24.3% operating margin, and a raised outlook."
+}

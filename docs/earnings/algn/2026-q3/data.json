@@ -1,0 +1,147 @@
+{
+  "company": "Align Technology",
+  "costLabel": "Cost of net revenues",
+  "costNote": "Making aligners and scanners. It FELL $39M year over year (productivity and 3D-printing efficiency) even as volume rose \u2014 the main reason profit jumped.",
+  "flow": {
+    "costOfRevenueM": 318,
+    "grossProfitM": 697,
+    "netIncomeM": 135,
+    "operatingIncomeM": 169,
+    "opex": [
+      {
+        "amountM": 410,
+        "name": "Selling, general & administrative",
+        "note": "The doctor-facing sales machine and corporate costs \u2014 trimmed $7M year over year on expense discipline."
+      },
+      {
+        "amountM": 94,
+        "name": "Research & development",
+        "note": "The pipeline: NXT direct-fabrication 3D-printing materials, the Specifix attachment system, and a 3D-printed sports guard now in US pilot."
+      },
+      {
+        "amountM": 17,
+        "name": "Restructuring & other charges",
+        "note": "Down from $32M a year ago as the restructuring program winds down."
+      },
+      {
+        "amountM": 7,
+        "name": "Legal settlements & contingencies",
+        "note": "A charge that didn't exist a year ago; $76M year to date, so this line bears watching."
+      }
+    ],
+    "otherIncomeM": 1,
+    "revenueM": 1015,
+    "taxM": 35
+  },
+  "follow100": [
+    {
+      "amount": 82.66,
+      "label": "Clear Aligners"
+    },
+    {
+      "amount": 17.34,
+      "label": "Imaging & CAD/CAM Services"
+    },
+    {
+      "amount": -31.33,
+      "label": "Cost of net revenues"
+    },
+    {
+      "amount": -40.39,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -9.26,
+      "label": "Research & development"
+    },
+    {
+      "amount": -1.67,
+      "label": "Restructuring & other charges"
+    },
+    {
+      "amount": -0.69,
+      "label": "Legal settlements & contingencies"
+    },
+    {
+      "amount": 0.1,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.45,
+      "label": "Tax"
+    },
+    {
+      "amount": 13.3,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+1.9%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$1.90"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "note": "",
+      "value": "$2.80"
+    },
+    {
+      "label": "Aligner cases shipped",
+      "note": "",
+      "value": "690.6k"
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+1.9%",
+  "segments": [
+    {
+      "amountM": 839,
+      "name": "Clear Aligners",
+      "note": "Invisalign \u2014 690,600 cases shipped, up 6.6%, a record Q3, with record doctor submitters. Revenue grew more slowly (+4.2%) than cases because average selling prices fell on mix.",
+      "yoy": "+4.2%"
+    },
+    {
+      "amountM": 176,
+      "name": "Imaging & CAD/CAM Services",
+      "note": "iTero scanners and exocad software \u2014 revenue down 7.6% on comparisons, though cumulative placements passed 157,000 systems and unit placements grew double-digits.",
+      "yoy": "-7.6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Align Technology Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 28, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1097149/000109714926000240/0001097149-26-000240-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "16.7%",
+      "statColor": "green",
+      "text": "Operating margin jumped from 9.7% to 16.7% \u2014 almost all of it cost: manufacturing cost fell $39M and restructuring charges halved. GAAP EPS more than doubled to $1.90.",
+      "title": "Profit grew from the cost line"
+    },
+    {
+      "stat": "690.6k",
+      "statColor": "green",
+      "text": "Aligner case volume rose 6.6% \u2014 record Q3 shipments, record doctor submitters, and North America orthodontist shipments grew year over year for the first time in six quarters.",
+      "title": "Volumes are back"
+    },
+    {
+      "stat": "-7.6%",
+      "statColor": "red",
+      "text": "Scanner and software revenue fell 7.6% even as placements grew double digits \u2014 more systems are leased/rented/pre-owned, which spreads the revenue out instead of booking it upfront.",
+      "title": "Scanners: units up, revenue down"
+    }
+  ],
+  "ticker": "ALGN",
+  "verdict": "Slow growth, fast profit: revenue up just 1.9%, but cheaper manufacturing and discipline more than doubled GAAP EPS."
+}

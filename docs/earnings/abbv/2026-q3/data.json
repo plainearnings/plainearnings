@@ -1,0 +1,187 @@
+{
+  "company": "AbbVie",
+  "costLabel": "Cost of products sold",
+  "costNote": "Making the drugs. It fell to $4.29B from $5.30B a year ago \u2014 last year's quarter carried heavier charges \u2014 which is a big reason profit jumped.",
+  "flow": {
+    "costOfRevenueM": 4285,
+    "grossProfitM": 13119,
+    "netIncomeM": 4220,
+    "operatingIncomeM": 6267,
+    "opex": [
+      {
+        "amountM": 4087,
+        "name": "Selling, general & administrative",
+        "note": "Commercial teams behind the drug launches, plus head-office costs."
+      },
+      {
+        "amountM": 2567,
+        "name": "Research & development",
+        "note": "Clinical trials and the pipeline \u2014 AbbVie also closed the Apogee Therapeutics acquisition this quarter."
+      },
+      {
+        "amountM": 198,
+        "name": "Acquired IPR&D, milestones & other",
+        "note": "$216M paid for acquired in-process research and milestone payments, net of $18M of other operating income. A year ago this line was $2.68B \u2014 the main reason GAAP EPS more than doubled."
+      }
+    ],
+    "otherDetail": [
+      {
+        "amountM": -700,
+        "label": "Interest expense, net",
+        "note": "The cost of AbbVie's debt, net of interest earned."
+      },
+      {
+        "amountM": -738,
+        "label": "Other expense, net",
+        "note": "Mostly investment and foreign-exchange losses below the operating line."
+      }
+    ],
+    "otherIncomeM": -1438,
+    "revenueM": 17404,
+    "taxM": 609
+  },
+  "follow100": [
+    {
+      "amount": 52.66,
+      "label": "Immunology"
+    },
+    {
+      "amount": 19.47,
+      "label": "Neuroscience"
+    },
+    {
+      "amount": 11.37,
+      "label": "Eye care & other"
+    },
+    {
+      "amount": 9.74,
+      "label": "Oncology"
+    },
+    {
+      "amount": 6.76,
+      "label": "Aesthetics"
+    },
+    {
+      "amount": -24.62,
+      "label": "Cost of products sold"
+    },
+    {
+      "amount": -23.48,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -14.75,
+      "label": "Research & development"
+    },
+    {
+      "amount": -1.14,
+      "label": "Acquired IPR&D, milestones & other"
+    },
+    {
+      "amount": -8.26,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.5,
+      "label": "Tax"
+    },
+    {
+      "amount": 24.25,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income is the consolidated $4,220M; $4,218M was attributable to AbbVie after noncontrolling interests.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "",
+      "value": "+10.3%"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "note": "",
+      "value": "$2.37"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "",
+      "value": "$3.82"
+    },
+    {
+      "label": "Skyrizi revenue",
+      "note": "",
+      "value": "$5.78B"
+    }
+  ],
+  "oneTimers": [
+    {
+      "label": "Acquired IPR&D & milestones",
+      "text": "$216M of expense ($0.11 per share) for bought-in research and milestone payments \u2014 lumpy by nature, and far below the $2.68B that hit the same quarter last year."
+    }
+  ],
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-30",
+  "revenueYoY": "+10.3%",
+  "segments": [
+    {
+      "amountM": 9165,
+      "name": "Immunology",
+      "note": "Skyrizi $5.78B (+23%) and Rinvoq $2.71B (+24%) now dwarf Humira, down 31% to $683M as biosimilars keep eating it. The portfolio grew 16%.",
+      "yoy": "+16.3%"
+    },
+    {
+      "amountM": 3389,
+      "name": "Neuroscience",
+      "note": "Botox Therapeutic $1.08B, Vraylar $1.07B, migraine drugs Ubrelvy + Qulipta $847M, and Vyalev $286M. Up 19%.",
+      "yoy": "+19.4%"
+    },
+    {
+      "amountM": 1978,
+      "name": "Eye care & other",
+      "note": "Everything AbbVie doesn't break out as a headline portfolio \u2014 mainly eye-care products. Computed as the remainder of total revenue.",
+      "yoy": ""
+    },
+    {
+      "amountM": 1696,
+      "name": "Oncology",
+      "note": "Venclexta $803M, Imbruvica $522M (shrinking under competition) and Elahere $224M. Roughly flat, up 0.8%.",
+      "yoy": "+0.8%"
+    },
+    {
+      "amountM": 1176,
+      "name": "Aesthetics",
+      "note": "Botox Cosmetic $669M and the Juvederm filler family $222M. Down 1.4% in a soft consumer-spending environment.",
+      "yoy": "-1.4%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AbbVie Q3 2026 earnings release \u2014 SEC EDGAR Ex-99.1 (8-K, Oct 30, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000128/0001551152-26-000128-index.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$8.48B",
+      "statColor": "green",
+      "text": "The two successor drugs brought in $8.48B \u2014 nearly half of all revenue \u2014 growing about 23\u201324% each, more than replacing Humira's decline.",
+      "title": "Skyrizi + Rinvoq carry the company"
+    },
+    {
+      "stat": "$2.37",
+      "statColor": "green",
+      "text": "A year ago, $2.68B of acquired IPR&D and milestone charges crushed GAAP profit to $0.10 a share. This year's charge was $216M, so GAAP EPS jumped to $2.37.",
+      "title": "GAAP EPS more than doubled"
+    },
+    {
+      "stat": "+5.2%",
+      "statColor": "green",
+      "text": "AbbVie raised full-year adjusted EPS guidance to $13.95\u201313.99 and announced a 5.2% dividend increase starting with the February 2027 payment.",
+      "title": "Dividend raised for 2027"
+    }
+  ],
+  "ticker": "ABBV",
+  "verdict": "The post-Humira growth engine is firing: Skyrizi and Rinvoq drove revenue up 10% and GAAP profit surged as last year's deal charges faded."
+}

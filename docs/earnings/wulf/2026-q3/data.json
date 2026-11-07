@@ -1,0 +1,155 @@
+{
+  "adaptation": "Standard layout adapted: the chart anchors on total money in (revenue $76.2M + other income $797.8M = $874.0M) because a $728.4M non-cash warrant fair-value gain dwarfs revenue. Balance checks on the adapted model: total money in = left after direct costs + cost of revenue ($874.0M = $848.8M + $25.2M); left after direct costs = profit after running costs + operating expenses ($848.8M = $709.6M + $139.3M). Reported figures are unchanged: revenue $76.2M, gross profit $51.0M, operating loss $88.2M, other income $797.8M, tax $0.0M, net income $709.5M.",
+  "adapted": true,
+  "company": "TeraWulf",
+  "flow": {
+    "costOfRevenueM": 25,
+    "grossProfitM": 51,
+    "netIncomeM": 710,
+    "operatingIncomeM": -88,
+    "opex": [
+      {
+        "amountM": 39,
+        "name": "Power & site operations",
+        "note": "Running the data centers day to day \u2014 electricity, staff and maintenance, including $1.7M paid to related parties."
+      },
+      {
+        "amountM": 57,
+        "name": "Selling, general & administrative",
+        "note": "The back office: executives, finance and legal. Up from $17M a year ago as the company scaled up and paid more stock-based compensation."
+      },
+      {
+        "amountM": 30,
+        "name": "Depreciation",
+        "note": "Spreading the cost of buildings and equipment over their working lives \u2014 a non-cash charge."
+      },
+      {
+        "amountM": 13,
+        "name": "Impairment & disposal losses",
+        "note": "Writing down equipment ($9.7M) and losses on disposals ($3.9M), partly offset by a $0.6M gain on digital assets held."
+      }
+    ],
+    "otherIncomeM": 798,
+    "revenueM": 76,
+    "taxM": 0
+  },
+  "follow100": [
+    {
+      "amount": 7.21,
+      "label": "HPC lease revenue"
+    },
+    {
+      "amount": 1.49,
+      "label": "Digital asset revenue"
+    },
+    {
+      "amount": 91.3,
+      "label": "Warrant & investment gains"
+    },
+    {
+      "amount": -2.86,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -4.46,
+      "label": "Power & site operations"
+    },
+    {
+      "amount": -6.52,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": -3.43,
+      "label": "Depreciation"
+    },
+    {
+      "amount": -1.49,
+      "label": "Impairment & disposal losses"
+    },
+    {
+      "amount": 81.24,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Per $100 of total money in ($874M), not per $100 of revenue: $91 of every $100 that 'came in' was gains \u2014 $83 of it the non-cash warrant revaluation alone. Measured against revenue alone, the gains would be about $1,050 per $100.",
+  "footerNote": "Net income is the consolidated figure; $709.9M was attributable to TeraWulf Inc. after noncontrolling interests absorbed a $0.4M loss. Figures are rounded to $M; the $0.03M tax provision rounds to $0.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Revenue was $76M, vs $51M a year ago",
+      "value": "+51%"
+    },
+    {
+      "label": "EPS (GAAP basic)",
+      "note": "Diluted EPS was -$0.03 \u2014 if warrant holders converted, the warrant gain would reverse",
+      "value": "$1.42"
+    },
+    {
+      "label": "HPC lease revenue",
+      "note": "83% of all revenue, up from $7M a year ago",
+      "value": "$63M"
+    },
+    {
+      "label": "Operating loss",
+      "note": "The running business lost money; Adjusted EBITDA was -$12.8M",
+      "value": "-$88M"
+    }
+  ],
+  "oneTimers": [
+    "A $728M non-cash gain from the change in fair value of warrant and derivative liabilities \u2014 the biggest single line of the quarter. It reverses if the warrants gain value again.",
+    "A $95M gain on the sale of an equity interest in an investee \u2014 a stake TeraWulf sold during the quarter.",
+    "Impairment of property, plant and equipment of $9.7M, plus $3.9M of losses on equipment disposals."
+  ],
+  "otherDetail": "Other income was $798M, net: a $728M non-cash gain from the change in fair value of warrant and derivative liabilities, a $95M gain on selling an equity stake, and $29M of interest income, less $54M of interest expense and a $0.5M share of a joint venture's loss.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-06",
+  "revenueYoY": "+51%",
+  "segments": [
+    {
+      "amountM": 63,
+      "name": "HPC lease revenue",
+      "note": "Renting powered data-center space to AI and high-performance-computing customers \u2014 the Lake Mariner campus in New York. Up from $7M a year ago as new capacity started earning rent.",
+      "yoy": "+775%"
+    },
+    {
+      "amountM": 13,
+      "name": "Digital asset revenue",
+      "note": "Bitcoin TeraWulf mines itself. Down 69% as power and space are shifted away from mining toward HPC leasing.",
+      "yoy": "-69%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+51%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 51% to $76.2M, and $63.0M of it \u2014 83% \u2014 came from HPC leases (long-term rentals of powered data-center space to AI customers), up from just $7.2M a year ago. Bitcoin mining revenue fell 69% to $13.2M as power is redirected to leasing. After quarter-end, TeraWulf signed a 20-year lease with Anthropic worth roughly $19B of contracted revenue.",
+      "title": "AI rent is now the business"
+    },
+    {
+      "stat": "$710M",
+      "statColor": "#5b6b7c",
+      "text": "Net income was $709.5M, but $728M of it is a non-cash gain: TeraWulf's warrant liabilities fell in value, and accounting rules book that as income. Operations themselves lost $88.2M, and the company's own Adjusted EBITDA was -$12.8M. Diluted EPS was actually -$0.03, because converting the warrants would erase the gain.",
+      "title": "The profit is paper, not cash"
+    },
+    {
+      "stat": "$54M",
+      "statColor": "#cf5f4e",
+      "text": "Interest expense jumped to $53.6M in the quarter, from $9.8M a year ago, as TeraWulf borrows heavily to build data centers. It ended the quarter with 102 MW of capacity earning rent and another 336 MW under construction.",
+      "title": "Debt is getting expensive"
+    }
+  ],
+  "ticker": "WULF",
+  "verdict": "TeraWulf's revenue jumped 51% to $76M as renting data-center space to AI customers became 83% of the business \u2014 but the $710M headline profit is a paper gain on its own warrants, not cash from a business that still lost $88M running itself."
+}
