@@ -171,3 +171,26 @@ svg#chart .lnote { font-size: 11.5px; font-weight: 400; fill: var(--sub); }
 @media (prefers-reduced-motion: reduce) {
   svg#chart .flow, svg#chart .nodebar, svg#chart .lbl, .hfill, #tooltip { transition: none; }
 }
+
+/* Company pages — two-column layout: timeline nav (left) + report panel (right). */
+.company-layout { display: grid; grid-template-columns: 300px 1fr; gap: 28px; max-width: 1400px; margin: 0 auto; padding: 28px 28px 48px; align-items: start; }
+.timeline { position: sticky; top: 84px; }
+.timeline h1 { font-size: 30px; letter-spacing: -0.6px; margin: 0 0 6px; }
+.timeline h1 .thin { color: var(--muted); font-weight: 600; }
+.timeline-sub { color: var(--muted); margin: 0; font-size: 15px; }
+.q-list { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+.q-item { display: block; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; text-decoration: none; color: inherit; transition: transform .12s, box-shadow .12s, border-color .12s; }
+.q-item:hover { transform: translateY(-1px); border-color: #cbd5e1; box-shadow: 0 8px 22px rgba(47,59,76,0.08); }
+.q-item.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 8px 22px rgba(47,59,76,0.08); }
+.q-label { font-size: 17px; font-weight: 800; }
+.q-badge { float: right; background: #dcefe5; color: #256048; font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 999px; }
+.q-meta { display: block; color: var(--muted); font-size: 13px; margin-top: 5px; }
+.company-main-bar { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; color: var(--muted); font-size: 14px; }
+.company-main-bar a { color: var(--accent); text-decoration: none; font-weight: 600; }
+#report-frame { width: 100%; border: 1px solid var(--line); border-radius: 18px; background: #fff; min-height: 900px; }
+@media (max-width: 860px) {
+  .company-layout { grid-template-columns: 1fr; padding: 20px 16px 36px; }
+  .timeline { position: static; }
+  .q-list { flex-direction: row; overflow-x: auto; padding-bottom: 6px; }
+  .q-item { min-width: 215px; }
+}

@@ -10,8 +10,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Amazon — Earnings, Explained Simply | Plain Earnings</title>
+<title>Amazon (AMZN) Earnings — Plain Earnings</title>
 <meta name="description" content="Amazon earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="Amazon (AMZN) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="../../assets/style.css">
 <link rel="stylesheet" href="../../assets/report.css">
 </head>
@@ -26,19 +28,86 @@
     <a href="../../feed.xml">RSS</a>
   </nav>
 </header>
-<div class="company-wrap">
-  <h1>Amazon (AMZN)</h1>
-  <p class="lede">Every quarter, explained in plain English — where the money came from, what got spent, and what was kept as profit. Newest first.</p>
-  <div class="quarter-list">
-    <div class="quarter-item">
-        <a class="q" href="./2026-q3/">Q3 2026</a>
-        <span class="v">Amazon&#x27;s operating profit jumped 61% as AWS accelerated to 39% growth — but net income slipped, because last year&#x27;s quarter included a $9.5B one-off Anthropic gain, and free cash flow went deeply negative on AI data-center spending.</span>
-        <span class="d">Reported 2026-10-29</span>
-      </div>
-  </div>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Amazon <span class="thin">(AMZN)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="2026-q3/" data-slug="2026-q3">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+12%</span>
+        <span class="q-meta">Reported 2026-10-29 · Revenue $201.9B</span>
+      </a>
+    </nav>
+  </aside>
+  <main class="company-main">
+    <div class="company-main-bar">
+      <span id="current-label"></span>
+      <a id="open-standalone" href="2026-q3/" target="_blank" rel="noopener">Open as its own page &#8599;</a>
+    </div>
+    <iframe id="report-frame" src="2026-q3/" title="Amazon earnings report" loading="eager"></iframe>
+  </main>
 </div>
+
 <footer>
-  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
 </footer>
+
+<script>
+(function () {
+  var frame = document.getElementById('report-frame');
+  var label = document.getElementById('current-label');
+  var openLink = document.getElementById('open-standalone');
+  var items = Array.prototype.slice.call(document.querySelectorAll('.q-item'));
+
+  function fit() {
+    try {
+      var doc = frame.contentDocument;
+      if (doc && doc.documentElement) {
+        frame.style.height = Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0) + 'px';
+      }
+    } catch (e) {}
+  }
+  function polish() {
+    try {
+      var doc = frame.contentDocument;
+      if (!doc) return;
+      var bar = doc.querySelector('.topbar');
+      if (bar) bar.style.display = 'none';
+      var wrap = doc.querySelector('.report-wrap');
+      if (wrap) wrap.style.paddingTop = '8px';
+      if (doc.body && window.ResizeObserver) {
+        new ResizeObserver(fit).observe(doc.body);
+      }
+    } catch (e) {}
+    fit();
+  }
+  frame.addEventListener('load', polish);
+  window.addEventListener('resize', fit);
+
+  function activate(slug, push) {
+    items.forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-slug') === slug); });
+    var item = items.filter(function (a) { return a.getAttribute('data-slug') === slug; })[0];
+    if (!item) return;
+    var qLabel = item.querySelector('.q-label').textContent;
+    label.textContent = qLabel;
+    openLink.setAttribute('href', slug + '/');
+    var src = slug + '/';
+    if (!frame.src.endsWith('/' + src) && !frame.src.endsWith(src)) frame.src = src;
+    if (push) history.replaceState(null, '', '#' + slug);
+    document.title = 'Amazon ' + qLabel + ' Earnings — Plain Earnings';
+  }
+  items.forEach(function (a) {
+    a.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      activate(a.getAttribute('data-slug'), true);
+    });
+  });
+  var start = (location.hash || '').replace('#', '') || '2026-q3';
+  activate(start, false);
+})();
+</script>
 </body>
 </html>
