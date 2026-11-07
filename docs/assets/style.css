@@ -1,0 +1,32 @@
+:root {
+  --ink: #2f3b4c;
+  --muted: #6b7686;
+  --accent: #2563eb;
+  --card: #f6f8fb;
+  --line: #e2e8f0;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  line-height: 1.55;
+  background: #fff;
+}
+.site-header, main, footer { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+.site-header { padding-top: 48px; }
+.brand { font-size: 34px; font-weight: 800; letter-spacing: -0.5px; }
+.tagline { font-size: 19px; color: var(--muted); margin-top: 2px; }
+.intro { font-size: 17px; margin: 26px 0; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 18px 0;
+}
+.card h2 { margin: 4px 0 10px; font-size: 20px; }
+.companies { margin: 0; padding-left: 20px; }
+.companies li { margin: 6px 0; }
+.note { color: var(--muted); font-size: 14px; }
+footer { color: var(--muted); font-size: 13px; padding: 28px 20px 40px; }
