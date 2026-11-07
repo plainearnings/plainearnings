@@ -31,10 +31,24 @@
   ],
   "segments": [
     {
-      "name": "Supermarket sales",
-      "amountM": 34621,
-      "yoy": "+2%",
-      "note": "Kroger reports one business: supermarkets selling food, pharmacy and fuel, plus delivery and its Kroger Precision Marketing media business. Total sales were $34,621M, up from $33,940M a year ago."
+      "name": "Supermarket sales (ex-fuel)",
+      "amountM": 30189,
+      "yoy": "-0.5%",
+      "note": "Sales to retail customers without fuel \u2014 groceries, pharmacy and general merchandise, in stores and online. Down 0.5% as Inflation Reduction Act changes cut pharmacy reimbursement rates, even though identical sales without fuel rose 0.2%.",
+      "shortName": "Supermarket sales ex-fuel"
+    },
+    {
+      "name": "Supermarket fuel sales",
+      "amountM": 4105,
+      "yoy": "+26%",
+      "note": "Gasoline sold at supermarket fuel centers \u2014 up 26% on higher fuel prices and volumes. Fuel carries a much lower margin than groceries.",
+      "shortName": "Fuel sales"
+    },
+    {
+      "name": "Other sales",
+      "amountM": 327,
+      "yoy": "+3%",
+      "note": "Wholesale and other sales outside the supermarkets."
     }
   ],
   "flow": {
@@ -67,8 +81,16 @@
   "otherDetail": "Net other expense of $132M on this chart: interest expense, net of $156M and $9M of non-service pension cost, partly offset by a $34M gain on investments \u2014 plus $1M of earnings attributable to noncontrolling interests, so the bottom line is the $641M attributable to Kroger.",
   "follow100": [
     {
-      "label": "Supermarket sales",
-      "amount": 100.0
+      "label": "Supermarket sales (ex-fuel)",
+      "amount": 87.2
+    },
+    {
+      "label": "Supermarket fuel sales",
+      "amount": 11.86
+    },
+    {
+      "label": "Other sales",
+      "amount": 0.94
     },
     {
       "label": "Merchandise costs",
@@ -134,5 +156,5 @@
       "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926108926/kr-20260815x10q.htm"
     }
   ],
-  "footerNote": "Kroger's fiscal second quarter ended August 15, 2026, and Kroger reports a single operating segment, so sales are shown as one line. Gross profit here is sales less merchandise costs (including warehousing, transportation and the $39M LIFO charge), exactly as Kroger's statement of operations foots; Kroger's own quoted gross margin rate of 22.4% uses a slightly different definition. Net income is the $641M attributable to Kroger (consolidated net earnings were $642M)."
+  "footerNote": "Kroger's fiscal second quarter ended August 15, 2026. Kroger reports a single operating segment; the sales split shown (retail sales without fuel, fuel, other) is the breakdown in its Q2 2026 Form 10-Q. Gross profit here is sales less merchandise costs (including warehousing, transportation and the $39M LIFO charge), exactly as Kroger's statement of operations foots; Kroger's own quoted gross margin rate of 22.4% uses a slightly different definition. Net income is the $641M attributable to Kroger (consolidated net earnings were $642M)."
 }
