@@ -1,0 +1,145 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-22",
+  "verdict": "Tesla's revenue jumped 26% to $28.2B on record deliveries, but operating profit fell 57% to just $398M — and a $1B paper gain on its SpaceX stake did much of the work in the bottom line.",
+  "revenueYoY": "+26%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+26%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.32",
+      "note": "vs $0.33 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "480,126",
+      "note": "+25% YoY; production was 451,758 (+10%)"
+    },
+    {
+      "label": "Capex",
+      "value": "$5.8B",
+      "note": "+142% YoY — free cash flow went negative at -$1.1B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 20516,
+      "yoy": "+23%",
+      "note": "Car sales, leasing and regulatory credits — up 23% YoY on record deliveries of 480,126, though regulatory credit revenue fell to $146M from $439M a year ago."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 4581,
+      "yoy": "+50%",
+      "note": "Supercharging, service centers, parts and FSD (supervised-driving) subscriptions — active FSD subscriptions reached 1.48 million."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 3139,
+      "yoy": "+13%",
+      "note": "Megapack battery systems and solar — storage deployments rose 41% to 13.5 GWh."
+    }
+  ],
+  "flow": {
+    "revenueM": 28236,
+    "costOfRevenueM": 23485,
+    "grossProfitM": 4751,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2371,
+        "note": "AI, the Optimus robot and new vehicles — up 49% YoY, a big reason operating profit fell."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1982,
+        "note": "Selling cars and running the company day to day — up 45% YoY."
+      }
+    ],
+    "operatingIncomeM": 398,
+    "otherIncomeM": 931,
+    "taxM": 201,
+    "netIncomeM": 1128
+  },
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 72.66
+    },
+    {
+      "label": "Services and other",
+      "amount": 16.22
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 11.12
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.18
+    },
+    {
+      "label": "R&D",
+      "amount": -8.4
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.02
+    },
+    {
+      "label": "Other income",
+      "amount": 3.3
+    },
+    {
+      "label": "Tax",
+      "amount": -0.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.99
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-57%",
+      "statColor": "#cf5f4e",
+      "title": "Operating profit is thinning",
+      "text": "Operating income fell to $398M — a 1.4% margin — even as revenue hit a record. Price cuts and a 49% jump in R&D spending overwhelmed the delivery growth."
+    },
+    {
+      "stat": "+142%",
+      "statColor": "#5b6b7c",
+      "title": "Capex went vertical",
+      "text": "Spending on AI compute, factories and equipment hit $5.8B in one quarter, pushing free cash flow to -$1.1B — the growth bill is arriving before the growth pays."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#3d7bc8",
+      "title": "A paper gain did heavy lifting",
+      "text": "An unrealized $1,005M gain on Tesla's SpaceX stake sits inside other income. Without it, pre-tax profit would have been roughly $324M instead of $1,329M."
+    }
+  ],
+  "oneTimers": [
+    "A $1,005M unrealized (paper) gain on Tesla's SpaceX equity stake is inside the $590M of 'other income, net' in the release — no cash changed hands. A $112M unrealized loss on digital assets partly offset it.",
+    "Stock-based compensation was $1,151M (vs $635M a year ago), swollen by the 2025 CEO Performance Award — a non-cash cost inside operating expenses. Non-GAAP net income was $1,153M ($0.33 a share) vs GAAP $1,114M ($0.32).",
+    "The tax line includes a one-off benefit from releasing valuation allowances on California deferred tax assets, which is why the effective tax rate was only about 15%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm"
+    }
+  ],
+  "otherDetail": "Interest income of $422M and other income of $590M — mostly a $1,005M paper gain on Tesla's SpaceX stake, partly offset by a $112M paper loss on digital assets — less $81M of interest expense: a net +$931M.",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Net income here is Tesla's total net income of $1,128M; $1,114M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries)."
+}

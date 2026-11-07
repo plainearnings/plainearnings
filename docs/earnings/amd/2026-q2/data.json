@@ -1,0 +1,162 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-08-04",
+  "verdict": "AMD's revenue leapt 50% to a record $11.5B as data-center sales more than doubled \u2014 and this time the growth reached the bottom line, with net profit nearly tripling to $2.3B.",
+  "revenueYoY": "+50%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+50%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.38",
+      "note": "vs $0.54 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$6.7B",
+      "note": "+107% YoY \u2014 58% of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.6B",
+      "note": "on $2.4B of operating cash flow"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 6718,
+      "yoy": "+107%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 more than doubled as AI data centers kept buying; the segment earned $2.1B of operating profit vs a loss a year ago."
+    },
+    {
+      "name": "Client",
+      "amountM": 3062,
+      "yoy": "+23%",
+      "note": "Ryzen processors for PCs \u2014 up 23% as the PC market and AI PCs grew."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 779,
+      "yoy": "-31%",
+      "note": "Graphics cards and console chips \u2014 down 31%, mostly weaker semi-custom console business."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 977,
+      "yoy": "+19%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business)."
+    }
+  ],
+  "flow": {
+    "revenueM": 11536,
+    "costOfRevenueM": 5333,
+    "grossProfitM": 6203,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2528,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators \u2014 up 33% YoY."
+      },
+      {
+        "name": "Marketing, general and administrative",
+        "amountM": 1401,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of acquisition intangibles",
+        "amountM": 284,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      }
+    ],
+    "operatingIncomeM": 1990,
+    "otherIncomeM": 559,
+    "taxM": 252,
+    "netIncomeM": 2297
+  },
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 58.23
+    },
+    {
+      "label": "Client",
+      "amount": 26.54
+    },
+    {
+      "label": "Gaming",
+      "amount": 6.75
+    },
+    {
+      "label": "Embedded",
+      "amount": 8.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.23
+    },
+    {
+      "label": "R&D",
+      "amount": -21.91
+    },
+    {
+      "label": "Marketing, general & admin",
+      "amount": -12.15
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.46
+    },
+    {
+      "label": "Other income",
+      "amount": 4.85
+    },
+    {
+      "label": "Tax",
+      "amount": -2.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.91
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+107%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center is now the company",
+      "text": "Data Center revenue more than doubled to $6.7B \u2014 58% of everything AMD sells \u2014 and its operating profit swung from a $155M loss a year ago to $2.1B."
+    },
+    {
+      "stat": "-31%",
+      "statColor": "#cf5f4e",
+      "title": "Gaming is shrinking",
+      "text": "Gaming revenue fell 31% to $779M as console-chip demand faded \u2014 the old business is shrinking while the AI business replaces it."
+    },
+    {
+      "stat": "$808M",
+      "statColor": "#5b6b7c",
+      "title": "Capex nearly tripled",
+      "text": "Spending on property and equipment jumped from $282M to $808M as AMD builds out capacity for AI demand; free cash flow still rose to $1.6B."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes $483M of net gains on long-term investments (per the cash-flow statement) \u2014 paper gains, not cash from selling chips.",
+    "An $8M loss from discontinued operations sits below the continuing-operations line; profit from continuing operations was $2,305M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+    }
+  ],
+  "otherDetail": "Other income of $598M (mostly gains on long-term investments) plus $6M of equity income, less $37M of interest expense and an $8M loss from discontinued operations \u2014 a net +$559M.",
+  "follow100Note": "The rows reconcile to $100 within a cent or two of rounding."
+}

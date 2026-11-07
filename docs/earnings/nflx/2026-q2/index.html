@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Netflix — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Netflix&#x27;s revenue rose 13% to $12.6B and its 33% operating margin turned that into $3.4B of net profit — slower growth than the old days, but a far stronger profit engine.">
+<meta property="og:title" content="Netflix — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Netflix&#x27;s revenue rose 13% to $12.6B and its 33% operating margin turned that into $3.4B of net profit — slower growth than the old days, but a far stronger profit engine.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/nflx/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/nflx/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Netflix quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Netflix <span class="thin">(NFLX)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+12%</span>
+        <span class="q-meta">Reported 2026-10-20 · Revenue $12.9B</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+13%</span>
+        <span class="q-meta">Reported 2026-07-16 · Revenue $12.6B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Netflix — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-07-16
+    </div>
+  </header>
+
+  <p class="verdict">Netflix&#x27;s revenue rose 13% to $12.6B and its 33% operating margin turned that into $3.4B of net profit — slower growth than the old days, but a far stronger profit engine.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+13%</b></span><span class="chip">EPS (GAAP)<b>$0.80</b></span><span class="chip">Operating margin<b>33.4%</b></span><span class="chip">Free cash flow<b>$1.5B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Netflix's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Netflix took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">United States &amp; Canada</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$43.25</span></div>
+      <div class="hrow"><span class="hlabel">Europe, Middle East &amp; Africa</span><div class="htrack"><div class="hfill" data-w="74.3" style="background:#3D7BC8"></div></div><span class="hval">$32.12</span></div>
+      <div class="hrow"><span class="hlabel">Latin America</span><div class="htrack"><div class="hfill" data-w="29.2" style="background:#3D7BC8"></div></div><span class="hval">$12.61</span></div>
+      <div class="hrow"><span class="hlabel">Asia-Pacific</span><div class="htrack"><div class="hfill" data-w="27.8" style="background:#3D7BC8"></div></div><span class="hval">$12.02</span></div>
+      <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="111.1" style="background:#D96A57"></div></div><span class="hval">−$48.06</span></div>
+      <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="15.2" style="background:#CF5F4E"></div></div><span class="hval">−$6.56</span></div>
+      <div class="hrow"><span class="hlabel">Technology &amp; development</span><div class="htrack"><div class="hfill" data-w="18.6" style="background:#CF5F4E"></div></div><span class="hval">−$8.03</span></div>
+      <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="9.2" style="background:#CF5F4E"></div></div><span class="hval">−$3.97</span></div>
+      <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="2.3" style="background:#D96A57"></div></div><span class="hval">−$0.99</span></div>
+      <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="12.3" style="background:#B8443C"></div></div><span class="hval">−$5.31</span></div>
+      <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="62.6" style="background:#3E8E5A"></div></div><span class="hval">$27.08</span></div>
+      <p class="hnote">The rows reconcile to $100 within a cent of rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">33.4%</div>
+            <h3>A third of revenue is operating profit</h3>
+            <p>Operating income hit $4.2B (+11%). Content costs grow faster in the first half of the year, so the margin actually dipped from 34.1% a year ago; management expects it to widen again in the second half.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">~$3B</div>
+            <h3>Ads are becoming a real business</h3>
+            <p>Netflix says it is on track to roughly double ads revenue to about $3B in 2026 — still small beside subscription revenue, but the fastest-growing layer it has.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">+21%</div>
+            <h3>Latin America is the growth pocket</h3>
+            <p>LATAM revenue grew 21% (16% without currency help), the fastest of the four regions, while the biggest market — the U.S. and Canada — grew 10%.</p>
+          </article>
+    </div>
+  </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1065280/000106528026000211/ex991_q226.htm">Official earnings release / shareholder letter (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":12.56,"nodes":{"seg0":{"name":"United States & Canada","amt":"$5.4B","value":5.432,"col":0,"color":"#3D7BC8","note":"+10% \u00b7 43.2% of revenue","plain":"The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business.","quarter":"43.2% of all revenue this quarter."},"seg1":{"name":"Europe, Middle East & Africa","amt":"$4.0B","value":4.034,"col":0,"color":"#7A68C4","note":"+14% \u00b7 32.1% of revenue","plain":"The second-largest region, growing a bit faster than North America.","quarter":"32.1% of all revenue this quarter."},"seg2":{"name":"Latin America","amt":"$1.6B","value":1.584,"col":0,"color":"#2E7CC4","note":"+21% \u00b7 12.6% of revenue","plain":"The fastest-growing region this quarter (16% after currency effects) \u2014 cheaper plans are pulling in new households.","quarter":"12.6% of all revenue this quarter."},"seg3":{"name":"Asia-Pacific","amt":"$1.5B","value":1.51,"col":0,"color":"#76B900","note":"+16% \u00b7 12% of revenue","plain":"The smallest region \u2014 mobile-first plans in price-sensitive markets.","quarter":"12% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$12.6B","value":12.56,"col":1,"color":"#2F3B4C","note":"+13%","plain":"All the money Netflix took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$12.6B, +13% vs a year ago."},"gross":{"name":"Gross profit","amt":"$6.5B","value":6.523,"col":2,"color":"#69B578","note":"51.9% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"51.9 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($6.0B)","value":6.037,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$6.0B \u2014 about 48.1 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$4.2B","value":4.192,"col":3,"color":"#4C9A67","note":"33.4% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 33.4% margin."},"opex":{"name":"Operating expenses","amt":"($2.3B)","value":2.331,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$2.3B total, split into Technology & development, Sales & marketing, General & administrative on the right."},"ox0":{"name":"Technology & development","amt":"($1.0B)","value":1.008,"col":4,"color":"#CF5F4E","note":"8% of revenue","plain":"The streaming platform, apps, recommendation systems and the new in-house ad-tech stack.","quarter":"$1.0B \u2014 8% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($824M)","value":0.824,"col":4,"color":"#CF5F4E","note":"6.6% of revenue","plain":"Advertising Netflix itself and winning subscribers.","quarter":"$824M \u2014 6.6% of revenue."},"ox2":{"name":"General & administrative","amt":"($499M)","value":0.499,"col":4,"color":"#CF5F4E","note":"4% of revenue","plain":"Running the company: legal, finance and offices.","quarter":"$499M \u2014 4% of revenue."},"net":{"name":"Net profit","amt":"$3.4B","value":3.401,"col":4,"color":"#3E8E5A","note":"27.1% margin","plain":"The bottom line \u2014 what Netflix actually earned after everything.","quarter":"$3.4B \u2014 about 27.1 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($667M)","value":0.667,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$667M \u2014 roughly a 16.4% tax rate on pre-tax profit."},"otherexp":{"name":"Other expense","amt":"($124M)","value":0.124,"col":4,"color":"#B8443C","note":"","plain":"Interest expense of $176M on Netflix's debt, partly offset by $52M of interest and other income \u2014 a net $124M cost below operating profit.","quarter":"$124M taken out of profit."}},"cols":[["seg0","seg1","seg2","seg3"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":5.432,"c":"#94b6e1","amt":"$5.4B"},{"s":"seg1","d":"rev","v":4.034,"c":"#b6acdf","amt":"$4.0B"},{"s":"seg2","d":"rev","v":1.584,"c":"#8cb7df","amt":"$1.6B"},{"s":"seg3","d":"rev","v":1.51,"c":"#b4d873","amt":"$1.5B"},{"s":"rev","d":"gross","v":6.523,"c":"#BFE0C6","amt":"$6.5B"},{"s":"rev","d":"cost","v":6.037,"c":"#F4C7B9","amt":"$6.0B"},{"s":"gross","d":"op","v":4.192,"c":"#ACD8B8","amt":"$4.2B"},{"s":"gross","d":"opex","v":2.331,"c":"#F2B3A4","amt":"$2.3B"},{"s":"op","d":"net","v":3.401,"c":"#ACD8B8","amt":"$3.4B"},{"s":"op","d":"otherexp","v":0.124,"c":"#dfaba7","amt":"$124M"},{"s":"op","d":"tax","v":0.667,"c":"#dfaba7","amt":"$667M"},{"s":"opex","d":"ox0","v":1.008,"c":"#F6C0B1","amt":"$1.0B"},{"s":"opex","d":"ox1","v":0.824,"c":"#F6C0B1","amt":"$824M"},{"s":"opex","d":"ox2","v":0.499,"c":"#F6C0B1","amt":"$499M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

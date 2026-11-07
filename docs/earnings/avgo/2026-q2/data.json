@@ -1,0 +1,141 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-05-03",
+  "reportedDate": "2026-06-03",
+  "verdict": "Broadcom's revenue rose 48% to $22.2B as AI chip sales more than doubled to $10.8B, and 42 cents of every revenue dollar survived as net profit.",
+  "revenueYoY": "+48%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+48%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.91",
+      "note": "vs $1.03 a year ago"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "value": "$10.8B",
+      "note": "+143% YoY — about half of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$10.3B",
+      "note": "46% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 15009,
+      "yoy": "+79%",
+      "note": "Chips — above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue alone was $10.8B, up 143% YoY."
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 7178,
+      "yoy": "+9%",
+      "note": "VMware and other enterprise software — the steady, subscription side of the company; growth was slower here as the AI chips took the spotlight."
+    }
+  ],
+  "flow": {
+    "revenueM": 22187,
+    "costOfRevenueM": 6772,
+    "grossProfitM": 15415,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2995,
+        "note": "Designing the next chips and software — a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1055,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 577,
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) — a bookkeeping charge, not cash — plus restructuring costs."
+      }
+    ],
+    "operatingIncomeM": 10788,
+    "otherIncomeM": -658,
+    "taxM": 820,
+    "netIncomeM": 9310
+  },
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 67.65
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 32.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -30.52
+    },
+    {
+      "label": "R&D",
+      "amount": -13.5
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.75
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -2.6
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.97
+    },
+    {
+      "label": "Tax",
+      "amount": -3.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 41.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+143%",
+      "statColor": "#3d7bc8",
+      "title": "AI chips keep compounding",
+      "text": "AI semiconductor revenue hit $10.8B — about half the company — and management guided it above $16B for the next quarter, growth of over 200%."
+    },
+    {
+      "stat": "42%",
+      "statColor": "#3e8e5a",
+      "title": "A profit machine",
+      "text": "Net profit of $9.3B is 42% of revenue, and free cash flow was $10.3B — the software business on top needs almost no factories, so sales turn into cash."
+    },
+    {
+      "stat": "+9%",
+      "statColor": "#5b6b7c",
+      "title": "Software is the ballast",
+      "text": "Infrastructure software grew just 9% to $7.2B — slower, but it is recurring subscription revenue that smooths out the chip cycle."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $1,967M of amortization of acquisition-related intangible assets (split between cost of revenue and operating expenses) — mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, EPS was $2.44 instead of $1.91."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $776M on the debt taken on for acquisitions, partly offset by $118M of other income — a net $658M cost below operating profit.",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding."
+}

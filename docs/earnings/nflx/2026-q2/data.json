@@ -1,0 +1,158 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-16",
+  "verdict": "Netflix's revenue rose 13% to $12.6B and its 33% operating margin turned that into $3.4B of net profit — slower growth than the old days, but a far stronger profit engine.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.80",
+      "note": "vs $0.72 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "33.4%",
+      "note": "operating income of $4.2B, +11% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.5B",
+      "note": "down from $2.3B a year ago on content-spend timing"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 5432,
+      "yoy": "+10%",
+      "note": "The biggest and richest market — subscription streaming, plus the fast-growing ads business."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 4034,
+      "yoy": "+14%",
+      "note": "The second-largest region, growing a bit faster than North America."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1584,
+      "yoy": "+21%",
+      "note": "The fastest-growing region this quarter (16% after currency effects) — cheaper plans are pulling in new households."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1510,
+      "yoy": "+16%",
+      "note": "The smallest region — mobile-first plans in price-sensitive markets."
+    }
+  ],
+  "flow": {
+    "revenueM": 12560,
+    "costOfRevenueM": 6037,
+    "grossProfitM": 6523,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 1008,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 824,
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 499,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 4192,
+    "otherIncomeM": -124,
+    "taxM": 667,
+    "netIncomeM": 3401
+  },
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 43.25
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 32.12
+    },
+    {
+      "label": "Latin America",
+      "amount": 12.61
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 12.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.06
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.56
+    },
+    {
+      "label": "Technology & development",
+      "amount": -8.03
+    },
+    {
+      "label": "G&A",
+      "amount": -3.97
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.99
+    },
+    {
+      "label": "Tax",
+      "amount": -5.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.08
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "33.4%",
+      "statColor": "#3e8e5a",
+      "title": "A third of revenue is operating profit",
+      "text": "Operating income hit $4.2B (+11%). Content costs grow faster in the first half of the year, so the margin actually dipped from 34.1% a year ago; management expects it to widen again in the second half."
+    },
+    {
+      "stat": "~$3B",
+      "statColor": "#3d7bc8",
+      "title": "Ads are becoming a real business",
+      "text": "Netflix says it is on track to roughly double ads revenue to about $3B in 2026 — still small beside subscription revenue, but the fastest-growing layer it has."
+    },
+    {
+      "stat": "+21%",
+      "statColor": "#5b6b7c",
+      "title": "Latin America is the growth pocket",
+      "text": "LATAM revenue grew 21% (16% without currency help), the fastest of the four regions, while the biggest market — the U.S. and Canada — grew 10%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release / shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000211/ex991_q226.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $176M on Netflix's debt, partly offset by $52M of interest and other income — a net $124M cost below operating profit.",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding."
+}

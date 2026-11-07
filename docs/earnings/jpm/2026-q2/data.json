@@ -1,0 +1,163 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-14",
+  "verdict": "JPMorgan reported $21.2B of profit — flattered by a $4.6B one-off gain on its Visa shares; even without the one-offs, it earned $16.9B as trading and fees boomed.",
+  "revenueYoY": "+28%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "reported basis, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.70",
+      "note": "$6.14 excluding significant items"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$25.5B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.5B",
+      "note": "$2.4B charged off, $149M reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 25511,
+      "yoy": "+10%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings — the bank's core engine, up 10% on bigger loan and deposit balances."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 31836,
+      "yoy": "+47%",
+      "note": "Fees, trading and asset-management income — up 47%, inflated by a $4.6B gain on Visa shares and $1.0B of equity-investment gains. Excluding those, it rose about 20%."
+    }
+  ],
+  "flow": {
+    "revenueM": 57347,
+    "costOfRevenueM": 2515,
+    "grossProfitM": 54832,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 15159,
+        "note": "Pay and benefits for the bank's workforce — its biggest cost."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 3855,
+        "note": "Outside services and professional fees."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 3107,
+        "compact": true,
+        "shortName": "Technology & equipment",
+        "pngName": "Technology & equipment",
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1670,
+        "note": "Advertising and card marketing."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3525,
+        "note": "Branches and offices ($1,482M of occupancy) plus other general costs ($2,043M).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 27516,
+    "otherIncomeM": 0,
+    "taxM": 6361,
+    "netIncomeM": 21155
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 44.49
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 55.51
+    },
+    {
+      "label": "Credit costs",
+      "amount": -4.39
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -26.43
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -6.72
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -5.42
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.91
+    },
+    {
+      "label": "Occupancy & other",
+      "amount": -6.15
+    },
+    {
+      "label": "Tax",
+      "amount": -11.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 36.89
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$4.6B",
+      "statColor": "#cf5f4e",
+      "title": "The Visa gain is the headline",
+      "text": "A $4.6B net gain on Visa shares in Corporate, plus $1.0B of equity-investment gains, sits inside this quarter's revenue. Excluding significant items, net income was $16.9B ($6.14 a share) instead of $21.2B ($7.70)."
+    },
+    {
+      "stat": "29%",
+      "statColor": "#3e8e5a",
+      "title": "Returns no rival matches",
+      "text": "With the one-offs included, return on tangible common equity hit 29% — profitability far beyond what other big banks produce."
+    },
+    {
+      "stat": "-12%",
+      "statColor": "#5b6b7c",
+      "title": "Credit costs fell",
+      "text": "The provision for credit losses fell 12% from a year ago to $2.5B — $2.4B of actual charge-offs plus a small $149M reserve build — even as lending kept growing."
+    }
+  ],
+  "oneTimers": [
+    "A $4.6B net gain related to Visa shares (in Corporate) and $1.0B of gains on certain equity investments ($763M of it in Corporate) are inside noninterest revenue. Excluding these significant items, net income was $16.9B and EPS $6.14 instead of $21.2B and $7.70."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/a2q26erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/a2q26erfex992supplement.htm"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $57.3B reported (GAAP), used here, or $58.0B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way.",
+  "footerNote": "JPMorgan headlines 'managed' revenue of $58.0B; this page uses reported (GAAP) revenue of $57.3B — the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes."
+}

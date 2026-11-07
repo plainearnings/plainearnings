@@ -1,0 +1,146 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-03",
+  "verdict": "Palantir's revenue grew 93% to $1.9B as U.S. commercial sales jumped 149% — and more than half of every revenue dollar ended as net profit.",
+  "revenueYoY": "+93%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+93%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.41",
+      "note": "vs $0.13 a year ago"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "value": "$764M",
+      "note": "+149% YoY"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$1.22B",
+      "note": "63% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Government",
+      "amountM": 990,
+      "yoy": "+79%",
+      "note": "Software for the U.S. military, intelligence agencies and allied governments — still the biggest customer group; U.S. government revenue alone grew 90% to $809M."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 945,
+      "yoy": "+110%",
+      "note": "Software for companies — U.S. commercial revenue jumped 149% to $764M as businesses raced to put AI to work, and Palantir closed a record $2.13B of U.S. commercial contract value."
+    }
+  ],
+  "flow": {
+    "revenueM": 1935,
+    "costOfRevenueM": 296,
+    "grossProfitM": 1639,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 339,
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 193,
+        "note": "Building the platforms — Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 195,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 912,
+    "otherIncomeM": 169,
+    "taxM": 15,
+    "netIncomeM": 1066
+  },
+  "follow100": [
+    {
+      "label": "Government",
+      "amount": 51.16
+    },
+    {
+      "label": "Commercial",
+      "amount": 48.84
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -15.3
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -17.52
+    },
+    {
+      "label": "R&D",
+      "amount": -9.97
+    },
+    {
+      "label": "G&A",
+      "amount": -10.08
+    },
+    {
+      "label": "Other income",
+      "amount": 8.73
+    },
+    {
+      "label": "Tax",
+      "amount": -0.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 55.08
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+149%",
+      "statColor": "#3d7bc8",
+      "title": "U.S. businesses are the growth engine",
+      "text": "U.S. commercial revenue hit $764M and Palantir closed a record $2.13B of U.S. commercial contract value in a single quarter — the deal pipeline behind future revenue."
+    },
+    {
+      "stat": "55%",
+      "statColor": "#3e8e5a",
+      "title": "Half of revenue became profit",
+      "text": "Net income was $1,066M on $1,935M of revenue — a 55% margin, helped by an income-tax bill of just $15M."
+    },
+    {
+      "stat": "$265M",
+      "statColor": "#5b6b7c",
+      "title": "Stock pay is the hidden cost",
+      "text": "Stock-based compensation was $265M — 14% of revenue. Excluding it and related payroll taxes, adjusted operating income was $1,194M vs $912M on the GAAP view."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation of $265M sits inside cost of revenue and operating expenses; excluding it and $17M of related employer payroll taxes, adjusted operating income was $1,194M (a 62% margin) instead of $912M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q — segment detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm"
+    }
+  ],
+  "otherDetail": "Interest income of $77M on Palantir's cash pile plus $92M of other income — $169M added below operating profit (rounded from the release's thousands).",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Net income here is Palantir's total net income of $1,066M; $1,062M is attributable to common stockholders (the rest belongs to noncontrolling interests). Palantir reports in thousands — revenue was exactly $1,935.5M — so figures are rounded to whole $M and nudged by less than $1M per line so each step ties exactly. Segment split (Government/Commercial) is from the 10-Q; the release itself only breaks out U.S. figures."
+}
