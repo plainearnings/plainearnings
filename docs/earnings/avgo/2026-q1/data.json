@@ -1,0 +1,140 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-02-01",
+  "reportedDate": "2026-03-04",
+  "verdict": "Broadcom's revenue grew 29% to a record $19.3B as AI chip sales doubled to $8.4B, and 38 cents of every revenue dollar survived as net profit.",
+  "revenueYoY": "+29%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+29%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.50",
+      "note": "vs $1.14 a year ago"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "value": "$8.4B",
+      "note": "+106% YoY \u2014 over 40% of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$8.0B",
+      "note": "41% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 12515,
+      "yoy": "+52%",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue alone was $8.4B, up 106% YoY and above Broadcom's own forecast."
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 6796,
+      "yoy": "+1%",
+      "note": "VMware and other enterprise software \u2014 the steady, subscription side of the company; growth was nearly flat here as the AI chips took the spotlight."
+    }
+  ],
+  "flow": {
+    "revenueM": 19311,
+    "costOfRevenueM": 6154,
+    "grossProfitM": 13157,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2965,
+        "note": "Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1019,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 610,
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring costs."
+      }
+    ],
+    "operatingIncomeM": 8563,
+    "otherIncomeM": -368,
+    "taxM": 846,
+    "netIncomeM": 7349
+  },
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 64.81
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 35.19
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.87
+    },
+    {
+      "label": "R&D",
+      "amount": -15.35
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.28
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -3.16
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.91
+    },
+    {
+      "label": "Tax",
+      "amount": -4.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 61.95
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+106%",
+      "statColor": "#3e8e5a",
+      "title": "AI chips doubled",
+      "text": "AI semiconductor revenue hit $8.4B \u2014 more than double a year ago and above Broadcom's own forecast \u2014 on demand for custom AI accelerators and AI networking. Broadcom guided to $10.7B of AI chip revenue for the next quarter."
+    },
+    {
+      "stat": "+1%",
+      "statColor": "#5b6b7c",
+      "title": "Software barely grew",
+      "text": "Infrastructure software (mostly VMware) grew just 1% to $6.8B. Right now, essentially all of Broadcom's momentum is in silicon, not software."
+    },
+    {
+      "stat": "41%",
+      "statColor": "#3d7bc8",
+      "title": "A cash machine",
+      "text": "Free cash flow was $8.0B \u2014 41% of revenue \u2014 because capital spending was only $250M. Few companies this size convert revenue into cash this efficiently."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $1,969M of amortization of acquisition-related intangible assets ($1,462M inside cost of revenue and $507M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $10,185M instead of $7,349M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-02012026x8kxex99.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $801M on Broadcom's debt, partly offset by $433M of other income \u2014 a net \u2212$368M below operating profit."
+}

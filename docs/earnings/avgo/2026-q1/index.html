@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Broadcom — Q1 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Broadcom Q1 FY26 earnings in plain English: Broadcom&#x27;s revenue grew 29% to a record $19.3B as AI chip sales doubled to $8.4B, and 38 cents of every revenue dollar survived as net profit.">
+<meta property="og:title" content="Broadcom — Q1 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Broadcom&#x27;s revenue grew 29% to a record $19.3B as AI chip sales doubled to $8.4B, and 38 cents of every revenue dollar survived as net profit.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/avgo/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/avgo/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Broadcom quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Broadcom <span class="thin">(AVGO)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+86%</span>
+        <span class="q-meta">Reported 2026-09-02 · Revenue $29.6B</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 FY26</span>
+        <span class="q-badge">+48%</span>
+        <span class="q-meta">Reported 2026-06-03 · Revenue $22.2B</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 FY26</span>
+        <span class="q-badge">+29%</span>
+        <span class="q-meta">Reported 2026-03-04 · Revenue $19.3B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Broadcom — Q1 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 FY26</strong> · Quarter ended 2026-02-01<br>
+      Reported 2026-03-04
+    </div>
+  </header>
+
+  <p class="verdict">Broadcom&#x27;s revenue grew 29% to a record $19.3B as AI chip sales doubled to $8.4B, and 38 cents of every revenue dollar survived as net profit.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+29%</b></span><span class="chip">EPS (GAAP)<b>$1.50</b></span><span class="chip">AI semiconductor revenue<b>$8.4B</b></span><span class="chip">Free cash flow<b>$8.0B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Broadcom's Q1 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Broadcom took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Semiconductor solutions</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$64.81</span></div>
+          <div class="hrow"><span class="hlabel">Infrastructure software</span><div class="htrack"><div class="hfill" data-w="54.3" style="background:#3D7BC8"></div></div><span class="hval">$35.19</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="49.2" style="background:#D96A57"></div></div><span class="hval">−$31.87</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="23.7" style="background:#CF5F4E"></div></div><span class="hval">−$15.35</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="8.1" style="background:#CF5F4E"></div></div><span class="hval">−$5.28</span></div>
+          <div class="hrow"><span class="hlabel">Amortization &amp; restructuring</span><div class="htrack"><div class="hfill" data-w="4.9" style="background:#D96A57"></div></div><span class="hval">−$3.16</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="2.9" style="background:#D96A57"></div></div><span class="hval">−$1.91</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="6.8" style="background:#B8443C"></div></div><span class="hval">−$4.38</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="95.6" style="background:#3E8E5A"></div></div><span class="hval">$61.95</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">+106%</div>
+            <h3>AI chips doubled</h3>
+            <p>AI semiconductor revenue hit $8.4B — more than double a year ago and above Broadcom&#x27;s own forecast — on demand for custom AI accelerators and AI networking. Broadcom guided to $10.7B of AI chip revenue for the next quarter.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">+1%</div>
+            <h3>Software barely grew</h3>
+            <p>Infrastructure software (mostly VMware) grew just 1% to $6.8B. Right now, essentially all of Broadcom&#x27;s momentum is in silicon, not software.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">41%</div>
+            <h3>A cash machine</h3>
+            <p>Free cash flow was $8.0B — 41% of revenue — because capital spending was only $250M. Few companies this size convert revenue into cash this efficiently.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>GAAP profit carries $1,969M of amortization of acquisition-related intangible assets ($1,462M inside cost of revenue and $507M inside operating expenses) — mostly bookkeeping from the VMware deal, not cash. On Broadcom&#x27;s non-GAAP view, net income was $10,185M instead of $7,349M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 FY26</a></li><li><a href="../2026-q2/" class="">Q2 FY26</a></li><li><a href="../2026-q1/" class="current">Q1 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-02012026x8kxex99.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. </p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":19.311,"nodes":{"seg0":{"name":"Semiconductor solutions","amt":"$12.5B","value":12.515,"col":0,"color":"#3D7BC8","note":"+52% \u00b7 64.8% of revenue","plain":"Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue alone was $8.4B, up 106% YoY and above Broadcom's own forecast.","quarter":"64.8% of all revenue this quarter."},"seg1":{"name":"Infrastructure software","amt":"$6.8B","value":6.796,"col":0,"color":"#7A68C4","note":"+1% \u00b7 35.2% of revenue","plain":"VMware and other enterprise software \u2014 the steady, subscription side of the company; growth was nearly flat here as the AI chips took the spotlight.","quarter":"35.2% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$19.3B","value":19.311,"col":1,"color":"#2F3B4C","note":"+29%","plain":"All the money Broadcom took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$19.3B, +29% vs a year ago."},"gross":{"name":"Gross profit","amt":"$13.2B","value":13.157,"col":2,"color":"#69B578","note":"68.1% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"68.1 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($6.2B)","value":6.154,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$6.2B \u2014 about 31.9 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$8.6B","value":8.563,"col":3,"color":"#4C9A67","note":"44.3% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 44.3% margin."},"opex":{"name":"Operating expenses","amt":"($4.6B)","value":4.594,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$4.6B total, split into Research & development, Selling, general & administrative, Amortization & restructuring on the right."},"otherexp":{"name":"Other expense","amt":"($368M)","value":0.368,"col":4,"color":"#B8443C","note":"","plain":"Interest expense of $801M on Broadcom's debt, partly offset by $433M of other income \u2014 a net \u2212$368M below operating profit.","quarter":"$368M taken out of profit."},"ox0":{"name":"Research & development","amt":"($3.0B)","value":2.965,"col":4,"color":"#CF5F4E","note":"15.4% of revenue","plain":"Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend.","quarter":"$3.0B \u2014 15.4% of revenue."},"ox1":{"name":"Selling, general & administrative","amt":"($1.0B)","value":1.019,"col":4,"color":"#CF5F4E","note":"5.3% of revenue","plain":"Selling the products and running the company.","quarter":"$1.0B \u2014 5.3% of revenue."},"ox2":{"name":"Amortization & restructuring","amt":"($610M)","value":0.61,"col":4,"color":"#CF5F4E","note":"3.2% of revenue","plain":"Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring costs.","quarter":"$610M \u2014 3.2% of revenue."},"net":{"name":"Net profit","amt":"$7.3B","value":7.349,"col":4,"color":"#3E8E5A","note":"38.1% margin","plain":"The bottom line \u2014 what Broadcom actually earned after everything.","quarter":"$7.3B \u2014 about 38.1 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($846M)","value":0.846,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$846M \u2014 roughly a 10.3% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":12.515,"c":"#94b6e1","amt":"$12.5B"},{"s":"seg1","d":"rev","v":6.796,"c":"#b6acdf","amt":"$6.8B"},{"s":"rev","d":"gross","v":13.157,"c":"#BFE0C6","amt":"$13.2B"},{"s":"rev","d":"cost","v":6.154,"c":"#F4C7B9","amt":"$6.2B"},{"s":"gross","d":"op","v":8.563,"c":"#ACD8B8","amt":"$8.6B"},{"s":"gross","d":"opex","v":4.594,"c":"#F2B3A4","amt":"$4.6B"},{"s":"op","d":"net","v":7.349,"c":"#ACD8B8","amt":"$7.3B"},{"s":"op","d":"otherexp","v":0.368,"c":"#dfaba7","amt":"$368M"},{"s":"op","d":"tax","v":0.846,"c":"#dfaba7","amt":"$846M"},{"s":"opex","d":"ox0","v":2.965,"c":"#F6C0B1","amt":"$3.0B"},{"s":"opex","d":"ox1","v":1.019,"c":"#F6C0B1","amt":"$1.0B"},{"s":"opex","d":"ox2","v":0.61,"c":"#F6C0B1","amt":"$610M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-22",
+  "verdict": "Tesla's revenue rose 16% to $22.4B and operating profit more than doubled to $941M off a weak year-ago quarter \u2014 but heavy AI and factory spending kept the bottom line thin at $491M.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.13",
+      "note": "vs $0.12 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "358,023",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.4B",
+      "note": "$3.9B of operating cash flow less $2.5B of capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 16234,
+      "yoy": "+16%",
+      "note": "Car sales, leasing and regulatory credits \u2014 up 16% YoY on 358,023 deliveries, though regulatory credit revenue was $380M vs $595M a year ago."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 3745,
+      "yoy": "+42%",
+      "note": "Supercharging, service centers, parts and FSD (supervised-driving) subscriptions \u2014 the fastest-growing part of Tesla, up 42% YoY."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 2408,
+      "yoy": "-12%",
+      "note": "Megapack battery systems and solar \u2014 down 12% YoY and well below the prior quarter's $3.8B, a lumpy business that swings with big project deliveries."
+    }
+  ],
+  "flow": {
+    "revenueM": 22387,
+    "costOfRevenueM": 17667,
+    "grossProfitM": 4720,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1946,
+        "note": "AI, the Optimus robot, Cybercab and new vehicles \u2014 up 38% YoY as Tesla builds out its AI compute and robotaxi infrastructure."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1833,
+        "note": "Selling cars and running the company day to day \u2014 up 47% YoY."
+      }
+    ],
+    "operatingIncomeM": 941,
+    "otherIncomeM": -193,
+    "taxM": 257,
+    "netIncomeM": 491
+  },
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 72.52
+    },
+    {
+      "label": "Services and other",
+      "amount": 16.73
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 10.76
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -78.92
+    },
+    {
+      "label": "R&D",
+      "amount": -8.69
+    },
+    {
+      "label": "SG&A",
+      "amount": -8.19
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.86
+    },
+    {
+      "label": "Tax",
+      "amount": -1.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 97.8
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+136%",
+      "statColor": "#3e8e5a",
+      "title": "Profit bounced off a weak base",
+      "text": "Operating income more than doubled from a soft year-ago quarter to $941M, and gross margin widened to 21.1% \u2014 the best in a year \u2014 helped by lower cost per vehicle and more FSD sales."
+    },
+    {
+      "stat": "-12%",
+      "statColor": "#cf5f4e",
+      "title": "Energy slipped",
+      "text": "Energy generation and storage revenue fell 12% YoY to $2.4B (and dropped from $3.8B the prior quarter) while services revenue jumped 42% \u2014 the non-car business is growing, but unevenly."
+    },
+    {
+      "stat": "$535M",
+      "statColor": "#5b6b7c",
+      "title": "A big other-expense line",
+      "text": "Below operating profit, $535M of other expense (net) plus interest costs pulled pre-tax profit down to $748M, leaving net income of $491M \u2014 a 2.2% margin on $22.4B of revenue."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation was $1,030M (vs $573M a year ago), swollen by the 2025 CEO Performance Award \u2014 a non-cash cost inside operating expenses. Non-GAAP net income was $1,453M ($0.41 a share) vs GAAP net income attributable to common stockholders of $477M ($0.13)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/exhibit991.htm"
+    }
+  ],
+  "otherDetail": "Interest income of $434M, less $92M of interest expense and $535M of other expense, net \u2014 a net \u2212$193M below operating profit.",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Net income here is Tesla's total net income of $491M; $477M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries)."
+}

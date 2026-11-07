@@ -1,0 +1,161 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-14",
+  "verdict": "JPMorgan earned $16.5B in the quarter \u2014 revenue rose 10% to $49.8B on strong trading, dealmaking fees and lending, while credit costs fell by a quarter from a year ago.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "reported basis, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.94",
+      "note": "vs $5.07 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$25.4B",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.5B",
+      "note": "$2.3B charged off, $191M reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 25366,
+      "yoy": "+9%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 9% on bigger balances (average loans +11% YoY, deposits +7%)."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 24470,
+      "yoy": "+11%",
+      "note": "Fees, trading and asset-management income \u2014 up 11%, with Markets revenue up 20% and investment banking fees up 31%."
+    }
+  ],
+  "flow": {
+    "revenueM": 49836,
+    "costOfRevenueM": 2507,
+    "grossProfitM": 47329,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 15339,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 3483,
+        "note": "Outside services and professional fees."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 3021,
+        "shortName": "Technology & equipment",
+        "pngName": "Technology & equipment",
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1604,
+        "note": "Advertising and card marketing."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3403,
+        "note": "Branches and offices ($1,447M of occupancy) plus other general costs ($1,956M, including $223M of legal expense).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 20479,
+    "otherIncomeM": 0,
+    "taxM": 3985,
+    "netIncomeM": 16494
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 50.9
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 49.1
+    },
+    {
+      "label": "Credit costs",
+      "amount": -5.03
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -30.78
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -6.99
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -6.06
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.22
+    },
+    {
+      "label": "Occupancy & other",
+      "amount": -6.83
+    },
+    {
+      "label": "Tax",
+      "amount": -8.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 66.91
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "23%",
+      "statColor": "#3e8e5a",
+      "title": "Returns no rival matches",
+      "text": "Return on tangible common equity hit 23% (19% on common equity) \u2014 profitability far beyond what other big banks produce, on $16.5B of net income."
+    },
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "Dealmaking woke up",
+      "text": "Investment banking fees rose 31% YoY to $2.9B \u2014 JPMorgan ranked #1 globally with a 9.8% wallet share \u2014 and Markets revenue rose 20%."
+    },
+    {
+      "stat": "-24%",
+      "statColor": "#5b6b7c",
+      "title": "Credit costs fell",
+      "text": "The provision for credit losses fell 24% from a year ago to $2.5B \u2014 $2.3B of actual charge-offs plus a small $191M reserve build \u2014 even as lending kept growing."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/a1q26erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/a1q26erfex992supplement.htm"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $49.8B reported (GAAP), used here, or $50.5B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way.",
+  "footerNote": "JPMorgan headlines 'managed' revenue of $50.5B; this page uses reported (GAAP) revenue of $49.8B \u2014 the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2.3B of loans were charged off in the quarter and $191M was added to reserves."
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palantir — Q1 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Palantir Q1 2026 earnings in plain English: Palantir&#x27;s revenue grew 85% to $1.63B as U.S. commercial revenue more than doubled, and net income reached $876M — an extraordinary 54% of revenue.">
+<meta property="og:title" content="Palantir — Q1 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Palantir&#x27;s revenue grew 85% to $1.63B as U.S. commercial revenue more than doubled, and net income reached $876M — an extraordinary 54% of revenue.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/pltr/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/pltr/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Palantir quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Palantir <span class="thin">(PLTR)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+96%</span>
+        <span class="q-meta">Reported 2026-11-02 · Revenue $2,313M</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+93%</span>
+        <span class="q-meta">Reported 2026-08-03 · Revenue $1,935M</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+85%</span>
+        <span class="q-meta">Reported 2026-05-04 · Revenue $1,633M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Palantir — Q1 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 2026</strong> · Quarter ended 2026-03-31<br>
+      Reported 2026-05-04
+    </div>
+  </header>
+
+  <p class="verdict">Palantir&#x27;s revenue grew 85% to $1.63B as U.S. commercial revenue more than doubled, and net income reached $876M — an extraordinary 54% of revenue.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+85%</b></span><span class="chip">EPS (GAAP)<b>$0.34</b></span><span class="chip">U.S. commercial revenue<b>$595M</b></span><span class="chip">Adjusted free cash flow<b>$925M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Palantir's Q1 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Palantir took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Government</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$52.60</span></div>
+          <div class="hrow"><span class="hlabel">Commercial</span><div class="htrack"><div class="hfill" data-w="90.1" style="background:#3D7BC8"></div></div><span class="hval">$47.40</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="25.2" style="background:#D96A57"></div></div><span class="hval">−$13.23</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="37.1" style="background:#CF5F4E"></div></div><span class="hval">−$19.53</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="18.7" style="background:#CF5F4E"></div></div><span class="hval">−$9.86</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="21.3" style="background:#CF5F4E"></div></div><span class="hval">−$11.21</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="15.6" style="background:#3D7BC8"></div></div><span class="hval">$8.21</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="1.4" style="background:#B8443C"></div></div><span class="hval">−$0.73</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="88.1" style="background:#3E8E5A"></div></div><span class="hval">$46.35</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">+133%</div>
+            <h3>U.S. commercial is exploding</h3>
+            <p>U.S. commercial revenue more than doubled to $595M, and the pipeline points the same way: U.S. commercial remaining deal value hit $4.92B, up 112% YoY.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">46%</div>
+            <h3>A 46% operating margin</h3>
+            <p>GAAP operating income was $754M — 46 cents of every revenue dollar — because revenue grew 85% while running costs grew far more slowly.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">$2.41B</div>
+            <h3>Record deal value closed</h3>
+            <p>Palantir closed $2.41B of total contract value in the quarter, up 61% YoY, including 206 deals of at least $1M.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Stock-based compensation of $202M sits inside cost of revenue and operating expenses; excluding it and related employer payroll taxes, adjusted operating income was $984M (a 60% margin) instead of $754M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="current">Q1 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm">Q1 2026 10-Q — segment revenue (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net income here is Palantir&#x27;s total net income of $876M; $871M of it is attributable to common stockholders (the rest belongs to noncontrolling interests). Segment figures come from Palantir&#x27;s Q1 2026 10-Q, rounded to the nearest $M.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":1.633,"nodes":{"seg0":{"name":"Government","amt":"$859M","value":0.859,"col":0,"color":"#3D7BC8","note":"+76% \u00b7 52.6% of revenue","plain":"Software for the U.S. military, intelligence agencies and allied governments \u2014 U.S. government revenue alone grew 84% to $687M.","quarter":"52.6% of all revenue this quarter."},"seg1":{"name":"Commercial","amt":"$774M","value":0.774,"col":0,"color":"#7A68C4","note":"+95% \u00b7 47.4% of revenue","plain":"Software for companies \u2014 U.S. commercial revenue jumped 133% to $595M as businesses raced to put AI to work, and Palantir closed $1.18B of U.S. commercial contract value in the quarter.","quarter":"47.4% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$1.6B","value":1.633,"col":1,"color":"#2F3B4C","note":"+85%","plain":"All the money Palantir took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.6B, +85% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.4B","value":1.417,"col":2,"color":"#69B578","note":"86.8% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"86.8 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($216M)","value":0.216,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$216M \u2014 about 13.2 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$134M","value":0.134,"col":3,"color":"#69B578","note":"","plain":"Interest income of $66M on Palantir's cash pile plus $68M of other income \u2014 $134M added below operating profit (rounded from the release's thousands).","quarter":"$134M added to profit."},"op":{"name":"Operating profit","amt":"$754M","value":0.754,"col":3,"color":"#4C9A67","note":"46.2% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 46.2% margin."},"opex":{"name":"Operating expenses","amt":"($663M)","value":0.663,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$663M total, split into Sales & marketing, Research & development, General & administrative on the right."},"ox0":{"name":"Sales & marketing","amt":"($319M)","value":0.319,"col":4,"color":"#CF5F4E","note":"19.5% of revenue","plain":"Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers.","quarter":"$319M \u2014 19.5% of revenue."},"ox1":{"name":"Research & development","amt":"($161M)","value":0.161,"col":4,"color":"#CF5F4E","note":"9.9% of revenue","plain":"Building the platforms \u2014 Gotham, Foundry and the AIP AI layer.","quarter":"$161M \u2014 9.9% of revenue."},"ox2":{"name":"General & administrative","amt":"($183M)","value":0.183,"col":4,"color":"#CF5F4E","note":"11.2% of revenue","plain":"Running the company: legal, finance and offices.","quarter":"$183M \u2014 11.2% of revenue."},"net":{"name":"Net profit","amt":"$876M","value":0.876,"col":4,"color":"#3E8E5A","note":"53.6% margin","plain":"The bottom line \u2014 what Palantir actually earned after everything.","quarter":"$876M \u2014 about 53.6 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($12M)","value":0.012,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$12M \u2014 roughly a 1.4% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":0.859,"c":"#94b6e1","amt":"$859M"},{"s":"seg1","d":"rev","v":0.774,"c":"#b6acdf","amt":"$774M"},{"s":"rev","d":"gross","v":1.417,"c":"#BFE0C6","amt":"$1.4B"},{"s":"rev","d":"cost","v":0.216,"c":"#F4C7B9","amt":"$216M"},{"s":"gross","d":"op","v":0.754,"c":"#ACD8B8","amt":"$754M"},{"s":"gross","d":"opex","v":0.663,"c":"#F2B3A4","amt":"$663M"},{"s":"op","d":"net","v":0.742,"c":"#ACD8B8","amt":"$742M"},{"s":"otherin","d":"net","v":0.134,"c":"#ACD8B8","amt":"$134M"},{"s":"op","d":"tax","v":0.012,"c":"#dfaba7","amt":"$12M"},{"s":"opex","d":"ox0","v":0.319,"c":"#F6C0B1","amt":"$319M"},{"s":"opex","d":"ox1","v":0.161,"c":"#F6C0B1","amt":"$161M"},{"s":"opex","d":"ox2","v":0.183,"c":"#F6C0B1","amt":"$183M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

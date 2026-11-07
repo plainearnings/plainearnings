@@ -1,0 +1,160 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-16",
+  "verdict": "Netflix's revenue rose 16% to $12.2B, and a one-off $2.8B Warner Bros. termination fee lifted net income to $5.3B \u2014 while the underlying streaming business earned a 32% operating margin.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago; +14% at constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.23",
+      "note": "vs $0.66 a year ago \u2014 boosted by a one-off fee"
+    },
+    {
+      "label": "Operating margin",
+      "value": "32.3%",
+      "note": "operating income of $4.0B, +18% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$5.1B",
+      "note": "includes the $2.8B Warner Bros. termination fee"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 5245,
+      "yoy": "+14%",
+      "note": "The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3999,
+      "yoy": "+17%",
+      "note": "The second-largest region, growing faster than North America this quarter (12% at constant currency)."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1497,
+      "yoy": "+19%",
+      "note": "Cheaper plans are pulling in new households \u2014 up 19% as reported, 18% at constant currency."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1509,
+      "yoy": "+20%",
+      "note": "The fastest-growing region this quarter \u2014 mobile-first plans in price-sensitive markets."
+    }
+  ],
+  "flow": {
+    "revenueM": 12250,
+    "costOfRevenueM": 5888,
+    "grossProfitM": 6362,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 960,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 842,
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 603,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 3957,
+    "otherIncomeM": 2590,
+    "taxM": 1264,
+    "netIncomeM": 5283
+  },
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 42.82
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 32.64
+    },
+    {
+      "label": "Latin America",
+      "amount": 12.22
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 12.32
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.07
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.87
+    },
+    {
+      "label": "Technology & development",
+      "amount": -7.84
+    },
+    {
+      "label": "G&A",
+      "amount": -4.92
+    },
+    {
+      "label": "Other income",
+      "amount": 21.14
+    },
+    {
+      "label": "Tax",
+      "amount": -10.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 56.88
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.8B",
+      "statColor": "#3d7bc8",
+      "title": "A one-off fee flattered everything",
+      "text": "Netflix collected a $2.8B termination fee after its Warner Bros. transaction was called off. It is the main reason EPS of $1.23 came in far above Netflix's own $0.76 forecast \u2014 and it will not repeat."
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#3e8e5a",
+      "title": "The core business still grew",
+      "text": "Even before the fee, operating income rose 18% YoY to $4.0B at a 32.3% margin \u2014 the streaming engine itself had a strong quarter."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#5b6b7c",
+      "title": "Every region grew double digits",
+      "text": "Asia-Pacific grew fastest at +20%, Latin America +19%, EMEA +17% and UCAN +14% \u2014 broad growth, not one market carrying the quarter."
+    }
+  ],
+  "oneTimers": [
+    "A $2.8B termination fee from the Warner Bros. transaction sits inside 'interest and other income' ($2,852M in total). It is one-off cash: operating cash flow of $5.3B and free cash flow of $5.1B both include it, and Netflix raised its full-year free-cash-flow expectation to about $12.5B largely because of it."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/ex991_q126.htm"
+    }
+  ],
+  "otherDetail": "A $2.8B termination fee from the Warner Bros. transaction, inside total interest and other income of $2,852M, less $262M of interest expense on Netflix's debt \u2014 a net +$2,590M below operating profit."
+}
