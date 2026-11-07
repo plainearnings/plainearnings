@@ -1,0 +1,143 @@
+{
+  "ticker": "PCAR",
+  "company": "PACCAR",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "PACCAR's revenue rose 19% to $7.9 billion and profit jumped 44% as truck margins recovered sharply and its record Parts business kept delivering steady earnings.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "Revenue $7.94B, up from $6.67B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.61",
+      "note": "Net income $848M, up 44% YoY"
+    },
+    {
+      "label": "Parts revenue",
+      "value": "$1.78B",
+      "note": "A quarterly record, with $404M of pretax profit"
+    },
+    {
+      "label": "Truck deliveries",
+      "value": "40,100",
+      "note": "Global deliveries, up from 31,900 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Truck",
+      "amountM": 5602.4,
+      "note": "Kenworth, Peterbilt and DAF trucks \u2014 sales jumped 28% as fleets refreshed vehicles, and truck pretax profit more than quadrupled to $455M.",
+      "yoy": "+28%"
+    },
+    {
+      "name": "Parts",
+      "amountM": 1780.0,
+      "note": "Replacement parts for trucks on the road \u2014 a record quarter, and the most profitable piece per dollar of sales ($404M pretax).",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Financial Services",
+      "amountM": 554.1,
+      "note": "Loans and leases that help customers buy trucks, shown net of $5M of intersegment eliminations; pretax profit was $138M.",
+      "yoy": "-2%"
+    }
+  ],
+  "flow": {
+    "revenueM": 7936.5,
+    "costOfRevenueM": 6689.3,
+    "grossProfitM": 1247.2,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 108.9,
+        "note": "Designing next-generation trucks, including clean diesel, hybrid and battery-electric models."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 167.8,
+        "note": "Dealers support, sales and running the company \u2014 $125M in Truck/Parts plus $43M in Financial Services."
+      }
+    ],
+    "operatingIncomeM": 970.5,
+    "otherIncomeM": 110.5,
+    "taxM": 233.5,
+    "netIncomeM": 847.5
+  },
+  "otherDetail": "Other income of $111M: $84M of investment income plus $27M of net interest and other income in the truck business.",
+  "footerNote": "Adaptation: the cost stage combines the truck business's cost of sales ($6,311M) with Financial Services' funding costs ($350M) and its $29M provision for loan losses, so the flow balances to PACCAR's reported totals. Operating income here is a derived subtotal \u2014 PACCAR reports pretax income of $1,081M, which equals the $971M operating figure plus $111M of other income.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/pcar-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526436124/pcar-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+44%",
+      "statColor": "#3d7bc8",
+      "title": "Truck profits snapped back",
+      "text": "Net income rose 44% to $848M, driven by truck segment margins: Truck pretax profit jumped to $455M from $103M a year ago on 28% higher truck sales."
+    },
+    {
+      "stat": "$1.78B",
+      "statColor": "#3e8e5a",
+      "title": "Parts set another record",
+      "text": "Parts revenue hit a record $1.78B with $404M of pretax profit \u2014 a steady, high-margin business that cushions PACCAR when truck sales swing."
+    },
+    {
+      "stat": "40,100",
+      "statColor": "#5b6b7c",
+      "title": "Fleets are buying again",
+      "text": "Global deliveries rose to 40,100 trucks from 31,900, and PACCAR expects healthy U.S. Class 8 demand to continue into 2027."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Truck",
+      "amount": 70.59
+    },
+    {
+      "label": "Parts",
+      "amount": 22.43
+    },
+    {
+      "label": "Financial Services",
+      "amount": 6.98
+    },
+    {
+      "label": "Cost of sales & financial services costs",
+      "amount": -84.29
+    },
+    {
+      "label": "Research & development",
+      "amount": -1.37
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -2.11
+    },
+    {
+      "label": "Other income",
+      "amount": 1.39
+    },
+    {
+      "label": "Tax",
+      "amount": -2.94
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.68
+    }
+  ]
+}

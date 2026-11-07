@@ -1,0 +1,154 @@
+{
+  "ticker": "PCG",
+  "company": "PG&E Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "PG&E's revenue slipped 1% to $6.2 billion and GAAP profit fell, as a lower allowed return on equity and higher Wildfire Fund costs outweighed savings from running the grid more cheaply.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "Revenue $6.19B, vs $6.25B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.34",
+      "note": "Down from $0.37 a year ago; non-GAAP core EPS was $0.41"
+    },
+    {
+      "label": "Income for common shareholders",
+      "value": "$749M",
+      "note": "Net income was $776M before $27M of preferred dividends"
+    },
+    {
+      "label": "2026 core EPS guidance",
+      "value": "$1.64\u2013$1.66",
+      "note": "Reaffirmed, along with 2027 guidance of $1.78\u2013$1.82"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric",
+      "amountM": 4660,
+      "note": "Selling electricity to 16 million Californians at regulator-set prices \u2014 down 2% YoY.",
+      "yoy": "-2%"
+    },
+    {
+      "name": "Natural gas",
+      "amountM": 1528,
+      "note": "Delivering natural gas for heating and cooking \u2014 up 2% YoY in this seasonally quiet quarter.",
+      "yoy": "+2%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6188,
+    "costOfRevenueM": 1013,
+    "grossProfitM": 5175,
+    "opex": [
+      {
+        "name": "Operating & maintenance",
+        "amountM": 2543,
+        "note": "Running, repairing and making the grid safer day to day \u2014 down from $2,641M a year ago as PG&E cuts costs."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1206,
+        "note": "Spreading the cost of poles, wires and pipes over their long lives \u2014 a non-cash charge that grows as PG&E invests."
+      },
+      {
+        "name": "Wildfire Fund expense",
+        "amountM": 141,
+        "note": "PG&E's contribution to California's wildfire insurance fund, which covers future wildfire claims."
+      },
+      {
+        "name": "SB 901 securitization charge",
+        "amountM": 36,
+        "note": "A charge tied to bonds issued for past wildfire costs under a California law (SB 901)."
+      }
+    ],
+    "operatingIncomeM": 1249,
+    "otherIncomeM": -568,
+    "taxM": -95,
+    "netIncomeM": 776
+  },
+  "otherDetail": "A net $568M drag: $825M of interest expense, partly offset by $104M of interest income and $153M of other income.",
+  "footerNote": "Adaptation for a utility: the cost of electricity bought and generated ($904M) plus the cost of natural gas bought for customers ($109M) are treated as the cost of revenue; the remaining lines mirror PG&E's income statement. Net income in the flow is the reported $776M, before $27M of preferred dividends that leave $749M for common shareholders. PG&E recorded an income tax benefit this quarter, so tax adds to profit.",
+  "oneTimers": [
+    "Non-core items totaled $156M after tax ($0.07 per share) \u2014 mainly $102M of Wildfire Fund contribution amortization and $42M of strategic repositioning costs, partly offset by a $29M bankruptcy and legal benefit. Excluding them, core earnings were $928M ($0.41 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000056/pge-q32026pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$0.34",
+      "statColor": "#3d7bc8",
+      "title": "A lower allowed return bit",
+      "text": "GAAP EPS fell to $0.34 from $0.37, mainly because regulators lowered PG&E's return on equity for 2026 and last year's tax-method catch-up did not repeat."
+    },
+    {
+      "stat": "2\u20134%",
+      "statColor": "#3e8e5a",
+      "title": "Cost cuts are on track",
+      "text": "Operating and maintenance spending fell to $2,543M from $2,641M \u2014 PG&E says it is on track for its 2\u20134% non-fuel cost reduction target for 2026."
+    },
+    {
+      "stat": "5,000 mi",
+      "statColor": "#5b6b7c",
+      "title": "Burying lines to cut fire risk",
+      "text": "PG&E filed a plan to bury 5,000 miles of power lines, which it says cuts wildfire risk on those lines by 98% \u2014 the long-term project behind much of its spending."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Electric",
+      "amount": 75.31
+    },
+    {
+      "label": "Natural gas",
+      "amount": 24.69
+    },
+    {
+      "label": "Cost of electricity & gas",
+      "amount": -16.37
+    },
+    {
+      "label": "Operating & maintenance",
+      "amount": -41.1
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -19.49
+    },
+    {
+      "label": "Wildfire Fund expense",
+      "amount": -2.28
+    },
+    {
+      "label": "SB 901 securitization charge",
+      "amount": -0.58
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -9.18
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.54
+    }
+  ]
+}

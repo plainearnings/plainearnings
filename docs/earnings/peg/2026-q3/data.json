@@ -1,0 +1,136 @@
+{
+  "ticker": "PEG",
+  "company": "Public Service Enterprise Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "PSEG's regulated utility earned a steady $506 million, but mark-to-market losses at its power business cut total GAAP profit to $376 million, down from $622 million a year ago.",
+  "revenueYoY": "-6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-6%",
+      "note": "Revenue $3.02B, vs $3.23B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.76",
+      "note": "Down from $1.24 a year ago; non-GAAP operating EPS was $1.15"
+    },
+    {
+      "label": "Utility (PSE&G) profit",
+      "value": "$506M",
+      "note": "Steady regulated earnings, vs $515M a year ago"
+    },
+    {
+      "label": "2026 operating EPS guidance",
+      "value": "$4.28\u2013$4.40",
+      "note": "Non-GAAP guidance maintained"
+    }
+  ],
+  "segments": [
+    {
+      "name": "PSE&G (regulated utility)",
+      "amountM": 2526,
+      "note": "New Jersey's largest electric and gas utility \u2014 delivering power and gas to about 2.4 million electric and 1.9 million gas customers at regulated prices.",
+      "yoy": "-0%"
+    },
+    {
+      "name": "PSEG Power & Other",
+      "amountM": 494,
+      "note": "Nuclear power generation and other businesses, shown net of $38M of intersegment eliminations (gross revenue $532M, down from $749M as market-linked sales fell).",
+      "yoy": "-29%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3020,
+    "costOfRevenueM": 1125,
+    "grossProfitM": 1895,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 948,
+        "note": "Running the grid and the nuclear plants, including storm restoration after severe summer weather."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 325,
+        "note": "Spreading the cost of grids and power plants over their long lives \u2014 a non-cash charge."
+      }
+    ],
+    "operatingIncomeM": 622,
+    "otherIncomeM": -243,
+    "taxM": 3,
+    "netIncomeM": 376
+  },
+  "otherDetail": "A net $243M drag: $280M of interest expense and a $28M loss on nuclear decommissioning trust investments, partly offset by $44M of other income and a $21M pension credit.",
+  "footerNote": "Adaptation for a utility: energy costs \u2014 fuel and purchased power \u2014 are treated as the cost of revenue; the remaining lines mirror PSEG's consolidating income statement. Segment revenue for Power & Other is net of intersegment eliminations so the segments add to total revenue.",
+  "oneTimers": [
+    "Mark-to-market accounting losses of $251M before tax and a $21M loss on nuclear decommissioning trust investments hit GAAP results. Excluding reconciling items of $198M after tax, non-GAAP operating earnings were $574M ($1.15 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526442778/d175962dex99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526443789/peg-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$506M",
+      "statColor": "#3d7bc8",
+      "title": "The utility is the steady core",
+      "text": "PSE&G earned $506M, nearly matching last year's $515M, as infrastructure investment and customer growth offset higher depreciation and interest costs."
+    },
+    {
+      "stat": "-$130M",
+      "statColor": "#5b6b7c",
+      "title": "Power swung to a loss",
+      "text": "PSEG Power & Other lost $130M (vs a $107M profit a year ago) on mark-to-market and trust-investment losses \u2014 the entire reason group profit fell."
+    },
+    {
+      "stat": "95.5%",
+      "statColor": "#3e8e5a",
+      "title": "Nuclear plants ran hard",
+      "text": "PSEG's nuclear fleet produced 8.2 terawatt-hours of carbon-free power at a 95.5% capacity factor \u2014 running almost flat-out through the summer storm season."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "PSE&G (regulated utility)",
+      "amount": 83.64
+    },
+    {
+      "label": "PSEG Power & Other",
+      "amount": 16.36
+    },
+    {
+      "label": "Energy costs",
+      "amount": -37.25
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -31.39
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -10.76
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -8.05
+    },
+    {
+      "label": "Tax",
+      "amount": -0.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.45
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "ticker": "P",
+  "company": "Everpure",
+  "quarterLabel": "FY27 Q2",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-08-02",
+  "reportedDate": "2026-08-26",
+  "verdict": "Everpure's revenue jumped 38% to $1.2 billion as product sales surged 54%, and management raised full-year guidance sharply \u2014 AI and hyperscale demand is pulling storage sales forward.",
+  "revenueYoY": "+38%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+38%",
+      "note": "Revenue $1.19B, up from $861M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.21",
+      "note": "Net income $74M; non-GAAP EPS was $0.70, excluding stock compensation"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$687M",
+      "note": "Up 54% YoY \u2014 the hardware and systems side drove the quarter"
+    },
+    {
+      "label": "Future contracted revenue (RPO)",
+      "value": "$4.1B",
+      "note": "Remaining performance obligations, up 44% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 687,
+      "note": "Flash storage systems and hardware sold to companies and cloud giants \u2014 up 54% as hyperscale and AI buyers ordered heavily.",
+      "yoy": "+54%"
+    },
+    {
+      "name": "Subscription services",
+      "amountM": 499,
+      "note": "Storage delivered as a subscription, plus support \u2014 steadier, recurring revenue, up 20%. Subscription ARR reached $2.1B.",
+      "yoy": "+20%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1186,
+    "costOfRevenueM": 375,
+    "grossProfitM": 811,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 294,
+        "note": "Engineers building the storage platform and new AI-era products."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 346,
+        "note": "The sales teams and marketing that win enterprise and hyperscale deals."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 108,
+        "note": "Running the company day to day \u2014 finance, legal and executives."
+      }
+    ],
+    "operatingIncomeM": 63,
+    "otherIncomeM": 9,
+    "taxM": -2,
+    "netIncomeM": 74
+  },
+  "otherDetail": "Other income of $9M, net \u2014 mostly interest and investment income outside the core storage business.",
+  "footerNote": "Everpure changed its name from Pure Storage in 2025 and its ticker from PSTG to P; EDGAR filings may still appear under the old name. Fiscal Q3 2027 (ending in early November 2026) had not been reported as of November 7, 2026, so this is the latest reported quarter. The flow uses a small tax benefit ($2M), which is why tax adds to profit here.",
+  "oneTimers": [
+    "Stock-based compensation was $160M in the quarter \u2014 the main reason GAAP operating income ($63M) sits far below non-GAAP operating income ($230M).",
+    "Cash flow was unusually weak: operating cash flow was -$136M and free cash flow -$238M, after a large jump in prepaid expenses and a $125M acquisition payment."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000084/everpure-ex991q2fy2027xpre.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000088/pstg-20260802.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+54%",
+      "statColor": "#3d7bc8",
+      "title": "Product sales exploded",
+      "text": "Product revenue rose 54% to $687M, powered by AI and hyperscale buyers \u2014 including a design win with a second top-five hyperscaler. Eight straight quarters of accelerating growth."
+    },
+    {
+      "stat": "$5.05B",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised, a lot",
+      "text": "Full-year FY27 revenue guidance jumped to $5.03B\u2013$5.07B from $4.41B\u2013$4.51B \u2014 management sees the demand lasting, not fading."
+    },
+    {
+      "stat": "-$238M",
+      "statColor": "#5b6b7c",
+      "title": "Profit, but cash went out",
+      "text": "GAAP profit was $74M, yet free cash flow was -$238M as prepaid costs jumped and Everpure paid $125M for an acquisition. Worth watching whether cash catches up next quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 57.93
+    },
+    {
+      "label": "Subscription services",
+      "amount": 42.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.62
+    },
+    {
+      "label": "Research & development",
+      "amount": -24.79
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -29.17
+    },
+    {
+      "label": "General & administrative",
+      "amount": -9.11
+    },
+    {
+      "label": "Other income",
+      "amount": 0.76
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.24
+    }
+  ]
+}

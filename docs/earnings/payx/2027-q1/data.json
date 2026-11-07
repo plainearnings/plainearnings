@@ -1,0 +1,137 @@
+{
+  "ticker": "PAYX",
+  "company": "Paychex",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-23",
+  "verdict": "Paychex grew revenue 6% to $1.6 billion and expanded its operating margin to 38%, as double-digit growth in its PEO and insurance business outpaced the core payroll business.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "Total revenue $1.63B, up from $1.54B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.21",
+      "note": "Up 14% YoY; adjusted EPS was $1.34, excluding acquisition costs"
+    },
+    {
+      "label": "PEO & Insurance revenue",
+      "value": "$368M",
+      "note": "Up 12% YoY \u2014 the growth engine this quarter"
+    },
+    {
+      "label": "Operating margin",
+      "value": "38.0%",
+      "note": "Up from 35.2% a year ago (42.0% adjusted)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Management Solutions",
+      "amountM": 1213.1,
+      "note": "Payroll processing and HR software for small and mid-sized businesses \u2014 the core business, up 4% on higher revenue per client.",
+      "yoy": "+4%"
+    },
+    {
+      "name": "PEO & Insurance Solutions",
+      "amountM": 367.6,
+      "note": "Paychex becomes the employer of record for client staff (a professional employer organization) and sells workplace insurance \u2014 up 12% on more worksite employees.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Interest on funds held for clients",
+      "amountM": 49.8,
+      "note": "Interest earned on payroll money Paychex briefly holds before paying employees and tax agencies \u2014 up 5%.",
+      "yoy": "+5%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1630.5,
+    "costOfRevenueM": 430.1,
+    "grossProfitM": 1200.4,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 581.2,
+        "note": "Sales teams, service staff overhead and running the company \u2014 actually down 1% YoY despite revenue growth."
+      }
+    ],
+    "operatingIncomeM": 619.2,
+    "otherIncomeM": -54.2,
+    "taxM": 135.3,
+    "netIncomeM": 429.7
+  },
+  "otherDetail": "A net $54M drag: $65M of interest expense on Paychex's borrowings, partly offset by $11M of other income.",
+  "footerNote": "Paychex reports only two expense lines \u2014 cost of service revenue and selling, general & administrative \u2014 so the flow mirrors that structure instead of inventing an R&D split.",
+  "oneTimers": [
+    "Acquisition-related costs of $65.5M (mainly from the Paycor deal) are inside GAAP results; excluding them, adjusted operating income was $684.7M and adjusted EPS $1.34."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/payx-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000006/payx-20260831.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "PEO is the growth engine",
+      "text": "PEO and Insurance revenue grew 12% to $368M on more worksite employees and higher insurance volumes \u2014 three times the growth rate of the core payroll business."
+    },
+    {
+      "stat": "38.0%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded",
+      "text": "Operating margin rose to 38.0% from 35.2% as revenue grew and acquisition-related costs fell versus a year ago. Adjusted margin was 42.0%."
+    },
+    {
+      "stat": "$1.21",
+      "statColor": "#5b6b7c",
+      "title": "EPS grew twice as fast as revenue",
+      "text": "Diluted EPS rose 14% to $1.21 \u2014 margin gains and fewer shares outstanding turned 6% revenue growth into double-digit profit growth."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Management Solutions",
+      "amount": 74.4
+    },
+    {
+      "label": "PEO & Insurance Solutions",
+      "amount": 22.55
+    },
+    {
+      "label": "Interest on funds held for clients",
+      "amount": 3.05
+    },
+    {
+      "label": "Cost of service revenue",
+      "amount": -26.38
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -35.65
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -3.32
+    },
+    {
+      "label": "Tax",
+      "amount": -8.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.35
+    }
+  ]
+}

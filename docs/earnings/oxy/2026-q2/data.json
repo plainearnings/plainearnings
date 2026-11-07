@@ -1,0 +1,136 @@
+{
+  "ticker": "OXY",
+  "company": "Occidental Petroleum",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-05",
+  "verdict": "Occidental's sales jumped 53% to $8.1 billion and profit surged as oil prices rose sharply, generating $3.0 billion of free cash flow that helped cut debt by $1.9 billion.",
+  "revenueYoY": "+53%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+53%",
+      "note": "Net sales $8.07B, up from $5.26B a year ago, on much higher oil prices"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.75",
+      "note": "Net income for common stockholders $2.81B; adjusted EPS from continuing operations was $2.40"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$3.0B",
+      "note": "Free cash flow before working capital \u2014 the highest since Q3 2022"
+    },
+    {
+      "label": "Production",
+      "value": "1,433 Mboed",
+      "note": "Thousand barrels of oil equivalent per day \u2014 above the high end of guidance"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Oil & Gas",
+      "amountM": 6882,
+      "note": "Selling crude oil, natural gas liquids and gas, mostly from the Permian Basin and the Gulf of America \u2014 worldwide realized oil prices jumped to $96.78 a barrel.",
+      "yoy": "+37%"
+    },
+    {
+      "name": "Midstream & Marketing",
+      "amountM": 1183,
+      "note": "Pipelines, processing and trading energy, shown net of $143M of eliminations (gross sales $1,326M) \u2014 a windfall quarter as crude and gas marketing margins spiked."
+    }
+  ],
+  "flow": {
+    "revenueM": 8065,
+    "costOfRevenueM": 3844,
+    "grossProfitM": 4221,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 262,
+        "note": "Running the company day to day \u2014 headquarters, legal and support teams."
+      },
+      {
+        "name": "Other operating & non-operating expense",
+        "amountM": 332,
+        "note": "Other running costs outside the fields, as reported by Occidental."
+      }
+    ],
+    "operatingIncomeM": 3627,
+    "otherIncomeM": 288,
+    "taxM": 915,
+    "netIncomeM": 3000
+  },
+  "otherDetail": "Other income of $288M: $82M of interest and dividend income, $180M of gains on asset sales and $134M from equity investments (including its Western Midstream stake), less $108M of interest expense.",
+  "footerNote": "Q3 2026 had not been reported as of November 7, 2026 \u2014 Occidental furnished only preliminary Q3 operating metrics on October 13 \u2014 so this page covers Q2 2026, the latest reported quarter. Adaptation for an oil producer: lease operating expense ($1,117M), transportation and gathering ($463M), depreciation, depletion and amortization ($1,847M), taxes other than income tax ($342M), exploration ($37M) and asset impairments ($38M) are grouped as the direct cost stage. Net income in the flow is income from continuing operations ($3,000M); after $19M for noncontrolling interests, $170M of preferred dividends and a $4M discontinued-operations loss, $2,807M was attributable to common stockholders.",
+  "oneTimers": [
+    "Items Occidental calls out as affecting comparability added $368M after tax in Q2 \u2014 including $178M of midstream derivative gains, $199M of gains on asset sales and a $47M early debt-extinguishment gain. Adjusted income from continuing operations was $2,443M ($2.40 per share) versus $2,811M GAAP.",
+    "Debt fell fast: Occidental repaid $1.9B in the quarter, cutting principal debt to $11.8B on the way to its $10B milestone."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053377/oxyex9916-30x26earningsrel.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053388/oxy-20260630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$96.78",
+      "statColor": "#3d7bc8",
+      "title": "Oil prices did the heavy lifting",
+      "text": "Worldwide realized oil prices rose 38% from Q1 to $96.78 a barrel \u2014 the single biggest reason sales jumped 53% and oil and gas pretax income reached $2.8B."
+    },
+    {
+      "stat": "$3.0B",
+      "statColor": "#3e8e5a",
+      "title": "A free-cash-flow machine this quarter",
+      "text": "Operating cash flow was $5.1B and free cash flow before working capital $3.0B \u2014 the best since 2022 \u2014 funding a $1.9B debt paydown and an 8% dividend increase to $0.28 a share."
+    },
+    {
+      "stat": "1,433",
+      "statColor": "#5b6b7c",
+      "title": "Production beat guidance",
+      "text": "Output averaged 1,433 thousand barrels of oil equivalent a day, above the high end of guidance, led by the Permian and the Gulf of America."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Oil & Gas",
+      "amount": 85.33
+    },
+    {
+      "label": "Midstream & Marketing",
+      "amount": 14.67
+    },
+    {
+      "label": "Production & operating costs",
+      "amount": -47.66
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.25
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -4.12
+    },
+    {
+      "label": "Other income",
+      "amount": 3.57
+    },
+    {
+      "label": "Tax",
+      "amount": -11.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 37.2
+    }
+  ]
+}
