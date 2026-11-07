@@ -1,0 +1,156 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 590.224,
+      "note": "Fees from crypto trading \u2014 consumer $450M, institutional $92M, other $48M. When trading volumes fall, this falls fastest.",
+      "yoy": "-44%"
+    },
+    {
+      "name": "Subscription and services revenue",
+      "amountM": 570.238,
+      "note": "Steadier income: stablecoin revenue $307M, blockchain rewards $86M, interest and finance fees $69M, and other services $109M.",
+      "yoy": "-20%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 55.12,
+      "note": "Interest earned on Coinbase's own corporate cash \u2014 smaller as balances and rates fell.",
+      "yoy": "-48%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1215.582,
+    "costOfRevenueM": 194.464,
+    "grossProfitM": 1021.118,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 397.998,
+        "note": "Building the platform. Shown net of $49M of operating gains Coinbase reports as negative expenses (gains on crypto held for operations, a restructuring credit and other operating income)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 318.878,
+        "note": "Running the company \u2014 legal, compliance and the back office; down 24% YoY as Coinbase cut costs."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 242.573,
+        "note": "Advertising and winning customers \u2014 trimmed 7% YoY in a quiet market."
+      }
+    ],
+    "operatingIncomeM": 61.669,
+    "otherIncomeM": 762.234,
+    "taxM": 105.206,
+    "netIncomeM": 718.697
+  },
+  "oneTimers": [
+    "A $715M mark-to-market gain on crypto assets held for investment accounts for essentially all of the quarter's $719M net income. Coinbase's operating business, by contrast, earned $62M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000122/coin-20260930.htm"
+    }
+  ],
+  "verdict": "Coinbase's revenue fell 35% to $1.22B as trading slowed and operating profit shrank to just $62M \u2014 yet it still reported $719M of net income, because the crypto it holds as an investment gained $715M in value.",
+  "revenueYoY": "-35%",
+  "otherDetail": "A $715.0M gain on crypto assets Coinbase holds as an investment, plus $66.7M of other income, minus $19.5M of interest expense.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. Figures are from Coinbase's Q3 2026 Form 10-Q, the detailed companion to its earnings release.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-35%",
+      "note": "vs a year ago \u2014 a quiet crypto market"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.51",
+      "note": "diluted \u2014 almost all of it one investment gain"
+    },
+    {
+      "label": "Investment gain",
+      "value": "$715M",
+      "note": "on crypto held for investment \u2014 one-time in nature"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$333M",
+      "note": "+60% vs Q2; 15th straight positive quarter"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 48.55
+    },
+    {
+      "label": "Subscriptions & services",
+      "amount": 46.91
+    },
+    {
+      "label": "Other revenue",
+      "amount": 4.53
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -16.0
+    },
+    {
+      "label": "Technology & development",
+      "amount": -32.74
+    },
+    {
+      "label": "G&A",
+      "amount": -26.23
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -19.96
+    },
+    {
+      "label": "Other income",
+      "amount": 62.71
+    },
+    {
+      "label": "Tax",
+      "amount": -8.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 59.12
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-44%",
+      "statColor": "#d96a57",
+      "title": "Trading revenue took the hit",
+      "text": "Transaction revenue fell 44% to $590M in a quiet crypto market. Subscriptions and services held up better (\u221220%), and stablecoin revenue of $307M barely fell \u2014 the steadier business is becoming the bigger one."
+    },
+    {
+      "stat": "$715M",
+      "statColor": "#3e8e5a",
+      "title": "The profit is an investment gain",
+      "text": "Operating profit was just $62M. Net income of $719M exists because crypto Coinbase holds on its own balance sheet gained $715M \u2014 if crypto prices fall, that line reverses just as fast."
+    },
+    {
+      "stat": "$333M",
+      "statColor": "#3d7bc8",
+      "title": "Costs were cut to match the market",
+      "text": "Total operating expenses fell 17% YoY, and Adjusted EBITDA rose 60% from Q2 to $333M \u2014 Coinbase's 15th straight positive quarter, through boom and bust alike."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes +$62.71 of other income per $100 of revenue; the rows add to $99.99 due to rounding."
+}

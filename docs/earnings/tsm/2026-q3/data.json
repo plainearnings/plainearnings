@@ -1,0 +1,168 @@
+{
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "segments": [
+    {
+      "name": "High-performance computing",
+      "amountM": 31770,
+      "note": "Chips for AI data centers and high-performance computing \u2014 the AI build-out, and now more than two-thirds of everything TSMC sells.",
+      "yoy": "+22% QoQ"
+    },
+    {
+      "name": "Smartphone",
+      "amountM": 9811,
+      "note": "Chips for phones \u2014 still the second-biggest business, but down to about a fifth of revenue as AI takes over.",
+      "yoy": "+10% QoQ"
+    },
+    {
+      "name": "Internet of Things",
+      "amountM": 1869,
+      "note": "Chips for connected devices, from wearables to industrial sensors.",
+      "yoy": "+5% QoQ"
+    },
+    {
+      "name": "Automotive",
+      "amountM": 1869,
+      "note": "Chips for cars \u2014 the fastest-growing platform this quarter, up 23% from Q2.",
+      "yoy": "+23% QoQ"
+    },
+    {
+      "name": "Digital consumer electronics",
+      "amountM": 467,
+      "note": "Chips for TVs, game consoles and other consumer gadgets \u2014 the smallest slice.",
+      "yoy": "-12% QoQ"
+    },
+    {
+      "name": "Others",
+      "amountM": 934,
+      "note": "Everything else TSMC makes that doesn't fit the big five platforms.",
+      "yoy": "-10% QoQ"
+    }
+  ],
+  "flow": {
+    "revenueM": 46720,
+    "costOfRevenueM": 15695,
+    "grossProfitM": 31025,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 3620,
+        "note": "Research, engineering and running the fabs' business side \u2014 TSMC reports this as one line in its earnings release."
+      }
+    ],
+    "operatingIncomeM": 27405,
+    "otherIncomeM": 1083,
+    "taxM": 4627,
+    "netIncomeM": 23861
+  },
+  "oneTimers": [
+    "Non-operating income fell to NT$34.6B from NT$95.8B in Q2 2026, when TSMC booked unusually large non-operating gains \u2014 that is why net income grew only 8% from Q2 while operating income grew 14%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+    },
+    {
+      "label": "Earnings presentation (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26presentatione.htm"
+    }
+  ],
+  "verdict": "TSMC's revenue leapt 51% to a record US$46.7B as AI demand made high-performance computing 68% of sales \u2014 and with a 66% gross margin, it kept about 51 cents of every dollar as profit.",
+  "revenueYoY": "+51%",
+  "otherDetail": "Non-operating income of NT$34.6B (about $1.1B) \u2014 mostly interest earned on TSMC's large cash pile.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$1,494.2B; net income NT$763.1B). Dollar figures are converted at the quarter's average rate of NT$31.98 per US$1 \u2014 the rate TSMC itself reports; its stated US-dollar revenue was $46.72B. Operating expenses are shown as one line, net of about NT$0.5B of other operating income, because the earnings release does not split them out.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+51%",
+      "note": "in NT$; +41% in US dollars"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "value": "$4.60",
+      "note": "NT$29.43 per share"
+    },
+    {
+      "label": "Gross margin",
+      "value": "66.4%",
+      "note": "up from 59.5% a year ago"
+    },
+    {
+      "label": "AI / HPC share",
+      "value": "68%",
+      "note": "of revenue, +22% vs Q2"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "HPC",
+      "amount": 68.0
+    },
+    {
+      "label": "Smartphone",
+      "amount": 21.0
+    },
+    {
+      "label": "IoT",
+      "amount": 4.0
+    },
+    {
+      "label": "Automotive",
+      "amount": 4.0
+    },
+    {
+      "label": "DCE",
+      "amount": 1.0
+    },
+    {
+      "label": "Others",
+      "amount": 2.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.59
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -7.75
+    },
+    {
+      "label": "Other income",
+      "amount": 2.32
+    },
+    {
+      "label": "Tax",
+      "amount": -9.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 51.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "68%",
+      "statColor": "#3d7bc8",
+      "title": "AI chips are the business",
+      "text": "High-performance computing \u2014 mostly AI accelerators \u2014 was 68% of revenue and grew 22% from Q2. Advanced chips (7nm and below) were 79% of wafer revenue, and the newest 2nm node already contributed 8%."
+    },
+    {
+      "stat": "66.4%",
+      "statColor": "#3e8e5a",
+      "title": "Margins most companies dream of",
+      "text": "Gross margin of 66.4%, operating margin of 58.7% and a net margin of 51.1% \u2014 TSMC keeps more than half of every sales dollar as profit, even while spending heavily on new fabs."
+    },
+    {
+      "stat": "$52.3B+",
+      "statColor": "#5b6b7c",
+      "title": "Next quarter guided higher still",
+      "text": "Management guided Q4 2026 revenue to US$52.3\u201354.3B, driven by the steep ramp of 2nm production \u2014 the quarter ahead is expected to be bigger than this record one."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes +$2.32 of other income per $100 of revenue; the rows add to $99.99 due to rounding."
+}

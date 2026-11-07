@@ -1,0 +1,180 @@
+{
+  "ticker": "ORCL",
+  "company": "Oracle",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-10",
+  "segments": [
+    {
+      "name": "Cloud",
+      "amountM": 11607,
+      "note": "Cloud infrastructure (OCI) of $7.4B, up 121%, plus cloud applications (SaaS) of $4.2B, up 10% \u2014 now 60% of all revenue.",
+      "yoy": "+62%"
+    },
+    {
+      "name": "Software",
+      "amountM": 5550,
+      "note": "Traditional on-premise software licenses and support \u2014 shrinking as customers migrate to Oracle's cloud.",
+      "yoy": "-3%"
+    },
+    {
+      "name": "Hardware",
+      "amountM": 774,
+      "note": "Servers and engineered systems \u2014 a small but growing slice as AI data centers need machines.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Services",
+      "amountM": 1414,
+      "note": "Consulting and support services that help customers run Oracle products.",
+      "yoy": "+5%"
+    }
+  ],
+  "flow": {
+    "revenueM": 19345,
+    "costOfRevenueM": 7733,
+    "grossProfitM": 11612,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2401,
+        "note": "Building cloud and AI products \u2014 actually down 4% YoY as revenue surged."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1811,
+        "note": "Selling the cloud \u2014 down 12% YoY, leaner even as sales boom."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 376,
+        "note": "Running the company day to day \u2014 flat vs a year ago."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 202,
+        "note": "Writing down the value of past acquisitions over time \u2014 down from $420M a year ago."
+      },
+      {
+        "name": "Restructuring and other",
+        "amountM": 94,
+        "note": "One-off reorganization costs \u2014 down sharply from $415M a year ago."
+      }
+    ],
+    "operatingIncomeM": 6728,
+    "otherIncomeM": -1121,
+    "taxM": 847,
+    "netIncomeM": 4760
+  },
+  "oneTimers": [
+    "Oracle sold $20B of new common stock in the quarter through an at-the-market program to fund its data-center expansion \u2014 helpful for the balance sheet, dilutive for existing shareholders."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+    }
+  ],
+  "verdict": "Oracle's revenue jumped 30% to a record $19.3B as its cloud infrastructure business more than doubled \u2014 and customers have now signed $664B of future contracts, though building the data centers pushed free cash flow to \u2212$5B.",
+  "revenueYoY": "+30%",
+  "otherDetail": "Interest expense of $1,428M on Oracle's growing debt pile, partly offset by $307M of non-operating income.",
+  "footerNote": "Oracle reports its delivery costs as 'Cloud and software', 'Hardware' and 'Services' expense lines; those three are combined here as cost of revenue. Net income of $4,760M is before $81M of preferred stock dividends; the $1.56 EPS uses the $4,679M available to common shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+30%",
+      "note": "a record first quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.56",
+      "note": "up 55% YoY; non-GAAP $1.92"
+    },
+    {
+      "label": "Backlog (RPO)",
+      "value": "$664B",
+      "note": "contracted future revenue, +$209B YoY"
+    },
+    {
+      "label": "Cloud infrastructure",
+      "value": "+121%",
+      "note": "to $7.4B \u2014 the growth engine"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Cloud",
+      "amount": 60.0
+    },
+    {
+      "label": "Software",
+      "amount": 28.69
+    },
+    {
+      "label": "Hardware",
+      "amount": 4.0
+    },
+    {
+      "label": "Services",
+      "amount": 7.31
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -39.97
+    },
+    {
+      "label": "R&D",
+      "amount": -12.41
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.36
+    },
+    {
+      "label": "G&A",
+      "amount": -1.94
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.04
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.49
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.79
+    },
+    {
+      "label": "Tax",
+      "amount": -4.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+121%",
+      "statColor": "#3d7bc8",
+      "title": "The cloud build-out is the story",
+      "text": "Cloud infrastructure revenue more than doubled to $7.4B, and Oracle delivered 850MW of new data-center capacity and over 300,000 GPUs to AI customers in one quarter."
+    },
+    {
+      "stat": "$664B",
+      "statColor": "#3e8e5a",
+      "title": "A backlog bigger than most companies",
+      "text": "Remaining performance obligations \u2014 contracts customers have signed but not yet paid for \u2014 hit $664B, up $209B in a year, including $30B+ of new AI cloud contracts in this quarter alone."
+    },
+    {
+      "stat": "-$5B",
+      "statColor": "#5b6b7c",
+      "title": "Record cash in, even more spent",
+      "text": "Operating cash flow hit a record $23B, yet free cash flow was \u2212$5B because data-center construction is consuming cash even faster. Oracle also sold $20B of new stock to help fund it."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes \u2212$5.79 of other expense per $100 of revenue; the rows add to $99.99 due to rounding."
+}

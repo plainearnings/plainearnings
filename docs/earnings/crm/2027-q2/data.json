@@ -1,0 +1,151 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 10820,
+      "note": "The core software subscriptions \u2014 sales, service, Slack, Tableau and now Informatica, which added $440M in the quarter.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 525,
+      "note": "Consulting and implementation work that helps customers roll out the software \u2014 small, and shrinking slightly.",
+      "yoy": "-4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 11345,
+    "costOfRevenueM": 2649,
+    "grossProfitM": 8696,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1687,
+        "note": "Building the platform, including its Agentforce AI products \u2014 up 14% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3859,
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 725,
+        "note": "Running the company day to day \u2014 roughly flat vs a year ago."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 94,
+        "note": "One-off costs of reorganizing teams, up from just $4M a year ago."
+      }
+    ],
+    "operatingIncomeM": 2331,
+    "otherIncomeM": 2221,
+    "taxM": 1026,
+    "netIncomeM": 3526
+  },
+  "oneTimers": [
+    "A $2,613M gain on strategic investments \u2014 a paper (mark-to-market) gain, not cash from customers \u2014 accounts for most of the jump in net income from $1,887M to $3,526M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm"
+    }
+  ],
+  "verdict": "Salesforce grew revenue 11% to $11.3B, but the real story is a $2.6B paper gain on its investment portfolio \u2014 it more than doubled reported profit while core operating income was flat at $2.3B.",
+  "revenueYoY": "+11%",
+  "otherDetail": "A $2,613M paper gain on strategic investments (Salesforce's stakes in other companies), plus $81M of other income, minus $473M of interest expense.",
+  "footerNote": "",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.29",
+      "note": "vs $1.96 a year ago \u2014 lifted by a one-time gain"
+    },
+    {
+      "label": "Investment gain",
+      "value": "$2.6B",
+      "note": "one-time, on strategic investments"
+    },
+    {
+      "label": "Subscription revenue",
+      "value": "$10.8B",
+      "note": "+12% YoY, 95% of revenue"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 95.37
+    },
+    {
+      "label": "Professional services",
+      "amount": 4.63
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.35
+    },
+    {
+      "label": "R&D",
+      "amount": -14.87
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -34.01
+    },
+    {
+      "label": "G&A",
+      "amount": -6.39
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.83
+    },
+    {
+      "label": "Other income",
+      "amount": 19.58
+    },
+    {
+      "label": "Tax",
+      "amount": -9.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.08
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Subscriptions keep compounding",
+      "text": "Subscription and support revenue grew 12% to $10.8B \u2014 95% of all revenue \u2014 helped by $440M from the newly acquired Informatica."
+    },
+    {
+      "stat": "$2.6B",
+      "statColor": "#3e8e5a",
+      "title": "A paper gain did the heavy lifting",
+      "text": "A $2.6B mark-to-market gain on strategic investments is why GAAP EPS jumped to $4.29 from $1.96. Strip it out and operating income was flat \u2014 the gain is real on paper, but it isn't the software business selling more."
+    },
+    {
+      "stat": "-15%",
+      "statColor": "#5b6b7c",
+      "title": "Far fewer shares outstanding",
+      "text": "Buybacks cut the diluted share count from 962M to 821M in a year, so each remaining share claims a bigger slice of the same profit."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes +$19.58 of other income per $100 of revenue; the rows add to $99.99 due to rounding."
+}

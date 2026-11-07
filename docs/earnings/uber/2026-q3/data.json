@@ -1,0 +1,171 @@
+{
+  "ticker": "UBER",
+  "company": "Uber",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "segments": [
+    {
+      "name": "Mobility",
+      "amountM": 7520,
+      "note": "Rides. Bookings grew 18% to $29.5B, but revenue slipped 2% \u2014 Uber kept a smaller share of each fare this quarter.",
+      "yoy": "-2%"
+    },
+    {
+      "name": "Delivery",
+      "amountM": 5488,
+      "note": "Uber Eats food and goods delivery \u2014 bookings up 22%, revenue up 23%.",
+      "yoy": "+23%"
+    },
+    {
+      "name": "Freight",
+      "amountM": 1758,
+      "note": "Trucking and logistics brokerage \u2014 the smallest segment, and the fastest growing this quarter.",
+      "yoy": "+34%"
+    }
+  ],
+  "flow": {
+    "revenueM": 14766,
+    "costOfRevenueM": 8349,
+    "grossProfitM": 6417,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 875,
+        "note": "Running the platform day to day \u2014 support, operations and local teams."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1563,
+        "note": "Promotions, advertising and winning riders, eaters and drivers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 1273,
+        "note": "Building the platform and its autonomous-vehicle partnerships \u2014 up 48% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1047,
+        "note": "Running the company \u2014 legal, finance and the back office; down 11% YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 212,
+        "note": "Spreading the cost of equipment and past acquisitions over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 1447,
+    "otherIncomeM": -634,
+    "taxM": 244,
+    "netIncomeM": 569
+  },
+  "oneTimers": [
+    "A $476M pre-tax paper loss from revaluing equity investments sits in other expense \u2014 the main reason GAAP EPS ($0.25) trails non-GAAP EPS ($0.88).",
+    "The year-ago comparison is flattering in reverse: Q3 2025 net income of $6.6B included a $4.9B one-time tax benefit and a $1.5B investment gain."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000039/uberq326earningspressrelea.htm"
+    }
+  ],
+  "verdict": "Trips and orders pushed Gross Bookings up 20% to $59.8B for the fifth straight quarter, and the core business set profit records \u2014 but a $476M paper loss on equity investments cut GAAP net income to $512M.",
+  "revenueYoY": "+10%",
+  "otherDetail": "A $616M net other expense \u2014 mostly a $476M paper loss from revaluing Uber's equity investments \u2014 plus $152M of interest expense and a $42M loss from equity-method investments, partly offset by $176M of interest income.",
+  "footerNote": "Net income of $569M includes $57M attributable to non-controlling interests; $512M is attributable to Uber shareholders (the $0.25 EPS figure). Cost of revenue is shown excluding depreciation and amortization, exactly as Uber reports it.",
+  "kpis": [
+    {
+      "label": "Gross Bookings",
+      "value": "$59.8B",
+      "note": "+20% YoY \u2014 fifth straight 20%+ quarter"
+    },
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.25",
+      "note": "non-GAAP EPS $0.88 \u2014 the gap is a paper loss"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$3.0B",
+      "note": "+31% YoY"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Mobility",
+      "amount": 50.93
+    },
+    {
+      "label": "Delivery",
+      "amount": 37.17
+    },
+    {
+      "label": "Freight",
+      "amount": 11.91
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -56.54
+    },
+    {
+      "label": "Operations & support",
+      "amount": -5.93
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -10.59
+    },
+    {
+      "label": "R&D",
+      "amount": -8.62
+    },
+    {
+      "label": "G&A",
+      "amount": -7.09
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.44
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.29
+    },
+    {
+      "label": "Tax",
+      "amount": -1.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.85
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Bookings growth won't slow down",
+      "text": "Gross Bookings \u2014 everything riders and eaters spent on the platform \u2014 grew 20% to $59.8B, the fifth straight quarter at 20%+, with record audience and engagement."
+    },
+    {
+      "stat": "$2.3B",
+      "statColor": "#3e8e5a",
+      "title": "Core profit hit a record",
+      "text": "Non-GAAP operating income rose 38% to $2.3B (3.9% of bookings, a record) and Adjusted EBITDA grew 31% to $3.0B \u2014 the underlying business has never been more profitable."
+    },
+    {
+      "stat": "$0.25",
+      "statColor": "#5b6b7c",
+      "title": "GAAP profit tells a noisier story",
+      "text": "GAAP EPS was $0.25 vs $0.88 non-GAAP, almost entirely because of a $476M paper loss on equity investments. A year ago the same line (plus a $4.9B tax benefit) flattered GAAP profit instead."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes \u2212$4.29 of other expense per $100 of revenue."
+}

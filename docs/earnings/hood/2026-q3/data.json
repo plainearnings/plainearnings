@@ -1,0 +1,168 @@
+{
+  "ticker": "HOOD",
+  "company": "Robinhood",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "segments": [
+    {
+      "name": "Transaction-based revenues",
+      "amountM": 867,
+      "note": "Fees from trading: options $399M (+31%), event contracts $173M (up 6x), equities $121M (+41%), partly offset by crypto $120M (\u221255%).",
+      "yoy": "+19%"
+    },
+    {
+      "name": "Net interest revenues",
+      "amountM": 415,
+      "note": "Interest earned on customer cash, margin loans and securities lending, minus interest paid \u2014 down as rates fell and securities lending slowed.",
+      "yoy": "-9%"
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 142,
+      "note": "Robinhood Gold subscriptions and new services such as Trump Accounts \u2014 the fastest-growing slice.",
+      "yoy": "+61%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1424,
+    "costOfRevenueM": 68,
+    "grossProfitM": 1356,
+    "opex": [
+      {
+        "name": "Technology and development",
+        "amountM": 254,
+        "note": "Building and running the app and trading platform \u2014 the biggest running cost."
+      },
+      {
+        "name": "Operations",
+        "amountM": 79,
+        "note": "Day-to-day operations and customer support \u2014 up 139% YoY as new businesses like Trump Accounts launch."
+      },
+      {
+        "name": "Provision for credit losses",
+        "amountM": 71,
+        "note": "Money set aside for cardholders who may not repay \u2014 up 173% YoY as the Gold Card loan book grows."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 104,
+        "note": "Advertising and growth spending to win new funded accounts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 163,
+        "note": "Running the company day to day \u2014 down 12% YoY."
+      }
+    ],
+    "operatingIncomeM": 685,
+    "otherIncomeM": -60,
+    "taxM": 149,
+    "netIncomeM": 476
+  },
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000164/q32026robinhoodexhibit991.htm"
+    }
+  ],
+  "verdict": "Robinhood's revenue rose 12% to $1.42B as event contracts exploded and options trading jumped 31% \u2014 but profit fell 14%, because credit-loss provisions nearly tripled on its growing card business and interest revenue shrank.",
+  "revenueYoY": "+12%",
+  "otherDetail": "Other expense of $60M, net.",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Net income of $476M includes $8M attributable to non-controlling interests; $468M (EPS $0.51) is attributable to Robinhood.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.51",
+      "note": "down 16% YoY; adjusted EPS $0.60"
+    },
+    {
+      "label": "Event contracts",
+      "value": "$173M",
+      "note": "revenue up more than 6x YoY"
+    },
+    {
+      "label": "Transaction revenue",
+      "value": "$867M",
+      "note": "+19% YoY \u2014 61% of revenue"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Transaction-based",
+      "amount": 60.88
+    },
+    {
+      "label": "Net interest",
+      "amount": 29.14
+    },
+    {
+      "label": "Other revenues",
+      "amount": 9.97
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -4.78
+    },
+    {
+      "label": "Technology & development",
+      "amount": -17.84
+    },
+    {
+      "label": "Operations",
+      "amount": -5.55
+    },
+    {
+      "label": "Credit losses",
+      "amount": -4.99
+    },
+    {
+      "label": "Marketing",
+      "amount": -7.3
+    },
+    {
+      "label": "G&A",
+      "amount": -11.45
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.21
+    },
+    {
+      "label": "Tax",
+      "amount": -10.46
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 33.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "6x",
+      "statColor": "#3d7bc8",
+      "title": "Event contracts are a real business now",
+      "text": "Event-contract revenue hit $173M, up more than 6x in a year, alongside options revenue of $399M (+31%) \u2014 prediction markets went from experiment to a top-three revenue line."
+    },
+    {
+      "stat": "+173%",
+      "statColor": "#d96a57",
+      "title": "Credit losses are the watch item",
+      "text": "The provision for credit losses nearly tripled to $71M as the Gold Card loan book grows. It is the cost of becoming a lender \u2014 fine while defaults stay low, painful if they don't."
+    },
+    {
+      "stat": "-9%",
+      "statColor": "#5b6b7c",
+      "title": "Interest revenue is fading as rates fall",
+      "text": "Net interest revenue fell 9% to $415M on lower short-term rates and weaker securities lending \u2014 a reminder that a big slice of Robinhood's income depends on the Fed, not just on traders."
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes \u2212$4.21 of other expense per $100 of revenue; the rows add to $100.01 due to rounding."
+}
