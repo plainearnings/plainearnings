@@ -1,0 +1,168 @@
+{
+  "ticker": "RTX",
+  "company": "RTX Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Sales rose 11% to $25.0B with growth in all three businesses and a record $340B order backlog, and profit rose 35% to $2.58B despite a $363M charge from a customer bankruptcy at Pratt & Whitney.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$25.0B",
+      "note": "+11% YoY; organic +12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.89",
+      "note": "Adjusted EPS $2.26, including $0.25 of tariff cost recovery"
+    },
+    {
+      "label": "Backlog",
+      "value": "$340B",
+      "note": "Record order book: $176B commercial and $164B defense"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.1B",
+      "note": "Operating cash flow $2.9B minus $0.7B of investment spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Collins Aerospace",
+      "amountM": 8382,
+      "yoy": "+10%",
+      "note": "Aircraft systems, interiors and aftermarket services for plane makers and airlines"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "amountM": 9231,
+      "yoy": "+10%",
+      "note": "Jet engines for commercial and military aircraft, plus servicing"
+    },
+    {
+      "name": "Raytheon",
+      "amountM": 8031,
+      "yoy": "+14%",
+      "note": "Missiles, radar and air-defense systems, including Patriot and Tomahawk"
+    },
+    {
+      "name": "Eliminations and other",
+      "amountM": -679,
+      "yoy": "-11%",
+      "note": "Sales between RTX's own businesses, removed so they are not counted twice"
+    }
+  ],
+  "flow": {
+    "revenueM": 24965,
+    "costOfRevenueM": 19160,
+    "grossProfitM": 5805,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 711,
+        "note": "Company-funded work on new products and technology"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1918,
+        "note": "Sales, management and head-office costs"
+      },
+      {
+        "name": "Other income, net",
+        "amountM": -161,
+        "note": "Miscellaneous income RTX counts inside operating profit \u2014 shown as a negative cost so the flow balances"
+      }
+    ],
+    "operatingIncomeM": 3337,
+    "otherIncomeM": -36,
+    "taxM": 593,
+    "netIncomeM": 2583,
+    "equityM": -125,
+    "otherDetail": "Other income of -$36M is $345M of pension income minus $381M of net interest expense. The -$125M equity line is the profit share belonging to noncontrolling partners, so net income is the amount attributable to RTX common shareowners."
+  },
+  "follow100": [
+    {
+      "label": "Collins Aerospace",
+      "amount": 33.58
+    },
+    {
+      "label": "Pratt & Whitney",
+      "amount": 36.98
+    },
+    {
+      "label": "Raytheon",
+      "amount": 32.17
+    },
+    {
+      "label": "Eliminations and other",
+      "amount": -2.72
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -76.75
+    },
+    {
+      "label": "R&D",
+      "amount": -2.85
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.68
+    },
+    {
+      "label": "Other income (in operating profit)",
+      "amount": 0.64
+    },
+    {
+      "label": "Other income",
+      "amount": -0.14
+    },
+    {
+      "label": "Noncontrolling interest",
+      "amount": -0.5
+    },
+    {
+      "label": "Tax",
+      "amount": -2.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.35
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3e8e5a",
+      "title": "Growth in every business",
+      "text": "Sales reached $25.0B. Raytheon grew fastest at +14% on naval and air-defense work, while Collins and Pratt & Whitney each grew about +10%."
+    },
+    {
+      "stat": "$340B",
+      "statColor": "#3d7bc8",
+      "title": "Record backlog",
+      "text": "More than $81B of new orders in the quarter took the backlog to a record $340B, and RTX raised its full-year sales, EPS and cash-flow outlook."
+    },
+    {
+      "stat": "-$363M",
+      "statColor": "#b8443c",
+      "title": "Bankruptcy charge at Pratt & Whitney",
+      "text": "Reported Pratt profit fell 19% because of a $363M charge tied to a customer bankruptcy. Without it, segment profit rose 29%, helped by about $160M of tariff cost recovery."
+    }
+  ],
+  "oneTimers": [
+    "A $363M charge at Pratt & Whitney related to a customer bankruptcy is included in reported operating profit.",
+    "Adjusted results include roughly $0.5B of IEEPA tariff cost recovery across the segments (about $250M at Collins and $160M at Pratt & Whitney), worth $0.25 of adjusted EPS.",
+    "GAAP profit also includes $448M of acquisition-accounting adjustments and a $159M gain on investments recorded in eliminations and other."
+  ],
+  "footerNote": "RTX counts $161M of 'Other income, net' inside operating profit; it is shown as a negative cost line so the flow balances. The three segments sum to $25,644M before $679M of intersegment eliminations, shown as a fourth segment line so segments sum exactly to total net sales.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/a2026-10x208xkerexhibit99.htm"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "ticker": "ROST",
+  "company": "Ross Stores, Inc.",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-20",
+  "verdict": "Sales jumped 13% to $6.26B as more shoppers came through the doors \u2014 sales at stores open a year rose 10% \u2014 and profit got an extra $253M boost from refunds of tariffs the government had collected.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.26B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.66",
+      "note": "Includes about $0.60 from tariff refunds"
+    },
+    {
+      "label": "Comparable store sales",
+      "value": "+10%",
+      "note": "Sales growth at stores open at least a year, driven by customer traffic"
+    },
+    {
+      "label": "Operating income",
+      "value": "$1.10B",
+      "note": "Includes about $253M of tariff refunds"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Ross Dress for Less and dd's DISCOUNTS",
+      "amountM": 6265,
+      "yoy": "+13%",
+      "note": "All sales from 2,328 off-price stores; Ross reports one combined segment and does not split sales between its two store brands"
+    }
+  ],
+  "flow": {
+    "revenueM": 6265,
+    "costOfRevenueM": 4145,
+    "grossProfitM": 2120,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1016,
+        "note": "Store payroll, rent-related running costs and head-office costs"
+      }
+    ],
+    "operatingIncomeM": 1104,
+    "otherIncomeM": 31,
+    "taxM": 284,
+    "netIncomeM": 851
+  },
+  "follow100": [
+    {
+      "label": "Ross Dress for Less and dd's DISCOUNTS",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.16
+    },
+    {
+      "label": "SG&A",
+      "amount": -16.22
+    },
+    {
+      "label": "Other income",
+      "amount": 0.49
+    },
+    {
+      "label": "Tax",
+      "amount": -4.53
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.58
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3e8e5a",
+      "title": "Shoppers drove the growth",
+      "text": "Comparable store sales rose 10%, mainly because more customers visited and bought, with both new and existing customers spending more."
+    },
+    {
+      "stat": "$851M",
+      "statColor": "#3d7bc8",
+      "title": "Profit up 67% \u2014 with a one-off tailwind",
+      "text": "Net income rose from $508M to $851M. About $253M of operating profit came from IEEPA tariff refunds; even without them, operating margin rose 205 basis points (2.05 percentage points)."
+    },
+    {
+      "stat": "$8.61\u2013$8.77",
+      "statColor": "#3d7bc8",
+      "title": "Outlook raised",
+      "text": "Ross raised full-year EPS guidance to $8.61\u2013$8.77 and lifted its 2026 store-opening plan to 115 new stores after opening 47 in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "IEEPA tariff refunds of about $253M were recognized in the quarter, adding roughly $0.60 to EPS and about 405 basis points (4.05 percentage points) to operating margin."
+  ],
+  "footerNote": "Q2 FY26 (13 weeks ended Aug 1, 2026) is used because Q3 FY26 \u2014 the quarter ending around Oct 31, 2026, due to be reported around Nov 19 \u2014 had not been reported as of Nov 7, 2026. Whole-$M rounding: tax is shown as $284M (reported $283M) so the rounded figures balance exactly. Segment split confirmed from the Q2 FY26 Form 10-Q: Ross has one reportable segment.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000038/q226exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000041/rost-20260801.htm"
+    }
+  ]
+}

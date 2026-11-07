@@ -1,0 +1,133 @@
+{
+  "ticker": "ROP",
+  "company": "Roper Technologies, Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Revenue rose 8% to $2.17B and GAAP profit jumped 22% to $485M, helped by a $56M gain on its Indicor stake, while the core software businesses grew 7% on their own.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.17B",
+      "note": "+8% YoY; organic +7%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.88",
+      "note": "+33% YoY; adjusted EPS $5.89"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$864M",
+      "note": "39.8% margin; profit before interest, tax and non-cash charges"
+    },
+    {
+      "label": "Acquisitions",
+      "value": "$436M",
+      "note": "Spent on three small bolt-on deals in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Application Software",
+      "amountM": 1240,
+      "yoy": "+7%",
+      "note": "Software for specific industries such as insurance, healthcare and education"
+    },
+    {
+      "name": "Network Software",
+      "amountM": 446,
+      "yoy": "+8%",
+      "note": "Software that runs industry networks and marketplaces"
+    },
+    {
+      "name": "Technology Enabled Products",
+      "amountM": 486,
+      "yoy": "+10%",
+      "note": "Devices and tech-enabled products for niche markets"
+    }
+  ],
+  "flow": {
+    "revenueM": 2172,
+    "costOfRevenueM": 649,
+    "grossProfitM": 1523,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 900,
+        "note": "All running costs below gross profit in one line \u2014 it includes amortization (a non-cash charge) on intangibles from past acquisitions"
+      }
+    ],
+    "operatingIncomeM": 623,
+    "otherIncomeM": -51,
+    "taxM": 87,
+    "netIncomeM": 485,
+    "otherDetail": "Other income of -$51M is mainly net interest expense of about $107M, partly offset by a $56M gain on Roper's minority stake in Indicor."
+  },
+  "follow100": [
+    {
+      "label": "Application Software",
+      "amount": 57.09
+    },
+    {
+      "label": "Network Software",
+      "amount": 20.53
+    },
+    {
+      "label": "Technology Enabled Products",
+      "amount": 22.38
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.88
+    },
+    {
+      "label": "SG&A",
+      "amount": -41.44
+    },
+    {
+      "label": "Other income",
+      "amount": -2.35
+    },
+    {
+      "label": "Tax",
+      "amount": -4.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.33
+    }
+  ],
+  "follow100Note": "Whole-$M rounding: SG&A is shown as $900M (reported $899M) so the rounded figures balance exactly.",
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3e8e5a",
+      "title": "Steady growth across the portfolio",
+      "text": "Revenue reached $2.17B with 7% organic growth (growth from the existing businesses, not deals). Technology Enabled Products grew fastest at about +10%."
+    },
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Profit boosted by an investment gain",
+      "text": "GAAP net earnings rose to $485M, lifted by a $56M paper gain on the Indicor stake. Stripping out deal and investment effects, adjusted profit rose a more modest 5% to $586M."
+    },
+    {
+      "stat": "$22.35\u2013$22.40",
+      "statColor": "#3d7bc8",
+      "title": "Full-year guidance raised",
+      "text": "Roper lifted its 2026 adjusted EPS forecast to $22.35\u2013$22.40 and says it has more than $6B of capacity to spend on acquisitions."
+    }
+  ],
+  "oneTimers": [
+    "A $56M pre-tax gain from revaluing the Indicor minority stake sits in GAAP profit; in the first nine months Roper also received $1.24B of cash proceeds from Indicor's sale of its instrumentation businesses."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000042/a2026q3earningsrelease.htm"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "RF",
+  "company": "Regions Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-16",
+  "verdict": "Profit rose as loan interest grew, fee income hit records in capital markets and treasury management, and credit costs stayed low.",
+  "revenueYoY": "+3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.97B",
+      "note": "+3% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.71",
+      "note": "Diluted, +16% YoY"
+    },
+    {
+      "label": "Net interest margin",
+      "value": "3.68%",
+      "note": "What the bank earns on its loans and assets after funding costs, up 2 bps from Q2"
+    },
+    {
+      "label": "Common equity Tier 1 ratio",
+      "value": "10.8%",
+      "note": "A key safety buffer of capital against risk (estimated)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 1298,
+      "yoy": "+3%",
+      "note": "Interest earned on loans minus interest paid on deposits and other funding."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 675,
+      "yoy": "+2%",
+      "note": "Fees and other non-interest money: service charges, card fees, wealth management, capital markets and mortgage income."
+    }
+  ],
+  "flow": {
+    "revenueM": 1973,
+    "costOfRevenueM": 68,
+    "grossProfitM": 1905,
+    "opex": [
+      {
+        "name": "Salaries and employee benefits",
+        "amountM": 694,
+        "note": "Pay and benefits for staff \u2014 the bank's biggest running cost."
+      },
+      {
+        "name": "Equipment, software and occupancy",
+        "amountM": 187,
+        "note": "Technology, software and the cost of branches and offices ($113M + $74M)."
+      },
+      {
+        "name": "Other noninterest expense",
+        "amountM": 237,
+        "note": "Everything else it costs to run the bank: outside services, marketing, professional and legal costs, card costs, FDIC insurance and miscellaneous expenses."
+      }
+    ],
+    "operatingIncomeM": 787,
+    "otherIncomeM": 0,
+    "taxM": 156,
+    "netIncomeM": 631
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 65.79
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 34.21
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": -3.45
+    },
+    {
+      "label": "Salaries and employee benefits",
+      "amount": -35.17
+    },
+    {
+      "label": "Equipment, software and occupancy",
+      "amount": -9.48
+    },
+    {
+      "label": "Other noninterest expense",
+      "amount": -12.01
+    },
+    {
+      "label": "Other income",
+      "amount": 0.0
+    },
+    {
+      "label": "Tax",
+      "amount": -7.91
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.98
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+$57M",
+      "statColor": "#3e8e5a",
+      "title": "Revenue grew 3% to $1.97B",
+      "text": "Revenue rose $57M from a year earlier to $1.97B, with net interest income up 3% to $1.30B and fee income up 2% to $675M."
+    },
+    {
+      "stat": "$68M",
+      "statColor": "#3d7bc8",
+      "title": "Credit costs stayed contained",
+      "text": "The bank set aside $68M for possible loan losses, down from $105M a year earlier, and net charge-offs fell to 0.29% of average loans."
+    },
+    {
+      "stat": "$631M",
+      "statColor": "#3e8e5a",
+      "title": "Net income was $631M",
+      "text": "Net income was $631M. After $20M of preferred dividends (dividends on a special class of shares), $611M, or $0.71 per share, was available to common shareholders."
+    }
+  ],
+  "oneTimers": [
+    "Reported noninterest revenue includes $15M of securities losses from repositioning trades (selling investments at a loss to reinvest); the company's adjusted revenue of $1,988M excludes them."
+  ],
+  "footerNote": "Bank adaptation, following the site's bank pages: segments are net interest income and noninterest revenue; cost of revenue is the provision for credit losses ($68M, money set aside for loans that may not be repaid); operating income is income before income taxes ($787M). Net income of $631M is total net income; $611M was available to common shareholders after $20M of preferred stock dividends.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm"
+    }
+  ]
+}

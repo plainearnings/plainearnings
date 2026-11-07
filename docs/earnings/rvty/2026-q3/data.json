@@ -1,0 +1,133 @@
+{
+  "ticker": "RVTY",
+  "company": "Revvity, Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-04",
+  "reportedDate": "2026-11-03",
+  "verdict": "Revenue was $729M \u2014 up 4% as reported and up 7% excluding the China diagnostics business being sold \u2014 with Life Sciences leading growth and management raising full-year guidance.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$729M",
+      "note": "+4% YoY as reported; +7% pro forma (excluding China IDX)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.56",
+      "note": "From continuing operations; adjusted EPS $1.38"
+    },
+    {
+      "label": "Life Sciences revenue",
+      "value": "$380M",
+      "note": "+11% YoY as reported"
+    },
+    {
+      "label": "Full-year guidance",
+      "value": "~$2.86B",
+      "note": "Pro forma revenue; pro forma adjusted EPS raised to $5.40\u2013$5.45"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Life Sciences",
+      "amountM": 380,
+      "yoy": "+11%",
+      "note": "Tools and reagents that help researchers discover and develop new medicines"
+    },
+    {
+      "name": "Diagnostics",
+      "amountM": 349,
+      "yoy": "-2%",
+      "note": "Tests for newborn screening, infectious disease and other conditions; the reported fall reflects the China business being sold \u2014 excluding it, growth was +4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 729,
+    "costOfRevenueM": 310,
+    "grossProfitM": 419,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 276,
+        "note": "Sales, marketing and head-office costs"
+      },
+      {
+        "name": "Research & development",
+        "amountM": 48,
+        "note": "Developing new tests, instruments and software"
+      }
+    ],
+    "operatingIncomeM": 95,
+    "otherIncomeM": -18,
+    "taxM": 15,
+    "netIncomeM": 62,
+    "otherDetail": "Other income of -$18M is mainly $21M of interest expense, partly offset by interest income and a small investment gain, plus a $0.3M loss from discontinued operations. Figures are as reported (including the China diagnostics business being sold), not the pro forma view."
+  },
+  "follow100": [
+    {
+      "label": "Life Sciences",
+      "amount": 52.13
+    },
+    {
+      "label": "Diagnostics",
+      "amount": 47.87
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.52
+    },
+    {
+      "label": "SG&A",
+      "amount": -37.86
+    },
+    {
+      "label": "R&D",
+      "amount": -6.58
+    },
+    {
+      "label": "Other income",
+      "amount": -2.47
+    },
+    {
+      "label": "Tax",
+      "amount": -2.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.5
+    }
+  ],
+  "follow100Note": "Whole-$M rounding: SG&A is shown as $276M (reported $275M) so the rounded figures balance exactly.",
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3e8e5a",
+      "title": "Life Sciences led the quarter",
+      "text": "Life Sciences revenue rose to $380M, with pro forma organic growth of 9% (growth from the existing business, stripping out currency and deals)."
+    },
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Diagnostics grew once the sale is stripped out",
+      "text": "Reported Diagnostics revenue fell 2% to $349M because it still includes the China immunodiagnostics business being divested. On a pro forma basis excluding it, Diagnostics grew 4%."
+    },
+    {
+      "stat": "$5.40\u2013$5.45",
+      "statColor": "#3d7bc8",
+      "title": "Guidance raised",
+      "text": "Revvity now expects pro forma adjusted EPS of $5.40\u2013$5.45 for 2026 and pro forma revenue of about $2.86B with roughly 5% organic growth."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges of $28M in the quarter weighed on GAAP operating income of $95M; adjusted operating income was $209M.",
+    "Revvity has agreed to sell its China immunodiagnostics business (about 6% of 2025 revenue), expected to close by the end of 2027; results above are as reported, with pro forma figures excluding that business noted where relevant."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000031/q32026pressrelease.htm"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "ticker": "ROK",
+  "company": "Rockwell Automation",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Sales rose just 1% because an $85M tariff-refund accrual for customers cut the top line, but profit more than doubled versus a year ago that was hit by a large impairment charge.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.33B",
+      "note": "+1% YoY reported; +3% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.11",
+      "note": "Diluted, +153% YoY"
+    },
+    {
+      "label": "Software & Control sales",
+      "value": "$754M",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$602M",
+      "note": "In the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Intelligent Devices",
+      "amountM": 1144,
+      "yoy": "+5%",
+      "note": "Factory hardware: drives, controllers and other smart devices."
+    },
+    {
+      "name": "Software & Control",
+      "amountM": 754,
+      "yoy": "+15%",
+      "note": "Software and control systems that run factories \u2014 the fastest-growing segment."
+    },
+    {
+      "name": "Lifecycle Services",
+      "amountM": 519,
+      "yoy": "-9%",
+      "note": "Services, maintenance and projects over a plant's life; reported sales fell because of divestitures, while organic sales rose 2%."
+    },
+    {
+      "name": "Unallocated \u2014 customer tariff refunds",
+      "amountM": -85,
+      "yoy": "n/a",
+      "note": "An $85M accrual for refunds to customers of tariff-related price increases, recorded as a reduction of sales and not allocated to any segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 2332,
+    "costOfRevenueM": 1122,
+    "grossProfitM": 1210,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 566,
+        "note": "Selling, marketing and running the company; includes a $50M charitable contribution and restructuring charges."
+      },
+      {
+        "name": "Engineering and development",
+        "amountM": 189,
+        "note": "Engineering and developing new automation products and software."
+      }
+    ],
+    "operatingIncomeM": 455,
+    "otherIncomeM": -22,
+    "taxM": 87,
+    "netIncomeM": 346
+  },
+  "follow100": [
+    {
+      "label": "Intelligent Devices",
+      "amount": 49.06
+    },
+    {
+      "label": "Software & Control",
+      "amount": 32.33
+    },
+    {
+      "label": "Lifecycle Services",
+      "amount": 22.26
+    },
+    {
+      "label": "Unallocated \u2014 customer tariff refunds",
+      "amount": -3.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.11
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -24.27
+    },
+    {
+      "label": "Engineering and development",
+      "amount": -8.1
+    },
+    {
+      "label": "Other income",
+      "amount": -0.94
+    },
+    {
+      "label": "Tax",
+      "amount": -3.73
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.84
+    }
+  ],
+  "follow100Note": "The unallocated tariff-refund segment is negative, so the three business segments add to more than $100 of every $100 before that $85M reduction. Other income is negative because interest expense ($33M) was larger than other income ($11M). Segment percentages sum to 100.01 due to rounding to two decimal places.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3e8e5a",
+      "title": "Software & Control led growth",
+      "text": "Software & Control sales rose 15% to $754M and Intelligent Devices rose 5% to $1.14B, while Lifecycle Services fell 9% on divestitures."
+    },
+    {
+      "stat": "$103M",
+      "statColor": "#3d7bc8",
+      "title": "Tariff refunds cut both ways",
+      "text": "Rockwell received $103M of IEEPA tariff refunds, which lowered cost of sales, but also accrued $85M to refund customers for tariff price increases, which lowered sales. The net effect added $0.11 to EPS."
+    },
+    {
+      "stat": "$346M",
+      "statColor": "#3e8e5a",
+      "title": "Net income was $346M",
+      "text": "Net income attributable to Rockwell was $346M, or $3.11 per share, up from $138M a year earlier when results included a $224M goodwill and intangible impairment."
+    }
+  ],
+  "oneTimers": [
+    "$103M of IEEPA tariff refunds (plus $5M of related interest) reduced cost of sales in the quarter.",
+    "An $85M accrual for the customer tariff refund program reduced sales in the quarter.",
+    "A $50M contribution to the Rockwell Automation Charitable Corporation and $25M of restructuring charges were recorded in the quarter."
+  ],
+  "footerNote": "Fiscal year ends September 30, so this is the fourth quarter of fiscal 2026. Other income of -$22M is other income of $11M minus interest expense of $33M. Segment sales in the release total $2,417M before the unallocated $85M customer tariff refund accrual, which is shown as its own segment row here so the segments sum exactly to reported sales.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000045/fy2026ex99.htm"
+    }
+  ]
+}

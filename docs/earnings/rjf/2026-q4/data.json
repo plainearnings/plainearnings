@@ -1,0 +1,171 @@
+{
+  "ticker": "RJF",
+  "company": "Raymond James Financial",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "A record quarter: revenue rose 15% to $4.27B as fees on client assets grew with markets and inflows, lifting profit to a record $666M.",
+  "revenueYoY": "+15%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.27B",
+      "note": "Net revenues, +15% YoY \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.40",
+      "note": "Diluted, +15% YoY"
+    },
+    {
+      "label": "Client assets under administration",
+      "value": "$1.94T",
+      "note": "Record, +12% YoY"
+    },
+    {
+      "label": "Private Client Group net new assets",
+      "value": "$22.8B",
+      "note": "Domestic, in the quarter alone"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Private Client Group",
+      "amountM": 3056,
+      "yoy": "+15%",
+      "note": "Advisors serving individual clients \u2014 the firm's main business."
+    },
+    {
+      "name": "Capital Markets",
+      "amountM": 549,
+      "yoy": "+7%",
+      "note": "Investment banking, underwriting and trading for companies and institutions."
+    },
+    {
+      "name": "Asset Management",
+      "amountM": 409,
+      "yoy": "+30%",
+      "note": "Managing investments for clients for a fee."
+    },
+    {
+      "name": "Bank",
+      "amountM": 483,
+      "yoy": "+5%",
+      "note": "Raymond James Bank: loans, mainly securities-based and mortgage loans, and deposits."
+    },
+    {
+      "name": "Other and intersegment eliminations",
+      "amountM": -228,
+      "yoy": "n/a",
+      "note": "Other businesses (-$4M) minus $224M of revenue counted between the firm's own segments, removed so nothing is double-counted."
+    }
+  ],
+  "flow": {
+    "revenueM": 4269,
+    "costOfRevenueM": -8,
+    "grossProfitM": 4277,
+    "opex": [
+      {
+        "name": "Compensation, commissions and benefits",
+        "amountM": 2774,
+        "note": "Pay, advisor commissions and benefits \u2014 by far the firm's biggest cost, at 65% of net revenues."
+      },
+      {
+        "name": "Communications and information processing",
+        "amountM": 208,
+        "note": "Technology and communications systems."
+      },
+      {
+        "name": "Other non-compensation expenses",
+        "amountM": 433,
+        "note": "Occupancy and equipment, business development, investment sub-advisory fees, professional fees and other costs."
+      }
+    ],
+    "operatingIncomeM": 862,
+    "otherIncomeM": 0,
+    "taxM": 196,
+    "netIncomeM": 666
+  },
+  "follow100": [
+    {
+      "label": "Private Client Group",
+      "amount": 71.59
+    },
+    {
+      "label": "Capital Markets",
+      "amount": 12.86
+    },
+    {
+      "label": "Asset Management",
+      "amount": 9.58
+    },
+    {
+      "label": "Bank",
+      "amount": 11.31
+    },
+    {
+      "label": "Other and intersegment eliminations",
+      "amount": -5.34
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": 0.19
+    },
+    {
+      "label": "Compensation, commissions and benefits",
+      "amount": -64.98
+    },
+    {
+      "label": "Communications and information processing",
+      "amount": -4.87
+    },
+    {
+      "label": "Other non-compensation expenses",
+      "amount": -10.14
+    },
+    {
+      "label": "Other income",
+      "amount": 0.0
+    },
+    {
+      "label": "Tax",
+      "amount": -4.59
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.6
+    }
+  ],
+  "follow100Note": "The credit-loss line is positive because the bank booked an $8M benefit (a release of money set aside for loan losses), which adds to profit instead of subtracting from it. The Other and eliminations segment is negative, so the other segments add to more than $100 of every $100 before it is removed.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3e8e5a",
+      "title": "Record revenue of $4.27B",
+      "text": "Net revenues rose 15% from a year earlier to a record $4.27B, driven by asset management and related fees, which grew 23% to $2.31B."
+    },
+    {
+      "stat": "$3.06B",
+      "statColor": "#3d7bc8",
+      "title": "Private Client Group did most of it",
+      "text": "The advisor business for individual clients brought in a record $3.06B, about 72% of total net revenues, helped by record fee-based account assets of $1.16T."
+    },
+    {
+      "stat": "$666M",
+      "statColor": "#3e8e5a",
+      "title": "Record profit of $666M",
+      "text": "Net income available to common shareholders was a record $666M, or $3.40 per share, up 10% from a year earlier."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results exclude $37M of acquisition-related expenses, net of tax; on that basis net income available to common shareholders was $703M, or $3.59 per share."
+  ],
+  "footerNote": "Financials adaptation for a bank plus broker-dealer: revenue is net revenues \u2014 total revenues of $4,739M minus interest expense of $470M \u2014 which is how the company reports its top line, and the business segments above are segment net revenues. Cost of revenue is the bank loan benefit for credit losses (-$8M; the bank released reserves rather than adding to them). Operating expenses are the noninterest expense lines excluding that credit provision, and operating income is pre-tax income ($862M), following the site's bank pattern.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000080/rjf20260930q426earnings.htm"
+    }
+  ]
+}

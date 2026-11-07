@@ -1,0 +1,151 @@
+{
+  "ticker": "ROL",
+  "company": "Rollins, Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Revenue grew 6% to $1.09B \u2014 a 100th straight quarter of growth \u2014 but profit fell 3% because insurance and claims costs jumped and winning new residential customers got harder.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.09B",
+      "note": "+6.2% YoY; organic +4.4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.33",
+      "note": "-2.9% YoY"
+    },
+    {
+      "label": "Operating income",
+      "value": "$223M",
+      "note": "Margin 20.5%, down from 21.9% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$235M",
+      "note": "+28.8% YoY, helped by a $63M tax refund"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 500,
+      "yoy": "+5%",
+      "note": "Pest control for homes \u2014 the biggest line"
+    },
+    {
+      "name": "Commercial",
+      "amountM": 361,
+      "yoy": "+8%",
+      "note": "Pest control for businesses and institutions"
+    },
+    {
+      "name": "Termite and ancillary",
+      "amountM": 218,
+      "yoy": "+6%",
+      "note": "Termite protection plus add-on services such as wildlife and moisture control"
+    },
+    {
+      "name": "Franchise and other",
+      "amountM": 11,
+      "yoy": "+11%",
+      "note": "Franchise royalties and other small income"
+    }
+  ],
+  "flow": {
+    "revenueM": 1090,
+    "costOfRevenueM": 507,
+    "grossProfitM": 583,
+    "opex": [
+      {
+        "name": "Sales, general and administrative",
+        "amountM": 327,
+        "note": "Selling, marketing and head-office costs"
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 33,
+        "note": "Non-cash charge for wear and tear and for intangibles bought with acquisitions"
+      }
+    ],
+    "operatingIncomeM": 223,
+    "otherIncomeM": -10,
+    "taxM": 55,
+    "netIncomeM": 158
+  },
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 45.87
+    },
+    {
+      "label": "Commercial",
+      "amount": 33.12
+    },
+    {
+      "label": "Termite and ancillary",
+      "amount": 20.0
+    },
+    {
+      "label": "Franchise and other",
+      "amount": 1.01
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.51
+    },
+    {
+      "label": "SG&A",
+      "amount": -30.0
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.03
+    },
+    {
+      "label": "Other income",
+      "amount": -0.92
+    },
+    {
+      "label": "Tax",
+      "amount": -5.05
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.5
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.2%",
+      "statColor": "#3e8e5a",
+      "title": "Sales still growing",
+      "text": "Revenue hit $1.09B, the 100th quarter in a row of growth. Commercial work grew fastest at +7.7%, while residential grew +4.9%."
+    },
+    {
+      "stat": "-3.4%",
+      "statColor": "#b8443c",
+      "title": "Insurance costs squeezed profit",
+      "text": "Net income fell to $158M. Insurance and claims costs roughly doubled to about $37M across service and office costs, and management called residential customer sign-ups disappointing."
+    },
+    {
+      "stat": "$235M",
+      "statColor": "#3d7bc8",
+      "title": "Cash flow was strong",
+      "text": "Free cash flow (cash left after running costs and small investments) rose 29% to $235M, and Rollins spent $120M buying back its own shares."
+    }
+  ],
+  "oneTimers": [
+    "Acquisition-related charges of $8M (intangible amortization and revaluing earn-out promises from the Fox, Saela and Romex deals) are excluded from the company's adjusted profit.",
+    "Operating cash flow included a $63M tax refund tied to a tax-credit strategy, which flattered the free-cash-flow growth rate."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/84839/000008483926000042/rol-20261021xex991.htm"
+    }
+  ]
+}

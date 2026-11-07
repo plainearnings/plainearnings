@@ -1,0 +1,151 @@
+{
+  "ticker": "RL",
+  "company": "Ralph Lauren",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-05",
+  "verdict": "Sales rose 9% with every region growing and Asia up 28%, and profit jumped 43% as full-price selling lifted margins \u2014 so the company raised its full-year outlook.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.19B",
+      "note": "+9% YoY (+10% in constant currency)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.87",
+      "note": "Diluted, +47% YoY"
+    },
+    {
+      "label": "Asia revenue",
+      "value": "$571M",
+      "note": "+28% YoY"
+    },
+    {
+      "label": "Direct-to-consumer comparable sales",
+      "value": "+10%",
+      "note": "Global, in the company's own stores and website"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 886,
+      "yoy": "+6%",
+      "note": "Sales in the United States and Canada."
+    },
+    {
+      "name": "Europe",
+      "amountM": 696,
+      "yoy": "+1%",
+      "note": "Sales across Europe."
+    },
+    {
+      "name": "Asia",
+      "amountM": 571,
+      "yoy": "+28%",
+      "note": "Sales across Asia \u2014 the fastest-growing region this quarter."
+    },
+    {
+      "name": "Other non-reportable segments",
+      "amountM": 40,
+      "yoy": "-9%",
+      "note": "Smaller businesses that are not reported separately."
+    }
+  ],
+  "flow": {
+    "revenueM": 2193,
+    "costOfRevenueM": 565,
+    "grossProfitM": 1628,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1201,
+        "note": "Running stores and the website, marketing, and head-office costs."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 63,
+        "note": "One-off costs of reorganizing parts of the business."
+      }
+    ],
+    "operatingIncomeM": 364,
+    "otherIncomeM": 6,
+    "taxM": 73,
+    "netIncomeM": 297
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 40.4
+    },
+    {
+      "label": "Europe",
+      "amount": 31.74
+    },
+    {
+      "label": "Asia",
+      "amount": 26.04
+    },
+    {
+      "label": "Other non-reportable segments",
+      "amount": 1.82
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.76
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -54.77
+    },
+    {
+      "label": "Restructuring and other charges",
+      "amount": -2.87
+    },
+    {
+      "label": "Other income",
+      "amount": 0.27
+    },
+    {
+      "label": "Tax",
+      "amount": -3.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.54
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3e8e5a",
+      "title": "Revenue rose to $2.19B",
+      "text": "Net revenues rose 9% to $2.19B, with growth in every region, led by Asia at +28%."
+    },
+    {
+      "stat": "74.2%",
+      "statColor": "#3d7bc8",
+      "title": "Gross margin widened sharply",
+      "text": "Gross profit was $1.63B on $2.19B of sales \u2014 a 74.2% gross margin, up from 67.9% a year earlier \u2014 helped by strong full-price demand and lower product costs this quarter."
+    },
+    {
+      "stat": "$297M",
+      "statColor": "#3e8e5a",
+      "title": "Net income jumped 43%",
+      "text": "Net income rose to $297M from $208M a year earlier, and the company raised its fiscal 2027 revenue and operating margin outlook."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges were $63M in the quarter, shown as their own operating expense line. Adjusted EPS of $4.64 excludes restructuring-related and other net benefits."
+  ],
+  "footerNote": "Other income of $6M is interest income ($12M) and other income ($7M) minus interest expense ($13M), rounded to whole millions (exact net: $5.5M). Fiscal year ends in late March, so the quarter ended September 26, 2026 is the second quarter of fiscal 2027.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026070619/rl-20260926ex991xpressrele.htm"
+    }
+  ]
+}

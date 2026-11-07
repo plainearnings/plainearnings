@@ -1,0 +1,152 @@
+{
+  "ticker": "RMD",
+  "company": "ResMed",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Revenue rose 6% on strong demand for sleep devices and masks, and a $62M gain on selling MatrixCare lifted net income 20% to $418M.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.41B",
+      "note": "+6% YoY (+7% core constant currency)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.92",
+      "note": "Diluted"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$374M",
+      "note": "Operating cash flow of $422M minus spending on property and equipment"
+    },
+    {
+      "label": "Sleep Devices revenue",
+      "value": "$716M",
+      "note": "+9% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Sleep Devices",
+      "amountM": 716,
+      "yoy": "+9%",
+      "note": "Machines that treat sleep apnea and related breathing problems."
+    },
+    {
+      "name": "Masks and other",
+      "amountM": 540,
+      "yoy": "+10%",
+      "note": "Masks and accessories used with the devices."
+    },
+    {
+      "name": "Residential Care Software",
+      "amountM": 155,
+      "yoy": "-7%",
+      "note": "Software for home-health and care providers (Brightree and MEDIFOX DAN); reported sales fell because the MatrixCare business was sold, while the remaining businesses grew 8%."
+    },
+    {
+      "name": "Life Support Devices",
+      "amountM": 4,
+      "yoy": "-84%",
+      "note": "Ventilators and life-support devices \u2014 now a very small line as the business winds down."
+    }
+  ],
+  "flow": {
+    "revenueM": 1415,
+    "costOfRevenueM": 544,
+    "grossProfitM": 871,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 103,
+        "note": "Developing new sleep and breathing devices and software."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 315,
+        "note": "Selling products, running the company, and amortization of acquired intangibles (spreading the cost of past acquisitions)."
+      }
+    ],
+    "operatingIncomeM": 453,
+    "otherIncomeM": 86,
+    "taxM": 121,
+    "netIncomeM": 418
+  },
+  "follow100": [
+    {
+      "label": "Sleep Devices",
+      "amount": 50.6
+    },
+    {
+      "label": "Masks and other",
+      "amount": 38.16
+    },
+    {
+      "label": "Residential Care Software",
+      "amount": 10.95
+    },
+    {
+      "label": "Life Support Devices",
+      "amount": 0.28
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -38.45
+    },
+    {
+      "label": "Research & development",
+      "amount": -7.28
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -22.26
+    },
+    {
+      "label": "Other income",
+      "amount": 6.08
+    },
+    {
+      "label": "Tax",
+      "amount": -8.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.54
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3e8e5a",
+      "title": "Revenue rose to $1.41B",
+      "text": "Revenue rose 6% to $1.41B, driven by sleep devices (+9% to $716M) and masks and other products (+10% to $540M)."
+    },
+    {
+      "stat": "$62M",
+      "statColor": "#3d7bc8",
+      "title": "A business sale boosted profit",
+      "text": "Other income includes a $62M gain on selling the MatrixCare software business. Without it, operating income of $453M was up just 1% from a year earlier."
+    },
+    {
+      "stat": "$418M",
+      "statColor": "#3e8e5a",
+      "title": "Net income rose 20%",
+      "text": "Net income was $418M, up from $349M a year earlier, and the company returned $1.0B to shareholders in the quarter through dividends and buybacks, helped by the MatrixCare sale proceeds."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes a $62M gain on the divestment of the MatrixCare subsidiary, completed in the quarter."
+  ],
+  "footerNote": "Fiscal year ends June 30, so the quarter ended September 30, 2026 is the first quarter of fiscal 2027. Other income of $86M includes the $62M MatrixCare divestment gain, $16M of net interest income, and smaller gains on equity investments. Segment figures are the product totals from the release's revenue-by-product table; totals may not add in the release due to rounding, and here they sum exactly to revenue in whole millions.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526437783/d170451dex991.htm"
+    }
+  ],
+  "follow100Note": "Segment percentages sum to 99.99 due to rounding to two decimal places."
+}

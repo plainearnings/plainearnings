@@ -1,0 +1,138 @@
+{
+  "ticker": "REGN",
+  "company": "Regeneron Pharmaceuticals",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Revenue jumped 36% because Regeneron's share of Dupixent profits from Sanofi stepped up sharply once the Sanofi development balance was fully repaid.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.12B",
+      "note": "+36% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$18.45",
+      "note": "Diluted, +35% YoY"
+    },
+    {
+      "label": "Collaboration revenue",
+      "value": "$3.00B",
+      "note": "+52% YoY, mostly the Sanofi profit share"
+    },
+    {
+      "label": "EYLEA HD U.S. sales",
+      "value": "$699M",
+      "note": "+62% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Collaboration revenue",
+      "amountM": 3001,
+      "yoy": "+52%",
+      "note": "Regeneron's share of profits from medicines sold by partners, mainly Dupixent sold by Sanofi."
+    },
+    {
+      "name": "Net product sales",
+      "amountM": 1805,
+      "yoy": "+14%",
+      "note": "Medicines Regeneron sells itself, including EYLEA HD and Libtayo."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 310,
+      "yoy": "+56%",
+      "note": "Other contract and program revenue, including government-related work."
+    }
+  ],
+  "flow": {
+    "revenueM": 5116,
+    "costOfRevenueM": 574,
+    "grossProfitM": 4542,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1816,
+        "note": "Finding and testing new medicines; includes $22M of acquired in-process research and development (buying early-stage research from others)."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 678,
+        "note": "Selling medicines and running the company."
+      }
+    ],
+    "operatingIncomeM": 2048,
+    "otherIncomeM": 236,
+    "taxM": 335,
+    "netIncomeM": 1949
+  },
+  "follow100": [
+    {
+      "label": "Collaboration revenue",
+      "amount": 58.66
+    },
+    {
+      "label": "Net product sales",
+      "amount": 35.28
+    },
+    {
+      "label": "Other revenue",
+      "amount": 6.06
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -11.22
+    },
+    {
+      "label": "Research & development",
+      "amount": -35.5
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -13.25
+    },
+    {
+      "label": "Other income",
+      "amount": 4.61
+    },
+    {
+      "label": "Tax",
+      "amount": -6.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.1
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+36%",
+      "statColor": "#3e8e5a",
+      "title": "Revenue surged to $5.12B",
+      "text": "Total revenue rose 36% from a year earlier to $5.12B, driven by a much bigger profit share from the Sanofi partnership."
+    },
+    {
+      "stat": "$3.00B",
+      "statColor": "#3d7bc8",
+      "title": "Collaboration money is now the biggest stream",
+      "text": "Collaboration revenue was $3.00B, up 52%. Sanofi sells Dupixent and Regeneron keeps a share of the profit; that share rose after the development balance was repaid in full last quarter."
+    },
+    {
+      "stat": "$1.95B",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose to $1.95B",
+      "text": "Net income was $1.95B, up 33% from a year earlier, even though research spending rose 22% to $1.79B."
+    }
+  ],
+  "footerNote": "Cost of revenue combines cost of goods sold ($322M) and cost of collaboration and contract manufacturing ($252M), the two product-cost lines in the release. The research and development line includes acquired in-process research and development of $22M. Other income of $236M is other income, net ($247M) minus interest expense ($11M), rounded to whole millions.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm"
+    }
+  ]
+}
