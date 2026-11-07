@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TSMC — Q1 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="TSMC Q1 2026 earnings in plain English: TSMC&#x27;s revenue rose 35% to NT$1,134.1B ($35.9B) on relentless AI-chip demand — and with a 66.2% gross margin, it kept NT$572.5B ($18.1B) as profit, up 58% in a year.">
+<meta property="og:title" content="TSMC — Q1 2026 Earnings, Explained Simply">
+<meta property="og:description" content="TSMC&#x27;s revenue rose 35% to NT$1,134.1B ($35.9B) on relentless AI-chip demand — and with a 66.2% gross margin, it kept NT$572.5B ($18.1B) as profit, up 58% in a year.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/tsm/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/tsm/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All TSMC quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Taiwan Semiconductor <span class="thin">(TSM)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+51%</span>
+        <span class="q-meta">Reported 2026-10-15 · Revenue $46.7B</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+34%</span>
+        <span class="q-meta">Reported 2026-07-16 · Revenue $40.2B</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+35%</span>
+        <span class="q-meta">Reported 2026-04-16 · Revenue $35.9B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>TSMC — Q1 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 2026</strong> · Quarter ended 2026-03-31<br>
+      Reported 2026-04-16
+    </div>
+  </header>
+
+  <p class="verdict">TSMC&#x27;s revenue rose 35% to NT$1,134.1B ($35.9B) on relentless AI-chip demand — and with a 66.2% gross margin, it kept NT$572.5B ($18.1B) as profit, up 58% in a year.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$35.9B</b></span><span class="chip">EPS (per ADR)<b>$3.49</b></span><span class="chip">Gross margin<b>66.2%</b></span><span class="chip">Net income<b>$18.1B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of TSMC's Q1 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 TSMC took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">High-performance computing</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$61.26</span></div>
+          <div class="hrow"><span class="hlabel">Smartphone</span><div class="htrack"><div class="hfill" data-w="42.3" style="background:#3D7BC8"></div></div><span class="hval">$25.93</span></div>
+          <div class="hrow"><span class="hlabel">Internet of Things</span><div class="htrack"><div class="hfill" data-w="8.9" style="background:#3D7BC8"></div></div><span class="hval">$5.43</span></div>
+          <div class="hrow"><span class="hlabel">Automotive</span><div class="htrack"><div class="hfill" data-w="6.7" style="background:#3D7BC8"></div></div><span class="hval">$4.11</span></div>
+          <div class="hrow"><span class="hlabel">Consumer electronics</span><div class="htrack"><div class="hfill" data-w="1.7" style="background:#3D7BC8"></div></div><span class="hval">$1.06</span></div>
+          <div class="hrow"><span class="hlabel">Others</span><div class="htrack"><div class="hfill" data-w="3.6" style="background:#3D7BC8"></div></div><span class="hval">$2.21</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="55.1" style="background:#D96A57"></div></div><span class="hval">−$33.75</span></div>
+          <div class="hrow"><span class="hlabel">Operating expenses</span><div class="htrack"><div class="hfill" data-w="13.3" style="background:#D96A57"></div></div><span class="hval">−$8.14</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="4.1" style="background:#3D7BC8"></div></div><span class="hval">$2.54</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="16.6" style="background:#B8443C"></div></div><span class="hval">−$10.17</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="82.4" style="background:#3E8E5A"></div></div><span class="hval">$50.48</span></div>
+      <p class="hnote">For every $100 TSMC took in, $50.48 survived as profit. AI data-center chips (high-performance computing) supplied $61.26 of the $100 — and advanced nodes (7-nanometer and below) made up 74% of wafer revenue.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">61%</div>
+            <h3>AI chips run the show</h3>
+            <p>High-performance computing — mostly AI accelerators — was 61% of revenue, and 3-nanometer plus 5-nanometer chips together were 61% of wafer revenue. Leading-edge demand is the whole story.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">66.2%</div>
+            <h3>Margins at record levels</h3>
+            <p>Gross margin reached 66.2% and net margin 50.5% — TSMC charges premium prices for capacity nobody else can supply, and more than half of revenue now lands as profit.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$39–40B</div>
+            <h3>Guidance points higher</h3>
+            <p>For Q2 2026 TSMC guided revenue of $39.0–40.2B with gross margin of 65.5–67.5% — another step up, on continued leading-edge demand.</p>
+          </article>
+    </div>
+  </section>
+  
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="current">Q1 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1046179/000104617926000199/a1q26e_withguidancexfinal.htm">Official earnings release (SEC EDGAR 6-K)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1046179/000104617926000278/a2026q1consolidatedreport-.htm">Q1 2026 financial report (SEC EDGAR 6-K)</a></p>
+      <p>Educational only — not financial advice. TSMC reports in New Taiwan dollars (revenue NT$1,134.1B; net income NT$572.5B). Dollar figures are converted at the quarter&#x27;s average rate of NT$31.59 per US$1 — implied by TSMC&#x27;s own stated US-dollar revenue of $35.90B. Operating expenses are shown as one line, net of about NT$1.7B of other operating income, because the earnings release does not split them out. The tax line is set so the flow lands on net income attributable to TSMC shareholders.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":35.9,"nodes":{"seg0":{"name":"High-performance computing","amt":"$22.0B","value":21.992,"col":0,"color":"#3D7BC8","note":"+41% YoY \u00b7 61.3% of revenue","plain":"Chips for AI data centers and servers \u2014 now about three-fifths of everything TSMC sells.","quarter":"61.3% of all revenue this quarter."},"seg1":{"name":"Smartphone","amt":"$9.3B","value":9.31,"col":0,"color":"#7A68C4","note":"+26% YoY \u00b7 25.9% of revenue","plain":"Chips for phones.","quarter":"25.9% of all revenue this quarter."},"seg2":{"name":"Internet of Things","amt":"$1.9B","value":1.95,"col":0,"color":"#2E7CC4","note":"+59% YoY \u00b7 5.4% of revenue","plain":"Chips for connected devices of every kind.","quarter":"5.4% of all revenue this quarter."},"seg3":{"name":"Automotive","amt":"$1.5B","value":1.475,"col":0,"color":"#76B900","note":"+8% YoY \u00b7 4.1% of revenue","plain":"Chips for cars.","quarter":"4.1% of all revenue this quarter.","compact":true,"compactLabel":"Automotive: $1.5B (+8% YoY)"},"seg4":{"name":"Digital consumer electronics","amt":"$381M","value":0.381,"col":0,"color":"#6FA8D8","note":"+4% YoY \u00b7 1.1% of revenue","plain":"Chips for TVs, game consoles and gadgets.","quarter":"1.1% of all revenue this quarter.","compact":true,"compactLabel":"Digital consumer electronics: $381M (+4% YoY)"},"seg5":{"name":"Others","amt":"$792M","value":0.792,"col":0,"color":"#94A3B8","note":"+31% YoY \u00b7 2.2% of revenue","plain":"Everything else, including older-node specialty work.","quarter":"2.2% of all revenue this quarter.","compact":true,"compactLabel":"Others: $792M (+31% YoY)"},"rev":{"name":"Revenue","amt":"$35.9B","value":35.9,"col":1,"color":"#2F3B4C","note":"+35%","plain":"All the money TSMC took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$35.9B, +35% vs a year ago."},"gross":{"name":"Gross profit","amt":"$23.8B","value":23.782,"col":2,"color":"#69B578","note":"66.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"66.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($12.1B)","value":12.118,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$12.1B \u2014 about 33.8 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$913M","value":0.913,"col":3,"color":"#69B578","note":"","plain":"Non-operating items of NT$28.8B (about $0.9B) \u2014 mostly interest income of NT$28.9B earned on TSMC's cash pile, plus currency gains, partly offset by finance costs and other losses.","quarter":"$913M added to profit."},"op":{"name":"Operating profit","amt":"$20.9B","value":20.859,"col":3,"color":"#4C9A67","note":"58.1% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 58.1% margin."},"opex":{"name":"Operating expenses","amt":"($2.9B)","value":2.923,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$2.9B total, split into Operating expenses on the right."},"ox0":{"name":"Operating expenses","amt":"($2.9B)","value":2.923,"col":4,"color":"#CF5F4E","note":"8.1% of revenue","plain":"Research, engineering and running the business side of the fabs \u2014 shown as one line, net of other operating income.","quarter":"$2.9B \u2014 8.1% of revenue."},"net":{"name":"Net profit","amt":"$18.1B","value":18.122,"col":4,"color":"#3E8E5A","note":"50.5% margin","plain":"The bottom line \u2014 what TSMC actually earned after everything.","quarter":"$18.1B \u2014 about 50.5 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($3.6B)","value":3.65,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$3.6B \u2014 roughly a 16.8% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2","seg3","seg4","seg5"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0"]],"links":[{"s":"seg0","d":"rev","v":21.992,"c":"#94b6e1","amt":"$22.0B"},{"s":"seg1","d":"rev","v":9.31,"c":"#b6acdf","amt":"$9.3B"},{"s":"seg2","d":"rev","v":1.95,"c":"#8cb7df","amt":"$1.9B"},{"s":"seg3","d":"rev","v":1.475,"c":"#b4d873","amt":"$1.5B"},{"s":"seg4","d":"rev","v":0.381,"c":"#b0cfea","amt":"$381M"},{"s":"seg5","d":"rev","v":0.792,"c":"#c4ccd8","amt":"$792M"},{"s":"rev","d":"gross","v":23.782,"c":"#BFE0C6","amt":"$23.8B"},{"s":"rev","d":"cost","v":12.118,"c":"#F4C7B9","amt":"$12.1B"},{"s":"gross","d":"op","v":20.859,"c":"#ACD8B8","amt":"$20.9B"},{"s":"gross","d":"opex","v":2.923,"c":"#F2B3A4","amt":"$2.9B"},{"s":"op","d":"net","v":17.209,"c":"#ACD8B8","amt":"$17.2B"},{"s":"otherin","d":"net","v":0.913,"c":"#ACD8B8","amt":"$913M"},{"s":"op","d":"tax","v":3.65,"c":"#dfaba7","amt":"$3.6B"},{"s":"opex","d":"ox0","v":2.923,"c":"#F6C0B1","amt":"$2.9B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

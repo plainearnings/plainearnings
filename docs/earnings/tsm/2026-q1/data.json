@@ -1,0 +1,166 @@
+{
+  "ticker": "TSM",
+  "company": "TSMC",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-16",
+  "verdict": "TSMC's revenue rose 35% to NT$1,134.1B ($35.9B) on relentless AI-chip demand \u2014 and with a 66.2% gross margin, it kept NT$572.5B ($18.1B) as profit, up 58% in a year.",
+  "revenueYoY": "+35%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$35.9B",
+      "note": "+41% YoY in US$"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "value": "$3.49",
+      "note": "+58% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "66.2%",
+      "note": "vs 58.8% a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$18.1B",
+      "note": "50.5% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "High-performance computing",
+      "amountM": 21992,
+      "yoy": "+41% YoY",
+      "note": "Chips for AI data centers and servers \u2014 now about three-fifths of everything TSMC sells."
+    },
+    {
+      "name": "Smartphone",
+      "amountM": 9310,
+      "yoy": "+26% YoY",
+      "note": "Chips for phones."
+    },
+    {
+      "name": "Internet of Things",
+      "amountM": 1950,
+      "yoy": "+59% YoY",
+      "note": "Chips for connected devices of every kind."
+    },
+    {
+      "name": "Automotive",
+      "amountM": 1475,
+      "yoy": "+8% YoY",
+      "note": "Chips for cars."
+    },
+    {
+      "name": "Digital consumer electronics",
+      "amountM": 381,
+      "yoy": "+4% YoY",
+      "note": "Chips for TVs, game consoles and gadgets."
+    },
+    {
+      "name": "Others",
+      "amountM": 792,
+      "yoy": "+31% YoY",
+      "note": "Everything else, including older-node specialty work."
+    }
+  ],
+  "flow": {
+    "revenueM": 35900,
+    "costOfRevenueM": 12118,
+    "grossProfitM": 23782,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 2923,
+        "note": "Research, engineering and running the business side of the fabs \u2014 shown as one line, net of other operating income."
+      }
+    ],
+    "operatingIncomeM": 20859,
+    "otherIncomeM": 913,
+    "taxM": 3650,
+    "netIncomeM": 18122
+  },
+  "otherDetail": "Non-operating items of NT$28.8B (about $0.9B) \u2014 mostly interest income of NT$28.9B earned on TSMC's cash pile, plus currency gains, partly offset by finance costs and other losses.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$1,134.1B; net income NT$572.5B). Dollar figures are converted at the quarter's average rate of NT$31.59 per US$1 \u2014 implied by TSMC's own stated US-dollar revenue of $35.90B. Operating expenses are shown as one line, net of about NT$1.7B of other operating income, because the earnings release does not split them out. The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+  "follow100": [
+    {
+      "label": "High-performance computing",
+      "amount": 61.26
+    },
+    {
+      "label": "Smartphone",
+      "amount": 25.93
+    },
+    {
+      "label": "Internet of Things",
+      "amount": 5.43
+    },
+    {
+      "label": "Automotive",
+      "amount": 4.11
+    },
+    {
+      "label": "Consumer electronics",
+      "amount": 1.06
+    },
+    {
+      "label": "Others",
+      "amount": 2.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.75
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -8.14
+    },
+    {
+      "label": "Other income",
+      "amount": 2.54
+    },
+    {
+      "label": "Tax",
+      "amount": -10.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 50.48
+    }
+  ],
+  "follow100Note": "For every $100 TSMC took in, $50.48 survived as profit. AI data-center chips (high-performance computing) supplied $61.26 of the $100 \u2014 and advanced nodes (7-nanometer and below) made up 74% of wafer revenue.",
+  "takeaways": [
+    {
+      "stat": "61%",
+      "statColor": "#3e8e5a",
+      "title": "AI chips run the show",
+      "text": "High-performance computing \u2014 mostly AI accelerators \u2014 was 61% of revenue, and 3-nanometer plus 5-nanometer chips together were 61% of wafer revenue. Leading-edge demand is the whole story."
+    },
+    {
+      "stat": "66.2%",
+      "statColor": "#3d7bc8",
+      "title": "Margins at record levels",
+      "text": "Gross margin reached 66.2% and net margin 50.5% \u2014 TSMC charges premium prices for capacity nobody else can supply, and more than half of revenue now lands as profit."
+    },
+    {
+      "stat": "$39\u201340B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance points higher",
+      "text": "For Q2 2026 TSMC guided revenue of $39.0\u201340.2B with gross margin of 65.5\u201367.5% \u2014 another step up, on continued leading-edge demand."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000199/a1q26e_withguidancexfinal.htm"
+    },
+    {
+      "label": "Q1 2026 financial report (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000278/a2026q1consolidatedreport-.htm"
+    }
+  ]
+}

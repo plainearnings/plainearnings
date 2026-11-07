@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walmart — Q4 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Walmart Q4 FY26 earnings in plain English: Walmart&#x27;s revenue rose 5.6% to $190.7B and its store operating profit grew 10.8% — but a $2.1B paper loss on its investment stakes cut headline profit 19% to $4.2B.">
+<meta property="og:title" content="Walmart — Q4 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Walmart&#x27;s revenue rose 5.6% to $190.7B and its store operating profit grew 10.8% — but a $2.1B paper loss on its investment stakes cut headline profit 19% to $4.2B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/wmt/2026-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/wmt/2026-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Walmart quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Walmart <span class="thin">(WMT)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q2/">
+        <span class="q-label">Q2 FY27</span>
+        <span class="q-badge">+5.9%</span>
+        <span class="q-meta">Reported 2026-08-20 · Revenue $187.9B</span>
+      </a>
+      <a class="q-item" href="../2027-q1/">
+        <span class="q-label">Q1 FY27</span>
+        <span class="q-badge">+7.3%</span>
+        <span class="q-meta">Reported 2026-05-21 · Revenue $177.8B</span>
+      </a>
+      <a class="q-item active" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+5.6%</span>
+        <span class="q-meta">Reported 2026-02-19 · Revenue $190.7B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Walmart — Q4 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 FY26</strong> · Quarter ended 2026-01-31<br>
+      Reported 2026-02-19
+    </div>
+  </header>
+
+  <p class="verdict">Walmart&#x27;s revenue rose 5.6% to $190.7B and its store operating profit grew 10.8% — but a $2.1B paper loss on its investment stakes cut headline profit 19% to $4.2B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$190.7B</b></span><span class="chip">EPS (GAAP)<b>$0.53</b></span><span class="chip">Operating income<b>$8.7B</b></span><span class="chip">eCommerce<b>+24%</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Walmart's Q4 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Walmart took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Walmart U.S.</span><div class="htrack"><div class="hfill" data-w="90.0" style="background:#3D7BC8"></div></div><span class="hval">$67.78</span></div>
+          <div class="hrow"><span class="hlabel">Walmart International</span><div class="htrack"><div class="hfill" data-w="25.0" style="background:#3D7BC8"></div></div><span class="hval">$18.85</span></div>
+          <div class="hrow"><span class="hlabel">Sam&#x27;s Club U.S.</span><div class="htrack"><div class="hfill" data-w="16.5" style="background:#3D7BC8"></div></div><span class="hval">$12.46</span></div>
+          <div class="hrow"><span class="hlabel">Membership &amp; other income</span><div class="htrack"><div class="hfill" data-w="1.2" style="background:#3D7BC8"></div></div><span class="hval">$0.91</span></div>
+          <div class="hrow"><span class="hlabel">Cost of sales</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#CF5F4E"></div></div><span class="hval">−$75.33</span></div>
+          <div class="hrow"><span class="hlabel">Operating &amp; admin costs</span><div class="htrack"><div class="hfill" data-w="26.7" style="background:#D96A57"></div></div><span class="hval">−$20.11</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="1.9" style="background:#D96A57"></div></div><span class="hval">−$1.44</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="1.1" style="background:#B8443C"></div></div><span class="hval">−$0.83</span></div>
+          <div class="hrow"><span class="hlabel">Noncontrolling interests</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#D96A57"></div></div><span class="hval">−$0.08</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="2.9" style="background:#3E8E5A"></div></div><span class="hval">$2.22</span></div>
+      <p class="hnote">Walmart keeps just $2.22 of every $100 — but on $190.7B of quarterly revenue that is still $4.2B. This quarter $1.44 of every $100 went to paper losses on investment stakes; the stores themselves earned 10.8% more than a year ago.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">+10.8%</div>
+            <h3>Stores earned faster than sales</h3>
+            <p>Operating income rose 10.8% to $8.7B — twice the pace of sales — as gross margin improved and eCommerce economics got better, led by Walmart U.S. and International.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">−$2.1B</div>
+            <h3>Paper losses cut the headline</h3>
+            <p>A $2,117M loss on equity and other investments turned a strong store quarter into a 19% decline in headline profit. Adjusted EPS, which strips the loss out, was $0.74 versus GAAP EPS of $0.53.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">$30B</div>
+            <h3>New buyback, bigger dividend</h3>
+            <p>Walmart announced a new $30B share-repurchase authorization in February 2026 and raised its annual dividend to $0.99 per share.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Other (gains) and losses was a $2,117M loss — mostly fair-value moves on equity investments (a year ago it was a $294M loss). Adjusted EPS of $0.74 excludes a $0.21 net-of-tax loss from these items.</li><li>Flipkart&#x27;s Big Billion Days sale shifted on the calendar — nine days fell in Q3 this year versus five last year — which moved some International sales out of the fourth quarter.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q2/" class="">Q2 FY27</a></li><li><a href="../2027-q1/" class="">Q1 FY27</a></li><li><a href="../2026-q4/" class="current">Q4 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/104169/000010416926000032/earningsreleasefy26q4.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net profit shown is the $4,237M attributable to Walmart; consolidated net income was $4,392M, of which $155M belongs to noncontrolling interests.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":190.656,"nodes":{"seg0":{"name":"Walmart U.S.","amt":"$129.2B","value":129.223,"col":0,"color":"#3D7BC8","note":"+4.6% \u00b7 67.8% of revenue","plain":"The big U.S. stores \u2014 net sales up 4.6%, comparable sales up 4.6%, eCommerce up 27%.","quarter":"67.8% of all revenue this quarter."},"seg1":{"name":"Walmart International","amt":"$35.9B","value":35.927,"col":0,"color":"#7A68C4","note":"+11.5% \u00b7 18.8% of revenue","plain":"Stores and e-commerce outside the U.S., including Flipkart in India \u2014 growth led by China, Walmex and Flipkart; up 7.5% in constant currency.","quarter":"18.8% of all revenue this quarter."},"seg2":{"name":"Sam's Club U.S.","amt":"$23.8B","value":23.763,"col":0,"color":"#2E7CC4","note":"+2.9% \u00b7 12.5% of revenue","plain":"The warehouse-club business \u2014 net sales up 2.9%, or 4.0% excluding fuel.","quarter":"12.5% of all revenue this quarter."},"seg3":{"name":"Membership & other income","amt":"$1.7B","value":1.743,"col":0,"color":"#76B900","note":"+1.1% \u00b7 0.9% of revenue","plain":"Sam's Club membership fees plus advertising (Walmart Connect in the U.S. grew 41%) and other income.","quarter":"0.9% of all revenue this quarter.","compact":true,"compactLabel":"Membership & other income: $1.7B (+1.1%)"},"rev":{"name":"Revenue","amt":"$190.7B","value":190.656,"col":1,"color":"#2F3B4C","note":"+5.6%","plain":"All the money Walmart took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$190.7B, +5.6% vs a year ago."},"gross":{"name":"Gross profit","amt":"$47.0B","value":47.041,"col":2,"color":"#69B578","note":"24.7% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"24.7 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($143.6B)","value":143.615,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$143.6B \u2014 about 75.3 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$8.7B","value":8.708,"col":3,"color":"#4C9A67","note":"4.6% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 4.6% margin."},"opex":{"name":"Operating expenses","amt":"($38.3B)","value":38.333,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$38.3B total, split into Operating, selling, general & administrative on the right."},"otherexp":{"name":"Other expense","amt":"($2.9B)","value":2.893,"col":4,"color":"#B8443C","note":"","plain":"Interest of $621M, net, plus a $2,117M loss on equity and other investments \u2014 mostly fair-value declines. A year ago that investments line was a $294M loss.","quarter":"$2.9B taken out of profit."},"ox0":{"name":"Operating, selling, general & administrative","amt":"($38.3B)","value":38.333,"col":4,"color":"#CF5F4E","note":"20.1% of revenue","plain":"Running the stores, the supply chain and the back office.","quarter":"$38.3B \u2014 20.1% of revenue."},"net":{"name":"Net profit","amt":"$4.2B","value":4.237,"col":4,"color":"#3E8E5A","note":"2.2% margin","plain":"The bottom line \u2014 what Walmart actually earned after everything.","quarter":"$4.2B \u2014 about 2.2 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($1.6B)","value":1.578,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$1.6B \u2014 roughly a 27.1% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2","seg3"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0"]],"links":[{"s":"seg0","d":"rev","v":129.223,"c":"#94b6e1","amt":"$129.2B"},{"s":"seg1","d":"rev","v":35.927,"c":"#b6acdf","amt":"$35.9B"},{"s":"seg2","d":"rev","v":23.763,"c":"#8cb7df","amt":"$23.8B"},{"s":"seg3","d":"rev","v":1.743,"c":"#b4d873","amt":"$1.7B"},{"s":"rev","d":"gross","v":47.041,"c":"#BFE0C6","amt":"$47.0B"},{"s":"rev","d":"cost","v":143.615,"c":"#F4C7B9","amt":"$143.6B"},{"s":"gross","d":"op","v":8.708,"c":"#ACD8B8","amt":"$8.7B"},{"s":"gross","d":"opex","v":38.333,"c":"#F2B3A4","amt":"$38.3B"},{"s":"op","d":"net","v":4.237,"c":"#ACD8B8","amt":"$4.2B"},{"s":"op","d":"otherexp","v":2.893,"c":"#dfaba7","amt":"$2.9B"},{"s":"op","d":"tax","v":1.578,"c":"#dfaba7","amt":"$1.6B"},{"s":"opex","d":"ox0","v":38.333,"c":"#F6C0B1","amt":"$38.3B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

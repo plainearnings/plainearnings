@@ -1,0 +1,166 @@
+{
+  "ticker": "HOOD",
+  "company": "Robinhood",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-28",
+  "verdict": "Robinhood's revenue rose 15% to $1.07B as event contracts quadrupled and interest income grew \u2014 and after heavier spending on growth and new products, profit was nearly flat at $346M.",
+  "revenueYoY": "+15%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+15%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.38",
+      "note": "up 3% YoY"
+    },
+    {
+      "label": "Event contracts",
+      "value": "$147M",
+      "note": "revenue up 320% YoY"
+    },
+    {
+      "label": "Gold subscribers",
+      "value": "4.3M",
+      "note": "+36% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction-based revenues",
+      "amountM": 623,
+      "yoy": "+7%",
+      "note": "Fees from trading: event contracts $147M (up 320%), options $260M (up 8%) and equities $82M (up 46%), partly offset by crypto $134M (down 47%)."
+    },
+    {
+      "name": "Net interest revenues",
+      "amountM": 359,
+      "yoy": "+24%",
+      "note": "Interest earned on customer cash, margin loans and securities lending \u2014 grew with interest-earning assets."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 85,
+      "yoy": "+57%",
+      "note": "Robinhood Gold subscriptions ($50M, up 32%) and new services \u2014 the fastest-growing slice."
+    }
+  ],
+  "flow": {
+    "revenueM": 1067,
+    "costOfRevenueM": 60,
+    "grossProfitM": 1007,
+    "opex": [
+      {
+        "name": "Technology and development",
+        "amountM": 241,
+        "note": "Building and running the app and trading platform."
+      },
+      {
+        "name": "Operations",
+        "amountM": 38,
+        "note": "Day-to-day operations and customer support."
+      },
+      {
+        "name": "Provision for credit losses",
+        "amountM": 36,
+        "note": "Money set aside for cardholders and borrowers who may not repay."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 107,
+        "note": "Advertising and growth spending to win new funded accounts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 174,
+        "note": "Running the company day to day \u2014 up 31% with expansion and acquisition-related costs."
+      }
+    ],
+    "operatingIncomeM": 411,
+    "otherIncomeM": 0,
+    "taxM": 65,
+    "netIncomeM": 346
+  },
+  "otherDetail": "Other income (loss), net was $0M \u2014 a clean quarter with nothing material outside the main business.",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Net income of $346M is after a $4M loss attributable to non-controlling interests; $350M (EPS $0.38) is attributable to Robinhood.",
+  "follow100": [
+    {
+      "label": "Transaction-based",
+      "amount": 58.38
+    },
+    {
+      "label": "Net interest",
+      "amount": 33.65
+    },
+    {
+      "label": "Other revenues",
+      "amount": 7.97
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -5.62
+    },
+    {
+      "label": "Technology & development",
+      "amount": -22.59
+    },
+    {
+      "label": "Operations",
+      "amount": -3.56
+    },
+    {
+      "label": "Credit losses",
+      "amount": -3.37
+    },
+    {
+      "label": "Marketing",
+      "amount": -10.03
+    },
+    {
+      "label": "G&A",
+      "amount": -16.31
+    },
+    {
+      "label": "Tax",
+      "amount": -6.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.43
+    }
+  ],
+  "follow100Note": "Unlike last quarter there was no one-off gain in 'other income' \u2014 the $32.43 Robinhood kept of every $100 came from the business itself. Event contracts alone supplied $13.78 of every $100 of revenue.",
+  "takeaways": [
+    {
+      "stat": "320%",
+      "statColor": "#3e8e5a",
+      "title": "Event contracts quadrupled",
+      "text": "Event-contract revenue rose 320% to $147M and options rose 8% to $260M, more than covering a 47% drop in crypto revenue to $134M as digital-asset trading cooled."
+    },
+    {
+      "stat": "$17.7B",
+      "statColor": "#3d7bc8",
+      "title": "Customers kept depositing",
+      "text": "Net deposits were $17.7B in the quarter and total platform assets rose 39% to $307B; Gold subscribers grew 36% to 4.3M."
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#cf5f4e",
+      "title": "Spending grew faster than revenue",
+      "text": "Operating expenses rose 18% to $656M \u2014 marketing, new products and acquisition costs \u2014 which is why profit rose only 3% despite 15% revenue growth."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses included $14M of costs tied to launching Trump Accounts and the Rothera acquisition, flagged by Robinhood in its adjusted expense figures."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000061/q12026robinhoodexhibit991.htm"
+    }
+  ]
+}

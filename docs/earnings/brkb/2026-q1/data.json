@@ -1,0 +1,210 @@
+{
+  "ticker": "BRK.B",
+  "company": "Berkshire Hathaway",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-02",
+  "verdict": "Berkshire's operating earnings rose 18% to $11.3B on a clean insurance quarter \u2014 and a $1.6B paper loss on its stock portfolio held headline profit to $10.1B, still more than double a year ago.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$93.7B",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS (GAAP, Class B)",
+      "value": "$4.68",
+      "note": "vs $2.13 a year ago"
+    },
+    {
+      "label": "Operating earnings",
+      "value": "$11.3B",
+      "note": "+18% YoY \u2014 the number Buffett says matters"
+    },
+    {
+      "label": "Insurance underwriting",
+      "value": "$1.7B",
+      "note": "+29% YoY, after tax \u2014 no major storms"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Insurance premiums earned",
+      "amountM": 22005,
+      "yoy": "+1%",
+      "note": "Premiums from GEICO, reinsurance and primary insurance \u2014 barely up on a year ago."
+    },
+    {
+      "name": "Sales and service revenues",
+      "amountM": 50946,
+      "yoy": "+7%",
+      "note": "The biggest bucket: everything the manufacturing, service and retailing businesses sell \u2014 now including OxyChem, the chemical business Berkshire bought in January."
+    },
+    {
+      "name": "Leasing revenues",
+      "amountM": 2671,
+      "yoy": "+10%",
+      "note": "Renting out railcars, aircraft and other equipment."
+    },
+    {
+      "name": "Investment income",
+      "amountM": 5430,
+      "yoy": "\u22124%",
+      "note": "What the insurance float and the cash pile earn \u2014 mostly interest and dividends. Lower interest rates trimmed it."
+    },
+    {
+      "name": "Railroad revenues",
+      "amountM": 5940,
+      "yoy": "+5%",
+      "note": "BNSF freight revenue \u2014 what shippers pay to move goods by rail."
+    },
+    {
+      "name": "Utilities & energy revenues",
+      "amountM": 5807,
+      "yoy": "+6%",
+      "note": "Berkshire Hathaway Energy: electric and gas utilities, pipelines and renewables."
+    },
+    {
+      "name": "Service & other income",
+      "amountM": 876,
+      "yoy": "0%",
+      "note": "Smaller service income inside the railroad and energy group \u2014 flat on a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 93675,
+    "costOfRevenueM": 66697,
+    "grossProfitM": 26978,
+    "opex": [
+      {
+        "name": "Insurance underwriting expenses",
+        "amountM": 4517,
+        "note": "Commissions, agents and running the insurance operations."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 6556,
+        "note": "Offices, sales teams and admin across the non-insurance businesses."
+      },
+      {
+        "name": "Interest \u2014 Insurance & Other",
+        "amountM": 324,
+        "compact": true,
+        "note": "Interest on borrowings outside the railroad and energy group."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 856,
+        "note": "Miscellaneous operating costs in the railroad and energy group."
+      },
+      {
+        "name": "Interest \u2014 railroad, utilities & energy",
+        "amountM": 977,
+        "compact": true,
+        "note": "Interest on BNSF and Berkshire Hathaway Energy debt."
+      }
+    ],
+    "operatingIncomeM": 13748,
+    "otherIncomeM": -1429,
+    "equityM": -73,
+    "taxM": 2140,
+    "netIncomeM": 10106
+  },
+  "otherDetail": "Investment losses of $1,605M \u2014 mostly paper losses on Berkshire's stock portfolio \u2014 plus $176M of equity-method earnings, less $73M attributable to noncontrolling interests.",
+  "footerNote": "Berkshire has no single gross-profit line: costs are split following the 10-Q's own structure.",
+  "follow100": [
+    {
+      "label": "Insurance premiums earned",
+      "amount": 23.49
+    },
+    {
+      "label": "Sales and service revenues",
+      "amount": 54.39
+    },
+    {
+      "label": "Leasing revenues",
+      "amount": 2.85
+    },
+    {
+      "label": "Investment income",
+      "amount": 5.8
+    },
+    {
+      "label": "Railroad revenues",
+      "amount": 6.34
+    },
+    {
+      "label": "Utilities & energy revenues",
+      "amount": 6.2
+    },
+    {
+      "label": "Service & other income",
+      "amount": 0.93
+    },
+    {
+      "label": "All costs and expenses",
+      "amount": -85.33
+    },
+    {
+      "label": "Investment losses",
+      "amount": -1.71
+    },
+    {
+      "label": "Equity method earnings",
+      "amount": 0.19
+    },
+    {
+      "label": "Tax",
+      "amount": -2.28
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.79
+    }
+  ],
+  "follow100Note": "The pattern flipped from last quarter: the stock portfolio subtracted $1.71 of every $100 instead of adding to it, so the operating businesses earned the whole $10.79 Berkshire kept \u2014 and covered the portfolio's paper loss too. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$11.3B",
+      "statColor": "#3e8e5a",
+      "title": "Operating earnings up 18%",
+      "text": "The businesses themselves earned $11.3B after tax, up from $9.6B \u2014 insurance underwriting jumped to $1.7B with no significant catastrophe losses, versus $860M of storm losses a year ago."
+    },
+    {
+      "stat": "\u2212$1.6B",
+      "statColor": "#5b6b7c",
+      "title": "A paper loss on the stock pile",
+      "text": "Investment losses of $1.6B were mostly unrealized: the value of stocks Berkshire still holds fell $3.3B, partly offset by $1.7B of gains on stocks sold during the quarter ($24.1B of sales)."
+    },
+    {
+      "stat": "$9.5B",
+      "statColor": "#3d7bc8",
+      "title": "OxyChem joins the family",
+      "text": "Berkshire closed its roughly $9.5B purchase of Occidental's chemical business on January 2, 2026 \u2014 and the cash pile at its insurance and other businesses still stood at $373.5B at quarter-end."
+    }
+  ],
+  "oneTimers": [
+    "Investment losses are mostly paper losses. Of the $1,605M pre-tax investment losses, $3,291M was a fall in unrealized gains on stocks Berkshire still holds, partly offset by $1,652M of gains on stocks sold. Next quarter the unrealized part can just as easily reverse.",
+    "No repeat of last year's catastrophe hit: the first quarter of 2025 carried about $860M of after-tax losses from significant catastrophe events; this quarter had none."
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2026 (berkshirehathaway.com)",
+      "url": "https://www.berkshirehathaway.com/qtrly/1stqtr26.pdf"
+    },
+    {
+      "label": "Earnings news release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526212148/d74313dex991.htm"
+    },
+    {
+      "label": "Berkshire Hathaway investor relations",
+      "url": "https://www.berkshirehathaway.com"
+    }
+  ]
+}

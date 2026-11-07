@@ -1,0 +1,163 @@
+{
+  "ticker": "LLY",
+  "company": "Eli Lilly",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-30",
+  "verdict": "Lilly's revenue jumped 56% to $19.8B as Mounjaro sales more than doubled to $8.7B \u2014 and it kept $7.4B as profit, nearly triple a year ago.",
+  "revenueYoY": "+56%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$19.8B",
+      "note": "+56% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$8.26",
+      "note": "+170% YoY; non-GAAP $8.55"
+    },
+    {
+      "label": "Mounjaro",
+      "value": "$8.7B",
+      "note": "+125% YoY"
+    },
+    {
+      "label": "Acquired IPR&D",
+      "value": "$584M",
+      "note": "one-off research charges \u2014 see below"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mounjaro",
+      "amountM": 8662,
+      "yoy": "+125%",
+      "note": "The diabetes and weight-loss shot (tirzepatide). U.S. sales were $4.2B; sales outside the U.S. more than tripled to $4.4B after Mounjaro joined China's reimbursement list."
+    },
+    {
+      "name": "Zepbound",
+      "amountM": 4160,
+      "yoy": "+80%",
+      "note": "The same drug sold for obesity in the U.S., Canada and Japan \u2014 U.S. sales rose 79% to $4.1B on strong demand, partly offset by lower prices."
+    },
+    {
+      "name": "All other medicines",
+      "amountM": 6977,
+      "yoy": "+6%",
+      "note": "Everything else \u2014 cancer, immunology and diabetes medicines, including a one-time $250M Jardiance benefit from partner Boehringer Ingelheim."
+    }
+  ],
+  "flow": {
+    "revenueM": 19799,
+    "costOfRevenueM": 3577,
+    "grossProfitM": 16222,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 3510,
+        "note": "Finding and testing new medicines \u2014 18% of revenue."
+      },
+      {
+        "name": "Marketing, selling & administrative",
+        "amountM": 2934,
+        "note": "Sales teams and launch campaigns for new medicines."
+      },
+      {
+        "name": "Acquired IPR&D",
+        "amountM": 584,
+        "note": "Research bought with acquisitions, expensed immediately \u2014 $0.52 of EPS this quarter."
+      },
+      {
+        "name": "Asset impairment & restructuring",
+        "amountM": 279,
+        "note": "Impairment and restructuring charges."
+      }
+    ],
+    "operatingIncomeM": 8915,
+    "otherIncomeM": -65,
+    "taxM": 1454,
+    "netIncomeM": 7396
+  },
+  "otherDetail": "Net other expense of $65M \u2014 interest costs of $253M, partly covered by $188M of other income.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $7,663M (EPS $8.55).",
+  "follow100": [
+    {
+      "label": "Mounjaro",
+      "amount": 43.75
+    },
+    {
+      "label": "Zepbound",
+      "amount": 21.01
+    },
+    {
+      "label": "All other medicines",
+      "amount": 35.24
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -18.07
+    },
+    {
+      "label": "Research & development",
+      "amount": -17.73
+    },
+    {
+      "label": "Marketing, selling & admin",
+      "amount": -14.82
+    },
+    {
+      "label": "Acquired IPR&D",
+      "amount": -2.95
+    },
+    {
+      "label": "Impairment & restructuring",
+      "amount": -1.41
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.33
+    },
+    {
+      "label": "Tax",
+      "amount": -7.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 37.35
+    }
+  ],
+  "follow100Note": "Two shots \u2014 Mounjaro and Zepbound \u2014 brought in $64.76 of every $100. Even after $2.95 of one-off acquired-research charges in every $100, Lilly kept $37.35 as profit.",
+  "takeaways": [
+    {
+      "stat": "+125%",
+      "statColor": "#3e8e5a",
+      "title": "Mounjaro more than doubled",
+      "text": "Mounjaro revenue rose 125% to $8.7B. Growth came from volume \u2014 more prescriptions \u2014 even as prices fell, including after Mounjaro joined China's National Reimbursed Drug List."
+    },
+    {
+      "stat": "$584M",
+      "statColor": "#cf5f4e",
+      "title": "Smaller one-off charges",
+      "text": "Acquired IPR&D charges fell to $584M ($0.52 of EPS) from $1,572M a year ago \u2014 one reason reported profit nearly tripled. Asset impairment and restructuring added $279M."
+    },
+    {
+      "stat": "$82\u201385B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "Lilly raised its full-year 2026 revenue guidance to $82\u201385B and won FDA approval for Foundayo, its GLP-1 pill for weight loss \u2014 the next product in the franchise."
+    }
+  ],
+  "oneTimers": [
+    "Acquired IPR&D of $584M \u2014 research bought via acquisitions and expensed immediately. It cost $0.52 of EPS; a year ago the same line was $1,572M ($1.72 of EPS).",
+    "Asset impairment, restructuring and other special charges of $279M, versus $35M a year ago.",
+    "Jardiance revenue outside the U.S. included a one-time $250M benefit tied to the Boehringer Ingelheim collaboration; a year ago the same benefit was $370M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000043/q126lillysalesandearningsp.htm"
+    }
+  ]
+}
