@@ -1,0 +1,148 @@
+{
+  "ticker": "CVNA",
+  "company": "Carvana",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+42%",
+  "verdict": "Carvana sold a record 217,385 cars and grew revenue 42% to $8.04B, keeping $483M of consolidated profit even after a $53M charge for paying off debt early.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.04B",
+      "note": "+42% YoY \u2014 a company record"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.39",
+      "note": "Per Class A share; net income attributable to Carvana Co. was $289M (see note below on the $483M consolidated figure)"
+    },
+    {
+      "label": "Retail units sold",
+      "value": "217,385",
+      "note": "+39% YoY \u2014 the first quarter over 200,000 cars, while the wider market was roughly flat"
+    },
+    {
+      "label": "Operating income",
+      "value": "$714M",
+      "note": "A record; an 8.9% operating margin, down from 9.8% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Retail vehicle sales",
+      "amountM": 6144,
+      "note": "Used cars sold to individual buyers online \u2014 the core business. Retail units sold hit a record 217,385, up 39%.",
+      "yoy": "+54%"
+    },
+    {
+      "name": "Wholesale sales and revenues",
+      "amountM": 1302,
+      "note": "Cars sold on to other dealers, including through Carvana's wholesale marketplace (the ADESA business).",
+      "yoy": "+11%"
+    },
+    {
+      "name": "Other sales and revenues",
+      "amountM": 594,
+      "note": "Everything else \u2014 mainly gains on selling the car loans it makes to buyers, plus vehicle service contracts and other add-ons.",
+      "yoy": "+25%"
+    }
+  ],
+  "flow": {
+    "revenueM": 8040,
+    "costOfRevenueM": 6519,
+    "grossProfitM": 1521,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 805,
+        "note": "Running the business: staff pay ($255M), advertising ($152M), logistics ($68M), market occupancy ($18M) and $312M of other costs (IT, insurance, warranty and registration costs)."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 2,
+        "note": "Small net operating costs, mainly gains and losses on disposing of buildings and equipment."
+      }
+    ],
+    "operatingIncomeM": 714,
+    "otherIncomeM": -162,
+    "taxM": 69,
+    "netIncomeM": 483
+  },
+  "otherDetail": "Other expense was $162M, net: $98M of interest expense, net (interest on its notes, loans and car-financing facilities, after interest earned on cash), a $53M loss on debt extinguishment (paying off debt early \u2014 see one-off items), and $11M of other expense, net \u2014 mainly warrant-related charges from the 2026 Warrant Exchange and a $5M fall in the value of new warrants, partly offset by a $7M rise in the value of its stakes in loan securitizations (bundles of car loans sold to investors).",
+  "follow100": [
+    {
+      "label": "Retail vehicle sales",
+      "amount": 76.42
+    },
+    {
+      "label": "Wholesale sales and revenues",
+      "amount": 16.19
+    },
+    {
+      "label": "Other sales and revenues",
+      "amount": 7.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -81.08
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -10.01
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.02
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.01
+    },
+    {
+      "label": "Tax",
+      "amount": -0.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.01
+    }
+  ],
+  "follow100Note": "The $483M kept as profit is Carvana's consolidated net income. Of that, $194M belongs to noncontrolling interests \u2014 the other owners of Carvana Group, LLC \u2014 leaving $289M attributable to Carvana Co. shareholders, which is the figure behind the $0.39 diluted EPS.",
+  "takeaways": [
+    {
+      "stat": "217,385",
+      "statColor": "#3d7bc8",
+      "title": "Record cars sold, taking share",
+      "text": "Retail units sold rose 39% to a record 217,385 \u2014 the eighth straight quarter of roughly 40% growth \u2014 while the wider used-car market was roughly flat. Retail vehicle revenue jumped 54% to $6.14B and total revenue rose 42% to a record $8.04B."
+    },
+    {
+      "stat": "$6,997",
+      "statColor": "#cf5f4e",
+      "title": "Each car earned a little less",
+      "text": "Gross profit rose 32% to $1.52B, but gross profit per unit fell $365 to $6,997. Carvana chose to pass value back to buyers through cheaper loan rates, wholesale profit per car fell, and higher fuel prices and rapidly rising interest rates together cost an estimated $200 per unit."
+    },
+    {
+      "stat": "$483M",
+      "statColor": "#3e8e5a",
+      "title": "Profit nearly doubled, despite a debt charge",
+      "text": "Consolidated net income was $483M, up from $263M a year ago \u2014 a 6.0% net margin. Of it, $194M belongs to noncontrolling interests, leaving $289M for Carvana Co. shareholders ($0.39 diluted EPS per Class A share, vs $0.21). The quarter absorbed a $53M charge for retiring debt early; a year ago it absorbed a $120M warrant charge."
+    }
+  ],
+  "oneTimers": [
+    "Below operating income sits a $53M loss on debt extinguishment \u2014 the cost of redeeming Carvana's Senior Secured Notes due 2030 early, including writing off related issuance costs. It is a financing one-off, not a cost of selling cars.",
+    "Other expense, net of $11M is also mostly one-off in nature: it mainly reflects derecognising the original Root warrants in the 2026 Warrant Exchange and a $5M fall in the value of the new warrants, partly offset by a $7M gain on its beneficial interests in securitizations."
+  ],
+  "footerNote": "The flow uses consolidated net income of $483M, as reported on the statement, so the figures tie exactly; $194M of that profit belongs to noncontrolling interests and $289M is attributable to Carvana Co. Cost of revenue is the statement's cost of sales.",
+  "sources": [
+    {
+      "label": "Official earnings release / shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000066/ex99_1q32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm"
+    }
+  ]
+}

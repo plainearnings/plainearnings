@@ -1,0 +1,166 @@
+{
+  "ticker": "CTSH",
+  "company": "Cognizant",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+5%",
+  "verdict": "Cognizant grew revenue 5% to $5.66B on a 12% jump in Financial Services work, while $51M of restructuring costs from its Project Leap overhaul held the GAAP operating margin at 15.4%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.66B",
+      "note": "+4.6% YoY, or +4.8% in constant currency (stripping out exchange-rate moves)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.39",
+      "note": "vs $0.56 a year ago, when a one-time tax charge cut EPS by $0.80; adjusted EPS was $1.49, up 7.2%"
+    },
+    {
+      "label": "Financial Services revenue",
+      "value": "$1.77B",
+      "note": "+12.0% YoY \u2014 the star segment, 31% of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$925M",
+      "note": "Operating cash flow of $1,004M less $79M of capital spending in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Financial Services",
+      "amountM": 1767,
+      "note": "Tech services for banks, insurers and other financial firms \u2014 the biggest segment, and the growth engine this quarter.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Health Sciences",
+      "amountM": 1587,
+      "note": "Tech services for hospitals, health insurers and drug and medical-device makers. Revenue slipped slightly, down 1.1%.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Products and Resources",
+      "amountM": 1371,
+      "note": "Tech services for manufacturers, retailers, energy and travel and hospitality companies. Revenue slipped 0.9%.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Communications, Media and Technology",
+      "amountM": 939,
+      "note": "Tech services for telecom, media and technology companies. Growth included a boost from recently bought businesses.",
+      "yoy": "+11%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5664,
+    "costOfRevenueM": 3751,
+    "grossProfitM": 1913,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 841,
+        "note": "Selling the work and running the company \u2014 sales teams, management, finance and admin."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 51,
+        "note": "Project Leap restructuring \u2014 the cost of reshaping the workforce and operating model. See one-off items below."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 149,
+        "note": "Wear and tear on offices, equipment and software, spread over their working lives, plus amortization of bought intangibles (assets like customer contracts from deals)."
+      }
+    ],
+    "operatingIncomeM": 872,
+    "otherIncomeM": -9,
+    "equityM": 1,
+    "taxM": 237,
+    "netIncomeM": 627
+  },
+  "otherDetail": "Net other expense was $8M in total: $19M of interest expense and $8M of other costs, partly offset by $16M of interest income, $2M of currency gains and a $1M gain from equity-method investments (shares in other companies accounted for by picking up a slice of their profit). The statement shows other income (expense), net of -$9M plus the separate +$1M equity-method line, which the flow carries as equityM.",
+  "follow100": [
+    {
+      "label": "Financial Services",
+      "amount": 31.2
+    },
+    {
+      "label": "Health Sciences",
+      "amount": 28.02
+    },
+    {
+      "label": "Products and Resources",
+      "amount": 24.21
+    },
+    {
+      "label": "Communications, Media and Technology",
+      "amount": 16.58
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.23
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -14.85
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.9
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -2.63
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -4.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Financial Services carried the growth",
+      "text": "Revenue rose 4.6% to $5.66B. Financial Services jumped 12.0% to $1.77B and Communications, Media and Technology rose 10.5% to $939M, while Health Sciences fell 1.1% and Products and Resources fell 0.9%. Trailing 12-month bookings were $28.7B, up 4%."
+    },
+    {
+      "stat": "15.4%",
+      "statColor": "#5b6b7c",
+      "title": "Restructuring held back the margin",
+      "text": "Operating income was $872M, a 15.4% margin, down from 16.0% a year ago. The $51M of Project Leap restructuring charges explains the gap: leaving those out, the company's adjusted operating margin was 16.3%, up from 16.0%."
+    },
+    {
+      "stat": "$1.39",
+      "statColor": "#3e8e5a",
+      "title": "EPS more than doubled \u2014 off a low base",
+      "text": "Net income was $627M and GAAP EPS $1.39, up from $0.56 a year ago. That comparison flatters the quarter: a year ago a one-time, non-cash tax charge cut EPS by $0.80. Adjusted EPS, which strips out such items, rose a steadier 7.2% to $1.49."
+    }
+  ],
+  "oneTimers": [
+    "Operating costs include $51M of restructuring charges for Project Leap, a program launched in Q2 2026 to reshape Cognizant's operating model around AI \u2014 funding new offerings and partnerships and reshaping the workforce. The company now expects total Project Leap costs of $180M\u2013$250M, with $140M\u2013$160M of that in 2026."
+  ],
+  "footerNote": "All figures are as reported in $M in the statement of operations. The $1M equity-method gain sits below the tax line on Cognizant's statement; it is carried as equityM so operating income, other income and tax tie exactly to the reported $627M net income.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000039/exhibit9919302026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058290/000105829026000041/ctsh-20260930.htm"
+    }
+  ]
+}

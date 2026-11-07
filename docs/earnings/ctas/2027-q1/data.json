@@ -1,0 +1,146 @@
+{
+  "ticker": "CTAS",
+  "company": "Cintas",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-23",
+  "revenueYoY": "+11%",
+  "verdict": "Cintas grew revenue 11% to a record $3.01B and widened both its gross and operating margins, lifting net income 12% to $552M even after $14M of costs for its planned purchase of rival UniFirst.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.01B",
+      "note": "+10.9% YoY; organic growth (stripping out deals, currency and workdays) was +8.9%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.36",
+      "note": "+13.3% YoY; $1.39 excluding the UniFirst deal costs"
+    },
+    {
+      "label": "Gross margin",
+      "value": "51.5%",
+      "note": "Up from 50.3% a year ago \u2014 a record for the company"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$465M",
+      "note": "Operating cash flow of $572M less $108M of capital spending (capex \u2014 money spent on plants and equipment)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Uniform Rental and Facility Services",
+      "amountM": 2294,
+      "note": "Renting and laundering work uniforms, plus mats, towels, restroom and hygiene supplies for more than a million businesses. Revenue rose 9.7% and its gross margin widened to 50.8%.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "First Aid and Safety Services",
+      "amountM": 389,
+      "note": "First aid kits and supplies, safety training, fire extinguishers, sprinkler and alarm services. The fastest-growing segment this quarter.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "All Other",
+      "amountM": 331,
+      "note": "Everything else, mainly the rental and sale of workwear direct to employers and other smaller services.",
+      "yoy": "+13%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3014,
+    "costOfRevenueM": 1460,
+    "grossProfitM": 1554,
+    "opex": [
+      {
+        "name": "Selling and administrative",
+        "amountM": 828,
+        "note": "The cost of the sales force, route service and running the business. It includes stock-based pay and the back office."
+      },
+      {
+        "name": "UniFirst transaction expenses",
+        "amountM": 14,
+        "note": "One-off costs of the proposed purchase of UniFirst, a rival uniform company \u2014 see one-off items below."
+      }
+    ],
+    "operatingIncomeM": 712,
+    "otherIncomeM": -22,
+    "taxM": 138,
+    "netIncomeM": 552
+  },
+  "otherDetail": "Other expense was $22M, net: $25M of interest expense on debt, partly offset by $3M of interest income.",
+  "follow100": [
+    {
+      "label": "Uniform Rental and Facility Services",
+      "amount": 76.11
+    },
+    {
+      "label": "First Aid and Safety Services",
+      "amount": 12.91
+    },
+    {
+      "label": "All Other",
+      "amount": 10.98
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.44
+    },
+    {
+      "label": "Selling and administrative",
+      "amount": -27.47
+    },
+    {
+      "label": "UniFirst transaction expenses",
+      "amount": -0.46
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.73
+    },
+    {
+      "label": "Tax",
+      "amount": -4.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.31
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+10.9%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in every segment",
+      "text": "Revenue rose 10.9% to $3.01B. The core Uniform Rental and Facility Services business grew 9.7% to $2.29B, First Aid and Safety grew about 16% to $389M, and All Other grew about 13% to $331M. Organic growth \u2014 the company's own measure stripping out deals, currency and an extra workday \u2014 was 8.9%."
+    },
+    {
+      "stat": "51.5%",
+      "statColor": "#3e8e5a",
+      "title": "Margins hit records",
+      "text": "Gross margin rose from 50.3% to 51.5% of revenue, and operating margin from 22.7% to 23.6%, both records. Operating income rose 15.2% to $712M \u2014 and that is after absorbing $14M of UniFirst deal costs."
+    },
+    {
+      "stat": "$552M",
+      "statColor": "#3e8e5a",
+      "title": "Profit up 12%, guidance raised",
+      "text": "Net income rose 12.3% to $552M and EPS 13.3% to $1.36, even though the tax rate rose from 17.6% to 20.0%. Cintas raised its full-year outlook to $12.15B\u2013$12.27B of revenue and $5.45\u2013$5.54 of adjusted EPS."
+    }
+  ],
+  "oneTimers": [
+    "Operating costs include $14M ($14.4M exactly) of transaction expenses for the proposed acquisition of UniFirst Corporation, which Cintas expects to close before the end of calendar 2026 while the deal is reviewed by the US Federal Trade Commission. The costs cut diluted EPS by $0.03; excluding them, EPS was $1.39."
+  ],
+  "footerNote": "Reported in thousands; figures are rounded to $M. Two lines are adjusted by $1M so the rounded figures tie exactly: Uniform Rental and Facility Services is shown as $2,294M (exact $2,294.7M) so the segments sum to total revenue, and selling and administrative expenses are shown as $828M (exact $827.2M) so gross profit less operating expenses equals the reported $712M operating income.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000044/ex992026-8x31.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000047/ctas-20260831.htm"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "ticker": "CSX",
+  "company": "CSX Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+12%",
+  "verdict": "CSX hauled 5% more freight and turned a 12% jump in revenue into a 44% rise in operating income, because total costs were flat even though fuel got much pricier and last year's $164M goodwill charge did not repeat.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.02B",
+      "note": "+12% YoY \u2014 a quarterly record for CSX"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.57",
+      "note": "+54% YoY vs $0.37; vs $0.44 a year ago after removing that quarter's goodwill charge"
+    },
+    {
+      "label": "Operating income",
+      "value": "$1.57B",
+      "note": "Operating margin 39.1%, up from 30.3% a year ago"
+    },
+    {
+      "label": "Total volume",
+      "value": "1.69M units",
+      "note": "+5% YoY \u2014 intermodal volume rose 7% to 820,000 units"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Chemicals",
+      "amountM": 790,
+      "note": "Chemicals and related products hauled by rail \u2014 the single biggest market. Volume rose 7% on more petcoke, waste, plastics and crude oil shipments.",
+      "yoy": "+13%"
+    },
+    {
+      "name": "Agricultural and food products",
+      "amountM": 430,
+      "note": "Grains, feed and other farm and food shipments. Volume rose 4% on domestic and export grain, partly offset by less ethanol.",
+      "yoy": "+13%",
+      "compact": true
+    },
+    {
+      "name": "Minerals",
+      "amountM": 246,
+      "note": "Limestone, construction materials and other minerals. Revenue rose on pricing even though volume slipped 1%.",
+      "yoy": "+9%",
+      "compact": true
+    },
+    {
+      "name": "Automotive",
+      "amountM": 325,
+      "note": "Finished vehicles and parts. Volume fell 2% because of a temporary outage at a customer plant that was re-tooling.",
+      "yoy": "+6%",
+      "compact": true
+    },
+    {
+      "name": "Metals and equipment",
+      "amountM": 267,
+      "note": "Steel, aluminum and machinery. Volume rose 12% \u2014 the fastest merchandise growth in the quarter.",
+      "yoy": "+19%",
+      "compact": true
+    },
+    {
+      "name": "Forest products",
+      "amountM": 277,
+      "note": "Lumber, building products, pulp and paper. Lumber and building products rose, helped by a tighter trucking market.",
+      "yoy": "+12%",
+      "compact": true
+    },
+    {
+      "name": "Fertilizers",
+      "amountM": 118,
+      "note": "Fertilizer shipments \u2014 the only merchandise line that shrank, as higher input costs cut demand. Volume fell 13%.",
+      "yoy": "-6%",
+      "compact": true
+    },
+    {
+      "name": "Intermodal",
+      "amountM": 634,
+      "note": "Shipping containers that move by rail and truck. Volume rose 7% on domestic customer wins and new services.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "Coal",
+      "amountM": 537,
+      "note": "Coal for export and for US power plants and steelmakers. Export coal rose; domestic coal for utilities fell.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Trucking",
+      "amountM": 227,
+      "note": "The Quality Carriers trucking business \u2014 liquid bulk chemicals hauled by road. Growth was mainly higher fuel surcharges.",
+      "yoy": "+10%",
+      "compact": true
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 166,
+      "note": "Everything else, mainly fees for intermodal storage and equipment use.",
+      "yoy": "+7%",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 4017,
+    "costOfRevenueM": 2034,
+    "grossProfitM": 1983,
+    "opex": [
+      {
+        "name": "Depreciation",
+        "amountM": 413,
+        "note": "Wear and tear on locomotives, track and equipment, spread over their working lives. It fell slightly after an equipment depreciation study, even though the asset base grew."
+      }
+    ],
+    "operatingIncomeM": 1570,
+    "otherIncomeM": -186,
+    "taxM": 332,
+    "netIncomeM": 1052
+  },
+  "otherDetail": "Other expense was $186M, net: $207M of interest expense on the railroad's debt, partly offset by $21M of other income (mainly pension-related credits and investment income).",
+  "follow100": [
+    {
+      "label": "Chemicals",
+      "amount": 19.67
+    },
+    {
+      "label": "Agricultural and food products",
+      "amount": 10.7
+    },
+    {
+      "label": "Minerals",
+      "amount": 6.12
+    },
+    {
+      "label": "Automotive",
+      "amount": 8.09
+    },
+    {
+      "label": "Metals and equipment",
+      "amount": 6.65
+    },
+    {
+      "label": "Forest products",
+      "amount": 6.9
+    },
+    {
+      "label": "Fertilizers",
+      "amount": 2.94
+    },
+    {
+      "label": "Intermodal",
+      "amount": 15.78
+    },
+    {
+      "label": "Coal",
+      "amount": 13.37
+    },
+    {
+      "label": "Trucking",
+      "amount": 5.65
+    },
+    {
+      "label": "Other revenue",
+      "amount": 4.13
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -50.63
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -10.28
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.63
+    },
+    {
+      "label": "Tax",
+      "amount": -8.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.19
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, on more freight and higher prices",
+      "text": "Revenue hit a record $4.02B, up 12%. Total volume rose 5% to 1.69M units, and pricing and fuel surcharges \u2014 extra charges that rise with diesel prices \u2014 added the rest. Intermodal revenue jumped 20% and merchandise revenue 11%."
+    },
+    {
+      "stat": "39.1%",
+      "statColor": "#3e8e5a",
+      "title": "Costs stayed flat, so the margin leapt",
+      "text": "Total operating costs were $2.45B, down 2%, even though fuel costs jumped $170M as locomotive diesel prices rose 67%. Purchased services fell $73M on efficiency savings, and last year's $164M goodwill impairment (a write-down of an earlier acquisition) did not repeat. Operating margin widened from 30.3% to 39.1%."
+    },
+    {
+      "stat": "$1.05B",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose by half",
+      "text": "Net earnings were $1.05B, up 52% from $694M a year ago, and EPS rose 54% to $0.57. Against last year's adjusted figures (which strip out the goodwill charge), operating income still rose 25% and EPS 30%."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Railroads do not report gross profit; cost of revenue here = direct train-running costs.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/pressrelease_q32026.htm"
+    },
+    {
+      "label": "Quarterly Financial Report, Ex. 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000040/csx-20260930.htm"
+    }
+  ],
+  "follow100Note": "Cost of revenue breaks down as labor and fringe $834M, fuel $451M, purchased services and other $657M, and equipment and other rents $92M. Depreciation is the only remaining operating-expense line, so every expense line sits in exactly one bucket and revenue less total operating expenses equals the reported $1,570M operating income."
+}
