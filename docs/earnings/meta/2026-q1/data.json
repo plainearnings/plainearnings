@@ -1,0 +1,153 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-29",
+  "verdict": "Meta's revenue jumped 33% to $56.3B on surging ads \u2014 and an $8.0B one-time tax benefit pushed net income up 61% to $26.8B.",
+  "revenueYoY": "+33%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+33%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$10.44",
+      "note": "incl. $3.13 of tax benefit"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$12.4B",
+      "note": "after $19.8B of capex"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.56B",
+      "note": "daily users, +4% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 55024,
+      "yoy": "+33%",
+      "note": "Ads across Facebook, Instagram, WhatsApp and Messenger: impressions grew 19% and the average price per ad rose 12%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 885,
+      "yoy": "+74%",
+      "note": "WhatsApp business messaging, Meta Verified subscriptions and other app income; up 74% YoY.",
+      "shortName": "FoA other"
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 402,
+      "yoy": "-2%",
+      "note": "Quest headsets and AI glasses; sales dipped 2% and the unit lost $4.0B at the operating level."
+    }
+  ],
+  "flow": {
+    "revenueM": 56311,
+    "costOfRevenueM": 10218,
+    "grossProfitM": 46093,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 17699,
+        "note": "AI research (Meta Superintelligence Labs), engineers and Reality Labs development; up 46% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 2908,
+        "note": "Selling ads and marketing Meta's apps and devices."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2614,
+        "note": "Back-office and legal costs."
+      }
+    ],
+    "operatingIncomeM": 22872,
+    "otherIncomeM": -1120,
+    "taxM": -5021,
+    "netIncomeM": 26773
+  },
+  "otherDetail": "Meta reports one combined line, interest and other income (expense), net; this quarter it was a $1,120M net expense.",
+  "footerNote": "The tax line is a $5,021M benefit: it includes an $8.03B one-time tax benefit (U.S. Treasury Notice 2026-7), partly offset by the quarter's normal tax charge.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.71
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.57
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.15
+    },
+    {
+      "label": "R&D",
+      "amount": -31.43
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -5.16
+    },
+    {
+      "label": "General & administrative",
+      "amount": -4.64
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.99
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 8.92
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 47.54
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "Ads are surging",
+      "text": "Advertising revenue rose 33% to $55.0B: ad impressions grew 19% and the average price per ad rose 12%. The Family of Apps earned $26.9B of operating profit, while Reality Labs lost $4.0B."
+    },
+    {
+      "stat": "$8.0B",
+      "statColor": "#cf5f4e",
+      "title": "A one-time tax benefit inflated profit",
+      "text": "Net income includes an $8.03B tax benefit created by a U.S. Treasury notice on how the corporate minimum tax treats past R&D spending. Without it, EPS would have been $3.13 lower \u2014 $7.31 instead of $10.44."
+    },
+    {
+      "stat": "$19.8B",
+      "statColor": "#3e8e5a",
+      "title": "The AI build-out keeps accelerating",
+      "text": "Capital spending was $19.8B in the quarter, and Meta raised its full-year 2026 capex guide to $125-145B, citing higher component prices and more data-center capacity for future years."
+    }
+  ],
+  "oneTimers": [
+    "An $8.03B income tax benefit (U.S. Treasury Notice 2026-7, on the Corporate Alternative Minimum Tax treatment of previously capitalized U.S. R&D costs) is inside this quarter's tax line, turning it into a $5,021M benefit. It partly offsets the $15.93B non-cash tax charge Meta recorded in Q3 2025 when the One Big Beautiful Bill Act was enacted. Excluding the benefit, diluted EPS would have been $3.13 lower."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm"
+    }
+  ]
+}

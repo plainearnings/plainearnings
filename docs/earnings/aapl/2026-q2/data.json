@@ -1,0 +1,161 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-03-28",
+  "reportedDate": "2026-04-30",
+  "verdict": "Apple posted its best March quarter ever: revenue rose 17% to $111.2B on a record $57.0B of iPhone sales, and profit reached $29.6B.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.01",
+      "note": "+22% vs a year ago"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$57.0B",
+      "note": "March-quarter record, +22%"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$31.0B",
+      "note": "all-time high, +16%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 56994,
+      "yoy": "+22%",
+      "note": "A March-quarter record on extraordinary demand for the iPhone 17 lineup; the new, cheaper iPhone 17e joined the range during the quarter."
+    },
+    {
+      "name": "Mac",
+      "amountM": 8399,
+      "yoy": "+6%",
+      "note": "Mac computers, including the new MacBook Neo launched in the quarter; up 6% YoY."
+    },
+    {
+      "name": "iPad",
+      "amountM": 6914,
+      "yoy": "+8%",
+      "note": "iPad tablets, including the M4-powered iPad Air introduced in the quarter; up 8% YoY."
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 7901,
+      "yoy": "+5%",
+      "note": "Apple Watch, AirPods, HomePod and accessories; up 5% YoY.",
+      "shortName": "Wearables & Home"
+    },
+    {
+      "name": "Services",
+      "amountM": 30976,
+      "yoy": "+16%",
+      "note": "The App Store, iCloud, Apple Music, Apple TV, Apple Pay and warranties \u2014 an all-time record, up 16% YoY, and Apple's highest-margin business."
+    }
+  ],
+  "flow": {
+    "revenueM": 111184,
+    "costOfRevenueM": 56403,
+    "grossProfitM": 54781,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 11419,
+        "note": "Designing future products and software; up 34% YoY as Apple invests in AI and new devices."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7477,
+        "note": "Selling and admin costs, including Apple's stores; up 11% YoY."
+      }
+    ],
+    "operatingIncomeM": 35885,
+    "otherIncomeM": -52,
+    "taxM": 6255,
+    "netIncomeM": 29578
+  },
+  "otherDetail": "Other income (expense), net was -$52M: interest and dividend income was roughly offset by interest expense and other items.",
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 51.26
+    },
+    {
+      "label": "Mac",
+      "amount": 7.55
+    },
+    {
+      "label": "iPad",
+      "amount": 6.22
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 7.11
+    },
+    {
+      "label": "Services",
+      "amount": 27.86
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -50.73
+    },
+    {
+      "label": "R&D",
+      "amount": -10.27
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.72
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.05
+    },
+    {
+      "label": "Tax",
+      "amount": -5.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.6
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$57.0B",
+      "statColor": "#3d7bc8",
+      "title": "A record March quarter for iPhone",
+      "text": "iPhone revenue hit $57.0B, up 22% \u2014 a March-quarter record, powered by the iPhone 17 lineup. iPhone alone was 51% of everything Apple sold."
+    },
+    {
+      "stat": "$31.0B",
+      "statColor": "#3e8e5a",
+      "title": "Services set another all-time high",
+      "text": "Services reached $31.0B, up 16%, and it is Apple's most profitable money: delivering those services cost $7.2B, against $49.2B of cost on $80.2B of product sales."
+    },
+    {
+      "stat": "$100B",
+      "statColor": "#3d7bc8",
+      "title": "A fresh buyback and a higher dividend",
+      "text": "The board authorized a new $100B share-repurchase program and raised the dividend 4% to $0.27 a share. Operating cash flow topped $28B in the quarter \u2014 both it and EPS were March-quarter records."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm"
+    }
+  ]
+}

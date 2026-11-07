@@ -1,0 +1,136 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-01-25",
+  "reportedDate": "2026-02-25",
+  "verdict": "Nvidia's revenue jumped 73% to a record $68.1B as Data Center sales hit $62.3B \u2014 and $5.5B of gains on its investment stakes helped lift net income to $43.0B.",
+  "revenueYoY": "+73%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+73%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.76",
+      "note": "vs $0.89 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$62.3B",
+      "note": "+75% YoY, 91% of revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "75.0%",
+      "note": "vs 73.0% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 62314,
+      "yoy": "+75%",
+      "note": "AI data-center platforms; a record $62.3B, up 75% YoY and 91% of total revenue. Within it, compute was $51.3B (+58%) and networking a record $11.0B (+263%) on NVLink fabric for GB200 and GB300 systems."
+    },
+    {
+      "name": "Edge Computing",
+      "amountM": 5813,
+      "yoy": "+55%",
+      "note": "Gaming ($3.7B, +47%), professional visualization ($1.3B, +159%), automotive ($604M) and OEM and other ($161M); up 55% YoY in total."
+    }
+  ],
+  "flow": {
+    "revenueM": 68127,
+    "costOfRevenueM": 17034,
+    "grossProfitM": 51093,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 5512,
+        "note": "R&D spending on new chips and platforms like Vera Rubin; up 48% YoY as Nvidia hires and builds faster."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 1282,
+        "note": "Sales and admin costs; up 31% YoY, growing far slower than revenue."
+      }
+    ],
+    "operatingIncomeM": 44299,
+    "otherIncomeM": 6098,
+    "taxM": 7437,
+    "netIncomeM": 42960
+  },
+  "otherDetail": "Interest income of $568M, plus $5,604M of other income \u2014 mostly $5,491M of gains on stakes Nvidia holds in other companies \u2014 less $74M of interest expense.",
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 91.47
+    },
+    {
+      "label": "Edge Computing",
+      "amount": 8.53
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.0
+    },
+    {
+      "label": "R&D",
+      "amount": -8.09
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.88
+    },
+    {
+      "label": "Other income",
+      "amount": 8.95
+    },
+    {
+      "label": "Tax",
+      "amount": -10.92
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 63.06
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+75%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center sets another record",
+      "text": "Data Center revenue was a record $62.3B \u2014 91 cents of every revenue dollar. Networking revenue nearly quadrupled to $11.0B (+263%) as NVLink fabrics for GB200/GB300 systems ramped, and hyperscalers were slightly over half of Data Center sales."
+    },
+    {
+      "stat": "$5.5B",
+      "statColor": "#cf5f4e",
+      "title": "Investment gains padded the bottom line",
+      "text": "Gains on stakes Nvidia holds in other companies added $5.5B to other income. That is the main reason GAAP net income ($43.0B) came in above non-GAAP ($39.6B) \u2014 the gap is paper gains, not chip sales."
+    },
+    {
+      "stat": "$36.2B",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed enormous",
+      "text": "Operating cash flow was $36.2B in the single quarter. Across fiscal 2026 Nvidia returned $41.1B to shareholders in buybacks and dividends, and still had $58.5B of buyback authorization left."
+    }
+  ],
+  "oneTimers": [
+    "Gains on equity securities of $5,491M (mostly unrealized) sit inside GAAP other income and are excluded from non-GAAP results \u2014 the main reason GAAP net income of $42,960M tops non-GAAP net income of $39,552M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm"
+    },
+    {
+      "label": "CFO commentary (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm"
+    }
+  ]
+}

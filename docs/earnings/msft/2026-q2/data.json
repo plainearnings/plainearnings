@@ -1,0 +1,152 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-28",
+  "verdict": "Microsoft's revenue rose 17% to $81.3B as its cloud business passed $50B in a quarter for the first time \u2014 and a $7.6B gain on its OpenAI stake lifted headline profit 60%.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.16",
+      "note": "+60%, incl. OpenAI gain"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+39%",
+      "note": "Azure & other cloud services"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$51.5B",
+      "note": "+26%, first quarter over $50B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 34116,
+      "yoy": "+16%",
+      "note": "Microsoft 365 for businesses (commercial cloud +17%), LinkedIn (+11%) and Dynamics 365 (+19%) \u2014 the software businesses sell to companies.",
+      "shortName": "Productivity & Business"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 32907,
+      "yoy": "+29%",
+      "note": "Azure cloud computing and server products; Azure revenue grew 39% as AI demand kept building."
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 14250,
+      "yoy": "-3%",
+      "note": "Windows licences, Xbox, Surface devices and search ads. The only shrinking piece: Windows OEM was flat (+1%) and Xbox content and services fell 5%."
+    }
+  ],
+  "flow": {
+    "revenueM": 81273,
+    "costOfRevenueM": 25978,
+    "grossProfitM": 55295,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 8504,
+        "note": "Building new products and AI; up 7% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6584,
+        "note": "The sales force and marketing; up 2% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1932,
+        "note": "Back-office and legal costs; up 6% YoY."
+      }
+    ],
+    "operatingIncomeM": 38275,
+    "otherIncomeM": 9971,
+    "taxM": 9788,
+    "netIncomeM": 38458
+  },
+  "otherDetail": "Mostly net gains on Microsoft's investment in OpenAI, which added $7,583M to net income after tax. Microsoft's non-GAAP figures strip this gain out.",
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 41.98
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 40.49
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 17.53
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.96
+    },
+    {
+      "label": "R&D",
+      "amount": -10.46
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.1
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.38
+    },
+    {
+      "label": "Other income",
+      "amount": 12.27
+    },
+    {
+      "label": "Tax",
+      "amount": -12.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 47.32
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$51.5B",
+      "statColor": "#3d7bc8",
+      "title": "The cloud crossed $50B",
+      "text": "Microsoft Cloud revenue was $51.5B, up 26%, and Azure grew 39%. Customers have committed to a record $625B of future spending (commercial remaining performance obligation, +110%)."
+    },
+    {
+      "stat": "+60%",
+      "statColor": "#cf5f4e",
+      "title": "Headline profit is flattered by OpenAI",
+      "text": "GAAP net income jumped 60% to $38.5B, but $7.6B of it was a paper gain on the OpenAI investment. Excluding that (non-GAAP), profit was $30.9B, up 23%, and EPS was $4.14 rather than $5.16."
+    },
+    {
+      "stat": "-3%",
+      "statColor": "#3e8e5a",
+      "title": "The consumer side shrank",
+      "text": "More Personal Computing \u2014 Windows, Xbox, Surface and search ads \u2014 fell 3% to $14.3B, the only declining piece, while the two business segments grew 16% and 29%."
+    }
+  ],
+  "oneTimers": [
+    "Net gains from investments in OpenAI increased GAAP net income by $7,583M ($1.02 per share). Non-GAAP net income excluding the OpenAI impact was $30,875M ($4.14 per share), up 23%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm"
+    }
+  ]
+}

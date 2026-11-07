@@ -1,0 +1,160 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-29",
+  "verdict": "Alphabet's revenue rose 22% to $109.9B as Google Cloud growth accelerated to 63% \u2014 and a $37.7B paper gain on its equity stakes lifted net income 81% to $62.6B.",
+  "revenueYoY": "+22%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+22%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.11",
+      "note": "+82% vs a year ago"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+63%",
+      "note": "revenue growth, accelerating"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$6.6B",
+      "note": "vs $2.2B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 89637,
+      "yoy": "+16%",
+      "note": "Search, YouTube, subscriptions and devices. Search revenue grew 19% as AI answers drove record query volumes, and YouTube ads grew 11%."
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 20028,
+      "yoy": "+63%",
+      "note": "Cloud computing for businesses \u2014 growth accelerated to 63% on enterprise AI demand, and the order backlog nearly doubled in one quarter to over $460B."
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 411,
+      "yoy": "-9%",
+      "note": "Moonshot projects like Waymo self-driving cars (now over 500,000 paid rides a week); they lost $2.1B at the operating level."
+    },
+    {
+      "name": "Hedging losses",
+      "amountM": -180,
+      "note": "Losses on Alphabet's currency-hedging program, which exists to smooth out exchange-rate swings on its overseas revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 109896,
+    "costOfRevenueM": 41271,
+    "grossProfitM": 68625,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 17032,
+        "note": "Engineers and AI research; up 26% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 7606,
+        "note": "Selling ads and cloud contracts, and marketing Google's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 4291,
+        "note": "Back-office, legal and admin costs."
+      }
+    ],
+    "operatingIncomeM": 39696,
+    "otherIncomeM": 37716,
+    "taxM": 14834,
+    "netIncomeM": 62578
+  },
+  "otherDetail": "A net gain of $37,716M, primarily net unrealized gains on non-marketable equity securities \u2014 stakes Alphabet holds in private companies, revalued upward.",
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 81.57
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 18.22
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.37
+    },
+    {
+      "label": "Hedging losses",
+      "amount": -0.16
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -37.55
+    },
+    {
+      "label": "R&D",
+      "amount": -15.5
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.92
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.9
+    },
+    {
+      "label": "Other income",
+      "amount": 34.32
+    },
+    {
+      "label": "Tax",
+      "amount": -13.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 56.94
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+63%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is booming",
+      "text": "Google Cloud revenue jumped 63% to $20.0B and its operating profit more than tripled to $6.6B. The cloud order backlog nearly doubled in a single quarter to over $460B."
+    },
+    {
+      "stat": "$37.7B",
+      "statColor": "#cf5f4e",
+      "title": "A paper gain bigger than most companies earn",
+      "text": "Other income was a $37.7B net gain, mostly unrealized gains on stakes Alphabet owns in private companies. That is why net income rose 81% while the operating business grew its profit 30%."
+    },
+    {
+      "stat": "350M",
+      "statColor": "#3e8e5a",
+      "title": "Subscriptions keep compounding",
+      "text": "Paid subscriptions across Google reached 350 million, led by YouTube and Google One, and the Gemini app had its strongest quarter yet \u2014 a growing cushion of recurring revenue next to ads."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes a net gain of $37.7B, primarily unrealized gains on non-marketable equity securities (stakes in private companies). It is a paper gain \u2014 the main reason GAAP net income of $62,578M is so far above the $39,696M the operations earned before tax."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm"
+    }
+  ]
+}
