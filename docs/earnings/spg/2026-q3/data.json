@@ -1,0 +1,168 @@
+{
+  "ticker": "SPG",
+  "company": "Simon Property Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Simon's rent machine grew revenue 13% and Real Estate FFO per share rose 5% to $3.37, but GAAP profit fell to $499M on $130M of non-cash mark-to-market losses.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "total revenue $1,815M (rounded) vs $1,602M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.54",
+      "note": "vs $1.86 a year ago"
+    },
+    {
+      "label": "Real Estate FFO per share",
+      "value": "$3.37",
+      "note": "+4.7% YoY \u2014 the REIT headline metric"
+    },
+    {
+      "label": "FFO per share",
+      "value": "$3.09",
+      "note": "vs $3.25 a year ago, incl. $0.27 of non-cash losses"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Lease income",
+      "amountM": 1681,
+      "yoy": "+16%",
+      "note": "Rent from retailers at malls and Premium Outlets \u2014 up 16%, with occupancy at 96.5% and base rent per square foot up 6.1%."
+    },
+    {
+      "name": "Management fees & other revenues",
+      "amountM": 46,
+      "yoy": "+25%",
+      "note": "Fees for managing properties for partners and other revenues \u2014 up 25%.",
+      "shortName": "Management fees"
+    },
+    {
+      "name": "Other income (revenue)",
+      "amountM": 87,
+      "yoy": "-22%",
+      "note": "Other property-level income reported in revenue \u2014 down from $112M a year ago.",
+      "shortName": "Other revenue"
+    }
+  ],
+  "flow": {
+    "revenueM": 1814,
+    "costOfRevenueM": 181,
+    "grossProfitM": 1633,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 511,
+        "note": "Non-cash cost of malls and outlets wearing out \u2014 the largest expense, up sharply year over year.",
+        "shortName": "Depreciation & amortization"
+      },
+      {
+        "name": "Real estate taxes",
+        "amountM": 126,
+        "note": "Property taxes on the mall portfolio."
+      },
+      {
+        "name": "Other operating costs",
+        "amountM": 181,
+        "note": "Repairs and maintenance ($32M), advertising and promotion ($36M), home and regional office costs ($70M) and other costs ($43M)."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 11,
+        "note": "General and administrative costs as reported (a narrow line in Simon's statement)."
+      }
+    ],
+    "operatingIncomeM": 804,
+    "otherIncomeM": -262,
+    "taxM": -23,
+    "netIncomeM": 499,
+    "equityM": -66
+  },
+  "takeaways": [
+    {
+      "stat": "+6.7%",
+      "statColor": "#3e8e5a",
+      "title": "The malls themselves are thriving",
+      "text": "Portfolio net operating income rose 6.7%, occupancy hit 96.5%, base rent per foot rose 6.1% and retailer sales per foot jumped 14.8% to $852. Simon raised full-year Real Estate FFO guidance again."
+    },
+    {
+      "stat": "-$130M",
+      "statColor": "#b8443c",
+      "title": "Paper losses cut GAAP profit",
+      "text": "Unrealized mark-to-market losses of $130M \u2014 on Kl\u00e9pierre exchangeable bonds and a newly public equity holding \u2014 cut net income to $499M from $606M, a $99.6M after-tax drag of $0.27 per share."
+    },
+    {
+      "stat": "$2.30",
+      "statColor": "#3d7bc8",
+      "title": "Dividend raised",
+      "text": "The quarterly dividend rises to $2.30 per share, up 4.5% year over year, payable December 31. Simon also bought back $237M of stock in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "$129.6M of unrealized mark-to-market losses on publicly traded equity instruments and derivatives (Kl\u00e9pierre exchangeable bonds and a revalued equity security) \u2014 $99.6M after tax, or $0.27 per share."
+  ],
+  "otherDetail": "Other income of -$262M is interest expense of $288M and an $8M loss on disposal/revaluation of equity interests, partly offset by $153M of income from unconsolidated entities and an $11M gain on acquisitions, sales and recoveries. The $23M tax benefit is shown separately.",
+  "footerNote": "Consolidated net income was $565M; after $66M for noncontrolling interests (mainly Operating Partnership unitholders) and preferred dividends, $499M was attributable to common stockholders. Totals use $1,814M of revenue (statement: $1,814.6M) so the rounded pieces sum exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123325/tm2627777d2_ex99-1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Lease income",
+      "amount": 92.67
+    },
+    {
+      "label": "Management fees & other revenues",
+      "amount": 2.54
+    },
+    {
+      "label": "Other income (revenue)",
+      "amount": 4.8
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -9.98
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -28.17
+    },
+    {
+      "label": "Real estate taxes",
+      "amount": -6.95
+    },
+    {
+      "label": "Other operating costs",
+      "amount": -9.98
+    },
+    {
+      "label": "SG&A",
+      "amount": -0.61
+    },
+    {
+      "label": "Other income",
+      "amount": -14.44
+    },
+    {
+      "label": "Noncontrolling interests & preferred",
+      "amount": -3.64
+    },
+    {
+      "label": "Tax",
+      "amount": 1.27
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.51
+    }
+  ]
+}

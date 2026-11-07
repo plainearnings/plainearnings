@@ -1,0 +1,145 @@
+{
+  "ticker": "STX",
+  "company": "Seagate Technology",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-27",
+  "verdict": "Seagate's revenue surged 61% to $4.2B and gross margin hit 57% as data-center customers paid up for high-capacity drives \u2014 profit more than tripled to $1.76B and free cash flow set a September-quarter record.",
+  "revenueYoY": "+61%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+61%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.59",
+      "note": "vs $2.43 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1,479M",
+      "note": "a September-quarter record; cash flow from operations was $1,690M"
+    },
+    {
+      "label": "Gross margin",
+      "value": "57.3%",
+      "note": "up from 39.4% a year ago, on pricing and a shift to higher-capacity drives"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 3429,
+      "yoy": "+63%",
+      "note": "Drives for cloud and enterprise data centers \u2014 81% of revenue, as reported in the 10-Q market mix, as AI-driven storage demand and pricing lifted sales."
+    },
+    {
+      "name": "Edge IoT",
+      "amountM": 804,
+      "yoy": "+53%",
+      "note": "Storage for industrial and consumer uses closer to where data is created \u2014 19% of revenue, as reported in the 10-Q market mix."
+    }
+  ],
+  "flow": {
+    "revenueM": 4233,
+    "costOfRevenueM": 1806,
+    "grossProfitM": 2427,
+    "opex": [
+      {
+        "name": "Product development",
+        "amountM": 200,
+        "note": "Engineering the next generations of high-capacity drives, including HAMR technology."
+      },
+      {
+        "name": "Marketing & administrative",
+        "amountM": 159,
+        "note": "Marketing and administrative costs of running the company."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 4,
+        "note": "Restructuring and other charges, net \u2014 small this quarter."
+      }
+    ],
+    "operatingIncomeM": 2064,
+    "otherIncomeM": -82,
+    "taxM": 221,
+    "netIncomeM": 1761
+  },
+  "footerNote": "Seagate reports its revenue mix by market as percentages (Data Center 81%, Edge IoT 19% in the 10-Q); the dollar amounts shown apply those reported percentages to total revenue. Segment growth rates are derived the same way from the year-ago mix of 80% / 20%.",
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 81.01
+    },
+    {
+      "label": "Edge IoT",
+      "amount": 18.99
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.66
+    },
+    {
+      "label": "Product development",
+      "amount": -4.72
+    },
+    {
+      "label": "Marketing & administrative",
+      "amount": -3.76
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.09
+    },
+    {
+      "label": "Other income",
+      "amount": -1.94
+    },
+    {
+      "label": "Tax",
+      "amount": -5.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 41.6
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+61%",
+      "statColor": "#3d7bc8",
+      "title": "Pricing, not just volume, drove growth",
+      "text": "Revenue rose $1.6B year over year, mainly on favorable pricing and more nearline exabytes shipped (198 of 220 total) as data-center demand for mass-capacity drives strengthened."
+    },
+    {
+      "stat": "57.3%",
+      "statColor": "#3e8e5a",
+      "title": "Margins transformed",
+      "text": "Gross margin jumped from 39.4% to 57.3% in a year on pricing and a mix shift to higher-capacity HAMR-based drives, turning the revenue surge into $1,761M of net income."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#5b6b7c",
+      "title": "Cash is being used to cut debt",
+      "text": "Seagate retired about $1.2B of debt in the quarter, cutting gross debt to $2.4B (and $1.6B after a further $750M retirement in October), while still returning $568M to shareholders."
+    }
+  ],
+  "oneTimers": [
+    "$44M net loss from debt transactions, from retiring about $1.2B of debt principal during the quarter.",
+    "Restructuring and other charges were $4M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+    }
+  ]
+}

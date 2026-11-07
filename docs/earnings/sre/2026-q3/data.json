@@ -1,0 +1,168 @@
+{
+  "ticker": "SRE",
+  "company": "Sempra",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Sempra's profit jumped to $877M from $77M a year ago \u2014 mostly because last year's quarter was crushed by a $514M tax charge on a planned stake sale, while this year added a gain on selling Ecogas, partly offset by a $205M regulatory disallowance in California.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.34",
+      "note": "vs $0.12 a year ago, when a $514M held-for-sale tax charge hit earnings"
+    },
+    {
+      "label": "Equity earnings",
+      "value": "$668M",
+      "note": "profit from stakes in other companies, mainly Texas utility Oncor, which set a record 33.3 GW peak demand"
+    },
+    {
+      "label": "Capital invested",
+      "value": "~$10B",
+      "note": "invested in utility infrastructure in the first nine months of 2026 \u2014 money spent on buildings and equipment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Sempra California",
+      "amountM": 2733,
+      "yoy": "+5%",
+      "note": "San Diego Gas & Electric and SoCalGas \u2014 regulated gas and electric utilities serving Southern California; the bulk of the company's sales."
+    },
+    {
+      "name": "Sempra Infrastructure",
+      "amountM": 474,
+      "yoy": "-15%",
+      "note": "Energy infrastructure in Mexico and LNG export projects, including Port Arthur LNG \u2014 revenue fell as the Ecogas business was sold in August."
+    },
+    {
+      "name": "Parent, other & eliminations",
+      "amountM": -16,
+      "yoy": "",
+      "note": "Corporate items and sales between the company's own businesses, removed so revenue is not counted twice. Sempra Texas Utilities (the Oncor stake) reports no consolidated revenue \u2014 its profit arrives as equity earnings below."
+    }
+  ],
+  "flow": {
+    "revenueM": 3191,
+    "costOfRevenueM": 470,
+    "grossProfitM": 2721,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 1219,
+        "note": "Day-to-day cost of running the gas and electric networks and the energy businesses."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 632,
+        "note": "Spreading the cost of pipes, wires and plants over their working lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "Franchise fees & other taxes",
+        "amountM": 214,
+        "note": "Franchise fees and taxes other than income tax."
+      },
+      {
+        "name": "Regulatory disallowances",
+        "amountM": 205,
+        "note": "Costs California regulators disallowed from past years after proposed decisions in the 2024 rate case \u2014 a one-off charge this quarter."
+      }
+    ],
+    "operatingIncomeM": 451,
+    "otherIncomeM": 9,
+    "taxM": 14,
+    "netIncomeM": 877,
+    "equityM": 431
+  },
+  "otherDetail": "Net other income of $9M combines a $214M gain on sales (including the sale of Ecogas in Mexico), $58M of other income and $35M of interest income, minus $298M of interest expense.",
+  "footerNote": "Consolidated net income was $1,114M. The $877M shown is earnings attributable to common shares, after $231M attributable to noncontrolling interests and $6M of subsidiary preferred deemed dividends. The equity line of $431M is $668M of equity earnings (mainly Oncor) minus those $237M of attributions.",
+  "follow100": [
+    {
+      "label": "Sempra California",
+      "amount": 85.65
+    },
+    {
+      "label": "Sempra Infrastructure",
+      "amount": 14.85
+    },
+    {
+      "label": "Parent, other & eliminations",
+      "amount": -0.5
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -14.73
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -38.2
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -19.81
+    },
+    {
+      "label": "Franchise fees & other taxes",
+      "amount": -6.71
+    },
+    {
+      "label": "Regulatory disallowances",
+      "amount": -6.42
+    },
+    {
+      "label": "Other income",
+      "amount": 0.28
+    },
+    {
+      "label": "Equity earnings, net",
+      "amount": 13.51
+    },
+    {
+      "label": "Tax",
+      "amount": -0.44
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.48
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.34",
+      "statColor": "#3d7bc8",
+      "title": "The year-ago comparison does the heavy lifting",
+      "text": "GAAP EPS rose from $0.12 to $1.34, but a year ago earnings carried a $514M tax charge for classifying Sempra Infrastructure Partners as held for sale. Adjusted EPS, which strips these items out, rose more modestly from $1.11 to $1.40."
+    },
+    {
+      "stat": "$205M",
+      "statColor": "#b8443c",
+      "title": "California disallowance bites",
+      "text": "Regulators' proposed decisions in the 2024 rate case produced a $205M pre-tax disallowance charge ($149M after tax) at the California utilities \u2014 a reminder that regulated returns depend on regulatory outcomes."
+    },
+    {
+      "stat": "33.3 GW",
+      "statColor": "#3e8e5a",
+      "title": "Texas demand keeps setting records",
+      "text": "Oncor, Sempra's Texas utility stake, hit an all-time peak demand of 33.3 GW, up 6% on last year's record, and now expects its next five-year capital plan to rise about 20% to keep up with load growth."
+    }
+  ],
+  "oneTimers": [
+    "$205M pre-tax regulatory disallowance charge at Sempra California ($149M after tax) from proposed decisions in the 2024 General Rate Case.",
+    "Gain on the sale of Ecogas in Mexico \u2014 $97M after tax (part of $214M of pre-tax gains on sales).",
+    "$65M favorable impact from foreign currency and inflation on monetary positions in Mexico, and $67M of net unrealized losses on commodity derivatives.",
+    "A year ago, earnings included a $514M tax charge from classifying Sempra Infrastructure Partners as held for sale \u2014 the main reason GAAP profit looks so much higher this year."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000051/ex99_1x20260930xearningsta.htm"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "ticker": "STT",
+  "company": "State Street",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-14",
+  "verdict": "State Street posted record servicing and management fees as total revenue rose 13% to $4.0B and net interest income jumped 21% \u2014 profit rose 27% to $1.09B, with no notable items muddying the quarter.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "vs a year ago, to a $4,004M total"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.69",
+      "note": "vs $2.78 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$864M",
+      "note": "+21% YoY, as net interest margin widened 16 basis points to 1.12%"
+    },
+    {
+      "label": "Assets under custody",
+      "value": "$59.2T",
+      "note": "assets under custody and/or administration; $6.3T under management"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Servicing fees",
+      "amountM": 1492,
+      "yoy": "+10%",
+      "note": "Fees for custody and administration of clients' assets \u2014 a record quarter, with $59.2 trillion under custody and/or administration."
+    },
+    {
+      "name": "Net interest income",
+      "amountM": 864,
+      "yoy": "+21%",
+      "note": "Interest earned on loans and securities minus interest paid \u2014 up 21% as the net interest margin widened to 1.12%."
+    },
+    {
+      "name": "Management fees",
+      "amountM": 797,
+      "yoy": "+20%",
+      "note": "Fees for managing $6.3 trillion of client assets \u2014 a record, driven by higher market levels and $69B of long-term inflows."
+    },
+    {
+      "name": "FX trading services",
+      "amountM": 427,
+      "yoy": "+17%",
+      "note": "Foreign-exchange trading for clients \u2014 record client volumes drove a 17% increase."
+    },
+    {
+      "name": "Software services",
+      "amountM": 175,
+      "yoy": "+5%",
+      "note": "Software and data for investment managers, including the Charles River platform."
+    },
+    {
+      "name": "Securities finance",
+      "amountM": 151,
+      "yoy": "+9%",
+      "note": "Lending clients' securities and related prime services, on higher client lending balances."
+    },
+    {
+      "name": "Other fee revenue",
+      "amountM": 98,
+      "yoy": "-29%",
+      "note": "Remaining fee income \u2014 down 29% on market-related adjustments."
+    }
+  ],
+  "flow": {
+    "revenueM": 4004,
+    "costOfRevenueM": -4,
+    "grossProfitM": 4008,
+    "opex": [
+      {
+        "name": "Compensation",
+        "amountM": 1251,
+        "note": "Pay and benefits \u2014 the bank's biggest cost, up 8% on incentive pay, hiring and merit increases."
+      },
+      {
+        "name": "Information systems",
+        "amountM": 594,
+        "note": "Information systems and communications \u2014 up 15% on technology and infrastructure investment."
+      },
+      {
+        "name": "Transaction processing",
+        "amountM": 286,
+        "note": "Transaction processing services \u2014 the cost of processing clients' trades and payments."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 102,
+        "note": "Offices and premises, down 4% as the bank shrinks its real-estate footprint."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 387,
+        "note": "All remaining costs, including professional fees and revenue-related expenses."
+      }
+    ],
+    "operatingIncomeM": 1388,
+    "otherIncomeM": 0,
+    "taxM": 298,
+    "netIncomeM": 1090
+  },
+  "footerNote": "For a custodian bank, the provision for credit losses plays the role of cost of revenue \u2014 this quarter it was a $4M release (a small negative cost) after commercial loan sales and repayments. State Street reported no notable items in the quarter.",
+  "follow100": [
+    {
+      "label": "Servicing fees",
+      "amount": 37.26
+    },
+    {
+      "label": "Net interest income",
+      "amount": 21.58
+    },
+    {
+      "label": "Management fees",
+      "amount": 19.91
+    },
+    {
+      "label": "FX trading services",
+      "amount": 10.66
+    },
+    {
+      "label": "Software services",
+      "amount": 4.37
+    },
+    {
+      "label": "Securities finance",
+      "amount": 3.77
+    },
+    {
+      "label": "Other fee revenue",
+      "amount": 2.45
+    },
+    {
+      "label": "Credit costs",
+      "amount": 0.1
+    },
+    {
+      "label": "Compensation",
+      "amount": -31.24
+    },
+    {
+      "label": "Information systems",
+      "amount": -14.84
+    },
+    {
+      "label": "Transaction processing",
+      "amount": -7.14
+    },
+    {
+      "label": "Occupancy",
+      "amount": -2.55
+    },
+    {
+      "label": "Other expenses",
+      "amount": -9.67
+    },
+    {
+      "label": "Tax",
+      "amount": -7.44
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.22
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Interest income surges",
+      "text": "Net interest income rose 21% to $864M as the margin on earning assets widened by 16 basis points \u2014 the single biggest contributor to the 13% revenue growth."
+    },
+    {
+      "stat": "$59.2T",
+      "statColor": "#3e8e5a",
+      "title": "Record fees on record assets",
+      "text": "Servicing fees rose 10% and management fees 20%, both records, helped by higher market levels \u2014 assets under custody reached $59.2 trillion and assets under management $6.3 trillion."
+    },
+    {
+      "stat": "34.6%",
+      "statColor": "#5b6b7c",
+      "title": "Eleventh straight quarter of operating leverage",
+      "text": "Revenue grew faster than the 8% rise in expenses, expanding the pre-tax margin to 34.6% \u2014 the eleventh consecutive quarter of positive year-over-year operating leverage excluding notable items, of which there were none."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/exhibit992-3q26earningsrel.htm"
+    }
+  ]
+}

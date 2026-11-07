@@ -1,0 +1,164 @@
+{
+  "ticker": "SNA",
+  "company": "Snap-on",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-10-22",
+  "verdict": "Snap-on sales dipped 1% as diesel-price turbulence hit its van channel, but a record quarter in critical industries and firm gross margins kept profit at $243M.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "total revenue $1,282M vs $1,292M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.64",
+      "note": "vs $5.02 a year ago"
+    },
+    {
+      "label": "Commercial & Industrial sales",
+      "value": "$404M",
+      "note": "+10% YoY \u2014 a record quarter"
+    },
+    {
+      "label": "Capital spending",
+      "value": "$25M",
+      "note": "money spent on buildings and equipment in the quarter; ~$100M planned for 2026"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial & Industrial Group",
+      "amountM": 404,
+      "yoy": "+10%",
+      "note": "Tools and equipment for critical industries such as aerospace, military and energy \u2014 a record quarter, up 10% with help from acquisitions."
+    },
+    {
+      "name": "Snap-on Tools Group",
+      "amountM": 471,
+      "yoy": "-7%",
+      "note": "Sales through franchisee vans to vehicle technicians \u2014 down 7% as high diesel prices led franchisees to cut inventories."
+    },
+    {
+      "name": "Repair Systems & Information Group",
+      "amountM": 455,
+      "yoy": "-2%",
+      "note": "Diagnostics, repair information and shop equipment \u2014 down 2% on weaker activity with car dealerships, partly offset by acquisitions."
+    },
+    {
+      "name": "Financial Services",
+      "amountM": 99,
+      "yoy": "-2%",
+      "note": "Interest and fees from financing tools and franchise operations \u2014 roughly flat at $99M."
+    },
+    {
+      "name": "Intersegment eliminations",
+      "amountM": -147,
+      "yoy": "",
+      "note": "Sales between Snap-on's own groups, removed so revenue is not double-counted."
+    }
+  ],
+  "flow": {
+    "revenueM": 1282,
+    "costOfRevenueM": 580,
+    "grossProfitM": 702,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 356,
+        "note": "Day-to-day running costs of the tools, equipment and information businesses."
+      },
+      {
+        "name": "Financial services expenses",
+        "amountM": 30,
+        "note": "Cost of running the financing arm that lends to franchisees and technicians."
+      }
+    ],
+    "operatingIncomeM": 316,
+    "otherIncomeM": 3,
+    "taxM": 69,
+    "netIncomeM": 243,
+    "equityM": -7
+  },
+  "takeaways": [
+    {
+      "stat": "-7%",
+      "statColor": "#b8443c",
+      "title": "The van channel stumbled",
+      "text": "Snap-on Tools Group sales fell 7% to $471M. The company blames an unusually sharp rise in diesel prices, which pushed franchisees to trim inventories even though demand from technicians stayed stable."
+    },
+    {
+      "stat": "+10%",
+      "statColor": "#3e8e5a",
+      "title": "Critical industries set a record",
+      "text": "Commercial & Industrial sales rose 10% to $404M, with operating earnings up 30% to $75M, led by aerospace, military and precision-torque work."
+    },
+    {
+      "stat": "51%",
+      "statColor": "#3d7bc8",
+      "title": "Margins held firm",
+      "text": "Gross profit was $604M on product sales \u2014 about 51% of net sales \u2014 showing pricing and cost discipline even as volumes softened. The year-ago quarter also included a $22M legal-settlement benefit that did not repeat."
+    }
+  ],
+  "otherDetail": "Other income of $3M is $15M of other income minus $13M (rounded) of interest expense.",
+  "footerNote": "Consolidated net earnings were $250M; $7M belonged to noncontrolling interests, leaving $243M attributable to Snap-on shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91440/000009144026000169/q32026pressreleaseforpress.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Commercial & Industrial Group",
+      "amount": 31.51
+    },
+    {
+      "label": "Snap-on Tools Group",
+      "amount": 36.74
+    },
+    {
+      "label": "Repair Systems & Information Group",
+      "amount": 35.49
+    },
+    {
+      "label": "Financial Services",
+      "amount": 7.72
+    },
+    {
+      "label": "Intersegment eliminations",
+      "amount": -11.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -45.24
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -27.77
+    },
+    {
+      "label": "Financial services expenses",
+      "amount": -2.34
+    },
+    {
+      "label": "Other income",
+      "amount": 0.23
+    },
+    {
+      "label": "Noncontrolling interests & preferred",
+      "amount": -0.55
+    },
+    {
+      "label": "Tax",
+      "amount": -5.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.95
+    }
+  ]
+}

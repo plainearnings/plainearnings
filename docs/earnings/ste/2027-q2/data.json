@@ -1,0 +1,151 @@
+{
+  "ticker": "STE",
+  "company": "STERIS",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "STERIS grew revenue 9% to $1.6B as Life Sciences jumped 18% on strong equipment orders, and management raised its full-year outlook \u2014 with a new restructuring plan adding about $25M of charges in the quarter.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "vs a year ago; constant-currency organic growth was 8%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.19",
+      "note": "vs $1.94 a year ago"
+    },
+    {
+      "label": "Life Sciences revenue",
+      "value": "$171M",
+      "note": "+18% YoY, with capital equipment revenue up 53%"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$493M",
+      "note": "for the first half of fiscal 2027, after capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Healthcare",
+      "amountM": 1122,
+      "yoy": "+9%",
+      "note": "Sterilizers, surgical products and services for hospitals \u2014 service revenue and consumables each grew 10%, capital equipment 4%."
+    },
+    {
+      "name": "Applied Sterilization Technologies",
+      "amountM": 296,
+      "yoy": "+5%",
+      "note": "Contract sterilization services for medical-device and pharmaceutical makers, sold under the AST name."
+    },
+    {
+      "name": "Life Sciences",
+      "amountM": 171,
+      "yoy": "+18%",
+      "note": "Equipment and consumables for drug and laboratory production \u2014 capital equipment revenue jumped 53%, the standout of the quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 1589,
+    "costOfRevenueM": 878,
+    "grossProfitM": 711,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 366,
+        "note": "Selling, general and administrative costs \u2014 running sales, service and head-office functions."
+      },
+      {
+        "name": "R&D",
+        "amountM": 32,
+        "note": "Research and development of new sterilization and infection-prevention products."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 19,
+        "note": "Restructuring expenses recorded in the quarter as STERIS realigns facilities and its product range."
+      }
+    ],
+    "operatingIncomeM": 294,
+    "otherIncomeM": -6,
+    "taxM": 74,
+    "netIncomeM": 214
+  },
+  "footerNote": "STERIS reports in tenths of a million dollars; figures here are rounded to the nearest $1M. Net income of $214M is after $0.4M attributable to noncontrolling interests, which rounds to zero at this scale.",
+  "follow100": [
+    {
+      "label": "Healthcare",
+      "amount": 70.61
+    },
+    {
+      "label": "Applied Sterilization Technologies",
+      "amount": 18.63
+    },
+    {
+      "label": "Life Sciences",
+      "amount": 10.76
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -55.25
+    },
+    {
+      "label": "SG&A",
+      "amount": -23.03
+    },
+    {
+      "label": "R&D",
+      "amount": -2.01
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.2
+    },
+    {
+      "label": "Other income",
+      "amount": -0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -4.66
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.47
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3e8e5a",
+      "title": "Life Sciences leads the quarter",
+      "text": "Life Sciences revenue rose 18% to $171M as capital equipment sales jumped 53%, and its operating income climbed to $76M \u2014 strong enough for STERIS to raise the segment's full-year expectations."
+    },
+    {
+      "stat": "$1,122M",
+      "statColor": "#3d7bc8",
+      "title": "Healthcare stays the core",
+      "text": "Healthcare, about 71% of revenue, grew 9% to $1,122M on 10% growth in both services and consumables, with operating income of $269M."
+    },
+    {
+      "stat": "~$25M",
+      "statColor": "#5b6b7c",
+      "title": "A new restructuring plan starts",
+      "text": "STERIS approved another targeted restructuring \u2014 facility realignment and product rationalization, mainly in Healthcare \u2014 booking about $25M of charges in the quarter toward an expected $45M total, for about $9M of annual savings."
+    }
+  ],
+  "oneTimers": [
+    "About $25M of restructuring charges in the quarter, including a new targeted plan (facility realignment, product rationalization and organizational changes, mainly in Healthcare) expected to cost about $45M in total, of which about $10M is cash.",
+    "Amortization of acquired intangible assets was $65M in the quarter \u2014 a non-cash cost of past acquisitions that STERIS excludes from its adjusted results."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026070220/ste9302026ex991.htm"
+    }
+  ]
+}

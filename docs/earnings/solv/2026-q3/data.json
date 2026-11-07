@@ -1,0 +1,161 @@
+{
+  "ticker": "SOLV",
+  "company": "Solventum",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Solventum posted a small $12M GAAP loss as sales fell 7% on an expected ERP-cutover reversal and separation costs piled up \u2014 but adjusted EPS was $1.45 and full-year guidance was raised.",
+  "revenueYoY": "-7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-7%",
+      "note": "reported; -2.8% organic, reflecting advance orders pulled into Q2"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.07",
+      "note": "vs $7.22 a year ago, which included a $1,518M divestiture gain"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.45",
+      "note": "vs $1.50 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$97M",
+      "note": "operating cash flow minus money spent on buildings and equipment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advanced Wound Care",
+      "amountM": 528,
+      "yoy": "+9%",
+      "note": "Wound dressings, negative-pressure therapy and skin care \u2014 up 9%, helped by the Acera Surgical acquisition."
+    },
+    {
+      "name": "Infection Prevention & Surgical Solutions",
+      "amountM": 683,
+      "yoy": "-5%",
+      "note": "Sterilization, surgical supplies, tapes and temperature management \u2014 down 5% as advance orders reversed."
+    },
+    {
+      "name": "Dental Solutions",
+      "amountM": 317,
+      "yoy": "-7%",
+      "note": "Dental and orthodontic products \u2014 down 7% in the ERP-cutover quarter."
+    },
+    {
+      "name": "Health Information Systems",
+      "amountM": 356,
+      "yoy": "+3%",
+      "note": "Software that helps hospitals document care and bill \u2014 up 3%, the most software-like, highest-margin business."
+    },
+    {
+      "name": "All Other",
+      "amountM": 65,
+      "yoy": "-16%",
+      "note": "Drinking-water filtration and supply deals inherited from 3M \u2014 down 16% (includes a $1M rounding adjustment so segments sum to total sales)."
+    }
+  ],
+  "flow": {
+    "revenueM": 1949,
+    "costOfRevenueM": 887,
+    "grossProfitM": 1062,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 813,
+        "note": "Sales, admin and a heavy load of restructuring and 3M separation costs this quarter."
+      },
+      {
+        "name": "R&D",
+        "amountM": 181,
+        "note": "Developing wound-care, dental and health-software products."
+      }
+    ],
+    "operatingIncomeM": 68,
+    "otherIncomeM": -79,
+    "taxM": 1,
+    "netIncomeM": -12
+  },
+  "takeaways": [
+    {
+      "stat": "-2.8%",
+      "statColor": "#5b6b7c",
+      "title": "The sales dip was pre-announced",
+      "text": "Organic sales fell 2.8%, reflecting a 6.3-point reversal of advance orders customers placed in Q2 ahead of the ERP system cutover, which is now complete."
+    },
+    {
+      "stat": "$387M",
+      "statColor": "#3d7bc8",
+      "title": "Underlying profit is far above GAAP",
+      "text": "Adjusted operating income was $387M (19.9% of sales) versus $68M GAAP. The gap is amortization ($90M), restructuring ($50M) and 3M spin-off/separation costs ($157M)."
+    },
+    {
+      "stat": "$1,518M",
+      "statColor": "#b8443c",
+      "title": "Last year's comparison is distorted",
+      "text": "A year ago GAAP EPS was $7.22 because of a $1,518M gain on selling the Purification & Filtration business. That business is gone, which also removes $128M of quarterly sales from the comparison."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring ($50M), 3M spin-off and separation costs ($157M) and acquisition-related items weighed on GAAP operating income; adjusted operating income was $387M vs $68M GAAP.",
+    "Year-ago results included a $1,518M gain on the sale of the Purification & Filtration business."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000055/q32026-8kerexx991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Advanced Wound Care",
+      "amount": 27.09
+    },
+    {
+      "label": "Infection Prevention & Surgical Solutions",
+      "amount": 35.04
+    },
+    {
+      "label": "Dental Solutions",
+      "amount": 16.26
+    },
+    {
+      "label": "Health Information Systems",
+      "amount": 18.27
+    },
+    {
+      "label": "All Other",
+      "amount": 3.34
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -45.51
+    },
+    {
+      "label": "SG&A",
+      "amount": -41.71
+    },
+    {
+      "label": "R&D",
+      "amount": -9.29
+    },
+    {
+      "label": "Other income",
+      "amount": -4.05
+    },
+    {
+      "label": "Tax",
+      "amount": -0.05
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -0.62
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "SNDK",
+  "company": "Sandisk",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-29",
+  "verdict": "Sandisk revenue exploded 378% to $11.0B and net income hit $8.1B as AI data-center demand sent flash-memory prices and margins soaring \u2014 gross margin reached 85%.",
+  "revenueYoY": "+378%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+378%",
+      "note": "vs $2,308M a year ago; +23% vs last quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$52.60",
+      "note": "vs $0.75 a year ago (pre-split basis)"
+    },
+    {
+      "label": "Datacenter revenue",
+      "value": "$4.8B",
+      "note": "+61% vs last quarter"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$6,309M",
+      "note": "operating cash flow minus money spent on buildings and equipment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Datacenter",
+      "amountM": 4802,
+      "yoy": "+1685%",
+      "note": "Memory for AI data centers \u2014 up 61% in just one quarter and now the growth engine, from only $269M a year ago."
+    },
+    {
+      "name": "Edge",
+      "amountM": 5832,
+      "yoy": "+320%",
+      "note": "Memory built into cars, industrial gear, PCs and other devices at the 'edge' \u2014 the largest end market this quarter."
+    },
+    {
+      "name": "Consumer",
+      "amountM": 397,
+      "yoy": "-39%",
+      "note": "Memory cards and USB drives sold in shops \u2014 down 39% as the company prioritizes higher-value data-center and edge demand."
+    }
+  ],
+  "flow": {
+    "revenueM": 11031,
+    "costOfRevenueM": 1653,
+    "grossProfitM": 9378,
+    "opex": [
+      {
+        "name": "R&D",
+        "amountM": 384,
+        "note": "Developing new flash-memory products and controllers."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 214,
+        "note": "Sales, marketing and head-office costs \u2014 remarkably lean next to $11.0B of revenue."
+      }
+    ],
+    "operatingIncomeM": 8780,
+    "otherIncomeM": 539,
+    "taxM": 1218,
+    "netIncomeM": 8101
+  },
+  "takeaways": [
+    {
+      "stat": "85%",
+      "statColor": "#3e8e5a",
+      "title": "Margins are extraordinary",
+      "text": "Gross margin was 85.0%, up from 29.8% a year ago. Scarce flash supply and long-term customer deals let Sandisk keep almost every sales dollar after production costs."
+    },
+    {
+      "stat": "$5.0B",
+      "statColor": "#3d7bc8",
+      "title": "Cash is pouring back to owners",
+      "text": "Sandisk spent $5.0B buying back about 3.2M shares in the quarter and announced an 8-for-1 stock split effective November 19, 2026."
+    },
+    {
+      "stat": "$513M",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain flatters profit",
+      "text": "Net income includes a $513M mark-to-market gain on equity securities. Excluding it and stock pay, non-GAAP EPS was $49.51 versus the GAAP $52.60."
+    }
+  ],
+  "oneTimers": [
+    "$513M gain on equity securities (mark-to-market) inside other income \u2014 excluded from Sandisk's non-GAAP results."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndkq1-27ex991xpressrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Datacenter",
+      "amount": 43.53
+    },
+    {
+      "label": "Edge",
+      "amount": 52.87
+    },
+    {
+      "label": "Consumer",
+      "amount": 3.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -14.99
+    },
+    {
+      "label": "R&D",
+      "amount": -3.48
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.94
+    },
+    {
+      "label": "Other income",
+      "amount": 4.89
+    },
+    {
+      "label": "Tax",
+      "amount": -11.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 73.44
+    }
+  ]
+}

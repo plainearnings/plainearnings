@@ -1,0 +1,159 @@
+{
+  "ticker": "SNPS",
+  "company": "Synopsys",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "verdict": "Synopsys revenue jumped 42% to $2.48B a year after buying Ansys, but heavy deal amortization and interest costs held GAAP profit to $546M \u2014 non-GAAP EPS of $3.91 shows the underlying run-rate.",
+  "revenueYoY": "+42%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+42%",
+      "note": "vs $1,740M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.84",
+      "note": "vs $1.50 a year ago"
+    },
+    {
+      "label": "Design Automation revenue",
+      "value": "$2.0B",
+      "note": "+53% YoY, incl. Ansys"
+    },
+    {
+      "label": "Free cash flow (9 months)",
+      "value": "$2,143M",
+      "note": "operating cash flow minus money spent on buildings and equipment, first nine months"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Design Automation",
+      "amountM": 2003,
+      "yoy": "+53%",
+      "note": "Chip-design (EDA) software, verification hardware and Ansys simulation tools \u2014 81% of revenue, up 53% a year after the Ansys deal closed."
+    },
+    {
+      "name": "Design IP",
+      "amountM": 474,
+      "yoy": "+11%",
+      "note": "Ready-made chip building blocks (IP) licensed to designers \u2014 back to growth, up 11%."
+    }
+  ],
+  "flow": {
+    "revenueM": 2477,
+    "costOfRevenueM": 680,
+    "grossProfitM": 1797,
+    "opex": [
+      {
+        "name": "R&D",
+        "amountM": 720,
+        "note": "Engineering the chip-design and simulation software \u2014 the biggest cost, swollen by the Ansys combination."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 386,
+        "note": "Selling design software and IP to chipmakers worldwide."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 177,
+        "note": "General and administrative costs (shown as G&A in the filing)."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 155,
+        "note": "Non-cash write-down of technology and customer assets bought in deals, mostly Ansys.",
+        "shortName": "Amortization"
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 2,
+        "note": "Small restructuring charge in the quarter; $236M was taken over the first nine months."
+      }
+    ],
+    "operatingIncomeM": 357,
+    "otherIncomeM": 327,
+    "taxM": 138,
+    "netIncomeM": 546
+  },
+  "takeaways": [
+    {
+      "stat": "+42%",
+      "statColor": "#3d7bc8",
+      "title": "Ansys transformed the scale",
+      "text": "Revenue rose 42% to $2,477M, with Design Automation up 53%. Management raised full-year revenue guidance to about $9.72B at the midpoint."
+    },
+    {
+      "stat": "$402M",
+      "statColor": "#5b6b7c",
+      "title": "Deal costs hide in GAAP profit",
+      "text": "Amortization of bought intangibles was $402M in the quarter ($155M in operating expenses, the rest in cost of revenue) and stock pay $232M \u2014 the main gap between GAAP EPS of $2.84 and non-GAAP EPS of $3.91."
+    },
+    {
+      "stat": "$460M",
+      "statColor": "#3e8e5a",
+      "title": "Other income did heavy lifting",
+      "text": "Other income of $460M, helped by gains on business divestitures (about $381M over nine months), offset $133M of interest expense on acquisition debt."
+    }
+  ],
+  "oneTimers": [
+    "Gains on divestitures of about $381M (net, nine months) sit inside other income; the non-GAAP reconciliation removes a net $403M of acquisition/divestiture-related items this quarter.",
+    "Amortization of acquired intangible assets was $402M and restructuring charges $236M over the first nine months, largely from the Ansys acquisition."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Design Automation",
+      "amount": 80.86
+    },
+    {
+      "label": "Design IP",
+      "amount": 19.14
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.45
+    },
+    {
+      "label": "R&D",
+      "amount": -29.07
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -15.58
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.15
+    },
+    {
+      "label": "Amortization",
+      "amount": -6.26
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.08
+    },
+    {
+      "label": "Other income",
+      "amount": 13.2
+    },
+    {
+      "label": "Tax",
+      "amount": -5.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.04
+    }
+  ]
+}

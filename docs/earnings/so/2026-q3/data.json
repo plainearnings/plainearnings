@@ -1,0 +1,188 @@
+{
+  "ticker": "SO",
+  "company": "Southern Company",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Southern Company profit rose 20% to $2.0B as warmer weather, customer growth and large data-center-style loads lifted Southeast electricity sales 7% and revenue 13%.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "operating revenues $8,843M vs $7,823M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.76",
+      "note": "diluted; vs $1.54 a year ago (basic $1.77 vs $1.55)"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.94",
+      "note": "excluding repowering, debt-extinguishment and other flagged items"
+    },
+    {
+      "label": "Electricity sold",
+      "value": "60.8B kWh",
+      "note": "total sales +7.3% YoY; retail +7.7%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Retail electricity \u2014 non-fuel",
+      "amountM": 5132,
+      "yoy": "+16%",
+      "note": "The base price households and businesses pay for electricity, excluding fuel pass-through \u2014 the largest line, up 16% on rates, usage and customer growth."
+    },
+    {
+      "name": "Retail electricity \u2014 fuel",
+      "amountM": 1491,
+      "yoy": "+18%",
+      "note": "Fuel costs passed through to retail customers \u2014 up 18% with generation and fuel prices."
+    },
+    {
+      "name": "Wholesale electricity",
+      "amountM": 873,
+      "yoy": "+5%",
+      "note": "Power sold to other utilities and markets \u2014 up 5%."
+    },
+    {
+      "name": "Natural gas",
+      "amountM": 773,
+      "yoy": "+5%",
+      "note": "Gas distribution to homes and businesses in four states \u2014 up 5%."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 345,
+      "yoy": "+20%",
+      "note": "Distributed energy, fiber, telecom and other services \u2014 up 20%."
+    },
+    {
+      "name": "Other electric revenues",
+      "amountM": 229,
+      "yoy": "-13%",
+      "note": "Miscellaneous electric revenues \u2014 down 13%."
+    }
+  ],
+  "flow": {
+    "revenueM": 8843,
+    "costOfRevenueM": 2117,
+    "grossProfitM": 6726,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 1848,
+        "note": "Non-fuel cost of running power plants, wires and gas networks \u2014 up on growth and storm and service work."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1444,
+        "note": "Spreading the cost of power plants and grids over their lives; includes $118M of accelerated charges for wind repowering.",
+        "shortName": "Depreciation & amortization"
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 434,
+        "note": "Property and other non-income taxes."
+      }
+    ],
+    "operatingIncomeM": 3000,
+    "otherIncomeM": -454,
+    "taxM": 472,
+    "netIncomeM": 2046,
+    "equityM": -28
+  },
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "The Southeast is booming",
+      "text": "Revenue rose 13% to $8,843M. Retail electricity sales rose 7.7%, with commercial sales up 10.1% on large customers \u2014 management calls Southeast growth 'unprecedented and transformational'."
+    },
+    {
+      "stat": "$1.94",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted profit beat the headline",
+      "text": "Excluding flagged items, EPS was $1.94 versus GAAP diluted EPS of $1.76. The gap is mainly $118M of accelerated wind-repowering depreciation and debt-extinguishment costs."
+    },
+    {
+      "stat": "$842M",
+      "statColor": "#5b6b7c",
+      "title": "Interest is the big drag below the line",
+      "text": "Interest expense of $842M \u2014 funding a huge build-out of generation and grid \u2014 was partly offset by $140M of allowance for funds used during construction and $77M of equity earnings."
+    }
+  ],
+  "oneTimers": [
+    "$118M pre-tax accelerated depreciation and decommissioning for repowering Southern Power wind facilities ($92M after tax).",
+    "$43M of debt-extinguishment costs, plus a $57M change in related tax benefits, and a $9M estimated loss on disallowed Nicor Gas capital investments."
+  ],
+  "otherDetail": "Other income of -$454M is interest expense of $842M, partly offset by $140M allowance for equity funds used during construction, $77M of earnings from equity investments and $171M of other income.",
+  "footerNote": "Consolidated net income was $2,074M; $28M belonged to noncontrolling interests, leaving $2,046M attributable to Southern Company common shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000071/ex99-pressreleaseq32026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Retail electricity \u2014 non-fuel",
+      "amount": 58.03
+    },
+    {
+      "label": "Retail electricity \u2014 fuel",
+      "amount": 16.86
+    },
+    {
+      "label": "Wholesale electricity",
+      "amount": 9.87
+    },
+    {
+      "label": "Natural gas",
+      "amount": 8.74
+    },
+    {
+      "label": "Other revenues",
+      "amount": 3.9
+    },
+    {
+      "label": "Other electric revenues",
+      "amount": 2.59
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.94
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": -20.9
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -16.33
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -4.91
+    },
+    {
+      "label": "Other income",
+      "amount": -5.13
+    },
+    {
+      "label": "Noncontrolling interests & preferred",
+      "amount": -0.32
+    },
+    {
+      "label": "Tax",
+      "amount": -5.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.14
+    }
+  ]
+}

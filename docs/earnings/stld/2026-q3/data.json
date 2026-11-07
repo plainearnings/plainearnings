@@ -1,0 +1,169 @@
+{
+  "ticker": "STLD",
+  "company": "Steel Dynamics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-19",
+  "verdict": "Steel Dynamics nearly doubled operating income to $1.0B as steel prices rose, scrap costs fell and shipments hit a record 3.8 million tons \u2014 sales jumped 35% to $6.5B.",
+  "revenueYoY": "+35%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+35%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.26",
+      "note": "vs $2.74 a year ago"
+    },
+    {
+      "label": "Steel operating income",
+      "value": "$1,033M",
+      "note": "up 43% from the prior quarter, on record shipments and wider metal spreads"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "$846M",
+      "note": "capital spending was $150M in the quarter \u2014 money spent on buildings and equipment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Steel operations",
+      "amountM": 4350,
+      "yoy": "+23%",
+      "note": "Making and selling steel \u2014 record shipments of 3.8 million tons and an average external selling price of $1,400 per ton drove the jump."
+    },
+    {
+      "name": "Other",
+      "amountM": 602,
+      "yoy": "+88%",
+      "note": "Smaller businesses outside the four main platforms, as classified in the company's supplemental sales table."
+    },
+    {
+      "name": "Metals recycling",
+      "amountM": 615,
+      "yoy": "+18%",
+      "note": "Collecting and processing scrap metal, which both feeds the company's own mills and is sold to others."
+    },
+    {
+      "name": "Aluminum",
+      "amountM": 476,
+      "yoy": "+569%",
+      "note": "The new aluminum flat-rolled products mill, still ramping up \u2014 sales rose from just $71M a year ago as production started."
+    },
+    {
+      "name": "Steel fabrication",
+      "amountM": 466,
+      "yoy": "+23%",
+      "note": "Steel joists and deck for construction \u2014 shipments rose 18% from the prior quarter and the order backlog is 50% higher than a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 6509,
+    "costOfRevenueM": 5227,
+    "grossProfitM": 1282,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 187,
+        "note": "Selling, general and administrative costs of running the company."
+      },
+      {
+        "name": "Profit sharing",
+        "amountM": 81,
+        "note": "Profit-sharing payments to employees, which rise and fall with the company's earnings."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 8,
+        "note": "Amortization of intangible assets from past acquisitions \u2014 a non-cash charge."
+      }
+    ],
+    "operatingIncomeM": 1006,
+    "otherIncomeM": -27,
+    "taxM": 223,
+    "netIncomeM": 756
+  },
+  "follow100": [
+    {
+      "label": "Steel operations",
+      "amount": 66.83
+    },
+    {
+      "label": "Other",
+      "amount": 9.25
+    },
+    {
+      "label": "Metals recycling",
+      "amount": 9.45
+    },
+    {
+      "label": "Aluminum",
+      "amount": 7.31
+    },
+    {
+      "label": "Steel fabrication",
+      "amount": 7.16
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.3
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.87
+    },
+    {
+      "label": "Profit sharing",
+      "amount": -1.24
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.12
+    },
+    {
+      "label": "Other income",
+      "amount": -0.41
+    },
+    {
+      "label": "Tax",
+      "amount": -3.43
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "3.8M tons",
+      "statColor": "#3d7bc8",
+      "title": "Record shipments meet better prices",
+      "text": "Steel operations shipped a record 3.8 million tons at $1,400 per ton while scrap costs eased, lifting steel operating income 43% from the prior quarter to $1,033M."
+    },
+    {
+      "stat": "$476M",
+      "statColor": "#3e8e5a",
+      "title": "Aluminum is becoming real revenue",
+      "text": "Aluminum sales jumped from $71M to $476M as the new flat-rolled mill ramped up. It still lost $26M in the quarter on startup costs, though it was breakeven before depreciation."
+    },
+    {
+      "stat": "$846M",
+      "statColor": "#5b6b7c",
+      "title": "Cash funds buybacks and growth",
+      "text": "Operations generated $846M of cash; the company spent $150M on capital projects, paid $76M of dividends and repurchased $276M of its own shares, keeping $2.4B of liquidity."
+    }
+  ],
+  "oneTimers": [
+    "Aluminum operations recorded a $26M operating loss in the quarter from startup and ramp-up costs at the new mill \u2014 an improvement from a $33M loss in the prior quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926117217/tm2627861d2_ex99-1.htm"
+    }
+  ]
+}

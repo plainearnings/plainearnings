@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synopsys — Q3 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Synopsys Q3 FY26 earnings in plain English: Synopsys revenue jumped 42% to $2.48B a year after buying Ansys, but heavy deal amortization and interest costs held GAAP profit to $546M — non-GAAP EPS of $3.91 shows the underlying run-rate.">
+<meta property="og:title" content="Synopsys — Q3 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Synopsys revenue jumped 42% to $2.48B a year after buying Ansys, but heavy deal amortization and interest costs held GAAP profit to $546M — non-GAAP EPS of $3.91 shows the underlying run-rate.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/snps/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/snps/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Synopsys quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Synopsys <span class="thin">(SNPS)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+42%</span>
+        <span class="q-meta">Reported 2026-08-26 · Revenue $2,477M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Synopsys — Q3 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 FY26</strong> · Quarter ended 2026-07-31<br>
+      Reported 2026-08-26
+    </div>
+  </header>
+
+  <p class="verdict">Synopsys revenue jumped 42% to $2.48B a year after buying Ansys, but heavy deal amortization and interest costs held GAAP profit to $546M — non-GAAP EPS of $3.91 shows the underlying run-rate.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+42%</b></span><span class="chip">EPS (GAAP)<b>$2.84</b></span><span class="chip">Design Automation revenue<b>$2.0B</b></span><span class="chip">Free cash flow (9 months)<b>$2,143M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Synopsys's Q3 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Synopsys took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Design Automation</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$80.86</span></div>
+          <div class="hrow"><span class="hlabel">Design IP</span><div class="htrack"><div class="hfill" data-w="23.7" style="background:#3D7BC8"></div></div><span class="hval">$19.14</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="33.9" style="background:#D96A57"></div></div><span class="hval">−$27.45</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="36.0" style="background:#CF5F4E"></div></div><span class="hval">−$29.07</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="19.3" style="background:#CF5F4E"></div></div><span class="hval">−$15.58</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="8.8" style="background:#CF5F4E"></div></div><span class="hval">−$7.15</span></div>
+          <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="7.7" style="background:#D96A57"></div></div><span class="hval">−$6.26</span></div>
+          <div class="hrow"><span class="hlabel">Restructuring</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#D96A57"></div></div><span class="hval">−$0.08</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="16.3" style="background:#3D7BC8"></div></div><span class="hval">$13.20</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="6.9" style="background:#B8443C"></div></div><span class="hval">−$5.57</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="27.3" style="background:#3E8E5A"></div></div><span class="hval">$22.04</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+42%</div>
+            <h3>Ansys transformed the scale</h3>
+            <p>Revenue rose 42% to $2,477M, with Design Automation up 53%. Management raised full-year revenue guidance to about $9.72B at the midpoint.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$402M</div>
+            <h3>Deal costs hide in GAAP profit</h3>
+            <p>Amortization of bought intangibles was $402M in the quarter ($155M in operating expenses, the rest in cost of revenue) and stock pay $232M — the main gap between GAAP EPS of $2.84 and non-GAAP EPS of $3.91.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$460M</div>
+            <h3>Other income did heavy lifting</h3>
+            <p>Other income of $460M, helped by gains on business divestitures (about $381M over nine months), offset $133M of interest expense on acquisition debt.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Gains on divestitures of about $381M (net, nine months) sit inside other income; the non-GAAP reconciliation removes a net $403M of acquisition/divestiture-related items this quarter.</li><li>Amortization of acquired intangible assets was $402M and restructuring charges $236M over the first nine months, largely from the Ansys acquisition.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. </p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":2.477,"nodes":{"seg0":{"name":"Design Automation","amt":"$2.0B","value":2.003,"col":0,"color":"#3D7BC8","note":"+53% \u00b7 80.9% of revenue","plain":"Chip-design (EDA) software, verification hardware and Ansys simulation tools \u2014 81% of revenue, up 53% a year after the Ansys deal closed.","quarter":"80.9% of all revenue this quarter."},"seg1":{"name":"Design IP","amt":"$474M","value":0.474,"col":0,"color":"#7A68C4","note":"+11% \u00b7 19.1% of revenue","plain":"Ready-made chip building blocks (IP) licensed to designers \u2014 back to growth, up 11%.","quarter":"19.1% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$2.5B","value":2.477,"col":1,"color":"#2F3B4C","note":"+42%","plain":"All the money Synopsys took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$2.5B, +42% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.8B","value":1.797,"col":2,"color":"#69B578","note":"72.5% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"72.5 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($680M)","value":0.68,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$680M \u2014 about 27.5 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$327M","value":0.327,"col":3,"color":"#69B578","note":"","plain":"Income outside the core business, added to profit.","quarter":"$327M added to profit."},"op":{"name":"Operating profit","amt":"$357M","value":0.357,"col":3,"color":"#4C9A67","note":"14.4% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 14.4% margin."},"opex":{"name":"Operating expenses","amt":"($1.4B)","value":1.44,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.4B total, split into R&D, Sales & marketing, SG&A, Amortization of acquired intangibles, Restructuring on the right."},"ox0":{"name":"R&D","amt":"($720M)","value":0.72,"col":4,"color":"#CF5F4E","note":"29.1% of revenue","plain":"Engineering the chip-design and simulation software \u2014 the biggest cost, swollen by the Ansys combination.","quarter":"$720M \u2014 29.1% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($386M)","value":0.386,"col":4,"color":"#CF5F4E","note":"15.6% of revenue","plain":"Selling design software and IP to chipmakers worldwide.","quarter":"$386M \u2014 15.6% of revenue."},"ox2":{"name":"SG&A","amt":"($177M)","value":0.177,"col":4,"color":"#CF5F4E","note":"7.1% of revenue","plain":"General and administrative costs (shown as G&A in the filing).","quarter":"$177M \u2014 7.1% of revenue."},"ox3":{"name":"Amortization of acquired intangibles","amt":"($155M)","value":0.155,"col":4,"color":"#CF5F4E","note":"6.3% of revenue","plain":"Non-cash write-down of technology and customer assets bought in deals, mostly Ansys.","quarter":"$155M \u2014 6.3% of revenue."},"ox4":{"name":"Restructuring","amt":"($2M)","value":0.002,"col":4,"color":"#CF5F4E","note":"0.1% of revenue","plain":"Small restructuring charge in the quarter; $236M was taken over the first nine months.","quarter":"$2M \u2014 0.1% of revenue.","compact":true,"compactLabel":"Restructuring: $2M (0.1% of revenue)"},"net":{"name":"Net profit","amt":"$546M","value":0.546,"col":4,"color":"#3E8E5A","note":"22% margin","plain":"The bottom line \u2014 what Synopsys actually earned after everything.","quarter":"$546M \u2014 about 22 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($138M)","value":0.138,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$138M \u2014 roughly a 20.2% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2","ox3","ox4"]],"links":[{"s":"seg0","d":"rev","v":2.003,"c":"#94b6e1","amt":"$2.0B"},{"s":"seg1","d":"rev","v":0.474,"c":"#b6acdf","amt":"$474M"},{"s":"rev","d":"gross","v":1.797,"c":"#BFE0C6","amt":"$1.8B"},{"s":"rev","d":"cost","v":0.68,"c":"#F4C7B9","amt":"$680M"},{"s":"gross","d":"op","v":0.357,"c":"#ACD8B8","amt":"$357M"},{"s":"gross","d":"opex","v":1.44,"c":"#F2B3A4","amt":"$1.4B"},{"s":"op","d":"net","v":0.219,"c":"#ACD8B8","amt":"$219M"},{"s":"otherin","d":"net","v":0.327,"c":"#ACD8B8","amt":"$327M"},{"s":"op","d":"tax","v":0.138,"c":"#dfaba7","amt":"$138M"},{"s":"opex","d":"ox0","v":0.72,"c":"#F6C0B1","amt":"$720M"},{"s":"opex","d":"ox1","v":0.386,"c":"#F6C0B1","amt":"$386M"},{"s":"opex","d":"ox2","v":0.177,"c":"#F6C0B1","amt":"$177M"},{"s":"opex","d":"ox3","v":0.155,"c":"#F6C0B1","amt":"$155M"},{"s":"opex","d":"ox4","v":0.002,"c":"#F6C0B1","amt":"$2M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

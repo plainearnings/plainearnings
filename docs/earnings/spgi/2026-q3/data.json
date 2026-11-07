@@ -1,0 +1,155 @@
+{
+  "ticker": "SPGI",
+  "company": "S&P Global",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "S&P Global grew revenue 7% to $3.7B and continuing-operations EPS jumped 26%, helped by a $200M gain on a disposition in Energy \u2014 while Indices surged 20% and the company put Capital IQ under strategic review after spinning off Mobility.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago, from continuing operations"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.45",
+      "note": "continuing operations, vs $3.54 a year ago; $4.25 including the discontinued Mobility loss"
+    },
+    {
+      "label": "Indices revenue",
+      "value": "$554M",
+      "note": "+20% YoY \u2014 the fastest-growing division"
+    },
+    {
+      "label": "Share repurchases",
+      "value": "$2.6B",
+      "note": "bought back in the quarter; more than $4B year to date"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Market Intelligence",
+      "amountM": 1263,
+      "yoy": "+7%",
+      "note": "Data, research and analytics subscriptions for investors and companies \u2014 the largest division, and home to Capital IQ, which is now under strategic review."
+    },
+    {
+      "name": "Ratings",
+      "amountM": 1271,
+      "yoy": "+2%",
+      "note": "Fees for rating bonds and loans \u2014 the joint-largest division this quarter, growing slowly after a strong first half."
+    },
+    {
+      "name": "Energy",
+      "amountM": 645,
+      "yoy": "+6%",
+      "note": "Commodity price assessments and energy data (the business formerly called Commodity Insights), including a $200M gain on a disposition booked below revenue in expenses."
+    },
+    {
+      "name": "Indices",
+      "amountM": 554,
+      "yoy": "+20%",
+      "note": "Licensing stock and bond indexes such as the S&P 500 to funds and trading products \u2014 the fastest-growing division, up 20%."
+    },
+    {
+      "name": "Intersegment eliminations",
+      "amountM": -55,
+      "yoy": "",
+      "note": "Sales between the company's own divisions, removed so revenue is not counted twice."
+    }
+  ],
+  "flow": {
+    "revenueM": 3678,
+    "costOfRevenueM": 0,
+    "grossProfitM": 3678,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 1722,
+        "note": "All of the company's running costs across its four divisions, net of a $200M gain on a disposition in Energy that reduced reported expenses. Deal-related amortization of acquired intangibles was $199M of the total."
+      }
+    ],
+    "operatingIncomeM": 1956,
+    "otherIncomeM": -83,
+    "taxM": 467,
+    "netIncomeM": 1240,
+    "equityM": -166
+  },
+  "otherDetail": "Net other expense of $83M is $87M of net interest expense partly offset by $4M of other income.",
+  "footerNote": "Net income of $1,240M is the amount attributable to S&P Global shareholders: $1,406M earned from continuing operations, minus a $58M loss from the discontinued Mobility business (spun off on July 1, 2026) and $108M attributable to noncontrolling interests. Mobility is excluded from revenue throughout, so the divisions shown are the four continuing ones \u2014 Ratings, Indices, Energy (formerly Commodity Insights) and Market Intelligence.",
+  "follow100": [
+    {
+      "label": "Market Intelligence",
+      "amount": 34.34
+    },
+    {
+      "label": "Ratings",
+      "amount": 34.56
+    },
+    {
+      "label": "Energy",
+      "amount": 17.54
+    },
+    {
+      "label": "Indices",
+      "amount": 15.06
+    },
+    {
+      "label": "Intersegment eliminations",
+      "amount": -1.5
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -46.82
+    },
+    {
+      "label": "Other income",
+      "amount": -2.26
+    },
+    {
+      "label": "Discontinued ops & noncontrolling interests",
+      "amount": -4.51
+    },
+    {
+      "label": "Tax",
+      "amount": -12.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 33.71
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Indices is the growth engine",
+      "text": "Indices revenue rose 20% to $554M as demand for benchmarks and the products built on them kept climbing \u2014 it drove a large share of the quarter's $235M revenue increase."
+    },
+    {
+      "stat": "$200M",
+      "statColor": "#3e8e5a",
+      "title": "A one-off gain flatters profit",
+      "text": "A $200M gain on a disposition in Energy lifted GAAP operating profit 26% to $1,956M. On an adjusted basis, operating profit grew 8% \u2014 still solid, but not the headline jump."
+    },
+    {
+      "stat": "$4.45",
+      "statColor": "#5b6b7c",
+      "title": "A leaner company after the spin-off",
+      "text": "With Mobility spun off on July 1 and Capital IQ now under strategic review, S&P Global is narrowing itself around ratings, benchmarks and data \u2014 continuing EPS of $4.45 rose 26% on profit growth and buybacks."
+    }
+  ],
+  "oneTimers": [
+    "$200M gain on a disposition in the Energy segment, which lifted GAAP operating profit; adjusted results exclude it.",
+    "Mobility was spun off on July 1, 2026 and is treated as discontinued operations (a $58M loss in the quarter); S&P Global also announced a strategic review of Capital IQ and associated data businesses within Market Intelligence."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000053/spgi3q2026-earningsrelease.htm"
+    }
+  ]
+}
