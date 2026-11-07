@@ -1,0 +1,172 @@
+{
+  "ticker": "O",
+  "company": "Realty Income",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Realty Income grew revenue 10% to $1.6B on rent and a fast-growing loan book, and net income available to common stockholders rose to $404M.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.6B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Net income / share",
+      "value": "$0.43",
+      "note": "available to common, vs $0.35 a year ago"
+    },
+    {
+      "label": "AFFO / share",
+      "value": "$1.12",
+      "note": "+4% YoY, non-GAAP REIT measure"
+    },
+    {
+      "label": "Invested",
+      "value": "$2.6B",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental revenue",
+      "amountM": 1484,
+      "note": "Rent (including client reimbursements) from 15,536 properties \u2014 up 7%, the core REIT income.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "Interest & dividends on loans",
+      "amountM": 105,
+      "note": "Interest and dividend income on loans and preferred equity investments \u2014 up 106% as the loan book grew.",
+      "yoy": "+106%"
+    },
+    {
+      "name": "Interest on financing receivables",
+      "amountM": 32,
+      "note": "Interest income on financing receivables \u2014 roughly flat.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 1,
+      "note": "Other revenue \u2014 under $1M, shown as $1M after rounding.",
+      "yoy": "+55%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1622,
+    "costOfRevenueM": 122,
+    "grossProfitM": 1500,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 648,
+        "note": "Non-cash depreciation of buildings and lease intangibles \u2014 the biggest REIT expense, and why FFO adds it back."
+      },
+      {
+        "name": "Impairments & credit losses",
+        "amountM": 126,
+        "note": "Provisions for impairment of real estate ($112M) plus credit losses on loans and financing receivables ($14M)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 54,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Merger & transaction costs",
+        "amountM": 2,
+        "note": "Merger, transaction and other costs, net \u2014 $2.7M reported, shown as $2M so rounded lines balance."
+      }
+    ],
+    "operatingIncomeM": 670,
+    "otherIncomeM": -242,
+    "taxM": 24,
+    "netIncomeM": 404
+  },
+  "otherDetail": "Other is a net -$242M: interest expense of $334M, less a $114M gain on sales of real estate, $6M of other income, $3M of equity earnings and a $3M foreign-currency/derivative loss, and less $28M of net income attributable to noncontrolling interests \u2014 so the bottom line is net income available to common stockholders ($404M). Interest expense is shown here, not in operating expenses, per the REIT presentation in the task notes.",
+  "footerNote": "Realty Income is a REIT: revenue is mostly rent, property operating expenses are cost of revenue, and depreciation, G&A and impairments are operating expenses. Amounts are rounded to $M from the release's thousands (total revenue $1,621.6M, net income $432.1M in total, $403.9M available to common stockholders); one $1M rounding adjustment is in merger/transaction costs. AFFO and FFO are non-GAAP REIT measures.",
+  "oneTimers": [
+    "Provisions for impairment of real estate were $112M and credit-loss provisions $14M in the quarter.",
+    "Gain on sales of real estate was $114M, largely offsetting the impairments."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000056/o-991q32026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Rental revenue",
+      "amount": 91.49
+    },
+    {
+      "label": "Interest & dividends on loans",
+      "amount": 6.47
+    },
+    {
+      "label": "Interest on financing receivables",
+      "amount": 1.97
+    },
+    {
+      "label": "Other revenue",
+      "amount": 0.06
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -7.52
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -39.95
+    },
+    {
+      "label": "Impairments & credit losses",
+      "amount": -7.77
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.33
+    },
+    {
+      "label": "Merger & transaction costs",
+      "amount": -0.12
+    },
+    {
+      "label": "Other expense (incl. interest)",
+      "amount": -14.92
+    },
+    {
+      "label": "Tax",
+      "amount": -1.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.91
+    }
+  ],
+  "follow100Note": "Kept as profit is net income available to common stockholders; total net income was $432M before $28M for noncontrolling interests (counted in other above).",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue grew on rent and loans",
+      "text": "Total revenue rose to $1,622M \u2014 rent up 7% and loan and preferred-equity interest income more than doubling to $105M."
+    },
+    {
+      "stat": "$1.12",
+      "statColor": "#3e8e5a",
+      "title": "AFFO per share up 4%",
+      "text": "AFFO \u2014 the REIT cash-earnings measure \u2014 was $1.12 per share, and Realty Income raised 2026 AFFO guidance to $4.45\u2013$4.46."
+    },
+    {
+      "stat": "98.8%",
+      "statColor": "#5b6b7c",
+      "title": "Portfolio stayed full",
+      "text": "Occupancy was 98.8% across 15,536 properties, with a 103.5% rent recapture rate on re-leased properties."
+    }
+  ]
+}

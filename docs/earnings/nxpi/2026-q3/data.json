@@ -1,0 +1,176 @@
+{
+  "ticker": "NXPI",
+  "company": "NXP Semiconductors",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-27",
+  "verdict": "NXP grew revenue 19% to $3.8B as automotive and industrial chips surged, and kept about $24 of every $100 as profit.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.8B",
+      "note": "+19% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.48",
+      "note": "diluted, attributable"
+    },
+    {
+      "label": "Automotive",
+      "value": "$2.1B",
+      "note": "+13% YoY, 55% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.2B",
+      "note": "non-GAAP, 32% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 2070,
+      "note": "Chips for cars \u2014 the biggest business, up 13% as software-defined vehicles need more NXP content.",
+      "yoy": "+13%"
+    },
+    {
+      "name": "Industrial & IoT",
+      "amountM": 802,
+      "note": "Chips for factories and connected devices \u2014 up 39%, the fastest-growing large segment.",
+      "yoy": "+39%"
+    },
+    {
+      "name": "Mobile",
+      "amountM": 411,
+      "note": "Chips for phones and mobile devices \u2014 down 4%.",
+      "yoy": "-4%"
+    },
+    {
+      "name": "Comm. Infra. & Other",
+      "amountM": 503,
+      "note": "Communications infrastructure and other \u2014 up 54%, helped by data-center demand.",
+      "yoy": "+54%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3786,
+    "costOfRevenueM": 1597,
+    "grossProfitM": 2189,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 615,
+        "note": "Building the next chips \u2014 up from $575M a year ago."
+      },
+      {
+        "name": "Sales, general & administrative",
+        "amountM": 313,
+        "note": "Selling chips and running the company."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 30,
+        "note": "Amortization of acquisition-related intangible assets \u2014 a non-cash cost from past deals."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 3,
+        "note": "Other income (expense) of -$3M inside operating results."
+      }
+    ],
+    "operatingIncomeM": 1228,
+    "otherIncomeM": -97,
+    "equityM": -4,
+    "taxM": 228,
+    "netIncomeM": 899
+  },
+  "otherDetail": "Other is financial expense of $97M, plus a $4M loss from equity-accounted investees shown separately in the flow \u2014 net income is $899M in total, $884M attributable to stockholders.",
+  "footerNote": "NXP is a Dutch foreign filer; in this environment its Q3 2026 results were filed on Form 8-K (Exhibit 99.1) on Oct 27, 2026, with a full GAAP income statement, not a 6-K. Figures are GAAP; non-GAAP EPS was $4.20.",
+  "oneTimers": [
+    "Non-GAAP results exclude $114M of share-based compensation, $36M of purchase-price-accounting effects and other items \u2014 the gap between GAAP EPS of $3.48 and non-GAAP EPS of $4.20."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000057/nxp3q26exhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 54.68
+    },
+    {
+      "label": "Industrial & IoT",
+      "amount": 21.18
+    },
+    {
+      "label": "Mobile",
+      "amount": 10.86
+    },
+    {
+      "label": "Comm. Infra. & Other",
+      "amount": 13.29
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.18
+    },
+    {
+      "label": "R&D",
+      "amount": -16.24
+    },
+    {
+      "label": "Sales, general & administrative",
+      "amount": -8.27
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.79
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.08
+    },
+    {
+      "label": "Financial expense",
+      "amount": -2.56
+    },
+    {
+      "label": "Equity investees",
+      "amount": -0.11
+    },
+    {
+      "label": "Tax",
+      "amount": -6.02
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.75
+    }
+  ],
+  "follow100Note": "Kept as profit is total net income of $899M; $884M was attributable to NXP stockholders after $15M for non-controlling interests.",
+  "takeaways": [
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came back",
+      "text": "Revenue rose 19% to $3,786M, with Industrial & IoT up 39% and Communications Infrastructure up 54%."
+    },
+    {
+      "stat": "57.8%",
+      "statColor": "#3e8e5a",
+      "title": "High gross margin",
+      "text": "GAAP gross margin was 57.8% \u2014 $2,189M of gross profit on $3,786M of revenue."
+    },
+    {
+      "stat": "$5B",
+      "statColor": "#5b6b7c",
+      "title": "More buybacks authorised",
+      "text": "The board authorised a new $5B share repurchase program, on top of $1.3B remaining under the prior one."
+    }
+  ]
+}

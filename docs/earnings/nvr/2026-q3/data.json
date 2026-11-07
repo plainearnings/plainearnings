@@ -1,0 +1,123 @@
+{
+  "ticker": "NVR",
+  "company": "NVR, Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "NVR's revenue fell 8% to $2.4B and profit fell 27% to $249M as home settlements dropped and lot costs and pricing pressure squeezed margins.",
+  "revenueYoY": "-8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.4B",
+      "note": "-8% YoY, consolidated"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$89.45",
+      "note": "diluted, -20% YoY"
+    },
+    {
+      "label": "Homebuilding gross margin",
+      "value": "18.3%",
+      "note": "vs 21.0% a year ago"
+    },
+    {
+      "label": "Backlog",
+      "value": "$4.6B",
+      "note": "10,121 homes, +4% in dollars YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Homebuilding",
+      "amountM": 2349,
+      "note": "Selling and building homes (Ryan Homes, NVHomes, Heartland Homes) \u2014 down 8% as settlements fell 7% to 5,268 homes.",
+      "yoy": "-8%"
+    },
+    {
+      "name": "Mortgage banking fees",
+      "amountM": 53,
+      "note": "Fees from mortgage banking for home buyers \u2014 mortgage segment profit rose to $35M despite loan production falling 10%.",
+      "yoy": "+8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2402,
+    "costOfRevenueM": 1920,
+    "grossProfitM": 482,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 158,
+        "note": "Homebuilding SG&A of $135M plus mortgage banking general and administrative costs of $23M."
+      }
+    ],
+    "operatingIncomeM": 324,
+    "otherIncomeM": 11,
+    "taxM": 86,
+    "netIncomeM": 249
+  },
+  "otherDetail": "Other is about $11M net: homebuilding other income $12M and mortgage interest and other income $5M, less homebuilding and mortgage interest expense of about $7M. Figures are rounded to $M; reported net income was $248.6M.",
+  "footerNote": "Consolidated revenue is homebuilding revenues ($2,349M) plus mortgage banking fees ($53M), as in NVR's 10-Q ($2,402M). Cost of revenue is homebuilding cost of sales; mortgage fees have no cost of sales, so the consolidated gross margin differs from the 18.3% homebuilding gross margin. Contract land deposit impairments were about $24.8M inside the quarter's costs.",
+  "oneTimers": [
+    "Contract land deposit impairments totalled approximately $24.8M in the quarter, hurting homebuilding gross margin."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000099/q32026ex991_earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Homebuilding",
+      "amount": 97.79
+    },
+    {
+      "label": "Mortgage banking fees",
+      "amount": 2.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.93
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -6.58
+    },
+    {
+      "label": "Other income",
+      "amount": 0.46
+    },
+    {
+      "label": "Tax",
+      "amount": -3.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-8%",
+      "statColor": "#b8443c",
+      "title": "Settlements fell",
+      "text": "Home settlements fell 7% to 5,268 and the average settlement price fell 2%, taking homebuilding revenue down 8%."
+    },
+    {
+      "stat": "18.3%",
+      "statColor": "#5b6b7c",
+      "title": "Margins squeezed",
+      "text": "Homebuilding gross margin fell to 18.3% from 21.0% on higher lot costs, pricing pressure and $24.8M of land deposit impairments."
+    },
+    {
+      "stat": "21%",
+      "statColor": "#3d7bc8",
+      "title": "Cancellations rose",
+      "text": "The new-order cancellation rate rose to 21% from 19%, and new orders fell 7% to 4,391 \u2014 demand stayed soft."
+    }
+  ]
+}

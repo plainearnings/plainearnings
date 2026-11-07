@@ -1,0 +1,168 @@
+{
+  "company": "News Corp",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "News Corp grew revenue 6% to $2.3B in its fiscal first quarter, and total net income rose 43% to $215M as Dow Jones, digital real estate and books all grew.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.3B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.29",
+      "note": "attributable, vs $0.20 a year ago"
+    },
+    {
+      "label": "Segment EBITDA",
+      "value": "$403M",
+      "note": "+19% YoY, non-GAAP segment measure"
+    },
+    {
+      "label": "Net income",
+      "value": "$215M",
+      "note": "+43% YoY, total"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Dow Jones",
+      "amountM": 630,
+      "note": "The Wall Street Journal, Barron's and professional information \u2014 up 8%, led by circulation, licensing, Risk & Compliance (+11%) and Energy (+8%).",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Digital Real Estate Services",
+      "amountM": 529,
+      "note": "REA Group in Australia and Move (Realtor.com) \u2014 up 10%; REA rose 13% and Move 5%.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Book Publishing",
+      "amountM": 582,
+      "note": "HarperCollins books \u2014 up 9% on stronger physical and digital sales.",
+      "yoy": "+9%"
+    },
+    {
+      "name": "News Media",
+      "amountM": 540,
+      "note": "News UK, News Australia and the New York Post \u2014 down 1% as print advertising fell.",
+      "yoy": "-1%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2281,
+    "costOfRevenueM": 988,
+    "grossProfitM": 1293,
+    "opex": [
+      {
+        "name": "Sales, general & administrative",
+        "amountM": 890,
+        "note": "People and running costs across news, books and real-estate businesses."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 126,
+        "note": "Non-cash wear-and-tear and intangible amortization."
+      },
+      {
+        "name": "Impairment & restructuring",
+        "amountM": 20,
+        "note": "Impairment and restructuring charges \u2014 a flagged one-time item."
+      }
+    ],
+    "operatingIncomeM": 257,
+    "otherIncomeM": 42,
+    "equityM": -3,
+    "taxM": 81,
+    "netIncomeM": 215
+  },
+  "otherDetail": "Other is $38M of Other, net (including a gain on the divestiture of REA India's remaining business) plus $4M of net interest income. Equity losses of affiliates were $3M. Total net income was $215M; $159M was attributable to News Corp stockholders after $56M for noncontrolling interests.",
+  "footerNote": "News Corp reports two share classes (NWS Class B and NWSA Class A) on one set of financial statements \u2014 this page uses the same consolidated figures for both tickers. The Other segment had $0 revenue this quarter, so segments show the four revenue-producing segments. Operating profit here is gross profit (revenue less operating expenses) less SG&A, depreciation and impairment/restructuring, before equity losses, interest and Other, net.",
+  "oneTimers": [
+    "Impairment and restructuring charges were $20M.",
+    "Other, net of $38M included a gain related to the divestiture of REA India's remaining business."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000248/release-q1fy2027.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Dow Jones",
+      "amount": 27.62
+    },
+    {
+      "label": "Digital Real Estate Services",
+      "amount": 23.19
+    },
+    {
+      "label": "Book Publishing",
+      "amount": 25.52
+    },
+    {
+      "label": "News Media",
+      "amount": 23.67
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -43.31
+    },
+    {
+      "label": "Sales, general & administrative",
+      "amount": -39.02
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.52
+    },
+    {
+      "label": "Impairment & restructuring",
+      "amount": -0.88
+    },
+    {
+      "label": "Other income",
+      "amount": 1.84
+    },
+    {
+      "label": "Equity losses",
+      "amount": -0.13
+    },
+    {
+      "label": "Tax",
+      "amount": -3.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.43
+    }
+  ],
+  "follow100Note": "Kept as profit is total net income of $215M; $159M was attributable to News Corp stockholders.",
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Three engines grew",
+      "text": "Dow Jones rose 8%, Digital Real Estate 10% and Book Publishing 9% \u2014 only News Media fell, down 1%."
+    },
+    {
+      "stat": "$403M",
+      "statColor": "#3e8e5a",
+      "title": "Segment EBITDA up 19%",
+      "text": "Total Segment EBITDA \u2014 the company's segment profit measure \u2014 rose to $403M from $340M."
+    },
+    {
+      "stat": "+43%",
+      "statColor": "#5b6b7c",
+      "title": "Net income jumped",
+      "text": "Total net income rose 43% to $215M, helped by higher segment profit and the REA India divestiture gain in Other, net."
+    }
+  ],
+  "ticker": "NWSA"
+}

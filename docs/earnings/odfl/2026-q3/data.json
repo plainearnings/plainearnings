@@ -1,0 +1,165 @@
+{
+  "ticker": "ODFL",
+  "company": "Old Dominion Freight Line",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Old Dominion grew revenue 13% to $1.6B on higher pricing per hundredweight, and its operating ratio improved to 71.5%, lifting profit 27%.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.6B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.65",
+      "note": "diluted, +29% YoY"
+    },
+    {
+      "label": "Operating ratio",
+      "value": "71.5%",
+      "note": "vs 74.3% a year ago \u2014 lower is better"
+    },
+    {
+      "label": "LTL revenue / cwt",
+      "value": "$38.40",
+      "note": "+13% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "LTL services",
+      "amountM": 1577,
+      "note": "Less-than-truckload freight \u2014 almost all revenue, up 13% on pricing, with tons per day roughly flat.",
+      "yoy": "+13%"
+    },
+    {
+      "name": "Other services",
+      "amountM": 14,
+      "note": "Other services such as drayage, brokerage and consulting \u2014 up 16%.",
+      "yoy": "+16%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1591,
+    "costOfRevenueM": 929,
+    "grossProfitM": 662,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 90,
+        "note": "Trucks, trailers and service centers wearing out \u2014 a non-cash cost."
+      },
+      {
+        "name": "General supplies & expenses",
+        "amountM": 49,
+        "note": "General supplies and overhead."
+      },
+      {
+        "name": "Operating taxes & licenses",
+        "amountM": 34,
+        "note": "Operating taxes and licences."
+      },
+      {
+        "name": "Insurance & claims",
+        "amountM": 19,
+        "note": "Insurance and cargo / injury claims."
+      },
+      {
+        "name": "Communications & utilities",
+        "amountM": 9,
+        "note": "Communications and utilities."
+      },
+      {
+        "name": "Miscellaneous",
+        "amountM": 8,
+        "note": "Miscellaneous expense, net."
+      }
+    ],
+    "operatingIncomeM": 453,
+    "otherIncomeM": 2,
+    "taxM": 111,
+    "netIncomeM": 344
+  },
+  "otherDetail": "Other is net non-operating income of about $2M: $4M of interest income, less $2M of other expense and negligible interest expense. Figures are rounded to $M from the release's thousands, so operating income is shown as $453M vs the reported $452.6M.",
+  "footerNote": "For this trucking report, direct operating costs in cost of revenue are salaries, wages and benefits ($705M), operating supplies and expenses ($189M) and purchased transportation ($35M); the remaining operating expense lines are shown as operating expenses. Amounts are rounded to $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/878927/000087892726000031/odfl-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "LTL services",
+      "amount": 99.12
+    },
+    {
+      "label": "Other services",
+      "amount": 0.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.39
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.66
+    },
+    {
+      "label": "General supplies & expenses",
+      "amount": -3.08
+    },
+    {
+      "label": "Operating taxes & licenses",
+      "amount": -2.14
+    },
+    {
+      "label": "Insurance & claims",
+      "amount": -1.19
+    },
+    {
+      "label": "Communications & utilities",
+      "amount": -0.57
+    },
+    {
+      "label": "Miscellaneous",
+      "amount": -0.5
+    },
+    {
+      "label": "Other income",
+      "amount": 0.13
+    },
+    {
+      "label": "Tax",
+      "amount": -6.98
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.62
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Pricing drove growth",
+      "text": "LTL revenue per hundredweight rose 13.3% while LTL tons per day fell 0.1% \u2014 growth was price, not volume."
+    },
+    {
+      "stat": "71.5%",
+      "statColor": "#3e8e5a",
+      "title": "Operating ratio improved",
+      "text": "Operating expenses were 71.5% of revenue, down from 74.3% \u2014 salaries and overhead both leveraged the revenue gain."
+    },
+    {
+      "stat": "$1.65",
+      "statColor": "#5b6b7c",
+      "title": "EPS up 29%",
+      "text": "Diluted EPS rose to $1.65 from $1.28, on net income of $344M."
+    }
+  ]
+}
