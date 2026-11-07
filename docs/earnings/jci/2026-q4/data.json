@@ -1,0 +1,144 @@
+{
+  "ticker": "JCI",
+  "company": "Johnson Controls",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+10%",
+  "verdict": "Johnson Controls grew sales 10% to $7.11B and profit from continuing operations more than tripled to $967M, as data-center demand pushed Americas orders up 58% and backlog to a record $23.0B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.11B",
+      "note": "+10% YoY, +12% organic"
+    },
+    {
+      "label": "EPS, continuing (GAAP)",
+      "value": "$1.60",
+      "note": "vs $0.42 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.66",
+      "note": "excludes transformation costs"
+    },
+    {
+      "label": "Backlog",
+      "value": "$23.0B",
+      "note": "+43% YoY, organically"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 4930,
+      "yoy": "+14%",
+      "note": "Building systems across the Americas \u2014 sales up 14% on applied HVAC and controls strength, with data centers driving a 58% organic jump in orders and a $17.8B backlog."
+    },
+    {
+      "name": "EMEA",
+      "amountM": 1312,
+      "yoy": "-2%",
+      "note": "Europe, Middle East and Africa \u2014 reported sales dipped 2% (up 3% organically) amid Middle East conflict pressure."
+    },
+    {
+      "name": "APAC",
+      "amountM": 871,
+      "yoy": "+12%",
+      "note": "Asia Pacific \u2014 sales up 12%, led by applied HVAC."
+    }
+  ],
+  "flow": {
+    "revenueM": 7113,
+    "costOfRevenueM": 4408,
+    "grossProfitM": 2705,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1481,
+        "f100": "SG&A",
+        "note": "The field organization that sells, installs and services building systems, plus the back office."
+      },
+      {
+        "name": "Restructuring & impairment costs",
+        "amountM": 87,
+        "f100": "Restructuring & impairment",
+        "note": "Costs of simplifying the company \u2014 far below last year's $400M."
+      }
+    ],
+    "operatingIncomeM": 1137,
+    "otherIncomeM": -74,
+    "taxM": 93,
+    "netIncomeM": 970
+  },
+  "otherDetail": "Net financing charges of $82M, partly offset by $8M of equity income from joint ventures.",
+  "takeaways": [
+    {
+      "stat": "+44%",
+      "statColor": "#3d7bc8",
+      "title": "Orders are surging",
+      "text": "Orders rose 44% organically across the company \u2014 58% in the Americas \u2014 and backlog hit $23.0B, up 43%, on sustained data-center demand."
+    },
+    {
+      "stat": "20.1%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded everywhere",
+      "text": "Americas segment EBIT margin rose 250 basis points to 20.1%; all three segments expanded margins on operating leverage and better mix."
+    },
+    {
+      "stat": "$400M \u2192 $87M",
+      "statColor": "#5b6b7c",
+      "title": "Last year had the charges",
+      "text": "Much of the profit jump is arithmetic: the year-ago quarter absorbed $400M of restructuring and impairment costs, versus $87M this year."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and impairment costs were $87M this quarter \u2014 a real cost, but far below the $400M taken in the year-ago quarter."
+  ],
+  "footerNote": "Figures are for continuing operations, as Johnson Controls presents them; net income attributable to Johnson Controls was $967M after $3M attributable to noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000101/q4exh991xq4fy26earningsrel.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 69.31
+    },
+    {
+      "label": "EMEA",
+      "amount": 18.45
+    },
+    {
+      "label": "APAC",
+      "amount": 12.25
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.97
+    },
+    {
+      "label": "SG&A",
+      "amount": -20.82
+    },
+    {
+      "label": "Restructuring & impairment",
+      "amount": -1.22
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.04
+    },
+    {
+      "label": "Tax",
+      "amount": -1.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.64
+    }
+  ]
+}

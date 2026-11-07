@@ -1,0 +1,133 @@
+{
+  "ticker": "JKHY",
+  "company": "Jack Henry & Associates",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+9%",
+  "verdict": "Jack Henry grew revenue 9% to $702M and net income 11% to $160M as banks and credit unions kept moving onto its cloud \u2014 card, digital and faster-payments volumes all climbed.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$702M",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.28",
+      "note": "+16% YoY"
+    },
+    {
+      "label": "Operating margin",
+      "value": "29.5%",
+      "note": "operating income of $207M"
+    },
+    {
+      "label": "Non-GAAP adjusted revenue",
+      "value": "$682M",
+      "note": "+7% YoY, excluding deconversion fees"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services & support",
+      "amountM": 405,
+      "yoy": "+7%",
+      "note": "Software, hosting and support for core banking systems \u2014 hosting revenue grew 11.7% as clients migrate to Jack Henry's private cloud."
+    },
+    {
+      "name": "Processing",
+      "amountM": 297,
+      "yoy": "+11%",
+      "note": "Per-transaction processing: card revenue +9.4%, digital and transaction revenue +13.3%, and faster payments revenue +43.8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 702,
+    "costOfRevenueM": 376,
+    "grossProfitM": 326,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 46,
+        "note": "Building the next generation of banking software and payments."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 73,
+        "f100": "SG&A",
+        "note": "Selling to banks and credit unions, plus the back office."
+      }
+    ],
+    "operatingIncomeM": 207,
+    "otherIncomeM": 4,
+    "taxM": 51,
+    "netIncomeM": 160
+  },
+  "otherDetail": "Net interest income of $4M \u2014 $5M of interest income less $2M of interest expense.",
+  "takeaways": [
+    {
+      "stat": "+43.8%",
+      "statColor": "#3d7bc8",
+      "title": "Faster payments is taking off",
+      "text": "Faster-payments revenue jumped 43.8% on expanding transaction volumes, while digital revenue rose 13.3% and card revenue 9.4%."
+    },
+    {
+      "stat": "+11.7%",
+      "statColor": "#3e8e5a",
+      "title": "The cloud shift continues",
+      "text": "Hosting revenue grew 11.7% as new and existing clients migrate from on-premise systems to Jack Henry's private cloud."
+    },
+    {
+      "stat": "$71M",
+      "statColor": "#5b6b7c",
+      "title": "Steady buybacks",
+      "text": "Jack Henry repurchased $71M of stock in the quarter at an average of $153.47 per share, with only $85M of debt outstanding."
+    }
+  ],
+  "oneTimers": [
+    "Revenue includes $18M of deconversion fees \u2014 one-time payments from institutions that left the platform, nearly double last year's $9M. Excluding them (and a small acquisition), non-GAAP adjusted revenue grew 7.2%."
+  ],
+  "footerNote": "Figures are rounded to $M from Jack Henry's thousands-denominated statement; the tax line absorbs a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Services & support",
+      "amount": 57.69
+    },
+    {
+      "label": "Processing",
+      "amount": 42.31
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -53.56
+    },
+    {
+      "label": "R&D",
+      "amount": -6.55
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.4
+    },
+    {
+      "label": "Other income",
+      "amount": 0.57
+    },
+    {
+      "label": "Tax",
+      "amount": -7.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.79
+    }
+  ]
+}

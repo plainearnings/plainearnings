@@ -1,0 +1,199 @@
+{
+  "ticker": "JBHT",
+  "company": "J.B. Hunt",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "revenueYoY": "+20%",
+  "verdict": "J.B. Hunt's revenue jumped 20% to $3.68B \u2014 lifted by fuel surcharges and surging brokerage volumes \u2014 but net earnings barely grew, to $172M, as purchased transportation, driver and insurance costs ate the gains.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.68B",
+      "note": "+20% YoY; +13% excluding fuel surcharges"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.82",
+      "note": "+3% YoY"
+    },
+    {
+      "label": "Operating income",
+      "value": "$247M",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "Intermodal revenue",
+      "value": "$1.83B",
+      "note": "+20% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Intermodal (JBI)",
+      "amountM": 1822,
+      "yoy": "+20%",
+      "note": "Containers moving by rail and truck \u2014 loads rose 8%, with the Eastern network up 18% as freight converts from road to rail. Segment operating income rose 18% to $148M."
+    },
+    {
+      "name": "Dedicated Contract Services (DCS)",
+      "amountM": 960,
+      "yoy": "+11%",
+      "note": "Trucks and drivers run exclusively for one customer \u2014 revenue up 11%, but profit fell 22% on driver pay, medical and insurance costs."
+    },
+    {
+      "name": "Integrated Capacity Solutions (ICS)",
+      "amountM": 434,
+      "yoy": "+57%",
+      "note": "The freight brokerage \u2014 matching shippers with third-party trucks. Volume rose 22% and the segment swung to a $9.6M profit."
+    },
+    {
+      "name": "Truckload (JBT)",
+      "amountM": 261,
+      "yoy": "+37%",
+      "note": "One-way full-truckload shipping \u2014 revenue per load up 29%."
+    },
+    {
+      "name": "Final Mile Services (FMS)",
+      "amountM": 200,
+      "yoy": "-3%",
+      "note": "Delivering big items like furniture and appliances to homes \u2014 shrinking on purpose as J.B. Hunt exits low-quality business."
+    }
+  ],
+  "flow": {
+    "revenueM": 3677,
+    "costOfRevenueM": 1758,
+    "grossProfitM": 1919,
+    "opex": [
+      {
+        "name": "Salaries, wages & benefits",
+        "amountM": 877,
+        "f100": "Salaries & benefits",
+        "note": "Pay for drivers and staff \u2014 the biggest in-house cost, up 7%."
+      },
+      {
+        "name": "Fuel & fuel taxes",
+        "amountM": 260,
+        "note": "Diesel for the fleet \u2014 up sharply with fuel prices and surcharges."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 184,
+        "f100": "Depreciation & amortization",
+        "note": "Spreading the cost of trucks and containers over their lives."
+      },
+      {
+        "name": "Operating supplies & expenses",
+        "amountM": 148,
+        "f100": "Operating supplies",
+        "note": "Day-to-day supplies and running expenses across the network."
+      },
+      {
+        "name": "Insurance & claims",
+        "amountM": 101,
+        "note": "Insurance premiums and accident claims \u2014 up 23% year over year."
+      },
+      {
+        "name": "General, administrative & other",
+        "amountM": 102,
+        "f100": "G&A & other",
+        "note": "Back office, asset dispositions, operating taxes, licenses and communications."
+      }
+    ],
+    "operatingIncomeM": 247,
+    "otherIncomeM": -16,
+    "taxM": 59,
+    "netIncomeM": 172
+  },
+  "otherDetail": "Net interest expense of $16M on about $1.12B of debt, down from $1.60B a year ago.",
+  "takeaways": [
+    {
+      "stat": "+57%",
+      "statColor": "#3d7bc8",
+      "title": "The brokerage is booming",
+      "text": "ICS revenue surged 57% on 22% more volume and 29% higher revenue per load, swinging the segment from a small loss to a $9.6M profit."
+    },
+    {
+      "stat": "$671M",
+      "statColor": "#5b6b7c",
+      "title": "Fuel inflates the growth rate",
+      "text": "Fuel surcharge revenue nearly doubled to $671M as fuel prices rose. Excluding surcharges, revenue grew 13% \u2014 still strong, but not 20%."
+    },
+    {
+      "stat": "-22%",
+      "statColor": "#b8443c",
+      "title": "Dedicated profit got squeezed",
+      "text": "DCS grew revenue 11% yet its operating income fell 22% to $82M, hit by driver pay, group medical claims and insurance costs."
+    }
+  ],
+  "footerNote": "J.B. Hunt's statement groups all running costs as operating expenses; this page treats rents and purchased transportation \u2014 paying railroads and outside carriers \u2014 as the direct cost of revenue. Segment revenues are the company's rounded headline figures; Intermodal absorbs an $8M rounding difference so the segments add to total revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Intermodal (JBI)",
+      "amount": 49.55
+    },
+    {
+      "label": "Dedicated Contract Services (DCS)",
+      "amount": 26.11
+    },
+    {
+      "label": "Integrated Capacity Solutions (ICS)",
+      "amount": 11.8
+    },
+    {
+      "label": "Truckload (JBT)",
+      "amount": 7.1
+    },
+    {
+      "label": "Final Mile Services (FMS)",
+      "amount": 5.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -47.81
+    },
+    {
+      "label": "Salaries & benefits",
+      "amount": -23.85
+    },
+    {
+      "label": "Fuel & fuel taxes",
+      "amount": -7.07
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.0
+    },
+    {
+      "label": "Operating supplies",
+      "amount": -4.03
+    },
+    {
+      "label": "Insurance & claims",
+      "amount": -2.75
+    },
+    {
+      "label": "G&A & other",
+      "amount": -2.77
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.44
+    },
+    {
+      "label": "Tax",
+      "amount": -1.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.68
+    }
+  ]
+}

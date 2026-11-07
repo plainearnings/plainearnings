@@ -1,0 +1,149 @@
+{
+  "ticker": "JBL",
+  "company": "Jabil",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-30",
+  "revenueYoY": "+29%",
+  "verdict": "Jabil's revenue surged 29% to $10.6B as AI data-center work boomed, closing a fiscal year with $36.0B of sales \u2014 and it guided to $44.5B next year.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$10.6B",
+      "note": "+29% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.76",
+      "note": "vs $1.99 a year ago"
+    },
+    {
+      "label": "Core EPS (non-GAAP)",
+      "value": "$4.40",
+      "note": "excludes amortization, stock comp & restructuring"
+    },
+    {
+      "label": "Core operating income",
+      "value": "$675M",
+      "note": "6.4% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Manufacturing & engineering services",
+      "amountM": 10616,
+      "yoy": "+29%",
+      "note": "Jabil builds electronics for other brands \u2014 servers and AI data-center gear, medical devices, car electronics and consumer products. It doesn't publish quarterly segment revenue; its fiscal 2026 mix was roughly 50% Intelligent Infrastructure (AI, cloud, networking), 35% Regulated Industries (auto, healthcare, energy) and 15% Connected Living & Digital Commerce."
+    }
+  ],
+  "flow": {
+    "revenueM": 10616,
+    "costOfRevenueM": 9615,
+    "grossProfitM": 1001,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 324,
+        "f100": "SG&A",
+        "note": "Running a 100+ factory global operation and selling its capacity."
+      },
+      {
+        "name": "Stock-based compensation",
+        "amountM": 25,
+        "note": "Paying employees partly in shares."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 24,
+        "f100": "Amortization",
+        "note": "Spreading the cost of past acquisitions over time."
+      },
+      {
+        "name": "Restructuring & deal charges",
+        "amountM": 19,
+        "f100": "Restructuring & deal charges",
+        "note": "$9M of restructuring and severance plus $10M of acquisition and divestiture charges."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 7,
+        "note": "Engineering work not billed to customers."
+      }
+    ],
+    "operatingIncomeM": 602,
+    "otherIncomeM": -80,
+    "taxM": 125,
+    "netIncomeM": 397
+  },
+  "otherDetail": "Interest and other costs, net \u2014 the bill for Jabil's borrowings, partly offset by other income.",
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "AI infrastructure is the driver",
+      "text": "Growth was led by AI and data-center manufacturing, with strength across automotive, healthcare and energy infrastructure too. Full-year revenue grew 21% to $36.0B."
+    },
+    {
+      "stat": "$44.5B",
+      "statColor": "#3e8e5a",
+      "title": "Next year's guide is bold",
+      "text": "For fiscal 2027 Jabil expects revenue of $44.5B (+24%) and core EPS of $17.55 (+34%), with core operating margin expanding to 6.1%."
+    },
+    {
+      "stat": "$1.5B+",
+      "statColor": "#5b6b7c",
+      "title": "Cash generation is strong",
+      "text": "Adjusted free cash flow topped $1.5B in fiscal 2026 \u2014 the asset-light model turns most profit into cash."
+    }
+  ],
+  "footerNote": "Net income attributable to Jabil was $398M (a $1M loss was allocated to noncontrolling interests), the basis for the $3.76 EPS. Jabil reports segment revenue only annually; the fiscal 2026 mix is described in the revenue note above.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828026063890/jbl-20260930ex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Manufacturing & engineering services",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -90.57
+    },
+    {
+      "label": "SG&A",
+      "amount": -3.05
+    },
+    {
+      "label": "Stock-based compensation",
+      "amount": -0.24
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.23
+    },
+    {
+      "label": "Restructuring & deal charges",
+      "amount": -0.18
+    },
+    {
+      "label": "R&D",
+      "amount": -0.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.75
+    },
+    {
+      "label": "Tax",
+      "amount": -1.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.74
+    }
+  ]
+}
