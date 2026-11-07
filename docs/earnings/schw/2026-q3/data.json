@@ -1,0 +1,198 @@
+{
+  "ticker": "SCHW",
+  "company": "Charles Schwab",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "verdict": "Schwab had a record quarter: $190B of new client assets poured in, revenue jumped 17% to $7.17B, and GAAP EPS rose 29% to $1.62.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.17B",
+      "note": "+17% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.62",
+      "note": "+29% YoY"
+    },
+    {
+      "label": "Core net new assets",
+      "value": "$190.4B",
+      "note": "+38% YoY"
+    },
+    {
+      "label": "Total client assets",
+      "value": "$13.33T",
+      "note": "+15% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest revenue",
+      "amountM": 3476,
+      "yoy": "+14%",
+      "note": "Interest earned on loans and investments minus interest paid on deposits and borrowing \u2014 Schwab's biggest revenue line."
+    },
+    {
+      "name": "Asset management & administration fees",
+      "amountM": 1913,
+      "yoy": "+14%",
+      "note": "Fees for managing client money in funds, ETFs and advisory accounts."
+    },
+    {
+      "name": "Trading revenue",
+      "amountM": 1158,
+      "yoy": "+16%",
+      "note": "Commissions and related revenue from clients trading \u2014 daily trades jumped 44%."
+    },
+    {
+      "name": "Bank deposit account fees",
+      "amountM": 345,
+      "yoy": "+40%",
+      "note": "Fees from the bank deposit account program with partner banks."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 279,
+      "yoy": "+64%",
+      "note": "Industry and service fees and other gains, net of the credit-loss provision on bank loans."
+    }
+  ],
+  "flow": {
+    "revenueM": 7171,
+    "costOfRevenueM": 1,
+    "grossProfitM": 7170,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 1756,
+        "note": "Pay and benefits for Schwab's roughly 34,000 employees."
+      },
+      {
+        "name": "Professional services",
+        "amountM": 325,
+        "note": "Outside consultants, legal and other professional help."
+      },
+      {
+        "name": "Occupancy & equipment",
+        "amountM": 316,
+        "note": "Offices, branches and equipment."
+      },
+      {
+        "name": "Technology, communications & depreciation",
+        "amountM": 509,
+        "note": "Communications ($172M), depreciation and amortization ($196M) and amortization of acquired intangibles ($141M)."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 487,
+        "note": "Advertising ($114M), regulatory fees ($73M) and other costs ($301M), less the $1M credit-loss provision shown as cost of revenue to avoid double-counting it."
+      }
+    ],
+    "operatingIncomeM": 3777,
+    "otherIncomeM": 0,
+    "taxM": 871,
+    "netIncomeM": 2811,
+    "equityM": -95,
+    "otherDetail": "Equity of -$95M is preferred stock dividends and other, deducted after tax: total net income was $2,906M, leaving $2,811M available to common stockholders. Other income is $0 because Schwab reports no separate non-operating line \u2014 income before taxes is used as operating income in this adaptation."
+  },
+  "takeaways": [
+    {
+      "stat": "$190.4B",
+      "statColor": "#3e8e5a",
+      "title": "Clients brought in record new money",
+      "text": "Core net new assets hit a record $190.4B, up 38%, and clients opened 1.2 million new brokerage accounts, taking total client assets to $13.33 trillion."
+    },
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Every revenue line grew",
+      "text": "Net interest revenue rose 14%, asset management fees 14% and trading revenue 16% as daily average trades jumped 44%."
+    },
+    {
+      "stat": "$1.62",
+      "statColor": "#3e8e5a",
+      "title": "Earnings hit a record",
+      "text": "GAAP EPS rose 29% to $1.62. Excluding $151M of pre-tax transaction-related costs, adjusted EPS was $1.69."
+    }
+  ],
+  "oneTimers": [
+    "$151M of pre-tax transaction-related costs in the quarter, made up of $141M amortization of acquired intangible assets and $10M of acquisition and integration costs. Adjusted net income was $3,021M versus $2,906M GAAP."
+  ],
+  "footerNote": "Financials adaptation: Schwab nets interest expense inside net interest revenue, so cost of revenue is the provision for credit losses on bank loans \u2014 $1M in Q3 2026 per the allowance rollforward in the Form 10-Q (the provision is netted inside Schwab's 'other revenue' line, so $1M is backed out of other expenses here to avoid double-counting). Operating income is income before taxes, other income is $0, and preferred dividends are reconciled through equity so net income is the $2,811M available to common stockholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest revenue",
+      "amount": 48.47
+    },
+    {
+      "label": "Asset management & administration fees",
+      "amount": 26.68
+    },
+    {
+      "label": "Trading revenue",
+      "amount": 16.15
+    },
+    {
+      "label": "Bank deposit account fees",
+      "amount": 4.81
+    },
+    {
+      "label": "Other revenue",
+      "amount": 3.89
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -0.01
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -24.49
+    },
+    {
+      "label": "Professional services",
+      "amount": -4.53
+    },
+    {
+      "label": "Occupancy & equipment",
+      "amount": -4.41
+    },
+    {
+      "label": "Technology, communications & depreciation",
+      "amount": -7.1
+    },
+    {
+      "label": "Other expenses",
+      "amount": -6.79
+    },
+    {
+      "label": "Other income",
+      "amount": 0.0
+    },
+    {
+      "label": "Equity / noncontrolling interests",
+      "amount": -1.32
+    },
+    {
+      "label": "Tax",
+      "amount": -12.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.2
+    }
+  ]
+}

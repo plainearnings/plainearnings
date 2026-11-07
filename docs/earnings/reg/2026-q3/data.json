@@ -1,0 +1,158 @@
+{
+  "ticker": "REG",
+  "company": "Regency Centers",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Rent growth pushed revenue up 8% and same-property NOI up 5.1%, but a $65M property impairment cut GAAP profit to $75M even as funds from operations (FFO) rose to $231M.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$419M",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.41",
+      "note": "Diluted; $0.58 a year ago, hit by a $65M impairment"
+    },
+    {
+      "label": "Nareit FFO",
+      "value": "$1.23 / share",
+      "note": "$231M total, up from $214M a year ago \u2014 the REIT profit measure that adds back property depreciation"
+    },
+    {
+      "label": "Same Property NOI",
+      "value": "+5.1%",
+      "note": "Net operating income from properties owned in both periods; portfolio 97.0% leased"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Lease income",
+      "amountM": 409,
+      "yoy": "+8%",
+      "note": "Rent from grocery-anchored shopping centers \u2014 base rent plus tenant recoveries for taxes, insurance and upkeep"
+    },
+    {
+      "name": "Management, transaction and other fees",
+      "amountM": 7,
+      "yoy": "+6%",
+      "note": "Fees for managing properties for partners and for deals and development work"
+    },
+    {
+      "name": "Other property income",
+      "amountM": 3,
+      "yoy": "+5%",
+      "note": "Other income earned at the properties"
+    }
+  ],
+  "flow": {
+    "revenueM": 419,
+    "costOfRevenueM": 122,
+    "grossProfitM": 297,
+    "opex": [
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 108,
+        "note": "Spreading the cost of buildings over their lives \u2014 a paper cost that REIT FFO adds back"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 25,
+        "note": "Head-office and corporate costs"
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 2,
+        "note": "Small remaining operating costs"
+      }
+    ],
+    "operatingIncomeM": 162,
+    "otherIncomeM": -94,
+    "equityM": 7,
+    "taxM": 0,
+    "netIncomeM": 75,
+    "otherDetail": "Other income is interest expense, net ($53M), plus a provision for impairment of real estate ($65M), partly offset by a gain on sale of real estate, net of tax ($24M), and net investment income ($1M): a net $94M cost. Equity is income from investments in real estate partnerships ($14M) minus profit belonging to noncontrolling interests ($3M) and preferred stock dividends ($3M), so net income is the $75M attributable to common shareholders (total net income was $82M). Tax is $0M as a separate line \u2014 as a REIT Regency distributes most of its income, and the gain on sale in the quarter is already shown net of tax."
+  },
+  "takeaways": [
+    {
+      "stat": "+5.1%",
+      "statColor": "#3e8e5a",
+      "title": "The shopping centers themselves grew",
+      "text": "Same Property NOI rose 5.1% year over year, the portfolio ended the quarter 97.0% leased, and leases were renewed at blended cash rent spreads of +11.9%."
+    },
+    {
+      "stat": "$65M",
+      "statColor": "#b8443c",
+      "title": "An impairment cut GAAP profit",
+      "text": "Net income attributable to common shareholders fell to $75M, or $0.41 per share, from $106M a year ago, mainly because of a $65.1M provision for impairment of real estate, partly offset by a $23.8M gain on sales."
+    },
+    {
+      "stat": "$1.23",
+      "statColor": "#3d7bc8",
+      "title": "FFO rose and the dividend went up",
+      "text": "Nareit FFO was $231M, or $1.23 per diluted share, up from $214M a year ago. Regency raised full-year FFO guidance and lifted its quarterly dividend 6% to $0.80 per share."
+    }
+  ],
+  "oneTimers": [
+    "Provision for impairment of real estate of $65M ($0.35 per diluted share)",
+    "Gain on sale of real estate, net of tax, of $24M ($0.13 per diluted share)"
+  ],
+  "footerNote": "REIT adaptation: cost of revenue is direct property costs \u2014 property operating expense ($70M) plus real estate taxes ($52M) from the Form 10-Q; depreciation and G&A sit in operating expenses, and interest, impairment and sale gains sit in other income, following the site's other REIT pages. The earnings release contains only FFO reconciliations, so the flow and revenue lines are built from the Form 10-Q consolidated statement of operations for the same quarter (amounts in thousands there, rounded here to whole $M). Tax is shown as $0M because the 10-Q presents no separate income-tax line for the quarter and the sale gain is net of tax.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526450159/reg-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526451423/reg-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Lease income",
+      "amount": 97.61
+    },
+    {
+      "label": "Management, transaction and other fees",
+      "amount": 1.67
+    },
+    {
+      "label": "Other property income",
+      "amount": 0.72
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.12
+    },
+    {
+      "label": "Depreciation",
+      "amount": -25.78
+    },
+    {
+      "label": "General & admin",
+      "amount": -5.97
+    },
+    {
+      "label": "Other operating",
+      "amount": -0.48
+    },
+    {
+      "label": "Other income",
+      "amount": -20.76
+    },
+    {
+      "label": "Tax",
+      "amount": 0.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.9
+    }
+  ],
+  "follow100Note": "Other income in this breakdown combines the other-income and equity lines from the flow, so the rows add to the net margin. Tax is 0.0% \u2014 see the flow note. Percentages are rounded to two decimals, so rows may differ from the kept-as-profit row by 0.01."
+}

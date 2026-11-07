@@ -1,0 +1,135 @@
+{
+  "ticker": "RCL",
+  "company": "Royal Caribbean Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Strong close-in demand and fuller ships (112% load factor) pushed revenue up 9% to $5.6B and profit to $1.73B, so the company raised its full-year earnings guidance.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.6B",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.45",
+      "note": "Adjusted EPS was $6.57"
+    },
+    {
+      "label": "Load factor",
+      "value": "112%",
+      "note": "Ships sailed more than full on a double-occupancy basis; 2.7M guests, +9% YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$2.5B",
+      "note": "$2,539M, up from $2,293M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Passenger ticket revenues",
+      "amountM": 3885,
+      "yoy": "+7%",
+      "note": "What guests pay for their cruise fares"
+    },
+    {
+      "name": "Onboard and other revenues",
+      "amountM": 1706,
+      "yoy": "+14%",
+      "note": "What guests spend on board and before sailing \u2014 drinks, excursions, spa, specialty dining and more"
+    }
+  ],
+  "flow": {
+    "revenueM": 5591,
+    "costOfRevenueM": 2711,
+    "grossProfitM": 2880,
+    "opex": [
+      {
+        "name": "Marketing, selling and administrative",
+        "amountM": 519,
+        "note": "Marketing, selling and head-office costs, including $9M of restructuring charges"
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 490,
+        "note": "Spreading the cost of ships and other assets over their lives"
+      }
+    ],
+    "operatingIncomeM": 1871,
+    "otherIncomeM": -109,
+    "equityM": -7,
+    "taxM": 27,
+    "netIncomeM": 1728,
+    "otherDetail": "Other income is interest expense, net of interest capitalized ($291M), partly offset by equity investment income ($176M, mainly its TUI Cruises joint venture), interest income ($5M) and $1M of other income. Equity is minus $7M of profit belonging to noncontrolling interests, so net income is the $1,728M attributable to Royal Caribbean Cruises Ltd. (total net income was $1,735M)."
+  },
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue grew with fuller, bigger capacity",
+      "text": "Total revenue rose to $5,591M from $5,139M a year ago, with capacity up 8% and 2.7 million guests carried, up 9%."
+    },
+    {
+      "stat": "112%",
+      "statColor": "#3e8e5a",
+      "title": "Ships sailed over full",
+      "text": "Load factor was 112%, and onboard and other revenue grew 14% to $1,706M as guests spent more before and during their cruises."
+    },
+    {
+      "stat": "$6.45",
+      "statColor": "#5b6b7c",
+      "title": "Profit rose and guidance went up",
+      "text": "Net income attributable to the company was $1,728M, or $6.45 per share, versus $1,575M a year ago, and full-year adjusted EPS guidance rose to $17.85\u2013$17.95."
+    }
+  ],
+  "oneTimers": [
+    "Loss on extinguishment of debt of $21M in the quarter, included in interest expense (excluded from adjusted results)",
+    "Restructuring charges and other initiative expenses of $9M, included in marketing, selling and administrative expenses"
+  ],
+  "footerNote": "Cost of revenue here is total cruise operating expenses (commissions and transportation, onboard costs, payroll, food, fuel and other operating costs), following Royal Caribbean's own gross-margin presentation, which also deducts depreciation before gross margin in its non-GAAP yield tables \u2014 depreciation is shown as an operating expense in this flow instead, so operating income matches the reported $1,871M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000042/a2026q3earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Passenger ticket revenues",
+      "amount": 69.49
+    },
+    {
+      "label": "Onboard and other revenues",
+      "amount": 30.51
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.49
+    },
+    {
+      "label": "Marketing, selling & admin",
+      "amount": -9.28
+    },
+    {
+      "label": "Depreciation",
+      "amount": -8.76
+    },
+    {
+      "label": "Other income",
+      "amount": -2.07
+    },
+    {
+      "label": "Tax",
+      "amount": -0.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.91
+    }
+  ],
+  "follow100Note": "Other income in this breakdown combines the other-income and equity lines from the flow, so the rows add to the net margin. Percentages are rounded to two decimals, so rows may differ from the kept-as-profit row by 0.01."
+}

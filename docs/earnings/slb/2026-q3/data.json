@@ -1,0 +1,165 @@
+{
+  "ticker": "SLB",
+  "company": "Schlumberger",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-23",
+  "verdict": "Revenue rose 6% to $9.45B on the ChampionX deal and a strong North America, but restructuring and pension charges held GAAP profit flat at $735M.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$9.45B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.49",
+      "note": "-2% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$828M",
+      "note": "Cash from operations of $1.51B minus investment"
+    },
+    {
+      "label": "Production Systems revenue",
+      "value": "$4.00B",
+      "note": "+15% YoY, largest division, incl. ChampionX"
+    }
+  ],
+  "segments": [
+    {
+      "name": "International",
+      "amountM": 6993,
+      "yoy": "+1%",
+      "note": "Oilfield services outside North America \u2014 the bulk of SLB's work, from the Middle East to offshore basins."
+    },
+    {
+      "name": "North America",
+      "amountM": 2401,
+      "yoy": "+24%",
+      "note": "US and Canada drilling and production work, boosted by the ChampionX acquisition."
+    },
+    {
+      "name": "Other",
+      "amountM": 55,
+      "yoy": "-33%",
+      "note": "Small remaining revenue that does not sit in the two main geographies."
+    }
+  ],
+  "flow": {
+    "revenueM": 9449,
+    "costOfRevenueM": 7883,
+    "grossProfitM": 1566,
+    "opex": [
+      {
+        "name": "Research & engineering",
+        "amountM": 156,
+        "note": "Research and engineering for new drilling and reservoir technology."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 84,
+        "note": "Running the head office and support functions."
+      },
+      {
+        "name": "Merger & integration",
+        "amountM": 55,
+        "note": "Costs of integrating the ChampionX acquisition."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 187,
+        "note": "Restructuring costs, including a $187M non-cash pension settlement charge."
+      }
+    ],
+    "operatingIncomeM": 1084,
+    "otherIncomeM": -65,
+    "taxM": 239,
+    "netIncomeM": 735,
+    "equityM": -45,
+    "otherDetail": "Other income of -$65M is interest and other income of $68M minus interest expense of $133M. Equity of -$45M is the share of profit belonging to noncontrolling interests, leaving $735M attributable to SLB out of $780M total net income."
+  },
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came from deals and North America",
+      "text": "Revenue rose to $9.45B. North America jumped 24% to $2.40B, helped by ChampionX, which added $956M of revenue in the quarter."
+    },
+    {
+      "stat": "$0.49",
+      "statColor": "#b8443c",
+      "title": "One-time charges cut into profit",
+      "text": "GAAP EPS fell 2% to $0.49. Excluding charges and credits, EPS was $0.64, as restructuring and a pension settlement charge weighed on reported results."
+    },
+    {
+      "stat": "$828M",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed solid",
+      "text": "Free cash flow was $828M in the quarter, and the board kept the quarterly dividend at $0.295 per share."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges of $187M in the quarter, including a $187M non-cash pension settlement charge.",
+    "Merger and integration costs of $55M, mainly for ChampionX. Net income excluding charges and credits was $962M versus $735M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/d151271dex99.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "International",
+      "amount": 74.01
+    },
+    {
+      "label": "North America",
+      "amount": 25.41
+    },
+    {
+      "label": "Other",
+      "amount": 0.58
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.43
+    },
+    {
+      "label": "Research & engineering",
+      "amount": -1.65
+    },
+    {
+      "label": "General & administrative",
+      "amount": -0.89
+    },
+    {
+      "label": "Merger & integration",
+      "amount": -0.58
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -1.98
+    },
+    {
+      "label": "Other income",
+      "amount": -0.69
+    },
+    {
+      "label": "Equity / noncontrolling interests",
+      "amount": -0.48
+    },
+    {
+      "label": "Tax",
+      "amount": -2.53
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.78
+    }
+  ]
+}

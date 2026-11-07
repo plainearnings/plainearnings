@@ -1,0 +1,153 @@
+{
+  "ticker": "Q",
+  "company": "Qnity Electronics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Sales jumped 22% to $1.56B on strong semiconductor demand in both segments, but GAAP profit fell as the newly independent company took on its own interest bill and $53M of spin-off transformation costs.",
+  "revenueYoY": "+22%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.56B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.87",
+      "note": "Down 14% YoY; adjusted EPS was $1.46, up 55%"
+    },
+    {
+      "label": "Adjusted Operating EBITDA",
+      "value": "$503M",
+      "note": "32.3% of sales, up from $370M pro forma a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "47.8%",
+      "note": "Up from 45.1% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor Technologies",
+      "amountM": 797,
+      "yoy": "+15%",
+      "note": "Materials and solutions used to make semiconductor chips"
+    },
+    {
+      "name": "Interconnect Solutions",
+      "amountM": 759,
+      "yoy": "+30%",
+      "note": "Materials that connect chips and carry signals in advanced electronics"
+    }
+  ],
+  "flow": {
+    "revenueM": 1556,
+    "costOfRevenueM": 813,
+    "grossProfitM": 743,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 200,
+        "note": "Selling and head-office costs"
+      },
+      {
+        "name": "Research and development",
+        "amountM": 105,
+        "note": "Developing new materials and solutions"
+      },
+      {
+        "name": "Transformation, integration and other charges",
+        "amountM": 53,
+        "note": "Costs of becoming independent from DuPont, including IT separation"
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 50,
+        "note": "Spreading the cost of intangible assets over their lives"
+      }
+    ],
+    "operatingIncomeM": 335,
+    "otherIncomeM": -103,
+    "equityM": 2,
+    "taxM": 51,
+    "netIncomeM": 183,
+    "otherDetail": "Other income is interest expense ($64M) plus $39M of other expense, net \u2014 the $39M includes indirect legacy costs from DuPont spin-off cost-sharing arrangements. Equity is equity earnings of nonconsolidated affiliates ($15M) minus $13M of profit belonging to noncontrolling interests, so net income is the $183M available for Qnity common stockholders (total net income was $196M)."
+  },
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Both segments grew double digits",
+      "text": "Net sales rose to $1,556M from $1,276M a year ago. Interconnect Solutions grew 30% to $759M and Semiconductor Technologies grew 15% to $797M."
+    },
+    {
+      "stat": "$1.46",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted profit surged",
+      "text": "Adjusted EPS was $1.46, up 55% year over year, and adjusted operating EBITDA rose to $503M. Qnity raised full-year 2026 guidance for sales, EBITDA and EPS."
+    },
+    {
+      "stat": "$0.87",
+      "statColor": "#b8443c",
+      "title": "GAAP EPS fell despite the sales jump",
+      "text": "GAAP EPS was $0.87, down from $1.01 a year ago, as interest expense rose to $64M and transformation and spin-off costs weighed on profit."
+    }
+  ],
+  "oneTimers": [
+    "Transformation, integration and other charges of $53M, including about $35M for IT independence from DuPont",
+    "Indirect legacy costs of $39M from DuPont spin-off cost-sharing arrangements, recorded in other expense"
+  ],
+  "footerNote": "Qnity was spun off from DuPont on November 1, 2025; prior-year figures in the release are pro forma for the spin-off where noted. Operating income here is gross profit minus the listed operating expenses, before equity earnings, interest and other expense \u2014 it reconciles to Qnity's reported $247M of income before income taxes.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2058873/000205887326000039/exhibit991supplementalsche.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Semiconductor Technologies",
+      "amount": 51.22
+    },
+    {
+      "label": "Interconnect Solutions",
+      "amount": 48.78
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.25
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.85
+    },
+    {
+      "label": "Research & development",
+      "amount": -6.75
+    },
+    {
+      "label": "Transformation charges",
+      "amount": -3.41
+    },
+    {
+      "label": "Amortization",
+      "amount": -3.21
+    },
+    {
+      "label": "Other income",
+      "amount": -6.49
+    },
+    {
+      "label": "Tax",
+      "amount": -3.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.76
+    }
+  ],
+  "follow100Note": "Other income in this breakdown combines the other-income and equity lines from the flow, so the rows add to the net margin."
+}

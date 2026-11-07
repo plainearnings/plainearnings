@@ -1,0 +1,196 @@
+{
+  "ticker": "SJM",
+  "company": "J.M. Smucker",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "verdict": "Smucker swung from a loss to a $324M profit as about $115M of tariff refunds and derivative gains flattered the quarter, while higher coffee prices lifted sales 5%.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.22B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.03",
+      "note": "vs. a $0.41 loss a year ago, diluted"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$337M",
+      "note": "vs. -$95M a year ago"
+    },
+    {
+      "label": "Coffee sales",
+      "value": "$808M",
+      "note": "+13% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Retail Coffee",
+      "amountM": 808,
+      "yoy": "+13%",
+      "note": "Folgers, Dunkin' and Caf\u00e9 Bustelo coffee sold in US stores \u2014 higher coffee prices drove the growth."
+    },
+    {
+      "name": "U.S. Retail Frozen Handheld & Spreads",
+      "amountM": 499,
+      "yoy": "+3%",
+      "note": "Uncrustables frozen sandwiches, Jif peanut butter and Smucker's spreads."
+    },
+    {
+      "name": "U.S. Retail Pet Foods",
+      "amountM": 372,
+      "yoy": "+1%",
+      "note": "Meow Mix cat food, Milk-Bone and other pet snacks."
+    },
+    {
+      "name": "Sweet Baked Snacks",
+      "amountM": 236,
+      "yoy": "-7%",
+      "note": "Hostess snack cakes and donuts \u2014 sales fell as shoppers bought fewer sweet snacks."
+    },
+    {
+      "name": "Away From Home",
+      "amountM": 204,
+      "yoy": "+3%",
+      "note": "Food sold to restaurants, schools, offices and other foodservice customers."
+    },
+    {
+      "name": "International & other",
+      "amountM": 100,
+      "yoy": "+9%",
+      "note": "The international business, which Smucker reports inside 'Other' rather than as a main segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 2219,
+    "costOfRevenueM": 1240,
+    "grossProfitM": 979,
+    "opex": [
+      {
+        "name": "Selling, distribution & administrative",
+        "amountM": 410,
+        "note": "Marketing, distribution and head-office costs."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 58,
+        "note": "Non-cash amortization of brand and other intangible assets, mainly from acquisitions."
+      },
+      {
+        "name": "Other special project costs",
+        "amountM": 1,
+        "note": "Small one-off project costs."
+      },
+      {
+        "name": "Other operating income",
+        "amountM": -1,
+        "note": "Small net other operating income, shown as a negative cost."
+      }
+    ],
+    "operatingIncomeM": 511,
+    "otherIncomeM": -83,
+    "taxM": 104,
+    "netIncomeM": 324,
+    "otherDetail": "Other income of -$83M is net interest expense of $82M plus $1M of other expense (rounded components; the release total is -$84M before rounding)."
+  },
+  "takeaways": [
+    {
+      "stat": "$115M",
+      "statColor": "#3e8e5a",
+      "title": "Tariff refunds were the big story",
+      "text": "Gross profit included about $115M of tariff refunds received in the quarter, worth $0.84 of EPS. Adjusted EPS was $3.24, up 71%."
+    },
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Coffee carried sales growth",
+      "text": "Coffee sales rose 13% to $808M on higher prices, helping total sales grow 5% to $2.22B even as Hostess sweet baked snacks fell 7%."
+    },
+    {
+      "stat": "$324M",
+      "statColor": "#5b6b7c",
+      "title": "A swing back to profit \u2014 with help",
+      "text": "Net income was $324M versus a $44M loss a year ago. The comparison is flattered by a $29M derivative gain this year versus a $253M derivative loss a year ago."
+    }
+  ],
+  "oneTimers": [
+    "About $115M of tariff refunds received in the quarter, recorded mainly in gross profit, plus $4M of related interest income.",
+    "A $29M gain from the change in net cumulative unallocated derivative gains was included in GAAP gross profit (a year ago the same line was a $253M loss)."
+  ],
+  "footerNote": "Smucker's fiscal year ends April 30, so this is Q1 of fiscal 2027. Q2 FY27 (quarter ended October 31, 2026) had not been reported as of November 7, 2026, so the latest reported quarter, Q1 FY27, is used. Smucker reports to one decimal place; figures are rounded to whole $M and a few lines sit $1M from their nearest rounding so the statement balances exactly. Segment detail for the International 'Other' line comes from the Form 10-Q segment note.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000079/sjm20260826exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000080/sjm-20260731.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. Retail Coffee",
+      "amount": 36.41
+    },
+    {
+      "label": "U.S. Retail Frozen Handheld & Spreads",
+      "amount": 22.49
+    },
+    {
+      "label": "U.S. Retail Pet Foods",
+      "amount": 16.76
+    },
+    {
+      "label": "Sweet Baked Snacks",
+      "amount": 10.64
+    },
+    {
+      "label": "Away From Home",
+      "amount": 9.19
+    },
+    {
+      "label": "International & other",
+      "amount": 4.51
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -55.88
+    },
+    {
+      "label": "Selling, distribution & administrative",
+      "amount": -18.48
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.61
+    },
+    {
+      "label": "Other special project costs",
+      "amount": -0.05
+    },
+    {
+      "label": "Other operating income",
+      "amount": 0.05
+    },
+    {
+      "label": "Other income",
+      "amount": -3.74
+    },
+    {
+      "label": "Tax",
+      "amount": -4.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.6
+    }
+  ],
+  "follow100Note": "Lines are rounded to whole $M from Smucker's one-decimal figures, so a few follow-$100 shares may differ by a cent or two from a direct calculation."
+}

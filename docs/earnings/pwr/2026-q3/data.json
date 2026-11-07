@@ -1,0 +1,144 @@
+{
+  "ticker": "PWR",
+  "company": "Quanta Services",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Revenue jumped 57% to a record $12.0B as electric-grid and power work boomed, and profit more than doubled to $695M, with backlog hitting a record $63.7B.",
+  "revenueYoY": "+57%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$12.0B",
+      "note": "+57% YoY, a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.55",
+      "note": "Diluted; adjusted EPS was $6.06"
+    },
+    {
+      "label": "Total backlog",
+      "value": "$63.7B",
+      "note": "Record; includes $41.8B of remaining performance obligations"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.2B",
+      "note": "Operating cash flow was $1.5B in Q3"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric",
+      "amountM": 9800,
+      "yoy": "+59%",
+      "note": "Building and maintaining power grids, substations and power-generation infrastructure"
+    },
+    {
+      "name": "Underground and Infrastructure",
+      "amountM": 2215,
+      "yoy": "+52%",
+      "note": "Underground utility, pipeline and infrastructure work"
+    }
+  ],
+  "flow": {
+    "revenueM": 12015,
+    "costOfRevenueM": 10006,
+    "grossProfitM": 2009,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 783,
+        "note": "Project support, head-office and administrative costs"
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 189,
+        "note": "Spreading the cost of assets bought in its many acquisitions"
+      },
+      {
+        "name": "Increase in fair value of contingent consideration",
+        "amountM": 20,
+        "note": "Earn-out promises to sellers of acquired businesses became more valuable \u2014 a paper cost"
+      }
+    ],
+    "operatingIncomeM": 1017,
+    "otherIncomeM": -82,
+    "equityM": -2,
+    "taxM": 238,
+    "netIncomeM": 695,
+    "otherDetail": "Other income is interest expense ($84M) partly offset by interest income ($10M), plus $8M of other expense. Equity is equity earnings of integral unconsolidated affiliates ($10M) minus $12M of profit belonging to noncontrolling interests, so net income is the $695M attributable to common stock. Operating income here is before that equity line; Quanta's reported operating income, which includes the equity earnings, was $1,027M."
+  },
+  "takeaways": [
+    {
+      "stat": "+57%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, led by Electric",
+      "text": "Revenue rose to $12.01B from $7.63B a year ago. Electric segment revenue grew 59% to $9.80B."
+    },
+    {
+      "stat": "$63.7B",
+      "statColor": "#3e8e5a",
+      "title": "Backlog hit a record",
+      "text": "Total backlog reached $63.7B, and Quanta raised its full-year 2026 revenue guidance to $41.3B\u2013$41.6B."
+    },
+    {
+      "stat": "$4.55",
+      "statColor": "#5b6b7c",
+      "title": "GAAP profit more than doubled",
+      "text": "Net income attributable to common stock was $695M, or $4.55 per diluted share, versus $339M, or $2.24, a year ago; adjusted EPS was $6.06."
+    }
+  ],
+  "oneTimers": [
+    "Acquisition and integration costs of $35M (excluded from Quanta's adjusted results)",
+    "Increase in fair value of contingent consideration liabilities of $20M"
+  ],
+  "footerNote": "Amounts in the release are in thousands and are rounded here to whole $M; cost of services is shown $1M below its rounded value so the flow balances exactly in whole millions. The flow treats equity earnings of integral affiliates in the equity line (see otherDetail), unlike Quanta's statement, which includes them above operating income.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526436949/d77812dex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Electric",
+      "amount": 81.56
+    },
+    {
+      "label": "Underground and Infrastructure",
+      "amount": 18.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.28
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.52
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.57
+    },
+    {
+      "label": "Contingent consideration",
+      "amount": -0.17
+    },
+    {
+      "label": "Other income",
+      "amount": -0.7
+    },
+    {
+      "label": "Tax",
+      "amount": -1.98
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.78
+    }
+  ],
+  "follow100Note": "Other income in this breakdown combines the other-income and equity lines from the flow, so the rows add to the net margin."
+}

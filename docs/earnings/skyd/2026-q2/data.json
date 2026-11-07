@@ -1,0 +1,157 @@
+{
+  "ticker": "SKYD",
+  "company": "Skydance Corp",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-04",
+  "verdict": "Streaming and studios grew, but legacy TV kept shrinking, so total revenue rose just 1% to $6.91B and profit was a thin $41M after merger-related costs.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.91B",
+      "note": "+1% vs. predecessor Q2 2025"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.04",
+      "note": "diluted, attributable to parent"
+    },
+    {
+      "label": "Paramount+ subscribers",
+      "value": "81.6M",
+      "note": "+6% YoY, about +2M in the quarter"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.1B",
+      "note": "+27% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "TV Media",
+      "amountM": 3125,
+      "yoy": "-9%",
+      "note": "CBS, cable networks and TV stations \u2014 still the biggest business, but advertising and affiliate fees are shrinking. Shown net of $3M of intersegment eliminations."
+    },
+    {
+      "name": "Direct-to-Consumer",
+      "amountM": 2474,
+      "yoy": "+9%",
+      "note": "Paramount+ and other streaming \u2014 revenue rose 9% as Paramount+ added about 2 million subscribers to reach 81.6 million."
+    },
+    {
+      "name": "Studios",
+      "amountM": 1314,
+      "yoy": "+16%",
+      "note": "Paramount Pictures and the TV studios (including Skydance) making films and shows for the company and for others."
+    }
+  ],
+  "flow": {
+    "revenueM": 6913,
+    "costOfRevenueM": 4443,
+    "grossProfitM": 2470,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1443,
+        "note": "Staff, marketing and head-office costs across the studios, networks and streaming services."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 364,
+        "note": "Non-cash depreciation and amortization \u2014 much higher than the predecessor company after the merger revalued assets."
+      },
+      {
+        "name": "Restructuring & transaction-related items",
+        "amountM": 188,
+        "note": "Merger, restructuring and transformation costs from combining Skydance with Paramount."
+      }
+    ],
+    "operatingIncomeM": 475,
+    "otherIncomeM": -260,
+    "taxM": 120,
+    "netIncomeM": 41,
+    "equityM": -54,
+    "otherDetail": "Other income of -$260M is interest expense of $255M and $34M of other items, minus $29M of interest income. Equity of -$54M is the loss from investee companies (equity-method investments), taken after tax, leaving net earnings of $41M \u2014 all of it attributable to the parent in Q2, as noncontrolling interests took $0."
+  },
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3e8e5a",
+      "title": "Streaming is the growth engine",
+      "text": "Direct-to-consumer revenue rose 9% to $2.47B. Paramount+ revenue grew 16%, subscribers reached 81.6 million, and it was the service's best-ever quarter for keeping subscribers."
+    },
+    {
+      "stat": "-9%",
+      "statColor": "#b8443c",
+      "title": "Legacy TV keeps shrinking",
+      "text": "TV Media revenue fell 9% to about $3.13B as advertising dropped 14% and pay-TV affiliate fees fell 6%, though tighter costs lifted its profit margin."
+    },
+    {
+      "stat": "$41M",
+      "statColor": "#5b6b7c",
+      "title": "Reported profit is still thin",
+      "text": "Net earnings were just $41M on $6.91B of revenue, after $188M of restructuring and transaction costs and $255M of interest expense. Adjusted EBITDA was $1.1B, up 27%."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and transaction-related costs of $188M in the quarter; the shareholder letter says operating income included $153M of transaction-related costs.",
+    "The company is preparing a proposed combination with Warner Bros. Discovery, which it flagged as a focus alongside its standalone strategy."
+  ],
+  "footerNote": "Q3 2026 had not been reported as of November 7, 2026, so the latest reported quarter, Q2 2026, is used. This is the merged Paramount Skydance company: Q2 2026 is a full 'successor' quarter (the Skydance merger closed August 7, 2025), so the GAAP income statement is a clean, complete quarter and balances as reported. Year-on-year comparisons are against the 'predecessor' Paramount company, as presented in the release, and segment figures use the company's new TV Media / Direct-to-Consumer / Studios structure, with $3M of intersegment eliminations netted against TV Media so segments sum to total revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000052/ex99_q226.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "TV Media",
+      "amount": 45.2
+    },
+    {
+      "label": "Direct-to-Consumer",
+      "amount": 35.79
+    },
+    {
+      "label": "Studios",
+      "amount": 19.01
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.27
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -20.87
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.27
+    },
+    {
+      "label": "Restructuring & transaction-related items",
+      "amount": -2.72
+    },
+    {
+      "label": "Other income",
+      "amount": -3.76
+    },
+    {
+      "label": "Equity / noncontrolling interests",
+      "amount": -0.78
+    },
+    {
+      "label": "Tax",
+      "amount": -1.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.59
+    }
+  ]
+}

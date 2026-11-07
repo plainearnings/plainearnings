@@ -1,0 +1,152 @@
+{
+  "ticker": "SHW",
+  "company": "Sherwin-Williams",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Sales rose 8% to $6.86B on price increases and the Suvinil deal, but higher raw-material costs squeezed margins, so net income slipped 1% to $821M.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.86B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.38",
+      "note": "+1% YoY, diluted"
+    },
+    {
+      "label": "Paint Stores sales",
+      "value": "$4.02B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "EBITDA",
+      "value": "$1.39B",
+      "note": "+3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Paint Stores Group",
+      "amountM": 4016,
+      "yoy": "+5%",
+      "note": "Sherwin-Williams' own stores selling to professional painters and contractors \u2014 same-store sales rose 3.9%."
+    },
+    {
+      "name": "Consumer Brands Group",
+      "amountM": 937,
+      "yoy": "+22%",
+      "note": "DIY brands like Valspar and HGTV Home sold through retailers, boosted by the Suvinil acquisition in Brazil."
+    },
+    {
+      "name": "Performance Coatings Group",
+      "amountM": 1903,
+      "yoy": "+9%",
+      "note": "Industrial coatings for cars, packaging, buildings and other manufactured products."
+    },
+    {
+      "name": "Administrative & other",
+      "amountM": 4,
+      "yoy": "+169%",
+      "note": "Tiny corporate and other sales that do not sit in the three main groups."
+    }
+  ],
+  "flow": {
+    "revenueM": 6860,
+    "costOfRevenueM": 3583,
+    "grossProfitM": 3277,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 2069,
+        "note": "Running the paint stores, sales reps and head office."
+      },
+      {
+        "name": "Other general expense",
+        "amountM": 5,
+        "note": "Small net other general costs."
+      }
+    ],
+    "operatingIncomeM": 1203,
+    "otherIncomeM": -139,
+    "taxM": 243,
+    "netIncomeM": 821,
+    "otherDetail": "Other income of -$139M is interest expense of $139M plus $6M of other expense, minus $6M of interest income (rounded components)."
+  },
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "All three businesses grew sales",
+      "text": "Paint Stores rose 5%, Consumer Brands 22% (helped by buying Suvinil in Brazil) and Performance Coatings 9%, taking total sales to $6.86B."
+    },
+    {
+      "stat": "47.8%",
+      "statColor": "#b8443c",
+      "title": "Margins were squeezed by costs",
+      "text": "Gross margin fell from 49.2% to 47.8% as raw material and supply chain costs rose, so net income slipped 1% to $821M despite higher sales."
+    },
+    {
+      "stat": "$749M",
+      "statColor": "#5b6b7c",
+      "title": "Cash went back to shareholders",
+      "text": "Sherwin-Williams returned $749M to shareholders in the quarter through dividends and share buybacks."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted EPS of $3.63 excludes Valspar acquisition-related amortization and severance and restructuring costs; GAAP EPS was $3.38. Full-year guidance includes $0.82 per share of Valspar amortization and $0.11 of severance and restructuring."
+  ],
+  "footerNote": "Sherwin-Williams reports in millions to one decimal place; figures are rounded to whole $M (tax of $242.5M rounds to $243M), so the statement balances exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/89800/000008980026000054/shwearningsrelease3q2026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Paint Stores Group",
+      "amount": 58.54
+    },
+    {
+      "label": "Consumer Brands Group",
+      "amount": 13.66
+    },
+    {
+      "label": "Performance Coatings Group",
+      "amount": 27.74
+    },
+    {
+      "label": "Administrative & other",
+      "amount": 0.06
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.23
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -30.16
+    },
+    {
+      "label": "Other general expense",
+      "amount": -0.07
+    },
+    {
+      "label": "Other income",
+      "amount": -2.03
+    },
+    {
+      "label": "Tax",
+      "amount": -3.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.97
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "ticker": "PTC",
+  "company": "PTC Inc.",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Reported revenue fell 25% on license timing and the sale of Kepware and ThingWorx, even as recurring contracts (ARR, excluding the sold businesses) grew 8% \u2014 and PTC agreed to be acquired by Schneider Electric, so it stopped giving guidance.",
+  "revenueYoY": "-25%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$673M",
+      "note": "-25% YoY, hit by license timing under ASC 606"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.44",
+      "note": "Diluted; $2.88 a year ago"
+    },
+    {
+      "label": "ARR excl. divested businesses",
+      "value": "$2.51B",
+      "note": "+8% YoY \u2014 the annualized value of active subscription contracts"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$38M",
+      "note": "Down from $100M, after about $75M of divestiture-related cash taxes and $24M of divestiture costs"
+    }
+  ],
+  "segments": [
+    {
+      "name": "License",
+      "amountM": 267,
+      "yoy": "-45%",
+      "note": "The license part of subscription software sales \u2014 lumpy, because much of it is booked up front when a contract starts"
+    },
+    {
+      "name": "Support and cloud services",
+      "amountM": 382,
+      "yoy": "-1%",
+      "note": "Support, hosting and cloud services for its industrial software \u2014 the steady, recurring part"
+    },
+    {
+      "name": "Professional services",
+      "amountM": 24,
+      "yoy": "-1%",
+      "note": "Consulting and help getting the software installed and used"
+    }
+  ],
+  "flow": {
+    "revenueM": 673,
+    "costOfRevenueM": 116,
+    "grossProfitM": 557,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 144,
+        "note": "Sales teams and marketing"
+      },
+      {
+        "name": "Research & development",
+        "amountM": 120,
+        "note": "Building and improving the software"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 62,
+        "note": "Head-office, legal and finance costs"
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 12,
+        "note": "Spreading the cost of software and other assets bought in acquisitions"
+      },
+      {
+        "name": "Impairment and other charges",
+        "amountM": 6,
+        "note": "One-off charges and write-downs, net"
+      }
+    ],
+    "operatingIncomeM": 213,
+    "otherIncomeM": -18,
+    "taxM": 38,
+    "netIncomeM": 157
+  },
+  "takeaways": [
+    {
+      "stat": "-25%",
+      "statColor": "#b8443c",
+      "title": "Headline revenue fell sharply",
+      "text": "Revenue was $673M, down from $894M a year ago. License revenue fell 45% on contract timing, while support and cloud revenue was almost flat at $382M."
+    },
+    {
+      "stat": "+8%",
+      "statColor": "#3e8e5a",
+      "title": "The contract base still grew",
+      "text": "ARR excluding the divested Kepware and ThingWorx businesses rose 8% to $2,508M, showing the underlying subscription book kept growing."
+    },
+    {
+      "stat": "$1.44",
+      "statColor": "#5b6b7c",
+      "title": "Profit halved, and a takeover is pending",
+      "text": "GAAP EPS was $1.44 versus $2.88 a year ago. On October 5, 2026 PTC agreed to be acquired by Schneider Electric and suspended guidance and earnings calls."
+    }
+  ],
+  "oneTimers": [
+    "Impairment and other charges of $6M in the quarter",
+    "About $75M of divestiture-related cash taxes and $24M of divestiture-related costs weighed on Q4 cash flow (not on GAAP profit the same way)"
+  ],
+  "footerNote": "Amounts in the release are in thousands and are rounded here to whole $M; segment lines are the release's supplemental split of revenue into license, support and cloud services, and professional services, which sums to total revenue. PTC's fiscal year ends September 30, so this is its fiscal Q4.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526447186/ptc-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "License",
+      "amount": 39.67
+    },
+    {
+      "label": "Support and cloud services",
+      "amount": 56.76
+    },
+    {
+      "label": "Professional services",
+      "amount": 3.57
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -17.24
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -21.4
+    },
+    {
+      "label": "Research & development",
+      "amount": -17.83
+    },
+    {
+      "label": "General & admin",
+      "amount": -9.21
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.78
+    },
+    {
+      "label": "Impairment & other",
+      "amount": -0.89
+    },
+    {
+      "label": "Other income",
+      "amount": -2.67
+    },
+    {
+      "label": "Tax",
+      "amount": -5.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.33
+    }
+  ]
+}

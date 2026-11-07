@@ -1,0 +1,195 @@
+{
+  "ticker": "PSX",
+  "company": "Phillips 66",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Refining made the quarter \u2014 crack spreads surged, refineries ran at 98% and refining pre-tax profit jumped to $6.0B, lifting total earnings to $5.6B on $50.5B of sales.",
+  "revenueYoY": "+46%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$50.5B",
+      "note": "+46% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$14.08",
+      "note": "Diluted; $0.32 a year ago"
+    },
+    {
+      "label": "Refining pre-tax profit",
+      "value": "$6.0B",
+      "note": "Realized margin $38.00/bbl, vs a loss a year ago"
+    },
+    {
+      "label": "Cash returned to shareholders",
+      "value": "$2.8B",
+      "note": "$2.3B buybacks + $504M dividends in Q3"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Marketing and Specialties",
+      "amountM": 31951,
+      "yoy": "+45%",
+      "note": "Fuel and specialty products sold to customers \u2014 the largest sales line, mostly pass-through product cost"
+    },
+    {
+      "name": "Refining",
+      "amountM": 11693,
+      "yoy": "+61%",
+      "note": "Third-party sales of gasoline, diesel and other products made at its refineries"
+    },
+    {
+      "name": "Midstream",
+      "amountM": 6177,
+      "yoy": "+38%",
+      "note": "Moving and processing oil and natural gas liquids for outside customers"
+    },
+    {
+      "name": "Renewable Fuels",
+      "amountM": 712,
+      "yoy": "-7%",
+      "note": "Renewable diesel and related products from renewable feedstocks"
+    },
+    {
+      "name": "Corporate and Other (incl. Chemicals)",
+      "amountM": 7,
+      "yoy": "-22%",
+      "note": "Tiny direct sales; Chemicals earns its money through an equity stake in Chevron Phillips Chemical, so it has no consolidated sales"
+    }
+  ],
+  "flow": {
+    "revenueM": 50540,
+    "costOfRevenueM": 40814,
+    "grossProfitM": 9726,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 1867,
+        "note": "Day-to-day cost of running plants, pipelines and facilities"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 625,
+        "note": "Selling and head-office costs"
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 591,
+        "note": "Spreading the cost of plants and equipment over their lives"
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 201,
+        "note": "Property, production and other non-income taxes"
+      },
+      {
+        "name": "Impairments",
+        "amountM": 32,
+        "note": "Writing down assets that are worth less than book value"
+      }
+    ],
+    "operatingIncomeM": 6410,
+    "otherIncomeM": 137,
+    "equityM": 538,
+    "taxM": 1469,
+    "netIncomeM": 5616,
+    "otherDetail": "Other income is other income ($404M) plus a $1M gain on dispositions, minus interest and debt expense ($243M), accretion ($14M) and foreign-currency losses ($11M). Equity is equity earnings of affiliates ($561M, mainly Chevron Phillips Chemical) minus $23M of profit belonging to noncontrolling interests, so net income is the $5,616M attributable to Phillips 66. Operating income here is gross profit minus the listed operating costs, before equity earnings and interest \u2014 Phillips 66 reports pre-tax income of $7,108M on that basis."
+  },
+  "takeaways": [
+    {
+      "stat": "+46%",
+      "statColor": "#3d7bc8",
+      "title": "Sales jumped on higher prices",
+      "text": "Sales rose to $50.5B from $34.5B a year ago, mainly on higher refined-product, crude and NGL prices."
+    },
+    {
+      "stat": "$38.00",
+      "statColor": "#3e8e5a",
+      "title": "Refining margins surged",
+      "text": "Realized refining margin was $38.00 per barrel, up from $12.15 a year ago, and refining swung from a $518M pre-tax loss to a $6,031M profit."
+    },
+    {
+      "stat": "$2.8B",
+      "statColor": "#5b6b7c",
+      "title": "Cash went to buybacks and debt cuts",
+      "text": "The company returned $2.8B to shareholders in the quarter and cut total debt by $2.0B to $18.5B."
+    }
+  ],
+  "oneTimers": [
+    "Impairments of $32M on the income statement ($29M flagged as a Refining special item in the earnings release)"
+  ],
+  "footerNote": "Segments are third-party sales and other operating revenues by segment from the Form 10-Q segment note; they sum to consolidated sales. Chemicals is an equity-method business (Chevron Phillips Chemical) with no consolidated sales, so it is grouped with Corporate and Other here \u2014 its $311M of pre-tax earnings arrive through equity earnings, not sales. The earnings release itself does not contain a full GAAP income statement, so the flow is built from the Form 10-Q consolidated statement of income for the same quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000035/psx-2026930_ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000037/psx-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Marketing and Specialties",
+      "amount": 63.22
+    },
+    {
+      "label": "Refining",
+      "amount": 23.14
+    },
+    {
+      "label": "Midstream",
+      "amount": 12.22
+    },
+    {
+      "label": "Renewable Fuels",
+      "amount": 1.41
+    },
+    {
+      "label": "Corporate and Other (incl. Chemicals)",
+      "amount": 0.01
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.76
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -3.69
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.24
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.17
+    },
+    {
+      "label": "Other taxes",
+      "amount": -0.4
+    },
+    {
+      "label": "Impairments",
+      "amount": -0.06
+    },
+    {
+      "label": "Other income",
+      "amount": 1.34
+    },
+    {
+      "label": "Tax",
+      "amount": -2.91
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.11
+    }
+  ],
+  "follow100Note": "Other income in this breakdown combines the other-income and equity-earnings lines from the flow, so the rows add to the net margin."
+}

@@ -1,0 +1,157 @@
+{
+  "ticker": "SBAC",
+  "company": "SBA Communications",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Tower rent inched up 1%, but site development work fell by more than a third, so total revenue slipped about 3% and net income dipped to $231M.",
+  "revenueYoY": "-3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$714M",
+      "note": "-3% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.19",
+      "note": "-1% YoY, diluted"
+    },
+    {
+      "label": "AFFO per share",
+      "value": "$3.19",
+      "note": "-3% YoY; AFFO is the cash-profit measure tower REITs watch"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$488M",
+      "note": "-1% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Site leasing",
+      "amountM": 665,
+      "yoy": "+1%",
+      "note": "Rent paid by wireless carriers for space on SBA's cell towers \u2014 the core, recurring business."
+    },
+    {
+      "name": "Site development",
+      "amountM": 49,
+      "yoy": "-36%",
+      "note": "Services helping carriers build and upgrade sites \u2014 a much smaller, project-based business that shrank sharply."
+    }
+  ],
+  "flow": {
+    "revenueM": 714,
+    "costOfRevenueM": 172,
+    "grossProfitM": 542,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 68,
+        "note": "Staff and office costs of running the tower company, including share-based pay."
+      },
+      {
+        "name": "Depreciation, accretion & amortization",
+        "amountM": 84,
+        "note": "Non-cash wear-and-tear charge on towers and related assets."
+      },
+      {
+        "name": "Asset impairment & decommission costs",
+        "amountM": 13,
+        "note": "Write-downs and costs of taking towers out of service."
+      },
+      {
+        "name": "Acquisition & new business costs",
+        "amountM": 9,
+        "note": "Costs of deals and new business initiatives."
+      }
+    ],
+    "operatingIncomeM": 368,
+    "otherIncomeM": -114,
+    "taxM": 22,
+    "netIncomeM": 231,
+    "equityM": -1,
+    "otherDetail": "Other income of -$114M (sum of rounded components) is interest income of $8M, non-cash interest income of $16M and other income of $15M, minus interest expense of $127M, deferred financing fee amortization of $6M and a $20M loss on extinguishment of debt. Equity of -$1M is profit attributable to noncontrolling interests, leaving $231M for SBA shareholders out of $232M total net income."
+  },
+  "takeaways": [
+    {
+      "stat": "+1%",
+      "statColor": "#3d7bc8",
+      "title": "Tower rent is steady, services slumped",
+      "text": "Site leasing revenue rose 1% to $665M, but site development revenue fell 36% to $49M, pulling total revenue down to $714M."
+    },
+    {
+      "stat": "$3.19",
+      "statColor": "#3e8e5a",
+      "title": "Cash profit per share held up",
+      "text": "AFFO (adjusted funds from operations, a REIT cash-profit measure) was $3.19 per share, and SBA bought back $300M of its own stock in the quarter."
+    },
+    {
+      "stat": "$231M",
+      "statColor": "#5b6b7c",
+      "title": "Profit dipped slightly",
+      "text": "Net income attributable to SBA was $231M, down from $237M a year ago, after a $20M loss on paying off debt early and $13M of impairment and decommission costs."
+    }
+  ],
+  "oneTimers": [
+    "$20M loss on extinguishment of debt in the quarter.",
+    "$13M of asset impairment and decommission costs.",
+    "SBA sold all of its towers in Chile and Ecuador and agreed to sell its towers in Peru, exiting South America outside Brazil."
+  ],
+  "footerNote": "REIT adaptation: cost of revenue is the direct cost of running the towers and development projects ($134M site leasing + $38M site development); depreciation and G&A sit in operating expenses, and interest expense sits in other income, following the site's other tower-REIT pages. SBA reports in thousands; figures are rounded to whole $M and other income is the sum of its rounded components, so the statement balances exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526443666/d185668dex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Site leasing",
+      "amount": 93.14
+    },
+    {
+      "label": "Site development",
+      "amount": 6.86
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.09
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -9.52
+    },
+    {
+      "label": "Depreciation, accretion & amortization",
+      "amount": -11.76
+    },
+    {
+      "label": "Asset impairment & decommission costs",
+      "amount": -1.82
+    },
+    {
+      "label": "Acquisition & new business costs",
+      "amount": -1.26
+    },
+    {
+      "label": "Other income",
+      "amount": -15.97
+    },
+    {
+      "label": "Equity / noncontrolling interests",
+      "amount": -0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -3.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.35
+    }
+  ]
+}
