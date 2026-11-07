@@ -1,0 +1,146 @@
+{
+  "ticker": "TEM",
+  "company": "Tempus AI",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+23%",
+  "verdict": "Tempus grew revenue 23% to $412M as cancer-test volumes jumped 32%, and a $47M jump in other income shrank its net loss to just $15M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$412M",
+      "note": "Up 23% from $334M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.08",
+      "note": "Non-GAAP result was a $0.07 profit per share"
+    },
+    {
+      "label": "Oncology volume growth",
+      "value": "+32%",
+      "note": "Growth in cancer-test volumes; MRD tests (checking for leftover cancer) were ~12,000, up 300%"
+    },
+    {
+      "label": "Cash",
+      "value": "$590M",
+      "note": "Cash and equivalents at September 30; full-year revenue guidance raised to $1.60\u20131.605B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Diagnostics",
+      "amountM": 303.47,
+      "note": "Genetic and molecular tests for cancer and other diseases, ordered by doctors. Up 20% YoY on 32% oncology volume growth.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "Data and applications",
+      "amountM": 108.067,
+      "note": "Licensing Tempus's de-identified health data and AI tools, mostly to drug companies. Up 33% YoY, with its Insights data product up 29%.",
+      "yoy": "+33%"
+    }
+  ],
+  "flow": {
+    "revenueM": 411.537,
+    "costOfRevenueM": 144.836,
+    "grossProfitM": 266.701,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 231.857,
+        "note": "By far the biggest running cost \u2014 selling tests and data, plus the back office and stock pay. Up 23% YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 46.0,
+        "note": "Developing new tests and the science behind them. Up 2% YoY."
+      },
+      {
+        "name": "Technology research & development",
+        "amountM": 45.708,
+        "note": "Building the data platform and AI technology. Up 20% YoY."
+      }
+    ],
+    "operatingIncomeM": -56.864,
+    "otherIncomeM": 44.416,
+    "equityM": -2.368,
+    "taxM": 0.035,
+    "netIncomeM": -14.851
+  },
+  "otherDetail": "Net $42.0M was added outside operations: $47.1M of other income \u2014 gains on marketable equity securities, foreign-currency gains and income from the intellectual-property licence with SB Tempus \u2014 plus $4.0M of interest income, less $6.7M of interest expense and a $2.4M loss from equity-method investments.",
+  "follow100": [
+    {
+      "label": "Diagnostics",
+      "amount": 73.74
+    },
+    {
+      "label": "Data and applications",
+      "amount": 26.26
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.19
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -56.34
+    },
+    {
+      "label": "Research & development",
+      "amount": -11.18
+    },
+    {
+      "label": "Technology R&D",
+      "amount": -11.11
+    },
+    {
+      "label": "Other income, net",
+      "amount": 10.22
+    },
+    {
+      "label": "Tax",
+      "amount": -0.01
+    },
+    {
+      "label": "Net loss",
+      "amount": -3.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Both engines grew",
+      "text": "Revenue rose 23% to $411.5M. Diagnostics brought in $303.5M (up 20%) as oncology test volumes grew 32% and minimal-residual-disease tests \u2014 checking whether cancer remains after treatment \u2014 roughly quadrupled to about 12,000. Data and applications grew faster, up 33% to $108.1M. Management raised full-year 2026 revenue guidance to $1.60\u20131.605B."
+    },
+    {
+      "stat": "65%",
+      "statColor": "#3e8e5a",
+      "title": "The core business still loses money",
+      "text": "Gross margin was a healthy 65%, but running costs of $323.6M \u2014 $231.9M of it selling, general and administrative \u2014 left a $56.9M operating loss, only slightly better than a year ago. On the company's non-GAAP basis (leaving out stock pay and similar items) Tempus made a $13.4M profit, so much of the GAAP loss is non-cash pay and deal accounting."
+    },
+    {
+      "stat": "-$15M",
+      "statColor": "#5b6b7c",
+      "title": "Investment income shrank the loss",
+      "text": "The net loss narrowed to $14.9M from $80.0M a year ago \u2014 mostly because other income jumped to $47.1M, from $2.6M, on gains in the value of marketable equity securities and licence income. Those gains sit outside the testing and data business and can reverse, so the smaller loss is not yet an operating turnaround."
+    }
+  ],
+  "oneTimers": [
+    "Other income of $47.1M (vs $2.6M a year ago) consists of gains and losses on marketable equity securities, foreign-currency moves and SB Tempus licence income, per the 10-Q \u2014 market-driven items, not customer revenue."
+  ],
+  "footerNote": "Tempus reports in thousands; figures here are exact to the thousand, shown in $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526442619/tem-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526442624/tem-20260930.htm"
+    }
+  ]
+}

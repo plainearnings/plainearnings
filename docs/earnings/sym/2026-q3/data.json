@@ -1,0 +1,149 @@
+{
+  "ticker": "SYM",
+  "company": "Symbotic",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-08-05",
+  "revenueYoY": "+22%",
+  "verdict": "Symbotic grew revenue 22% to $721M and swung to a $55M net profit, helped by $31M of other income \u2014 though $43M of that profit belongs to its joint-venture partners, leaving $12M for shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$721M",
+      "note": "Up 22% from $592M a year ago"
+    },
+    {
+      "label": "EPS (diluted, Class A)",
+      "value": "$0.09",
+      "note": "Vs -$0.04 a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$95M",
+      "note": "The company's cash-style profit measure \u2014 more than double the $45M a year ago"
+    },
+    {
+      "label": "Cash",
+      "value": "$1.7B",
+      "note": "Cash and equivalents at June 27, down from $2.0B in Q2 as projects ramped; Q4 revenue guided to $760\u2013780M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Systems",
+      "amountM": 670.952,
+      "note": "Building and installing the automated warehouse systems \u2014 robots, storage and software \u2014 mostly for Walmart and other large distributors. Up 20% YoY.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "Operation services",
+      "amountM": 37.121,
+      "note": "Running customers' automated warehouses day to day. Up 49% YoY.",
+      "yoy": "+49%"
+    },
+    {
+      "name": "Software maintenance & support",
+      "amountM": 12.765,
+      "note": "Keeping the warehouse software updated and supported. Up 57% YoY.",
+      "yoy": "+57%"
+    }
+  ],
+  "flow": {
+    "revenueM": 720.838,
+    "costOfRevenueM": 559.928,
+    "grossProfitM": 160.91,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 43.78,
+        "note": "Improving the robots and warehouse software. Down 12% YoY on a GAAP basis."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 84.235,
+        "note": "Selling plus the back office, including stock pay. Up 18% YoY."
+      }
+    ],
+    "operatingIncomeM": 32.895,
+    "otherIncomeM": 30.587,
+    "equityM": -9.631,
+    "taxM": -1.149,
+    "netIncomeM": 55.0
+  },
+  "otherDetail": "Net $21.0M was added outside operations: $30.6M of other income \u2014 mainly fair-value gains on strategic investments after observable price changes, plus interest and dividend income \u2014 less a $9.6M loss from an equity-method investment (a stake whose profits and losses Symbotic shares). The tax line was a $1.1M benefit.",
+  "follow100": [
+    {
+      "label": "Systems",
+      "amount": 93.08
+    },
+    {
+      "label": "Operation services",
+      "amount": 5.15
+    },
+    {
+      "label": "Software maintenance & support",
+      "amount": 1.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -77.68
+    },
+    {
+      "label": "Research & development",
+      "amount": -6.07
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -11.69
+    },
+    {
+      "label": "Other income, net of equity loss",
+      "amount": 2.91
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.16
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.63
+    }
+  ],
+  "follow100Note": "The $55M net profit is the whole company's, including partners' shares: $43.3M of it is attributable to noncontrolling interests (partners in Symbotic's joint ventures), leaving $11.7M \u2014 about $1.62 of every $100 of revenue \u2014 attributable to Symbotic's own shareholders.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Growth held up, profit arrived",
+      "text": "Revenue rose 22% to $721M, almost all of it warehouse systems ($671M). Gross margin widened to 22% from 19% a year ago, and the company swung from a $26M operating loss to a $33M operating profit. It had 77 systems in deployment and guided Q4 revenue to $760\u2013780M."
+    },
+    {
+      "stat": "$31M",
+      "statColor": "#3e8e5a",
+      "title": "Other income did heavy lifting",
+      "text": "On top of operating profit came $30.6M of other income, mainly paper gains from marking strategic investments to new observable prices, less a $9.6M equity-method loss and plus a $1.1M tax benefit. That is how a $33M operating profit became a $55M net profit \u2014 investment gains, not warehouse work, supplied much of the jump."
+    },
+    {
+      "stat": "$12M",
+      "statColor": "#5b6b7c",
+      "title": "Shareholders' slice is the smaller one",
+      "text": "Of the $55M net income, $43.3M is attributable to noncontrolling interests \u2014 partners who co-own parts of the business, chiefly through the Walmart-related joint venture \u2014 leaving $11.7M for Symbotic shareholders, or $0.09 per diluted share. Adjusted EBITDA, the measure management steers by, more than doubled to $95M."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes fair-value gains on strategic investments driven by observable price changes in the quarter (the 10-Q attributes most of the $22M YoY increase in other income to these adjustments) \u2014 paper gains that can reverse.",
+    "Restructuring charges were zero this quarter, vs $16.4M in the same quarter a year ago."
+  ],
+  "footerNote": "Reports in thousands, shown in $M. Net income is consolidated, including noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/q3268-k_ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000043/sym-20260627.htm"
+    }
+  ]
+}
