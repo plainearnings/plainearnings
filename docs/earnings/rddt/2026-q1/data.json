@@ -1,0 +1,142 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-30",
+  "verdict": "Reddit's revenue jumped 69% to $663M as ad sales surged \u2014 and with costs growing far more slowly, net income jumped eightfold to $204M, a 31% margin.",
+  "revenueYoY": "+69%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+69%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.01",
+      "note": "diluted \u2014 up 7x YoY"
+    },
+    {
+      "label": "Daily users",
+      "value": "126.8M",
+      "note": "DAUq, +17% YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$266M",
+      "note": "40% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 625,
+      "yoy": "+74%",
+      "note": "Ads shown across Reddit's communities \u2014 powered by more users, more time on site, and better ad targeting."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 38,
+      "yoy": "+15%",
+      "note": "Mostly data licensing \u2014 deals that let AI companies train on Reddit's public posts \u2014 plus Reddit Premium subscriptions."
+    }
+  ],
+  "flow": {
+    "revenueM": 663,
+    "costOfRevenueM": 56,
+    "grossProfitM": 607,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 207,
+        "note": "Building the product and the ad platform \u2014 up 8% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 151,
+        "note": "Winning advertisers and users \u2014 up 67% YoY, the fastest-growing cost line."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 66,
+        "note": "Running the company \u2014 down 6% YoY."
+      }
+    ],
+    "operatingIncomeM": 183,
+    "otherIncomeM": 23,
+    "taxM": 2,
+    "netIncomeM": 204
+  },
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 94.27
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.73
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -8.45
+    },
+    {
+      "label": "R&D",
+      "amount": -31.22
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -22.78
+    },
+    {
+      "label": "G&A",
+      "amount": -9.95
+    },
+    {
+      "label": "Other income",
+      "amount": 3.47
+    },
+    {
+      "label": "Tax",
+      "amount": -0.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.77
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+69%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated",
+      "text": "Revenue growth picked up to 69%, powered by advertising (+74%) as daily users hit 126.8M \u2014 Reddit is still getting bigger and better at selling ads against its communities."
+    },
+    {
+      "stat": "$204M",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped eightfold",
+      "text": "Net income rose from $26M a year ago to $204M. Total costs grew just 24% while revenue grew 69%, so most of the new revenue dropped straight to the bottom line."
+    },
+    {
+      "stat": "$311M",
+      "statColor": "#3d7bc8",
+      "title": "A cash machine",
+      "text": "Free cash flow was $311M \u2014 47% of revenue \u2014 and Reddit ended the quarter holding $2.8B of cash and marketable securities."
+    }
+  ],
+  "otherDetail": "Other income of $23M, net \u2014 mostly interest earned on Reddit's $2.8B pile of cash and marketable securities.",
+  "footerNote": "Figures are rounded to the nearest $M, following the same convention as Reddit's other pages; the statements report in thousands (advertising $624.7M, other revenue $38.7M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000067/earningspressreleaseq126.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000069/rddt-20260331.htm"
+    }
+  ]
+}

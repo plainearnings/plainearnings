@@ -1,0 +1,167 @@
+{
+  "ticker": "MU",
+  "company": "Micron",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-02-26",
+  "reportedDate": "2026-03-18",
+  "verdict": "Micron's revenue nearly tripled in a year to $23.9B as AI data centers bid memory prices sky-high \u2014 74 cents of every sales dollar survived as gross profit, and net income hit $13.8B.",
+  "revenueYoY": "+196%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+196%",
+      "note": "vs a year ago \u2014 the AI memory supercycle"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$12.07",
+      "note": "diluted"
+    },
+    {
+      "label": "Gross margin",
+      "value": "74%",
+      "note": "vs 37% a year ago"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$6.9B",
+      "note": "after $5.0B of capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud Memory",
+      "amountM": 7749,
+      "yoy": "+163%",
+      "note": "High-bandwidth memory (HBM) stacked right beside AI processors in cloud servers \u2014 the scarcest, most valuable memory Micron makes, at a 74% gross margin this quarter."
+    },
+    {
+      "name": "Core Data Center",
+      "amountM": 5687,
+      "yoy": "+211%",
+      "note": "DRAM and NAND for conventional cloud and enterprise data-center servers \u2014 revenue more than tripled in a year."
+    },
+    {
+      "name": "Mobile and Client",
+      "amountM": 7711,
+      "yoy": "+245%",
+      "note": "Memory for smartphones, PCs and other consumer devices \u2014 a 79% gross margin this quarter as shortage pricing kicked in."
+    },
+    {
+      "name": "Automotive and Embedded",
+      "amountM": 2708,
+      "yoy": "+162%",
+      "note": "Memory for cars, factories and industrial equipment \u2014 smaller and steadier than the AI-driven units."
+    },
+    {
+      "name": "All other",
+      "amountM": 5,
+      "note": "Small leftovers outside the four business units."
+    }
+  ],
+  "flow": {
+    "revenueM": 23860,
+    "costOfRevenueM": 6105,
+    "grossProfitM": 17755,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1250,
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 344,
+        "note": "Sales teams and the cost of running the company."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 26,
+        "note": "Small other operating costs, net."
+      }
+    ],
+    "operatingIncomeM": 16135,
+    "otherIncomeM": 21,
+    "taxM": 2371,
+    "netIncomeM": 13785
+  },
+  "follow100": [
+    {
+      "label": "Cloud Memory",
+      "amount": 32.48
+    },
+    {
+      "label": "Core Data Center",
+      "amount": 23.83
+    },
+    {
+      "label": "Mobile and Client",
+      "amount": 32.32
+    },
+    {
+      "label": "Automotive & embedded",
+      "amount": 11.35
+    },
+    {
+      "label": "All other",
+      "amount": 0.02
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -25.59
+    },
+    {
+      "label": "R&D",
+      "amount": -5.24
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.44
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.11
+    },
+    {
+      "label": "Other income",
+      "amount": 0.09
+    },
+    {
+      "label": "Tax",
+      "amount": -9.94
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 57.77
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+196%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue nearly tripled",
+      "text": "Sales rose from $8.1B a year ago to $23.9B \u2014 and Micron guided the next quarter to $33.5B, another huge step up."
+    },
+    {
+      "stat": "74%",
+      "statColor": "#3e8e5a",
+      "title": "Margins exploded",
+      "text": "Gross margin hit 74%, double the 37% of a year ago \u2014 with supply this tight, price increases fall almost straight through to profit."
+    },
+    {
+      "stat": "$13.8B",
+      "statColor": "#3e8e5a",
+      "title": "A record profit quarter",
+      "text": "Net income of $13.8B in a single quarter \u2014 more than Micron earned in most full years before the AI boom. Non-GAAP net income was $14.0B."
+    }
+  ],
+  "otherDetail": "Interest income of $155M on Micron's growing cash pile, less $32M of interest expense, $98M of other non-operating losses and a $4M loss from equity-method investments \u2014 a net +$21M.",
+  "footerNote": "Business-unit revenues are as reported by Micron; 'All other' is the small residual outside the four units.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/a2026q2ex991-pressrelease.htm"
+    }
+  ]
+}

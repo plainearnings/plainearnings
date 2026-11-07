@@ -1,0 +1,128 @@
+{
+  "ticker": "APP",
+  "company": "AppLovin",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-06",
+  "verdict": "AppLovin turned $1.84B of revenue \u2014 up 59% \u2014 into $1.21B of net profit, a 65% margin, as its AXON ad platform kept compounding.",
+  "revenueYoY": "+59%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+59%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.56",
+      "note": "diluted"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.21B",
+      "note": "65% of revenue"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.56B",
+      "note": "85% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising platform",
+      "amountM": 1842.449,
+      "yoy": "+59%",
+      "note": "Ads placed through AppLovin's AXON platform \u2014 advertisers pay to reach users inside other companies' apps, and AXON's AI decides which ads to show. AppLovin sold its own apps business in 2025, so this platform is the whole company."
+    }
+  ],
+  "flow": {
+    "revenueM": 1842.449,
+    "costOfRevenueM": 203.632,
+    "grossProfitM": 1638.817,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 94.104,
+        "note": "Building and improving the AXON ad platform \u2014 up 67% YoY as AppLovin pours money into AI-driven ad targeting."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 60.751,
+        "note": "Selling the platform to advertisers and app publishers \u2014 roughly flat YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 44.029,
+        "note": "Running the company \u2014 down 15% YoY as AppLovin streamlined after selling its apps business."
+      }
+    ],
+    "operatingIncomeM": 1439.933,
+    "otherIncomeM": -8.525,
+    "taxM": 225.795,
+    "netIncomeM": 1205.613
+  },
+  "follow100": [
+    {
+      "label": "Advertising platform",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -11.05
+    },
+    {
+      "label": "R&D",
+      "amount": -5.11
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -3.3
+    },
+    {
+      "label": "G&A",
+      "amount": -2.39
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.46
+    },
+    {
+      "label": "Tax",
+      "amount": -12.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 65.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+59%",
+      "statColor": "#3d7bc8",
+      "title": "Growth stayed hot",
+      "text": "Revenue grew 59% to $1.84B as advertisers kept shifting budgets to AXON \u2014 a year ago the same platform did $1.16B in the quarter."
+    },
+    {
+      "stat": "65%",
+      "statColor": "#3e8e5a",
+      "title": "Two-thirds kept as profit",
+      "text": "Net income of $1.21B is 65% of revenue \u2014 an almost unheard-of margin for an ad business, because software costs almost nothing extra to deliver."
+    },
+    {
+      "stat": "$1.3B",
+      "statColor": "#3d7bc8",
+      "title": "Cash in, buybacks out",
+      "text": "Operating cash flow was $1.29B in a single quarter, and AppLovin spent about $1.0B buying back its own shares."
+    }
+  ],
+  "otherDetail": "Other income of $43M (mostly investment and foreign-exchange gains), partly offset by $51M of interest expense on AppLovin's debt.",
+  "footerNote": "AppLovin reports as a single segment. Its former apps business was sold in 2025 and appears as discontinued operations in earlier periods; there were none this quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000042/exhibit991-1q26earningspre.htm"
+    }
+  ]
+}

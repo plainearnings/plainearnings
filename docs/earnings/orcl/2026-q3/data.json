@@ -1,0 +1,179 @@
+{
+  "ticker": "ORCL",
+  "company": "Oracle",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-02-28",
+  "reportedDate": "2026-03-10",
+  "verdict": "Oracle's revenue jumped 22% to $17.2B as cloud revenue surged 44% and its order backlog hit $553B \u2014 but $1.2B of interest on the debt funding the AI build-out held net income to $3.7B.",
+  "revenueYoY": "+22%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+22%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.27",
+      "note": "up 24% YoY; non-GAAP $1.79"
+    },
+    {
+      "label": "Backlog (RPO)",
+      "value": "$553B",
+      "note": "+325% YoY; +$29B in the quarter"
+    },
+    {
+      "label": "Cloud revenue",
+      "value": "+44%",
+      "note": "to $8.9B \u2014 now 52% of all revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud",
+      "amountM": 8914,
+      "yoy": "+44%",
+      "note": "Cloud infrastructure (OCI) revenue of $4.9B grew 84%, and cloud applications (SaaS) brought in $4.0B, up 13% \u2014 now 52% of all revenue."
+    },
+    {
+      "name": "Software",
+      "amountM": 6119,
+      "yoy": "+3%",
+      "note": "Traditional software licenses and support \u2014 still growing slightly as customers migrate to the cloud."
+    },
+    {
+      "name": "Hardware",
+      "amountM": 714,
+      "yoy": "+2%",
+      "note": "Servers and engineered systems."
+    },
+    {
+      "name": "Services",
+      "amountM": 1443,
+      "yoy": "+12%",
+      "note": "Consulting and support services that help customers run Oracle products."
+    }
+  ],
+  "flow": {
+    "revenueM": 17190,
+    "costOfRevenueM": 6092,
+    "grossProfitM": 11098,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2607,
+        "note": "Building the cloud platform and the database software \u2014 up 7% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 2052,
+        "note": "Selling to enterprises \u2014 actually down 3% YoY despite the growth push."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 389,
+        "note": "Running the company \u2014 finance, legal and the back office, flat YoY."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 413,
+        "note": "Writing down the value of past acquisitions over time \u2014 a non-cash charge, down 25% YoY."
+      },
+      {
+        "name": "Restructuring and other",
+        "amountM": 173,
+        "note": "Restructuring charges of $153M plus $20M of acquisition-related costs \u2014 restructuring more than doubled YoY."
+      }
+    ],
+    "operatingIncomeM": 5464,
+    "otherIncomeM": -1048,
+    "taxM": 695,
+    "netIncomeM": 3721
+  },
+  "follow100": [
+    {
+      "label": "Cloud",
+      "amount": 51.86
+    },
+    {
+      "label": "Software",
+      "amount": 35.6
+    },
+    {
+      "label": "Hardware",
+      "amount": 4.15
+    },
+    {
+      "label": "Services",
+      "amount": 8.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.44
+    },
+    {
+      "label": "R&D",
+      "amount": -15.17
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.94
+    },
+    {
+      "label": "G&A",
+      "amount": -2.26
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.4
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -1.01
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.1
+    },
+    {
+      "label": "Tax",
+      "amount": -4.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.64
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$553B",
+      "statColor": "#3d7bc8",
+      "title": "The backlog exploded",
+      "text": "Remaining performance obligations hit $553B, up 325% in a year and up $29B in the quarter \u2014 mostly large AI contracts. Years of cloud revenue are already signed."
+    },
+    {
+      "stat": "+84%",
+      "statColor": "#3e8e5a",
+      "title": "Infrastructure is the engine",
+      "text": "Cloud infrastructure (OCI) revenue grew 84% to $4.9B; total cloud revenue was $8.9B, 52% of everything Oracle earns."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#d96a57",
+      "title": "Debt is the drag",
+      "text": "Interest expense rose 32% to $1.2B in the quarter as Oracle borrows to build data centers \u2014 the main reason net income ($3.7B) grew more slowly than operating income."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges of $153M \u2014 more than double the $63M of a year ago \u2014 sit inside operating expenses, alongside $20M of acquisition-related costs."
+  ],
+  "otherDetail": "Interest expense of $1,180M on Oracle's growing debt pile, partly offset by $132M of non-operating income.",
+  "footerNote": "Oracle reports its delivery costs as 'Cloud and software', 'Hardware' and 'Services' expense lines; those three are combined here as cost of revenue. Net income of $3,721M is before $22M of preferred stock dividends; the $1.27 EPS uses the $3,699M available to common shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm"
+    }
+  ]
+}
