@@ -1,0 +1,157 @@
+{
+  "ticker": "CI",
+  "company": "The Cigna Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Cigna grew revenue 6% to $73.7B on pharmacy and premium growth, but shareholders' profit fell to $1.4B from $1.9B, largely because last year's quarter included a gain on a business sale.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "$73,683M vs $69,748M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.47",
+      "note": "diluted shareholders' EPS, vs $6.98 a year ago; adjusted EPS was $7.98"
+    },
+    {
+      "label": "Medical care ratio",
+      "value": "85.0%",
+      "note": "share of Cigna Healthcare premiums paid out as medical costs, vs 84.8% a year ago"
+    },
+    {
+      "label": "Adjusted income from operations",
+      "value": "$2.1B",
+      "note": "$2,104M \u2014 flat vs $2,096M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Pharmacy revenues",
+      "amountM": 58982,
+      "note": "Drugs dispensed and pharmacy services, mainly through Evernorth \u2014 pharmacy benefit services and specialty pharmacy. This is the money that flows through Cigna to pay for medicines, up 5%.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Premiums",
+      "amountM": 9885,
+      "note": "Health-insurance premiums paid by members, employers and government programs for Cigna Healthcare coverage \u2014 up 9%.",
+      "yoy": "+9%"
+    },
+    {
+      "name": "Fees and other revenues",
+      "amountM": 4529,
+      "note": "Fees for administering health plans and other services, plus other smaller revenue \u2014 up 3%.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 287,
+      "note": "Income from the company's investment portfolio \u2014 up 23%.",
+      "yoy": "+23%"
+    }
+  ],
+  "flow": {
+    "revenueM": 73683,
+    "costOfRevenueM": 67086,
+    "grossProfitM": 6597,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 3612,
+        "note": "Running the company \u2014 people, technology and offices. At 4.9% of revenue, the SG&A ratio edged up from 4.8% as the company invested for growth."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 589,
+        "note": "A non-cash charge spreading the cost of businesses Cigna bought in earlier deals over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 2396,
+    "otherIncomeM": -297,
+    "taxM": 401,
+    "netIncomeM": 1698
+  },
+  "otherDetail": "Net other expense of $297M: $333M of interest expense and other costs, partly offset by $36M of net investment gains. Net investment income of $287M is already counted in revenue, not in this line.",
+  "oneTimers": [
+    "Adjusted income from operations of $2,104M excludes special items booked in the quarter \u2014 an $85M strategic optimization (modernization) charge, $60M of litigation charges and $23M of integration and transaction costs, all pre-tax \u2014 as well as the $589M amortization of acquired intangibles and net investment losses.",
+    "A year ago, shareholders' net income was lifted by an after-tax gain on the sale of businesses; there was no such gain this quarter, which is the main reason GAAP profit fell even though adjusted profit was flat."
+  ],
+  "footerNote": "Following the managed-care model: pharmacy and medical costs are the direct-cost block. Consolidated net income was $1,698M; after $256M attributable to noncontrolling interests, shareholders' net income was $1,442M ($5.47 per diluted share).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739940/000114036126042030/ef20084818_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1739940/000173994026000071/ci-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in both halves",
+      "text": "Revenue rose 6% to $73,683M, driven by both Evernorth Health Services and Cigna Healthcare. Evernorth's adjusted revenues were $63,774M \u2014 pharmacy benefit services $37,276M and specialty and care services $26,498M."
+    },
+    {
+      "stat": "85.0%",
+      "statColor": "#5b6b7c",
+      "title": "Medical costs held steady",
+      "text": "Cigna Healthcare's medical care ratio \u2014 medical costs as a share of premiums \u2014 was 85.0%, close to 84.8% a year ago, and the segment's adjusted operating income rose 15%. Medical customers grew to 18.5M, up 2% from year-end."
+    },
+    {
+      "stat": "$30.60",
+      "statColor": "#3e8e5a",
+      "title": "Full-year outlook raised",
+      "text": "Cigna raised its 2026 outlook for adjusted income from operations to at least $30.60 per share, and narrowed its expected medical care ratio to 84.2% plus or minus 0.25 points. GAAP EPS of $5.47 compares with adjusted EPS of $7.98 \u2014 the gap is mainly amortization and special items."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Pharmacy revenues",
+      "amount": 80.05
+    },
+    {
+      "label": "Premiums",
+      "amount": 13.42
+    },
+    {
+      "label": "Fees and other revenues",
+      "amount": 6.15
+    },
+    {
+      "label": "Net investment income",
+      "amount": 0.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -91.05
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.9
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.8
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.4
+    },
+    {
+      "label": "Tax",
+      "amount": -0.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.3
+    }
+  ]
+}

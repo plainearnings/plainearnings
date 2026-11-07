@@ -1,0 +1,153 @@
+{
+  "ticker": "CINF",
+  "company": "Cincinnati Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "verdict": "Cincinnati Financial's revenue fell 18% to $3,047M because investment gains collapsed from $853M to $20M, even though premiums grew 5% and underwriting stayed profitable.",
+  "revenueYoY": "-18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-18%",
+      "note": "$3,047M vs $3,726M a year ago \u2014 the drop is investment gains, not insurance"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.96",
+      "note": "diluted, vs $7.11 a year ago; non-GAAP operating EPS was $2.86, flat vs $2.85"
+    },
+    {
+      "label": "P&C combined ratio",
+      "value": "90.9%",
+      "note": "claims plus expenses as a share of premiums \u2014 below 100% means underwriting made money; it was 88.2% a year ago"
+    },
+    {
+      "label": "Earned premiums",
+      "value": "$2,690M",
+      "note": "up 5% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Property casualty premiums",
+      "amountM": 2605,
+      "note": "Premiums earned on property and casualty policies \u2014 commercial lines $1,270M, personal lines $888M, excess and surplus lines $187M and other (reinsurance and global specialty) $260M. Up about 5%.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Life insurance premiums",
+      "amountM": 85,
+      "note": "Premiums earned by the life insurance subsidiary, mainly term life. Up 2%.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 325,
+      "note": "Interest and dividends earned on the investment portfolio, net of expenses \u2014 up 10%, with bond interest up 11%.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Investment gains and other",
+      "amountM": 32,
+      "note": "Net investment gains of $20M plus $12M of other revenues. A year ago investment gains alone were $853M \u2014 the swing explains the whole revenue drop.",
+      "yoy": "-96%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3047,
+    "costOfRevenueM": 1675,
+    "grossProfitM": 1372,
+    "opex": [
+      {
+        "name": "Underwriting and insurance expenses",
+        "amountM": 799,
+        "note": "The cost of selling, underwriting and administering policies \u2014 commissions, salaries and operations."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 8,
+        "note": "Other operating expenses outside insurance underwriting."
+      }
+    ],
+    "operatingIncomeM": 565,
+    "otherIncomeM": -12,
+    "taxM": 94,
+    "netIncomeM": 459
+  },
+  "otherDetail": "Other expense is $12M of interest expense on the company's debt.",
+  "oneTimers": [
+    "Investment gains and losses swing this company's reported profit: net investment gains were just $20M this quarter vs $853M a year ago. Excluding them after tax, non-GAAP operating income was $443M \u2014 essentially flat vs $449M a year ago \u2014 even though GAAP net income fell 59%.",
+    "Catastrophe losses were heavier than a year ago, adding about 7 points to the property casualty combined ratio versus last year's third quarter, which the company noted was closer to a historical third-quarter average."
+  ],
+  "footerNote": "For an insurer, the direct-cost block here is insurance losses and contract holders' benefits \u2014 the claims paid and benefits owed. Investment gains and losses are counted in revenue, exactly as Cincinnati reports them. Figures are rounded to $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000059/exhibit9913q26.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-59%",
+      "statColor": "#b8443c",
+      "title": "Profit fell on investments, not insurance",
+      "text": "Net income fell to $459M from $1,122M, almost entirely because net investment gains dropped from $853M to $20M. On the company's non-GAAP operating view, which strips those gains out, income was $443M vs $449M \u2014 flat."
+    },
+    {
+      "stat": "90.9%",
+      "statColor": "#3d7bc8",
+      "title": "Underwriting stayed profitable",
+      "text": "The property casualty combined ratio was 90.9% \u2014 for every $100 of premiums, about $91 went to claims and expenses, leaving an underwriting profit. It rose from 88.2% a year ago because catastrophe losses were about 7 points heavier."
+    },
+    {
+      "stat": "+5%",
+      "statColor": "#3e8e5a",
+      "title": "Premiums and investment income grew",
+      "text": "Earned premiums rose 5% to $2,690M, with property casualty net written premiums up 2% in the quarter on price increases and more insured exposures. Pretax investment income rose 10% to $325M, and book value per share was $105.42."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Property casualty premiums",
+      "amount": 85.49
+    },
+    {
+      "label": "Life insurance premiums",
+      "amount": 2.79
+    },
+    {
+      "label": "Net investment income",
+      "amount": 10.67
+    },
+    {
+      "label": "Investment gains and other",
+      "amount": 1.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.97
+    },
+    {
+      "label": "Underwriting expenses",
+      "amount": -26.22
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.39
+    },
+    {
+      "label": "Tax",
+      "amount": -3.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.06
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "ticker": "CIEN",
+  "company": "Ciena",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-09-03",
+  "verdict": "Ciena's revenue surged 37% to a record $1,671M as AI-driven network spending lifted optical sales 46%, and profit jumped more than fivefold to $266M.",
+  "revenueYoY": "+37%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+37%",
+      "note": "$1,671M vs $1,219M a year ago \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.83",
+      "note": "diluted, vs $0.35 a year ago; adjusted EPS was $2.11"
+    },
+    {
+      "label": "Gross margin",
+      "value": "45.4%",
+      "note": "vs 41.3% a year ago"
+    },
+    {
+      "label": "FY26 revenue guidance",
+      "value": "$6.42B",
+      "note": "raised \u2014 about +35% for the full fiscal year at the midpoint"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Optical Networking",
+      "amountM": 1191,
+      "note": "Optical systems that move data over fiber \u2014 Ciena's core, and the direct beneficiary of AI data-center building. Up 46%.",
+      "yoy": "+46%"
+    },
+    {
+      "name": "Routing and Switching",
+      "amountM": 164,
+      "note": "Equipment that directs data traffic within and between networks. Up 30%.",
+      "yoy": "+30%"
+    },
+    {
+      "name": "Platform Software and Services",
+      "amountM": 99,
+      "note": "Software that runs and manages the networks Ciena sells. Up 10%.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Blue Planet",
+      "amountM": 23,
+      "note": "Automation software that helps network operators plan and run services. Down 17%.",
+      "yoy": "-17%"
+    },
+    {
+      "name": "Global Services",
+      "amountM": 194,
+      "note": "Maintenance, support, installation and advisory services for customers' networks. Up 21%.",
+      "yoy": "+21%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1671,
+    "costOfRevenueM": 912,
+    "grossProfitM": 759,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 237,
+        "note": "Building the optical and routing products and software \u2014 the biggest running cost."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 154,
+        "note": "Selling to telecom carriers, cloud providers and other network operators."
+      },
+      {
+        "name": "General & administrative and other",
+        "amountM": 67,
+        "note": "Running the company ($63M of G&A), plus $4M of amortization of acquired intangibles and $1M of impairments and restructuring \u2014 combined here so the rounded lines foot."
+      }
+    ],
+    "operatingIncomeM": 301,
+    "otherIncomeM": 9,
+    "taxM": 44,
+    "netIncomeM": 266
+  },
+  "otherDetail": "Other income, net was $9M: $22M of interest and other income, less $6M of interest expense and a $7M loss on extinguishing and modifying debt.",
+  "oneTimers": [
+    "The quarter includes a $7M loss on extinguishing and modifying debt, booked below operating profit, and $1M of significant asset impairments and restructuring costs inside operating expenses. Adjusted (non-GAAP) EPS was $2.11 vs $1.83 GAAP."
+  ],
+  "footerNote": "Ciena's fiscal year ends on the Saturday nearest October 31, so this is its fiscal Q3 2026, ended August 1, 2026. Figures are rounded to $M from the reported thousands.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "title": "AI networks are the story",
+      "text": "Revenue hit a record $1,671M, up 37%. Optical Networking alone was $1,191M \u2014 71% of revenue \u2014 up 46%, as AI keeps driving compounding waves of network investment by carriers and cloud providers. Two customers each accounted for more than 10% of revenue, 41.7% combined."
+    },
+    {
+      "stat": "$266M",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew much faster than sales",
+      "text": "Net income rose to $266M from $50M a year ago. Gross margin widened to 45.4% from 41.3% while operating expenses grew only 7% to $458M, so operating margin expanded to 18.0% from 6.1% \u2014 classic operating leverage."
+    },
+    {
+      "stat": "$1.75B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised again",
+      "text": "Ciena guided fiscal Q4 revenue to $1.75B plus or minus $50M and raised full-year fiscal 2026 revenue guidance to $6.42B plus or minus $50M \u2014 about 35% growth at the midpoint. It also bought back about 0.4M shares for $172M in the quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Optical Networking",
+      "amount": 71.27
+    },
+    {
+      "label": "Routing and Switching",
+      "amount": 9.81
+    },
+    {
+      "label": "Platform Software and Services",
+      "amount": 5.92
+    },
+    {
+      "label": "Blue Planet",
+      "amount": 1.38
+    },
+    {
+      "label": "Global Services",
+      "amount": 11.61
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.58
+    },
+    {
+      "label": "R&D",
+      "amount": -14.18
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.22
+    },
+    {
+      "label": "G&A and other",
+      "amount": -4.01
+    },
+    {
+      "label": "Other income",
+      "amount": 0.54
+    },
+    {
+      "label": "Tax",
+      "amount": -2.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.92
+    }
+  ]
+}
