@@ -1,0 +1,140 @@
+{
+  "ticker": "GD",
+  "company": "General Dynamics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-04",
+  "reportedDate": "2026-10-30",
+  "revenueYoY": "+13%",
+  "verdict": "General Dynamics grew revenue 13% to $14.6B and profit 16% to $1.2B \u2014 and orders flooded in: a 6.8-to-1 book-to-bill took total backlog to $220B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$14.6B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.49",
+      "note": "+16% YoY"
+    },
+    {
+      "label": "Backlog",
+      "value": "$220B",
+      "note": "company-wide"
+    },
+    {
+      "label": "Book-to-bill",
+      "value": "6.8x",
+      "note": "8.5x in defense segments"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Marine Systems",
+      "amountM": 4960,
+      "yoy": "+21%",
+      "note": "Submarines and surface warships (Electric Boat, Bath Iron Works, NASSCO) \u2014 the fastest-growing segment on submarine production."
+    },
+    {
+      "name": "Technologies",
+      "amountM": 3684,
+      "yoy": "+11%",
+      "note": "Defense IT, mission systems and C5ISR technology and services."
+    },
+    {
+      "name": "Aerospace",
+      "amountM": 3536,
+      "yoy": "+9%",
+      "note": "Gulfstream business jets and aviation services \u2014 40 aircraft delivered in the quarter."
+    },
+    {
+      "name": "Combat Systems",
+      "amountM": 2386,
+      "yoy": "+6%",
+      "note": "Armored vehicles, weapons and munitions, mainly for the U.S. and European allies."
+    }
+  ],
+  "flow": {
+    "revenueM": 14566,
+    "costOfRevenueM": 12317,
+    "grossProfitM": 2249,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 722,
+        "note": "General and administrative expense \u2014 the only running-cost line General Dynamics breaks out; everything else sits in the direct cost of its products and services."
+      }
+    ],
+    "operatingIncomeM": 1527,
+    "otherIncomeM": -41,
+    "taxM": 257,
+    "netIncomeM": 1229
+  },
+  "follow100": [
+    {
+      "label": "Marine Systems",
+      "amount": 34.05
+    },
+    {
+      "label": "Technologies",
+      "amount": 25.29
+    },
+    {
+      "label": "Aerospace",
+      "amount": 24.28
+    },
+    {
+      "label": "Combat Systems",
+      "amount": 16.38
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -84.56
+    },
+    {
+      "label": "G&A",
+      "amount": -4.96
+    },
+    {
+      "label": "Other income",
+      "amount": -0.28
+    },
+    {
+      "label": "Tax",
+      "amount": -1.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.44
+    }
+  ],
+  "otherDetail": "Interest, net of $45M, partly offset by $4M of other income.",
+  "footerNote": "General Dynamics reports a single 'operating costs and expenses' line of $13,039M. The split here follows its 10-Q: general & administrative expense of $722M is the running-cost block, and the remaining $12,317M is treated as the direct cost of products and services, so gross profit is revenue less that direct cost.",
+  "takeaways": [
+    {
+      "stat": "6.8x",
+      "statColor": "#3d7bc8",
+      "title": "Orders dwarfed deliveries",
+      "text": "The defense segments booked 8.5 dollars of orders for every dollar of revenue \u2014 a huge order intake, led by submarines \u2014 taking total backlog to $220B, including $98.8B in the defense segments' funded backlog growth story."
+    },
+    {
+      "stat": "+21%",
+      "statColor": "#3e8e5a",
+      "title": "Marine Systems is the growth engine",
+      "text": "Marine Systems revenue rose 21% to $4.96B and its operating earnings rose 34% as Columbia- and Virginia-class submarine work ramped."
+    },
+    {
+      "stat": "139%",
+      "statColor": "#3d7bc8",
+      "title": "Cash conversion was strong",
+      "text": "Operating cash flow was $1.7B \u2014 139% of net earnings \u2014 with free cash flow of $1.2B after $481M of capital spending."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000036/gd-20261004exhibit991.htm"
+    }
+  ]
+}

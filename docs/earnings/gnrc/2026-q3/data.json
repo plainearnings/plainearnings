@@ -1,0 +1,147 @@
+{
+  "ticker": "GNRC",
+  "company": "Generac",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+16%",
+  "verdict": "Generac posted record sales of $1.29B, up 16%, and profit attributable of $109M, as data-center customers drove Commercial & Industrial sales up 28% and home-generator demand recovered.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$1.3B",
+      "note": "+16% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.83",
+      "note": "vs $1.12 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "39.9%",
+      "note": "vs 38.3% a year ago"
+    },
+    {
+      "label": "C&I sales growth",
+      "value": "+28%",
+      "note": "data-center demand"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 742.655,
+      "yoy": "+9%",
+      "note": "Home standby and portable generators and residential energy products \u2014 external sales of $742.7M (segment detail from the company's 10-Q), back to growth on poor grid power quality."
+    },
+    {
+      "name": "Commercial & Industrial",
+      "amountM": 552.124,
+      "yoy": "+28%",
+      "note": "Generators and power systems for businesses \u2014 external sales of $552.1M (segment detail from the company's 10-Q), driven by data-center customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1294.779,
+    "costOfRevenueM": 778.738,
+    "grossProfitM": 516.041,
+    "opex": [
+      {
+        "name": "Selling & service",
+        "amountM": 174.874,
+        "note": "Selling and servicing the installed base of generators."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 88.134,
+        "note": "The back office."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 63.832,
+        "note": "Product development \u2014 generators, energy storage and data-center power products."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 28.618,
+        "note": "Amortization of intangible assets from acquisitions."
+      }
+    ],
+    "operatingIncomeM": 160.583,
+    "otherIncomeM": -17.436,
+    "taxM": 34.198,
+    "netIncomeM": 108.949
+  },
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 57.36
+    },
+    {
+      "label": "Commercial & Industrial",
+      "amount": 42.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.14
+    },
+    {
+      "label": "Selling & service",
+      "amount": -13.51
+    },
+    {
+      "label": "G&A",
+      "amount": -6.81
+    },
+    {
+      "label": "R&D",
+      "amount": -4.93
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -2.21
+    },
+    {
+      "label": "Other income",
+      "amount": -1.35
+    },
+    {
+      "label": "Tax",
+      "amount": -2.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.41
+    }
+  ],
+  "otherDetail": "Interest expense of $16.4M, plus a $3.0M drop in the fair value of investments and small disposition and other losses, partly offset by $3.5M of investment income \u2014 a net $17.4M drag.",
+  "footerNote": "Net income in the chart is the total of $108.9M; $109.2M was attributable to Generac (noncontrolling interests absorbed a $0.3M loss). Segment figures are external net sales from the 10-Q segment note.",
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "Data centers found Generac",
+      "text": "Commercial & Industrial external sales rose 28% to $552M, and management cited significant additional commitments from data-center customers \u2014 backup power is becoming an AI-infrastructure product."
+    },
+    {
+      "stat": "+9%",
+      "statColor": "#3e8e5a",
+      "title": "Residential came back",
+      "text": "Residential sales rose 9% to $743M as 'lower power quality mega-trends' \u2014 an unreliable grid \u2014 lifted shipments of home standby and portable generators after a soft stretch."
+    },
+    {
+      "stat": "39.9%",
+      "statColor": "#3d7bc8",
+      "title": "Margins expanded too",
+      "text": "Gross margin rose to 39.9% from 38.3% on favorable price/cost, including lower tariff costs \u2014 so operating income grew 56%, much faster than sales."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926033685/ex_1032565.htm"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "FOXA",
+  "company": "Fox Corporation",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+22%",
+  "verdict": "Fox's revenue rose 22% to $4.6B and profit rose 57% to $957M as television advertising surged \u2014 by segment, Television revenue grew 32% and Cable Network Programming 8%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.6B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "EPS (attributable)",
+      "value": "$2.20",
+      "note": "combined classes"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.6B",
+      "note": "company's headline measure"
+    },
+    {
+      "label": "Television revenue",
+      "value": "$2.7B",
+      "note": "+32% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Distribution",
+      "amountM": 2084,
+      "yoy": "+9%",
+      "note": "Fees channels pay to carry Fox's networks and stations \u2014 the steady, subscription-like half of the business."
+    },
+    {
+      "name": "Advertising",
+      "amountM": 2081,
+      "yoy": "+47%",
+      "note": "Advertising \u2014 up 47%, powered by the Television segment (sports plus political-cycle demand), where ad revenue rose 60%."
+    },
+    {
+      "name": "Content and other",
+      "amountM": 406,
+      "yoy": "-1%",
+      "note": "Content licensing and other revenue, including Tubi-related and studio activity."
+    }
+  ],
+  "flow": {
+    "revenueM": 4571,
+    "costOfRevenueM": 2363,
+    "grossProfitM": 2208,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 567,
+        "note": "Selling, general and administrative costs across the networks and stations."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 118,
+        "note": "Depreciation and amortization of equipment and intangibles."
+      },
+      {
+        "name": "Restructuring & other corporate",
+        "amountM": 17,
+        "note": "Restructuring, impairment and other corporate matters."
+      }
+    ],
+    "operatingIncomeM": 1506,
+    "otherIncomeM": -223,
+    "taxM": 326,
+    "netIncomeM": 957
+  },
+  "follow100": [
+    {
+      "label": "Distribution",
+      "amount": 45.59
+    },
+    {
+      "label": "Advertising",
+      "amount": 45.53
+    },
+    {
+      "label": "Content and other",
+      "amount": 8.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -51.7
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.4
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.58
+    },
+    {
+      "label": "Restructuring & other corporate",
+      "amount": -0.37
+    },
+    {
+      "label": "Other income",
+      "amount": -4.88
+    },
+    {
+      "label": "Tax",
+      "amount": -7.13
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.94
+    }
+  ],
+  "otherDetail": "Interest expense, net of $80M, plus $143M of non-operating other expense \u2014 mostly mark-to-market and investment-related items below the operating line.",
+  "footerNote": "Net income in the chart is the total of $957M; $943M was attributable to Fox Corporation stockholders and $14M to noncontrolling interests. Revenue is shown by type (distribution, advertising, content); by segment, Television was $2,713M, Cable Network Programming $1,803M and Corporate & Other $246M, less $191M of eliminations.",
+  "takeaways": [
+    {
+      "stat": "+47%",
+      "statColor": "#3d7bc8",
+      "title": "Advertising carried the quarter",
+      "text": "Advertising revenue jumped 47% to $2.08B. In the Television segment, advertising rose 60% \u2014 live sports and a heavy political-advertising cycle \u2014 taking segment revenue up 32% and segment EBITDA from $399M to $934M."
+    },
+    {
+      "stat": "$859M",
+      "statColor": "#3e8e5a",
+      "title": "Cable networks stayed dependable",
+      "text": "Cable Network Programming (Fox News, FS1 and peers) grew revenue 8% to $1.80B and produced $859M of adjusted EBITDA \u2014 a ~48% margin on distribution fees that barely fluctuate."
+    },
+    {
+      "stat": "$2.20",
+      "statColor": "#3d7bc8",
+      "title": "Profit per share rose two-thirds",
+      "text": "Net income attributable to stockholders was $943M, or $2.20 a share, versus $1.32 a year ago \u2014 helped by the ad surge and by a share count that fell from 455M to 428M on buybacks."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068663/foxearningsreleaseq127.htm"
+    }
+  ]
+}

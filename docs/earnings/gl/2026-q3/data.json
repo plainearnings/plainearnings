@@ -1,0 +1,158 @@
+{
+  "ticker": "GL",
+  "company": "Globe Life",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+5%",
+  "verdict": "Globe Life grew total premium revenue 7% to $1.31B and earned $361M; EPS of $4.62 was a shade below last year's $4.73 because this year's reserve-review gains were smaller.",
+  "kpis": [
+    {
+      "label": "Premium revenue",
+      "value": "$1.3B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.62",
+      "note": "net operating EPS $4.84"
+    },
+    {
+      "label": "Net income",
+      "value": "$361M",
+      "note": "vs $388M a year ago"
+    },
+    {
+      "label": "Book value per share",
+      "value": "$85.35",
+      "note": "+23% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Life premium",
+      "amountM": 864.552,
+      "yoy": "+2%",
+      "note": "Life-insurance premiums \u2014 American Income is the largest source ($471M of life premium by channel detail in the release's margin tables)."
+    },
+    {
+      "name": "Health premium",
+      "amountM": 446.857,
+      "yoy": "+16%",
+      "note": "Health-insurance premiums (supplemental health and Medicare supplement) \u2014 up 16%, the growth engine this quarter."
+    },
+    {
+      "name": "Investment & other income, net",
+      "amountM": 284.528,
+      "yoy": "",
+      "note": "Net investment income of $295.9M (interest and dividends on the portfolio backing future claims), plus $1.2M of other income, less $12.6M of realized investment losses."
+    }
+  ],
+  "flow": {
+    "revenueM": 1595.937,
+    "costOfRevenueM": 694.098,
+    "grossProfitM": 901.839,
+    "costLabel": "Policyholder benefits",
+    "opex": [
+      {
+        "name": "Commissions & acquisition costs",
+        "amountM": 174.863,
+        "note": "Commissions, premium taxes and acquisition costs that are not deferred."
+      },
+      {
+        "name": "Amortization of deferred acquisition costs",
+        "amountM": 124.654,
+        "note": "Spreading the cost of winning policies (mainly agent commissions) over the policies' lives."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 123.274,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 37.814,
+        "note": "Interest on Globe Life's borrowings."
+      }
+    ],
+    "operatingIncomeM": 441.234,
+    "otherIncomeM": 0,
+    "taxM": 80.127,
+    "netIncomeM": 361.107
+  },
+  "follow100": [
+    {
+      "label": "Life premium",
+      "amount": 54.17
+    },
+    {
+      "label": "Health premium",
+      "amount": 28.0
+    },
+    {
+      "label": "Investment & other income, net",
+      "amount": 17.83
+    },
+    {
+      "label": "Policyholder benefits",
+      "amount": -43.49
+    },
+    {
+      "label": "Commissions & acquisition costs",
+      "amount": -10.96
+    },
+    {
+      "label": "Amortization of deferred acquisition costs",
+      "amount": -7.81
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -7.72
+    },
+    {
+      "label": "Interest expense",
+      "amount": -2.37
+    },
+    {
+      "label": "Tax",
+      "amount": -5.02
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.63
+    }
+  ],
+  "footerNote": "Insurer layout (the same one our Chubb pages use): revenue is premiums plus investment income, and the direct cost is policyholder benefits \u2014 claims and reserve increases. 'Operating profit' here is Globe Life's pre-tax income of $441M; the company has no separate operating-income line. Total premium was $1,311M (+7%); segment premium detail is from the release's GAAP statement of operations.",
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Health premiums are the growth engine",
+      "text": "Health premium rose 16% to $447M \u2014 Family Heritage health underwriting margin rose 12% and United American had an underwriting loss on Medicare Supplement claims timing \u2014 while life premium grew a steadier 2%."
+    },
+    {
+      "stat": "$4.84",
+      "statColor": "#3e8e5a",
+      "title": "Operating EPS vs $4.62 GAAP",
+      "text": "Net operating income \u2014 Globe Life's preferred measure, which excludes realized investment results \u2014 was $379M, or $4.84 a share. GAAP EPS of $4.62 includes a $10.0M after-tax realized loss and $6.8M of legal-proceedings costs."
+    },
+    {
+      "stat": "$146M",
+      "statColor": "#cf5f4e",
+      "title": "Reserve reviews flatter benefits",
+      "text": "Policyholder benefits include about $146M of pre-tax favorable remeasurement gains from the annual assumption update ($117M life, $29M health) \u2014 slightly less than last year's $158M, which is the main reason profit dipped."
+    }
+  ],
+  "oneTimers": [
+    "Benefits are net of total remeasurement gains of $145.8M before tax from the annual reserve-assumption update ($116.7M life, $29.1M health), versus $158.3M a year ago.",
+    "Realized investment losses were $12.6M before tax; legal-proceedings costs were $6.8M after tax (both excluded from net operating income).",
+    "Globe Life repurchased 1.1M shares in the quarter for $185M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000224/q3fy2026earningsrelease.htm"
+    }
+  ]
+}

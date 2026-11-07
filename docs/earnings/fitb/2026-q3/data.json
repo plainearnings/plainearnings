@@ -1,0 +1,147 @@
+{
+  "ticker": "FITB",
+  "company": "Fifth Third Bancorp",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-19",
+  "revenueYoY": "+43%",
+  "verdict": "Fifth Third's first year with Comerica shows in the numbers: net interest income rose 49%, and even after $211M of after-tax merger and other items, the bank earned $828M for common shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.3B",
+      "note": "+43% YoY, incl. Comerica"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.90",
+      "note": "adjusted $1.13"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$2.3B",
+      "note": "+49% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$122M",
+      "note": "provision, -38% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 2271,
+      "yoy": "+49%",
+      "note": "Interest earned on loans and securities minus interest paid on deposits and borrowings \u2014 up 49%, mostly because Comerica's balance sheet was added."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 1008,
+      "yoy": "+29%",
+      "note": "Fees and other non-interest revenue: wealth and asset management ($259M), commercial payments ($256M), consumer banking ($158M), capital markets ($147M) and more."
+    }
+  ],
+  "flow": {
+    "revenueM": 3279,
+    "costOfRevenueM": 122,
+    "grossProfitM": 3157,
+    "costLabel": "Credit costs",
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 982,
+        "note": "Pay and benefits \u2014 the bank's biggest cost, up 43% on the larger combined workforce."
+      },
+      {
+        "name": "Technology & communications",
+        "amountM": 300,
+        "note": "Technology and communications, up sharply as the two banks' systems were combined."
+      },
+      {
+        "name": "Occupancy, equipment & other",
+        "amountM": 710,
+        "note": "Branches and occupancy ($144M), card and processing ($60M), equipment ($59M), loan and lease costs ($47M), plus $400M of other expense \u2014 which includes merger-related charges."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 57,
+        "note": "Advertising and marketing."
+      }
+    ],
+    "operatingIncomeM": 1108,
+    "otherIncomeM": 0,
+    "taxM": 242,
+    "netIncomeM": 866
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 69.26
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 30.74
+    },
+    {
+      "label": "Credit costs",
+      "amount": -3.72
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -29.95
+    },
+    {
+      "label": "Technology & communications",
+      "amount": -9.15
+    },
+    {
+      "label": "Occupancy, equipment & other",
+      "amount": -21.65
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.74
+    },
+    {
+      "label": "Tax",
+      "amount": -7.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.41
+    }
+  ],
+  "footerNote": "Bank layout (the same one our JPMorgan pages use): revenue is net interest income plus fee and other noninterest income, and the 'direct cost' is the provision for credit losses \u2014 money set aside for loans that may not be repaid. Net income was $866M; after $38M of preferred dividends, $828M was available to common shareholders.",
+  "takeaways": [
+    {
+      "stat": "+49%",
+      "statColor": "#3d7bc8",
+      "title": "Comerica made the bank much bigger",
+      "text": "Average loans were $179B versus $123B a year ago and average deposits $238B versus $165B. The systems conversion finished this quarter with, the bank says, strong client and banker retention."
+    },
+    {
+      "stat": "$1.13",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS vs $0.90 reported",
+      "text": "Reported EPS of $0.90 includes $0.23 of certain items \u2014 mainly Comerica merger charges. Excluding them, EPS was $1.13 and adjusted return on tangible common equity was 20.6%."
+    },
+    {
+      "stat": "0.31%",
+      "statColor": "#3d7bc8",
+      "title": "Credit stayed calm",
+      "text": "Net charge-offs were just 0.31% of loans and the provision for credit losses fell 38% year over year to $122M \u2014 credit quality held up through the merger integration."
+    }
+  ],
+  "oneTimers": [
+    "Certain items cut EPS by $0.23 (after tax $211M): merger-related charges ($171M after tax; $215M pre-tax in expenses and $10M against revenue), interchange litigation matters ($26M) and technology-related asset impairments ($14M).",
+    "Year-over-year comparisons span the Comerica acquisition, which closed earlier in 2026 \u2014 most growth rates reflect the bigger combined bank, not organic growth."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm"
+    }
+  ]
+}

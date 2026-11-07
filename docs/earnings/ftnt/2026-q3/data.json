@@ -1,0 +1,137 @@
+{
+  "ticker": "FTNT",
+  "company": "Fortinet",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+20%",
+  "verdict": "Fortinet's revenue rose 20% to $2.08B as product sales jumped 37%, billings grew 29%, and profit rose 34% to $636M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.1B",
+      "note": "+20% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.86",
+      "note": "non-GAAP $0.91"
+    },
+    {
+      "label": "Billings",
+      "value": "$2.3B",
+      "note": "+29% YoY"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$946M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service",
+      "amountM": 1313.4,
+      "yoy": "+13%",
+      "note": "Subscriptions and support \u2014 security services and FortiGuard threat intelligence attached to the installed base; the recurring majority of revenue."
+    },
+    {
+      "name": "Product",
+      "amountM": 765.0,
+      "yoy": "+37%",
+      "note": "Firewalls and other security appliances \u2014 up 37% as customers refreshed hardware for AI-era traffic."
+    }
+  ],
+  "flow": {
+    "revenueM": 2078.4,
+    "costOfRevenueM": 437.5,
+    "grossProfitM": 1640.9,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 665.0,
+        "note": "The sales force and marketing behind Fortinet's security products."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 213.4,
+        "note": "Engineering the FortiGate platform, FortiOS and the wider security fabric."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 58.2,
+        "note": "G&A of $59.6M, partly offset by a $1.4M gain on intellectual-property matters \u2014 shown net so the chart foots to reported operating income."
+      }
+    ],
+    "operatingIncomeM": 704.3,
+    "otherIncomeM": 50.7,
+    "taxM": 119.5,
+    "netIncomeM": 635.5
+  },
+  "follow100": [
+    {
+      "label": "Service",
+      "amount": 63.19
+    },
+    {
+      "label": "Product",
+      "amount": 36.81
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.05
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -32.0
+    },
+    {
+      "label": "R&D",
+      "amount": -10.27
+    },
+    {
+      "label": "G&A",
+      "amount": -2.8
+    },
+    {
+      "label": "Other income",
+      "amount": 2.44
+    },
+    {
+      "label": "Tax",
+      "amount": -5.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.58
+    }
+  ],
+  "otherDetail": "Interest income of $42.7M on Fortinet's cash pile, plus $11.0M of other income, less $3.0M of interest expense.",
+  "takeaways": [
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "title": "Hardware came roaring back",
+      "text": "Product revenue grew 37% to $765M \u2014 a strong appliance refresh cycle \u2014 while the larger service business grew 13% to $1.31B on subscriptions and support."
+    },
+    {
+      "stat": "+29%",
+      "statColor": "#3e8e5a",
+      "title": "Billings point to more growth",
+      "text": "Billings of $2.34B grew 29%, faster than revenue, and management raised full-year billings guidance for the third time this year \u2014 deferred revenue built up for future quarters."
+    },
+    {
+      "stat": "34%",
+      "statColor": "#3d7bc8",
+      "title": "Profitability stayed elite",
+      "text": "GAAP operating margin was 34% (38% non-GAAP) and operating cash flow was $946M \u2014 Fortinet converts an unusual share of sales into cash for a company growing this fast."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftntq3-2026ex991.htm"
+    }
+  ]
+}

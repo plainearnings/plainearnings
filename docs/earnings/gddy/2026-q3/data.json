@@ -1,0 +1,164 @@
+{
+  "ticker": "GDDY",
+  "company": "GoDaddy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+6%",
+  "verdict": "GoDaddy grew revenue 6% to $1.34B but profit 24% to $262M, as its higher-value Applications & Commerce business grew 9% and total costs barely moved.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.3B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.08",
+      "note": "vs $1.51 a year ago"
+    },
+    {
+      "label": "Bookings",
+      "value": "$1.4B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$481M",
+      "note": "+9% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Core Platform",
+      "amountM": 817.5,
+      "yoy": "+4%",
+      "note": "Domains, hosting and the core presence platform for GoDaddy's 20.5M customers."
+    },
+    {
+      "name": "Applications & Commerce",
+      "amountM": 524.3,
+      "yoy": "+9%",
+      "note": "Websites, email, commerce and the Airo AI builder \u2014 the faster-growing, higher-value layer on top of domains; Airo's annualized bookings run rate passed $100M."
+    }
+  ],
+  "flow": {
+    "revenueM": 1341.8,
+    "costOfRevenueM": 498.8,
+    "grossProfitM": 843.0,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 210.6,
+        "note": "Engineering and maintaining the platform, including the Airo AI tools."
+      },
+      {
+        "name": "Marketing & advertising",
+        "amountM": 91.7,
+        "note": "Advertising and marketing to win new entrepreneurs."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 91.7,
+        "note": "The back office: finance, legal and administration."
+      },
+      {
+        "name": "Customer care",
+        "amountM": 70.8,
+        "note": "Customer support \u2014 a GoDaddy hallmark."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 12.7,
+        "note": "Depreciation and amortization."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 3.0,
+        "note": "Restructuring and other charges."
+      }
+    ],
+    "operatingIncomeM": 362.5,
+    "otherIncomeM": -29.9,
+    "taxM": 70.8,
+    "netIncomeM": 261.8
+  },
+  "follow100": [
+    {
+      "label": "Core Platform",
+      "amount": 60.93
+    },
+    {
+      "label": "Applications & Commerce",
+      "amount": 39.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -37.17
+    },
+    {
+      "label": "Technology & development",
+      "amount": -15.7
+    },
+    {
+      "label": "Marketing & advertising",
+      "amount": -6.83
+    },
+    {
+      "label": "G&A",
+      "amount": -6.83
+    },
+    {
+      "label": "Customer care",
+      "amount": -5.28
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -0.95
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.22
+    },
+    {
+      "label": "Other income",
+      "amount": -2.23
+    },
+    {
+      "label": "Tax",
+      "amount": -5.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.51
+    }
+  ],
+  "otherDetail": "Interest expense of $37.7M, partly offset by $7.8M of other income.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3e8e5a",
+      "title": "Operating leverage did the work",
+      "text": "Operating income rose 22% to $362M \u2014 a 27% margin \u2014 on just 6% revenue growth, because costs and operating expenses in total rose only about 1%."
+    },
+    {
+      "stat": "$100M+",
+      "statColor": "#3d7bc8",
+      "title": "Airo is becoming real",
+      "text": "The Airo AI website builder's annualized bookings run rate exceeded $100M, more than doubling in one quarter, and GoDaddy launched agent-friendly APIs for hosting, email and commerce."
+    },
+    {
+      "stat": "20.5M",
+      "statColor": "#3d7bc8",
+      "title": "The customer base inched up",
+      "text": "Total customers reached 20.5M, up 40 thousand in the quarter \u2014 growth now comes mainly from selling more to each customer (Applications & Commerce) rather than adding users."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000117/gddyex991-20260930xq3earni.htm"
+    }
+  ]
+}

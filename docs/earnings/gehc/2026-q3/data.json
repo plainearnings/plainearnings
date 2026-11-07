@@ -1,0 +1,139 @@
+{
+  "ticker": "GEHC",
+  "company": "GE HealthCare",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+7%",
+  "verdict": "GE HealthCare grew revenue 7% to $5.5B and profit attributable to shareholders 38% to $615M, with pharmaceutical diagnostics up 13% and imaging up 6%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.5B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.36",
+      "note": "+39% YoY; adjusted $1.34"
+    },
+    {
+      "label": "Orders",
+      "value": "+4%",
+      "note": "organic growth; backlog $23.7B"
+    },
+    {
+      "label": "Net income margin",
+      "value": "11.1%",
+      "note": "of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advanced Imaging Solutions",
+      "amountM": 3873,
+      "yoy": "+6%",
+      "note": "CT, MR, X-ray, ultrasound and image-guided therapy systems \u2014 the largest business, growing 6.1% (4.5% organically)."
+    },
+    {
+      "name": "Pharmaceutical Diagnostics",
+      "amountM": 846,
+      "yoy": "+13%",
+      "note": "Contrast agents and radiopharmaceuticals used in imaging \u2014 the fastest-growing segment at +13.0%."
+    },
+    {
+      "name": "Patient Care Solutions",
+      "amountM": 794,
+      "yoy": "+9%",
+      "note": "Patient monitoring and related care technology \u2014 up 8.5% (reported as $793M; shown $1M higher so segments foot to total revenue)."
+    }
+  ],
+  "flow": {
+    "revenueM": 5513,
+    "costOfRevenueM": 3289,
+    "grossProfitM": 2224,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1099,
+        "note": "Selling, general and administrative costs (reported as $1,100M; shown $1M lower so the lines foot exactly to reported operating income)."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 320,
+        "note": "Developing imaging, monitoring and diagnostics technology."
+      }
+    ],
+    "operatingIncomeM": 805,
+    "otherIncomeM": -53,
+    "taxM": 129,
+    "netIncomeM": 623
+  },
+  "follow100": [
+    {
+      "label": "Advanced Imaging Solutions",
+      "amount": 70.25
+    },
+    {
+      "label": "Pharmaceutical Diagnostics",
+      "amount": 15.35
+    },
+    {
+      "label": "Patient Care Solutions",
+      "amount": 14.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.66
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.93
+    },
+    {
+      "label": "R&D",
+      "amount": -5.8
+    },
+    {
+      "label": "Other income",
+      "amount": -0.96
+    },
+    {
+      "label": "Tax",
+      "amount": -2.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.3
+    }
+  ],
+  "otherDetail": "Interest and other financial charges of $122M, partly offset by $50M of non-operating benefit-plan income and $19M of other income \u2014 a net $53M drag.",
+  "footerNote": "Net income in the chart is the total of $623M; $615M was attributable to GE HealthCare shareholders. Cost of revenue is cost of products ($2,373M) plus cost of services ($916M).",
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Diagnostics led growth",
+      "text": "Pharmaceutical Diagnostics grew 13.0% (13.8% organically) at a 29.9% segment EBIT margin \u2014 the most profitable business \u2014 while the big imaging segment grew 6.1%."
+    },
+    {
+      "stat": "$1.36",
+      "statColor": "#3e8e5a",
+      "title": "EPS jumped 39%",
+      "text": "Diluted EPS of $1.36 rose $0.38 year over year as operating income grew 23% to $805M and the tax bill fell; adjusted EPS was $1.34."
+    },
+    {
+      "stat": "1.03x",
+      "statColor": "#3d7bc8",
+      "title": "Orders kept pace",
+      "text": "Orders grew 4.0% organically with a book-to-bill of 1.03 and a $23.7B backlog \u2014 demand is healthy, if not booming, across hospital capital budgets."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000058/release3q26earnings.htm"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "FISV",
+  "company": "Fiserv",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "-1%",
+  "verdict": "Fiserv booked a $5.9B loss because it wrote down $6.5B of goodwill \u2014 a non-cash charge; the underlying business earned an adjusted $1.75 a share on revenue that slipped 1%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.2B",
+      "note": "-1% YoY, organic flat"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$11.17",
+      "note": "adjusted EPS $1.75"
+    },
+    {
+      "label": "Goodwill impairment",
+      "value": "$6.5B",
+      "note": "non-cash, in Corporate & Other"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$1.5B",
+      "note": "31.2% adjusted margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Merchant Solutions",
+      "amountM": 2521,
+      "yoy": "-3%",
+      "note": "Payments acceptance for merchants, including Clover point-of-sale systems \u2014 GAAP revenue fell 3%; organic revenue fell 2%."
+    },
+    {
+      "name": "Financial Solutions",
+      "amountM": 2331,
+      "yoy": "0%",
+      "note": "Technology for banks and credit unions \u2014 flat as reported; organic revenue returned to growth, up 2%."
+    },
+    {
+      "name": "Corporate and Other",
+      "amountM": 344,
+      "yoy": "0%",
+      "note": "Almost entirely postage reimbursements passed through for clients \u2014 it washes out against costs and is excluded from Fiserv's adjusted revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 5196,
+    "costOfRevenueM": 2439,
+    "grossProfitM": 2757,
+    "opex": [
+      {
+        "name": "Goodwill impairment",
+        "amountM": 6452,
+        "note": "A non-cash write-down of goodwill in Corporate and Other \u2014 an admission that businesses Fiserv bought in the past are worth less than it paid."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1799,
+        "note": "SG&A of $1,901M, partly offset by a $102M net gain on selling businesses and other assets \u2014 shown net so the chart foots to the reported operating loss."
+      }
+    ],
+    "operatingIncomeM": -5494,
+    "otherIncomeM": -308,
+    "taxM": 137,
+    "netIncomeM": -5939
+  },
+  "follow100": [
+    {
+      "label": "Merchant Solutions",
+      "amount": 48.52
+    },
+    {
+      "label": "Financial Solutions",
+      "amount": 44.86
+    },
+    {
+      "label": "Corporate and Other",
+      "amount": 6.62
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.94
+    },
+    {
+      "label": "Goodwill impairment",
+      "amount": -124.17
+    },
+    {
+      "label": "SG&A",
+      "amount": -34.62
+    },
+    {
+      "label": "Other income",
+      "amount": -5.93
+    },
+    {
+      "label": "Tax",
+      "amount": -2.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -114.3
+    }
+  ],
+  "otherDetail": "Interest expense, net of $333M, partly offset by a $29M gain on early debt extinguishment, plus $4M of other expense \u2014 a net $308M drag.",
+  "footerNote": "Chart note: the $6.5B goodwill impairment pushed running costs far above gross profit, and interest and tax added more, so the chart draws the $5.9B net loss as a 'Covered by cash on hand' source \u2014 the shortfall was absorbed by the balance sheet, not by revenue. Net loss in the chart is the total of $5,939M; the loss attributable to Fiserv was $5,941M ($2M of income went to noncontrolling interests).",
+  "takeaways": [
+    {
+      "stat": "$6.5B",
+      "statColor": "#cf5f4e",
+      "title": "A non-cash reckoning",
+      "text": "The goodwill impairment does not use cash, but it formally writes down the value of past acquisitions. Excluding it and other items, adjusted operating income was $1,512M \u2014 still down from $1,822M a year ago as margins compressed."
+    },
+    {
+      "stat": "0%",
+      "statColor": "#3d7bc8",
+      "title": "Organic revenue went flat",
+      "text": "Organic revenue was flat overall: Merchant Solutions fell 2% organically while Financial Solutions grew 2%. Fiserv affirmed its full-year outlook of -1% to 0% organic growth and $7.20\u2013$7.40 adjusted EPS."
+    },
+    {
+      "stat": "$1B",
+      "statColor": "#3e8e5a",
+      "title": "Cost cuts are the plan",
+      "text": "Fiserv raised its 'Project Elevate' savings target from $500M to $1B after a portfolio review, sold its student-loan servicing business, and plans to resume buybacks with $500M of repurchases in Q4."
+    }
+  ],
+  "oneTimers": [
+    "The $6,452M goodwill impairment is non-cash and sits in the Corporate and Other segment; GAAP operating margin was -105.7% because of it (adjusted operating margin: 31.2%).",
+    "Adjusted results also exclude $297M of amortization of acquisition-related intangibles, $158M of 'One Fiserv' transformation costs and $83M of severance."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm"
+    }
+  ]
+}

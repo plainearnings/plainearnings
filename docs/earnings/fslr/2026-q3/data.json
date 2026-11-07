@@ -1,0 +1,128 @@
+{
+  "ticker": "FSLR",
+  "company": "First Solar",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "-23%",
+  "verdict": "First Solar sold less but earned more: net sales fell 23% to $1.23B, yet EPS rose 25% to $5.30 as gross margin jumped to 58% of sales.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$1.2B",
+      "note": "-23% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.30",
+      "note": "+25% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "58%",
+      "note": "of net sales"
+    },
+    {
+      "label": "Contracted backlog",
+      "value": "44.0 GW",
+      "note": "at Sep 30, 2026"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Solar modules",
+      "amountM": 1230.936,
+      "yoy": "-23%",
+      "note": "Sales of First Solar's American-made thin-film solar modules \u2014 its single product line. Sales fell 23% year over year, while the contracted backlog stood at 44.0 GW."
+    }
+  ],
+  "flow": {
+    "revenueM": 1230.936,
+    "costOfRevenueM": 517.876,
+    "grossProfitM": 713.06,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 67.223,
+        "note": "Developing the next generations of thin-film solar modules."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 65.326,
+        "note": "Selling and running the company."
+      },
+      {
+        "name": "Production start-up",
+        "amountM": 34.403,
+        "note": "Costs of ramping new production lines before they reach full output."
+      }
+    ],
+    "operatingIncomeM": 546.108,
+    "otherIncomeM": 24.955,
+    "taxM": 0,
+    "netIncomeM": 571.063
+  },
+  "follow100": [
+    {
+      "label": "Solar modules",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.07
+    },
+    {
+      "label": "R&D",
+      "amount": -5.46
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.31
+    },
+    {
+      "label": "Production start-up",
+      "amount": -2.79
+    },
+    {
+      "label": "Other income",
+      "amount": 2.03
+    },
+    {
+      "label": "Tax",
+      "amount": 0.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 46.39
+    }
+  ],
+  "otherDetail": "Interest income of $24.2M and small foreign-exchange and other items added $19.9M; in addition, First Solar's income-tax line was a $5.0M benefit this quarter, which is counted inside this other-income line rather than as a tax cost.",
+  "footerNote": "First Solar's tax line was a $5.0M benefit (a negative tax), so it is folded into other income above instead of appearing as a tax cost. Net cash balance was $1.5B at quarter end.",
+  "takeaways": [
+    {
+      "stat": "58%",
+      "statColor": "#3e8e5a",
+      "title": "Margin, not volume, drove profit",
+      "text": "Gross profit was $713M on $1.23B of sales \u2014 a 58% margin, up from 38% a year ago \u2014 reflecting the value of U.S. manufacturing tax credits and a richer sales mix, even as volumes fell."
+    },
+    {
+      "stat": "$5.30",
+      "statColor": "#3d7bc8",
+      "title": "EPS rose 25% on lower sales",
+      "text": "Net income rose to $571M from $456M a year ago despite the 23% sales decline, and the board authorized a new $500M share-repurchase program."
+    },
+    {
+      "stat": "44.0 GW",
+      "statColor": "#3d7bc8",
+      "title": "The order book is the cushion",
+      "text": "Contracted sales backlog of 44.0 GW gives First Solar years of committed demand for its U.S. factories, even when a single quarter's deliveries dip."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000211/ex991pressreleaseq3-2026.htm"
+    }
+  ]
+}

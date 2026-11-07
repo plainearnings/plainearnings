@@ -1,0 +1,128 @@
+{
+  "ticker": "FRT",
+  "company": "Federal Realty Investment Trust",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "revenueYoY": "+5%",
+  "verdict": "Federal Realty ground out steady growth \u2014 revenue up 5% to $339M and FFO up 5.6% to $1.87 a share \u2014 as new retail leases were signed at rents 14% above the old ones on a cash basis.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$339M",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "FFO per share",
+      "value": "$1.87",
+      "note": "+5.6% YoY, Nareit & Core"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.74",
+      "note": "available to common shareholders"
+    },
+    {
+      "label": "New-lease rent growth",
+      "value": "+14%",
+      "note": "cash basis, comparable retail leases"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental income",
+      "amountM": 329.644,
+      "yoy": "+5%",
+      "note": "Rent from retailers and other tenants at Federal Realty's open-air shopping centers and mixed-use properties."
+    },
+    {
+      "name": "Other property & mortgage income",
+      "amountM": 9.38,
+      "note": "Other property income of $9.4M plus a small amount of mortgage interest income."
+    }
+  ],
+  "flow": {
+    "revenueM": 339.024,
+    "costOfRevenueM": 109.128,
+    "grossProfitM": 229.896,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 100.26,
+        "note": "Depreciation of the shopping centers and other real estate \u2014 a large non-cash cost for any property owner."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 13.254,
+        "note": "Running the company itself."
+      }
+    ],
+    "operatingIncomeM": 116.382,
+    "otherIncomeM": -47.397,
+    "taxM": 0,
+    "netIncomeM": 68.985
+  },
+  "follow100": [
+    {
+      "label": "Rental income",
+      "amount": 97.23
+    },
+    {
+      "label": "Other property & mortgage income",
+      "amount": 2.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.19
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -29.57
+    },
+    {
+      "label": "G&A",
+      "amount": -3.91
+    },
+    {
+      "label": "Other income",
+      "amount": -13.98
+    },
+    {
+      "label": "Tax",
+      "amount": 0.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.35
+    }
+  ],
+  "otherDetail": "Interest expense of $49.7M on the REIT's borrowings, partly offset by $1.1M of interest income, $0.8M of income from partnerships and a $0.5M gain on the sale of real estate (which Federal Realty counts inside operating income; it is shown here so the lines foot).",
+  "footerNote": "REIT layout: the direct costs are rental expenses ($69.3M) and real estate taxes ($39.8M). Federal Realty pays no corporate income tax as a REIT \u2014 it distributes its income to shareholders instead \u2014 so the tax line is $0. Reported operating income was $116.9M including the $0.5M property-sale gain counted in other income here. Net income was $69.0M, of which $64.2M was available to common shareholders after noncontrolling interests and preferred dividends. For REITs, funds from operations (FFO) \u2014 $163.0M, or $1.87 a share \u2014 is the industry's preferred profit measure because it adds back real-estate depreciation.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Re-leasing spreads are the story",
+      "text": "Federal Realty signed 117 comparable retail leases in the quarter at rents 14% higher on a cash basis (25% on a straight-line basis) than the leases they replaced \u2014 embedded growth that shows up in revenue over coming years."
+    },
+    {
+      "stat": "$1.87",
+      "statColor": "#3e8e5a",
+      "title": "FFO rose 5.6% a share",
+      "text": "Nareit FFO and Core FFO were both $163.0M, or $1.87 per diluted share, and management raised full-year Core FFO guidance to $7.54\u2013$7.58 a share."
+    },
+    {
+      "stat": "$100M",
+      "statColor": "#cf5f4e",
+      "title": "Depreciation dominates GAAP costs",
+      "text": "Depreciation and amortization of $100M is the single biggest expense line \u2014 the main reason GAAP net income ($69M) looks so much smaller than FFO ($163M) for a property owner."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000054/frt-9302026xex991.htm"
+    }
+  ]
+}

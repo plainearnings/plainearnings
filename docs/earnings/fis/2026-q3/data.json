@@ -1,0 +1,134 @@
+{
+  "ticker": "FIS",
+  "company": "FIS",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+27%",
+  "verdict": "FIS's revenue jumped 27% to $3.5B because it bought Total Issuing Solutions \u2014 like-for-like growth was 3.7% \u2014 while interest costs on the deal debt held GAAP profit to $356M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.5B",
+      "note": "+27% YoY (pro forma +3.7%)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.69",
+      "note": "adjusted $1.61"
+    },
+    {
+      "label": "Banking Solutions",
+      "value": "$2.5B",
+      "note": "largest segment"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$862M",
+      "note": "+8% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Banking Solutions",
+      "amountM": 2548,
+      "yoy": "+41%",
+      "note": "Technology for banks \u2014 up 41% as reported because the acquired Total Issuing Solutions business is now included; on a like-for-like (pro forma) basis it grew 3.9%."
+    },
+    {
+      "name": "Capital Market Solutions",
+      "amountM": 823,
+      "yoy": "+3%",
+      "note": "Technology for capital-markets firms \u2014 recurring revenue grew 3.0%."
+    },
+    {
+      "name": "Corporate and Other",
+      "amountM": 83,
+      "yoy": "-22%",
+      "note": "Non-strategic businesses being wound down or sold \u2014 down 22%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3454,
+    "costOfRevenueM": 2175,
+    "grossProfitM": 1279,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 619,
+        "note": "SG&A of $627M, partly offset by $8M of other operating income \u2014 shown net so the chart foots to reported operating income."
+      }
+    ],
+    "operatingIncomeM": 660,
+    "otherIncomeM": -213,
+    "taxM": 90,
+    "netIncomeM": 357
+  },
+  "follow100": [
+    {
+      "label": "Banking Solutions",
+      "amount": 73.77
+    },
+    {
+      "label": "Capital Market Solutions",
+      "amount": 23.83
+    },
+    {
+      "label": "Corporate and Other",
+      "amount": 2.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.97
+    },
+    {
+      "label": "SG&A",
+      "amount": -17.92
+    },
+    {
+      "label": "Other income",
+      "amount": -6.17
+    },
+    {
+      "label": "Tax",
+      "amount": -2.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.34
+    }
+  ],
+  "otherDetail": "Interest expense, net of $199M \u2014 the cost of debt taken on to buy Total Issuing Solutions \u2014 plus $14M of other expense.",
+  "footerNote": "Net profit in the chart is total net earnings of $357M; $356M was attributable to FIS shareholders and $1M to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+3.7%",
+      "statColor": "#3d7bc8",
+      "title": "Real growth is 3.7%, not 27%",
+      "text": "The 27% reported jump mostly reflects adding Total Issuing Solutions. On a pro-forma basis \u2014 as if FIS had owned it all along \u2014 revenue grew 3.7% and adjusted EBITDA 5.2%."
+    },
+    {
+      "stat": "$1.61",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS vs $0.69 GAAP",
+      "text": "Adjusted net earnings were $831M ($1.61 a share) versus $356M GAAP ($0.69). The gap is mostly $320M of purchase-accounting amortization and $147M of acquisition and integration costs."
+    },
+    {
+      "stat": "$20.8B",
+      "statColor": "#cf5f4e",
+      "title": "Deleveraging comes first",
+      "text": "Debt stood at $20.8B after the acquisition. FIS has paused buybacks and tuck-in deals to pay debt down toward its ~2.8x leverage target, while keeping the dividend."
+    }
+  ],
+  "oneTimers": [
+    "FIS closed the acquisition of Total Issuing Solutions (the former Global Payments issuer business) in 2026; prior-year figures do not include it, which is why reported growth rates look so large.",
+    "On October 20, 2026, FIS sold a non-core prepaid business for gross proceeds of over $100M as part of its strategic portfolio review."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm"
+    }
+  ]
+}

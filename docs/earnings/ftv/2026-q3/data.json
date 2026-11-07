@@ -1,0 +1,133 @@
+{
+  "ticker": "FTV",
+  "company": "Fortive",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+8%",
+  "verdict": "Fortive's revenue rose 8% to $1.11B, led by Intelligent Operating Solutions at +10%, and GAAP profit rose 47% to $173M \u2014 helped by an $18M tariff refund booked in the quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.1B",
+      "note": "+8% YoY (core +7.2%)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.57",
+      "note": "adjusted $0.77"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$284M",
+      "note": "in the quarter"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$339M",
+      "note": "30.6% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Intelligent Operating Solutions",
+      "amountM": 767.1,
+      "yoy": "+10%",
+      "note": "Instruments, sensors and workflow software for industrial and facility operations (Fluke, Tektronix and peers) \u2014 core revenue up 9.1%."
+    },
+    {
+      "name": "Advanced Healthcare Solutions",
+      "amountM": 340.4,
+      "yoy": "+4%",
+      "note": "Sterilization, infection-prevention and healthcare workflow products (ASP, Provation) \u2014 core revenue up 3.1%, with segment profit down as mix shifted."
+    }
+  ],
+  "flow": {
+    "revenueM": 1107.5,
+    "costOfRevenueM": 396.9,
+    "grossProfitM": 710.6,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 406.5,
+        "note": "Selling and running the two businesses \u2014 Fortive's largest cost line."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 68.2,
+        "note": "Product development across instruments, sensors and healthcare technology."
+      }
+    ],
+    "operatingIncomeM": 235.9,
+    "otherIncomeM": -33.6,
+    "taxM": 29.8,
+    "netIncomeM": 172.5
+  },
+  "follow100": [
+    {
+      "label": "Intelligent Operating Solutions",
+      "amount": 69.26
+    },
+    {
+      "label": "Advanced Healthcare Solutions",
+      "amount": 30.74
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.84
+    },
+    {
+      "label": "SG&A",
+      "amount": -36.7
+    },
+    {
+      "label": "R&D",
+      "amount": -6.16
+    },
+    {
+      "label": "Other income",
+      "amount": -3.03
+    },
+    {
+      "label": "Tax",
+      "amount": -2.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.58
+    }
+  ],
+  "otherDetail": "Interest expense, net of $38.8M, partly offset by $5.2M of other non-operating income.",
+  "footerNote": "Figures are for continuing operations (Fortive spun off its Precision Technologies business as Ralliant in 2025; it is excluded from all periods shown).",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "The industrial side is carrying growth",
+      "text": "Intelligent Operating Solutions grew 9.8% with a 29.1% GAAP operating margin, while Advanced Healthcare Solutions grew 3.7% and its segment operating profit fell 10% on mix."
+    },
+    {
+      "stat": "$18M",
+      "statColor": "#3e8e5a",
+      "title": "A tariff refund flattered the quarter",
+      "text": "After the Supreme Court struck down the IEEPA tariffs, Fortive booked an $18.0M refund recovery inside cost of sales. It is excluded from adjusted results \u2014 one reason GAAP EPS rose 63% while adjusted EPS rose 13%."
+    },
+    {
+      "stat": "~$300M",
+      "statColor": "#3d7bc8",
+      "title": "Buybacks are the capital story",
+      "text": "Fortive spent about $300M repurchasing roughly 5M shares \u2014 about 2% of the share count \u2014 in a single quarter, funded by $313M of operating cash flow."
+    }
+  ],
+  "oneTimers": [
+    "An $18.0M IEEPA tariff-refund recovery is included in cost of sales (and therefore in gross profit); Fortive excludes it from adjusted earnings.",
+    "A $6.2M non-cash impairment of capitalized software and $4.9M of foreign-currency gains on euro-denominated debt also sit inside the GAAP figures."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1659166/000165916626000039/ftv-q3x2026xearningsxpress.htm"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "FLEX",
+  "company": "Flex",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-25",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+25%",
+  "verdict": "Flex grew sales 25% to $8.5B as its Cloud & Power Infrastructure business \u2014 soon to be spun off as Axiom \u2014 surged 54% on data-center demand; GAAP profit was $263M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.5B",
+      "note": "+25% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.70",
+      "note": "adjusted $1.18, a record"
+    },
+    {
+      "label": "Cloud & Power Infrastructure",
+      "value": "$2.5B",
+      "note": "+54% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$261M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Integrated Technology Solutions",
+      "amountM": 3306,
+      "yoy": "+22%",
+      "note": "Manufacturing for consumer, lifestyle and connected-home products (segment detail from the company's 10-Q)."
+    },
+    {
+      "name": "Regulated Manufacturing Solutions",
+      "amountM": 2677,
+      "yoy": "+9%",
+      "note": "Manufacturing for health and other regulated industries, where quality rules are strictest (segment detail from the company's 10-Q)."
+    },
+    {
+      "name": "Cloud & Power Infrastructure",
+      "amountM": 2508,
+      "yoy": "+54%",
+      "note": "Data-center power, cooling and IT infrastructure \u2014 up 54% on AI data-center demand. Flex plans to spin this segment off as a separate company named Axiom (segment detail from the company's 10-Q)."
+    }
+  ],
+  "flow": {
+    "revenueM": 8491,
+    "costOfRevenueM": 7679,
+    "grossProfitM": 812,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 371,
+        "note": "Selling, general and administrative costs of running the global manufacturing network."
+      },
+      {
+        "name": "Intangible amortization",
+        "amountM": 27,
+        "note": "Amortization of intangible assets bought in acquisitions."
+      }
+    ],
+    "operatingIncomeM": 414,
+    "otherIncomeM": -44,
+    "taxM": 107,
+    "netIncomeM": 263
+  },
+  "follow100": [
+    {
+      "label": "Integrated Technology Solutions",
+      "amount": 38.94
+    },
+    {
+      "label": "Regulated Manufacturing Solutions",
+      "amount": 31.53
+    },
+    {
+      "label": "Cloud & Power Infrastructure",
+      "amount": 29.54
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -90.44
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.37
+    },
+    {
+      "label": "Intangible amortization",
+      "amount": -0.32
+    },
+    {
+      "label": "Other income",
+      "amount": -0.52
+    },
+    {
+      "label": "Tax",
+      "amount": -1.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.1
+    }
+  ],
+  "otherDetail": "Interest expense of $69M, partly offset by $13M of interest income, $7M of other income and $5M of equity earnings from unconsolidated affiliates \u2014 a net $44M drag.",
+  "footerNote": "Cost of revenue is cost of sales of $7,664M plus $15M of restructuring charges that Flex reports inside cost of sales.",
+  "takeaways": [
+    {
+      "stat": "+54%",
+      "statColor": "#3d7bc8",
+      "title": "The spin-off segment is the growth story",
+      "text": "Cloud & Power Infrastructure sales rose 54% to $2.5B as AI data centers scramble for power and cooling. Flex is spinning it off as 'Axiom' and bought EPC Power to complete the power portfolio."
+    },
+    {
+      "stat": "$1.18",
+      "statColor": "#3e8e5a",
+      "title": "Record adjusted EPS",
+      "text": "Adjusted EPS hit a record $1.18 versus $0.70 GAAP. The gap includes roughly $91M of legal and other costs \u2014 mostly for the planned spin-off \u2014 plus restructuring and stock compensation."
+    },
+    {
+      "stat": "4.9%",
+      "statColor": "#3d7bc8",
+      "title": "Thin margins, by design",
+      "text": "Contract manufacturing runs on thin margins: a 4.9% GAAP operating margin (7.1% adjusted) on $8.5B of sales. Profitability depends on mix shifting toward power and regulated work."
+    }
+  ],
+  "oneTimers": [
+    "Costs of roughly $91M in the quarter \u2014 mainly legal and other costs of the planned Cloud & Power Infrastructure spin-off, plus $19M of acquisition costs \u2014 are excluded from Flex's adjusted results.",
+    "Restructuring charges were $15M inside cost of sales; a year ago the quarter also carried impairments from the missile strike on Flex's Mukachevo, Ukraine plant."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000039/flexex991-9252026.htm"
+    }
+  ]
+}

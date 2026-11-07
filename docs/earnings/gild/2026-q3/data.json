@@ -1,0 +1,161 @@
+{
+  "ticker": "GILD",
+  "company": "Gilead Sciences",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+7%",
+  "verdict": "Gilead's revenue rose 7% to $8.3B as HIV sales jumped 18% \u2014 prevention sales nearly doubled \u2014 though profit fell to $2.4B because last year's quarter included a $569M other-income gain.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.3B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.94",
+      "note": "vs $2.43 a year ago"
+    },
+    {
+      "label": "HIV revenue",
+      "value": "$6.2B",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Biktarvy sales",
+      "value": "$4.1B",
+      "note": "+10% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "HIV",
+      "amountM": 6249,
+      "yoy": "+18%",
+      "note": "HIV treatment and prevention \u2014 Biktarvy alone was $4.1B (+10%), and prevention sales (including the long-acting Yeztugo rollout) nearly doubled."
+    },
+    {
+      "name": "Liver Disease",
+      "amountM": 927,
+      "yoy": "+13%",
+      "note": "Hepatitis and liver-disease medicines, led by Livdelzi for primary biliary cholangitis."
+    },
+    {
+      "name": "Oncology",
+      "amountM": 860,
+      "yoy": "+9%",
+      "note": "Cancer medicines including Trodelvy and cell therapies."
+    },
+    {
+      "name": "Other products & royalties",
+      "amountM": 264,
+      "note": "All other products \u2014 including Veklury (COVID antiviral) at $86M, down 69% \u2014 plus $11M of royalty, contract and other revenues."
+    }
+  ],
+  "flow": {
+    "revenueM": 8300,
+    "costOfRevenueM": 1571,
+    "grossProfitM": 6729,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1608,
+        "note": "Research and development across HIV, oncology, liver disease and inflammation programs."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1641,
+        "note": "Commercial teams and administration \u2014 up from $1,357M a year ago as launches expand."
+      },
+      {
+        "name": "Acquired in-process R&D",
+        "amountM": 18,
+        "note": "Up-front and milestone payments for research bought from partners, expensed immediately."
+      }
+    ],
+    "operatingIncomeM": 3462,
+    "otherIncomeM": -399,
+    "taxM": 634,
+    "netIncomeM": 2429
+  },
+  "follow100": [
+    {
+      "label": "HIV",
+      "amount": 75.29
+    },
+    {
+      "label": "Liver Disease",
+      "amount": 11.17
+    },
+    {
+      "label": "Oncology",
+      "amount": 10.36
+    },
+    {
+      "label": "Other products & royalties",
+      "amount": 3.18
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.93
+    },
+    {
+      "label": "R&D",
+      "amount": -19.37
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.77
+    },
+    {
+      "label": "Acquired in-process R&D",
+      "amount": -0.22
+    },
+    {
+      "label": "Other income",
+      "amount": -4.81
+    },
+    {
+      "label": "Tax",
+      "amount": -7.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.27
+    }
+  ],
+  "otherDetail": "Interest expense of $269M plus $130M of other expense, net \u2014 a $399M drag. (A year ago this line was a $569M gain, which is why profit fell despite higher revenue.)",
+  "footerNote": "Gilead does not print a gross-profit line; it reports total costs and expenses. The split here puts cost of goods sold ($1,571M) as the direct cost and its R&D, acquired in-process R&D and SG&A lines as running costs \u2014 the same total of $4,838M.",
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "HIV is growing again",
+      "text": "HIV product sales rose 18% to $6.25B: Biktarvy grew 10% to $4.1B and HIV prevention sales nearly doubled as long-acting prevention rolled out \u2014 the franchise is three-quarters of all product sales."
+    },
+    {
+      "stat": "-20%",
+      "statColor": "#cf5f4e",
+      "title": "EPS fell on a comparison quirk",
+      "text": "Diluted EPS fell to $1.94 from $2.43 even though operating income rose 4% \u2014 the year-ago quarter included $569M of other income (net) versus a $130M expense this year."
+    },
+    {
+      "stat": "$11.3B",
+      "statColor": "#cf5f4e",
+      "title": "Remember the first half",
+      "text": "Over the first nine months Gilead recorded $11.3B of acquired in-process R&D charges from buying research-stage assets, which is why its nine-month result is a $6.0B loss despite profitable quarters like this one."
+    }
+  ],
+  "oneTimers": [
+    "Acquired in-process R&D expense was just $18M this quarter (versus $170M a year ago) \u2014 but the nine-month total is $11,307M, concentrated earlier in 2026.",
+    "SG&A rose 21% year over year to $1,641M as Gilead spends behind new launches in HIV and oncology."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000037/exhibit991earningspressrel.htm"
+    }
+  ]
+}

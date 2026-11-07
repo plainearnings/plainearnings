@@ -1,0 +1,160 @@
+{
+  "ticker": "GPC",
+  "company": "Genuine Parts",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+4%",
+  "verdict": "Genuine Parts grew sales 4% to $6.5B, led by its Industrial business at +6%, but net income slipped to $224M as restructuring costs for the planned split of the company into two continued.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$6.5B",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.62",
+      "note": "adjusted $2.07"
+    },
+    {
+      "label": "Industrial sales",
+      "value": "$2.4B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "Automotive sales",
+      "value": "$4.1B",
+      "note": "+3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive \u2014 North America",
+      "amountM": 2540.319,
+      "yoy": "+2%",
+      "note": "NAPA Auto Parts stores and distribution in the U.S. and Canada (segment detail from the company's 10-Q) \u2014 comparable sales rose 1.7%."
+    },
+    {
+      "name": "Industrial (Motion)",
+      "amountM": 2408.597,
+      "yoy": "+6%",
+      "note": "Motion \u2014 bearings, power transmission and industrial parts and services (segment detail from the company's 10-Q) \u2014 comparable sales rose 5.5%."
+    },
+    {
+      "name": "Automotive \u2014 International",
+      "amountM": 1572.392,
+      "yoy": "+4%",
+      "note": "Auto-parts businesses in Europe and Australasia (segment detail from the company's 10-Q)."
+    }
+  ],
+  "flow": {
+    "revenueM": 6521.308,
+    "costOfRevenueM": 4037.033,
+    "grossProfitM": 2484.275,
+    "opex": [
+      {
+        "name": "Selling, administrative & other",
+        "amountM": 1944.518,
+        "note": "The cost of running thousands of stores, branches and distribution centers."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 137.49,
+        "note": "Depreciation and amortization."
+      },
+      {
+        "name": "Restructuring & other costs",
+        "amountM": 64.545,
+        "note": "Restructuring and other costs, including work tied to the planned split of the company."
+      },
+      {
+        "name": "Provision for doubtful accounts",
+        "amountM": 9.238,
+        "note": "Reserves for customer accounts that may not pay."
+      }
+    ],
+    "operatingIncomeM": 328.484,
+    "otherIncomeM": -49.836,
+    "taxM": 54.201,
+    "netIncomeM": 224.447
+  },
+  "follow100": [
+    {
+      "label": "Automotive \u2014 North America",
+      "amount": 38.95
+    },
+    {
+      "label": "Industrial (Motion)",
+      "amount": 36.93
+    },
+    {
+      "label": "Automotive \u2014 International",
+      "amount": 24.11
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.91
+    },
+    {
+      "label": "Selling, administrative & other",
+      "amount": -29.82
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.11
+    },
+    {
+      "label": "Restructuring & other costs",
+      "amount": -0.99
+    },
+    {
+      "label": "Provision for doubtful accounts",
+      "amount": -0.14
+    },
+    {
+      "label": "Other income",
+      "amount": -0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -0.83
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.44
+    }
+  ],
+  "otherDetail": "Interest expense, net of $46.0M, plus $3.9M of other non-operating expense.",
+  "footerNote": "Genuine Parts does not print an operating-income line in its release; operating income here ($328.5M) is gross profit less total operating expenses, exactly as its statement foots to pre-tax income. The company announced in February 2026 that it will split into two public companies \u2014 Global Automotive and Global Industrial \u2014 targeted for the first quarter of 2027.",
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Industrial is outgrowing Auto",
+      "text": "Industrial (Motion) sales rose 6.1% to $2.41B on 5.5% comparable growth, while total Automotive sales rose about 3% to $4.11B \u2014 North America +2.2%, International +4.5%."
+    },
+    {
+      "stat": "$2.07",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS vs $1.62 GAAP",
+      "text": "Excluding $61M of after-tax adjustments ($0.45 a share) \u2014 restructuring and split-related costs \u2014 adjusted EPS was $2.07 and adjusted net income about $285M."
+    },
+    {
+      "stat": "2027",
+      "statColor": "#3d7bc8",
+      "title": "A split is coming",
+      "text": "Genuine Parts is separating into Global Automotive and Global Industrial, targeted for Q1 2027 \u2014 the restructuring line ($64.5M this quarter) is the visible cost of becoming two companies."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other costs were $64.5M in the quarter; total after-tax adjustments excluded from adjusted earnings were $61M ($0.45 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000037/gpc-earnq32026.htm"
+    }
+  ]
+}

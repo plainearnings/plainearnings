@@ -1,0 +1,147 @@
+{
+  "ticker": "GLW",
+  "company": "Corning",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+18%",
+  "verdict": "Corning's sales rose 18% to $4.9B and GAAP EPS rose 56% to $0.78 as data-center demand drove Optical Communications sales up 44% \u2014 Gen AI product sales more than doubled.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$4.9B",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.78",
+      "note": "core EPS $0.91"
+    },
+    {
+      "label": "Optical Communications",
+      "value": "$2.4B",
+      "note": "+44% YoY"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$1.1B",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Optical Communications",
+      "amountM": 2379,
+      "yoy": "+44%",
+      "note": "Fiber, cable and connectivity for networks \u2014 enterprise networks grew 84% and Gen AI product sales more than doubled on data-center demand."
+    },
+    {
+      "name": "Glass Innovations",
+      "amountM": 1506,
+      "yoy": "-3%",
+      "note": "Display glass and specialty glass (including Gorilla Glass) \u2014 down 3%."
+    },
+    {
+      "name": "Automotive, Solar, Life Sciences & other",
+      "amountM": 970,
+      "note": "Automotive $470M (+4%), Solar $436M (+37%) and Life Sciences & Emerging Growth $290M (+1%), less $226M of corporate and elimination items so the segments foot to total sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 4855,
+    "costOfRevenueM": 3045,
+    "grossProfitM": 1810,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 563,
+        "note": "Selling, general and administrative costs."
+      },
+      {
+        "name": "Research, development & engineering",
+        "amountM": 314,
+        "note": "Research, development and engineering \u2014 Corning's innovation engine."
+      },
+      {
+        "name": "Amortization of purchased intangibles",
+        "amountM": 22,
+        "note": "Amortization of intangibles bought in acquisitions."
+      }
+    ],
+    "operatingIncomeM": 911,
+    "otherIncomeM": 57,
+    "taxM": 222,
+    "netIncomeM": 746
+  },
+  "follow100": [
+    {
+      "label": "Optical Communications",
+      "amount": 49.0
+    },
+    {
+      "label": "Glass Innovations",
+      "amount": 31.02
+    },
+    {
+      "label": "Automotive, Solar, Life Sciences & other",
+      "amount": 19.98
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.72
+    },
+    {
+      "label": "SG&A",
+      "amount": -11.6
+    },
+    {
+      "label": "R&D",
+      "amount": -6.47
+    },
+    {
+      "label": "Amortization of purchased intangibles",
+      "amount": -0.45
+    },
+    {
+      "label": "Other income",
+      "amount": 1.17
+    },
+    {
+      "label": "Tax",
+      "amount": -4.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.37
+    }
+  ],
+  "otherDetail": "A $138M gain on translated earnings contracts (currency hedges) and $17M of interest income, less $87M of interest expense and $11M of other expense \u2014 a net $57M boost.",
+  "footerNote": "Net income in the chart is the total of $746M; $680M was attributable to Corning and $66M to non-controlling interests. Segment sales are Corning's reported segment figures; the third chart segment groups Automotive, Solar and Life Sciences & Emerging Growth Businesses net of corporate/elimination items (-$226M) so the pieces foot to total net sales.",
+  "takeaways": [
+    {
+      "stat": "+44%",
+      "statColor": "#3d7bc8",
+      "title": "AI data centers are buying the fiber",
+      "text": "Optical Communications sales rose 44% to $2.38B and its net income rose 80% to $532M. Enterprise Networks grew 84%, with Gen AI product sales up more than 100% \u2014 outpacing GPU unit growth, Corning says."
+    },
+    {
+      "stat": "+37%",
+      "statColor": "#3e8e5a",
+      "title": "Solar is the second growth leg",
+      "text": "Solar sales grew 37% to $436M as U.S. production ramped (more slowly than planned) and new U.S. trade action on solar imports helped pricing; the segment was roughly breakeven (-$7M)."
+    },
+    {
+      "stat": "$0.91",
+      "statColor": "#3d7bc8",
+      "title": "Core EPS vs $0.78 GAAP",
+      "text": "Core EPS of $0.91 rose 36%; the GAAP figure of $0.78 (+56%) includes items Corning excludes from 'core', and the quarter's other income includes a $138M currency-contract gain."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/glw-20261027xex99xq32026.htm"
+    }
+  ]
+}

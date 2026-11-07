@@ -1,0 +1,143 @@
+{
+  "ticker": "FICO",
+  "company": "FICO",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+27%",
+  "verdict": "FICO's revenue jumped 27% to $657M on higher mortgage-score prices, but a $65M legal settlement accrual and a $27M restructuring charge held GAAP profit to $175M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$657M",
+      "note": "+27% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$8.12",
+      "note": "non-GAAP $11.10"
+    },
+    {
+      "label": "Scores revenue",
+      "value": "$414M",
+      "note": "+33% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$284M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Scores",
+      "amountM": 413.818,
+      "yoy": "+33%",
+      "note": "Credit scores sold to lenders and consumers \u2014 up 33%, mainly because the price per mortgage-origination score rose, even though mortgage volumes fell."
+    },
+    {
+      "name": "Software",
+      "amountM": 243.231,
+      "yoy": "+19%",
+      "note": "Analytics and decisioning software: $223.7M of subscriptions and on-premises licenses plus $19.5M of professional services. Platform ARR grew 72%."
+    }
+  ],
+  "flow": {
+    "revenueM": 657.049,
+    "costOfRevenueM": 86.003,
+    "grossProfitM": 571.046,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 225.43,
+        "note": "The back office, sales and company-wide costs \u2014 this quarter it includes the $65M accrual for the proposed antitrust settlement."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 51.771,
+        "note": "Building and improving the scoring and software products."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 27.293,
+        "note": "One-off cost of a committed workforce-reduction plan."
+      }
+    ],
+    "operatingIncomeM": 266.552,
+    "otherIncomeM": -29.121,
+    "taxM": 62.467,
+    "netIncomeM": 174.964
+  },
+  "follow100": [
+    {
+      "label": "Scores",
+      "amount": 62.98
+    },
+    {
+      "label": "Software",
+      "amount": 37.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.09
+    },
+    {
+      "label": "SG&A",
+      "amount": -34.31
+    },
+    {
+      "label": "R&D",
+      "amount": -7.88
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -4.15
+    },
+    {
+      "label": "Other income",
+      "amount": -4.43
+    },
+    {
+      "label": "Tax",
+      "amount": -9.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.63
+    }
+  ],
+  "otherDetail": "Other expense, net of $29.1M: mainly interest on FICO's debt, partly offset by a $47.9M gain on the sale of a minority equity investment.",
+  "takeaways": [
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "Score pricing is the growth engine",
+      "text": "Scores revenue rose 33% to $414M \u2014 driven by a higher unit price for mortgage-origination scores, which more than offset lower mortgage volumes. B2B scoring revenue rose 39%."
+    },
+    {
+      "stat": "$11.10",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS is much higher",
+      "text": "Excluding the settlement accrual, the restructuring charge and the investment gain, non-GAAP EPS was $11.10 versus $8.12 on a GAAP basis \u2014 and non-GAAP net income rose 28% to $239M."
+    },
+    {
+      "stat": "156%",
+      "statColor": "#3d7bc8",
+      "title": "Platform software is compounding",
+      "text": "Software platform ARR grew 72% with a 156% dollar-based net retention rate, even as older non-platform software shrank 18% \u2014 the mix shift FICO has been pushing for."
+    }
+  ],
+  "oneTimers": [
+    "A $65M accrual for a proposed settlement of the antitrust class-action lawsuits over the Scores business sits inside SG&A this quarter.",
+    "A $27M restructuring charge for a committed workforce-reduction plan is shown as its own running-cost line.",
+    "A $47.9M non-operating gain on the sale of a minority equity investment is inside other income (expense).",
+    "FICO gave no FY27 guidance, citing its transition to bespoke mortgage-score pricing and an uncertain mortgage market."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000037/exhibit991erq42026.htm"
+    }
+  ]
+}

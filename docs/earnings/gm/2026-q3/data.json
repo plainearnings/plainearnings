@@ -1,0 +1,121 @@
+{
+  "ticker": "GM",
+  "company": "General Motors",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+3%",
+  "verdict": "GM earned $3.3B attributable to stockholders \u2014 EPS of $3.73 versus $1.35 a year ago, when results carried heavy special items \u2014 on revenue up 3% to $50.0B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$50.0B",
+      "note": "+3% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.73",
+      "note": "adjusted $3.70"
+    },
+    {
+      "label": "EBIT-adjusted",
+      "value": "$4.1B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "Net income (attributable)",
+      "value": "$3.3B",
+      "note": "vs $1.3B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 45703,
+      "yoy": "+3%",
+      "note": "Vehicles and parts \u2014 GM North America is the profit center, with segment EBIT-adjusted of $3.6B in the quarter."
+    },
+    {
+      "name": "GM Financial",
+      "amountM": 4312,
+      "yoy": "-1%",
+      "note": "Auto loans and leases for GM buyers and dealers, earning interest and lease revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 50015,
+    "costOfRevenueM": 44390,
+    "grossProfitM": 5625,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 2027,
+        "note": "Automotive selling, general and administrative expense."
+      }
+    ],
+    "operatingIncomeM": 3598,
+    "otherIncomeM": 112,
+    "equityM": 233,
+    "taxM": 566,
+    "netIncomeM": 3377
+  },
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 91.38
+    },
+    {
+      "label": "GM Financial",
+      "amount": 8.62
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -88.75
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.05
+    },
+    {
+      "label": "Other income",
+      "amount": 0.69
+    },
+    {
+      "label": "Tax",
+      "amount": -1.13
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.75
+    }
+  ],
+  "otherDetail": "Interest income and other non-operating income of $274M, less automotive interest expense of $162M, plus $233M of equity income from joint ventures (folded into the chart's other line, for a total of $345M).",
+  "footerNote": "The direct-cost block combines automotive and other cost of sales ($40,739M) with GM Financial's interest, operating and other expenses ($3,651M). Automotive revenue is shown net of $3M of eliminations. Net income in the chart is the total of $3,377M; $3,335M was attributable to stockholders and $42M to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "$3.59B",
+      "statColor": "#3d7bc8",
+      "title": "North America did the heavy lifting",
+      "text": "GM North America's EBIT-adjusted rose 43% to $3,592M \u2014 pricing and truck/SUV mix \u2014 while total EBIT-adjusted rose 22% to $4,106M on revenue up just 3%."
+    },
+    {
+      "stat": "$3.73",
+      "statColor": "#3e8e5a",
+      "title": "This year's EPS is clean",
+      "text": "GAAP EPS of $3.73 nearly matches adjusted EPS of $3.70 \u2014 unlike a year ago ($1.35 GAAP vs $2.80 adjusted), when special items carved more than half the profit away."
+    },
+    {
+      "stat": "$8.9\u20139.5B",
+      "statColor": "#3d7bc8",
+      "title": "Guidance narrowed upward",
+      "text": "GM now expects full-year net income attributable to stockholders of $8.9\u20139.5B and EBIT-adjusted of $14.5\u201315.5B, with adjusted automotive free cash flow of $11.5\u201312.5B."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ticker": "GIS",
+  "company": "General Mills",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-30",
+  "reportedDate": "2026-09-23",
+  "revenueYoY": "-3%",
+  "verdict": "General Mills' sales fell 3% to $4.4B after it sold its U.S. yogurt business, and EPS dropped to $0.74 \u2014 mostly because last year's quarter contained a $1.0B gain on that very sale.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$4.4B",
+      "note": "-3% YoY, organic flat"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.74",
+      "note": "adjusted $0.75"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$634M",
+      "note": "adjusted also $634M"
+    },
+    {
+      "label": "NA Retail sales",
+      "value": "$2.5B",
+      "note": "-7% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America Retail",
+      "amountM": 2451.8,
+      "yoy": "-7%",
+      "note": "Cereals, meals, snacks and baking in U.S. and Canadian stores \u2014 down 7%, including a 4-point drag from selling the U.S. yogurt business."
+    },
+    {
+      "name": "International",
+      "amountM": 794.3,
+      "yoy": "+4%",
+      "note": "Sales outside North America \u2014 the only segment that grew solidly."
+    },
+    {
+      "name": "North America Pet",
+      "amountM": 612.8,
+      "yoy": "0%",
+      "note": "Blue Buffalo pet food \u2014 flat year over year."
+    },
+    {
+      "name": "North America Foodservice",
+      "amountM": 523.1,
+      "yoy": "+1%",
+      "note": "Sales to restaurants, schools and other foodservice customers."
+    },
+    {
+      "name": "Corporate and other",
+      "amountM": 7.5,
+      "note": "Small corporate and other sales that are not part of a segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 4389.5,
+    "costOfRevenueM": 2902.3,
+    "grossProfitM": 1487.2,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 832.2,
+        "note": "Selling, general and administrative costs across the food brands."
+      },
+      {
+        "name": "Restructuring & transformation",
+        "amountM": 21.4,
+        "note": "Restructuring, transformation, impairment and other exit costs."
+      }
+    ],
+    "operatingIncomeM": 633.6,
+    "otherIncomeM": -131.6,
+    "equityM": 18.9,
+    "taxM": 122.8,
+    "netIncomeM": 398.1
+  },
+  "follow100": [
+    {
+      "label": "North America Retail",
+      "amount": 55.86
+    },
+    {
+      "label": "International",
+      "amount": 18.1
+    },
+    {
+      "label": "North America Pet",
+      "amount": 13.96
+    },
+    {
+      "label": "North America Foodservice",
+      "amount": 11.92
+    },
+    {
+      "label": "Corporate and other",
+      "amount": 0.17
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.12
+    },
+    {
+      "label": "SG&A",
+      "amount": -18.96
+    },
+    {
+      "label": "Restructuring & transformation",
+      "amount": -0.49
+    },
+    {
+      "label": "Other income",
+      "amount": -2.57
+    },
+    {
+      "label": "Tax",
+      "amount": -2.8
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.07
+    }
+  ],
+  "otherDetail": "Interest, net of $142.2M, partly offset by $10.6M of benefit-plan non-service income and $18.9M of after-tax earnings from joint ventures (mainly Cereal Partners Worldwide and H\u00e4agen-Dazs Japan) \u2014 the chart's other line is the net -$112.7M.",
+  "footerNote": "Net earnings in the chart total $398.1M including noncontrolling interests; $397.0M was attributable to General Mills. Joint-venture earnings are reported after tax, below the tax line, as General Mills presents them.",
+  "takeaways": [
+    {
+      "stat": "$1.05B",
+      "statColor": "#cf5f4e",
+      "title": "Last year's gain haunts the comparison",
+      "text": "A year ago General Mills booked a $1,054M gain on the U.S. yogurt divestiture. Without it, operating profit fell 11% in constant currency (adjusted) rather than the reported 63% \u2014 still a decline, driven by the lost yogurt sales."
+    },
+    {
+      "stat": "0%",
+      "statColor": "#3d7bc8",
+      "title": "Organic sales were flat",
+      "text": "Organic net sales were flat: volume fell 4 points and price/mix added 1 point (with a divestiture drag on reported volume). North America Retail fell 7% reported; International grew 4%."
+    },
+    {
+      "stat": "$0.75",
+      "statColor": "#3e8e5a",
+      "title": "Guidance held",
+      "text": "Adjusted EPS of $0.75 fell 13% in constant currency, and the company reaffirmed its full-year fiscal 2027 outlook \u2014 betting on new products and brand investment to restart growth."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter included a $1,054.4M gain on the divestiture of the U.S. yogurt business; this quarter has no divestiture gain, which explains most of the reported profit decline.",
+    "Restructuring, transformation, impairment and other exit costs were $21.4M in the quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026063141/a20260923ex99.htm"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "ticker": "GEN",
+  "company": "Gen Digital",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+12%",
+  "verdict": "Gen Digital's revenue rose 12% to $1.37B as its MoneyLion-powered Trust-Based Solutions business grew 26%, and net income more than doubled to $287M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.4B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.48",
+      "note": "vs $0.21 a year ago"
+    },
+    {
+      "label": "Bookings",
+      "value": "$1.3B",
+      "note": "in the quarter"
+    },
+    {
+      "label": "Net income",
+      "value": "$287M",
+      "note": "vs $134M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cyber Safety Platform",
+      "amountM": 858,
+      "yoy": "+5%",
+      "note": "Security and privacy subscriptions \u2014 Norton, Avast, LifeLock and peers \u2014 sold mostly direct to consumers."
+    },
+    {
+      "name": "Trust-Based Solutions",
+      "amountM": 511,
+      "yoy": "+26%",
+      "note": "Identity, reputation and financial-wellness products, built around MoneyLion \u2014 up 26% as the acquired business scales."
+    }
+  ],
+  "flow": {
+    "revenueM": 1369,
+    "costOfRevenueM": 330,
+    "grossProfitM": 1039,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 298,
+        "note": "Winning and keeping subscribers for Norton, LifeLock, Avast and MoneyLion."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 112,
+        "note": "Product development across security, identity and financial-wellness apps."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 66,
+        "note": "The back office."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 56,
+        "note": "Amortization of intangible assets from acquisitions such as Avast and MoneyLion."
+      }
+    ],
+    "operatingIncomeM": 507,
+    "otherIncomeM": -121,
+    "taxM": 99,
+    "netIncomeM": 287
+  },
+  "follow100": [
+    {
+      "label": "Cyber Safety Platform",
+      "amount": 62.67
+    },
+    {
+      "label": "Trust-Based Solutions",
+      "amount": 37.33
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.11
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -21.77
+    },
+    {
+      "label": "R&D",
+      "amount": -8.18
+    },
+    {
+      "label": "G&A",
+      "amount": -4.82
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.09
+    },
+    {
+      "label": "Other income",
+      "amount": -8.84
+    },
+    {
+      "label": "Tax",
+      "amount": -7.23
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.96
+    }
+  ],
+  "otherDetail": "Interest expense of $123M on the debt taken on for acquisitions, partly offset by $2M of other income.",
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "title": "The second engine is firing",
+      "text": "Trust-Based Solutions \u2014 identity and financial wellness around MoneyLion \u2014 grew 26% to $511M, while the mature Cyber Safety Platform grew 5% to $858M. Direct revenue was $1,074M of the total."
+    },
+    {
+      "stat": "$0.48",
+      "statColor": "#3e8e5a",
+      "title": "Profit more than doubled",
+      "text": "Net income rose to $287M from $134M a year ago: operating income grew 16% and the prior-year quarter carried $59M of other expense that did not repeat."
+    },
+    {
+      "stat": "$123M",
+      "statColor": "#cf5f4e",
+      "title": "Interest is the tax on the strategy",
+      "text": "Gen paid $123M of interest in the quarter \u2014 about 24 cents per dollar of operating income \u2014 the carrying cost of buying Avast and MoneyLion with debt."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000081/ex9901q2fy27.htm"
+    }
+  ]
+}

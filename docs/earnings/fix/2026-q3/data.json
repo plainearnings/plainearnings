@@ -1,0 +1,119 @@
+{
+  "ticker": "FIX",
+  "company": "Comfort Systems USA",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+54%",
+  "verdict": "Comfort Systems had a blowout quarter: revenue rose 54% to $3.77B and profit rose 68% to $489M as construction demand \u2014 much of it data centers \u2014 pushed backlog to a record $17.8B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.8B",
+      "note": "+54% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$13.91",
+      "note": "vs $8.25 a year ago"
+    },
+    {
+      "label": "Backlog",
+      "value": "$17.8B",
+      "note": "+90% YoY"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$1.0B",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mechanical",
+      "amountM": 2582.889,
+      "yoy": "+43%",
+      "note": "Heating, ventilation, air-conditioning and plumbing construction and services \u2014 69% of revenue (segment detail from the company's 10-Q)."
+    },
+    {
+      "name": "Electrical",
+      "amountM": 1183.413,
+      "yoy": "+85%",
+      "note": "Electrical construction and services \u2014 up 85% as data-center and industrial projects surged (segment detail from the company's 10-Q)."
+    }
+  ],
+  "flow": {
+    "revenueM": 3766.302,
+    "costOfRevenueM": 2831.82,
+    "grossProfitM": 934.482,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 309.912,
+        "note": "SG&A of $314.2M, partly offset by a $4.3M gain on the sale of assets \u2014 shown net so the chart foots to reported operating income."
+      }
+    ],
+    "operatingIncomeM": 624.57,
+    "otherIncomeM": 10.486,
+    "taxM": 146.012,
+    "netIncomeM": 489.044
+  },
+  "follow100": [
+    {
+      "label": "Mechanical",
+      "amount": 68.58
+    },
+    {
+      "label": "Electrical",
+      "amount": 31.42
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -75.19
+    },
+    {
+      "label": "SG&A",
+      "amount": -8.23
+    },
+    {
+      "label": "Other income",
+      "amount": 0.28
+    },
+    {
+      "label": "Tax",
+      "amount": -3.88
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.98
+    }
+  ],
+  "otherDetail": "Interest income, net of $14.5M, less a $4.3M increase in the fair value of earn-out obligations owed on past acquisitions, plus $0.3M of other income.",
+  "takeaways": [
+    {
+      "stat": "+54%",
+      "statColor": "#3d7bc8",
+      "title": "Growth most builders never see",
+      "text": "Revenue grew 54% year over year \u2014 technology customers alone were 61% of revenue, reflecting the data-center construction boom \u2014 and gross margin held at 24.8% despite the pace."
+    },
+    {
+      "stat": "$17.8B",
+      "statColor": "#3e8e5a",
+      "title": "Backlog nearly doubled",
+      "text": "Backlog reached $17.81B, up from $9.38B a year ago and $14.06B just last quarter \u2014 about $3.8B of new work added in three months, most of it same-store rather than acquired."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#3e8e5a",
+      "title": "Cash followed the profit",
+      "text": "Operating cash flow was $1.01B in the quarter \u2014 more than double net income \u2014 as customers paid advances on the swelling project pipeline."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-ex99d1.htm"
+    }
+  ]
+}

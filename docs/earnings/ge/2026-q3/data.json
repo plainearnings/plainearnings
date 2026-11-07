@@ -1,0 +1,153 @@
+{
+  "ticker": "GE",
+  "company": "GE Aerospace",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+16%",
+  "verdict": "GE Aerospace's orders jumped 49% to $19.0B and revenue rose 16% to $14.1B as LEAP engine deliveries and services boomed; net income was $2.29B after a $124M discontinued-operations loss.",
+  "kpis": [
+    {
+      "label": "Revenue (GAAP)",
+      "value": "$14.1B",
+      "note": "+16% YoY"
+    },
+    {
+      "label": "EPS (continuing, GAAP)",
+      "value": "$2.32",
+      "note": "adjusted $2.25"
+    },
+    {
+      "label": "Orders",
+      "value": "$19.0B",
+      "note": "+49% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.0B",
+      "note": "-14% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial Engines & Services",
+      "amountM": 10342,
+      "yoy": "+21%",
+      "note": "Airliner engines (LEAP, GEnx) and the highly profitable business of servicing them \u2014 services revenue and total engine deliveries both grew strongly, with LEAP up 26%."
+    },
+    {
+      "name": "Defense & Propulsion Technologies",
+      "amountM": 3469,
+      "yoy": "+7%",
+      "note": "Military engines and propulsion, including the F414 that powers the F/A-18 \u2014 it won a support contract worth up to $2.9B."
+    },
+    {
+      "name": "Insurance & other, net",
+      "amountM": 307,
+      "note": "Run-off insurance operations ($833M of revenue) less intersegment eliminations and other items (-$526M) \u2014 a legacy business GE is winding down, not growing."
+    }
+  ],
+  "flow": {
+    "revenueM": 14118,
+    "costOfRevenueM": 9942,
+    "grossProfitM": 4176,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1114,
+        "note": "Selling, general and administrative costs."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 458,
+        "note": "Engine research and development, including the RISE future-engine program."
+      },
+      {
+        "name": "Interest & financial charges",
+        "amountM": 231,
+        "note": "Interest and other financial charges, which GE reports inside its total costs and expenses."
+      }
+    ],
+    "operatingIncomeM": 2373,
+    "otherIncomeM": 432,
+    "equityM": -132,
+    "taxM": 385,
+    "netIncomeM": 2288
+  },
+  "follow100": [
+    {
+      "label": "Commercial Engines & Services",
+      "amount": 73.25
+    },
+    {
+      "label": "Defense & Propulsion Technologies",
+      "amount": 24.57
+    },
+    {
+      "label": "Insurance & other, net",
+      "amount": 2.17
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -70.42
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.89
+    },
+    {
+      "label": "R&D",
+      "amount": -3.24
+    },
+    {
+      "label": "Interest & financial charges",
+      "amount": -1.64
+    },
+    {
+      "label": "Other income",
+      "amount": 2.12
+    },
+    {
+      "label": "Tax",
+      "amount": -2.73
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.21
+    }
+  ],
+  "otherDetail": "Other income of $432M \u2014 including $117M of gains on equity securities and $66M of equity-method earnings \u2014 less a $124M loss from discontinued operations and $8M of profit attributable to noncontrolling interests: a net $300M in the chart.",
+  "footerNote": "GE reports one GAAP costs-and-expenses total of $11,745M. The split here follows its 10-Q lines: SG&A ($1,114M), R&D ($458M) and interest and other financial charges ($231M) are the running-cost block; the remaining $9,942M \u2014 engine production and services costs, insurance costs and benefit-plan items \u2014 is the direct-cost block. GE's own headline 'operating profit' of $2,988M is a non-GAAP measure on adjusted revenue (excluding insurance); the GAAP operating profit implied by this chart is $2,373M, and GAAP pre-tax income from continuing operations was $2,805M.",
+  "takeaways": [
+    {
+      "stat": "+49%",
+      "statColor": "#3d7bc8",
+      "title": "Orders are outrunning production",
+      "text": "Orders hit $19.0B \u2014 including the largest LEAP agreement ever (1,000+ LEAP-1A engines for IndiGo) \u2014 as airlines lock in engines and long-term service deals faster than GE can build them."
+    },
+    {
+      "stat": "+21%",
+      "statColor": "#3e8e5a",
+      "title": "Commercial engines & services boomed",
+      "text": "CES revenue rose 21% to $10.3B with a 27.9% segment profit margin. Services \u2014 maintaining the huge installed fleet \u2014 are the profit engine, and LEAP deliveries grew 26%."
+    },
+    {
+      "stat": "$2.32",
+      "statColor": "#3d7bc8",
+      "title": "Guidance went up again",
+      "text": "Continuing GAAP EPS was $2.32 (+14%) and adjusted EPS $2.25 (+36%); GE raised full-year guidance on year-to-date orders, revenue and deliveries all up over 20%."
+    }
+  ],
+  "oneTimers": [
+    "A $124M loss from discontinued operations (legacy businesses) sits below the tax line and is included in the chart's other-income line, as explained there.",
+    "Other income includes $117M of gains on retained and sold ownership interests and other equity securities.",
+    "The run-off insurance business contributed $833M of revenue and $1,043M of costs and expenses inside the GAAP totals; GE's adjusted figures exclude it."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000063/ge3q2026earningsrelease.htm"
+    }
+  ]
+}
