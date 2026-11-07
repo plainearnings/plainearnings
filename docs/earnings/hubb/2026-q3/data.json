@@ -1,0 +1,118 @@
+{
+  "ticker": "HUBB",
+  "company": "Hubbell",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+25%",
+  "verdict": "Sales jumped 25% as datacenter demand powered Electrical Solutions, but the interest bill on acquisition debt held net profit growth to 3%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.87B",
+      "note": "+25% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.94",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$5.91",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$280M",
+      "note": "+10% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Utility Solutions",
+      "amountM": 1027.8,
+      "yoy": "+9%",
+      "note": "Grid infrastructure and automation gear sold to electric utilities \u2014 connectors, enclosures and controls for the power grid."
+    },
+    {
+      "name": "Electrical Solutions",
+      "amountM": 844.7,
+      "yoy": "+51%",
+      "note": "Wiring devices, lighting controls and datacenter electrical gear; organic sales rose 22% and acquisitions (led by NSI) added 29 points."
+    }
+  ],
+  "flow": {
+    "revenueM": 1872.5,
+    "costOfRevenueM": 1184.3,
+    "grossProfitM": 688.2,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 279.5,
+        "note": "Selling and administrative costs \u2014 sales teams, marketing and the back office."
+      }
+    ],
+    "operatingIncomeM": 408.7,
+    "otherIncomeM": -63.4,
+    "taxM": 80.7,
+    "netIncomeM": 264.6
+  },
+  "otherDetail": "Net interest expense of $58M \u2014 up from $14M a year ago on debt taken on for the NSI and DMC Power acquisitions \u2014 plus $5M of other expense.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 63.25
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": 14.93
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 3.39
+    },
+    {
+      "label": "Tax",
+      "amount": 4.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.12
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "title": "Half the growth was bought",
+      "text": "Organic sales rose 11% \u2014 strong on its own \u2014 while acquisitions, led by NSI in Electrical Solutions, contributed about 13 points of the 25% growth."
+    },
+    {
+      "stat": "51%",
+      "statColor": "#3d7bc8",
+      "title": "Electrical Solutions is the engine",
+      "text": "Electrical Solutions sales leapt 51% to $845M on datacenter demand and the NSI deal; Utility Solutions grew a steadier 9% to $1,028M."
+    },
+    {
+      "stat": "$58M",
+      "statColor": "#b8443c",
+      "title": "Debt ate the profit growth",
+      "text": "Operating profit rose 24%, but net interest expense quadrupled to $58M after acquisition borrowing, so net income rose just 3% to $265M."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results exclude $62M of amortization of acquisition-related intangible assets and $6M of transaction, integration and separation costs \u2014 that is why adjusted EPS ($5.91) sits well above GAAP EPS ($4.94), and adjusted operating profit was $477M vs $409M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000048898&type=8-K&dateb=&owner=include&count=10"
+    },
+    {
+      "label": "Q3 2026 Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000048898&type=10-Q&dateb=&owner=include&count=10"
+    }
+  ]
+}

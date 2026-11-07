@@ -1,0 +1,158 @@
+{
+  "ticker": "IBKR",
+  "company": "Interactive Brokers",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "revenueYoY": "+16%",
+  "verdict": "More customers trading more: accounts rose 35% to 5.58 million and net interest income jumped 19%, so the automated broker raised its dividend by 71%.",
+  "kpis": [
+    {
+      "label": "Net revenues",
+      "value": "$1.91B",
+      "note": "+16% YoY (GAAP)"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$0.69",
+      "note": "vs $0.59 YoY"
+    },
+    {
+      "label": "Customer accounts",
+      "value": "5.58M",
+      "note": "+35% YoY"
+    },
+    {
+      "label": "Quarterly dividend",
+      "value": "$0.15",
+      "note": "raised from $0.0875"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Interest income",
+      "amountM": 2433,
+      "yoy": "+16%",
+      "note": "Interest earned on customer margin loans and segregated cash \u2014 shown gross here; the interest paid out to customers is the chart's direct cost."
+    },
+    {
+      "name": "Commissions",
+      "amountM": 602,
+      "yoy": "+12%",
+      "note": "Commissions on customer trades: daily average revenue trades rose 18% to 4.27 million, led by futures volume (+13%)."
+    },
+    {
+      "name": "Other fees & services",
+      "amountM": 88,
+      "yoy": "+33%",
+      "note": "Risk exposure fees, market data and payments for order flow from exchange programs."
+    },
+    {
+      "name": "Other income",
+      "amountM": 70,
+      "yoy": "-18%",
+      "note": "Investing results and the currency diversification strategy (a $40M gain this quarter)."
+    }
+  ],
+  "flow": {
+    "revenueM": 3193,
+    "costOfRevenueM": 1279,
+    "grossProfitM": 1914,
+    "opex": [
+      {
+        "name": "Execution, clearing & distribution fees",
+        "amountM": 134,
+        "note": "Fees paid to exchanges and clearing houses to execute and clear customer trades \u2014 up 46%, driven by a higher SEC transaction fee rate passed through to customers."
+      },
+      {
+        "name": "Employee compensation & benefits",
+        "amountM": 167,
+        "note": "Pay and benefits for the (deliberately lean) staff of an automated broker."
+      },
+      {
+        "name": "Occupancy, depreciation & amortization",
+        "amountM": 29,
+        "note": "Offices, data centers and equipment wear-and-tear."
+      },
+      {
+        "name": "Communications",
+        "amountM": 11,
+        "note": "Market data lines and communications."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 77,
+        "note": "General and administrative costs of $78M, less a $1M customer bad-debt credit."
+      }
+    ],
+    "operatingIncomeM": 1496,
+    "otherIncomeM": 0,
+    "taxM": 148,
+    "netIncomeM": 1348
+  },
+  "follow100Note": "This chart starts from gross revenue: $2,433M of interest income plus $760M of non-interest income. Paying $1,279M of interest to customers leaves the $1,914M of net revenue Interactive Brokers headlines (up 16%). Of the $1,348M bottom line, $1,034M belongs to non-controlling interests (the founding group's IBG LLC stake); $314M was available to common stockholders.",
+  "takeaways": [
+    {
+      "stat": "78%",
+      "statColor": "#3e8e5a",
+      "title": "A 78% pre-tax margin",
+      "text": "Automation keeps costs tiny relative to revenue: $418M of non-interest expenses against $1,914M of net revenue left $1,496M of pre-tax profit."
+    },
+    {
+      "stat": "$1.15B",
+      "statColor": "#3d7bc8",
+      "title": "Interest is the biggest earner",
+      "text": "Net interest income rose 19% to $1,154M as customer margin loans grew 36% to $105B and customer credit balances reached $186B."
+    },
+    {
+      "stat": "$965B",
+      "statColor": "#3d7bc8",
+      "title": "Customer money keeps arriving",
+      "text": "Customer equity rose 27% to $965B and accounts grew 35% to 5.58 million \u2014 the base that future commissions and interest income are earned on."
+    }
+  ],
+  "oneTimers": [
+    "Company-adjusted figures strip out $42M of net revenue (mainly currency-diversification and investment marks): adjusted net revenue was $1,872M and adjusted EPS $0.67, vs $0.69 GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001381197&type=8-K&dateb=&owner=include&count=10"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 40.06
+    },
+    {
+      "label": "Execution, clearing & distribution",
+      "amount": 4.2
+    },
+    {
+      "label": "Employee compensation",
+      "amount": 5.23
+    },
+    {
+      "label": "Occupancy, depreciation & amortization",
+      "amount": 0.91
+    },
+    {
+      "label": "Communications",
+      "amount": 0.34
+    },
+    {
+      "label": "General & administrative",
+      "amount": 2.41
+    },
+    {
+      "label": "Tax",
+      "amount": 4.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 42.21
+    }
+  ]
+}

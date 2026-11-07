@@ -1,0 +1,153 @@
+{
+  "ticker": "HWM",
+  "company": "Howmet Aerospace",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+29%",
+  "verdict": "Revenue surged 29% \u2014 Howmet's fastest growth on record \u2014 as commercial aerospace and gas turbines pulled hard, and profit grew even faster.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.70B",
+      "note": "+29% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.42",
+      "note": "+49% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.46",
+      "note": "+54% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$562M",
+      "note": "+33% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Engine Products",
+      "amountM": 1451,
+      "yoy": "+33%",
+      "note": "Turbine blades and other engine parts for aircraft and industrial gas turbines \u2014 the biggest and most profitable business, at a 39.1% adjusted EBITDA margin."
+    },
+    {
+      "name": "Fastening Systems",
+      "amountM": 630,
+      "yoy": "+41%",
+      "note": "Precision fasteners for airframes and engines; growth includes the CAM and Brunner acquisitions (organic growth was 10%)."
+    },
+    {
+      "name": "Engineered Structures",
+      "amountM": 295,
+      "yoy": "-4%",
+      "note": "Large structural airframe parts; sales dipped only because of the Savannah forging-facility divestiture \u2014 excluding it, sales rose 8%."
+    },
+    {
+      "name": "Forged Wheels",
+      "amountM": 327,
+      "yoy": "+32%",
+      "note": "Forged aluminum wheels for heavy trucks, lifted by recovering commercial transportation volumes and aluminum cost pass-through."
+    }
+  ],
+  "flow": {
+    "revenueM": 2703,
+    "costOfRevenueM": 1700,
+    "grossProfitM": 1003,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 120,
+        "note": "Selling, general and administrative spending \u2014 the back office and commercial teams."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 11,
+        "note": "Research and development for new engine and airframe components."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 93,
+        "note": "Wear-and-tear charges on factories and equipment, plus amortization of intangibles."
+      },
+      {
+        "name": "Restructuring & other charges",
+        "amountM": 2,
+        "note": "Restructuring and other charges \u2014 just $2M this quarter."
+      }
+    ],
+    "operatingIncomeM": 777,
+    "otherIncomeM": -56,
+    "taxM": 154,
+    "netIncomeM": 567
+  },
+  "otherDetail": "Net interest expense of $48M plus $8M of other expense, taken out of profit.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 62.89
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": 4.44
+    },
+    {
+      "label": "Research & development",
+      "amount": 0.41
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 3.44
+    },
+    {
+      "label": "Restructuring",
+      "amount": 0.07
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 2.07
+    },
+    {
+      "label": "Tax",
+      "amount": 5.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.98
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "Fastest growth on record",
+      "text": "Revenue rose 29% \u2014 25% of it organic \u2014 led by commercial aerospace (+32%), gas turbines (+45%) and commercial transportation (+28%)."
+    },
+    {
+      "stat": "39.1%",
+      "statColor": "#3e8e5a",
+      "title": "Engine Products prints money",
+      "text": "Engine Products' adjusted EBITDA margin widened to 39.1% as spares demand and gas-turbine volumes surged; group adjusted EBITDA rose 43% to $879M."
+    },
+    {
+      "stat": "$5B",
+      "statColor": "#3d7bc8",
+      "title": "Cash is going back to holders",
+      "text": "Free cash flow of $562M funded $500M of buybacks in the quarter, the board added $5B to the repurchase program, and the dividend rose 17% to $0.14."
+    }
+  ],
+  "oneTimers": [
+    "Special items were small: $9M pre-tax ($7M of CAM/Brunner acquisition costs and $2M of restructuring) plus net discrete tax charges \u2014 adjusted net income was $584M vs $567M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001600810&type=8-K&dateb=&owner=include&count=10"
+    }
+  ]
+}

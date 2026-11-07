@@ -1,0 +1,132 @@
+{
+  "ticker": "HUM",
+  "company": "Humana",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "revenueYoY": "+26%",
+  "verdict": "Membership growth pushed revenue up 26%, but medical costs ate nearly all of it \u2014 operating profit fell to $75M, and only a one-off joint-venture gain kept GAAP profit positive.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$41.2B",
+      "note": "+26% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.33",
+      "note": "vs $1.62 YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "-$0.70",
+      "note": "vs +$3.24 YoY"
+    },
+    {
+      "label": "Benefit ratio",
+      "value": "93.9%",
+      "note": "of premiums paid out as care"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 38701,
+      "yoy": "+26%",
+      "note": "Premiums from 18.0 million medical members \u2014 mostly Medicare Advantage (6.5 million individual members) \u2014 plus Medicare Part D and Medicaid plans."
+    },
+    {
+      "name": "Services",
+      "amountM": 2125,
+      "yoy": "+33%",
+      "note": "Services revenue, mainly CenterWell \u2014 senior primary care, home health and pharmacy services sold beyond Humana's own plans."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 329,
+      "yoy": "-3%",
+      "note": "Interest and dividends earned on the cash and bond portfolio held against future claims."
+    }
+  ],
+  "flow": {
+    "revenueM": 41155,
+    "costOfRevenueM": 36324,
+    "grossProfitM": 4831,
+    "opex": [
+      {
+        "name": "Operating costs",
+        "amountM": 4598,
+        "note": "The cost of running the plans and care businesses \u2014 staff, technology and administration. At 11.2% of revenue, this ratio improved as membership scaled."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 158,
+        "note": "Wear-and-tear charges on buildings, systems and intangibles."
+      }
+    ],
+    "operatingIncomeM": 75,
+    "otherIncomeM": 141,
+    "equityM": -15,
+    "taxM": 40,
+    "netIncomeM": 161
+  },
+  "otherDetail": "Other income of $358M \u2014 dominated by a non-cash gain from restructuring the CenterWell senior primary care joint ventures into a new BlackRock partnership \u2014 less $217M of interest expense. A further $15M of equity-method losses sits between pre-tax income and net income.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 88.26
+    },
+    {
+      "label": "Operating costs",
+      "amount": 11.17
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 0.38
+    },
+    {
+      "label": "Tax",
+      "amount": 0.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.09
+    }
+  ],
+  "follow100Note": "The $100 chart nets the $358M of other income (mostly the joint-venture gain) and $217M of interest expense inside the profit line rather than as a cost row: before that net $141M boost, operations alone kept just $0.18 of every $100. Humana reports two business segments \u2014 Insurance ($39.1B of revenue, a $303M operating loss) and CenterWell ($7.2B, $243M of operating income) \u2014 which overlap, so the revenue lines above are used as the chart's sources because they sum to total revenue. Net income attributable to Humana was $162M, after a $1M loss belonging to non-controlling interests.",
+  "takeaways": [
+    {
+      "stat": "93.9%",
+      "statColor": "#b8443c",
+      "title": "Care costs ate the growth",
+      "text": "Benefits expense rose 30% to $36.3B \u2014 faster than premiums \u2014 as new Medicare members ran higher benefit ratios and favorable prior-period reserve development shrank to $67M from $275M."
+    },
+    {
+      "stat": "18.0M",
+      "statColor": "#3d7bc8",
+      "title": "Membership is booming",
+      "text": "Total medical membership rose 20% to 18.0 million, with total Medicare membership up to 11.2 million \u2014 the growth behind the 26% revenue jump."
+    },
+    {
+      "stat": "$9.50",
+      "statColor": "#3e8e5a",
+      "title": "Guidance still went up",
+      "text": "Despite the adjusted loss, Humana raised full-year adjusted EPS guidance to at least $9.50 (from $9.00) and pointed to near-record 2027 Star Ratings averaging 4.17 stars."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit includes a large non-cash gain from restructuring the CenterWell primary care joint ventures with a BlackRock affiliate (inside the $358M of other income) \u2014 excluding items like it, Humana lost $0.70 per share on an adjusted basis vs GAAP EPS of +$1.33.",
+    "The Insurance segment swung to a $303M operating loss (from a $251M profit), while CenterWell earned $243M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000064/0000049071-26-000064-index.htm"
+    },
+    {
+      "label": "Q3 2026 Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000066/0000049071-26-000066-index.htm"
+    }
+  ]
+}

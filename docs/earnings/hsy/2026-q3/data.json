@@ -1,0 +1,136 @@
+{
+  "ticker": "HSY",
+  "company": "Hershey",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+3%",
+  "verdict": "Higher prices did the work: sales rose just 3% as shoppers bought less, but easing cocoa-era costs and tariff refunds more than doubled Hershey's profit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.28B",
+      "note": "+3.0% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.88",
+      "note": "+112% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.64",
+      "note": "+103% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "46.1%",
+      "note": "+13.5 pts YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America Confectionery",
+      "amountM": 2656.5,
+      "yoy": "+1.6%",
+      "note": "Chocolate and candy in the US and Canada \u2014 about 13 points of price increases offset an 11-point drop in volume."
+    },
+    {
+      "name": "North America Salty Snacks",
+      "amountM": 392.5,
+      "yoy": "+22.3%",
+      "note": "Pretzels, popcorn and salty snacks; the LesserEvil acquisition contributed about 20 points of the growth."
+    },
+    {
+      "name": "International",
+      "amountM": 226.5,
+      "yoy": "-7.5%",
+      "note": "Sales outside North America, which fell as volume dropped."
+    }
+  ],
+  "flow": {
+    "revenueM": 3275.5,
+    "costOfRevenueM": 1764.5,
+    "grossProfitM": 1511.0,
+    "opex": [
+      {
+        "name": "Selling, marketing & administrative",
+        "amountM": 693.0,
+        "note": "Selling, marketing and administrative spending \u2014 advertising and consumer marketing rose 17% in the quarter."
+      },
+      {
+        "name": "Business realignment costs",
+        "amountM": 0.5,
+        "note": "Costs of Hershey's business realignment program \u2014 just $0.5M this quarter."
+      }
+    ],
+    "operatingIncomeM": 817.5,
+    "otherIncomeM": -49.5,
+    "taxM": 187.0,
+    "netIncomeM": 581.0
+  },
+  "otherDetail": "Net interest expense of $48.7M plus $1.0M of other expense, taken out of profit.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 53.87
+    },
+    {
+      "label": "Selling, marketing & administrative",
+      "amount": 21.16
+    },
+    {
+      "label": "Business realignment",
+      "amount": 0.02
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 1.51
+    },
+    {
+      "label": "Tax",
+      "amount": 5.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.73
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+11 pts",
+      "statColor": "#3d7bc8",
+      "title": "Price up, volume down",
+      "text": "Price increases added about 11 points to sales growth while volume and mix subtracted about 10 \u2014 shoppers paid more and bought less, and pricing won."
+    },
+    {
+      "stat": "46.1%",
+      "statColor": "#3e8e5a",
+      "title": "Margins snapped back",
+      "text": "Reported gross margin jumped from 32.6% to 46.1% on price realization, lower net commodity costs, productivity savings, tariff refunds and derivative gains; even the adjusted margin rose to 42.7%."
+    },
+    {
+      "stat": "$950M",
+      "statColor": "#3e8e5a",
+      "title": "The core candy business earned it",
+      "text": "North America Confectionery segment income rose 66% to $950M \u2014 a 35.8% segment margin \u2014 carrying the quarter while International segment results stayed in loss."
+    }
+  ],
+  "oneTimers": [
+    "Reported gross profit includes $113M of unallocated mark-to-market gains on commodity derivatives \u2014 a paper gain that is why reported gross margin (46.1%) sits above the adjusted figure (42.7%).",
+    "Tariff refunds added $0.22 to adjusted EPS in the quarter.",
+    "Unallocated corporate costs include $36M of acquisition and integration spending, mainly for LesserEvil and Sour Strips."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000047111&type=8-K&dateb=&owner=include&count=10"
+    },
+    {
+      "label": "Q3 2026 Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000047111&type=10-Q&dateb=&owner=include&count=10"
+    }
+  ],
+  "follow100Note": "Hershey reports to the nearest thousand in its 10-Q; the chart rounds those figures to the nearest $0.5M (net sales $3,275.5M, net income $580.8M before rounding)."
+}

@@ -1,0 +1,155 @@
+{
+  "ticker": "HST",
+  "company": "Host Hotels & Resorts",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+1.2%",
+  "verdict": "Guests paid more per room \u2014 RevPAR rose 8.8% \u2014 but with last year's big asset-sale gains gone, GAAP net income fell by more than half to $71M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.35B",
+      "note": "+1.2% YoY"
+    },
+    {
+      "label": "Adjusted FFO / share",
+      "value": "$0.39",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "Comparable RevPAR",
+      "value": "$219.50",
+      "note": "+8.8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.10",
+      "note": "vs $0.23 YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rooms",
+      "amountM": 841,
+      "yoy": "+1.8%",
+      "note": "Room rentals across Host's 73 comparable hotels (about 41,000 rooms), helped by World Cup travel and stronger business demand."
+    },
+    {
+      "name": "Food & beverage",
+      "amountM": 367,
+      "yoy": "+0.8%",
+      "note": "Restaurants, bars, banquets and events at the hotels."
+    },
+    {
+      "name": "Other hotel revenue",
+      "amountM": 132,
+      "yoy": "-6.4%",
+      "note": "Parking, resort fees, spa and other on-property spending."
+    },
+    {
+      "name": "Condominium sales",
+      "amountM": 7,
+      "yoy": "new",
+      "note": "Sales of condo units being developed next to the Four Seasons Resort Orlando."
+    }
+  ],
+  "flow": {
+    "revenueM": 1347,
+    "costOfRevenueM": 859,
+    "grossProfitM": 488,
+    "opex": [
+      {
+        "name": "Management fees",
+        "amountM": 56,
+        "note": "Fees paid to the hotel brands (Marriott, Hyatt and others) that run Host's hotels day to day."
+      },
+      {
+        "name": "Other property-level expenses",
+        "amountM": 94,
+        "note": "Property taxes, insurance, utilities and other costs of owning the hotel buildings."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 187,
+        "note": "The wear-and-tear charge on hotel buildings and renovations \u2014 a non-cash cost, and the big reason GAAP profit looks low for a REIT."
+      },
+      {
+        "name": "Corporate & other",
+        "amountM": 30,
+        "note": "Head-office costs: general and administrative spending plus stock-based pay."
+      }
+    ],
+    "operatingIncomeM": 121,
+    "otherIncomeM": -43,
+    "taxM": 7,
+    "netIncomeM": 71
+  },
+  "otherDetail": "Interest expense of $59M, partly offset by $17M of interest income and $5M of equity earnings from affiliates, plus $6M of other losses \u2014 a year ago this line held $122M of gains, mostly from asset sales.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 63.77
+    },
+    {
+      "label": "Management fees",
+      "amount": 4.16
+    },
+    {
+      "label": "Other property-level costs",
+      "amount": 6.98
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 13.88
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 2.23
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 3.19
+    },
+    {
+      "label": "Tax",
+      "amount": 0.52
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.27
+    }
+  ],
+  "follow100Note": "For a hotel REIT, the cash story sits in funds from operations (FFO), which adds back the $187M depreciation charge: NAREIT FFO was $261M ($0.38 per share) and Adjusted FFO was $268M ($0.39 per share) \u2014 both up about 11-12% on a per-share basis. Net income attributable to Host Inc. was $70M after $1M belonging to non-controlling interests. Direct costs here combine rooms, food-and-beverage and other departmental expenses ($853M) with the $6M cost of condos sold.",
+  "takeaways": [
+    {
+      "stat": "+8.8%",
+      "statColor": "#3d7bc8",
+      "title": "Rates carried the hotels",
+      "text": "Comparable RevPAR rose 8.8% to $219.50 \u2014 room rates up 5.7% and occupancy up 2.1 points \u2014 and Total RevPAR rose 7.3% as food and beverage spending grew."
+    },
+    {
+      "stat": "$331M",
+      "statColor": "#3e8e5a",
+      "title": "Hotel-level profit rose 11%",
+      "text": "Comparable hotel EBITDA reached $331M with a 25.2% margin, up 0.9 points, as higher room rates outran wage increases."
+    },
+    {
+      "stat": "-56%",
+      "statColor": "#b8443c",
+      "title": "The profit drop is a missing gain",
+      "text": "Net income fell from $163M to $71M almost entirely because last year included $122M of other gains, mostly asset sales; this year that line was a $6M loss. Operating profit actually rose 20% to $121M."
+    }
+  ],
+  "oneTimers": [
+    "Other gains swung from +$122M a year ago to -$6M \u2014 asset-sale gains that did not repeat are the whole story of the net income decline.",
+    "After quarter-end Host bought two hotels \u2014 1 Hotel Brooklyn Bridge ($202M) and Renaissance Dallas at Plano Legacy West ($172M) \u2014 and raised full-year RevPAR growth guidance to about 6.75%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070750&type=8-K&dateb=&owner=include&count=10"
+    }
+  ]
+}

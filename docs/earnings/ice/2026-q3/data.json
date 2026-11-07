@@ -1,0 +1,176 @@
+{
+  "ticker": "ICE",
+  "company": "Intercontinental Exchange",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+15%",
+  "verdict": "ICE's best third quarter ever: busy markets lifted exchange revenue 22%, and total profit rose 15% to $956M.",
+  "kpis": [
+    {
+      "label": "Net revenues",
+      "value": "$2.77B",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$1.67",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.02",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Operating income",
+      "value": "$1.41B",
+      "note": "+20% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Exchanges",
+      "amountM": 2407,
+      "yoy": "+29%",
+      "note": "Trading in energy, financials, agriculture and equities \u2014 shown gross, before the transaction-based expenses in the chart's direct costs; net exchange revenue was $1,542M, up 22%."
+    },
+    {
+      "name": "Fixed Income & Data Services",
+      "amountM": 674,
+      "yoy": "+9%",
+      "note": "Bond pricing, data and analytics, plus CDS clearing \u2014 mostly recurring subscription revenue."
+    },
+    {
+      "name": "Mortgage Technology",
+      "amountM": 549,
+      "yoy": "+4%",
+      "note": "Software for originating, closing and servicing US mortgages (the Ellie Mae / Black Knight business)."
+    }
+  ],
+  "flow": {
+    "revenueM": 3630,
+    "costOfRevenueM": 865,
+    "grossProfitM": 2765,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 526,
+        "note": "Pay and benefits across exchanges, data and mortgage technology."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 399,
+        "note": "Mostly amortization of intangibles from acquisitions (Black Knight in mortgage technology is the big one)."
+      },
+      {
+        "name": "Technology & communication",
+        "amountM": 245,
+        "note": "Running the trading, data and mortgage platforms."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 74,
+        "note": "Selling, general and administrative costs."
+      },
+      {
+        "name": "Acquisition-related costs",
+        "amountM": 49,
+        "note": "Transaction and integration costs for acquisitions, including the pending MarketAxess deal."
+      },
+      {
+        "name": "Professional services",
+        "amountM": 37,
+        "note": "Outside professional services."
+      },
+      {
+        "name": "Rent & occupancy",
+        "amountM": 25,
+        "note": "Offices and facilities."
+      }
+    ],
+    "operatingIncomeM": 1410,
+    "otherIncomeM": -168,
+    "taxM": 286,
+    "netIncomeM": 956
+  },
+  "otherDetail": "Interest expense of $222M on ICE's $23.3B of debt, partly offset by $43M of interest income and $11M of other income.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 23.83
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": 14.49
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 10.99
+    },
+    {
+      "label": "Technology & communication",
+      "amount": 6.75
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": 2.04
+    },
+    {
+      "label": "Acquisition-related costs",
+      "amount": 1.35
+    },
+    {
+      "label": "Professional services",
+      "amount": 1.02
+    },
+    {
+      "label": "Rent & occupancy",
+      "amount": 0.69
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 4.63
+    },
+    {
+      "label": "Tax",
+      "amount": 7.88
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.33
+    }
+  ],
+  "follow100Note": "ICE headlines net revenue \u2014 the $2,765M left after $865M of transaction-based expenses (SEC Section 31 fees and liquidity payments to traders). This chart starts one step earlier, from $3,630M of gross revenue, so the pass-through costs are visible. Net income attributable to ICE shareholders was $940M, after $16M belonging to non-controlling interests.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Exchanges had a record quarter",
+      "text": "Exchange net revenue rose 22% to $1,542M \u2014 energy up 25%, financials up 37%, ags and metals up 62% \u2014 as customers traded and hedged through moving markets."
+    },
+    {
+      "stat": "$1.37B",
+      "statColor": "#3e8e5a",
+      "title": "Recurring revenue keeps compounding",
+      "text": "Recurring revenues hit a record $1,365M, up 7%, and ICE raised 2026 recurring growth guidance for both exchanges (9%) and fixed income & data (8%)."
+    },
+    {
+      "stat": "2%",
+      "statColor": "#b8443c",
+      "title": "Mortgage is still the soft spot",
+      "text": "Mortgage Technology earned just $13M of GAAP operating income \u2014 a 2% margin \u2014 because of heavy acquisition amortization; on an adjusted basis it earned $219M (40% margin)."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted EPS of $2.02 vs $1.67 GAAP mainly excludes amortization of acquisition-related intangibles and $49M of transaction and integration costs sitting in operating expenses.",
+    "Regulators cleared the MarketAxess acquisition early (HSR waiting period terminated Oct 21); ICE now expects it to close in Q1 2027."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K, Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571949&type=8-K&dateb=&owner=include&count=10"
+    }
+  ]
+}
