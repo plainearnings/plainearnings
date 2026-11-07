@@ -1,0 +1,163 @@
+{
+    "company": "Eli Lilly",
+    "flow": {
+        "costOfRevenueM": 3268,
+        "grossProfitM": 19706,
+        "netIncomeM": 7095,
+        "operatingIncomeM": 8978,
+        "opex": [
+            {
+                "amountM": 3819,
+                "name": "Research & development",
+                "note": "Finding and testing new medicines \u2014 17% of revenue."
+            },
+            {
+                "amountM": 3430,
+                "name": "Marketing, selling & administrative",
+                "note": "Sales teams and launch campaigns for new medicines, up 25%."
+            },
+            {
+                "amountM": 2776,
+                "name": "Acquired IPR&D",
+                "note": "Research bought with acquisitions \u2014 mainly Orna Therapeutics and Ajax Therapeutics, expensed on day one."
+            },
+            {
+                "amountM": 703,
+                "name": "Asset impairment & restructuring",
+                "note": "Charges tied to closing the Kelonia and Centessa acquisitions, including faster vesting of employee stock awards."
+            }
+        ],
+        "otherIncomeM": 269,
+        "revenueM": 22974,
+        "taxM": 2152
+    },
+    "follow100": [
+        {
+            "amount": 43.28,
+            "label": "Mounjaro"
+        },
+        {
+            "amount": 21.45,
+            "label": "Zepbound"
+        },
+        {
+            "amount": 35.27,
+            "label": "All other medicines"
+        },
+        {
+            "amount": -14.23,
+            "label": "Cost of sales"
+        },
+        {
+            "amount": -16.62,
+            "label": "Research & development"
+        },
+        {
+            "amount": -14.93,
+            "label": "Marketing, selling & admin"
+        },
+        {
+            "amount": -12.08,
+            "label": "Acquired IPR&D"
+        },
+        {
+            "amount": -3.06,
+            "label": "Impairment & restructuring"
+        },
+        {
+            "amount": 1.17,
+            "label": "Other income"
+        },
+        {
+            "amount": -9.37,
+            "label": "Tax"
+        },
+        {
+            "amount": 30.88,
+            "label": "Kept as profit"
+        }
+    ],
+    "follow100Note": "Two shots \u2014 Mounjaro and Zepbound \u2014 brought in $64.73 of every $100. After production costs, the biggest single drag was $12.08 of research Lilly bought through acquisitions and expensed immediately. Rows may not add exactly due to rounding.",
+    "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $7,493M (EPS $8.38).",
+    "kpis": [
+        {
+            "label": "Revenue",
+            "note": "+48% YoY",
+            "value": "$23.0B"
+        },
+        {
+            "label": "EPS (GAAP)",
+            "note": "+26% YoY; non-GAAP $8.38",
+            "value": "$7.94"
+        },
+        {
+            "label": "Mounjaro",
+            "note": "+91% YoY",
+            "value": "$9.9B"
+        },
+        {
+            "label": "Acquired IPR&D",
+            "note": "one-off research charges \u2014 see below",
+            "value": "$2.8B"
+        }
+    ],
+    "oneTimers": [
+        "Acquired IPR&D of $2,776M \u2014 research bought via the Orna Therapeutics and Ajax Therapeutics acquisitions, expensed immediately. It cost $3.03 of EPS; a year ago the same line was $154M.",
+        "Asset impairment, restructuring and other special charges of $703M, mostly accelerated vesting of employee stock awards and integration costs from closing the Kelonia and Centessa deals.",
+        "A $250M sales milestone for Jardiance, paid by partner Boehringer Ingelheim, sits inside 'All other medicines' revenue \u2014 a one-off boost to that line."
+    ],
+    "otherDetail": "Net other income of $269M \u2014 interest costs of $274M more than covered by $543M of other income, including gains on equity investments.",
+    "periodEnd": "2026-06-30",
+    "quarterLabel": "Q2 2026",
+    "quarterSlug": "2026-q2",
+    "reportedDate": "2026-08-05",
+    "revenueYoY": "+48%",
+    "segments": [
+        {
+            "amountM": 9943,
+            "name": "Mounjaro",
+            "note": "The diabetes and weight-loss shot (tirzepatide). U.S. sales were $4.8B (+45%); sales outside the U.S. more than doubled after Mounjaro joined China's reimbursement list.",
+            "yoy": "+91%"
+        },
+        {
+            "amountM": 4928,
+            "name": "Zepbound",
+            "note": "The same drug sold for obesity in the U.S., Canada and Japan. U.S. sales rose 44% despite lower cash-pay prices.",
+            "yoy": "+46%"
+        },
+        {
+            "amountM": 8103,
+            "name": "All other medicines",
+            "note": "Everything else \u2014 cancer, immunology and diabetes medicines such as Trulicity and Jardiance, including a $250M Jardiance milestone payment.",
+            "yoy": "+16%"
+        }
+    ],
+    "sources": [
+        {
+            "label": "Official earnings release (SEC EDGAR)",
+            "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000077/q226lillysalesandearningsp.htm"
+        }
+    ],
+    "takeaways": [
+        {
+            "stat": "+91%",
+            "statColor": "#3e8e5a",
+            "text": "Mounjaro revenue rose 91% to $9.9B and Zepbound 46% to $4.9B. Volume did the work: worldwide volume rose 60%, partly offset by realized prices 13% lower.",
+            "title": "Mounjaro nearly doubled"
+        },
+        {
+            "stat": "$3.5B",
+            "statColor": "#cf5f4e",
+            "text": "Lilly booked $2.8B of acquired research charges (Orna, Ajax) plus $703M of deal-related impairment and restructuring. Excluding items like these, non-GAAP profit was $7.5B versus the reported $7.1B.",
+            "title": "Acquisition charges ate a chunk"
+        },
+        {
+            "stat": "23.3%",
+            "statColor": "#5b6b7c",
+            "text": "The effective tax rate rose to 23.3% from 16.5%, mainly because the acquired-research charges are not tax-deductible \u2014 one reason profit grew 25% while operating income grew 31%.",
+            "title": "The tax rate jumped"
+        }
+    ],
+    "ticker": "LLY",
+    "verdict": "Lilly's revenue jumped 48% to $23.0B as Mounjaro sales nearly doubled to $9.9B \u2014 and even after $3.5B of acquisition-related charges, it kept $7.1B as profit."
+}

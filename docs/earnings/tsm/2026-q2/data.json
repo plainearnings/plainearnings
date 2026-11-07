@@ -1,0 +1,176 @@
+{
+    "company": "TSMC",
+    "flow": {
+        "costOfRevenueM": 12974,
+        "grossProfitM": 27226,
+        "netIncomeM": 22360,
+        "operatingIncomeM": 24260,
+        "opex": [
+            {
+                "amountM": 2966,
+                "name": "Operating expenses",
+                "note": "Research, engineering and running the fabs' business side \u2014 TSMC reports this as one line in its earnings release."
+            }
+        ],
+        "otherIncomeM": 3033,
+        "revenueM": 40200,
+        "taxM": 4933
+    },
+    "follow100": [
+        {
+            "amount": 66.0,
+            "label": "High-performance computing"
+        },
+        {
+            "amount": 22.0,
+            "label": "Smartphone"
+        },
+        {
+            "amount": 5.0,
+            "label": "Internet of Things"
+        },
+        {
+            "amount": 4.0,
+            "label": "Automotive"
+        },
+        {
+            "amount": 1.0,
+            "label": "Consumer electronics"
+        },
+        {
+            "amount": 2.0,
+            "label": "Others"
+        },
+        {
+            "amount": -32.27,
+            "label": "Cost of revenue"
+        },
+        {
+            "amount": -7.38,
+            "label": "Operating expenses"
+        },
+        {
+            "amount": 7.54,
+            "label": "Other income"
+        },
+        {
+            "amount": -12.27,
+            "label": "Tax"
+        },
+        {
+            "amount": 55.62,
+            "label": "Kept as profit"
+        }
+    ],
+    "follow100Note": "For every $100 TSMC took in, $55.62 survived as profit \u2014 the fattest margin of any company on this site. Advanced chips (7-nanometer and below) were 77% of wafer revenue. Rows may not add exactly due to rounding.",
+    "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$1,270.4B; net income NT$706.6B). Dollar figures are converted at the quarter's average rate of NT$31.60 per US$1 \u2014 the rate TSMC itself reports; its stated US-dollar revenue was $40.20B. Operating expenses are shown as one line, net of about NT$5.3B of other operating income, because the earnings release does not split them out. The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+    "kpis": [
+        {
+            "label": "Revenue",
+            "note": "+34% YoY in US$",
+            "value": "$40.2B"
+        },
+        {
+            "label": "EPS (per ADR)",
+            "note": "+77% YoY",
+            "value": "$4.31"
+        },
+        {
+            "label": "Gross margin",
+            "note": "vs 58.6% a year ago",
+            "value": "67.7%"
+        },
+        {
+            "label": "Net income",
+            "note": "55.6% margin",
+            "value": "$22.4B"
+        }
+    ],
+    "oneTimers": [
+        "Non-operating income jumped to NT$95.8B from NT$28.8B in Q1, helped by TSMC's sale of an 8.1% stake in Vanguard International Semiconductor in May 2026 \u2014 a one-off that flatters the profit growth rate."
+    ],
+    "otherDetail": "Non-operating items of NT$95.8B (about $3.0B) \u2014 interest, investment gains and other income outside the fabs, including a gain on selling an 8.1% stake in Vanguard International Semiconductor in May.",
+    "periodEnd": "2026-06-30",
+    "quarterLabel": "Q2 2026",
+    "quarterSlug": "2026-q2",
+    "reportedDate": "2026-07-16",
+    "revenueYoY": "+34%",
+    "segments": [
+        {
+            "amountM": 26532,
+            "name": "High-performance computing",
+            "note": "Chips for AI data centers and servers \u2014 now two-thirds of everything TSMC sells.",
+            "yoy": "+20% QoQ"
+        },
+        {
+            "amountM": 8844,
+            "name": "Smartphone",
+            "note": "Chips for phones \u2014 a seasonal dip before the autumn launch season.",
+            "yoy": "\u22124% QoQ"
+        },
+        {
+            "amountM": 2010,
+            "compact": true,
+            "name": "Internet of Things",
+            "note": "Chips for connected devices of every kind.",
+            "shortName": "IoT",
+            "yoy": "+4% QoQ"
+        },
+        {
+            "amountM": 1608,
+            "compact": true,
+            "name": "Automotive",
+            "note": "Chips for cars.",
+            "shortName": "Automotive",
+            "yoy": "+15% QoQ"
+        },
+        {
+            "amountM": 402,
+            "compact": true,
+            "name": "Digital consumer electronics",
+            "note": "Chips for TVs, game consoles and gadgets.",
+            "shortName": "Consumer electronics",
+            "yoy": "+5% QoQ"
+        },
+        {
+            "amountM": 804,
+            "compact": true,
+            "name": "Others",
+            "note": "Everything else, including older-node specialty work.",
+            "shortName": "Others",
+            "yoy": "+5% QoQ"
+        }
+    ],
+    "sources": [
+        {
+            "label": "Official earnings release (SEC EDGAR 6-K)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm"
+        },
+        {
+            "label": "Q2 2026 earnings presentation (SEC EDGAR)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26presentatione.htm"
+        }
+    ],
+    "takeaways": [
+        {
+            "stat": "66%",
+            "statColor": "#3e8e5a",
+            "text": "High-performance computing \u2014 AI accelerators and server chips \u2014 reached 66% of revenue, up 20% in a single quarter. Smartphone chips fell 4% ahead of autumn phone launches.",
+            "title": "AI chips are the business now"
+        },
+        {
+            "stat": "67.7%",
+            "statColor": "#3d7bc8",
+            "text": "Gross margin hit 67.7%, up from 58.6% a year ago, as premium 3nm and 5nm wafers made up 63% of wafer revenue. The new 2nm node shipped its first revenue \u2014 3% of wafers.",
+            "title": "Margins keep climbing"
+        },
+        {
+            "stat": "+77%",
+            "statColor": "#5b6b7c",
+            "text": "Net income rose 77% to NT$706.6B on 36% revenue growth (in NT$) \u2014 operating leverage, plus a jump in non-operating income helped by the Vanguard stake sale.",
+            "title": "Profit rose much faster than sales"
+        }
+    ],
+    "ticker": "TSM",
+    "verdict": "TSMC's revenue rose 34% to $40.2B as AI chips reached two-thirds of sales \u2014 and with a 67.7% gross margin, it kept $22.4B as profit, up 77% in a year."
+}

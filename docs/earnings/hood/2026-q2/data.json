@@ -1,0 +1,170 @@
+{
+    "company": "Robinhood",
+    "flow": {
+        "costOfRevenueM": 62,
+        "grossProfitM": 1246,
+        "netIncomeM": 573,
+        "operatingIncomeM": 574,
+        "opex": [
+            {
+                "amountM": 256,
+                "name": "Technology and development",
+                "note": "Building and running the app and trading platform \u2014 the biggest running cost."
+            },
+            {
+                "amountM": 57,
+                "name": "Operations",
+                "note": "Day-to-day operations and customer support \u2014 nearly double a year ago as new businesses launch."
+            },
+            {
+                "amountM": 56,
+                "name": "Provision for credit losses",
+                "note": "Money set aside for cardholders who may not repay \u2014 doubled as the Gold Card loan book grows."
+            },
+            {
+                "amountM": 104,
+                "name": "Marketing",
+                "note": "Advertising and growth spending to win new funded accounts."
+            },
+            {
+                "amountM": 199,
+                "name": "General & administrative",
+                "note": "Running the company day to day \u2014 up 51% with new ventures and international expansion."
+            }
+        ],
+        "otherIncomeM": 135,
+        "revenueM": 1308,
+        "taxM": 136
+    },
+    "follow100": [
+        {
+            "amount": 59.33,
+            "label": "Transaction-based"
+        },
+        {
+            "amount": 29.74,
+            "label": "Net interest"
+        },
+        {
+            "amount": 10.93,
+            "label": "Other revenues"
+        },
+        {
+            "amount": -4.74,
+            "label": "Cost of revenue"
+        },
+        {
+            "amount": -19.57,
+            "label": "Technology & development"
+        },
+        {
+            "amount": -4.36,
+            "label": "Operations"
+        },
+        {
+            "amount": -4.28,
+            "label": "Credit losses"
+        },
+        {
+            "amount": -7.95,
+            "label": "Marketing"
+        },
+        {
+            "amount": -15.21,
+            "label": "G&A"
+        },
+        {
+            "amount": 10.32,
+            "label": "Other income"
+        },
+        {
+            "amount": -10.4,
+            "label": "Tax"
+        },
+        {
+            "amount": 43.81,
+            "label": "Kept as profit"
+        }
+    ],
+    "follow100Note": "The $10.32 of 'other income' in every $100 is mostly a one-off paper gain on the Ventures fund \u2014 strip it out and the profit kept would be nearer $34 of every $100. Rows may not add exactly due to rounding.",
+    "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Net income of $573M includes $12M attributable to non-controlling interests; $561M (EPS $0.62) is attributable to Robinhood.",
+    "kpis": [
+        {
+            "label": "Revenue growth",
+            "note": "vs a year ago",
+            "value": "+32%"
+        },
+        {
+            "label": "EPS (GAAP)",
+            "note": "up 48% YoY; includes $0.14 RVI gain",
+            "value": "$0.62"
+        },
+        {
+            "label": "Event contracts",
+            "note": "revenue up more than 10x YoY",
+            "value": "$156M"
+        },
+        {
+            "label": "Gold subscribers",
+            "note": "a record, +39% YoY",
+            "value": "4.8M"
+        }
+    ],
+    "oneTimers": [
+        "A $129M gain, primarily from deconsolidating Robinhood Ventures Fund I (RVI), sits in other income \u2014 it added $0.14 to diluted EPS and is not revenue from customers."
+    ],
+    "otherDetail": "Other income of $135M, net \u2014 $129M of it a one-off gain from deconsolidating Robinhood Ventures Fund I (RVI).",
+    "periodEnd": "2026-06-30",
+    "quarterLabel": "Q2 2026",
+    "quarterSlug": "2026-q2",
+    "reportedDate": "2026-07-29",
+    "revenueYoY": "+32%",
+    "segments": [
+        {
+            "amountM": 776,
+            "name": "Transaction-based revenues",
+            "note": "Fees from trading: event contracts $156M (up 10x), options $342M (+29%), equities $129M (+95%), partly offset by crypto $100M (\u221238%).",
+            "yoy": "+44%"
+        },
+        {
+            "amountM": 389,
+            "name": "Net interest revenues",
+            "note": "Interest earned on customer cash, margin loans and securities lending, minus interest paid.",
+            "yoy": "+9%"
+        },
+        {
+            "amountM": 143,
+            "name": "Other revenues",
+            "note": "Robinhood Gold subscriptions (a record 4.8M members) and new services \u2014 the fastest-growing slice.",
+            "yoy": "+54%"
+        }
+    ],
+    "sources": [
+        {
+            "label": "Official earnings release (SEC EDGAR)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000113/q22026robinhoodexhibit991.htm"
+        }
+    ],
+    "takeaways": [
+        {
+            "stat": "10x",
+            "statColor": "#3e8e5a",
+            "text": "Event-contract revenue hit $156M, up more than 10x, with a record 13.6 billion contracts traded. Options revenue rose 29% to $342M and equities 95% to $129M; crypto fell 38% to $100M.",
+            "title": "Event contracts exploded again"
+        },
+        {
+            "stat": "+32%",
+            "statColor": "#3d7bc8",
+            "text": "Revenue rose 32% to $1.31B, net deposits hit a record $22B, and Gold subscribers reached a record 4.8M \u2014 the customer base kept growing even as crypto trading cooled.",
+            "title": "Growth with record deposits"
+        },
+        {
+            "stat": "$129M",
+            "statColor": "#cf5f4e",
+            "text": "Net income rose 48% to $573M, but $129M came from deconsolidating the Robinhood Ventures fund \u2014 a paper gain, not trading revenue. Profit attributable to Robinhood was $561M.",
+            "title": "A one-off gain flatters profit"
+        }
+    ],
+    "ticker": "HOOD",
+    "verdict": "Robinhood's revenue jumped 32% to $1.31B as event contracts grew tenfold \u2014 and a $129M one-off gain on its Ventures fund helped push profit up 48% to $573M."
+}
