@@ -34,20 +34,120 @@
     <h1>Alphabet <span class="thin">(GOOGL)</span></h1>
     <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
     <nav class="q-list">
-      <a class="q-item" href="2026-q3/" data-slug="2026-q3">
+      <a class="q-item active" href="2026-q3/">
         <span class="q-label">Q3 2026</span>
         <span class="q-badge">+25%</span>
         <span class="q-meta">Reported 2026-10-28 · Revenue $127.6B</span>
       </a>
     </nav>
   </aside>
-  <main class="company-main">
-    <div class="company-main-bar">
-      <span id="current-label"></span>
-      <a id="open-standalone" href="2026-q3/" target="_blank" rel="noopener">Open as its own page &#8599;</a>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Alphabet — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-10-28
     </div>
-    <iframe id="report-frame" src="2026-q3/" title="Alphabet earnings report" loading="eager"></iframe>
-  </main>
+  </header>
+
+  <p class="verdict">Google&#x27;s operating profit rose 30% and Cloud more than doubled — but an $8.7B paper loss on its stock holdings turned the bottom line down 24%.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+25%</b></span><span class="chip">EPS (GAAP)<b>$2.12</b></span><span class="chip">Google Cloud<b>+103%</b></span><span class="chip">Cloud op. income<b>$11.1B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Alphabet's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Alphabet took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Google Services</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$75.49</span></div>
+          <div class="hrow"><span class="hlabel">Google Cloud</span><div class="htrack"><div class="hfill" data-w="31.9" style="background:#3D7BC8"></div></div><span class="hval">$24.07</span></div>
+          <div class="hrow"><span class="hlabel">Other Bets</span><div class="htrack"><div class="hfill" data-w="0.4" style="background:#3D7BC8"></div></div><span class="hval">$0.29</span></div>
+          <div class="hrow"><span class="hlabel">Hedging gains</span><div class="htrack"><div class="hfill" data-w="0.2" style="background:#3D7BC8"></div></div><span class="hval">$0.15</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="53.4" style="background:#D96A57"></div></div><span class="hval">−$40.30</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="21.4" style="background:#CF5F4E"></div></div><span class="hval">−$16.18</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="9.1" style="background:#CF5F4E"></div></div><span class="hval">−$6.90</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="6.4" style="background:#CF5F4E"></div></div><span class="hval">−$4.81</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="8.5" style="background:#D96A57"></div></div><span class="hval">−$6.44</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="6.1" style="background:#B8443C"></div></div><span class="hval">−$4.61</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="27.5" style="background:#3E8E5A"></div></div><span class="hval">$20.75</span></div>
+      <p class="hnote">The rows add to $99.99 due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+103%</div>
+            <h3>Cloud more than doubled</h3>
+            <p>Google Cloud grew 103% to $30.7B, and its operating income tripled to $11.1B — a 36% margin. Cloud is now a quarter of Alphabet&#x27;s revenue.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#cf5f4e">-$8.7B</div>
+            <h3>The paper loss that sank the bottom line</h3>
+            <p>An $8.7B mark-to-market loss on equity securities swung other income from +$12.8B to -$8.2B. Operating profit rose 30%, but net income fell 24%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">1B</div>
+            <h3>Gemini hit a billion users</h3>
+            <p>The Gemini app reached one billion users — called the fastest-growing product in Google&#x27;s history — and YouTube Music and Premium passed 150 million subscribers.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Other income swung to a net expense of $8,221M from $12,759M of income a year ago, driven by an $8,664M loss on equity securities (vs a $10,734M gain a year ago) — this $19.4B swing is why net income fell 24% despite operating income rising 30%. Note: the income statement&#x27;s net income of $26,468M is before $298M of preferred stock dividends; net income available to common stockholders was $26,170M, on which the $2.12 EPS is based.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net income of $26,468M is before $298M of preferred stock dividends; EPS is based on $26,170M to common stockholders.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
 </div>
 
 <footer>
@@ -55,59 +155,7 @@
   <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
 </footer>
 
-<script>
-(function () {
-  var frame = document.getElementById('report-frame');
-  var label = document.getElementById('current-label');
-  var openLink = document.getElementById('open-standalone');
-  var items = Array.prototype.slice.call(document.querySelectorAll('.q-item'));
-
-  function fit() {
-    try {
-      var doc = frame.contentDocument;
-      if (doc && doc.documentElement) {
-        frame.style.height = Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0) + 'px';
-      }
-    } catch (e) {}
-  }
-  function polish() {
-    try {
-      var doc = frame.contentDocument;
-      if (!doc) return;
-      var bar = doc.querySelector('.topbar');
-      if (bar) bar.style.display = 'none';
-      var wrap = doc.querySelector('.report-wrap');
-      if (wrap) wrap.style.paddingTop = '8px';
-      if (doc.body && window.ResizeObserver) {
-        new ResizeObserver(fit).observe(doc.body);
-      }
-    } catch (e) {}
-    fit();
-  }
-  frame.addEventListener('load', polish);
-  window.addEventListener('resize', fit);
-
-  function activate(slug, push) {
-    items.forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-slug') === slug); });
-    var item = items.filter(function (a) { return a.getAttribute('data-slug') === slug; })[0];
-    if (!item) return;
-    var qLabel = item.querySelector('.q-label').textContent;
-    label.textContent = qLabel;
-    openLink.setAttribute('href', slug + '/');
-    var src = slug + '/';
-    if (!frame.src.endsWith('/' + src) && !frame.src.endsWith(src)) frame.src = src;
-    if (push) history.replaceState(null, '', '#' + slug);
-    document.title = 'Alphabet ' + qLabel + ' Earnings — Plain Earnings';
-  }
-  items.forEach(function (a) {
-    a.addEventListener('click', function (ev) {
-      ev.preventDefault();
-      activate(a.getAttribute('data-slug'), true);
-    });
-  });
-  var start = (location.hash || '').replace('#', '') || '2026-q3';
-  activate(start, false);
-})();
-</script>
+<script>window.REPORT = {"revenueB":127.577,"nodes":{"seg0":{"name":"Google Services","amt":"$96.3B","value":96.302,"col":0,"color":"#3D7BC8","note":"+11% \u00b7 75.5% of revenue","plain":"Search, YouTube ads, Google Network and subscriptions/platforms/devices \u2014 up 11% YoY. Search & other was $63,350M, YouTube ads $11,207M, Google advertising $82,012M in total.","quarter":"75.5% of all revenue this quarter."},"seg1":{"name":"Google Cloud","amt":"$30.7B","value":30.709,"col":0,"color":"#7A68C4","note":"+103% \u00b7 24.1% of revenue","plain":"Cloud infrastructure and AI services \u2014 more than doubled, up 103% YoY, powered by demand for AI infrastructure and TPUs. The quarter's standout.","quarter":"24.1% of all revenue this quarter."},"seg2":{"name":"Other Bets + Hedging","amt":"$566M","value":0.566,"col":0,"color":"#2E7CC4","note":"0.4% of revenue","plain":"Other Bets ($372M): Moonshot bets such as Waymo \u2014 up 8% YoY, still small and loss-making (operating loss of $2,047M). \u2014 Hedging gains ($194M): Currency-hedging gains added to revenue this quarter, vs a $207M hedging loss a year ago.","quarter":"0.4% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$127.6B","value":127.577,"col":1,"color":"#2F3B4C","note":"+25%","plain":"All the money Alphabet took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$127.6B, +25% vs a year ago."},"gross":{"name":"Gross profit","amt":"$76.2B","value":76.158,"col":2,"color":"#69B578","note":"59.7% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"59.7 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($51.4B)","value":51.419,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$51.4B \u2014 about 40.3 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$40.6B","value":40.576,"col":3,"color":"#4C9A67","note":"31.8% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 31.8% margin."},"opex":{"name":"Operating expenses","amt":"($35.6B)","value":35.582,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$35.6B total, split into Research & development, Sales & marketing, General & administrative on the right."},"otherexp":{"name":"Other expense","amt":"($8.2B)","value":8.221,"col":4,"color":"#B8443C","note":"","plain":"Other expense of $8,221M, driven by an $8,664M loss on equity securities.","quarter":"$8.2B taken out of profit."},"ox0":{"name":"Research & development","amt":"($20.6B)","value":20.64,"col":4,"color":"#CF5F4E","note":"16.2% of revenue","plain":"Building AI models, TPUs and products \u2014 up 36% YoY, the fastest-growing cost line as AI investment accelerates.","quarter":"$20.6B \u2014 16.2% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($8.8B)","value":8.804,"col":4,"color":"#CF5F4E","note":"6.9% of revenue","plain":"Selling Google products and cloud \u2014 up 22% YoY.","quarter":"$8.8B \u2014 6.9% of revenue."},"ox2":{"name":"General & administrative","amt":"($6.1B)","value":6.138,"col":4,"color":"#CF5F4E","note":"4.8% of revenue","plain":"Running the company \u2014 down 17% YoY.","quarter":"$6.1B \u2014 4.8% of revenue."},"net":{"name":"Net profit","amt":"$26.5B","value":26.468,"col":4,"color":"#3E8E5A","note":"20.7% margin","plain":"The bottom line \u2014 what Alphabet actually earned after everything.","quarter":"$26.5B \u2014 about 20.7 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($5.9B)","value":5.887,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$5.9B \u2014 roughly a 18.2% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":96.302,"c":"#94b6e1","amt":"$96.3B"},{"s":"seg1","d":"rev","v":30.709,"c":"#b6acdf","amt":"$30.7B"},{"s":"seg2","d":"rev","v":0.566,"c":"#8cb7df","amt":"$566M"},{"s":"rev","d":"gross","v":76.158,"c":"#BFE0C6","amt":"$76.2B"},{"s":"rev","d":"cost","v":51.419,"c":"#F4C7B9","amt":"$51.4B"},{"s":"gross","d":"op","v":40.576,"c":"#ACD8B8","amt":"$40.6B"},{"s":"gross","d":"opex","v":35.582,"c":"#F2B3A4","amt":"$35.6B"},{"s":"op","d":"net","v":26.468,"c":"#ACD8B8","amt":"$26.5B"},{"s":"op","d":"otherexp","v":8.221,"c":"#dfaba7","amt":"$8.2B"},{"s":"op","d":"tax","v":5.887,"c":"#dfaba7","amt":"$5.9B"},{"s":"opex","d":"ox0","v":20.64,"c":"#F6C0B1","amt":"$20.6B"},{"s":"opex","d":"ox1","v":8.804,"c":"#F6C0B1","amt":"$8.8B"},{"s":"opex","d":"ox2","v":6.138,"c":"#F6C0B1","amt":"$6.1B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>

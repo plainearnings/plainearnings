@@ -34,20 +34,121 @@
     <h1>Amazon <span class="thin">(AMZN)</span></h1>
     <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
     <nav class="q-list">
-      <a class="q-item" href="2026-q3/" data-slug="2026-q3">
+      <a class="q-item active" href="2026-q3/">
         <span class="q-label">Q3 2026</span>
         <span class="q-badge">+12%</span>
         <span class="q-meta">Reported 2026-10-29 · Revenue $201.9B</span>
       </a>
     </nav>
   </aside>
-  <main class="company-main">
-    <div class="company-main-bar">
-      <span id="current-label"></span>
-      <a id="open-standalone" href="2026-q3/" target="_blank" rel="noopener">Open as its own page &#8599;</a>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Amazon — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-10-29
     </div>
-    <iframe id="report-frame" src="2026-q3/" title="Amazon earnings report" loading="eager"></iframe>
-  </main>
+  </header>
+
+  <p class="verdict">Amazon&#x27;s operating profit jumped 61% as AWS accelerated to 39% growth — but net income slipped, because last year&#x27;s quarter included a $9.5B one-off Anthropic gain, and free cash flow went deeply negative on AI data-center spending.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+12%</b></span><span class="chip">EPS (GAAP)<b>$1.89</b></span><span class="chip">AWS growth<b>+39%</b></span><span class="chip">Free cash flow<b>-$42.4B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Amazon's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Amazon took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">North America</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$55.88</span></div>
+          <div class="hrow"><span class="hlabel">International</span><div class="htrack"><div class="hfill" data-w="38.2" style="background:#3D7BC8"></div></div><span class="hval">$21.35</span></div>
+          <div class="hrow"><span class="hlabel">AWS</span><div class="htrack"><div class="hfill" data-w="40.7" style="background:#3D7BC8"></div></div><span class="hval">$22.77</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="83.8" style="background:#D96A57"></div></div><span class="hval">−$46.83</span></div>
+          <div class="hrow"><span class="hlabel">Fulfillment</span><div class="htrack"><div class="hfill" data-w="26.6" style="background:#D96A57"></div></div><span class="hval">−$14.85</span></div>
+          <div class="hrow"><span class="hlabel">Technology &amp; infrastructure</span><div class="htrack"><div class="hfill" data-w="30.9" style="background:#D96A57"></div></div><span class="hval">−$17.24</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="10.3" style="background:#CF5F4E"></div></div><span class="hval">−$5.77</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="2.4" style="background:#CF5F4E"></div></div><span class="hval">−$1.34</span></div>
+          <div class="hrow"><span class="hlabel">Other operating expense</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#D96A57"></div></div><span class="hval">−$0.07</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="1.1" style="background:#D96A57"></div></div><span class="hval">−$0.60</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="5.5" style="background:#B8443C"></div></div><span class="hval">−$3.06</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="18.3" style="background:#3E8E5A"></div></div><span class="hval">$10.24</span></div>
+      <p class="hnote">AWS takes $22.77 of every $100 in, but produces 63% of the operating profit — the retail business runs on far thinner margins.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+39%</div>
+            <h3>AWS is accelerating again</h3>
+            <p>AWS grew 39% to $46.0B — its fastest in years — and produced 63% of Amazon&#x27;s entire operating profit at a 38.7% margin.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#cf5f4e">-$42.4B</div>
+            <h3>Free cash flow went deeply negative</h3>
+            <p>Twelve-month free cash flow swung to -$42.4B from +$14.8B a year ago, as property and equipment purchases jumped $94.8B — the AI data-center buildout, paid in cash.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">+61%</div>
+            <h3>Operating profit jumped — net income didn&#x27;t</h3>
+            <p>Operating income rose 61% to $28.1B, but net income slipped 2%: last year&#x27;s quarter included a $9.5B Anthropic investment gain that didn&#x27;t repeat.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Q3 2025 non-operating income included $9.5B of pre-tax gains from Amazon&#x27;s investments in Anthropic, which did not repeat — so net income fell 2% YoY despite operating income rising 61%. Total non-operating income was -$1,207M this quarter (interest income $1,187M, interest expense -$1,691M, other -$703M). The balance check also subtracts $4M of equity-method investment activity, net of tax.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Amazon reports cost of sales as cost of revenue; operating expenses are shown as the release lists them, including fulfillment and technology &amp; infrastructure.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
 </div>
 
 <footer>
@@ -55,59 +156,7 @@
   <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
 </footer>
 
-<script>
-(function () {
-  var frame = document.getElementById('report-frame');
-  var label = document.getElementById('current-label');
-  var openLink = document.getElementById('open-standalone');
-  var items = Array.prototype.slice.call(document.querySelectorAll('.q-item'));
-
-  function fit() {
-    try {
-      var doc = frame.contentDocument;
-      if (doc && doc.documentElement) {
-        frame.style.height = Math.max(doc.documentElement.scrollHeight, doc.body ? doc.body.scrollHeight : 0) + 'px';
-      }
-    } catch (e) {}
-  }
-  function polish() {
-    try {
-      var doc = frame.contentDocument;
-      if (!doc) return;
-      var bar = doc.querySelector('.topbar');
-      if (bar) bar.style.display = 'none';
-      var wrap = doc.querySelector('.report-wrap');
-      if (wrap) wrap.style.paddingTop = '8px';
-      if (doc.body && window.ResizeObserver) {
-        new ResizeObserver(fit).observe(doc.body);
-      }
-    } catch (e) {}
-    fit();
-  }
-  frame.addEventListener('load', polish);
-  window.addEventListener('resize', fit);
-
-  function activate(slug, push) {
-    items.forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-slug') === slug); });
-    var item = items.filter(function (a) { return a.getAttribute('data-slug') === slug; })[0];
-    if (!item) return;
-    var qLabel = item.querySelector('.q-label').textContent;
-    label.textContent = qLabel;
-    openLink.setAttribute('href', slug + '/');
-    var src = slug + '/';
-    if (!frame.src.endsWith('/' + src) && !frame.src.endsWith(src)) frame.src = src;
-    if (push) history.replaceState(null, '', '#' + slug);
-    document.title = 'Amazon ' + qLabel + ' Earnings — Plain Earnings';
-  }
-  items.forEach(function (a) {
-    a.addEventListener('click', function (ev) {
-      ev.preventDefault();
-      activate(a.getAttribute('data-slug'), true);
-    });
-  });
-  var start = (location.hash || '').replace('#', '') || '2026-q3';
-  activate(start, false);
-})();
-</script>
+<script>window.REPORT = {"revenueB":201.944,"nodes":{"seg0":{"name":"North America","amt":"$112.9B","value":112.852,"col":0,"color":"#3D7BC8","note":"+6% \u00b7 55.9% of revenue","plain":"Amazon's retail business in the US, Canada and Mexico \u2014 up 6% YoY; operating income of $8,723M, up 82% YoY.","quarter":"55.9% of all revenue this quarter."},"seg1":{"name":"International","amt":"$43.1B","value":43.108,"col":0,"color":"#7A68C4","note":"+5% \u00b7 21.3% of revenue","plain":"Retail outside North America \u2014 up 5% YoY; operating income of $1,580M, up 32% YoY.","quarter":"21.3% of all revenue this quarter."},"seg2":{"name":"AWS","amt":"$46.0B","value":45.984,"col":0,"color":"#2E7CC4","note":"+39% \u00b7 22.8% of revenue","plain":"Amazon Web Services cloud computing \u2014 up 39% YoY, accelerating sharply; 23% of total sales but 63% of operating income ($17,773M, up 55% YoY, 38.7% margin).","quarter":"22.8% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$201.9B","value":201.944,"col":1,"color":"#2F3B4C","note":"+12%","plain":"All the money Amazon took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$201.9B, +12% vs a year ago."},"gross":{"name":"Gross profit","amt":"$107.4B","value":107.371,"col":2,"color":"#69B578","note":"53.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"53.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($94.6B)","value":94.573,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$94.6B \u2014 about 46.8 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$28.1B","value":28.076,"col":3,"color":"#4C9A67","note":"13.9% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 13.9% margin."},"opex":{"name":"Operating expenses","amt":"($79.3B)","value":79.295,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$79.3B total, split into Fulfillment, Technology & infrastructure, Sales & marketing, General & administrative, Other operating expense, net on the right."},"otherexp":{"name":"Other expense","amt":"($1.2B)","value":1.211,"col":4,"color":"#B8443C","note":"","plain":"Other expense of $1,207M (interest income $1,187M, interest expense -$1,691M, other -$703M), plus a $4M equity-method investment loss.","quarter":"$1.2B taken out of profit."},"ox0":{"name":"Fulfillment","amt":"($30.0B)","value":29.997,"col":4,"color":"#CF5F4E","note":"14.9% of revenue","plain":"Warehouses, delivery and logistics \u2014 up 8% YoY.","quarter":"$30.0B \u2014 14.9% of revenue."},"ox1":{"name":"Technology & infrastructure","amt":"($34.8B)","value":34.814,"col":4,"color":"#CF5F4E","note":"17.2% of revenue","plain":"Mostly AWS data centers and engineering \u2014 up 20% YoY as AI infrastructure spending surges.","quarter":"$34.8B \u2014 17.2% of revenue."},"ox2":{"name":"Sales & marketing","amt":"($11.6B)","value":11.649,"col":4,"color":"#CF5F4E","note":"5.8% of revenue","plain":"Advertising and selling \u2014 essentially flat YoY.","quarter":"$11.6B \u2014 5.8% of revenue."},"ox3":{"name":"General & administrative","amt":"($2.7B)","value":2.701,"col":4,"color":"#CF5F4E","note":"1.3% of revenue","plain":"Running the company \u2014 down 6% YoY.","quarter":"$2.7B \u2014 1.3% of revenue."},"ox4":{"name":"Other operating expense, net","amt":"($134M)","value":0.134,"col":4,"color":"#CF5F4E","note":"0.1% of revenue","plain":"Miscellaneous operating items \u2014 down from $2,875M a year ago.","quarter":"$134M \u2014 0.1% of revenue.","compact":true,"compactLabel":"Other operating expense, net: $134M (0.1% of revenue)"},"net":{"name":"Net profit","amt":"$20.7B","value":20.685,"col":4,"color":"#3E8E5A","note":"10.2% margin","plain":"The bottom line \u2014 what Amazon actually earned after everything.","quarter":"$20.7B \u2014 about 10.2 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($6.2B)","value":6.18,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$6.2B \u2014 roughly a 23% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3","ox4"]],"links":[{"s":"seg0","d":"rev","v":112.852,"c":"#94b6e1","amt":"$112.9B"},{"s":"seg1","d":"rev","v":43.108,"c":"#b6acdf","amt":"$43.1B"},{"s":"seg2","d":"rev","v":45.984,"c":"#8cb7df","amt":"$46.0B"},{"s":"rev","d":"gross","v":107.371,"c":"#BFE0C6","amt":"$107.4B"},{"s":"rev","d":"cost","v":94.573,"c":"#F4C7B9","amt":"$94.6B"},{"s":"gross","d":"op","v":28.076,"c":"#ACD8B8","amt":"$28.1B"},{"s":"gross","d":"opex","v":79.295,"c":"#F2B3A4","amt":"$79.3B"},{"s":"op","d":"net","v":20.685,"c":"#ACD8B8","amt":"$20.7B"},{"s":"op","d":"otherexp","v":1.211,"c":"#dfaba7","amt":"$1.2B"},{"s":"op","d":"tax","v":6.18,"c":"#dfaba7","amt":"$6.2B"},{"s":"opex","d":"ox0","v":29.997,"c":"#F6C0B1","amt":"$30.0B"},{"s":"opex","d":"ox1","v":34.814,"c":"#F6C0B1","amt":"$34.8B"},{"s":"opex","d":"ox2","v":11.649,"c":"#F6C0B1","amt":"$11.6B"},{"s":"opex","d":"ox3","v":2.701,"c":"#F6C0B1","amt":"$2.7B"},{"s":"opex","d":"ox4","v":0.134,"c":"#F6C0B1","amt":"$134M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>
