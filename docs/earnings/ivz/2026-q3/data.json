@@ -1,0 +1,183 @@
+{
+  "ticker": "IVZ",
+  "company": "Invesco",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+14%",
+  "verdict": "Invesco's revenue rose 14% to $1.87B \u2014 mostly because QQQ's conversion to an ETF structure moved its fees onto Invesco's books \u2014 and operating income jumped 61%, though shareholder profit slipped 2% to $295M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.87B",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.65",
+      "note": "vs $0.66 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.72",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$2.54T",
+      "note": "+19% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Investment management fees",
+      "amountM": 1512,
+      "yoy": "+28%",
+      "note": "Fees for managing funds and ETFs \u2014 up 28%, mostly because QQQ's conversion in late 2025 put its management fees on Invesco's income statement."
+    },
+    {
+      "name": "Service & distribution fees",
+      "amountM": 313,
+      "yoy": "-22%",
+      "note": "Fees for servicing and distributing funds \u2014 down 22% because QQQ's conversion eliminated its pass-through service revenues."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 46,
+      "yoy": "-6%",
+      "f100": "Other revenues",
+      "note": "Real-estate transaction fees and miscellaneous income."
+    },
+    {
+      "name": "Performance fees",
+      "amountM": 2,
+      "yoy": "-69%",
+      "note": "Fees earned only when funds beat their targets \u2014 small this quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 1873,
+    "costOfRevenueM": 644,
+    "grossProfitM": 1229,
+    "opex": [
+      {
+        "name": "Employee compensation",
+        "amountM": 494,
+        "note": "Pay and bonuses for portfolio managers and staff \u2014 an asset manager's biggest cost."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 149,
+        "f100": "G&A",
+        "note": "The back office and professional services."
+      },
+      {
+        "name": "Property, office & technology",
+        "amountM": 106,
+        "f100": "Property & technology",
+        "note": "Offices, data and trading technology."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 36,
+        "note": "Promoting funds and ETFs, including QQQ."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 8,
+        "f100": "Amortization",
+        "note": "Spreading the cost of past acquisitions over time."
+      }
+    ],
+    "operatingIncomeM": 436,
+    "otherIncomeM": 28,
+    "taxM": 108,
+    "netIncomeM": 356
+  },
+  "otherDetail": "Earnings from unconsolidated affiliates of $43M, $30M of income from consolidated investment products and $10M of interest and dividend income, less $20M of interest expense and $34M of other investment losses \u2014 a net gain of about $28M.",
+  "takeaways": [
+    {
+      "stat": "$1.38B",
+      "statColor": "#3d7bc8",
+      "title": "Look at 'net revenues' instead",
+      "text": "About $0.49B of GAAP revenue passes straight through to third parties. Invesco's own yardstick, net revenues, was $1.38B, up 16.5%, and its adjusted operating margin on that was 40.7%."
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#3e8e5a",
+      "title": "Operating leverage showed up",
+      "text": "GAAP operating income jumped 61% to $437M as the QQQ fee change lifted revenue while employee compensation actually fell 5%."
+    },
+    {
+      "stat": "$2.54T",
+      "statColor": "#5b6b7c",
+      "title": "Assets keep growing",
+      "text": "Assets under management reached $2.54 trillion, up 19% year over year, on market gains and inflows."
+    }
+  ],
+  "oneTimers": [
+    "QQQ's conversion to an open-end fund ETF in Q4 2025 reshaped the revenue lines: management fees gained roughly $328M year over year while service and distribution fees lost about $88M of pass-through revenue. It is a presentation change more than new business."
+  ],
+  "footerNote": "Net income of $356M is before $24M attributable to noncontrolling interests and $37M of preferred-share dividends; net income attributable to Invesco common shareholders was $295M, the basis for the $0.65 EPS. This page uses GAAP figures; Invesco headlines 'net revenues' of $1,382M and adjusted operating income of $562M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000370/ivzpressrelease3q2026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Investment management fees",
+      "amount": 80.73
+    },
+    {
+      "label": "Service & distribution fees",
+      "amount": 16.71
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.46
+    },
+    {
+      "label": "Performance fees",
+      "amount": 0.11
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -34.38
+    },
+    {
+      "label": "Employee compensation",
+      "amount": -26.37
+    },
+    {
+      "label": "G&A",
+      "amount": -7.96
+    },
+    {
+      "label": "Property & technology",
+      "amount": -5.66
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.92
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.43
+    },
+    {
+      "label": "Other income",
+      "amount": 1.49
+    },
+    {
+      "label": "Tax",
+      "amount": -5.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.01
+    }
+  ]
+}

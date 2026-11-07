@@ -1,0 +1,183 @@
+{
+  "ticker": "ITW",
+  "company": "Illinois Tool Works",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+4%",
+  "verdict": "Illinois Tool Works grew revenue 4% to $4.24B and posted record operating income of $1.18B \u2014 a 27.8% margin \u2014 even though a tornado knocked out two welding plants for part of the quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.24B",
+      "note": "+4% YoY, +4% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.00",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "Operating margin",
+      "value": "27.8%",
+      "note": "record operating income of $1.18B"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$851M",
+      "note": "100% of net income"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Test & Measurement and Electronics",
+      "amountM": 819,
+      "yoy": "+17%",
+      "note": "Testing instruments and electronics equipment \u2014 the fastest grower, up 17% on capital-spending demand."
+    },
+    {
+      "name": "Automotive OEM",
+      "amountM": 810,
+      "yoy": "-2%",
+      "note": "Fasteners and components sold to car makers. Shown net of $4M of sales between ITW's own segments."
+    },
+    {
+      "name": "Food Equipment",
+      "amountM": 698,
+      "yoy": "+1%",
+      "note": "Commercial ovens, dishwashers and refrigeration for restaurants and institutions \u2014 ITW's highest-profile steady business."
+    },
+    {
+      "name": "Welding",
+      "amountM": 513,
+      "yoy": "+7%",
+      "note": "Welding equipment \u2014 grew 7% despite a tornado damaging two plants in late July; without it, growth would have been about 15%."
+    },
+    {
+      "name": "Polymers & Fluids",
+      "amountM": 477,
+      "yoy": "+8%",
+      "note": "Adhesives, sealants and fluids for industry."
+    },
+    {
+      "name": "Construction Products",
+      "amountM": 472,
+      "yoy": "flat",
+      "note": "Fasteners and tools for building and renovation."
+    },
+    {
+      "name": "Specialty Products",
+      "amountM": 447,
+      "yoy": "-1%",
+      "note": "A collection of niche product lines, from airport equipment to appliance components."
+    }
+  ],
+  "flow": {
+    "revenueM": 4236,
+    "costOfRevenueM": 2326,
+    "grossProfitM": 1910,
+    "opex": [
+      {
+        "name": "Selling, administrative & R&D",
+        "amountM": 717,
+        "f100": "Selling, admin & R&D",
+        "note": "Selling, administration and product development across ITW's seven decentralized segments."
+      },
+      {
+        "name": "Amortization & impairment of intangibles",
+        "amountM": 16,
+        "f100": "Amortization & impairment",
+        "note": "Spreading the cost of past acquisitions over time."
+      }
+    ],
+    "operatingIncomeM": 1177,
+    "otherIncomeM": -46,
+    "taxM": 276,
+    "netIncomeM": 855
+  },
+  "otherDetail": "Interest expense of $83M, partly offset by $37M of other income.",
+  "takeaways": [
+    {
+      "stat": "27.8%",
+      "statColor": "#3d7bc8",
+      "title": "Margins keep expanding",
+      "text": "Operating margin rose 40 basis points to 27.8% \u2014 price increases beat rising raw-material costs, and ITW's enterprise initiatives added about 130 basis points."
+    },
+    {
+      "stat": "~$40M",
+      "statColor": "#b8443c",
+      "title": "A tornado dented the top line",
+      "text": "Late-July tornado damage at two Welding plants cost an estimated $40M of revenue; business-interruption insurance covered most of the lost profit."
+    },
+    {
+      "stat": "$11.50",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised again",
+      "text": "Full-year GAAP EPS guidance was narrowed to $11.45\u2013$11.55 (midpoint $11.50, +10%), and the dividend was raised for the 63rd consecutive year."
+    }
+  ],
+  "oneTimers": [
+    "Tornado damage to two Welding facilities in late July reduced revenue by an estimated $40M; the lost operating income was largely offset by business interruption insurance."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/49826/000004982626000057/a20260930-3q26ex991pressre.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Test & Measurement and Electronics",
+      "amount": 19.33
+    },
+    {
+      "label": "Automotive OEM",
+      "amount": 19.12
+    },
+    {
+      "label": "Food Equipment",
+      "amount": 16.48
+    },
+    {
+      "label": "Welding",
+      "amount": 12.11
+    },
+    {
+      "label": "Polymers & Fluids",
+      "amount": 11.26
+    },
+    {
+      "label": "Construction Products",
+      "amount": 11.14
+    },
+    {
+      "label": "Specialty Products",
+      "amount": 10.55
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.91
+    },
+    {
+      "label": "Selling, admin & R&D",
+      "amount": -16.93
+    },
+    {
+      "label": "Amortization & impairment",
+      "amount": -0.38
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.09
+    },
+    {
+      "label": "Tax",
+      "amount": -6.52
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.18
+    }
+  ]
+}

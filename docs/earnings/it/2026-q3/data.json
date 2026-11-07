@@ -1,0 +1,154 @@
+{
+  "ticker": "IT",
+  "company": "Gartner",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "-1%",
+  "verdict": "Gartner's reported revenue dipped 1% to $1.50B because it sold a side business \u2014 excluding that business, revenue grew 2.4% \u2014 and net income leapt to $214M from $35M, when an impairment weighed on the comparison.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.50B",
+      "note": "-1% reported; +2.4% excluding the divested business"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.35",
+      "note": "+613% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.59",
+      "note": "+30% YoY"
+    },
+    {
+      "label": "Contract value",
+      "value": "$5.3B",
+      "note": "+2.5% YoY, FX-neutral"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Insights",
+      "amountM": 1293,
+      "yoy": "+2%",
+      "note": "The core subscription research business \u2014 tech and business leaders pay for advice and benchmarks. Its contract value, the future revenue pipeline, reached $5.3B."
+    },
+    {
+      "name": "Conferences",
+      "amountM": 86,
+      "yoy": "+15%",
+      "note": "Gartner's big symposiums and conferences for executives."
+    },
+    {
+      "name": "Consulting",
+      "amountM": 126,
+      "yoy": "+2%",
+      "note": "Hands-on consulting engagements built on the research."
+    }
+  ],
+  "flow": {
+    "revenueM": 1505,
+    "costOfRevenueM": 433,
+    "grossProfitM": 1072,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 746,
+        "f100": "SG&A",
+        "note": "The analysts' support teams, sales force and back office \u2014 shown net of a $1M gain on selling a divested operation."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 25,
+        "note": "Spreading the cost of offices and equipment over their lives."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 20,
+        "f100": "Amortization",
+        "note": "Spreading the cost of past acquisitions over time."
+      }
+    ],
+    "operatingIncomeM": 281,
+    "otherIncomeM": -26,
+    "taxM": 41,
+    "netIncomeM": 214
+  },
+  "otherDetail": "Net interest expense of $24M plus $2M of other expenses.",
+  "takeaways": [
+    {
+      "stat": "$5.3B",
+      "statColor": "#3d7bc8",
+      "title": "The subscription engine accelerated",
+      "text": "Contract value \u2014 subscriptions already sold but not yet recognized as revenue \u2014 grew 2.5% year over year and 1.1% just in the quarter, its fastest sequential pace in a while."
+    },
+    {
+      "stat": "$3.35",
+      "statColor": "#3e8e5a",
+      "title": "EPS comparisons are distorted",
+      "text": "EPS rose 613% partly because last year's quarter absorbed a $150M goodwill impairment, and partly because buybacks shrank the diluted share count from 75.0M to 63.9M."
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks are doing heavy lifting",
+      "text": "Gartner repurchased $1.7B of its own stock over the last four quarters ($138M this quarter), and raised its full-year guidance for revenue, profit and free cash flow."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter included a $150M goodwill impairment, which is why profit growth rates look extreme.",
+    "Revenue from the divested 'Other' business fell from $55M a year ago to zero; Gartner's adjusted figures exclude it, and on that basis revenue grew 2.4%."
+  ],
+  "footerNote": "Figures are rounded to $M; Insights revenue absorbs a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000305/it-09302026xex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Insights",
+      "amount": 85.91
+    },
+    {
+      "label": "Conferences",
+      "amount": 5.71
+    },
+    {
+      "label": "Consulting",
+      "amount": 8.37
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.77
+    },
+    {
+      "label": "SG&A",
+      "amount": -49.57
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.66
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.33
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.73
+    },
+    {
+      "label": "Tax",
+      "amount": -2.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.22
+    }
+  ]
+}

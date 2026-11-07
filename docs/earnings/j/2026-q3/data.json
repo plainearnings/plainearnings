@@ -1,0 +1,125 @@
+{
+  "ticker": "J",
+  "company": "Jacobs Solutions",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-26",
+  "reportedDate": "2026-08-04",
+  "revenueYoY": "+34%",
+  "verdict": "Jacobs' gross revenue jumped 34% to $4.08B \u2014 flattered by pass-through project costs and the PA Consulting acquisition \u2014 while its cleaner 'adjusted net revenue' grew 8% and a temporarily high tax rate cut GAAP EPS to $1.16.",
+  "kpis": [
+    {
+      "label": "Gross revenue",
+      "value": "$4.08B",
+      "note": "+34% YoY"
+    },
+    {
+      "label": "Adjusted net revenue",
+      "value": "$2.42B",
+      "note": "+8% YoY \u2014 Jacobs' preferred top line"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.16",
+      "note": "continuing operations, diluted"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.84",
+      "note": "+14% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Infrastructure & Advanced Facilities",
+      "amountM": 3747,
+      "yoy": "+39%",
+      "note": "Engineering and building data centers, semiconductor plants, energy, water and transport projects. Of its $3.75B gross revenue, $1.66B is pass-through costs billed to clients, leaving $2.09B of adjusted net revenue, up 10%."
+    },
+    {
+      "name": "PA Consulting",
+      "amountM": 329,
+      "yoy": "",
+      "note": "The innovation and technology consultancy Jacobs acquired \u2014 its first full quarters inside the group."
+    }
+  ],
+  "flow": {
+    "revenueM": 4076,
+    "costOfRevenueM": 3265,
+    "grossProfitM": 811,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 524,
+        "f100": "SG&A",
+        "note": "Bidding for work, running projects' back office and corporate costs \u2014 including about $21M of charges tied to the PA Consulting transaction and the separation program."
+      }
+    ],
+    "operatingIncomeM": 287,
+    "otherIncomeM": -45,
+    "taxM": 105,
+    "netIncomeM": 137
+  },
+  "otherDetail": "Interest expense of $55M, partly offset by $8M of interest income and $1M of miscellaneous income.",
+  "takeaways": [
+    {
+      "stat": "$28.9B",
+      "statColor": "#3d7bc8",
+      "title": "Record backlog",
+      "text": "Backlog hit a record $28.9B, up 27%, with a trailing book-to-bill of 1.4x \u2014 the AI build-out (data centers, chips, power, water) is filling the order book."
+    },
+    {
+      "stat": "43%",
+      "statColor": "#b8443c",
+      "title": "Tax ate the profit growth",
+      "text": "Operating profit rose 22%, but a temporarily elevated 43% tax rate \u2014 a side effect of the PA Consulting deal structure \u2014 left GAAP net earnings of $137M, down from $181M a year ago."
+    },
+    {
+      "stat": "3rd raise",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised again",
+      "text": "Jacobs raised its FY26 adjusted EPS and net revenue guidance midpoints for the third consecutive quarter, and bought back $142M of stock in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "The quarter's 43% effective tax rate was temporarily elevated by the PA Consulting acquisition transaction \u2014 the main reason GAAP earnings fell despite higher operating profit.",
+    "SG&A includes roughly $14M of restructuring charges for the PA Consulting transaction and $8M for the separation program."
+  ],
+  "footerNote": "Jacobs reports 'gross revenue' including $1.66B of pass-through costs it bills to clients; its preferred measure, adjusted net revenue, was $2.42B. Page figures follow GAAP gross revenue. Jacobs' next quarter (Q4 FY26) had not been reported when this page was built. Amounts rounded to $M; direct costs and PA Consulting revenue absorb $1M rounding differences so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/52988/000162828026052563/jfy2026q3earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Infrastructure & Advanced Facilities",
+      "amount": 91.93
+    },
+    {
+      "label": "PA Consulting",
+      "amount": 8.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.1
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.86
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.1
+    },
+    {
+      "label": "Tax",
+      "amount": -2.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.36
+    }
+  ]
+}
