@@ -1,0 +1,140 @@
+{
+  "ticker": "APLD",
+  "company": "Applied Digital",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-10-07",
+  "revenueYoY": "+322%",
+  "verdict": "Applied Digital's revenue quadrupled to $341.9M as its AI data-center business took off, but heavy interest costs, fair-value losses and stock pay left a $184.1M consolidated net loss.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$341.9M",
+      "note": "+322% YoY, from $80.9M"
+    },
+    {
+      "label": "EPS (GAAP, attributable)",
+      "value": "-$0.82",
+      "note": "Per share loss for common stockholders; continuing operations were -$0.76"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$64.4M",
+      "note": "The company's non-GAAP measure, excluding its ChronoScale subsidiary"
+    },
+    {
+      "label": "Contracted leases",
+      "value": "~$36B",
+      "note": "About 1.41 GW of leased capacity across five campuses, over the initial lease terms"
+    }
+  ],
+  "segments": [
+    {
+      "name": "HPC Hosting",
+      "amountM": 262.638,
+      "yoy": "+899%",
+      "note": "Purpose-built AI data centers ('AI factories') leased to hyperscalers: $65.8M of base rent, $183.5M of tenant fit-out work and $13.3M of tenant recoveries. Segment profit was $33.4M."
+    },
+    {
+      "name": "ChronoScale (cloud services)",
+      "shortName": "ChronoScale",
+      "amountM": 41.482,
+      "yoy": "+148%",
+      "note": "The majority-owned accelerated-compute (GPU cloud) business, consolidated here but excluded from the company's adjusted figures."
+    },
+    {
+      "name": "Data Center Hosting",
+      "amountM": 37.755,
+      "yoy": "-0%",
+      "note": "Energized data-center space for crypto-mining customers in North Dakota, running at full capacity. Segment profit was $13.3M."
+    }
+  ],
+  "flow": {
+    "revenueM": 341.875,
+    "costOfRevenueM": 289.571,
+    "grossProfitM": 52.304,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "shortName": "General & admin",
+        "amountM": 114.683,
+        "note": "Running and building the company, including $59.4M of stock-based pay across the business and deal and diligence costs. Much of it is not allocated to the segments."
+      }
+    ],
+    "operatingIncomeM": -62.379,
+    "otherIncomeM": -119.79,
+    "taxM": 1.886,
+    "netIncomeM": -184.055
+  },
+  "otherDetail": "Interest expense of $77.383M, a $49.511M loss on the change in fair value of derivatives and an $11.352M loss on the change in fair value of an investment, plus $1.311M of other expense, partly offset by $35.821M of interest income \u2014 and a $16.054M loss from discontinued operations \u2014 for net other expense of $119.790M.",
+  "takeaways": [
+    {
+      "stat": "+322%",
+      "statColor": "#3d7bc8",
+      "title": "The AI factory business arrived",
+      "text": "Revenue jumped from $80.9M to $341.9M. HPC Hosting \u2014 data centers built for AI tenants \u2014 produced $262.6M, mostly $183.5M of tenant fit-out work plus the first full quarters of rent. The two reported segments together earned $46.8M of segment profit."
+    },
+    {
+      "stat": "-$62.4M",
+      "statColor": "#cf5f4e",
+      "title": "Head-office costs swamped segment profit",
+      "text": "Consolidated operating result was a $62.4M loss, because $114.7M of general and administrative costs \u2014 including $59.4M of stock-based pay \u2014 sit above the segment lines. Excluding ChronoScale and one-offs, the company's adjusted operating income was $37.8M."
+    },
+    {
+      "stat": "$77.4M",
+      "statColor": "#5b6b7c",
+      "title": "Financing the build-out is expensive",
+      "text": "Interest expense was $77.4M in one quarter, and mark-to-market losses on derivatives and an investment added another $60.9M. After a $16.1M discontinued-operations loss, the consolidated net loss was $184.1M; the loss attributable to common stockholders was $237.1M after preferred dividends and the noncontrolling share."
+    }
+  ],
+  "oneTimers": [
+    "Losses on the change in fair value of derivatives ($49.5M) and of an investment ($11.4M) are non-cash mark-to-market moves, not operating costs.",
+    "A $16.1M loss from discontinued operations is included in other expense in the flow below so the bottom line is the full consolidated net loss; continuing operations lost $168.0M."
+  ],
+  "footerNote": "Applied Digital reports in thousands; figures are shown in $M with decimals so the lines add up exactly. Cost of revenue combines its two reported cost lines (services $245.709M and data-center rental $43.862M). This is a loss quarter: the shortfall is covered by cash on hand and new financing.",
+  "sources": [
+    {
+      "label": "Official earnings release, Form 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apldq127earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "HPC Hosting",
+      "amount": 76.83
+    },
+    {
+      "label": "ChronoScale",
+      "amount": 12.13
+    },
+    {
+      "label": "Data Center Hosting",
+      "amount": 11.04
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -84.7
+    },
+    {
+      "label": "General & admin",
+      "amount": -33.55
+    },
+    {
+      "label": "Other expense",
+      "amount": -35.04
+    },
+    {
+      "label": "Income tax",
+      "amount": -0.55
+    },
+    {
+      "label": "Net loss",
+      "amount": -53.84
+    }
+  ]
+}

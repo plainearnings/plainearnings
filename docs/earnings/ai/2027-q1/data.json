@@ -1,0 +1,155 @@
+{
+  "ticker": "AI",
+  "company": "C3.ai",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-02",
+  "revenueYoY": "-25%",
+  "verdict": "C3.ai's turnaround quarter took revenue down 25% to $52.4M as professional services shrank, but costs fell faster, free cash flow turned positive, and the GAAP loss narrowed to $92.8M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$52.4M",
+      "note": "-25% YoY, from $70.3M \u2014 the company called it 'on plan'"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.60",
+      "note": "vs -$0.86 a year ago; non-GAAP loss per share was -$0.20"
+    },
+    {
+      "label": "Cash & marketable securities",
+      "value": "$651.1M",
+      "note": "Up $76M in the quarter, helped by $72.8M from stock option exercises"
+    },
+    {
+      "label": "Bookings",
+      "value": "+73%",
+      "note": "Growth in new bookings versus the prior quarter, per the company; 22 agreements closed"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 49.169,
+      "yoy": "-18%",
+      "note": "Subscriptions to the C3 AI platform and applications \u2014 94% of revenue. Down from $60.3M a year ago."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 3.206,
+      "yoy": "-68%",
+      "note": "Implementation help, training and paid 'prioritized engineering' \u2014 building requested features sooner. Down from $10.0M a year ago as that work was wound down."
+    }
+  ],
+  "flow": {
+    "revenueM": 52.375,
+    "costOfRevenueM": 35.706,
+    "grossProfitM": 16.669,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 46.549,
+        "note": "Building the platform and AI applications. Down from $64.7M a year ago after restructuring."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 41.611,
+        "note": "The sales organisation, which was restructured this year. Down from $62.5M a year ago."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 26.079,
+        "note": "Running the company \u2014 finance, legal and admin. Up slightly YoY."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 0.698,
+        "note": "Turnaround restructuring charges, mainly vendor consolidation costs."
+      }
+    ],
+    "operatingIncomeM": -98.268,
+    "otherIncomeM": 5.619,
+    "taxM": 0.163,
+    "netIncomeM": -92.812
+  },
+  "otherDetail": "Interest income of $5.957M, less $0.338M of other expense, for net other income of $5.619M.",
+  "takeaways": [
+    {
+      "stat": "-25%",
+      "statColor": "#cf5f4e",
+      "title": "Revenue shrank \u2014 services most of all",
+      "text": "Revenue fell 25% to $52.4M. Subscription revenue fell 18% to $49.2M, and professional services fell 68% to $3.2M as paid feature-acceleration work dried up. Management guided next quarter to $51M\u2013$55M and the full year to $210M\u2013$240M."
+    },
+    {
+      "stat": "32%",
+      "statColor": "#5b6b7c",
+      "title": "Costs fell faster than revenue",
+      "text": "Total costs and running expenses dropped from $195.1M to $150.6M in a year, so the operating loss narrowed from $124.8M to $98.3M. GAAP gross margin was 32% (50% before share-based pay). On the company's non-GAAP basis the operating loss was $36.2M."
+    },
+    {
+      "stat": "+$2.1M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow turned positive",
+      "text": "Operating cash flow and free cash flow were both about +$2.1M, versus a $34.3M free-cash outflow a year ago. With $651.1M of cash and marketable securities, the company has a long runway \u2014 though $59.2M of the quarter's costs were share-based pay, a real cost paid in stock rather than cash."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges were $0.7M this quarter, part of the turnaround plan that reorganised sales, services and products.",
+    "Share-based compensation was $59.2M \u2014 more than the quarter's revenue. Excluding it, employer payroll taxes on it and restructuring, the non-GAAP net loss was $30.7M."
+  ],
+  "footerNote": "C3.ai reports in thousands; figures are shown in $M with decimals so the lines add up exactly. This is a loss quarter: the shortfall is covered by the company's cash on hand.",
+  "sources": [
+    {
+      "label": "Official earnings release, Form 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000126/ai-20260731.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 93.88
+    },
+    {
+      "label": "Professional services",
+      "amount": 6.12
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -68.17
+    },
+    {
+      "label": "Research and development",
+      "amount": -88.88
+    },
+    {
+      "label": "Sales and marketing",
+      "amount": -79.45
+    },
+    {
+      "label": "General and administrative",
+      "amount": -49.79
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.33
+    },
+    {
+      "label": "Other income",
+      "amount": 10.73
+    },
+    {
+      "label": "Income tax",
+      "amount": -0.31
+    },
+    {
+      "label": "Net loss",
+      "amount": -177.21
+    }
+  ]
+}

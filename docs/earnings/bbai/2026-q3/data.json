@@ -1,0 +1,166 @@
+{
+  "ticker": "BBAI",
+  "company": "BigBear.ai",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+31%",
+  "verdict": "BigBear.ai grew revenue 31% to $43.6M, almost all of it from the US government, but a $76.7M goodwill impairment charge drove a $91.9M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$43.6M",
+      "note": "+31% YoY, from $33.1M"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "-$0.19",
+      "note": "vs a $0.01 basic profit per share a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "31%",
+      "note": "Up from 22% a year ago, as revenue grew faster than delivery costs"
+    },
+    {
+      "label": "US government revenue",
+      "value": "$39.2M",
+      "note": "+34% YoY \u2014 90% of all revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. government",
+      "amountM": 39.232,
+      "yoy": "+34%",
+      "note": "AI decision-intelligence software and services for US defense, intelligence and other federal customers \u2014 the core of the business."
+    },
+    {
+      "name": "Non-U.S. government and commercial",
+      "shortName": "Non-US gov & commercial",
+      "amountM": 4.349,
+      "yoy": "+10%",
+      "note": "Foreign governments and commercial companies."
+    }
+  ],
+  "flow": {
+    "revenueM": 43.581,
+    "costOfRevenueM": 29.987,
+    "grossProfitM": 13.594,
+    "opex": [
+      {
+        "name": "Goodwill impairment",
+        "amountM": 76.737,
+        "note": "A one-off write-down of goodwill \u2014 the premium paid for past acquisitions \u2014 after the company concluded that part of it is no longer worth what the books said (non-cash)."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "shortName": "General & admin",
+        "amountM": 31.308,
+        "note": "Running the company \u2014 executives, finance, legal and admin, plus selling costs. Up from $25.3M a year ago."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 5.385,
+        "note": "Building its AI products and platforms. Up from $3.4M a year ago."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 0.064,
+        "note": "Small remaining costs from restructuring plans."
+      },
+      {
+        "name": "Transaction expenses",
+        "amountM": 0.059,
+        "note": "Deal-related transaction costs."
+      }
+    ],
+    "operatingIncomeM": -99.959,
+    "otherIncomeM": 7.538,
+    "taxM": -0.567,
+    "netIncomeM": -91.854
+  },
+  "otherDetail": "Interest income of $3.821M and a $4.228M gain from the change in fair value of derivative liabilities, less $0.307M of interest expense and $0.204M of other expense, for net other income of $7.538M.",
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "Government work drove solid growth",
+      "text": "Revenue rose 31% to $43.6M. US government customers grew 34% to $39.2M \u2014 90% of the total \u2014 while non-US government and commercial work grew 10% to $4.3M. Gross margin improved to 31% from 22%."
+    },
+    {
+      "stat": "$76.7M",
+      "statColor": "#cf5f4e",
+      "title": "An impairment, not operations, caused the loss",
+      "text": "The quarter includes a $76.7M goodwill impairment \u2014 a non-cash write-down of value from past acquisitions. Without it, the operating loss would have been about $23.2M instead of $100.0M. General and admin costs of $31.3M remain high relative to $43.6M of revenue."
+    },
+    {
+      "stat": "-$91.9M",
+      "statColor": "#5b6b7c",
+      "title": "Bottom line, with a small tax benefit",
+      "text": "Interest income and a $4.2M gain on derivative liabilities softened the loss, and taxes were a $0.6M benefit rather than a cost. The net loss was $91.9M, or $0.19 a share, versus a small profit a year ago. Nine-month operating cash outflow was $49.8M."
+    }
+  ],
+  "oneTimers": [
+    "Goodwill impairment of $76.7M in the quarter (the same amount for the nine months) \u2014 a non-cash charge that accounts for most of the net loss.",
+    "A $4.2M gain from the change in fair value of derivatives (warrant and note liabilities) is a mark-to-market move, not cash earned."
+  ],
+  "footerNote": "BigBear.ai reports in thousands; figures are shown in $M with decimals so the lines add up exactly. The company reports a single operating segment, so revenue is split by customer type, as disclosed in its Form 10-Q. This is a loss quarter: the shortfall is covered by cash on hand.",
+  "sources": [
+    {
+      "label": "Form 8-K announcing Q3 2026 results (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1836981/000183698126000080/bbai-20261027.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1836981/000183698126000092/bbai-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. government",
+      "amount": 90.02
+    },
+    {
+      "label": "Non-US gov & commercial",
+      "amount": 9.98
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -68.81
+    },
+    {
+      "label": "Goodwill impairment",
+      "amount": -176.08
+    },
+    {
+      "label": "General & admin",
+      "amount": -71.84
+    },
+    {
+      "label": "Research and development",
+      "amount": -12.36
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.15
+    },
+    {
+      "label": "Transaction expenses",
+      "amount": -0.14
+    },
+    {
+      "label": "Other income",
+      "amount": 17.3
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.3
+    },
+    {
+      "label": "Net loss",
+      "amount": -210.77
+    }
+  ]
+}

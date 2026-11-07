@@ -1,0 +1,144 @@
+{
+  "ticker": "PDD",
+  "company": "PDD Holdings",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-25",
+  "revenueYoY": "+8%",
+  "verdict": "PDD grew revenue 8% to $16.6B and operating profit 8% too, but a $1.1B other loss and higher taxes cut net income 12% to $4.0B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$16.6B",
+      "note": "+8% YoY (RMB112.4B)"
+    },
+    {
+      "label": "EPS (diluted, per ADS)",
+      "value": "$2.72",
+      "note": "RMB18.45 per ADS, vs RMB20.75 a year ago; 1 ADS = 4 ordinary shares"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$4.1B",
+      "note": "+8% YoY; non-GAAP operating profit was $4.3B"
+    },
+    {
+      "label": "Cash & short-term investments",
+      "value": "$67.3B",
+      "note": "RMB456.4B at June 30, plus $14.2B of time deposits and debt securities in other non-current assets"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Online marketing services and others",
+      "shortName": "Online marketing",
+      "amountM": 8494,
+      "yoy": "+3%",
+      "note": "Ads and marketing services merchants buy on Pinduoduo and Temu. Up 3% in RMB (RMB57.6B)."
+    },
+    {
+      "name": "Transaction services",
+      "amountM": 8066,
+      "yoy": "+13%",
+      "note": "Fees PDD earns for completing sales on its platforms, including payment and delivery support. Up 13% in RMB (RMB54.7B) \u2014 the growth engine this quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 16560,
+    "costOfRevenueM": 7077,
+    "grossProfitM": 9483,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 4373,
+        "note": "Promoting Pinduoduo and Temu and winning shoppers and merchants. Up 9% in RMB."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 673,
+        "note": "Engineers and product work. Up 27% in RMB."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 345,
+        "note": "Running the company \u2014 finance, legal and admin. Up 53% in RMB."
+      }
+    ],
+    "operatingIncomeM": 4092,
+    "otherIncomeM": 818,
+    "equityM": -6,
+    "taxM": 898,
+    "netIncomeM": 4006
+  },
+  "otherDetail": "Interest and investment income was $1,990M, less an $82M foreign-exchange loss and a $1,090M other loss, for net other income of $818M; the share of results of equity investees was a further $6M loss.",
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Growth, led by transaction fees",
+      "text": "Revenue rose 8% to $16.6B. Transaction services \u2014 the fees on completed sales \u2014 grew 13% to $8.1B, while online marketing services grew just 3% to $8.5B. Operating profit also rose 8%, to $4.1B, as the company spent more on helping merchants and on trust and safety."
+    },
+    {
+      "stat": "$1.1B",
+      "statColor": "#cf5f4e",
+      "title": "A big other loss hit the bottom line",
+      "text": "Below the operating line, 'other income' swung to a $1,090M loss from a small gain a year ago, overwhelming $1,990M of interest and investment income. With taxes also higher at $898M, net income fell 12% to $4.0B even though the core business earned more."
+    },
+    {
+      "stat": "$67.3B",
+      "statColor": "#3e8e5a",
+      "title": "The cash pile keeps growing",
+      "text": "Operations generated $3.8B of cash in the quarter, and cash plus short-term investments reached $67.3B \u2014 with another $14.2B in time deposits and debt securities on top. Diluted earnings per ADS were $2.72, down from the equivalent of about $3.06 a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Other income swung to a $1,090M loss (from a $119M gain in RMB terms a year ago) \u2014 the release does not break out the cause, and it is the main reason net income fell while operating profit rose.",
+    "On the company's non-GAAP basis, which adds back share-based pay, operating profit was $4.3B and net income $4.2B."
+  ],
+  "footerNote": "PDD reports in RMB; every figure here is the release's own US$ convenience translation at RMB6.7851 = US$1.00, the noon buying rate on June 30, 2026.",
+  "sources": [
+    {
+      "label": "Official earnings release, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926100534/tm2623874d1_ex99-1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Online marketing",
+      "amount": 51.29
+    },
+    {
+      "label": "Transaction services",
+      "amount": 48.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.74
+    },
+    {
+      "label": "Sales and marketing",
+      "amount": -26.41
+    },
+    {
+      "label": "Research and development",
+      "amount": -4.06
+    },
+    {
+      "label": "General and administrative",
+      "amount": -2.08
+    },
+    {
+      "label": "Other income",
+      "amount": 4.9
+    },
+    {
+      "label": "Income tax",
+      "amount": -5.42
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.19
+    }
+  ]
+}

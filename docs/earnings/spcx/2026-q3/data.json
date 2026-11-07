@@ -1,0 +1,158 @@
+{
+  "ticker": "SPCX",
+  "company": "SpaceX",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+161%",
+  "verdict": "SpaceX revenue jumped 161% to $14.6B as its new Super Intelligence business scaled from $0.8B to $7.6B in a year, swinging the company to a $4.4B profit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$14.6B",
+      "note": "+161% YoY, from $5.6B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$0.35",
+      "note": "vs a $0.36 loss per share a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$8.8B",
+      "note": "+306% YoY \u2014 the company's non-GAAP measure, before interest, tax, depreciation and share-based pay"
+    },
+    {
+      "label": "Capital spending",
+      "value": "$19.6B",
+      "note": "Capex \u2014 money spent on buildings, satellites and compute \u2014 was larger than revenue, mostly for SI data centers"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Space",
+      "amountM": 1767,
+      "yoy": "+6%",
+      "note": "Launch services and development \u2014 rockets carrying customer and Starlink payloads to orbit. 35 launches in the quarter, including the first revenue-generating Starship mission."
+    },
+    {
+      "name": "Connectivity",
+      "amountM": 5248,
+      "yoy": "+69%",
+      "note": "Starlink internet service: $3,121M from 13.6M consumer subscribers and $2,127M from enterprise and government customers."
+    },
+    {
+      "name": "Super Intelligence (SI)",
+      "shortName": "Super Intelligence",
+      "amountM": 7560,
+      "yoy": "+830%",
+      "note": "AI compute and software: $7,022M of SI solutions and infrastructure (cloud deals, the Cursor acquisition, Grok) plus $538M of advertising."
+    }
+  ],
+  "flow": {
+    "revenueM": 14575,
+    "costOfRevenueM": 5478,
+    "grossProfitM": 9097,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 4596,
+        "note": "Starship, Starlink and AI model and compute development. Up about 2x YoY."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "shortName": "General & admin",
+        "amountM": 1707,
+        "note": "Running the company \u2014 sales, finance, legal and admin. About 3x a year ago as the SI business scaled."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 3,
+        "note": "Small restructuring charges in the SI segment."
+      }
+    ],
+    "operatingIncomeM": 2791,
+    "otherIncomeM": 1223,
+    "taxM": -390,
+    "netIncomeM": 4404
+  },
+  "otherDetail": "Interest income of $873M and other income of $1,025M, less $675M of interest expense, for net other income of $1,223M.",
+  "takeaways": [
+    {
+      "stat": "+830%",
+      "statColor": "#3d7bc8",
+      "title": "Super Intelligence became the biggest business",
+      "text": "SI revenue leapt from $813M to $7,560M in a year on new cloud services deals, the Cursor acquisition (closed August 14; $608M of revenue since) and Grok adoption. It is now 52% of all revenue. Nameplate compute reached 1.7 GW, and SI capex alone was $16.4B in the quarter."
+    },
+    {
+      "stat": "$2.4B",
+      "statColor": "#3e8e5a",
+      "title": "Starlink is the profit engine",
+      "text": "Connectivity earned $2,367M of operating profit on $5,248M of revenue. Consumer subscribers grew to 13.6M from 7.2M a year ago, though the average consumer paid $69 a month, down from $83 \u2014 cheaper plans and new markets are diluting the price."
+    },
+    {
+      "stat": "$4.4B",
+      "statColor": "#5b6b7c",
+      "title": "A tax benefit topped up the profit",
+      "text": "Net income of $4,404M was bigger than the $4,014M earned before tax, because the quarter carried a $390M tax benefit instead of a tax bill. The Space segment itself was roughly breakeven (a $7M operating loss) as Starship spending continued."
+    }
+  ],
+  "oneTimers": [
+    "The quarter includes a $390M income-tax benefit (a year ago there was a $562M tax expense), which is why net income exceeds pre-tax income.",
+    "SI results include about $1.2B of share-based compensation tied to the Cursor acquisition, which SpaceX paid for with equity valued at $42.5B in GAAP purchase consideration."
+  ],
+  "footerNote": "SpaceX reports three segments \u2014 Space, Connectivity and Super Intelligence (SI). Segment operating figures above are the company's own; the consolidated flow is from the Form 10-Q income statement.",
+  "sources": [
+    {
+      "label": "Official earnings release, Form 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Space",
+      "amount": 12.12
+    },
+    {
+      "label": "Connectivity",
+      "amount": 36.01
+    },
+    {
+      "label": "Super Intelligence",
+      "amount": 51.87
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -37.58
+    },
+    {
+      "label": "Research and development",
+      "amount": -31.53
+    },
+    {
+      "label": "General & admin",
+      "amount": -11.71
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.02
+    },
+    {
+      "label": "Other income",
+      "amount": 8.39
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 2.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.22
+    }
+  ]
+}

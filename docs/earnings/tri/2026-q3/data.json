@@ -1,0 +1,193 @@
+{
+  "ticker": "TRI",
+  "company": "Thomson Reuters",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+10%",
+  "verdict": "Thomson Reuters grew revenue 10% to $1.8B with its 'Big 3' segments each up about 10%, but operating profit fell 22% because a year ago it booked a large one-off gain on selling its Elite stake.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.8B",
+      "note": "+10% YoY; 88% of it is recurring subscription-style revenue"
+    },
+    {
+      "label": "EPS (diluted, IFRS)",
+      "value": "$0.78",
+      "note": "-17% YoY; adjusted EPS was $0.81, up 14%"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$651M",
+      "note": "+10% YoY, a 35.5% margin \u2014 the company's non-IFRS measure"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$408M",
+      "note": "-23% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Legal Professionals",
+      "amountM": 788,
+      "yoy": "+9%",
+      "note": "Westlaw, CoCounsel AI and other tools for law firms and legal departments \u2014 the biggest segment."
+    },
+    {
+      "name": "Corporates",
+      "amountM": 544,
+      "yoy": "+11%",
+      "note": "Tax, legal and risk software and content for large companies."
+    },
+    {
+      "name": "Tax, Audit & Accounting Professionals",
+      "shortName": "Tax & Accounting",
+      "amountM": 276,
+      "yoy": "+11%",
+      "note": "Software and content for tax and accounting firms, including the new CoCounsel Tax, Audit & Accounting."
+    },
+    {
+      "name": "Reuters",
+      "amountM": 232,
+      "yoy": "+12%",
+      "note": "The Reuters news agency \u2014 news sold to media customers and financial professionals."
+    },
+    {
+      "name": "Eliminations and rounding",
+      "shortName": "Eliminations",
+      "amountM": -7,
+      "note": "Small amounts eliminated between segments, and rounding."
+    }
+  ],
+  "flow": {
+    "revenueM": 1833,
+    "costOfRevenueM": 0,
+    "grossProfitM": 1833,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 1181,
+        "note": "The day-to-day cost of running the business \u2014 people, content, technology and offices \u2014 as reported under IFRS."
+      },
+      {
+        "name": "Amortization of software",
+        "amountM": 202,
+        "note": "Spreading the cost of software the company built or bought over its useful life (a non-cash charge)."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 24,
+        "note": "Spreading the cost of buildings and equipment over their useful lives (a non-cash charge)."
+      },
+      {
+        "name": "Amortization of other intangibles",
+        "shortName": "Amortization of intangibles",
+        "amountM": 23,
+        "note": "Spreading the cost of acquired customer lists, content and other intangible assets (a non-cash charge)."
+      },
+      {
+        "name": "Other operating losses",
+        "amountM": 1,
+        "note": "A small net other operating loss; a year ago this line was a $160M gain, mostly from selling the remaining stake in Elite."
+      }
+    ],
+    "operatingIncomeM": 402,
+    "otherIncomeM": 1,
+    "equityM": -5,
+    "taxM": 59,
+    "netIncomeM": 339
+  },
+  "otherDetail": "Net finance costs were $49M ($51M of net interest expense, partly offset by $2M of other finance income), and earnings from discontinued operations added $50M, for net other income of $1M; the share of losses in equity-method investments was a further $5M.",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Broad, subscription-led growth",
+      "text": "Revenue rose 10% to $1,833M, all of it organic (not from deals or currency). Recurring revenue \u2014 88% of the total \u2014 grew 9%, and transaction revenue grew 27%. Legal Professionals, Corporates and Tax & Accounting, the 'Big 3', each grew about 10% and together are 88% of revenue."
+    },
+    {
+      "stat": "-22%",
+      "statColor": "#cf5f4e",
+      "title": "Profit fell on a tough comparison",
+      "text": "Operating profit dropped 22% to $402M, mainly because last year's quarter included a $160M gain on selling the remaining minority stake in Elite, and because software amortization rose. Adjusted EBITDA, which strips those out, rose 10% to $651M."
+    },
+    {
+      "stat": "$339M",
+      "statColor": "#3e8e5a",
+      "title": "Net earnings included a business being sold",
+      "text": "Net earnings were $339M, of which $50M came from discontinued operations \u2014 Global Print, whose 51% stake was sold to KKR funds for about $500M in gross proceeds on October 1, just after quarter end. Continuing operations earned $289M."
+    }
+  ],
+  "oneTimers": [
+    "A year ago, other operating gains of $160M \u2014 mostly the gain on selling the remaining minority interest in the Elite business \u2014 flattered operating profit; this quarter that line was a $1M loss.",
+    "Earnings include $50M from discontinued operations (Global Print). The company also issued about $2.0B of new notes in September and finished a $600M share buyback."
+  ],
+  "footerNote": "Thomson Reuters reports under IFRS and does not split out a cost of revenue or gross profit, so revenue flows straight to its reported operating-expense lines. To keep the flow balanced, the $50M of after-tax earnings from discontinued operations (Global Print) is included in other income; earnings from continuing operations were $289M.",
+  "sources": [
+    {
+      "label": "Official earnings release, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075124/000119312526444408/d65855dex991.htm"
+    },
+    {
+      "label": "Q3 2026 interim report, Form 6-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075124/000119312526447349/tri-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Legal Professionals",
+      "amount": 42.98
+    },
+    {
+      "label": "Corporates",
+      "amount": 29.68
+    },
+    {
+      "label": "Tax & Accounting",
+      "amount": 15.06
+    },
+    {
+      "label": "Reuters",
+      "amount": 12.66
+    },
+    {
+      "label": "Eliminations",
+      "amount": -0.38
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -64.43
+    },
+    {
+      "label": "Amortization of software",
+      "amount": -11.02
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.31
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -1.25
+    },
+    {
+      "label": "Other operating losses",
+      "amount": -0.05
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.22
+    },
+    {
+      "label": "Income tax",
+      "amount": -3.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.49
+    }
+  ]
+}
