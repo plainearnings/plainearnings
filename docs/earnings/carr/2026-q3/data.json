@@ -1,0 +1,162 @@
+{
+  "ticker": "CARR",
+  "company": "Carrier Global",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Carrier sales rose 12% to $6.3B on booming data-center demand, but a $3.1B goodwill write-down in Europe swung it to a $2.6B GAAP loss \u2014 underlying adjusted EPS was $0.87.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "Revenue $6,263M vs $5,579M a year ago; organic sales +15%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$3.16",
+      "note": "diluted continuing operations, vs $0.47 a year ago"
+    },
+    {
+      "label": "EPS (adjusted, non-GAAP)",
+      "value": "$0.87",
+      "note": "vs $0.67 a year ago (+30%)"
+    },
+    {
+      "label": "Backlog",
+      "value": ">$8.5B",
+      "note": "a record, up about 60% YoY; total orders up about 35%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Climate Solutions Americas",
+      "amountM": 3354,
+      "yoy": "+24%",
+      "note": "Heating, cooling and refrigeration in the Americas \u2014 sales up 24% (25% organic) on residential and commercial strength and about $120M of tariff (IEEPA) refund benefits; segment profit up 40% to $745M."
+    },
+    {
+      "name": "Climate Solutions Europe",
+      "amountM": 1335,
+      "yoy": "+3%",
+      "note": "Europe climate sales up 3% \u2014 12% organic growth partly offset by divestitures and currency. Segment profit rose 40% to $168M, but this is the unit that took the goodwill write-down below."
+    },
+    {
+      "name": "Climate Solutions Asia Pacific, Middle East & Africa",
+      "amountM": 848,
+      "yoy": "+2%",
+      "note": "Sales up 2% (3% organic) \u2014 commercial up 10%, partly offset by weaker residential and light commercial. Segment profit $103M."
+    },
+    {
+      "name": "Climate Solutions Transportation",
+      "amountM": 726,
+      "yoy": "-3%",
+      "note": "Refrigeration for trucks, trailers and containers \u2014 sales down 3% as container growth was outweighed by truck and trailer weakness. Segment profit $117M."
+    }
+  ],
+  "flow": {
+    "revenueM": 6263,
+    "costOfRevenueM": 4580,
+    "grossProfitM": 1683,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 758,
+        "note": "Selling and running the company \u2014 down from $803M a year ago."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 154,
+        "note": "Developing new climate and refrigeration products \u2014 about flat."
+      },
+      {
+        "name": "Goodwill impairment & other, net",
+        "amountM": 3044,
+        "note": "A $3,100M non-cash goodwill impairment on Climate Solutions Europe, less $57M of equity-method earnings, plus $1M of other expense \u2014 all of which sit inside GAAP operating profit."
+      }
+    ],
+    "operatingIncomeM": -2273,
+    "otherIncomeM": -90,
+    "taxM": 177,
+    "netIncomeM": -2540
+  },
+  "follow100": [
+    {
+      "label": "Climate Solutions Americas",
+      "amount": 53.55
+    },
+    {
+      "label": "Climate Solutions Europe",
+      "amount": 21.32
+    },
+    {
+      "label": "Climate Solutions APMEA",
+      "amount": 13.54
+    },
+    {
+      "label": "Climate Solutions Transportation",
+      "amount": 11.59
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -73.13
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -12.1
+    },
+    {
+      "label": "Research & development",
+      "amount": -2.46
+    },
+    {
+      "label": "Goodwill impairment & other, net",
+      "amount": -48.6
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -1.44
+    },
+    {
+      "label": "Tax",
+      "amount": -2.83
+    },
+    {
+      "label": "Net loss",
+      "amount": -40.56
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$8.5B",
+      "statColor": "#3d7bc8",
+      "title": "Orders and backlog hit records",
+      "text": "Total orders rose about 35% and data-center orders about 300%, taking backlog above $8.5B, up about 60% YoY. Carrier also signed long-term agreements worth multiple billions with minimum volume commitments, on top of backlog."
+    },
+    {
+      "stat": "$3.1B",
+      "statColor": "#cf5f4e",
+      "title": "A Europe write-down drove the GAAP loss",
+      "text": "A non-cash $3.1B goodwill impairment on Climate Solutions Europe turned a profitable operating quarter into a $2,273M GAAP operating loss. Excluding it and other items, adjusted operating profit was $1,091M, up 33%, at a 17.4% margin."
+    },
+    {
+      "stat": "$0.87",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS grew 30%",
+      "text": "Adjusted EPS was $0.87 vs $0.67 a year ago, helped by about $130M of tariff (IEEPA) refunds in operating profit. Free cash flow was $674M and Carrier returned about $600M to shareholders."
+    }
+  ],
+  "oneTimers": [
+    "Goodwill impairment of $3,100M (non-cash) on the Climate Solutions Europe reporting unit \u2014 the entire reason for the GAAP loss; it is excluded from adjusted results.",
+    "About $130M of operating-profit benefit from IEEPA tariff refunds in the quarter (about $120M of it in Climate Solutions Americas); adjusted EPS includes about a $0.10 benefit from the refunds, net of a $0.02 noncontrolling-interest effect."
+  ],
+  "otherDetail": "Interest expense, net of $93M, partly offset by a $3M non-service pension benefit \u2014 a net $90M cost. The flow uses the total net loss of $2,540M (all from continuing operations); after $53M of profit attributable to noncontrolling interests, the loss attributable to Carrier shareholders was $2,593M (-$3.16 per share).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000035/a99-q32026earningsexhibit.htm"
+    }
+  ],
+  "footerNote": "Tax was still a $177M expense despite the pre-tax loss, because the goodwill impairment is largely non-deductible."
+}
