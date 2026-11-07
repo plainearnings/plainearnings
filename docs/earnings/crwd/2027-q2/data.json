@@ -1,0 +1,141 @@
+{
+  "ticker": "CRWD",
+  "company": "CrowdStrike",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "verdict": "CrowdStrike grew revenue 26% to $1.47B with record new subscription deals, yet GAAP profit was just $5M — heavy spending and stock pay ate the quarter, and interest earned on its cash pile covered a small operating loss.",
+  "revenueYoY": "+26%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+26%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.01",
+      "note": "vs $0.31 non-GAAP"
+    },
+    {
+      "label": "ARR",
+      "value": "$5.84B",
+      "note": "+25% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$377M",
+      "note": "a Q2 record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 1400,
+      "yoy": "+27%",
+      "note": "The Falcon security platform, sold by subscription — 95% of all revenue."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 71,
+      "yoy": "+7%",
+      "note": "Security experts for hire — incident response and setup help."
+    }
+  ],
+  "flow": {
+    "revenueM": 1471,
+    "costOfRevenueM": 374,
+    "grossProfitM": 1097,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 510,
+        "note": "Selling Falcon to enterprises — the biggest running cost."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 444,
+        "note": "Building the Falcon platform and its AI defenses."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 176,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": -33,
+    "otherIncomeM": 37,
+    "taxM": -1,
+    "netIncomeM": 5
+  },
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 95.17
+    },
+    {
+      "label": "Professional services",
+      "amount": 4.83
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.42
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -34.67
+    },
+    {
+      "label": "R&D",
+      "amount": -30.18
+    },
+    {
+      "label": "G&A",
+      "amount": -11.96
+    },
+    {
+      "label": "Other income",
+      "amount": 2.52
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.34
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$333M",
+      "statColor": "#3d7bc8",
+      "title": "Record new business",
+      "text": "Net new ARR — new subscription value signed in the quarter — hit a record $333M, up 51%, taking total ARR to $5.84B. AI-driven attacks are pushing companies to consolidate security onto Falcon."
+    },
+    {
+      "stat": "$5M",
+      "statColor": "#b8443c",
+      "title": "GAAP profit is a rounding error",
+      "text": "GAAP net income was $5M on $1.47B of revenue. Excluding stock-based pay, profit was $323M — the gap is shares handed to employees, a real cost that simply doesn't use cash."
+    },
+    {
+      "stat": "$377M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow tells another story",
+      "text": "Free cash flow was a Q2 record $377M — customers pay subscriptions upfront, so cash arrives long before the revenue is counted."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm"
+    }
+  ],
+  "oneTimers": [
+    "The core business ran at a $33M operating loss; interest earned on the company's $5.0B cash pile more than covered it, leaving the small $5M profit. A $1M tax benefit (the tax line added money back) helped too."
+  ],
+  "otherDetail": "Interest and other items netted +$37M: $44M of interest earned on CrowdStrike's $5.0B cash pile, minus $6M of interest expense and $1M of other costs.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-01",
+  "verdict": "Palo Alto Networks grew revenue 34% to $3.41B as its AI-security subscriptions surged, but one-time CyberArk deal charges flipped a $172M operating profit into a $282M net loss on paper.",
+  "revenueYoY": "+34%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "−$0.35",
+      "note": "vs $1.02 non-GAAP"
+    },
+    {
+      "label": "Next-Gen Security ARR",
+      "value": "$9.10B",
+      "note": "+63% YoY"
+    },
+    {
+      "label": "Adj. free cash flow",
+      "value": "$1.3B",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription & support",
+      "amountM": 2672,
+      "yoy": "+36%",
+      "note": "Security software subscriptions and support contracts — the recurring core, 78% of revenue, boosted by the CyberArk acquisition."
+    },
+    {
+      "name": "Product",
+      "amountM": 738,
+      "yoy": "+29%",
+      "note": "Firewall hardware and appliances shipped to customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 3410,
+    "costOfRevenueM": 1106,
+    "grossProfitM": 2304,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 779,
+        "note": "Building the security platforms — swollen this quarter by the teams that came with CyberArk."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1127,
+        "note": "Selling security platforms to enterprises — the largest running cost."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 226,
+        "note": "Running the company day to day — jumped from $27M a year ago on CyberArk deal and integration costs."
+      }
+    ],
+    "operatingIncomeM": 172,
+    "otherIncomeM": -441,
+    "taxM": 13,
+    "netIncomeM": -282
+  },
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 78.36
+    },
+    {
+      "label": "Product",
+      "amount": 21.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.43
+    },
+    {
+      "label": "R&D",
+      "amount": -22.84
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -33.05
+    },
+    {
+      "label": "G&A",
+      "amount": -6.63
+    },
+    {
+      "label": "Other expense",
+      "amount": -12.93
+    },
+    {
+      "label": "Tax",
+      "amount": -0.38
+    },
+    {
+      "label": "Net loss",
+      "amount": -8.27
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+63%",
+      "statColor": "#3d7bc8",
+      "title": "The platform bet is working",
+      "text": "Next-Generation Security ARR — subscriptions to its newer software platforms — grew 63% to $9.10B, adding nearly $1B in this single quarter."
+    },
+    {
+      "stat": "−$282M",
+      "statColor": "#b8443c",
+      "title": "A paper loss, not a cash loss",
+      "text": "GAAP shows a $282M loss, driven by deal-related charges below the operating line. Operating cash flow was $1.4B in the same quarter — the loss consumed no cash."
+    },
+    {
+      "stat": "$21.2B",
+      "statColor": "#3e8e5a",
+      "title": "Future revenue is locked in",
+      "text": "Remaining performance obligations — contracted revenue not yet delivered — grew 34% to $21.2B, more than 6× this quarter's revenue."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm"
+    }
+  ],
+  "oneTimers": [
+    "The $441M other expense was mostly non-cash: fair-value changes on convertible notes acquired with CyberArk and the hedges against them. It is the entire reason a profitable operating quarter became a net loss.",
+    "G&A jumped to $226M from $27M a year ago on CyberArk acquisition and integration costs, including share-based pay tied to the deal.",
+    "Excluding one-offs and stock pay, Palo Alto earned $853M (non-GAAP) — the business itself was strongly profitable."
+  ],
+  "otherDetail": "Other expense of $441M, net — mostly non-cash fair-value swings on convertible notes that came with the CyberArk acquisition, and related hedges.",
+  "follow100Note": "Rows add up with a small rounding difference. Costs ran to $108.27 per $100 of revenue — the extra is the loss, covered by cash the company already had."
+}

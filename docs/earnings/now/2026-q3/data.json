@@ -1,0 +1,143 @@
+{
+  "ticker": "NOW",
+  "company": "ServiceNow",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "ServiceNow grew revenue 20.5% to $4.1B and customers have pre-committed another $29.7B of future business, but GAAP profit fell to $277M as AI delivery costs surged and interest on new debt kicked in.",
+  "revenueYoY": "+20.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+20.5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.27",
+      "note": "vs $1.00 non-GAAP"
+    },
+    {
+      "label": "Future revenue booked (RPO)",
+      "value": "$29.7B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$822M",
+      "note": "20% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 3988,
+      "yoy": "+21%",
+      "note": "Software subscriptions — companies paying to run their workflows on ServiceNow, increasingly including its AI agents. 97% of all revenue."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 118,
+      "yoy": "+9%",
+      "note": "Implementation help and training — people who set the platform up for customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 4106,
+    "costOfRevenueM": 1211,
+    "grossProfitM": 2895,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 1271,
+        "note": "Selling the platform to big companies — the largest running cost."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 956,
+        "note": "Building the platform and its AI features."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 283,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 385,
+    "otherIncomeM": -15,
+    "taxM": 93,
+    "netIncomeM": 277
+  },
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 97.13
+    },
+    {
+      "label": "Professional services",
+      "amount": 2.87
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.49
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -30.95
+    },
+    {
+      "label": "R&D",
+      "amount": -23.28
+    },
+    {
+      "label": "G&A",
+      "amount": -6.89
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.37
+    },
+    {
+      "label": "Tax",
+      "amount": -2.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.75
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20.5%",
+      "statColor": "#3d7bc8",
+      "title": "Growth held above 20%",
+      "text": "Subscription revenue grew 21% and contracted-but-not-yet-delivered revenue (RPO) reached $29.7B, up 22% — much of the next few years' growth is already pre-sold."
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "#3e8e5a",
+      "title": "AI deals are the new engine",
+      "text": "ServiceNow raised its 2026 target for AI net new contract value to $1.7B, the second raise this year — AI agents are becoming a real product line, not a demo."
+    },
+    {
+      "stat": "$0.27 vs $1.00",
+      "statColor": "#b8443c",
+      "title": "Two very different profits",
+      "text": "GAAP EPS was $0.27; excluding stock pay and one-offs it was $1.00. Stock-based pay is the single biggest gap between the two profit measures."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000092/erq3fy26.htm"
+    }
+  ],
+  "oneTimers": [
+    "Interest expense jumped to $81M from $6M a year ago after ServiceNow issued new debt — a big reason GAAP profit fell even as revenue grew 20.5%.",
+    "Stock-based compensation was $633M in the quarter — the main reason non-GAAP net income ($1,039M) is nearly 4× the GAAP figure ($277M). The cost is real; it is paid in shares instead of cash.",
+    "Subscription delivery costs rose 58% YoY (to $1,054M) as AI features run on expensive computing capacity — GAAP gross margin narrowed from 77% to 71%."
+  ],
+  "otherDetail": "Interest and other items netted to −$15M: $69M of interest earned on cash, minus $81M of interest on debt and $3M of other costs.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}

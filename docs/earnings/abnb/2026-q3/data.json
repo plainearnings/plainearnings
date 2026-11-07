@@ -1,0 +1,137 @@
+{
+  "ticker": "ABNB",
+  "company": "Airbnb",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Airbnb's biggest quarter yet: 155 million nights and seats booked drove revenue up 19% to $4.9B, and a lighter tax bill helped net income jump to $1.9B — 39 cents of every revenue dollar.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.16",
+      "note": "diluted"
+    },
+    {
+      "label": "Nights & seats booked",
+      "value": "155.0M",
+      "note": "+16% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.4B",
+      "note": "29% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Stays & experiences",
+      "amountM": 4869,
+      "yoy": "+19%",
+      "note": "Service fees charged to hosts and guests on every booking — Airbnb owns almost no property, so its revenue is a cut of each stay. One revenue stream."
+    }
+  ],
+  "flow": {
+    "revenueM": 4869,
+    "costOfRevenueM": 651,
+    "grossProfitM": 4218,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 393,
+        "note": "Supporting hosts and guests — customer service, trust & safety and host insurance."
+      },
+      {
+        "name": "Product development",
+        "amountM": 664,
+        "note": "Building the app and new products like experiences and services."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 762,
+        "note": "Marketing to win travelers and hosts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 378,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 2021,
+    "otherIncomeM": 152,
+    "taxM": 283,
+    "netIncomeM": 1890
+  },
+  "follow100": [
+    {
+      "label": "Stays & experiences",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.37
+    },
+    {
+      "label": "Operations & support",
+      "amount": -8.07
+    },
+    {
+      "label": "Product development",
+      "amount": -13.64
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -15.65
+    },
+    {
+      "label": "G&A",
+      "amount": -7.76
+    },
+    {
+      "label": "Other income",
+      "amount": 3.12
+    },
+    {
+      "label": "Tax",
+      "amount": -5.81
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.82
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "155M",
+      "statColor": "#3d7bc8",
+      "title": "Bookings accelerated",
+      "text": "Nights and seats booked grew 16% — faster than last quarter — and gross booking value rose 21% to $27.7B as the average daily rate climbed to $179."
+    },
+    {
+      "stat": "39%",
+      "statColor": "#3e8e5a",
+      "title": "A very profitable model",
+      "text": "Net margin was 39%. Airbnb collects guest money before the stay and owns no hotels, so growth converts unusually cleanly into profit and $1.4B of free cash flow."
+    },
+    {
+      "stat": "$283M",
+      "statColor": "#5b6b7c",
+      "title": "Tax helped the comparison",
+      "text": "Taxes fell to $283M from $418M a year ago, when Airbnb booked a $213M valuation allowance against tax credits — part of why net income grew 38% on 19% revenue growth."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm"
+    }
+  ],
+  "otherDetail": "Interest and other items netted +$152M: $182M of interest earned (Airbnb holds billions in guest payments before stays happen), minus $45M of interest expense and $15M of other income.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}

@@ -1,0 +1,146 @@
+{
+  "ticker": "SPOT",
+  "company": "Spotify",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Spotify grew revenue 16% to €5.0B (about $5.6B) as Premium subscribers hit 306 million, and a record 33% gross margin turned that growth into €672M of operating income.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (IFRS, diluted)",
+      "value": "€2.48",
+      "note": "as reported, in euros"
+    },
+    {
+      "label": "Premium subscribers",
+      "value": "306M",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "€735M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premium",
+      "amountM": 5082.8,
+      "yoy": "+17%",
+      "note": "Subscriptions — 306 million people paying monthly, up 9% YoY, with price rises lifting revenue per user (ARPU) to €4.95."
+    },
+    {
+      "name": "Ad-Supported",
+      "amountM": 546.1,
+      "yoy": "+10%",
+      "note": "The free tier's advertising business — ads sold against free listening, increasingly through automated channels."
+    }
+  ],
+  "flow": {
+    "revenueM": 5628.9,
+    "costOfRevenueM": 3772.3,
+    "grossProfitM": 1856.6,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 472.4,
+        "note": "Building the app, recommendation systems and new formats like video podcasts and audiobooks."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 459.9,
+        "note": "Winning listeners and advertisers — spending rose sharply this quarter on growth campaigns."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 163.1,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 761.2,
+    "otherIncomeM": 37.4,
+    "taxM": 211.8,
+    "netIncomeM": 586.8
+  },
+  "follow100": [
+    {
+      "label": "Premium",
+      "amount": 90.3
+    },
+    {
+      "label": "Ad-Supported",
+      "amount": 9.7
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -67.02
+    },
+    {
+      "label": "R&D",
+      "amount": -8.39
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.17
+    },
+    {
+      "label": "G&A",
+      "amount": -2.9
+    },
+    {
+      "label": "Other income",
+      "amount": 0.66
+    },
+    {
+      "label": "Tax",
+      "amount": -3.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.42
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Subscriptions carry the business",
+      "text": "Premium is 90% of revenue and grew 17% — 306M subscribers, with price rises lifting revenue per user. The free, ad-funded tier is the funnel, not the engine."
+    },
+    {
+      "stat": "33.0%",
+      "statColor": "#3e8e5a",
+      "title": "A record gross margin",
+      "text": "Gross margin hit a Q3 record 33.0% — Premium kept more of each euro as revenue grew faster than the music licensing costs it pays out."
+    },
+    {
+      "stat": "€735M",
+      "statColor": "#5b6b7c",
+      "title": "Cash keeps piling up",
+      "text": "Free cash flow was €735M in the quarter and the cash pile reached €9.9B — even as operating costs rose 26% on marketing and cloud/AI spending."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official Q3 2026 interim report (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026066889/spot-20260930x6xk.htm"
+    },
+    {
+      "label": "Q3 2026 shareholder deck (SEC EDGAR 6-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm"
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses included €22M of 'social charges' — Swedish payroll taxes on share-based pay that swing with Spotify's share price; they came in €13M above forecast."
+  ],
+  "otherDetail": "Finance items netted +$37M — interest earned on Spotify's large cash pile, minus finance costs (€33M as reported).",
+  "footerNote": "Spotify reports in euros under IFRS. Dollar figures are converted at €1 = $1.1328 (USD:Euro 0.8828 at Sep 30, 2026, the rate in Spotify's own release). As reported: revenue €4,969M · gross profit €1,639M · operating income €672M · net income €518M.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}
