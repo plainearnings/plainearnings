@@ -1,0 +1,126 @@
+{
+  "ticker": "BR",
+  "company": "Broadridge Financial Solutions",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "Broadridge's recurring revenue grew 11% as its investor-communications and capital-markets software kept expanding, but a $40M loss on digital assets cut GAAP EPS to $0.83.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "Total revenue was $1.7B, vs $1.6B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.83",
+      "note": "vs $1.40 a year ago; adjusted EPS was $1.56, +3%"
+    },
+    {
+      "label": "Recurring revenue",
+      "value": "$1.1B",
+      "note": "+11% YoY, 9 points of it organic"
+    },
+    {
+      "label": "Closed sales",
+      "value": "$36M",
+      "note": "+10% YoY \u2014 new contracts signed in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Investor Communication Solutions",
+      "amountM": 1153,
+      "yoy": "+2%",
+      "note": "Sending investors their proxy votes, statements and disclosures for banks, brokers and funds. Recurring revenue rose 10% to $568M and distribution revenue (mostly postage pass-through) rose 4% to $518M, but one-off event-driven revenue fell 41% to $67M on fewer mutual-fund proxies."
+    },
+    {
+      "name": "Global Technology & Operations",
+      "amountM": 516,
+      "yoy": "+12%",
+      "note": "Software and processing for capital markets, wealth and investment managers \u2014 all recurring revenue, up 12%, with capital-markets revenue up 17% including the CQG acquisition."
+    }
+  ],
+  "flow": {
+    "revenueM": 1669,
+    "costOfRevenueM": 1240,
+    "grossProfitM": 429,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 255,
+        "note": "Selling and running the company \u2014 up 9% YoY on higher revenue-related and technology costs and recent acquisitions."
+      }
+    ],
+    "operatingIncomeM": 174,
+    "otherIncomeM": -64,
+    "taxM": 15,
+    "netIncomeM": 95
+  },
+  "follow100": [
+    {
+      "label": "Investor Communication Solutions",
+      "amount": 69.08
+    },
+    {
+      "label": "Global Technology & Operations",
+      "amount": 30.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -74.3
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.28
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.83
+    },
+    {
+      "label": "Tax",
+      "amount": -0.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.69
+    }
+  ],
+  "otherDetail": "Costs below operating profit were $64M, net: $27M of net interest expense plus $37M of other non-operating expense, which mainly reflects a $40M loss on digital assets (see one-time items).",
+  "footerNote": "Broadridge reports in one decimal place ($1,668.7M of revenue); figures here are rounded to whole $M and the GTO segment is shown at $516M (release: $515.5M) so the lines tie exactly. Its tax rate was an unusually low 13.6% this quarter because of discrete tax benefits.",
+  "oneTimers": [
+    "A $40M loss on digital assets (mainly mark-to-market on its Canton-related holdings), versus a $46M gain a year ago \u2014 an $86M year-over-year swing in pre-tax profit, reported in Corporate and Other.",
+    "Restructuring and other related costs of $15M \u2014 severance tied in part to AI and productivity initiatives.",
+    "Amortization of acquired intangibles and purchased intellectual property of $39M, plus $2M of acquisition and integration costs.",
+    "Excluding these items, adjusted net earnings were $178M ($1.56 per share, +3%) versus GAAP net earnings of $95M ($0.83)."
+  ],
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "title": "The subscription core is healthy",
+      "text": "Recurring revenue \u2014 the contracted, repeat business \u2014 rose 11% to $1,083M, 9 points of it organic. Closed sales of new contracts rose 10% to $36M, and full-year guidance was reaffirmed."
+    },
+    {
+      "stat": "-41%",
+      "statColor": "#5b6b7c",
+      "title": "One-off proxy work shrank",
+      "text": "Event-driven revenue fell 41% to $67M because there were fewer mutual-fund proxy campaigns \u2014 the lumpy part of the business. That, not the core, is why total revenue grew only 5% and ICS pre-tax earnings fell 18% to $104M."
+    },
+    {
+      "stat": "$0.83",
+      "statColor": "#cf5f4e",
+      "title": "A digital-asset loss cut GAAP EPS",
+      "text": "GAAP EPS fell 41% to $0.83, mostly on the $40M digital-asset loss versus a $46M gain a year ago. Adjusted EPS, which leaves that out, rose 3% to $1.56. Broadridge also bought back $200M of stock and paid $111M of dividends."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1383312/000138331226000030/ex991earningsrelease1q2027.htm"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "ticker": "BRO",
+  "company": "Brown & Brown",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "verdict": "Brown & Brown grew revenue 7% to $1.7B as last year's Accession acquisition added people and premiums, but underlying organic growth was just 1.2% in a soft insurance pricing market.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Total revenue was $1.7B, vs $1.6B a year ago (+7.4%)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.67",
+      "note": "vs $0.68 a year ago; adjusted EPS was $1.07, +2%"
+    },
+    {
+      "label": "Organic revenue growth",
+      "value": "+1.2%",
+      "note": "Growth from the existing business, excluding deals"
+    },
+    {
+      "label": "EBITDAC \u2014 Adjusted",
+      "value": "$597M",
+      "note": "A 34.6% margin, vs 36.6% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commissions and fees",
+      "amountM": 1700,
+      "yoy": "+10%",
+      "note": "Commissions from insurers and fees for placing insurance for clients \u2014 up 10%, mostly because acquired businesses (above all Accession, bought just over a year ago) are now in the numbers. Organic growth was only 1.2%."
+    },
+    {
+      "name": "Investment and other income",
+      "amountM": 25,
+      "yoy": "-55%",
+      "note": "Investment and other income \u2014 down from $56M a year ago, when the company earned extra interest on cash raised for the Accession deal."
+    }
+  ],
+  "flow": {
+    "revenueM": 1725,
+    "costOfRevenueM": 0,
+    "grossProfitM": 1725,
+    "opex": [
+      {
+        "name": "Employee compensation & benefits",
+        "amountM": 857,
+        "note": "Pay for about 23,000 teammates, including roughly 5,000 who joined with Accession \u2014 by far the biggest cost, about half of revenue."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 307,
+        "note": "Offices, technology and other day-to-day running costs."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 110,
+        "note": "Spreading the cost of customer relationships and other intangibles bought in acquisitions \u2014 up from $93M as deals pile up."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 18,
+        "note": "Wear and tear on buildings and equipment."
+      }
+    ],
+    "operatingIncomeM": 433,
+    "otherIncomeM": -113,
+    "taxM": 79,
+    "netIncomeM": 241
+  },
+  "follow100": [
+    {
+      "label": "Commissions and fees",
+      "amount": 98.55
+    },
+    {
+      "label": "Investment and other income",
+      "amount": 1.45
+    },
+    {
+      "label": "Employee compensation",
+      "amount": -49.68
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -17.8
+    },
+    {
+      "label": "Amortization",
+      "amount": -6.38
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.04
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.55
+    },
+    {
+      "label": "Tax",
+      "amount": -4.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.97
+    }
+  ],
+  "otherDetail": "Costs below operating profit were $113M, net: $100M of interest expense and a $27M increase in what Brown & Brown expects to pay for past acquisitions (earn-out payables), partly offset by a $14M noncash gain on the escrow liability from the Accession deal.",
+  "footerNote": "Brown & Brown reports no cost-of-revenue line \u2014 every cost is an operating or other expense, so gross profit equals revenue. Net income was $241M before $1M attributable to noncontrolling interests; net income attributable to the company was $240M. Operating profit of $433M is revenue less operating expenses (compensation, other operating, amortization and depreciation), before interest and the earn-out and escrow items shown in other expense.",
+  "oneTimers": [
+    "Change in estimated acquisition earn-out payables: a $27M expense \u2014 the company raised what it expects to pay sellers of past acquisitions (worth $0.06 of EPS in its adjusted figures).",
+    "Acquisition and integration costs of $36M, mainly tied to Accession, excluded from adjusted results.",
+    "A $14M noncash gain from marking the Accession escrow liability to market, partly offsetting the items above.",
+    "Excluding these items and $110M of amortization, adjusted EPS was $1.07 vs $0.67 GAAP, and EBITDAC \u2014 Adjusted was $597M."
+  ],
+  "takeaways": [
+    {
+      "stat": "+1.2%",
+      "statColor": "#5b6b7c",
+      "title": "Real growth was slow",
+      "text": "Strip out acquisitions and organic revenue grew just 1.2% (1.5% including contingent commissions) \u2014 management called it a challenging rate environment, meaning insurers are cutting the prices that drive Brown & Brown's commissions."
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "#3d7bc8",
+      "title": "Deals still drive the headline",
+      "text": "Commissions and fees rose 10% to $1.7B, and nine-month revenue is up 23% \u2014 almost all of it bought, led by Accession, which added about 5,000 teammates just over a year ago."
+    },
+    {
+      "stat": "34.6%",
+      "statColor": "#cf5f4e",
+      "title": "Margins slipped a little",
+      "text": "Adjusted EBITDAC margin fell from 36.6% to 34.6% as costs from the bigger, acquired business grew faster than organic revenue, and diluted GAAP EPS dipped to $0.67 from $0.68 because the Accession deal issued more shares."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/79282/000119312526432142/bro-ex99_1.htm"
+    }
+  ]
+}

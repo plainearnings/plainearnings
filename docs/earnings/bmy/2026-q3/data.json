@@ -1,0 +1,162 @@
+{
+  "ticker": "BMY",
+  "company": "Bristol Myers Squibb",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Bristol Myers Squibb grew revenue 7% to $13.1B as Eliquis and its newer medicines outgrew generic losses, but $1.6B of charges for buying drug research rights held GAAP EPS to $1.05.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Revenue was $13.1B, vs $12.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.05",
+      "note": "vs $1.08 a year ago; non-GAAP EPS was $1.35"
+    },
+    {
+      "label": "Growth Portfolio",
+      "value": "$7.7B",
+      "note": "+12% YoY \u2014 the newer medicines"
+    },
+    {
+      "label": "Eliquis",
+      "value": "$4.7B",
+      "note": "+25% YoY \u2014 the biggest single product"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Growth Portfolio",
+      "amountM": 7661,
+      "yoy": "+12%",
+      "note": "Newer medicines early in their lives \u2014 cancer drugs Opdivo and Opdivo Qvantig, blood treatments Reblozyl and Breyanzi (+46%), heart drug Camzyos (+42%) and others. Up 12%."
+    },
+    {
+      "name": "Legacy Portfolio",
+      "amountM": 5415,
+      "yoy": "+1%",
+      "note": "Older medicines facing generic copies. Blood thinner Eliquis grew 25% to $4.7B, offsetting steep generic declines in Revlimid (-47%) and Pomalyst (-81%)."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": -7,
+      "yoy": "n/a",
+      "note": "A small negative from currency hedging activities."
+    }
+  ],
+  "flow": {
+    "revenueM": 13069,
+    "costOfRevenueM": 4146,
+    "grossProfitM": 8923,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1699,
+        "note": "Selling medicines and running the company \u2014 down 5% YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 2365,
+        "note": "Developing new medicines in the lab and in clinical trials \u2014 down 6% YoY."
+      },
+      {
+        "name": "Acquired IPRD",
+        "amountM": 1558,
+        "note": "Upfront charges for research bought from partners \u2014 licensing deals and collaboration rights that have not yet become approved products. Up from $633M a year ago; see one-time items."
+      },
+      {
+        "name": "Amortization of acquired intangible assets",
+        "amountM": 458,
+        "note": "Spreading the cost of drug rights bought in past deals \u2014 down 45% YoY as Pomalyst rights finished amortizing."
+      }
+    ],
+    "operatingIncomeM": 2843,
+    "otherIncomeM": -307,
+    "taxM": 374,
+    "netIncomeM": 2162
+  },
+  "follow100": [
+    {
+      "label": "Growth Portfolio",
+      "amount": 58.62
+    },
+    {
+      "label": "Legacy Portfolio",
+      "amount": 41.43
+    },
+    {
+      "label": "Other revenue",
+      "amount": -0.05
+    },
+    {
+      "label": "Cost of products sold",
+      "amount": -31.72
+    },
+    {
+      "label": "SG&A",
+      "amount": -13.0
+    },
+    {
+      "label": "R&D",
+      "amount": -18.1
+    },
+    {
+      "label": "Acquired IPRD",
+      "amount": -11.92
+    },
+    {
+      "label": "Amortization of acquired intangibles",
+      "amount": -3.5
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.35
+    },
+    {
+      "label": "Tax",
+      "amount": -2.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.54
+    }
+  ],
+  "otherDetail": "Other expense was $307M, net: $403M of interest expense and a $187M restructuring provision, partly offset by $200M of royalty and licensing income and $118M of investment income.",
+  "footerNote": "The release's rounded portfolio subtotals add to $13,070M; the Growth Portfolio is shown at $7,661M ($1M below its rounded $7,662M subtotal) so the segments tie exactly to reported total revenue of $13,069M.",
+  "oneTimers": [
+    "Acquired IPRD charges of $1,558M \u2014 upfront payments for licensed and collaboration drug research. GAAP and non-GAAP EPS both include a net -$0.58 per share from these charges and licensing income.",
+    "A $187M provision for restructuring, inside other expense.",
+    "Gross margin also included a one-time charge related to a contract termination (the company did not quantify it separately), and fell from 71.9% to 68.3% mainly on product mix."
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Newer medicines are carrying growth",
+      "text": "The Growth Portfolio rose 12% to $7.7B \u2014 Breyanzi +46%, Camzyos +42%, Reblozyl +22% and the new under-the-skin Opdivo Qvantig \u2014 and is now about 59% of all revenue."
+    },
+    {
+      "stat": "$4.7B",
+      "statColor": "#3e8e5a",
+      "title": "Eliquis is doing the heavy lifting",
+      "text": "Eliquis alone brought in $4.7B, up 25% \u2014 more than the rest of the Legacy Portfolio combined \u2014 while Revlimid and Pomalyst shrank by $755M combined under generic competition."
+    },
+    {
+      "stat": "$1.6B",
+      "statColor": "#cf5f4e",
+      "title": "Buying future drugs cost $1.6B this quarter",
+      "text": "Acquired research charges of $1,558M cut into profit now in exchange for pipeline rights later. The company still raised full-year revenue guidance to $49.75\u2013$50.25B, while trimming non-GAAP EPS guidance to $6.35\u2013$6.55 because of these charges."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427226000022/a2026q3ex991-filing.htm"
+    }
+  ]
+}

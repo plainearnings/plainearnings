@@ -1,0 +1,200 @@
+{
+  "ticker": "BLK",
+  "company": "BlackRock",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-14",
+  "verdict": "BlackRock's revenue rose 19% to $7.8B as markets and $205B of new client money lifted fees, though a $564M noncash deal charge held GAAP operating profit to $2.3B.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "Revenue was $7.8B, vs $6.5B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$10.57",
+      "note": "vs $8.43 a year ago; as adjusted, $15.93"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$15.5T",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "Net inflows",
+      "value": "$205B",
+      "note": "New client money in the quarter; $869B over 12 months"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Investment advisory, administration & securities lending",
+      "amountM": 6036,
+      "yoy": "+20%",
+      "note": "The core fees clients pay BlackRock to manage their money, plus securities lending \u2014 up 20% on higher markets and strong organic growth in the asset base."
+    },
+    {
+      "name": "Performance fees",
+      "amountM": 630,
+      "yoy": "+22%",
+      "note": "Extra fees earned when funds beat their targets \u2014 up 22%, helped by a large liquid-alternatives fund whose measurement year ends in Q3."
+    },
+    {
+      "name": "Technology services & subscriptions",
+      "amountM": 588,
+      "yoy": "+14%",
+      "note": "Aladdin risk software and Preqin data subscriptions \u2014 up 14%, with annual contract value up 12%."
+    },
+    {
+      "name": "Distribution fees",
+      "amountM": 414,
+      "yoy": "+17%",
+      "note": "Fees for distributing funds through banks and other sellers \u2014 up 17% with the asset base."
+    },
+    {
+      "name": "Advisory & other revenue",
+      "amountM": 84,
+      "yoy": "+9%",
+      "note": "Advisory work and other smaller revenue lines."
+    }
+  ],
+  "flow": {
+    "revenueM": 7752,
+    "costOfRevenueM": 785,
+    "grossProfitM": 6967,
+    "opex": [
+      {
+        "name": "Employee compensation & benefits",
+        "amountM": 2440,
+        "note": "Pay for BlackRock's people \u2014 its biggest cost, up just 4% YoY despite the bigger asset base."
+      },
+      {
+        "name": "Direct fund expense",
+        "amountM": 551,
+        "note": "The direct cost of running the funds themselves."
+      },
+      {
+        "name": "Sub-advisory & other",
+        "amountM": 77,
+        "note": "Fees paid to outside sub-advisers and similar costs."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 731,
+        "note": "Running the company \u2014 offices, technology and professional services."
+      },
+      {
+        "name": "Change in fair value of contingent consideration",
+        "amountM": 564,
+        "note": "A noncash charge: the amount BlackRock may still owe for past acquisitions (GIP and HPS) rose in value with its share price. See one-time items."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 276,
+        "note": "Spreading the cost of businesses and technology bought in past deals."
+      }
+    ],
+    "operatingIncomeM": 2328,
+    "otherIncomeM": 316,
+    "taxM": 724,
+    "netIncomeM": 1920
+  },
+  "follow100": [
+    {
+      "label": "Investment advisory, administration & securities lending",
+      "amount": 77.86
+    },
+    {
+      "label": "Performance fees",
+      "amount": 8.13
+    },
+    {
+      "label": "Technology services & subscriptions",
+      "amount": 7.59
+    },
+    {
+      "label": "Distribution fees",
+      "amount": 5.34
+    },
+    {
+      "label": "Advisory & other revenue",
+      "amount": 1.08
+    },
+    {
+      "label": "Distribution & servicing costs",
+      "amount": -10.13
+    },
+    {
+      "label": "Employee compensation",
+      "amount": -31.48
+    },
+    {
+      "label": "Direct fund expense",
+      "amount": -7.11
+    },
+    {
+      "label": "Sub-advisory & other",
+      "amount": -0.99
+    },
+    {
+      "label": "General & administrative",
+      "amount": -9.43
+    },
+    {
+      "label": "Change in fair value of contingent consideration",
+      "amount": -7.28
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -3.56
+    },
+    {
+      "label": "Other income",
+      "amount": 4.08
+    },
+    {
+      "label": "Tax",
+      "amount": -9.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.77
+    }
+  ],
+  "otherDetail": "Nonoperating income was $316M, net: a $353M net gain on investments, less $37M of net interest expense.",
+  "footerNote": "Distribution and servicing costs \u2014 what BlackRock pays the banks and platforms that sell its funds \u2014 are shown as the cost of revenue, the closest direct-cost line in its accounts. Net income of $1,920M is before $261M attributable to noncontrolling interests; net income attributable to BlackRock was $1,659M.",
+  "oneTimers": [
+    "A $564M noncash increase in the fair value of contingent consideration \u2014 money potentially still owed for the GIP and HPS acquisitions, which rises and falls with BlackRock's share price. It was $93M a year ago.",
+    "Acquisition-related costs excluded from the company's adjusted results also included $276M of intangible amortization, $84M of acquisition-related compensation and $46M of acquisition-related admin costs.",
+    "Excluding these items, as-adjusted operating income was $3,330M (a 47.8% margin, vs 30.0% GAAP) and adjusted EPS was $15.93, vs $10.57 GAAP."
+  ],
+  "takeaways": [
+    {
+      "stat": "$205B",
+      "statColor": "#3d7bc8",
+      "title": "Clients poured in money",
+      "text": "Clients added a net $205B in the quarter and $869B over twelve months, taking assets under management to $15.5 trillion. iShares ETFs alone took in $135B, and annualized organic base-fee growth was 11%."
+    },
+    {
+      "stat": "30.0%",
+      "statColor": "#cf5f4e",
+      "title": "A deal charge flattened the margin",
+      "text": "GAAP operating margin was 30.0% \u2014 the same as a year ago \u2014 because of the $564M contingent-consideration charge. Without deal-related items, the adjusted margin was 47.8%, up from 44.6%."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3e8e5a",
+      "title": "Technology keeps growing",
+      "text": "Technology services and subscription revenue rose 14% to $588M on Aladdin and Preqin demand, and annual contract value grew 12% \u2014 a smaller, steadier business beside the market-driven fees."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526420979/blk-ex99_1.htm"
+    }
+  ]
+}

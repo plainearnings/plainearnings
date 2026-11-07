@@ -1,0 +1,149 @@
+{
+  "ticker": "BNY",
+  "company": "BNY Mellon",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "verdict": "BNY grew revenue 12% to $5.7B on higher fees and interest income, earning $1.6B for common shareholders while safeguarding $63.4 trillion of client assets.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "Revenue was $5.7B, vs $5.1B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.34",
+      "note": "vs $1.88 a year ago, +24%"
+    },
+    {
+      "label": "Assets under custody",
+      "value": "$63.4T",
+      "note": "+10% YoY \u2014 assets BNY safeguards for clients"
+    },
+    {
+      "label": "Return on tangible equity",
+      "value": "29%",
+      "note": "ROTCE, vs 25.6% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 1423,
+      "yoy": "+15%",
+      "note": "Interest earned on loans and securities, minus interest paid on deposits and borrowings \u2014 up 15% as securities were reinvested at higher yields and the balance sheet grew, partly offset by thinner deposit margins."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 4253,
+      "yoy": "+11%",
+      "note": "Fees and other non-interest income: $4,078M of fee revenue (asset servicing, issuer services, clearance, wealth and payments fees, up 12%) plus $175M of investment and other revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 5676,
+    "costOfRevenueM": 1,
+    "grossProfitM": 5675,
+    "opex": [
+      {
+        "name": "Staff",
+        "amountM": 1805,
+        "note": "Pay and benefits \u2014 BNY's biggest cost, up 3% YoY."
+      },
+      {
+        "name": "Software & equipment",
+        "amountM": 593,
+        "note": "Technology, software and equipment \u2014 up 9% as BNY invests in its platforms."
+      },
+      {
+        "name": "Professional & other purchased services",
+        "amountM": 610,
+        "note": "Outside professional and purchased services ($474M) plus other expenses ($136M)."
+      },
+      {
+        "name": "Sub-custodian, occupancy & other",
+        "amountM": 481,
+        "note": "Sub-custodian and clearing costs ($168M), offices ($141M), distribution and servicing ($78M), business development ($58M), bank assessments ($27M) and intangible amortization ($9M)."
+      }
+    ],
+    "operatingIncomeM": 2186,
+    "otherIncomeM": 0,
+    "taxM": 499,
+    "netIncomeM": 1687
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 25.07
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 74.93
+    },
+    {
+      "label": "Credit costs",
+      "amount": -0.02
+    },
+    {
+      "label": "Staff",
+      "amount": -31.8
+    },
+    {
+      "label": "Software & equipment",
+      "amount": -10.45
+    },
+    {
+      "label": "Professional & other purchased services",
+      "amount": -10.75
+    },
+    {
+      "label": "Sub-custodian, occupancy & other",
+      "amount": -8.47
+    },
+    {
+      "label": "Tax",
+      "amount": -8.79
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.72
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses ($1M this quarter) plays the role of cost of revenue. Net income was $1,687M in total; $1,608M of it was applicable to common shareholders after preferred dividends. BNY calls its profit before tax 'income before taxes' of $2,186M \u2014 shown here as operating profit, with no separate other-income line.",
+  "oneTimers": [
+    "Notable items were small this quarter: $23M of severance expense, partly offset by a $1M litigation-reserve release \u2014 a net $22M pre-tax drag. Excluding them, adjusted EPS was $2.37 vs $2.34 GAAP."
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Fees did the heavy lifting",
+      "text": "Fee revenue rose 12% to $4,078M on new business, higher client activity and higher market values. Assets under custody rose 10% to $63.4 trillion and assets under management 2% to $2.2 trillion."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#3e8e5a",
+      "title": "Interest income kept climbing",
+      "text": "Net interest income rose 15% to $1,423M as maturing securities were reinvested at higher yields and loans grew 19% on average \u2014 even though deposit margins narrowed."
+    },
+    {
+      "stat": "$1.4B",
+      "statColor": "#5b6b7c",
+      "title": "Most profit went back to shareholders",
+      "text": "BNY returned $1.4B in the quarter \u2014 $937M of share buybacks plus $436M of dividends \u2014 while keeping a 38.5% pre-tax margin and a 10.9% CET1 capital ratio."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm"
+    },
+    {
+      "label": "Financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex992_financialsupplementx.htm"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "BKR",
+  "company": "Baker Hughes",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Baker Hughes grew revenue 14% to $8.0B as the newly bought Chart business joined the books and orders hit $10.8B, though deal costs cut GAAP profit to $411M for shareholders.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "Revenue was $8.0B, vs $7.0B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.41",
+      "note": "vs $0.61 a year ago; adjusted EPS was $0.70"
+    },
+    {
+      "label": "Orders",
+      "value": "$10.8B",
+      "note": "+31% YoY, including $5.9B in IET"
+    },
+    {
+      "label": "Backlog (RPO)",
+      "value": "$46.4B",
+      "note": "A record, including $39.4B in IET"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Oilfield Services & Equipment",
+      "amountM": 3660,
+      "yoy": "+1%",
+      "note": "Oilfield services and equipment for drilling and producing wells \u2014 up just 1% YoY, with growth in Europe and Latin America offset by a softer Middle East after a business sale."
+    },
+    {
+      "name": "Industrial & Energy Technology",
+      "amountM": 3477,
+      "yoy": "+3%",
+      "note": "Gas turbines, compressors and industrial technology for energy and data-center customers \u2014 up 3%, and the order book star of the quarter."
+    },
+    {
+      "name": "Chart",
+      "amountM": 888,
+      "yoy": "new",
+      "note": "Chart Industries, bought on July 16, 2026 \u2014 cryogenic and cooling equipment for LNG, hydrogen and space customers. This was its first quarter inside Baker Hughes, so there is no year-ago comparison."
+    }
+  ],
+  "flow": {
+    "revenueM": 8025,
+    "costOfRevenueM": 6097,
+    "grossProfitM": 1928,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 732,
+        "note": "Selling and running the company day to day \u2014 up from $597M a year ago as Chart joined."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 150,
+        "note": "Developing new energy technology \u2014 roughly flat YoY."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 28,
+        "note": "Costs of reorganizing parts of the business \u2014 there was no such charge a year ago."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 165,
+        "note": "Spreading the cost of technology and customer relationships bought in deals, mostly Chart \u2014 up from just $10M a year ago."
+      }
+    ],
+    "operatingIncomeM": 853,
+    "otherIncomeM": -334,
+    "taxM": 97,
+    "netIncomeM": 422
+  },
+  "follow100": [
+    {
+      "label": "Oilfield Services & Equipment",
+      "amount": 45.61
+    },
+    {
+      "label": "Industrial & Energy Technology",
+      "amount": 43.33
+    },
+    {
+      "label": "Chart",
+      "amount": 11.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -75.98
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.12
+    },
+    {
+      "label": "R&D",
+      "amount": -1.87
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.35
+    },
+    {
+      "label": "Amortization of acquired intangibles",
+      "amount": -2.06
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.16
+    },
+    {
+      "label": "Tax",
+      "amount": -1.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.26
+    }
+  ],
+  "otherDetail": "Other costs below operating profit were $334M, net: $177M of net interest expense plus $157M of other expense, which was mainly transaction costs from business deals.",
+  "oneTimers": [
+    "Transaction-related costs of $158M, mainly for the Chart acquisition and business disposals \u2014 reported inside other expense.",
+    "Amortization of Chart intangible assets of $143M and a $25M inventory step-up charge from the Chart deal, plus $28M of restructuring costs.",
+    "Leaving these items out, adjusted net income was $695M ($0.70 per share) and adjusted EBITDA was $1,415M, up 14% YoY \u2014 versus GAAP net income attributable to Baker Hughes of $411M."
+  ],
+  "takeaways": [
+    {
+      "stat": "$10.8B",
+      "statColor": "#3d7bc8",
+      "title": "Orders surged 31%",
+      "text": "Orders rose 31% YoY to $10.8B. Industrial & Energy Technology took $5.9B \u2014 its second-largest order quarter ever, including 1.1 GW of power equipment for a data-center customer \u2014 pushing total backlog (RPO) to a record $46.4B."
+    },
+    {
+      "stat": "$888M",
+      "statColor": "#3e8e5a",
+      "title": "Chart's first quarter",
+      "text": "Chart, acquired July 16 for about $14.2B in cash paid during the quarter, added $888M of revenue and $156M of segment EBITDA in its first partial quarter, and $3.6B of backlog."
+    },
+    {
+      "stat": "-33%",
+      "statColor": "#cf5f4e",
+      "title": "GAAP profit fell on deal costs",
+      "text": "Net income attributable to Baker Hughes fell 33% YoY to $411M, even as revenue rose 14% \u2014 the gap is deal costs, Chart amortization and restructuring. On the company's adjusted basis, profit rose 2% to $695M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000033/earningsreleaseex991093020.htm"
+    }
+  ]
+}
