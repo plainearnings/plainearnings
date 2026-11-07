@@ -1,0 +1,143 @@
+{
+  "ticker": "KDP",
+  "company": "Keurig Dr Pepper",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+71%",
+  "verdict": "Keurig Dr Pepper's sales leapt 71% to $7.34B after the JDE Peet's coffee acquisition closed in April \u2014 the legacy business grew a healthy 8.6% on its own \u2014 and net income was $952M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.34B",
+      "note": "+70.6% YoY, mostly the JDE Peet's acquisition"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.59",
+      "note": "+20% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.66",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "Legacy KDP sales growth",
+      "value": "+8.6%",
+      "note": "excluding JDE Peet's"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Refreshment Beverages",
+      "amountM": 3033,
+      "yoy": "+11%",
+      "note": "Dr Pepper, Canada Dry, Snapple, energy and waters \u2014 volume/mix +7.2% and pricing +3.7%."
+    },
+    {
+      "name": "JDE Peet's",
+      "amountM": 2649,
+      "note": "The acquired global coffee business (Peet's, L'OR, Jacobs and more) \u2014 wholly incremental this year after the deal closed April 1, 2026."
+    },
+    {
+      "name": "U.S. Coffee",
+      "amountM": 1018,
+      "yoy": "+3%",
+      "note": "Keurig brewers and K-Cup pods \u2014 volume grew 6.9%, partly offset by 4.2% lower realized pricing; results also benefited from tariff refunds."
+    },
+    {
+      "name": "KDP International",
+      "amountM": 644,
+      "yoy": "+11%",
+      "note": "Canada, Mexico and other markets outside the U.S."
+    }
+  ],
+  "flow": {
+    "revenueM": 7344,
+    "costOfRevenueM": 3819,
+    "grossProfitM": 3525,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2192,
+        "f100": "SG&A",
+        "note": "Marketing, distribution and running the combined company \u2014 now including JDE Peet's global operations \u2014 plus $55M of other operating expense, mostly acquisition and integration items."
+      }
+    ],
+    "operatingIncomeM": 1333,
+    "otherIncomeM": -121,
+    "taxM": 260,
+    "netIncomeM": 952
+  },
+  "otherDetail": "Net interest expense of $474M (the debt taken on for the JDE Peet's deal), plus $47M of other expense, partly offset by a $400M one-time gain on selling an equity-method investment.",
+  "takeaways": [
+    {
+      "stat": "$2.65B",
+      "statColor": "#3d7bc8",
+      "title": "A coffee giant is bolted on",
+      "text": "JDE Peet's contributed $2.65B of sales in the quarter and $289M of GAAP operating income ($480M adjusted, before ~$191M of deal and integration costs)."
+    },
+    {
+      "stat": "+$400M",
+      "statColor": "#3e8e5a",
+      "title": "A one-time gain flattered profit",
+      "text": "Selling an equity-method investment added a $400M gain below the operating line \u2014 a chunk of the quarter's $952M net income won't repeat."
+    },
+    {
+      "stat": "$474M",
+      "statColor": "#b8443c",
+      "title": "The interest bill jumped",
+      "text": "Net interest expense rose from $188M to $474M year over year \u2014 the cost of borrowing to buy JDE Peet's. Net income attributable to common shareholders was $810M after preferred allocations."
+    }
+  ],
+  "oneTimers": [
+    "A $400M gain on the sale of an equity-method investment is included below operating income; JDE Peet's results also carry roughly $191M of acquisition and integration costs (its adjusted operating income was $480M versus $289M GAAP)."
+  ],
+  "footerNote": "Net income attributable to KDP was $882M (after $70M attributable to non-controlling interests); $810M was attributable to common shareholders after preferred allocations. Full-year 2026 guidance was reaffirmed.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418135/000141813526000064/ex991-keurigdrpepperreport.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. Refreshment Beverages",
+      "amount": 41.3
+    },
+    {
+      "label": "JDE Peet's",
+      "amount": 36.07
+    },
+    {
+      "label": "U.S. Coffee",
+      "amount": 13.86
+    },
+    {
+      "label": "KDP International",
+      "amount": 8.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.0
+    },
+    {
+      "label": "SG&A",
+      "amount": -29.85
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.65
+    },
+    {
+      "label": "Tax",
+      "amount": -3.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.96
+    }
+  ]
+}

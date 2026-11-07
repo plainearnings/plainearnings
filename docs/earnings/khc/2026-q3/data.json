@@ -1,0 +1,134 @@
+{
+  "ticker": "KHC",
+  "company": "Kraft Heinz",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "-2%",
+  "verdict": "Kraft Heinz's sales slipped 2% to $6.12B and operating income fell 15% to $875M as North America volumes declined \u2014 though Emerging Markets grew 14% and net income came in at $536M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.12B",
+      "note": "-2.0% YoY; organic -1.1%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.46",
+      "note": "vs $0.52 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "32.5%",
+      "note": "+60 bp YoY on pricing and productivity"
+    },
+    {
+      "label": "Operating income",
+      "value": "$875M",
+      "note": "-14.6% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 4485,
+      "yoy": "-3%",
+      "note": "The biggest market shrank 3.4% \u2014 meats, sauces and refreshment beverages lost volume, and about 80 bp of the decline was an inventory pull-forward into Q2."
+    },
+    {
+      "name": "Europe & Pacific Developed Markets",
+      "amountM": 910,
+      "yoy": "-6%",
+      "note": "Developed markets outside North America declined 5.6%."
+    },
+    {
+      "name": "Emerging Markets",
+      "amountM": 720,
+      "yoy": "+14%",
+      "note": "The growth engine \u2014 sales up 13.8%, with organic growth of 15.6% on stronger pricing and volumes."
+    }
+  ],
+  "flow": {
+    "revenueM": 6115,
+    "costOfRevenueM": 4127,
+    "grossProfitM": 1988,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1113,
+        "f100": "SG&A",
+        "note": "Marketing, distribution overhead and the back office \u2014 including $72M of goodwill and intangible impairment charges this quarter ($69M goodwill, $3M intangibles)."
+      }
+    ],
+    "operatingIncomeM": 875,
+    "otherIncomeM": -171,
+    "taxM": 168,
+    "netIncomeM": 536
+  },
+  "otherDetail": "Net interest expense of $210M on the company's debt stack, partly offset by $39M of other income.",
+  "takeaways": [
+    {
+      "stat": "-1.1%",
+      "statColor": "#b8443c",
+      "title": "Volumes keep sliding at home",
+      "text": "Organic sales fell 1.1% \u2014 price was flat while volume/mix declined, led by North America meats, sauces and beverages."
+    },
+    {
+      "stat": "+15.6%",
+      "statColor": "#3e8e5a",
+      "title": "Emerging Markets is the bright spot",
+      "text": "Organic sales grew 15.6% in Emerging Markets, the only segment growing \u2014 now $720M of the quarter's sales."
+    },
+    {
+      "stat": "Paused",
+      "statColor": "#5b6b7c",
+      "title": "The big split is on hold",
+      "text": "Work on the previously announced separation of Kraft Heinz into two public companies is currently paused, the company disclosed, even as it updated its 2026 outlook."
+    }
+  ],
+  "oneTimers": [
+    "The quarter includes $72M of goodwill and intangible impairment charges. The nine-month picture is much heavier: $2.51B of goodwill and $4.93B of intangible impairments taken earlier in 2026 are why year-to-date results show a net loss."
+  ],
+  "footerNote": "Net income attributable to common shareholders was $544M (a small loss was attributable to noncontrolling interests), the basis for the $0.46 diluted EPS.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000078/ex991-erq32026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 73.34
+    },
+    {
+      "label": "Europe & Pacific Developed Markets",
+      "amount": 14.88
+    },
+    {
+      "label": "Emerging Markets",
+      "amount": 11.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -67.49
+    },
+    {
+      "label": "SG&A",
+      "amount": -18.2
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.8
+    },
+    {
+      "label": "Tax",
+      "amount": -2.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.77
+    }
+  ]
+}

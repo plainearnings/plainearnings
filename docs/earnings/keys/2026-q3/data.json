@@ -1,0 +1,130 @@
+{
+  "ticker": "KEYS",
+  "company": "Keysight Technologies",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-18",
+  "revenueYoY": "+37%",
+  "verdict": "Keysight's revenue jumped 37% to a record $1.85B and net income doubled to $397M, as testing gear for AI data centers drove a second straight quarter of more than $2B in orders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.85B",
+      "note": "+37% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.30",
+      "note": "vs $1.10 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$3.07",
+      "note": "vs $1.72 a year ago"
+    },
+    {
+      "label": "Orders",
+      "value": "$2.09B",
+      "note": "second consecutive quarter above $2B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Communications Solutions",
+      "amountM": 1345,
+      "yoy": "+43%",
+      "note": "Test gear for networks and data centers \u2014 commercial communications grew 56% on AI infrastructure demand; aerospace, defense and government grew 14%."
+    },
+    {
+      "name": "Electronic Industrial Solutions",
+      "amountM": 501,
+      "yoy": "+21%",
+      "note": "Test equipment for semiconductors, general electronics, automotive and energy \u2014 all grew."
+    }
+  ],
+  "flow": {
+    "revenueM": 1846,
+    "costOfRevenueM": 630,
+    "grossProfitM": 1216,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 312,
+        "note": "Building the next generation of measurement instruments and software."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 443,
+        "f100": "SG&A",
+        "note": "Selling and supporting measurement gear worldwide ($446M of SG&A, net of $3M of other operating income)."
+      }
+    ],
+    "operatingIncomeM": 461,
+    "otherIncomeM": 16,
+    "taxM": 80,
+    "netIncomeM": 397
+  },
+  "otherDetail": "Net other income of $16M \u2014 $20M of interest income and $22M of other income, less $26M of interest expense.",
+  "takeaways": [
+    {
+      "stat": "$2.09B",
+      "statColor": "#3d7bc8",
+      "title": "Orders are outrunning sales",
+      "text": "Orders of $2.09B exceeded revenue for a second straight quarter \u2014 a backlog signal that demand for AI data-center testing is still building."
+    },
+    {
+      "stat": "~$1.94B",
+      "statColor": "#3e8e5a",
+      "title": "Q4 guided to another record",
+      "text": "Keysight guided fiscal Q4 revenue to $1.93\u20131.95B (about +37% YoY at the midpoint) and raised its full-year outlook."
+    },
+    {
+      "stat": "$403M",
+      "statColor": "#5b6b7c",
+      "title": "Cash followed profit",
+      "text": "Free cash flow was $403M in the quarter, and the cash pile reached $2.62B."
+    }
+  ],
+  "footerNote": "This is Keysight's latest reported quarter: fiscal Q4 2026 (ended October 31, 2026) had not yet been reported when this page was published.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601046/000160104626000029/exhibit991-q326pressrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Communications Solutions",
+      "amount": 72.86
+    },
+    {
+      "label": "Electronic Industrial Solutions",
+      "amount": 27.14
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -34.13
+    },
+    {
+      "label": "R&D",
+      "amount": -16.9
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.0
+    },
+    {
+      "label": "Other income",
+      "amount": 0.87
+    },
+    {
+      "label": "Tax",
+      "amount": -4.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.51
+    }
+  ]
+}

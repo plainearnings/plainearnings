@@ -1,0 +1,147 @@
+{
+  "ticker": "JNJ",
+  "company": "Johnson & Johnson",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-13",
+  "revenueYoY": "+6%",
+  "verdict": "Johnson & Johnson's sales rose 6% to $25.4B, but a one-time charge for the proposed talc litigation settlement crushed reported profit to $210M \u2014 $0.09 a share. Excluding special items it earned $6.34B, or $2.59 a share, and raised its full-year guidance.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$25.4B",
+      "note": "+5.9% YoY, +6.0% operational"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.09",
+      "note": "after the talc settlement charge"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.59",
+      "note": "excludes special charges and deal costs"
+    },
+    {
+      "label": "FY26 guidance",
+      "value": "raised",
+      "note": "sales ~$101.2B and adjusted EPS $11.10 at the midpoint"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Innovative Medicine",
+      "amountM": 16757,
+      "yoy": "+8%",
+      "note": "Prescription drugs \u2014 cancer, immunology and neuroscience medicines led 7.7% growth, with U.S. sales up 11.1%."
+    },
+    {
+      "name": "MedTech",
+      "amountM": 8642,
+      "yoy": "+3%",
+      "note": "Medical devices \u2014 surgery, orthopaedics, vision and cardiovascular tools; the quarter brought market authorization for OTTAVA, its soft-tissue surgical robot."
+    }
+  ],
+  "flow": {
+    "revenueM": 25399,
+    "costOfRevenueM": 8097,
+    "grossProfitM": 17302,
+    "opex": [
+      {
+        "name": "Selling, marketing and administrative",
+        "amountM": 6285,
+        "f100": "Selling, marketing & admin",
+        "note": "The global sales force and back office behind both drugs and devices."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 4652,
+        "note": "Drug trials and device development \u2014 up 27% year over year, including acquired research programs."
+      },
+      {
+        "name": "Impairments & restructuring",
+        "amountM": 520,
+        "f100": "Impairments & restructuring",
+        "note": "$339M of in-process R&D impairments \u2014 writing down acquired research projects that are no longer expected to pay off \u2014 plus $181M of supply-chain and franchise restructuring costs."
+      }
+    ],
+    "operatingIncomeM": 5845,
+    "otherIncomeM": -5811,
+    "taxM": -176,
+    "netIncomeM": 210
+  },
+  "otherDetail": "Other expense of $5,780M \u2014 dominated by a one-time special charge for the proposed talc litigation resolution, plus costs of the Firefly Bio acquisition and the Sail Biomedicines collaboration \u2014 together with $31M of net interest expense.",
+  "takeaways": [
+    {
+      "stat": "$0.09 vs $2.59",
+      "statColor": "#b8443c",
+      "title": "One charge, two stories",
+      "text": "GAAP EPS was $0.09 after the talc settlement charge and deal costs; adjusted EPS of $2.59 shows the underlying quarter. Reported net earnings fell 96% to $210M from $5.15B."
+    },
+    {
+      "stat": "+6.0%",
+      "statColor": "#3d7bc8",
+      "title": "The business underneath is accelerating",
+      "text": "Operational sales grew 6.0% \u2014 Innovative Medicine +7.9% operationally \u2014 and management now targets double-digit growth by the end of the decade."
+    },
+    {
+      "stat": "$101.2B",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised",
+      "text": "J&J lifted its 2026 outlook to about $101.2B of sales (+7.4% at the midpoint) and adjusted EPS of $11.10."
+    }
+  ],
+  "oneTimers": [
+    "A one-time special charge for the proposed talc litigation resolution sits inside the $5,780M of other expense, alongside Firefly Bio acquisition and Sail Biomedicines collaboration costs. Adjusted net earnings of $6,339M exclude these items."
+  ],
+  "footerNote": "Tax was a $176M benefit this quarter (the talc charge cut pre-tax income to just $34M), so the chart shows it flowing into the bottom line rather than out of it.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/a2026q3exhibit991.htm"
+    },
+    {
+      "label": "Financial schedules (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/a2026q3exhibit992.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Innovative Medicine",
+      "amount": 65.98
+    },
+    {
+      "label": "MedTech",
+      "amount": 34.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.88
+    },
+    {
+      "label": "Selling, marketing & admin",
+      "amount": -24.75
+    },
+    {
+      "label": "R&D",
+      "amount": -18.32
+    },
+    {
+      "label": "Impairments & restructuring",
+      "amount": -2.05
+    },
+    {
+      "label": "Other expense",
+      "amount": -22.88
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.83
+    }
+  ]
+}

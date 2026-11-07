@@ -1,0 +1,136 @@
+{
+  "ticker": "KEY",
+  "company": "KeyCorp",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+8%",
+  "verdict": "Cleveland's KeyCorp posted record revenue of $2.04B, up 8%, and net income attributable to common shareholders of $537M \u2014 EPS up 24% \u2014 as its lending margin widened and bad-loan costs fell.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.04B",
+      "note": "record quarter, +8% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$0.51",
+      "note": "+24% YoY"
+    },
+    {
+      "label": "Net interest margin",
+      "value": "2.95%",
+      "note": "+20 bp YoY, +6 bp sequentially"
+    },
+    {
+      "label": "Return on tangible common equity",
+      "value": ">15%",
+      "note": "CET1 capital ratio 11.1%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 1300,
+      "yoy": "+10%",
+      "note": "The spread between what Key earns on loans and securities and what it pays depositors \u2014 margin widened to 2.95% as deposit costs fell and low-yielding assets were reinvested."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 744,
+      "yoy": "+6%",
+      "note": "Fees: investment banking and debt placement brought in $214M (+27% sequentially), trust and investment services $165M, plus card, payments and service charges."
+    }
+  ],
+  "flow": {
+    "revenueM": 2044,
+    "costOfRevenueM": 61,
+    "grossProfitM": 1983,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 815,
+        "note": "Pay and benefits for about 17,000 teammates \u2014 the bank's biggest cost."
+      },
+      {
+        "name": "Technology, occupancy & equipment",
+        "amountM": 204,
+        "f100": "Technology & occupancy",
+        "note": "Computer processing ($116M), branches and offices ($67M) and equipment ($21M)."
+      },
+      {
+        "name": "Other noninterest expense",
+        "amountM": 226,
+        "f100": "Other expenses",
+        "note": "Professional fees, marketing, operating leases and other costs."
+      }
+    ],
+    "operatingIncomeM": 738,
+    "otherIncomeM": 0,
+    "taxM": 159,
+    "netIncomeM": 579
+  },
+  "otherDetail": "Banks fold everything below revenue into the lines above; there is no separate interest line because interest is the raw material of the business.",
+  "takeaways": [
+    {
+      "stat": "2.95%",
+      "statColor": "#3d7bc8",
+      "title": "The margin keeps widening",
+      "text": "Net interest margin rose 20 basis points year over year to 2.95% on cheaper deposits, reinvested securities proceeds and a shift toward higher-yielding commercial loans."
+    },
+    {
+      "stat": "$61M",
+      "statColor": "#3e8e5a",
+      "title": "Credit costs fell hard",
+      "text": "The provision for credit losses dropped to $61M from $107M a year ago, with lower net charge-offs and nonperforming assets."
+    },
+    {
+      "stat": "$320M",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks resumed at pace",
+      "text": "Key repurchased $320M of common shares in the quarter while keeping its CET1 capital ratio at an estimated 11.1%."
+    }
+  ],
+  "footerNote": "Bank mapping: the credit-loss provision is the direct cost of lending and noninterest expense the running cost. Net income was $579M; $537M was attributable to common shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 63.6
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 36.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -2.98
+    },
+    {
+      "label": "Personnel",
+      "amount": -39.87
+    },
+    {
+      "label": "Technology & occupancy",
+      "amount": -9.98
+    },
+    {
+      "label": "Other expenses",
+      "amount": -11.06
+    },
+    {
+      "label": "Tax",
+      "amount": -7.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.33
+    }
+  ]
+}
