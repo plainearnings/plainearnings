@@ -1,0 +1,165 @@
+{
+  "company": "Intuit",
+  "flow": {
+    "costOfRevenueM": 953,
+    "costPlain": "Running Intuit's cloud services and customer support ($894M), product costs ($16M), and amortization of acquired technology ($43M).",
+    "grossProfitM": 3401,
+    "netIncomeM": 363,
+    "operatingIncomeM": 475,
+    "opex": [
+      {
+        "amountM": 1264,
+        "name": "Selling and marketing",
+        "note": "Selling TurboTax, QuickBooks and Credit Karma — spending continues through the quiet season to win customers before tax time."
+      },
+      {
+        "amountM": 857,
+        "name": "Research & development",
+        "note": "Building QuickBooks, TurboTax, Credit Karma and Mailchimp — increasingly, AI agents that do bookkeeping and tax prep."
+      },
+      {
+        "amountM": 391,
+        "name": "General and administrative",
+        "note": "Running the company day to day."
+      },
+      {
+        "amountM": 121,
+        "name": "Amortization of other acquired intangible assets",
+        "note": "Spreading the cost of customer relationships and other assets from acquisitions like Mailchimp and Credit Karma.",
+        "shortName": "Amortization"
+      },
+      {
+        "amountM": 293,
+        "name": "Restructuring",
+        "note": "A charge to reshape the company — severance and related costs, versus just $1M a year ago."
+      }
+    ],
+    "otherIncomeM": 65,
+    "revenueM": 4354,
+    "taxM": 177
+  },
+  "follow100": [
+    {
+      "amount": 78.64,
+      "label": "Global Business Solutions"
+    },
+    {
+      "amount": 21.36,
+      "label": "Consumer"
+    },
+    {
+      "amount": -21.89,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -29.03,
+      "label": "Selling & marketing"
+    },
+    {
+      "amount": -19.68,
+      "label": "R&D"
+    },
+    {
+      "amount": -8.98,
+      "label": "G&A"
+    },
+    {
+      "amount": -2.78,
+      "label": "Amortization"
+    },
+    {
+      "amount": -6.73,
+      "label": "Restructuring"
+    },
+    {
+      "amount": 1.49,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.07,
+      "label": "Tax"
+    },
+    {
+      "amount": 8.34,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Q4 is Intuit's seasonal trough — the same company keeps far more of each $100 in tax season. Rows may not add exactly due to rounding.",
+  "footerNote": "Intuit doesn't present a gross-profit subtotal; the cost line combines its three reported cost-of-revenue lines. Segment revenue: Consumer is stated in the release; Global Business Solutions is the remainder of total revenue.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+14% YoY",
+      "value": "$4.4B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "Q4 is the seasonal low point",
+      "value": "$1.34"
+    },
+    {
+      "label": "FY26 revenue",
+      "note": "full year, +14% — first year past $20B",
+      "value": "$21.4B"
+    },
+    {
+      "label": "Credit Karma",
+      "note": "quarterly revenue, +16% YoY",
+      "value": "$743M"
+    }
+  ],
+  "oneTimers": [
+    "A $293M restructuring charge (versus $1M a year ago) is the quarter's big distortion — and share-based compensation added another $507M of cost that GAAP counts.",
+    "Tax swung the comparison: a $177M provision this year versus a $15M benefit a year ago. That swing, plus restructuring, is why net income fell even though operating income rose 40%.",
+    "With this release Intuit guided FY27: revenue of $23,279M–$23,512M (+9–10%) and GAAP EPS of $20.12–$20.36; it also raised the dividend 15% to $1.38 after buying back $5.5B of stock in FY26."
+  ],
+  "otherDetail": "Interest and other income, net of $135M, less $70M of interest expense, added $65M.",
+  "periodEnd": "2026-07-31",
+  "pngFooterNote": "Cost combines Intuit's three reported cost-of-revenue lines.",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "reportedDate": "2026-08-25",
+  "revenueYoY": "+14%",
+  "segments": [
+    {
+      "amountM": 3424,
+      "name": "Global Business Solutions",
+      "note": "QuickBooks and Mailchimp for small and mid-sized businesses. The online ecosystem brought in $2,600M (+17%), with QuickBooks Online accounting revenue up 20% — this segment pays the bills while tax season sleeps.",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 930,
+      "name": "Consumer",
+      "note": "TurboTax ($153M — a trickle in the off-season), Credit Karma ($743M, +16% — the quarter's engine) and ProTax for professional preparers ($34M).",
+      "yoy": "+14%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000029/fy26q4earningspressrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$21.4B",
+      "statColor": "#3e8e5a",
+      "text": "This 'quiet' quarter closed Intuit's first $20B-plus year: FY26 revenue of $21,448M rose 14%, with its 'Big Bets' — AI-driven expert and money products — growing 34% to 30% of revenue.",
+      "title": "A record year, finished quietly"
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "text": "QuickBooks Online accounting revenue grew 20% in the quarter and Credit Karma 16% to $743M. The always-on businesses now dwarf off-season TurboTax ($153M) — Intuit is far less of a one-season company than it used to be.",
+      "title": "QuickBooks and Credit Karma did the work"
+    },
+    {
+      "stat": "$293M",
+      "statColor": "#cf5f4e",
+      "text": "A $293M restructuring charge and a tax swing cut net income 5% to $363M despite operating income rising 40% to $475M. Read the quarter on revenue, not on the bottom line.",
+      "title": "Charges and tax hid a stronger quarter"
+    }
+  ],
+  "ticker": "INTU",
+  "verdict": "Intuit's seasonally quiet quarter still grew revenue 14% to $4.4B — QuickBooks and Credit Karma did the work while TurboTax sleeps — but a $293M restructuring charge and a tax swing cut net profit 5% to $363M."
+}

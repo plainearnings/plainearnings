@@ -1,0 +1,157 @@
+{
+  "company": "Mastercard",
+  "flow": {
+    "costOfRevenueM": 0,
+    "grossName": "Net revenue",
+    "grossNote": "already net of $6.4B of rebates",
+    "grossPlain": "Mastercard reports revenue already net of the $6,369M of rebates and incentives it pays banks and merchants to win card business — so there is no separate cost-of-revenue line in its books. The costs were taken out before revenue was counted.",
+    "grossProfitM": 9807,
+    "netIncomeM": 4628,
+    "operatingIncomeM": 5862,
+    "opex": [
+      {
+        "amountM": 3293,
+        "name": "General and administrative",
+        "note": "Salaries, technology and offices for the people who run the network — by far Mastercard's biggest cost."
+      },
+      {
+        "amountM": 252,
+        "name": "Advertising and marketing",
+        "note": "Brand campaigns, sponsorships and the 'Priceless' advertising."
+      },
+      {
+        "amountM": 326,
+        "name": "Depreciation and amortization",
+        "note": "Spreading the cost of buildings, data centers, equipment and acquired technology."
+      },
+      {
+        "amountM": 74,
+        "name": "Provision for litigation",
+        "note": "Settlements with merchants who opted out of the U.S. merchant class litigation — Mastercard flags this as a special item."
+      }
+    ],
+    "otherIncomeM": -121,
+    "revenueM": 9807,
+    "taxM": 1113
+  },
+  "follow100": [
+    {
+      "amount": 58.61,
+      "label": "Payment network"
+    },
+    {
+      "amount": 41.39,
+      "label": "Value-added services"
+    },
+    {
+      "amount": -33.58,
+      "label": "G&A"
+    },
+    {
+      "amount": -2.57,
+      "label": "Advertising & marketing"
+    },
+    {
+      "amount": -3.33,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -0.75,
+      "label": "Litigation"
+    },
+    {
+      "amount": -1.23,
+      "label": "Other expense"
+    },
+    {
+      "amount": -11.35,
+      "label": "Tax"
+    },
+    {
+      "amount": 47.2,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Mastercard keeps about $47 of every $100 it books — one of the fattest profit slices in this whole series. Rows may not add exactly due to rounding.",
+  "footerNote": "Mastercard nets its $6,369M of rebates and incentives against revenue before reporting it; the gross assessments behind them ($12,118M) are key metrics in its Q3 2026 Form 10-Q.",
+  "kpis": [
+    {
+      "label": "Net revenue",
+      "note": "+14% YoY",
+      "value": "$9.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $5.31 adjusted",
+      "value": "$5.28"
+    },
+    {
+      "label": "Cross-border volume",
+      "note": "growth, local currency",
+      "value": "+11%"
+    },
+    {
+      "label": "Value-added services",
+      "note": "net revenue, +19% YoY",
+      "value": "$4.1B"
+    }
+  ],
+  "oneTimers": [
+    "A $74M litigation provision — settlements with merchants who opted out of the U.S. merchant class litigation — is flagged by Mastercard as a special item. Excluding it and a $5M equity-investment loss, adjusted net income was $4,653M and adjusted EPS was $5.31.",
+    "Mastercard bought back 5.3 million shares for $3.0B in the quarter and paid $763M of dividends, with $4.9B of buyback capacity left."
+  ],
+  "otherDetail": "Other income (expense) was −$121M: $88M of investment income and $46M of other income, outweighed by $250M of interest expense and a $5M loss on equity investments.",
+  "periodEnd": "2026-09-30",
+  "pngFooterNote": "Revenue is reported net of $6,369M of rebates and incentives.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+14%",
+  "segments": [
+    {
+      "amountM": 5749,
+      "name": "Payment network",
+      "note": "The toll for running the card network — the fees banks pay per swipe, after the $6,369M of rebates Mastercard pays to win and keep card business. Gross assessments before those rebates were $12,118M: domestic $3,211M, cross-border $3,841M, transaction processing $4,781M.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 4058,
+      "name": "Value-added services and solutions",
+      "note": "Everything beyond the swipe: fraud screening, data analytics, consulting, identity and cybersecurity tools sold to banks and merchants — now 41% of net revenue and the fastest-growing part.",
+      "shortName": "Value-added services",
+      "yoy": "+19%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "text": "Value-added services net revenue hit $4,058M — fraud tools, data and consulting now bring in 41 cents of every revenue dollar, and they grew nearly twice as fast as the payment network itself (+11%).",
+      "title": "The services side is the growth engine"
+    },
+    {
+      "stat": "$6.4B",
+      "statColor": "#cf5f4e",
+      "text": "Mastercard billed $12,118M of network assessments but handed $6,369M straight back to banks and merchants as incentives — and rebates grew 18%, faster than gross fees (+14%). The toll road keeps more traffic, but the toll-keepers bargain harder every year.",
+      "title": "Banks keep more of every swipe"
+    },
+    {
+      "stat": "$3.0T",
+      "statColor": "#3e8e5a",
+      "text": "Gross dollar volume rose 7% to $2,952B and purchase volume 9%, with switched transactions up 9%. Cross-border volume — the most profitable kind, from travel and cross-border e-commerce — grew 11% in local currency.",
+      "title": "The world keeps swiping"
+    }
+  ],
+  "ticker": "MA",
+  "verdict": "Mastercard's net revenue rose 14% to $9.8B as global card spending stayed strong and its fraud, data and consulting services grew 19% — the toll road on the world's spending keeps getting wider."
+}

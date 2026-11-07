@@ -1,0 +1,160 @@
+{
+  "company": "Chipotle",
+  "flow": {
+    "costName": "Restaurant operating costs",
+    "costOfRevenueM": 2525.005,
+    "costPlain": "Everything it costs to run the restaurants themselves: food, beverage and packaging ($972M), crew labor ($848M), occupancy ($179M) and other operating costs ($526M).",
+    "grossName": "Restaurant-level profit",
+    "grossProfitM": 768.157,
+    "netIncomeM": 339.874,
+    "operatingIncomeM": 451.964,
+    "opex": [
+      {
+        "amountM": 185.228,
+        "name": "General and administrative",
+        "note": "Running the company above the restaurant level — headquarters, marketing and support."
+      },
+      {
+        "amountM": 102.611,
+        "name": "Depreciation and amortization",
+        "note": "Spreading the cost of restaurant build-outs, equipment and technology.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "amountM": 15.104,
+        "name": "Pre-opening costs",
+        "note": "Costs to open new restaurants before they serve their first burrito bowl.",
+        "shortName": "Pre-opening"
+      },
+      {
+        "amountM": 13.25,
+        "name": "Impairment and closure costs",
+        "note": "Writing down or closing underperforming locations, and disposing of assets.",
+        "shortName": "Impairment & closures"
+      }
+    ],
+    "otherIncomeM": 5.161,
+    "revenueM": 3293.162,
+    "taxM": 117.251
+  },
+  "follow100": [
+    {
+      "amount": 99.54,
+      "label": "Food & beverage revenue"
+    },
+    {
+      "amount": 0.46,
+      "label": "Delivery service revenue"
+    },
+    {
+      "amount": -76.67,
+      "label": "Restaurant operating costs"
+    },
+    {
+      "amount": -5.62,
+      "label": "G&A"
+    },
+    {
+      "amount": -3.12,
+      "label": "Depreciation & amort."
+    },
+    {
+      "amount": -0.46,
+      "label": "Pre-opening"
+    },
+    {
+      "amount": -0.4,
+      "label": "Impairment & closures"
+    },
+    {
+      "amount": 0.16,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.56,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.32,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "More than three-quarters of every $100 never leaves the restaurant — ingredients, crew and rent eat it on site. Rows may not add exactly due to rounding.",
+  "footerNote": "Chipotle doesn't report gross profit; the middle step is its own 'restaurant-level operating profit' — revenue minus the four costs of running the restaurants.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+9.6% YoY",
+      "value": "$3.3B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "adjusted EPS was also $0.27",
+      "value": "$0.27"
+    },
+    {
+      "label": "Comparable sales",
+      "note": "transactions +0.8%, check +1.3%",
+      "value": "+2.1%"
+    },
+    {
+      "label": "Restaurant-level margin",
+      "note": "of revenue, at the store level",
+      "value": "23.3%"
+    }
+  ],
+  "oneTimers": [
+    "Inside the $13.25M impairment and closure line sits a $4.3M write-down of restaurant assets; together with $1.5M of retention-equity stock pay in G&A, these are the only items between GAAP net income of $339.9M and adjusted net income of $344.6M.",
+    "Chipotle repurchased $110M of its own stock in the quarter at an average of $34.05, with $1.6B of buyback authorization remaining."
+  ],
+  "otherDetail": "Other income was $5M — mostly interest earned on Chipotle's cash balances.",
+  "periodEnd": "2026-09-30",
+  "pngFooterNote": "The middle step is Chipotle's restaurant-level operating profit.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+9.6%",
+  "segments": [
+    {
+      "amountM": 3277.942,
+      "name": "Food and beverage revenue",
+      "note": "Burritos, bowls and drinks across 4,267 company-owned restaurants. Digital orders were 38.8% of this revenue, and 84 new restaurants opened in the quarter — 53 of them with a Chipotlane drive-thru.",
+      "yoy": "+9.7%"
+    },
+    {
+      "amountM": 15.22,
+      "name": "Delivery service revenue",
+      "note": "Delivery fees Chipotle collects on orders placed through its own app and website — a sliver next to the food itself.",
+      "shortName": "Delivery",
+      "yoy": "+7.3%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000103/cmg-20261028xex991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+2.1%",
+      "statColor": "#3d7bc8",
+      "text": "Comparable sales rose 2.1% — transactions up 0.8% and average check up 1.3% — a third straight quarter of positive traffic. Digital sales climbed to 38.8% of food and beverage revenue.",
+      "title": "Traffic is growing again"
+    },
+    {
+      "stat": "84",
+      "statColor": "#3e8e5a",
+      "text": "Chipotle opened 84 company-owned restaurants (53 with a Chipotlane) plus 5 partner-operated abroad, passing 4,200 total locations. Full-year guidance is unchanged: low-single-digit comp growth and 350–370 openings.",
+      "title": "The store machine keeps building"
+    },
+    {
+      "stat": "29.5%",
+      "statColor": "#5b6b7c",
+      "text": "Food, beverage and packaging costs fell to 29.5% of revenue from 30.0%, thanks to price increases, tariff relief and limited-time-offer mix — partly offset by beef and freight inflation. Restaurant-level margin was 23.3%.",
+      "title": "Food costs finally eased"
+    }
+  ],
+  "ticker": "CMG",
+  "verdict": "Chipotle grew revenue 9.6% to $3.3B — comparable sales up 2.1% with traffic positive for a third straight quarter, plus 84 new restaurants — though net profit fell 11% to $340M as costs below the restaurant line climbed."
+}

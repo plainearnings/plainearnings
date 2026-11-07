@@ -1,0 +1,188 @@
+{
+  "company": "Bank of America",
+  "flow": {
+    "costName": "Provision for credit losses",
+    "costOfRevenueM": 1269,
+    "costPlain": "Money set aside for loans expected to go bad — the closest thing a bank has to a cost of goods sold.",
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "grossProfitM": 28689,
+    "netIncomeM": 6933,
+    "opName": "Profit before tax",
+    "operatingIncomeM": 8967,
+    "opex": [
+      {
+        "amountM": 10969,
+        "name": "Compensation and benefits",
+        "note": "Pay and benefits for the bank's roughly 212,000 employees — well over half of all running costs."
+      },
+      {
+        "amountM": 2008,
+        "name": "Information processing and communications",
+        "note": "Technology, data processing and communications — the plumbing of a digital bank.",
+        "shortName": "Info processing & comms"
+      },
+      {
+        "amountM": 1967,
+        "name": "Occupancy and equipment",
+        "note": "Branches, offices, ATMs and the equipment in them."
+      },
+      {
+        "amountM": 1170,
+        "name": "Product delivery and transaction related",
+        "note": "The cost of moving money: processing payments, producing cards and handling transactions.",
+        "shortName": "Product delivery"
+      },
+      {
+        "amountM": 606,
+        "name": "Professional fees",
+        "note": "Lawyers, auditors and outside consultants."
+      },
+      {
+        "amountM": 669,
+        "name": "Marketing",
+        "note": "Advertising and promoting the bank's products."
+      },
+      {
+        "amountM": 2333,
+        "name": "Other general operating",
+        "note": "Everything else — this quarter it includes the $1.2B regulatory settlement charge.",
+        "shortName": "Other operating"
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 29958,
+    "taxM": 2034
+  },
+  "follow100": [
+    {
+      "amount": 54.91,
+      "label": "Net interest income"
+    },
+    {
+      "amount": 45.09,
+      "label": "Fees & trading income"
+    },
+    {
+      "amount": -4.24,
+      "label": "Credit costs"
+    },
+    {
+      "amount": -36.61,
+      "label": "Compensation & benefits"
+    },
+    {
+      "amount": -6.7,
+      "label": "Info processing & comms"
+    },
+    {
+      "amount": -6.57,
+      "label": "Occupancy & equipment"
+    },
+    {
+      "amount": -3.91,
+      "label": "Product delivery"
+    },
+    {
+      "amount": -2.02,
+      "label": "Professional fees"
+    },
+    {
+      "amount": -2.23,
+      "label": "Marketing"
+    },
+    {
+      "amount": -7.79,
+      "label": "Other operating"
+    },
+    {
+      "amount": -6.79,
+      "label": "Tax"
+    },
+    {
+      "amount": 23.14,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "People are the bank's biggest cost: $36.61 of every $100 goes to pay and benefits. Rows may not add exactly due to rounding.",
+  "footerNote": "Banks don't report gross profit; this chart follows Bank of America's own structure — revenue, less the cost of expected loan losses, less running costs. Noninterest income and expense components are from its Q3 2026 quarterly financial supplement (Exhibit 99.3).",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+3% YoY",
+      "value": "$30.0B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.08 excluding the settlement",
+      "value": "$0.91"
+    },
+    {
+      "label": "Net interest income",
+      "note": "+8% YoY",
+      "value": "$16.4B"
+    },
+    {
+      "label": "CET1 ratio",
+      "note": "capital strength, standardized",
+      "value": "10.9%"
+    }
+  ],
+  "oneTimers": [
+    "A $1.2B regulatory settlement charge sits inside 'Other general operating' expenses. It is not tax-deductible and cost $0.17 of EPS — excluding it, net income was $8.1B, EPS $1.08, and the efficiency ratio was 62% instead of the reported 66%.",
+    "Preferred stock dividends of $392M sit between net income ($6,933M) and the $6,541M attributable to common shareholders."
+  ],
+  "periodEnd": "2026-09-30",
+  "pngFooterNote": "Component lines are from its Q3 2026 financial supplement.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-14",
+  "revenueYoY": "+3%",
+  "segments": [
+    {
+      "amountM": 16449,
+      "name": "Net interest income",
+      "note": "The spread between what the bank earns on loans and securities and what it pays depositors and lenders — up 8% on bigger loan and deposit balances and repricing of older fixed-rate assets. The net interest yield was 2.16%.",
+      "yoy": "+8%"
+    },
+    {
+      "amountM": 13509,
+      "name": "Noninterest income",
+      "note": "Fees and trading: wealth and brokerage fees of $5,761M, market making of $2,360M, investment banking fees of $1,799M, service charges of $1,676M, card income of $1,561M and $352M of other income.",
+      "shortName": "Fees & trading income",
+      "yoy": "-2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm"
+    },
+    {
+      "label": "Quarterly financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "text": "Net interest income reached $16,449M as loans and deposits grew and old fixed-rate assets repriced to today's higher rates. The net interest yield widened to 2.16%, up 15 basis points from a year ago.",
+      "title": "The lending engine is earning more"
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#cf5f4e",
+      "text": "A $1.2B non-deductible regulatory settlement turned a solid quarter into a reported profit decline: net income fell 17% to $6,933M, but excluding the charge it was $8.1B with EPS of $1.08 instead of $0.91.",
+      "title": "One charge explains the profit drop"
+    },
+    {
+      "stat": "$8.3B",
+      "statColor": "#3e8e5a",
+      "text": "The bank returned $8.3B to shareholders ($6.0B of buybacks, $2.2B of dividends) while keeping its CET1 capital ratio at 10.9%. Net charge-offs were $1,349M — 0.44% of loans, slightly better than a year ago.",
+      "title": "Capital is strong and going back to shareholders"
+    }
+  ],
+  "ticker": "BAC",
+  "verdict": "Bank of America's revenue rose 3% to $30.0B with net interest income up 8%, but a one-time $1.2B regulatory settlement cut net income 17% to $6.9B — without it, profit was $8.1B."
+}

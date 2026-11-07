@@ -1,0 +1,166 @@
+{
+  "company": "PayPal",
+  "flow": {
+    "costName": "Transaction costs & credit losses",
+    "costOfRevenueM": 4634,
+    "costPlain": "What each payment costs PayPal to run: $4,248M of transaction expense (card-network and processing fees) plus $386M of transaction and credit losses on its loans.",
+    "grossName": "Transaction margin",
+    "grossProfitM": 3950,
+    "netIncomeM": 1073,
+    "operatingIncomeM": 1402,
+    "opex": [
+      {
+        "amountM": 434,
+        "name": "Customer support and operations",
+        "note": "Support staff and the cost of running payment operations."
+      },
+      {
+        "amountM": 508,
+        "name": "Sales and marketing",
+        "note": "Marketing, and winning merchants and users."
+      },
+      {
+        "amountM": 831,
+        "name": "Technology and development",
+        "note": "Building and running the PayPal and Venmo platforms."
+      },
+      {
+        "amountM": 520,
+        "name": "General and administrative",
+        "note": "Running the company: finance, legal, risk and offices."
+      },
+      {
+        "amountM": 255,
+        "name": "Restructuring and other",
+        "note": "Severance and reshaping costs — up from just $69M a year ago."
+      }
+    ],
+    "otherIncomeM": -28,
+    "revenueM": 8584,
+    "taxM": 301
+  },
+  "follow100": [
+    {
+      "amount": 89.83,
+      "label": "Transaction revenues"
+    },
+    {
+      "amount": 10.17,
+      "label": "Other value-added services"
+    },
+    {
+      "amount": -53.98,
+      "label": "Transaction costs & losses"
+    },
+    {
+      "amount": -5.06,
+      "label": "Customer support & ops"
+    },
+    {
+      "amount": -5.92,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -9.68,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -6.06,
+      "label": "G&A"
+    },
+    {
+      "amount": -2.97,
+      "label": "Restructuring"
+    },
+    {
+      "amount": -0.33,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.51,
+      "label": "Tax"
+    },
+    {
+      "amount": 12.5,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "More than half of every $100 is gone before PayPal's own staff are paid — that's the card networks' and processors' cut. Rows may not add exactly due to rounding.",
+  "footerNote": "PayPal doesn't print a gross-profit line; the split shown is its own 'transaction margin' math — revenue minus what each payment costs to process, and the credit losses on its lending.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+2% YoY",
+      "value": "$8.6B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.45 non-GAAP",
+      "value": "$1.25"
+    },
+    {
+      "label": "Total payment volume",
+      "note": "+6% YoY",
+      "value": "$487B"
+    },
+    {
+      "label": "Active accounts",
+      "note": "440 million, +0.6% YoY",
+      "value": "440M"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges were $255M, up from $69M a year ago — the main reason net income fell 14% even as revenue grew. PayPal's non-GAAP figures exclude $178M of that restructuring plus $33M of intangible amortization, giving non-GAAP EPS of $1.45 vs the GAAP $1.25.",
+    "Marks on strategic investments and crypto assets were a $3M loss — immaterial this quarter, after years of swinging PayPal's GAAP results."
+  ],
+  "otherDetail": "Other income (expense), net was −$28M — interest and investment results roughly cancelled out.",
+  "periodEnd": "2026-09-30",
+  "pngFooterNote": "The split shown is PayPal's own transaction-margin math.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+2%",
+  "segments": [
+    {
+      "amountM": 7711,
+      "name": "Transaction revenues",
+      "note": "The cut PayPal takes on every payment it processes — $487B of payment volume flowed through in the quarter, up 6%, across 6.8 billion transactions.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 873,
+      "name": "Revenues from other value added services",
+      "note": "Interest on customer balances, partner fees and other services around the core payment — a shrinking slice as rates and mix shift.",
+      "shortName": "Other value-added services",
+      "yoy": "-2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$487B",
+      "statColor": "#3d7bc8",
+      "text": "Total payment volume rose 6% to $487.1B and transactions rose 7% to 6.8 billion, with 440 million active accounts. The pipes are busier than ever — the question is how much PayPal keeps from each flow.",
+      "title": "The payment pipes keep growing"
+    },
+    {
+      "stat": "+2%",
+      "statColor": "#5b6b7c",
+      "text": "Revenue grew just 2%: transaction revenues +3%, value-added services −2%. U.S. revenue rose 5% while international fell 2%. This turnaround is being run on margins and buybacks, not top-line growth.",
+      "title": "Growth is thin, and uneven"
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#3e8e5a",
+      "text": "PayPal returned $1.5B to shareholders via buybacks in the quarter ($6.0B over twelve months) and declared a $0.14 dividend. Management also raised full-year non-GAAP EPS guidance to about $5.60.",
+      "title": "Shareholders are getting the cash"
+    }
+  ],
+  "ticker": "PYPL",
+  "verdict": "PayPal moved $487B of payments (+6%) but revenue grew only 2% to $8.6B, and a $255M restructuring bill helped cut net profit 14% to $1.1B — the turnaround story is now about discipline, not growth."
+}

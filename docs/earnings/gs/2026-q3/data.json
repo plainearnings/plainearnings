@@ -1,0 +1,194 @@
+{
+  "company": "Goldman Sachs",
+  "flow": {
+    "costName": "Provision for credit losses",
+    "costOfRevenueM": 368,
+    "costPlain": "Money set aside for loans expected to go bad, mostly impairments on wholesale loans this quarter.",
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "grossProfitM": 18311,
+    "netIncomeM": 5294,
+    "opName": "Profit before tax",
+    "operatingIncomeM": 7003,
+    "opex": [
+      {
+        "amountM": 5122,
+        "name": "Compensation and benefits",
+        "note": "Pay and bonuses — Goldman's biggest cost by far, about 27 cents of every revenue dollar."
+      },
+      {
+        "amountM": 3021,
+        "name": "Transaction based",
+        "note": "Costs that rise and fall with trading and deal volume: brokerage, clearing and exchange fees.",
+        "shortName": "Transaction-based"
+      },
+      {
+        "amountM": 183,
+        "name": "Market development",
+        "note": "Marketing and developing new business."
+      },
+      {
+        "amountM": 674,
+        "name": "Communications and technology",
+        "note": "Trading systems, market data and communications.",
+        "shortName": "Comms & technology"
+      },
+      {
+        "amountM": 537,
+        "name": "Depreciation and amortization",
+        "note": "Spreading the cost of offices, systems and equipment over their useful lives.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "amountM": 249,
+        "name": "Occupancy",
+        "note": "Rent and running costs for offices around the world."
+      },
+      {
+        "amountM": 424,
+        "name": "Professional fees",
+        "note": "Lawyers, accountants and outside advisers."
+      },
+      {
+        "amountM": 1098,
+        "name": "Other expenses",
+        "note": "Everything else — this quarter it includes significantly higher charitable contributions to Goldman Sachs Gives."
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 18679,
+    "taxM": 1709
+  },
+  "follow100": [
+    {
+      "amount": 79.81,
+      "label": "Trading & dealmaking fees"
+    },
+    {
+      "amount": 20.19,
+      "label": "Net interest income"
+    },
+    {
+      "amount": -1.97,
+      "label": "Credit costs"
+    },
+    {
+      "amount": -27.42,
+      "label": "Compensation & benefits"
+    },
+    {
+      "amount": -16.17,
+      "label": "Transaction-based costs"
+    },
+    {
+      "amount": -0.98,
+      "label": "Market development"
+    },
+    {
+      "amount": -3.61,
+      "label": "Comms & technology"
+    },
+    {
+      "amount": -2.87,
+      "label": "Depreciation & amort."
+    },
+    {
+      "amount": -1.33,
+      "label": "Occupancy"
+    },
+    {
+      "amount": -2.27,
+      "label": "Professional fees"
+    },
+    {
+      "amount": -5.88,
+      "label": "Other expenses"
+    },
+    {
+      "amount": -9.15,
+      "label": "Tax"
+    },
+    {
+      "amount": 28.34,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Almost half of every $100 (about $44) goes to the people — pay plus the transaction costs their deals generate. Rows may not add exactly due to rounding.",
+  "footerNote": "Banks don't report gross profit; this chart follows Goldman Sachs' own structure — revenue, less credit costs, less running costs. By business: Global Banking & Markets earned $13,458M (+32%) and Asset & Wealth Management $5,051M (+14%); Platform Solutions shrank to $170M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+23% YoY",
+      "value": "$18.7B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+39% YoY",
+      "value": "$17.01"
+    },
+    {
+      "label": "Assets under supervision",
+      "note": "a record high",
+      "value": "$4.10T"
+    },
+    {
+      "label": "Returned to shareholders",
+      "note": "$3.0B buybacks + $1.5B dividends",
+      "value": "$4.5B"
+    }
+  ],
+  "oneTimers": [
+    "Platform Solutions revenue fell 72% to $170M, mostly on markdowns of the Apple Card loan portfolio (moved to held-for-sale in late 2025) — the last drag from Goldman's abandoned consumer push.",
+    "Provisions for litigation and regulatory proceedings were just $23M, versus $131M a year ago.",
+    "'Other expenses' jumped because charitable contributions to Goldman Sachs Gives were significantly higher — the firm's own presentation estimates the drag at roughly $1.00 of EPS."
+  ],
+  "periodEnd": "2026-09-30",
+  "pngFooterNote": "By business: Global Banking & Markets $13,458M (+32%); Asset & Wealth Management $5,051M (+14%).",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-13",
+  "revenueYoY": "+23%",
+  "segments": [
+    {
+      "amountM": 14909,
+      "name": "Noninterest revenues",
+      "note": "Trading and dealmaking: market making brought in $5,658M, investment banking $3,233M, investment management $4,102M, commissions $1,515M and other principal transactions $401M. Equities alone earned $6,441M, up 72%.",
+      "shortName": "Trading & dealmaking fees",
+      "yoy": "+32%"
+    },
+    {
+      "amountM": 3770,
+      "name": "Net interest income",
+      "note": "Interest earned on loans and trading assets, minus the interest Goldman pays to fund them — a small slice at Goldman compared with Main Street banks, and it shrank 2%.",
+      "yoy": "-2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresults.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+72%",
+      "statColor": "#3d7bc8",
+      "text": "Equities revenue hit $6,441M — financing up 96% and intermediation up 52% — while FICC was flat at $3,471M. Clients traded and borrowed against stocks at a pace Goldman rarely sees.",
+      "title": "Equities carried the quarter"
+    },
+    {
+      "stat": "$4.10T",
+      "statColor": "#3e8e5a",
+      "text": "Assets under supervision reached a record $4,097B, up from $3,452B a year ago, and Asset & Wealth Management fees rose 22%. Dealmaking helped too: investment banking fees of $3,224M rose 21%, with equity underwriting up 43%.",
+      "title": "The wealth business hit a record"
+    },
+    {
+      "stat": "-72%",
+      "statColor": "#cf5f4e",
+      "text": "Platform Solutions — the remains of the consumer experiment — shrank to $170M of revenue on Apple Card markdowns. It's now less than 1% of the firm; the quarter shows Goldman fully back to its wholesale roots.",
+      "title": "The consumer hangover is nearly over"
+    }
+  ],
+  "ticker": "GS",
+  "verdict": "Goldman Sachs rode a trading and dealmaking boom to $18.7B of revenue (+23%) and $5.3B of profit — equities revenue jumped 72% — while its leftover consumer business shrank to almost nothing."
+}

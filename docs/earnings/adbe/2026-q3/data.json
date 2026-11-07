@@ -1,0 +1,165 @@
+{
+  "company": "Adobe",
+  "flow": {
+    "costOfRevenueM": 763,
+    "costPlain": "Running Adobe's cloud services — data centers, customer support and the cost of delivering its software.",
+    "grossProfitM": 5997,
+    "netIncomeM": 1827,
+    "operatingIncomeM": 2354,
+    "opex": [
+      {
+        "amountM": 1288,
+        "name": "Research & development",
+        "note": "Building Photoshop, Acrobat, Firefly AI and the rest of the product line."
+      },
+      {
+        "amountM": 1827,
+        "name": "Sales & marketing",
+        "note": "Sales teams, advertising and marketing — Adobe's biggest running cost."
+      },
+      {
+        "amountM": 488,
+        "name": "General & administrative",
+        "note": "Running the company day to day: finance, legal, HR, offices."
+      },
+      {
+        "amountM": 40,
+        "name": "Amortization of intangibles",
+        "note": "Spreading the cost of technology and customer relationships bought in past acquisitions.",
+        "shortName": "Amortization"
+      }
+    ],
+    "otherIncomeM": 3,
+    "revenueM": 6760,
+    "taxM": 530
+  },
+  "follow100": [
+    {
+      "amount": 97.37,
+      "label": "Subscription"
+    },
+    {
+      "amount": 0.99,
+      "label": "Product"
+    },
+    {
+      "amount": 1.64,
+      "label": "Services & other"
+    },
+    {
+      "amount": -11.29,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -19.05,
+      "label": "R&D"
+    },
+    {
+      "amount": -27.03,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.22,
+      "label": "G&A"
+    },
+    {
+      "amount": -0.59,
+      "label": "Amortization"
+    },
+    {
+      "amount": 0.04,
+      "label": "Other income"
+    },
+    {
+      "amount": -7.84,
+      "label": "Tax"
+    },
+    {
+      "amount": 27.03,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The split to notice: sales & marketing ($27.03) costs Adobe more per $100 than research & development ($19.05). Rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+13% YoY",
+      "value": "$6.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $6.13 non-GAAP",
+      "value": "$4.62"
+    },
+    {
+      "label": "Total ARR",
+      "note": "annualized recurring revenue",
+      "value": "$27.5B"
+    },
+    {
+      "label": "Buybacks",
+      "note": "about 9.5M shares in the quarter",
+      "value": "$2.2B"
+    }
+  ],
+  "oneTimers": [
+    "Adobe's non-GAAP profit of $2,424M (EPS $6.13) excludes $544M of stock-based and deferred compensation plus $58M of intangible amortization — the gap between the two profit figures is mostly paying employees in shares.",
+    "Adobe raised its full-year FY26 targets alongside this print: revenue of $26,576M–$26,626M and GAAP EPS of $18.12–$18.17."
+  ],
+  "otherDetail": "Non-operating items netted to just $3M of income: $21M of investment gains and $48M of other income, almost fully offset by $66M of interest expense.",
+  "periodEnd": "2026-08-28",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-09-10",
+  "revenueYoY": "+13%",
+  "segments": [
+    {
+      "amountM": 6582,
+      "name": "Subscription",
+      "note": "Creative Cloud, Acrobat and Experience Cloud subscriptions — 97 cents of every revenue dollar. Creative & Marketing Professionals paid $4,650M (+13%); Business Professionals & Consumers paid $1,910M (+16%).",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 67,
+      "name": "Product",
+      "note": "One-time software licenses — a small, shrinking legacy line from before Adobe moved to subscriptions.",
+      "shortName": "Product",
+      "yoy": "-1%"
+    },
+    {
+      "amountM": 111,
+      "name": "Services and other",
+      "note": "Consulting, training and support services sold alongside the software.",
+      "shortName": "Services & other",
+      "yoy": "-14%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+150%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue from Adobe's AI-first products grew more than 150% year over year, and the company passed 1 billion monthly active users across its creativity and productivity apps. The AI add-ons are becoming a real business, not a demo.",
+      "title": "AI is Adobe's growth engine now"
+    },
+    {
+      "stat": "$27.5B",
+      "statColor": "#3e8e5a",
+      "text": "Total ARR — the annualized value of all subscriptions — ended the quarter at $27.50B, and remaining performance obligations (contracted future revenue) reached $22.16B. Very little of Adobe's revenue has to be re-won each quarter.",
+      "title": "The subscription machine keeps compounding"
+    },
+    {
+      "stat": "+3%",
+      "statColor": "#5b6b7c",
+      "text": "Revenue rose 13% but net income only 3.1%, to $1,827M. Spending on R&D and sales grew, and stock-based pay of $544M counts in GAAP profit even though Adobe's non-GAAP number ($2,424M) leaves it out.",
+      "title": "Profit is not keeping up with revenue"
+    }
+  ],
+  "ticker": "ADBE",
+  "verdict": "Adobe grew revenue 13% to $6.8B and passed 1 billion monthly users, with its AI-first products' recurring revenue up more than 150% — but net profit rose just 3%, squeezed by heavy product and sales spending."
+}

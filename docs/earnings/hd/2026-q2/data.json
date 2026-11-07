@@ -1,0 +1,127 @@
+{
+  "company": "Home Depot",
+  "flow": {
+    "costName": "Cost of sales",
+    "costOfRevenueM": 31746,
+    "costPlain": "What Home Depot paid suppliers for the merchandise it sold, plus the cost of getting it into stores.",
+    "grossProfitM": 16115,
+    "netIncomeM": 4766,
+    "operatingIncomeM": 6839,
+    "opex": [
+      {
+        "amountM": 8424,
+        "name": "Selling, general & administrative",
+        "note": "Store payroll, rent, advertising and running the head office.",
+        "shortName": "SG&A"
+      },
+      {
+        "amountM": 852,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of stores, warehouses and equipment over their useful lives — including $178M of amortization tied to acquired companies like SRS.",
+        "shortName": "Depreciation & amort."
+      }
+    ],
+    "otherIncomeM": -524,
+    "revenueM": 47861,
+    "taxM": 1549
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Net sales"
+    },
+    {
+      "amount": -66.33,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -17.6,
+      "label": "SG&A"
+    },
+    {
+      "amount": -1.78,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -1.09,
+      "label": "Interest & other"
+    },
+    {
+      "amount": -3.24,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.96,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Two-thirds of every $100 goes straight back out as the cost of the merchandise itself — retail keeps a much thinner slice than software does. Rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+5.7% YoY",
+      "value": "$47.9B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $4.92 adjusted",
+      "value": "$4.79"
+    },
+    {
+      "label": "Comparable sales",
+      "note": "+1.3% in the U.S.",
+      "value": "+1.7%"
+    },
+    {
+      "label": "Average ticket",
+      "note": "+2.8%, on 1.0% fewer transactions",
+      "value": "$92.50"
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results exclude $178M of amortization from acquired intangibles (including $125M tied to SRS) — on that basis EPS was $4.92 instead of the GAAP $4.79.",
+    "The reaffirmed guidance assumes IEEPA tariff refunds will partly offset unplanned fuel, energy and other product input costs this year."
+  ],
+  "otherDetail": "Interest and other, net was a $524M cost: $583M of interest expense on Home Depot's debt, partly offset by $59M of interest and other income.",
+  "periodEnd": "2026-08-02",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-08-18",
+  "revenueYoY": "+5.7%",
+  "segments": [
+    {
+      "amountM": 47861,
+      "name": "Net sales",
+      "note": "Everything sold through 2,364 Home Depot stores and its website, plus the SRS and GMS professional-supply businesses Home Depot has been buying to win more contractor spending.",
+      "yoy": "+5.7%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000145/hd_exhibit991x08022026.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+1.7%",
+      "statColor": "#3d7bc8",
+      "text": "Comparable sales rose 1.7% overall and 1.3% in the U.S. Transactions fell 1.0% while the average ticket rose 2.8% to $92.50 — fewer trips, slightly bigger baskets, and a tilt toward smaller projects.",
+      "title": "Same-store growth is barely positive"
+    },
+    {
+      "stat": "+5.7%",
+      "statColor": "#3e8e5a",
+      "text": "Total sales grew 5.7% — far faster than comparable sales. The gap is SRS Distribution and GMS, the professional-supply distributors Home Depot bought so its growth depends less on DIY shoppers waiting out high mortgage rates.",
+      "title": "Acquisitions are doing the heavy lifting"
+    },
+    {
+      "stat": "~12.5%",
+      "statColor": "#5b6b7c",
+      "text": "Home Depot reaffirmed its FY26 plan: sales growth of 2.5–4.5%, comparable sales flat to +2%, and a full-year operating margin around 12.4–12.6%. Management is planning for another year of muted big-project demand.",
+      "title": "Guidance assumes the housing freeze lasts"
+    }
+  ],
+  "ticker": "HD",
+  "verdict": "Home Depot grew sales 5.7% to $47.9B, but comparable sales rose only 1.7% — shoppers came less often and spent a little more per trip, leaning into smaller projects while big remodels stayed on hold."
+}
