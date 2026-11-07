@@ -1,0 +1,167 @@
+{
+  "company": "Nasdaq, Inc.",
+  "flow": {
+    "costOfRevenueM": 912,
+    "grossProfitM": 1481,
+    "netIncomeM": 539,
+    "operatingIncomeM": 732,
+    "opex": [
+      {
+        "amountM": 379,
+        "name": "Compensation and benefits",
+        "note": "Pay for the people who run the markets and build the software \u2014 the biggest running cost, up 7% as headcount grew."
+      },
+      {
+        "amountM": 165,
+        "name": "Depreciation & amortization",
+        "note": "Mostly spreading the purchase price of past acquisitions (like the Adenza deal) over time \u2014 a non-cash charge."
+      },
+      {
+        "amountM": 127,
+        "name": "Technology & facilities",
+        "note": "The systems and communications that keep trading running ($93M) plus offices and occupancy ($34M)."
+      },
+      {
+        "amountM": 78,
+        "name": "Professional, marketing & other",
+        "note": "Outside professional and contract services ($42M), marketing ($17M), regulatory fees ($11M), merger and strategy work ($6M) and general & administrative costs ($2M)."
+      }
+    ],
+    "otherIncomeM": -31,
+    "revenueM": 2393,
+    "taxM": 162
+  },
+  "follow100": [
+    {
+      "amount": 26.79,
+      "label": "Capital Access Platforms"
+    },
+    {
+      "amount": 22.11,
+      "label": "Financial Technology"
+    },
+    {
+      "amount": 51.02,
+      "label": "Market Services"
+    },
+    {
+      "amount": 0.08,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -38.11,
+      "label": "Transaction-based costs"
+    },
+    {
+      "amount": -15.84,
+      "label": "Compensation and benefits"
+    },
+    {
+      "amount": -6.9,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -5.31,
+      "label": "Technology & facilities"
+    },
+    {
+      "amount": -3.26,
+      "label": "Professional, marketing & other"
+    },
+    {
+      "amount": -1.3,
+      "label": "Interest & other, net"
+    },
+    {
+      "amount": -6.77,
+      "label": "Tax"
+    },
+    {
+      "amount": 22.52,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Nasdaq passes a large share of trading revenue straight back out as transaction rebates ($623M) and brokerage, clearance and exchange fees ($289M) \u2014 those are treated here as the cost of revenue, matching Nasdaq's own 'revenues less transaction-based expenses' line of $1,481M. Operating-expense lines are grouped from the release's ten lines into four; the total ($749M) is unchanged.",
+  "kpis": [
+    {
+      "label": "Revenue (gross)",
+      "note": "before transaction-based expenses",
+      "value": "$2.4B"
+    },
+    {
+      "label": "Net revenue",
+      "note": "+13% YoY",
+      "value": "$1.5B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+31% YoY",
+      "value": "$0.96"
+    },
+    {
+      "label": "Net income",
+      "note": "+27% YoY",
+      "value": "$539M"
+    }
+  ],
+  "otherDetail": "Interest expense of $86M, partly offset by $38M earned from unconsolidated investees, $11M of other income and $10M of interest income, plus a $4M loss on divestitures \u2014 a net $31M cost below operating profit.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+21%",
+  "segments": [
+    {
+      "amountM": 641,
+      "name": "Capital Access Platforms",
+      "note": "Listing fees, the index business and corporate data services. Index revenue alone grew 39% to $286M, with $49B of net inflows into Nasdaq-indexed products in the quarter. Segment revenue up 20%.",
+      "yoy": "+20%"
+    },
+    {
+      "amountM": 529,
+      "name": "Financial Technology",
+      "note": "Software sold to banks, brokers and exchanges \u2014 anti-financial-crime tools, regulatory reporting and market technology. Recurring by nature; revenue up 16%.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 1221,
+      "name": "Market Services",
+      "note": "The trading venues themselves \u2014 stocks, options, futures and digital-asset market infrastructure. Gross revenue up 26% on heavy trading volumes; much of it is paid back out as rebates and fees (see cost of revenue).",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 2,
+      "name": "Other revenues",
+      "note": "A small residual line, down from $21M a year ago.",
+      "yoy": "-90%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000017/earningsrelease3q26ex-991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "text": "Market Services gross revenue jumped to $1,221M on surging trading volumes. After paying out $912M of rebates and pass-through fees, Nasdaq kept $1,481M of net revenue \u2014 up 13% \u2014 and a record quarter for its new Digital Liquidity Networks business.",
+      "title": "Trading volumes surged"
+    },
+    {
+      "stat": "+39%",
+      "statColor": "#3d7bc8",
+      "text": "Index revenue grew 39% to $286M as investors poured $49B into Nasdaq-indexed products in the quarter ($141B over twelve months) \u2014 high-margin money that arrives whether or not trading is busy.",
+      "title": "The index business is booming"
+    },
+    {
+      "stat": "$3.4B",
+      "statColor": "#3d7bc8",
+      "text": "Annualized recurring revenue reached $3.4B, up 12%, and Solutions revenue grew 17%. The steady software-and-data income is why profit rose 27% even in a business built on volatile trading.",
+      "title": "Recurring revenue keeps compounding"
+    }
+  ],
+  "ticker": "NDAQ",
+  "verdict": "Profit rose 27% to $539M as trading volumes surged and the index and software businesses kept compounding \u2014 net revenue grew 13% to $1.5B."
+}

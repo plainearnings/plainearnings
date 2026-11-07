@@ -1,0 +1,133 @@
+{
+  "company": "Norwegian Cruise Line Holdings",
+  "flow": {
+    "costOfRevenueM": 1668,
+    "grossProfitM": 1279,
+    "netIncomeM": 491,
+    "operatingIncomeM": 624,
+    "opex": [
+      {
+        "amountM": 367,
+        "name": "Marketing, general & administrative",
+        "note": "Selling cruises, advertising, and running the head office \u2014 actually down from $383M a year ago as cost discipline kicked in."
+      },
+      {
+        "amountM": 288,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of the fleet and other long-lived assets over their useful lives \u2014 a non-cash charge that grows as new ships arrive."
+      }
+    ],
+    "otherIncomeM": -140,
+    "revenueM": 2947,
+    "taxM": -7
+  },
+  "follow100": [
+    {
+      "amount": 66.03,
+      "label": "Passenger ticket"
+    },
+    {
+      "amount": 33.97,
+      "label": "Onboard and other"
+    },
+    {
+      "amount": -56.6,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -12.45,
+      "label": "Marketing & G&A"
+    },
+    {
+      "amount": -9.77,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -4.75,
+      "label": "Interest & other, net"
+    },
+    {
+      "amount": 0.24,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 16.66,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Norwegian actually got a small $7M tax benefit this quarter, which is why the tax row adds a few cents back instead of taking money out.",
+  "footerNote": "Figures are rounded to the nearest $M from the release, which reports in thousands. Total cruise operating expense (crew, fuel, food, commissions and onboard costs) is treated as the cost of revenue; the tax line was a $7M benefit this quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+0.3% YoY",
+      "value": "$2.9B"
+    },
+    {
+      "label": "Net income",
+      "note": "+17% YoY",
+      "value": "$491M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.86 a year ago",
+      "value": "$1.07"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "above the $0.90 guidance",
+      "value": "$1.12"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring costs were $2.7M in the quarter ($22.4M over the first nine months) as the turnaround program reshapes the company. Norwegian excludes them from adjusted results: adjusted net income was $514M versus $491M on a GAAP basis."
+  ],
+  "otherDetail": "Interest expense, net, of $171M \u2014 the cost of carrying $15.1B of debt \u2014 partly offset by $31M of other income, for a net $140M cost below operating profit. Interest was nearly half last year's $329M after refinancing.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+0.3%",
+  "segments": [
+    {
+      "amountM": 1946,
+      "name": "Passenger ticket",
+      "note": "The fares themselves, across Norwegian Cruise Line, Oceania Cruises and Regent Seven Seas. Down 5% as ticket pricing softened (Net Yield fell 6.5%), even though the fleet sailed 5% more capacity days.",
+      "yoy": "-5%"
+    },
+    {
+      "amountM": 1001,
+      "name": "Onboard and other",
+      "note": "Everything guests buy around the cruise \u2014 drinks, shore excursions, spa, casino, specialty dining, plus air and hotel add-ons sold with the trip. Up 13% on stronger-than-expected close-in demand and onboard spend.",
+      "yoy": "+13%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513761/000117184326006957/exh_991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "text": "Ticket revenue fell 5% to $1,946M as pricing softened, but onboard and other revenue jumped 13% to $1,001M \u2014 guests who paid less for the fare spent more once they were on the ship.",
+      "title": "Onboard spending carried the quarter"
+    },
+    {
+      "stat": "-48%",
+      "statColor": "#3d7bc8",
+      "text": "Interest expense, net, dropped to $171M from $329M a year ago after refinancing. That is the main reason net income rose 17% even though operating income fell 17% to $624M \u2014 running the ships cost more, financing them cost much less.",
+      "title": "The interest bill nearly halved"
+    },
+    {
+      "stat": "106.5%",
+      "statColor": "#3d7bc8",
+      "text": "Occupancy hit 106.5% (some cabins held three or more guests) on 5% more capacity days. Management raised full-year adjusted EPS guidance to about $1.70 and flagged roughly $100M of extra run-rate savings phasing in through 2028.",
+      "title": "Ships sailed more than full"
+    }
+  ],
+  "ticker": "NCLH",
+  "verdict": "Profit jumped 17% to $491M even though ticket revenue dipped \u2014 guests spent 13% more once onboard, and refinancing nearly halved the interest bill."
+}
