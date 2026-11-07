@@ -1,0 +1,189 @@
+{
+  "ticker": "PFE",
+  "company": "Pfizer",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "flat",
+  "verdict": "Pfizer's revenue was flat at $16.6B because its COVID products kept shrinking \u2014 Paxlovid fell 63% and Comirnaty 30% \u2014 but the rest of the business grew 7% operationally, Eliquis jumped 25%, and Pfizer raised its full-year guidance.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$16.6B",
+      "note": "flat YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.56",
+      "note": "vs $0.62 a year ago"
+    },
+    {
+      "label": "Adjusted EPS (non-GAAP)",
+      "value": "$0.87",
+      "note": "flat YoY"
+    },
+    {
+      "label": "Eliquis revenue",
+      "value": "$2.5B",
+      "note": "+25% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product revenues",
+      "amountM": 13255,
+      "yoy": "-5%",
+      "note": "Medicines Pfizer sells itself \u2014 down 5% as COVID products Paxlovid and Comirnaty shrank faster than other drugs grew."
+    },
+    {
+      "name": "Alliance revenues",
+      "amountM": 2851,
+      "yoy": "+24%",
+      "note": "Pfizer's share of products sold with partners \u2014 led by Eliquis, the blood thinner co-promoted with Bristol Myers Squibb, up 25% to $2.5B."
+    },
+    {
+      "name": "Royalty revenues",
+      "amountM": 477,
+      "yoy": "+9%",
+      "note": "Royalties on products sold by other companies under Pfizer licenses."
+    }
+  ],
+  "flow": {
+    "revenueM": 16583,
+    "costOfRevenueM": 4028,
+    "grossProfitM": 12555,
+    "opex": [
+      {
+        "name": "Selling, informational & administrative",
+        "amountM": 3279,
+        "note": "Selling, informing doctors and running the company."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 3016,
+        "note": "Developing new medicines \u2014 up 18% as the pipeline expanded."
+      },
+      {
+        "name": "Acquired in-process R&D",
+        "amountM": 669,
+        "note": "Research bought from other companies and expensed at once \u2014 mostly a one-time $650M charge for the Innovent Biologics licensing deal.",
+        "compact": true
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 1128,
+        "note": "Spreading the cost of drug rights bought in past acquisitions over their useful lives \u2014 a non-cash charge.",
+        "compact": true
+      },
+      {
+        "name": "Restructuring & acquisition costs",
+        "amountM": 791,
+        "note": "Charges from Pfizer's cost-cutting program and acquisition-related costs.",
+        "compact": true
+      },
+      {
+        "name": "Other deductions, net",
+        "amountM": 288,
+        "note": "Costs and losses outside the main operating lines, net of other income.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 3384,
+    "otherIncomeM": 0,
+    "equityM": -8,
+    "taxM": 134,
+    "netIncomeM": 3242
+  },
+  "otherDetail": "$10M of profit belonged to noncontrolling interests, partly offset by $1M from discontinued operations and $1M of rounding in Pfizer's millions-rounded lines \u2014 a net $8M.",
+  "follow100": [
+    {
+      "label": "Product revenues",
+      "amount": 79.93
+    },
+    {
+      "label": "Alliance revenues",
+      "amount": 17.19
+    },
+    {
+      "label": "Royalty revenues",
+      "amount": 2.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.29
+    },
+    {
+      "label": "Selling, informational & administrative",
+      "amount": -19.77
+    },
+    {
+      "label": "Research & development",
+      "amount": -18.19
+    },
+    {
+      "label": "Acquired in-process R&D",
+      "amount": -4.03
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -6.8
+    },
+    {
+      "label": "Restructuring & acquisition costs",
+      "amount": -4.77
+    },
+    {
+      "label": "Other deductions, net",
+      "amount": -1.74
+    },
+    {
+      "label": "Noncontrolling interests & other",
+      "amount": -0.05
+    },
+    {
+      "label": "Tax",
+      "amount": -0.81
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.55
+    }
+  ],
+  "follow100Note": "Pfizer kept $19.55 of every $100 of revenue as profit for its shareholders. Rows are rounded to cents.",
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3e8e5a",
+      "title": "Eliquis and cancer drugs are carrying growth",
+      "text": "Eliquis revenue rose 25% to $2.5B and oncology rose 10% to $4.3B, led by Padcev (+55%) and Lorbrena (+44%). Launched and acquired products grew 32% operationally."
+    },
+    {
+      "stat": "-63%",
+      "statColor": "#cf5f4e",
+      "title": "COVID is still shrinking",
+      "text": "Paxlovid fell 63% to $449M and Comirnaty fell 30% to $808M. Excluding both COVID products, Pfizer's revenue grew 7% operationally \u2014 the flat headline hides a growing core."
+    },
+    {
+      "stat": "$62\u201364B",
+      "statColor": "#3d7bc8",
+      "title": "Guidance went up",
+      "text": "Pfizer raised full-year 2026 revenue guidance by $1.5B at the midpoint to $62.0\u2013$64.0B and narrowed adjusted EPS guidance to $2.95\u2013$3.05, citing strong year-to-date performance."
+    }
+  ],
+  "oneTimers": [
+    "$669M of acquired in-process R&D charges, including a one-time $650M charge for the in-licensing and collaboration agreement with Innovent Biologics \u2014 worth about $0.10 per share. Pfizer is buying pipeline and expensing it immediately.",
+    "$791M of restructuring charges and certain acquisition-related costs, up from $286M a year ago. Together with $1,128M of intangible amortization, these are the main reason GAAP EPS ($0.56) sits well below adjusted EPS ($0.87)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-9272026xex99.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 27, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm"
+    }
+  ],
+  "footerNote": "Pfizer's printed lines round $1M apart; this chart uses a $3,384M pre-tax profit so the flow balances to the reported $3,242M net income."
+}

@@ -1,0 +1,186 @@
+{
+  "ticker": "PGR",
+  "company": "Progressive Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+5%",
+  "verdict": "Progressive earned $2.5B in the quarter as premiums earned rose 5% and underwriting stayed highly profitable \u2014 an 88.7% combined ratio, far better than its 96% goal \u2014 even though higher claim severity pushed the loss ratio up.",
+  "kpis": [
+    {
+      "label": "Net premiums earned",
+      "value": "$21.9B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.37",
+      "note": "vs $4.45 a year ago"
+    },
+    {
+      "label": "Combined ratio",
+      "value": "88.7%",
+      "note": "11.3% underwriting margin vs a 4% goal"
+    },
+    {
+      "label": "Net premiums written",
+      "value": "$22.3B",
+      "note": "+4% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net premiums earned",
+      "amountM": 21869,
+      "yoy": "+5%",
+      "note": "Premiums from auto, home and other insurance policies, earned over the coverage period. Personal Lines was $19.1B of it; Commercial Lines $2.8B."
+    },
+    {
+      "name": "Investment income",
+      "amountM": 1035,
+      "yoy": "+12%",
+      "note": "Interest and dividends on the money Progressive invests between collecting premiums and paying claims."
+    },
+    {
+      "name": "Fees and other revenues",
+      "amountM": 311,
+      "yoy": "+2%",
+      "note": "Policy and service fees collected alongside premiums."
+    },
+    {
+      "name": "Service revenues",
+      "amountM": 147,
+      "yoy": "+7%",
+      "note": "Revenue from service businesses Progressive runs alongside insurance."
+    }
+  ],
+  "flow": {
+    "revenueM": 23362,
+    "costOfRevenueM": 14904,
+    "grossProfitM": 8458,
+    "opex": [
+      {
+        "name": "Policy acquisition costs",
+        "amountM": 1607,
+        "note": "Commissions and the cost of winning and writing policies."
+      },
+      {
+        "name": "Other underwriting expenses",
+        "amountM": 3196,
+        "note": "Running the insurance operations day to day."
+      },
+      {
+        "name": "Service expenses",
+        "amountM": 152,
+        "note": "The cost of running Progressive's service businesses.",
+        "compact": true
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 87,
+        "note": "Interest on Progressive's borrowings."
+      },
+      {
+        "name": "Investment expenses",
+        "amountM": 10,
+        "note": "The cost of managing the investment portfolio."
+      }
+    ],
+    "operatingIncomeM": 3406,
+    "otherIncomeM": -170,
+    "taxM": 694,
+    "netIncomeM": 2542
+  },
+  "otherDetail": "Net realized losses on securities of $170M \u2014 $161M of holding-period losses on securities still held and $9M of losses on securities sold.",
+  "follow100": [
+    {
+      "label": "Net premiums earned",
+      "amount": 93.61
+    },
+    {
+      "label": "Investment income",
+      "amount": 4.43
+    },
+    {
+      "label": "Fees and other revenues",
+      "amount": 1.33
+    },
+    {
+      "label": "Service revenues",
+      "amount": 0.63
+    },
+    {
+      "label": "Losses & loss adjustment expenses",
+      "amount": -63.8
+    },
+    {
+      "label": "Policy acquisition costs",
+      "amount": -6.88
+    },
+    {
+      "label": "Other underwriting expenses",
+      "amount": -13.68
+    },
+    {
+      "label": "Service expenses",
+      "amount": -0.65
+    },
+    {
+      "label": "Interest expense",
+      "amount": -0.37
+    },
+    {
+      "label": "Investment expenses",
+      "amount": -0.04
+    },
+    {
+      "label": "Other expense (realized losses)",
+      "amount": -0.73
+    },
+    {
+      "label": "Tax",
+      "amount": -2.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.88
+    }
+  ],
+  "follow100Note": "For every $100 Progressive took in, $10.88 was kept as profit. Revenue here is premiums earned plus investment income, fees and service revenues ($23,362M); reported total revenues were $23,192M after the $170M of realized securities losses shown as other expense. Losses and loss adjustment expenses are an insurer's cost of revenue. Rows are rounded to cents.",
+  "takeaways": [
+    {
+      "stat": "88.7%",
+      "statColor": "#3d7bc8",
+      "title": "Underwriting beat its own target by a lot",
+      "text": "The combined ratio of 88.7% means claims and expenses took 89 cents of every premium dollar. Pretax underwriting profit was $2,473M, up from $2,190M \u2014 well ahead of Progressive's standing goal of a 96% combined ratio."
+    },
+    {
+      "stat": "+6%",
+      "statColor": "#3e8e5a",
+      "title": "Still growing, just slower",
+      "text": "Policies in force rose 6% year over year (2.4 million more policies) and net premiums written rose 4% to $22.3B. Growth moderated from last year's pace as competition increased and Progressive cut average rates."
+    },
+    {
+      "stat": "$534M",
+      "statColor": "#5b6b7c",
+      "title": "Old claims cost less than expected",
+      "text": "Reserves set aside for prior-year claims proved $534M more than needed, cutting 2.4 points off the combined ratio. Catastrophe losses were $388M, up from $219M a year ago."
+    }
+  ],
+  "oneTimers": [
+    "No Florida policyholder credits this year: the third quarter of 2025 carried $950M of credits to Florida personal-auto policyholders, which added 4.6 points to last year's underwriting expense ratio \u2014 a big reason this year's expense ratio looks so much better.",
+    "Net realized losses on securities were $170M, versus gains of $295M a year ago \u2014 a $465M swing that explains why net income fell 3% even though underwriting profit rose 13%."
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm"
+    },
+    {
+      "label": "September 2026 monthly earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000367/pgr202609ex99earningsrelea.htm"
+    }
+  ],
+  "footerNote": "Progressive reports monthly; this page uses its third-quarter Form 10-Q."
+}

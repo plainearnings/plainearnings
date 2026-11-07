@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parker Hannifin — FY27 Q1 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Parker Hannifin FY27 Q1 earnings in plain English: Parker Hannifin posted record first-quarter sales of $6.0B, up 18% — 11.5% of it organic — as demand rose across every market it serves, and it raised its full-year outlook after closing the Filtration Group acquisition.">
+<meta property="og:title" content="Parker Hannifin — FY27 Q1 Earnings, Explained Simply">
+<meta property="og:description" content="Parker Hannifin posted record first-quarter sales of $6.0B, up 18% — 11.5% of it organic — as demand rose across every market it serves, and it raised its full-year outlook after closing the Filtration Group acquisition.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/ph/2027-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/ph/2027-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Parker Hannifin quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Parker Hannifin <span class="thin">(PH)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="../2027-q1/">
+        <span class="q-label">FY27 Q1</span>
+        <span class="q-badge">+18%</span>
+        <span class="q-meta">Reported 2026-11-05 · Revenue $5,992M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Parker Hannifin — FY27 Q1 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>FY27 Q1</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-05
+    </div>
+  </header>
+
+  <p class="verdict">Parker Hannifin posted record first-quarter sales of $6.0B, up 18% — 11.5% of it organic — as demand rose across every market it serves, and it raised its full-year outlook after closing the Filtration Group acquisition.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$6.0B</b></span><span class="chip">EPS (GAAP)<b>$6.92</b></span><span class="chip">Adjusted EPS (non-GAAP)<b>$8.90</b></span><span class="chip">Organic sales growth<b>+11.5%</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Parker Hannifin's FY27 Q1 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Parker Hannifin took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Diversified Industrial</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$69.29</span></div>
+          <div class="hrow"><span class="hlabel">Aerospace Systems</span><div class="htrack"><div class="hfill" data-w="45.0" style="background:#3D7BC8"></div></div><span class="hval">$31.16</span></div>
+          <div class="hrow"><span class="hlabel">Corporate — tariff returns</span><div class="htrack"><div class="hfill" data-w="0.6" style="background:#D96A57"></div></div><span class="hval">−$0.45</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="89.9" style="background:#D96A57"></div></div><span class="hval">−$62.27</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="25.6" style="background:#CF5F4E"></div></div><span class="hval">−$17.77</span></div>
+          <div class="hrow"><span class="hlabel">Other expense (interest, net)</span><div class="htrack"><div class="hfill" data-w="1.4" style="background:#D96A57"></div></div><span class="hval">−$0.98</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="6.1" style="background:#B8443C"></div></div><span class="hval">−$4.22</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="21.3" style="background:#3E8E5A"></div></div><span class="hval">$14.76</span></div>
+      <p class="hnote">Parker kept $14.75 of every $100 of sales as profit. Segment sales total $6,019M before the $27M corporate tariff returns. Rows are rounded to cents.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+11.5%</div>
+            <h3>Demand, not just deals, drove growth</h3>
+            <p>Organic sales rose 11.5% with increased demand across all market verticals and record backlog levels. Acquisitions — mainly Filtration Group — added about 7 points of the 18% reported growth.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">28.6%</div>
+            <h3>Record adjusted margins</h3>
+            <p>Segment operating margin was 24.4% on a GAAP basis and a record 28.6% adjusted. Aerospace Systems earned a 26.6% GAAP margin on sales up 14%; Diversified Industrial earned 23.4% on sales up 21%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$36.45–$37.25</div>
+            <h3>The outlook went up</h3>
+            <p>Parker raised fiscal 2027 guidance: reported sales growth of 16–19%, organic growth of 7.5–10.5%, and adjusted EPS of $36.45 to $37.25 — now including Filtration Group.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Deal costs are inside GAAP profit: $78M of acquisition-related expenses (including the fair-value step-up of acquired inventory), $23M of integration costs to achieve, $17M of business realignment charges and a net $22M tariff-refund adjustment. Excluding these and $189M of amortization of acquired intangibles, adjusted net income was $1,138M ($8.90 per share).</li><li>Net sales were reduced by $27M at Corporate for IEEPA tariff-related returns to customers — tariffs a court ruled unauthorized — partly offset by $6M received from the U.S. government.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/76334/000007633426000170/exhibit991q1fy27.htm">Official earnings release (SEC EDGAR 8-K Exhibit 99.1)</a></p>
+      <p>Educational only — not financial advice. Segment sales total $6,019M; consolidated net sales are $5,992M after $27M of corporate IEEPA tariff-related returns to customers.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":5.992,"nodes":{"seg0":{"name":"Diversified Industrial","amt":"$4.2B","value":4.152,"col":0,"color":"#3D7BC8","note":"+21% \u00b7 69.3% of revenue","plain":"Motion and control products for industrial customers \u2014 North America $2,445M (+20%) and international $1,707M (+22%), including the acquired Filtration Group business.","quarter":"69.3% of all revenue this quarter."},"seg1":{"name":"Aerospace Systems","amt":"$1.9B","value":1.867,"col":0,"color":"#7A68C4","note":"+14% \u00b7 31.2% of revenue","plain":"Systems for aircraft and aerospace \u2014 13.9% organic growth and a 26.6% segment operating margin.","quarter":"31.2% of all revenue this quarter."},"seg2":{"name":"Corporate \u2014 tariff returns","amt":"($27M)","value":-0.027,"col":0,"color":"#2E7CC4","note":"-0.5% of revenue","plain":"Sales were reduced by $27M of IEEPA tariff-related returns to customers, recorded at Corporate.","quarter":"-0.5% of all revenue this quarter.","compact":true,"compactLabel":"Corporate: ($27M) (-0.5% of revenue)"},"rev":{"name":"Revenue","amt":"$6.0B","value":5.992,"col":1,"color":"#2F3B4C","note":"+18%","plain":"All the money Parker Hannifin took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$6.0B, +18% vs a year ago."},"gross":{"name":"Gross profit","amt":"$2.3B","value":2.261,"col":2,"color":"#69B578","note":"37.7% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"37.7 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($3.7B)","value":3.731,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$3.7B \u2014 about 62.3 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$1.2B","value":1.196,"col":3,"color":"#4C9A67","note":"20% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 20% margin."},"opex":{"name":"Operating expenses","amt":"($1.1B)","value":1.065,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.1B total, split into SG&A on the right."},"otherexp":{"name":"Other expense","amt":"($59M)","value":0.059,"col":4,"color":"#B8443C","note":"","plain":"Interest expense of $146M, partly offset by $87M of other income, net.","quarter":"$59M taken out of profit."},"ox0":{"name":"SG&A","amt":"($1.1B)","value":1.065,"col":4,"color":"#CF5F4E","note":"17.8% of revenue","plain":"Selling and running the company \u2014 segment results are after $58M of corporate general and administrative costs.","quarter":"$1.1B \u2014 17.8% of revenue."},"net":{"name":"Net profit","amt":"$884M","value":0.884,"col":4,"color":"#3E8E5A","note":"14.8% margin","plain":"The bottom line \u2014 what Parker Hannifin actually earned after everything.","quarter":"$884M \u2014 about 14.8 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($253M)","value":0.253,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$253M \u2014 roughly a 22.3% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0"]],"links":[{"s":"seg0","d":"rev","v":4.152,"c":"#94b6e1","amt":"$4.2B"},{"s":"seg1","d":"rev","v":1.867,"c":"#b6acdf","amt":"$1.9B"},{"s":"seg2","d":"rev","v":-0.027,"c":"#8cb7df","amt":"($27M)"},{"s":"rev","d":"gross","v":2.261,"c":"#BFE0C6","amt":"$2.3B"},{"s":"rev","d":"cost","v":3.731,"c":"#F4C7B9","amt":"$3.7B"},{"s":"gross","d":"op","v":1.196,"c":"#ACD8B8","amt":"$1.2B"},{"s":"gross","d":"opex","v":1.065,"c":"#F2B3A4","amt":"$1.1B"},{"s":"op","d":"net","v":0.884,"c":"#ACD8B8","amt":"$884M"},{"s":"op","d":"otherexp","v":0.059,"c":"#dfaba7","amt":"$59M"},{"s":"op","d":"tax","v":0.253,"c":"#dfaba7","amt":"$253M"},{"s":"opex","d":"ox0","v":1.065,"c":"#F6C0B1","amt":"$1.1B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

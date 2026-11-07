@@ -1,0 +1,137 @@
+{
+  "ticker": "PH",
+  "company": "Parker Hannifin",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+18%",
+  "verdict": "Parker Hannifin posted record first-quarter sales of $6.0B, up 18% \u2014 11.5% of it organic \u2014 as demand rose across every market it serves, and it raised its full-year outlook after closing the Filtration Group acquisition.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.0B",
+      "note": "+18% YoY, a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.92",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Adjusted EPS (non-GAAP)",
+      "value": "$8.90",
+      "note": "+23% YoY, a record"
+    },
+    {
+      "label": "Organic sales growth",
+      "value": "+11.5%",
+      "note": "acquisitions added about 7 points"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Diversified Industrial",
+      "amountM": 4152,
+      "yoy": "+21%",
+      "note": "Motion and control products for industrial customers \u2014 North America $2,445M (+20%) and international $1,707M (+22%), including the acquired Filtration Group business."
+    },
+    {
+      "name": "Aerospace Systems",
+      "amountM": 1867,
+      "yoy": "+14%",
+      "note": "Systems for aircraft and aerospace \u2014 13.9% organic growth and a 26.6% segment operating margin."
+    },
+    {
+      "name": "Corporate \u2014 tariff returns",
+      "amountM": -27,
+      "yoy": "",
+      "note": "Sales were reduced by $27M of IEEPA tariff-related returns to customers, recorded at Corporate.",
+      "shortName": "Corporate",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 5992,
+    "costOfRevenueM": 3731,
+    "grossProfitM": 2261,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 1065,
+        "note": "Selling and running the company \u2014 segment results are after $58M of corporate general and administrative costs."
+      }
+    ],
+    "operatingIncomeM": 1196,
+    "otherIncomeM": -59,
+    "taxM": 253,
+    "netIncomeM": 884
+  },
+  "otherDetail": "Interest expense of $146M, partly offset by $87M of other income, net.",
+  "follow100": [
+    {
+      "label": "Diversified Industrial",
+      "amount": 69.29
+    },
+    {
+      "label": "Aerospace Systems",
+      "amount": 31.16
+    },
+    {
+      "label": "Corporate \u2014 tariff returns",
+      "amount": -0.45
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.27
+    },
+    {
+      "label": "SG&A",
+      "amount": -17.77
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.98
+    },
+    {
+      "label": "Tax",
+      "amount": -4.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.76
+    }
+  ],
+  "follow100Note": "Parker kept $14.75 of every $100 of sales as profit. Segment sales total $6,019M before the $27M corporate tariff returns. Rows are rounded to cents.",
+  "takeaways": [
+    {
+      "stat": "+11.5%",
+      "statColor": "#3d7bc8",
+      "title": "Demand, not just deals, drove growth",
+      "text": "Organic sales rose 11.5% with increased demand across all market verticals and record backlog levels. Acquisitions \u2014 mainly Filtration Group \u2014 added about 7 points of the 18% reported growth."
+    },
+    {
+      "stat": "28.6%",
+      "statColor": "#3e8e5a",
+      "title": "Record adjusted margins",
+      "text": "Segment operating margin was 24.4% on a GAAP basis and a record 28.6% adjusted. Aerospace Systems earned a 26.6% GAAP margin on sales up 14%; Diversified Industrial earned 23.4% on sales up 21%."
+    },
+    {
+      "stat": "$36.45\u2013$37.25",
+      "statColor": "#5b6b7c",
+      "title": "The outlook went up",
+      "text": "Parker raised fiscal 2027 guidance: reported sales growth of 16\u201319%, organic growth of 7.5\u201310.5%, and adjusted EPS of $36.45 to $37.25 \u2014 now including Filtration Group."
+    }
+  ],
+  "oneTimers": [
+    "Deal costs are inside GAAP profit: $78M of acquisition-related expenses (including the fair-value step-up of acquired inventory), $23M of integration costs to achieve, $17M of business realignment charges and a net $22M tariff-refund adjustment. Excluding these and $189M of amortization of acquired intangibles, adjusted net income was $1,138M ($8.90 per share).",
+    "Net sales were reduced by $27M at Corporate for IEEPA tariff-related returns to customers \u2014 tariffs a court ruled unauthorized \u2014 partly offset by $6M received from the U.S. government."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000170/exhibit991q1fy27.htm"
+    }
+  ],
+  "footerNote": "Segment sales total $6,019M; consolidated net sales are $5,992M after $27M of corporate IEEPA tariff-related returns to customers."
+}

@@ -1,0 +1,165 @@
+{
+  "ticker": "PG",
+  "company": "Procter & Gamble",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+4%",
+  "verdict": "P&G grew sales 4% to $23.3B on higher volume and mix, but rising product costs squeezed its gross margin by 160 basis points, leaving net earnings flat at $4.7B \u2014 and it warned of roughly $1.9B of commodity, interest and other cost headwinds this year.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$23.3B",
+      "note": "+4% YoY, all organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.97",
+      "note": "+1% YoY"
+    },
+    {
+      "label": "Core EPS (non-GAAP)",
+      "value": "$2.00",
+      "note": "+1% YoY"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$5.8B",
+      "note": "free cash flow productivity 93%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Fabric & Home Care",
+      "amountM": 8205,
+      "yoy": "+4%",
+      "note": "Tide, Ariel, Dawn and home-care brands \u2014 P&G's biggest segment, with 4.3% volume growth."
+    },
+    {
+      "name": "Baby, Feminine & Family Care",
+      "amountM": 5322,
+      "yoy": "+3%",
+      "note": "Pampers, Always and Bounty/Charmin paper products."
+    },
+    {
+      "name": "Beauty",
+      "amountM": 4410,
+      "yoy": "+6%",
+      "note": "Olay, Pantene and SK-II \u2014 the fastest-growing segment this quarter."
+    },
+    {
+      "name": "Health Care",
+      "amountM": 3318,
+      "yoy": "+3%",
+      "note": "Crest, Oral-B and Vicks \u2014 sales grew even as volumes fell 2.9%, on price and mix."
+    },
+    {
+      "name": "Grooming",
+      "amountM": 1889,
+      "yoy": "+4%",
+      "note": "Gillette and Braun shaving and grooming products."
+    },
+    {
+      "name": "Corporate",
+      "amountM": 132,
+      "yoy": "",
+      "note": "Corporate items and other small amounts that don't sit in a segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 23276,
+    "costOfRevenueM": 11678,
+    "grossProfitM": 11598,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 5661,
+        "note": "Selling, marketing and running the company \u2014 down 90 basis points as a share of sales on productivity savings."
+      }
+    ],
+    "operatingIncomeM": 5937,
+    "otherIncomeM": 87,
+    "equityM": -26,
+    "taxM": 1267,
+    "netIncomeM": 4731
+  },
+  "otherDetail": "Other non-operating income of $207M plus $102M of interest income, less $223M of interest expense, less $26M of profit belonging to noncontrolling interests.",
+  "follow100": [
+    {
+      "label": "Fabric & Home Care",
+      "amount": 35.24
+    },
+    {
+      "label": "Baby, Feminine & Family Care",
+      "amount": 22.86
+    },
+    {
+      "label": "Beauty",
+      "amount": 18.95
+    },
+    {
+      "label": "Health Care",
+      "amount": 14.26
+    },
+    {
+      "label": "Grooming",
+      "amount": 8.12
+    },
+    {
+      "label": "Corporate",
+      "amount": 0.57
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -50.17
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -24.32
+    },
+    {
+      "label": "Other income, net of interest",
+      "amount": 0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -5.44
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.33
+    }
+  ],
+  "follow100Note": "Other income added $0.26 per $100 of sales after interest and the noncontrolling-interest share. Rows are rounded to cents.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was volume-led",
+      "text": "Organic sales rose 4% on a 2% volume increase and 1% favorable mix, with pricing roughly neutral. Every segment grew \u2014 Beauty led at +6%."
+    },
+    {
+      "stat": "-160 bps",
+      "statColor": "#cf5f4e",
+      "title": "Costs squeezed the margin",
+      "text": "Cost of products sold rose 7% \u2014 much faster than sales \u2014 cutting gross margin from 51.4% to 49.8%. P&G now expects about $1.4B of after-tax commodity cost headwinds in fiscal 2027."
+    },
+    {
+      "stat": "$3.9B",
+      "statColor": "#3e8e5a",
+      "title": "Cash returns continued",
+      "text": "Operating cash flow was $5.8B and P&G returned $3.9B to shareowners \u2014 $2.6B of dividends and $1.3B of share repurchases. It held its full-year sales and EPS guidance."
+    }
+  ],
+  "oneTimers": [
+    "Incremental restructuring charges of $98M before tax ($44M in cost of products sold and $54M in SG&A) are excluded from P&G's Core results \u2014 the difference between GAAP EPS of $1.97 and Core EPS of $2.00."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000250/fy2627q1jas8-kexhibit991.htm"
+    }
+  ],
+  "footerNote": "P&G's lines round $1M apart; other income is shown at $87M (printed components sum to $86M) so the flow balances to reported net earnings."
+}
