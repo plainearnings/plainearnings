@@ -1,0 +1,143 @@
+{
+  "ticker": "LMT",
+  "company": "Lockheed Martin",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-22",
+  "verdict": "Lockheed Martin's sales rose 11% to $20.7B and net earnings grew 14% to $1.8B, with backlog hitting a record $292B on a giant PAC-3 missile award.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "Sales $20.7B, vs $18.6B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.97",
+      "note": "vs $6.95 a year ago"
+    },
+    {
+      "label": "Backlog",
+      "value": "$292B",
+      "note": "a record, up 27% in the quarter"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$3.0B",
+      "note": "Operating cash flow of $3.4B less $439M of capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Aeronautics",
+      "amountM": 8214,
+      "yoy": "+13%",
+      "note": "Fighter jets and military aircraft \u2014 the F-35 above all. Sales rose on $710M more F-35 production and sustainment work and $270M more on the C-130 transport program."
+    },
+    {
+      "name": "Missiles and Fire Control",
+      "amountM": 4501,
+      "yoy": "+24%",
+      "note": "Missiles and air defenses \u2014 PAC-3 and THAAD interceptors and GMLRS and PrSM rockets, all ramping production. The fastest-growing segment."
+    },
+    {
+      "name": "Rotary and Mission Systems",
+      "amountM": 4511,
+      "yoy": "+3%",
+      "note": "Helicopters (Sikorsky), radars, sensors and naval systems. Growth came from radar programs in its sensors business."
+    },
+    {
+      "name": "Space",
+      "amountM": 3485,
+      "yoy": "+4%",
+      "note": "Missile-defense and strategic programs (Fleet Ballistic Missile, Next Generation Interceptor) grew, partly offset by a national-security space program winding through its lifecycle."
+    }
+  ],
+  "flow": {
+    "revenueM": 20711,
+    "costOfRevenueM": 18275,
+    "grossProfitM": 2436,
+    "opex": [],
+    "operatingIncomeM": 2436,
+    "otherIncomeM": -264,
+    "taxM": 327,
+    "netIncomeM": 1845
+  },
+  "costLabel": "Operating costs & expenses",
+  "costNote": "Lockheed reports one combined line \u2014 the cost of building and delivering jets, missiles, helicopters and space systems, including the engineering and factory costs inside its programs.",
+  "otherDetail": "Net expense of $264M: $264M of interest expense and $81M of non-service pension expense, partly offset by $74M of other non-operating income and the $7M of other income Lockheed reports inside operating profit.",
+  "oneTimers": [
+    "Watch item, not a charge: costs on the F-35 Lots 20\u201322 advance contract began exceeding the U.S. Government's authorized funding in Q3. Lockheed warns that without additional authorization and funding, future results, cash flows and financial condition will be hurt."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/ex991q32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$292B",
+      "statColor": "#3d7bc8",
+      "title": "Backlog jumps to a record",
+      "text": "Backlog rose 27% in a single quarter to $292B, including a $52.5B multi-year award to build PAC-3 MSE interceptors \u2014 years of work already sold."
+    },
+    {
+      "stat": "+24%",
+      "statColor": "#3e8e5a",
+      "title": "Missiles lead the growth",
+      "text": "Missiles and Fire Control sales rose 24% to $4.5B on PAC-3, THAAD, GMLRS and PrSM production ramps, and its profit rose 24% too. All four segments grew."
+    },
+    {
+      "stat": "$30.55",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised again",
+      "text": "Lockheed raised its 2026 outlook for the second straight quarter: sales of about $80\u201382B, EPS of about $30.35\u201330.75 (midpoint $30.55) and free cash flow of about $7.8\u20138.0B. The dividend was raised for the 24th straight year."
+    }
+  ],
+  "footerNote": "Lockheed reports one combined 'operating costs and expenses' line ($18,275M, used here as cost of revenue) and gross profit of $2,436M, then adds $7M of other income to reach reported operating profit of $2,443M; this page counts that $7M below the line, so its operating-profit step shows $2,436M \u2014 net earnings are unchanged. Q3 ended Sep 27, 2026 (last Sunday of the quarter).",
+  "follow100": [
+    {
+      "label": "Aeronautics",
+      "amount": 39.66
+    },
+    {
+      "label": "Missiles and Fire Control",
+      "amount": 21.73
+    },
+    {
+      "label": "Rotary and Mission Systems",
+      "amount": 21.78
+    },
+    {
+      "label": "Space",
+      "amount": 16.83
+    },
+    {
+      "label": "Operating costs & expenses",
+      "amount": -88.24
+    },
+    {
+      "label": "Other income, net",
+      "amount": 0.03
+    },
+    {
+      "label": "Other expense (interest & pension)",
+      "amount": -1.31
+    },
+    {
+      "label": "Tax",
+      "amount": -1.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.9
+    }
+  ]
+}

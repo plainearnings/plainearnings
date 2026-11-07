@@ -1,0 +1,126 @@
+{
+  "ticker": "LOW",
+  "company": "Lowe's",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-19",
+  "verdict": "Lowe's sales rose 8% to $26.0B on Pro and online strength, but profit was flat at $2.4B as acquisition expenses and a thinner gross margin offset the growth.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "Total sales $26.0B, vs $24.0B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.27",
+      "note": "the same as a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.40",
+      "note": "excludes $96M of acquisition expenses"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+0.2%",
+      "note": "fifth straight positive quarter; online sales +15.7%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Home improvement retail",
+      "amountM": 25956,
+      "yoy": "+8%",
+      "note": "Lowe's reports a single segment: 1,761 home-improvement stores plus online. Growth was led by Pro (professional contractor) sales, home services and a 15.7% jump in online sales, partly offset by soft do-it-yourself demand."
+    }
+  ],
+  "flow": {
+    "revenueM": 25956,
+    "costOfRevenueM": 17379,
+    "grossProfitM": 8577,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 4456,
+        "note": "Running the stores, paying associates and marketing \u2014 17.2% of sales, a little leaner than a year ago."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 572,
+        "note": "Spreading the cost of stores, distribution centers and systems over their lives \u2014 up from $457M as Lowe's invests and adds acquired businesses."
+      }
+    ],
+    "operatingIncomeM": 3549,
+    "otherIncomeM": -374,
+    "taxM": 776,
+    "netIncomeM": 2399
+  },
+  "otherDetail": "Interest expense, net of $374M \u2014 the cost of Lowe's borrowings, net of interest earned.",
+  "oneTimers": [
+    "Lowe's booked $96M of pre-tax expenses tied to its acquisitions of Foundation Building Materials (FBM) and Artisan Design Group (ADG). Excluding them, adjusted EPS was $4.40 vs GAAP $4.27. Both figures include an $0.11-per-share benefit from IEEPA tariff refunds."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000113/exhibit991-07312026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000117/low-20260731.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+0.2%",
+      "statColor": "#3d7bc8",
+      "title": "Comps stay positive",
+      "text": "Comparable sales rose 0.2% \u2014 the fifth straight positive quarter \u2014 as Pro, home services and online (+15.7%) outweighed persistent pressure on discretionary DIY spending."
+    },
+    {
+      "stat": "33.0%",
+      "statColor": "#5b6b7c",
+      "title": "Margin did the damage",
+      "text": "Gross margin slipped to 33.04% from 33.81% a year ago, so an 8% sales jump produced only 2% more operating income ($3,549M) and flat net earnings of $2,399M."
+    },
+    {
+      "stat": "$92B",
+      "statColor": "#3e8e5a",
+      "title": "Outlook trimmed to the low end",
+      "text": "Full-year fiscal 2026 guidance now points to about $92B of sales (was $92\u201394B), flat comparable sales, GAAP EPS of about $11.75 and adjusted EPS of about $12.25. Lowe's paid $673M of dividends in the quarter."
+    }
+  ],
+  "footerNote": "Lowe's fiscal Q2 2026 ended July 31, 2026 (its Q3 ends around October 30 and is usually reported in mid-November, so Q2 is the latest reported quarter). Lowe's reports a single operating segment, so revenue is shown as one line.",
+  "follow100": [
+    {
+      "label": "Home improvement retail",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -66.96
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -17.17
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.2
+    },
+    {
+      "label": "Interest, net",
+      "amount": -1.44
+    },
+    {
+      "label": "Tax",
+      "amount": -2.99
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.24
+    }
+  ]
+}

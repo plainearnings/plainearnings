@@ -1,0 +1,193 @@
+{
+  "ticker": "LIN",
+  "company": "Linde plc",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Linde posted record sales of $9.4B, up 9%, but $425M of cost-reduction and other charges cut GAAP profit to $1.7B \u2014 excluding them, earnings rose 7%.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "Sales $9.4B, a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.66",
+      "note": "down 11% YoY on charges"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.59",
+      "note": "up 9% YoY, a record"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$3.2B",
+      "note": "up 8% YoY; $1.8B of free cash flow after capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 3601,
+      "yoy": "+11%",
+      "note": "Industrial gases across the Americas \u2014 the largest business. Underlying sales rose 9% on 6% higher pricing and 3% higher volumes, led by electronics, chemicals & energy and metals & mining."
+    },
+    {
+      "name": "APAC",
+      "amountM": 1950,
+      "yoy": "+12%",
+      "note": "Asia Pacific gases. Underlying sales rose 8% on pricing, volumes, electronics and chemicals & energy demand and project start-ups."
+    },
+    {
+      "name": "EMEA",
+      "amountM": 2327,
+      "yoy": "+7%",
+      "note": "Europe, Middle East & Africa gases. Underlying sales rose 3%, led by healthcare and food & beverage."
+    },
+    {
+      "name": "Engineering",
+      "amountM": 582,
+      "yoy": "+12%",
+      "note": "Designing and building gas plants for Linde and third parties. Order intake was $499M and the third-party equipment backlog stood at $2.9B."
+    },
+    {
+      "name": "Other",
+      "amountM": 944,
+      "yoy": "+2%",
+      "note": "Everything else, including the U.S. homecare business (moved into this category in 2026) and surface-coating activities."
+    }
+  ],
+  "flow": {
+    "revenueM": 9404,
+    "costOfRevenueM": 4962,
+    "grossProfitM": 4442,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 965,
+        "note": "Spreading the cost of gas plants, tanks and equipment over their lives \u2014 including purchase-accounting amortization from the Linde AG merger."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 892,
+        "note": "Selling gases and running the company day to day."
+      },
+      {
+        "name": "Cost reduction program & other charges",
+        "amountM": 425,
+        "note": "Charges from Linde's cost-reduction program and other items management strips out of its adjusted results \u2014 a year ago this line was an $11M credit."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 37,
+        "note": "Developing new gas applications and process technology."
+      },
+      {
+        "name": "Other income, net",
+        "amountM": -27,
+        "note": "A credit: $27M of other income inside operating profit, so it reduces expenses."
+      }
+    ],
+    "operatingIncomeM": 2150,
+    "otherIncomeM": -9,
+    "taxM": 449,
+    "netIncomeM": 1692
+  },
+  "otherDetail": "Net expense of $9M: $71M of net interest expense and $48M of profit belonging to noncontrolling partners, partly offset by $61M of income from equity investments and a $49M pension and retiree-benefit credit.",
+  "oneTimers": [
+    "Cost reduction program and other charges were $425M in the quarter. Excluding these charges and Linde AG purchase-accounting effects, adjusted operating profit was $2,763M (up 8%, a 29.4% margin), adjusted net income $2,122M and adjusted EPS $4.59 (up 9%)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1707925/000165495426009199/lin_ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026068079/lin-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Record sales, broad growth",
+      "text": "Sales hit a record $9,404M, up 9% \u2014 underlying sales up 5% on 3% pricing and 2% volumes, with electronics, chemicals & energy and manufacturing leading. Every segment grew."
+    },
+    {
+      "stat": "$425M",
+      "statColor": "#5b6b7c",
+      "title": "Charges hide the underlying trend",
+      "text": "GAAP operating profit fell to $2,150M because of $425M of cost-reduction and other charges. Adjusted operating profit rose 8% to $2,763M and adjusted EPS rose 9% to $4.59 \u2014 both records."
+    },
+    {
+      "stat": "$11B",
+      "statColor": "#3e8e5a",
+      "title": "Backlog keeps building",
+      "text": "The project backlog reached $11B, including a $7.9B contractual sale-of-gas backlog. Full-year capex is guided at $5.5\u20136.0B and adjusted EPS at $17.82\u2013$17.92, up 8\u20139%."
+    }
+  ],
+  "footerNote": "Net income here is the $1,692M attributable to Linde plc shareholders \u2014 after $48M belonging to noncontrolling interests \u2014 matching the $3.66 EPS. Linde's segment operating profits are adjusted figures (they total $2,763M); the flow uses GAAP operating profit of $2,150M from the Form 10-Q income statement.",
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 38.29
+    },
+    {
+      "label": "APAC",
+      "amount": 20.74
+    },
+    {
+      "label": "EMEA",
+      "amount": 24.74
+    },
+    {
+      "label": "Engineering",
+      "amount": 6.19
+    },
+    {
+      "label": "Other",
+      "amount": 10.04
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -52.76
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -10.26
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.49
+    },
+    {
+      "label": "Cost reduction & other charges",
+      "amount": -4.52
+    },
+    {
+      "label": "R&D",
+      "amount": -0.39
+    },
+    {
+      "label": "Other income, net",
+      "amount": 0.29
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.1
+    },
+    {
+      "label": "Tax",
+      "amount": -4.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.0
+    }
+  ]
+}

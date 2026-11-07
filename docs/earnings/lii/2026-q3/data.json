@@ -1,0 +1,138 @@
+{
+  "ticker": "LII",
+  "company": "Lennox International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Lennox grew revenue 10% to $1.6B as its commercial business surged 24%, but inflation and tariff costs squeezed margins and profit fell to $221M.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "Revenue $1.6B, vs $1.4B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.41",
+      "note": "vs $7.38 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$6.84",
+      "note": "excludes restructuring, litigation and acquisition items"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$363M",
+      "note": "Operating cash flow of $395M less net capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Home Comfort Solutions",
+      "amountM": 937,
+      "yoy": "+3%",
+      "note": "Heating, cooling and air quality for homes. Revenue rose 3% as residential markets stabilized, but profit fell 18% \u2014 price cuts to defend share, product-cost inflation including tariffs, and $15M of higher fuel costs all weighed."
+    },
+    {
+      "name": "Building Climate Solutions",
+      "amountM": 635,
+      "yoy": "+24%",
+      "note": "Commercial HVAC, refrigeration and services. Revenue rose 24% (15% organic, the rest from acquisitions) and profit rose 19% to $167M, at a still-strong 26.2% margin."
+    }
+  ],
+  "flow": {
+    "revenueM": 1572,
+    "costOfRevenueM": 1075,
+    "grossProfitM": 497,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 177,
+        "note": "Selling products, distribution and the back office \u2014 up from $162M a year ago on inflation and investment."
+      },
+      {
+        "name": "Losses, restructuring & other, net",
+        "amountM": 8,
+        "note": "$5M of losses and other expenses (including $3M of special litigation charges and $4M of acquisition costs) plus $8M of restructuring charges, partly offset by a $4M gain on selling previous dispositions and $1M of equity-method income.",
+        "compact": true,
+        "shortName": "Losses & restructuring, net"
+      }
+    ],
+    "operatingIncomeM": 312,
+    "otherIncomeM": -19,
+    "taxM": 72,
+    "netIncomeM": 221
+  },
+  "otherDetail": "Net expense of $19M: $18M of net interest expense plus $1M of other expense.",
+  "oneTimers": [
+    "Adjusted net income was $236M ($6.84 per share) vs GAAP $221M ($6.41) \u2014 the gap is restructuring charges, special litigation charges and acquisition costs, partly offset by a $4M gain on selling previous dispositions."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000094/lii-20260930xexx991pressre.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000096/lii-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Commercial is carrying growth",
+      "text": "Building Climate Solutions revenue rose 24% to $635M \u2014 15% organic growth plus acquisitions \u2014 with profit up 19% to $167M. Home Comfort grew only 3%."
+    },
+    {
+      "stat": "18.7%",
+      "statColor": "#5b6b7c",
+      "title": "Home margins squeezed hard",
+      "text": "Home Comfort's margin fell 490 basis points to 18.7% and profit dropped 18% to $176M, hit by $32M of product-cost inflation and tariffs, lower factory absorption and price actions to defend share."
+    },
+    {
+      "stat": "$21.25",
+      "statColor": "#3e8e5a",
+      "title": "Full-year guidance cut",
+      "text": "Lennox cut full-year adjusted EPS guidance to $21.00\u2013$21.50 (midpoint $21.25) from $23.00\u2013$24.00, while raising free cash flow guidance to $700\u2013750M. Q3 operating cash flow rose to $395M as inventories fell."
+    }
+  ],
+  "footerNote": "Lennox reports in tenths of a million; this page rounds to whole millions (revenue $1,572M vs the reported $1,572.5M) so the flow balances exactly. Segment profit ($323M including corporate) differs from GAAP operating income ($312M) by the restructuring, litigation, acquisition and gain items listed above.",
+  "follow100": [
+    {
+      "label": "Home Comfort Solutions",
+      "amount": 59.61
+    },
+    {
+      "label": "Building Climate Solutions",
+      "amount": 40.39
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -68.38
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -11.26
+    },
+    {
+      "label": "Losses, restructuring & other, net",
+      "amount": -0.51
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -1.21
+    },
+    {
+      "label": "Tax",
+      "amount": -4.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.06
+    }
+  ]
+}

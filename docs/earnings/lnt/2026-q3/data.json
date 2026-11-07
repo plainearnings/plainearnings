@@ -1,0 +1,173 @@
+{
+  "ticker": "LNT",
+  "company": "Alliant Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Alliant Energy earned $398M in Q3, up 42%, as rate-base growth and tax timing lifted EPS to $1.52 \u2014 and it lifted its four-year building plan 19% to $15.9B for data-center demand.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.52",
+      "note": "vs $1.09 a year ago; ongoing EPS was also $1.52"
+    },
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "Revenue $1,285M, vs $1,210M a year ago"
+    },
+    {
+      "label": "2027 EPS guidance",
+      "value": "$3.63\u2013$3.73",
+      "note": "ongoing EPS, +8% at the midpoint; dividend target $2.25"
+    },
+    {
+      "label": "Capex plan",
+      "value": "$15.9B",
+      "note": "2027\u20132030 plan, raised 19%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric utility",
+      "amountM": 1202,
+      "yoy": "+7%",
+      "note": "Selling electricity in Iowa (IPL) and Wisconsin (WPL) at regulator-set rates. Growth came from earning returns on a growing rate base \u2014 the plants and grid Alliant is building \u2014 plus higher retail sales."
+    },
+    {
+      "name": "Gas utility",
+      "amountM": 56,
+      "yoy": "+10%",
+      "note": "Natural gas distribution in Iowa and Wisconsin \u2014 a small, seasonally quiet quarter for heating demand."
+    },
+    {
+      "name": "Other utility",
+      "amountM": 1,
+      "yoy": "-92%",
+      "note": "Small remaining utility activities outside electricity and gas delivery."
+    },
+    {
+      "name": "Non-utility",
+      "amountM": 26,
+      "yoy": "+13%",
+      "note": "Non-regulated businesses, mainly Travero, a logistics and transportation company."
+    }
+  ],
+  "flow": {
+    "revenueM": 1285,
+    "costOfRevenueM": 411,
+    "grossProfitM": 874,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 223,
+        "note": "Spreading the cost of power plants, wind farms and grids over their long lives \u2014 it rises as Alliant builds."
+      },
+      {
+        "name": "Other operation & maintenance",
+        "amountM": 203,
+        "note": "Running and maintaining generation and distribution day to day ($186M) \u2014 up on labor and planned maintenance \u2014 plus $17M to run Travero, Alliant's non-utility logistics business."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 34,
+        "note": "Mostly property taxes on plants and networks."
+      },
+      {
+        "name": "Energy efficiency costs",
+        "amountM": 25,
+        "note": "Programs that help customers use less energy, recovered through rates."
+      }
+    ],
+    "operatingIncomeM": 389,
+    "otherIncomeM": -58,
+    "taxM": -67,
+    "netIncomeM": 398
+  },
+  "costLabel": "Fuel, purchased power & transmission",
+  "costNote": "Electric production fuel and purchased power ($222M), electric transmission service bought from grid operators ($176M) and the cost of gas sold to customers ($13M) \u2014 the utility's direct costs.",
+  "otherDetail": "Net expense of $58M: $145M of interest expense, partly offset by $45M of equity earnings from unconsolidated investments, $38M of allowance for funds used during construction (AFUDC \u2014 a regulated-utility credit for equity money tied up in projects being built) and $4M of other income.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000045/lnt102920268-kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000047/lnt-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "3.4 GW",
+      "statColor": "#3d7bc8",
+      "title": "Data centers drive the plan",
+      "text": "Alliant has 3.4 gigawatts of contracted data-center demand and expects peak demand to rise about 60% by 2031 \u2014 an industry-leading growth rate that is reshaping its building plans."
+    },
+    {
+      "stat": "$15.9B",
+      "statColor": "#3e8e5a",
+      "title": "Building plan raised 19%",
+      "text": "The 2027\u20132030 capex forecast rose 19% to $15.9B. Alliant narrowed 2026 ongoing EPS guidance to $3.41\u20133.46 (the top half of its range) and set 2027 guidance at $3.63\u20133.73 with a $2.25 dividend target."
+    },
+    {
+      "stat": "$1.52",
+      "statColor": "#5b6b7c",
+      "title": "A tax-timing tailwind",
+      "text": "EPS rose to $1.52 from $1.09 on rate-base growth at IPL and WPL, higher equity earnings, higher AFUDC and the timing of income tax expense \u2014 a benefit Alliant says reverses by year-end. Income tax was a $67M benefit this quarter."
+    }
+  ],
+  "footerNote": "Utility layout: fuel, purchased power, transmission and gas costs are the direct-cost block; the remaining lines mirror Alliant's income statement. Income tax was a $67M benefit \u2014 a negative tax rate is normal for Alliant, which guides to a (28%) consolidated effective rate for 2026 on the strength of tax credits \u2014 so tax adds to profit in the flow. Net income is the $398M attributable to Alliant common shareowners.",
+  "follow100": [
+    {
+      "label": "Electric utility",
+      "amount": 93.54
+    },
+    {
+      "label": "Gas utility",
+      "amount": 4.36
+    },
+    {
+      "label": "Other utility",
+      "amount": 0.08
+    },
+    {
+      "label": "Non-utility",
+      "amount": 2.02
+    },
+    {
+      "label": "Fuel, purchased power, transmission & gas",
+      "amount": -31.98
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -17.35
+    },
+    {
+      "label": "Other operation & maintenance",
+      "amount": -15.8
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -2.65
+    },
+    {
+      "label": "Energy efficiency costs",
+      "amount": -1.95
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -4.51
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 5.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.97
+    }
+  ]
+}

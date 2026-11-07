@@ -1,0 +1,147 @@
+{
+  "ticker": "LITE",
+  "company": "Lumentum",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-02",
+  "verdict": "Lumentum's revenue jumped 137% to $1.26B on AI data-center demand \u2014 and this time it dropped through to profit, with net income of $360M versus $4M a year ago.",
+  "revenueYoY": "+136.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+136.5%",
+      "note": "Revenue $1,263M, vs $534M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.54",
+      "note": "diluted, vs $0.05 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$4.57",
+      "note": "non-GAAP net income of $461M"
+    },
+    {
+      "label": "Next-quarter guide",
+      "value": "$1.6B",
+      "note": "Q2 FY27 revenue guided at $1.575\u20131.625B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Components",
+      "amountM": 754,
+      "yoy": "+99%",
+      "note": "Lasers and other photonic building blocks sold into data-center and telecom gear \u2014 pump lasers were a leading growth contributor this quarter. Revenue nearly doubled year over year."
+    },
+    {
+      "name": "Systems",
+      "amountM": 508,
+      "yoy": "+229%",
+      "note": "Finished optical systems, including optical circuit switches (OCS) for AI data centers. Revenue more than tripled as OCS demand visibility expanded sharply."
+    }
+  ],
+  "flow": {
+    "revenueM": 1262,
+    "costOfRevenueM": 618,
+    "grossProfitM": 644,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 192,
+        "note": "Developing next-generation lasers, modules and switches \u2014 more than double a year ago as Lumentum invests behind AI demand."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 99,
+        "note": "Selling, general and administrative \u2014 selling the products and running the company."
+      },
+      {
+        "name": "Gain on sale of business, net",
+        "amountM": -7,
+        "note": "A credit: Lumentum sold a business for more than its book value, so this line reduces expenses."
+      }
+    ],
+    "operatingIncomeM": 360,
+    "otherIncomeM": 10,
+    "taxM": 10,
+    "netIncomeM": 360
+  },
+  "costLabel": "Cost of sales & amortization",
+  "costNote": "Making the lasers and systems ($600M of cost of sales) plus $19M of amortization on acquired technology \u2014 together $618M after whole-million rounding.",
+  "otherDetail": "Net income of $10M outside operations: $13M of interest and other income, less $2M of interest expense (figures as reported, before whole-million rounding).",
+  "oneTimers": [
+    "A $7M gain on selling a business reduced operating expenses. On a non-GAAP basis \u2014 stripping out stock compensation, amortization and similar items \u2014 net income was $461M ($4.57 per share) versus GAAP net income of $360M ($3.54)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+136.5%",
+      "statColor": "#3d7bc8",
+      "title": "AI demand is the whole story",
+      "text": "Revenue rose 137% year over year and 25% in just one quarter, with growth in every business. Gross margin jumped to 51.0% from 34.0% a year ago as richer products filled the mix."
+    },
+    {
+      "stat": "$5B+",
+      "statColor": "#3e8e5a",
+      "title": "A second giant photonics win",
+      "text": "Lumentum secured its second major NPO/CPO win (near-package and co-packaged optics \u2014 putting photonics right next to the AI chip), backed by purchase commitments exceeding $5B, and expects optical switching to become a multi-billion-dollar annual revenue stream."
+    },
+    {
+      "stat": "45%+",
+      "statColor": "#5b6b7c",
+      "title": "Guidance steps up again",
+      "text": "Second-quarter guidance is revenue of $1.575\u20131.625B \u2014 about $350M more in one quarter \u2014 with non-GAAP operating margin of 45\u201346% and non-GAAP EPS of $5.90\u20136.20, versus a 42.3% margin this quarter."
+    }
+  ],
+  "footerNote": "Lumentum reports in tenths of a million; this page rounds to whole millions (revenue $1,262M vs the reported $1,262.6M) so the flow balances exactly. Fiscal Q1 2027 ended September 26, 2026.",
+  "follow100": [
+    {
+      "label": "Components",
+      "amount": 59.75
+    },
+    {
+      "label": "Systems",
+      "amount": 40.25
+    },
+    {
+      "label": "Cost of sales & amortization",
+      "amount": -48.97
+    },
+    {
+      "label": "Research & development",
+      "amount": -15.21
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.84
+    },
+    {
+      "label": "Gain on sale of business",
+      "amount": 0.55
+    },
+    {
+      "label": "Other income, net",
+      "amount": 0.79
+    },
+    {
+      "label": "Tax",
+      "amount": -0.79
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.53
+    }
+  ]
+}
