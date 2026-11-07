@@ -1,0 +1,172 @@
+{
+  "ticker": "FANG",
+  "company": "Diamondback Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Diamondback's revenue jumped 38% to $5.4B as oil fetched $87 a barrel and output rose, producing $2.1B of free cash flow and a higher dividend.",
+  "revenueYoY": "+38%",
+  "segments": [
+    {
+      "name": "Oil sales",
+      "amountM": 4216,
+      "note": "Crude oil \u2014 48.3 million barrels sold at $87.30 a barrel on average.",
+      "yoy": "+41%"
+    },
+    {
+      "name": "Sales of purchased oil",
+      "amountM": 536,
+      "note": "Oil bought from others and resold \u2014 mostly passed through at cost.",
+      "yoy": "+17%"
+    },
+    {
+      "name": "Natural gas liquids",
+      "amountM": 487,
+      "note": "Liquids separated from gas \u2014 24.3 million barrels at $20.02 a barrel.",
+      "yoy": "+33%"
+    },
+    {
+      "name": "Natural gas sales",
+      "amountM": 151,
+      "note": "Gas \u2014 135 billion cubic feet at $1.12 per thousand cubic feet.",
+      "yoy": "+74%"
+    },
+    {
+      "name": "Other operating income",
+      "amountM": 41,
+      "note": "Other operating income.",
+      "yoy": ""
+    }
+  ],
+  "flow": {
+    "revenueM": 5431,
+    "costOfRevenueM": 1521,
+    "grossProfitM": 3910,
+    "opex": [
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 1320,
+        "note": "The wearing-out cost of wells and equipment \u2014 a non-cash charge."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 83,
+        "note": "Running the company \u2014 head office and staff."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 7,
+        "note": "Other operating costs, net."
+      }
+    ],
+    "operatingIncomeM": 2500,
+    "otherIncomeM": -228,
+    "taxM": 501,
+    "netIncomeM": 1771
+  },
+  "otherDetail": "A $182M loss on commodity derivative contracts (price hedges), $55M of net interest expense and $5M of other income, plus a $4M gain on buying back debt below face value, net.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.4B",
+      "note": "+38% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.69",
+      "note": "vs $3.51 a year ago; adjusted EPS $5.86"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.1B",
+      "note": "cash left after drilling and building"
+    },
+    {
+      "label": "Oil production",
+      "value": "525K bbl/day",
+      "note": "1,034K barrels of oil equivalent per day in total"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$87.30",
+      "statColor": "#3d7bc8",
+      "title": "Price did the heavy lifting",
+      "text": "Diamondback sold its oil for $87.30 a barrel, up from $64.60 a year ago. With output up about 10% to 1,034 thousand barrels of oil equivalent a day, revenue rose 38%."
+    },
+    {
+      "stat": "$2.1B",
+      "statColor": "#3e8e5a",
+      "title": "Cash poured out of the ground",
+      "text": "Free cash flow \u2014 operating cash minus drilling and building \u2014 was $2,148M. The company returned $582M to shareholders and raised the base dividend 7.3% to $1.18 a share."
+    },
+    {
+      "stat": "-$182M",
+      "statColor": "#c8554a",
+      "title": "Hedges capped the upside",
+      "text": "Price-hedge contracts lost $182M in the quarter: when oil rises above the hedged price, the hedge pays out. It is the cost of the insurance that protects Diamondback when prices fall."
+    }
+  ],
+  "oneTimers": [
+    "A $182M loss on derivative instruments (hedges) is included in other expense above; adjusted net income of $1,649M ($5.86 per share) excludes it and similar items.",
+    "Diamondback bought back $106M of its 2054 and 2064 bonds below face value, booking a $4M gain on debt extinguishment."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (Globe Newswire, as filed on SEC EDGAR 8-K Ex. 99.1)",
+      "url": "https://www.morningstar.com/news/globe-newswire/9868465/diamondback-energy-inc-announces-third-quarter-2026-financial-and-operating-results-increases-base-dividend"
+    }
+  ],
+  "footerNote": "Energy format: direct costs are lease operating expenses, production and ad valorem taxes, gathering/processing/transportation and the cost of purchased oil resold. Oil, gas and NGL sales are split using the release's sold volumes and realized prices (they sum to the reported $4,854M of oil, gas and NGL sales). Net income of $1,771M is the total before $168M attributable to non-controlling interests (mainly Viper Energy); $1,603M was attributable to Diamondback shareholders.",
+  "follow100": [
+    {
+      "label": "Oil sales",
+      "amount": 77.63
+    },
+    {
+      "label": "Sales of purchased oil",
+      "amount": 9.87
+    },
+    {
+      "label": "Natural gas liquids",
+      "amount": 8.97
+    },
+    {
+      "label": "Natural gas sales",
+      "amount": 2.78
+    },
+    {
+      "label": "Other operating income",
+      "amount": 0.75
+    },
+    {
+      "label": "Direct production & purchased-oil costs",
+      "amount": -28.01
+    },
+    {
+      "label": "Depreciation, depletion & amortization",
+      "amount": -24.3
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.53
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -0.13
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -4.2
+    },
+    {
+      "label": "Tax",
+      "amount": -9.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.61
+    }
+  ]
+}

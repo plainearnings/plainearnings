@@ -1,0 +1,168 @@
+{
+  "ticker": "F",
+  "company": "Ford Motor Company",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Ford's revenue slipped 2% to $49.5B, but a stronger finance arm and cost work kept profit at $2.0B even as its electric-vehicle unit lost another $1.1B.",
+  "revenueYoY": "-2%",
+  "segments": [
+    {
+      "name": "Ford Blue",
+      "amountM": 27079,
+      "note": "Gas and hybrid cars and trucks \u2014 revenue down 3% as it sold 10% fewer vehicles.",
+      "yoy": "-3%"
+    },
+    {
+      "name": "Ford Pro",
+      "amountM": 17772,
+      "note": "Vans, trucks and services for businesses \u2014 revenue up 2%.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Ford Credit",
+      "amountM": 3444,
+      "note": "Loans and leases for car buyers \u2014 the finance arm.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Ford Model e",
+      "amountM": 1223,
+      "note": "Electric vehicles \u2014 revenue down 31% on 31% fewer vehicles sold.",
+      "yoy": "-31%"
+    },
+    {
+      "name": "Other",
+      "amountM": 8,
+      "note": "Small other external revenue in the segment note.",
+      "yoy": ""
+    }
+  ],
+  "flow": {
+    "revenueM": 49526,
+    "costOfRevenueM": 42148,
+    "grossProfitM": 7378,
+    "opex": [
+      {
+        "name": "Selling, administrative & other",
+        "amountM": 3079,
+        "note": "Selling cars and running the company day to day."
+      },
+      {
+        "name": "Ford Credit interest & operating costs",
+        "amountM": 2845,
+        "note": "The finance arm's funding interest and running costs."
+      }
+    ],
+    "operatingIncomeM": 1454,
+    "otherIncomeM": 537,
+    "equityM": 155,
+    "taxM": 97,
+    "netIncomeM": 2049
+  },
+  "otherDetail": "Other income of $922M, less $385M of interest on company debt (excluding Ford Credit), plus $155M of equity earnings from affiliated companies.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$49.5B",
+      "note": "-2% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.50",
+      "note": "vs $0.60 a year ago; adjusted EPS $0.49"
+    },
+    {
+      "label": "Adjusted EBIT",
+      "value": "$2.7B",
+      "note": "+3% YoY \u2014 Ford's preferred profit measure"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$4.7B",
+      "note": "cash left after building the business"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.7B",
+      "statColor": "#3d7bc8",
+      "title": "Pro is the profit engine",
+      "text": "Ford Pro, the business-vehicle unit, made $1,665M of EBIT (earnings before interest and tax) on $17.8B of revenue \u2014 more than the gas-vehicle unit \u2014 though profit fell 16% on commodity and launch costs."
+    },
+    {
+      "stat": "-$1.1B",
+      "statColor": "#c8554a",
+      "title": "EVs still lose money",
+      "text": "Ford Model e lost $1,058M in the quarter. The loss narrowed 25% from a year ago, but on much lower sales \u2014 Ford is spending on a new, cheaper EV platform while first-generation models shrink."
+    },
+    {
+      "stat": "$803M",
+      "statColor": "#3e8e5a",
+      "title": "The bank inside Ford earned more",
+      "text": "Ford Credit's earnings before tax rose 27% to $803M on healthy lending margins and strong used-car prices, cushioning the vehicle businesses."
+    }
+  ],
+  "oneTimers": [
+    "Ford's adjusted figures exclude $127M of pre-tax special items in the quarter; GAAP net income was $2,049M versus adjusted net income of $1,978M.",
+    "Ford raised the low end of its full-year adjusted EBIT guidance to $10.5-$11B (from $10-$11B)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000190/exhibit99tooctober282026.htm"
+    },
+    {
+      "label": "Form 10-Q segment note (SEC EDGAR, via Q4 CDN copy)",
+      "url": "https://s205.q4cdn.com/882619693/files/content_files/81e533f3-a88e-430f-95db-e8fd8bf04de0.pdf"
+    }
+  ],
+  "footerNote": "Segment revenues are external revenues from Ford's 10-Q segment note (Ford Blue, Model e, Pro, Credit and $8M other), which sum to total revenue. Cost of revenue is Ford's reported cost of sales.",
+  "follow100": [
+    {
+      "label": "Ford Blue",
+      "amount": 54.68
+    },
+    {
+      "label": "Ford Pro",
+      "amount": 35.88
+    },
+    {
+      "label": "Ford Credit",
+      "amount": 6.95
+    },
+    {
+      "label": "Ford Model e",
+      "amount": 2.47
+    },
+    {
+      "label": "Other",
+      "amount": 0.02
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -85.1
+    },
+    {
+      "label": "Selling, administrative & other",
+      "amount": -6.22
+    },
+    {
+      "label": "Ford Credit interest & operating costs",
+      "amount": -5.74
+    },
+    {
+      "label": "Other income & equity earnings, net",
+      "amount": 1.4
+    },
+    {
+      "label": "Tax",
+      "amount": -0.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.14
+    }
+  ]
+}

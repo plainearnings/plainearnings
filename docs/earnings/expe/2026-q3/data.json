@@ -1,0 +1,208 @@
+{
+  "ticker": "EXPE",
+  "company": "Expedia Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Expedia grew revenue 12% to $4.9B as the travel it sells to other businesses surged 23%, turning its biggest quarter of the year into $1.0B of profit for shareholders.",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "name": "Lodging",
+      "amountM": 3991,
+      "note": "Hotel and vacation-rental bookings \u2014 the core of the business, up 11% as room nights rose 7%.",
+      "yoy": "+11%"
+    },
+    {
+      "name": "Other travel",
+      "amountM": 483,
+      "note": "Insurance, car rental, destination services and cruises \u2014 up 28%.",
+      "yoy": "+28%"
+    },
+    {
+      "name": "Advertising \u2014 Expedia brands",
+      "amountM": 206,
+      "note": "Ads sold on Expedia, Hotels.com and Vrbo \u2014 up 7%.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "Advertising \u2014 trivago",
+      "amountM": 165,
+      "note": "Revenue from trivago, the hotel search site \u2014 up 20%.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "Air",
+      "amountM": 93,
+      "note": "Plane tickets sold through the platform \u2014 down 7%.",
+      "yoy": "-7%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4938,
+    "costOfRevenueM": 419,
+    "grossProfitM": 4519,
+    "opex": [
+      {
+        "name": "Selling & marketing \u2014 direct",
+        "amountM": 2184,
+        "note": "What it pays partners and search engines to bring in bookings."
+      },
+      {
+        "name": "Technology & content",
+        "amountM": 334,
+        "note": "Building and running the booking platform and its listings."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 224,
+        "note": "The wearing-out cost of buildings, equipment and software."
+      },
+      {
+        "name": "Selling & marketing \u2014 indirect",
+        "amountM": 209,
+        "note": "Brand advertising and the marketing team's own costs."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 194,
+        "note": "Running the company \u2014 finance, legal, HR and offices."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 35,
+        "note": "Costs of reorganizing the company \u2014 see one-time items."
+      },
+      {
+        "name": "Legal reserves & occupancy tax",
+        "amountM": 13,
+        "note": "Money set aside for legal and hotel-tax matters."
+      }
+    ],
+    "operatingIncomeM": 1326,
+    "otherIncomeM": -23,
+    "taxM": 264,
+    "netIncomeM": 1039
+  },
+  "otherDetail": "Interest income of $73M, less $63M of interest expense and $33M of other losses, net.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.9B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$8.42",
+      "note": "vs $7.33 a year ago"
+    },
+    {
+      "label": "Gross bookings",
+      "value": "$34.0B",
+      "note": "+11% YoY \u2014 all travel booked"
+    },
+    {
+      "label": "B2B revenue",
+      "value": "$1.7B",
+      "note": "+23% YoY \u2014 travel sold to businesses"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Business travel is the growth engine",
+      "text": "Revenue from selling travel to other businesses (B2B) rose 23% to $1.7B, while the consumer brands grew 6%. Partners, not just travelers, are driving Expedia now."
+    },
+    {
+      "stat": "34.2%",
+      "statColor": "#3e8e5a",
+      "title": "More of each dollar stuck",
+      "text": "Adjusted EBITDA \u2014 a rough measure of operating cash profit \u2014 was $1.69B, or 34.2 cents per revenue dollar, up from 32.9 cents a year ago."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#5b6b7c",
+      "title": "Profit rose even after a bigger tax bill",
+      "text": "Net income was $1,039M in total; $1,030M belonged to Expedia shareholders ($9M to minority partners). The tax provision rose to $264M from $167M a year ago."
+    }
+  ],
+  "oneTimers": [
+    "$35M of restructuring and reorganization charges in the quarter ($104M so far in 2026).",
+    "Seasonal cash pattern: operating cash flow was negative $1,157M in Q3 as traveler deposits collected earlier in the year were paid out to hotels \u2014 normal for Expedia's peak season, not a loss."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex. 99.1)",
+      "url": "https://s202.q4cdn.com/757635260/files/content_files/Q3-2026-Earnings-Release-Final.pdf"
+    }
+  ],
+  "footerNote": "Net income of $1,039M is the total before $9M allocated to non-controlling interests; $1,030M was attributable to Expedia Group shareholders.",
+  "follow100": [
+    {
+      "label": "Lodging",
+      "amount": 80.82
+    },
+    {
+      "label": "Other travel",
+      "amount": 9.78
+    },
+    {
+      "label": "Advertising \u2014 Expedia brands",
+      "amount": 4.17
+    },
+    {
+      "label": "Advertising \u2014 trivago",
+      "amount": 3.34
+    },
+    {
+      "label": "Air",
+      "amount": 1.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -8.49
+    },
+    {
+      "label": "Selling & marketing \u2014 direct",
+      "amount": -44.23
+    },
+    {
+      "label": "Technology & content",
+      "amount": -6.76
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.54
+    },
+    {
+      "label": "Selling & marketing \u2014 indirect",
+      "amount": -4.23
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.93
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.71
+    },
+    {
+      "label": "Legal reserves & occupancy tax",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.47
+    },
+    {
+      "label": "Tax",
+      "amount": -5.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.04
+    }
+  ]
+}

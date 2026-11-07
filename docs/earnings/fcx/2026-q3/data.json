@@ -1,0 +1,187 @@
+{
+  "ticker": "FCX",
+  "company": "Freeport-McMoRan",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Freeport's revenue rose 8% to $7.5B because copper fetched $6.54 a pound \u2014 high metal prices more than made up for selling fewer pounds while the Grasberg mine ramps back up.",
+  "revenueYoY": "+8%",
+  "segments": [
+    {
+      "name": "U.S. Rod & Refining",
+      "amountM": 2359,
+      "note": "Copper rod and cathode sold to outside customers from U.S. conversion plants.",
+      "yoy": ""
+    },
+    {
+      "name": "South America operations",
+      "amountM": 1645,
+      "note": "Cerro Verde in Peru and El Abra in Chile \u2014 copper sold to outside customers.",
+      "yoy": ""
+    },
+    {
+      "name": "Indonesia operations",
+      "amountM": 1476,
+      "note": "The Grasberg district \u2014 copper, gold and silver; sales held back by the mine's ramp-up and gold timing.",
+      "yoy": ""
+    },
+    {
+      "name": "Atlantic Copper",
+      "amountM": 1249,
+      "note": "Smelting and refining in Spain, selling refined copper and precious metals.",
+      "yoy": ""
+    },
+    {
+      "name": "Corporate & molybdenum sales",
+      "amountM": 767,
+      "note": "Includes the molybdenum sales company (molybdenum from the Colorado mines and copper mines) and other corporate revenue.",
+      "yoy": ""
+    },
+    {
+      "name": "U.S. Copper Mines",
+      "amountM": 50,
+      "note": "Direct sales to outside customers only \u2014 most U.S. mine output is sold inside the company to Rod & Refining above.",
+      "yoy": ""
+    }
+  ],
+  "flow": {
+    "revenueM": 7546,
+    "costOfRevenueM": 4999,
+    "grossProfitM": 2547,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 131,
+        "note": "Running the company \u2014 head office, finance, legal and HR."
+      },
+      {
+        "name": "Exploration & research",
+        "amountM": 55,
+        "note": "Looking for new deposits and mining technology work."
+      },
+      {
+        "name": "Environmental & shutdown costs",
+        "amountM": 8,
+        "note": "Environmental obligations and shutdown costs."
+      }
+    ],
+    "operatingIncomeM": 2353,
+    "otherIncomeM": -61,
+    "equityM": 6,
+    "taxM": 610,
+    "netIncomeM": 1688
+  },
+  "otherDetail": "Net interest expense of $86M, partly offset by $25M of other income, plus $6M of equity earnings from affiliated companies.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.5B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.81",
+      "note": "vs $0.46 a year ago; adjusted EPS $0.88"
+    },
+    {
+      "label": "Copper price realized",
+      "value": "$6.54/lb",
+      "note": "vs $4.68 a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$2.0B",
+      "note": "after $0.4B of working-capital use"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$6.54",
+      "statColor": "#3d7bc8",
+      "title": "Price beat volume",
+      "text": "Copper sales fell 23% to 749 million pounds as Grasberg ramps up, but the price Freeport got rose 40% to $6.54 a pound \u2014 so revenue still grew 8% and operating income rose 19% to $2,353M."
+    },
+    {
+      "stat": "105K oz",
+      "statColor": "#5b6b7c",
+      "title": "Gold sales were deferred, not lost",
+      "text": "Gold sales were only 105 thousand ounces against production of 234 thousand, because refined gold sat in inventory at the Indonesian smelter; about 60 thousand ounces shifted into Q4, when Freeport expects 300 thousand ounces of gold sales."
+    },
+    {
+      "stat": "$2.07/lb",
+      "statColor": "#c8554a",
+      "title": "Costs per pound rose",
+      "text": "Unit net cash costs \u2014 what it costs to produce a pound of copper after by-product credits \u2014 rose to $2.07 from $1.40 a year ago, on lower volumes and higher energy and other input costs."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted net income of $1,275M ($0.88 per share) excludes $101M of after-tax charges, mainly $244M of pre-tax idle-facility, recovery and restoration costs from PT Freeport Indonesia's September 2025 mud rush incident (with related depreciation).",
+    "Revenue includes a favorable $52M adjustment to earlier provisionally priced copper sales."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex. 99.1)",
+      "url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_261027_3Q_2026_Earnings_Release.pdf?"
+    }
+  ],
+  "footerNote": "Mining format: revenue is split by operating division's sales to unaffiliated customers from the release's segment schedule (the divisions mine and sell copper, gold and molybdenum; U.S. mines sell mostly inside the company, so their direct external sales are small). Cost of revenue is total cost of sales (production and delivery $4,479M plus depreciation, depletion and amortization $520M). Net income of $1,688M is the total before $514M attributable to non-controlling interests; $1,174M was attributable to Freeport common stockholders.",
+  "follow100": [
+    {
+      "label": "U.S. Rod & Refining",
+      "amount": 31.26
+    },
+    {
+      "label": "South America operations",
+      "amount": 21.8
+    },
+    {
+      "label": "Indonesia operations",
+      "amount": 19.56
+    },
+    {
+      "label": "Atlantic Copper",
+      "amount": 16.55
+    },
+    {
+      "label": "Corporate & molybdenum sales",
+      "amount": 10.16
+    },
+    {
+      "label": "U.S. Copper Mines",
+      "amount": 0.66
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -66.25
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -1.74
+    },
+    {
+      "label": "Exploration & research",
+      "amount": -0.73
+    },
+    {
+      "label": "Environmental & shutdown costs",
+      "amount": -0.11
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.81
+    },
+    {
+      "label": "Equity earnings",
+      "amount": 0.08
+    },
+    {
+      "label": "Tax",
+      "amount": -8.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.37
+    }
+  ]
+}

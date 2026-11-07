@@ -1,0 +1,161 @@
+{
+  "ticker": "EXR",
+  "company": "Extra Space Storage",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Extra Space grew revenue 4% to $890M and squeezed more profit from the same stores by cutting their running costs, while a far smaller loss on property sales than a year ago made headline profit jump.",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "name": "Property rental",
+      "amountM": 761,
+      "note": "Rent paid by people and businesses storing their things \u2014 up 3%.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Tenant reinsurance",
+      "amountM": 94,
+      "note": "Insurance tenants buy to cover what they store \u2014 up 4%.",
+      "yoy": "+4%"
+    },
+    {
+      "name": "Management fees & other",
+      "amountM": 35,
+      "note": "Fees for running storage sites owned by others, plus other income \u2014 up 7%.",
+      "yoy": "+7%"
+    }
+  ],
+  "flow": {
+    "revenueM": 890,
+    "costOfRevenueM": 239,
+    "grossProfitM": 651,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 189,
+        "note": "The wearing-out cost of the storage properties \u2014 a non-cash charge."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 46,
+        "note": "Running the company \u2014 head office, finance, legal and HR."
+      },
+      {
+        "name": "Tenant reinsurance costs",
+        "amountM": 18,
+        "note": "Paying claims on the tenant insurance it sells."
+      },
+      {
+        "name": "Loss on real estate sold",
+        "amountM": 6,
+        "note": "Loss on properties sold or marked for sale \u2014 far below the $105M loss a year ago."
+      }
+    ],
+    "operatingIncomeM": 392,
+    "otherIncomeM": -121,
+    "taxM": 12,
+    "netIncomeM": 259
+  },
+  "otherDetail": "Interest expense of $151M plus $10M of non-cash interest, partly offset by $37M of interest income, $17M of earnings from joint ventures and a $14M joint-venture impairment loss, net.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$890M",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.17",
+      "note": "vs $0.78 a year ago"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$2.17",
+      "note": "+4% YoY \u2014 the REIT cash-profit measure"
+    },
+    {
+      "label": "Same-store NOI",
+      "value": "$505M",
+      "note": "+5% YoY \u2014 profit from established stores"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4.6%",
+      "statColor": "#3e8e5a",
+      "title": "Same stores earned more",
+      "text": "Stores open in both years took in 2.7% more rent and spent 1.8% less to run, so their net operating income rose 4.6% to $505M. Occupancy ended the quarter at 94.0%."
+    },
+    {
+      "stat": "$2.17",
+      "statColor": "#3d7bc8",
+      "title": "Cash profit per share rose",
+      "text": "Core FFO \u2014 funds from operations, the cash-profit measure landlords use because it adds back property depreciation \u2014 rose 4.3% to $2.17 per share, and the company raised its full-year guide to $8.40-$8.50."
+    },
+    {
+      "stat": "$327M",
+      "statColor": "#5b6b7c",
+      "title": "Buying back its own shares",
+      "text": "Extra Space repurchased 2.4 million of its own shares for $327M in the quarter and paid a $1.62-per-share dividend \u2014 returning cash instead of chasing growth."
+    }
+  ],
+  "oneTimers": [
+    "A $6M loss on real estate assets held for sale and sold, versus a $105M loss in Q3 2025 \u2014 the main reason GAAP net income attributable to shareholders rose 49% to $248M.",
+    "A $14M impairment and loss on joint-venture interests, partly offset by $17M of earnings and dividend income from unconsolidated ventures."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex. 99.1)",
+      "url": "https://s205.q4cdn.com/976395199/files/content_files/Q3-2026-EX99-1-Earnings-Release.pdf"
+    }
+  ],
+  "footerNote": "REIT format: revenue is rent, tenant insurance and management fees; direct costs are property operating costs. Amounts are rounded to the nearest $M from the release's thousands (total revenue $889.8M). Net income of $259M is the total before $12M allocated to non-controlling interests; $248M was attributable to common stockholders. FFO and Core FFO are non-GAAP measures the company reports alongside GAAP results.",
+  "follow100": [
+    {
+      "label": "Property rental",
+      "amount": 85.51
+    },
+    {
+      "label": "Tenant reinsurance",
+      "amount": 10.56
+    },
+    {
+      "label": "Management fees & other",
+      "amount": 3.93
+    },
+    {
+      "label": "Property operating costs",
+      "amount": -26.85
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -21.24
+    },
+    {
+      "label": "General & administrative",
+      "amount": -5.17
+    },
+    {
+      "label": "Tenant reinsurance costs",
+      "amount": -2.02
+    },
+    {
+      "label": "Loss on real estate sold",
+      "amount": -0.67
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -13.6
+    },
+    {
+      "label": "Tax",
+      "amount": -1.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.1
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "ticker": "FAST",
+  "company": "Fastenal",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-14",
+  "verdict": "Fastenal grew sales 16% to $2.5B by winning bigger customers, and keeping overhead growth well below sales growth turned that into a 20% jump in profit.",
+  "revenueYoY": "+16%",
+  "segments": [
+    {
+      "name": "Manufacturing customers",
+      "amountM": 1887,
+      "note": "Factories \u2014 heavy and other manufacturing took 76.6% of sales, growing fastest.",
+      "yoy": "+17%"
+    },
+    {
+      "name": "Other end markets",
+      "amountM": 379,
+      "note": "Resellers, government, education, transport, warehouses and data centers \u2014 15.4% of sales.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Non-residential construction",
+      "amountM": 197,
+      "note": "Building sites \u2014 8.0% of sales, growing for a sixth straight quarter.",
+      "yoy": "+12%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2463,
+    "costOfRevenueM": 1358,
+    "grossProfitM": 1105,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 574,
+        "note": "Staff, stores, trucks and running the company \u2014 grew 9%, well below sales growth of 16%."
+      }
+    ],
+    "operatingIncomeM": 531,
+    "otherIncomeM": 0,
+    "taxM": 130,
+    "netIncomeM": 401
+  },
+  "otherDetail": "Net interest income of $0.4M \u2014 interest earned roughly matched interest paid on Fastenal's small debt balance.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.5B",
+      "note": "+16% YoY (net sales $2,463M)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.35",
+      "note": "vs $0.29 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "21.5%",
+      "note": "up from 20.7% a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$422M",
+      "note": "105% of net income"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15.5%",
+      "statColor": "#3d7bc8",
+      "title": "Big customers are driving growth",
+      "text": "Daily sales rose 15.5%. Contract customers \u2014 large accounts with signed deals \u2014 grew 18.8% and are now 76.5% of sales, as Fastenal keeps winning share inside factories."
+    },
+    {
+      "stat": "21.5%",
+      "statColor": "#3e8e5a",
+      "title": "Overhead leverage beat margin pressure",
+      "text": "Gross margin slipped to 44.8% because big customers get lower prices, but SG&A fell to 23.3% of sales from 24.6%, so operating margin rose to 21.5% \u2014 and operating income jumped 20%, the biggest dollar gain in Fastenal's history."
+    },
+    {
+      "stat": "$328M",
+      "statColor": "#5b6b7c",
+      "title": "Most profit went back to shareholders",
+      "text": "Fastenal returned $328M \u2014 82% of net income \u2014 as $298M of dividends and $30M of share buybacks, while keeping total debt at just $100M."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex. 99.1)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000815556/f010090e-72f5-4826-aebe-db21710f27fe.pdf"
+    }
+  ],
+  "footerNote": "Fastenal reports one segment, so revenue is split by end market using the release's percentage-of-sales table (manufacturing 76.6%, other 15.4%, non-residential construction 8.0%). Fastenal reports in tenths of a million; figures here are rounded to the nearest $M (net sales $2,463.3M, gross profit $1,104.7M, SG&A $573.9M, operating income $530.8M, tax $129.6M, net income $401.6M).",
+  "follow100": [
+    {
+      "label": "Manufacturing customers",
+      "amount": 76.61
+    },
+    {
+      "label": "Other end markets",
+      "amount": 15.39
+    },
+    {
+      "label": "Non-residential construction",
+      "amount": 8.0
+    },
+    {
+      "label": "Cost of products sold",
+      "amount": -55.14
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -23.3
+    },
+    {
+      "label": "Tax",
+      "amount": -5.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.28
+    }
+  ]
+}
