@@ -1,0 +1,135 @@
+{
+  "ticker": "MRSH",
+  "company": "Marsh McLennan",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "revenueYoY": "+8%",
+  "verdict": "Marsh McLennan grew revenue 8% to $6.9B and profit 8% to $808M \u2014 steady, broad-based growth across insurance broking and consulting, with adjusted EPS up 10%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.9B",
+      "note": "+8% YoY (+5% underlying)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.69",
+      "note": "vs $1.57 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.03",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Risk & Insurance revenue",
+      "value": "$4.2B",
+      "note": "+7% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Risk & Insurance Services",
+      "amountM": 4200,
+      "yoy": "+7%",
+      "note": "Marsh (the world's largest insurance broker) and Guy Carpenter (reinsurance broking) \u2014 placing insurance for companies and earning commissions and fees, plus fiduciary interest income on premiums held in trust."
+    },
+    {
+      "name": "Consulting",
+      "amountM": 2685,
+      "yoy": "+9%",
+      "note": "Mercer (people, retirement and investments advice) and Oliver Wyman (management consulting, +14%)."
+    },
+    {
+      "name": "Corporate eliminations",
+      "amountM": -22,
+      "yoy": "",
+      "note": "Intercompany eliminations and corporate items \u2014 a small negative that brings the segments to total revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 6863,
+    "costOfRevenueM": 4078,
+    "grossProfitM": 2785,
+    "opex": [
+      {
+        "name": "Other operating expenses",
+        "amountM": 1570,
+        "note": "Offices, technology, travel and amortization of intangibles from acquisitions \u2014 the line that separates GAAP operating income ($1.2B) from adjusted ($1.5B)."
+      }
+    ],
+    "operatingIncomeM": 1215,
+    "otherIncomeM": -182,
+    "equityM": -4,
+    "taxM": 221,
+    "netIncomeM": 808
+  },
+  "otherDetail": "Interest expense of $248M, partly offset by $48M of pension benefit credits, $10M of interest income and $8M of investment income.",
+  "follow100": [
+    {
+      "label": "Risk & Insurance Services",
+      "amount": 61.2
+    },
+    {
+      "label": "Consulting",
+      "amount": 39.12
+    },
+    {
+      "label": "Corporate eliminations",
+      "amount": -0.32
+    },
+    {
+      "label": "Compensation & benefits (direct cost)",
+      "amount": -59.42
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -22.88
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -2.65
+    },
+    {
+      "label": "Tax",
+      "amount": -3.22
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.77
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Both halves grew",
+      "text": "Risk & Insurance Services revenue rose 7% to $4.2B and Consulting 9% to $2.7B \u2014 no single deal or region carried the quarter; underlying growth was 5%."
+    },
+    {
+      "stat": "$2.03",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS outran GAAP again",
+      "text": "Adjusted EPS rose 10% to $2.03, ahead of GAAP's $1.69. The gap is mostly amortization of intangibles from Marsh's many acquisitions, which management excludes."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#5b6b7c",
+      "title": "Oliver Wyman stood out",
+      "text": "Management consulting revenue jumped 14%, the fastest-growing piece of the portfolio, while the big broking business compounded steadily."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000256/mmc3q2026ex991newsrelease.htm"
+    }
+  ],
+  "footerNote": "Marsh McLennan does not report a cost-of-revenue line. For a people business, its $4,078M of compensation and benefits \u2014 the brokers and consultants clients actually pay for \u2014 is treated here as the direct cost of revenue, and its other operating expenses as running costs. The company files its reports as Marsh & McLennan Companies, Inc."
+}

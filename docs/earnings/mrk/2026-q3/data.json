@@ -1,0 +1,156 @@
+{
+  "ticker": "MRK",
+  "company": "Merck & Co.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+5%",
+  "verdict": "Merck's sales rose 5% to $18.1B on Keytruda's continued growth, but profit fell 12% to $5.1B as acquisition-related charges inflated its cost of sales.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$18.1B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.04",
+      "note": "vs $2.32 a year ago (non-GAAP: $2.49)"
+    },
+    {
+      "label": "KEYTRUDA sales",
+      "value": "$8.6B",
+      "note": "+6% \u2014 nearly half of all revenue"
+    },
+    {
+      "label": "WINREVAIR sales",
+      "value": "$694M",
+      "note": "+93% \u2014 the new growth drug"
+    }
+  ],
+  "segments": [
+    {
+      "name": "KEYTRUDA / KEYTRUDA QLEX",
+      "amountM": 8601,
+      "yoy": "+6%",
+      "note": "The world's top-selling cancer immunotherapy, including $830M from the new under-the-skin version, QLEX. One product is 48% of Merck's revenue \u2014 the concentration behind its push to diversify."
+    },
+    {
+      "name": "Other pharmaceutical products",
+      "amountM": 7808,
+      "yoy": "",
+      "note": "Everything else for humans: GARDASIL vaccines ($2.0B, +14%), WINREVAIR for pulmonary hypertension ($694M, +93%), diabetes drugs JANUVIA/JANUMET ($380M, -39% on generic pressure), hospital and other products, including the recently acquired OHTUVAYRE."
+    },
+    {
+      "name": "Animal Health",
+      "amountM": 1676,
+      "yoy": "+4%",
+      "note": "Vaccines and medicines for livestock and pets."
+    }
+  ],
+  "flow": {
+    "revenueM": 18085,
+    "costOfRevenueM": 4892,
+    "grossProfitM": 13193,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 4537,
+        "note": "Developing the pipeline meant to replace Keytruda when its patents expire later this decade."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2886,
+        "note": "Selling medicines worldwide and running the company."
+      },
+      {
+        "name": "Restructuring costs",
+        "amountM": 184,
+        "note": "Ongoing restructuring program charges."
+      }
+    ],
+    "operatingIncomeM": 5586,
+    "otherIncomeM": -27,
+    "equityM": -2,
+    "taxM": 492,
+    "netIncomeM": 5065
+  },
+  "otherDetail": "Other expense, net, of $27M \u2014 this year it excludes a $393M gain on equity investments that Merck counts among the items separating GAAP from non-GAAP results.",
+  "oneTimers": [
+    "Cost of sales includes $1,140M of acquisition- and divestiture-related costs and $396M of restructuring \u2014 the main reason GAAP EPS fell while sales grew. Non-GAAP EPS, which excludes these and a $393M equity-investment gain, was $2.49."
+  ],
+  "follow100": [
+    {
+      "label": "KEYTRUDA / KEYTRUDA QLEX",
+      "amount": 47.56
+    },
+    {
+      "label": "Other pharmaceutical products",
+      "amount": 43.17
+    },
+    {
+      "label": "Animal Health",
+      "amount": 9.27
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -27.05
+    },
+    {
+      "label": "Research & development",
+      "amount": -25.08
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.96
+    },
+    {
+      "label": "Restructuring costs",
+      "amount": -1.02
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.15
+    },
+    {
+      "label": "Tax",
+      "amount": -2.72
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.0
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$8.6B",
+      "statColor": "#3d7bc8",
+      "title": "Keytruda still carries the company",
+      "text": "Keytruda and its new QLEX version grew 6% to $8.6B \u2014 48% of revenue. The QLEX launch ($830M already) matters: it can extend the franchise as the original's patents near expiry."
+    },
+    {
+      "stat": "+93%",
+      "statColor": "#3e8e5a",
+      "title": "The next generation is arriving",
+      "text": "WINREVAIR nearly doubled to $694M and GARDASIL grew 14% to $2.0B \u2014 the products Merck is counting on to soften the eventual Keytruda cliff."
+    },
+    {
+      "stat": "-12%",
+      "statColor": "#5b6b7c",
+      "title": "Deal costs hit GAAP profit",
+      "text": "Net income fell 12% despite 5% sales growth, on $1.5B of acquisition and restructuring charges inside cost of sales. The 8.9% effective tax rate (vs 14.2%) cushioned the fall."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926119825/tm2628203d1_ex99-1.htm"
+    }
+  ],
+  "footerNote": "Merck does not print gross profit or operating income lines in this summary; both are computed here exactly as its statement foots (sales less cost of sales; then less SG&A, R&D and restructuring). Net income attributable to Merck was $5,065M; consolidated net income was $5,067M."
+}

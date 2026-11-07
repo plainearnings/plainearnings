@@ -1,0 +1,172 @@
+{
+  "ticker": "MPWR",
+  "company": "Monolithic Power Systems",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+63%",
+  "verdict": "Monolithic Power's sales rocketed 63% to a record $1.2B \u2014 its first billion-dollar quarter \u2014 as AI data centers devoured its power chips; GAAP profit rose 51% to $271M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.2B",
+      "note": "+63% YoY, +23% vs the prior quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.51",
+      "note": "vs $3.74 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$8.19",
+      "note": "the gap is mostly stock-based pay"
+    },
+    {
+      "label": "Enterprise Data revenue",
+      "value": "$507M",
+      "note": "+165% YoY \u2014 AI servers are 42% of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Enterprise Data",
+      "amountM": 507,
+      "yoy": "+165%",
+      "note": "Power chips for AI servers and data centers \u2014 the explosion in AI computing made this the largest end market, 42% of all revenue."
+    },
+    {
+      "name": "Storage & Computing",
+      "amountM": 192,
+      "yoy": "+3%",
+      "note": "Power management for storage drives, PCs and computing hardware."
+    },
+    {
+      "name": "Communications",
+      "amountM": 187,
+      "yoy": "+135%",
+      "note": "Power solutions for network switches and optical modules \u2014 riding the same AI buildout."
+    },
+    {
+      "name": "Automotive",
+      "amountM": 181,
+      "yoy": "+19%",
+      "note": "Power chips for electric vehicles and car electronics."
+    },
+    {
+      "name": "Industrial",
+      "amountM": 71,
+      "yoy": "+29%",
+      "note": "Power for factory automation, medical and industrial equipment."
+    },
+    {
+      "name": "Consumer",
+      "amountM": 64,
+      "yoy": "-12%",
+      "note": "Power for home appliances and consumer electronics \u2014 the only shrinking market."
+    }
+  ],
+  "flow": {
+    "revenueM": 1202,
+    "costOfRevenueM": 536,
+    "grossProfitM": 666,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 167,
+        "note": "Sales, back office \u2014 and a large amount of stock-based pay for employees, which GAAP counts as an expense."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 141,
+        "note": "Designing the next power chips \u2014 also includes significant stock-based compensation."
+      }
+    ],
+    "operatingIncomeM": 358,
+    "otherIncomeM": 9,
+    "taxM": 96,
+    "netIncomeM": 271
+  },
+  "otherDetail": "Interest and investment income on the company's cash, net.",
+  "oneTimers": [
+    "No one-off gains or charges \u2014 but note the GAAP/non-GAAP gap: non-GAAP net income was $403M vs $271M GAAP, almost entirely because GAAP subtracts roughly $120M+ of stock-based compensation. Whether that is a 'real' cost is the standing debate with fast-growing chip companies."
+  ],
+  "follow100": [
+    {
+      "label": "Enterprise Data",
+      "amount": 42.18
+    },
+    {
+      "label": "Storage & Computing",
+      "amount": 15.97
+    },
+    {
+      "label": "Communications",
+      "amount": 15.56
+    },
+    {
+      "label": "Automotive",
+      "amount": 15.06
+    },
+    {
+      "label": "Industrial",
+      "amount": 5.91
+    },
+    {
+      "label": "Consumer",
+      "amount": 5.32
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -44.59
+    },
+    {
+      "label": "SG&A",
+      "amount": -13.89
+    },
+    {
+      "label": "Research & development",
+      "amount": -11.73
+    },
+    {
+      "label": "Other income",
+      "amount": -0.75
+    },
+    {
+      "label": "Tax",
+      "amount": -7.99
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.55
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+165%",
+      "statColor": "#3d7bc8",
+      "title": "AI is the whole story",
+      "text": "Enterprise Data revenue nearly tripled to $507M as AI servers need far more power conversion than ordinary servers. Communications (+135%) rode the same wave through optical modules and switches."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#3e8e5a",
+      "title": "First billion-dollar quarter",
+      "text": "Revenue crossed $1B for the first time, up 23% in a single quarter. Management says installed capacity can already support $6B of annual revenue, heading for $8B by late 2027."
+    },
+    {
+      "stat": "$8.19",
+      "statColor": "#5b6b7c",
+      "title": "Two profit numbers, one debate",
+      "text": "Non-GAAP EPS was $8.19 vs $5.51 GAAP. The difference is mainly stock-based pay \u2014 real dilution for shareholders, but not cash out the door."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026068202/mpwr-20260930xexx991.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's thousands presentation, with $1M of rounding absorbed in cost of revenue. Monolithic Power reports one operating segment; the sources above are its end markets."
+}
