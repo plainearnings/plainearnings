@@ -1,0 +1,176 @@
+{
+  "ticker": "MGM",
+  "company": "MGM Resorts International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "-1%",
+  "verdict": "MGM's resorts took in $4.2B, but soft Las Vegas room rates left the quarter near break-even \u2014 a $17M loss for MGM's own shareholders, because $56M of the profit belonged to partners in jointly owned resorts.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.2B",
+      "note": "-1% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.07",
+      "note": "vs -$1.05 a year ago (that quarter had a $256M goodwill write-off)"
+    },
+    {
+      "label": "Net income (consolidated)",
+      "value": "$39M",
+      "note": "but $56M belonged to joint-venture partners"
+    },
+    {
+      "label": "MGM China market share",
+      "value": "17.1%",
+      "note": "record quarterly revenue and share in Macau"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Casino",
+      "amountM": 2305,
+      "yoy": "0%",
+      "note": "Slots and table games across Las Vegas, regional U.S. resorts and Macau \u2014 roughly flat year over year."
+    },
+    {
+      "name": "Rooms",
+      "amountM": 763,
+      "yoy": "-4%",
+      "note": "Hotel rooms \u2014 revenue fell as Las Vegas room rates softened in the quarter."
+    },
+    {
+      "name": "Food and beverage",
+      "amountM": 741,
+      "yoy": "-1%",
+      "note": "Restaurants, bars and catering across the resorts."
+    },
+    {
+      "name": "Entertainment, retail & other",
+      "amountM": 403,
+      "yoy": "-2%",
+      "note": "Shows, nightclubs, shops and other resort income."
+    }
+  ],
+  "flow": {
+    "revenueM": 4212,
+    "costOfRevenueM": 2478,
+    "grossProfitM": 1734,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 1229,
+        "note": "Running the resorts day to day \u2014 staff and operations not tied to one department."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 276,
+        "note": "Wearing-out cost of the resorts, systems and intangibles."
+      },
+      {
+        "name": "Corporate expense",
+        "amountM": 133,
+        "note": "Head-office costs."
+      },
+      {
+        "name": "Property transactions & preopening, net",
+        "amountM": 8,
+        "note": "Small net cost from property items and preopening, net."
+      }
+    ],
+    "operatingIncomeM": 88,
+    "otherIncomeM": -66,
+    "equityM": -56,
+    "taxM": -17,
+    "netIncomeM": -17
+  },
+  "otherDetail": "Income from unconsolidated affiliates of $31M and $8M of other income, less $103M of net interest expense and $2M of non-operating losses from affiliates.",
+  "follow100": [
+    {
+      "label": "Casino",
+      "amount": 54.73
+    },
+    {
+      "label": "Rooms",
+      "amount": 18.11
+    },
+    {
+      "label": "Food and beverage",
+      "amount": 17.59
+    },
+    {
+      "label": "Entertainment, retail & other",
+      "amount": 9.57
+    },
+    {
+      "label": "Departmental costs",
+      "amount": -58.83
+    },
+    {
+      "label": "General & administrative",
+      "amount": -29.17
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -6.55
+    },
+    {
+      "label": "Corporate expense",
+      "amount": -3.16
+    },
+    {
+      "label": "Property transactions & preopening",
+      "amount": -0.19
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -1.57
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.4
+    },
+    {
+      "label": "Partners' share of profit",
+      "amount": -1.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -0.4
+    }
+  ],
+  "follow100Note": "MGM kept nothing this quarter: after a small tax benefit, $1.33 of every $100 of profit went to joint-venture partners, leaving a $0.40 loss per $100 for MGM's own shareholders.",
+  "oneTimers": [
+    "The year-ago quarter included a $256M goodwill impairment, which is why EPS improved from -$1.05 to -$0.07 despite a softer business. This quarter had no comparable charge."
+  ],
+  "takeaways": [
+    {
+      "stat": "-4%",
+      "statColor": "#3d7bc8",
+      "title": "Las Vegas rates were the drag",
+      "text": "Rooms revenue fell 4% as Strip room rates softened (management said October rebounded). Casino revenue was flat at $2.3B despite the softer visitation economics."
+    },
+    {
+      "stat": "17.1%",
+      "statColor": "#3e8e5a",
+      "title": "Macau set records",
+      "text": "MGM China posted record quarterly revenue and a record 17.1% market share in Macau, and regional U.S. resorts grew 1% on a same-store basis \u2014 the offsets to Las Vegas softness."
+    },
+    {
+      "stat": "$56M",
+      "statColor": "#5b6b7c",
+      "title": "Partners took the profit",
+      "text": "Consolidated net income was $39M, but $56M of profit belonged to noncontrolling partners (notably in MGM China), leaving a $17M loss attributable to MGM shareholders."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000106/mgmex991q32026earningrelea.htm"
+    }
+  ],
+  "footerNote": "MGM counts $31M of income from unconsolidated affiliates inside its reported operating income of $119M; here that $31M sits in other income, so the chart's operating profit line is $88M. Figures are rounded to $M from the release's thousands presentation; $1M of rounding is absorbed in casino revenue. The tax line is a $17M benefit (money back), which is why it adds to profit."
+}

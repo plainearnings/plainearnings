@@ -1,0 +1,137 @@
+{
+  "ticker": "MKC",
+  "company": "McCormick & Company",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-10-01",
+  "revenueYoY": "+17%",
+  "verdict": "McCormick's sales jumped 17% after it bought control of its Mexican joint venture, but deal costs and a $43M write-off cut GAAP profit 57% to $98M \u2014 underlying EPS was steady at $0.86.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.0B",
+      "note": "+17% YoY (organic: +2%)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.36",
+      "note": "vs $0.84 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.86",
+      "note": "+1% \u2014 excludes deal and special charges"
+    },
+    {
+      "label": "Gross margin",
+      "value": "39.3%",
+      "note": "up 190 basis points YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Consumer",
+      "amountM": 1216,
+      "yoy": "+25%",
+      "note": "Spices, herbs and recipe mixes sold in grocery stores (McCormick, Frank's RedHot, French's). Growth was mostly the McCormick de Mexico acquisition; organic sales rose 1%."
+    },
+    {
+      "name": "Flavor Solutions",
+      "amountM": 809,
+      "yoy": "+8%",
+      "note": "Flavorings sold to food and drink manufacturers and restaurants \u2014 organic sales rose 3%."
+    }
+  ],
+  "flow": {
+    "revenueM": 2025,
+    "costOfRevenueM": 1230,
+    "grossProfitM": 795,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 436,
+        "note": "Brand marketing, the sales force and back office \u2014 higher this year with the Mexico business consolidated and more brand investment."
+      },
+      {
+        "name": "Special charges",
+        "amountM": 142,
+        "note": "Costs of the planned Unilever Foods combination and integration work, plus a $43M non-cash impairment and exit costs from closing a pepper-sourcing project in Malaysia."
+      }
+    ],
+    "operatingIncomeM": 217,
+    "otherIncomeM": -62,
+    "equityM": -7,
+    "taxM": 50,
+    "netIncomeM": 98
+  },
+  "otherDetail": "Interest expense of $68M, partly offset by $6M of other income, net.",
+  "oneTimers": [
+    "$141.5M of special charges \u2014 transaction and integration costs for the planned combination with Unilever Foods plus a $43.1M non-cash impairment and $1.8M of exit costs on a development-stage pepper project in Malaysia \u2014 cut EPS by $0.50. Excluding special charges, adjusted operating income rose 22% to $359M and adjusted EPS was $0.86."
+  ],
+  "follow100": [
+    {
+      "label": "Consumer",
+      "amount": 60.05
+    },
+    {
+      "label": "Flavor Solutions",
+      "amount": 39.95
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -60.74
+    },
+    {
+      "label": "SG&A",
+      "amount": -21.53
+    },
+    {
+      "label": "Special charges",
+      "amount": -7.01
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -3.06
+    },
+    {
+      "label": "Noncontrolling interests, net",
+      "amount": -0.35
+    },
+    {
+      "label": "Tax",
+      "amount": -2.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.84
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "An acquisition did the growing",
+      "text": "Buying the rest of McCormick de Mexico (closed January 2026) contributed about 15 points of the 17% sales growth. Organic growth was 2%, driven by price."
+    },
+    {
+      "stat": "39.3%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded anyway",
+      "text": "Gross margin widened 190 basis points to 39.3% on the Mexico contribution, cost savings from the CCI program, and pricing \u2014 absorbing higher commodity and freight costs."
+    },
+    {
+      "stat": "$0.50",
+      "statColor": "#5b6b7c",
+      "title": "Deal costs dominate the GAAP line",
+      "text": "Special charges of $141.5M \u2014 mostly for the planned Unilever Foods combination \u2014 took $0.50 off EPS. Adjusted EPS of $0.86 was up just 1%, as higher interest and tax offset 22% adjusted operating income growth."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63754/000006375426000326/mkcreportssolidthirdquar.htm"
+    }
+  ],
+  "footerNote": "This is McCormick's fiscal Q3 2026 (quarter ended August 31, 2026). Figures are rounded to whole $M from the release's one-decimal presentation, with $1M of rounding absorbed in Consumer segment sales. The small 'equity' line nets $3M of income from unconsolidated operations against $10M of profit attributable to noncontrolling interests (mainly Grupo Herdez's 25% of McCormick de Mexico). A transformational combination with Unilever Foods was announced in March 2026 and is expected to close by mid-2027."
+}

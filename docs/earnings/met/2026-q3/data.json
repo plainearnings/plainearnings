@@ -1,0 +1,170 @@
+{
+  "ticker": "MET",
+  "company": "MetLife",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+18%",
+  "verdict": "MetLife's GAAP profit nearly tripled to $2.4B as premiums jumped 12% and its hedges swung from a $929M loss to a $698M gain; the steadier adjusted EPS rose 17% to $2.78.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$20.5B",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.67",
+      "note": "vs $1.22 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.78",
+      "note": "+17% YoY \u2014 strips out market swings"
+    },
+    {
+      "label": "Premiums",
+      "value": "$11.8B",
+      "note": "+12% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 11818,
+      "yoy": "+12%",
+      "note": "What policyholders pay for life, disability, dental and other coverage \u2014 up 12%, helped by pension risk-transfer deals (taking over companies' pension promises)."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 6198,
+      "yoy": "+2%",
+      "note": "Interest and dividends on the huge portfolio MetLife invests between collecting premiums and paying claims."
+    },
+    {
+      "name": "Policy fees",
+      "amountM": 1385,
+      "yoy": "+11%",
+      "note": "Fees charged on universal life and investment-type policies."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 853,
+      "yoy": "+18%",
+      "note": "Everything else MetLife books as revenue."
+    },
+    {
+      "name": "Investment & derivative results, net",
+      "amountM": 268,
+      "yoy": "",
+      "note": "A $698M gain on derivatives (hedges that rise when markets fall) minus $430M of net investment losses \u2014 these market-driven lines swing wildly quarter to quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 20522,
+    "costOfRevenueM": 13629,
+    "grossProfitM": 6893,
+    "opex": [
+      {
+        "name": "Other expenses",
+        "amountM": 2990,
+        "note": "Running the company: staff, technology and operations, net of amounts capitalized into DAC (deferred acquisition costs)."
+      },
+      {
+        "name": "Amortization of DAC & VOBA",
+        "amountM": 612,
+        "note": "Spreading the upfront cost of winning policies (commissions and underwriting) over the policies' lives."
+      },
+      {
+        "name": "Interest expense on debt",
+        "amountM": 291,
+        "note": "Interest on MetLife's own borrowings."
+      }
+    ],
+    "operatingIncomeM": 3000,
+    "otherIncomeM": 0,
+    "equityM": -61,
+    "taxM": 588,
+    "netIncomeM": 2351
+  },
+  "otherDetail": "All non-operating market items already sit inside revenue and claims lines for an insurer; below pre-tax profit, $588M of tax, $15M to noncontrolling interests and $46M of preferred dividends leave $2,351M for common shareholders.",
+  "follow100": [
+    {
+      "label": "Premiums",
+      "amount": 57.58
+    },
+    {
+      "label": "Net investment income",
+      "amount": 30.2
+    },
+    {
+      "label": "Policy fees",
+      "amount": 6.75
+    },
+    {
+      "label": "Other revenues",
+      "amount": 4.16
+    },
+    {
+      "label": "Investment & derivative results",
+      "amount": 1.31
+    },
+    {
+      "label": "Claims, credited interest & benefits",
+      "amount": -66.41
+    },
+    {
+      "label": "Other expenses",
+      "amount": -14.57
+    },
+    {
+      "label": "Amortization of DAC & VOBA",
+      "amount": -2.98
+    },
+    {
+      "label": "Interest on debt",
+      "amount": -1.42
+    },
+    {
+      "label": "Tax",
+      "amount": -2.87
+    },
+    {
+      "label": "NCI & preferred dividends",
+      "amount": -0.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.45
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Premiums drove real growth",
+      "text": "Premiums rose 12% to $11.8B, helped by pension risk-transfer business \u2014 MetLife taking over pension obligations from employers \u2014 and solid group benefits sales."
+    },
+    {
+      "stat": "+$698M",
+      "statColor": "#3e8e5a",
+      "title": "Hedges explain the GAAP jump",
+      "text": "Derivative gains of $698M replaced a $929M loss a year ago. These hedges protect the balance sheet, but they make GAAP profit swing hard; adjusted EPS (+17%) is the calmer gauge."
+    },
+    {
+      "stat": "$2.78",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted earnings rose steadily",
+      "text": "Adjusted EPS of $2.78 rose 17% year over year \u2014 the number management steers by, because it removes investment and derivative noise."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000058/ex991earningsreleasetables.htm"
+    }
+  ],
+  "footerNote": "For an insurer, 'cost of revenue' here is the claims block: $11,474M of policyholder benefits and claims, $2,201M of interest credited to policyholder accounts, $136M of policyholder dividends and $182M net of liability and market-risk-benefit remeasurement losses. MetLife's segment revenues are not broken out in its release, so the chart's sources are its revenue lines. Net income was $2,412M; the $2,351M shown is what remained for common shareholders after noncontrolling interests and preferred dividends."
+}
