@@ -1,0 +1,156 @@
+{
+  "ticker": "FFIV",
+  "company": "F5",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "F5 closed its fiscal year with revenue up 13% to $917 million on a 23% jump in product sales, though GAAP net income slipped slightly to $186 million as operating costs rose faster than sales.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$917M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.23"
+    },
+    {
+      "label": "EPS (non-GAAP)",
+      "value": "$4.42"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$510M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Systems",
+      "amountM": 239,
+      "note": "Hardware appliances that deliver and secure applications \u2014 revenue grew 29% as customers refreshed data-center gear.",
+      "yoy": "+29%"
+    },
+    {
+      "name": "Software",
+      "amountM": 271,
+      "note": "Software versions of the same delivery and security tools, sold by subscription and license \u2014 up 19%.",
+      "yoy": "+19%"
+    },
+    {
+      "name": "Services",
+      "amountM": 407,
+      "note": "Maintenance, support and consulting attached to the products \u2014 the steady base, up 3%. (Reported as $408M in the release's rounded summary.)",
+      "yoy": "+3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 917,
+    "costOfRevenueM": 163,
+    "grossProfitM": 754,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 274,
+        "note": "The sales force and marketing that sell F5's products and services."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 165,
+        "note": "Engineers building and improving the application delivery and security platform."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 96,
+        "note": "Finance, legal, HR and the rest of the back office."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 7,
+        "note": "One-off restructuring charges, mainly workforce and facility-exit costs."
+      }
+    ],
+    "operatingIncomeM": 212,
+    "otherIncomeM": 17,
+    "taxM": 43,
+    "netIncomeM": 186
+  },
+  "otherDetail": "Other income, net was $17.8M as reported \u2014 mostly interest earned on F5's cash and investments (shown rounded here).",
+  "follow100": [
+    {
+      "label": "Systems",
+      "amount": 26.06
+    },
+    {
+      "label": "Software",
+      "amount": 29.55
+    },
+    {
+      "label": "Services",
+      "amount": 44.38
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -17.78
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -29.88
+    },
+    {
+      "label": "Research & development",
+      "amount": -17.99
+    },
+    {
+      "label": "General & administrative",
+      "amount": -10.47
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.76
+    },
+    {
+      "label": "Other income",
+      "amount": 1.85
+    },
+    {
+      "label": "Tax",
+      "amount": -4.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.28
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3E8E5A",
+      "title": "Products drove the quarter",
+      "text": "Product revenue rose 23% to $510M \u2014 systems up 29% and software up 19% \u2014 the ninth straight quarter of double-digit product growth."
+    },
+    {
+      "stat": "23.1%",
+      "statColor": "#B8443C",
+      "title": "GAAP margin narrowed",
+      "text": "GAAP operating margin was 23.1%, down from 25.4% a year ago, as sales & marketing and other costs grew faster than revenue. Non-GAAP operating margin was 33.7%."
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#2563EB",
+      "title": "More buybacks authorized",
+      "text": "The board added $1.5B to the share repurchase program, on top of $322M still remaining \u2014 while fiscal 2027 guidance calls for slower revenue growth of 8% to 9%."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include $7.4M of restructuring charges and stock-based compensation of $67.5M; excluding these and other items, non-GAAP net income was $255M, or $4.42 per share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (F5, as furnished to the SEC on Form 8-K Ex. 99.1)",
+      "url": "https://www.f5.com/company/news/press-releases/earnings-q4-fy26"
+    }
+  ],
+  "footerNote": "Figures are rounded to the nearest $1M from the release's thousands; segment and flow lines use the exact statement amounts, so totals match the reported $917M revenue, $754M gross profit, $212M operating income and $186M net income."
+}

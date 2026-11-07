@@ -1,0 +1,142 @@
+{
+  "ticker": "FDXF",
+  "company": "FedEx Freight",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "In its first full quarter as a standalone company, FedEx Freight grew revenue 8.1% to $2.4 billion, but $105 million of separation costs held operating income to $253 million and net income to $147 million.",
+  "revenueYoY": "+8.1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.4B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.98"
+    },
+    {
+      "label": "Operating income",
+      "value": "$253M"
+    },
+    {
+      "label": "Separation costs",
+      "value": "$105M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Less-than-truckload freight",
+      "amountM": 2442,
+      "note": "FedEx Freight is a single-segment business: less-than-truckload (LTL) trucking \u2014 many customers' pallets sharing each trailer \u2014 across North America.",
+      "yoy": "+8.1%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2442,
+    "costOfRevenueM": 1909,
+    "grossProfitM": 533,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 114,
+        "note": "Wear-and-tear on tractors, trailers, terminals and systems."
+      },
+      {
+        "name": "Separation & other costs",
+        "amountM": 105,
+        "note": "One-off costs of splitting from FedEx and standing up as an independent public company."
+      },
+      {
+        "name": "Insurance & claims",
+        "amountM": 44,
+        "note": "Accident and cargo claims and the insurance behind them \u2014 a real cost of running trucks."
+      },
+      {
+        "name": "Operating taxes & licenses",
+        "amountM": 17,
+        "note": "Licenses and non-income taxes on operations."
+      }
+    ],
+    "operatingIncomeM": 253,
+    "otherIncomeM": -49,
+    "taxM": 57,
+    "netIncomeM": 147
+  },
+  "otherDetail": "Interest expense of $55M on the debt taken on at separation, partly offset by $5M of interest income and $1M of other income \u2014 a net $49M cost. A year ago this line instead held $98M of interest income from FedEx, its then-parent.",
+  "follow100": [
+    {
+      "label": "Less-than-truckload freight",
+      "amount": 100.0
+    },
+    {
+      "label": "Direct operating costs",
+      "amount": -78.17
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.67
+    },
+    {
+      "label": "Separation & other costs",
+      "amount": -4.3
+    },
+    {
+      "label": "Insurance & claims",
+      "amount": -1.8
+    },
+    {
+      "label": "Operating taxes & licenses",
+      "amount": -0.7
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.01
+    },
+    {
+      "label": "Tax",
+      "amount": -2.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.02
+    }
+  ],
+  "follow100Note": "Direct operating costs = salaries & employee benefits ($1,128M) + operating supplies & expenses ($546M) + purchased transportation ($235M), the FedEx Freight expense lines that move directly with shipments.",
+  "takeaways": [
+    {
+      "stat": "+8.1%",
+      "statColor": "#3E8E5A",
+      "title": "Growth in a soft freight market",
+      "text": "Three-month revenue rose to $2,442M from $2,259M a year ago (when the business was still inside FedEx), helped by pricing and fuel surcharges even as daily shipments softened."
+    },
+    {
+      "stat": "$105M",
+      "statColor": "#B8443C",
+      "title": "Separation is not free",
+      "text": "Separation and other costs of $105M in the quarter cut GAAP operating income to $253M from $290M a year ago. On the four-month view the company headlines, adjusted operating income was $510M, up 16.4%."
+    },
+    {
+      "stat": "$0.98",
+      "statColor": "#2563EB",
+      "title": "A new standalone baseline",
+      "text": "GAAP EPS was $0.98 vs $1.95 a year ago under FedEx \u2014 the drop mostly reflects separation costs, new standalone interest expense, and losing the old parent-company interest income."
+    }
+  ],
+  "oneTimers": [
+    "This page covers the three months ended September 30, 2026 from FedEx Freight's own Form 10-Q. Its earnings release headlined a one-time four-month transition period (June 1\u2013September 30, 2026, including its last month inside the old fiscal calendar): revenue $3,281M, GAAP operating income $383M, net income $230M, adjusted EPS $2.15.",
+    "FedEx Freight became independent on June 1, 2026 and moved its year-end to December 31; prior-year figures are carve-out results from when it was a FedEx segment, so comparisons are approximate."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release for the transition period (SEC EDGAR Form 8-K Ex. 99.1)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002082247/98a0eb84-7438-4c60-b7c5-36c38737d43d.pdf"
+    },
+    {
+      "label": "Form 10-Q with the three-month statements (SEC EDGAR)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002082247/447b4475-b6ff-4fdd-903f-a9e486df0045.pdf"
+    }
+  ],
+  "footerNote": "FedEx Freight reports one list of operating expenses with no gross-profit line; salaries, operating supplies and purchased transportation are shown as direct operating costs and the rest as running costs, so the chart keeps the standard shape. It is a single reportable segment (LTL freight)."
+}

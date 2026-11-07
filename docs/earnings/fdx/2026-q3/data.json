@@ -1,0 +1,163 @@
+{
+  "ticker": "FDX",
+  "company": "FedEx",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "FedEx's revenue rose 12% to $22.9 billion and its adjusted profit grew, but a $1.2 billion paper loss on the FedEx Freight stake it kept cut GAAP net income to $290 million.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$22.9B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.21"
+    },
+    {
+      "label": "EPS (adjusted)",
+      "value": "$3.74"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$1.2B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Express U.S. Domestic",
+      "amountM": 14710,
+      "note": "Packages and freight inside the US \u2014 priority, deferred and ground delivery. Yields and volumes both rose.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Express International",
+      "amountM": 7465,
+      "note": "Cross-border packages and air freight, plus local delivery inside other countries \u2014 the fastest-growing piece.",
+      "yoy": "+17%"
+    },
+    {
+      "name": "Corporate, other & eliminations",
+      "amountM": 680,
+      "note": "FedEx Office, FedEx Supply Chain (sold on October 1, 2026), Dataworks and head-office items, net of eliminations.",
+      "yoy": "0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 22855,
+    "costOfRevenueM": 15159,
+    "grossProfitM": 7696,
+    "opex": [
+      {
+        "name": "Other operating costs, net",
+        "amountM": 3685,
+        "note": "Everything else it takes to run the network \u2014 facilities, technology, purchased services and overhead, as FedEx reports the line."
+      },
+      {
+        "name": "Rentals & landing fees",
+        "amountM": 1183,
+        "note": "Renting aircraft and facilities, and airport landing fees."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 967,
+        "note": "Wear-and-tear on planes, trucks, sort hubs and systems."
+      },
+      {
+        "name": "Maintenance & repairs",
+        "amountM": 794,
+        "note": "Keeping the fleet of aircraft and vehicles running."
+      }
+    ],
+    "operatingIncomeM": 1067,
+    "otherIncomeM": -643,
+    "taxM": 134,
+    "netIncomeM": 290
+  },
+  "otherDetail": "A $1,238M paper loss on the retained 19.9% FedEx Freight investment and $66M of net interest, partly offset by $661M of other non-operating income that includes a $627M pre-tax gain on extinguishing debt early \u2014 a net $643M cost.",
+  "follow100": [
+    {
+      "label": "Express U.S. Domestic",
+      "amount": 64.36
+    },
+    {
+      "label": "Express International",
+      "amount": 32.66
+    },
+    {
+      "label": "Corporate, other & eliminations",
+      "amount": 2.98
+    },
+    {
+      "label": "Direct delivery costs",
+      "amount": -66.33
+    },
+    {
+      "label": "Other operating costs, net",
+      "amount": -16.12
+    },
+    {
+      "label": "Rentals & landing fees",
+      "amount": -5.18
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.23
+    },
+    {
+      "label": "Maintenance & repairs",
+      "amount": -3.47
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.81
+    },
+    {
+      "label": "Tax",
+      "amount": -0.59
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.27
+    }
+  ],
+  "follow100Note": "Direct delivery costs = salaries & employee benefits ($7,434M) + purchased transportation ($6,455M) + fuel ($1,270M), the three FedEx expense lines that move directly with volume.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3E8E5A",
+      "title": "Both express segments grew",
+      "text": "U.S. Domestic revenue rose 10% to $14,710M and International rose 17% to $7,465M on higher package yields, volumes and freight weight \u2014 even with global trade-policy headwinds."
+    },
+    {
+      "stat": "$1.21 vs $3.74",
+      "statColor": "#B8443C",
+      "title": "GAAP and adjusted tell two stories",
+      "text": "GAAP EPS was $1.21 after the $1,238M paper loss on the Freight stake and a $627M debt-extinguishment gain. Stripping those and restructuring out, adjusted EPS was $3.74 on $896M of adjusted net income."
+    },
+    {
+      "stat": "$2.0B",
+      "statColor": "#2563EB",
+      "title": "Buybacks stepped up",
+      "text": "FedEx repurchased $2.0B of stock in June\u2013September and raised its calendar 2026 adjusted EPS outlook to $18.00\u2013$18.60."
+    }
+  ],
+  "oneTimers": [
+    "FedEx completed the spin-off of FedEx Freight on June 1, 2026 and changed its fiscal year-end from May 31 to December 31 \u2014 so this is calendar Q3 2026, and Freight is no longer in continuing operations. FedEx kept a 19.9% Freight stake, marked to market each quarter: a $1.2B loss this quarter.",
+    "Operating expenses include $130M of restructuring, exit and other costs; the tax line includes a $263M deferred tax benefit tied to the FedEx Supply Chain business (sold October 1, 2026), which is why the GAAP tax charge is only $134M.",
+    "A $627M pre-tax gain on extinguishing debt early sits inside other non-operating income \u2014 FedEx used the ~$4.1B dividend received from Freight around the spin-off to tender for ~$4.9B of its bonds."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (FedEx investor site, as filed on Form 8-K)",
+      "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2026/FedEx-Reports-Strong-Third-Quarter-Results-038f3037d/default.aspx"
+    },
+    {
+      "label": "Form 10-Q with segment detail (SEC EDGAR)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001048911/9ff294f4-ec2b-4349-9a98-aa0c2f80fa96.pdf"
+    }
+  ],
+  "footerNote": "FedEx reports one list of operating expenses with no gross-profit line; salaries, purchased transportation and fuel are shown as direct delivery costs and the rest as running costs, so the chart keeps the standard shape. All figures are continuing operations for the three months ended September 30, 2026."
+}

@@ -1,0 +1,138 @@
+{
+  "ticker": "FE",
+  "company": "FirstEnergy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "FirstEnergy's revenue rose 9.9% to $4.6 billion on stronger demand, lifting earnings attributable to its shareholders 26% to $557 million, or $0.96 a share.",
+  "revenueYoY": "+9.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.6B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.96"
+    },
+    {
+      "label": "Core EPS (non-GAAP)",
+      "value": "$0.98"
+    },
+    {
+      "label": "Energize365 spend, 9 mo.",
+      "value": "$4.9B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric sales",
+      "amountM": 4502,
+      "note": "Selling electricity to homes and businesses across FirstEnergy's service territories \u2014 demand rose with new large-load (data center) customers connecting.",
+      "yoy": "+9.7%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 55,
+      "note": "Everything else \u2014 service fees and miscellaneous regulated and unregulated revenue.",
+      "yoy": "+25%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4557,
+    "costOfRevenueM": 1660,
+    "grossProfitM": 2897,
+    "opex": [
+      {
+        "name": "Other operating expenses",
+        "amountM": 1220,
+        "note": "Running the grid and serving customers day to day \u2014 shown net of a $103M credit from deferring regulatory assets, as FirstEnergy's statement nets the two."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 427,
+        "note": "Wear-and-tear on power plants, poles, wires and substations \u2014 a big, steady cost for a utility."
+      },
+      {
+        "name": "General taxes",
+        "amountM": 315,
+        "note": "Property and other non-income taxes across its multi-state footprint."
+      }
+    ],
+    "operatingIncomeM": 935,
+    "otherIncomeM": -251,
+    "taxM": 69,
+    "netIncomeM": 615
+  },
+  "otherDetail": "Interest expense of $345M, partly offset by $39M of miscellaneous income and $55M of capitalized financing costs (interest regulators let the utility add to its asset base instead of expensing) \u2014 a net $251M cost.",
+  "follow100": [
+    {
+      "label": "Electric sales",
+      "amount": 98.79
+    },
+    {
+      "label": "Other revenue",
+      "amount": 1.21
+    },
+    {
+      "label": "Fuel & purchased power",
+      "amount": -36.43
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -26.77
+    },
+    {
+      "label": "Depreciation",
+      "amount": -9.37
+    },
+    {
+      "label": "General taxes",
+      "amount": -6.91
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.51
+    },
+    {
+      "label": "Tax",
+      "amount": -1.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.5
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9.9%",
+      "statColor": "#3E8E5A",
+      "title": "Demand did the lifting",
+      "text": "Revenue rose to $4,557M from $4,148M a year ago as electricity sales grew \u2014 FirstEnergy has 7.9 GW of contracted large-load demand in its pipeline."
+    },
+    {
+      "stat": "$0.98",
+      "statColor": "#2563EB",
+      "title": "Core earnings topped GAAP",
+      "text": "Core (non-GAAP) EPS was $0.98 vs GAAP $0.96 \u2014 the 2-cent gap is special items like investigation costs and pension credits. Full-year Core guidance of $2.62\u2013$2.82 was reaffirmed."
+    },
+    {
+      "stat": "$4.9B",
+      "statColor": "#2563EB",
+      "title": "Spending heavily on the grid",
+      "text": "FirstEnergy deployed $4.9B in the first nine months under its Energize365 capital plan, the investment program behind its 6\u20138% Core EPS growth target through 2030."
+    }
+  ],
+  "oneTimers": [
+    "Special items added a net $0.02 per share of costs in GAAP results \u2014 mainly $18M (pre-tax) of investigation and related costs and reorganization costs, partly offset by net pension/OPEB credits.",
+    "Net income in the chart is the consolidated $615M; after the $58M earned by noncontrolling interests, $557M was attributable to FirstEnergy shareholders \u2014 the basis for the $0.96 GAAP EPS."
+  ],
+  "sources": [
+    {
+      "label": "Strategic & Financial Highlights with full GAAP statements (SEC EDGAR Ex. 99.2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1031296/000103129626000142/ex992-3q26festrategicand.htm"
+    }
+  ],
+  "footerNote": "Utility layout: fuel and purchased power are the direct-cost block. FirstEnergy reports its operating segments (Distribution $2,253M, Integrated $1,810M, Stand-alone Transmission $501M, Corporate/other -$7M) in the same filing; the chart's revenue split uses its electric-sales/other lines so every band stays positive. Net income is consolidated, before noncontrolling interests, as in the AEP and Duke utility pages."
+}

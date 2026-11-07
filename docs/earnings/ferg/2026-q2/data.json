@@ -1,0 +1,142 @@
+{
+  "ticker": "FERG",
+  "company": "Ferguson Enterprises",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-10",
+  "verdict": "Ferguson's sales rose 4.6% to $8.8 billion as non-residential work grew 8%, and reported operating profit rose 6.1% to $893 million despite a small dip in gross margin.",
+  "revenueYoY": "+4.6%",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$8.8B"
+    },
+    {
+      "label": "Diluted EPS",
+      "value": "$3.43"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.39"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$893M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 8343,
+      "note": "The US distribution business \u2014 plumbing, HVAC, waterworks and more for pro contractors. Non-residential sales rose 8%; residential rose 2%.",
+      "yoy": "+5.0%"
+    },
+    {
+      "name": "Canada",
+      "amountM": 408,
+      "note": "The Canadian business \u2014 sales fell 1.9% as a non-core divestment offset 1.7% organic growth in a tough residential market.",
+      "yoy": "-1.9%"
+    }
+  ],
+  "flow": {
+    "revenueM": 8751,
+    "costOfRevenueM": 6039,
+    "grossProfitM": 2712,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1718,
+        "note": "Branch and delivery staff, sales and the back office \u2014 the cost of running about 1,700 locations."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 99,
+        "note": "Wear-and-tear on buildings, trucks and systems, plus amortization of acquired intangibles."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 2,
+        "note": "Small corporate restructuring costs tied to establishing the US parent company."
+      }
+    ],
+    "operatingIncomeM": 893,
+    "otherIncomeM": -47,
+    "taxM": 180,
+    "netIncomeM": 666
+  },
+  "otherDetail": "Net interest expense of $52M, partly offset by $5M of other income \u2014 a net $47M cost below operating profit.",
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 95.34
+    },
+    {
+      "label": "Canada",
+      "amount": 4.66
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -69.01
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -19.63
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.13
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.02
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.54
+    },
+    {
+      "label": "Tax",
+      "amount": -2.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.61
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3E8E5A",
+      "title": "Non-residential carried growth",
+      "text": "US non-residential revenue rose 8% on large capital projects, while residential \u2014 about half of sales \u2014 returned to growth at +2% despite weak housing activity."
+    },
+    {
+      "stat": "31.0%",
+      "statColor": "#B8443C",
+      "title": "Gross margin eased a touch",
+      "text": "Gross margin was 31.0%, down 20 basis points, because last year was flattered by the timing of supplier price increases. Operating leverage still lifted reported operating margin to 10.2%."
+    },
+    {
+      "stat": "5 deals",
+      "statColor": "#2563EB",
+      "title": "Buying growth, and guiding higher",
+      "text": "Ferguson closed five acquisitions in the quarter and agreed to buy FloWorks; full-year calendar 2026 guidance was raised to mid-single-digit sales growth."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted figures exclude $37M of amortization of acquired intangibles and $2M of corporate restructuring costs; adjusted operating profit was $932M and adjusted EPS $3.39.",
+    "Ferguson changed its fiscal year-end from July 31 to December 31, so this is the second quarter of calendar 2026 \u2014 results for the quarter ended September 30, 2026 were scheduled for November 9, 2026, after this report's cutoff."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR Form 8-K Ex. 99.1)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0002011641/49433413-1b00-4907-b17c-cff7ac1eed35.pdf"
+    },
+    {
+      "label": "Ferguson press release (company site)",
+      "url": "https://www.corporate.ferguson.com//pressroom/news-releases/news-details/2026/Ferguson-Reports-Second-Quarter-Ended-June-30-2026/default.aspx"
+    }
+  ],
+  "footerNote": "Ferguson now reports on a calendar year (year-end moved from July 31 to December 31 after a five-month transition period in late 2025), so its own naming for this quarter is simply the second quarter of 2026."
+}

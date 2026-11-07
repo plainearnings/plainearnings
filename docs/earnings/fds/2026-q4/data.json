@@ -1,0 +1,130 @@
+{
+  "ticker": "FDS",
+  "company": "FactSet",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-30",
+  "verdict": "FactSet grew revenue 6.3% to $634.7 million and pushed organic subscription value up 7.0%, but restructuring and other one-time costs cut GAAP operating income 11.7% to $156.6 million.",
+  "revenueYoY": "+6.3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$634.7M"
+    },
+    {
+      "label": "Diluted EPS (GAAP)",
+      "value": "$3.41"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.52"
+    },
+    {
+      "label": "Organic ASV",
+      "value": "$2.57B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 414.3,
+      "note": "Subscription data and analytics sold to clients in the Americas \u2014 FactSet's home and largest market.",
+      "yoy": "+6.7%"
+    },
+    {
+      "name": "EMEA",
+      "amountM": 154.8,
+      "note": "Europe, the Middle East and Africa \u2014 the second-largest region for subscription revenue.",
+      "yoy": "+6.6%"
+    },
+    {
+      "name": "APAC",
+      "amountM": 65.6,
+      "note": "Asia-Pacific \u2014 the smallest but fastest-growing region this quarter.",
+      "yoy": "+11.0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 634.7,
+    "costOfRevenueM": 326.3,
+    "grossProfitM": 308.4,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 151.8,
+        "note": "Sales, marketing and the back office \u2014 including higher ASV-linked incentive pay and one-time restructuring charges this quarter."
+      }
+    ],
+    "operatingIncomeM": 156.6,
+    "otherIncomeM": -12.4,
+    "taxM": 23.1,
+    "netIncomeM": 121.1
+  },
+  "otherDetail": "Interest expense of $14.4M, partly offset by $1.4M of interest income and $0.7M of other income \u2014 a net $12.3M cost as reported (shown rounded here).",
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 65.27
+    },
+    {
+      "label": "EMEA",
+      "amount": 24.39
+    },
+    {
+      "label": "APAC",
+      "amount": 10.34
+    },
+    {
+      "label": "Cost of services",
+      "amount": -51.41
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -23.92
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.95
+    },
+    {
+      "label": "Tax",
+      "amount": -3.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.08
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.0%",
+      "statColor": "#3E8E5A",
+      "title": "Subscriptions keep compounding",
+      "text": "Organic annual subscription value (ASV) \u2014 the forward revenue locked in from subscriptions \u2014 rose 7.0% to $2,568.2M, a record increase, with retention above 95%."
+    },
+    {
+      "stat": "24.7%",
+      "statColor": "#B8443C",
+      "title": "GAAP margin took a one-time hit",
+      "text": "GAAP operating margin fell to 24.7% from 29.7% a year ago, mainly on $26.9M of restructuring/severance and $4.6M of CEO onboarding costs. Adjusted margin was 33.0%."
+    },
+    {
+      "stat": "$177.3M",
+      "statColor": "#2563EB",
+      "title": "Cash still flows, and gets returned",
+      "text": "Free cash flow was $177.3M in the quarter, and FactSet returned over $179M to shareholders \u2014 $138M of buybacks plus more than $41M of dividends."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and severance charges of $26.9M and CEO onboarding costs of $4.6M weighed on GAAP operating income; excluding them and intangible amortization, adjusted operating income was $209.4M, up 3.8%.",
+    "A year ago, results included a gain on the divestiture of a business, which makes this year's GAAP EPS comparison ($3.41 vs $4.03) look worse than the underlying trend \u2014 adjusted EPS rose 11.6% to $4.52."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (Globe Newswire, as furnished to the SEC)",
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371739/7768/en/factset-reports-results-for-fourth-quarter-and-fiscal-2026.html"
+    }
+  ],
+  "footerNote": "FactSet reports a single operating-expense section; cost of services is shown as the direct-cost block and selling, general & administrative as the running-cost block. Segment growth rates are organic revenue growth as reported. Figures are rounded to the nearest $0.1M from the release's thousands."
+}
