@@ -4,8 +4,8 @@ Earnings reports, in plain English. Interactive charts that trace each dollar fr
 
 ## How this repo works
 
-- `site/` is the entire website. GitHub Pages publishes it via the workflow in `.github/workflows/pages.yml` (Settings → Pages → Source must be "GitHub Actions").
-- Content layout inside `site/`:
+- `docs/` is the entire website. GitHub Pages publishes it directly: Settings → Pages → Source "Deploy from a branch", branch `main`, folder `/docs`. A merged push to `docs/` is the publish.
+- Content layout inside `docs/`:
   - `index.html` — landing page (search, popular companies, subscribe)
   - `feed.xml` — site-wide RSS feed (per-company feeds live beside each company)
   - `assets/` — shared CSS and the interactive chart engine
