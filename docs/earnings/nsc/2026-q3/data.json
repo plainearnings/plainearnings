@@ -1,0 +1,142 @@
+{
+  "ticker": "NSC",
+  "company": "Norfolk Southern",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+14%",
+  "verdict": "Norfolk Southern posted record quarterly revenue of $3.5B, up 14% on higher fuel surcharges and 3% more freight, and grew net income to $759M despite merger-related and Eastern Ohio costs.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.5B",
+      "note": "+14% YoY \u2014 a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.37",
+      "note": "vs $3.16 a year ago; adjusted EPS was $3.62"
+    },
+    {
+      "label": "Operating ratio",
+      "value": "67.4%",
+      "note": "Operating costs per revenue dollar; 65.4% adjusted"
+    },
+    {
+      "label": "Volume",
+      "value": "+3%",
+      "note": "More carloads and containers than a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Merchandise",
+      "amountM": 2188,
+      "yoy": "+11%",
+      "note": "Manufactured goods, chemicals, metals, autos and farm products hauled by rail \u2014 the biggest business, up 11%."
+    },
+    {
+      "name": "Intermodal",
+      "amountM": 919,
+      "yoy": "+21%",
+      "note": "Shipping containers and truck trailers moved by rail \u2014 the fastest growth, up 21% as a tighter trucking market pushed freight to rail."
+    },
+    {
+      "name": "Coal",
+      "amountM": 419,
+      "yoy": "+12%",
+      "note": "Coal for power plants, steelmaking and export \u2014 up 12%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3526,
+    "costOfRevenueM": 2013,
+    "grossProfitM": 1513,
+    "opex": [
+      {
+        "name": "Depreciation",
+        "amountM": 363,
+        "note": "Wear and tear on locomotives, track and equipment, spread over their working lives."
+      }
+    ],
+    "operatingIncomeM": 1150,
+    "otherIncomeM": -163,
+    "taxM": 228,
+    "netIncomeM": 759
+  },
+  "otherDetail": "Other expense of $163M, net: $193M of interest expense on the railroad's debt, partly offset by $30M of other income.",
+  "follow100": [
+    {
+      "label": "Merchandise",
+      "amount": 62.05
+    },
+    {
+      "label": "Intermodal",
+      "amount": 26.06
+    },
+    {
+      "label": "Coal",
+      "amount": 11.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.09
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -10.29
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.62
+    },
+    {
+      "label": "Tax",
+      "amount": -6.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.53
+    }
+  ],
+  "follow100Note": "Cost of revenue breaks down as compensation and benefits $753M, purchased services and rents $546M, fuel $420M, materials and other $224M, merger-related expenses $42M and Eastern Ohio incident costs $28M. Depreciation is the only remaining operating-expense line, so revenue less total railway operating expenses equals the reported $1,150M income from railway operations.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue \u2014 much of it fuel surcharges",
+      "text": "Revenue hit a record $3,526M, up 14%. Volume rose 3%, and higher fuel surcharges \u2014 extra charges that rise with diesel prices \u2014 contributed eight of the fourteen points of growth."
+    },
+    {
+      "stat": "+21%",
+      "statColor": "#3e8e5a",
+      "title": "Intermodal is the growth story",
+      "text": "Intermodal revenue jumped 21% to $919M and merchandise 11% to $2,188M, as a tighter trucking market made rail more attractive. Coal rose 12% to $419M."
+    },
+    {
+      "stat": "67.4%",
+      "statColor": "#5b6b7c",
+      "title": "Fuel costs squeezed the operating ratio",
+      "text": "The operating ratio \u2014 operating costs per dollar of revenue \u2014 was 67.4%, worse than a year ago, because fuel expense jumped 77% to $420M and the quarter carried $42M of merger-related and $28M of Eastern Ohio incident costs. Excluding those items the ratio was 65.4%."
+    }
+  ],
+  "oneTimers": [
+    "$42M of merger-related expenses and $28M of Eastern Ohio incident costs are inside this quarter's operating expenses. Excluding them (and year-ago items), adjusted income from railway operations was $1.2B and adjusted EPS was $3.62 instead of $3.37."
+  ],
+  "footerNote": "Railroads do not report gross profit; cost of revenue here = direct train-running costs, following the same treatment as the CSX page.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm"
+    },
+    {
+      "label": "Quarterly financial data, Ex. 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm"
+    }
+  ]
+}

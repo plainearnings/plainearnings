@@ -1,0 +1,175 @@
+{
+  "ticker": "NRG",
+  "company": "NRG Energy",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-04",
+  "revenueYoY": "+11%",
+  "verdict": "NRG's revenue rose 11% to $7.5B as the generation fleet it bought from LS Power lifted the East, and while GAAP profit was flattered by mark-to-market hedge gains, NRG reaffirmed its full-year guidance.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.5B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.31",
+      "note": "vs a $0.62 loss a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.49",
+      "note": "Excludes mark-to-market hedge swings"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1,217M",
+      "note": "+34% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Texas",
+      "amountM": 2747,
+      "yoy": "-3%",
+      "note": "Selling power and gas to homes and businesses in Texas, plus NRG's Texas power plants. Revenue slipped 3% on milder weather and higher supply costs."
+    },
+    {
+      "name": "East",
+      "amountM": 3512,
+      "yoy": "+28%",
+      "note": "The eastern US retail business plus the generation portfolio and CPower business acquired from LS Power \u2014 the growth engine of the quarter, up 28%."
+    },
+    {
+      "name": "West/Other & corporate",
+      "amountM": 635,
+      "yoy": "0%",
+      "note": "Western US operations and other activities ($644M), combined here with corporate and intersegment eliminations (-$9M) so the segments add to total revenue."
+    },
+    {
+      "name": "Vivint Smart Home",
+      "amountM": 587,
+      "yoy": "+12%",
+      "note": "Smart-home security and energy products sold by subscription \u2014 up 12%."
+    }
+  ],
+  "flow": {
+    "revenueM": 7481,
+    "costOfRevenueM": 5470,
+    "grossProfitM": 2011,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 494,
+        "note": "Spreading the cost of power plants and customer relationships over their lives \u2014 up sharply after the LS Power acquisition added a large fleet."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 562,
+        "note": "Selling power contracts and running the company day to day \u2014 down from $724M a year ago."
+      },
+      {
+        "name": "Acquisition-related costs",
+        "amountM": 16,
+        "note": "Transaction and integration costs for the LS Power portfolio acquisition."
+      },
+      {
+        "name": "Gain on sale of assets",
+        "amountM": -37,
+        "note": "A $37M gain on selling assets \u2014 a credit inside operating costs, so it reduces expenses (shown as a negative expense, as on Duke Energy's page)."
+      }
+    ],
+    "operatingIncomeM": 976,
+    "otherIncomeM": -330,
+    "taxM": 157,
+    "netIncomeM": 489
+  },
+  "otherDetail": "Other expense of $330M, net: $310M of interest expense (roughly double a year ago, after debt taken on for the LS Power deal), a $9M loss on paying off debt early, and $17M of preferred-stock dividends, partly offset by $6M of other income \u2014 so the flow lands on the $489M available to common stockholders.",
+  "follow100": [
+    {
+      "label": "Texas",
+      "amount": 36.72
+    },
+    {
+      "label": "East",
+      "amount": 46.95
+    },
+    {
+      "label": "West/Other & corporate",
+      "amount": 8.49
+    },
+    {
+      "label": "Vivint Smart Home",
+      "amount": 7.85
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -73.12
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -6.6
+    },
+    {
+      "label": "Sales, general & administrative",
+      "amount": -7.51
+    },
+    {
+      "label": "Acquisition-related costs",
+      "amount": -0.21
+    },
+    {
+      "label": "Gain on sale of assets",
+      "amount": 0.49
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -4.41
+    },
+    {
+      "label": "Tax",
+      "amount": -2.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.54
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "The LS Power deal drives the East",
+      "text": "East revenue jumped 28% to $3,512M and its adjusted EBITDA rose from $99M to $469M, thanks to the generation assets and CPower business bought from LS Power and higher capacity prices."
+    },
+    {
+      "stat": "-3%",
+      "statColor": "#5b6b7c",
+      "title": "Texas had a softer quarter",
+      "text": "Texas revenue slipped 3% and adjusted EBITDA fell to $381M from $512M, on milder weather (heating degree days down about 30% in the first half), higher supply costs and the cost of running the new plants."
+    },
+    {
+      "stat": "$7.90\u2013$9.90",
+      "statColor": "#3e8e5a",
+      "title": "Full-year guidance reaffirmed",
+      "text": "NRG kept its 2026 guidance: adjusted EPS of $7.90\u2013$9.90 and adjusted EBITDA of $5,325\u2013$5,825M. GAAP profit of $506M was well above adjusted net income of $315M because of unrealized hedge gains (see one-time items)."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include unrealized mark-to-market gains on economic hedges \u2014 power contracts revalued each quarter while the customer contracts they hedge are not. That is the main reason GAAP net income of $506M was well above adjusted net income of $315M; these gains can reverse before the contracts settle.",
+    "A $37M gain on the sale of assets sits inside operating income this quarter."
+  ],
+  "footerNote": "NRG had not reported Q3 2026 as of November 7, 2026, so this page covers its latest reported quarter, Q2 2026. Adaptation for a utility: cost of operations (fuel, purchased power and other direct costs) is treated as cost of revenue; the remaining operating lines mirror NRG's income statement. Segment revenue is GAAP revenue by segment from the Form 10-Q. Net income here is the $489M available to common stockholders (after $17M of preferred dividends on total net income of $506M), matching the $2.31 diluted EPS.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000018/nrgq22026ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/nrg-20260630.htm"
+    }
+  ]
+}

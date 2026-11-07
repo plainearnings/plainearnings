@@ -1,0 +1,161 @@
+{
+  "ticker": "NTRS",
+  "company": "Northern Trust",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+13%",
+  "verdict": "Northern Trust earned $642.9M, up 40% from a year ago, as trust fees and net interest income both grew by double digits while costs rose only 5% \u2014 though the quarter included $48.7M of one-off gains.",
+  "kpis": [
+    {
+      "label": "Revenue (GAAP)",
+      "value": "$2.3B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.40",
+      "note": "vs $2.29 a year ago, +48%"
+    },
+    {
+      "label": "Trust & servicing fees",
+      "value": "$1,373M",
+      "note": "+8% YoY \u2014 the largest revenue line"
+    },
+    {
+      "label": "Assets under custody/admin.",
+      "value": "$19.9T",
+      "note": "+9% YoY; assets under management were $2.0T, +11%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 671.4,
+      "yoy": "+14%",
+      "note": "Interest earned on loans and securities ($2,073.1M) minus interest paid on deposits and borrowings ($1,401.7M) \u2014 up 14% from $590.8M a year ago."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 1623.0,
+      "yoy": "+13%",
+      "note": "Mostly trust, investment and servicing fees of $1,373.0M (+8%) charged for safekeeping and managing client assets, plus $250.0M of other noninterest income, which included $48.7M of one-off gains (see one-time items)."
+    }
+  ],
+  "flow": {
+    "revenueM": 2294.4,
+    "costOfRevenueM": 5.4,
+    "grossProfitM": 2289.0,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 761.1,
+        "note": "Pay and benefits for 23,800 employees \u2014 the bank's biggest cost, up only 3% YoY."
+      },
+      {
+        "name": "Equipment & software",
+        "amountM": 319.9,
+        "note": "Technology systems and software, including depreciation \u2014 up 9% YoY on higher technology spending."
+      },
+      {
+        "name": "Outside services",
+        "amountM": 252.1,
+        "note": "Outside providers and professional services \u2014 up 2% YoY."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 106.3,
+        "note": "Account servicing and other day-to-day operating costs \u2014 up 25% YoY."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 53.1,
+        "note": "Offices and premises \u2014 down 3% YoY.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 796.5,
+    "otherIncomeM": 0,
+    "taxM": 153.6,
+    "netIncomeM": 642.9
+  },
+  "otherDetail": "There is no separate below-the-line 'other income' step in this presentation: everything above pre-tax income sits in revenue and expenses. Pre-tax income was $796.5M, and the effective tax rate was an unusually low 19.3%.",
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 29.26
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 70.74
+    },
+    {
+      "label": "Credit costs",
+      "amount": -0.24
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -33.17
+    },
+    {
+      "label": "Equipment & software",
+      "amount": -13.94
+    },
+    {
+      "label": "Outside services",
+      "amount": -10.99
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -4.63
+    },
+    {
+      "label": "Occupancy",
+      "amount": -2.31
+    },
+    {
+      "label": "Tax",
+      "amount": -6.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.02
+    }
+  ],
+  "follow100Note": "Rows may add to $99.99 or $100.01 due to rounding. Northern Trust headlines revenue on a fully taxable-equivalent (FTE) basis \u2014 $2,302.1M; this page uses GAAP revenue of $2,294.4M, and net income is the same either way.",
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Fees grew in all three businesses",
+      "text": "Trust, investment and servicing fees rose 8% to $1,373.0M, with organic fee growth in Asset Servicing, Wealth Management and Asset Management alike, helped by assets under custody/administration rising 9% to $19.9 trillion."
+    },
+    {
+      "stat": "+40%",
+      "statColor": "#3e8e5a",
+      "title": "Costs barely grew, so profit leapt",
+      "text": "Revenue rose 13% while expenses rose only 5% \u2014 strong operating leverage. Excluding notable items, management said revenue grew 11% and pre-tax income 21%. Net income rose 40% to $642.9M and return on average common equity was 20.1%."
+    },
+    {
+      "stat": "19.3%",
+      "statColor": "#5b6b7c",
+      "title": "A low tax rate helped too",
+      "text": "The effective tax rate fell to 19.3% from 26.1% a year ago, mainly on a lower tax impact from international operations \u2014 part of why EPS grew 48%, faster than pre-tax income's 29%."
+    }
+  ],
+  "oneTimers": [
+    "Other noninterest income included $48.7M of pre-tax notable gains: a $34.0M gain on selling the guardianship services business and a $14.7M incremental gain from Northern Trust's participation in the second Visa Exchange Offer (combined after-tax value $36.8M)."
+  ],
+  "footerNote": "Adaptation for a bank/trust company, following the JPMorgan page: revenue = net interest income plus noninterest income, and the $5.4M provision for credit losses plays the role of cost of revenue. Figures are GAAP; Northern Trust's headline revenue and net interest income are on a fully taxable-equivalent basis ($2,302.1M and $679.1M). Net income is total net income of $642.9M; net income applicable to common stock was $626.7M after $16.2M of preferred dividends.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026earningsreleaseex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000066/ntrs-20260930.htm"
+    }
+  ]
+}

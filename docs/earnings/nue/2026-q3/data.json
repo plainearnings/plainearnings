@@ -1,0 +1,121 @@
+{
+  "ticker": "NUE",
+  "company": "Nucor",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-10-26",
+  "revenueYoY": "+32%",
+  "verdict": "Nucor's sales jumped 32% to $11.2B and earnings more than doubled to $1.32B ($5.80 a share), as steel prices and volumes rose together across its mills and products businesses.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$11.25B",
+      "note": "+32% YoY"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$5.80",
+      "note": "vs $2.63 a year ago"
+    },
+    {
+      "label": "EBITDA",
+      "value": "$2.28B",
+      "note": "Company-reported, non-GAAP"
+    },
+    {
+      "label": "Steel mills pre-tax earnings",
+      "value": "$1,788M",
+      "note": "vs $793M a year ago, +125%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 11249,
+      "yoy": "+32%",
+      "note": "All steel and steel-products sales \u2014 Nucor does not split net sales by segment in its earnings release. By pre-tax earnings, steel mills contributed $1,788M, steel products $465M and raw materials $105M, with corporate/eliminations at -$491M. Nucor shipped 7,533 thousand tons to outside customers at an average of $1,493 per ton, up 19% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 11249,
+    "costOfRevenueM": 8923,
+    "grossProfitM": 2326,
+    "opex": [
+      {
+        "name": "Marketing, administrative & other",
+        "amountM": 444,
+        "note": "Selling steel and running the company \u2014 up from $300M a year ago as volumes and prices rose."
+      },
+      {
+        "name": "Losses & impairments of assets",
+        "amountM": 17,
+        "note": "Write-downs and losses on assets this quarter (there were none a year ago)."
+      }
+    ],
+    "operatingIncomeM": 1865,
+    "otherIncomeM": -161,
+    "equityM": 9,
+    "taxM": 394,
+    "netIncomeM": 1319
+  },
+  "otherDetail": "Other expense of $152M, net: $154M of earnings belonging to noncontrolling partners in Nucor's joint ventures and $7M of net interest expense, partly offset by $9M of equity earnings from part-owned affiliates \u2014 so the flow lands on the $1,319M attributable to Nucor stockholders.",
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.32
+    },
+    {
+      "label": "Marketing, administrative & other",
+      "amount": -3.95
+    },
+    {
+      "label": "Losses & impairments",
+      "amount": -0.15
+    },
+    {
+      "label": "Other expense (interest & partners' share)",
+      "amount": -1.35
+    },
+    {
+      "label": "Tax",
+      "amount": -3.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.73
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+125%",
+      "statColor": "#3d7bc8",
+      "title": "The mills did the heavy lifting",
+      "text": "Steel mills' pre-tax earnings more than doubled to $1,788M from $793M, and steel products earnings rose to $465M from $319M, on higher volumes and higher realized prices. Raw materials earnings were $105M."
+    },
+    {
+      "stat": "$1,493",
+      "statColor": "#3e8e5a",
+      "title": "Prices and volumes rose together",
+      "text": "Nucor's average sales price was $1,493 per ton, up 19% from a year ago, and it shipped 7,533 thousand tons to outside customers. Sales rose 32% to $11,249M and net earnings attributable to stockholders rose 117% to $1,319M."
+    },
+    {
+      "stat": "$2.7B",
+      "statColor": "#5b6b7c",
+      "title": "Cash is piling up",
+      "text": "Nucor generated about $2.7B of free cash flow in the first nine months of 2026 and returned nearly $1.4B to shareholders, ending the quarter with $3.64B of cash and short-term investments and its credit facility undrawn."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Nucor reports no operating-income line; the operating-profit step here is net sales minus cost of products sold, marketing/administrative expenses and asset losses/impairments. Net earnings are the $1,319M attributable to Nucor stockholders (total net earnings before noncontrolling interests were $1,473M). Nucor's Q3 is a 13-week quarter ended October 3, 2026, and its earnings release does not split net sales by segment.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526432117/d129328dex991.htm"
+    }
+  ]
+}

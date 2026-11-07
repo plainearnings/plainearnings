@@ -1,0 +1,151 @@
+{
+  "ticker": "NTAP",
+  "company": "NetApp",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-02",
+  "revenueYoY": "+30%",
+  "verdict": "NetApp posted record revenue of $2.0B, up 30%, as all-flash storage sales surged 47% on AI demand \u2014 and it raised its full-year guidance after beating on every metric.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.03B",
+      "note": "+30% YoY \u2014 a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.88",
+      "note": "vs $1.15 a year ago; non-GAAP EPS was a record $2.58"
+    },
+    {
+      "label": "Billings",
+      "value": "$2,057M",
+      "note": "+36% YoY"
+    },
+    {
+      "label": "All-flash array revenue",
+      "value": "$1.3B",
+      "note": "+47% YoY \u2014 a record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Hybrid Cloud",
+      "amountM": 1819,
+      "yoy": "+30%",
+      "note": "Storage systems and software customers run in their own data centers \u2014 including the record $1.3B of all-flash array revenue, up 47% as companies build for AI."
+    },
+    {
+      "name": "Public Cloud",
+      "amountM": 206,
+      "yoy": "+28%",
+      "note": "NetApp storage services sold inside Amazon, Microsoft and Google's clouds \u2014 a record $206M, up 28%."
+    }
+  ],
+  "flow": {
+    "revenueM": 2025,
+    "costOfRevenueM": 606,
+    "grossProfitM": 1419,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 507,
+        "note": "Selling storage systems and cloud services \u2014 NetApp's biggest running cost."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 274,
+        "note": "Building the storage platform and its AI data-infrastructure products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 98,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 56,
+        "note": "One-off costs of a restructuring program \u2014 up from just $2M a year ago (see one-time items)."
+      }
+    ],
+    "operatingIncomeM": 484,
+    "otherIncomeM": 0,
+    "taxM": 109,
+    "netIncomeM": 375
+  },
+  "otherDetail": "Other expense was $0M this quarter \u2014 interest and other items netted to exactly nothing, so pre-tax income equaled operating income.",
+  "follow100": [
+    {
+      "label": "Hybrid Cloud",
+      "amount": 89.83
+    },
+    {
+      "label": "Public Cloud",
+      "amount": 10.17
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.93
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -25.04
+    },
+    {
+      "label": "R&D",
+      "amount": -13.53
+    },
+    {
+      "label": "G&A",
+      "amount": -4.84
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -2.77
+    },
+    {
+      "label": "Tax",
+      "amount": -5.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.52
+    }
+  ],
+  "follow100Note": "Rows may add to $99.99 or $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+51%",
+      "statColor": "#3d7bc8",
+      "title": "Hardware is booming again",
+      "text": "Product revenue jumped 51% to $987M as customers bought all-flash arrays for AI workloads; services revenue rose 15% to $1,038M. Total revenue was a record $2,025M, up 30%."
+    },
+    {
+      "stat": "$2.58",
+      "statColor": "#3e8e5a",
+      "title": "GAAP profit understates the run-rate",
+      "text": "GAAP EPS was $1.88, but non-GAAP EPS \u2014 excluding stock-based pay, restructuring and similar items \u2014 was a record $2.58, and non-GAAP net income was $515M vs $375M GAAP."
+    },
+    {
+      "stat": "$8.1B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised for the year",
+      "text": "NetApp raised its fiscal 2027 revenue guidance to $7,975\u2013$8,225M (about $8.1B at the midpoint) and guided Q2 FY27 revenue to $2,025\u2013$2,175M."
+    }
+  ],
+  "oneTimers": [
+    "$56M of restructuring charges sit inside GAAP operating expenses (vs $2M a year ago). NetApp's non-GAAP figures exclude them, along with stock-based compensation and intangible amortization."
+  ],
+  "footerNote": "NetApp's fiscal year ends in late April, so this is Q1 of fiscal 2027 \u2014 the quarter ended July 31, 2026 \u2014 its most recent reported quarter as of November 7, 2026 (Q2 FY27 results were due in late November 2026).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/ntap-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526380207/ntap-20260731.htm"
+    }
+  ]
+}
