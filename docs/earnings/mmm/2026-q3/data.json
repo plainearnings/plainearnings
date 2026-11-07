@@ -1,0 +1,157 @@
+{
+  "ticker": "MMM",
+  "company": "3M",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+1%",
+  "verdict": "3M's sales inched up 1% to $6.6B, but profit jumped 65% to $1.4B \u2014 mainly because last year's quarter carried litigation and divestiture hits that did not repeat.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.6B",
+      "note": "+1% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.63",
+      "note": "vs $1.55 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.50",
+      "note": "+12% YoY; full-year guidance raised to $9.10\u2013$9.15"
+    },
+    {
+      "label": "Operating margin (GAAP)",
+      "value": "23.7%",
+      "note": "vs 22.2% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Safety and Industrial",
+      "amountM": 3182,
+      "yoy": "+9%",
+      "note": "Respirators, abrasives, tapes and adhesives for factories and workers \u2014 the growth engine this quarter, with Personal Safety up 8% and Fire Safety and Rescue nearly doubling."
+    },
+    {
+      "name": "Transportation and Electronics",
+      "amountM": 1999,
+      "yoy": "0%",
+      "note": "Films, adhesives and materials for cars, aircraft and electronics \u2014 flat, as Electronics slipped 8%."
+    },
+    {
+      "name": "Consumer",
+      "amountM": 1307,
+      "yoy": "0%",
+      "note": "Scotch tape, Post-it notes, Command strips and Filtrete filters \u2014 flat year over year."
+    },
+    {
+      "name": "Corporate",
+      "amountM": 96,
+      "yoy": "",
+      "note": "Sales not assigned to the three segments."
+    }
+  ],
+  "flow": {
+    "revenueM": 6584,
+    "costOfRevenueM": 3801,
+    "grossProfitM": 2783,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 921,
+        "note": "Selling 3M's tens of thousands of products and running the company."
+      },
+      {
+        "name": "Research, development and related",
+        "amountM": 304,
+        "note": "3M's labs \u2014 the invention engine behind its product catalog."
+      }
+    ],
+    "operatingIncomeM": 1558,
+    "otherIncomeM": 112,
+    "equityM": -36,
+    "taxM": 261,
+    "netIncomeM": 1373
+  },
+  "otherDetail": "Other income, net, of $112M \u2014 pension and other non-operating items \u2014 a swing from $300M of other expense in the year-ago quarter.",
+  "follow100": [
+    {
+      "label": "Safety and Industrial",
+      "amount": 48.33
+    },
+    {
+      "label": "Transportation and Electronics",
+      "amount": 30.36
+    },
+    {
+      "label": "Consumer",
+      "amount": 19.85
+    },
+    {
+      "label": "Corporate",
+      "amount": 1.46
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -57.73
+    },
+    {
+      "label": "SG&A",
+      "amount": -13.99
+    },
+    {
+      "label": "Research & development",
+      "amount": -4.62
+    },
+    {
+      "label": "Other income",
+      "amount": -1.7
+    },
+    {
+      "label": "Tax",
+      "amount": -3.96
+    },
+    {
+      "label": "Noncontrolling interests, net",
+      "amount": -0.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.85
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter included a $161M loss on business divestitures and heavy litigation-related costs inside 'other expense' ($300M). This quarter those lines were quiet \u2014 other items were a net $112M of income \u2014 which explains most of the 65% profit jump."
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Safety carried the growth",
+      "text": "Safety and Industrial sales rose 9% to $3.2B, led by Personal Safety (+8%) and Fire Safety and Rescue, which nearly doubled to $206M. The other two segments were flat."
+    },
+    {
+      "stat": "$2.63",
+      "statColor": "#3e8e5a",
+      "title": "GAAP beat adjusted \u2014 unusually",
+      "text": "GAAP EPS of $2.63 came in above adjusted EPS of $2.50: this quarter's special items (including the other-income swing) added to profit instead of subtracting from it."
+    },
+    {
+      "stat": "$9.10\u2013$9.15",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "3M lifted full-year 2026 adjusted EPS guidance to $9.10\u2013$9.15 \u2014 management's signal that the underlying business, not just the one-offs, is improving."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/q32026-8kerexx991.htm"
+    }
+  ],
+  "footerNote": "3M does not print a gross-profit line; gross profit here is net sales less cost of sales, exactly as its statement foots. The small equity line nets $1M of income from unconsolidated subsidiaries against $37M of profit attributable to noncontrolling interests, giving the $1,373M attributable to 3M shareholders."
+}

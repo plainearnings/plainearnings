@@ -1,0 +1,142 @@
+{
+  "ticker": "MLM",
+  "company": "Martin Marietta Materials",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+28%",
+  "verdict": "Martin Marietta's sales jumped 28% after its August combination with Lhoist North America transformed its lime business \u2014 but profit fell 38% to $256M as interest costs more than doubled and margins thinned.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.4B",
+      "note": "+28% YoY, mostly the Lhoist North America deal"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.94",
+      "note": "vs $5.97 from continuing operations a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "27.5%",
+      "note": "vs 33.1% a year ago \u2014 mix shift to acquired volumes"
+    },
+    {
+      "label": "Interest expense",
+      "value": "$138M",
+      "note": "up from $59M \u2014 debt taken on for the combination"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Building Materials \u2014 East",
+      "amountM": 1020,
+      "yoy": "+8%",
+      "note": "Aggregates (crushed stone, sand and gravel), cement and concrete in the eastern U.S. \u2014 operating earnings actually fell to $312M from $335M as volumes and pricing softened."
+    },
+    {
+      "name": "Building Materials \u2014 West",
+      "amountM": 987,
+      "yoy": "+28%",
+      "note": "The western building-materials business \u2014 Texas, Colorado, California and Arizona \u2014 boosted by acquisitions."
+    },
+    {
+      "name": "Specialties",
+      "amountM": 362,
+      "yoy": "+176%",
+      "note": "Lime and magnesia chemicals for steel, water treatment and industry. Revenue is against a recast year-ago figure (part of the old business moved to discontinued operations); the Lhoist deal, closed August 21, made Martin Marietta the nation's leading lime producer."
+    }
+  ],
+  "flow": {
+    "revenueM": 2369,
+    "costOfRevenueM": 1718,
+    "grossProfitM": 651,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 133,
+        "note": "Sales and back office for the quarry and plant network."
+      },
+      {
+        "name": "Acquisition & integration, net",
+        "amountM": 80,
+        "note": "$84M of acquisition, divestiture and integration expenses (mostly the Lhoist combination), less $4M of other operating income."
+      }
+    ],
+    "operatingIncomeM": 438,
+    "otherIncomeM": -125,
+    "taxM": 57,
+    "netIncomeM": 256
+  },
+  "otherDetail": "Interest expense of $138M \u2014 up from $59M a year ago on debt for the Lhoist deal \u2014 partly offset by $13M of other nonoperating income.",
+  "oneTimers": [
+    "$84M of acquisition, divestiture and integration expenses tied mainly to the Lhoist North America combination, which closed August 21, 2026."
+  ],
+  "follow100": [
+    {
+      "label": "Building Materials \u2014 East",
+      "amount": 43.06
+    },
+    {
+      "label": "Building Materials \u2014 West",
+      "amount": 41.66
+    },
+    {
+      "label": "Specialties",
+      "amount": 15.28
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -72.51
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.61
+    },
+    {
+      "label": "Acquisition & integration, net",
+      "amount": -3.38
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -5.28
+    },
+    {
+      "label": "Tax",
+      "amount": -2.41
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.81
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "Aug 21",
+      "statColor": "#3d7bc8",
+      "title": "The Lhoist deal reshaped the company",
+      "text": "Combining with Lhoist North America made Martin Marietta the nation's leading producer of lime and limestone products. Specialties posted record revenue of $362M, including only five weeks of Lhoist."
+    },
+    {
+      "stat": "27.5%",
+      "statColor": "#3e8e5a",
+      "title": "Growth diluted margins \u2014 for now",
+      "text": "Gross margin fell to 27.5% from 33.1%: acquired volumes carry lower margins and the core East aggregates business earned less ($312M vs $335M) on softer shipments."
+    },
+    {
+      "stat": "$138M",
+      "statColor": "#5b6b7c",
+      "title": "Leverage is the bill for growth",
+      "text": "Interest expense more than doubled to $138M and the share count rose about 8% on stock issued for the deal \u2014 together they turned +28% revenue growth into a 34% drop in continuing EPS."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/916076/000119312526446178/mlm-ex99_1.htm"
+    }
+  ],
+  "footerNote": "All figures are from continuing operations; this quarter had no discontinued-operations earnings (the year-ago quarter had $53M). Martin Marietta does not allocate the items between segment operating earnings ($560M) and reported operating earnings ($438M) in the release beyond corporate costs and the acquisition charges shown."
+}

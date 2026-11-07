@@ -1,0 +1,152 @@
+{
+  "ticker": "MNST",
+  "company": "Monster Beverage",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+17%",
+  "verdict": "Monster's sales rose 17% to $2.6B on booming international demand, but rising costs trimmed its margins, so profit grew a slower 8% to $568M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.6B",
+      "note": "+17% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.29",
+      "note": "+8% YoY (adjusted: $0.30)"
+    },
+    {
+      "label": "Gross margin",
+      "value": "54.6%",
+      "note": "vs 55.7% a year ago"
+    },
+    {
+      "label": "International sales",
+      "value": "$1.2B",
+      "note": "47% of total sales, +28% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Monster Energy Drinks",
+      "amountM": 2373,
+      "yoy": "+17%",
+      "note": "The core energy drinks \u2014 Monster Energy, Reign, Bang and others \u2014 sold through bottlers like Coca-Cola distributors worldwide."
+    },
+    {
+      "name": "Strategic Brands",
+      "amountM": 156,
+      "yoy": "+20%",
+      "note": "Value and regional energy brands, including NOS, Full Throttle and Predator."
+    },
+    {
+      "name": "Alcohol Brands",
+      "amountM": 29,
+      "yoy": "-14%",
+      "note": "Craft beer and hard seltzer brands (including Cigar City and Oskar Blues) \u2014 a shrinking business Monster is exiting; its results are excluded from adjusted figures."
+    },
+    {
+      "name": "Other",
+      "amountM": 5,
+      "yoy": "",
+      "note": "Small remaining sales, including those of the American Fruits and Flavors business."
+    }
+  ],
+  "flow": {
+    "revenueM": 2563,
+    "costOfRevenueM": 1162,
+    "grossProfitM": 1401,
+    "opex": [
+      {
+        "name": "Selling, distribution & other operating",
+        "amountM": 376,
+        "note": "Getting cans to shelves worldwide, plus depreciation. Monster reports operating expenses in total and details G&A separately; this remainder includes a $20M impairment on Hawaii property reclassified as held for sale."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 306,
+        "note": "Back office, legal and company-wide administration."
+      }
+    ],
+    "operatingIncomeM": 719,
+    "otherIncomeM": 34,
+    "taxM": 185,
+    "netIncomeM": 568
+  },
+  "otherDetail": "Interest and other income, net \u2014 Monster sits on a large cash pile and carries no significant debt.",
+  "oneTimers": [
+    "A $20M impairment on land and property in Kona, Hawaii, reclassified as held for sale, sits inside operating expenses. The Alcohol Brands segment also lost $9M at the operating line; Monster's adjusted results (EPS $0.30) exclude both."
+  ],
+  "follow100": [
+    {
+      "label": "Monster Energy Drinks",
+      "amount": 92.58
+    },
+    {
+      "label": "Strategic Brands",
+      "amount": 6.09
+    },
+    {
+      "label": "Alcohol Brands",
+      "amount": 1.13
+    },
+    {
+      "label": "Other",
+      "amount": 0.2
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -45.34
+    },
+    {
+      "label": "Selling, distribution & other",
+      "amount": -14.67
+    },
+    {
+      "label": "General & administrative",
+      "amount": -11.94
+    },
+    {
+      "label": "Other income",
+      "amount": -1.33
+    },
+    {
+      "label": "Tax",
+      "amount": -7.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.16
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "The growth is international",
+      "text": "Sales outside the U.S. jumped 28% to $1.2B \u2014 now 47% of the company \u2014 while the core Monster Energy segment grew 17% overall."
+    },
+    {
+      "stat": "54.6%",
+      "statColor": "#3e8e5a",
+      "title": "Margins are under pressure",
+      "text": "Gross margin slipped to 54.6% from 55.7%, and operating expenses grew faster than sales \u2014 which is why 17% sales growth became only 8% profit growth."
+    },
+    {
+      "stat": "-14%",
+      "statColor": "#5b6b7c",
+      "title": "The alcohol experiment keeps shrinking",
+      "text": "Alcohol Brands sales fell 14% to $29M and lost $9M from operations. Monster excludes the segment from its adjusted results as it winds the business down."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123387/tm2629095d1_ex99-1.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to $M from the release's thousands presentation. Monster reports a single class of operating expenses below gross profit; the split shown separates the $306M of general and administrative expense it discloses from the remaining $376M of selling, distribution and depreciation costs."
+}
