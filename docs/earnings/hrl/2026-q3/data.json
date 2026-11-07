@@ -1,0 +1,148 @@
+{
+  "ticker": "HRL",
+  "company": "Hormel Foods",
+  "quarterLabel": "FY26 Q3",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-26",
+  "reportedDate": "2026-08-27",
+  "revenueYoY": "\u22122%",
+  "verdict": "Hormel's sales slipped 2% to $3.0 billion and reported profit fell by two-thirds, but almost all of the damage was one-time charges \u2014 while the underlying food business raised its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$3.0B",
+      "note": "\u22122.4% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$0.11",
+      "note": "adjusted $0.37"
+    },
+    {
+      "label": "Operating income",
+      "value": "$111M",
+      "note": "adjusted $266M"
+    },
+    {
+      "label": "Foodservice sales",
+      "value": "$1.0B",
+      "note": "+1.6% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Retail",
+      "amountM": 1779.4,
+      "note": "Grocery brands like SPAM, Applegate, Planters and Hormel chili \u2014 sales fell 4% and volume fell 9% on weak commodity turkey and private-label snack nuts.",
+      "yoy": "\u22124%"
+    },
+    {
+      "name": "Foodservice",
+      "amountM": 1003.2,
+      "note": "Selling to restaurants and institutions \u2014 a 12th straight quarter of organic sales growth, led by premium prepared proteins and pepperoni.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "International",
+      "amountM": 178.7,
+      "note": "Sales outside the U.S. \u2014 the segment swung to a $29M loss from a $19M profit, hit by the portfolio reshaping described below.",
+      "yoy": "\u22125%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2961.3,
+    "costOfRevenueM": 2489.8,
+    "grossProfitM": 471.5,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 323.5,
+        "note": "Sales, marketing, offices and running the company."
+      },
+      {
+        "name": "Equity loss in affiliates",
+        "amountM": 37.1,
+        "note": "Hormel's share of losses from businesses it part-owns \u2014 a swing from an $11M profit a year ago."
+      }
+    ],
+    "operatingIncomeM": 110.9,
+    "otherIncomeM": -7.7,
+    "taxM": 43.7,
+    "netIncomeM": 59.5
+  },
+  "otherDetail": "Interest income of $6.7M and $5.2M of other income, less $19.6M of interest expense \u2014 net \u2212$7.7M.",
+  "footerNote": "Figures are converted from the release's thousands and rounded to one decimal in $M; net earnings of $59.5M are the total, of which $59.6M was attributable to Hormel Foods after a small noncontrolling-interest loss. The quarter's effective tax rate was an unusually high 42.3%, distorted by the one-time items.",
+  "takeaways": [
+    {
+      "stat": "$155M",
+      "statColor": "#3d7bc8",
+      "title": "The gap is one-time charges",
+      "text": "GAAP operating income was $111 million; adjusted operating income was $266 million. The roughly $155 million gap is mostly one-time items \u2014 the Brazil divestiture, an impairment in Indonesia, and a litigation settlement."
+    },
+    {
+      "stat": "\u22129%",
+      "statColor": "#3e8e5a",
+      "title": "Retail volume is the worry",
+      "text": "Retail volume fell 9% as shoppers and commodity pricing worked against turkey and snack nuts \u2014 though SPAM, Applegate and Hormel chili grew. Management still cut the full-year sales outlook to $12.1\u201312.2 billion."
+    },
+    {
+      "stat": "+3%",
+      "statColor": "#5b6b7c",
+      "title": "Foodservice keeps delivering",
+      "text": "Foodservice segment profit rose 3% to $144 million on its 12th straight quarter of organic sales growth \u2014 the steadiest part of the business while retail struggles."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include one-time items that Hormel's adjusted results strip out: an estimated loss on the Brazil divestiture, a non-cash impairment charge on a minority investment in Indonesia, and a litigation settlement.",
+    "Equity in earnings of affiliates swung to a $37M loss from an $11M profit a year ago, another drag on the GAAP line.",
+    "The quarter's 42.3% effective tax rate (vs 22.3% a year ago) is distorted by these items and is not a guide to future quarters."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000053/hormelearningsreleaseq32026.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000053/hrl-20260827.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Retail",
+      "amount": 60.09
+    },
+    {
+      "label": "Foodservice",
+      "amount": 33.88
+    },
+    {
+      "label": "International",
+      "amount": 6.03
+    },
+    {
+      "label": "Direct costs",
+      "amount": -84.08
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -10.92
+    },
+    {
+      "label": "Equity loss in affiliates",
+      "amount": -1.25
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -1.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 197.99
+    }
+  ]
+}

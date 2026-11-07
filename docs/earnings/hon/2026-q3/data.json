@@ -1,0 +1,148 @@
+{
+  "ticker": "HON",
+  "company": "Honeywell Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+1%",
+  "verdict": "In its first quarter as a standalone company after spinning off Aerospace, Honeywell Technologies grew organic sales 7%, expanded operating margin to 14.8%, and raised its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.0B",
+      "note": "+1% reported, +7% organic"
+    },
+    {
+      "label": "EPS (continuing)",
+      "value": "$2.40",
+      "note": "adjusted $2.27, +34%"
+    },
+    {
+      "label": "Operating margin",
+      "value": "14.8%",
+      "note": "vs 8.4% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$688M",
+      "note": "+15% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Building Automation",
+      "amountM": 2020,
+      "note": "Fire, security and controls for buildings \u2014 products grew 11% on fire and security demand.",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Process Automation and Technology",
+      "amountM": 1859,
+      "note": "Automation and process technology for energy and industry; project sales grew 14% on LNG and petrochemical work.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "Industrial Automation",
+      "amountM": 1115,
+      "note": "Sensing, measurement and warehouse automation. Reported sales fell 23% because two businesses were sold in the quarter, but underlying (organic) sales grew 4%.",
+      "yoy": "\u221223%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4994,
+    "costOfRevenueM": 2976,
+    "grossProfitM": 2018,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 239,
+        "note": "Developing new products across automation and technology."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1039,
+        "note": "Sales teams, head office and the cost of running a newly standalone company."
+      }
+    ],
+    "operatingIncomeM": 740,
+    "otherIncomeM": -4,
+    "taxM": 60,
+    "netIncomeM": 676
+  },
+  "otherDetail": "Other income of $389M (including a $339M gain on selling non-strategic businesses), less $143M of interest and financial charges, a $147M equity loss, and a $103M loss from discontinued operations \u2014 the spun-off Aerospace business \u2014 net \u2212$4M.",
+  "footerNote": "Net income of $676M is the total; $664M was attributable to Honeywell Technologies shareholders after noncontrolling interests. This is the first quarter reported on the post-spin perimeter, with Aerospace shown as discontinued operations.",
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Segment profit jumped",
+      "text": "Segment profit rose 23% to $1,062 million and segment margin expanded to 21.3%, helped by productivity, pricing, and eliminating stranded costs left over from earlier spin-offs and sales."
+    },
+    {
+      "stat": "$19B",
+      "statColor": "#3e8e5a",
+      "title": "Backlog near $19 billion",
+      "text": "Backlog grew 7% year over year to nearly $19 billion (excluding the two businesses sold in the quarter), and management raised full-year guidance: sales of $20.0\u201320.1 billion and adjusted EPS of $8.40\u20138.45."
+    },
+    {
+      "stat": "\u221223%",
+      "statColor": "#5b6b7c",
+      "title": "Industrial Automation shrank \u2014 on paper",
+      "text": "Reported Industrial Automation sales fell 23%, but that is the sale of the warehouse (WWS) and productivity (PSS) businesses leaving the numbers; the remaining business grew 4% organically and its margin expanded 3.5 points to 18.4%."
+    }
+  ],
+  "oneTimers": [
+    "First quarter as a standalone company following the Honeywell Aerospace spin-off (completed June 29, 2026): Aerospace results sit in discontinued operations, which lost $103M in the quarter.",
+    "Other income includes a $339M gain on selling non-strategic businesses and assets, and the quarter absorbed $94M of divestiture-related costs.",
+    "Reported EPS from continuing operations fell 20% only because the year-ago quarter contained a one-time gain from the Resideo termination agreement; adjusted EPS rose 34%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000141/exhibit99-q32026earningsre.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000141/hon-20261022.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Building Automation",
+      "amount": 40.45
+    },
+    {
+      "label": "Process Automation and Technology",
+      "amount": 37.22
+    },
+    {
+      "label": "Industrial Automation",
+      "amount": 22.33
+    },
+    {
+      "label": "Direct costs",
+      "amount": -59.59
+    },
+    {
+      "label": "Research & development",
+      "amount": -4.79
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -20.8
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.08
+    },
+    {
+      "label": "Tax",
+      "amount": -1.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 186.46
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "ticker": "HSIC",
+  "company": "Henry Schein",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+4%",
+  "verdict": "Henry Schein grew sales 4% to $3.5 billion and GAAP profit per share jumped 26% to $1.06, helped by strong dental merchandise sales \u2014 and by a tariff-refund windfall worth $0.19 a share.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$3.5B",
+      "note": "+4.0% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$1.06",
+      "note": "+26% YoY; non-GAAP $1.56"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$321M",
+      "note": "9.24% margin"
+    },
+    {
+      "label": "Net income (attributable)",
+      "value": "$119M",
+      "note": "total net income $126M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Global Distribution & Value-Added Services",
+      "amountM": 2899,
+      "note": "Delivering dental and medical supplies to practices, plus support services. Shown after $45M of eliminations between Henry Schein's own businesses (gross segment sales $2,944M); dental merchandise sales rose 7.0%.",
+      "yoy": "+4%"
+    },
+    {
+      "name": "Global Specialty Products",
+      "amountM": 391,
+      "note": "Implants, orthodontics and other specialty products made by Henry Schein itself \u2014 growth included 2.6 points from acquisitions.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "Global Technology",
+      "amountM": 181,
+      "note": "Practice-management software and tech services for dentists and doctors.",
+      "yoy": "+5%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3471,
+    "costOfRevenueM": 2366,
+    "grossProfitM": 1105,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 819,
+        "note": "Sales teams, distribution network staff and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 71,
+        "note": "Wear-and-tear on warehouses, systems and acquired intangibles."
+      },
+      {
+        "name": "Restructuring & related costs",
+        "amountM": 22,
+        "note": "Costs of the company's restructuring program."
+      }
+    ],
+    "operatingIncomeM": 193,
+    "otherIncomeM": -33,
+    "equityM": 3,
+    "taxM": 37,
+    "netIncomeM": 126
+  },
+  "otherDetail": "Interest expense of $42M, partly offset by $9M of interest income; plus $3M of equity earnings from part-owned affiliates, added after tax \u2014 net \u2212$30M in total.",
+  "footerNote": "Net income of $126M is the total; $119M was attributable to Henry Schein, Inc. after $7M attributable to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+7.0%",
+      "statColor": "#3d7bc8",
+      "title": "Dental merchandise led",
+      "text": "Global dental distribution merchandise sales rose 7.0% (5.1% internal growth) \u2014 dentists are buying supplies again, and equipment sales also grew 2.3%."
+    },
+    {
+      "stat": "$0.19",
+      "statColor": "#3e8e5a",
+      "title": "A tariff-refund boost",
+      "text": "GAAP and non-GAAP results both include a $0.19-per-share net benefit from tariff refunds. Excluding it (and last year's remeasurement gain), non-GAAP EPS still rose 19% to $1.37."
+    },
+    {
+      "stat": "9.24%",
+      "statColor": "#5b6b7c",
+      "title": "Margins inched up",
+      "text": "Adjusted EBITDA rose to $321 million and its margin widened 40 basis points to 9.24% \u2014 slow, steady operating leverage in a distribution business where thin margins are normal."
+    }
+  ],
+  "oneTimers": [
+    "The quarter includes a $0.19-per-share net benefit from tariff refunds in both GAAP and non-GAAP results; the year-ago quarter included a $0.23-per-share remeasurement gain.",
+    "Restructuring and related costs of $22M are inside GAAP operating expenses; non-GAAP net income was $175M ($1.56 per share) after removing restructuring, amortization and similar items."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000059/exhibit991.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000059/hsic-20261103.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Global Distribution & Value-Added Services",
+      "amount": 83.52
+    },
+    {
+      "label": "Global Specialty Products",
+      "amount": 11.26
+    },
+    {
+      "label": "Global Technology",
+      "amount": 5.21
+    },
+    {
+      "label": "Direct costs",
+      "amount": -68.16
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -23.6
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.05
+    },
+    {
+      "label": "Restructuring & related costs",
+      "amount": -0.63
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.86
+    },
+    {
+      "label": "Tax",
+      "amount": -1.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 196.37
+    }
+  ]
+}

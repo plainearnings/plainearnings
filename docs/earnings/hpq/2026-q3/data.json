@@ -1,0 +1,164 @@
+{
+  "ticker": "HPQ",
+  "company": "HP Inc.",
+  "quarterLabel": "FY26 Q3",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "revenueYoY": "+13%",
+  "verdict": "HP grew revenue 13% to a record third-quarter $15.7 billion \u2014 selling fewer PCs (units down 16%) but much pricier ones \u2014 and raised its full-year outlook, though a tariff refund flattered the profit line.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$15.7B",
+      "note": "+12.5% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$0.71",
+      "note": "incl. $0.11 tariff refunds; non-GAAP $0.83"
+    },
+    {
+      "label": "Personal Systems",
+      "value": "$11.8B",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.6B",
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "name": "Personal Systems",
+      "amountM": 11767,
+      "note": "PCs and workstations \u2014 commercial revenue rose 22% and consumer 10%, even though total unit shipments fell 16%: buyers chose pricier, premium and AI PCs.",
+      "yoy": "+18%"
+    },
+    {
+      "name": "Printing",
+      "amountM": 3910,
+      "note": "Printers and supplies. Printing revenue was $3,912M before a $2M other/eliminations line; supplies fell 3% while printing margins stayed rich at 18.1%.",
+      "yoy": "\u22122%"
+    }
+  ],
+  "flow": {
+    "revenueM": 15677,
+    "costOfRevenueM": 12732,
+    "grossProfitM": 2945,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 389,
+        "note": "Designing PCs, printers and the WXP work platform."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1537,
+        "note": "Sales, marketing and running the company."
+      },
+      {
+        "name": "Restructuring & other charges",
+        "amountM": 48,
+        "note": "Cost-cutting program charges."
+      },
+      {
+        "name": "Acquisition & divestiture charges",
+        "amountM": 4,
+        "note": "Deal-related costs."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 75,
+        "note": "Writing down the value of acquired brands and technology over time."
+      }
+    ],
+    "operatingIncomeM": 892,
+    "otherIncomeM": -94,
+    "taxM": 137,
+    "netIncomeM": 661
+  },
+  "otherDetail": "Interest and other costs, net \u2014 $94M taken out of profit.",
+  "takeaways": [
+    {
+      "stat": "\u221216% / +18%",
+      "statColor": "#3d7bc8",
+      "title": "Fewer PCs, more money",
+      "text": "Personal Systems shipped 16% fewer units but took in 18% more revenue \u2014 memory-supply improvements let HP fulfill premium orders, and buyers are choosing AI PCs and workstations over cheap machines."
+    },
+    {
+      "stat": "$0.11",
+      "statColor": "#3e8e5a",
+      "title": "Tariff refunds helped",
+      "text": "GAAP EPS of $0.71 includes an $0.11 benefit from tariff refunds. Even without it, non-GAAP EPS rose 11% to $0.83, and HP raised its full-year EPS and free-cash-flow outlook."
+    },
+    {
+      "stat": "18.1%",
+      "statColor": "#5b6b7c",
+      "title": "Printing still prints money",
+      "text": "Printing revenue slipped 2% to $3.9 billion, but at an 18.1% operating margin it earns roughly four times the margin rate of PCs (4.6%) \u2014 the quiet profit anchor of the company."
+    }
+  ],
+  "oneTimers": [
+    "GAAP EPS includes an $0.11-per-share favorable impact from tariff refunds; HP's non-GAAP EPS of $0.83 includes it too.",
+    "The year-ago quarter contained one-time tax and litigation benefits, which is why GAAP EPS looks down 11% year over year even though non-GAAP EPS rose 11%.",
+    "Restructuring and other charges were $48M in the quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000048/hp73126exhibit991q326.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000048/hpq-20260826.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Personal Systems",
+      "amount": 75.06
+    },
+    {
+      "label": "Printing",
+      "amount": 24.94
+    },
+    {
+      "label": "Direct costs",
+      "amount": -81.21
+    },
+    {
+      "label": "Research & development",
+      "amount": -2.48
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -9.8
+    },
+    {
+      "label": "Restructuring & other charges",
+      "amount": -0.31
+    },
+    {
+      "label": "Acquisition & divestiture charges",
+      "amount": -0.03
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -0.48
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.6
+    },
+    {
+      "label": "Tax",
+      "amount": -0.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 195.78
+    }
+  ]
+}

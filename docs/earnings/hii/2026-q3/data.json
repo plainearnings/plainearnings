@@ -1,0 +1,133 @@
+{
+  "ticker": "HII",
+  "company": "Huntington Ingalls Industries",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+11%",
+  "verdict": "HII had a record quarter: revenue rose 11% to $3.5 billion, profit jumped 50%, and $32.4 billion of new Navy awards locked in most shipbuilding revenue through 2030.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.5B",
+      "note": "+10.8% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$5.48",
+      "note": "vs $3.68 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "7.0%",
+      "note": "vs 5.0% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$429M",
+      "note": "vs $16M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Newport News Shipbuilding",
+      "amountM": 1910,
+      "note": "Aircraft carriers and submarines built in Virginia \u2014 the biggest yard, and the growth engine this quarter on higher submarine and carrier volumes.",
+      "yoy": "+18%"
+    },
+    {
+      "name": "Ingalls Shipbuilding",
+      "amountM": 876,
+      "note": "Destroyers and amphibious ships built in Mississippi; growth came from amphibious assault ship volumes.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "Mission Technologies",
+      "amountM": 751,
+      "note": "Defense technology, unmanned sea vehicles and services. Reported sales were $792M before $41M of sales between HII's own segments are removed.",
+      "yoy": "+1%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3537,
+    "costOfRevenueM": 3057,
+    "grossProfitM": 480,
+    "opex": [
+      {
+        "name": "General & administrative (net)",
+        "amountM": 234,
+        "note": "Running the company: $257M of general and administrative costs, partly offset by $26M of income from operating investments, less $3M of other losses."
+      }
+    ],
+    "operatingIncomeM": 246,
+    "otherIncomeM": 29,
+    "taxM": 58,
+    "netIncomeM": 217
+  },
+  "otherDetail": "Non-operating retirement benefit income of $53M and $2M of other income, less $26M of interest expense \u2014 net $29M.",
+  "takeaways": [
+    {
+      "stat": "$32.4B",
+      "statColor": "#3d7bc8",
+      "title": "A mountain of new orders",
+      "text": "New contract awards of $32.4 billion in one quarter \u2014 including Block VI Virginia-class and Build II Columbia-class submarine contracts \u2014 have secured about 90% of expected shipbuilding revenue through 2030."
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#3e8e5a",
+      "title": "Newport News is carrying growth",
+      "text": "Newport News Shipbuilding revenue rose 18% to $1.9 billion on submarine and aircraft-carrier work, and its segment profit jumped 65% on contract adjustments and incentives in the Virginia-class program."
+    },
+    {
+      "stat": "$429M",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow caught up",
+      "text": "Free cash flow was $429 million, versus just $16 million a year ago, as operating cash flow more than quadrupled to $520 million. Profit growth is finally showing up as cash."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000054/hii2026q3earningsrelease.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000054/hii-20261029.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Newport News Shipbuilding",
+      "amount": 54.0
+    },
+    {
+      "label": "Ingalls Shipbuilding",
+      "amount": 24.77
+    },
+    {
+      "label": "Mission Technologies",
+      "amount": 21.23
+    },
+    {
+      "label": "Direct costs",
+      "amount": -86.43
+    },
+    {
+      "label": "General & administrative (net)",
+      "amount": -6.62
+    },
+    {
+      "label": "Other income",
+      "amount": 0.82
+    },
+    {
+      "label": "Tax",
+      "amount": -1.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 193.87
+    }
+  ]
+}

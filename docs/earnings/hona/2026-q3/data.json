@@ -1,0 +1,147 @@
+{
+  "ticker": "HONA",
+  "company": "Honeywell Aerospace",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+2%",
+  "verdict": "Honeywell Aerospace's first quarter flying solo brought $4.6 billion of sales, $737 million of net income, a first-ever dividend, and a raised full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.6B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$2.29",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EBIT",
+      "value": "$1.2B",
+      "note": "+1% YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$737M",
+      "note": "$726M attributable to Aerospace"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electronic Solutions",
+      "amountM": 1784,
+      "note": "Avionics and navigation electronics for aircraft and spacecraft \u2014 profit rose 11% as tariff refunds and pricing beat mix and costs.",
+      "yoy": "+4%"
+    },
+    {
+      "name": "Engines and Power Systems",
+      "amountM": 1515,
+      "note": "Aircraft engines and power units; aftermarket volumes grew, but profit fell 16% on mix and higher costs.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Control Systems",
+      "amountM": 1345,
+      "note": "Flight and engine control systems \u2014 sales were flat as defense and space growth offset a softer commercial aftermarket.",
+      "yoy": "0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4644,
+    "costOfRevenueM": 2929,
+    "grossProfitM": 1715,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 216,
+        "note": "Developing new aerospace technology and products."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 471,
+        "note": "Sales, head office and new standalone-company costs after the spin-off."
+      }
+    ],
+    "operatingIncomeM": 1028,
+    "otherIncomeM": -127,
+    "taxM": 164,
+    "netIncomeM": 737
+  },
+  "otherDetail": "Other income of $60M, less $187M of net interest expense on the debt issued for the separation \u2014 net \u2212$127M.",
+  "footerNote": "Operating income of $1,028M here is derived from the release's income statement (sales less cost of sales, R&D and SG&A); the company headlines a non-GAAP adjusted EBIT of $1.2B. Net income of $737M includes $11M attributable to noncontrolling interests; $726M was attributable to Honeywell Aerospace.",
+  "takeaways": [
+    {
+      "stat": "$0.40",
+      "statColor": "#3d7bc8",
+      "title": "A first dividend",
+      "text": "In its first quarter as a standalone company (spun off from Honeywell on June 29, 2026), Aerospace declared its inaugural quarterly dividend of $0.40 per share, payable December 4, 2026."
+    },
+    {
+      "stat": "$20B+",
+      "statColor": "#3e8e5a",
+      "title": "Wins are stacking up",
+      "text": "The company has secured more than $20 billion of new wins (estimated lifetime value) year to date, with orders up 9% over the last 12 months \u2014 demand is not the problem; supplier output is."
+    },
+    {
+      "stat": "+11% / \u221216%",
+      "statColor": "#5b6b7c",
+      "title": "Two businesses, two directions",
+      "text": "Electronic Solutions' adjusted profit rose 11% while Engines and Power Systems fell 16% on unfavorable mix and higher costs \u2014 the quarter's story is which product line, not whether demand exists."
+    }
+  ],
+  "oneTimers": [
+    "First quarter as a standalone public company: the balance sheet now carries $15.9 billion of long-term debt issued around the separation (versus $4M at the end of 2025), and results include incremental standalone corporate costs.",
+    "Prior-year figures are carve-out results from when Aerospace was part of Honeywell, and pre-spin EPS is calculated on the 317 million shares issued at the spin-off."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000031/exhibit991q32026earningsre.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000031/hona-20261028.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Electronic Solutions",
+      "amount": 38.42
+    },
+    {
+      "label": "Engines and Power Systems",
+      "amount": 32.62
+    },
+    {
+      "label": "Control Systems",
+      "amount": 28.96
+    },
+    {
+      "label": "Direct costs",
+      "amount": -63.07
+    },
+    {
+      "label": "Research & development",
+      "amount": -4.65
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -10.14
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -2.73
+    },
+    {
+      "label": "Tax",
+      "amount": -3.53
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 184.12
+    }
+  ]
+}

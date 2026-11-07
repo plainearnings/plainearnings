@@ -1,0 +1,174 @@
+{
+  "ticker": "HLT",
+  "company": "Hilton Worldwide",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+7%",
+  "verdict": "Hilton's fee machine kept humming: revenue rose 7% to $3.3 billion and net income jumped 27% to $536 million, powered by a 5.8% rise in revenue per room and 6% growth in its hotel count.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.3B",
+      "note": "+6.6% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$2.37",
+      "note": "adjusted $2.45"
+    },
+    {
+      "label": "RevPAR",
+      "value": "+5.8%",
+      "note": "currency-neutral, system-wide"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1,058M",
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchise & licensing fees",
+      "amountM": 815,
+      "note": "Fees hotel owners pay to use Hilton's brands and booking system \u2014 Hilton's highest-margin money.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Management fees",
+      "amountM": 167,
+      "note": "Base fees ($96M) plus incentive fees ($71M) for running hotels owned by others.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "Ownership",
+      "amountM": 304,
+      "note": "Revenue from the few hotels Hilton actually owns \u2014 down 6% as owned-hotel results softened.",
+      "yoy": "\u22126%"
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 72,
+      "note": "Smaller revenue lines, including co-brand credit card and other fees.",
+      "yoy": "+13%"
+    },
+    {
+      "name": "Cost reimbursement revenues",
+      "amountM": 1967,
+      "note": "Money passed through from hotel owners to cover the staff and costs Hilton manages on their behalf \u2014 it comes in and goes almost straight back out.",
+      "yoy": "+7%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3325,
+    "costOfRevenueM": 2222,
+    "grossProfitM": 1103,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 52,
+        "note": "Wear-and-tear cost of Hilton's buildings, systems and intangibles."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 110,
+        "note": "Head office, technology and staff costs of running the Hilton system."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 32,
+        "note": "Smaller operating costs that do not fit the other lines."
+      }
+    ],
+    "operatingIncomeM": 909,
+    "otherIncomeM": -187,
+    "taxM": 186,
+    "netIncomeM": 536
+  },
+  "otherDetail": "Interest expense of $184M and a $7M foreign-currency loss, partly offset by $4M of other income \u2014 net \u2212$187M.",
+  "takeaways": [
+    {
+      "stat": "+5.8%",
+      "statColor": "#3d7bc8",
+      "title": "Rooms earned more",
+      "text": "System-wide revenue per available room (RevPAR) rose 5.8% currency-neutral, led by the U.S. at +7.0% \u2014 guests paid more and filled more rooms."
+    },
+    {
+      "stat": "543,100",
+      "statColor": "#3e8e5a",
+      "title": "The pipeline keeps growing",
+      "text": "Hilton approved 30,500 more rooms for development, taking the pipeline to 543,100 rooms (+5% YoY), and added a net 23,000 rooms in the quarter \u2014 net unit growth of 6.0%. Future fee income is being built now."
+    },
+    {
+      "stat": "$879M",
+      "statColor": "#5b6b7c",
+      "title": "Shareholders got paid",
+      "text": "Hilton returned $879 million in the quarter through buybacks (2.6 million shares) and dividends, and expects about $3.5 billion of capital return for the full year."
+    }
+  ],
+  "oneTimers": [
+    "Hilton announced on October 20, 2026 that it will move its stock listing to Nasdaq (same ticker, HLT) effective November 5, 2026 \u2014 a listing change only, with no effect on the numbers."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000049/q32026earningsrelease.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000049/hlt-20261027.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Franchise & licensing fees",
+      "amount": 24.51
+    },
+    {
+      "label": "Management fees",
+      "amount": 5.02
+    },
+    {
+      "label": "Ownership",
+      "amount": 9.14
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.17
+    },
+    {
+      "label": "Cost reimbursement revenues",
+      "amount": 59.16
+    },
+    {
+      "label": "Direct costs",
+      "amount": -66.83
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.56
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.31
+    },
+    {
+      "label": "Other expenses",
+      "amount": -0.96
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -5.62
+    },
+    {
+      "label": "Tax",
+      "amount": -5.59
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 183.87
+    }
+  ]
+}

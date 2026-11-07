@@ -1,0 +1,165 @@
+{
+  "ticker": "HPE",
+  "company": "Hewlett Packard Enterprise",
+  "quarterLabel": "FY26 Q3",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-02",
+  "revenueYoY": "+34%",
+  "verdict": "HPE posted record revenue of $12.2 billion, up 34%, as AI servers and a surging networking business drove record operating profit \u2014 helped by a $444 million one-time gain on selling an equity stake.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$12.2B",
+      "note": "+34% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$1.06",
+      "note": "non-GAAP $1.11"
+    },
+    {
+      "label": "Gross margin",
+      "value": "40.1%",
+      "note": "vs 29.2% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.0B",
+      "note": "+0.2B YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud & AI",
+      "amountM": 9042,
+      "note": "Servers ($6,766M), storage ($1,291M), financial services ($883M) and other ($102M) \u2014 AI server demand drove server revenue up 35%.",
+      "yoy": "+25%"
+    },
+    {
+      "name": "Networking",
+      "amountM": 2893,
+      "note": "Campus and branch ($1,442M), routing ($788M), data-center networking ($382M) and security ($281M) \u2014 the Juniper acquisition supercharged this business.",
+      "yoy": "+75%"
+    },
+    {
+      "name": "Corporate Investments & Other",
+      "amountM": 278,
+      "note": "Smaller ventures and corporate items outside the two main businesses.",
+      "yoy": "+3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 12213,
+    "costOfRevenueM": 7314,
+    "grossProfitM": 4899,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1158,
+        "note": "Building servers, networking and AI systems."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1962,
+        "note": "Sales teams, marketing and running the company."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 315,
+        "note": "Writing down the value of brands, technology and customer relationships bought in acquisitions, including Juniper."
+      },
+      {
+        "name": "Acquisition, disposition & other charges",
+        "amountM": 71,
+        "note": "Deal and disposal costs."
+      }
+    ],
+    "operatingIncomeM": 1393,
+    "otherIncomeM": 369,
+    "taxM": 222,
+    "netIncomeM": 1540
+  },
+  "otherDetail": "A $444M gain on selling an equity interest, less $75M of interest and other costs \u2014 net $369M.",
+  "footerNote": "Net earnings of $1,540M are attributable to HPE; after $29M of preferred-stock dividends, $1,511M was attributable to common stockholders.",
+  "takeaways": [
+    {
+      "stat": "+75%",
+      "statColor": "#3d7bc8",
+      "title": "Networking exploded",
+      "text": "Networking revenue rose 75% to $2.9 billion \u2014 routing revenue alone rose 270% \u2014 as the Juniper Networks business (acquired in 2025) filled out HPE's AI data-center offer."
+    },
+    {
+      "stat": "$6.8B",
+      "statColor": "#3e8e5a",
+      "title": "AI servers are the engine",
+      "text": "Server revenue rose 35% to $6.8 billion on AI demand, gross margin expanded almost 11 points to 40.1%, and management raised the outlook for both fiscal 2026 and fiscal 2027."
+    },
+    {
+      "stat": "$444M",
+      "statColor": "#5b6b7c",
+      "title": "A one-time gain flattered profit",
+      "text": "A $444 million gain on selling an equity interest sits below operating profit \u2014 without it, pre-tax profit would have been about a quarter lower. The operating improvement is real, but not quite as big as the headline net income suggests."
+    }
+  ],
+  "oneTimers": [
+    "A $444M gain on the sale of an equity interest is included in pre-tax earnings this quarter.",
+    "Operating expenses include $315M of acquisition-related intangible amortization and $71M of acquisition, disposition and other charges, largely tied to the Juniper acquisition."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/ex-991x922026x8k.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/hpe-20260902.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Cloud & AI",
+      "amount": 74.04
+    },
+    {
+      "label": "Networking",
+      "amount": 23.69
+    },
+    {
+      "label": "Corporate Investments & Other",
+      "amount": 2.28
+    },
+    {
+      "label": "Direct costs",
+      "amount": -59.89
+    },
+    {
+      "label": "Research & development",
+      "amount": -9.48
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -16.06
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -2.58
+    },
+    {
+      "label": "Acquisition, disposition & other charges",
+      "amount": -0.58
+    },
+    {
+      "label": "Other income",
+      "amount": 3.02
+    },
+    {
+      "label": "Tax",
+      "amount": -1.82
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 187.39
+    }
+  ]
+}
