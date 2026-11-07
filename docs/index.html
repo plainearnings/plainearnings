@@ -123,7 +123,7 @@ fetch('companies.json')
           <div class="tile-sector">${c.sector}</div>
           <div class="tile-quarter">${c.latestQuarter ? 'Latest: ' + c.latestQuarter : ''}${c.status === 'live' ? ' &middot; View reports &rarr;' : ''}</div>`;
         return c.status === 'live'
-          ? `<a class="tile tile-link" href="earnings/${c.ticker.toLowerCase()}/">${inner}</a>`
+          ? `<a class="tile tile-link" href="earnings/${c.ticker.toLowerCase().replace(/[^a-z0-9]/g, '')}/">${inner}</a>`
           : `<article class="tile">${inner}</article>`;
       }).join('');
       none.hidden = list.length > 0;
