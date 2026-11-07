@@ -1,0 +1,138 @@
+{
+  "ticker": "ARM",
+  "company": "Arm Holdings",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "segments": [
+    {
+      "name": "License and other revenue",
+      "amountM": 773,
+      "note": "Fees for licensing Arm chip designs, plus support and related services; up 50% YoY on strong demand for Arm technology and several large deals. Licensing today is a leading indicator of royalty revenue tomorrow.",
+      "yoy": "+50%"
+    },
+    {
+      "name": "Royalty revenue",
+      "amountM": 670,
+      "note": "A cut of every chip shipped with Arm technology inside; up 8% YoY, helped by higher royalty rates on newer designs such as Armv9 and by data center royalties doubling, partly offset by memory pricing pressure on smartphones.",
+      "yoy": "+8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1443,
+    "costOfRevenueM": 42,
+    "grossProfitM": 1401,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 857,
+        "note": "Designing new processors and platform technology; the GAAP figure includes $267M of share-based pay (paying staff in shares)."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 343,
+        "note": "Selling and running the company; the GAAP figure includes $101M of share-based pay."
+      }
+    ],
+    "operatingIncomeM": 201,
+    "otherIncomeM": 27,
+    "equityM": -20,
+    "taxM": 78,
+    "netIncomeM": 130
+  },
+  "oneTimers": [
+    "Share-based pay is the main gap between the two profit numbers: the non-GAAP reconciliation adds back $377M of equity-settled share-based compensation (plus $48M of related employer taxes, net, and $12M of acquisition-related expenses), which is why GAAP net income of $130M sits far below non-GAAP net income of $566M.",
+    "The year-ago quarter included a $131M gain on selling a business, inside its $128M of other non-operating income \u2014 this quarter had no such gain, which is a big reason GAAP net income fell 45% YoY even as revenue rose 27%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000141/exhibit992fye27q230-sepx26.htm"
+    },
+    {
+      "label": "Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000141/exhibit991fye27q230-sepx26.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "License and other revenue",
+      "amount": 53.57
+    },
+    {
+      "label": "Royalty revenue",
+      "amount": 46.43
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -2.91
+    },
+    {
+      "label": "R&D",
+      "amount": -59.39
+    },
+    {
+      "label": "SG&A",
+      "amount": -23.77
+    },
+    {
+      "label": "Other income",
+      "amount": 0.49
+    },
+    {
+      "label": "Tax",
+      "amount": -5.41
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.01
+    }
+  ],
+  "verdict": "Arm's revenue hit a record $1.44B, up 27%, as licensing jumped 50% \u2014 but heavy share-based pay held GAAP profit to $130M, less than a quarter of the non-GAAP figure.",
+  "revenueYoY": "+27%",
+  "otherDetail": "Combined net other income was $7M: interest income of $29M, less $2M of other non-operating expense (together the $27M shown as otherIncomeM), less a $20M loss from equity investments (the separate equityM line).",
+  "footerNote": "Arm calls its direct cost 'cost of sales' ($42M) and reports just two revenue lines: license and other, and royalty.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+27%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.12",
+      "note": "vs $0.22 a year ago"
+    },
+    {
+      "label": "License and other revenue",
+      "value": "$773M",
+      "note": "+50% YoY, 54% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$110M",
+      "note": "non-GAAP, down 73% YoY; operating cash flow was $207M"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+50%",
+      "statColor": "#3d7bc8",
+      "title": "Licensing is doing the heavy lifting",
+      "text": "License and other revenue jumped 50% to $773M \u2014 54% of all revenue \u2014 as customers paid up for newer Arm technology. Those designs enter production later, so today's licensing surge points to future royalty growth."
+    },
+    {
+      "stat": "$0.12",
+      "statColor": "#5b6b7c",
+      "title": "GAAP profit is much smaller than it looks",
+      "text": "GAAP EPS was $0.12, down from $0.22 a year ago, while non-GAAP EPS rose to $0.52. The gap is mostly $377M of share-based pay counted under GAAP \u2014 and last year's GAAP figure was flattered by a $131M gain on selling a business."
+    },
+    {
+      "stat": "$1.54B",
+      "statColor": "#3e8e5a",
+      "title": "Next quarter is guided higher",
+      "text": "Arm guided Q3 FY27 revenue to $1.54B (plus or minus $50M) with non-GAAP EPS of $0.56 (plus or minus $0.04). Data center royalties already doubled this quarter as Arm-based server chips spread through the big cloud providers."
+    }
+  ]
+}

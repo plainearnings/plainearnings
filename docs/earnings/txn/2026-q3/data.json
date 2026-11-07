@@ -1,0 +1,153 @@
+{
+  "ticker": "TXN",
+  "company": "Texas Instruments",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "segments": [
+    {
+      "name": "Analog",
+      "amountM": 4911,
+      "note": "Analog chips \u2014 the core business, sensing and managing power and signals in industrial, automotive and data-center equipment; up 32% YoY and 81% of total revenue, with $2,505M of operating profit.",
+      "yoy": "+32%"
+    },
+    {
+      "name": "Embedded Processing",
+      "amountM": 858,
+      "note": "Processors built into products to control them; up 21% YoY, with $227M of operating profit.",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Other",
+      "amountM": 286,
+      "note": "Everything else, including calculators and custom products; down 6% YoY, with $142M of operating profit including acquisition and restructuring items.",
+      "yoy": "-6%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6055,
+    "costOfRevenueM": 2168,
+    "grossProfitM": 3887,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 530,
+        "note": "R&D \u2014 designing new analog and embedded chips; up from $518M a year ago, growing far slower than revenue."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 476,
+        "note": "Sales, marketing and the back office (SG&A); up from $457M a year ago."
+      },
+      {
+        "name": "Acquisition charges",
+        "amountM": 7,
+        "note": "Charges tied to acquisitions; restructuring charges/other were $0 this quarter, versus $85M a year ago."
+      }
+    ],
+    "operatingIncomeM": 2874,
+    "otherIncomeM": -69,
+    "taxM": 380,
+    "netIncomeM": 2425
+  },
+  "oneTimers": [
+    "Acquisition charges were $7M in the quarter and restructuring charges/other were $0 (versus $85M a year ago) \u2014 both are included in the $2,874M operating profit.",
+    "Earnings per share included a 1-cent reduction that was not in the company's original guidance, as stated in the release."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000165/q32026txnex99-eredgar.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Analog",
+      "amount": 81.11
+    },
+    {
+      "label": "Embedded Processing",
+      "amount": 14.17
+    },
+    {
+      "label": "Other",
+      "amount": 4.72
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.81
+    },
+    {
+      "label": "R&D",
+      "amount": -8.75
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.86
+    },
+    {
+      "label": "Acquisition charges",
+      "amount": -0.12
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.14
+    },
+    {
+      "label": "Tax",
+      "amount": -6.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 40.05
+    }
+  ],
+  "verdict": "Texas Instruments' revenue rose 28% to $6.06B as Analog sales surged 32%, lifting net income 78% to $2.43B.",
+  "revenueYoY": "+28%",
+  "otherDetail": "Other income (expense), net was $72M, less $141M of interest and debt expense \u2014 a net $69M expense outside operations.",
+  "footerNote": "Segment operating profit: Analog $2,505M, Embedded Processing $227M, Other $142M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.62",
+      "note": "vs $1.48 a year ago"
+    },
+    {
+      "label": "Analog revenue",
+      "value": "$4.9B",
+      "note": "+32% YoY, 81% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2,956M",
+      "note": "in Q3; capex was $463M"
+    }
+  ],
+  "follow100Note": "Analog takes $81.11 of every $100 Texas Instruments takes in. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+32%",
+      "statColor": "#3d7bc8",
+      "title": "Analog is driving the quarter",
+      "text": "Analog revenue hit $4,911M, up 32% YoY \u2014 81% of all revenue \u2014 with $2,505M of operating profit. Embedded Processing also grew 21% to $858M."
+    },
+    {
+      "stat": "64.2%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded sharply",
+      "text": "Gross profit was $3,887M, or 64.2% of revenue, up from 57.4% a year ago, because revenue grew 28% while cost of revenue rose only about 7%."
+    },
+    {
+      "stat": "$2,956M",
+      "statColor": "#5b6b7c",
+      "title": "Cash generation stayed very strong",
+      "text": "Cash flow from operations was $3,419M in Q3 and free cash flow (operations less capital spending, plus any CHIPS Act incentives) was $2,956M, after $463M of capital expenditures."
+    }
+  ]
+}

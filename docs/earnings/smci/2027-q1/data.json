@@ -1,0 +1,139 @@
+{
+  "ticker": "SMCI",
+  "company": "Super Micro Computer",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "segments": [
+    {
+      "name": "Total net sales",
+      "amountM": 19946,
+      "note": "Supermicro reports a single operating segment and printed no product split this quarter. Sales are mostly complete AI server and rack systems (including GB200 and GB300 platforms); services and software were $318M of the total, and one customer accounted for 44.0% of net sales (10-Q).",
+      "yoy": "+297.5%"
+    }
+  ],
+  "flow": {
+    "revenueM": 19946,
+    "costOfRevenueM": 17405,
+    "grossProfitM": 2541,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 227,
+        "note": "Designing next-generation servers, racks and Data Center Building Block Solutions; up 31% YoY as hiring rose."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 133,
+        "note": "Sales teams and marketing; up sharply YoY as Supermicro hired to support much larger data-center deals."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 117,
+        "note": "Back office, legal and facilities; up 83% YoY, including about $20M more in legal and internal-investigation costs (10-Q)."
+      }
+    ],
+    "operatingIncomeM": 2064,
+    "otherIncomeM": -34,
+    "equityM": -1,
+    "taxM": 435,
+    "netIncomeM": 1594
+  },
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000026/exhibit991_20260930.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Sep 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/smci-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Total net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -87.26
+    },
+    {
+      "label": "R&D",
+      "amount": -1.14
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -0.67
+    },
+    {
+      "label": "G&A",
+      "amount": -0.59
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.17
+    },
+    {
+      "label": "Equity investee loss",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -2.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.99
+    }
+  ],
+  "verdict": "Supermicro's sales nearly quadrupled to $19.9B on demand for GB200 and GB300 AI racks, and a richer product mix lifted gross margin to 12.7%, turning that growth into $1.6B of profit \u2014 even though stocking inventory and funding receivables used $434M of operating cash.",
+  "revenueYoY": "+297.5%",
+  "otherDetail": "Other income was a net $34M expense: $54M of interest income, less $83M of interest expense and $5M of other net expense. A separate $1M share of loss from an equity investee, net of taxes, is shown as equityM (amounts rounded from thousands).",
+  "footerNote": "Supermicro guided Q2 FY27 net sales to $19.5B\u2013$21.5B and full-year FY27 net sales to $72B\u2013$82B. The Nov 3 release called its figures preliminary; the Nov 6 Form 10-Q confirmed the same income-statement numbers.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+297.5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.75",
+      "note": "diluted; vs $0.26 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "12.7%",
+      "note": "vs 9.3% a year ago; 17.5% in Q4 FY26"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "-$434M",
+      "note": "cash used, despite $1,594M of profit; capex was $42M"
+    }
+  ],
+  "follow100Note": "Supermicro keeps under $8 of every $100 because the hardware itself costs $87.26 \u2014 its model is volume, not margin. Each row is rounded to cents, so the waterfall lands a cent short of the $7.99 kept as profit.",
+  "takeaways": [
+    {
+      "stat": "+297.5%",
+      "statColor": "#3d7bc8",
+      "title": "AI racks nearly quadrupled sales",
+      "text": "Net sales hit $19,946M, up from $5,018M a year ago. The 10-Q attributes the jump mainly to Hyper Servers, GPU and Super Rack billings \u2014 up $12,535M, or 293% \u2014 led by liquid- and air-cooled GB200 and GB300 systems, on higher volumes and a richer mix."
+    },
+    {
+      "stat": "12.7%",
+      "statColor": "#3e8e5a",
+      "title": "Margins are better than a year ago, thinner than last quarter",
+      "text": "Gross margin rose to 12.7% from 9.3% a year ago on product and customer mix, though it fell from 17.5% in Q4 FY26. With operating costs at just 2.4% of sales, that margin still produced $2,064M of operating income."
+    },
+    {
+      "stat": "-$434M",
+      "statColor": "#5b6b7c",
+      "title": "Profit did not turn into operating cash",
+      "text": "Operating activities used $434M of cash: receivables grew by $3,560M and inventories by $2,477M to support the sales surge, partly offset by $3,054M more in deferred revenue \u2014 money customers paid in advance. Capex was only $42M, so the cash drain is working capital, not factories."
+    }
+  ]
+}

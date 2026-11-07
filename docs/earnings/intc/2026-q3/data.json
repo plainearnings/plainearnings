@@ -1,0 +1,167 @@
+{
+  "ticker": "INTC",
+  "company": "Intel",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-10-29",
+  "segments": [
+    {
+      "name": "Client Computing and Physical AI Group",
+      "amountM": 8097,
+      "note": "PC and client chips (renamed from Client Computing Group); down 5% YoY as the PC market softened, even though Intel says demand for its CPUs stayed robust.",
+      "yoy": "-5%"
+    },
+    {
+      "name": "Data Center and AI",
+      "amountM": 7318,
+      "note": "Xeon server chips and AI data-center products; up 78% YoY \u2014 Intel's strongest data-center revenue growth in 15 years, according to its CFO.",
+      "yoy": "+78%"
+    },
+    {
+      "name": "Intel Foundry",
+      "amountM": 411,
+      "note": "Intel's chip factories, shown at their $411M of sales to OUTSIDE customers only. Foundry's total segment revenue was $6,697M, but $6,286M of that was wafers sold to Intel's own product groups \u2014 counting it here would count the same dollars twice."
+    },
+    {
+      "name": "All other",
+      "amountM": 687,
+      "note": "Mobileye (self-driving tech), the Altera stake and smaller businesses. Intel reports this group at $692M; it is shown as $687M here, net of $5M of intersegment eliminations not attributable to Foundry, so the parts sum exactly to Intel's $16,513M total.",
+      "yoy": "\u221231%"
+    }
+  ],
+  "flow": {
+    "revenueM": 16513,
+    "costOfRevenueM": 9417,
+    "grossProfitM": 7096,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3490,
+        "note": "Developing new CPUs, AI accelerators and process technology; up from $3,231M a year ago."
+      },
+      {
+        "name": "Marketing, general and administrative",
+        "amountM": 1030,
+        "note": "Sales, marketing and back-office costs; down from $1,129M a year ago."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 54,
+        "note": "Severance and related costs, mostly from the 2025 Restructuring Plan; Intel excludes these from its non-GAAP results."
+      }
+    ],
+    "operatingIncomeM": 2522,
+    "otherIncomeM": 1460,
+    "taxM": 462,
+    "netIncomeM": 3520
+  },
+  "oneTimers": [
+    "A $1,005M mark-to-market gain on Escrowed Shares \u2014 Intel shares held in escrow for the U.S. Department of Commerce under the CHIPS Act Secure Enclave agreement \u2014 sits inside interest and other, net. It is a paper gain, and Intel excludes it from non-GAAP results.",
+    "Gains on equity investments, net were $330M, mostly mark-to-market and price adjustments on Intel's investment portfolio rather than chip sales; also excluded from non-GAAP results.",
+    "Restructuring and other charges of $54M are a separate operating-expense line this quarter, mostly severance under the 2025 Restructuring Plan."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Sep 26, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Client Computing and Physical AI Group",
+      "amount": 49.03
+    },
+    {
+      "label": "Data Center and AI",
+      "amount": 44.32
+    },
+    {
+      "label": "Intel Foundry",
+      "amount": 2.49
+    },
+    {
+      "label": "All other",
+      "amount": 4.16
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.03
+    },
+    {
+      "label": "R&D",
+      "amount": -21.13
+    },
+    {
+      "label": "Marketing, G&A",
+      "amount": -6.24
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.33
+    },
+    {
+      "label": "Other income",
+      "amount": 8.84
+    },
+    {
+      "label": "Tax",
+      "amount": -2.8
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.32
+    }
+  ],
+  "verdict": "Intel's revenue rose 21% to $16.5B as data-center sales jumped 78%, lifting operating income to $2.5B \u2014 though a $1.0B paper gain on U.S. government escrow shares also flattered the $3.5B headline profit.",
+  "revenueYoY": "+21%",
+  "otherDetail": "Other income of $1,460M combines $330M of gains on equity investments with $1,130M of interest and other, net \u2014 the latter is a $1,005M mark-to-market gain on the U.S. government Escrowed Shares plus $461M of interest income, less $324M of interest expense and $12M of other net expense (10-Q breakdown).",
+  "footerNote": "Foundry is shown at its $411M of outside sales only (its $6,697M segment revenue is mostly internal). Net income attributable to Intel: $3,320M, after $200M for non-controlling interests.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+21%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.60",
+      "note": "diluted, attributable to Intel; vs $0.90 a year ago"
+    },
+    {
+      "label": "Data Center and AI revenue",
+      "value": "$7.3B",
+      "note": "+78% YoY, 44% of total revenue"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$1.6B",
+      "note": "Intel's non-GAAP measure; gross capex was $4.2B in the quarter"
+    }
+  ],
+  "follow100Note": "Intel Foundry is counted at its $411M of outside sales only (see the segment note); rows are rounded to the nearest cent.",
+  "takeaways": [
+    {
+      "stat": "+78%",
+      "statColor": "#3d7bc8",
+      "title": "Data centers are carrying Intel",
+      "text": "Data Center and AI revenue hit $7,318M, up 78%, with $3,039M of segment operating income. Client computing fell 5% to $8,097M \u2014 the growth engine has clearly shifted to Xeon servers for AI data centers."
+    },
+    {
+      "stat": "-$1.9B",
+      "statColor": "#5b6b7c",
+      "title": "Foundry still loses money \u2014 and mostly sells to Intel",
+      "text": "Intel Foundry booked $6,697M of revenue but lost $1,853M. Only $411M came from outside customers (10-Q); the rest is Intel charging itself, which is why $6,291M is eliminated again in consolidation."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#5b6b7c",
+      "title": "Paper gains flatter the headline \u2014 and explain the YoY drop",
+      "text": "A $1,005M escrow-share gain plus $330M of equity-investment gains lifted pre-tax profit, which is why GAAP profit attributable to Intel ($3,320M) tops the non-GAAP figure ($2,756M). Headline profit still fell from $4,063M a year ago, when a $5,546M gain on the Altera sale swamped a much weaker operating result."
+    }
+  ]
+}
