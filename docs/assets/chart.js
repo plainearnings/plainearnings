@@ -237,10 +237,24 @@
       flowEls[l.s + ">" + l.d].classList.toggle("dim-flow", !(keep[l.s] && keep[l.d]));
     });
   }
+  function keepSet(id) {
+    // Nodes on the money path through id: everything upstream of it,
+    // everything downstream of it, and everything that feeds into the
+    // downstream. The last part matters: Other income is a source node
+    // (it flows into Net profit but nothing flows into it), so the plain
+    // ancestors/descendants closure misses it — and the default Revenue
+    // selection dimmed its label to 25% on every report that has one.
+    var keep = closure(id, parents);
+    var down = closure(id, children);
+    for (var k in down) keep[k] = true;
+    keep[id] = true;
+    Object.keys(down).forEach(function (d) {
+      parents[d].forEach(function (p) { keep[p] = true; });
+    });
+    return keep;
+  }
   function applyHighlight(id) {
-    var keep = closure(id, parents); var down = closure(id, children);
-    for (var k in down) keep[k] = true; keep[id] = true;
-    applyKeep(keep);
+    applyKeep(keepSet(id));
   }
 
   /* ---------------- panel + selection ---------------- */
@@ -292,8 +306,8 @@
     var f = flowEls[l.s + ">" + l.d];
     var html = NODES[l.s].name + " → " + NODES[l.d].name + " — <span class='t-amt'>" + (l.amt || ("$" + l.v.toFixed(1) + "B")) + "</span>";
     f.addEventListener("pointerenter", function (e) {
-      var keep = closure(l.s, parents); var down = closure(l.d, children);
-      for (var k in down) keep[k] = true; keep[l.s] = true; keep[l.d] = true;
+      var keep = keepSet(l.s), kd = keepSet(l.d);
+      for (var k in kd) keep[k] = true;
       applyKeep(keep);
       showTip(html, e);
     });
