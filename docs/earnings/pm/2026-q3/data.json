@@ -1,0 +1,136 @@
+{
+  "ticker": "PM",
+  "company": "Philip Morris International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Philip Morris set records for revenue, gross profit and operating income on strong pricing and smoke-free growth \u2014 but a paper loss on equity investments and a higher tax rate cut reported net earnings to $3.5B and EPS fell 5%.",
+  "revenueYoY": "+5.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$11.4B",
+      "note": "+5.5% YoY, a record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.12",
+      "note": "vs $2.23 a year ago"
+    },
+    {
+      "label": "Operating income",
+      "value": "$4.9B",
+      "note": "+14% YoY, a record"
+    },
+    {
+      "label": "Smoke-free share",
+      "value": ">40%",
+      "note": "of total net revenues"
+    }
+  ],
+  "segments": [
+    {
+      "name": "International Smoke-Free",
+      "amountM": 3867,
+      "yoy": "+1%",
+      "note": "IQOS heated tobacco, ZYN pouches and VEEV e-vapor outside the U.S. \u2014 revenue up 1% reported (3% organically) against a tough Japan comparison; smoke-free shipments rose 3%."
+    },
+    {
+      "name": "International Combustibles",
+      "amountM": 6726,
+      "yoy": "+7%",
+      "note": "Cigarettes outside the U.S., led by Marlboro \u2014 revenue up 7% on 8.9% pricing, with cigarette shipments broadly flat and category share up to 25.9%."
+    },
+    {
+      "name": "U.S.",
+      "amountM": 845,
+      "yoy": "+23%",
+      "note": "Mainly ZYN nicotine pouches in the U.S. \u2014 revenue up 23% as ZYN shipments grew 4% to 3.2 billion pouches and comparisons against last year's promotions helped pricing."
+    }
+  ],
+  "flow": {
+    "revenueM": 11438,
+    "costOfRevenueM": 3584,
+    "grossProfitM": 7854,
+    "opex": [
+      {
+        "name": "Marketing, administration and research",
+        "amountM": 2988,
+        "note": "Marketing, administration and research costs were $2,993M, partly offset by $5M of corporate and other income \u2014 $2,988M net. This line includes $247M of amortization of acquired intangibles."
+      }
+    ],
+    "operatingIncomeM": 4866,
+    "otherIncomeM": -358,
+    "taxM": 986,
+    "netIncomeM": 3522
+  },
+  "otherDetail": "Interest expense, net, took out $199M; pension and other benefit costs took out $73M; and equity investments and securities lost $86M, mainly a non-cash fair-value loss on stakes in India and Sri Lanka \u2014 $358M taken out in all. The bottom line is total net earnings of $3,522M; $3,313M was attributable to PMI after $209M for noncontrolling interests.",
+  "follow100": [
+    {
+      "label": "International Smoke-Free",
+      "amount": 33.81
+    },
+    {
+      "label": "International Combustibles",
+      "amount": 58.8
+    },
+    {
+      "label": "U.S.",
+      "amount": 7.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.33
+    },
+    {
+      "label": "Marketing, admin and research",
+      "amount": -26.12
+    },
+    {
+      "label": "Interest, pension and investments, net",
+      "amount": -3.13
+    },
+    {
+      "label": "Tax",
+      "amount": -8.62
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.8
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Record operating income",
+      "text": "Revenue rose 5.5% to a record $11.4B (7.1% organically), with $739M of price increases the biggest driver. Operating income rose 14% to a record $4.9B and gross margin expanded."
+    },
+    {
+      "stat": ">40%",
+      "statColor": "#3e8e5a",
+      "title": "Smoke-free is now two-fifths of sales",
+      "text": "Smoke-free products passed 40% of revenue, are sold in 110 markets, and shipped 2.7% more units \u2014 IQOS heated-tobacco units rose 1.5% to 41.5 billion and VEEV shipments jumped 62%."
+    },
+    {
+      "stat": "$2.36",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS tells a different story",
+      "text": "Reported EPS fell 5% to $2.12, hit by a $0.06 fair-value loss on equity stakes, a $0.04 Dutch pension buy-out loss and a tax rate up to 21.5%. Excluding adjusting items, EPS rose 5% to $2.36."
+    }
+  ],
+  "oneTimers": [
+    "Adjusting items cut reported EPS by $0.24: $0.13 of amortization of acquired intangibles, a $0.06 non-cash fair-value loss on equity security investments in India and Sri Lanka, a $0.04 Dutch pension plan buy-out loss, and $0.01 of tax related to Swedish Match financing. Adjusted EPS was $2.36."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026066596/earningsreleasepm-ex991xq3.htm"
+    },
+    {
+      "label": "Quarterly report on Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026066976/pm-20260930.htm"
+    }
+  ]
+}

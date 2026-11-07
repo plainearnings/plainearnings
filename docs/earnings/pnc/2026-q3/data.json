@@ -1,0 +1,168 @@
+{
+  "ticker": "PNC",
+  "company": "PNC Financial Services",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "verdict": "PNC grew revenue 11% to $6.6B on 15% higher net interest income from loan growth, and lower costs lifted profit to $2.1B.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.6B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.97",
+      "note": "vs $4.35 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$4.2B",
+      "note": "+15% YoY, 2.94% margin"
+    },
+    {
+      "label": "CET1 capital ratio",
+      "value": "9.8%",
+      "note": "with an 18.3% ROTCE"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 4206,
+      "yoy": "+15%",
+      "note": "Interest earned on loans and securities, minus interest paid on deposits and borrowings \u2014 the bank's core engine, up 15% on commercial loan growth and higher yields."
+    },
+    {
+      "name": "Fee income",
+      "amountM": 2142,
+      "yoy": "+4%",
+      "note": "Fees for asset management, capital markets, cards, payments and other services \u2014 up 4% vs a year ago, but down 6% from a strong second quarter."
+    },
+    {
+      "name": "Other noninterest income",
+      "amountM": 214,
+      "yoy": "+8%",
+      "note": "Private equity and other non-fee income \u2014 $214M, including a net negative $25M from Visa-related items."
+    }
+  ],
+  "flow": {
+    "revenueM": 6562,
+    "costOfRevenueM": 189,
+    "grossProfitM": 6373,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 2031,
+        "note": "Pay and benefits for PNC's workforce \u2014 its biggest cost, $2.0B."
+      },
+      {
+        "name": "Equipment",
+        "amountM": 435,
+        "note": "Technology and equipment costs \u2014 $435M."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 262,
+        "note": "Branches and offices \u2014 $262M."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 106,
+        "note": "Advertising and marketing \u2014 $106M."
+      },
+      {
+        "name": "Other noninterest expense",
+        "amountM": 917,
+        "note": "All other running costs \u2014 $917M, including $27M of FirstBank integration costs."
+      }
+    ],
+    "operatingIncomeM": 2622,
+    "otherIncomeM": 0,
+    "taxM": 525,
+    "netIncomeM": 2097
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 64.1
+    },
+    {
+      "label": "Fee income",
+      "amount": 32.64
+    },
+    {
+      "label": "Other noninterest income",
+      "amount": 3.26
+    },
+    {
+      "label": "Credit costs",
+      "amount": -2.88
+    },
+    {
+      "label": "Personnel",
+      "amount": -30.95
+    },
+    {
+      "label": "Equipment",
+      "amount": -6.63
+    },
+    {
+      "label": "Occupancy",
+      "amount": -3.99
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -13.97
+    },
+    {
+      "label": "Tax",
+      "amount": -8.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Interest income is the growth story",
+      "text": "Net interest income rose 15% to $4.2B as average loans grew to $372B and yields rose; the net interest margin was 2.94%. Revenue overall rose 11% to $6.6B."
+    },
+    {
+      "stat": "57%",
+      "statColor": "#3e8e5a",
+      "title": "Costs fell and efficiency improved",
+      "text": "Noninterest expense fell 8% from the second quarter to $3.8B, taking the efficiency ratio to 57% from 60%. Excluding integration costs and significant items, expenses still fell 3%."
+    },
+    {
+      "stat": "$189M",
+      "statColor": "#5b6b7c",
+      "title": "Credit costs stayed contained",
+      "text": "The provision for credit losses was $189M. Net charge-offs were $257M, including $35M tied to moving a $1.4B student loan portfolio to held-for-sale; the allowance covers 1.42% of loans."
+    }
+  ],
+  "oneTimers": [
+    "FirstBank integration costs were $36M before tax ($27M in expenses and $9M against noninterest income), and Visa-related significant items were a net negative $25M (an $11M gain on Visa shares, less $36M of Visa Class B-3 derivative adjustments). Together they cut net income by $48M, or $0.12 per share; adjusted EPS was $5.09 vs $4.97 reported."
+  ],
+  "footerNote": "For a bank, the provision for credit losses plays the role of cost of revenue, and noninterest expense is the operating-expense block \u2014 the same model used for JPMorgan on this site.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialsupplement.htm"
+    }
+  ]
+}

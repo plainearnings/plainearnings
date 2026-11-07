@@ -1,0 +1,152 @@
+{
+  "ticker": "PLD",
+  "company": "Prologis",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "verdict": "Prologis collected more rent as leases reset higher \u2014 revenue rose 8% to $2.4B and GAAP profit was $880M, helped by $108M of gains from selling properties.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.4B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.86",
+      "note": "vs $0.82 a year ago"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$1.60",
+      "note": "non-GAAP, +7% YoY"
+    },
+    {
+      "label": "Net earnings to common",
+      "value": "$816M",
+      "note": "GAAP, vs $763M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental",
+      "amountM": 2205,
+      "yoy": "+7%",
+      "note": "Rent and tenant recoveries from logistics warehouses around the world \u2014 the core business, up 7% as leases signed earlier at higher rents kicked in."
+    },
+    {
+      "name": "Strategic capital",
+      "amountM": 164,
+      "yoy": "+9%",
+      "note": "Fees for managing warehouse funds owned with partners, plus promotes \u2014 asset-management income on top of the rent."
+    },
+    {
+      "name": "Development management and other",
+      "amountM": 18,
+      "yoy": "+92%",
+      "note": "Development management fees and other revenue \u2014 small, and up sharply from $9M a year ago.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 2387,
+    "costOfRevenueM": 596,
+    "grossProfitM": 1791,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 128,
+        "note": "Back-office and management costs of running the platform \u2014 $128M."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 710,
+        "note": "Spreading the cost of warehouse buildings over their long lives \u2014 a non-cash charge, and the main reason GAAP profit is far below FFO for a landlord."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 17,
+        "note": "Other operating expenses \u2014 $17M."
+      }
+    ],
+    "operatingIncomeM": 936,
+    "otherIncomeM": 41,
+    "taxM": 98,
+    "netIncomeM": 879
+  },
+  "otherDetail": "Gains on property sales added $108M ($52M from development properties and land, $56M from other real estate) and earnings from unconsolidated ventures added $155M, against $287M of interest expense, partly offset by $65M of currency, derivative and other gains \u2014 $41M net. The bottom line here is consolidated GAAP net earnings of $880M; $816M of it was attributable to common stockholders after noncontrolling interests and preferred dividends.",
+  "follow100": [
+    {
+      "label": "Rental",
+      "amount": 92.38
+    },
+    {
+      "label": "Strategic capital",
+      "amount": 6.87
+    },
+    {
+      "label": "Development and other",
+      "amount": 0.75
+    },
+    {
+      "label": "Property and strategic capital costs",
+      "amount": -24.97
+    },
+    {
+      "label": "G&A",
+      "amount": -5.36
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -29.74
+    },
+    {
+      "label": "Other expenses",
+      "amount": -0.71
+    },
+    {
+      "label": "Other income, net",
+      "amount": 1.72
+    },
+    {
+      "label": "Tax",
+      "amount": -4.11
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 36.83
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "title": "Rent is still resetting higher",
+      "text": "Rental revenue rose 7% to $2.2B. On the same-store portfolio, Prologis' share of cash NOI rose 5.9% \u2014 leases signed at higher rents are flowing into the numbers."
+    },
+    {
+      "stat": "$1.60",
+      "statColor": "#3e8e5a",
+      "title": "Core FFO rose 7% a share",
+      "text": "Core FFO \u2014 the landlord metric that adds back building depreciation \u2014 was $1.60 per share, up from $1.49. Full-year guidance is $6.25\u2013$6.29 of Core FFO per share."
+    },
+    {
+      "stat": "$710M",
+      "statColor": "#5b6b7c",
+      "title": "Depreciation is the GAAP gap",
+      "text": "Depreciation and amortization of $710M is a non-cash charge for wearing out buildings that are, in market terms, generally holding or gaining value \u2014 which is why FFO ($1.5B) dwarfs GAAP profit."
+    }
+  ],
+  "oneTimers": [
+    "Gains on dispositions added $108M before tax: $52M from selling development properties and land and $56M from other real estate sales. These are a recurring part of Prologis' build-and-sell model, but they are not rent."
+  ],
+  "footerNote": "Prologis is a REIT: this flow is GAAP, with consolidated net earnings as the bottom line. Core FFO ($1.60 per share) is a non-GAAP landlord metric shown only as a KPI chip.",
+  "sources": [
+    {
+      "label": "Official earnings release and supplemental (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526422375/pld-ex99_1.htm"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ticker": "PNR",
+  "company": "Pentair",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Pentair sales fell 4% to $976M as Pool sales dropped 18% while channel partners worked through inventory, but Flow and Water Solutions grew and the quarter still earned $145M.",
+  "revenueYoY": "-4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$976M",
+      "note": "-4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.91",
+      "note": "vs $1.12 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.18",
+      "note": "non-GAAP, vs $1.24 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$153M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Flow",
+      "amountM": 262,
+      "yoy": "+4%",
+      "note": "Pumps and flow products for residential, commercial and industrial water \u2014 sales up 4% (core sales up 1%), with segment income of $69M."
+    },
+    {
+      "name": "Water Solutions",
+      "amountM": 422,
+      "yoy": "+1%",
+      "note": "Water treatment and filtration, including Everpure and Manitowoc Ice \u2014 sales up 1%, segment income up 16% to $121M at a 28.7% margin."
+    },
+    {
+      "name": "Pool",
+      "amountM": 291,
+      "yoy": "-18%",
+      "note": "Pool pumps, filters and automation \u2014 sales down 18% as major channel partners finished realigning inventory; segment income fell 38% to $72M."
+    },
+    {
+      "name": "Corporate and other",
+      "amountM": 1,
+      "yoy": "",
+      "note": "Corporate and other sales \u2014 a rounding-sized remainder.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 976,
+    "costOfRevenueM": 581,
+    "grossProfitM": 395,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 176,
+        "note": "Selling and back-office costs \u2014 $176M, or 18.0% of sales, up from 15.9% a year ago as sales fell."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 23,
+        "note": "Developing new water products \u2014 $23M, about 2.4% of sales."
+      }
+    ],
+    "operatingIncomeM": 196,
+    "otherIncomeM": -23,
+    "taxM": 28,
+    "netIncomeM": 145
+  },
+  "otherDetail": "Net interest expense of $22M plus $1M of other expense \u2014 $23M taken out of profit.",
+  "follow100": [
+    {
+      "label": "Flow",
+      "amount": 26.84
+    },
+    {
+      "label": "Water Solutions",
+      "amount": 43.24
+    },
+    {
+      "label": "Pool",
+      "amount": 29.82
+    },
+    {
+      "label": "Corporate and other",
+      "amount": 0.1
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -59.53
+    },
+    {
+      "label": "SG&A",
+      "amount": -18.03
+    },
+    {
+      "label": "R&D",
+      "amount": -2.36
+    },
+    {
+      "label": "Interest and other, net",
+      "amount": -2.36
+    },
+    {
+      "label": "Tax",
+      "amount": -2.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.85
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-18%",
+      "statColor": "#3d7bc8",
+      "title": "Pool was the whole decline",
+      "text": "Pool sales fell 18% to $292M and segment income fell 38% to $72M as channel partners completed an inventory realignment ahead of the 2027 pool season. Pentair guides Q4 sales up 7\u20139%."
+    },
+    {
+      "stat": "28.7%",
+      "statColor": "#3e8e5a",
+      "title": "Water Solutions got more profitable",
+      "text": "Water Solutions income rose 16% to $121M \u2014 a 28.7% return on sales, up 3.7 points \u2014 and Flow income rose 15% to $69M. The two growing segments cushioned Pool."
+    },
+    {
+      "stat": "$242M",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted profit vs GAAP profit",
+      "text": "GAAP operating income was $196M (20.1% of sales). Excluding $46M of restructuring, transformation, amortization and deal costs, adjusted operating income was $242M (24.8%)."
+    }
+  ],
+  "oneTimers": [
+    "Adjustments between GAAP and adjusted results were $46M before tax: $11M restructuring and other, $16M transformation costs, $15M intangible amortization, and $3M of deal costs for the Taco acquisition (closed October 1, after quarter-end).",
+    "Results include about $8M of IEEPA (tariff) refunds in the quarter \u2014 a benefit that is not part of normal product sales."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/77360/000007736026000055/q32026pressrelease.htm"
+    }
+  ]
+}

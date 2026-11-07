@@ -1,0 +1,142 @@
+{
+  "ticker": "PKG",
+  "company": "Packaging Corporation of America",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Packaging Corporation of America grew sales 12% to $2.6B as the acquired Greif mills contributed a full quarter \u2014 profit rose to $262M despite $13M of closure, fire and integration charges.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.6B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.93",
+      "note": "vs $2.51 a year ago"
+    },
+    {
+      "label": "Packaging sales",
+      "value": "$2.4B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "Corrugated shipments",
+      "value": "+10.6%",
+      "note": "per day vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Packaging",
+      "amountM": 2414,
+      "yoy": "+13%",
+      "note": "Containerboard and corrugated boxes \u2014 the main business. Sales rose 13%, helped by the acquired Greif operations and better price and mix; segment operating income was $398M."
+    },
+    {
+      "name": "Paper",
+      "amountM": 163,
+      "yoy": "+1%",
+      "note": "Uncoated freesheet paper (office and printing paper) \u2014 sales up 1% on better prices, with volume down 2.5%; segment operating income was $29M."
+    },
+    {
+      "name": "Corporate and other",
+      "amountM": 25,
+      "yoy": "+2%",
+      "note": "Corporate and other sales that are not part of the two main segments.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 2602,
+    "costOfRevenueM": 1998,
+    "grossProfitM": 604,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 183,
+        "note": "Selling and back-office costs \u2014 $183M, up from $154M a year ago as the Greif operations were added."
+      },
+      {
+        "name": "Other expense, net",
+        "amountM": 36,
+        "note": "Other operating costs, net \u2014 $36M, including much of the quarter's special items (facility closures, a facility fire, and Wallula mill restructuring)."
+      }
+    ],
+    "operatingIncomeM": 385,
+    "otherIncomeM": -31,
+    "taxM": 92,
+    "netIncomeM": 262
+  },
+  "otherDetail": "Net interest expense of $32M, partly offset by $1M of non-operating pension income \u2014 $31M net taken out of profit.",
+  "follow100": [
+    {
+      "label": "Packaging",
+      "amount": 92.78
+    },
+    {
+      "label": "Paper",
+      "amount": 6.26
+    },
+    {
+      "label": "Corporate and other",
+      "amount": 0.96
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -76.79
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.03
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.38
+    },
+    {
+      "label": "Interest and other, net",
+      "amount": -1.19
+    },
+    {
+      "label": "Tax",
+      "amount": -3.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came from Greif \u2014 and price",
+      "text": "Sales rose 12% to $2.6B. Corrugated shipments rose 10.6% including Greif, while legacy shipments slipped 0.5%; favorable price and mix in Packaging added $0.79 a share vs a year ago."
+    },
+    {
+      "stat": "$398M",
+      "statColor": "#3e8e5a",
+      "title": "Packaging did the heavy lifting",
+      "text": "Packaging segment operating income rose to $398M from $328M a year ago ($408M excluding special items). Paper earned $29M, down from $36M."
+    },
+    {
+      "stat": "$3.04",
+      "statColor": "#5b6b7c",
+      "title": "Profit ex-charges was higher",
+      "text": "Reported EPS of $2.93 includes $0.11 of special items. Excluding them, EPS was $3.04 and net income $272M \u2014 the number to compare with a normal quarter."
+    }
+  ],
+  "oneTimers": [
+    "Special items totaled $13M before tax ($10M after tax, $0.11 per share): $6M of facility closure costs, $3M of acquisition and integration costs, $3M for a fire at a corrugated products facility, and $0.3M of Wallula mill restructuring charges. Excluding them, net income was $272M ($3.04 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526428056/pkg-ex99_1.htm"
+    }
+  ]
+}

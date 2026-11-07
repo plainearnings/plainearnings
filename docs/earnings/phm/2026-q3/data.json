@@ -1,0 +1,133 @@
+{
+  "ticker": "PHM",
+  "company": "PulteGroup",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "PulteGroup sold fewer homes as higher mortgage rates sidelined buyers \u2014 revenue fell 10% to $4.0B and profit fell to $476M, though a richer mix of move-up and active-adult buyers held the home sale gross margin at 24.8%.",
+  "revenueYoY": "-10%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.0B",
+      "note": "-10% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.53",
+      "note": "vs $2.96 a year ago"
+    },
+    {
+      "label": "Homes closed",
+      "value": "6,876",
+      "note": "-9% YoY, at $561,000 average"
+    },
+    {
+      "label": "Backlog",
+      "value": "$6.4B",
+      "note": "10,298 homes, +4% in units YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Home sales",
+      "amountM": 3859,
+      "yoy": "-9%",
+      "note": "Homes closed \u2014 6,876 homes at an average price of $561,000. Closings fell 9% as higher mortgage rates stretched affordability."
+    },
+    {
+      "name": "Land sales and other",
+      "amountM": 8,
+      "yoy": "-85%",
+      "note": "Selling surplus land and other homebuilding revenue \u2014 much smaller than the $53M a year ago.",
+      "compact": true
+    },
+    {
+      "name": "Financial services",
+      "amountM": 107,
+      "yoy": "+4%",
+      "note": "Mortgage and title services for PulteGroup buyers \u2014 an 85% mortgage capture rate, and $46M of pre-tax income."
+    }
+  ],
+  "flow": {
+    "revenueM": 3974,
+    "costOfRevenueM": 2969,
+    "grossProfitM": 1005,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 397,
+        "note": "Selling and back-office costs \u2014 $397M, or 10.3% of home sale revenues, roughly flat in dollars vs a year ago."
+      }
+    ],
+    "operatingIncomeM": 608,
+    "otherIncomeM": 17,
+    "taxM": 149,
+    "netIncomeM": 476
+  },
+  "otherDetail": "Other income of $20M, less a $3M equity loss from unconsolidated ventures \u2014 $17M net added to profit.",
+  "follow100": [
+    {
+      "label": "Home sales",
+      "amount": 97.11
+    },
+    {
+      "label": "Land sales and other",
+      "amount": 0.2
+    },
+    {
+      "label": "Financial services",
+      "amount": 2.69
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -74.71
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.99
+    },
+    {
+      "label": "Other income",
+      "amount": 0.43
+    },
+    {
+      "label": "Tax",
+      "amount": -3.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.98
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-9%",
+      "statColor": "#3d7bc8",
+      "title": "Fewer homes closed",
+      "text": "Closings fell 9% to 6,876 homes and the average price slipped 1% to $561,000, so home sale revenue fell 9% to $3.9B. Net new orders also fell 6% to 6,208 homes."
+    },
+    {
+      "stat": "24.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margin held up thanks to buyer mix",
+      "text": "Home sale gross margin was 24.8%, down from 26.2% a year ago and including $26M of land impairments. More than 60% of sales are now higher-margin move-up and active-adult homes."
+    },
+    {
+      "stat": "$6.4B",
+      "statColor": "#5b6b7c",
+      "title": "The backlog still grew",
+      "text": "Backlog rose 4% to 10,298 homes worth $6.4B, and PulteGroup ended the quarter with $1.4B of cash and a low 12% debt-to-capital ratio after buying back $350M of shares."
+    }
+  ],
+  "oneTimers": [
+    "$26M of land impairments are inside home sale cost of revenues this quarter \u2014 about 0.7 percentage points of the reported 24.8% home sale gross margin."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/ex991earningspr9302026.htm"
+    }
+  ]
+}
