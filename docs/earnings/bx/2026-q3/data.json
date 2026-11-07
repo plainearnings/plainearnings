@@ -1,0 +1,181 @@
+{
+  "ticker": "BX",
+  "company": "Blackstone Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Blackstone's fee business kept growing \u2014 management fees rose 6% \u2014 but much lower performance allocations left GAAP revenue flat at $3.1B and GAAP profit attributable to shareholders at $662M, while its headline distributable earnings were $1.7B.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "Revenue $3,063M vs $3,089M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.83",
+      "note": "diluted, vs $0.80 a year ago"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$1.37T",
+      "note": "$1,368B, +10% YoY; $63B of inflows in the quarter"
+    },
+    {
+      "label": "Distributable earnings (non-GAAP)",
+      "value": "$1.7B",
+      "note": "$1.32 per share \u2014 the headline measure Blackstone manages to"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Management & advisory fees",
+      "amountM": 2177,
+      "yoy": "+6%",
+      "note": "Steady fees for managing funds \u2014 the dependable base of the business, up 6% to about $2.2B. Shown $1M below the reported $2,178M so the pieces add exactly to total revenue (see footer)."
+    },
+    {
+      "name": "Incentive fees",
+      "amountM": 173,
+      "yoy": "-14%",
+      "note": "Fees that depend on fund performance hurdles being met \u2014 down from $201M a year ago."
+    },
+    {
+      "name": "Performance allocations",
+      "amountM": 205,
+      "yoy": "-74%",
+      "note": "Blackstone's share of fund profits (carried interest) on a GAAP basis \u2014 down sharply from $781M a year ago, the main reason total revenue was flat."
+    },
+    {
+      "name": "Principal investments",
+      "amountM": 370,
+      "yoy": "n.m.",
+      "note": "Gains on Blackstone's own money invested alongside its funds \u2014 a $370M gain vs an $86M loss a year ago."
+    },
+    {
+      "name": "Interest & dividend revenue",
+      "amountM": 126,
+      "yoy": "+17%",
+      "note": "Interest and dividends earned on cash and investments."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 12,
+      "yoy": "-59%",
+      "note": "Everything else \u2014 a small $12M this quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 3063,
+    "costOfRevenueM": 0,
+    "grossProfitM": 3063,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 1066,
+        "note": "Pay and bonuses for staff, including performance pay \u2014 down from $1,231M a year ago as performance revenue fell."
+      },
+      {
+        "name": "General, administrative & other",
+        "amountM": 416,
+        "note": "Running the firm day to day \u2014 offices, technology and professional services."
+      },
+      {
+        "name": "Fund expenses",
+        "amountM": 10,
+        "note": "Costs of running the funds themselves."
+      }
+    ],
+    "operatingIncomeM": 1571,
+    "otherIncomeM": -40,
+    "taxM": 259,
+    "netIncomeM": 1272
+  },
+  "follow100": [
+    {
+      "label": "Management & advisory fees",
+      "amount": 71.07
+    },
+    {
+      "label": "Incentive fees",
+      "amount": 5.65
+    },
+    {
+      "label": "Performance allocations",
+      "amount": 6.69
+    },
+    {
+      "label": "Principal investments",
+      "amount": 12.08
+    },
+    {
+      "label": "Interest & dividend revenue",
+      "amount": 4.11
+    },
+    {
+      "label": "Other revenue",
+      "amount": 0.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": 0.0
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -34.8
+    },
+    {
+      "label": "General, admin & other",
+      "amount": -13.58
+    },
+    {
+      "label": "Fund expenses",
+      "amount": -0.33
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -1.31
+    },
+    {
+      "label": "Tax",
+      "amount": -8.46
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 41.53
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "The fee base keeps compounding",
+      "text": "Management and advisory fees rose 6% to $2.2B and fee-earning assets reached $990B. Fee Related Earnings \u2014 profit from fees alone, a non-GAAP measure \u2014 were $1.6B, or $1.26 per share."
+    },
+    {
+      "stat": "-74%",
+      "statColor": "#cf5f4e",
+      "title": "Performance revenue swung down",
+      "text": "GAAP performance allocations fell to $205M from $781M a year ago. That lumpiness is normal for carried interest, but it held total revenue flat even as fees grew."
+    },
+    {
+      "stat": "$1.32",
+      "statColor": "#3e8e5a",
+      "title": "Distributable earnings fund the dividend",
+      "text": "Distributable Earnings (non-GAAP) were $1.7B, or $1.32 per share, down 9% YoY. Blackstone declared a $1.12 per-share dividend for the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Headline non-GAAP measures: Distributable Earnings of $1,716M ($1.32 per share) and Fee Related Earnings of $1,572M ($1.26 per share). This page is built on the GAAP income statement above; the non-GAAP figures use realized performance revenue and exclude unrealized gains and losses."
+  ],
+  "otherDetail": "Other income of $93M, less interest expense of $133M \u2014 a net $40M cost. Interest expense is shown inside total expenses in Blackstone's GAAP presentation and is grouped here with other income so the operating lines match how the firm runs the business.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526428297/d160590dex991.htm"
+    }
+  ],
+  "footerNote": "The flow uses total GAAP net income of $1,272M; after $610M attributable to noncontrolling interests (mostly holders of Blackstone Holdings partnership units), net income attributable to Blackstone Inc. was $662M ($0.83 per diluted share). Management fees are shown as $2,177M (reported $2,178M) so the revenue pieces add exactly to the $3,063M total \u2014 a $1M rounding difference in the release."
+}

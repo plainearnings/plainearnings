@@ -1,0 +1,151 @@
+{
+  "ticker": "BSX",
+  "company": "Boston Scientific",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Boston Scientific sales barely grew \u2014 up just 1.5% to $5.1B \u2014 as an August cybersecurity incident disrupted operations, and one-off charges cut GAAP profit to $582M from $755M a year ago.",
+  "revenueYoY": "+1.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1.5%",
+      "note": "Revenue $5,138M vs $5,065M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.40",
+      "note": "vs $0.51 a year ago"
+    },
+    {
+      "label": "Cardiovascular sales",
+      "value": "$3.4B",
+      "note": "+1.9% YoY, 66% of revenue"
+    },
+    {
+      "label": "EPS (adjusted, non-GAAP)",
+      "value": "$0.73",
+      "note": "vs $0.75 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "MedSurg",
+      "amountM": 1733,
+      "yoy": "+0.6%",
+      "note": "Endoscopy ($741M, -0.8%), Urology ($661M, -3.2%) and Neuromodulation ($331M, +13.1%) \u2014 devices for digestive, urinary and nerve conditions."
+    },
+    {
+      "name": "Cardiovascular",
+      "amountM": 3405,
+      "yoy": "+1.9%",
+      "note": "Heart and blood-vessel devices \u2014 the larger half of the company, up 1.9%. Shown $1M below the reported $3,406M so the segments add exactly to total sales (see footer)."
+    }
+  ],
+  "flow": {
+    "revenueM": 5138,
+    "costOfRevenueM": 1710,
+    "grossProfitM": 3428,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1683,
+        "note": "Selling the products and running the company day to day \u2014 down from $1,741M a year ago."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 520,
+        "note": "Developing new medical devices \u2014 about flat vs $514M a year ago."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 234,
+        "note": "Non-cash cost of past acquisitions, spread over time."
+      },
+      {
+        "name": "Other operating charges, net",
+        "amountM": 163,
+        "note": "Royalty expense $12M, an intangible-asset impairment of $39M, restructuring charges of $63M and litigation charges of $81M, less a $32M contingent-consideration benefit."
+      }
+    ],
+    "operatingIncomeM": 828,
+    "otherIncomeM": -95,
+    "taxM": 153,
+    "netIncomeM": 580
+  },
+  "follow100": [
+    {
+      "label": "MedSurg",
+      "amount": 33.73
+    },
+    {
+      "label": "Cardiovascular",
+      "amount": 66.27
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.28
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -32.76
+    },
+    {
+      "label": "Research & development",
+      "amount": -10.12
+    },
+    {
+      "label": "Amortization",
+      "amount": -4.55
+    },
+    {
+      "label": "Other operating charges, net",
+      "amount": -3.17
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.85
+    },
+    {
+      "label": "Tax",
+      "amount": -2.98
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.29
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+1.5%",
+      "statColor": "#5b6b7c",
+      "title": "Growth stalled after a cyber incident",
+      "text": "Sales grew just 1.5% \u2014 US sales rose only 0.5% \u2014 in a quarter disrupted by the August 2026 cybersecurity incident the company says its teams worked to recover from."
+    },
+    {
+      "stat": "$582M",
+      "statColor": "#cf5f4e",
+      "title": "One-off charges cut GAAP profit",
+      "text": "GAAP profit attributable to shareholders fell 23% to $582M ($0.40 per share) as litigation ($81M), restructuring ($63M) and impairment ($39M) charges landed. Adjusted EPS, which strips those out, was $0.73 vs $0.75 a year ago."
+    },
+    {
+      "stat": "-3% to -1%",
+      "statColor": "#3d7bc8",
+      "title": "Management expects a Q4 sales dip",
+      "text": "The company guided Q4 sales down 3% to 1% vs a year ago, with full-year adjusted EPS of $3.16 to $3.18 \u2014 a soft finish after the disrupted quarter."
+    }
+  ],
+  "oneTimers": [
+    "Litigation-related charges of $81M, restructuring charges of $63M and a $39M intangible-asset impairment in the quarter \u2014 the main reasons GAAP EPS ($0.40) sits well below adjusted EPS ($0.73).",
+    "An August 2026 cybersecurity incident disrupted operations in the quarter; the company does not break out a separate dollar cost for it in the release."
+  ],
+  "otherDetail": "Interest expense of $100M, partly offset by $4M of other income \u2014 reported as a net $95M cost (the components differ by $1M due to rounding in the release).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000066/earningsrelease_live.htm"
+    }
+  ],
+  "footerNote": "The flow uses total net income of $580M; after a $2M loss attributable to noncontrolling interests, net income attributable to Boston Scientific shareholders was $582M ($0.40 per share). Cardiovascular sales are shown as $3,405M (reported $3,406M) so the two segments add exactly to the $5,138M total \u2014 a $1M rounding difference in the release."
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "CAH",
+  "company": "Cardinal Health",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Cardinal Health revenue rose 5% to $67.5B and GAAP profit rose 23% to $554M, powered by its giant pharmaceutical distribution business \u2014 and management raised the full-year outlook.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "Revenue $67,513M vs $64,009M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.38",
+      "note": "diluted, vs $1.88 a year ago (+27%)"
+    },
+    {
+      "label": "Pharma & Specialty revenue",
+      "value": "$62.6B",
+      "note": "+6% YoY, 93% of all revenue"
+    },
+    {
+      "label": "EPS (non-GAAP)",
+      "value": "$3.26",
+      "note": "vs $2.55 a year ago (+28%)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Pharmaceutical & Specialty Solutions",
+      "amountM": 62559,
+      "yoy": "+6%",
+      "note": "Distributing brand and specialty medicines to hospitals and pharmacies \u2014 segment profit rose 17% to $783M. Shown $23M below the reported $62,582M so the segments add exactly to total revenue (see footer)."
+    },
+    {
+      "name": "Global Medical Products & Distribution",
+      "amountM": 3190,
+      "yoy": "0%",
+      "note": "Medical and lab products and distribution \u2014 revenue flat at $3.2B, and segment profit fell 28% to $33M on distribution and currency headwinds."
+    },
+    {
+      "name": "Other",
+      "amountM": 1764,
+      "yoy": "+7%",
+      "note": "Nuclear and precision health, at-home supplies and OptiFreight logistics \u2014 segment profit rose 16% to $193M, the highest-margin piece at about 11%."
+    }
+  ],
+  "flow": {
+    "revenueM": 67513,
+    "costOfRevenueM": 64917,
+    "grossProfitM": 2596,
+    "opex": [
+      {
+        "name": "Distribution, selling, general & admin, net",
+        "amountM": 1544,
+        "note": "Warehouses, delivery and running the company ($1,595M), net of a $47M litigation recovery and a $4M gain on asset disposals credited in operating expenses."
+      },
+      {
+        "name": "Amortization & acquisition costs",
+        "amountM": 182,
+        "note": "Amortization and other costs tied to acquisitions \u2014 up from $104M a year ago."
+      },
+      {
+        "name": "Acquisition-related compensation",
+        "amountM": 94,
+        "note": "Cash and share-based pay tied to physician-practice acquisitions."
+      },
+      {
+        "name": "Restructuring & severance",
+        "amountM": 23,
+        "note": "Restructuring and employee severance costs."
+      }
+    ],
+    "operatingIncomeM": 753,
+    "otherIncomeM": -65,
+    "taxM": 132,
+    "netIncomeM": 556
+  },
+  "follow100": [
+    {
+      "label": "Pharmaceutical & Specialty",
+      "amount": 92.66
+    },
+    {
+      "label": "Global Medical Products",
+      "amount": 4.73
+    },
+    {
+      "label": "Other",
+      "amount": 2.61
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -96.15
+    },
+    {
+      "label": "Distribution, selling & admin, net",
+      "amount": -2.29
+    },
+    {
+      "label": "Amortization & acquisition",
+      "amount": -0.27
+    },
+    {
+      "label": "Acquisition compensation",
+      "amount": -0.14
+    },
+    {
+      "label": "Restructuring & severance",
+      "amount": -0.03
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.1
+    },
+    {
+      "label": "Tax",
+      "amount": -0.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.82
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Pharma distribution is carrying the growth",
+      "text": "Pharmaceutical and Specialty Solutions profit rose 17% to $783M on brand and specialty drug growth and a strong generics program \u2014 it earns more than the rest of the company combined many times over."
+    },
+    {
+      "stat": "-28%",
+      "statColor": "#cf5f4e",
+      "title": "Medical products is the weak spot",
+      "text": "Global Medical Products and Distribution profit fell 28% to just $33M on flat $3.2B revenue, hit by distribution and currency effects, partly offset by its own-brand products."
+    },
+    {
+      "stat": "$12.80\u2013$13.00",
+      "statColor": "#3e8e5a",
+      "title": "Full-year guidance raised",
+      "text": "Management lifted fiscal 2027 non-GAAP EPS guidance to $12.80\u2013$13.00 and completed a $500M share buyback in the quarter. GAAP EPS of $2.38 sits below non-GAAP $3.26 mainly because of $182M of amortization and acquisition costs."
+    }
+  ],
+  "oneTimers": [
+    "A $47M litigation recovery (a benefit) inside operating expenses this quarter, vs no such item a year ago.",
+    "Non-GAAP results exclude $182M of amortization and other acquisition-related costs, $94M of acquisition-related compensation and $23M of restructuring \u2014 the gap between GAAP EPS of $2.38 and non-GAAP EPS of $3.26."
+  ],
+  "otherDetail": "Interest expense of $73M, partly offset by $6M of other income and a $2M gain on completing the sale of the Outcomes stake \u2014 a net $65M cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000042/a27q1_x093026xex991xnewsre.htm"
+    }
+  ],
+  "footerNote": "The three reported segment revenues ($62,582M + $3,190M + $1,764M) sum to $67,536M, $23M above the $67,513M total \u2014 the release notes segment sums reflect rounding. The largest segment is shown $23M lower so the pieces add exactly. The flow uses total net earnings of $556M; after $2M attributable to noncontrolling interests, net earnings attributable to Cardinal Health were $554M ($2.38 per diluted share). Cardinal Health's fiscal year ends June 30, so this is Q1 of fiscal 2027."
+}

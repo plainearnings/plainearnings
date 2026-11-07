@@ -1,0 +1,150 @@
+{
+  "ticker": "C",
+  "company": "Citigroup",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-13",
+  "verdict": "Citigroup posted its best third-quarter revenue in a decade \u2014 $23.8B, up 8% \u2014 and earned $5.2B as Services grew 15%, Wealth 15% and operating costs fell 2%.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "Revenue $23,845M vs $22,090M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.85",
+      "note": "diluted, vs $1.86 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$17.0B",
+      "note": "+14% YoY \u2014 the bank's core engine"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.6B",
+      "note": "$2.2B of net credit losses plus a $369M reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 16982,
+      "yoy": "+14%",
+      "note": "Interest earned on loans and securities, minus interest paid on deposits and borrowings \u2014 up 14% on bigger loan and deposit balances."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 6863,
+      "yoy": "-4%",
+      "note": "Fees, trading and other non-interest income \u2014 down 4%, as Markets and U.S. Consumer Cards declines outweighed growth in Services, Banking, Wealth and All Other."
+    }
+  ],
+  "flow": {
+    "revenueM": 23845,
+    "costOfRevenueM": 2586,
+    "grossProfitM": 21259,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 7533,
+        "note": "Pay and benefits \u2014 the bank's biggest cost, up 1% YoY."
+      },
+      {
+        "name": "Technology & communication",
+        "amountM": 2346,
+        "note": "Technology, telecoms and equipment \u2014 up 1%."
+      },
+      {
+        "name": "Transactional & product servicing",
+        "amountM": 1328,
+        "note": "The cost of processing transactions and servicing products \u2014 up 20%."
+      },
+      {
+        "name": "Premises, professional & other",
+        "amountM": 2745,
+        "note": "Premises and equipment $632M, professional services $434M, advertising $234M and other operating costs $1,445M."
+      }
+    ],
+    "operatingIncomeM": 7307,
+    "otherIncomeM": 0,
+    "taxM": 1887,
+    "netIncomeM": 5420
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 71.22
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 28.78
+    },
+    {
+      "label": "Credit costs",
+      "amount": -10.85
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -31.59
+    },
+    {
+      "label": "Technology & communication",
+      "amount": -9.84
+    },
+    {
+      "label": "Transactional & servicing",
+      "amount": -5.57
+    },
+    {
+      "label": "Premises, professional & other",
+      "amount": -11.51
+    },
+    {
+      "label": "Tax",
+      "amount": -7.91
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.73
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Services is the standout",
+      "text": "Services revenue rose 15% to $6.6B \u2014 Treasury and Trade Solutions up 16% and Securities Services up 13% \u2014 and the business earned $2.6B, up 27%, at a 31.2% return on tangible equity."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3e8e5a",
+      "title": "Interest income did the heavy lifting",
+      "text": "Net interest income rose 14% to $17.0B on loan growth of 12% and deposit growth of 9%. It is now 71% of all revenue, more than covering the 4% dip in fee and trading income."
+    },
+    {
+      "stat": "$2.85",
+      "statColor": "#5b6b7c",
+      "title": "EPS up 53% on an easy comparison",
+      "text": "EPS rose 53% to $2.85. Part of the jump is the comparison base: a year ago included a $726M goodwill impairment tied to the Banamex stake sale. Excluding that item, year-ago EPS was $2.24 and growth was 27%. Citi returned $4.1B to shareholders in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter included a $726M goodwill impairment ($714M after tax) in operating expenses, tied to the agreement to sell a 25% stake in Banamex \u2014 it flatters this quarter's reported EPS growth (53% reported vs 27% excluding the item). No comparable notable item was flagged in Q3 2026."
+  ],
+  "otherDetail": "Citigroup reports no separate other income line in this presentation \u2014 everything sits in revenue, credit costs, operating expenses and tax.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d2.htm"
+    }
+  ],
+  "footerNote": "For a bank, credit costs (the provision for credit losses) play the role of cost of revenue. The flow uses income from continuing operations of $5,420M; after $175M attributable to noncontrolling interests, Citigroup's net income was $5,245M ($2.85 per diluted share). Net interest income and the expense breakdown come from the Q3 2026 financial supplement (Exhibit 99.2)."
+}

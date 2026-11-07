@@ -1,0 +1,168 @@
+{
+  "ticker": "BXP",
+  "company": "BXP, Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "BXP rent revenue rose 5% to $911M and total occupancy climbed to 89.4%, swinging the office landlord back to a $114M GAAP profit \u2014 helped by gains on building sales \u2014 while its headline FFO was $302M.",
+  "revenueYoY": "+4.6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4.6%",
+      "note": "Revenue $911M vs $872M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.71",
+      "note": "diluted, vs -$0.77 a year ago"
+    },
+    {
+      "label": "FFO (non-GAAP)",
+      "value": "$302M",
+      "note": "$1.89 per diluted share \u2014 the REIT headline measure"
+    },
+    {
+      "label": "Total occupancy",
+      "value": "89.4%",
+      "note": "up 100 basis points from Q2, a fourth straight gain"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Lease revenue",
+      "amountM": 846,
+      "yoy": "+4.5%",
+      "note": "Rent from premier office buildings in Boston, New York, Los Angeles, San Francisco, Seattle and Washington, DC \u2014 93% of all revenue."
+    },
+    {
+      "name": "Parking & other",
+      "amountM": 38,
+      "yoy": "+8%",
+      "note": "Parking and other property income."
+    },
+    {
+      "name": "Hotel",
+      "amountM": 13,
+      "yoy": "+0%",
+      "note": "Revenue from the company's hotel property \u2014 about flat."
+    },
+    {
+      "name": "Development & management services",
+      "amountM": 10,
+      "yoy": "+5%",
+      "note": "Fees for developing and managing buildings for others."
+    },
+    {
+      "name": "Payroll reimbursements",
+      "amountM": 4,
+      "yoy": "+4%",
+      "note": "Payroll costs billed straight back under management contracts \u2014 money in and straight back out (see the matching cost line)."
+    }
+  ],
+  "flow": {
+    "revenueM": 911,
+    "costOfRevenueM": 345,
+    "grossProfitM": 566,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 229,
+        "note": "Non-cash charge spreading the cost of buildings over their lives \u2014 the biggest single expense, and the one FFO adds back."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 38,
+        "note": "Running the company \u2014 includes $0.1M of transaction costs."
+      },
+      {
+        "name": "Payroll for management contracts",
+        "amountM": 4,
+        "note": "Staff costs that are reimbursed dollar-for-dollar by clients (see revenue)."
+      }
+    ],
+    "operatingIncomeM": 295,
+    "otherIncomeM": -140,
+    "taxM": 0,
+    "netIncomeM": 155
+  },
+  "follow100": [
+    {
+      "label": "Lease revenue",
+      "amount": 92.86
+    },
+    {
+      "label": "Parking & other",
+      "amount": 4.17
+    },
+    {
+      "label": "Hotel",
+      "amount": 1.43
+    },
+    {
+      "label": "Development & mgmt services",
+      "amount": 1.1
+    },
+    {
+      "label": "Payroll reimbursements",
+      "amount": 0.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -37.87
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -25.14
+    },
+    {
+      "label": "General & administrative",
+      "amount": -4.17
+    },
+    {
+      "label": "Payroll for mgmt contracts",
+      "amount": -0.44
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -15.37
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.01
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "89.4%",
+      "statColor": "#3d7bc8",
+      "title": "Occupancy keeps climbing",
+      "text": "Total portfolio occupancy rose 100 basis points to 89.4% \u2014 a fourth straight quarterly gain \u2014 and the CBD portfolio was 91.8% occupied. BXP signed 74 leases for about 1.2M square feet at a 10.3-year average term."
+    },
+    {
+      "stat": "$1.89",
+      "statColor": "#3e8e5a",
+      "title": "FFO is the number REIT readers watch",
+      "text": "Funds from Operations (non-GAAP) were $302M, or $1.89 per diluted share, up from $1.74 a year ago. FFO adds back building depreciation, which is why it sits well above GAAP EPS of $0.71."
+    },
+    {
+      "stat": "$10M",
+      "statColor": "#5b6b7c",
+      "title": "Building sales flattered GAAP profit",
+      "text": "Selling Sumner Square and 1330 Connecticut Avenue in Washington, DC for about $155M produced about $10M of gains. Management raised full-year guidance to EPS of $2.35\u2013$2.37 and FFO of $7.06\u2013$7.08 per share."
+    }
+  ],
+  "oneTimers": [
+    "Gains on sales of real estate of $10M in the quarter (about $10.5M on the two Washington, DC sales, per the release) \u2014 included in GAAP profit above and excluded from FFO.",
+    "Headline non-GAAP measure: FFO of $302M ($1.89 per diluted share). This page is built on the GAAP income statement; FFO adds back $229M of depreciation and amortization and removes the sales gains."
+  ],
+  "otherDetail": "Interest expense of $159M, partly offset by $10M of gains on real estate sales, $8M of interest and other income and $1M from joint ventures, less $1M of securities losses \u2014 a net $140M cost after rounding.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000041/q32026pressrelease.htm"
+    }
+  ],
+  "footerNote": "Cost of revenue here is the direct cost of running the properties: rental operating expenses of $335M plus hotel operating expenses of $10M. The flow uses total net income of $155M; after $41M attributable to noncontrolling interests, net income attributable to BXP, Inc. was $114M ($0.71 per diluted share)."
+}
