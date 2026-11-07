@@ -1,0 +1,172 @@
+{
+  "ticker": "BDX",
+  "company": "Becton Dickinson",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "BD closed its first year as a focused med-tech company with revenue up 5.4% to $5.3B and operating income nearly doubling, as lower product costs and much smaller legal charges lifted the bottom line.",
+  "revenueYoY": "+5.4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5.4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.52",
+      "note": "continuing operations, vs $1.20 a year ago"
+    },
+    {
+      "label": "EPS (adjusted)",
+      "value": "$4.15",
+      "note": "excludes purchase-accounting and other items"
+    },
+    {
+      "label": "Interventional revenue",
+      "value": "$1.47B",
+      "note": "+7.6% YoY, the fastest-growing segment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Medical Essentials",
+      "amountM": 1785,
+      "yoy": "+5.9%",
+      "note": "Everyday hospital consumables \u2014 medication delivery (syringes, catheters) and specimen management (blood-collection tubes) \u2014 the largest segment, up 5.9% YoY."
+    },
+    {
+      "name": "Connected Care",
+      "amountM": 1269,
+      "yoy": "+1.6%",
+      "note": "Medication-management systems and advanced patient monitoring \u2014 up 1.6%, as 15% growth in patient monitoring offset a 2% dip in medication management."
+    },
+    {
+      "name": "BioPharma Systems",
+      "amountM": 748,
+      "yoy": "+6.5%",
+      "note": "Pre-fillable syringes and drug-delivery systems sold to pharmaceutical companies \u2014 up 6.5%."
+    },
+    {
+      "name": "Interventional",
+      "amountM": 1472,
+      "yoy": "+7.6%",
+      "note": "Peripheral intervention, urology and critical care, and surgery products \u2014 the fastest-growing segment, up 7.6%."
+    }
+  ],
+  "flow": {
+    "revenueM": 5274,
+    "costOfRevenueM": 2581,
+    "grossProfitM": 2693,
+    "opex": [
+      {
+        "name": "Selling and administrative expense",
+        "amountM": 1262,
+        "note": "Selling products and running the company \u2014 up 4% YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 246,
+        "note": "Developing new medical devices \u2014 down 7% YoY."
+      },
+      {
+        "name": "Integration, restructuring and transaction expense",
+        "amountM": 77,
+        "note": "Costs of combining, restructuring and deal work, including the Life Sciences separation \u2014 down from $125M a year ago."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 76,
+        "note": "Mostly product-liability and other legal matters \u2014 down sharply from $232M a year ago."
+      }
+    ],
+    "operatingIncomeM": 1032,
+    "otherIncomeM": -131,
+    "taxM": 209,
+    "netIncomeM": 692
+  },
+  "otherDetail": "Interest expense of $130M, plus $11M of other expense, partly offset by $10M of interest income \u2014 a net $131M cost.",
+  "oneTimers": [
+    "Adjusted EPS of $4.15 excludes $346M of pre-tax purchase-accounting adjustments (mostly amortization from past acquisitions), $42M of integration costs, $35M of restructuring costs and $32M of separation costs tied to the Life Sciences spin-off.",
+    "Cost of products sold included a $66M benefit from refunds of tariffs imposed under IEEPA, partly offset in other operating expense by $45M of product-liability and other legal charges.",
+    "This page uses continuing operations. Total net income including discontinued operations was $696M ($2.54 per diluted share)."
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.6%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was broad-based",
+      "text": "All four segments grew. Interventional led at +7.6% to $1.47B, BioPharma Systems rose 6.5% and Medical Essentials 5.9%; only Connected Care was soft, at +1.6%."
+    },
+    {
+      "stat": "+93%",
+      "statColor": "#3e8e5a",
+      "title": "Operating income nearly doubled",
+      "text": "Operating income rose to $1,032M from $536M. Cost of products sold actually fell 2% despite higher sales, and other operating expense dropped from $232M to $76M as last year's legal charges eased."
+    },
+    {
+      "stat": "$2.9B",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow jumped for the full year",
+      "text": "Fiscal 2026 free cash flow \u2014 cash from continuing operations minus capital spending \u2014 rose 42.5% to $2.9B, giving the reshaped company room to pay down debt and buy back shares."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/10795/000162828026070511/ex9919302026.htm"
+    }
+  ],
+  "footerNote": "Segment revenue for Medical Essentials is shown $1M lower ($1,785M vs the reported $1,786M segment total) so the four segments sum exactly to reported revenue of $5,274M; the unit-level figures in the release round the other way. All flow figures are continuing operations.",
+  "follow100": [
+    {
+      "label": "Medical Essentials",
+      "amount": 33.85
+    },
+    {
+      "label": "Connected Care",
+      "amount": 24.06
+    },
+    {
+      "label": "BioPharma Systems",
+      "amount": 14.18
+    },
+    {
+      "label": "Interventional",
+      "amount": 27.91
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.94
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -23.93
+    },
+    {
+      "label": "R&D",
+      "amount": -4.66
+    },
+    {
+      "label": "Integration, restructuring and transaction expense",
+      "amount": -1.46
+    },
+    {
+      "label": "Other operating expense, net",
+      "amount": -1.44
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.48
+    },
+    {
+      "label": "Tax",
+      "amount": -3.96
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.12
+    }
+  ]
+}

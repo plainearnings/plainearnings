@@ -1,0 +1,165 @@
+{
+  "ticker": "BF.B",
+  "company": "Brown\u2013Forman",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-02",
+  "verdict": "Brown-Forman's sales slipped 1% to $911M as the end of the Korbel relationship and weaker tequila sales outweighed a 20% jump in ready-to-drink brands, but lower postretirement costs still lifted net income 3% to $176M.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.38",
+      "note": "vs $0.36 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "60.2%",
+      "note": "vs 59.8% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$161M",
+      "note": "vs $129M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Whiskey",
+      "amountM": 658,
+      "yoy": "0%",
+      "note": "Jack Daniel's Tennessee Whiskey and family, Woodford Reserve and Old Forester \u2014 flat YoY and 72% of all sales. Growth from the Jack Daniel's Tennessee Blackberry launch offset declines in Tennessee Honey and Gentleman Jack."
+    },
+    {
+      "name": "Ready-to-Drink",
+      "amountM": 154,
+      "yoy": "+20%",
+      "note": "Pre-mixed drinks \u2014 up 20%, led by New Mix (up 48%) on strong demand in Mexico and its U.S. launch, plus Jack Daniel's ready-to-drink brands (up 6%)."
+    },
+    {
+      "name": "Tequila",
+      "amountM": 54,
+      "yoy": "-12%",
+      "note": "Herradura (down 17%) and el Jimador (down 10%) \u2014 down 12% on lower U.S. volumes and lower pricing in Mexico."
+    },
+    {
+      "name": "Rest of portfolio",
+      "amountM": 39,
+      "yoy": "-35%",
+      "note": "Diplom\u00e1tico rum, Gin Mare and other brands \u2014 down 35%, driven by the end of the Korbel sparkling-wine relationship."
+    },
+    {
+      "name": "Non-branded and bulk",
+      "amountM": 6,
+      "yoy": "-61%",
+      "note": "Used barrels, contract bottling and bulk whiskey \u2014 down 61% on lower used-barrel sales. A tiny slice of revenue.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 911,
+    "costOfRevenueM": 362,
+    "grossProfitM": 549,
+    "opex": [
+      {
+        "name": "Advertising expenses",
+        "amountM": 114,
+        "note": "Advertising the brands \u2014 down 5% on the timing of Jack Daniel's spending."
+      },
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 185,
+        "note": "Selling and running the company \u2014 up 4%, including costs of targeted organizational realignments."
+      }
+    ],
+    "operatingIncomeM": 250,
+    "otherIncomeM": -21,
+    "taxM": 53,
+    "netIncomeM": 176
+  },
+  "otherDetail": "Other operating income of $2M, less $1M of non-operating postretirement expense and $22M of net interest expense \u2014 a net $21M cost.",
+  "oneTimers": [],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Ready-to-drink is the growth engine",
+      "text": "Ready-to-drink sales rose 20% to $154M, led by New Mix, up 48% on strong demand in Mexico and its U.S. launch \u2014 enough to offset much of the weakness elsewhere."
+    },
+    {
+      "stat": "72%",
+      "statColor": "#5b6b7c",
+      "title": "Whiskey still pays the bills",
+      "text": "Whiskey was flat at $658M \u2014 72% of sales. The Jack Daniel's Tennessee Blackberry launch and flat Tennessee Whiskey offset declines in Tennessee Honey (-10%) and Gentleman Jack (-16%)."
+    },
+    {
+      "stat": "+11%",
+      "statColor": "#3e8e5a",
+      "title": "Emerging markets carried the map",
+      "text": "Emerging-market sales rose 11% (Mexico +26% on New Mix), while the United States fell 3% and Developed International fell 6% on weaker Jack Daniel's volumes in Germany, France and Spain."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/14693/000001469326000048/fy27_q1xerevergreen.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/14693/000001469326000052/bfb-20260731.htm"
+    }
+  ],
+  "footerNote": "Brown-Forman reports operating income of $252M, which includes $2M of other operating income (net); this page groups that $2M with the items below operating income so the expense lines stay positive, giving a $250M operating step. Product-category sales are from the Q1 FY27 Form 10-Q; category growth rates are the release's reported figures.",
+  "follow100": [
+    {
+      "label": "Whiskey",
+      "amount": 72.23
+    },
+    {
+      "label": "Ready-to-Drink",
+      "amount": 16.9
+    },
+    {
+      "label": "Tequila",
+      "amount": 5.93
+    },
+    {
+      "label": "Rest of portfolio",
+      "amount": 4.28
+    },
+    {
+      "label": "Non-branded and bulk",
+      "amount": 0.66
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -39.74
+    },
+    {
+      "label": "Advertising expenses",
+      "amount": -12.51
+    },
+    {
+      "label": "Selling, general and administrative expenses",
+      "amount": -20.31
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.31
+    },
+    {
+      "label": "Tax",
+      "amount": -5.82
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.32
+    }
+  ]
+}

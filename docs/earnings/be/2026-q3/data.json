@@ -1,0 +1,162 @@
+{
+  "ticker": "BE",
+  "company": "Bloom Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Bloom Energy's revenue more than doubled to a record $1.24B as product sales nearly tripled, and the fuel-cell maker turned last year's small operating profit into $225M.",
+  "revenueYoY": "+138%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+138%",
+      "note": "vs a year ago, a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.78",
+      "note": "vs a $0.10 loss a year ago"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$1.07B",
+      "note": "+179% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "33.8%",
+      "note": "vs 29.2% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 1073,
+      "yoy": "+179%",
+      "note": "Fuel-cell energy servers sold to data centers and other large power users \u2014 nearly tripled, and 87% of all revenue."
+    },
+    {
+      "name": "Installation",
+      "amountM": 85,
+      "yoy": "+29%",
+      "note": "Installing those systems at customer sites \u2014 up 29%."
+    },
+    {
+      "name": "Service",
+      "amountM": 68,
+      "yoy": "+15%",
+      "note": "Maintaining and servicing installed systems \u2014 up 15%."
+    },
+    {
+      "name": "Electricity",
+      "amountM": 10,
+      "yoy": "-5%",
+      "note": "Selling electricity from systems Bloom owns and operates \u2014 down 5%, a small slice of revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 1236,
+    "costOfRevenueM": 819,
+    "grossProfitM": 417,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 64,
+        "note": "Developing the fuel-cell platform \u2014 up from $49M a year ago."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 52,
+        "note": "Selling systems to large power users \u2014 up from $42M a year ago."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 76,
+        "note": "Running the company, including stock-based pay \u2014 up from $53M a year ago."
+      }
+    ],
+    "operatingIncomeM": 225,
+    "otherIncomeM": 25,
+    "taxM": 1,
+    "netIncomeM": 249
+  },
+  "otherDetail": "Interest income of $22M and $13M of other income, partly offset by $8M of interest expense and a $3M share of losses from unconsolidated affiliates \u2014 $24M net before the $1M rounding adjustment described in the footer note.",
+  "oneTimers": [
+    "GAAP results include $60M of stock-based compensation. Excluding it and small restructuring items, non-GAAP operating income was $286M and non-GAAP EPS was $0.94 (GAAP EPS $0.78).",
+    "Net profit was $249M; after a $1M loss attributable to noncontrolling interests, net income attributable to common stockholders was $250M \u2014 the figure EPS is based on."
+  ],
+  "takeaways": [
+    {
+      "stat": "+138%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter, driven by product sales",
+      "text": "Revenue hit $1,236M, with product revenue up 179% to $1,074M as data-center and other large customers bought far more fuel-cell systems. Bloom also joined the S&P 500 index in the quarter."
+    },
+    {
+      "stat": "33.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded as volume surged",
+      "text": "Gross margin rose to 33.8% from 29.2% a year ago, and operating margin reached 18.2% \u2014 scale is starting to turn a fast-growing top line into real operating profit."
+    },
+    {
+      "stat": "$4.4\u20134.6B",
+      "statColor": "#5b6b7c",
+      "title": "Full-year guidance raised again",
+      "text": "Bloom raised its 2026 revenue outlook to $4.4\u2013$4.6B \u2014 about 122% growth at the midpoint \u2014 its third raise of the year, citing continued customer demand for on-site power."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm"
+    }
+  ],
+  "footerNote": "Bloom reports in thousands; converting to rounded millions leaves $1M residues. Product segment revenue is shown $1M lower, general & administrative $1M higher and other income $1M higher than a straight rounding of each line, so the rounded figures tie exactly to reported revenue of $1,236M, operating income of $225M and net profit of $249M.",
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 86.81
+    },
+    {
+      "label": "Installation",
+      "amount": 6.88
+    },
+    {
+      "label": "Service",
+      "amount": 5.5
+    },
+    {
+      "label": "Electricity",
+      "amount": 0.81
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.26
+    },
+    {
+      "label": "R&D",
+      "amount": -5.18
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -4.21
+    },
+    {
+      "label": "G&A",
+      "amount": -6.15
+    },
+    {
+      "label": "Other income",
+      "amount": 2.02
+    },
+    {
+      "label": "Tax",
+      "amount": -0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.15
+    }
+  ]
+}

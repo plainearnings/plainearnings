@@ -1,0 +1,165 @@
+{
+  "ticker": "BG",
+  "company": "Bunge Global",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Bunge's sales rose 7% to $23.8B on its bigger post-Viterra network, and profit nearly doubled to $318M as soybean and softseed processing results improved.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.64",
+      "note": "continuing operations, vs $0.86 a year ago"
+    },
+    {
+      "label": "EPS (adjusted)",
+      "value": "$2.56",
+      "note": "excludes mark-to-market timing and certain charges"
+    },
+    {
+      "label": "Segment EBIT",
+      "value": "$839M",
+      "note": "vs $671M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Soybean Processing and Refining",
+      "amountM": 11442,
+      "yoy": "+5%",
+      "note": "Crushing soybeans into meal and oil and refining it \u2014 the largest business, up 5%, with segment EBIT up to $547M from $337M on stronger processing results in North America, Argentina, Brazil and Europe."
+    },
+    {
+      "name": "Softseed Processing and Refining",
+      "amountM": 4302,
+      "yoy": "+18%",
+      "note": "Canola, sunflower and other softseeds \u2014 up 18% as processing volumes rose in every region; segment EBIT rose to $353M from $236M."
+    },
+    {
+      "name": "Tropical Oils and Specialty Ingredients",
+      "amountM": 1295,
+      "yoy": "+7%",
+      "note": "Palm and other tropical oils and specialty food ingredients \u2014 up 7%, though segment EBIT fell to $13M from $77M."
+    },
+    {
+      "name": "Grain Merchandising and Milling",
+      "amountM": 6764,
+      "yoy": "+5%",
+      "note": "Buying, moving and milling grains and sugar around the world \u2014 sales up 5%, but the segment lost $74M at the EBIT line after $82M of charges on the sale of two Brazilian sugarcane mills."
+    },
+    {
+      "name": "Corporate and Other",
+      "amountM": 1,
+      "yoy": "-50%",
+      "note": "Almost no outside sales \u2014 corporate activities sit here. A rounding-sized slice of revenue.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 23804,
+    "costOfRevenueM": 22472,
+    "grossProfitM": 1332,
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 605,
+        "note": "Running the global network \u2014 down from $678M a year ago, which carried heavier Viterra combination costs."
+      },
+      {
+        "name": "Foreign exchange losses, net",
+        "amountM": 63,
+        "note": "Currency moves on cross-border grain trade \u2014 a $63M loss in the quarter."
+      }
+    ],
+    "operatingIncomeM": 664,
+    "otherIncomeM": -178,
+    "taxM": 168,
+    "netIncomeM": 318
+  },
+  "otherDetail": "Other income of $17M and $22M of income from affiliates, less $36M of EBIT attributable to noncontrolling interests and $188M of net interest expense (interest expense of $208M less $20M of interest income), plus $7M of noncontrolling share of interest and tax \u2014 a net $178M cost.",
+  "oneTimers": [
+    "$82M of charges in Grain Merchandising and Milling tied to the announced sale of two Brazilian sugarcane mills \u2014 $66M of impairment charges and $16M of hedge losses, recorded in cost of goods sold.",
+    "Viterra acquisition and integration costs in Corporate and Other reduced net income by $21M in the quarter (spread across cost of goods sold, SG&A, interest and tax).",
+    "Adjusted EPS of $2.56 excludes $0.28 per share of mark-to-market timing differences and $0.64 of certain gains and charges; GAAP EPS was $1.64."
+  ],
+  "takeaways": [
+    {
+      "stat": "$547M",
+      "statColor": "#3d7bc8",
+      "title": "Soybean processing drove the quarter",
+      "text": "Soybean Processing and Refining EBIT rose to $547M from $337M, and Softseed EBIT to $353M from $236M \u2014 processing margins, helped by the expanded Viterra network, did the heavy lifting."
+    },
+    {
+      "stat": "$2.56",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted profit is well above GAAP",
+      "text": "Adjusted EPS was $2.56 vs GAAP $1.64. The gap is $0.28 of mark-to-market timing \u2014 paper swings on commodity contracts that reverse later \u2014 and $0.64 of certain charges, including the Brazil mill sale."
+    },
+    {
+      "stat": "-$74M",
+      "statColor": "#cf5f4e",
+      "title": "Grain merchandising lost money",
+      "text": "Grain Merchandising and Milling posted a $74M EBIT loss despite $6.76B of sales, after the $82M Brazil sugarcane-mill charges. Excluding certain charges, its adjusted EBIT was $87M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996862/000162828026068051/epr09302026.htm"
+    }
+  ],
+  "footerNote": "Bunge reports Total EBIT of $667M. This page's operating step is $664M \u2014 gross profit less SG&A and foreign-exchange losses; the $3M difference (other income and affiliate income, less the share attributable to noncontrolling interests) is grouped in Other below it, so the page still ties exactly to reported net income of $318M.",
+  "follow100": [
+    {
+      "label": "Soybean Processing and Refining",
+      "amount": 48.07
+    },
+    {
+      "label": "Softseed Processing and Refining",
+      "amount": 18.07
+    },
+    {
+      "label": "Tropical Oils and Specialty Ingredients",
+      "amount": 5.44
+    },
+    {
+      "label": "Grain Merchandising and Milling",
+      "amount": 28.42
+    },
+    {
+      "label": "Corporate and Other",
+      "amount": 0.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -94.4
+    },
+    {
+      "label": "Selling, general and administrative expenses",
+      "amount": -2.54
+    },
+    {
+      "label": "Foreign exchange losses, net",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.75
+    },
+    {
+      "label": "Tax",
+      "amount": -0.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.34
+    }
+  ]
+}

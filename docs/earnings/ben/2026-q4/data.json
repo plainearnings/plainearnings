@@ -1,0 +1,181 @@
+{
+  "ticker": "BEN",
+  "company": "Franklin Resources",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "verdict": "Franklin Templeton's revenue rose just 4% to $2.43B, but profit jumped as last year's $202M intangible-asset impairment did not repeat and gains inside its consolidated funds more than doubled other income.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.72",
+      "note": "vs $0.21 a year ago"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$1.80T",
+      "note": "$1,795B at Sep 30, +8% YoY"
+    },
+    {
+      "label": "Long-term net inflows",
+      "value": "$20.8B",
+      "note": "new client money, net, in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Investment management fees",
+      "amountM": 1946,
+      "yoy": "+4%",
+      "note": "Fees charged as a percentage of the $1.8T Franklin manages for clients \u2014 80% of revenue, up 4% as markets and inflows lifted assets."
+    },
+    {
+      "name": "Sales and distribution fees",
+      "amountM": 404,
+      "yoy": "+6%",
+      "note": "Fees tied to selling and distributing its funds \u2014 up 6%."
+    },
+    {
+      "name": "Shareholder servicing fees",
+      "amountM": 75,
+      "yoy": "-5%",
+      "note": "Fees for servicing fund shareholders' accounts \u2014 down 5%."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 10,
+      "yoy": "-26%",
+      "note": "Everything else \u2014 down 26%, a tiny slice of revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 2435,
+    "costOfRevenueM": 560,
+    "grossProfitM": 1875,
+    "opex": [
+      {
+        "name": "Compensation and benefits",
+        "amountM": 1010,
+        "note": "Pay and benefits \u2014 the biggest cost of running an asset manager, flat YoY."
+      },
+      {
+        "name": "Information systems and technology",
+        "amountM": 169,
+        "note": "Trading, data and technology systems \u2014 up 2%."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 72,
+        "note": "Offices around the world \u2014 flat YoY."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 42,
+        "note": "Writing down the value of past acquisitions over time \u2014 down from $69M a year ago."
+      },
+      {
+        "name": "General, administrative and other",
+        "amountM": 226,
+        "note": "Other day-to-day running costs \u2014 up 2%."
+      }
+    ],
+    "operatingIncomeM": 356,
+    "otherIncomeM": 278,
+    "taxM": 80,
+    "netIncomeM": 554
+  },
+  "otherDetail": "Investment and other income of $81M, plus $236M of income from consolidated investment products \u2014 funds Franklin consolidates onto its own books \u2014 less $31M of interest expense and $8M of consolidated-product expenses: $278M net. Much of the fund income belongs to outside investors in those funds, which is why $174M of net income is attributable to noncontrolling interests.",
+  "oneTimers": [
+    "No impairment charge this quarter. A year ago Franklin booked a $202M impairment of intangible assets, which is the main reason GAAP operating income rose 317% YoY.",
+    "Adjusted (non-GAAP) operating income was $599M and adjusted EPS was $0.94; the adjusted figures exclude amortization and impairment of intangibles, the consolidated investment products and certain other items. GAAP EPS was $0.72.",
+    "Of the $554M of consolidated net income, $174M belonged to noncontrolling interests \u2014 outside investors in consolidated funds. Net income attributable to Franklin Templeton shareholders was $380M."
+  ],
+  "takeaways": [
+    {
+      "stat": "$20.8B",
+      "statColor": "#3d7bc8",
+      "title": "Client money is flowing in again",
+      "text": "Long-term net inflows were $20.8B in the quarter and $84.1B for the fiscal year, with inflows in every quarter and across equity, multi-asset and alternatives. Assets under management reached $1,795B, up 8% YoY."
+    },
+    {
+      "stat": "+317%",
+      "statColor": "#3e8e5a",
+      "title": "Operating income jumped \u2014 mostly an easy comparison",
+      "text": "Operating income rose to $356M from $85M, but a year ago the quarter carried a $202M intangible-asset impairment. On Franklin's adjusted basis, operating income rose a more modest 27% to $599M."
+    },
+    {
+      "stat": "$305B",
+      "statColor": "#5b6b7c",
+      "title": "Alternatives are the growth corner",
+      "text": "Alternative assets \u2014 private markets and other non-traditional strategies \u2014 reached a record $305B, with $48.7B raised during the fiscal year, as Franklin pushes beyond traditional stock and bond funds."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000287/exhibit991q4fy26.htm"
+    }
+  ],
+  "footerNote": "An asset manager reports no cost of goods sold. This page treats Sales, distribution and marketing expense ($560M) \u2014 the cost of distributing its funds \u2014 as the direct-cost step; the remaining operating expenses, operating income ($356M) and net income ($554M) then match the release exactly. Franklin labels these results preliminary.",
+  "follow100": [
+    {
+      "label": "Investment management fees",
+      "amount": 79.92
+    },
+    {
+      "label": "Sales and distribution fees",
+      "amount": 16.59
+    },
+    {
+      "label": "Shareholder servicing fees",
+      "amount": 3.08
+    },
+    {
+      "label": "Other revenue",
+      "amount": 0.41
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.0
+    },
+    {
+      "label": "Compensation and benefits",
+      "amount": -41.48
+    },
+    {
+      "label": "Information systems and technology",
+      "amount": -6.94
+    },
+    {
+      "label": "Occupancy",
+      "amount": -2.96
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -1.72
+    },
+    {
+      "label": "G&A & other",
+      "amount": -9.28
+    },
+    {
+      "label": "Other income",
+      "amount": 11.42
+    },
+    {
+      "label": "Tax",
+      "amount": -3.29
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.75
+    }
+  ]
+}
