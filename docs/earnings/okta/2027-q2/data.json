@@ -1,0 +1,135 @@
+{
+  "ticker": "OKTA",
+  "company": "Okta",
+  "quarterLabel": "FY27 Q2",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "revenueYoY": "+11%",
+  "verdict": "Okta grew revenue 11% and posted a solid GAAP profit, as subscription sales rose and costs stayed disciplined.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$805M",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "GAAP diluted EPS",
+      "value": "$0.65",
+      "note": "vs $0.37 YoY"
+    },
+    {
+      "label": "Subscription revenue",
+      "value": "$793M",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$227M",
+      "note": "28% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 793,
+      "note": "Companies pay per user for Okta's identity tools \u2014 single sign-on, multi-factor authentication and governing what AI agents and employees can access.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 12,
+      "note": "Help with setting Okta up and training \u2014 a shrinking line as Okta shifts this work to partners.",
+      "yoy": "-29%"
+    }
+  ],
+  "flow": {
+    "revenueM": 805,
+    "costOfRevenueM": 164,
+    "grossProfitM": 641,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 163,
+        "note": "Building the identity platform and new AI-agent security products."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 273,
+        "note": "The sales teams and marketing that win and expand customers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 98,
+        "note": "The back office: finance, legal, HR and executives."
+      }
+    ],
+    "operatingIncomeM": 107,
+    "otherIncomeM": 19,
+    "taxM": 10,
+    "netIncomeM": 116
+  },
+  "otherDetail": "Interest income and other income of $19M, net \u2014 interest expense was effectively zero after Okta repaid its remaining 2026 convertible notes in the quarter.",
+  "follow100": [
+    {
+      "label": "Cost of revenue",
+      "amount": 20.37
+    },
+    {
+      "label": "Research & development",
+      "amount": 20.25
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": 33.92
+    },
+    {
+      "label": "General & administrative",
+      "amount": 12.17
+    },
+    {
+      "label": "Tax",
+      "amount": 1.24
+    },
+    {
+      "label": "Other income (offset)",
+      "amount": -2.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.41
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "title": "Growth steadied, backlog accelerated",
+      "text": "Revenue rose 11% to $805M. Subscription backlog due within a year (cRPO) grew 14% \u2014 faster than revenue \u2014 pointing to steadier growth ahead."
+    },
+    {
+      "stat": "13%",
+      "statColor": "#3e8e5a",
+      "title": "A real GAAP operating margin now",
+      "text": "GAAP operating income was $107M, a 13% margin, up from 6% a year ago. Stock-based pay is still large ($114M in the quarter) but shrinking as a share of revenue."
+    },
+    {
+      "stat": "$227M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow is the standout",
+      "text": "Free cash flow was $227M \u2014 28 cents of every revenue dollar \u2014 and Okta ended the quarter with $2.3B of cash and short-term investments."
+    }
+  ],
+  "footerNote": "Okta's fiscal year ends Jan 31 \u2014 this is Q2 FY27, its latest reported quarter (Q3 FY27 due Dec 2026).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-7312026_ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000069/okta-20260731.htm"
+    }
+  ],
+  "follow100Note": "GAAP figures throughout. Non-GAAP operating income was $226M, which excludes $114M of stock-based compensation."
+}

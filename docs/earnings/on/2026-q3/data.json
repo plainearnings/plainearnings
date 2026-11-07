@@ -1,0 +1,162 @@
+{
+  "ticker": "ON",
+  "company": "ON Semiconductor",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+11%",
+  "verdict": "onsemi's earnings grew about four times faster than revenue, as AI data-center demand lifted power-chip sales and margins.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.7B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "GAAP diluted EPS",
+      "value": "$0.79",
+      "note": "non-GAAP $0.90"
+    },
+    {
+      "label": "Gross margin",
+      "value": "41.4%",
+      "note": "GAAP"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$489M",
+      "note": "28% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Power Solutions Group",
+      "amountM": 890,
+      "note": "Power chips (PSG) that manage electricity in cars, factories and AI data centers \u2014 the growth engine this quarter.",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Analog & Mixed-Signal Group",
+      "amountM": 597,
+      "note": "Analog and mixed-signal chips (AMG) that connect sensors and systems to the digital world.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Intelligent Sensing Group",
+      "amountM": 235,
+      "note": "Image sensors (ISG) \u2014 camera chips for cars and machines.",
+      "yoy": "+2%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1722,
+    "costOfRevenueM": 1009,
+    "grossProfitM": 713,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 145,
+        "note": "Designing the next power and sensing chips."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 67,
+        "note": "Selling chips to carmakers, factories and cloud builders."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 108,
+        "note": "The back office: finance, legal, HR and executives."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 10,
+        "note": "Spreading the cost of technology bought in past acquisitions."
+      },
+      {
+        "name": "Restructuring & impairments",
+        "amountM": 5,
+        "note": "Fab-consolidation and restructuring charges \u2014 much smaller than earlier in 2026."
+      }
+    ],
+    "operatingIncomeM": 378,
+    "otherIncomeM": 21,
+    "taxM": 85,
+    "netIncomeM": 314
+  },
+  "otherDetail": "Interest income of $17M and other income of $18M, less $14M of interest expense \u2014 a net $21M boost.",
+  "follow100": [
+    {
+      "label": "Cost of revenue",
+      "amount": 58.6
+    },
+    {
+      "label": "Research & development",
+      "amount": 8.42
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": 3.89
+    },
+    {
+      "label": "General & administrative",
+      "amount": 6.27
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": 0.58
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": 0.29
+    },
+    {
+      "label": "Tax",
+      "amount": 4.94
+    },
+    {
+      "label": "Other income (offset)",
+      "amount": -1.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.23
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Power chips are carrying growth",
+      "text": "Power Solutions revenue rose 21% to $890M. AI data-center revenue grew 175% from a year ago, and onsemi raised its 2030 AI data-center target to over $3B."
+    },
+    {
+      "stat": "41.4%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded a fifth straight quarter",
+      "text": "GAAP gross margin reached 41.4%, up from 37.9% a year ago \u2014 richer power products and factory discipline turned 11% revenue growth into roughly 40% EPS growth."
+    },
+    {
+      "stat": "$489M",
+      "statColor": "#3e8e5a",
+      "title": "A cash machine while it invests",
+      "text": "Free cash flow was $489M, 28% of revenue. Big announced deals (Ferric, and Synaptics on revised ~$5.7B cash terms) had not closed yet in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses include $4.6M of restructuring and asset-impairment charges \u2014 far less than the $41.2M last quarter and the heavy fab-consolidation charges earlier in 2026."
+  ],
+  "footerNote": "Quarter ended Oct 2, 2026 (13-week quarter). Net income shown is before $0.5M NCI (attributable: $313.9M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000021/on-20261002.htm"
+    }
+  ],
+  "follow100Note": "Figures are rounded to the nearest $M from the release's one-decimal figures and balance at that rounding."
+}

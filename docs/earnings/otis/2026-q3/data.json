@@ -1,0 +1,138 @@
+{
+  "ticker": "OTIS",
+  "company": "Otis Worldwide",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+6%",
+  "verdict": "Otis grew sales 6%, carried by its high-margin Service business \u2014 maintaining and modernizing the elevators it already sold.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.9B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "GAAP diluted EPS",
+      "value": "$1.08",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "Service sales",
+      "value": "$2.6B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$620M",
+      "note": "15.8% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service",
+      "amountM": 2616,
+      "note": "Maintenance, repair and modernization of elevators and escalators \u2014 recurring, high-margin work on the huge installed base.",
+      "yoy": "+8%"
+    },
+    {
+      "name": "New Equipment",
+      "amountM": 1298,
+      "note": "Selling and installing new elevators and escalators for buildings under construction.",
+      "yoy": "+3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3914,
+    "costOfRevenueM": 2759,
+    "grossProfitM": 1155,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 489,
+        "note": "Sales teams, service management and the back office."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 40,
+        "note": "New elevator technology and digital service tools."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 6,
+        "note": "A small net operating charge that sits above operating profit in Otis's own statement."
+      }
+    ],
+    "operatingIncomeM": 620,
+    "otherIncomeM": -68,
+    "taxM": 126,
+    "netIncomeM": 426
+  },
+  "otherDetail": "Net interest expense of $68M, shown below operating profit in Otis's statement (non-service pension cost was zero this quarter).",
+  "follow100": [
+    {
+      "label": "Cost of products & services sold",
+      "amount": 70.5
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": 12.49
+    },
+    {
+      "label": "Research & development",
+      "amount": 1.02
+    },
+    {
+      "label": "Other operating expense",
+      "amount": 0.15
+    },
+    {
+      "label": "Net interest expense",
+      "amount": 1.74
+    },
+    {
+      "label": "Tax",
+      "amount": 3.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.88
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Service is the engine \u2014 and the profit",
+      "text": "Service sales rose 8% to $2.6B at a 24.2% segment operating margin, versus thin margins on new equipment. Modernization orders rose 10% and its backlog grew 20%."
+    },
+    {
+      "stat": "$1.08",
+      "statColor": "#3e8e5a",
+      "title": "GAAP EPS rose 14% \u2014 with an asterisk",
+      "text": "GAAP EPS jumped mainly because last year carried UpLift restructuring and separation costs. Adjusted EPS was flat at $1.05, and adjusted operating profit slipped $6M."
+    },
+    {
+      "stat": "$272M",
+      "statColor": "#3e8e5a",
+      "title": "Steady cash, steady returns",
+      "text": "Adjusted free cash flow was $272M in the quarter; year to date Otis has returned about $1.3B to shareholders in buybacks and dividends."
+    }
+  ],
+  "oneTimers": [
+    "The GAAP comparison is flattered by last year: Q3 2025 included $27M of UpLift restructuring, $10M of UpLift transformation costs and $4M of separation-related costs. On an adjusted basis, operating profit fell $6M year over year."
+  ],
+  "footerNote": "Net income shown ($426M) is before $12M attributable to noncontrolling interests (attributable: $414M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781335/000178133526000124/a2026-09x308xkerexhibit99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1781335/000178133526000127/otis-20260930.htm"
+    }
+  ],
+  "follow100Note": "The $6M other operating expense, net sits above operating profit in Otis's own statement, so it is grouped with operating expenses in the flow."
+}

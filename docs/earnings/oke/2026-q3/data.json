@@ -1,0 +1,154 @@
+{
+  "ticker": "OKE",
+  "company": "ONEOK",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+44%",
+  "verdict": "ONEOK's profit jumped as record Permian Basin volumes lifted pipeline earnings \u2014 helped by a one-time $336M tax benefit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$12.5B",
+      "note": "+44% YoY"
+    },
+    {
+      "label": "Diluted EPS",
+      "value": "$2.13",
+      "note": "vs $1.49 YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$2.24B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "Net income (ONEOK)",
+      "value": "$1.35B",
+      "note": "attributable"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commodity sales",
+      "amountM": 11190,
+      "note": "Natural gas, NGLs, refined products and crude oil sold \u2014 priced off energy markets, so this line swings with commodity prices.",
+      "yoy": "+51%"
+    },
+    {
+      "name": "Services and other",
+      "amountM": 1265,
+      "note": "Fees for gathering, processing, transporting and storing energy for producers and shippers.",
+      "yoy": "+4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 12455,
+    "costOfRevenueM": 9612,
+    "grossProfitM": 2843,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 767,
+        "note": "Running and maintaining 60,000 miles of pipelines and processing plants."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 395,
+        "note": "The wear-and-tear cost of pipelines and plants, spread over their lives."
+      },
+      {
+        "name": "General taxes",
+        "amountM": 94,
+        "note": "Property and other non-income taxes."
+      },
+      {
+        "name": "Transaction costs",
+        "amountM": 15,
+        "note": "Deal costs, mainly for the Brazos Midland acquisition."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 4,
+        "note": "Small miscellaneous operating items, net."
+      }
+    ],
+    "operatingIncomeM": 1568,
+    "otherIncomeM": -287,
+    "equityM": 103,
+    "taxM": 0,
+    "netIncomeM": 1384
+  },
+  "otherDetail": "Interest expense of $415M, partly offset by $102M of other income, $103M of equity earnings from joint ventures and a $26M net income-tax benefit \u2014 a net $184M drag in this step of the chart.",
+  "follow100": [
+    {
+      "label": "Cost of sales & fuel",
+      "amount": 77.18
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": 6.16
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 3.17
+    },
+    {
+      "label": "General taxes",
+      "amount": 0.75
+    },
+    {
+      "label": "Transaction & other operating costs",
+      "amount": 0.15
+    },
+    {
+      "label": "Interest expense",
+      "amount": 3.33
+    },
+    {
+      "label": "Equity earnings, other income & tax benefit",
+      "amount": -1.85
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.11
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+44%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue surged, mostly commodity sales",
+      "text": "Revenue hit $12.5B, up from $8.6B a year ago. Most of it \u2014 $11.2B \u2014 is commodity sales priced off energy markets, so the top line moves with prices as much as with volumes."
+    },
+    {
+      "stat": "$336M",
+      "statColor": "#b8443c",
+      "title": "A one-time tax benefit flattered profit",
+      "text": "A reorganization tied to the $9B minority equity investment created a one-time, noncash tax benefit of $336M ($0.53 a share). Without it, the tax line would have been a normal expense."
+    },
+    {
+      "stat": "$2.24B",
+      "statColor": "#3e8e5a",
+      "title": "The pipelines themselves kept growing",
+      "text": "Adjusted EBITDA rose 6% to $2.24B on record Permian volumes \u2014 NGL throughput up 6% \u2014 and ONEOK raised its full-year 2026 guidance again."
+    }
+  ],
+  "oneTimers": [
+    "A one-time, noncash income tax benefit of $336M ($0.53 per diluted share) from the ONEOK, Inc. reorganization related to the $9B minority equity investment \u2014 it is why the quarter's tax line is a small net benefit ($26M) instead of an expense.",
+    "Results also include a $53M net benefit tied to the minority-equity and Brazos Midland transactions, mainly gains on early debt repayment; ONEOK repaid nearly $5.5B of debt principal in September 2026."
+  ],
+  "footerNote": "Net income shown ($1,384M) is before $34M attributable to noncontrolling interests (attributable: $1,350M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1039684/000103968426000036/okeq32026earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (segment detail, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1039684/000103968426000039/oke-20260930.htm"
+    }
+  ],
+  "follow100Note": "ONEOK's segment revenues include $2,060M of intersegment sales eliminated in consolidation, so revenue is split by type (commodity sales vs services) instead of by segment. Segment adjusted EBITDA: Gathering & Processing $563M, Natural Gas Liquids $718M, Natural Gas Pipelines $231M, Refined Products & Crude $685M. The $26M net tax benefit is folded into the other-income step of the flow, so tax shows as $0M."
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "OMC",
+  "company": "Omnicom Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+59%",
+  "verdict": "In its first year owning Interpublic, Omnicom's revenue reached $6.4B and profit rose as merger savings started to land.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.4B",
+      "note": "+59% YoY incl. IPG"
+    },
+    {
+      "label": "GAAP diluted EPS",
+      "value": "$2.38",
+      "note": "vs $1.75 YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.73",
+      "note": "non-GAAP"
+    },
+    {
+      "label": "Operating income",
+      "value": "$992M",
+      "note": "15.4% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising & marketing services",
+      "amountM": 6423,
+      "note": "One revenue line: media buying, advertising, PR and other agency services billed to clients \u2014 including pass-through client costs billed back at cost. The Interpublic (IPG) agencies, acquired in November 2025, are included for the full quarter.",
+      "yoy": "+59%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6423,
+    "costOfRevenueM": 5064,
+    "grossProfitM": 1359,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 201,
+        "note": "Agency overhead beyond the people who serve clients directly."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 166,
+        "note": "Wear and tear on offices and equipment, plus amortization of acquired intangibles \u2014 much higher since the IPG deal."
+      }
+    ],
+    "operatingIncomeM": 992,
+    "otherIncomeM": -104,
+    "equityM": 2,
+    "taxM": 215,
+    "netIncomeM": 675
+  },
+  "otherDetail": "Interest expense of $133M less $29M of interest income \u2014 a net $104M cost. Equity-method earnings of $2M are folded into the same step, so the chart shows net other expense of $102M.",
+  "follow100": [
+    {
+      "label": "Cost of services",
+      "amount": 78.84
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": 3.13
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 2.58
+    },
+    {
+      "label": "Net interest expense",
+      "amount": 1.59
+    },
+    {
+      "label": "Tax",
+      "amount": 3.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.51
+    }
+  ],
+  "follow100Note": "Cost of services is mostly the pay of the agency staff who serve clients, plus client costs billed through. This quarter it includes $85M of merger severance and repositioning costs and a $107M gain on businesses held for sale.",
+  "takeaways": [
+    {
+      "stat": "+7.2%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying growth is solid, not +59%",
+      "text": "Reported revenue jumped 59% because IPG is now included. In core operations, organic growth was 7.2% \u2014 healthy for a global agency group."
+    },
+    {
+      "stat": "$900M",
+      "statColor": "#3e8e5a",
+      "title": "Merger savings are the story to watch",
+      "text": "Omnicom says it is on track to deliver $900M of cost savings from the Interpublic combination \u2014 the main reason profit can grow faster than revenue."
+    },
+    {
+      "stat": "17.6%",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EBITA margin widened",
+      "text": "Adjusted EBITA was $1.1B, a 17.6% margin \u2014 up from 16.1% a year ago on the combined basis \u2014 as savings began to offset integration costs."
+    }
+  ],
+  "oneTimers": [
+    "Operating costs include $84.7M of severance and repositioning costs tied to the Interpublic (IPG) merger, and a $106.8M gain on assets held for sale and dispositions \u2014 the two roughly offset this quarter.",
+    "Year-ago comparisons are Omnicom alone: IPG closed on November 26, 2025, so reported growth rates mostly reflect the acquisition."
+  ],
+  "footerNote": "Net income shown ($675M) is before $19M attributable to noncontrolling interests (attributable: $656M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000024/a2026q3earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000026/omc-20260930.htm"
+    }
+  ]
+}

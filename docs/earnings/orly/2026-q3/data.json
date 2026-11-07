@@ -1,0 +1,111 @@
+{
+  "ticker": "ORLY",
+  "company": "O'Reilly Automotive",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+9%",
+  "verdict": "O'Reilly grew sales 9% on strong same-store sales, and kept about 15 cents of every sales dollar as profit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.1B",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "Diluted EPS",
+      "value": "$0.97",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "Comparable store sales",
+      "value": "+7.2%",
+      "note": "U.S. stores open 1+ year"
+    },
+    {
+      "label": "Net income",
+      "value": "$786M",
+      "note": "15.3% of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Auto parts sales",
+      "amountM": 5121,
+      "note": "Parts, batteries, tools and supplies sold to DIY customers and professional installers through O'Reilly stores and online \u2014 the company reports a single segment.",
+      "yoy": "+9%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5121,
+    "costOfRevenueM": 2438,
+    "grossProfitM": 2683,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1585,
+        "note": "Store payroll, rent and running the store network \u2014 O'Reilly's only operating-expense line."
+      }
+    ],
+    "operatingIncomeM": 1098,
+    "otherIncomeM": -76,
+    "taxM": 236,
+    "netIncomeM": 786
+  },
+  "otherDetail": "Interest expense of $82M, partly offset by $2M of interest income and $4M of other income \u2014 a net $76M cost.",
+  "follow100": [
+    {
+      "label": "Cost of goods sold",
+      "amount": 47.61
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": 30.95
+    },
+    {
+      "label": "Net interest & other expense",
+      "amount": 1.48
+    },
+    {
+      "label": "Tax",
+      "amount": 4.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.35
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.2%",
+      "statColor": "#3d7bc8",
+      "title": "Existing stores did the heavy lifting",
+      "text": "Comparable store sales rose 7.2% \u2014 growth came from selling more through stores O'Reilly already has, not just from opening new ones."
+    },
+    {
+      "stat": "$0.97",
+      "statColor": "#3e8e5a",
+      "title": "EPS grew 14%, faster than sales",
+      "text": "Diluted EPS rose 14% to $0.97. Buybacks helped: O'Reilly repurchased $1.03B of its own stock in the quarter alone."
+    },
+    {
+      "stat": "52.4%",
+      "statColor": "#3e8e5a",
+      "title": "More than half of each sale survives the parts bill",
+      "text": "Gross margin was 52.4% of sales (gross profit $2.68B) \u2014 the markup on parts funds the stores and still leaves a 21.4% operating margin."
+    }
+  ],
+  "footerNote": "O'Reilly reports one operating segment, so revenue is a single line. Figures are rounded to $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000050/orly-ex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000053/orly-20260930x10q.htm"
+    }
+  ],
+  "follow100Note": "Management raised full-year 2026 guidance during the quarter, including comparable store sales of +5.5% to +6.5% and revenue of $19.0B to $19.3B."
+}
