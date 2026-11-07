@@ -1,0 +1,187 @@
+{
+  "company": "Newmont",
+  "flow": {
+    "costOfRevenueM": 2143,
+    "equityM": 104,
+    "grossProfitM": 4220,
+    "netIncomeM": 2475,
+    "operatingIncomeM": 3163,
+    "opex": [
+      {
+        "amountM": 632,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of mines, plants and equipment over their productive lives \u2014 a non-cash charge."
+      },
+      {
+        "amountM": 199,
+        "name": "Reclamation & remediation",
+        "note": "Setting aside money to restore mine sites and clean up environmental obligations \u2014 higher than the usual run rate this quarter (it was $123M a year ago)."
+      },
+      {
+        "amountM": 126,
+        "name": "Exploration & advanced projects",
+        "note": "Searching for new deposits ($68M) and developing future projects and research ($58M) \u2014 spending on the next generation of mines."
+      },
+      {
+        "amountM": 82,
+        "name": "General & administrative",
+        "note": "The head office and corporate functions."
+      },
+      {
+        "amountM": 18,
+        "name": "Impairments & other, net",
+        "note": "Small impairment charges ($2M) plus other operating expense, net ($16M)."
+      }
+    ],
+    "otherIncomeM": 47,
+    "revenueM": 6363,
+    "taxM": 839
+  },
+  "follow100": [
+    {
+      "amount": 82.17,
+      "label": "Gold"
+    },
+    {
+      "amount": 4.53,
+      "label": "Copper"
+    },
+    {
+      "amount": 8.64,
+      "label": "Silver"
+    },
+    {
+      "amount": 0.61,
+      "label": "Lead"
+    },
+    {
+      "amount": 4.05,
+      "label": "Zinc"
+    },
+    {
+      "amount": -33.68,
+      "label": "Costs applicable to sales"
+    },
+    {
+      "amount": -9.93,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -3.13,
+      "label": "Reclamation & remediation"
+    },
+    {
+      "amount": -1.98,
+      "label": "Exploration & advanced projects"
+    },
+    {
+      "amount": -1.29,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.28,
+      "label": "Impairments & other, net"
+    },
+    {
+      "amount": 2.37,
+      "label": "Other income & equity earnings"
+    },
+    {
+      "amount": -13.18,
+      "label": "Income & mining taxes"
+    },
+    {
+      "amount": 38.9,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income is the $2,475M attributable to Newmont stockholders (the basis for the $2.35 EPS): consolidated net income was $2,514M, of which $39M belonged to noncontrolling interests (the Merian mine partner). The equity line therefore shows $104M \u2014 $143M of equity income from affiliates, less that $39M partner share. Revenue is split by metal, as Newmont reports it; 'costs applicable to sales' excludes depreciation and reclamation, which Newmont reports separately and which appear in running costs here.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+15% YoY",
+      "value": "$6.4B"
+    },
+    {
+      "label": "Net income",
+      "note": "attributable to Newmont",
+      "value": "$2.5B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "vs $1.67 a year ago",
+      "value": "$2.35"
+    },
+    {
+      "label": "Realized gold price",
+      "note": "per ounce sold, net",
+      "value": "$4,317"
+    }
+  ],
+  "otherDetail": "Equity income from affiliates of $143M plus $78M of other income, less $31M of interest expense \u2014 and less the $39M of profit belonging to the Merian mine's outside partner \u2014 nets to $151M added below operating profit.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+15%",
+  "segments": [
+    {
+      "amountM": 5228,
+      "name": "Gold",
+      "note": "The core business: 1,211 thousand ounces sold at a net realized price of $4,317 an ounce. Revenue up 12% \u2014 the higher price more than made up for selling fewer ounces than a year ago (1,319 thousand).",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 550,
+      "name": "Silver",
+      "note": "Mostly a co-product of the Pe\u00f1asquito mine in Mexico. Revenue up 88% on higher silver prices and volumes.",
+      "yoy": "+88%"
+    },
+    {
+      "amountM": 288,
+      "name": "Copper",
+      "note": "Copper from mines like Cadia and Pe\u00f1asquito. Revenue down 10% on lower volumes, despite higher realized copper prices.",
+      "yoy": "-10%"
+    },
+    {
+      "amountM": 258,
+      "name": "Zinc",
+      "note": "Zinc, chiefly from Pe\u00f1asquito. Revenue up 35% on stronger prices.",
+      "yoy": "+35%"
+    },
+    {
+      "amountM": 39,
+      "name": "Lead",
+      "note": "A small by-product stream, mainly from Pe\u00f1asquito. Revenue down 25%.",
+      "yoy": "-25%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000041/newmontq32026earningsrelea.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$4,317",
+      "statColor": "#3d7bc8",
+      "text": "Newmont sold 1,211 thousand ounces of gold at a net realized $4,317 an ounce, so revenue rose 15% even though gold volumes fell 8% versus a year ago (1,319 thousand ounces).",
+      "title": "Price did the heavy lifting"
+    },
+    {
+      "stat": "$2.5B",
+      "statColor": "#3d7bc8",
+      "text": "Net income attributable to Newmont rose to $2,475M ($2.35 a share) from $1,832M a year ago, helped by $113M less income and mining tax than the prior quarter on the company's own sequential walk.",
+      "title": "Profit followed the price"
+    },
+    {
+      "stat": "1,302k oz",
+      "statColor": "#3d7bc8",
+      "text": "Attributable gold production rose 1% from the second quarter to 1,302 thousand ounces as Cadia recovered from a seismic event and Brucejack improved \u2014 partly offset by planned maintenance at Lihir and Boddington.",
+      "title": "Production steadied"
+    }
+  ],
+  "ticker": "NEM",
+  "verdict": "Sales rose 15% to $6.4B and profit hit $2.5B \u2014 a $4,317 realized gold price more than made up for selling fewer ounces."
+}

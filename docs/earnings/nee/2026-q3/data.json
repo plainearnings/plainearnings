@@ -1,0 +1,173 @@
+{
+  "company": "NextEra Energy",
+  "flow": {
+    "costOfRevenueM": 1699,
+    "equityM": 408,
+    "grossProfitM": 6391,
+    "netIncomeM": 4775,
+    "operatingIncomeM": 2624,
+    "opex": [
+      {
+        "amountM": 1428,
+        "name": "Operations & maintenance",
+        "note": "Running and repairing power plants, wind and solar fleets, and the grid day to day."
+      },
+      {
+        "amountM": 1651,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of power plants, transmission lines and renewable projects over their long lives \u2014 a non-cash charge that grows with NextEra's huge build-out."
+      },
+      {
+        "amountM": 713,
+        "name": "Taxes other than income taxes",
+        "note": "Mostly property taxes on power plants and networks, plus franchise and payroll-type taxes."
+      },
+      {
+        "amountM": 19,
+        "name": "Merger-related expenses",
+        "note": "Costs of the pending combination with Dominion Energy, approved by both companies' shareholders in September 2026."
+      },
+      {
+        "amountM": -44,
+        "name": "Gains on disposal of assets, net",
+        "note": "A net credit: NextEra sold businesses/assets for $44M more than their book value, which reduces expenses here."
+      }
+    ],
+    "otherIncomeM": 2405,
+    "revenueM": 8090,
+    "taxM": 662
+  },
+  "follow100": [
+    {
+      "amount": 67.01,
+      "label": "Florida Power & Light"
+    },
+    {
+      "amount": 31.1,
+      "label": "NextEra Energy Resources"
+    },
+    {
+      "amount": 1.89,
+      "label": "Corporate & other"
+    },
+    {
+      "amount": -21.0,
+      "label": "Fuel & purchased power"
+    },
+    {
+      "amount": -17.65,
+      "label": "Operations & maintenance"
+    },
+    {
+      "amount": -20.41,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -8.81,
+      "label": "Property & other taxes"
+    },
+    {
+      "amount": -0.23,
+      "label": "Merger-related expenses"
+    },
+    {
+      "amount": 0.54,
+      "label": "Disposal gains"
+    },
+    {
+      "amount": 34.77,
+      "label": "Other income & partner share"
+    },
+    {
+      "amount": -8.18,
+      "label": "Tax"
+    },
+    {
+      "amount": 59.02,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The 'other income' row is unusually large because it includes $3.0B of mark-to-market hedge gains (about $37 per $100 of revenue) \u2014 paper gains that NextEra itself excludes from its adjusted earnings.",
+  "footerNote": "Adaptation for a utility: fuel and purchased power is treated as the cost of revenue; the remaining operating lines mirror NextEra's income statement, including a $44M net gain on asset disposals shown as a negative expense. Net income is the $4,775M attributable to NextEra: consolidated net income was $4,367M, and outside partners in NextEra's projects absorbed $408M of losses, which is added back below the line here (the equityM line). Segment revenues are as reported by segment and sum to consolidated revenue.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+2% YoY",
+      "value": "$8.1B"
+    },
+    {
+      "label": "Net income (GAAP)",
+      "note": "vs $2.4B a year ago",
+      "value": "$4.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.18 a year ago",
+      "value": "$2.28"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "+10% YoY \u2014 excludes hedge marks",
+      "value": "$1.24"
+    }
+  ],
+  "oneTimers": [
+    "$3,005M of pre-tax mark-to-market gains on non-qualifying hedges (derivatives that don't get hedge accounting) flowed through earnings \u2014 mostly in Corporate & Other. NextEra excludes them from adjusted earnings, which is why adjusted EPS is $1.24, not $2.28.",
+    "$19M of merger-related expenses for the pending Dominion Energy combination, which both companies' shareholders approved in September 2026.",
+    "A $50M unrealized loss on equity securities held in the nuclear decommissioning funds."
+  ],
+  "otherDetail": "Dominated by $3,005M of mark-to-market gains on non-qualifying hedges, plus $293M of equity-method earnings, $65M of construction allowance and $44M of gains on investment disposals, partly offset by interest expense and a $50M mark-down on nuclear decommissioning fund investments. A further $408M is the share of project losses absorbed by outside partners, which lifts profit attributable to NextEra above consolidated net income.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+2%",
+  "segments": [
+    {
+      "amountM": 5421,
+      "name": "Florida Power & Light (FPL)",
+      "note": "America's largest electric utility \u2014 regulated power for Florida at prices set by regulators. Revenue up 3%; FPL earned $1,620M as regulatory capital employed grew about 9% on roughly $2.4B of quarterly capital spending.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 2516,
+      "name": "NextEra Energy Resources",
+      "note": "The competitive energy arm \u2014 the world's largest wind and solar generator, plus nuclear, gas, storage and transmission. Revenue down 2%, but attributable profit rose to $1,491M; it added 3.7 GW to a backlog now near 36.7 GW.",
+      "yoy": "-2%"
+    },
+    {
+      "amountM": 153,
+      "name": "Corporate & other",
+      "note": "The holding company and small remaining businesses. Revenue is minor here \u2014 but this is where most of the quarter's $3.0B of hedge mark-to-market gains landed.",
+      "yoy": "+33%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000077/neeq32026exhibit99.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.0B",
+      "statColor": "#3d7bc8",
+      "text": "Mark-to-market gains on hedges that don't qualify for hedge accounting added $3.0B of pre-tax paper profit. Strip them out and adjusted EPS was $1.24, up about 10% \u2014 a good quarter, not a doubled one.",
+      "title": "Paper hedge gains did the doubling"
+    },
+    {
+      "stat": "$1,620M",
+      "statColor": "#3d7bc8",
+      "text": "FPL earned $1,620M, up 11%, by investing about $2.4B in the quarter into Florida's grid and generation \u2014 regulated capital employed grew roughly 9%, and typical residential bills remain about 37% below the national average.",
+      "title": "Florida kept compounding"
+    },
+    {
+      "stat": "36.7 GW",
+      "statColor": "#3d7bc8",
+      "text": "Energy Resources added 3.7 GW of renewables and storage to its backlog (including 2.4 GW of batteries), taking it to about 36.7 GW \u2014 with big-load data-center projects emerging as a new growth lane.",
+      "title": "The backlog keeps growing"
+    }
+  ],
+  "ticker": "NEE",
+  "verdict": "GAAP profit nearly doubled to $4.8B, but almost all of the jump was $3.0B of paper gains on hedges \u2014 the underlying utilities earned an adjusted $1.24 a share, up 10%."
+}

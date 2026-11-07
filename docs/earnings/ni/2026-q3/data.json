@@ -1,0 +1,168 @@
+{
+  "company": "NiSource",
+  "flow": {
+    "costOfRevenueM": 207,
+    "equityM": -9.5,
+    "grossProfitM": 1142,
+    "netIncomeM": 129.5,
+    "operatingIncomeM": 340,
+    "opex": [
+      {
+        "amountM": 428,
+        "name": "Operation & maintenance",
+        "note": "Running and repairing gas pipelines and the electric grid, restoring service after storms, and serving customers day to day."
+      },
+      {
+        "amountM": 338,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of pipelines, power plants and grid equipment over their long lives \u2014 a non-cash charge that rises as NiSource invests."
+      },
+      {
+        "amountM": 35,
+        "name": "Other taxes",
+        "note": "Mostly property and payroll-type taxes (trackers and riders moved some amounts this quarter, so it is lower than a year ago)."
+      },
+      {
+        "amountM": 1,
+        "name": "Loss on sale of assets, net",
+        "note": "A small net loss on assets sold during the quarter."
+      }
+    ],
+    "otherIncomeM": -188,
+    "revenueM": 1349,
+    "taxM": 13
+  },
+  "follow100": [
+    {
+      "amount": 37.21,
+      "label": "Columbia Gas operations"
+    },
+    {
+      "amount": 61.9,
+      "label": "NIPSCO (Northern Indiana)"
+    },
+    {
+      "amount": 0.89,
+      "label": "Corporate & other"
+    },
+    {
+      "amount": -15.34,
+      "label": "Cost of energy"
+    },
+    {
+      "amount": -31.73,
+      "label": "Operation & maintenance"
+    },
+    {
+      "amount": -25.06,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -2.59,
+      "label": "Other taxes"
+    },
+    {
+      "amount": -0.07,
+      "label": "Loss on sale of assets"
+    },
+    {
+      "amount": -13.94,
+      "label": "Interest & other, net"
+    },
+    {
+      "amount": -0.7,
+      "label": "Partners' share of profit"
+    },
+    {
+      "amount": -0.96,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.6,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "NiSource's short earnings release carries no income statement, so the figures come from its Q3 2026 Form 10-Q (filed the same day), rounded to the nearest $M. Net income is the $129.5M available to common shareholders: consolidated net income was $139.0M, of which $9.5M belonged to noncontrolling interests \u2014 that partner share is deducted below the line here (the equity line). Cost of energy (gas purchased for customers and fuel) is treated as the cost of revenue, as on our other utility pages.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+6% YoY",
+      "value": "$1.3B"
+    },
+    {
+      "label": "Net income",
+      "note": "available to common, +37% YoY",
+      "value": "$130M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.20 a year ago",
+      "value": "$0.27"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "Q3 is seasonally NiSource's softest quarter",
+      "value": "$0.27"
+    }
+  ],
+  "oneTimers": [
+    "The quarter's GAAP result needed almost no adjustments \u2014 adjusted net income was $130.9M versus $129.5M GAAP. The small gap is weather (about $4M unfavorable versus normal) and $6M of 'Value Captured' initiative costs, partly offset in the reconciliation."
+  ],
+  "otherDetail": "Interest expense, net, of about $211M \u2014 the cost of funding a heavy construction program \u2014 partly offset by $22M of other income, for a net $188M cost below operating profit. A further $9.5M of profit belonged to noncontrolling-interest partners.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+6%",
+  "segments": [
+    {
+      "amountM": 502,
+      "name": "Columbia Gas operations",
+      "note": "Gas distribution under the Columbia Gas brands \u2014 about 3.3M customers across Ohio, Pennsylvania, Virginia, Kentucky, Maryland and Indiana. Revenue up 4%; summer is the quiet season for heating gas.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 835,
+      "name": "NIPSCO (Northern Indiana)",
+      "note": "Northern Indiana Public Service Co. \u2014 electricity for about 500,000 customers plus gas service in northern Indiana. Revenue up 6% on summer cooling demand and rate-base growth; electric is the bigger earner in Q3.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 12,
+      "name": "Corporate & other",
+      "note": "Mostly new data-center customer revenue and wholesale sales of excess capacity \u2014 up from just $1M a year ago as the data-center strategy starts to land."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000099/ni-ex991_20260930.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR) \u2014 income statement & segment detail",
+      "url": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000100/nix-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "text": "Net income available to common shareholders rose to $129.5M ($0.27 a share) from $94.7M a year ago \u2014 a strong result for the summer quarter, which is seasonally NiSource's weakest because gas heating demand is low.",
+      "title": "A strong soft-season quarter"
+    },
+    {
+      "stat": "$40B",
+      "statColor": "#3d7bc8",
+      "text": "NiSource extended its capital plan to 2033: $40B of spending ($32B base plan plus $8B for data centers), targeting 10\u201311% compound annual adjusted EPS growth for 2027\u20132033, with 2027 adjusted EPS guided to $2.22\u2013$2.30.",
+      "title": "A bigger, longer build-out"
+    },
+    {
+      "stat": "$1.75B",
+      "statColor": "#3d7bc8",
+      "text": "A new agreement with Microsoft expanded expected savings for existing customers from the GenCo data-center program to about $1.75B \u2014 big tech's power bills are being used to hold down everyone else's rates.",
+      "title": "Microsoft deal grows"
+    }
+  ],
+  "ticker": "NI",
+  "verdict": "Profit rose 37% to $130M in the seasonally soft summer quarter \u2014 and the real headline was a $40B seven-year build-out supercharged by data-center power deals, including a new Microsoft agreement."
+}

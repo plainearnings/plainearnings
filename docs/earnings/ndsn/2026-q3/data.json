@@ -1,0 +1,133 @@
+{
+  "company": "Nordson Corporation",
+  "flow": {
+    "costOfRevenueM": 364,
+    "grossProfitM": 454,
+    "netIncomeM": 153,
+    "operatingIncomeM": 223,
+    "opex": [
+      {
+        "amountM": 231,
+        "name": "Selling & administrative",
+        "note": "Sales teams close to customers, application engineers, and the back office. Includes amortization of acquisition intangibles ($19M in the quarter)."
+      }
+    ],
+    "otherIncomeM": -37,
+    "revenueM": 818,
+    "taxM": 33
+  },
+  "follow100": [
+    {
+      "amount": 44.87,
+      "label": "Industrial Precision Solutions"
+    },
+    {
+      "amount": 28.24,
+      "label": "Medical and Fluid Solutions"
+    },
+    {
+      "amount": 26.89,
+      "label": "Advanced Technology Solutions"
+    },
+    {
+      "amount": -44.5,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -28.24,
+      "label": "Selling & administrative"
+    },
+    {
+      "amount": -4.52,
+      "label": "Interest & other, net"
+    },
+    {
+      "amount": -4.03,
+      "label": "Tax"
+    },
+    {
+      "amount": 18.7,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Nordson's fiscal year ends October 31, so this is its fiscal Q3; its fiscal Q4 (ending Oct 31, 2026) had not been reported yet. Figures are rounded to the nearest $M from the release, which reports in thousands. Nordson reports a single operating-expense line (selling and administrative).",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "a quarterly record, +10% YoY",
+      "value": "$818M"
+    },
+    {
+      "label": "Net income",
+      "note": "+22% YoY",
+      "value": "$153M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "a record, vs $2.22 a year ago",
+      "value": "$2.73"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "+19% YoY",
+      "value": "$3.25"
+    }
+  ],
+  "oneTimers": [
+    "A $15M non-cash loss on minority investments (marked to fair value) sits inside 'other expense' this quarter. Nordson excludes it \u2014 and acquisition-related amortization and costs \u2014 from adjusted results: adjusted EPS was $3.25 versus $2.73 GAAP."
+  ],
+  "otherDetail": "Interest expense, net, of $20M plus $17M of other expense, net \u2014 the latter mostly a $15M non-cash loss on minority investments \u2014 for a net $37M cost below operating profit.",
+  "periodEnd": "2026-07-31",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-08-19",
+  "revenueYoY": "+10%",
+  "segments": [
+    {
+      "amountM": 367,
+      "name": "Industrial Precision Solutions",
+      "note": "Precision dispensing for packaging, coatings, polymer processing and nonwovens. Sales up 5% (organic +3%, plus currency and an acquisition contribution), at a 35% EBITDA margin.",
+      "yoy": "+5%"
+    },
+    {
+      "amountM": 231,
+      "name": "Medical and Fluid Solutions",
+      "note": "Fluid management components and medical products. An all-time record quarter; sales up 5%, or 11% organically once a divested contract-manufacturing business is excluded, at a 38% EBITDA margin.",
+      "yoy": "+5%"
+    },
+    {
+      "amountM": 220,
+      "name": "Advanced Technology Solutions",
+      "note": "Dispensing, test and inspection gear for electronics and semiconductors. Sales surged 28% (organic +31%) on strong demand for electronics dispense and test-and-inspection lines, at a 30% EBITDA margin.",
+      "yoy": "+28%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000052/ndsn-q320268kxex991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$818M",
+      "statColor": "#3d7bc8",
+      "text": "Sales hit an all-time quarterly record, up 10% (about 12% organically), with record quarters in all three segments. Advanced Technology Solutions led, up 28% on electronics demand.",
+      "title": "Record sales in every segment"
+    },
+    {
+      "stat": "55.5%",
+      "statColor": "#3d7bc8",
+      "text": "Gross margin widened to 55.5% and EBITDA reached a record $262M \u2014 32 cents of every sales dollar before interest, tax and depreciation. That margin discipline is Nordson's signature.",
+      "title": "Best-in-class margins held"
+    },
+    {
+      "stat": "$3.0B+",
+      "statColor": "#3d7bc8",
+      "text": "Management raised full-year guidance to $3,035\u20133,075M of sales and $11.80\u201312.00 of adjusted EPS, pointing to backlog and order momentum \u2014 putting Nordson on track for its first $3B revenue year.",
+      "title": "Guidance raised"
+    }
+  ],
+  "ticker": "NDSN",
+  "verdict": "Record sales of $818M \u2014 up 10% with growth in all three segments \u2014 and Nordson raised its full-year guidance; a $15M paper loss on an investment only dented GAAP profit."
+}
