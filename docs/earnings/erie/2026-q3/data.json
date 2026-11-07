@@ -1,0 +1,147 @@
+{
+  "ticker": "ERIE",
+  "company": "Erie Indemnity",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+0.3%",
+  "verdict": "Erie Indemnity's revenue was nearly flat at $1.07 billion and net income held at $182 million, as higher agent commissions absorbed the growth in management fees.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.07B",
+      "note": "+0.3% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$3.48",
+      "note": "diluted"
+    },
+    {
+      "label": "Operating income",
+      "value": "$207M",
+      "note": "-0.7% YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$182M",
+      "note": "vs $183M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Management fees \u2014 policy issuance & renewal",
+      "amountM": 846.98,
+      "yoy": "+2.6%",
+      "note": "The fee Indemnity earns for issuing and renewing policies for the Erie Insurance Exchange \u2014 its main business."
+    },
+    {
+      "name": "Administrative services reimbursement",
+      "amountM": 197.562,
+      "yoy": "-8%",
+      "note": "Money the Exchange pays back for claims handling and other administrative services \u2014 a pass-through matched dollar-for-dollar by the same cost below."
+    },
+    {
+      "name": "Management fees \u2014 administrative services",
+      "amountM": 19.72,
+      "yoy": "+4.7%",
+      "note": "Fees for running claims, life insurance and investment services for the Exchange and its subsidiaries."
+    },
+    {
+      "name": "Service agreement revenue",
+      "amountM": 5.655,
+      "yoy": "-19%",
+      "note": "Smaller service contracts with affiliates."
+    }
+  ],
+  "flow": {
+    "revenueM": 1069.917,
+    "costOfRevenueM": 197.562,
+    "grossProfitM": 872.355,
+    "opex": [
+      {
+        "name": "Commissions",
+        "amountM": 436.717,
+        "note": "What Indemnity pays the independent agents who sell Erie policies."
+      },
+      {
+        "name": "Agent incentive compensation",
+        "amountM": 48.769,
+        "note": "Extra pay for agents tied to premium growth and underwriting results."
+      },
+      {
+        "name": "Non-commission expenses",
+        "amountM": 179.487,
+        "note": "People, technology and underwriting support \u2014 the cost of running the operation."
+      }
+    ],
+    "operatingIncomeM": 207.382,
+    "otherIncomeM": 25.373,
+    "taxM": 50.766,
+    "netIncomeM": 181.989
+  },
+  "otherDetail": "Investment income of $19.9M (net investment income of $25.4M minus $5.5M of realized, unrealized and impairment losses) plus $5.5M of other income.",
+  "follow100": [
+    {
+      "label": "Administrative services cost (reimbursed)",
+      "amount": 18.46
+    },
+    {
+      "label": "Commission costs",
+      "amount": 40.82
+    },
+    {
+      "label": "Agent incentive costs",
+      "amount": 4.56
+    },
+    {
+      "label": "Non-commission costs",
+      "amount": 16.77
+    },
+    {
+      "label": "Less: investment & other income",
+      "amount": -2.37
+    },
+    {
+      "label": "Tax",
+      "amount": 4.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.02
+    }
+  ],
+  "follow100Note": "Investment and other income added $2.37 for every $100 of operating revenue, which is why the cost and profit slices add back to exactly $100.",
+  "takeaways": [
+    {
+      "stat": "+2.6%",
+      "statColor": "#2563EB",
+      "title": "Core fees grew",
+      "text": "Management fees for policy issuance and renewal \u2014 the engine of the business \u2014 rose 2.6% to $847 million as the Exchange's direct written premiums grew 1.8%."
+    },
+    {
+      "stat": "$485M",
+      "statColor": "#B8443C",
+      "title": "Agents took a bigger share",
+      "text": "Commissions and agent incentives together rose about 5% to $485 million on incentive pay tied to better underwriting results, which is why operating income slipped 0.7% despite higher fees."
+    },
+    {
+      "stat": "$3.48",
+      "statColor": "#3E8E5A",
+      "title": "EPS essentially flat",
+      "text": "Net income was $182.0 million, or $3.48 a share, versus $182.9 million and $3.50 a year ago; for the first nine months, net income is up 3.4% to $513 million."
+    }
+  ],
+  "footerNote": "Erie Indemnity is the management company (attorney-in-fact) for the Erie Insurance Exchange; it does not itself underwrite insurance. Figures come from the earnings release and investor supplement, reported in $ thousands and shown here in $M. Administrative-services cost is treated as the direct cost of revenue because it is reimbursed dollar-for-dollar.",
+  "sources": [
+    {
+      "label": "Official earnings release (Exhibit 99.1)",
+      "url": "https://files.quartr.com/reports/963cf87bdd7f906f4a1463a0a6eb65b8-2026-10-29-20-21-06.pdf?ref=U0E="
+    },
+    {
+      "label": "Investor supplement Q3 2026 (Erie Indemnity)",
+      "url": "https://edge.sitecorecloud.io/erieindemni8d2b-erieinsurandcab-prd6c2e-0c08/media/files/investors/Investor-Supplements/2026-3rd-Quarter-Investor-Supplement.pdf"
+    }
+  ]
+}

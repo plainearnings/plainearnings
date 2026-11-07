@@ -1,0 +1,147 @@
+{
+  "ticker": "ESS",
+  "company": "Essex Property Trust",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+4.1%",
+  "verdict": "Essex grew revenue 4.1% to $493 million and core FFO edged up to $4.00 a share, while GAAP net income fell to $98 million because last year's quarter included big gains on property sales.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$493M",
+      "note": "+4.1% YoY"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$4.00",
+      "note": "+0.8% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$1.52",
+      "note": "diluted"
+    },
+    {
+      "label": "Same-property revenue",
+      "value": "+3.0%",
+      "note": "occupancy 96.3%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental income",
+      "amountM": 483,
+      "yoy": "+4.1%",
+      "note": "Rent from about 63,000 apartment homes, mostly on the West Coast."
+    },
+    {
+      "name": "Other property revenue",
+      "amountM": 8,
+      "yoy": "+7.5%",
+      "note": "Parking, fees and other income from residents."
+    },
+    {
+      "name": "Management & other fees",
+      "amountM": 2,
+      "yoy": "-0.7%",
+      "note": "Fees for managing properties owned with partners."
+    }
+  ],
+  "flow": {
+    "revenueM": 493,
+    "costOfRevenueM": 150,
+    "grossProfitM": 343,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 152,
+        "note": "Spreading the cost of buildings over their lives \u2014 a large non-cash charge for a landlord."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 17,
+        "note": "Head-office and back-office costs."
+      },
+      {
+        "name": "Corporate property management",
+        "amountM": 13,
+        "note": "Central teams that oversee the apartment portfolio."
+      },
+      {
+        "name": "Impairment, net of gain on sales",
+        "amountM": 4,
+        "note": "A $10.7M impairment loss, minus the $6.8M gain on selling real estate this quarter."
+      }
+    ],
+    "operatingIncomeM": 157,
+    "otherIncomeM": -53,
+    "taxM": 0,
+    "netIncomeM": 104
+  },
+  "otherDetail": "Interest expense of $65M, partly offset by $9M of equity income from co-investments and about $2M of swap, interest and other income, plus a $0.5M tax benefit on technology co-investments \u2014 a net $53M cost.",
+  "follow100": [
+    {
+      "label": "Property operating costs & real estate taxes",
+      "amount": 30.42
+    },
+    {
+      "label": "Depreciation cost (buildings wearing out)",
+      "amount": 30.83
+    },
+    {
+      "label": "Corporate property management costs",
+      "amount": 2.64
+    },
+    {
+      "label": "Back office (G&A)",
+      "amount": 3.45
+    },
+    {
+      "label": "Impairment costs, net",
+      "amount": 0.81
+    },
+    {
+      "label": "Interest & other costs, net",
+      "amount": 10.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.1
+    }
+  ],
+  "follow100Note": "As a REIT, Essex pays no federal income tax on earnings it distributes to shareholders, so there is no tax slice this quarter.",
+  "takeaways": [
+    {
+      "stat": "+3.0%",
+      "statColor": "#2563EB",
+      "title": "Same-property growth",
+      "text": "Revenue from apartments Essex owned in both periods rose 3.0%, led by Northern California at +5.4%; financial occupancy was 96.3%."
+    },
+    {
+      "stat": "$4.00",
+      "statColor": "#3E8E5A",
+      "title": "Core FFO per share",
+      "text": "Core funds from operations \u2014 the REIT cash-earnings measure \u2014 rose 0.8% to $4.00 a share, a cent above the guidance midpoint; the full-year Core FFO midpoint was raised to $16.16."
+    },
+    {
+      "stat": "-41%",
+      "statColor": "#B8443C",
+      "title": "GAAP profit fell on comparisons",
+      "text": "Net income available to common shareholders dropped to $98M from $165M mainly because Q3 2025 included $62M of gains on real estate sales, versus $7M this quarter."
+    }
+  ],
+  "oneTimers": [
+    "Essex sold three apartment communities in the quarter for a combined $111.9M pro-rata price and booked a $6.8M gain on sales, versus $62.3M of gains a year ago.",
+    "Expenses include a $10.7M impairment loss (none a year ago).",
+    "Essex agreed a $19.25M tenant settlement that also cancels $8.7M of claimed move-out balances, as disclosed with the quarter's results."
+  ],
+  "footerNote": "Essex is an apartment REIT and pays no federal income tax at the REIT level, so the tax line is $0. The impairment line is shown net of the $6.8M gain on real estate sales so operating profit matches the reported earnings from operations. Net income of $104M is the consolidated total; $98M was available to common stockholders. Figures are from the Form 10-Q, reported in $ thousands and rounded here to the nearest $M; depreciation is shown $1M below its rounded value so the rounded chart balances exactly.",
+  "sources": [
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000920522/6fc4107c-a943-4b60-ae94-86502282350b.pdf"
+    }
+  ]
+}

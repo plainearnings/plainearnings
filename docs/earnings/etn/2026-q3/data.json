@@ -1,0 +1,137 @@
+{
+  "ticker": "ETN",
+  "company": "Eaton Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+28%",
+  "verdict": "Eaton's sales jumped 28% to a record $8.9 billion on booming demand for electrical equipment, though higher interest and acquisition costs held net income growth to 7%, at $1.08 billion.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.9B",
+      "note": "+28% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.77",
+      "note": "diluted"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.68",
+      "note": "record"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.03B",
+      "note": "operating CF $1.31B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electrical Americas",
+      "amountM": 4172,
+      "yoy": "+22%",
+      "note": "Power equipment for data centers, utilities and buildings in the Americas \u2014 Eaton's biggest business."
+    },
+    {
+      "name": "Electrical Global",
+      "amountM": 2727,
+      "yoy": "+58%",
+      "note": "Electrical equipment outside the Americas, boosted by the Boyd Thermal acquisition."
+    },
+    {
+      "name": "Aerospace",
+      "amountM": 1196,
+      "yoy": "+11%",
+      "note": "Hydraulics, fuel and motion systems for aircraft, helped by the Ultra PCS acquisition."
+    },
+    {
+      "name": "Mobility",
+      "amountM": 852,
+      "yoy": "+10%",
+      "note": "Transmissions and powertrain parts for trucks and cars \u2014 slated to be separated in a deal with Dana."
+    }
+  ],
+  "flow": {
+    "revenueM": 8947,
+    "costOfRevenueM": 5843,
+    "grossProfitM": 3104,
+    "opex": [
+      {
+        "name": "Selling and administrative",
+        "amountM": 1278,
+        "note": "Sales teams and the back office."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 238,
+        "note": "Designing new power-management products."
+      }
+    ],
+    "operatingIncomeM": 1588,
+    "otherIncomeM": -218,
+    "taxM": 291,
+    "netIncomeM": 1079
+  },
+  "otherDetail": "Interest expense of $198M (up from $67M a year ago as debt rose to fund acquisitions) plus $20M of other expense, net \u2014 a $218M drag below operating profit.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 65.31
+    },
+    {
+      "label": "Selling & administrative costs",
+      "amount": 14.28
+    },
+    {
+      "label": "Research & development (R&D)",
+      "amount": 2.66
+    },
+    {
+      "label": "Interest & other costs",
+      "amount": 2.44
+    },
+    {
+      "label": "Tax",
+      "amount": 3.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.06
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#2563EB",
+      "title": "Record sales",
+      "text": "Sales hit a record $8.9 billion \u2014 19% organic growth plus 8 points from acquisitions. Electrical Global rose 58% to $2.7 billion with Boyd Thermal in its second full quarter."
+    },
+    {
+      "stat": "25.3%",
+      "statColor": "#3E8E5A",
+      "title": "Record segment margins",
+      "text": "Segment operating profit was $2.26 billion at a record 25.3% margin, and the combined Electrical backlog grew 46% year over year."
+    },
+    {
+      "stat": "$198M",
+      "statColor": "#B8443C",
+      "title": "Interest costs tripled",
+      "text": "Net income rose just 7% despite the sales surge because interest expense jumped to $198M from $67M and acquisition amortization weighed on GAAP profit; adjusted EPS was a record $3.68."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $314M of intangible amortization, mostly from acquisitions \u2014 the main reason GAAP EPS of $2.77 sits well below adjusted EPS of $3.68.",
+    "Eaton agreed in September to acquire COL Group for about $921M (expected to close in Q1 2027) and plans to separate its Mobility segment in a Reverse Morris Trust deal with Dana."
+  ],
+  "footerNote": "Eaton reports in rounded millions and notes that columns may not add due to rounding; cost of products sold is shown $1M higher here ($5,843M vs the reported $5,842M) so the chart balances exactly. Net income is the consolidated $1,079M; $1,078M was attributable to Eaton shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (Eaton, filed as 8-K Exhibit 99.1)",
+      "url": "https://www.eaton.com/content/dam/eaton/company/investor-relations/quarterly-earnings/filings/2026/q3/q3-2026-earnings-complete.pdf"
+    }
+  ]
+}

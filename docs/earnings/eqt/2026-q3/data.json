@@ -1,0 +1,143 @@
+{
+  "ticker": "EQT",
+  "company": "EQT Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "-10%",
+  "verdict": "EQT's revenue fell 10% to $1.77 billion and attributable net income dropped to $279 million, as it deliberately curtailed gas production and prices slipped.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.77B",
+      "note": "-10% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$0.44",
+      "note": "diluted, attributable"
+    },
+    {
+      "label": "Sales volume",
+      "value": "583 Bcfe",
+      "note": "incl. 21 Bcfe curtailed"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$283M",
+      "note": "attributable to EQT"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Natural gas, NGL & oil sales",
+      "amountM": 1508,
+      "yoy": "-10%",
+      "note": "Selling the gas, liquids and oil EQT produces in the Appalachian Basin."
+    },
+    {
+      "name": "Gain on derivatives",
+      "amountM": 100,
+      "yoy": "-26%",
+      "note": "Gains on hedging contracts that lock in prices for future gas sales."
+    },
+    {
+      "name": "Pipeline & other",
+      "amountM": 162,
+      "yoy": "+12%",
+      "note": "Moving gas through pipelines and other midstream income."
+    }
+  ],
+  "flow": {
+    "revenueM": 1770,
+    "costOfRevenueM": 531,
+    "grossProfitM": 1239,
+    "opex": [
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 640,
+        "note": "Spreading the cost of wells and equipment over the gas they produce \u2014 a non-cash charge."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 116,
+        "note": "People and the back office, including higher incentive pay this quarter."
+      },
+      {
+        "name": "Other operating costs, net",
+        "amountM": 24,
+        "note": "Other operating expenses and lease impairments, minus a small gain on asset sales."
+      }
+    ],
+    "operatingIncomeM": 459,
+    "otherIncomeM": -27,
+    "taxM": 87,
+    "netIncomeM": 345
+  },
+  "otherDetail": "Interest expense of $72M, partly offset by $44M of income from investments (mainly equity earnings from midstream stakes) and $1M of other income \u2014 a net $27M cost.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 29.99
+    },
+    {
+      "label": "Depreciation cost (wells wearing out)",
+      "amount": 36.16
+    },
+    {
+      "label": "Selling, general & administrative costs",
+      "amount": 6.55
+    },
+    {
+      "label": "Other operating costs, net",
+      "amount": 1.36
+    },
+    {
+      "label": "Interest & other costs, net",
+      "amount": 1.53
+    },
+    {
+      "label": "Tax",
+      "amount": 4.92
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.49
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "583 Bcfe",
+      "statColor": "#2563EB",
+      "title": "Volumes down on purpose",
+      "text": "Sales volume fell 8% to 583 Bcfe, including 21 Bcfe of strategic curtailments \u2014 EQT held back gas rather than sell it at weak prices."
+    },
+    {
+      "stat": "$1.09",
+      "statColor": "#3E8E5A",
+      "title": "Unit costs at the low end",
+      "text": "Total operating costs were $1.09 per Mcfe, at the low end of guidance, and free cash flow attributable to EQT was $283 million; net debt fell to $5.47 billion."
+    },
+    {
+      "stat": "-24%",
+      "statColor": "#B8443C",
+      "title": "Operating income fell",
+      "text": "Operating income dropped to $459 million from $603 million as lower sales and smaller derivative gains ($100M vs $136M) outweighed cost control."
+    }
+  ],
+  "oneTimers": [
+    "Derivative gains added $100M to revenue this quarter (vs $136M a year ago) \u2014 these hedging marks swing with gas prices and are not the same as selling more gas."
+  ],
+  "footerNote": "Figures are from EQT's Form 10-Q statements, reported in $ thousands and rounded here to the nearest $M. Net income of $345M is the consolidated total; $279M was attributable to EQT shareholders after $66M for noncontrolling interests. Direct costs group transportation & processing, production, purchased commodities and operating & maintenance, as presented in the 10-Q.",
+  "sources": [
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000033213/837a9215-5e82-4cc9-afa0-8b816b099ec7.pdf"
+    },
+    {
+      "label": "Official earnings release (PR Newswire)",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261027ne82421/eqt-reports-third-quarter-2026-results"
+    }
+  ]
+}

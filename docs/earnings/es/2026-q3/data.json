@@ -1,0 +1,137 @@
+{
+  "ticker": "ES",
+  "company": "Eversource Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "-7.5%",
+  "verdict": "Eversource's revenue fell 7.5% to $2.98 billion and earnings slipped to $346 million, or $0.92 a share, as regulators cut its allowed transmission return and disallowed Connecticut storm costs.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.98B",
+      "note": "-7.5% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$0.92",
+      "note": "GAAP = recurring"
+    },
+    {
+      "label": "Operating income",
+      "value": "$630M",
+      "note": "-8.6% YoY"
+    },
+    {
+      "label": "2026 guidance",
+      "value": "$4.62\u2013$4.70",
+      "note": "recurring EPS, midpoint raised"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Energy delivery revenue",
+      "amountM": 2979,
+      "yoy": "-7.5%",
+      "note": "Everything Eversource collected for delivering electricity and natural gas across Connecticut, Massachusetts and New Hampshire. Eversource reports one combined revenue line and breaks out earnings \u2014 not revenue \u2014 by segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 2979,
+    "costOfRevenueM": 1103,
+    "grossProfitM": 1876,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 505,
+        "note": "Crews, repairs and running the grid and gas network day to day."
+      },
+      {
+        "name": "Depreciation & amortization, net",
+        "amountM": 262,
+        "note": "Depreciation of $382M on poles, wires and pipes, minus a $120M regulatory amortization credit."
+      },
+      {
+        "name": "Energy efficiency programs",
+        "amountM": 189,
+        "note": "Regulator-approved programs that help customers use less energy; the cost is recovered in rates."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 290,
+        "note": "Mainly property taxes on the network."
+      }
+    ],
+    "operatingIncomeM": 630,
+    "otherIncomeM": -232,
+    "taxM": 50,
+    "netIncomeM": 348
+  },
+  "otherDetail": "Interest expense of $349M, partly offset by $117M of other income (largely the allowance for funds used during construction and pension-related credits) \u2014 a net $232M cost. There were no offshore-wind losses this quarter.",
+  "follow100": [
+    {
+      "label": "Purchased power & gas costs",
+      "amount": 37.02
+    },
+    {
+      "label": "Operations & maintenance costs",
+      "amount": 16.95
+    },
+    {
+      "label": "Depreciation cost, net of credits",
+      "amount": 8.8
+    },
+    {
+      "label": "Energy efficiency program costs",
+      "amount": 6.34
+    },
+    {
+      "label": "Property & other taxes",
+      "amount": 9.74
+    },
+    {
+      "label": "Interest & other costs, net",
+      "amount": 7.79
+    },
+    {
+      "label": "Tax",
+      "amount": 1.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.68
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$0.92",
+      "statColor": "#B8443C",
+      "title": "A reset quarter",
+      "text": "GAAP and recurring EPS were both $0.92 with no adjustments this quarter \u2014 versus $1.19 of recurring EPS a year ago, before the FERC return cut and the storm-cost disallowance."
+    },
+    {
+      "stat": "$182M",
+      "statColor": "#2563EB",
+      "title": "Transmission is the anchor",
+      "text": "Electric transmission earned $182M and electric distribution $201M, while natural gas lost $43M in its seasonally weak quarter after a Massachusetts rate-design change shifted revenue between quarters."
+    },
+    {
+      "stat": "$4.66",
+      "statColor": "#3E8E5A",
+      "title": "Guidance midpoint raised",
+      "text": "Management narrowed 2026 recurring EPS guidance to $4.62\u2013$4.70 and lifted the midpoint to $4.66, keeping the 5\u20137% long-term growth target through 2030."
+    }
+  ],
+  "oneTimers": [
+    "Year-to-date (not this quarter) GAAP results carry three large charges: $111M after tax on the Aquarion water sale, $164M for higher expected offshore-wind exit payments, and $44M for refunds after FERC cut the New England transmission return on equity from 10.57% to 9.57%.",
+    "Connecticut regulators (PURA) disallowed part of CL&P's previously deferred storm costs in a July 29, 2026 decision, which weighed on electric distribution earnings this quarter."
+  ],
+  "footerNote": "Eversource reports a single combined operating-revenue line, so this chart shows one revenue segment; segment earnings are covered in the takeaways. Net income of $348M is the consolidated total; $346M was attributable to common shareholders. Figures are from the official release's condensed consolidated statements, reported in $ thousands and rounded here to the nearest $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (Globe Newswire)",
+      "url": "https://www.valuespectrum.com/corporate_news/1521929-eversource-energy-reports-third-quarter-2026-results"
+    }
+  ]
+}

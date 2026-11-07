@@ -1,0 +1,162 @@
+{
+  "ticker": "EQIX",
+  "company": "Equinix",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+11%",
+  "verdict": "Equinix grew revenue 11% to $2.57 billion and net income 31% to $489 million, as record bookings and double-digit recurring growth pushed operating profit up 27%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.57B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "EPS",
+      "value": "$4.93",
+      "note": "diluted, +29%"
+    },
+    {
+      "label": "AFFO per share",
+      "value": "$11.64",
+      "note": "+18% YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.32B",
+      "note": "51% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Colocation",
+      "amountM": 1826,
+      "yoy": "+12%",
+      "note": "Renting space, power and cooling in Equinix data centers \u2014 the core business."
+    },
+    {
+      "name": "Interconnection",
+      "amountM": 465,
+      "yoy": "+10%",
+      "note": "Connecting customers to each other, to clouds and to networks inside the same data center."
+    },
+    {
+      "name": "Managed infrastructure",
+      "amountM": 108,
+      "yoy": "-8%",
+      "note": "Managed services that help customers run their equipment and networks."
+    },
+    {
+      "name": "Other recurring",
+      "amountM": 43,
+      "yoy": "+13%",
+      "note": "Smaller recurring services outside the three main lines."
+    },
+    {
+      "name": "Non-recurring revenue",
+      "amountM": 129,
+      "yoy": "+28%",
+      "note": "One-time fees, mainly installation work when a customer moves in."
+    }
+  ],
+  "flow": {
+    "revenueM": 2571,
+    "costOfRevenueM": 1257,
+    "grossProfitM": 1314,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 233,
+        "note": "The cost of winning and keeping data-center customers."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 449,
+        "note": "The back office: finance, legal, IT and head-office staff."
+      },
+      {
+        "name": "Restructuring and other exit charges",
+        "amountM": 6,
+        "note": "One-off costs of realigning teams and exiting activities."
+      },
+      {
+        "name": "Transaction costs",
+        "amountM": 20,
+        "note": "Deal costs, mainly for the atNorth joint venture investment."
+      },
+      {
+        "name": "Impairment charges",
+        "amountM": 6,
+        "note": "Writing down assets that are worth less than their book value."
+      }
+    ],
+    "operatingIncomeM": 600,
+    "otherIncomeM": -63,
+    "taxM": 48,
+    "netIncomeM": 489
+  },
+  "otherDetail": "Interest expense of $163M, partly offset by $54M of other income (including a non-recurring fee from the atNorth joint venture) and $46M of interest income \u2014 a net $63M cost.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 48.9
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": 9.06
+    },
+    {
+      "label": "Back office (G&A)",
+      "amount": 17.46
+    },
+    {
+      "label": "Other operating costs",
+      "amount": 1.24
+    },
+    {
+      "label": "Net interest cost",
+      "amount": 2.45
+    },
+    {
+      "label": "Tax",
+      "amount": 1.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.02
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$533M",
+      "statColor": "#2563EB",
+      "title": "Record bookings",
+      "text": "Annualized gross bookings hit a record $533 million, up 35% year over year, on strong demand and firmer pricing \u2014 future recurring revenue stacking up."
+    },
+    {
+      "stat": "+27%",
+      "statColor": "#3E8E5A",
+      "title": "Operating profit jumped",
+      "text": "Operating income rose to $600 million as revenue grew faster than costs; adjusted EBITDA reached $1.32 billion, a 51% margin."
+    },
+    {
+      "stat": "$11.64",
+      "statColor": "#3E8E5A",
+      "title": "AFFO per share",
+      "text": "Adjusted funds from operations \u2014 the cash-earnings yardstick for REITs \u2014 rose 18% per share, helped by a one-time atNorth fee; excluding it, normalized growth was 12%."
+    }
+  ],
+  "oneTimers": [
+    "A non-recurring fee from Equinix's investment in the atNorth joint venture lifted other income ($54M) and AFFO this quarter; excluding it, AFFO per share grew 12% on a normalized basis.",
+    "Operating expenses include $6M of restructuring charges, $20M of transaction costs and $6M of impairment charges."
+  ],
+  "footerNote": "Equinix is a real estate investment trust (REIT). Recurring revenue is rent-like monthly income; AFFO is a non-GAAP REIT measure reconciled in the release. Revenue segments are the worldwide services split from the release's supplemental data.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://investor.equinix.com/sec-filings/all-sec-filings/content/0001101239-26-000178/0001101239-26-000178.pdf"
+    }
+  ]
+}
