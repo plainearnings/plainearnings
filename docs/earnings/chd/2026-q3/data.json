@@ -1,0 +1,143 @@
+{
+  "ticker": "CHD",
+  "company": "Church & Dwight",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Church & Dwight's sales rose just 1% to $1,602M as last year's portfolio exits masked 5.1% organic growth, but wider margins lifted profit 16% to $212M.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "$1,602M vs $1,586M a year ago; organic sales +5.1%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.89",
+      "note": "vs $0.75 a year ago; adjusted EPS was $0.92"
+    },
+    {
+      "label": "Gross margin",
+      "value": "46.8%",
+      "note": "up 170 basis points vs a year ago"
+    },
+    {
+      "label": "Cash from operations",
+      "value": "$380M",
+      "note": "in Q3 alone; about $1.175B expected for the full year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Consumer Domestic",
+      "amountM": 1225,
+      "note": "US household and personal-care brands \u2014 ARM & HAMMER laundry and cat litter, THERABREATH, WATERPIK and OXICLEAN. Reported sales rose just 0.4%, but organic sales grew 4.4% once portfolio exits are stripped out.",
+      "yoy": "+0.4%"
+    },
+    {
+      "name": "Consumer International",
+      "amountM": 297,
+      "note": "The same brands sold outside the US. Reported sales up 2.5%; organic sales up 7.8% on higher volume, led by THERABREATH, BATISTE, TOUCHLAND and OXICLEAN.",
+      "yoy": "+2.5%"
+    },
+    {
+      "name": "Specialty Products",
+      "amountM": 80,
+      "note": "Specialty chemicals and animal-productivity products, mainly for farms and industry. Sales up 5.0%, all of it organic.",
+      "yoy": "+5.0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1602,
+    "costOfRevenueM": 853,
+    "grossProfitM": 749,
+    "opex": [
+      {
+        "name": "Marketing",
+        "amountM": 191,
+        "note": "Advertising and promoting the brands \u2014 11.9% of sales, down from 12.8% a year ago."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 267,
+        "note": "Selling and running the company. Includes $6M of charges for restricted stock issued for the TOUCHLAND acquisition; adjusted SG&A was $261M."
+      }
+    ],
+    "operatingIncomeM": 291,
+    "otherIncomeM": -22,
+    "equityM": 3,
+    "taxM": 60,
+    "netIncomeM": 212
+  },
+  "otherDetail": "Other expense, net was $22M, partly offset by $3M of equity earnings from affiliates \u2014 a net $19M drag below operating profit.",
+  "oneTimers": [
+    "SG&A includes $6M of charges for restricted stock issued for the TOUCHLAND acquisition. Excluding that and similar items, adjusted operating income was $298M and adjusted EPS was $0.92, vs $0.89 on a GAAP basis."
+  ],
+  "footerNote": "Figures are rounded to $M from the reported tenths, so rounded lines may differ by $1M from the printed statements.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526439864/chd-ex99_1.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.1%",
+      "statColor": "#3d7bc8",
+      "title": "Organic growth beat the headline",
+      "text": "Reported sales rose only 1.0% to $1,602M because last year's strategic portfolio actions removed whole product lines. Organic sales \u2014 the brands Church & Dwight still owns \u2014 grew 5.1%, with volume up 4.6%, well ahead of the company's 3% outlook, and all three divisions grew."
+    },
+    {
+      "stat": "46.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened sharply",
+      "text": "Gross margin rose 170 basis points to 46.8%, helped by higher volume, productivity, tariff refunds and a richer mix from acquisitions and portfolio actions, which more than offset inflation and transport costs. That margin gain is the main reason profit grew 16% on 1% sales growth."
+    },
+    {
+      "stat": "$0.92",
+      "statColor": "#5b6b7c",
+      "title": "Outlook raised for the year",
+      "text": "Adjusted EPS was $0.92, up 13.6%. The company raised its 2026 outlook to about 0.5% reported sales growth and about 5% organic growth, tightened adjusted EPS growth to about 7%, and approved a new $1B share repurchase program."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Consumer Domestic",
+      "amount": 76.47
+    },
+    {
+      "label": "Consumer International",
+      "amount": 18.54
+    },
+    {
+      "label": "Specialty Products",
+      "amount": 4.99
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -53.25
+    },
+    {
+      "label": "Marketing",
+      "amount": -11.92
+    },
+    {
+      "label": "SG&A",
+      "amount": -16.67
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.19
+    },
+    {
+      "label": "Tax",
+      "amount": -3.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.23
+    }
+  ]
+}

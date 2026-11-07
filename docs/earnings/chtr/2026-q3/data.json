@@ -1,0 +1,163 @@
+{
+  "ticker": "CHTR",
+  "company": "Charter Communications",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "verdict": "Charter's revenue rose 9% to $14.9B as Cox joined the books, but a $6.3B write-down of its cable franchises swung it to a $2.4B loss for shareholders.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "actual basis, $14,922M vs $13,672M; pro forma (Cox owned all quarter both years) revenue fell 1.5%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$20.50",
+      "note": "diluted loss per share attributable to Charter shareholders, vs +$8.34 a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$5.9B",
+      "note": "up 6.9% on an actual basis \u2014 the company's preferred cash-profit measure"
+    },
+    {
+      "label": "Franchise impairment",
+      "value": "$6.3B",
+      "note": "non-cash write-down of cable franchise rights \u2014 the cause of the loss"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 11161,
+      "note": "Homes: Internet $6,395M, video $3,292M, mobile service $1,134M and voice $340M. Up 4.8% on an actual basis, helped by Cox; on a pro forma basis residential revenue fell 4.1%.",
+      "yoy": "+4.8%"
+    },
+    {
+      "name": "Commercial",
+      "amountM": 2249,
+      "note": "Services to small businesses and larger companies, including the legacy Cox business customer base added in August. Up 22.6% on an actual basis.",
+      "yoy": "+22.6%"
+    },
+    {
+      "name": "Advertising sales",
+      "amountM": 460,
+      "note": "Selling advertising on its networks and platforms. Up 29.2%, helped by political advertising.",
+      "yoy": "+29.2%"
+    },
+    {
+      "name": "Other",
+      "amountM": 1052,
+      "note": "Mainly mobile device sales and other smaller revenue lines. Up 26.0%.",
+      "yoy": "+26.0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 14922,
+    "costOfRevenueM": 9156,
+    "grossProfitM": 5766,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 2621,
+        "note": "A non-cash charge spreading the cost of the cable network, equipment and acquired customer relationships over their lives."
+      },
+      {
+        "name": "Impairment of franchises",
+        "amountM": 6326,
+        "note": "A one-time, non-cash write-down of the value of Charter's cable franchise rights \u2014 see one-time items."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 345,
+        "note": "Other operating expenses, net of smaller items."
+      }
+    ],
+    "operatingIncomeM": -3526,
+    "otherIncomeM": 24,
+    "taxM": -803,
+    "netIncomeM": -2699
+  },
+  "otherDetail": "Other income, net was +$24M: other income of $1,365M \u2014 mainly a gain of about $1.4B on extinguishing debt in the Cox debt exchanges \u2014 almost fully offset by $1,341M of net interest expense.",
+  "oneTimers": [
+    "Charter booked a $6,326M non-cash impairment of its cable franchises in the quarter \u2014 by far the largest item in these results. Without it, the operating result would have been a profit of about $2.8B.",
+    "Other income includes a gain of about $1.4B on extinguishing debt, from the debt exchanges tied to the Cox Transactions.",
+    "The Cox Transactions closed on August 20, 2026, so actual results include Cox only from that date. Charter also recorded $76M of Cox transition (integration) expenses inside operating costs."
+  ],
+  "footerNote": "Charter does not report a cost-of-revenue or gross-profit line; its reported operating costs and expenses ($9,156M) are shown as the direct-cost block so the chart follows the reported lines. Consolidated net loss was $2,699M; after $302M of loss attributable to noncontrolling interests, the loss attributable to Charter shareholders was $2,397M. Chart note: running costs including the $6,326M franchise impairment exceeded gross profit, so the chart draws the $2,699M net loss as a shortfall funded from the balance sheet, not from revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$6.3B",
+      "statColor": "#b8443c",
+      "title": "A write-down made the loss",
+      "text": "The $6,326M franchise impairment is a non-cash accounting charge \u2014 no money left the company \u2014 but it turned an operating business that produced $5,943M of Adjusted EBITDA into a $3,526M operating loss and a $2,397M net loss for shareholders."
+    },
+    {
+      "stat": "-1.5%",
+      "statColor": "#5b6b7c",
+      "title": "Underneath Cox, sales shrank",
+      "text": "Actual revenue rose 9.1% only because Cox was added on August 20. Pro forma \u2014 Cox counted for the full quarter in both years \u2014 revenue fell 1.5% to $16,505M, as video and Internet revenue declined, partly offset by mobile service revenue up 17.3%."
+    },
+    {
+      "stat": "+508k",
+      "statColor": "#3d7bc8",
+      "title": "Mobile keeps growing, Internet slips",
+      "text": "On a pro forma basis Charter added 508,000 Spectrum Mobile lines in the quarter (13.5M in total) but lost 233,000 Internet customers (34.3M in total) and 77,000 video customers. Capex was $3,027M on an actual basis."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 74.8
+    },
+    {
+      "label": "Commercial",
+      "amount": 15.07
+    },
+    {
+      "label": "Advertising sales",
+      "amount": 3.08
+    },
+    {
+      "label": "Other",
+      "amount": 7.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.36
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -17.56
+    },
+    {
+      "label": "Impairment of franchises",
+      "amount": -42.39
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -2.31
+    },
+    {
+      "label": "Other income",
+      "amount": 0.16
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 5.38
+    },
+    {
+      "label": "Net loss",
+      "amount": -18.09
+    }
+  ]
+}

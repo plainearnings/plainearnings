@@ -1,0 +1,142 @@
+{
+  "ticker": "CHRW",
+  "company": "C.H. Robinson",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "C.H. Robinson's revenue jumped 29.5% to $5,358M on higher freight pricing, and leaner operations turned that into a 22% rise in profit to $198M.",
+  "revenueYoY": "+29.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+29.5%",
+      "note": "$5,358M vs $4,137M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.67",
+      "note": "diluted, vs $1.34 a year ago; adjusted EPS was $1.80"
+    },
+    {
+      "label": "Adjusted gross profit",
+      "value": "$808M",
+      "note": "up 14.5% \u2014 what is left after paying carriers"
+    },
+    {
+      "label": "Operating income",
+      "value": "$272M",
+      "note": "up 23.1% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North American Surface Transportation",
+      "amountM": 3829,
+      "note": "Truckload and less-than-truckload (LTL \u2014 sharing truck space) freight across North America. Revenue up 29.1% on higher pricing and 3.5% higher volume; adjusted gross profit per truckload shipment rose 17%.",
+      "yoy": "+29%"
+    },
+    {
+      "name": "Global Forwarding",
+      "amountM": 1149,
+      "note": "Ocean and air freight forwarding around the world. Revenue up 46.1% on higher ocean and air pricing; operating income rose 63% to $80M.",
+      "yoy": "+46%"
+    },
+    {
+      "name": "All Other and Corporate",
+      "amountM": 380,
+      "note": "Mainly Robinson Fresh \u2014 sourcing and reselling fresh produce \u2014 plus corporate items. Revenue was roughly flat, down about 1%.",
+      "yoy": "-1%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5358,
+    "costOfRevenueM": 4550,
+    "grossProfitM": 808,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 360,
+        "note": "Pay for its people \u2014 up 3.1% on higher incentive pay for strong results, even as average headcount fell 10.4%."
+      },
+      {
+        "name": "Other SG&A",
+        "amountM": 176,
+        "note": "Other selling, general and administrative costs \u2014 up 29.7% on higher claims expenses and a lease impairment charge in Kansas City."
+      }
+    ],
+    "operatingIncomeM": 272,
+    "otherIncomeM": -22,
+    "taxM": 52,
+    "netIncomeM": 198
+  },
+  "otherDetail": "Interest and other expense, net was $22M: about $20M of interest expense on a higher average debt balance, plus a $2M net foreign-currency loss.",
+  "oneTimers": [
+    "Results include $19M of specified items the company strips out of its adjusted figures \u2014 severance and other personnel costs, plus other SG&A items including an impairment charge on the Kansas City regional center lease after subleasing the remaining space. Adjusted operating income was $291M vs $272M GAAP, and adjusted EPS was $1.80 vs $1.67."
+  ],
+  "footerNote": "C.H. Robinson is asset-light: it buys transportation from carriers and resells it. Following the company's own presentation, purchased transportation ($4,237M) plus purchased products sourced for resale ($313M) are shown as the direct-cost block, so gross profit here is the company's adjusted gross profit of $808M (reported gross profit of $796M also deducts $13M of software amortization). Figures are rounded to $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043277/000104327726000039/ex991earningsreleaseq30930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29.5%",
+      "statColor": "#3d7bc8",
+      "title": "Pricing drove the top line",
+      "text": "Revenue rose to $5,358M as truckload, ocean, LTL and air pricing all rose and truckload volume grew. North American Surface Transportation \u2014 71% of revenue \u2014 grew 29%, and Global Forwarding grew 46%."
+    },
+    {
+      "stat": "$808M",
+      "statColor": "#3e8e5a",
+      "title": "Each load earned more",
+      "text": "Adjusted gross profit \u2014 what Robinson keeps after paying carriers \u2014 rose 14.5% to $808M. Truckload adjusted gross profit per shipment rose 17% as disciplined repricing outran a 33.5% rise in linehaul cost per mile."
+    },
+    {
+      "stat": "-10.4%",
+      "statColor": "#5b6b7c",
+      "title": "More freight, fewer people",
+      "text": "Average headcount fell 10.4% while volume grew, as manual processes were turned into automated, AI-assisted workflows. Operating income rose 23% to $272M and net income rose 22% to $198M."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North American Surface Transportation",
+      "amount": 71.46
+    },
+    {
+      "label": "Global Forwarding",
+      "amount": 21.44
+    },
+    {
+      "label": "All Other and Corporate",
+      "amount": 7.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -84.92
+    },
+    {
+      "label": "Personnel",
+      "amount": -6.72
+    },
+    {
+      "label": "Other SG&A",
+      "amount": -3.28
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.41
+    },
+    {
+      "label": "Tax",
+      "amount": -0.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.7
+    }
+  ]
+}
