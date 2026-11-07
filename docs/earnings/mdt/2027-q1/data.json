@@ -1,0 +1,192 @@
+{
+  "ticker": "MDT",
+  "company": "Medtronic",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-01",
+  "revenueYoY": "+14%",
+  "verdict": "Medtronic's sales jumped 14% to $9.8B \u2014 unusually fast for the medical-device giant \u2014 as heart treatments surged, and profit rose 41% to $1.5B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$9.8B",
+      "note": "+14% YoY (+12% organic)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.14",
+      "note": "vs $0.81 a year ago (non-GAAP: $1.45)"
+    },
+    {
+      "label": "Cardiovascular sales",
+      "value": "$3.9B",
+      "note": "+20% YoY \u2014 the standout portfolio"
+    },
+    {
+      "label": "Gross margin",
+      "value": "65.0%",
+      "note": "same as a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cardiovascular",
+      "amountM": 3927,
+      "yoy": "+20%",
+      "note": "Heart devices \u2014 pacemakers, heart valves and ablation catheters. Electrophysiology (treating irregular heartbeats) grew in the high 20s."
+    },
+    {
+      "name": "Neuroscience",
+      "amountM": 2678,
+      "yoy": "+10%",
+      "note": "Brain and spine devices, including spinal surgery systems and brain stimulators."
+    },
+    {
+      "name": "Medical Surgical",
+      "amountM": 2279,
+      "yoy": "+10%",
+      "note": "Surgical tools and patient-monitoring equipment used in operating rooms and hospitals."
+    },
+    {
+      "name": "Diabetes",
+      "amountM": 843,
+      "yoy": "+17%",
+      "note": "Insulin pumps and glucose sensors. Medtronic is in the process of separating this business into its own company."
+    },
+    {
+      "name": "Other",
+      "amountM": 29,
+      "yoy": "",
+      "note": "Small remaining items Medtronic groups as 'Other'."
+    }
+  ],
+  "flow": {
+    "revenueM": 9756,
+    "costOfRevenueM": 3416,
+    "grossProfitM": 6340,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 3198,
+        "note": "The global sales force that works with hospitals and surgeons, plus the back office."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 771,
+        "note": "Developing the next generation of devices and running clinical trials."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 412,
+        "note": "Accounting write-down of technology bought in past acquisitions \u2014 non-cash, and excluded from non-GAAP results."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 123,
+        "note": "Other operating items, net."
+      },
+      {
+        "name": "Restructuring charges, net",
+        "amountM": 72,
+        "note": "Reorganization and efficiency-program charges."
+      }
+    ],
+    "operatingIncomeM": 1764,
+    "otherIncomeM": 4,
+    "taxM": 289,
+    "equityM": -9,
+    "netIncomeM": 1470
+  },
+  "otherDetail": "Other non-operating income of $190M \u2014 including gains on minority investments \u2014 less $186M of net interest expense.",
+  "follow100": [
+    {
+      "label": "Cardiovascular",
+      "amount": 40.25
+    },
+    {
+      "label": "Neuroscience",
+      "amount": 27.45
+    },
+    {
+      "label": "Medical Surgical",
+      "amount": 23.36
+    },
+    {
+      "label": "Diabetes",
+      "amount": 8.64
+    },
+    {
+      "label": "Other",
+      "amount": 0.3
+    },
+    {
+      "label": "Cost of products sold",
+      "amount": -35.01
+    },
+    {
+      "label": "SG&A",
+      "amount": -32.78
+    },
+    {
+      "label": "Research & development",
+      "amount": -7.9
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.22
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -1.26
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.74
+    },
+    {
+      "label": "Other income",
+      "amount": -0.04
+    },
+    {
+      "label": "Tax",
+      "amount": -2.96
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.07
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Heart treatments led the surge",
+      "text": "Cardiovascular sales rose 20% to $3.9B, with electrophysiology \u2014 catheter treatments for irregular heartbeats \u2014 growing in the high 20s on pulsed-field ablation demand."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3e8e5a",
+      "title": "Growth was broad, not one product",
+      "text": "All four portfolios grew at double-digit rates: Cardiovascular +20%, Diabetes +17%, Neuroscience +10% and Medical Surgical +10%."
+    },
+    {
+      "stat": "$1.45",
+      "statColor": "#5b6b7c",
+      "title": "The non-GAAP gap is mostly amortization",
+      "text": "Non-GAAP EPS was $1.45 versus $1.14 GAAP. The biggest difference is $412M of amortization of acquired technology \u2014 a real accounting cost, but not cash out the door this quarter."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026059697/exhibit991-fy27q1earningsr.htm"
+    }
+  ],
+  "footerNote": "Medtronic notes this schedule is intentionally rounded to the nearest million; the reported pre-tax line is $1M higher than the rounded lines sum to, and that rounding is absorbed in the net other-income line here. This is Medtronic's fiscal Q1 2027 (quarter ended July 31, 2026); its fiscal Q2 ends in late October and had not been reported yet. Net income of $1,470M is attributable to Medtronic; consolidated net income was $1,479M."
+}

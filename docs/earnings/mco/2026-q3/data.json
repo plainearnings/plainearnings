@@ -1,0 +1,156 @@
+{
+  "ticker": "MCO",
+  "company": "Moody's Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+1%",
+  "verdict": "Moody's profit rose 14% to $734M on revenue up just 1% \u2014 a $115M gain from selling businesses and a lower tax rate did most of the lifting.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.0B",
+      "note": "+1% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.24",
+      "note": "+18% vs $3.60 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.14",
+      "note": "+6% \u2014 excludes the divestiture gain"
+    },
+    {
+      "label": "Credit ratings revenue",
+      "value": "$939M",
+      "note": "+3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Credit ratings (MIS)",
+      "amountM": 939,
+      "yoy": "+3%",
+      "note": "Fees for rating bonds and loans \u2014 companies and governments pay Moody's to judge their creditworthiness."
+    },
+    {
+      "name": "Moody's Analytics",
+      "amountM": 1138,
+      "yoy": "-1%",
+      "note": "Data, software and research subscriptions that help banks, insurers and companies measure risk."
+    },
+    {
+      "name": "Corporate & eliminations",
+      "amountM": -54,
+      "yoy": "",
+      "note": "Corporate items and eliminations between the two businesses \u2014 a small negative that brings the segments to total revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 2023,
+    "costOfRevenueM": 524,
+    "grossProfitM": 1499,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 442,
+        "note": "Sales, marketing and back-office costs."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 124,
+        "note": "Wearing-out cost of buildings, systems and acquired intangibles."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 27,
+        "note": "Costs of reorganizing parts of the business."
+      }
+    ],
+    "operatingIncomeM": 906,
+    "otherIncomeM": 62,
+    "equityM": -2,
+    "taxM": 232,
+    "netIncomeM": 734
+  },
+  "otherDetail": "A $115M gain on business divestitures and $1M of other income, less $54M of net interest expense and $2M of profit attributable to noncontrolling interests.",
+  "follow100": [
+    {
+      "label": "Credit ratings (MIS)",
+      "amount": 46.42
+    },
+    {
+      "label": "Moody's Analytics",
+      "amount": 56.25
+    },
+    {
+      "label": "Corporate & eliminations",
+      "amount": -2.67
+    },
+    {
+      "label": "Operating expenses (direct costs)",
+      "amount": -25.9
+    },
+    {
+      "label": "SG&A",
+      "amount": -21.85
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -6.13
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.33
+    },
+    {
+      "label": "Other income",
+      "amount": -3.06
+    },
+    {
+      "label": "Tax",
+      "amount": -11.47
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 36.28
+    }
+  ],
+  "oneTimers": [
+    "A $115M pre-tax gain on business divestitures sits in non-operating income. Excluding it and related items, adjusted EPS was $4.14, up 6% \u2014 a cleaner read on the quarter than the 18% GAAP jump."
+  ],
+  "takeaways": [
+    {
+      "stat": "+3%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was modest at the core",
+      "text": "Ratings revenue rose 3% to $939M while Moody's Analytics slipped 1% to $1,138M \u2014 total revenue grew just 1% to $2.0B."
+    },
+    {
+      "stat": "$115M",
+      "statColor": "#3e8e5a",
+      "title": "A one-off gain flatters profit",
+      "text": "Selling businesses added a $115M pre-tax gain below the operating line. It is the main reason GAAP EPS rose 18% while adjusted EPS rose 6%."
+    },
+    {
+      "stat": "24.0%",
+      "statColor": "#5b6b7c",
+      "title": "A friendlier tax rate helped",
+      "text": "The effective tax rate fell to 24.0% from 25.4%, helped by the lapse of a statute of limitations on an old acquisition-related tax exposure."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026066594/a3q26earningsrelease.htm"
+    }
+  ],
+  "footerNote": "Moody's does not report a cost-of-revenue line. Here, its $524M of 'operating' expenses \u2014 the analysts and data specialists who produce the ratings and analytics \u2014 are treated as the direct cost of revenue. Net income of $734M is attributable to Moody's; consolidated net income was $736M."
+}

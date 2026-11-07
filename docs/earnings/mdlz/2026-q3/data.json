@@ -1,0 +1,167 @@
+{
+  "ticker": "MDLZ",
+  "company": "Mondelez International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+2%",
+  "verdict": "Mondelez's GAAP profit jumped 76% to $1.3B \u2014 mostly because cocoa and currency hedge accounting swung in its favor this year; the underlying snack business grew a steadier 2%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$10.0B",
+      "note": "+2.3% YoY (+2.1% organic)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.02",
+      "note": "vs $0.57 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.78",
+      "note": "+5.5% at constant currency \u2014 strips out hedge swings"
+    },
+    {
+      "label": "Gross margin",
+      "value": "39.4%",
+      "note": "vs 26.8% a year ago, on derivative mark-to-market swings"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Europe",
+      "amountM": 3552,
+      "yoy": "-3%",
+      "note": "The largest region \u2014 chocolate brands like Cadbury, Milka and Toblerone. Reported sales fell 3.3% as earlier chocolate price rises curbed volumes."
+    },
+    {
+      "name": "North America",
+      "amountM": 2846,
+      "yoy": "+1%",
+      "note": "Oreo, Ritz, Chips Ahoy! and Clif bars in the U.S. and Canada."
+    },
+    {
+      "name": "AMEA",
+      "amountM": 2182,
+      "yoy": "+8%",
+      "note": "Asia, the Middle East and Africa \u2014 faster-growing snack markets."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1387,
+      "yoy": "+12%",
+      "note": "The fastest-growing region this quarter, helped by pricing."
+    }
+  ],
+  "flow": {
+    "revenueM": 9967,
+    "costOfRevenueM": 6043,
+    "grossProfitM": 3924,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2012,
+        "note": "Marketing brands like Oreo and Cadbury, plus the sales force and back office."
+      },
+      {
+        "name": "Asset impairments and exit costs",
+        "amountM": 128,
+        "note": "Write-downs and the cost of exiting or reshaping parts of the business."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 26,
+        "note": "Accounting write-down of brands and technology bought in past deals."
+      }
+    ],
+    "operatingIncomeM": 1758,
+    "otherIncomeM": -37,
+    "equityM": 8,
+    "taxM": 424,
+    "netIncomeM": 1305
+  },
+  "otherDetail": "Interest and other expense of $64M, partly offset by $27M of pension benefit-plan income.",
+  "oneTimers": [
+    "Gross profit includes a large favorable swing in mark-to-market accounting on cocoa and currency derivatives \u2014 the same mechanism depressed last year's quarter (gross margin was 26.8% then, 39.4% now). Adjusted results strip these swings out, which is why adjusted EPS grew only 5.5% at constant currency while GAAP EPS rose 79%."
+  ],
+  "follow100": [
+    {
+      "label": "Europe",
+      "amount": 35.64
+    },
+    {
+      "label": "North America",
+      "amount": 28.55
+    },
+    {
+      "label": "AMEA",
+      "amount": 21.89
+    },
+    {
+      "label": "Latin America",
+      "amount": 13.92
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -60.63
+    },
+    {
+      "label": "SG&A",
+      "amount": -20.19
+    },
+    {
+      "label": "Asset impairments & exit costs",
+      "amount": -1.28
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.37
+    },
+    {
+      "label": "Equity earnings, net",
+      "amount": -0.08
+    },
+    {
+      "label": "Tax",
+      "amount": -4.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.09
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "39.4%",
+      "statColor": "#3d7bc8",
+      "title": "The margin jump is accounting, not pricing power",
+      "text": "Gross margin leapt from 26.8% to 39.4% almost entirely on mark-to-market swings in cocoa and currency hedges. The underlying (adjusted) gross profit grew much more modestly."
+    },
+    {
+      "stat": "+2.1%",
+      "statColor": "#3e8e5a",
+      "title": "Steady underlying growth",
+      "text": "Organic revenue rose 2.1%: selling slightly more snacks (volume/mix +1.8 points) with near-flat pricing (+0.3 points) after last year's big chocolate price rises."
+    },
+    {
+      "stat": "-2.1%",
+      "statColor": "#5b6b7c",
+      "title": "Europe is the soft spot",
+      "text": "European organic sales fell 2.1% \u2014 shoppers pushed back on chocolate prices (pricing subtracted 3.7 points there) \u2014 while emerging markets grew 4.1% organically."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026068233/mdlzearningsreleasecontent.htm"
+    }
+  ],
+  "footerNote": "Net earnings of $1,305M are attributable to Mondelez; consolidated net earnings were $1,308M. Equity-method investments (including its stake in JDE Peet's) contributed $11M of earnings, shown net of the $3M belonging to noncontrolling interests."
+}
