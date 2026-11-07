@@ -1,0 +1,192 @@
+{
+  "ticker": "CIFR",
+  "company": "Cipher Digital",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "-63%",
+  "adapted": true,
+  "adaptation": "Standard layout adapted: the chart anchors on total money in (revenue $26.7M + non-cash warrant fair-value gain $127.2M = $153.9M) because the warrant gain is 4.8x revenue and a revenue-scaled chart cannot draw it. Net interest and other expense ($23.7M) is grouped with operating expenses, so the chart's operating line is the reported pre-tax income. Balance checks on the adapted model: total money in = left after direct costs + cost of revenue ($153.9M = $138.5M + $15.4M); left after direct costs = pre-tax income + operating expenses ($138.5M = $31.5M + $107.0M); pre-tax income - tax = net income ($31.5M + $0.1M tax benefit = $31.6M). Reported figures are unchanged: revenue $26.7M, operating loss -$71.9M, pre-tax income $31.5M, net income $31.6M.",
+  "verdict": "Cipher's revenue fell 63% to $27M as Bitcoin mining wound down and its first HPC lease dollars arrived \u2014 and a $127M non-cash warrant gain, not operations, is what put the quarter in profit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$27M",
+      "note": "Down 63% YoY \u2014 mining revenue fell as the HPC transition began"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "-$0.22",
+      "note": "Basic EPS was +$0.08; diluted strips out the $127M warrant gain"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "-$10M",
+      "note": "vs +$41M a year ago \u2014 the company's own operating measure"
+    },
+    {
+      "label": "Barber Lake contracted revenue",
+      "value": "$9.1B",
+      "note": "Lease expanded to a 20-year term in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Bitcoin mining revenue",
+      "amountM": 20.849,
+      "note": "Mining Bitcoin for its own account \u2014 still the biggest revenue line, but down 71% YoY as Cipher pivots to data centers.",
+      "yoy": "-71%"
+    },
+    {
+      "name": "HPC leasing revenue",
+      "amountM": 5.852,
+      "note": "Rent from high-performance computing data centers \u2014 the first HPC lease revenue Cipher has ever reported, from the Black Pearl site.",
+      "yoy": "new"
+    },
+    {
+      "name": "Warrant fair-value gain",
+      "amountM": 127.18,
+      "note": "A paper gain: Cipher's warrant liability shrank in value as its share price moved, so accounting rules book a gain. No cash arrived, and it reverses if the share price rises. Shown as a source because it is what turned the quarter profitable.",
+      "yoy": "non-cash"
+    }
+  ],
+  "flow": {
+    "revenueM": 153.881,
+    "costOfRevenueM": 15.364,
+    "grossProfitM": 138.517,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 38.555,
+        "note": "Paying the team \u2014 it includes a large share-based pay bill as the company builds out its data center platform."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 26.359,
+        "note": "Running the company \u2014 finance, legal and admin. Up sharply YoY as the platform scaled."
+      },
+      {
+        "name": "Interest & other expense, net",
+        "amountM": 23.723,
+        "note": "Interest expense of $59.0M on Cipher's growing data-center debt, less $32.7M of interest income on its cash pile and $2.6M of other income. Cipher reports this below its operating result; in this adapted layout it is grouped with operating expenses so the operating line equals reported pre-tax income."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 18.821,
+        "note": "Spreading the cost of sites and equipment over their lives \u2014 much lower than a year ago as mining rigs were sold or sidelined."
+      },
+      {
+        "name": "Power agreement & other operating losses",
+        "amountM": 16.643,
+        "note": "A $13.9M paper loss from revaluing a power purchase agreement (the contract's market value moved against Cipher), plus $2.7M of other operating losses."
+      },
+      {
+        "name": "Bitcoin fair-value & sale gains",
+        "amountM": -12.875,
+        "note": "A $12.4M unrealized (paper) gain on the Bitcoin Cipher holds, as its price rose, plus a $0.5M realized gain on Bitcoin sold \u2014 together they reduced operating costs on paper."
+      },
+      {
+        "name": "Power sales",
+        "amountM": -4.251,
+        "note": "Selling power back to the grid \u2014 it reduced operating costs."
+      }
+    ],
+    "operatingIncomeM": 31.542,
+    "otherIncomeM": 0,
+    "taxM": -0.054,
+    "netIncomeM": 31.596
+  },
+  "otherDetail": "Interest and other items are grouped with operating expenses in this adapted layout (see the Interest & other expense line) \u2014 net interest and other expense was $23.7M, and the $127.2M warrant gain is shown as a source at the left of the chart.",
+  "follow100": [
+    {
+      "label": "Bitcoin mining",
+      "amount": 13.55
+    },
+    {
+      "label": "HPC leasing",
+      "amount": 3.8
+    },
+    {
+      "label": "Warrant gain (non-cash)",
+      "amount": 82.65
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -9.98
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -25.06
+    },
+    {
+      "label": "General & administrative",
+      "amount": -17.13
+    },
+    {
+      "label": "Interest & other expense",
+      "amount": -15.42
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -12.23
+    },
+    {
+      "label": "Power agreement & other losses",
+      "amount": -10.82
+    },
+    {
+      "label": "Bitcoin gains",
+      "amount": 8.37
+    },
+    {
+      "label": "Power sales",
+      "amount": 2.76
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.53
+    }
+  ],
+  "follow100Note": "Adapted for Cipher: this table is per $100 of total money in (revenue + the warrant gain), not per $100 of revenue \u2014 per $100 of revenue alone, the warrant gain would be about $476 and the table would be meaningless. On revenue alone, Cipher kept $118 of profit per $100 of revenue only because of that paper gain; operations lost money.",
+  "footerNote": "Adapted layout \u2014 see one-time items. Figures in $M to three decimals so the lines add up exactly. Reported operating result was a $72M loss.",
+  "takeaways": [
+    {
+      "stat": "$27M",
+      "statColor": "#3d7bc8",
+      "title": "A business in transition",
+      "text": "Revenue fell 63% to $26.7M: Bitcoin mining dropped 71% to $20.8M, partly offset by the first-ever HPC lease revenue of $5.9M from Black Pearl. The future is contracted, not current: the Barber Lake lease was expanded to 20 years, taking its contracted revenue to about $9.1B."
+    },
+    {
+      "stat": "-$72M",
+      "statColor": "#cf5f4e",
+      "title": "Operations lost money",
+      "text": "The reported operating loss was $71.9M. Running costs included $38.6M of compensation, $26.4M of G&A and an $13.9M paper loss on a power agreement, partly offset by a $12.4M paper gain on Bitcoin held. Adjusted EBITDA \u2014 the company's own measure \u2014 was -$10M."
+    },
+    {
+      "stat": "+$127M",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain made the profit",
+      "text": "Net income was $31.6M only because of a $127.2M non-cash gain as Cipher's warrant liability fell in value. That is also why diluted EPS is -$0.22 while basic EPS is +$0.08: the diluted calculation strips the warrant gain back out."
+    }
+  ],
+  "oneTimers": [
+    "Change in fair value of warrant liability: +$127.2M \u2014 a non-cash paper gain (the warrants Cipher owes became cheaper to settle as the share price moved). It is shown as a source in the chart, with the layout adapted and documented, because it is 4.8x revenue.",
+    "Bitcoin on the balance sheet was marked up by $12.4M (unrealized) in the quarter, and a power purchase agreement was marked down by $13.9M \u2014 both non-cash, both inside operating results as Cipher reports them.",
+    "Interest expense jumped to $59.0M from $1.3M a year ago as Cipher borrowed heavily to build data centers; interest income was $32.7M on its cash pile."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000047/exh991-q326_earningsxprxvf.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    }
+  ]
+}

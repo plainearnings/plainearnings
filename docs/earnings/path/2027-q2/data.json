@@ -1,0 +1,156 @@
+{
+  "ticker": "PATH",
+  "company": "UiPath",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-03",
+  "revenueYoY": "+13%",
+  "verdict": "UiPath grew revenue 13% to $410M and ARR 12% to $1.94B, and leaner costs turned last year's operating loss into a $32M GAAP operating profit and $36M of net income.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "Revenue was $410M, vs $362M a year ago"
+    },
+    {
+      "label": "ARR",
+      "value": "$1.94B",
+      "note": "Annualized renewal run-rate, up 12% YoY; net retention 109%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.07",
+      "note": "vs $0.00 a year ago"
+    },
+    {
+      "label": "Operating income (GAAP)",
+      "value": "$32M",
+      "note": "vs a $20M loss a year ago; non-GAAP operating income was $89M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription services",
+      "amountM": 266.067,
+      "note": "Recurring subscriptions to the automation platform, plus support \u2014 the core, predictable revenue. Up 12%.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Licenses",
+      "amountM": 123.843,
+      "note": "Software licenses sold for a term. Up 10%.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Professional services & other",
+      "amountM": 20.346,
+      "note": "Helping customers set up and run automations. Up 82% \u2014 fast-growing, but it costs more to deliver than it brings in.",
+      "yoy": "+82%"
+    }
+  ],
+  "flow": {
+    "revenueM": 410.256,
+    "costOfRevenueM": 80.587,
+    "grossProfitM": 329.669,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 164.606,
+        "note": "Selling the platform to big companies \u2014 the biggest running cost, though it fell slightly YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 83.393,
+        "note": "Building the platform, including its AI agent tools. Down 15% YoY as last year's spending was trimmed."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 50.066,
+        "note": "Running the company \u2014 finance, legal and admin. Down 5% YoY."
+      }
+    ],
+    "operatingIncomeM": 31.604,
+    "otherIncomeM": 21.251,
+    "taxM": 16.766,
+    "netIncomeM": 36.089
+  },
+  "otherDetail": "Interest income of $10.8M on cash and investments, plus $10.5M of other income, net.",
+  "follow100": [
+    {
+      "label": "Subscription services",
+      "amount": 64.85
+    },
+    {
+      "label": "Licenses",
+      "amount": 30.19
+    },
+    {
+      "label": "Professional services",
+      "amount": 4.96
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -19.64
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -40.12
+    },
+    {
+      "label": "Research & development",
+      "amount": -20.33
+    },
+    {
+      "label": "General & administrative",
+      "amount": -12.2
+    },
+    {
+      "label": "Other income",
+      "amount": 5.18
+    },
+    {
+      "label": "Tax",
+      "amount": -4.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.8
+    }
+  ],
+  "follow100Note": "The rows above Kept as profit add to $100; Kept as profit is what was left of each $100 after all costs, other income and tax.",
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Growth held steady",
+      "text": "Revenue rose 13% to $410M, and ARR \u2014 the annualized value of subscription contracts \u2014 rose 12% to $1.938B, with $37M of net new ARR. Existing customers expanded their spending at a 109% net retention rate."
+    },
+    {
+      "stat": "80%",
+      "statColor": "#3d7bc8",
+      "title": "High margins, one soft spot",
+      "text": "Gross margin was 80%. Licenses and subscriptions are very profitable to deliver; professional services is not \u2014 it brought in $20M and cost $39M to deliver, a loss-making line that grew 82%."
+    },
+    {
+      "stat": "$32M",
+      "statColor": "#3e8e5a",
+      "title": "Back to GAAP profit",
+      "text": "Operating income was $32M, vs a $20M loss a year ago, because revenue grew while total operating expenses fell 6% to $298M. Net income was $36M. On the company's non-GAAP basis (leaving out $45M of stock pay and other items), operating income was $89M."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses include $45.0M of stock-based compensation and $5.0M of restructuring costs in the quarter \u2014 the main reasons GAAP operating income ($32M) is well below the company's non-GAAP figure ($89M).",
+    "General and administrative costs include a $0.8M increase in the fair value of contingent consideration owed on past acquisitions."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000047/path-2026731xex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000050/path-20260731.htm"
+    }
+  ]
+}

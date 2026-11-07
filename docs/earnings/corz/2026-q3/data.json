@@ -1,0 +1,188 @@
+{
+  "ticker": "CORZ",
+  "company": "Core Scientific",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+187%",
+  "adapted": true,
+  "adaptation": "Standard layout adapted: the chart anchors on total money in (revenue $232.9M + non-cash warrant fair-value gain $1,034.4M = $1,267.2M) because the warrant gain is 4.4x revenue and a revenue-scaled chart cannot draw it. Net interest and other expense ($35.1M) is grouped with operating expenses, so the chart's operating line is the reported pre-tax income. Balance checks on the adapted model: total money in = left after direct costs + cost of revenue ($1,267.2M = $1,157.6M + $109.6M); left after direct costs = pre-tax income + operating expenses ($1,157.6M = $1,071.6M + $86.0M); pre-tax income - tax = net income ($1,071.6M + $106.5M tax benefit = $1,178.1M). Reported figures are unchanged: revenue $232.9M, gross profit $123.3M, operating income $72.4M, net income $1,178.1M.",
+  "verdict": "Core Scientific's colocation revenue surged as AI data centers came online, lifting revenue 187% to $233M \u2014 while a $1.0B non-cash warrant gain turned the bottom line into a $1.18B profit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+187%",
+      "note": "Revenue was $233M, vs $81M a year ago"
+    },
+    {
+      "label": "Colocation revenue",
+      "value": "$215M",
+      "note": "Up nearly 60% from last quarter; 485 MW billing at quarter end"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.47",
+      "note": "Basic EPS was $3.42 \u2014 diluted is far lower because warrant holders share the gain"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$134M",
+      "note": "57% margin \u2014 more than tripled from last quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Colocation revenue",
+      "amountM": 215.432,
+      "note": "Renting high-density data center space to AI customers \u2014 now 93% of revenue. Up from $15.0M a year ago as billing megawatts reached 485 MW.",
+      "yoy": "+1,341%"
+    },
+    {
+      "name": "Digital asset self-mining",
+      "amountM": 12.263,
+      "note": "Mining Bitcoin for its own account at its remaining mining sites. Down 79% YoY as sites convert to colocation.",
+      "yoy": "-79%"
+    },
+    {
+      "name": "Digital asset hosted mining",
+      "amountM": 5.171,
+      "note": "Hosting other miners' machines. Down 41% YoY.",
+      "yoy": "-41%"
+    },
+    {
+      "name": "Warrant fair-value gain",
+      "amountM": 1034.358,
+      "note": "A paper gain: Core Scientific's warrant liabilities fell in value as its share price moved, so accounting rules book a gain. No cash arrived, and it reverses if the share price rises. Shown as a source because it dwarfs everything else this quarter.",
+      "yoy": "non-cash"
+    }
+  ],
+  "flow": {
+    "revenueM": 1267.224,
+    "costOfRevenueM": 109.594,
+    "grossProfitM": 1157.63,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 45.555,
+        "note": "Running the company \u2014 the biggest ordinary running cost."
+      },
+      {
+        "name": "Interest & other expense, net",
+        "amountM": 35.084,
+        "note": "Interest expense, net, of $35.0M plus $0.04M of other expense. Core Scientific reports this below its operating result; in this adapted layout it is grouped with operating expenses so the operating line equals reported pre-tax income."
+      },
+      {
+        "name": "Colocation startup costs",
+        "amountM": 12.932,
+        "note": "Organizing and starting up new colocation sites as they are built and converted.",
+        "compact": true,
+        "shortName": "Colocation startup"
+      },
+      {
+        "name": "Disposal, remeasurement & advisor costs",
+        "amountM": 11.699,
+        "note": "A $5.3M loss on disposing of equipment, a $1.5M write-down of assets held for sale, and $4.8M of advisor fees, including merger-related advice.",
+        "compact": true,
+        "shortName": "Disposal & advisor"
+      },
+      {
+        "name": "Gain on fair value of digital assets",
+        "amountM": -19.264,
+        "note": "A gain as the digital assets Core Scientific holds rose in value \u2014 it reduced operating expenses on paper."
+      }
+    ],
+    "operatingIncomeM": 1071.624,
+    "otherIncomeM": 0,
+    "taxM": -106.506,
+    "netIncomeM": 1178.13
+  },
+  "otherDetail": "Interest and other items are grouped with operating expenses in this adapted layout (see the Interest & other expense line) \u2014 net interest and other expense was $35.1M, and the $1,034.4M warrant gain is shown as a source at the left of the chart.",
+  "follow100": [
+    {
+      "label": "Colocation",
+      "amount": 17.0
+    },
+    {
+      "label": "Self-mining",
+      "amount": 0.97
+    },
+    {
+      "label": "Hosted mining",
+      "amount": 0.41
+    },
+    {
+      "label": "Warrant gain (non-cash)",
+      "amount": 81.62
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -8.65
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -3.59
+    },
+    {
+      "label": "Interest & other expense",
+      "amount": -2.77
+    },
+    {
+      "label": "Colocation startup costs",
+      "amount": -1.02
+    },
+    {
+      "label": "Disposal, remeasurement & advisor",
+      "amount": -0.92
+    },
+    {
+      "label": "Digital asset fair-value gain",
+      "amount": 1.52
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 8.4
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 92.97
+    }
+  ],
+  "follow100Note": "Adapted for Core Scientific: this table is per $100 of total money in (revenue + the warrant gain), not per $100 of revenue \u2014 per $100 of revenue alone, the warrant gain would be about $444 and the table would be meaningless. On revenue alone, net income was $506 per $100 of revenue, again only because of the paper gain and tax benefit.",
+  "footerNote": "Adapted layout \u2014 see one-time items. Figures in $M to three decimals so the lines add up exactly. Reported operating income was $72M.",
+  "takeaways": [
+    {
+      "stat": "$215M",
+      "statColor": "#3d7bc8",
+      "title": "Colocation is taking over",
+      "text": "Colocation revenue rose nearly 60% in one quarter to $215M \u2014 93% of all revenue \u2014 as 485 MW of capacity was billing at quarter end, representing over $700M of average annualized revenue. Total revenue was $233M, up 187% YoY, and colocation gross margin was 60%."
+    },
+    {
+      "stat": "+$1.03B",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain made the profit",
+      "text": "Net income was $1,178M, but $1,034M of it was a non-cash gain as warrant liabilities fell in value, plus a $107M tax benefit. Strip those out and the operating business earned $72M. That is why diluted EPS ($0.47) is so far below basic EPS ($3.42)."
+    },
+    {
+      "stat": "$134M",
+      "statColor": "#3e8e5a",
+      "title": "The underlying business improved",
+      "text": "Adjusted EBITDA more than tripled from last quarter to $134M, a 57% margin. Self-mining is shrinking fast (revenue down 79% YoY to $12M, at a -61% gross margin) as sites are repurposed for colocation \u2014 the segment mix is now almost entirely AI data centers."
+    }
+  ],
+  "oneTimers": [
+    "Change in fair value of warrants and contingent value rights: +$1,034.4M \u2014 a non-cash paper gain (the warrants Core Scientific owes became cheaper as the share price moved). It is shown as a source in the chart, with the layout adapted and documented, because it is 4.4x revenue. Last quarter the same line was a $1,045.5M loss.",
+    "Income tax was a $106.5M benefit this quarter, mostly deferred \u2014 it added to the bottom line instead of reducing it.",
+    "Digital assets held were marked up by $19.3M (a gain inside operating results), partly offset by a $5.3M loss on disposing of equipment and a $1.5M write-down of assets held for sale."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028/q32026corescientificinc-ea.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000030/core-20260930.htm"
+    }
+  ]
+}

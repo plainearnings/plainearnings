@@ -1,0 +1,178 @@
+{
+  "ticker": "IONQ",
+  "company": "IonQ",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+336%",
+  "adapted": true,
+  "adaptation": "Standard layout adapted: the chart anchors on total money in (revenue $173.8M + non-cash warrant fair-value gain $896.2M = $1,070.0M) because IonQ's costs alone are 3.5x revenue and the warrant gain is 5.2x revenue \u2014 a revenue-scaled chart cannot draw either. Other expense, net ($59.2M) is grouped with operating expenses, so the chart's operating line plus interest, net, equals reported pre-tax income. Balance checks on the adapted model: total money in = left after direct costs + cost of revenue ($1,070.0M = $934.2M + $135.8M); left after direct costs = adapted operating result + operating expenses ($934.2M = $403.9M + $530.3M); adapted operating result + other income - tax = net income ($403.9M + $17.5M + $141.7M tax benefit = $563.1M). Reported figures are unchanged: revenue $173.8M, operating loss -$433.1M, net income $563.1M.",
+  "verdict": "IonQ's revenue jumped 336% to $174M on quantum computer deployments and its new SkyWater foundry business \u2014 and while operations lost $433M, a $896M non-cash warrant gain produced a $564M GAAP profit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+336%",
+      "note": "Revenue was $174M \u2014 a sixth straight record quarter"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.35",
+      "note": "Basic EPS was $1.42 \u2014 both reflect the non-cash warrant gain; adjusted EPS was -$0.29"
+    },
+    {
+      "label": "Backlog (RPO)",
+      "value": "$1.2B",
+      "note": "Remaining performance obligations more than doubled"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "-$134M",
+      "note": "A loss on the company's own measure, which strips out the warrant gain and stock pay"
+    }
+  ],
+  "segments": [
+    {
+      "name": "IonQ Platform",
+      "amountM": 90.315,
+      "note": "Quantum computers, networking, sensing and security \u2014 including global deployments of Tempo systems. Up 127% YoY (all of last year's revenue was this segment).",
+      "yoy": "+127%"
+    },
+    {
+      "name": "SkyWater Foundry Services",
+      "amountM": 83.516,
+      "note": "Chip foundry services from SkyWater, acquired in the quarter \u2014 $53.8M of CMOS foundry work and $29.8M of quantum foundry and advanced technologies. A brand-new segment.",
+      "yoy": "new"
+    },
+    {
+      "name": "Warrant fair-value gain",
+      "amountM": 896.156,
+      "note": "A paper gain: IonQ's warrant liabilities fell in value as its share price moved, so accounting rules book a gain. No cash arrived, and it reverses if the share price rises. Shown as a source because it is what turned a big operating loss into a GAAP profit.",
+      "yoy": "non-cash"
+    }
+  ],
+  "flow": {
+    "revenueM": 1069.987,
+    "costOfRevenueM": 135.804,
+    "grossProfitM": 934.183,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 153.264,
+        "note": "Running the company \u2014 the biggest running cost this quarter, up 86% YoY as IonQ absorbed acquisitions."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 141.67,
+        "note": "Building quantum computers, networking, sensing and security products. More than doubled YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 127.642,
+        "note": "Spreading the cost of equipment and acquired technology over their lives \u2014 up more than 5x YoY after the SkyWater deal."
+      },
+      {
+        "name": "Other expense, net",
+        "amountM": 59.198,
+        "note": "Other expense IonQ reports below its operating result \u2014 grouped with operating expenses in this adapted layout so the operating line ties to reported pre-tax income."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 48.526,
+        "note": "Selling quantum systems and services. More than tripled YoY."
+      }
+    ],
+    "operatingIncomeM": 403.883,
+    "otherIncomeM": 17.529,
+    "taxM": -141.702,
+    "netIncomeM": 563.114
+  },
+  "otherDetail": "Interest income, net, of $19.8M less $2.3M of interest expense, net +$17.5M. The $59.2M of other expense is grouped with operating expenses in this adapted layout, and the $896.2M warrant gain is shown as a source at the left of the chart.",
+  "follow100": [
+    {
+      "label": "IonQ Platform",
+      "amount": 8.44
+    },
+    {
+      "label": "SkyWater Foundry",
+      "amount": 7.81
+    },
+    {
+      "label": "Warrant gain (non-cash)",
+      "amount": 83.75
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -12.69
+    },
+    {
+      "label": "General & administrative",
+      "amount": -14.32
+    },
+    {
+      "label": "Research & development",
+      "amount": -13.24
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -11.93
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -5.53
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -4.54
+    },
+    {
+      "label": "Other income",
+      "amount": 1.64
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 13.24
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 52.63
+    }
+  ],
+  "follow100Note": "Adapted for IonQ: this table is per $100 of total money in (revenue + the warrant gain), not per $100 of revenue \u2014 per $100 of revenue alone, the warrant gain would be about $516 and costs about $349, and the table would be meaningless.",
+  "footerNote": "Adapted layout \u2014 see one-time items. Figures in $M to three decimals so the lines add up exactly. Reported operating result was a $433M loss.",
+  "takeaways": [
+    {
+      "stat": "+336%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue quadrupled, backlog doubled",
+      "text": "Revenue rose 336% to $173.8M \u2014 IonQ Platform up 127% to $90.3M on Tempo deployments, plus $83.5M from the newly acquired SkyWater foundry. Remaining performance obligations more than doubled to $1.2B, and full-year revenue guidance was raised to $505-515M."
+    },
+    {
+      "stat": "-$433M",
+      "statColor": "#cf5f4e",
+      "title": "Operations are still deeply loss-making",
+      "text": "The reported operating loss was $433M: total operating costs of $607M against $174M of revenue, including $149M of stock pay and $128M of depreciation and amortization. On the company's own adjusted basis, the EBITDA loss was $134M."
+    },
+    {
+      "stat": "+$896M",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain made the profit",
+      "text": "Net income was $563M only because warrant liabilities fell in value by $896M \u2014 a non-cash accounting gain \u2014 plus a $142M tax benefit. A year ago the same warrant line was an $882M loss. Cash, equivalents and investments were $1.7B at quarter end, $3.7B pro forma for October's equity raise."
+    }
+  ],
+  "oneTimers": [
+    "Gain on change in fair value of warrant liabilities: +$896.2M \u2014 a non-cash paper gain (the warrants IonQ owes became cheaper as the share price moved). It is shown as a source in the chart, with the layout adapted and documented, because it is 5.2x revenue.",
+    "Income tax was a $141.7M benefit this quarter, mostly deferred \u2014 it added to the bottom line instead of reducing it.",
+    "Stock-based compensation was $148.6M in the quarter, and the SkyWater acquisition closed in the quarter, adding a whole foundry segment (and its costs) that was not there a year ago. Elisity was acquired on November 3, after quarter end, for about $1.3B."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526449779/ionq-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526449829/ionq-20260930.htm"
+    }
+  ]
+}

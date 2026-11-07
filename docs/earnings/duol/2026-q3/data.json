@@ -1,0 +1,176 @@
+{
+  "ticker": "DUOL",
+  "company": "Duolingo",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+14%",
+  "verdict": "Duolingo grew daily users 29% and revenue 14% to $309M, but heavier research spending and stock pay trimmed net income to $27M \u2014 and a year ago the bottom line was flattered by a one-time $223M tax benefit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "Revenue was $309M, vs $272M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.54",
+      "note": "vs $5.95 a year ago \u2014 that quarter included a one-time $223M tax benefit"
+    },
+    {
+      "label": "Daily active users",
+      "value": "64.9M",
+      "note": "Up 29% YoY \u2014 growth accelerated for a second straight quarter"
+    },
+    {
+      "label": "Paid subscribers",
+      "value": "13.1M",
+      "note": "Up 14% YoY at quarter end"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscriptions",
+      "amountM": 269.985,
+      "note": "Paid plans (Super, and the Max tier being wound down) \u2014 by far the biggest money-maker. Up 18% as paid subscribers reached 13.1M.",
+      "yoy": "+18%"
+    },
+    {
+      "name": "Advertising",
+      "amountM": 20.82,
+      "note": "Ads shown to free users. Roughly flat, down 1%.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Duolingo English Test",
+      "amountM": 9.854,
+      "note": "The company's online English proficiency exam, accepted by universities. Up 2%.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "In-app purchases",
+      "amountM": 6.88,
+      "note": "One-off purchases inside the app, like gems and boosts. Down 38%.",
+      "yoy": "-38%"
+    },
+    {
+      "name": "Other",
+      "amountM": 1.468,
+      "note": "Everything else. Small, but more than tripled.",
+      "yoy": "+221%"
+    }
+  ],
+  "flow": {
+    "revenueM": 309.007,
+    "costOfRevenueM": 83.875,
+    "grossProfitM": 225.132,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 107.748,
+        "note": "Building and improving the app and its AI features \u2014 the biggest running cost, up 30% YoY, including $32M of stock pay."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 42.156,
+        "note": "Winning new learners. Up 20% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 51.032,
+        "note": "Running the company \u2014 finance, legal and admin. Up 16% YoY."
+      }
+    ],
+    "operatingIncomeM": 24.196,
+    "otherIncomeM": 11.371,
+    "taxM": 8.402,
+    "netIncomeM": 27.165
+  },
+  "otherDetail": "Interest income of $12.4M on the cash pile, less $1.1M of other expense, net.",
+  "follow100": [
+    {
+      "label": "Subscriptions",
+      "amount": 87.36
+    },
+    {
+      "label": "Advertising",
+      "amount": 6.74
+    },
+    {
+      "label": "Duolingo English Test",
+      "amount": 3.19
+    },
+    {
+      "label": "In-app purchases",
+      "amount": 2.23
+    },
+    {
+      "label": "Other",
+      "amount": 0.48
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.14
+    },
+    {
+      "label": "Research & development",
+      "amount": -34.87
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -13.64
+    },
+    {
+      "label": "General & administrative",
+      "amount": -16.51
+    },
+    {
+      "label": "Other income",
+      "amount": 3.68
+    },
+    {
+      "label": "Tax",
+      "amount": -2.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.79
+    }
+  ],
+  "follow100Note": "The rows above Kept as profit add to $100; Kept as profit is what was left of each $100 after all costs, other income and tax.",
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "Users are growing faster again",
+      "text": "Daily active users rose 29% to 64.9M \u2014 a second straight quarter of faster growth \u2014 helped by hundreds of small product experiments and game partnerships (Brawl Stars, Eggy Party) that brought in millions of learners. Monthly users reached 153.1M, up 13%."
+    },
+    {
+      "stat": "$309M",
+      "statColor": "#3d7bc8",
+      "title": "Subscriptions do the heavy lifting",
+      "text": "Revenue rose 14% to $309M. Subscriptions were $270M of it, up 18%, while advertising was flat and in-app purchases fell 38%. Bookings \u2014 cash committed by customers \u2014 rose 12% to $316M, and paid subscribers hit 13.1M."
+    },
+    {
+      "stat": "$27M",
+      "statColor": "#5b6b7c",
+      "title": "Profit shrank as spending rose",
+      "text": "Net income fell to $27M from $292M a year ago \u2014 but that year-ago figure included a one-time $223M tax benefit. The real story is cost: operating expenses rose 24% to $201M, including $49M of stock pay, so operating profit fell to $24M. The company's Adjusted EBITDA was $79M, a 25.5% margin."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter (Q3 2025) included a one-time $222.7M income-tax benefit from releasing a valuation allowance on deferred tax assets \u2014 that is why net income then was $292M and EPS was $5.95. This quarter's $27M profit has no such boost.",
+    "Research and development includes a $1.6M impairment of capitalized software, and stock-based compensation across the company was $49M in the quarter \u2014 a real cost to shareholders even though no cash left the building."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter (SEC EDGAR, Ex-99.2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm"
+    }
+  ]
+}
