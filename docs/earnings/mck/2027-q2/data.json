@@ -1,0 +1,155 @@
+{
+  "ticker": "MCK",
+  "company": "McKesson",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+8%",
+  "verdict": "McKesson moved $111B of medicines through its warehouses in one quarter and kept $1.2B \u2014 profit rose 10% as oncology distribution grew 24% and buybacks lifted EPS 17%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$111.0B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$10.44",
+      "note": "+17% vs $8.92 a year ago (adjusted: $11.68)"
+    },
+    {
+      "label": "Oncology & Multispecialty",
+      "value": "$15.0B",
+      "note": "revenue +24% YoY \u2014 the growth engine"
+    },
+    {
+      "label": "Gross margin",
+      "value": "3.6%",
+      "note": "distribution economics: a thin slice of a huge flow"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North American Pharmaceutical",
+      "amountM": 91360,
+      "yoy": "+6%",
+      "note": "Distributing prescription drugs to pharmacies, hospitals and clinics across North America \u2014 one of the largest drug wholesaling operations in the world."
+    },
+    {
+      "name": "Oncology & Multispecialty",
+      "amountM": 14980,
+      "yoy": "+24%",
+      "note": "Supplying cancer and specialty clinics with high-value drugs and related services \u2014 the fastest-growing part of McKesson."
+    },
+    {
+      "name": "Medical-Surgical Solutions",
+      "amountM": 3097,
+      "yoy": "+5%",
+      "note": "Surgical and medical supplies for doctor offices and other care sites. McKesson plans to spin this segment off as its own company."
+    },
+    {
+      "name": "Prescription Technology Solutions",
+      "amountM": 1520,
+      "yoy": "+10%",
+      "note": "Software and services that help patients get approved for, afford and stay on specialty medicines."
+    }
+  ],
+  "flow": {
+    "revenueM": 110957,
+    "costOfRevenueM": 107001,
+    "grossProfitM": 3956,
+    "opex": [
+      {
+        "name": "Selling, distribution, general & administrative",
+        "amountM": 2269,
+        "note": "Warehouses, delivery fleets, sales and back office for moving $111B of product."
+      },
+      {
+        "name": "Restructuring & impairment, net",
+        "amountM": 83,
+        "note": "$85M of restructuring, impairment and related charges, less a $2M net credit on claims and litigation."
+      }
+    ],
+    "operatingIncomeM": 1604,
+    "otherIncomeM": -42,
+    "equityM": -78,
+    "taxM": 266,
+    "netIncomeM": 1218
+  },
+  "otherDetail": "Other income of $63M, less $105M of interest expense.",
+  "follow100": [
+    {
+      "label": "North American Pharmaceutical",
+      "amount": 82.34
+    },
+    {
+      "label": "Oncology & Multispecialty",
+      "amount": 13.5
+    },
+    {
+      "label": "Medical-Surgical Solutions",
+      "amount": 2.79
+    },
+    {
+      "label": "Prescription Technology Solutions",
+      "amount": 1.37
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -96.43
+    },
+    {
+      "label": "Selling, distribution, G&A",
+      "amount": -2.04
+    },
+    {
+      "label": "Restructuring & impairment",
+      "amount": -0.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.04
+    },
+    {
+      "label": "Tax",
+      "amount": -0.24
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.1
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. McKesson keeps about $1.10 of every $100 it handles.",
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Oncology is the growth engine",
+      "text": "Oncology & Multispecialty revenue jumped 24% to $15.0B on demand for cancer drugs, while the core North American Pharmaceutical business grew 6% to $91.4B."
+    },
+    {
+      "stat": "$10.44",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks amplify profit growth",
+      "text": "Net income attributable to McKesson rose 10%, but EPS rose 17% \u2014 the diluted share count fell 6% year over year as buybacks shrank the denominator."
+    },
+    {
+      "stat": "3.6%",
+      "statColor": "#5b6b7c",
+      "title": "A thin slice of a giant flow",
+      "text": "Drug distribution runs on razor-thin margins: $107.0B of every $111.0B went straight to buying the medicines, leaving a 3.6% gross margin to run the network and earn from."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm"
+    }
+  ],
+  "footerNote": "Net income of $1,218M is the amount attributable to McKesson; consolidated net income was $1,296M, of which $78M belonged to noncontrolling interests."
+}

@@ -1,0 +1,138 @@
+{
+  "ticker": "MCHP",
+  "company": "Microchip Technology",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+42%",
+  "verdict": "Microchip's sales surged 42% to $1.6B as the long chip downturn ended, and GAAP profit jumped from $42M to $401M as margins snapped back.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.6B",
+      "note": "+42% YoY, +9% vs the prior quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.68",
+      "note": "vs $0.03 a year ago (non-GAAP: $0.97)"
+    },
+    {
+      "label": "Gross margin",
+      "value": "65.9%",
+      "note": "GAAP, vs 55.9% a year ago"
+    },
+    {
+      "label": "Dividends paid",
+      "value": "$248M",
+      "note": "returned to common stockholders in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor products",
+      "amountM": 1622,
+      "yoy": "+42%",
+      "note": "Microcontrollers, analog chips and connectivity products sold into industrial, data center, automotive, aerospace and consumer products. Microchip reports as a single segment; growth was led by industrial and data center demand."
+    }
+  ],
+  "flow": {
+    "revenueM": 1622,
+    "costOfRevenueM": 554,
+    "grossProfitM": 1068,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 319,
+        "note": "Designing the next microcontrollers and analog chips."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 187,
+        "note": "Sales force and back office."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 90,
+        "note": "Accounting write-down of technology bought in past acquisitions \u2014 a non-cash charge excluded from non-GAAP results."
+      },
+      {
+        "name": "Special charges & other",
+        "amountM": 8,
+        "note": "Small one-off charges, net."
+      }
+    ],
+    "operatingIncomeM": 464,
+    "otherIncomeM": -47,
+    "taxM": 16,
+    "netIncomeM": 401
+  },
+  "otherDetail": "Mostly interest expense on Microchip's debt, net of interest income.",
+  "follow100": [
+    {
+      "label": "Semiconductor products",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -34.16
+    },
+    {
+      "label": "Research & development",
+      "amount": -19.67
+    },
+    {
+      "label": "SG&A",
+      "amount": -11.53
+    },
+    {
+      "label": "Amortization of acquired intangibles",
+      "amount": -5.55
+    },
+    {
+      "label": "Special charges",
+      "amount": -0.49
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.9
+    },
+    {
+      "label": "Tax",
+      "amount": -0.99
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.72
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+42%",
+      "statColor": "#3d7bc8",
+      "title": "The downturn is over",
+      "text": "Sales rose 42% year over year and 9% sequentially, above the high end of guidance, with bookings strong and the book-to-bill ratio well above one \u2014 orders exceed shipments."
+    },
+    {
+      "stat": "65.9%",
+      "statColor": "#3e8e5a",
+      "title": "Margins snapped back",
+      "text": "Gross margin recovered to 65.9% from 55.9% a year ago as factories refilled, turning the sales rebound into a fivefold jump in operating income to $464M."
+    },
+    {
+      "stat": "24",
+      "statColor": "#5b6b7c",
+      "title": "Data center design wins doubled",
+      "text": "Microchip's PCIe Gen 6 switch and retimer design wins for AI data centers reached 24, up from 12 a quarter earlier; it also closed the Hailo edge-AI acquisition in September."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000061/exhibit991q2fy27.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's one-decimal presentation ($1,621.5M of net sales), so minor rounding differences may occur. Net income of $401M is before $28M of dividends on Series A preferred stock; $374M was attributable to common stockholders. Non-GAAP EPS was $0.97, excluding amortization and special items."
+}

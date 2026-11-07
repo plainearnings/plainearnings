@@ -1,0 +1,144 @@
+{
+  "ticker": "MAR",
+  "company": "Marriott International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+8%",
+  "verdict": "Marriott's hotel fees jumped 14% as room rates and occupancy rose worldwide, lifting net income 9% to $794M \u2014 even though most of its $7.0B of revenue is pass-through money it handles for hotel owners.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.0B",
+      "note": "+8% YoY (includes $5.1B of pass-through reimbursement)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.04",
+      "note": "+14% vs $2.67 a year ago"
+    },
+    {
+      "label": "Net fee revenue",
+      "value": "$1.5B",
+      "note": "+14% YoY \u2014 the real earnings engine"
+    },
+    {
+      "label": "Worldwide RevPAR",
+      "value": "+6.5%",
+      "note": "revenue per available room, on higher rates and occupancy"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net fee revenues",
+      "amountM": 1489,
+      "yoy": "+14%",
+      "note": "Fees hotels pay Marriott to use its brands and run their properties: $1,007M of franchise fees, $334M of base management fees and $181M of incentive fees, less $33M of contract amortization. This is the money Marriott actually earns."
+    },
+    {
+      "name": "Owned, leased & other revenue",
+      "amountM": 436,
+      "yoy": "+4%",
+      "note": "Revenue from the small number of hotels Marriott owns or leases itself, plus other items."
+    },
+    {
+      "name": "Cost reimbursement revenue",
+      "amountM": 5080,
+      "yoy": "+7%",
+      "note": "Pass-through money: hotels Marriott manages reimburse it for costs it pays on their behalf \u2014 mostly staff wages at those hotels. It is booked as revenue and almost entirely paid straight back out as reimbursed expenses."
+    }
+  ],
+  "flow": {
+    "revenueM": 7005,
+    "costOfRevenueM": 5462,
+    "grossProfitM": 1543,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 214,
+        "note": "Running the corporate side of the world's largest hotel company."
+      },
+      {
+        "name": "Depreciation, amortization & other",
+        "amountM": 55,
+        "note": "Wearing-out cost of Marriott's own assets and systems."
+      }
+    ],
+    "operatingIncomeM": 1274,
+    "otherIncomeM": -215,
+    "equityM": 1,
+    "taxM": 266,
+    "netIncomeM": 794
+  },
+  "otherDetail": "Interest expense of $227M, partly offset by $8M of interest income and $4M of gains and other income; equity in earnings of $1M is shown on its own line in the flow data.",
+  "follow100": [
+    {
+      "label": "Net fee revenues",
+      "amount": 21.26
+    },
+    {
+      "label": "Owned, leased & other",
+      "amount": 6.22
+    },
+    {
+      "label": "Cost reimbursement (pass-through)",
+      "amount": 72.52
+    },
+    {
+      "label": "Direct & pass-through costs",
+      "amount": -77.97
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.05
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -0.79
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.07
+    },
+    {
+      "label": "Equity in earnings",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -3.8
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.33
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Fees are the business",
+      "text": "Net fee revenue rose 14% to $1.5B \u2014 franchise fees alone were $1.0B, up 15%. Marriott mostly collects tolls on other people's hotels rather than owning them."
+    },
+    {
+      "stat": "+6.5%",
+      "statColor": "#3e8e5a",
+      "title": "Hotels were fuller and pricier",
+      "text": "Worldwide revenue per available room rose 6.5% \u2014 up 7.4% in the U.S. & Canada and 4.4% internationally. Net rooms grew 4.6% year over year, with a record pipeline of 634,000 rooms."
+    },
+    {
+      "stat": "$1.3B",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks shrink the share count",
+      "text": "Marriott repurchased 3.5 million shares for $1.3B in the quarter and has returned about $4.0B to shareholders so far this year \u2014 one reason EPS grew 14% while net income grew 9%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000040/mar-2026q3xex99earningsrel.htm"
+    }
+  ],
+  "footerNote": "For a hotel manager, 'cost of revenue' here combines the $5,067M of reimbursed expenses (costs paid on hotel owners' behalf, matching the pass-through revenue) with $395M of owned, leased and other expense. Marriott's own profit comes overwhelmingly from the $1.5B fee stream."
+}

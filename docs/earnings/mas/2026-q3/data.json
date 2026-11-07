@@ -1,0 +1,125 @@
+{
+  "ticker": "MAS",
+  "company": "Masco",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+3%",
+  "verdict": "Masco grew sales 3% and squeezed out much more profit \u2014 net income rose 16% to $230M as plumbing products sold well and margins widened, even with paint sales flat.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.0B",
+      "note": "+3% YoY (+4% excluding a divested business and currency)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.17",
+      "note": "+30% vs $0.90 a year ago"
+    },
+    {
+      "label": "Adjusted operating margin",
+      "value": "17.9%",
+      "note": "up from 15.9% a year ago"
+    },
+    {
+      "label": "Returned to shareholders",
+      "value": "$322M",
+      "note": "dividends and buybacks in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Plumbing Products",
+      "amountM": 1338,
+      "yoy": "+4%",
+      "note": "Faucets, shower systems and fittings (Delta, Hansgrohe, Brizo brands) \u2014 Masco's biggest business, growing 5% in local currency excluding a divested unit."
+    },
+    {
+      "name": "Decorative Architectural Products",
+      "amountM": 628,
+      "yoy": "0%",
+      "note": "Paint and coatings, mostly Behr \u2014 flat versus a year ago as home-improvement demand stayed soft."
+    }
+  ],
+  "flow": {
+    "revenueM": 1966,
+    "costOfRevenueM": 1246,
+    "grossProfitM": 720,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 382,
+        "note": "Selling and back-office costs. The release reports $381M; $1M of rounding in the reported millions is absorbed here so the statement foots."
+      }
+    ],
+    "operatingIncomeM": 338,
+    "otherIncomeM": -16,
+    "equityM": -10,
+    "taxM": 82,
+    "netIncomeM": 230
+  },
+  "otherDetail": "Interest expense of $29M, partly offset by $13M of other income, net.",
+  "follow100": [
+    {
+      "label": "Plumbing Products",
+      "amount": 68.06
+    },
+    {
+      "label": "Decorative Architectural Products",
+      "amount": 31.94
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -63.38
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.81
+    },
+    {
+      "label": "Tax",
+      "amount": -4.17
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.7
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Plumbing carries the growth",
+      "text": "Plumbing Products sales rose 4% to $1.3B (5% in local currency before a divestiture), while paint and coatings were flat at $628M."
+    },
+    {
+      "stat": "17.9%",
+      "statColor": "#3e8e5a",
+      "title": "Margins did the heavy lifting",
+      "text": "Adjusted operating margin widened to 17.9% from 15.9% a year ago \u2014 pricing and cost discipline turned 3% sales growth into 23% adjusted EPS growth."
+    },
+    {
+      "stat": "$322M",
+      "statColor": "#5b6b7c",
+      "title": "Cash keeps flowing back",
+      "text": "Masco returned $322M to shareholders in the quarter through dividends and share repurchases."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000032/a930268-kex99.htm"
+    }
+  ],
+  "footerNote": "Net income of $230M is the amount attributable to Masco; consolidated net income was $240M, with $10M belonging to noncontrolling interests."
+}
