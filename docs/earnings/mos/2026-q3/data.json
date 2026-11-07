@@ -1,0 +1,148 @@
+{
+  "ticker": "MOS",
+  "company": "Mosaic",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "-10%",
+  "verdict": "Mosaic swung to a $72M loss as phosphate margins collapsed \u2014 it lost money on every tonne of phosphate sold \u2014 while its potash mines stayed solidly profitable.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.1B",
+      "note": "-10% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.23",
+      "note": "vs +$1.29 a year ago (adjusted EPS: $0.19)"
+    },
+    {
+      "label": "Gross margin",
+      "value": "2.7%",
+      "note": "vs 16.0% a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$324M",
+      "note": "vs $806M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Phosphate",
+      "amountM": 1295,
+      "yoy": "0%",
+      "note": "Phosphate fertilizers made in Florida and Louisiana. Sales held near $1.3B, but the segment lost $194M from operations \u2014 production was cut back to match scarce, expensive sulfur supply."
+    },
+    {
+      "name": "Mosaic Fertilizantes",
+      "amountM": 1163,
+      "yoy": "",
+      "note": "The Brazilian fertilizer production and distribution business. Sales here are the remainder after the two segments Mosaic details (its release rounds Fertilizantes sales to $1.3B including items eliminated in consolidation); the segment lost $21M from operations."
+    },
+    {
+      "name": "Potash",
+      "amountM": 643,
+      "yoy": "-7%",
+      "note": "Potash mined in Saskatchewan and New Mexico \u2014 the profit anchor, with $189M of operating earnings and a $97 gross margin per tonne."
+    }
+  ],
+  "flow": {
+    "revenueM": 3101,
+    "costOfRevenueM": 3017,
+    "grossProfitM": 84,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 124,
+        "note": "Selling fertilizer worldwide and running the company."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 57,
+        "note": "Other operating costs, including items tied to idled or curtailed phosphate capacity."
+      }
+    ],
+    "operatingIncomeM": -97,
+    "otherIncomeM": -7,
+    "equityM": -6,
+    "taxM": -38,
+    "netIncomeM": -72
+  },
+  "otherDetail": "Net interest expense of $60M, partly offset by a $38M foreign-currency transaction gain and $15M of other income.",
+  "oneTimers": [
+    "Phosphate economics were the story: the segment's gross margin was negative $105 per tonne in the quarter (vs +$92 a year ago) as sulfur \u2014 a key input Mosaic must buy \u2014 stayed scarce and expensive, and Mosaic curtailed production to match. Adjusted EPS of $0.19 excludes notable items including the currency gain."
+  ],
+  "follow100": [
+    {
+      "label": "Phosphate",
+      "amount": 41.76
+    },
+    {
+      "label": "Mosaic Fertilizantes & other",
+      "amount": 37.5
+    },
+    {
+      "label": "Potash",
+      "amount": 20.74
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -97.29
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.0
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -1.84
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.23
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.23
+    },
+    {
+      "label": "Noncontrolling interests, net",
+      "amount": -0.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -2.32
+    }
+  ],
+  "follow100Note": "A loss quarter: Mosaic spent $2.32 more per $100 of sales than it kept \u2014 the shortfall was covered by cash on hand. The tax line is a benefit (money back).",
+  "takeaways": [
+    {
+      "stat": "-$105",
+      "statColor": "#3d7bc8",
+      "title": "Phosphate lost money per tonne",
+      "text": "Phosphate gross margin swung from +$92 to -$105 per tonne in a year as sulfur costs spiked and prices lagged. The segment lost $194M from operations."
+    },
+    {
+      "stat": "$189M",
+      "statColor": "#3e8e5a",
+      "title": "Potash paid the bills",
+      "text": "Potash earned $189M from operations on $643M of sales \u2014 a reminder that Mosaic's two nutrient businesses can move in opposite directions."
+    },
+    {
+      "stat": "2.7%",
+      "statColor": "#5b6b7c",
+      "title": "Almost no cushion at the top line",
+      "text": "Consolidated gross margin was just 2.7% (from 16.0%), so ordinary running costs were enough to push the quarter into a loss despite a $38M currency gain and a $38M tax benefit."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000139/pressreleaseq32026-ex991.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's one-decimal presentation, with minor rounding absorbed in the small lines. The tax line is a $38M benefit. Net loss attributable to Mosaic was $72M; the consolidated loss was $65M, with $7M of profit attributable to noncontrolling interests."
+}

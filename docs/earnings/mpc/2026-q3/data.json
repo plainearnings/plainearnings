@@ -1,0 +1,153 @@
+{
+  "ticker": "MPC",
+  "company": "Marathon Petroleum",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+58%",
+  "verdict": "Marathon Petroleum had a windfall quarter: refining margins nearly tripled to $45.70 a barrel, its refineries ran flat-out, and net income quintupled to $7.4B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$56.5B",
+      "note": "+58% YoY on high prices and volumes"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$26.59",
+      "note": "vs $4.51 a year ago (adjusted: $26.93)"
+    },
+    {
+      "label": "Refining margin",
+      "value": "$45.70/bbl",
+      "note": "vs $17.60 a year ago \u2014 the whole story"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$11.7B",
+      "note": "vs $3.2B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Sales & other operating revenues",
+      "amountM": 56032,
+      "yoy": "+61%",
+      "note": "Selling gasoline, diesel, jet fuel and other products from the largest U.S. refining system \u2014 3.2 million barrels a day of throughput at 100% utilization, at much higher prices."
+    },
+    {
+      "name": "Income from equity investments",
+      "amountM": 359,
+      "yoy": "",
+      "note": "Marathon's share of profit from ventures it part-owns \u2014 down from $976M a year ago, when it included larger midstream-related gains."
+    },
+    {
+      "name": "Other income",
+      "amountM": 96,
+      "yoy": "",
+      "note": "Small other income items."
+    }
+  ],
+  "flow": {
+    "revenueM": 56487,
+    "costOfRevenueM": 43795,
+    "grossProfitM": 12692,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1100,
+        "note": "Running the refining, marketing and corporate organization."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 836,
+        "note": "Wearing-out cost of refineries, pipelines and terminals."
+      },
+      {
+        "name": "Other taxes",
+        "amountM": 306,
+        "note": "Property and other non-income taxes."
+      }
+    ],
+    "operatingIncomeM": 10450,
+    "otherIncomeM": -287,
+    "equityM": -431,
+    "taxM": 2285,
+    "netIncomeM": 7447
+  },
+  "otherDetail": "Net interest and other financial costs of $287M.",
+  "follow100": [
+    {
+      "label": "Sales & other operating revenues",
+      "amount": 99.19
+    },
+    {
+      "label": "Equity investment income",
+      "amount": 0.64
+    },
+    {
+      "label": "Other income",
+      "amount": 0.17
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -77.53
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.95
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.48
+    },
+    {
+      "label": "Other taxes",
+      "amount": -0.54
+    },
+    {
+      "label": "Interest & financial costs",
+      "amount": -0.51
+    },
+    {
+      "label": "Tax",
+      "amount": -4.05
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.18
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$45.70",
+      "statColor": "#3d7bc8",
+      "title": "Crack spreads exploded",
+      "text": "The refining margin \u2014 what a barrel of crude becomes worth as fuel \u2014 hit $45.70 per barrel versus $17.60 a year ago, on strong demand and tight supply. Refining & Marketing EBITDA rose to $9.9B from $1.8B."
+    },
+    {
+      "stat": "100%",
+      "statColor": "#3e8e5a",
+      "title": "Refineries ran flat-out",
+      "text": "Crude capacity utilization was 100% (from 95%), with 3.2 million barrels a day of throughput \u2014 the system caught the margin wave at full volume."
+    },
+    {
+      "stat": "$7.4B",
+      "statColor": "#5b6b7c",
+      "title": "A market windfall, not a one-off",
+      "text": "Adjusted net income ($7.5B) was barely above GAAP ($7.4B): there was no big asset-sale gain to strip out. The profit came from the market \u2014 which also means it can reverse when spreads normalize."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpcq32026earningsrelease.htm"
+    }
+  ],
+  "footerNote": "Marathon does not break revenue out by segment in its release (segments are reported as adjusted EBITDA: Refining & Marketing $9,895M, Midstream $1,882M, Renewable Diesel $254M), so the chart's sources are its reported revenue lines. Net income attributable to MPC was $7,447M; consolidated net income was $7,878M, with $431M attributable to noncontrolling interests (mainly public holders of MPLX)."
+}

@@ -1,0 +1,163 @@
+{
+  "ticker": "MO",
+  "company": "Altria Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+1%",
+  "verdict": "Altria raised cigarette prices again and it worked: revenue rose 1% to $6.1B despite shipping 4% fewer cigarettes, and profit rose 6% to $2.5B, helped by a $242M gain on its Anheuser-Busch stake.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.1B",
+      "note": "+1.0% YoY (+3.6% net of excise taxes)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.51",
+      "note": "+7% YoY (adjusted: $1.52)"
+    },
+    {
+      "label": "Smokeable operating margin",
+      "value": "64.5%",
+      "note": "adjusted OCI margin \u2014 pricing power in a shrinking market"
+    },
+    {
+      "label": "Full-year guidance",
+      "value": "$5.66\u2013$5.74",
+      "note": "adjusted EPS, raised by management"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Smokeable products",
+      "amountM": 5432,
+      "yoy": "+1%",
+      "note": "Cigarettes (Marlboro above all) and large cigars. Pricing rose; shipment volume fell about 4% after adjusting for trade inventory movements, and discount brands took a bigger share."
+    },
+    {
+      "name": "Oral tobacco products",
+      "amountM": 688,
+      "yoy": "0%",
+      "note": "Moist snuff (Copenhagen, Skoal) and on! nicotine pouches \u2014 flat, as pouch growth offsets declining snuff volumes."
+    },
+    {
+      "name": "All other",
+      "amountM": 12,
+      "yoy": "",
+      "note": "NJOY e-vapor, Horizon and other new-platform activities \u2014 still tiny and mostly research spending."
+    }
+  ],
+  "flow": {
+    "revenueM": 6132,
+    "costOfRevenueM": 2191,
+    "grossProfitM": 3941,
+    "opex": [
+      {
+        "name": "Marketing, administration and research",
+        "amountM": 539,
+        "note": "Marketing brands like Marlboro, running the company and researching reduced-risk products."
+      },
+      {
+        "name": "General corporate expenses",
+        "amountM": 65,
+        "note": "Head-office costs not charged to the segments."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 21,
+        "note": "Write-down of brands and assets bought in past deals."
+      },
+      {
+        "name": "Exit costs",
+        "amountM": 3,
+        "note": "Small exit-related costs."
+      }
+    ],
+    "operatingIncomeM": 3313,
+    "otherIncomeM": -23,
+    "equityM": 4,
+    "taxM": 776,
+    "netIncomeM": 2518
+  },
+  "otherDetail": "Interest and other debt expense of $270M, partly offset by a $242M gain on equity investments (mainly its stake in brewer Anheuser-Busch InBev) and $5M of pension benefit income.",
+  "follow100": [
+    {
+      "label": "Smokeable products",
+      "amount": 88.58
+    },
+    {
+      "label": "Oral tobacco products",
+      "amount": 11.22
+    },
+    {
+      "label": "All other",
+      "amount": 0.2
+    },
+    {
+      "label": "Cost of sales & excise taxes",
+      "amount": -35.73
+    },
+    {
+      "label": "Marketing, administration & research",
+      "amount": -8.79
+    },
+    {
+      "label": "General corporate",
+      "amount": -1.06
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -0.34
+    },
+    {
+      "label": "Exit costs",
+      "amount": -0.05
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -12.65
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 41.06
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Altria keeps about $41 of every $100 it takes in.",
+  "takeaways": [
+    {
+      "stat": "-4%",
+      "statColor": "#3d7bc8",
+      "title": "Fewer cigarettes, more money",
+      "text": "Domestic cigarette shipment volume fell about 4%, but higher prices more than covered it \u2014 smokeable revenue rose 0.8% and segment operating income rose 3.8%."
+    },
+    {
+      "stat": "$242M",
+      "statColor": "#3e8e5a",
+      "title": "The beer stake chipped in",
+      "text": "Altria booked a $242M gain on equity investments, mainly its holding in Anheuser-Busch InBev \u2014 a meaningful slice of the quarter's 6% profit growth."
+    },
+    {
+      "stat": "64.5%",
+      "statColor": "#5b6b7c",
+      "title": "An extraordinary margin",
+      "text": "The smokeable segment converts about 65 cents of every net-of-tax revenue dollar into operating income \u2014 the economics that fund Altria's dividend even as volumes shrink."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000112/exhibit991erq32026.htm"
+    }
+  ],
+  "footerNote": "Altria's 'cost of revenue' here combines $1,500M of cost of sales with $691M of excise taxes on products \u2014 taxes Altria collects in the price of a pack and passes to governments. Net earnings attributable to Altria were $2,518M; consolidated net earnings were $2,514M because a noncontrolling interest absorbed a $4M loss."
+}
