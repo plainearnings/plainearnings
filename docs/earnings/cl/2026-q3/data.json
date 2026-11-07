@@ -1,0 +1,160 @@
+{
+  "ticker": "CL",
+  "company": "Colgate-Palmolive",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "revenueYoY": "+4.6%",
+  "verdict": "Colgate-Palmolive grew sales 4.6% to $5.4B with growth in every product category, and a richer mix lifted gross margin to 60.2% even as it spent much more on advertising.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.4B",
+      "note": "+4.6% YoY; organic sales +3.6%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.94",
+      "note": "+3% YoY; $0.97 on the company's Base Business measure"
+    },
+    {
+      "label": "Gross margin",
+      "value": "60.2%",
+      "note": "up 80 basis points YoY"
+    },
+    {
+      "label": "Latin America sales",
+      "value": "$1.3B",
+      "note": "+12.5% YoY \u2014 the fastest-growing division"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 905,
+      "yoy": "-1.7%",
+      "note": "Toothpaste, toothbrushes and home care in the US and Canada \u2014 the one division that shrank, as volume fell 3.7% and pricing only partly made it back."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1327,
+      "yoy": "+12.5%",
+      "note": "The biggest and fastest-growing division this quarter \u2014 volume, pricing and a 6.5% currency tailwind all helped. Shown $1M above the reported $1,326M so the divisions add exactly to the $5,369M total (the release notes rounding)."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 1130,
+      "yoy": "+1.4%",
+      "note": "Sales across Europe, the Middle East and Africa \u2014 volume and pricing grew, currency took 1.2% back."
+    },
+    {
+      "name": "Asia Pacific",
+      "amountM": 802,
+      "yoy": "+3.5%",
+      "note": "Sales across Asia and the Pacific \u2014 pricing up 2.8% and volume up 1.9%."
+    },
+    {
+      "name": "Hill's Pet Nutrition",
+      "amountM": 1205,
+      "yoy": "+5.6%",
+      "note": "Pet food sold through vets and specialty stores \u2014 22% of all sales, growing on pricing (+3.9%) and volume (+1.8%) even as Colgate exits private-label pet food."
+    }
+  ],
+  "flow": {
+    "revenueM": 5369,
+    "costOfRevenueM": 2136,
+    "grossProfitM": 3233,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 2111,
+        "note": "Selling and running the business \u2014 it includes $775M of advertising, up 15% YoY as Colgate invests behind its brands."
+      },
+      {
+        "name": "Other expense, net",
+        "amountM": 34,
+        "note": "Miscellaneous operating costs outside the main selling and admin line."
+      }
+    ],
+    "operatingIncomeM": 1088,
+    "otherIncomeM": -69,
+    "taxM": 240,
+    "netIncomeM": 779
+  },
+  "otherDetail": "A net $69M cost below operating profit: $62M of interest expense and $24M of non-service pension costs, partly offset by $17M of interest income.",
+  "footerNote": "The flow uses total net income of $779M; after $28M attributable to noncontrolling interests, net income attributable to Colgate-Palmolive was $751M ($0.94 per diluted share). Divisions use the reporting structure adopted in Q1 2026.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 16.86
+    },
+    {
+      "label": "Latin America",
+      "amount": 24.72
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 21.05
+    },
+    {
+      "label": "Asia Pacific",
+      "amount": 14.94
+    },
+    {
+      "label": "Hill's Pet Nutrition",
+      "amount": 22.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -39.79
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -39.32
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.63
+    },
+    {
+      "label": "Interest & pension, net",
+      "amount": -1.29
+    },
+    {
+      "label": "Tax",
+      "amount": -4.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.51
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4.6%",
+      "statColor": "#3d7bc8",
+      "title": "Growth everywhere but North America",
+      "text": "Net sales rose in four of five divisions and in all four product categories. Latin America led at +12.5%; North America fell 1.7% as shoppers bought less, even with prices up 2.2%."
+    },
+    {
+      "stat": "60.2%",
+      "statColor": "#3e8e5a",
+      "title": "Each sale got more profitable",
+      "text": "Gross margin widened 80 basis points to 60.2% \u2014 pricing and cost savings beat the cost of ingredients and packaging. Colgate raised its full-year gross-margin guidance on the strength of it."
+    },
+    {
+      "stat": "$775M",
+      "statColor": "#5b6b7c",
+      "title": "Advertising is the reinvestment",
+      "text": "Advertising jumped 15% to $775M \u2014 the main reason operating margin eased to 20.3% despite the better gross margin. Management is deliberately spending the margin gains on brand support."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000047/q32026pressreleasetables.htm"
+    }
+  ]
+}

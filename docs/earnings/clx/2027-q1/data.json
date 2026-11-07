@@ -1,0 +1,163 @@
+{
+  "ticker": "CLX",
+  "company": "Clorox",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "revenueYoY": "+33%",
+  "verdict": "Clorox sales jumped 33% to $1.9B as retailers rebuilt inventories after last year's ERP disruption and the newly bought GOJO business added about 15 points of growth, more than doubling EPS to $1.39.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$1.9B",
+      "note": "+33% YoY; organic sales +18%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.39",
+      "note": "vs $0.65 a year ago; adjusted EPS $1.55"
+    },
+    {
+      "label": "Health and Wellness sales",
+      "value": "$918M",
+      "note": "+62% YoY \u2014 GOJO (Purell) joined this segment"
+    },
+    {
+      "label": "Gross margin",
+      "value": "40.4%",
+      "note": "down 130 basis points on commodity and logistics costs"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Health and Wellness",
+      "amountM": 918,
+      "yoy": "+62%",
+      "note": "Cleaning products and professional products \u2014 now including GOJO, the maker of Purell hand sanitizer, which contributed about 39 points of this segment's 62% growth."
+    },
+    {
+      "name": "Household",
+      "amountM": 423,
+      "yoy": "+17%",
+      "note": "Glad bags and wraps, Fresh Step cat litter and Kingsford grilling \u2014 growth was all volume, as retailers restocked after the ERP drawdown."
+    },
+    {
+      "name": "Lifestyle",
+      "amountM": 283,
+      "yoy": "+16%",
+      "note": "Hidden Valley Ranch foods, Brita water filtration and Burt's Bees personal care."
+    },
+    {
+      "name": "International",
+      "amountM": 281,
+      "yoy": "+11%",
+      "note": "Sales outside the US \u2014 organic sales up 9%, led by Latin America shipments."
+    }
+  ],
+  "flow": {
+    "revenueM": 1905,
+    "costOfRevenueM": 1135,
+    "grossProfitM": 770,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 290,
+        "note": "Selling the products and running the company \u2014 it includes GOJO integration and transaction costs this quarter."
+      },
+      {
+        "name": "Advertising",
+        "amountM": 190,
+        "note": "Ads for Clorox, Glad, Hidden Valley and the other brands."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 29,
+        "note": "Developing new and improved formulas and products."
+      }
+    ],
+    "operatingIncomeM": 261,
+    "otherIncomeM": -54,
+    "taxM": 34,
+    "netIncomeM": 173
+  },
+  "otherDetail": "Interest expense of $52M and $2M of other expense, net \u2014 interest costs more than doubled YoY as Clorox borrowed around the GOJO acquisition.",
+  "footerNote": "Clorox's fiscal year ends June 30, so this is Q1 of fiscal 2027. The flow uses total net earnings of $173M; after $3M attributable to noncontrolling interests, net earnings attributable to Clorox were $170M ($1.39 per diluted share). Operating income of $261M is gross profit less selling & administrative, advertising and R&D, as presented in Clorox's statement of earnings.",
+  "follow100": [
+    {
+      "label": "Health and Wellness",
+      "amount": 48.19
+    },
+    {
+      "label": "Household",
+      "amount": 22.2
+    },
+    {
+      "label": "Lifestyle",
+      "amount": 14.86
+    },
+    {
+      "label": "International",
+      "amount": 14.75
+    },
+    {
+      "label": "Cost of products sold",
+      "amount": -59.58
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -15.22
+    },
+    {
+      "label": "Advertising",
+      "amount": -9.97
+    },
+    {
+      "label": "Research & development",
+      "amount": -1.52
+    },
+    {
+      "label": "Interest & other",
+      "amount": -2.83
+    },
+    {
+      "label": "Tax",
+      "amount": -1.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.08
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "A rebound quarter, flattered by last year",
+      "text": "About 18 points of the growth was organic \u2014 mostly retailers rebuilding stock after drawing down inventories during last year's ERP system transition, a one-off drag Clorox is now lapping. GOJO added roughly 15 points more."
+    },
+    {
+      "stat": "$918M",
+      "statColor": "#3e8e5a",
+      "title": "GOJO changes the shape of Clorox",
+      "text": "Health and Wellness is now 48% of all sales after the GOJO deal brought Purell's professional hygiene business in-house. Integrating it \u2014 and paying down the debt taken on \u2014 is the story of the next few quarters."
+    },
+    {
+      "stat": "40.4%",
+      "statColor": "#cf5f4e",
+      "title": "Costs are still biting",
+      "text": "Gross margin fell 130 basis points to 40.4% on higher commodity, manufacturing and logistics costs \u2014 including about 50 basis points from writing up GOJO's inventory to fair value. Cost savings and volume only partly offset it."
+    }
+  ],
+  "oneTimers": [
+    "GOJO transaction costs \u2014 mainly integration spending and the inventory step-up (writing acquired stock up to fair value, which then flows through cost of sales) \u2014 weighed on GAAP results; excluding them and similar items, adjusted EPS was $1.55 vs the $1.39 GAAP figure.",
+    "The year-ago quarter was depressed by retailers drawing down inventory built up ahead of Clorox's ERP system transition \u2014 Clorox estimates that comparison added about $0.90 to this quarter's EPS growth rate."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm"
+    }
+  ]
+}

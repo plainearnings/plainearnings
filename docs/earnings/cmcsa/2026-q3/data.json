@@ -1,0 +1,161 @@
+{
+  "ticker": "CMCSA",
+  "company": "Comcast",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "-6.1%",
+  "verdict": "Comcast revenue fell 6.1% to $29.3B against a year-ago quarter boosted by big one-off items \u2014 flat on a like-for-like basis \u2014 as Peacock turned profitable again and broadband kept shrinking slowly.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$29.3B",
+      "note": "-6.1% YoY; +0.5% on a pro forma like-for-like basis"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.97",
+      "note": "+7.2% YoY; adjusted EPS $1.07"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$4.2B",
+      "note": "after $3.1B of capital spending"
+    },
+    {
+      "label": "Peacock",
+      "value": "$1.8B",
+      "note": "revenue, with $261M of Adjusted EBITDA \u2014 its second straight profitable quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Connectivity & Platforms",
+      "amountM": 19663,
+      "yoy": "-2.7%",
+      "note": "Broadband, wireless, video and business services \u2014 Residential brought in $17,018M (-3.5%, as broadband and video customers keep drifting away) and Business Services $2,645M (+2.7%)."
+    },
+    {
+      "name": "Content & Experiences",
+      "amountM": 10537,
+      "yoy": "+6.5%",
+      "note": "Media $5,359M (+13%, including Peacock and $224M of FIFA World Cup revenue), Studios $2,967M (-1.1%, though Universal passed $5B at the global box office) and Theme Parks $2,597M (-4.4%), less $400M of eliminations between them."
+    },
+    {
+      "name": "Corporate, other & eliminations",
+      "amountM": -902,
+      "yoy": "",
+      "note": "Corporate revenue of $341M (overhead businesses, regional sports networks, the Philadelphia Flyers) minus $1,242M of eliminations \u2014 sales between Comcast's own segments that are removed so they are not counted twice, with a $1M rounding difference."
+    }
+  ],
+  "flow": {
+    "revenueM": 29298,
+    "costOfRevenueM": 7515,
+    "grossProfitM": 21783,
+    "opex": [
+      {
+        "name": "Other operating & administrative",
+        "amountM": 10645,
+        "note": "Running the networks, parks and studios day to day \u2014 the biggest running-cost line in Comcast's accounts."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 2385,
+        "note": "Spreading the cost of the cable network, equipment and buildings. Comcast reports depreciation inside operating expenses; it is shown here as its own line so the page ties to reported operating income."
+      },
+      {
+        "name": "Marketing & promotion",
+        "amountM": 2119,
+        "note": "Advertising Xfinity, Peacock, films and parks."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 1314,
+        "note": "Spreading the cost of acquired intangible assets \u2014 down from $1,666M a year ago."
+      }
+    ],
+    "operatingIncomeM": 5320,
+    "otherIncomeM": -874,
+    "taxM": 1084,
+    "netIncomeM": 3362
+  },
+  "otherDetail": "A net $874M cost below operating profit: $962M of interest expense, partly offset by $88M of investment and other income (including $129M of earnings from businesses Comcast part-owns, less a $46M loss on equity securities).",
+  "footerNote": "Programming and production costs ($7,515M) are shown as the cost of revenue \u2014 the direct cost of the content and networks Comcast sells; all other reported cost lines are operating expenses, so the page ties exactly to reported operating income of $5,320M. The flow uses total net income of $3,362M; after an $87M loss attributable to noncontrolling interests, net income attributable to Comcast was $3,448M ($0.97 per diluted share). Pro forma figures adjust last year for the Versant separation (completed Jan 2, 2026) and the sale of Sky Germany (May 31, 2026).",
+  "follow100": [
+    {
+      "label": "Connectivity & Platforms",
+      "amount": 67.12
+    },
+    {
+      "label": "Content & Experiences",
+      "amount": 35.97
+    },
+    {
+      "label": "Corporate, other & eliminations",
+      "amount": -3.08
+    },
+    {
+      "label": "Programming & production",
+      "amount": -25.65
+    },
+    {
+      "label": "Other operating & admin",
+      "amount": -36.33
+    },
+    {
+      "label": "Depreciation",
+      "amount": -8.14
+    },
+    {
+      "label": "Marketing & promotion",
+      "amount": -7.23
+    },
+    {
+      "label": "Amortization",
+      "amount": -4.49
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -2.98
+    },
+    {
+      "label": "Tax",
+      "amount": -3.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.48
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+0.5%",
+      "statColor": "#3d7bc8",
+      "title": "The headline fall is mostly last year's story",
+      "text": "Reported revenue fell 6.1%, but last year's quarter is not comparable \u2014 Versant has been separated and Sky Germany sold. On Comcast's pro forma basis, revenue rose 0.5% and Adjusted EBITDA rose 0.8%."
+    },
+    {
+      "stat": "$261M",
+      "statColor": "#3e8e5a",
+      "title": "Peacock is profitable \u2014 again",
+      "text": "Peacock made $261M of Adjusted EBITDA on $1.8B of revenue, its second straight profitable quarter, helped by the FIFA World Cup. A year ago it lost $217M. Media Adjusted EBITDA more than tripled to $769M."
+    },
+    {
+      "stat": "-3.5%",
+      "statColor": "#cf5f4e",
+      "title": "The cable core keeps eroding",
+      "text": "Residential Connectivity revenue fell 3.5% as broadband and video shrink; wireless is the offset \u2014 368,000 lines added in the quarter, 10.6 million in total \u2014 and Business Services grew 2.7%."
+    }
+  ],
+  "oneTimers": [
+    "GAAP EPS of $0.97 vs adjusted EPS of $1.07: the adjusted figures strip out items Comcast lists in its reconciliation, including amortization of acquisition-related intangibles and other gains and losses it does not count as operating performance."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026066783/ex991-9302026.htm"
+    }
+  ]
+}

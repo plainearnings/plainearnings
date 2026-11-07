@@ -1,0 +1,182 @@
+{
+  "ticker": "CMI",
+  "company": "Cummins",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+13%",
+  "verdict": "Cummins grew revenue 13% to $9.4B and posted record profit margins, powered by data-center demand for its power-generation equipment \u2014 net income more than doubled to $1.14B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$9.4B",
+      "note": "+13% YoY \u2014 North America +15%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$8.25",
+      "note": "vs $3.86 a year ago; includes a $0.54 favorable tax item"
+    },
+    {
+      "label": "EBITDA margin",
+      "value": "18.9%",
+      "note": "a record \u2014 EBITDA of $1.8B"
+    },
+    {
+      "label": "Power Systems sales",
+      "value": "$2.3B",
+      "note": "+15% YoY, at a 25.4% EBITDA margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Engine",
+      "amountM": 2389,
+      "yoy": "+24%",
+      "note": "Engines for trucks and construction equipment \u2014 external sales of $2,389M (total segment sales $3,130M including $741M sold to other Cummins segments). North America revenue rose 21% on stronger truck demand."
+    },
+    {
+      "name": "Components",
+      "amountM": 2397,
+      "yoy": "+21%",
+      "note": "Turbochargers, filters, transmissions and other parts \u2014 external sales of $2,397M (total $2,856M). US truck demand drove North America up 35%."
+    },
+    {
+      "name": "Distribution",
+      "amountM": 3307,
+      "yoy": "+4%",
+      "note": "Selling, servicing and supporting Cummins products worldwide \u2014 the largest slice of external sales, lifted by power-generation demand, especially for data centers."
+    },
+    {
+      "name": "Power Systems",
+      "amountM": 1250,
+      "yoy": "+11%",
+      "note": "Generators and power systems \u2014 external sales of $1,250M (total $2,289M including $1,039M of intersegment sales). The profit star: 25.4% EBITDA margin on data-center demand."
+    },
+    {
+      "name": "Accelera",
+      "amountM": 95,
+      "yoy": "-16%",
+      "note": "The zero-emissions unit \u2014 batteries, hydrogen and electric powertrains. External sales fell to $95M as electrolyzer sales dropped after a strategic review; it lost $56M of EBITDA."
+    }
+  ],
+  "flow": {
+    "revenueM": 9438,
+    "costOfRevenueM": 6823,
+    "grossProfitM": 2615,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 868,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Research, development & engineering",
+        "amountM": 400,
+        "note": "Developing engines and power systems, including the upcoming HELM engine platforms."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 30,
+        "note": "Miscellaneous operating costs \u2014 far below the $247M a year ago, which included Accelera charges."
+      },
+      {
+        "name": "Equity, royalty & interest income from investees",
+        "amountM": -127,
+        "note": "Income, not a cost: earnings from businesses Cummins part-owns, plus royalty and interest income from them \u2014 it offsets operating costs on the way to operating income."
+      }
+    ],
+    "operatingIncomeM": 1444,
+    "otherIncomeM": -24,
+    "taxM": 251,
+    "netIncomeM": 1169
+  },
+  "otherDetail": "A net $24M cost below operating profit: $57M of other income, outweighed by $81M of interest expense.",
+  "footerNote": "Segment figures are external sales (what each segment sold to outside customers); total segment sales including sales between Cummins segments were Engine $3,130M, Components $2,856M, Distribution $3,310M, Power Systems $2,289M and Accelera $103M. The flow uses consolidated net income of $1,169M; after $29M attributable to noncontrolling interests, net income attributable to Cummins was $1,140M ($8.25 per diluted share). Segment YoY is computed from external sales a year ago.",
+  "follow100": [
+    {
+      "label": "Engine",
+      "amount": 25.32
+    },
+    {
+      "label": "Components",
+      "amount": 25.4
+    },
+    {
+      "label": "Distribution",
+      "amount": 35.04
+    },
+    {
+      "label": "Power Systems",
+      "amount": 13.24
+    },
+    {
+      "label": "Accelera",
+      "amount": 1.01
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -72.29
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -9.2
+    },
+    {
+      "label": "Research & engineering",
+      "amount": -4.24
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.32
+    },
+    {
+      "label": "Equity & royalty income",
+      "amount": 1.35
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.25
+    },
+    {
+      "label": "Tax",
+      "amount": -2.66
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.39
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "25.4%",
+      "statColor": "#3d7bc8",
+      "title": "Data centers need power \u2014 Cummins sells it",
+      "text": "Power Systems earned a 25.4% EBITDA margin on $2.3B of total sales, up 15%. Demand for power generation, especially for data centers in the US, China and Asia Pacific, is the strongest thread in the whole quarter."
+    },
+    {
+      "stat": "$8.25",
+      "statColor": "#3e8e5a",
+      "title": "A record quarter, with a tax assist",
+      "text": "Diluted EPS more than doubled to $8.25 \u2014 helped by $0.54 a share of favorable one-off tax items, and by comparison with a year-ago quarter that carried $240M ($1.73 a share) of Accelera write-down charges."
+    },
+    {
+      "stat": "$661M",
+      "statColor": "#5b6b7c",
+      "title": "Cash went back to shareholders",
+      "text": "Cummins returned $661M in dividends and buybacks in the quarter and still expects about 10% revenue growth for the full year, with EBITDA margins around 18.2%."
+    }
+  ],
+  "oneTimers": [
+    "Diluted EPS includes $0.54 per share of favorable discrete tax items \u2014 one-off tax benefits that will not necessarily repeat.",
+    "The year-ago quarter included $240M ($1.73 per diluted share) of non-cash Accelera charges, which is why this quarter's profit growth looks so large."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000035/cmi2026q38-kex99.htm"
+    }
+  ]
+}

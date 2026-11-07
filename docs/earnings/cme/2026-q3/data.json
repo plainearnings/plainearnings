@@ -1,0 +1,187 @@
+{
+  "ticker": "CME",
+  "company": "CME Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+13%",
+  "verdict": "CME Group posted its best-ever third quarter \u2014 revenue up 13% to a record $1.7B \u2014 as volatile markets drove a record 29.4 million contracts a day across its exchanges.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.7B",
+      "note": "+13% YoY \u2014 a Q3 record"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.89",
+      "note": "vs $3.02 adjusted"
+    },
+    {
+      "label": "Average daily volume",
+      "value": "29.4M",
+      "note": "contracts a day \u2014 a Q3 record"
+    },
+    {
+      "label": "Market data revenue",
+      "value": "$243M",
+      "note": "+20% YoY \u2014 also a record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Clearing and transaction fees",
+      "amountM": 1378,
+      "yoy": "+12%",
+      "note": "The toll on trades \u2014 fees for executing and clearing futures and options on CME's exchanges. Traders paid an average of $0.679 per contract."
+    },
+    {
+      "name": "Market data and information services",
+      "amountM": 243,
+      "yoy": "+20%",
+      "note": "Selling the exchange's price data to banks, traders and data vendors \u2014 the fastest-growing line, at a record high."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 116,
+      "yoy": "+8%",
+      "note": "Everything else \u2014 access and connectivity, co-location and other services."
+    }
+  ],
+  "flow": {
+    "revenueM": 1737,
+    "costOfRevenueM": 0,
+    "grossProfitM": 1737,
+    "grossName": "Revenue",
+    "grossNote": "no cost-of-revenue line",
+    "grossPlain": "CME is an exchange, not a manufacturer \u2014 it has no cost-of-revenue line. Every cost of running the markets sits in operating expenses below, so revenue flows straight through to that step.",
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 234,
+        "note": "Pay for the people who run the exchanges \u2014 the biggest cost, and slightly down YoY."
+      },
+      {
+        "name": "Licensing & other fee agreements",
+        "amountM": 104,
+        "note": "Fees CME pays for index licenses and partner agreements \u2014 up 28% YoY with volumes."
+      },
+      {
+        "name": "Technology",
+        "amountM": 81,
+        "note": "Running the trading systems, including the migration to cloud services."
+      },
+      {
+        "name": "Amortization of purchased intangibles",
+        "amountM": 56,
+        "note": "Spreading the cost of past acquisitions over their useful lives."
+      },
+      {
+        "name": "Professional fees & outside services",
+        "amountM": 31,
+        "note": "Outside legal, consulting and other services."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 27,
+        "note": "Spreading the cost of buildings, systems and equipment."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 63,
+        "note": "All remaining running costs. Shown $1M above the reported $62M so the rounded lines add exactly to reported totals (figures are rounded from tenths of $M)."
+      }
+    ],
+    "operatingIncomeM": 1141,
+    "otherIncomeM": 214,
+    "taxM": 318,
+    "netIncomeM": 1037
+  },
+  "otherDetail": "Non-operating income was $213M as reported ($214M with rounding here): $1,418M of investment income \u2014 mostly interest earned for customers on collateral, which is largely passed back to them in the $1,264M of other non-operating expense \u2014 plus $103M of earnings from businesses CME part-owns, less $44M of interest and borrowing costs.",
+  "footerNote": "CME reports no cost-of-revenue line, so \u2014 as with the Mastercard page \u2014 the flow starts from total revenue and every cost is an operating expense. CME reports in tenths of $M (revenue $1,737.3M, expenses $595.9M, operating income $1,141.4M, net income $1,036.9M); lines here are rounded to whole $M and adjusted by $1M where needed so the page ties exactly.",
+  "pngFooterNote": "CME has no cost-of-revenue line; all costs are operating expenses.",
+  "follow100": [
+    {
+      "label": "Clearing & transaction fees",
+      "amount": 79.34
+    },
+    {
+      "label": "Market data",
+      "amount": 13.99
+    },
+    {
+      "label": "Other revenue",
+      "amount": 6.68
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -13.47
+    },
+    {
+      "label": "Licensing & fees",
+      "amount": -5.99
+    },
+    {
+      "label": "Technology",
+      "amount": -4.66
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -3.22
+    },
+    {
+      "label": "Professional fees",
+      "amount": -1.78
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.55
+    },
+    {
+      "label": "Other expenses",
+      "amount": -3.63
+    },
+    {
+      "label": "Other income",
+      "amount": 12.32
+    },
+    {
+      "label": "Tax",
+      "amount": -18.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 59.71
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "29.4M",
+      "statColor": "#3d7bc8",
+      "title": "Record trading, in every asset class",
+      "text": "Average daily volume hit a Q3 record of 29.4 million contracts, with double-digit growth in all six product lines \u2014 interest rates (15.1M a day) and equity indexes (7.7M) are the giants. Uncertainty is good business for an exchange."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3e8e5a",
+      "title": "Data is the quiet growth line",
+      "text": "Market data revenue hit a record $243M, up 20% \u2014 selling prices and data now brings in 14% of revenue and grows even when trading slows."
+    },
+    {
+      "stat": "66%",
+      "statColor": "#5b6b7c",
+      "title": "A toll road's margins",
+      "text": "Operating income was $1,141M \u2014 66 cents of every revenue dollar \u2014 because one more trade costs CME almost nothing to process. Net income rose 14% to $1,037M."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results exclude the items in CME's reconciliation at the end of its release: on an adjusted basis operating income was $1.2B, net income $1.1B and EPS $3.02, vs GAAP EPS of $2.89."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000065/exhibit9919302026.htm"
+    }
+  ]
+}
