@@ -1,0 +1,204 @@
+{
+  "ticker": "EXE",
+  "company": "Expand Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Expand Energy turned 7.54 Bcfe a day of mostly gas production into $519M of profit, helped by $464M of hedging gains and its new Twin Eagle marketing business.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.29B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$2.24",
+      "note": "Adjusted EPS $1.46"
+    },
+    {
+      "label": "Production",
+      "value": "7.54 Bcfe/d",
+      "note": "92% natural gas"
+    },
+    {
+      "label": "Adjusted EBITDAX",
+      "value": "$1,229M",
+      "note": "Non-GAAP operating cash earnings measure"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Natural gas",
+      "amountM": 1553,
+      "yoy": "-3%",
+      "note": "Gas produced from the Haynesville ($783M) and Appalachia ($770M) \u2014 the core product, 92% of production volumes."
+    },
+    {
+      "name": "Marketing",
+      "amountM": 927,
+      "yoy": "+39%",
+      "note": "Buying and selling gas for others and optimizing transport \u2014 boosted by the Twin Eagle acquisition, which closed September 16, 2026."
+    },
+    {
+      "name": "Derivative gains",
+      "amountM": 464,
+      "yoy": "+3%",
+      "note": "Gains on hedging contracts (derivatives) that lock in prices \u2014 a paper-and-cash mix that lifts GAAP revenue but is stripped out of adjusted results."
+    },
+    {
+      "name": "Natural gas liquids",
+      "amountM": 208,
+      "yoy": "+25%",
+      "note": "NGLs such as ethane and propane, all from Southwest Appalachia, on stronger prices."
+    },
+    {
+      "name": "Oil",
+      "amountM": 120,
+      "yoy": "+40%",
+      "note": "Oil production, all from Southwest Appalachia \u2014 small in volume (17 MBbls/d) but high in value per unit."
+    },
+    {
+      "name": "Asset-sale gains & other",
+      "amountM": 14,
+      "yoy": "n/a",
+      "note": "Gains on sales of assets and other revenue items."
+    }
+  ],
+  "flow": {
+    "revenueM": 3286,
+    "costOfRevenueM": 1795,
+    "grossProfitM": 1491,
+    "opex": [
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 750,
+        "note": "Spreading the cost of wells and reserves as the gas is produced \u2014 the producer's biggest non-cash cost."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 50,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 29,
+        "note": "Miscellaneous operating costs, net."
+      },
+      {
+        "name": "Exploration",
+        "amountM": 19,
+        "note": "Looking for the next drilling locations."
+      },
+      {
+        "name": "Separation & termination costs",
+        "amountM": 3,
+        "note": "Costs tied to organizational separation and terminations."
+      }
+    ],
+    "operatingIncomeM": 640,
+    "otherIncomeM": -32,
+    "taxM": 89,
+    "netIncomeM": 519
+  },
+  "otherDetail": "Other expense of $32M, net: $44M of interest expense, partly offset by $12M of other income.",
+  "follow100": [
+    {
+      "label": "Natural gas",
+      "amount": 47.26
+    },
+    {
+      "label": "Marketing",
+      "amount": 28.21
+    },
+    {
+      "label": "Derivative gains",
+      "amount": 14.12
+    },
+    {
+      "label": "Natural gas liquids",
+      "amount": 6.33
+    },
+    {
+      "label": "Oil",
+      "amount": 3.65
+    },
+    {
+      "label": "Asset-sale gains & other",
+      "amount": 0.43
+    },
+    {
+      "label": "Production, gathering & marketing costs",
+      "amount": -54.63
+    },
+    {
+      "label": "Depreciation, depletion & amortization",
+      "amount": -22.82
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.52
+    },
+    {
+      "label": "Other operating expense, net",
+      "amount": -0.88
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.58
+    },
+    {
+      "label": "Separation & termination costs",
+      "amount": -0.09
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -0.97
+    },
+    {
+      "label": "Tax",
+      "amount": -2.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.8
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "7.54 Bcfe/d",
+      "statColor": "#3d7bc8",
+      "title": "Production at the high end",
+      "text": "Output averaged 7.54 billion cubic feet equivalent per day \u2014 6.9 Bcf/d of gas plus 17 MBbls/d of oil and 87 MBbls/d of NGLs \u2014 at the high end of full-year guidance. Hedging improved realized prices by $0.46 per Mcfe."
+    },
+    {
+      "stat": "$1.46",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS tells the steadier story",
+      "text": "Adjusted net income was $338M, or $1.46 a share, versus $519M and $2.24 GAAP \u2014 the gap is mostly the $464M of derivative gains that adjusted results remove. Adjusted EBITDAX was $1,229M."
+    },
+    {
+      "stat": "$900M",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks and a low debt load",
+      "text": "Expand repurchased $305M of stock in the quarter, about $900M year to date (roughly 4% of shares). Net debt was $4.7B, or 0.8x leverage, and the quarterly dividend is $0.575 a share."
+    }
+  ],
+  "oneTimers": [
+    "Derivative gains of $464M are included in GAAP revenue; adjusted results exclude them, which explains most of the gap between GAAP net income ($519M) and adjusted net income ($338M).",
+    "The Twin Eagle Holdings acquisition closed on September 16, 2026, adding marketing and midstream capabilities \u2014 and $349M of goodwill and $1.1B of intangible assets \u2014 so only about two weeks of it sit in this quarter."
+  ],
+  "footerNote": "Energy layout: production costs ($168M), gathering, processing and transportation ($678M), marketing costs ($888M) and severance and ad valorem taxes ($61M) are treated as the cost of revenue; depreciation, depletion and amortization sits in operating expenses with exploration and G&A, mirroring Expand Energy's statement of operations in its Q3 2026 Form 10-Q. Total revenues and other of $3,286M include derivative and asset-sale gains, as reported.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm"
+    }
+  ]
+}

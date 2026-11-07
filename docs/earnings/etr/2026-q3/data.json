@@ -1,0 +1,194 @@
+{
+  "ticker": "ETR",
+  "company": "Entergy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Entergy rode a hot summer and fast-growing industrial demand to a 15% revenue jump and $940M of profit, and raised the floor of its full-year outlook.",
+  "revenueYoY": "+14.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.37B",
+      "note": "+14.5% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$1.98",
+      "note": "Same as adjusted EPS; vs $1.53 a year ago"
+    },
+    {
+      "label": "Utility earnings",
+      "value": "$1,079M",
+      "note": "Up from $810M a year ago"
+    },
+    {
+      "label": "2026 adjusted EPS guidance",
+      "value": "$4.35\u2013$4.45",
+      "note": "Narrowed, bottom raised $0.10"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 1839,
+      "yoy": "+17%",
+      "note": "Homes across Arkansas, Louisiana, Mississippi and Texas \u2014 a hot summer meant more air conditioning and higher bills."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 1028,
+      "yoy": "+11%",
+      "note": "Shops, offices and other businesses buying electricity."
+    },
+    {
+      "name": "Industrial",
+      "amountM": 1085,
+      "yoy": "+7%",
+      "note": "Factories, refineries and fast-ramping data centers and primary-metals customers \u2014 industrial sales volumes rose 4.9% in the quarter."
+    },
+    {
+      "name": "Other electric revenues",
+      "amountM": 192,
+      "yoy": "+158%",
+      "note": "Regulatory and other electric revenues outside the main customer classes, including rate-related credits and adjustments."
+    },
+    {
+      "name": "Sales for resale",
+      "amountM": 117,
+      "yoy": "+7%",
+      "note": "Wholesale electricity sold to other utilities and power markets."
+    },
+    {
+      "name": "Governmental & other",
+      "amountM": 104,
+      "yoy": "+7%",
+      "note": "Government customers ($81M) plus other utility and miscellaneous revenues ($23M)."
+    }
+  ],
+  "flow": {
+    "revenueM": 4365,
+    "costOfRevenueM": 1190,
+    "grossProfitM": 3175,
+    "opex": [
+      {
+        "name": "Other operation & maintenance",
+        "amountM": 863,
+        "note": "Running plants and wires day to day ($833M), plus $30M of nuclear refueling outage costs."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 551,
+        "note": "Spreading the cost of power plants and grid assets over their long lives."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 241,
+        "note": "Property and similar taxes across four states."
+      },
+      {
+        "name": "Decommissioning & regulatory, net",
+        "amountM": 39,
+        "note": "$60M for retiring nuclear plants, partly offset by $21M of net regulatory credits."
+      }
+    ],
+    "operatingIncomeM": 1481,
+    "otherIncomeM": -257,
+    "taxM": 279,
+    "netIncomeM": 945
+  },
+  "otherDetail": "Other income of $179M \u2014 a $61M allowance for equity funds used during construction (AFUDC, a regulated credit for money tied up in building), $100M of interest and investment income and $17M miscellaneous \u2014 less $436M of net interest expense, for net other expense of $257M.",
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 42.13
+    },
+    {
+      "label": "Commercial",
+      "amount": 23.55
+    },
+    {
+      "label": "Industrial",
+      "amount": 24.86
+    },
+    {
+      "label": "Other electric revenues",
+      "amount": 4.4
+    },
+    {
+      "label": "Sales for resale",
+      "amount": 2.68
+    },
+    {
+      "label": "Governmental & other",
+      "amount": 2.38
+    },
+    {
+      "label": "Fuel & purchased power",
+      "amount": -27.26
+    },
+    {
+      "label": "Other operation & maintenance",
+      "amount": -19.77
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -12.62
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -5.52
+    },
+    {
+      "label": "Decommissioning & regulatory, net",
+      "amount": -0.89
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -5.89
+    },
+    {
+      "label": "Tax",
+      "amount": -6.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.65
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.98",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped on heat and growth",
+      "text": "GAAP and adjusted EPS were both $1.98, up from $1.53 a year ago. The utility business earned $1,079M, helped by favorable weather, higher retail volumes and regulatory rate actions."
+    },
+    {
+      "stat": "+4.9%",
+      "statColor": "#3d7bc8",
+      "title": "Big customers are ramping",
+      "text": "Industrial sales volumes rose 4.9% in the quarter and 9.6% year to date as data-center and primary-metals customers ramp up. Entergy also expanded its service agreement with Google in Arkansas."
+    },
+    {
+      "stat": "$0.68",
+      "statColor": "#5b6b7c",
+      "title": "Dividend up, building plan up",
+      "text": "The quarterly dividend rose 6% to $0.68 a share, and the 2026\u20132030 capital plan grew by $1.5B \u2014 more grid and generation to serve the new load."
+    }
+  ],
+  "oneTimers": [
+    "There were no special items in Q3 2026: GAAP earnings of $940M (attributable) exactly matched adjusted earnings. Year to date, adjusted earnings add back a $14M item, so nine-month adjusted profit is $1,821M vs $1,808M GAAP."
+  ],
+  "footerNote": "Utility layout: fuel, fuel-related expenses and gas purchased for resale ($726M) plus purchased power ($464M) are treated as the cost of revenue; the remaining operating lines mirror Entergy's income statement. Net income in the flow is the consolidated $945M; $940M was attributable to Entergy Corporation after $5M of preferred dividends and noncontrolling interests, matching the $1.98 diluted EPS. Segment revenues are Entergy's customer-class electric revenues from its Q3 2026 Form 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000322/earningsrelease3q26_ex991.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/etr-20260930.htm"
+    }
+  ]
+}

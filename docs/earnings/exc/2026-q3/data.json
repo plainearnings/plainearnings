@@ -1,0 +1,166 @@
+{
+  "ticker": "EXC",
+  "company": "Exelon",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Exelon's revenue rose 9% to $7.3B on higher regulated rates, but storm costs and other charges cut GAAP profit to $729M \u2014 $0.70 a share \u2014 even as its adjusted earnings edged up to $0.87.",
+  "revenueYoY": "+9.2%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.32B",
+      "note": "+9.2% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$0.70",
+      "note": "Down from $0.86 a year ago"
+    },
+    {
+      "label": "Adjusted operating EPS",
+      "value": "$0.87",
+      "note": "Up from $0.86 a year ago"
+    },
+    {
+      "label": "2026 adjusted EPS guidance",
+      "value": "$2.85\u2013$2.91",
+      "note": "Narrowed range"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 4387,
+      "yoy": "+8%",
+      "note": "Homes served by ComEd, PECO, BGE and the PHI utilities (Pepco, Delmarva, Atlantic City Electric) \u2014 electric and natural gas combined."
+    },
+    {
+      "name": "Commercial & industrial",
+      "amountM": 2149,
+      "yoy": "+2%",
+      "note": "Businesses large and small, electric and gas combined \u2014 the biggest customers by usage, at lower per-unit rates."
+    },
+    {
+      "name": "Public authorities & transportation",
+      "amountM": 62,
+      "yoy": "+3%",
+      "note": "Governments, public authorities, electric railroads and gas transportation customers."
+    },
+    {
+      "name": "Other regulated & alternative revenue",
+      "amountM": 721,
+      "yoy": "+35%",
+      "note": "Other regulated revenues (including transmission and distribution services not billed by customer class), alternative-revenue programs and decoupling true-up adjustments (a $35M net reduction this quarter). This is the balancing remainder of total revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 7319,
+    "costOfRevenueM": 2917,
+    "grossProfitM": 4402,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 1564,
+        "note": "Running and repairing the grid and serving almost 11 million customers, including storm restoration work."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 991,
+        "note": "Spreading the cost of grids and other long-lived assets \u2014 rising with Exelon's investment program."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 468,
+        "note": "Property and similar taxes across six utilities."
+      }
+    ],
+    "operatingIncomeM": 1379,
+    "otherIncomeM": -496,
+    "taxM": 154,
+    "netIncomeM": 729
+  },
+  "otherDetail": "Other deductions of $496M, net: $593M of net interest expense, partly offset by $97M of other income. Net income is the $729M attributable to common shareholders.",
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 59.94
+    },
+    {
+      "label": "Commercial & industrial",
+      "amount": 29.36
+    },
+    {
+      "label": "Public authorities & transportation",
+      "amount": 0.85
+    },
+    {
+      "label": "Other regulated & alternative revenue",
+      "amount": 9.85
+    },
+    {
+      "label": "Purchased power & fuel",
+      "amount": -39.85
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -21.37
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -13.54
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -6.39
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -6.78
+    },
+    {
+      "label": "Tax",
+      "amount": -2.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$0.87",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted earnings inched up",
+      "text": "Adjusted operating earnings were $897M, or $0.87 a share, up slightly year on year: approved distribution and transmission rates added about $0.06, partly offset by storm costs of about $0.07 a share."
+    },
+    {
+      "stat": "$168M",
+      "statColor": "#b8443c",
+      "title": "The GAAP gap is one-timers",
+      "text": "GAAP profit of $729M excludes, in the adjusted view, $130M of regulatory matters, $26M of project impairments and $15M of cost-management program costs (all after tax, with a small environmental credit). That is the whole $168M gap to adjusted earnings."
+    },
+    {
+      "stat": "$41.7B",
+      "statColor": "#3d7bc8",
+      "title": "A big grid-investment plan",
+      "text": "Exelon is executing a $41.7B capital plan focused on transmission and storage, and says its utilities now rank 1st, 2nd, 5th and 6th nationally for reliability. It completed all planned 2026 debt financing in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Regulatory matters added back in adjusted earnings: $130M after tax, mainly at PHI.",
+    "Project impairments of $26M after tax (mostly at BGE) and $15M of cost-management program costs are also excluded from adjusted earnings."
+  ],
+  "footerNote": "Utility layout: purchased power and fuel ($2,917M) is treated as the cost of revenue; the remaining operating lines mirror Exelon's consolidating income statement in its Q3 2026 earnings release. By operating company, revenue was ComEd $2,470M, PECO $1,240M, BGE $1,363M and PHI $2,260M, less $14M of corporate and eliminations; the chart instead splits revenue by customer class from Exelon's Form 10-Q, with Other as the balancing remainder.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000092/exc-20261030ex991.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000095/exc-20260930.htm"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "ticker": "EW",
+  "company": "Edwards Lifesciences",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Edwards' heart-valve sales grew 11% to $1.72B, led by a 44% surge in mitral and tricuspid therapies, though a $220M impairment charge held GAAP profit to $0.53 a share.",
+  "revenueYoY": "+10.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.72B",
+      "note": "+10.5% YoY (+11.2% constant currency)"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$0.53",
+      "note": "Adjusted EPS $0.80, up 19% YoY"
+    },
+    {
+      "label": "TMTT sales growth",
+      "value": "+44%",
+      "note": "Fastest-growing product group"
+    },
+    {
+      "label": "Cash",
+      "value": "$3.1B",
+      "note": "Against about $600M of debt"
+    }
+  ],
+  "segments": [
+    {
+      "name": "TAVR",
+      "amountM": 1242,
+      "yoy": "+8.0%",
+      "note": "Transcatheter aortic valve replacement \u2014 replacing a narrowed aortic valve through a catheter instead of open-heart surgery, led by the SAPIEN platform. Procedure growth drove the gain; prices were stable."
+    },
+    {
+      "name": "TMTT",
+      "amountM": 209,
+      "yoy": "+44%",
+      "note": "Transcatheter mitral and tricuspid therapies (PASCAL, EVOQUE, SAPIEN M3) \u2014 repairing or replacing the heart's other valves without open surgery. Includes $3M of implantable heart-failure management revenue."
+    },
+    {
+      "name": "Surgical",
+      "amountM": 264,
+      "yoy": "+2.5%",
+      "note": "Valves and tools for open-heart surgery, led by the RESILIA tissue portfolio. Includes $2M from a transitional service agreement."
+    }
+  ],
+  "flow": {
+    "revenueM": 1715,
+    "costOfRevenueM": 369,
+    "grossProfitM": 1346,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 561,
+        "note": "Selling the products and running the company \u2014 32.7% of sales, a touch leaner than a year ago."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 281,
+        "note": "Building the next generation of structural-heart therapies \u2014 16.4% of sales."
+      },
+      {
+        "name": "Impairment & other operating, net",
+        "amountM": 205,
+        "note": "A $220M impairment of an in-process R&D asset and related fixed assets, plus $11M of restructuring and contract-termination costs, partly offset by a $13M litigation insurance recovery and $13M of other operating income."
+      }
+    ],
+    "operatingIncomeM": 299,
+    "otherIncomeM": 64,
+    "taxM": 62,
+    "netIncomeM": 301
+  },
+  "otherDetail": "Other income of $64M, net: $37M of net interest income plus $28M of other non-operating income, including a $19M unrealized gain on marketable securities. Net income in the flow is the $301M from continuing operations; $308M was attributable to Edwards shareholders after a $6M loss belonging to noncontrolling interests, matching the $0.53 diluted EPS.",
+  "follow100": [
+    {
+      "label": "TAVR",
+      "amount": 72.42
+    },
+    {
+      "label": "TMTT",
+      "amount": 12.19
+    },
+    {
+      "label": "Surgical",
+      "amount": 15.39
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -21.52
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -32.71
+    },
+    {
+      "label": "Research & development",
+      "amount": -16.38
+    },
+    {
+      "label": "Impairment & other operating, net",
+      "amount": -11.95
+    },
+    {
+      "label": "Other income",
+      "amount": 3.73
+    },
+    {
+      "label": "Tax",
+      "amount": -3.62
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.55
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.24B",
+      "statColor": "#3d7bc8",
+      "title": "TAVR keeps growing",
+      "text": "TAVR sales rose 8.0% (8.8% at constant currency) on global procedure growth and modest share gains, with stable prices. Edwards raised full-year TAVR growth guidance to 9.0\u20139.5%."
+    },
+    {
+      "stat": "+44%",
+      "statColor": "#3e8e5a",
+      "title": "TMTT is the growth engine",
+      "text": "Mitral and tricuspid therapies surged 44% to $209M as PASCAL, EVOQUE and SAPIEN M3 adoption expanded. Full-year TMTT guidance rose to $780\u2013$790M of sales."
+    },
+    {
+      "stat": "$0.80",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS beat the GAAP story",
+      "text": "Adjusted EPS of $0.80 grew 19%, while GAAP EPS of $0.53 was weighed down by the $220M impairment. Edwards raised full-year sales growth guidance to about 11.5% and adjusted EPS guidance to $2.97\u2013$3.05."
+    }
+  ],
+  "oneTimers": [
+    "A $220M impairment of an in-process research-and-development asset and fixed assets acquired in an acquisition is the main reason GAAP operating margin was 17.4% versus 30.3% adjusted.",
+    "A $13M net litigation insurance recovery this quarter compares with a $90M litigation expense a year ago \u2014 a swing that flatters the year-on-year comparison."
+  ],
+  "footerNote": "Figures are GAAP, from continuing operations, rounded to the nearest $M (sales $1,715.5M in the release). Adjusted (non-GAAP) figures exclude the impairment, litigation, restructuring and similar items listed in the release reconciliation.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000053/ex-991q32026.htm"
+    }
+  ]
+}

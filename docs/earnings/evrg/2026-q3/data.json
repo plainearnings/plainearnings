@@ -1,0 +1,190 @@
+{
+  "ticker": "EVRG",
+  "company": "Evergy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Evergy's hot summer and growing roster of giant data-center customers lifted revenue 16% and profit 29%, and management raised its full-year guidance.",
+  "revenueYoY": "+15.8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.10B",
+      "note": "+15.8% YoY"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "$2.59",
+      "note": "Adjusted EPS $2.58; vs $2.03 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$613M",
+      "note": "Attributable to Evergy, up 29% YoY"
+    },
+    {
+      "label": "2026 adjusted EPS guidance",
+      "value": "$4.35\u2013$4.50",
+      "note": "Raised from $4.14\u2013$4.34"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Residential",
+      "amountM": 882,
+      "yoy": "+20%",
+      "note": "Homes in Kansas and Missouri \u2014 warmer weather meant more electricity used and sold."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 692,
+      "yoy": "+16%",
+      "note": "Businesses buying electricity across Evergy's Kansas and Missouri territories."
+    },
+    {
+      "name": "Industrial",
+      "amountM": 189,
+      "yoy": "+5%",
+      "note": "Factories and other industrial customers."
+    },
+    {
+      "name": "Transmission",
+      "amountM": 141,
+      "yoy": "+9%",
+      "note": "Fees for moving power across Evergy's high-voltage network for others."
+    },
+    {
+      "name": "Wholesale",
+      "amountM": 99,
+      "yoy": "-4%",
+      "note": "Power sold into wholesale markets beyond Evergy's own customers."
+    },
+    {
+      "name": "Other & non-contract revenue",
+      "amountM": 94,
+      "yoy": "+27%",
+      "note": "Other retail and miscellaneous contract revenue ($24M) plus $70M of revenue not from customer contracts, such as regulatory alternative-revenue programs."
+    }
+  ],
+  "flow": {
+    "revenueM": 2097,
+    "costOfRevenueM": 597,
+    "grossProfitM": 1500,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 280,
+        "note": "Running and repairing plants, lines and customer operations day to day."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 302,
+        "note": "Spreading the cost of generation and grid assets over their long lives \u2014 rising as Evergy invests."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 109,
+        "note": "Mostly property taxes on plants and networks in Kansas and Missouri."
+      }
+    ],
+    "operatingIncomeM": 809,
+    "otherIncomeM": -148,
+    "equityM": 3,
+    "taxM": 48,
+    "netIncomeM": 616
+  },
+  "otherDetail": "Other income of $20M, less $168M of interest expense, for net other expense of $148M; plus $3M of equity earnings from part-owned investees, which Evergy reports after tax. Net income in the flow is the consolidated $616M; $613M was attributable to Evergy after $3M for noncontrolling interests, matching the $2.59 diluted EPS.",
+  "follow100": [
+    {
+      "label": "Residential",
+      "amount": 42.06
+    },
+    {
+      "label": "Commercial",
+      "amount": 33.0
+    },
+    {
+      "label": "Industrial",
+      "amount": 9.01
+    },
+    {
+      "label": "Transmission",
+      "amount": 6.72
+    },
+    {
+      "label": "Wholesale",
+      "amount": 4.72
+    },
+    {
+      "label": "Other & non-contract revenue",
+      "amount": 4.48
+    },
+    {
+      "label": "Fuel, purchased power & SPP transmission",
+      "amount": -28.47
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -13.35
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -14.4
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -5.2
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -7.06
+    },
+    {
+      "label": "Equity earnings",
+      "amount": 0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -2.29
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.38
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.58",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS up 27%",
+      "text": "Adjusted earnings were $610M, or $2.58 a share, up from $475M and $2.03 a year ago \u2014 warmer weather, growth in demand, large-customer revenue and recovery of regulated investments all helped."
+    },
+    {
+      "stat": "1.4 GW",
+      "statColor": "#3d7bc8",
+      "title": "Data centers keep coming",
+      "text": "Evergy signed amendments adding about 250 MW to existing large-customer service agreements, plus a letter of intent with Digital Realty for a 1.4 GW expansion next to an existing 600 MW project."
+    },
+    {
+      "stat": "$4.35\u2013$4.50",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised, dividend up 4%",
+      "text": "Full-year 2026 adjusted EPS guidance rose to $4.35\u2013$4.50, and the quarterly dividend increased 4% to $0.7225 a share ($2.89 annualized). Long-term adjusted EPS growth of 6\u20138%+ through 2030 was reaffirmed."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted earnings strip out a $5M gain from a transmission-revenue-requirement settlement and $1M of losses on early-stage clean-energy investments (plus their tax effects) \u2014 which is why adjusted profit of $610M sits slightly below the $613M GAAP figure (both attributable)."
+  ],
+  "footerNote": "Utility layout: fuel and purchased power ($473M) plus SPP network transmission costs ($124M) are treated as the cost of revenue; the remaining operating lines mirror Evergy's income statement in its Q3 2026 Form 10-Q. Segment revenues are Evergy's revenue-from-contracts by customer class (10-Q), with non-contract revenue grouped into Other. The earnings release itself (Ex. 99.1) carries the headline results and guidance; the full statements are in the 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526448521/d193466dex991.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000117/evrg-20260930.htm"
+    }
+  ]
+}

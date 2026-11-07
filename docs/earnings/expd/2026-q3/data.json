@@ -1,0 +1,171 @@
+{
+  "ticker": "EXPD",
+  "company": "Expeditors International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "Expeditors' freight business boomed on AI-hyperscaler demand: revenue jumped 42% to $4.1B and earnings per share rose 62% to $2.65, with headcount up just 1%.",
+  "revenueYoY": "+42%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.11B",
+      "note": "+42% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$2.65",
+      "note": "+62% YoY"
+    },
+    {
+      "label": "Operating income",
+      "value": "$445M",
+      "note": "+55% YoY; 10.8% margin"
+    },
+    {
+      "label": "Airfreight tonnage",
+      "value": "+13%",
+      "note": "Accelerating to +19% in September"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Airfreight services",
+      "amountM": 1544,
+      "yoy": "+51%",
+      "note": "Arranging air cargo for customers \u2014 tonnage rose 13% and rates were elevated, on demand from AI hyperscalers and other technology customers."
+    },
+    {
+      "name": "Customs brokerage & other services",
+      "amountM": 1460,
+      "yoy": "+29%",
+      "note": "Clearing goods through customs and related services \u2014 work that grows when trade rules get complicated."
+    },
+    {
+      "name": "Ocean freight & ocean services",
+      "amountM": 1103,
+      "yoy": "+48%",
+      "note": "Arranging container shipping by sea \u2014 container volumes rose 7%, with rates and demand much stronger than a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 4107,
+    "costOfRevenueM": 2894,
+    "grossProfitM": 1213,
+    "opex": [
+      {
+        "name": "Salaries & related costs",
+        "amountM": 588,
+        "note": "Pay for about 20,000 logistics staff \u2014 headcount rose only 1% while revenue rose 42%, the quarter's operating leverage."
+      },
+      {
+        "name": "Other operating costs",
+        "amountM": 85,
+        "note": "Other day-to-day operating expenses."
+      },
+      {
+        "name": "Rent & occupancy",
+        "amountM": 71,
+        "note": "Offices and facilities around the world."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 14,
+        "note": "A light charge \u2014 Expeditors owns few hard assets; it buys transport from carriers instead."
+      },
+      {
+        "name": "Selling & promotion",
+        "amountM": 10,
+        "note": "Selling and marketing the service."
+      }
+    ],
+    "operatingIncomeM": 445,
+    "otherIncomeM": 3,
+    "taxM": 104,
+    "netIncomeM": 344
+  },
+  "otherDetail": "Other income of $3M, net: $6M of interest income, partly offset by $3M of other expense. Net earnings in the flow are rounded; $345M was attributable to shareholders, matching the $2.65 diluted EPS.",
+  "follow100": [
+    {
+      "label": "Airfreight services",
+      "amount": 37.6
+    },
+    {
+      "label": "Customs brokerage & other services",
+      "amount": 35.55
+    },
+    {
+      "label": "Ocean freight & ocean services",
+      "amount": 26.86
+    },
+    {
+      "label": "Transportation costs",
+      "amount": -70.47
+    },
+    {
+      "label": "Salaries & related costs",
+      "amount": -14.32
+    },
+    {
+      "label": "Rent & occupancy",
+      "amount": -1.73
+    },
+    {
+      "label": "Other operating costs",
+      "amount": -2.07
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -0.34
+    },
+    {
+      "label": "Selling & promotion",
+      "amount": -0.24
+    },
+    {
+      "label": "Other income",
+      "amount": 0.07
+    },
+    {
+      "label": "Tax",
+      "amount": -2.53
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.38
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+42%",
+      "statColor": "#3d7bc8",
+      "title": "A demand surge, led by AI freight",
+      "text": "Revenue rose 42% to $4.11B. Airfreight revenue jumped 51% and ocean 48%, as AI hyperscalers and other technology customers shipped far more, and as tariff-related customs work grew."
+    },
+    {
+      "stat": "+1%",
+      "statColor": "#3e8e5a",
+      "title": "Headcount barely moved",
+      "text": "Staffing rose just 1% while operating income rose 55% to $445M \u2014 operating margin expanded to 10.8% from 10.0%. That leverage is why EPS rose even faster, up 62% to $2.65."
+    },
+    {
+      "stat": "$946M",
+      "statColor": "#5b6b7c",
+      "title": "Cash back to shareholders",
+      "text": "Expeditors returned $197M in the quarter and $946M year to date through dividends and share repurchases, including buying back 1.1 million shares in Q3."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Logistics layout: directly related cost of transportation and other expenses ($2,894M \u2014 what Expeditors pays airlines, shipping lines and other carriers) is treated as the cost of revenue; the remaining operating lines mirror its condensed consolidated statements of earnings. Figures are rounded to the nearest $M (revenue $4,107.6M in the release). Segment revenues are the service lines reported in the release and Form 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR, 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526444872/expd-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526446859/expd-20260930.htm"
+    }
+  ]
+}
