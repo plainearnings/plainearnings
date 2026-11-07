@@ -10,8 +10,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Merck &amp; Co. — Earnings, Explained Simply | Plain Earnings</title>
+<title>Merck &amp; Co. (MRK) Earnings — Plain Earnings</title>
 <meta name="description" content="Merck &amp; Co. earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="Merck &amp; Co. (MRK) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="../../assets/style.css">
 <link rel="stylesheet" href="../../assets/report.css">
 </head>
@@ -26,19 +28,136 @@
     <a href="../../feed.xml">RSS</a>
   </nav>
 </header>
-<div class="company-wrap">
-  <h1>Merck &amp; Co. (MRK)</h1>
-  <p class="lede">Every quarter, explained in plain English — where the money came from, what got spent, and what was kept as profit. Newest first.</p>
-  <div class="quarter-list">
-    <div class="quarter-item">
-        <a class="q" href="./2026-q3/">Q3 2026</a>
-        <span class="v">Merck&#x27;s sales rose 5% to $18.1B on Keytruda&#x27;s continued growth, but profit fell 12% to $5.1B as acquisition-related charges inflated its cost of sales.</span>
-        <span class="d">Reported 2026-10-29</span>
-      </div>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Merck &amp; Co. <span class="thin">(MRK)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+5%</span>
+        <span class="q-meta">Reported 2026-10-29 · Revenue $18.1B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Merck &amp; Co. — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-10-29
+    </div>
+  </header>
+
+  <p class="verdict">Merck&#x27;s sales rose 5% to $18.1B on Keytruda&#x27;s continued growth, but profit fell 12% to $5.1B as acquisition-related charges inflated its cost of sales.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$18.1B</b></span><span class="chip">EPS (GAAP)<b>$2.04</b></span><span class="chip">KEYTRUDA sales<b>$8.6B</b></span><span class="chip">WINREVAIR sales<b>$694M</b></span>
   </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Merck &amp; Co.'s Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Merck &amp; Co. took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">KEYTRUDA / KEYTRUDA QLEX</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$47.56</span></div>
+          <div class="hrow"><span class="hlabel">Other pharmaceutical products</span><div class="htrack"><div class="hfill" data-w="90.8" style="background:#3D7BC8"></div></div><span class="hval">$43.17</span></div>
+          <div class="hrow"><span class="hlabel">Animal Health</span><div class="htrack"><div class="hfill" data-w="19.5" style="background:#3D7BC8"></div></div><span class="hval">$9.27</span></div>
+          <div class="hrow"><span class="hlabel">Cost of sales</span><div class="htrack"><div class="hfill" data-w="56.9" style="background:#CF5F4E"></div></div><span class="hval">−$27.05</span></div>
+          <div class="hrow"><span class="hlabel">Research &amp; development</span><div class="htrack"><div class="hfill" data-w="52.7" style="background:#D96A57"></div></div><span class="hval">−$25.08</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="33.6" style="background:#CF5F4E"></div></div><span class="hval">−$15.96</span></div>
+          <div class="hrow"><span class="hlabel">Restructuring costs</span><div class="htrack"><div class="hfill" data-w="2.1" style="background:#D96A57"></div></div><span class="hval">−$1.02</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="0.3" style="background:#D96A57"></div></div><span class="hval">−$0.15</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="5.7" style="background:#B8443C"></div></div><span class="hval">−$2.72</span></div>
+          <div class="hrow"><span class="hlabel">Noncontrolling interests</span><div class="htrack"><div class="hfill" data-w="0.0" style="background:#D96A57"></div></div><span class="hval">−$0.01</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="58.9" style="background:#3E8E5A"></div></div><span class="hval">$28.00</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">$8.6B</div>
+            <h3>Keytruda still carries the company</h3>
+            <p>Keytruda and its new QLEX version grew 6% to $8.6B — 48% of revenue. The QLEX launch ($830M already) matters: it can extend the franchise as the original&#x27;s patents near expiry.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">+93%</div>
+            <h3>The next generation is arriving</h3>
+            <p>WINREVAIR nearly doubled to $694M and GARDASIL grew 14% to $2.0B — the products Merck is counting on to soften the eventual Keytruda cliff.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">-12%</div>
+            <h3>Deal costs hit GAAP profit</h3>
+            <p>Net income fell 12% despite 5% sales growth, on $1.5B of acquisition and restructuring charges inside cost of sales. The 8.9% effective tax rate (vs 14.2%) cushioned the fall.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Cost of sales includes $1,140M of acquisition- and divestiture-related costs and $396M of restructuring — the main reason GAAP EPS fell while sales grew. Non-GAAP EPS, which excludes these and a $393M equity-investment gain, was $2.49.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/310158/000110465926119825/tm2628203d1_ex99-1.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Merck does not print gross profit or operating income lines in this summary; both are computed here exactly as its statement foots (sales less cost of sales; then less SG&amp;A, R&amp;D and restructuring). Net income attributable to Merck was $5,065M; consolidated net income was $5,067M.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
 </div>
+</div>
+
 <footer>
-  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
+  <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
 </footer>
+
+<script>window.REPORT = {"revenueB":18.085,"nodes":{"seg0":{"name":"KEYTRUDA / KEYTRUDA QLEX","amt":"$8.6B","value":8.601,"col":0,"color":"#3D7BC8","note":"+6% \u00b7 47.6% of revenue","plain":"The world's top-selling cancer immunotherapy, including $830M from the new under-the-skin version, QLEX. One product is 48% of Merck's revenue \u2014 the concentration behind its push to diversify.","quarter":"47.6% of all revenue this quarter."},"seg1":{"name":"Other pharmaceutical products","amt":"$7.8B","value":7.808,"col":0,"color":"#7A68C4","note":"43.2% of revenue","plain":"Everything else for humans: GARDASIL vaccines ($2.0B, +14%), WINREVAIR for pulmonary hypertension ($694M, +93%), diabetes drugs JANUVIA/JANUMET ($380M, -39% on generic pressure), hospital and other products, including the recently acquired OHTUVAYRE.","quarter":"43.2% of all revenue this quarter."},"seg2":{"name":"Animal Health","amt":"$1.7B","value":1.676,"col":0,"color":"#2E7CC4","note":"+4% \u00b7 9.3% of revenue","plain":"Vaccines and medicines for livestock and pets.","quarter":"9.3% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$18.1B","value":18.085,"col":1,"color":"#2F3B4C","note":"+5%","plain":"All the money Merck & Co. took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$18.1B, +5% vs a year ago."},"gross":{"name":"Gross profit","amt":"$13.2B","value":13.193,"col":2,"color":"#69B578","note":"72.9% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"72.9 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($4.9B)","value":4.892,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$4.9B \u2014 about 27.1 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$5.6B","value":5.586,"col":3,"color":"#4C9A67","note":"30.9% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 30.9% margin."},"opex":{"name":"Operating expenses","amt":"($7.6B)","value":7.607,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$7.6B total, split into Research and development, Selling, general and administrative, Restructuring costs on the right."},"otherexp":{"name":"Other expense","amt":"($29M)","value":0.029,"col":4,"color":"#B8443C","note":"","plain":"Other expense, net, of $27M \u2014 this year it excludes a $393M gain on equity investments that Merck counts among the items separating GAAP from non-GAAP results.","quarter":"$29M taken out of profit."},"ox0":{"name":"Research and development","amt":"($4.5B)","value":4.537,"col":4,"color":"#CF5F4E","note":"25.1% of revenue","plain":"Developing the pipeline meant to replace Keytruda when its patents expire later this decade.","quarter":"$4.5B \u2014 25.1% of revenue."},"ox1":{"name":"Selling, general and administrative","amt":"($2.9B)","value":2.886,"col":4,"color":"#CF5F4E","note":"16% of revenue","plain":"Selling medicines worldwide and running the company.","quarter":"$2.9B \u2014 16% of revenue."},"ox2":{"name":"Restructuring costs","amt":"($184M)","value":0.184,"col":4,"color":"#CF5F4E","note":"1% of revenue","plain":"Ongoing restructuring program charges.","quarter":"$184M \u2014 1% of revenue."},"net":{"name":"Net profit","amt":"$5.1B","value":5.065,"col":4,"color":"#3E8E5A","note":"28% margin","plain":"The bottom line \u2014 what Merck & Co. actually earned after everything.","quarter":"$5.1B \u2014 about 28 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($492M)","value":0.492,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$492M \u2014 roughly a 8.9% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":8.601,"c":"#94b6e1","amt":"$8.6B"},{"s":"seg1","d":"rev","v":7.808,"c":"#b6acdf","amt":"$7.8B"},{"s":"seg2","d":"rev","v":1.676,"c":"#8cb7df","amt":"$1.7B"},{"s":"rev","d":"gross","v":13.193,"c":"#BFE0C6","amt":"$13.2B"},{"s":"rev","d":"cost","v":4.892,"c":"#F4C7B9","amt":"$4.9B"},{"s":"gross","d":"op","v":5.586,"c":"#ACD8B8","amt":"$5.6B"},{"s":"gross","d":"opex","v":7.607,"c":"#F2B3A4","amt":"$7.6B"},{"s":"op","d":"net","v":5.065,"c":"#ACD8B8","amt":"$5.1B"},{"s":"op","d":"otherexp","v":0.029,"c":"#dfaba7","amt":"$29M"},{"s":"op","d":"tax","v":0.492,"c":"#dfaba7","amt":"$492M"},{"s":"opex","d":"ox0","v":4.537,"c":"#F6C0B1","amt":"$4.5B"},{"s":"opex","d":"ox1","v":2.886,"c":"#F6C0B1","amt":"$2.9B"},{"s":"opex","d":"ox2","v":0.184,"c":"#F6C0B1","amt":"$184M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>

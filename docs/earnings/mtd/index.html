@@ -10,8 +10,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mettler Toledo — Earnings, Explained Simply | Plain Earnings</title>
+<title>Mettler Toledo (MTD) Earnings — Plain Earnings</title>
 <meta name="description" content="Mettler Toledo earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="Mettler Toledo (MTD) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="../../assets/style.css">
 <link rel="stylesheet" href="../../assets/report.css">
 </head>
@@ -26,19 +28,130 @@
     <a href="../../feed.xml">RSS</a>
   </nav>
 </header>
-<div class="company-wrap">
-  <h1>Mettler Toledo (MTD)</h1>
-  <p class="lede">Every quarter, explained in plain English — where the money came from, what got spent, and what was kept as profit. Newest first.</p>
-  <div class="quarter-list">
-    <div class="quarter-item">
-        <a class="q" href="./2026-q3/">Q3 2026</a>
-        <span class="v">Mettler Toledo&#x27;s sales rose 6% to $1.1B — Asia grew 16% — and profit rose 13% to $246M as demand for its precision instruments firmed up.</span>
-        <span class="d">Reported 2026-11-05</span>
-      </div>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Mettler Toledo <span class="thin">(MTD)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+6%</span>
+        <span class="q-meta">Reported 2026-11-05 · Revenue $1,094M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Mettler Toledo — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-05
+    </div>
+  </header>
+
+  <p class="verdict">Mettler Toledo&#x27;s sales rose 6% to $1.1B — Asia grew 16% — and profit rose 13% to $246M as demand for its precision instruments firmed up.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$1.1B</b></span><span class="chip">EPS (GAAP)<b>$12.29</b></span><span class="chip">Gross margin<b>59.8%</b></span><span class="chip">Asia / Rest of World sales<b>+16%</b></span>
   </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Mettler Toledo's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Mettler Toledo took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Precision instruments &amp; services</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$100.00</span></div>
+          <div class="hrow"><span class="hlabel">Cost of sales</span><div class="htrack"><div class="hfill" data-w="40.2" style="background:#CF5F4E"></div></div><span class="hval">−$40.22</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="24.4" style="background:#CF5F4E"></div></div><span class="hval">−$24.41</span></div>
+          <div class="hrow"><span class="hlabel">Research &amp; development</span><div class="htrack"><div class="hfill" data-w="4.9" style="background:#D96A57"></div></div><span class="hval">−$4.94</span></div>
+          <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="1.7" style="background:#D96A57"></div></div><span class="hval">−$1.74</span></div>
+          <div class="hrow"><span class="hlabel">Restructuring</span><div class="htrack"><div class="hfill" data-w="0.4" style="background:#D96A57"></div></div><span class="hval">−$0.37</span></div>
+          <div class="hrow"><span class="hlabel">Other expense, net</span><div class="htrack"><div class="hfill" data-w="0.9" style="background:#D96A57"></div></div><span class="hval">−$0.91</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="4.9" style="background:#B8443C"></div></div><span class="hval">−$4.94</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="22.5" style="background:#3E8E5A"></div></div><span class="hval">$22.49</span></div>
+      <p class="hnote">Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+16%</div>
+            <h3>Asia is pulling the growth</h3>
+            <p>Sales rose 16% in Asia/Rest of World versus 3% in the Americas and flat Europe — demand for lab and industrial instruments is recovering fastest outside the West.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">59.8%</div>
+            <h3>Pricing power in precision</h3>
+            <p>Gross margin widened to 59.8% — customers pay up for instruments that labs and factories depend on for accuracy, and Mettler&#x27;s service army keeps them loyal.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$12.29</div>
+            <h3>Big EPS, tiny share count</h3>
+            <p>EPS rose 16% — faster than the 13% profit growth — because decades of buybacks have shrunk the share count to about 20 million.</p>
+          </article>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1037646/000103764626000072/ex-991mtd8xkq32026.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Figures are rounded to $M from the release&#x27;s thousands presentation. Mettler&#x27;s adjusted operating profit was $333.5M, excluding restructuring and the other items it adjusts for; the chart follows its GAAP statement, in which interest expense sits below gross profit alongside the operating lines.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
 </div>
+</div>
+
 <footer>
-  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
+  <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
 </footer>
+
+<script>window.REPORT = {"revenueB":1.094,"nodes":{"seg0":{"name":"Precision instruments & services","amt":"$1.1B","value":1.094,"col":0,"color":"#3D7BC8","note":"+6% \u00b7 100% of revenue","plain":"Laboratory balances and pipettes, industrial weighing, product-inspection systems and supermarket scales, plus services. Mettler reports as one business; by region, sales rose 3% in the Americas, were flat in Europe and rose 16% in Asia/Rest of World.","quarter":"100% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$1.1B","value":1.094,"col":1,"color":"#2F3B4C","note":"+6%","plain":"All the money Mettler Toledo took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.1B, +6% vs a year ago."},"gross":{"name":"Gross profit","amt":"$654M","value":0.654,"col":2,"color":"#69B578","note":"59.8% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"59.8 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($440M)","value":0.44,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$440M \u2014 about 40.2 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$310M","value":0.31,"col":3,"color":"#4C9A67","note":"28.3% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 28.3% margin."},"opex":{"name":"Operating expenses","amt":"($344M)","value":0.344,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$344M total, split into Selling, general and administrative, Research and development, Amortization, Restructuring charges on the right."},"otherexp":{"name":"Other expense","amt":"($10M)","value":0.01,"col":4,"color":"#B8443C","note":"","plain":"Interest expense of $16M, partly offset by $6M of other income, net.","quarter":"$10M taken out of profit."},"ox0":{"name":"Selling, general and administrative","amt":"($267M)","value":0.267,"col":4,"color":"#CF5F4E","note":"24.4% of revenue","plain":"A direct sales and service force in dozens of countries \u2014 Mettler's distribution model is its moat.","quarter":"$267M \u2014 24.4% of revenue."},"ox1":{"name":"Research and development","amt":"($54M)","value":0.054,"col":4,"color":"#CF5F4E","note":"4.9% of revenue","plain":"Next-generation instruments and software.","quarter":"$54M \u2014 4.9% of revenue."},"ox2":{"name":"Amortization","amt":"($19M)","value":0.019,"col":4,"color":"#CF5F4E","note":"1.7% of revenue","plain":"Write-down of intangibles from acquisitions.","quarter":"$19M \u2014 1.7% of revenue."},"ox3":{"name":"Restructuring charges","amt":"($4M)","value":0.004,"col":4,"color":"#CF5F4E","note":"0.4% of revenue","plain":"Small restructuring program charges.","quarter":"$4M \u2014 0.4% of revenue.","compact":true,"compactLabel":"Restructuring charges: $4M (0.4% of revenue)"},"net":{"name":"Net profit","amt":"$246M","value":0.246,"col":4,"color":"#3E8E5A","note":"22.5% margin","plain":"The bottom line \u2014 what Mettler Toledo actually earned after everything.","quarter":"$246M \u2014 about 22.5 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($54M)","value":0.054,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$54M \u2014 roughly a 18% tax rate on pre-tax profit."}},"cols":[["seg0"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":1.094,"c":"#94b6e1","amt":"$1.1B"},{"s":"rev","d":"gross","v":0.654,"c":"#BFE0C6","amt":"$654M"},{"s":"rev","d":"cost","v":0.44,"c":"#F4C7B9","amt":"$440M"},{"s":"gross","d":"op","v":0.31,"c":"#ACD8B8","amt":"$310M"},{"s":"gross","d":"opex","v":0.344,"c":"#F2B3A4","amt":"$344M"},{"s":"op","d":"net","v":0.246,"c":"#ACD8B8","amt":"$246M"},{"s":"op","d":"otherexp","v":0.01,"c":"#dfaba7","amt":"$10M"},{"s":"op","d":"tax","v":0.054,"c":"#dfaba7","amt":"$54M"},{"s":"opex","d":"ox0","v":0.267,"c":"#F6C0B1","amt":"$267M"},{"s":"opex","d":"ox1","v":0.054,"c":"#F6C0B1","amt":"$54M"},{"s":"opex","d":"ox2","v":0.019,"c":"#F6C0B1","amt":"$19M"},{"s":"opex","d":"ox3","v":0.004,"c":"#F6C0B1","amt":"$4M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>

@@ -10,8 +10,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Martin Marietta Materials — Earnings, Explained Simply | Plain Earnings</title>
+<title>Martin Marietta Materials (MLM) Earnings — Plain Earnings</title>
 <meta name="description" content="Martin Marietta Materials earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="Martin Marietta Materials (MLM) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="../../assets/style.css">
 <link rel="stylesheet" href="../../assets/report.css">
 </head>
@@ -26,19 +28,134 @@
     <a href="../../feed.xml">RSS</a>
   </nav>
 </header>
-<div class="company-wrap">
-  <h1>Martin Marietta Materials (MLM)</h1>
-  <p class="lede">Every quarter, explained in plain English — where the money came from, what got spent, and what was kept as profit. Newest first.</p>
-  <div class="quarter-list">
-    <div class="quarter-item">
-        <a class="q" href="./2026-q3/">Q3 2026</a>
-        <span class="v">Martin Marietta&#x27;s sales jumped 28% after its August combination with Lhoist North America transformed its lime business — but profit fell 38% to $256M as interest costs more than doubled and margins thinned.</span>
-        <span class="d">Reported 2026-11-04</span>
-      </div>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Martin Marietta Materials <span class="thin">(MLM)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+28%</span>
+        <span class="q-meta">Reported 2026-11-04 · Revenue $2,369M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Martin Marietta Materials — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-04
+    </div>
+  </header>
+
+  <p class="verdict">Martin Marietta&#x27;s sales jumped 28% after its August combination with Lhoist North America transformed its lime business — but profit fell 38% to $256M as interest costs more than doubled and margins thinned.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$2.4B</b></span><span class="chip">EPS (GAAP)<b>$3.94</b></span><span class="chip">Gross margin<b>27.5%</b></span><span class="chip">Interest expense<b>$138M</b></span>
   </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Martin Marietta Materials's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Martin Marietta Materials took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Building Materials — East</span><div class="htrack"><div class="hfill" data-w="59.4" style="background:#3D7BC8"></div></div><span class="hval">$43.06</span></div>
+          <div class="hrow"><span class="hlabel">Building Materials — West</span><div class="htrack"><div class="hfill" data-w="57.5" style="background:#3D7BC8"></div></div><span class="hval">$41.66</span></div>
+          <div class="hrow"><span class="hlabel">Specialties</span><div class="htrack"><div class="hfill" data-w="21.1" style="background:#3D7BC8"></div></div><span class="hval">$15.28</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenues</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$72.51</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="7.7" style="background:#CF5F4E"></div></div><span class="hval">−$5.61</span></div>
+          <div class="hrow"><span class="hlabel">Acquisition &amp; integration, net</span><div class="htrack"><div class="hfill" data-w="4.7" style="background:#D96A57"></div></div><span class="hval">−$3.38</span></div>
+          <div class="hrow"><span class="hlabel">Other expense, net</span><div class="htrack"><div class="hfill" data-w="7.3" style="background:#D96A57"></div></div><span class="hval">−$5.28</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="3.3" style="background:#B8443C"></div></div><span class="hval">−$2.41</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="14.9" style="background:#3E8E5A"></div></div><span class="hval">$10.81</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">Aug 21</div>
+            <h3>The Lhoist deal reshaped the company</h3>
+            <p>Combining with Lhoist North America made Martin Marietta the nation&#x27;s leading producer of lime and limestone products. Specialties posted record revenue of $362M, including only five weeks of Lhoist.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">27.5%</div>
+            <h3>Growth diluted margins — for now</h3>
+            <p>Gross margin fell to 27.5% from 33.1%: acquired volumes carry lower margins and the core East aggregates business earned less ($312M vs $335M) on softer shipments.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$138M</div>
+            <h3>Leverage is the bill for growth</h3>
+            <p>Interest expense more than doubled to $138M and the share count rose about 8% on stock issued for the deal — together they turned +28% revenue growth into a 34% drop in continuing EPS.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>$84M of acquisition, divestiture and integration expenses tied mainly to the Lhoist North America combination, which closed August 21, 2026.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/916076/000119312526446178/mlm-ex99_1.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. All figures are from continuing operations; this quarter had no discontinued-operations earnings (the year-ago quarter had $53M). Martin Marietta does not allocate the items between segment operating earnings ($560M) and reported operating earnings ($438M) in the release beyond corporate costs and the acquisition charges shown.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
 </div>
+</div>
+
 <footer>
-  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
+  <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
 </footer>
+
+<script>window.REPORT = {"revenueB":2.369,"nodes":{"seg0":{"name":"Building Materials \u2014 East","amt":"$1.0B","value":1.02,"col":0,"color":"#3D7BC8","note":"+8% \u00b7 43.1% of revenue","plain":"Aggregates (crushed stone, sand and gravel), cement and concrete in the eastern U.S. \u2014 operating earnings actually fell to $312M from $335M as volumes and pricing softened.","quarter":"43.1% of all revenue this quarter."},"seg1":{"name":"Building Materials \u2014 West","amt":"$987M","value":0.987,"col":0,"color":"#7A68C4","note":"+28% \u00b7 41.7% of revenue","plain":"The western building-materials business \u2014 Texas, Colorado, California and Arizona \u2014 boosted by acquisitions.","quarter":"41.7% of all revenue this quarter."},"seg2":{"name":"Specialties","amt":"$362M","value":0.362,"col":0,"color":"#2E7CC4","note":"+176% \u00b7 15.3% of revenue","plain":"Lime and magnesia chemicals for steel, water treatment and industry. Revenue is against a recast year-ago figure (part of the old business moved to discontinued operations); the Lhoist deal, closed August 21, made Martin Marietta the nation's leading lime producer.","quarter":"15.3% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$2.4B","value":2.369,"col":1,"color":"#2F3B4C","note":"+28%","plain":"All the money Martin Marietta Materials took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$2.4B, +28% vs a year ago."},"gross":{"name":"Gross profit","amt":"$651M","value":0.651,"col":2,"color":"#69B578","note":"27.5% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"27.5 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($1.7B)","value":1.718,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$1.7B \u2014 about 72.5 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$438M","value":0.438,"col":3,"color":"#4C9A67","note":"18.5% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 18.5% margin."},"opex":{"name":"Operating expenses","amt":"($213M)","value":0.213,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$213M total, split into Selling, general and administrative, Acquisition & integration, net on the right."},"otherexp":{"name":"Other expense","amt":"($125M)","value":0.125,"col":4,"color":"#B8443C","note":"","plain":"Interest expense of $138M \u2014 up from $59M a year ago on debt for the Lhoist deal \u2014 partly offset by $13M of other nonoperating income.","quarter":"$125M taken out of profit."},"ox0":{"name":"Selling, general and administrative","amt":"($133M)","value":0.133,"col":4,"color":"#CF5F4E","note":"5.6% of revenue","plain":"Sales and back office for the quarry and plant network.","quarter":"$133M \u2014 5.6% of revenue."},"ox1":{"name":"Acquisition & integration, net","amt":"($80M)","value":0.08,"col":4,"color":"#CF5F4E","note":"3.4% of revenue","plain":"$84M of acquisition, divestiture and integration expenses (mostly the Lhoist combination), less $4M of other operating income.","quarter":"$80M \u2014 3.4% of revenue."},"net":{"name":"Net profit","amt":"$256M","value":0.256,"col":4,"color":"#3E8E5A","note":"10.8% margin","plain":"The bottom line \u2014 what Martin Marietta Materials actually earned after everything.","quarter":"$256M \u2014 about 10.8 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($57M)","value":0.057,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$57M \u2014 roughly a 18.2% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1"]],"links":[{"s":"seg0","d":"rev","v":1.02,"c":"#94b6e1","amt":"$1.0B"},{"s":"seg1","d":"rev","v":0.987,"c":"#b6acdf","amt":"$987M"},{"s":"seg2","d":"rev","v":0.362,"c":"#8cb7df","amt":"$362M"},{"s":"rev","d":"gross","v":0.651,"c":"#BFE0C6","amt":"$651M"},{"s":"rev","d":"cost","v":1.718,"c":"#F4C7B9","amt":"$1.7B"},{"s":"gross","d":"op","v":0.438,"c":"#ACD8B8","amt":"$438M"},{"s":"gross","d":"opex","v":0.213,"c":"#F2B3A4","amt":"$213M"},{"s":"op","d":"net","v":0.256,"c":"#ACD8B8","amt":"$256M"},{"s":"op","d":"otherexp","v":0.125,"c":"#dfaba7","amt":"$125M"},{"s":"op","d":"tax","v":0.057,"c":"#dfaba7","amt":"$57M"},{"s":"opex","d":"ox0","v":0.133,"c":"#F6C0B1","amt":"$133M"},{"s":"opex","d":"ox1","v":0.08,"c":"#F6C0B1","amt":"$80M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>

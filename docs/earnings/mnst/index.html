@@ -10,8 +10,10 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Monster Beverage — Earnings, Explained Simply | Plain Earnings</title>
+<title>Monster Beverage (MNST) Earnings — Plain Earnings</title>
 <meta name="description" content="Monster Beverage earnings reports explained in plain English, quarter by quarter.">
+<meta property="og:title" content="Monster Beverage (MNST) Earnings — Plain Earnings">
+<meta property="og:type" content="website">
 <link rel="stylesheet" href="../../assets/style.css">
 <link rel="stylesheet" href="../../assets/report.css">
 </head>
@@ -26,19 +28,135 @@
     <a href="../../feed.xml">RSS</a>
   </nav>
 </header>
-<div class="company-wrap">
-  <h1>Monster Beverage (MNST)</h1>
-  <p class="lede">Every quarter, explained in plain English — where the money came from, what got spent, and what was kept as profit. Newest first.</p>
-  <div class="quarter-list">
-    <div class="quarter-item">
-        <a class="q" href="./2026-q3/">Q3 2026</a>
-        <span class="v">Monster&#x27;s sales rose 17% to $2.6B on booming international demand, but rising costs trimmed its margins, so profit grew a slower 8% to $568M.</span>
-        <span class="d">Reported 2026-11-05</span>
-      </div>
+
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Monster Beverage <span class="thin">(MNST)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+17%</span>
+        <span class="q-meta">Reported 2026-11-05 · Revenue $2,563M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Monster Beverage — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-05
+    </div>
+  </header>
+
+  <p class="verdict">Monster&#x27;s sales rose 17% to $2.6B on booming international demand, but rising costs trimmed its margins, so profit grew a slower 8% to $568M.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$2.6B</b></span><span class="chip">EPS (GAAP)<b>$0.29</b></span><span class="chip">Gross margin<b>54.6%</b></span><span class="chip">International sales<b>$1.2B</b></span>
   </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Monster Beverage's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Monster Beverage took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Monster Energy Drinks</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$92.58</span></div>
+          <div class="hrow"><span class="hlabel">Strategic Brands</span><div class="htrack"><div class="hfill" data-w="6.6" style="background:#3D7BC8"></div></div><span class="hval">$6.09</span></div>
+          <div class="hrow"><span class="hlabel">Alcohol Brands</span><div class="htrack"><div class="hfill" data-w="1.2" style="background:#3D7BC8"></div></div><span class="hval">$1.13</span></div>
+          <div class="hrow"><span class="hlabel">Other</span><div class="htrack"><div class="hfill" data-w="0.2" style="background:#3D7BC8"></div></div><span class="hval">$0.20</span></div>
+          <div class="hrow"><span class="hlabel">Cost of sales</span><div class="htrack"><div class="hfill" data-w="49.0" style="background:#CF5F4E"></div></div><span class="hval">−$45.34</span></div>
+          <div class="hrow"><span class="hlabel">Selling, distribution &amp; other</span><div class="htrack"><div class="hfill" data-w="15.8" style="background:#D96A57"></div></div><span class="hval">−$14.67</span></div>
+          <div class="hrow"><span class="hlabel">General &amp; administrative</span><div class="htrack"><div class="hfill" data-w="12.9" style="background:#D96A57"></div></div><span class="hval">−$11.94</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="1.4" style="background:#D96A57"></div></div><span class="hval">−$1.33</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="7.8" style="background:#B8443C"></div></div><span class="hval">−$7.22</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="23.9" style="background:#3E8E5A"></div></div><span class="hval">$22.16</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+28%</div>
+            <h3>The growth is international</h3>
+            <p>Sales outside the U.S. jumped 28% to $1.2B — now 47% of the company — while the core Monster Energy segment grew 17% overall.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">54.6%</div>
+            <h3>Margins are under pressure</h3>
+            <p>Gross margin slipped to 54.6% from 55.7%, and operating expenses grew faster than sales — which is why 17% sales growth became only 8% profit growth.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">-14%</div>
+            <h3>The alcohol experiment keeps shrinking</h3>
+            <p>Alcohol Brands sales fell 14% to $29M and lost $9M from operations. Monster excludes the segment from its adjusted results as it winds the business down.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>A $20M impairment on land and property in Kona, Hawaii, reclassified as held for sale, sits inside operating expenses. The Alcohol Brands segment also lost $9M at the operating line; Monster&#x27;s adjusted results (EPS $0.30) exclude both.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/865752/000110465926123387/tm2629095d1_ex99-1.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Figures are rounded to $M from the release&#x27;s thousands presentation. Monster reports a single class of operating expenses below gross profit; the split shown separates the $306M of general and administrative expense it discloses from the remaining $376M of selling, distribution and depreciation costs.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
 </div>
+</div>
+
 <footer>
-  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC, and every chart links to its source.</p>
+  <p><strong>Plain Earnings</strong> is an educational project. Nothing here is financial advice. All figures come from companies' official earnings releases filed with the SEC.</p>
+  <p>Visit and share: <a href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></p>
+  <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
 </footer>
+
+<script>window.REPORT = {"revenueB":2.563,"nodes":{"seg0":{"name":"Monster Energy Drinks","amt":"$2.4B","value":2.373,"col":0,"color":"#3D7BC8","note":"+17% \u00b7 92.6% of revenue","plain":"The core energy drinks \u2014 Monster Energy, Reign, Bang and others \u2014 sold through bottlers like Coca-Cola distributors worldwide.","quarter":"92.6% of all revenue this quarter."},"seg1":{"name":"Strategic Brands","amt":"$156M","value":0.156,"col":0,"color":"#7A68C4","note":"+20% \u00b7 6.1% of revenue","plain":"Value and regional energy brands, including NOS, Full Throttle and Predator.","quarter":"6.1% of all revenue this quarter."},"seg2":{"name":"Alcohol Brands","amt":"$29M","value":0.029,"col":0,"color":"#2E7CC4","note":"-14% \u00b7 1.1% of revenue","plain":"Craft beer and hard seltzer brands (including Cigar City and Oskar Blues) \u2014 a shrinking business Monster is exiting; its results are excluded from adjusted figures.","quarter":"1.1% of all revenue this quarter.","compact":true,"compactLabel":"Alcohol Brands: $29M (-14%)"},"seg3":{"name":"Other","amt":"$5M","value":0.005,"col":0,"color":"#76B900","note":"0.2% of revenue","plain":"Small remaining sales, including those of the American Fruits and Flavors business.","quarter":"0.2% of all revenue this quarter.","compact":true,"compactLabel":"Other: $5M (0.2% of revenue)"},"rev":{"name":"Revenue","amt":"$2.6B","value":2.563,"col":1,"color":"#2F3B4C","note":"+17%","plain":"All the money Monster Beverage took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$2.6B, +17% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.4B","value":1.401,"col":2,"color":"#69B578","note":"54.7% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"54.7 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($1.2B)","value":1.162,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$1.2B \u2014 about 45.3 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$34M","value":0.034,"col":3,"color":"#69B578","note":"","plain":"Interest and other income, net \u2014 Monster sits on a large cash pile and carries no significant debt.","quarter":"$34M added to profit."},"op":{"name":"Operating profit","amt":"$719M","value":0.719,"col":3,"color":"#4C9A67","note":"28.1% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 28.1% margin."},"opex":{"name":"Operating expenses","amt":"($682M)","value":0.682,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$682M total, split into Selling, distribution & other operating, General and administrative on the right."},"ox0":{"name":"Selling, distribution & other operating","amt":"($376M)","value":0.376,"col":4,"color":"#CF5F4E","note":"14.7% of revenue","plain":"Getting cans to shelves worldwide, plus depreciation. Monster reports operating expenses in total and details G&A separately; this remainder includes a $20M impairment on Hawaii property reclassified as held for sale.","quarter":"$376M \u2014 14.7% of revenue."},"ox1":{"name":"General and administrative","amt":"($306M)","value":0.306,"col":4,"color":"#CF5F4E","note":"11.9% of revenue","plain":"Back office, legal and company-wide administration.","quarter":"$306M \u2014 11.9% of revenue."},"net":{"name":"Net profit","amt":"$568M","value":0.568,"col":4,"color":"#3E8E5A","note":"22.2% margin","plain":"The bottom line \u2014 what Monster Beverage actually earned after everything.","quarter":"$568M \u2014 about 22.2 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($185M)","value":0.185,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$185M \u2014 roughly a 24.6% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2","seg3"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1"]],"links":[{"s":"seg0","d":"rev","v":2.373,"c":"#94b6e1","amt":"$2.4B"},{"s":"seg1","d":"rev","v":0.156,"c":"#b6acdf","amt":"$156M"},{"s":"seg2","d":"rev","v":0.029,"c":"#8cb7df","amt":"$29M"},{"s":"seg3","d":"rev","v":0.005,"c":"#b4d873","amt":"$5M"},{"s":"rev","d":"gross","v":1.401,"c":"#BFE0C6","amt":"$1.4B"},{"s":"rev","d":"cost","v":1.162,"c":"#F4C7B9","amt":"$1.2B"},{"s":"gross","d":"op","v":0.719,"c":"#ACD8B8","amt":"$719M"},{"s":"gross","d":"opex","v":0.682,"c":"#F2B3A4","amt":"$682M"},{"s":"op","d":"net","v":0.534,"c":"#ACD8B8","amt":"$534M"},{"s":"otherin","d":"net","v":0.034,"c":"#ACD8B8","amt":"$34M"},{"s":"op","d":"tax","v":0.185,"c":"#dfaba7","amt":"$185M"},{"s":"opex","d":"ox0","v":0.376,"c":"#F6C0B1","amt":"$376M"},{"s":"opex","d":"ox1","v":0.306,"c":"#F6C0B1","amt":"$306M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../assets/chart.js"></script>
 </body>
 </html>
