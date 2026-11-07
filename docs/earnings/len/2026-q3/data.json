@@ -1,0 +1,204 @@
+{
+  "ticker": "LEN",
+  "company": "Lennar",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-09-16",
+  "verdict": "Lennar's profit fell by more than half to $284M as higher mortgage rates cooled demand \u2014 deliveries slipped 3%, new orders fell 9%, and the gross margin on home sales narrowed to 15.8%.",
+  "revenueYoY": "-9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-9%",
+      "note": "total revenue vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.19",
+      "note": "vs $2.29 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "20,840",
+      "note": "homes delivered, -3% YoY"
+    },
+    {
+      "label": "Home sales gross margin",
+      "value": "15.8%",
+      "note": "down from about 17.5% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Homebuilding",
+      "amountM": 7760,
+      "yoy": "-6%",
+      "note": "Building and selling homes: $7,734M of home sales (20,840 deliveries at an average price of about $372,000), plus $18M of land sales and $7M of other homebuilding revenue."
+    },
+    {
+      "name": "Financial Services",
+      "amountM": 226,
+      "yoy": "-28%",
+      "note": "Mortgages, title and escrow for Lennar's buyers \u2014 down 28% on lower lock volume and lower profit per loan.",
+      "shortName": "Financial Services"
+    },
+    {
+      "name": "Multifamily",
+      "amountM": 38,
+      "yoy": "-83%",
+      "note": "Apartment development \u2014 revenue fell from $228M a year ago, when more properties were sold.",
+      "shortName": "Multifamily"
+    },
+    {
+      "name": "Lennar Other",
+      "amountM": 22,
+      "yoy": "+58%",
+      "note": "Technology investments and other ventures.",
+      "shortName": "Lennar Other"
+    }
+  ],
+  "flow": {
+    "revenueM": 8046,
+    "costOfRevenueM": 6528,
+    "grossProfitM": 1518,
+    "opex": [
+      {
+        "name": "Homebuilding SG&A",
+        "amountM": 714,
+        "note": "Selling and running the homebuilding operation \u2014 9.2% of home sales revenue.",
+        "shortName": "Homebuilding SG&A"
+      },
+      {
+        "name": "Financial Services costs",
+        "amountM": 96,
+        "note": "The cost of running the mortgage, title and escrow businesses (this line benefited from a one-time litigation accrual reversal).",
+        "shortName": "Financial Services costs"
+      },
+      {
+        "name": "Multifamily costs",
+        "amountM": 41,
+        "note": "Costs of the apartment business.",
+        "shortName": "Multifamily costs"
+      },
+      {
+        "name": "Lennar Other costs",
+        "amountM": 48,
+        "note": "Costs of the technology and other ventures.",
+        "shortName": "Lennar Other costs"
+      },
+      {
+        "name": "Corporate G&A",
+        "amountM": 138,
+        "note": "Head-office general and administrative costs not charged to the segments.",
+        "shortName": "Corporate G&A"
+      },
+      {
+        "name": "Charitable contribution",
+        "amountM": 21,
+        "note": "The quarterly contribution to the Lennar Foundation.",
+        "shortName": "Charitable contribution"
+      }
+    ],
+    "operatingIncomeM": 460,
+    "otherIncomeM": -73,
+    "equityM": -1,
+    "taxM": 102,
+    "netIncomeM": 284
+  },
+  "otherDetail": "A net $73M drag below operating profit (figures rounded): $53M of mark-to-market losses on technology investments, $20M of homebuilding other expense and $4M of Lennar Other equity and other losses, partly offset by $5M of homebuilding equity earnings from unconsolidated entities. A further $1M of earnings went to noncontrolling interests, so the bottom line is the $284M attributable to Lennar.",
+  "follow100": [
+    {
+      "label": "Homebuilding",
+      "amount": 96.45
+    },
+    {
+      "label": "Financial Services",
+      "amount": 2.81
+    },
+    {
+      "label": "Multifamily",
+      "amount": 0.47
+    },
+    {
+      "label": "Lennar Other",
+      "amount": 0.27
+    },
+    {
+      "label": "Costs of homes & land sold",
+      "amount": -81.13
+    },
+    {
+      "label": "Homebuilding SG&A",
+      "amount": -8.87
+    },
+    {
+      "label": "Financial Services costs",
+      "amount": -1.19
+    },
+    {
+      "label": "Multifamily costs",
+      "amount": -0.51
+    },
+    {
+      "label": "Lennar Other costs",
+      "amount": -0.6
+    },
+    {
+      "label": "Corporate G&A",
+      "amount": -1.72
+    },
+    {
+      "label": "Charitable contribution",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.91
+    },
+    {
+      "label": "Tax",
+      "amount": -1.27
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.53
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-52%",
+      "statColor": "#cf5f4e",
+      "title": "Profit more than halved",
+      "text": "Net earnings fell to $284M ($1.19 per share) from $591M ($2.29) a year ago. With the 30-year mortgage rate near 6.8% at quarter-end, Lennar kept volume up with incentives \u2014 which protected deliveries but squeezed profit per home."
+    },
+    {
+      "stat": "15.8%",
+      "statColor": "#3d7bc8",
+      "title": "Margins are the story",
+      "text": "The gross margin on home sales was 15.8%, down from about 17.5% a year ago, even as construction cost per square foot improved 6% year over year and build cycle time hit a record-low 116 days."
+    },
+    {
+      "stat": "20,879",
+      "statColor": "#5b6b7c",
+      "title": "Orders fell 9%",
+      "text": "New orders dropped 9% to 20,879 homes, and the backlog stands at 16,857 homes worth $6.3B \u2014 a thinner cushion if high rates keep buyers on the sidelines."
+    }
+  ],
+  "oneTimers": [
+    "Lennar Other lost $84M, driven by $53M of mark-to-market losses on technology investments (a year ago the same line gained $99M).",
+    "Financial Services costs include $39M, net, of one-time items, primarily a litigation accrual reversal from a favorable court judgment \u2014 a benefit, not a cost.",
+    "Excluding the technology-investment losses and the Financial Services one-time items, net earnings were $294M ($1.23 per share) versus $284M ($1.19) GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm"
+    }
+  ],
+  "footerNote": "Lennar's fiscal third quarter ended August 31, 2026. Lennar reports costs by segment rather than one cost-of-revenue line: cost of revenue here is costs of homes and land sold ($6,528M), and segment costs plus corporate G&A and the charitable contribution make up operating expenses. Figures are rounded to $M from Lennar's thousands-denominated tables \u2014 homebuilding revenue is shown as $7,760M (reported $7,759M) so the rounded segments sum to total revenue. Net earnings are the $284M attributable to Lennar; consolidated net earnings were $285M."
+}

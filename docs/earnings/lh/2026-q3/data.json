@@ -1,0 +1,150 @@
+{
+  "ticker": "LH",
+  "company": "Labcorp",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Labcorp grew revenue 7% to $3.8B as both its diagnostics and biopharma lab businesses expanded, and it raised full-year guidance \u2014 though GAAP profit was nearly flat as amortization and restructuring costs weighed.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.22",
+      "note": "vs $3.12 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.78",
+      "note": "non-GAAP, +14.5% YoY"
+    },
+    {
+      "label": "Diagnostics revenue",
+      "value": "$2.9B",
+      "note": "+6.5% YoY, 4.4% organic"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Diagnostics Laboratories",
+      "amountM": 2949,
+      "yoy": "+6%",
+      "note": "Everyday and specialty lab testing for doctors, hospitals and patients \u2014 up 6.5%, with 4.4% organic growth and 2.2 points from acquisitions.",
+      "shortName": "Diagnostics"
+    },
+    {
+      "name": "Biopharma Laboratory Services",
+      "amountM": 861,
+      "yoy": "+8%",
+      "note": "Central-lab testing that supports drug trials for pharmaceutical companies. Reported segment revenue was $867M, up 8.5%; shown here net of $6M of intercompany eliminations so the segments sum to consolidated revenue.",
+      "shortName": "Biopharma Labs"
+    }
+  ],
+  "flow": {
+    "revenueM": 3810,
+    "costOfRevenueM": 2702,
+    "grossProfitM": 1108,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 611,
+        "note": "Sales, billing and the back office \u2014 Labcorp's SG&A line.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 79,
+        "note": "Spreading the cost of past acquisitions (customer relationships and other intangibles) over their useful lives.",
+        "shortName": "Amortization"
+      },
+      {
+        "name": "Restructuring & other charges",
+        "amountM": 16,
+        "note": "Costs from reshaping the business, including its efficiency program.",
+        "shortName": "Restructuring"
+      }
+    ],
+    "operatingIncomeM": 402,
+    "otherIncomeM": -74,
+    "taxM": 65,
+    "netIncomeM": 263
+  },
+  "otherDetail": "Net other expense of $74M: interest expense of $59M, an $11M equity-method loss and $5M of other expense, partly offset by $1M of investment income.",
+  "follow100": [
+    {
+      "label": "Diagnostics Laboratories",
+      "amount": 77.4
+    },
+    {
+      "label": "Biopharma Laboratory Services",
+      "amount": 22.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -70.92
+    },
+    {
+      "label": "SG&A",
+      "amount": -16.04
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -2.07
+    },
+    {
+      "label": "Restructuring & other charges",
+      "amount": -0.42
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.94
+    },
+    {
+      "label": "Tax",
+      "amount": -1.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.9
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.9%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in both businesses",
+      "text": "Diagnostics revenue rose 6.5% to $2,949M (4.4% organic) and Biopharma Laboratory Services rose 8.5% to $867M, as specialty testing and new health-system and pharma partnerships kept volumes climbing."
+    },
+    {
+      "stat": "$4.78",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS rose 14.5%",
+      "text": "Adjusted EPS of $4.78 excludes $79M of intangible amortization and $16M of restructuring charges that sit in the GAAP figure of $3.22. Adjusted operating margin widened to 15.0% from 14.4%."
+    },
+    {
+      "stat": "$18.30\u2013$18.70",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "Labcorp lifted its full-year outlook: revenue growth of 5.9%\u20136.7% and adjusted EPS of $18.30\u2013$18.70. It also announced or closed four acquisitions in the quarter, each expected to add to adjusted EPS in year one."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges were $16M in the quarter (vs $6M a year ago), and GAAP results carry $79M of amortization of intangibles from past deals \u2014 both are excluded from Labcorp's adjusted EPS of $4.78."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000213/form8-kexhibit9913q26.htm"
+    },
+    {
+      "label": "Form 10-Q segment note (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000222/lh-20260930.htm"
+    }
+  ],
+  "footerNote": "Labcorp reports segment revenue before intercompany eliminations: Diagnostics $2,948.9M and Biopharma Laboratory Services $866.7M, less $5.6M of eliminations and other, equals consolidated revenue of $3,810.0M (per the Q3 2026 Form 10-Q segment note). The eliminations are netted against Biopharma Laboratory Services here so the chart's segments sum to revenue. Net earnings are the consolidated $263M; $262.8M was attributable to Labcorp shareholders."
+}

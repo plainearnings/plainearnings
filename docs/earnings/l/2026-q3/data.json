@@ -1,0 +1,148 @@
+{
+  "ticker": "L",
+  "company": "Loews Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Loews earned $306M, down from $504M a year ago, as a $125M long-term care reserve charge at insurer CNA and weaker underwriting outweighed solid growth at Boardwalk Pipelines and Loews Hotels.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "total revenue vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.50",
+      "note": "vs $2.43 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$306M",
+      "note": "attributable to Loews, vs $504M a year ago"
+    },
+    {
+      "label": "CNA combined ratio",
+      "value": "97.0%",
+      "note": "P&C; claims + expenses per $100 of premium, vs 92.8%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "CNA Financial (insurance)",
+      "amountM": 3821,
+      "yoy": "+0%",
+      "note": "The insurer CNA \u2014 about 80% of Loews. Premiums, investment income and other insurance revenue; flat vs a year ago as a long-term care reserve charge hit earnings, not revenue.",
+      "shortName": "CNA Financial"
+    },
+    {
+      "name": "Boardwalk Pipelines",
+      "amountM": 616,
+      "yoy": "+13%",
+      "note": "Natural gas pipelines and storage \u2014 revenue up 13% on higher gas transportation rates and utilization."
+    },
+    {
+      "name": "Loews Hotels & Co",
+      "amountM": 250,
+      "yoy": "+18%",
+      "note": "Hotels \u2014 revenue up 18% on higher room rates and more occupied nights, led by the renovated Loews Miami Beach Hotel.",
+      "shortName": "Loews Hotels"
+    },
+    {
+      "name": "Corporate investment income",
+      "amountM": 72,
+      "yoy": "-26%",
+      "note": "Investment income earned by the parent company itself, down from $97M a year ago.",
+      "shortName": "Corporate investments"
+    }
+  ],
+  "flow": {
+    "revenueM": 4759,
+    "costOfRevenueM": 2347,
+    "grossProfitM": 2412,
+    "opex": [
+      {
+        "name": "Operating expenses & other",
+        "amountM": 2006,
+        "note": "Everything else Loews spends \u2014 running the pipelines, hotels and insurance operations, plus corporate costs \u2014 in Loews' own reported line."
+      }
+    ],
+    "operatingIncomeM": 406,
+    "otherIncomeM": 0,
+    "equityM": -16,
+    "taxM": 84,
+    "netIncomeM": 306
+  },
+  "otherDetail": "There is no separate other-income line in Loews' presentation: $406M is income before tax. The $16M shown here is the share of profit attributable to noncontrolling interests, deducted so the bottom line is the $306M attributable to Loews shareholders.",
+  "follow100": [
+    {
+      "label": "CNA Financial (insurance)",
+      "amount": 80.3
+    },
+    {
+      "label": "Boardwalk Pipelines",
+      "amount": 12.94
+    },
+    {
+      "label": "Loews Hotels & Co",
+      "amount": 5.25
+    },
+    {
+      "label": "Corporate investment income",
+      "amount": 1.51
+    },
+    {
+      "label": "Insurance claims & benefits",
+      "amount": -49.32
+    },
+    {
+      "label": "Operating expenses & other",
+      "amount": -42.15
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.34
+    },
+    {
+      "label": "Tax",
+      "amount": -1.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.42
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$125M",
+      "statColor": "#cf5f4e",
+      "title": "A reserve charge hit CNA",
+      "text": "CNA's annual long-term care reserve review produced an unfavorable $125M impact (after tax and noncontrolling interests). CNA's core income fell to $203M from $409M, and the P&C combined ratio rose to 97.0% from 92.8% on higher catastrophe losses and loss-cost trends. Loews notes the charge should be almost entirely offset over time by higher investment yields."
+    },
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Boardwalk kept growing",
+      "text": "Pipeline revenue rose 13% to $616M on higher gas transportation rates and utilization. Net income of $85M included about $14M (after tax) of one-off charges \u2014 unrealized losses at Continuum and an office-relocation impairment; excluding them, results improved."
+    },
+    {
+      "stat": "$167M",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks continue",
+      "text": "Loews repurchased 1.6 million of its own shares for $167M in the quarter and held $4.4B of cash and investments at the parent. Book value per share excluding AOCI rose to $100.67, from $95.89 at the end of 2025."
+    }
+  ],
+  "oneTimers": [
+    "CNA's annual long-term care reserve assumption update: an unfavorable $125M impact on Loews' share of CNA's earnings (after tax and noncontrolling interests) \u2014 the single biggest reason profit fell year over year.",
+    "Boardwalk took about $14M (after tax) of charges: $7M of net unrealized losses at Continuum and a $7M impairment tied to relocating its corporate office."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000054/exhibit991-q32026.htm"
+    }
+  ],
+  "footerNote": "Loews is a holding company, so this page follows its own presentation (like the bank and insurer pages): revenue is shown by business as Loews reports it \u2014 CNA insurance, Boardwalk Pipelines, Loews Hotels & Co and parent-company investment income. By type, revenue was insurance premiums $2,829M, net investment income $713M, investment losses of $9M and operating revenues and other $1,226M. Insurance claims and policyholders' benefits ($2,347M) play the role of cost of revenue. Net income is the $306M attributable to Loews; consolidated net income was $322M."
+}

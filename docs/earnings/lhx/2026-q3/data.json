@@ -1,0 +1,137 @@
+{
+  "ticker": "LHX",
+  "company": "L3Harris Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-29",
+  "verdict": "L3Harris grew revenue 7% to $6.1B and EPS jumped 33% to $3.28, as $19.3B of orders \u2014 including two huge rocket-propulsion contracts \u2014 pushed its backlog to a record $53.2B.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "+9% organic, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.28",
+      "note": "vs $2.46 a year ago, +33%"
+    },
+    {
+      "label": "Backlog",
+      "value": "$53.2B",
+      "note": "a record; orders of $19.3B, book-to-bill 3.2x"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.3B",
+      "note": "up 195% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Space & Mission Systems",
+      "amountM": 3008,
+      "yoy": "+10%",
+      "note": "Space payloads, mission avionics and sensing. Reported segment revenue was $3,093M, up 10%; shown here net of intersegment eliminations and other corporate revenue (-$85M in total) so the segments sum to consolidated revenue.",
+      "shortName": "Space & Mission Systems"
+    },
+    {
+      "name": "Communications & Spectrum Dominance",
+      "amountM": 1995,
+      "yoy": "+3%",
+      "note": "Tactical radios, night vision and electronic warfare \u2014 up 3%.",
+      "shortName": "Communications & Spectrum"
+    },
+    {
+      "name": "Missile Solutions",
+      "amountM": 1057,
+      "yoy": "+5%",
+      "note": "Rocket propulsion and missile systems \u2014 up 5% this quarter, with the big THAAD and PAC-3 propulsion awards set to drive future growth.",
+      "shortName": "Missile Solutions"
+    }
+  ],
+  "flow": {
+    "revenueM": 6060,
+    "costOfRevenueM": 4448,
+    "grossProfitM": 1612,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 826,
+        "note": "L3Harris reports a single G&A line below cost of revenue \u2014 engineering, corporate and administrative costs not charged to contracts. It fell from $873M a year ago, a key reason margins improved.",
+        "shortName": "G&A"
+      }
+    ],
+    "operatingIncomeM": 786,
+    "otherIncomeM": -43,
+    "taxM": 111,
+    "netIncomeM": 632
+  },
+  "otherDetail": "Net non-operating expense of $43M: interest expense, net of $116M and $1M of other non-operating expense, partly offset by $74M of non-service pension income (expected returns on pension assets, not cash from the business).",
+  "follow100": [
+    {
+      "label": "Space & Mission Systems",
+      "amount": 49.64
+    },
+    {
+      "label": "Communications & Spectrum Dominance",
+      "amount": 32.92
+    },
+    {
+      "label": "Missile Solutions",
+      "amount": 17.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -73.4
+    },
+    {
+      "label": "G&A",
+      "amount": -13.63
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.71
+    },
+    {
+      "label": "Tax",
+      "amount": -1.83
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$53.2B",
+      "statColor": "#3d7bc8",
+      "title": "Record backlog",
+      "text": "Orders of $19.3B (book-to-bill 3.2x) took the backlog to a record $53.2B, led by Missile Solutions at 11.8x \u2014 including $6.3B for THAAD propulsion and $4.7B for PAC-3 MSE propulsion, both seven-year deals to scale up production."
+    },
+    {
+      "stat": "13.0%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded",
+      "text": "Operating margin rose to 13.0% from 11.0% a year ago as G&A fell to $826M from $873M and volumes grew. Segment operating margin held at 15.9%."
+    },
+    {
+      "stat": "$1.3B",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow surged",
+      "text": "Free cash flow was $1.3B, up 195% year over year, and management raised full-year guidance: revenue of $23.5B\u2013$23.7B and GAAP EPS of $12.25\u2013$12.35."
+    }
+  ],
+  "oneTimers": [
+    "Net income was $632M, but $19M of subsidiary preferred stock deemed dividends reduced income available to common shareholders to $613M \u2014 the diluted EPS of $3.28 is calculated on that $613M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000084/exhibit991q3cy26earnings.htm"
+    }
+  ],
+  "footerNote": "L3Harris' quarter ended October 2, 2026. Its segment revenue is a non-GAAP presentation: Space & Mission Systems $3,093M, Communications & Spectrum Dominance $1,995M and Missile Solutions $1,057M, less $80M of intersegment revenue and $5M of other corporate items, equals GAAP revenue of $6,060M. The $85M difference is netted against Space & Mission Systems here so the chart's segments sum to revenue. Segment operating income was $967M before $181M of unallocated corporate items."
+}

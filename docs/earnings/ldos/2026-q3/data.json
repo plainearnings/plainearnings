@@ -1,0 +1,155 @@
+{
+  "ticker": "LDOS",
+  "company": "Leidos",
+  "quarterLabel": "FY26 Q3",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-11-03",
+  "verdict": "Leidos grew revenue 4% to $4.6B and net income 12% to $413M, powered by a 32% jump in its Homeland business, and raised its full-year guidance for the third straight quarter.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.28",
+      "note": "vs $2.82 a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$644M",
+      "note": "non-GAAP, 13.9% margin"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$476M",
+      "note": "non-GAAP; operating cash flow was $523M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Intelligence & Digital",
+      "amountM": 1546,
+      "yoy": "+1%",
+      "note": "Intelligence-community mission support and digital services \u2014 up 1% on recent contract awards and expanded scope, partly offset by declines in some federal civilian IT programs."
+    },
+    {
+      "name": "Health",
+      "amountM": 1068,
+      "yoy": "-12%",
+      "note": "Managed health services and health IT for government \u2014 down 12% on expected program shifts and lower volumes, though still the most profitable segment at a 22.5% operating margin."
+    },
+    {
+      "name": "Homeland",
+      "amountM": 1024,
+      "yoy": "+32%",
+      "note": "Air traffic management and power-grid engineering \u2014 up 32% on strong demand plus $142M from the ENTRUST Solutions acquisition."
+    },
+    {
+      "name": "Defense",
+      "amountM": 992,
+      "yoy": "+3%",
+      "note": "Defense technology \u2014 air defense, sensing and C5ISR systems \u2014 up 3%."
+    }
+  ],
+  "flow": {
+    "revenueM": 4630,
+    "costOfRevenueM": 3810,
+    "grossProfitM": 820,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 262,
+        "note": "Corporate and selling costs \u2014 down from $290M a year ago on disciplined cost management.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Acquisition & restructuring costs",
+        "amountM": 12,
+        "note": "Costs tied to recent strategic corporate transactions, including the ENTRUST Solutions deal.",
+        "shortName": "Acquisition costs"
+      }
+    ],
+    "operatingIncomeM": 546,
+    "otherIncomeM": -71,
+    "equityM": 7,
+    "taxM": 69,
+    "netIncomeM": 413
+  },
+  "otherDetail": "Net non-operating expense of $64M after equity earnings: interest expense, net of $67M and $4M of other expense, partly offset by $7M of equity earnings from joint ventures. Leidos reports those equity earnings inside operating income (reported operating income was $553M); they are shown here with other income so the chart foots.",
+  "follow100": [
+    {
+      "label": "Intelligence & Digital",
+      "amount": 33.39
+    },
+    {
+      "label": "Health",
+      "amount": 23.07
+    },
+    {
+      "label": "Homeland",
+      "amount": 22.12
+    },
+    {
+      "label": "Defense",
+      "amount": 21.42
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -82.29
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.66
+    },
+    {
+      "label": "Acquisition & restructuring costs",
+      "amount": -0.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.38
+    },
+    {
+      "label": "Tax",
+      "amount": -1.49
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.92
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+32%",
+      "statColor": "#3d7bc8",
+      "title": "Homeland is booming",
+      "text": "Homeland revenue jumped 32% to $1,024M on air traffic management and power-distribution engineering demand, including $142M from the ENTRUST Solutions acquisition \u2014 more than offsetting Health's 12% decline."
+    },
+    {
+      "stat": "$3.62",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS rose 19%",
+      "text": "Non-GAAP EPS was $3.62, up 19% (GAAP $3.28, up 16%). A lower effective tax rate \u2014 helped by a bigger federal research credit \u2014 flattered both figures, alongside improved program performance."
+    },
+    {
+      "stat": "$49.6B",
+      "statColor": "#5b6b7c",
+      "title": "A deep backlog",
+      "text": "Total backlog reached $49.6B at quarter-end, about 2.7 times annual revenue, giving Leidos long visibility on future work \u2014 $11.1B of it already funded."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include $12M of costs associated with recent strategic corporate transactions (the acquisition, integration and restructuring line). Excluding these and items like amortization of acquired intangibles, non-GAAP net income was $455M ($3.62 per share) versus $413M ($3.28) GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000290/ldos100226q3pressreleaseex.htm"
+    }
+  ],
+  "footerNote": "Leidos' fiscal third quarter ended October 2, 2026. Leidos reports $7M of equity earnings from joint ventures inside operating income (reported operating income $553M); this chart shows that $7M alongside other income so the money flow foots, which puts chart operating profit at $546M. Net income is the consolidated $413M; $410M was attributable to Leidos common stockholders, with $3M to noncontrolling interests. Leidos realigned its segments at the start of fiscal 2026 (Intelligence & Digital, Health, Homeland, Defense); prior-year figures are recast."
+}

@@ -1,0 +1,138 @@
+{
+  "ticker": "KR",
+  "company": "Kroger",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-08-15",
+  "reportedDate": "2026-09-11",
+  "verdict": "Kroger's sales rose 2% to $34.6B and profit grew to $641M as eCommerce sales jumped 20%, but identical sales without fuel barely grew \u2014 up just 0.2% \u2014 and Kroger trimmed its full-year sales outlook.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "total sales vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.05",
+      "note": "vs $0.91 a year ago"
+    },
+    {
+      "label": "Identical sales",
+      "value": "+0.2%",
+      "note": "without fuel, vs +3.4% a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.09",
+      "note": "non-GAAP, +5% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Supermarket sales",
+      "amountM": 34621,
+      "yoy": "+2%",
+      "note": "Kroger reports one business: supermarkets selling food, pharmacy and fuel, plus delivery and its Kroger Precision Marketing media business. Total sales were $34,621M, up from $33,940M a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 34621,
+    "costOfRevenueM": 26763,
+    "grossProfitM": 7858,
+    "opex": [
+      {
+        "name": "Operating, general & administrative",
+        "amountM": 5952,
+        "note": "Store labor and the cost of running the business day to day \u2014 Kroger's OG&A line, 17.2% of sales."
+      },
+      {
+        "name": "Rent",
+        "amountM": 198,
+        "note": "Rent on leased stores and facilities."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 737,
+        "note": "Wear-and-tear cost of stores, warehouses and technology, spread over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 971,
+    "otherIncomeM": -131,
+    "equityM": -1,
+    "taxM": 198,
+    "netIncomeM": 641
+  },
+  "otherDetail": "Net other expense of $132M on this chart: interest expense, net of $156M and $9M of non-service pension cost, partly offset by a $34M gain on investments \u2014 plus $1M of earnings attributable to noncontrolling interests, so the bottom line is the $641M attributable to Kroger.",
+  "follow100": [
+    {
+      "label": "Supermarket sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Merchandise costs",
+      "amount": -77.3
+    },
+    {
+      "label": "Operating, general & administrative",
+      "amount": -17.19
+    },
+    {
+      "label": "Rent",
+      "amount": -0.57
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.13
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -0.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.86
+    }
+  ],
+  "follow100Note": "A supermarket keeps very little of each sales dollar: about $1.86 of every $100 became profit this quarter. Merchandise \u2014 the food and goods on the shelves \u2014 took $77.30.",
+  "takeaways": [
+    {
+      "stat": "+0.2%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying sales barely grew",
+      "text": "Identical sales without fuel rose just 0.2%, including a roughly 1.4-point headwind from the Inflation Reduction Act's effect on pharmacy sales. Kroger cut its full-year identical-sales guidance to 0.2%\u20130.8%."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3e8e5a",
+      "title": "Digital is the growth engine",
+      "text": "Adjusted eCommerce sales grew 20% and Kroger Precision Marketing profit grew 24%, with eCommerce profitability improving \u2014 a bright spot that helped offset higher shrink and transportation costs in stores."
+    },
+    {
+      "stat": "$1.09",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS rose 5%",
+      "text": "GAAP EPS was $1.05. Excluding adjustment items, EPS was $1.09, up 5%, and adjusted FIFO operating profit was $1,076M versus $971M on a GAAP basis \u2014 the gap is mainly the $39M LIFO charge plus transformation and litigation items."
+    }
+  ],
+  "oneTimers": [
+    "Adjustment items excluded from adjusted EPS netted to +$26M after tax: $43M of transformation costs and $9M of merger-related litigation charges, partly offset by a $26M after-tax adjustment removing investment gains. Adjusted net earnings were $667M ($1.09 per share) versus $641M ($1.05) GAAP.",
+    "Merchandise costs include a $39M LIFO charge \u2014 an accounting cost that rises when the cost of goods inflates \u2014 down from last year, which helped the gross margin rate."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926108926/kr-20260815x10q.htm"
+    }
+  ],
+  "footerNote": "Kroger's fiscal second quarter ended August 15, 2026, and Kroger reports a single operating segment, so sales are shown as one line. Gross profit here is sales less merchandise costs (including warehousing, transportation and the $39M LIFO charge), exactly as Kroger's statement of operations foots; Kroger's own quoted gross margin rate of 22.4% uses a slightly different definition. Net income is the $641M attributable to Kroger (consolidated net earnings were $642M)."
+}
