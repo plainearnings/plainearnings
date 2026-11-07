@@ -1,0 +1,173 @@
+{
+  "ticker": "DVN",
+  "company": "Devon Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Devon's first full quarter after merging with Coterra made it a much bigger producer \u2014 revenue jumped 58% to $6.9B \u2014 but a $914M hedging loss held reported profit to $1.0B.",
+  "revenueYoY": "+58%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+58%",
+      "note": "Revenue $6.9B, vs $4.3B a year ago \u2014 first full quarter after the Coterra merger"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.88",
+      "note": "Core EPS was $1.42, excluding hedging and deal items"
+    },
+    {
+      "label": "Production",
+      "value": "1,668 MBoe/d",
+      "note": "Thousand barrels of oil equivalent a day; oil was 553,000 barrels a day"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$2.0B",
+      "note": "Operating cash flow was $2.8B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Oil, gas & NGL sales (after hedging)",
+      "amountM": 5025,
+      "yoy": "+74%",
+      "note": "Selling oil ($85.63 benchmark price), natural gas and natural gas liquids (NGLs \u2014 propane, butane and similar). The $5,939M of sales is shown after $914M of hedging losses \u2014 contracts that lock in prices lost value as prices rose; $729M of that loss is a non-cash revaluation. A year ago the same line, after a small hedging gain, was $2,889M."
+    },
+    {
+      "name": "Marketing & midstream",
+      "amountM": 1835,
+      "yoy": "+27%",
+      "note": "Gathering, processing and selling other producers' oil and gas, and pipeline services. Revenue rose 27%, though the costs of this business ($1,855M) roughly match what it brings in."
+    }
+  ],
+  "flow": {
+    "revenueM": 6860,
+    "costOfRevenueM": 1651,
+    "grossProfitM": 5209,
+    "opex": [
+      {
+        "name": "Marketing & midstream expenses",
+        "amountM": 1855,
+        "note": "The cost of buying, gathering and transporting oil and gas for the marketing business \u2014 it roughly offsets that segment's revenue."
+      },
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 1684,
+        "note": "Spreading the cost of wells and reserves as the oil and gas is produced \u2014 a non-cash charge (DD&A). It roughly doubled with the Coterra merger."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 180,
+        "note": "Running the company \u2014 head office and support."
+      },
+      {
+        "name": "Restructuring & transaction costs",
+        "amountM": 69,
+        "note": "Costs of merging Devon with Coterra and restructuring afterwards."
+      },
+      {
+        "name": "Exploration expenses",
+        "amountM": 14,
+        "note": "Looking for new oil and gas \u2014 geological work and wells that did not pay off."
+      },
+      {
+        "name": "Other, net",
+        "amountM": 8,
+        "note": "Small miscellaneous operating items, net."
+      }
+    ],
+    "operatingIncomeM": 1399,
+    "otherIncomeM": -147,
+    "taxM": 244,
+    "netIncomeM": 1008
+  },
+  "otherDetail": "Other expense of $147M is financing costs, net: $150M of interest on debt, less $7M of interest income, plus $4M of other financing costs.",
+  "footerNote": "Adaptation for an oil and gas producer: production expenses (lease operating expense, gathering/processing/transportation and production and property taxes, as detailed in Devon's supplemental tables) are the cost of revenue; financing costs are shown below operating income, so operating income here is $1,399M before those financing costs. Hedging (derivative) results are netted inside the oil, gas and NGL sales segment so segment revenue stays positive and sums to total revenue.",
+  "oneTimers": [
+    "Oil, gas and NGL derivatives lost $914M in the quarter \u2014 $185M of cash settlements paid out plus a $729M non-cash drop in the contracts' value as prices rose. Excluding hedging swings, deal costs and impairments, core earnings were $1,633M ($1.42 per share) vs reported $1,008M ($0.88).",
+    "Devon agreed on October 8 to sell its Eagle Ford assets for $4.2B in cash (about $3.5B after tax and adjustments), closing expected in early 2027 \u2014 the proceeds are earmarked for bigger buybacks and debt reduction."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526449884/d120646dex991.htm"
+    },
+    {
+      "label": "Supplemental financial tables (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526449884/d120646dex992.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090012/000119312526451216/dvn-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+58%",
+      "statColor": "#3d7bc8",
+      "title": "The merger doubled the company",
+      "text": "This was the first full quarter of the combined Devon\u2013Coterra. Production averaged 1,668,000 barrels of oil equivalent a day (oil 553,000 barrels a day), up from 853,000 a year ago, and revenue rose 58% to $6.9B."
+    },
+    {
+      "stat": "$914M",
+      "statColor": "#cf5f4e",
+      "title": "Hedges capped the oil-price upside",
+      "text": "Devon locks in future prices with hedging contracts (insurance against price falls). With benchmark oil at $85.63, those contracts lost $914M \u2014 mostly a $729M non-cash revaluation \u2014 cutting reported EPS to $0.88 versus core EPS of $1.42."
+    },
+    {
+      "stat": "$4.2B",
+      "statColor": "#3e8e5a",
+      "title": "Eagle Ford sale funds returns",
+      "text": "Devon agreed to sell its Eagle Ford assets for $4.2B, retired the last $750M of its term loan (debt is $10.6B, heading for a $9B target), and plans buybacks of more than $1B in the fourth quarter alone."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Oil, gas & NGL sales (after hedging)",
+      "amount": 73.25
+    },
+    {
+      "label": "Marketing & midstream",
+      "amount": 26.75
+    },
+    {
+      "label": "Production expenses",
+      "amount": -24.07
+    },
+    {
+      "label": "Marketing & midstream expenses",
+      "amount": -27.04
+    },
+    {
+      "label": "Depreciation & depletion",
+      "amount": -24.55
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.62
+    },
+    {
+      "label": "Restructuring & deal costs",
+      "amount": -1.01
+    },
+    {
+      "label": "Exploration & other",
+      "amount": -0.32
+    },
+    {
+      "label": "Financing costs, net",
+      "amount": -2.14
+    },
+    {
+      "label": "Tax",
+      "amount": -3.56
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.69
+    }
+  ]
+}

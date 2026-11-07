@@ -1,0 +1,166 @@
+{
+  "ticker": "ELV",
+  "company": "Elevance Health",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Elevance Health grew total revenue 1.4% to $51.4B and lifted EPS 18% to $6.27, as medical costs ran better than a year ago and investment income jumped \u2014 even though membership shrank \u2014 and it raised its full-year guidance.",
+  "revenueYoY": "+1.4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1.4%",
+      "note": "Total revenue was $51.4B; operating revenue was $50.4B, up 0.7%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.27",
+      "note": "vs $5.32 a year ago; adjusted diluted EPS was $6.99"
+    },
+    {
+      "label": "Benefit expense ratio",
+      "value": "90.6%",
+      "note": "Share of premiums paid out as medical care \u2014 improved from 91.3% a year ago"
+    },
+    {
+      "label": "Medical membership",
+      "value": "44.9M",
+      "note": "People covered \u2014 down 487,000 from a year ago, mainly in Medicare Advantage and Medicaid"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 41704,
+      "yoy": "-0.2%",
+      "note": "Health-insurance premiums from members, employers and government programs \u2014 the money people pay for coverage. Roughly flat: higher premium rates offset lower Medicare Advantage, Medicaid and employer risk membership. Health Benefits, the insurance segment, had $43.4B of operating revenue."
+    },
+    {
+      "name": "Products",
+      "amountM": 6454,
+      "yoy": "+5%",
+      "note": "Prescription drugs and other products sold, mainly through CarelonRx pharmacies. Carelon, the health-services segment, had $19.3B of operating revenue (before eliminations between segments)."
+    },
+    {
+      "name": "Services",
+      "amountM": 2282,
+      "yoy": "+7%",
+      "note": "Fees for care delivery and health services, mainly from Carelon Services."
+    },
+    {
+      "name": "Net investment income & other",
+      "amountM": 989,
+      "yoy": "+58%",
+      "note": "Income from the company's investment portfolio of $1,037M, less $48M of net losses on financial instruments. Investment income rose 66% from a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 51429,
+    "costOfRevenueM": 37779,
+    "grossProfitM": 13650,
+    "opex": [
+      {
+        "name": "Cost of products sold",
+        "amountM": 5640,
+        "note": "What the company paid for the prescription drugs and products it sold \u2014 up 5%, in line with product revenue."
+      },
+      {
+        "name": "Operating expense",
+        "amountM": 5752,
+        "note": "The day-to-day cost of running the company \u2014 people, technology and offices. At 11.4% of operating revenue, up from 10.5%, reflecting targeted one-time investments in new capabilities."
+      },
+      {
+        "name": "Amortization of other intangible assets",
+        "amountM": 106,
+        "note": "A non-cash charge spreading the cost of intangible assets from past acquisitions over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 2152,
+    "otherIncomeM": -358,
+    "taxM": 451,
+    "netIncomeM": 1343
+  },
+  "follow100": [
+    {
+      "label": "Premiums",
+      "amount": 81.09
+    },
+    {
+      "label": "Products",
+      "amount": 12.55
+    },
+    {
+      "label": "Services",
+      "amount": 4.44
+    },
+    {
+      "label": "Net investment & other",
+      "amount": 1.92
+    },
+    {
+      "label": "Benefit expense",
+      "amount": -73.46
+    },
+    {
+      "label": "Cost of products sold",
+      "amount": -10.97
+    },
+    {
+      "label": "Operating expense",
+      "amount": -11.18
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.21
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.7
+    },
+    {
+      "label": "Tax",
+      "amount": -0.88
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.61
+    }
+  ],
+  "follow100Note": "Rows may add to $99.99 rather than $100.00 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "90.6%",
+      "statColor": "#3e8e5a",
+      "title": "Medical costs ran better",
+      "text": "The benefit expense ratio \u2014 the share of premiums paid out as medical care \u2014 improved to 90.6% from 91.3%, driven by better performance in Medicare Advantage and individual ACA plans. Benefit expense itself fell about 1% to $37.8B even though premiums were flat."
+    },
+    {
+      "stat": "44.9M",
+      "statColor": "#5b6b7c",
+      "title": "Fewer members, higher rates",
+      "text": "Medical membership fell to 44.9 million, down 487,000 from a year ago: Medicare Advantage membership dropped 15.5% and Medicaid 4.9%, partly offset by growth in fee-based commercial plans. Operating revenue still rose 0.7% to $50.4B because premium rates and CarelonRx product sales rose."
+    },
+    {
+      "stat": "$6.99",
+      "statColor": "#3d7bc8",
+      "title": "Guidance raised on both measures",
+      "text": "GAAP diluted EPS was $6.27, up 18%; adjusted EPS was $6.99. The company raised full-year 2026 guidance to at least $22.00 of diluted EPS and at least $29.00 adjusted, and expects adjusted EPS to grow at least 12% in 2027. Net investment income jumping 66% to $1,037M helped this quarter's result."
+    }
+  ],
+  "oneTimers": [
+    "Items the company excludes from adjusted results in the quarter: $106M of intangible amortization, $48M of net losses on financial instruments, $42M of transaction and integration costs, $18M of business optimization charges and $8M of litigation and settlement expenses \u2014 $155M in total after a $67M tax benefit. Adjusted shareholders' net income was $1,520M vs $1,365M as reported."
+  ],
+  "otherDetail": "Other expense of $358M is interest expense. Investment income is not in this line \u2014 it is already counted in revenue.",
+  "footerNote": "Operating income here ($2,152M) is total revenue less benefit expense, cost of products sold, operating expense and intangible amortization. The company reports 'operating gain' of $1.3B, measured on operating revenue only \u2014 it excludes investment income and amortization. Total net income was $1,343M; shareholders' net income was $1,365M, the difference being a $22M loss attributable to noncontrolling interests. Benefit expense (medical claims) plays the role of cost of revenue for a health insurer.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    }
+  ]
+}

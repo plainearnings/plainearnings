@@ -1,0 +1,145 @@
+{
+  "ticker": "DVA",
+  "company": "DaVita",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "DaVita grew revenue 5% to $3.6B and lifted profit attributable to its shareholders 48% to $223M \u2014 even after booking a $62M impairment charge on its China business.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "Revenue $3.6B, vs $3.4B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.40",
+      "note": "vs $2.04 a year ago"
+    },
+    {
+      "label": "U.S. dialysis treatments",
+      "value": "7.33M",
+      "note": "Normalized treatment growth +0.4% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$276M",
+      "note": "Operating cash flow was $519M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Dialysis patient services",
+      "amountM": 3408,
+      "yoy": "+3%",
+      "note": "Payments for dialysis treatments \u2014 filtering blood for people whose kidneys no longer can \u2014 mostly from Medicare and insurers. Up 3% on annual rate increases and a better payor mix; DaVita ran 7.33M U.S. treatments at $415 of revenue each."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 170,
+      "yoy": "+39%",
+      "note": "Everything else \u2014 mainly international dialysis and related care services. Up 39% as the overseas business grows."
+    }
+  ],
+  "flow": {
+    "revenueM": 3578,
+    "costOfRevenueM": 2451,
+    "grossProfitM": 1127,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 409,
+        "note": "Running the company \u2014 management, IT, billing and support. Roughly flat YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 165,
+        "note": "Spreading the cost of dialysis centers and equipment over their lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "Impairment & other, net",
+        "amountM": 54,
+        "note": "A $62M non-cash impairment charge on the China business, partly offset by $8M of income from equity investments."
+      }
+    ],
+    "operatingIncomeM": 499,
+    "otherIncomeM": -187,
+    "taxM": 89,
+    "netIncomeM": 223
+  },
+  "otherDetail": "Other expense of $187M, net: $150M of debt expense (interest on borrowings), less $9M of other income \u2014 and it also includes the $46M share of profit belonging to noncontrolling partners in DaVita's joint-venture clinics, so the flow lands on the $223M attributable to DaVita shareholders.",
+  "footerNote": "Adaptation: patient care costs are the direct cost of revenue; the rest mirrors DaVita's income statement (the $62M impairment is shown net of $8M of equity investment income). Net income is the $223M attributable to DaVita Inc. (total net income was $269M, of which $46M belongs to noncontrolling interests), matching the $3.40 diluted EPS. Figures are rounded to $M from thousands in the release.",
+  "oneTimers": [
+    "A $62M non-cash goodwill and asset impairment charge on DaVita's China business sits inside operating costs. Excluding it, adjusted operating income was $561M (vs $499M reported) and adjusted EPS was $3.82 (vs $3.40)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000132/dva93026ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000134/dva-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.40",
+      "statColor": "#3d7bc8",
+      "title": "EPS jumped two-thirds",
+      "text": "Diluted EPS rose from $2.04 to $3.40. Buybacks helped \u2014 DaVita repurchased 0.6M shares for $111M in the quarter, and the diluted share count is down from 73.8M to 65.5M in a year \u2014 and a smaller share of profit went to joint-venture partners."
+    },
+    {
+      "stat": "$62M",
+      "statColor": "#cf5f4e",
+      "title": "China write-down hit operating profit",
+      "text": "Operating income was $499M, slightly below last year's $506M, because of a $62M non-cash impairment on the China business. Without it, adjusted operating income was $561M, a 15.7% margin."
+    },
+    {
+      "stat": "$415",
+      "statColor": "#5b6b7c",
+      "title": "Steady treatments, better rates",
+      "text": "Revenue per U.S. treatment was $415.25, up from $405.15 a year ago, while treatment volume grew just 0.4% on a normalized basis. Revenue growth is coming from price and mix, not from many more patients."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Dialysis patient services",
+      "amount": 95.25
+    },
+    {
+      "label": "Other revenues",
+      "amount": 4.75
+    },
+    {
+      "label": "Patient care costs",
+      "amount": -68.5
+    },
+    {
+      "label": "General & administrative",
+      "amount": -11.43
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.61
+    },
+    {
+      "label": "Impairment & other, net",
+      "amount": -1.51
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -5.23
+    },
+    {
+      "label": "Tax",
+      "amount": -2.49
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.23
+    }
+  ]
+}

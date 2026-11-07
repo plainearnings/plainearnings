@@ -1,0 +1,163 @@
+{
+  "ticker": "EMR",
+  "company": "Emerson Electric",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Emerson closed its fiscal year with sales up 7% to $5.2B and profit up sharply \u2014 pre-tax margin widened to 19.2% \u2014 as every business group grew and long-cycle project demand stayed strong.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Net sales of $5.20B, vs $4.86B a year ago; underlying sales (excluding currency and deals) rose 4%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.33",
+      "note": "vs $1.07 a year ago, up 24%; adjusted EPS was $1.86"
+    },
+    {
+      "label": "Adjusted segment EBITA",
+      "value": "$1.5B",
+      "note": "Profit of the business segments before interest, tax and amortization \u2014 a 29.1% margin, up from 27.5%"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$916M",
+      "note": "Cash from operations of $1,075M less capital spending \u2014 up 9% from a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Final Control",
+      "amountM": 1725,
+      "yoy": "+5%",
+      "note": "Valves, actuators and regulators that control the flow of liquids and gases in industrial plants \u2014 the largest single business."
+    },
+    {
+      "name": "Control Systems & Software",
+      "amountM": 1247,
+      "yoy": "+14%",
+      "note": "Automation software and control systems that run factories and process plants (includes AspenTech) \u2014 joint-fastest growing, helped by long-cycle project demand."
+    },
+    {
+      "name": "Sensors",
+      "amountM": 1191,
+      "yoy": "+4%",
+      "note": "Measurement instruments \u2014 sensors that track pressure, temperature and flow in industrial processes."
+    },
+    {
+      "name": "Safety & Productivity",
+      "amountM": 573,
+      "yoy": "+2%",
+      "note": "Tools and safety products for industrial workers (such as Ridgid and Greenlee professional tools)."
+    },
+    {
+      "name": "Test & Measurement",
+      "amountM": 465,
+      "yoy": "+14%",
+      "note": "Electronic test and measurement equipment (the former NI business) \u2014 joint-fastest growing."
+    }
+  ],
+  "flow": {
+    "revenueM": 5201,
+    "costOfRevenueM": 2461,
+    "grossProfitM": 2740,
+    "opex": [
+      {
+        "name": "SG&A expenses",
+        "amountM": 1393,
+        "note": "Selling, general and administrative costs \u2014 engineering, sales and running the company."
+      },
+      {
+        "name": "Other deductions, net",
+        "amountM": 274,
+        "note": "Mainly $203M of amortization of intangible assets from past acquisitions and $46M of restructuring costs, plus $25M of other items."
+      }
+    ],
+    "operatingIncomeM": 1073,
+    "otherIncomeM": -76,
+    "taxM": 253,
+    "netIncomeM": 744
+  },
+  "follow100": [
+    {
+      "label": "Final Control",
+      "amount": 33.17
+    },
+    {
+      "label": "Control Systems & Software",
+      "amount": 23.98
+    },
+    {
+      "label": "Sensors",
+      "amount": 22.9
+    },
+    {
+      "label": "Safety & Productivity",
+      "amount": 11.02
+    },
+    {
+      "label": "Test & Measurement",
+      "amount": 8.94
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -47.32
+    },
+    {
+      "label": "SG&A",
+      "amount": -26.78
+    },
+    {
+      "label": "Other deductions",
+      "amount": -5.27
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.46
+    },
+    {
+      "label": "Tax",
+      "amount": -4.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.3
+    }
+  ],
+  "follow100Note": "Segment rows add to $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "title": "Every business grew",
+      "text": "Net sales rose 7% to $5,201M, with all five businesses up: Control Systems & Software and Test & Measurement each grew 14%, Final Control 5%, Sensors 4% and Safety & Productivity 2%. Management said underlying orders rose 14% on exceptional long-cycle project activity. Full-year sales were $18,982M, up 5%."
+    },
+    {
+      "stat": "19.2%",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew much faster than sales",
+      "text": "Pre-tax earnings rose to $997M from $760M, and pre-tax margin widened to 19.2% from 15.6%. Adjusted segment EBITA \u2014 segment profit before interest, tax and amortization \u2014 was $1,511M at a 29.1% margin. Net earnings were $744M, or $1.33 a share, vs $609M and $1.07 a year ago (full-year EPS $4.79)."
+    },
+    {
+      "stat": "$1.86",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS, and a higher dividend",
+      "text": "Adjusted EPS was $1.86 vs $1.33 GAAP; the gap is mainly $203M of intangible amortization and $46M of restructuring in 'other deductions'. Emerson raised its quarterly dividend 7% to $0.595 a share and guided to fiscal 2027 adjusted EPS of about $7.25, with about $2.5B of planned buybacks."
+    }
+  ],
+  "oneTimers": [
+    "Other deductions, net of $274M include $203M of amortization of intangible assets and $46M of restructuring costs \u2014 the main items Emerson excludes to get from GAAP EPS of $1.33 to adjusted EPS of $1.86."
+  ],
+  "otherDetail": "Other expense of $76M is interest expense, net.",
+  "footerNote": "Operating income ($1,073M) is not a line Emerson reports; it is gross profit less SG&A and other deductions, net, before interest \u2014 pre-tax earnings of $997M plus net interest expense of $76M. Results are on a continuing-operations basis; there were no discontinued operations in the quarter, so net earnings equal earnings from continuing operations. Emerson had not yet filed its Form 10-K for fiscal 2026 when this report was prepared; all figures come from the official earnings release furnished with its Form 8-K on November 4, 2026.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000049/a2026q4release_ex991.htm"
+    }
+  ]
+}

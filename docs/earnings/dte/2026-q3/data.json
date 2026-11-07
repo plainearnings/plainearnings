@@ -1,0 +1,156 @@
+{
+  "ticker": "DTE",
+  "company": "DTE Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "DTE grew revenue 6% to $3.7B and earned $470M — and agreed to sell its non-utility Vantage business for about $3B so it can focus on its Michigan electric and gas utilities.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "Revenue $3.7B, vs $3.5B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.25",
+      "note": "Operating EPS was $2.30, excluding a mark-to-market item"
+    },
+    {
+      "label": "Electric segment profit",
+      "value": "$468M",
+      "note": "The regulated Michigan electric utility — the core business"
+    },
+    {
+      "label": "Vantage sale price",
+      "value": "~$3B",
+      "note": "Sale of the non-utility business, expected to close in H1 2027"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Utility operations",
+      "amountM": 2270,
+      "yoy": "+2%",
+      "note": "Selling electricity and natural gas to regulated customers in Michigan — 2.3M electric and 1.4M gas customers. Within it, the Electric segment earned $468M and the Gas segment lost $30M in this seasonally weak quarter for gas."
+    },
+    {
+      "name": "Non-utility operations",
+      "amountM": 1457,
+      "yoy": "+12%",
+      "note": "Businesses outside the regulated utilities — mainly DTE Vantage (custom energy projects for big customers, $110M of profit) and Energy Trading ($23M of profit). DTE has now agreed to sell Vantage for about $3B."
+    }
+  ],
+  "flow": {
+    "revenueM": 3727,
+    "costOfRevenueM": 1850,
+    "grossProfitM": 1877,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 628,
+        "note": "Keeping the grid, pipes and power plants running — crews, repairs and storm restoration."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 506,
+        "note": "Spreading the cost of power plants, poles and pipelines over their long lives — a non-cash charge that grows as DTE invests."
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 139,
+        "note": "Mostly property taxes on plants and networks."
+      },
+      {
+        "name": "Asset losses & impairments, net",
+        "amountM": 1,
+        "note": "Small net charge on asset values this quarter, versus $50M a year ago."
+      }
+    ],
+    "operatingIncomeM": 603,
+    "otherIncomeM": -240,
+    "taxM": -107,
+    "netIncomeM": 470
+  },
+  "otherDetail": "Other expense of $240M, net: $317M of interest expense on borrowings, partly offset by $32M of interest income, $64M of other income, less $19M of other expenses.",
+  "footerNote": "Adaptation for a utility: fuel and purchased power (including gas bought for customers and for the non-utility businesses, $1,850M combined) is treated as the cost of revenue; the remaining operating expense lines mirror DTE's income statement. The quarter's tax line is a $107M benefit, so tax adds to profit in the flow. Segment revenue uses the utility / non-utility split from DTE's statements; segment profits quoted in the notes are from the 10-Q segment note.",
+  "oneTimers": [
+    "Reported EPS of $2.25 includes a $15M pre-tax mark-to-market loss in Energy Trading (derivatives revalued without revaluing the contracts they hedge). Excluding it, operating EPS was $2.30.",
+    "DTE agreed to sell DTE Vantage for approximately $3B to investors advised by J.P. Morgan Asset Management — the sale is expected to close in the first half of 2027 and is not in this quarter's profit."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000166/exhibit991-93026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000169/dte-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "~$3B",
+      "statColor": "#3d7bc8",
+      "title": "Vantage is being sold",
+      "text": "DTE agreed to sell its non-utility Vantage business for about $3B, sharpening its focus on the regulated utilities, where it plans about $44B of investment over the next five years — including $6.1B in 2026 alone."
+    },
+    {
+      "stat": "$468M",
+      "statColor": "#3e8e5a",
+      "title": "The electric utility does the heavy lifting",
+      "text": "The Electric segment earned $468M of the $470M total. Gas lost $30M in its seasonally quiet quarter, Vantage added $110M and Energy Trading $23M, while Corporate and Other lost $101M."
+    },
+    {
+      "stat": "$107M",
+      "statColor": "#5b6b7c",
+      "title": "A tax benefit flattered the bottom line",
+      "text": "DTE booked a $107M income tax benefit rather than a tax bill this quarter, which is why $363M of pre-tax profit became $470M of net income. Operating EPS, excluding a small mark-to-market item, was $2.30 vs the reported $2.25."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Utility operations",
+      "amount": 60.91
+    },
+    {
+      "label": "Non-utility operations",
+      "amount": 39.09
+    },
+    {
+      "label": "Fuel & purchased power",
+      "amount": -49.64
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -16.85
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -13.58
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -3.73
+    },
+    {
+      "label": "Asset losses, net",
+      "amount": -0.03
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -6.44
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 2.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.61
+    }
+  ],
+  "follow100Note": "Per-$100 figures are rounded to cents; the chain lands within a cent of the $12.61 kept as profit."
+}

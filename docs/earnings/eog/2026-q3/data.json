@@ -1,0 +1,204 @@
+{
+  "ticker": "EOG",
+  "company": "EOG Resources",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "EOG Resources' profit nearly doubled to $2.8B as oil prices rose about 31% and production grew 10%, lifting total revenue 46% to $8.5B.",
+  "revenueYoY": "+46%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+46%",
+      "note": "Total revenue of $8.5B, vs $5.8B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$5.33",
+      "note": "vs $2.70 a year ago"
+    },
+    {
+      "label": "Production",
+      "value": "1,433 MBoed",
+      "note": "Thousand barrels of oil equivalent per day \u2014 up 10% from 1,301 MBoed a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$3.8B",
+      "note": "Net cash provided by operating activities, vs $3.1B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Crude oil & condensate",
+      "amountM": 4392,
+      "yoy": "+35%",
+      "note": "Oil produced and sold \u2014 550.4 thousand barrels a day at a composite realized price of $86.72 a barrel, up from $65.95 a year ago. By far the biggest revenue source."
+    },
+    {
+      "name": "Gathering, processing & marketing",
+      "amountM": 1846,
+      "yoy": "+57%",
+      "note": "Fees and sales from gathering, processing and marketing oil and gas \u2014 including buying other producers' output and reselling it."
+    },
+    {
+      "name": "Natural gas",
+      "amountM": 1085,
+      "yoy": "+53%",
+      "note": "Natural gas produced and sold, at higher volumes and a composite price of $3.74 per thousand cubic feet, up from $2.80."
+    },
+    {
+      "name": "Natural gas liquids",
+      "amountM": 858,
+      "yoy": "+42%",
+      "note": "Liquids such as propane and butane separated from natural gas (NGLs) and sold separately."
+    },
+    {
+      "name": "Other revenue & gains",
+      "amountM": 368,
+      "yoy": "+215%",
+      "note": "Gains on asset dispositions of $242M, mark-to-market derivative gains of $105M and $21M of other net revenue \u2014 price-hedge and asset-sale gains, not production sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 8549,
+    "costOfRevenueM": 1587,
+    "grossProfitM": 6962,
+    "opex": [
+      {
+        "name": "Exploration costs",
+        "amountM": 54,
+        "note": "Searching for new oil and gas deposits."
+      },
+      {
+        "name": "Dry hole costs",
+        "amountM": 29,
+        "note": "Wells that were drilled but did not find producible oil or gas."
+      },
+      {
+        "name": "Impairments",
+        "amountM": 24,
+        "note": "Write-downs of the value of some oil and gas properties."
+      },
+      {
+        "name": "Marketing costs",
+        "amountM": 1781,
+        "note": "The cost of buying oil and gas from others to feed the gathering, processing and marketing business \u2014 it rises and falls with that revenue line."
+      },
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 1292,
+        "note": "A non-cash charge spreading the cost of wells and reserves over the oil and gas they produce (DD&A)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 196,
+        "note": "Running the company \u2014 offices, people and overhead."
+      }
+    ],
+    "operatingIncomeM": 3586,
+    "otherIncomeM": -22,
+    "taxM": 783,
+    "netIncomeM": 2781
+  },
+  "follow100": [
+    {
+      "label": "Crude oil & condensate",
+      "amount": 51.37
+    },
+    {
+      "label": "Gathering, processing & marketing",
+      "amount": 21.59
+    },
+    {
+      "label": "Natural gas",
+      "amount": 12.69
+    },
+    {
+      "label": "Natural gas liquids",
+      "amount": 10.04
+    },
+    {
+      "label": "Other revenue & gains",
+      "amount": 4.3
+    },
+    {
+      "label": "Production costs",
+      "amount": -18.56
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.63
+    },
+    {
+      "label": "Dry hole",
+      "amount": -0.34
+    },
+    {
+      "label": "Impairments",
+      "amount": -0.28
+    },
+    {
+      "label": "Marketing costs",
+      "amount": -20.83
+    },
+    {
+      "label": "DD&A",
+      "amount": -15.11
+    },
+    {
+      "label": "G&A",
+      "amount": -2.29
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -9.16
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.53
+    }
+  ],
+  "follow100Note": "Segment rows add to $99.99 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+46%",
+      "statColor": "#3d7bc8",
+      "title": "Higher prices, more barrels",
+      "text": "Revenue rose 46% to $8,549M. The composite crude price rose about 31% to $86.72 a barrel and total production rose 10% to 1,433 thousand barrels of oil equivalent a day. Crude oil alone brought in $4,392M, up 35%."
+    },
+    {
+      "stat": "$2.8B",
+      "statColor": "#3e8e5a",
+      "title": "Profit nearly doubled",
+      "text": "Net income rose to $2,781M from $1,471M a year ago, and diluted EPS to $5.33 from $2.70. Operating income was $3,586M on total operating expenses of $4,963M \u2014 production costs per barrel stayed controlled even as output grew. Operating cash flow was $3,813M."
+    },
+    {
+      "stat": "$368M",
+      "statColor": "#5b6b7c",
+      "title": "Part of revenue is gains, not sales",
+      "text": "Revenue includes $242M of gains on asset dispositions and $105M of mark-to-market derivative gains \u2014 hedging contracts repriced at quarter-end \u2014 inside the $368M 'other revenue & gains' line. Those items can swing either way from quarter to quarter, unlike production sales."
+    }
+  ],
+  "oneTimers": [
+    "Revenue includes $242M of gains on asset dispositions and $105M of net mark-to-market gains on financial commodity and other derivative contracts \u2014 both are included in the 'Other revenue & gains' segment line rather than in production sales.",
+    "Expenses include $24M of impairments and $29M of dry hole costs."
+  ],
+  "otherDetail": "Other income, net of $45M, less interest expense, net of $67M, gives a net other expense of $22M.",
+  "footerNote": "Cost of revenue here is production costs as reported on the income statement: lease and well costs ($493M), gathering, processing and transportation costs ($693M) and taxes other than income ($401M) \u2014 $1,587M in total. Marketing costs, exploration, dry holes, impairments, depreciation, depletion and amortization and G&A are shown as operating expenses, following the order of the income statement; total costs and expenses were $4,963M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000226/exh99-1110526.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000227/eog-20260930.htm"
+    }
+  ]
+}

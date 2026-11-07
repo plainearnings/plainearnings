@@ -1,0 +1,166 @@
+{
+  "ticker": "EBAY",
+  "company": "eBay Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "eBay grew revenue 14% to $3.2B as the value of goods sold on its marketplace jumped 15%, but GAAP profit from continuing operations fell to $501M as spending on sales, product development and transaction losses rose faster than sales.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "Revenue was $3,206M, vs $2,820M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.11",
+      "note": "From continuing operations, vs $1.27 a year ago; non-GAAP was $1.51"
+    },
+    {
+      "label": "Gross merchandise volume",
+      "value": "$23.2B",
+      "note": "The value of goods sold on the platform, up 15% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$749M",
+      "note": "From continuing operations, after capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Marketplace revenues",
+      "amountM": 2599,
+      "yoy": "+13%",
+      "note": "Fees eBay takes when items sell on its marketplace \u2014 its core business, including the Depop fashion marketplace bought in July."
+    },
+    {
+      "name": "Advertising revenues",
+      "amountM": 607,
+      "yoy": "+16%",
+      "note": "What sellers pay to promote their listings \u2014 $575M of it from eBay's own first-party ad products, up 16%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3206,
+    "costOfRevenueM": 887,
+    "grossProfitM": 2319,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 747,
+        "note": "Selling and marketing the platform \u2014 the biggest running cost, up 23% YoY."
+      },
+      {
+        "name": "Product development",
+        "amountM": 517,
+        "note": "Building the marketplace, its AI listing tools and the eBay Live shopping experience \u2014 up 14% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 303,
+        "note": "Running the company \u2014 finance, legal and admin \u2014 up 7% YoY."
+      },
+      {
+        "name": "Transaction losses",
+        "amountM": 122,
+        "note": "Money lost to fraud, chargebacks and buyer-protection claims on transactions \u2014 up 15% YoY."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 14,
+        "note": "A non-cash charge spreading the cost of past acquisitions (such as brands and technology) over their useful lives.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 616,
+    "otherIncomeM": -11,
+    "taxM": 104,
+    "netIncomeM": 501
+  },
+  "otherDetail": "Other was -$11M, net: $47M of interest income and other income, plus a $6M gain on equity investments and warrants, minus $64M of interest expense.",
+  "oneTimers": [
+    "eBay completed its purchase of Depop, a consumer-to-consumer fashion marketplace, from Etsy on July 30, 2026 for $1.4B in cash \u2014 a balance-sheet deal this quarter, not a charge against profit.",
+    "Discontinued operations lost $4M in the quarter, so total GAAP net income was $497M versus the $501M from continuing operations used in this flow."
+  ],
+  "footerNote": "The flow uses GAAP income from continuing operations ($501M), the figure eBay headlines; total GAAP net income was $497M after a $4M discontinued-operations loss. eBay reports a single operating segment \u2014 the split shown is net revenues by activity, from the Form 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000209/exhibit991erebayq32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000212/ebay-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Marketplace revenues",
+      "amount": 81.07
+    },
+    {
+      "label": "Advertising revenues",
+      "amount": 18.93
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.67
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -23.3
+    },
+    {
+      "label": "Product development",
+      "amount": -16.13
+    },
+    {
+      "label": "General & admin",
+      "amount": -9.45
+    },
+    {
+      "label": "Transaction losses",
+      "amount": -3.81
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.44
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.34
+    },
+    {
+      "label": "Tax",
+      "amount": -3.24
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.63
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$23.2B",
+      "statColor": "#3d7bc8",
+      "title": "Shoppers are spending more",
+      "text": "Gross merchandise volume \u2014 everything sold on the platform \u2014 rose 15% to $23.2B, and revenue rose 14% to $3,206M. Secondhand 'recommerce', live shopping and focus categories such as collectibles and car parts did the heavy lifting."
+    },
+    {
+      "stat": "$501M",
+      "statColor": "#cf5f4e",
+      "title": "Profit fell despite the growth",
+      "text": "GAAP profit from continuing operations fell 16% to $501M. Operating costs rose faster than sales \u2014 sales and marketing up 23%, product development up 14% and transaction losses up 15% \u2014 so the operating margin narrowed from 20.3% to 19.2%."
+    },
+    {
+      "stat": "$1.4B",
+      "statColor": "#5b6b7c",
+      "title": "Depop joins the family",
+      "text": "eBay closed its $1.4B cash purchase of Depop, the fashion resale app, on July 30. Even after deals and $689M of share buybacks, eBay still held $3.3B of cash and non-equity investments at quarter end."
+    }
+  ],
+  "follow100Note": "Rows are rounded to the nearest cent per $100; the chain adds to $15.62 of profit per $100 versus the $15.63 shown, a 1-cent rounding difference."
+}

@@ -1,0 +1,177 @@
+{
+  "ticker": "DLR",
+  "company": "Digital Realty",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Digital Realty's revenue jumped 21% to $1.9B as data-center rent rose 17% and utility pass-throughs surged, though $539M of depreciation kept GAAP profit at $0.48 a share while cash-style Core FFO reached $2.10.",
+  "revenueYoY": "+21%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+21%",
+      "note": "Revenue was $1,902M, vs $1,577M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.48",
+      "note": "vs $0.15 a year ago"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$2.10",
+      "note": "vs $1.89 a year ago — the cash-earnings measure REIT investors watch, because it adds back depreciation"
+    },
+    {
+      "label": "Fee income",
+      "value": "$75M",
+      "note": "Up 107% YoY — fees for managing and developing data centers for partners"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental revenues",
+      "amountM": 1225,
+      "yoy": "+17%",
+      "note": "Rent from data-center space — the core business. Up 17% as new capacity leased up and rents rose."
+    },
+    {
+      "name": "Tenant reimbursements — utilities",
+      "amountM": 424,
+      "yoy": "+27%",
+      "note": "Tenants repaying Digital Realty for the electricity their servers use — a pass-through that grows with power-hungry AI workloads."
+    },
+    {
+      "name": "Interconnection & other",
+      "amountM": 131,
+      "yoy": "+9%",
+      "note": "Fees for connecting customers to each other and to cloud networks inside the data centers, plus other services."
+    },
+    {
+      "name": "Fee income",
+      "amountM": 75,
+      "yoy": "+107%",
+      "note": "Fees for developing and managing data centers owned with partners — more than doubled YoY."
+    },
+    {
+      "name": "Tenant reimbursements — other",
+      "amountM": 47,
+      "yoy": "+26%",
+      "note": "Tenants repaying other building costs, such as maintenance and services."
+    }
+  ],
+  "flow": {
+    "revenueM": 1902,
+    "costOfRevenueM": 1386,
+    "grossProfitM": 516,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 170,
+        "note": "Running the company — executives, finance, legal and IT. Up from $140M a year ago as the company grows."
+      },
+      {
+        "name": "Transaction & integration",
+        "amountM": 49,
+        "note": "Deal costs — buying properties and companies and folding them in. Down from $87M a year ago; Digital Realty treats these as non-core in Core FFO (see one-time items)."
+      },
+      {
+        "name": "Severance & legal",
+        "amountM": 3,
+        "note": "Severance, equity acceleration and legal expenses — small this quarter."
+      }
+    ],
+    "operatingIncomeM": 294,
+    "otherIncomeM": -100,
+    "taxM": 9,
+    "netIncomeM": 185
+  },
+  "otherDetail": "An $8M gain on selling properties, plus $12M of interest and other income, less an $18M loss from joint-venture data centers, $94M of interest expense, $10M of preferred-stock dividends and a $2M add-back for partners' share of losses — a net $100M cost. The result is the $185M of net income available to common stockholders (total net income before those shareholder-level items was $194M).",
+  "follow100": [
+    {
+      "label": "Rental revenues",
+      "amount": 64.41
+    },
+    {
+      "label": "Tenant reimbursements — utilities",
+      "amount": 22.29
+    },
+    {
+      "label": "Interconnection & other",
+      "amount": 6.89
+    },
+    {
+      "label": "Fee income",
+      "amount": 3.94
+    },
+    {
+      "label": "Tenant reimbursements — other",
+      "amount": 2.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -72.87
+    },
+    {
+      "label": "General & administrative",
+      "amount": -8.94
+    },
+    {
+      "label": "Transaction & integration",
+      "amount": -2.58
+    },
+    {
+      "label": "Severance & legal",
+      "amount": -0.16
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.26
+    },
+    {
+      "label": "Tax",
+      "amount": -0.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.73
+    }
+  ],
+  "follow100Note": "Kept-as-profit is the $185M available to common stockholders; the rows add to $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Rent and power pass-throughs surged",
+      "text": "Total revenue rose 21% to $1,902M. Base rent grew 17% to $1,225M, and tenants' electricity reimbursements jumped 27% to $424M — a direct read on how power-hungry AI data centers have become."
+    },
+    {
+      "stat": "$2.10",
+      "statColor": "#3e8e5a",
+      "title": "Cash earnings tell a richer story",
+      "text": "Core FFO — funds from operations, the REIT cash-earnings measure that adds back depreciation — was $2.10 a share, up 11% from $1.89. GAAP EPS was only $0.48 because $539M of depreciation on buildings and equipment is a real accounting cost but not a cash one."
+    },
+    {
+      "stat": "$49M",
+      "statColor": "#5b6b7c",
+      "title": "Deal costs are still a drag",
+      "text": "Transaction and integration costs were $49M in the quarter (down from $87M a year ago), plus $3M of severance and legal costs. Core FFO excludes these, which is part of the gap between the $2.10 Core FFO figure and $0.48 of GAAP EPS."
+    }
+  ],
+  "oneTimers": [
+    "Transaction and integration expenses of $49M in the quarter ($103M in the first nine months) — costs of acquiring and integrating properties and businesses; Digital Realty excludes them from Core FFO.",
+    "An $8M net gain on sales of properties sits in other income, below operating profit."
+  ],
+  "footerNote": "REIT presentation: cost of revenue combines utilities ($478M), rental property operating costs ($304M), insurance ($5M), real estate taxes ($60M) and depreciation & amortization ($539M). Operating income here is before the $8M gain on property sales, which is shown in other income. Figures are rounded to $M; general & administrative absorbs a $1M rounding difference and interest expense a $1M rounding absorption so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release & supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120212/dlr-ex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm"
+    }
+  ]
+}

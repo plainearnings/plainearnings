@@ -1,0 +1,192 @@
+{
+  "ticker": "DRI",
+  "company": "Darden Restaurants",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-08-30",
+  "reportedDate": "2026-09-24",
+  "verdict": "Darden grew sales 5% to $3.2B with every brand posting higher same-restaurant sales, though profit dipped versus a year ago because that quarter included a $42M gain on selling Olive Garden's Canadian restaurants.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "Total sales $3.2B, +5.1% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.05",
+      "note": "From continuing operations; $2.04 including discontinued operations"
+    },
+    {
+      "label": "Same-restaurant sales",
+      "value": "+3.1%",
+      "note": "Blended across all brands, fiscal calendar basis"
+    },
+    {
+      "label": "LongHorn Steakhouse sales",
+      "value": "$861M",
+      "note": "+11% YoY \u2014 the fastest-growing big brand"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Olive Garden",
+      "amountM": 1330,
+      "yoy": "+2%",
+      "note": "Italian restaurants \u2014 Darden's biggest brand. Sales rose 2% as same-restaurant sales grew 1.1% and new restaurants opened (953 locations)."
+    },
+    {
+      "name": "LongHorn Steakhouse",
+      "amountM": 861,
+      "yoy": "+11%",
+      "note": "Steakhouse chain. Sales jumped 11% \u2014 same-restaurant sales rose 6.2%, the strongest of any Darden brand, plus new openings (624 locations)."
+    },
+    {
+      "name": "Fine Dining",
+      "amountM": 304,
+      "yoy": "+6%",
+      "note": "The Capital Grille, Ruth's Chris and Eddie V's \u2014 the upscale brands. Sales rose 6%, with same-restaurant sales up 1.6%."
+    },
+    {
+      "name": "Other Business",
+      "amountM": 705,
+      "yoy": "+4%",
+      "note": "Cheddar's Scratch Kitchen, Yard House, Chuy's, Seasons 52 and Bahama Breeze. Sales rose 4%, with same-restaurant sales up 3.8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3200,
+    "costOfRevenueM": 2014,
+    "grossProfitM": 1186,
+    "opex": [
+      {
+        "name": "Restaurant expenses",
+        "amountM": 530,
+        "note": "Running the restaurants day to day \u2014 rent, utilities, supplies and other site costs."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 144,
+        "note": "Spreading the cost of buildings, kitchen equipment and remodels over their useful lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 135,
+        "note": "Head-office costs \u2014 management, finance, legal and support for the brands."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 53,
+        "note": "Advertising and promotions to bring guests in."
+      },
+      {
+        "name": "Pre-opening costs",
+        "amountM": 9,
+        "note": "Costs of getting new restaurants ready to open \u2014 hiring and training before the first guests."
+      },
+      {
+        "name": "Impairment gains, net",
+        "amountM": -4,
+        "note": "A small net gain on closing and selling restaurant assets this quarter (a credit, so it reduces expenses)."
+      }
+    ],
+    "operatingIncomeM": 319,
+    "otherIncomeM": -51,
+    "taxM": 35,
+    "netIncomeM": 233
+  },
+  "otherDetail": "Other expense of $51M, net: $50M of net interest expense on Darden's borrowings, plus a $1M loss from discontinued operations (the closed Bahama Breeze restaurants, net of tax).",
+  "footerNote": "Adaptation: for a restaurant company, food & beverage plus restaurant labor are treated as the direct cost of revenue; restaurant expenses, marketing, pre-opening, G&A, depreciation and net impairment gains are shown as operating expenses, mirroring Darden's income statement. Figures are rounded to the nearest $M from the release (sales were $3,200.3M); $1M of rounding was absorbed in restaurant expenses.",
+  "oneTimers": [
+    "A year ago, profit included a $42M gain on the sale of Olive Garden's Canadian restaurants \u2014 without it, last year's continuing earnings were $231M ($1.97 per share), so this year's $234M ($2.05) is actually up 4% on a like-for-like basis."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094426000032/exhibit991-q1fy27.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094426000042/dri-20260830.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3.1%",
+      "statColor": "#3d7bc8",
+      "title": "Every brand grew",
+      "text": "Blended same-restaurant sales rose 3.1%, and all four segments were positive \u2014 LongHorn led with +6.2%, Olive Garden added +1.1%. Total sales reached $3.2B, up 5.1%."
+    },
+    {
+      "stat": "$2.05",
+      "statColor": "#3e8e5a",
+      "title": "Profit only looks down",
+      "text": "Reported profit fell from $258M to $233M, but last year included a one-off $42M gain on selling the Canadian Olive Gardens. Against last year's adjusted $1.97 per share, continuing EPS of $2.05 is up 4.1%."
+    },
+    {
+      "stat": "$222M",
+      "statColor": "#5b6b7c",
+      "title": "Cash back to shareholders",
+      "text": "Darden bought back $222M of its own shares in the quarter, declared a $1.62 quarterly dividend, and reaffirmed its full-year outlook of $11.10\u2013$11.35 of EPS from continuing operations."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Olive Garden",
+      "amount": 41.56
+    },
+    {
+      "label": "LongHorn Steakhouse",
+      "amount": 26.91
+    },
+    {
+      "label": "Fine Dining",
+      "amount": 9.5
+    },
+    {
+      "label": "Other Business",
+      "amount": 22.03
+    },
+    {
+      "label": "Food, beverage & labor",
+      "amount": -62.94
+    },
+    {
+      "label": "Restaurant expenses",
+      "amount": -16.56
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.5
+    },
+    {
+      "label": "General & administrative",
+      "amount": -4.22
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.66
+    },
+    {
+      "label": "Pre-opening costs",
+      "amount": -0.28
+    },
+    {
+      "label": "Impairment gains, net",
+      "amount": 0.12
+    },
+    {
+      "label": "Interest & discontinued ops",
+      "amount": -1.59
+    },
+    {
+      "label": "Tax",
+      "amount": -1.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.28
+    }
+  ]
+}

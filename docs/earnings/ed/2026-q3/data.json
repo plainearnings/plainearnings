@@ -1,0 +1,164 @@
+{
+  "ticker": "ED",
+  "company": "Consolidated Edison",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Con Edison grew revenue 8% to $4.9B on higher approved electric and gas rates and earned $766M, up 11% \u2014 a steady quarter for New York's main utility, with most of the revenue growth simply passing through the cost of energy it buys for customers.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "Revenue was $4,913M, vs $4,530M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.06",
+      "note": "Vs $1.90 a year ago; basic EPS was $2.07"
+    },
+    {
+      "label": "Electric revenue",
+      "value": "$4,395M",
+      "note": "Up 9% \u2014 89% of all revenue, driven by higher rate bases (the regulated value of its grid assets)"
+    },
+    {
+      "label": "Net income",
+      "value": "$766M",
+      "note": "Up 11% from $688M a year ago; adjusted earnings were the same $766M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electric",
+      "amountM": 4395,
+      "yoy": "+9%",
+      "note": "Delivering electricity in New York City and Westchester \u2014 by far the biggest business, growing as regulators approve higher rates to fund grid investment."
+    },
+    {
+      "name": "Gas",
+      "amountM": 455,
+      "yoy": "+5%",
+      "note": "Delivering natural gas for heating and cooking."
+    },
+    {
+      "name": "Steam",
+      "amountM": 62,
+      "yoy": "+11%",
+      "note": "The Manhattan steam system that heats many large buildings."
+    },
+    {
+      "name": "Non-utility",
+      "amountM": 1,
+      "yoy": "0%",
+      "note": "Small remaining non-utility activities \u2014 a rounding-sized line."
+    }
+  ],
+  "flow": {
+    "revenueM": 4913,
+    "costOfRevenueM": 1196,
+    "grossProfitM": 3717,
+    "opex": [
+      {
+        "name": "Taxes, other than income taxes",
+        "amountM": 1017,
+        "note": "Mainly property taxes on the grid, pipes and plants \u2014 a huge, unavoidable cost for a utility, up 7% YoY."
+      },
+      {
+        "name": "Other operations & maintenance",
+        "amountM": 941,
+        "note": "Crews, repairs and running the electric, gas and steam networks day to day \u2014 down 2% YoY.",
+        "compact": true
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 589,
+        "note": "A non-cash charge spreading the cost of poles, wires, pipes and plants over their long lives."
+      }
+    ],
+    "operatingIncomeM": 1170,
+    "otherIncomeM": -149,
+    "taxM": 255,
+    "netIncomeM": 766
+  },
+  "otherDetail": "Other was -$149M, net: $168M of other income (including a $27M allowance for equity funds used during construction \u2014 a non-cash credit utilities are allowed to book while they build) minus $317M of net interest expense on the company's debt.",
+  "footerNote": "Utility adaptation: cost of revenue is the direct energy Con Edison buys and passes through to customers \u2014 purchased power ($1,040M), fuel ($42M) and gas purchased for resale ($114M). These pass-through costs are recovered from customers and do not by themselves change profit. Other income is shown net of interest expense, following the 10-Q statement layout.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/ed-20260930xexx991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000155/ed-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Electric",
+      "amount": 89.46
+    },
+    {
+      "label": "Gas",
+      "amount": 9.26
+    },
+    {
+      "label": "Steam",
+      "amount": 1.26
+    },
+    {
+      "label": "Non-utility",
+      "amount": 0.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.34
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -20.7
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": -19.15
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -11.99
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.03
+    },
+    {
+      "label": "Tax",
+      "amount": -5.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.59
+    }
+  ],
+  "follow100Note": "Rows are rounded to the nearest cent per $100; the chain adds to $15.60 of profit per $100 versus the $15.59 shown, a 1-cent rounding difference.",
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Rates, not volume, drive growth",
+      "text": "Electric revenue rose 9% to $4,395M. Under New York's rate plans, Con Edison earns on its rate base \u2014 the regulated value of grid assets \u2014 so approved rate increases for grid investment, not extra electricity use, did most of the work. Gas revenue rose 5% to $455M."
+    },
+    {
+      "stat": "$766M",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose 11%",
+      "text": "Net income rose from $688M to $766M and diluted EPS from $1.90 to $2.06. Operating income rose 21% to $1,170M as operations and maintenance costs actually fell 2%, more than offsetting a 7% rise in property and other non-income taxes to $1,017M."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#5b6b7c",
+      "title": "A quarter of revenue is pass-through",
+      "text": "Purchased power, fuel and gas bought for resale cost $1,196M \u2014 about $24 of every $100 of revenue. Con Edison recovers these costs from customers dollar for dollar, so they inflate the top line without adding profit; the regulated delivery business underneath is what earns the $766M."
+    }
+  ]
+}

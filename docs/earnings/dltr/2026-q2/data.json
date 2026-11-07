@@ -1,0 +1,129 @@
+{
+  "ticker": "DLTR",
+  "company": "Dollar Tree",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-27",
+  "verdict": "Dollar Tree grew sales 7% to $4.9B, and a $383M tariff-refund windfall — worth $1.31 of its $2.70 in earnings per share — turned a solid quarter into a blowout one.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Net sales were $4,887M, vs $4,567M a year ago (continuing operations)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.70",
+      "note": "vs $0.75 a year ago from continuing operations — includes a $1.31 tariff-refund benefit"
+    },
+    {
+      "label": "Same-store sales",
+      "value": "+3.7%",
+      "note": "Average ticket up 3.3%, traffic up 0.4% — on top of +6.5% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$675M",
+      "note": "Cash from operations of $922M less $246M of store investment, from continuing operations"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 4886,
+      "yoy": "+7%",
+      "note": "Everything sold in 9,436 Dollar Tree and Dollar Tree Canada stores. Same-store sales rose 3.7%, and 75 new stores opened in the quarter."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 5,
+      "yoy": "+31%",
+      "note": "Small fees and other income on top of store sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 4891,
+    "costOfRevenueM": 2792,
+    "grossProfitM": 2099,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1409,
+        "note": "Running the stores and the company — pay, rent and marketing. The reported SG&A bill was $1,427M; this line nets off $18M of transition-services income received for supporting Family Dollar after its sale."
+      }
+    ],
+    "operatingIncomeM": 690,
+    "otherIncomeM": -3,
+    "taxM": 172,
+    "netIncomeM": 515
+  },
+  "otherDetail": "Other income of $14M — interest earned on tariff refunds — mostly offset $18M of net interest expense: a net $3M cost after rounding.",
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 99.9
+    },
+    {
+      "label": "Other revenue",
+      "amount": 0.1
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.09
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -28.81
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.06
+    },
+    {
+      "label": "Tax",
+      "amount": -3.52
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.53
+    }
+  ],
+  "follow100Note": "The rows add to $100.01 due to rounding. Profit is income from continuing operations — Dollar Tree sold Family Dollar in 2025, so there were no discontinued operations this quarter.",
+  "takeaways": [
+    {
+      "stat": "$383M",
+      "statColor": "#3d7bc8",
+      "title": "A tariff refund super-sized the quarter",
+      "text": "Refunds of IEEPA tariffs (import taxes later refunded) totaled $383M — $369M credited against the cost of goods and $14M of interest. After $37M spent reinvesting the windfall and $13M of extra duties, the net benefit was $1.31 of the $2.70 EPS. Gross margin jumped 850 basis points to 42.9%, with 680 of those points from the refunds."
+    },
+    {
+      "stat": "+3.7%",
+      "statColor": "#3e8e5a",
+      "title": "Shoppers spent more per trip",
+      "text": "Same-store sales rose 3.7% on top of 6.5% a year ago: the average ticket grew 3.3% and traffic 0.4%. About 6,600 stores now use the multi-price format, and 75 new stores opened, taking the chain to 9,436 stores."
+    },
+    {
+      "stat": "$605M",
+      "statColor": "#5b6b7c",
+      "title": "Cash is going back to shareholders",
+      "text": "Dollar Tree bought back $605M of its own stock in the quarter (5.6M shares) and still ended with $1.1B of cash and no borrowings drawn. Management raised full-year adjusted EPS guidance to $7.70–$8.05, including about $0.60 from the tariff refunds."
+    }
+  ],
+  "oneTimers": [
+    "Tariff refunds: $383M of IEEPA tariff refunds ($369M in cost of sales, $14M of interest income), partly offset by $22M of reinvestment costs in cost of sales, $15M in SG&A, and $13M of duties on aluminum pans and paper plates — a net benefit of $1.31 per diluted share. Excluding the net impact, EPS would have been about $1.39.",
+    "All figures are from continuing operations (the Dollar Tree and Dollar Tree Canada banners). Family Dollar, sold on July 5, 2025, sits in discontinued operations in the prior-year quarter only."
+  ],
+  "footerNote": "Continuing operations throughout: prior-year comparisons exclude Family Dollar, which was sold in 2025. Figures are rounded to $M; net sales absorbs a $1M rounding difference so segment lines add exactly to total revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000108/ex991q2-26earningspressrel.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000109/dltr-20260801.htm"
+    }
+  ]
+}

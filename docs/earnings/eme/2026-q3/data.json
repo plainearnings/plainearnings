@@ -1,0 +1,159 @@
+{
+  "ticker": "EME",
+  "company": "EMCOR Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "EMCOR posted record revenue of $5.5B, up 29%, and record profit as its electrical and mechanical construction businesses surged \u2014 and its backlog of contracted work jumped 47% to $18.6B.",
+  "revenueYoY": "+29%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+29%",
+      "note": "Record revenue of $5.54B, vs $4.30B a year ago; organic growth was 25.5%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$9.04",
+      "note": "vs $6.57 a year ago; non-GAAP diluted EPS was $9.60, excluding an impairment"
+    },
+    {
+      "label": "Remaining performance obligations",
+      "value": "$18.57B",
+      "note": "Contracted work still to be done \u2014 a record, up 47.2% from a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "9.8%",
+      "note": "10.5% on the company's non-GAAP basis, excluding the impairment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "US mechanical construction & facilities services",
+      "amountM": 2547,
+      "yoy": "+43%",
+      "note": "Building and servicing heating, cooling, plumbing and piping systems \u2014 the largest business, and the joint-fastest growing. Revenue is reported in thousands; this is $2,546,679 thousand.",
+      "shortName": "US mechanical"
+    },
+    {
+      "name": "US electrical construction & facilities services",
+      "amountM": 1855,
+      "yoy": "+44%",
+      "note": "Wiring and electrical systems for buildings and infrastructure, plus related services \u2014 up 44% on strong project demand.",
+      "shortName": "US electrical"
+    },
+    {
+      "name": "US building services",
+      "amountM": 852,
+      "yoy": "+5%",
+      "note": "Ongoing facilities services \u2014 maintenance, operations and energy services for buildings."
+    },
+    {
+      "name": "US industrial services",
+      "amountM": 288,
+      "yoy": "+0%",
+      "note": "Services for industrial plants such as refineries and factories \u2014 essentially flat at $288M."
+    }
+  ],
+  "flow": {
+    "revenueM": 5542,
+    "costOfRevenueM": 4434,
+    "grossProfitM": 1108,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 528,
+        "note": "Selling and running the company \u2014 9.5% of revenue, down from 10.0% a year ago as revenue grew faster than overhead."
+      },
+      {
+        "name": "Impairment loss on identifiable intangible assets",
+        "amountM": 34,
+        "note": "A non-cash write-down of intangible assets from a past acquisition \u2014 the quarter's one-off item (see below)."
+      }
+    ],
+    "operatingIncomeM": 546,
+    "otherIncomeM": 4,
+    "taxM": 150,
+    "netIncomeM": 400
+  },
+  "follow100": [
+    {
+      "label": "US mechanical",
+      "amount": 45.96
+    },
+    {
+      "label": "US electrical",
+      "amount": 33.47
+    },
+    {
+      "label": "US building services",
+      "amount": 15.37
+    },
+    {
+      "label": "US industrial services",
+      "amount": 5.2
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -80.01
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.53
+    },
+    {
+      "label": "Impairment",
+      "amount": -0.61
+    },
+    {
+      "label": "Other income",
+      "amount": 0.07
+    },
+    {
+      "label": "Tax",
+      "amount": -2.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.22
+    }
+  ],
+  "follow100Note": "Rows may add to $100.01 rather than $100.00 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "Record quarter, led by construction",
+      "text": "Revenue hit a record $5.54B, up 28.8% \u2014 25.5% of that was organic growth, with acquisitions and the 2025 sale of the UK business making up the rest. US mechanical revenue rose 43% to $2.55B and US electrical 44% to $1.85B. The company raised its 2026 revenue guidance to $20.6B\u2013$21.0B."
+    },
+    {
+      "stat": "$18.57B",
+      "statColor": "#3e8e5a",
+      "title": "The order book is the story",
+      "text": "Remaining performance obligations \u2014 work under contract but not yet done \u2014 reached a record $18.57B, up 47.2% from $12.61B a year ago, on new awards across most of the sectors EMCOR serves. That is more than three quarters of revenue already booked."
+    },
+    {
+      "stat": "$9.60",
+      "statColor": "#5b6b7c",
+      "title": "One impairment hides a cleaner number",
+      "text": "GAAP diluted EPS was $9.04, up 37.6%. Excluding a $34M non-cash impairment of intangible assets ($24.7M after tax), non-GAAP EPS was $9.60 and non-GAAP operating income $579.8M at a 10.5% margin. The company also added $500M to its share buyback program."
+    }
+  ],
+  "oneTimers": [
+    "A $34.0M non-cash impairment loss on identifiable intangible assets ($24.7M after tax) is included in operating income. Excluding it, non-GAAP operating income was $579.8M and non-GAAP net income was $424.7M, or $9.60 per diluted share."
+  ],
+  "otherDetail": "Other income of $4M is interest income, net ($3.8M as reported).",
+  "footerNote": "EMCOR reports in thousands; figures are rounded to $M (revenue $5,541.5M, net income $399.9M), with $1M of rounding absorbed in cost of sales (exact $4,433.3M) so the rounded lines balance. The UK building services business was sold in 2025 and contributed no revenue this quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000132/eme-ex991_2026930xq3.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/eme-20260930.htm"
+    }
+  ]
+}

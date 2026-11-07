@@ -1,0 +1,177 @@
+{
+  "ticker": "DOW",
+  "company": "Dow Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Dow's sales rose 13% to $11.3B as polyethylene prices jumped, lifting operating EBIT nearly fivefold to $887M and GAAP earnings to $0.62 a share from $0.08.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "Net sales were $11,267M \u2014 local prices up 14%, volumes down 1%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.62",
+      "note": "vs $0.08 a year ago"
+    },
+    {
+      "label": "Operating EPS",
+      "value": "$0.71",
+      "note": "Excludes $0.09 of significant items \u2014 restructuring and transformation costs, partly offset by a litigation gain"
+    },
+    {
+      "label": "Operating EBIT",
+      "value": "$887M",
+      "note": "vs $180M a year ago \u2014 Dow's headline profit measure, before interest and tax"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Packaging & Specialty Plastics",
+      "amountM": 5778,
+      "yoy": "+18%",
+      "note": "Polyethylene and other plastics for packaging \u2014 half of all sales. Local prices rose 17% and volumes 1%, driving the quarter."
+    },
+    {
+      "name": "Industrial Intermediates & Infrastructure",
+      "amountM": 3058,
+      "yoy": "+8%",
+      "note": "Polyurethanes, construction chemicals and industrial solutions. Prices rose 16% but volumes fell 7%, including Middle East conflict impacts."
+    },
+    {
+      "name": "Performance Materials & Coatings",
+      "amountM": 2250,
+      "yoy": "+8%",
+      "note": "Silicones, coatings and performance monomers. Prices up 5% and volumes up 3%."
+    },
+    {
+      "name": "Corporate",
+      "amountM": 181,
+      "yoy": "+9%",
+      "note": "Small corporate and other sales that do not belong to a segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 11267,
+    "costOfRevenueM": 9889,
+    "grossProfitM": 1378,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 408,
+        "note": "Selling and running the company \u2014 includes $60M of Transform to Outperform program costs (see one-time items)."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 180,
+        "note": "Developing new materials and processes \u2014 down slightly from $191M a year ago."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 40,
+        "note": "Writing down the value of brands, patents and customer relationships bought in past deals, year by year."
+      },
+      {
+        "name": "Restructuring & asset charges",
+        "amountM": 9,
+        "note": "Restructuring and asset-related charges under Dow's cost-saving programs."
+      }
+    ],
+    "operatingIncomeM": 741,
+    "otherIncomeM": -166,
+    "taxM": 117,
+    "netIncomeM": 458
+  },
+  "otherDetail": "Equity earnings from joint ventures of $12M, sundry income of $50M and interest income of $50M, less $211M of interest expense and the $67M of profit belonging to noncontrolling partners \u2014 a net $166M cost. What remains is the $458M available to Dow's common stockholders (total net income was $525M).",
+  "follow100": [
+    {
+      "label": "Packaging & Specialty Plastics",
+      "amount": 51.28
+    },
+    {
+      "label": "Industrial Intermediates & Infrastructure",
+      "amount": 27.14
+    },
+    {
+      "label": "Performance Materials & Coatings",
+      "amount": 19.97
+    },
+    {
+      "label": "Corporate",
+      "amount": 1.61
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -87.77
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -3.62
+    },
+    {
+      "label": "Research & development",
+      "amount": -1.6
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -0.36
+    },
+    {
+      "label": "Restructuring & asset charges",
+      "amount": -0.08
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.47
+    },
+    {
+      "label": "Tax",
+      "amount": -1.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.07
+    }
+  ],
+  "follow100Note": "Kept-as-profit is the $458M available to common stockholders; the rows net to $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Prices did all the work",
+      "text": "Sales rose 13% to $11,267M because local prices rose 14% \u2014 led by polyethylene, up 17% in Packaging & Specialty Plastics \u2014 while volumes actually fell 1%. Every segment grew, with Packaging & Specialty Plastics up 18% to $5,778M."
+    },
+    {
+      "stat": "$887M",
+      "statColor": "#3e8e5a",
+      "title": "Operating profit nearly quintupled",
+      "text": "Operating EBIT \u2014 Dow's preferred profit measure \u2014 rose to $887M from $180M a year ago on higher prices and self-help cost savings, more than offsetting raw-material and logistics costs. Operating cash flow was $1.8B and free cash flow $1.1B."
+    },
+    {
+      "stat": "-$0.09",
+      "statColor": "#5b6b7c",
+      "title": "One-offs trimmed reported EPS",
+      "text": "GAAP EPS was $0.62 vs operating EPS of $0.71. Significant items cost $0.09 a share: $69M of Transform to Outperform costs, $31M of restructuring-program implementation and a $53M loss on paying off debt early, partly offset by a $69M litigation gain (all pre-tax)."
+    }
+  ],
+  "oneTimers": [
+    "Transform to Outperform program costs of $69M pre-tax ($60M in SG&A, $9M in restructuring charges) \u2014 Dow's company-wide productivity overhaul.",
+    "2025 Restructuring Program implementation costs of $31M pre-tax ($30M in cost of sales, $1M in SG&A).",
+    "A $53M pre-tax loss on early extinguishment of debt, partly offset by $69M of litigation-related gains \u2014 both inside sundry income. Total significant items: $84M pre-tax, $0.09 per share."
+  ],
+  "footerNote": "Dow does not report a single 'operating income' line; operating income here is gross profit less R&D, SG&A, intangible amortization and restructuring charges, before joint-venture earnings, sundry income and interest \u2014 it reconciles to the reported $642M of pre-tax income. Net income is the $458M available to Dow Inc. common stockholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000155/exhibit991enrschedules3q26.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000160/dow-20260930.htm"
+    }
+  ]
+}

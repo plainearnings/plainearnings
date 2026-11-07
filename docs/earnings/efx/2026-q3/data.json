@@ -1,0 +1,138 @@
+{
+  "ticker": "EFX",
+  "company": "Equifax",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Equifax grew revenue 10% to $1.7B \u2014 US information services up 13% and US mortgage revenue up 15% despite a weak housing market \u2014 and profit rose 32% to $212M as admin costs fell from last year's level.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "Revenue was $1,693M, vs $1,545M a year ago; 9% in local currency"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.79",
+      "note": "Vs $1.29 a year ago"
+    },
+    {
+      "label": "Workforce Solutions",
+      "value": "$694M",
+      "note": "Up 7% \u2014 employment and income verification, the biggest segment"
+    },
+    {
+      "label": "U.S. mortgage revenue",
+      "value": "+15%",
+      "note": "Growth despite a weaker mortgage market \u2014 USIS mortgage revenue alone was up 28%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Workforce Solutions",
+      "amountM": 693.9,
+      "yoy": "+7%",
+      "note": "Checking people's employment and income for employers and lenders \u2014 Verification Services brought in $603M (up 9%) and Employer Services $91M (down 5%)."
+    },
+    {
+      "name": "U.S. Information Solutions",
+      "amountM": 599.1,
+      "yoy": "+13%",
+      "note": "Credit data and scores for US lenders \u2014 Online Information Solutions $530M (up 13%) plus Financial Marketing Services $69M (up 11%). Mortgage revenue was the standout, up 28% inside this segment."
+    },
+    {
+      "name": "International",
+      "amountM": 399.5,
+      "yoy": "+9%",
+      "note": "Credit bureaus outside the US \u2014 Latin America $114M, Asia Pacific $108M, Europe $106M and Canada $72M."
+    }
+  ],
+  "flow": {
+    "revenueM": 1692.5,
+    "costOfRevenueM": 946.8,
+    "grossProfitM": 745.7,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 390.4,
+        "note": "Selling the data products and running the company \u2014 down 10% YoY, the main reason profit jumped."
+      }
+    ],
+    "operatingIncomeM": 355.3,
+    "otherIncomeM": -58.5,
+    "taxM": 83.4,
+    "netIncomeM": 213.4
+  },
+  "otherDetail": "Other was -$58.5M, net: $3.8M of other income minus $62.3M of interest expense.",
+  "oneTimers": [
+    "Acquisition-related costs of $9M ($6M after tax) were booked in operating costs in the quarter, tied to integrating recent deals \u2014 small, but they are the kind of cost Equifax strips out of its adjusted figures."
+  ],
+  "footerNote": "Equifax gives no gross-profit line. Cost of revenue here combines its cost of services ($752M) with depreciation and amortization ($194M) \u2014 the full cost of delivering its data services \u2014 leaving selling, general and administrative costs as the operating-expense line; the split follows the release's own expense order. Net income in the flow is consolidated net income of $213M; the profit attributable to Equifax, which the release headlines, was $212M after $2M attributable to noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000037/exhibit99120260930.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000044/efx-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Workforce Solutions",
+      "amount": 41.0
+    },
+    {
+      "label": "U.S. Information Solutions",
+      "amount": 35.4
+    },
+    {
+      "label": "International",
+      "amount": 23.6
+    },
+    {
+      "label": "Cost of services & depreciation",
+      "amount": -55.94
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -23.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.46
+    },
+    {
+      "label": "Tax",
+      "amount": -4.93
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.61
+    }
+  ],
+  "follow100Note": "Rows are rounded to the nearest cent per $100; the chain adds to $12.60 of profit per $100 versus the $12.61 shown, a 1-cent rounding difference. Kept-as-profit is consolidated net income; $12.51 of it is attributable to Equifax.",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was broad-based",
+      "text": "Revenue rose 10% to $1,693M. Workforce Solutions grew 7% to $694M, US Information Solutions 13% to $599M and International 9% to $400M. Products outside plain credit reports \u2014 what Equifax calls Diversified Markets \u2014 grew 8% and now cushion the mortgage cycle."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#3e8e5a",
+      "title": "Mortgage beat a weak market",
+      "text": "US mortgage revenue rose 15% even as the housing market weakened late in the quarter, and USIS mortgage revenue rose 28%. New products built on the EFX Cloud and its AI tools set a record vitality index above 17% \u2014 the share of revenue from recently launched products."
+    },
+    {
+      "stat": "$212M",
+      "statColor": "#5b6b7c",
+      "title": "Costs fell, profit jumped",
+      "text": "Net income attributable to Equifax rose 32% to $212M and diluted EPS to $1.79 from $1.29. The swing factor was selling, general and administrative costs falling 10% to $390M, which more than offset a 13% rise in the cost of delivering services. Equifax also returned $158M to shareholders in buybacks and dividends."
+    }
+  ]
+}

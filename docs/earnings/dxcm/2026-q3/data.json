@@ -1,0 +1,134 @@
+{
+  "ticker": "DXCM",
+  "company": "Dexcom",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Dexcom grew revenue 11% to $1.3B and widened its margins sharply \u2014 operating profit rose 35% \u2014 though net income dipped slightly because last year's quarter included a large investment gain.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "Revenue $1,344M, vs $1,209M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.72",
+      "note": "vs $0.70 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "64%",
+      "note": "64.3% of revenue, up from 60.5% a year ago"
+    },
+    {
+      "label": "2026 revenue guidance",
+      "value": "$5.20\u20135.25B",
+      "note": "Raised \u2014 implies 12\u201313% growth for the year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 970,
+      "yoy": "+14%",
+      "note": "Sales of Dexcom's continuous glucose monitors (CGMs \u2014 wearable sensors that track blood sugar for people with diabetes) in the U.S., mostly through distributors. Up 14%, the engine of the quarter, helped by the G7 15-day sensor rollout."
+    },
+    {
+      "name": "International",
+      "amountM": 374,
+      "yoy": "+5%",
+      "note": "CGM sales outside the U.S., a mix of distributor and direct sales. Up 5%, slower than the U.S. this quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 1344,
+    "costOfRevenueM": 480,
+    "grossProfitM": 864,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 375,
+        "note": "Selling the sensors, supporting customers and running the company. Up 13% YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 162,
+        "note": "Developing the next sensors and software \u2014 including the G7 15-day system and the Stelo app. Up 3% YoY."
+      }
+    ],
+    "operatingIncomeM": 327,
+    "otherIncomeM": 8,
+    "taxM": 60,
+    "netIncomeM": 275
+  },
+  "otherDetail": "Other income was $8M, net \u2014 mostly interest and investment income on Dexcom's cash and securities, less interest expense on its convertible notes. A year ago this line was $110M because it included a large gain on equity investments.",
+  "footerNote": "Figures are rounded to the nearest $M from the release's one-decimal figures (revenue was $1,344.5M); $1M of rounding was absorbed in International revenue so the segments sum to the total shown.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000193/dxcm09302026-exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000195/dxcm-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "The U.S. is driving growth",
+      "text": "U.S. revenue rose 14% to $970M while international sales grew 5% to $375M. Dexcom again raised full-year guidance \u2014 revenue of $5.20\u2013$5.25B \u2014 and authorized a new $1.0B share buyback."
+    },
+    {
+      "stat": "64%",
+      "statColor": "#3e8e5a",
+      "title": "Each sensor is more profitable",
+      "text": "Gross margin widened from 60.5% to 64.3% \u2014 the cost of making sensors barely rose ($480M vs $478M) while sales grew 11%. Operating margin reached 24.3%, up from 20.1%."
+    },
+    {
+      "stat": "$275M",
+      "statColor": "#5b6b7c",
+      "title": "Profit dipped for a one-off reason",
+      "text": "Net income eased from $284M to $275M despite much stronger operations, because last year's quarter included about $110M of other income \u2014 mostly an investment gain \u2014 versus just $8M this year."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 72.17
+    },
+    {
+      "label": "International",
+      "amount": 27.83
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -35.71
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -27.9
+    },
+    {
+      "label": "Research & development",
+      "amount": -12.05
+    },
+    {
+      "label": "Other income",
+      "amount": 0.6
+    },
+    {
+      "label": "Tax",
+      "amount": -4.46
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.46
+    }
+  ],
+  "follow100Note": "Per-$100 figures are rounded to cents; the chain lands within two cents of the $20.46 kept as profit."
+}

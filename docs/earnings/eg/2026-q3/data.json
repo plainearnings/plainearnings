@@ -1,0 +1,157 @@
+{
+  "ticker": "EG",
+  "company": "Everest Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Everest's revenue fell 14% to $3.7B as it deliberately wrote less reinsurance, and $322M of catastrophe losses plus $268M of reserve strengthening held profit to $233M even as investment income rose 17% to $634M.",
+  "revenueYoY": "-14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-14%",
+      "note": "Total revenues were $3,713M, vs $4,319M a year ago \u2014 premiums earned fell 18% by design"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.12",
+      "note": "Vs $6.09 a year ago; net operating EPS was $7.62"
+    },
+    {
+      "label": "Combined ratio",
+      "value": "107.1%",
+      "note": "Claims and underwriting costs per $100 of premiums \u2014 above 100% means underwriting lost money; it includes 10.5 points of catastrophe losses and 8.5 points of reserve strengthening"
+    },
+    {
+      "label": "Net investment income",
+      "value": "$634M",
+      "note": "Up 17% YoY, on higher alternative-investment returns"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Reinsurance premiums earned",
+      "amountM": 2243,
+      "yoy": "-13%",
+      "note": "Premiums from insuring other insurers (the Reinsurance Treaty segment) \u2014 Everest is deliberately writing less of this business, so earned premiums fell 13%."
+    },
+    {
+      "name": "Insurance premiums earned",
+      "amountM": 913,
+      "yoy": "-28%",
+      "note": "Premiums from insuring businesses directly: Global Wholesale & Specialty contributed $705M (down 4%) and the run-off Legacy segment $208M (down 61% as that book shrinks)."
+    },
+    {
+      "name": "Net investment income & other",
+      "amountM": 557,
+      "yoy": "+20%",
+      "note": "Income from investing the premium float (money held before claims are paid): $634M of net investment income, minus $68M of net investment losses and $9M of other expense \u2014 clearly labeled here because it is not premium revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 3713,
+    "costOfRevenueM": 2431,
+    "grossProfitM": 1282,
+    "opex": [
+      {
+        "name": "Commission, brokerage, taxes & fees",
+        "amountM": 747,
+        "note": "Commissions and brokerage paid to win and place the business \u2014 about $24 per $100 of premiums earned."
+      },
+      {
+        "name": "Other underwriting expenses",
+        "amountM": 200,
+        "note": "The cost of running the underwriting operation."
+      },
+      {
+        "name": "Corporate expenses",
+        "amountM": 30,
+        "note": "Head-office costs not tied to a segment."
+      }
+    ],
+    "operatingIncomeM": 305,
+    "otherIncomeM": -36,
+    "taxM": 36,
+    "netIncomeM": 233
+  },
+  "otherDetail": "Other was -$36M: interest, fees and bond-issue cost amortization on Everest's debt.",
+  "oneTimers": [
+    "Catastrophe losses were $322M before tax (10.5 points of the combined ratio), versus just $50M a year ago \u2014 storm and disaster claims are the swing factor in any insurer's quarter.",
+    "Everest strengthened prior-year casualty reinsurance reserves by about $268M before tax (8.5 points of the combined ratio) \u2014 an admission that claims from earlier years will cost more than first estimated. Group underwriting lost $223M before tax as a result."
+  ],
+  "footerNote": "Insurer adaptation: premiums earned play the role of product revenue and claims (losses and loss adjustment expenses) play the role of cost of revenue. Claims are shown as $2,431M \u2014 $1M below the reported $2,432M \u2014 so the rounded $M lines reconcile exactly to the reported $233M net income; the release itself notes some amounts may not reconcile due to rounding. Segment premiums are net premiums earned by reportable segment from the release.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000041/everest3q26earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000043/eg-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Reinsurance premiums",
+      "amount": 60.41
+    },
+    {
+      "label": "Insurance premiums",
+      "amount": 24.59
+    },
+    {
+      "label": "Net investment & other",
+      "amount": 15.0
+    },
+    {
+      "label": "Claims (losses & LAE)",
+      "amount": -65.47
+    },
+    {
+      "label": "Commissions & fees",
+      "amount": -20.12
+    },
+    {
+      "label": "Other underwriting exp.",
+      "amount": -5.39
+    },
+    {
+      "label": "Corporate expenses",
+      "amount": -0.81
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.97
+    },
+    {
+      "label": "Tax",
+      "amount": -0.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.28
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-18%",
+      "statColor": "#5b6b7c",
+      "title": "Shrinking on purpose",
+      "text": "Net premiums earned fell 18% to $3,156M and total revenue fell 14% to $3,713M. Everest is walking away from reinsurance business it does not like the price of \u2014 gross written premiums in its core businesses fell 4%, with Reinsurance Treaty down 6% on a comparable basis while Global Wholesale & Specialty grew 3%."
+    },
+    {
+      "stat": "107.1%",
+      "statColor": "#cf5f4e",
+      "title": "Claims overwhelmed underwriting",
+      "text": "The combined ratio hit 107.1% \u2014 $107 of claims and underwriting costs per $100 of premiums. Catastrophes cost $322M and prior-year reserve strengthening $268M; without those two items the attritional combined ratio was 88.4%. Reinsurance Treaty lost $191M before tax; Wholesale & Specialty still made $19M."
+    },
+    {
+      "stat": "$634M",
+      "statColor": "#3e8e5a",
+      "title": "Investments carried the quarter",
+      "text": "Net investment income rose 17% to $634M on stronger alternative-investment returns, which is most of why Everest still earned $233M ($6.12 per share) despite the underwriting loss. It also bought back $474M of its own shares in the quarter."
+    }
+  ],
+  "follow100Note": "Rows are rounded to the nearest cent per $100; the chain adds to $6.27 of profit per $100 versus the $6.28 shown, a 1-cent rounding difference."
+}

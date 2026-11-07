@@ -1,0 +1,159 @@
+{
+  "ticker": "ECL",
+  "company": "Ecolab",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Ecolab grew sales 13% to $4.7B, powered by a 21% jump in Global Water after its CoolIT deal, but $81M of special charges and a much bigger interest bill pulled GAAP profit down 6% to $551M.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "Sales were $4,695M, vs $4,165M a year ago; organic growth (excluding deals and currency) was 7%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.95",
+      "note": "Vs $2.05 a year ago; adjusted EPS was $2.18, up 5%"
+    },
+    {
+      "label": "Global Water sales",
+      "value": "$2,481M",
+      "note": "Up 21% \u2014 the biggest segment got a lift from the Ovivo Electronics and CoolIT acquisitions"
+    },
+    {
+      "label": "Special charges",
+      "value": "$81M",
+      "note": "Mostly acquisition and integration costs, booked inside operating costs"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Global Water",
+      "amountM": 2480.8,
+      "yoy": "+21%",
+      "note": "Water treatment for heavy industry, food and beverage plants, paper mills and high-tech sites such as data centers and chip factories \u2014 growth was led by 63% organic growth in its high-tech business."
+    },
+    {
+      "name": "Global Institutional & Specialty",
+      "amountM": 1636.5,
+      "yoy": "+3%",
+      "note": "Cleaning and food-safety products and services for restaurants, hotels and food retail \u2014 steady growth despite weaker restaurant foot traffic in North America."
+    },
+    {
+      "name": "Global Pest Elimination",
+      "amountM": 363.6,
+      "yoy": "+10%",
+      "note": "Pest-control services for food plants, restaurants and retailers \u2014 organic growth accelerated to 8%."
+    },
+    {
+      "name": "Global Life Sciences",
+      "amountM": 213.9,
+      "yoy": "+16%",
+      "note": "Cleaning and contamination-control products for drug makers and labs \u2014 the smallest segment, and one of the fastest growing."
+    }
+  ],
+  "flow": {
+    "revenueM": 4694.8,
+    "costOfRevenueM": 2625.5,
+    "grossProfitM": 2069.3,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1177.4,
+        "note": "Selling the products and services and running the company \u2014 up 9% YoY.",
+        "compact": true
+      },
+      {
+        "name": "Special (gains) and charges",
+        "amountM": 81.4,
+        "note": "One-off costs, primarily acquisition and integration costs for deals such as CoolIT (see one-time items)."
+      }
+    ],
+    "operatingIncomeM": 810.5,
+    "otherIncomeM": -119.1,
+    "taxM": 140.1,
+    "netIncomeM": 551.3
+  },
+  "otherDetail": "Other was -$119M, net: $9M of other income, minus $125M of net interest expense (up sharply on debt taken on for acquisitions) and $3M of profit attributable to noncontrolling interests, which is deducted here so the flow lands on the $551M profit attributable to Ecolab.",
+  "oneTimers": [
+    "Special charges of $81M in the quarter, primarily acquisition and integration costs. Leaving out these and similar items, Ecolab's adjusted operating income was $893M (up 14%) and adjusted EPS was $2.18 (up 5%), versus GAAP EPS of $1.95.",
+    "Corporate costs include $79M of amortization for acquired brands and technology \u2014 $28M from the Nalco merger, $21M from Purolite, $20M from CoolIT and $10M from Ovivo Electronics."
+  ],
+  "footerNote": "Net income in the flow is the $551M attributable to Ecolab, the figure the release headlines; total net income including noncontrolling interests was $554M. Segment sales are the public-currency figures from the release's reportable segment table.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026067418/ecl_ex99x1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Global Water",
+      "amount": 52.84
+    },
+    {
+      "label": "Institutional & Specialty",
+      "amount": 34.86
+    },
+    {
+      "label": "Pest Elimination",
+      "amount": 7.74
+    },
+    {
+      "label": "Life Sciences",
+      "amount": 4.56
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -55.92
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -25.08
+    },
+    {
+      "label": "Special charges",
+      "amount": -1.73
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.54
+    },
+    {
+      "label": "Tax",
+      "amount": -2.98
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.74
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated, led by Water",
+      "text": "Sales rose 13% to $4,695M, with organic growth accelerating to 7% \u2014 volume up 2% and pricing up 5%. Global Water sales jumped 21% to $2,481M as data-center and microelectronics demand drove 63% organic growth in its high-tech business, helped by the Ovivo and CoolIT deals."
+    },
+    {
+      "stat": "$2.18",
+      "statColor": "#3e8e5a",
+      "title": "Underlying earnings rose",
+      "text": "Adjusted EPS was $2.18, up 5%, and adjusted operating income rose 14% to $893M \u2014 despite an estimated 10% headwind from CoolIT acquisition costs. Ecolab guided full-year 2026 adjusted EPS to $8.10\u2013$8.20, up 8\u20139%."
+    },
+    {
+      "stat": "$551M",
+      "statColor": "#cf5f4e",
+      "title": "GAAP profit still fell",
+      "text": "GAAP net income fell 6% to $551M and GAAP EPS fell 5% to $1.95. Special charges rose to $81M and net interest expense more than doubled to $125M on acquisition debt \u2014 the cost of the deal spree that is driving the growth."
+    }
+  ],
+  "follow100Note": "Rows are rounded to the nearest cent per $100; the chain adds to $11.75 of profit per $100 versus the $11.74 shown, a 1-cent rounding difference."
+}

@@ -1,0 +1,167 @@
+{
+  "ticker": "EL",
+  "company": "The Est\u00e9e Lauder Companies",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Est\u00e9e Lauder's sales rose 7% to $3.7B with growth in nearly every product category and every region, and profit jumped five-fold as margins widened and restructuring charges fell \u2014 so it raised its full-year outlook.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Net sales of $3.7B, vs $3.5B a year ago; organic sales (excluding currency moves) rose 6%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.64",
+      "note": "vs $0.13 a year ago; adjusted diluted EPS was $0.72"
+    },
+    {
+      "label": "Gross margin",
+      "value": "75.7%",
+      "note": "Up from 73.4% a year ago, helped by cost savings, pricing and sales leverage"
+    },
+    {
+      "label": "Fragrance sales",
+      "value": "$861M",
+      "note": "Up 19% \u2014 the fastest-growing product category"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Skin Care",
+      "amountM": 1650,
+      "yoy": "+5%",
+      "note": "Creams, serums and other skin products (La Mer, Est\u00e9e Lauder and others) \u2014 the biggest category. Reported sales were $1,651M before the $1M restructuring-related returns charge absorbed here (see footer note)."
+    },
+    {
+      "name": "Makeup",
+      "amountM": 1048,
+      "yoy": "+2%",
+      "note": "Cosmetics such as foundation and lipstick (MAC, Est\u00e9e Lauder, Too Faced and others)."
+    },
+    {
+      "name": "Fragrance",
+      "amountM": 861,
+      "yoy": "+19%",
+      "note": "Perfumes and scented products \u2014 the fastest-growing category this quarter, up 19%."
+    },
+    {
+      "name": "Hair Care",
+      "amountM": 128,
+      "yoy": "-1%",
+      "note": "Shampoo, treatments and styling products (Aveda, Bumble and bumble) \u2014 roughly flat."
+    },
+    {
+      "name": "Other",
+      "amountM": 28,
+      "yoy": "+12%",
+      "note": "Smaller product lines that do not fit the four main categories."
+    }
+  ],
+  "flow": {
+    "revenueM": 3715,
+    "costOfRevenueM": 902,
+    "grossProfitM": 2813,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2365,
+        "note": "Advertising, store and counter staff, and running the company \u2014 up 3%, as higher consumer-facing investment was partly offset by savings from the Profit Recovery and Growth Plan."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 40,
+        "note": "Charges tied to the company's restructuring program \u2014 down from $89M a year ago."
+      }
+    ],
+    "operatingIncomeM": 408,
+    "otherIncomeM": -63,
+    "taxM": 112,
+    "netIncomeM": 233
+  },
+  "follow100": [
+    {
+      "label": "Skin Care",
+      "amount": 44.41
+    },
+    {
+      "label": "Makeup",
+      "amount": 28.21
+    },
+    {
+      "label": "Fragrance",
+      "amount": 23.18
+    },
+    {
+      "label": "Hair Care",
+      "amount": 3.45
+    },
+    {
+      "label": "Other",
+      "amount": 0.75
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -24.28
+    },
+    {
+      "label": "SG&A",
+      "amount": -63.66
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -1.08
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.7
+    },
+    {
+      "label": "Tax",
+      "amount": -3.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.27
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in nearly everything, everywhere",
+      "text": "Net sales rose 7% to $3,715M (6% organic). Fragrance led the categories, up 19% to $861M, and every region grew on a reported basis \u2014 Mainland China sales rose 15% to $614M and Asia Pacific 9% to $952M. Management raised its fiscal 2027 outlook for sales, margin and EPS."
+    },
+    {
+      "stat": "75.7%",
+      "statColor": "#3e8e5a",
+      "title": "Margins did the heavy lifting",
+      "text": "Gross margin widened to 75.7% from 73.4% on savings from the Profit Recovery and Growth Plan, pricing and sales leverage, and operating margin jumped to 11.0% from 4.9%. Net earnings rose to $233M from $47M, also helped by the tax rate falling to 32.5% from 56.9%."
+    },
+    {
+      "stat": "$0.72",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS is a bit higher than GAAP",
+      "text": "Adjusted diluted EPS was $0.72 vs $0.64 reported. The gap is mainly $41M of returns charges tied to the restructuring program, which the company excludes from its adjusted operating income of $449M (vs $408M as reported); restructuring and other charges in operating expenses were $40M, down from $89M a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges of $40M sit in operating expenses (down from $89M a year ago), tied to the restructuring program within the Profit Recovery and Growth Plan.",
+    "A further $41M of returns charges associated with restructuring and other activities is excluded from the company's category and regional operating results \u2014 adjusted operating income was $449M vs $408M as reported \u2014 and net sales include a $1M returns charge on the same program."
+  ],
+  "otherDetail": "Other expense of $63M, net: $83M of interest expense and $5M of other pension-benefit cost, partly offset by $25M of interest income and investment income.",
+  "footerNote": "Product-category sales sum to $3,716M before a $1M returns charge associated with restructuring and other activities; that $1M is absorbed in Skin Care, the largest category, so the segments sum to reported net sales of $3,715M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000057/fy2027q1exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000060/el-20260930.htm"
+    }
+  ]
+}

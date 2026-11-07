@@ -1,0 +1,161 @@
+{
+  "ticker": "DUK",
+  "company": "Duke Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Duke Energy grew revenue 7% to $9.1B and earned $1.55B for common shareholders \u2014 EPS of $1.99 \u2014 as it recovered the cost of new infrastructure from customers and got help from favorable weather.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "Revenue $9.1B, vs $8.5B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.99",
+      "note": "Reported and adjusted EPS were the same \u2014 no special items"
+    },
+    {
+      "label": "Electric Utilities profit",
+      "value": "$1,817M",
+      "note": "Segment income, up 10% YoY"
+    },
+    {
+      "label": "2026 EPS guidance",
+      "value": "$6.70\u2013$6.80",
+      "note": "Adjusted EPS range, narrowed upward"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Regulated electric",
+      "amountM": 8677,
+      "yoy": "+7%",
+      "note": "Selling electricity in the Carolinas, Florida, Indiana, Ohio and Kentucky at prices set by regulators. Up 7% as Duke recovered infrastructure spending in rates and weather was favorable. This segment earned $1,817M."
+    },
+    {
+      "name": "Regulated natural gas",
+      "amountM": 358,
+      "yoy": "-1%",
+      "note": "Gas distribution (Piedmont Natural Gas). Revenue was flat in this seasonally quiet quarter for heating, and the segment lost $19M, as usual outside winter."
+    },
+    {
+      "name": "Nonregulated electric & other",
+      "amountM": 69,
+      "yoy": "-8%",
+      "note": "Small non-regulated activities outside the utilities \u2014 under 1% of revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 9104,
+    "costOfRevenueM": 2855,
+    "grossProfitM": 6249,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1709,
+        "note": "Spreading the cost of plants, grids and pipelines over their long lives \u2014 a non-cash charge that rises as Duke builds."
+      },
+      {
+        "name": "Operation, maintenance & other",
+        "amountM": 1373,
+        "note": "Running and repairing the grid and plants, and serving customers day to day."
+      },
+      {
+        "name": "Property & other taxes",
+        "amountM": 433,
+        "note": "Mostly property taxes on power plants and networks."
+      },
+      {
+        "name": "Asset-sale gains & other, net",
+        "amountM": -13,
+        "note": "A small net credit: $11M of gains on selling other assets plus a $2M net impairment credit (so it reduces expenses)."
+      }
+    ],
+    "operatingIncomeM": 2747,
+    "otherIncomeM": -897,
+    "taxM": 299,
+    "netIncomeM": 1551
+  },
+  "otherDetail": "Other expense of $897M, net: $967M of interest expense, partly offset by $147M of other income and $22M of equity earnings from part-owned affiliates \u2014 and it also includes $85M of profit belonging to noncontrolling partners and $14M of preferred dividends, so the flow lands on the $1,551M available to common shareholders.",
+  "footerNote": "Adaptation for a utility: fuel used in generation plus purchased power ($2,738M) and the cost of natural gas bought for customers ($117M) are treated as the cost of revenue; the remaining operating lines mirror Duke's income statement. Net income here is the $1,551M available to common stockholders (after $85M for noncontrolling interests and $14M of preferred dividends on total net income of $1,650M), matching the $1.99 EPS.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1,817M",
+      "statColor": "#3d7bc8",
+      "title": "Electric utilities carried the quarter",
+      "text": "Electric Utilities and Infrastructure earned $1,817M, up 10% from $1,658M, driven by recovering infrastructure investment in customer rates and favorable weather. Gas lost $19M in its off-season and Other lost $247M."
+    },
+    {
+      "stat": "$1.99",
+      "statColor": "#3e8e5a",
+      "title": "A clean quarter, guidance raised",
+      "text": "Reported EPS of $1.99 exactly matched adjusted EPS \u2014 there were no special items to strip out. Duke narrowed its 2026 adjusted EPS guidance to $6.70\u2013$6.80, toward the top of its range."
+    },
+    {
+      "stat": "16 GW",
+      "statColor": "#5b6b7c",
+      "title": "A record building program",
+      "text": "Duke is executing a record generation build to add 16 gigawatts of capacity by 2031 \u2014 roughly 16 large power plants' worth \u2014 to serve fast-growing states. Depreciation ($1,709M) and interest ($967M) already reflect the growing asset base."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Regulated electric",
+      "amount": 95.31
+    },
+    {
+      "label": "Regulated natural gas",
+      "amount": 3.93
+    },
+    {
+      "label": "Nonregulated & other",
+      "amount": 0.76
+    },
+    {
+      "label": "Fuel, purchased power & gas",
+      "amount": -31.36
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -18.77
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -15.08
+    },
+    {
+      "label": "Property & other taxes",
+      "amount": -4.76
+    },
+    {
+      "label": "Asset-sale gains, net",
+      "amount": 0.14
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -9.85
+    },
+    {
+      "label": "Tax",
+      "amount": -3.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.04
+    }
+  ]
+}

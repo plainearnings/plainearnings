@@ -1,0 +1,167 @@
+{
+  "ticker": "DPZ",
+  "company": "Domino's",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-06",
+  "reportedDate": "2026-10-13",
+  "verdict": "Domino's grew revenue 3.4% to $1,186M on its supply chain and 175 net new stores, and buybacks helped earnings per share rise 13% to $4.60 even though same-store sales barely grew.",
+  "revenueYoY": "+3.4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+3.4%",
+      "note": "Revenue was $1,186M, vs $1,147M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$4.60",
+      "note": "vs $4.08 a year ago \u2014 helped by a 3% lower share count from buybacks"
+    },
+    {
+      "label": "Global retail sales",
+      "value": "$4.84B",
+      "note": "What all stores sold, up 3.2% excluding currency effects \u2014 most of it belongs to franchisees, not Domino's itself"
+    },
+    {
+      "label": "Net new stores",
+      "value": "+175",
+      "note": "26 net in the U.S. and 149 international in the quarter \u2014 22,706 stores worldwide"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Supply chain",
+      "amountM": 746,
+      "yoy": "+7%",
+      "note": "Selling dough, cheese and toppings to franchise stores \u2014 the biggest revenue line. Up 7% on higher order volumes and a 2.2% rise in food-basket prices charged to stores."
+    },
+    {
+      "name": "U.S. franchise royalties & fees",
+      "amountM": 166,
+      "yoy": "+5%",
+      "note": "Royalties and fees from U.S. franchised stores \u2014 nearly pure profit, since franchisees bear the store costs. Up 5% on store growth."
+    },
+    {
+      "name": "U.S. franchise advertising",
+      "amountM": 129,
+      "yoy": "-2%",
+      "note": "Contributions from U.S. franchisees into the national advertising fund. Every dollar is spent on advertising, so it shows up again as a matching cost below."
+    },
+    {
+      "name": "International franchise royalties & fees",
+      "amountM": 84,
+      "yoy": "+7%",
+      "note": "Royalties from franchised stores outside the U.S. Up 7% as 149 net new international stores opened in the quarter."
+    },
+    {
+      "name": "U.S. Company-owned stores",
+      "amountM": 61,
+      "yoy": "-26%",
+      "note": "Sales at the 187 stores Domino's runs itself. Down 26% because some company-owned markets were sold to franchisees (refranchised) in Q2 2026."
+    }
+  ],
+  "flow": {
+    "revenueM": 1186,
+    "costOfRevenueM": 710,
+    "grossProfitM": 476,
+    "opex": [
+      {
+        "name": "U.S. franchise advertising",
+        "amountM": 128,
+        "note": "Spending the advertising fund collected from franchisees \u2014 it mirrors the advertising revenue line above almost dollar for dollar."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 106,
+        "note": "Running the company \u2014 headquarters, technology and support for stores. Flat vs $105M a year ago."
+      }
+    ],
+    "operatingIncomeM": 242,
+    "otherIncomeM": -47,
+    "taxM": 43,
+    "netIncomeM": 152
+  },
+  "otherDetail": "Net interest expense of $44M on Domino's borrowings, plus $3M of other expense (including a small refranchising loss) \u2014 a net $47M cost.",
+  "follow100": [
+    {
+      "label": "Supply chain",
+      "amount": 62.9
+    },
+    {
+      "label": "U.S. franchise royalties & fees",
+      "amount": 14.0
+    },
+    {
+      "label": "U.S. franchise advertising",
+      "amount": 10.88
+    },
+    {
+      "label": "International franchise royalties & fees",
+      "amount": 7.08
+    },
+    {
+      "label": "U.S. Company-owned stores",
+      "amount": 5.14
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.87
+    },
+    {
+      "label": "U.S. franchise advertising",
+      "amount": -10.79
+    },
+    {
+      "label": "General & administrative",
+      "amount": -8.94
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.96
+    },
+    {
+      "label": "Tax",
+      "amount": -3.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.82
+    }
+  ],
+  "follow100Note": "The rows add to $99.99 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "title": "The supply chain is the growth engine",
+      "text": "Supply-chain revenue rose 7% to $746M \u2014 63% of all revenue \u2014 on more orders and higher food-basket prices, and its gross margin widened 0.9 points to 12.2% on procurement savings. Royalty income, the high-margin core, grew 5% in the U.S. and 7% internationally."
+    },
+    {
+      "stat": "+0.3%",
+      "statColor": "#5b6b7c",
+      "title": "Same-store sales barely grew",
+      "text": "U.S. same-store sales rose just 0.3% (company stores +1.0%, franchised +0.3%) and international 0.2% excluding currency. Growth came from new stores \u2014 175 net openings took the system to 22,706 stores \u2014 not from existing stores selling much more."
+    },
+    {
+      "stat": "$4.60",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks flatter the per-share line",
+      "text": "Net income rose 9% to $152M, but EPS rose 13% to $4.60 because buybacks cut the diluted share count 3% to 33.1M. Operating income grew 8% to $242M despite the drag from selling company-owned stores to franchisees."
+    }
+  ],
+  "oneTimers": [
+    "Domino's refranchised certain U.S. company-owned store markets in Q2 2026, booking a small $0.2M refranchising loss in Q3. That portfolio change \u2014 not weaker demand \u2014 is why company-owned store revenue fell 26% YoY."
+  ],
+  "footerNote": "Figures are rounded to $M; cost of revenue absorbs a $1M rounding increase and franchise advertising expense a $1M rounding decrease so the lines add exactly. The quarter is Domino's fiscal Q3, ended September 6, 2026.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000039/dpz-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000040/dpz-20260906.htm"
+    }
+  ]
+}

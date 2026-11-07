@@ -1,0 +1,163 @@
+{
+  "ticker": "EIX",
+  "company": "Edison International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Edison International's revenue fell 15% and profit dropped versus an unusually strong year-ago quarter, but the utility still earned $724M for common shareholders and kept its full-year core earnings guidance.",
+  "revenueYoY": "-15%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-15%",
+      "note": "Revenue was $4.9B, vs $5.8B a year ago — the year-ago quarter was boosted by a regulatory decision applied retroactively"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.87",
+      "note": "Basic EPS was $1.88; vs $2.16 a year ago on both bases"
+    },
+    {
+      "label": "Core EPS",
+      "value": "$1.92",
+      "note": "The company's adjusted measure, vs $2.34 a year ago; core earnings were $738M"
+    },
+    {
+      "label": "2026 core EPS guidance",
+      "value": "$5.90–$6.20",
+      "note": "Reaffirmed with the results"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Southern California Edison (SCE)",
+      "amountM": 4886,
+      "yoy": "-15%",
+      "note": "The regulated electric utility that serves about 15 million people in Southern California — effectively all of the company's revenue. SCE on its own reported revenue of $4,887M; the parent company and eliminations net to -$1M, giving the consolidated $4,886M. Revenue fell mainly because costs passed straight through to customers were lower and the year-ago quarter included revenue recognized when the 2025 general rate case (GRC) decision was applied retroactively to Jan. 1, 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 4886,
+    "costOfRevenueM": 1687,
+    "grossProfitM": 3199,
+    "opex": [
+      {
+        "name": "Operation and maintenance",
+        "amountM": 1142,
+        "note": "Running and maintaining the grid — crews, repairs and customer operations. Down from $1,175M a year ago."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 853,
+        "note": "A non-cash charge spreading the cost of power lines, substations and other long-lived assets over their useful lives."
+      },
+      {
+        "name": "Property and other taxes",
+        "amountM": 178,
+        "note": "Property taxes and other non-income taxes on the utility's assets."
+      },
+      {
+        "name": "Wildfire Fund expense",
+        "amountM": 36,
+        "note": "SCE's contribution to California's Wildfire Fund — a shared fund that helps pay wildfire claims."
+      },
+      {
+        "name": "Wildfire-related claims, net of recoveries",
+        "amountM": 8,
+        "note": "Wildfire claim costs net of expected insurance and other recoveries — down sharply from $295M a year ago."
+      },
+      {
+        "name": "Asset impairment and other",
+        "amountM": 2,
+        "note": "Small write-downs and other items — down from $88M a year ago, when the rate case decision disallowed some past capital spending."
+      }
+    ],
+    "operatingIncomeM": 980,
+    "otherIncomeM": -432,
+    "taxM": -203,
+    "netIncomeM": 751
+  },
+  "follow100": [
+    {
+      "label": "Southern California Edison",
+      "amount": 100.0
+    },
+    {
+      "label": "Purchased power & fuel",
+      "amount": -34.53
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -23.37
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -17.46
+    },
+    {
+      "label": "Property & other taxes",
+      "amount": -3.64
+    },
+    {
+      "label": "Wildfire Fund expense",
+      "amount": -0.74
+    },
+    {
+      "label": "Wildfire claims, net",
+      "amount": -0.16
+    },
+    {
+      "label": "Asset impairment & other",
+      "amount": -0.04
+    },
+    {
+      "label": "Other expense",
+      "amount": -8.84
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 4.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-15%",
+      "statColor": "#5b6b7c",
+      "title": "A tough comparison, not a collapse",
+      "text": "Revenue fell to $4.9B from $5.8B and net income available to common shareholders fell to $724M from $832M. Last year's quarter was unusually strong: it included earnings recognized when the 2025 GRC final decision (the regulator's ruling on what SCE can charge) was implemented retroactively to Jan. 1, 2025. Core EPS was $1.92, vs $2.34 a year ago."
+    },
+    {
+      "stat": "$8M",
+      "statColor": "#3e8e5a",
+      "title": "Wildfire claims were quiet this quarter",
+      "text": "Wildfire-related claims, net of recoveries, were just $8M, versus $295M a year ago, plus the usual $36M Wildfire Fund expense. SCE says it has hardened — physically strengthened against fire risk — about 90% of its distribution system in high fire risk areas, and it is pushing for durable wildfire reform with a clear liability cap for shareholders."
+    },
+    {
+      "stat": "$545M",
+      "statColor": "#cf5f4e",
+      "title": "Interest is a growing drag",
+      "text": "Interest expense rose to $545M from $488M a year ago as the utility borrows to fund grid investment. Even so, the company reaffirmed 2026 core EPS guidance of $5.90 to $6.20 and its confidence in 5% to 7% core EPS growth from 2025 to 2030."
+    }
+  ],
+  "oneTimers": [
+    "Non-core items cut GAAP earnings by $14M after tax in the quarter (core earnings were $738M vs $724M of GAAP net income available to common shareholders): at SCE, $18M of pre-tax net earnings from expected wildfire recoveries and reimbursements for prior-year costs (Other Wildfire Events), partly offset by $36M of Wildfire Insurance Fund amortization; at the parent, a $1M loss on the disposition of Trio.",
+    "The quarter's tax line was a $203M benefit, not an expense — one reason net income of $751M held up even though pre-tax income fell to $548M."
+  ],
+  "otherDetail": "Other expense of $432M, net: $545M of interest expense, partly offset by $113M of other income.",
+  "footerNote": "Net income of $751M is before $25M of SCE preference stock dividends and $2M of Edison International preferred stock dividends; $724M was available to common shareholders ($1.88 basic, $1.87 diluted). Cost of revenue here is purchased power and fuel, the direct cost of the electricity SCE delivers; all other operating expense lines are shown as operating expenses.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000072/eix-2026x0930exx991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000073/eix-20260930.htm"
+    }
+  ]
+}

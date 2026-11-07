@@ -1,0 +1,160 @@
+{
+  "ticker": "DOV",
+  "company": "Dover Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Dover grew revenue 7.5% to $2.2B on double-digit growth in clean energy and climate, earning $2.50 a share — $2.88 before purchase-accounting and restructuring costs.",
+  "revenueYoY": "+7.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7.5%",
+      "note": "Revenue was $2,234M, vs $2,078M a year ago (+7% organic)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.50",
+      "note": "From continuing operations, vs $2.20 a year ago — total EPS was $2.47 after a small discontinued-operations loss"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.88",
+      "note": "Up 10% YoY — excludes purchase-accounting and restructuring costs"
+    },
+    {
+      "label": "Climate & Sustainability revenue",
+      "value": "$481M",
+      "note": "Up 18% YoY — the fastest-growing segment, helped by AI data-center cooling demand"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Clean Energy & Fueling",
+      "amountM": 606,
+      "yoy": "+12%",
+      "note": "Fueling equipment for gas stations and clean-energy fueling, plus vehicle wash and fluid handling. The largest segment, up 12%."
+    },
+    {
+      "name": "Pumps & Process Solutions",
+      "amountM": 568,
+      "yoy": "+3%",
+      "note": "Pumps, compressors and process equipment for energy, chemical and life-science plants. Up 3%."
+    },
+    {
+      "name": "Climate & Sustainability Technologies",
+      "amountM": 481,
+      "yoy": "+18%",
+      "note": "Refrigeration and cooling — including cooling for AI data centers and food retail. The fastest grower, up 18%."
+    },
+    {
+      "name": "Imaging & Identification",
+      "amountM": 304,
+      "yoy": "+2%",
+      "note": "Printers and marking/coding equipment that put dates and codes on packaging. Up 2%."
+    },
+    {
+      "name": "Engineered Products",
+      "amountM": 275,
+      "yoy": "-2%",
+      "note": "Bearings, lifting and towing gear and other engineered components. The only segment to shrink, down 2%."
+    }
+  ],
+  "flow": {
+    "revenueM": 2234,
+    "costOfRevenueM": 1331,
+    "grossProfitM": 903,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 484,
+        "note": "Selling Dover's products and running the company — its only operating-expense line. It includes purchase-accounting amortization and restructuring costs (see one-time items)."
+      }
+    ],
+    "operatingIncomeM": 419,
+    "otherIncomeM": 2,
+    "taxM": 84,
+    "netIncomeM": 337
+  },
+  "otherDetail": "Other income of $14M plus $17M of interest income, less $29M of interest expense — a net $2M gain.",
+  "follow100": [
+    {
+      "label": "Clean Energy & Fueling",
+      "amount": 27.13
+    },
+    {
+      "label": "Pumps & Process Solutions",
+      "amount": 25.43
+    },
+    {
+      "label": "Climate & Sustainability Technologies",
+      "amount": 21.53
+    },
+    {
+      "label": "Imaging & Identification",
+      "amount": 13.61
+    },
+    {
+      "label": "Engineered Products",
+      "amount": 12.31
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.58
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -21.67
+    },
+    {
+      "label": "Other income",
+      "amount": 0.09
+    },
+    {
+      "label": "Tax",
+      "amount": -3.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.09
+    }
+  ],
+  "follow100Note": "Segment rows add to $100.01 due to rounding. Kept-as-profit is earnings from continuing operations; total net earnings were $333M after a $3M discontinued-operations loss.",
+  "takeaways": [
+    {
+      "stat": "+7.5%",
+      "statColor": "#3d7bc8",
+      "title": "Growth is broad — and orders are stronger",
+      "text": "Revenue rose 7.5% to $2,234M (+7% organic). Climate & Sustainability grew 18% and Clean Energy & Fueling 12%, helped by AI and power-generation demand. Bookings rose in all five segments and outpaced shipments, with much of the backlog due for delivery in 2027."
+    },
+    {
+      "stat": "$2.88",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS vs the $2.50 GAAP figure",
+      "text": "Adjusted earnings were $388M ($2.88 a share, +10%), excluding $46M of purchase-accounting expenses — mostly amortization of intangibles from past acquisitions — and $22M of restructuring costs, both pre-tax. GAAP EPS from continuing operations was $2.50."
+    },
+    {
+      "stat": "$330M+",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks and bolt-on deals continue",
+      "text": "Dover repurchased over $330M of its shares in the quarter and announced two small acquisitions, while investing in new capacity in its high-growth markets. Segment profit margin reached 24.3% of revenue, up from 24.2% a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Purchase accounting expenses of $46M pre-tax in the quarter — primarily amortization of intangible assets created by past acquisitions. Dover excludes these from adjusted earnings.",
+    "Restructuring and other costs of $22M pre-tax — headcount reductions, facility consolidations and site closures, and product-line exits. Also excluded from adjusted earnings.",
+    "A $3M loss from discontinued operations took total net earnings to $333M, below the $337M from continuing operations used in the flow above."
+  ],
+  "footerNote": "Flow uses earnings from continuing operations ($337M); total net earnings were $333M after discontinued operations. Segment revenues are as reported in the release, rounded to $M — intersegment eliminations of $2M are absorbed in the rounding, and cost of revenue absorbs a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000032/a202610228-kexhibit991pr.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000033/dov-20260930.htm"
+    }
+  ]
+}

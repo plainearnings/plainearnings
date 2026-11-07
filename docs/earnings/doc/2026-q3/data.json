@@ -1,0 +1,148 @@
+{
+  "ticker": "DOC",
+  "company": "Healthpeak Properties",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Healthpeak's revenue rose 16% to $821M as its Janus Living senior-housing business grew 78% after $1.75B of acquisitions, while heavy depreciation held GAAP earnings to $0.02 a share against $0.44 of adjusted FFO.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "Revenue was $821M, vs $706M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.02",
+      "note": "vs a $0.17 loss a year ago"
+    },
+    {
+      "label": "FFO as Adjusted per share",
+      "value": "$0.44",
+      "note": "vs $0.46 a year ago — the REIT cash-earnings measure that adds back depreciation"
+    },
+    {
+      "label": "Senior housing revenue",
+      "value": "$268M",
+      "note": "Up 78% YoY — Janus Living closed $1.75B of senior-housing acquisitions in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Outpatient Medical",
+      "amountM": 315,
+      "yoy": "-2%",
+      "note": "Rent from medical office buildings — the largest business. Revenue slipped 2% after property sales, though same-store property profit (NOI) grew 3.1%."
+    },
+    {
+      "name": "Senior Housing",
+      "amountM": 268,
+      "yoy": "+78%",
+      "note": "Resident fees and services at senior-housing communities run through Janus Living, the company's senior-housing REIT. Growth is mostly bought: $1.75B of communities were acquired in the quarter."
+    },
+    {
+      "name": "Lab",
+      "amountM": 224,
+      "yoy": "+5%",
+      "note": "Rent from life-science laboratory buildings. Revenue up 5%; occupancy rose 130 basis points in the quarter and 270 since year-end."
+    },
+    {
+      "name": "Other & interest income",
+      "amountM": 14,
+      "yoy": "-34%",
+      "note": "Loans, a preferred-equity investment, three other properties and interest income — a small remainder that shrank YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 821,
+    "costOfRevenueM": 772,
+    "grossProfitM": 49,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 24,
+        "note": "Running the company — the only cost line shown below gross profit in this REIT presentation; property-level and financing costs sit in cost of revenue (see footer)."
+      }
+    ],
+    "operatingIncomeM": 25,
+    "otherIncomeM": -7,
+    "taxM": 1,
+    "netIncomeM": 17
+  },
+  "otherDetail": "Other income of $9M plus $4M of equity income from joint ventures, less the $19M of profit that belongs to noncontrolling partners — outside owners who share in Janus Living and other joint ventures — for a net $7M cost. What remains is the $17M attributable to Healthpeak's own shareholders.",
+  "follow100": [
+    {
+      "label": "Outpatient Medical",
+      "amount": 38.37
+    },
+    {
+      "label": "Senior Housing",
+      "amount": 32.64
+    },
+    {
+      "label": "Lab",
+      "amount": 27.28
+    },
+    {
+      "label": "Other & interest income",
+      "amount": 1.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -94.03
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.92
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.85
+    },
+    {
+      "label": "Tax",
+      "amount": -0.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.07
+    }
+  ],
+  "follow100Note": "Kept-as-profit is the $17M attributable to Healthpeak shareholders; the rows add to $99.99 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+78%",
+      "statColor": "#3d7bc8",
+      "title": "Senior housing is transforming the company",
+      "text": "Senior-housing revenue jumped 78% to $268M as Janus Living closed $1.75B of acquisitions in the quarter (with about $370M more after quarter-end). It is now a third of all revenue, up from a fifth a year ago — growth bought with acquisitions rather than won organically."
+    },
+    {
+      "stat": "$299M",
+      "statColor": "#5b6b7c",
+      "title": "Depreciation explains the tiny GAAP profit",
+      "text": "Depreciation and amortization of $299M — more than a third of revenue — is why GAAP EPS is just $0.02 while FFO as Adjusted, which adds depreciation back, is $0.44 a share. For landlords, the FFO figure is usually the more useful guide to cash earnings."
+    },
+    {
+      "stat": "-2%",
+      "statColor": "#cf5f4e",
+      "title": "The core medical portfolio shrank slightly",
+      "text": "Outpatient Medical revenue fell 2% to $315M after building sales, even though same-store property profit grew 3.1% and 846,000 square feet of leases were signed. Lab revenue rose 5% to $224M with occupancy up 270 basis points since year-end."
+    }
+  ],
+  "oneTimers": [
+    "Transaction costs of $10M in the quarter ($43M in the first nine months), mostly tied to the Janus Living senior-housing acquisitions — they sit inside cost of revenue in this presentation."
+  ],
+  "footerNote": "REIT presentation following the company's statement layout: cost of revenue is total costs and expenses excluding general & administrative — it combines property operating costs ($379M), depreciation & amortization ($299M), interest expense ($84M) and transaction costs ($10M), less a small impairment recovery. Net income is the $17M attributable to Healthpeak Properties, Inc. (total net income was $37M before the $19M belonging to noncontrolling partners). Segment revenues are from the Form 10-Q segment note; 'Other & interest income' combines $7M of non-reportable-segment revenue and $7M of interest income and other.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/765880/000162828026068878/ex99109302026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/765880/000162828026069522/peak-20260930.htm"
+    }
+  ]
+}
