@@ -64,6 +64,7 @@ h2 { font-size: 28px; letter-spacing: -0.6px; margin: 0 0 8px; }
   padding: 16px 18px 14px; transition: transform .12s, box-shadow .12s, border-color .12s;
 }
 .tile:hover { transform: translateY(-2px); border-color: #cbd5e1; box-shadow: 0 8px 22px rgba(47,59,76,0.08); }
+.tile-link { display: block; text-decoration: none; color: inherit; cursor: pointer; }
 .tile-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
 .ticker { font-size: 21px; font-weight: 800; letter-spacing: -0.3px; }
 .chip { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.4px; }

@@ -109,13 +109,16 @@ fetch('companies.json')
       'coming-soon': 'Coming soon'
     };
     function render(list) {
-      tiles.innerHTML = list.map(c => `
-        <article class="tile">
+      tiles.innerHTML = list.map(c => {
+        const inner = `
           <div class="tile-top"><span class="ticker">${c.ticker}</span><span class="chip chip-${c.status}">${statusText[c.status] || 'Coming soon'}</span></div>
           <div class="tile-name">${c.name}</div>
           <div class="tile-sector">${c.sector}</div>
-          <div class="tile-quarter">${c.latestQuarter ? 'Latest: ' + c.latestQuarter : ''}</div>
-        </article>`).join('');
+          <div class="tile-quarter">${c.latestQuarter ? 'Latest: ' + c.latestQuarter : ''}${c.status === 'live' ? ' &middot; View reports &rarr;' : ''}</div>`;
+        return c.status === 'live'
+          ? `<a class="tile tile-link" href="earnings/${c.ticker.toLowerCase()}/">${inner}</a>`
+          : `<article class="tile">${inner}</article>`;
+      }).join('');
       none.hidden = list.length > 0;
       count.textContent = input.value ? list.length + ' of ' + data.companies.length + ' companies' : '';
     }
