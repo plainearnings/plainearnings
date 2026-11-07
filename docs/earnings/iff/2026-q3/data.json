@@ -1,0 +1,173 @@
+{
+  "ticker": "IFF",
+  "company": "International Flavors & Fragrances",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+4%",
+  "verdict": "IFF's sales rose 4% to $1.94B and day-to-day operations earned $160M \u2014 but a $236M write-down on the Food Ingredients business it is selling pushed the continuing business to a $127M loss.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.94B",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS, continuing (GAAP)",
+      "value": "-$0.50",
+      "note": "vs +$0.39 a year ago"
+    },
+    {
+      "label": "Adjusted operating EBITDA",
+      "value": "$403M",
+      "note": "20.8% of sales"
+    },
+    {
+      "label": "Adjusted EPS ex-amortization",
+      "value": "$0.83",
+      "note": "the company's preferred profit measure"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Taste",
+      "amountM": 687,
+      "yoy": "+4%",
+      "note": "Flavors for food and drinks \u2014 grew in every region, led by a double-digit increase in Greater Asia."
+    },
+    {
+      "name": "Scent",
+      "amountM": 689,
+      "yoy": "+6%",
+      "note": "Fragrances for perfumes, soaps and detergents \u2014 consumer fragrances grew high-single digits."
+    },
+    {
+      "name": "Health & Biosciences",
+      "amountM": 566,
+      "yoy": "",
+      "note": "Enzymes, cultures and ingredients for food, animal feed and health products \u2014 modest growth, up 1% on a comparable currency-neutral basis."
+    }
+  ],
+  "flow": {
+    "revenueM": 1942,
+    "costOfRevenueM": 1117,
+    "grossProfitM": 825,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 170,
+        "note": "Creating new flavors, fragrances and bioscience ingredients."
+      },
+      {
+        "name": "Selling & administrative",
+        "amountM": 387,
+        "f100": "Selling & administrative",
+        "note": "Selling the products and running the company \u2014 the biggest running cost."
+      },
+      {
+        "name": "Amortization of acquired intangibles",
+        "amountM": 78,
+        "f100": "Amortization",
+        "note": "Spreading the cost of past acquisitions over time \u2014 a non-cash charge."
+      },
+      {
+        "name": "Goodwill impairment",
+        "amountM": 23,
+        "note": "Writing down the recorded value of a past acquisition that is now worth less."
+      },
+      {
+        "name": "Restructuring & other charges",
+        "amountM": 7,
+        "note": "Restructuring charges of $5M plus $2M of losses on asset sales."
+      }
+    ],
+    "operatingIncomeM": 160,
+    "otherIncomeM": -294,
+    "taxM": -7,
+    "netIncomeM": -127
+  },
+  "otherDetail": "A $236M loss writing down the Food Ingredients business to its sale value, plus $46M of interest and $14M of other costs, partly offset by $2M of gains on business disposals.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "All three divisions grew",
+      "text": "Taste ($687M), Scent ($689M) and Health & Biosciences ($566M) all grew sales, with currency-neutral comparable growth of 5% overall."
+    },
+    {
+      "stat": "$236M",
+      "statColor": "#b8443c",
+      "title": "The loss is a write-down, not trading",
+      "text": "Operations earned $160M. The $127M continuing loss came from marking the soon-to-be-sold Food Ingredients business down by $236M, plus a $23M goodwill impairment."
+    },
+    {
+      "stat": "$7.5\u20137.6B",
+      "statColor": "#3e8e5a",
+      "title": "Guidance nudged up",
+      "text": "IFF raised the low end of its full-year sales outlook to $7.5\u20137.6B and completed a $500M share buyback in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "A $236M loss on assets classified as held for sale \u2014 writing the Food Ingredients disposal group down to what IFF expects to get for it; the sale is on track to close by the end of Q2 2027.",
+    "A $23M goodwill impairment inside operating costs.",
+    "The discontinued businesses being sold (Food Ingredients and SCL) actually made $72M this quarter, so IFF's total net loss was $55M (EPS -$0.22) rather than the $127M continuing loss shown in the chart."
+  ],
+  "footerNote": "This page follows IFF's own presentation: continuing operations only. The Food Ingredients and SCL businesses being sold are reported as discontinued operations and are covered in the one-time items box.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000039/q32026991pressreleaseofiff.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Taste",
+      "amount": 35.38
+    },
+    {
+      "label": "Scent",
+      "amount": 35.48
+    },
+    {
+      "label": "Health & Biosciences",
+      "amount": 29.15
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.52
+    },
+    {
+      "label": "R&D",
+      "amount": -8.75
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -19.93
+    },
+    {
+      "label": "Amortization",
+      "amount": -4.02
+    },
+    {
+      "label": "Goodwill impairment",
+      "amount": -1.18
+    },
+    {
+      "label": "Restructuring & other charges",
+      "amount": -0.36
+    },
+    {
+      "label": "Other expense",
+      "amount": -15.14
+    },
+    {
+      "label": "Tax",
+      "amount": 0.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -6.54
+    }
+  ]
+}

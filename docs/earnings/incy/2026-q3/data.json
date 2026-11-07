@@ -1,0 +1,155 @@
+{
+  "ticker": "INCY",
+  "company": "Incyte",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+14%",
+  "verdict": "Incyte's revenue grew 14% to $1.56B on strong drug sales \u2014 but a one-time $1.23B research charge for the Vega Therapeutics acquisition turned the quarter into a $785M paper loss.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.56B",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$3.86",
+      "note": "vs +$2.11 a year ago"
+    },
+    {
+      "label": "Jakafi net sales",
+      "value": "$827M",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "Cash & securities",
+      "value": "$3.9B",
+      "note": "on the balance sheet"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product sales",
+      "amountM": 1316,
+      "yoy": "+14%",
+      "f100": "Product sales",
+      "note": "Incyte's own medicines: Jakafi ($827M), Opzelura cream ($255M, +36%) and a hematology/oncology portfolio ($235M, +38%)."
+    },
+    {
+      "name": "Product royalty revenues",
+      "amountM": 191,
+      "yoy": "+12%",
+      "f100": "Royalties",
+      "note": "Royalties from partners who sell drugs built on Incyte's discoveries, such as Novartis's Jakavi."
+    },
+    {
+      "name": "Milestone & contract revenues",
+      "amountM": 50,
+      "yoy": "+11%",
+      "f100": "Milestones & contracts",
+      "note": "Payments from collaboration partners when research programs hit agreed milestones."
+    }
+  ],
+  "flow": {
+    "revenueM": 1557,
+    "costOfRevenueM": 109,
+    "grossProfitM": 1448,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1791,
+        "note": "Drug research \u2014 swollen this quarter by a one-time $1.23B charge for acquiring Vega Therapeutics' research. Without it, R&D was about $0.55B, up 11%."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 364,
+        "f100": "SG&A",
+        "note": "Selling the medicines and running the company."
+      },
+      {
+        "name": "Contingent consideration loss",
+        "amountM": 1,
+        "note": "A $1M increase in the estimated future payments owed on a past acquisition."
+      }
+    ],
+    "operatingIncomeM": -708,
+    "otherIncomeM": 19,
+    "taxM": 96,
+    "netIncomeM": -785
+  },
+  "otherDetail": "Interest income of $32M on Incyte's cash pile, less a $13M loss on equity investments, $1M of interest expense, plus $1M of other income \u2014 a net $19M gain.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Sales growth is broadening",
+      "text": "Jakafi grew just 4% to $827M, but Opzelura jumped 36% to $255M and hematology/oncology products 38% to $235M \u2014 the business beyond Jakafi is doing the growing."
+    },
+    {
+      "stat": "$1.23B",
+      "statColor": "#b8443c",
+      "title": "One charge explains the loss",
+      "text": "GAAP R&D of $1.79B includes a one-time $1.23B in-process R&D charge for buying Vega Therapeutics. Excluding it, R&D rose 11% and the quarter was solidly profitable before the charge."
+    },
+    {
+      "stat": "$5.21\u20135.30B",
+      "statColor": "#3e8e5a",
+      "title": "Sales guidance raised",
+      "text": "Incyte lifted its full-year 2026 net sales outlook to $5.21\u20135.30B, raising the ranges for Opzelura and for hematology/oncology products."
+    }
+  ],
+  "oneTimers": [
+    "A $1.23B one-time in-process research & development charge for the acquisition of Vega Therapeutics sits inside R&D \u2014 it is a purchase price for research, not a quarterly running cost. GAAP net loss was $785M; even the company's non-GAAP figures show a $731M loss because the charge is only partly adjusted out."
+  ],
+  "footerNote": "Amounts are rounded to $M from Incyte's thousands-denominated statement; R&D absorbs a $1M rounding difference so the lines add exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000063/incy-q32026xexx991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product sales",
+      "amount": 84.52
+    },
+    {
+      "label": "Royalties",
+      "amount": 12.27
+    },
+    {
+      "label": "Milestones & contracts",
+      "amount": 3.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -7.0
+    },
+    {
+      "label": "R&D",
+      "amount": -115.03
+    },
+    {
+      "label": "SG&A",
+      "amount": -23.38
+    },
+    {
+      "label": "Contingent consideration loss",
+      "amount": -0.06
+    },
+    {
+      "label": "Other income",
+      "amount": 1.22
+    },
+    {
+      "label": "Tax",
+      "amount": -6.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -50.42
+    }
+  ]
+}

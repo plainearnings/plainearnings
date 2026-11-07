@@ -1,0 +1,175 @@
+{
+  "ticker": "IP",
+  "company": "International Paper",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "flat",
+  "verdict": "International Paper sold $6.2B of packaging, flat versus a year ago \u2014 but a $1.38B non-cash write-down of its European business turned the quarter into a $1.1B loss from continuing operations.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.20B",
+      "note": "flat YoY"
+    },
+    {
+      "label": "EPS, continuing (GAAP)",
+      "value": "-$2.07",
+      "note": "vs -$0.81 a year ago"
+    },
+    {
+      "label": "Adjusted operating EPS",
+      "value": "$0.37",
+      "note": "excludes special items"
+    },
+    {
+      "label": "North America segment profit",
+      "value": "$427M",
+      "note": "up from $204M in Q2"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Packaging Solutions North America",
+      "amountM": 3880,
+      "yoy": "",
+      "note": "Boxes and containerboard across North America \u2014 sales were roughly flat, but profit more than doubled from Q2 to $427M on better prices and mill performance."
+    },
+    {
+      "name": "Packaging Solutions EMEA",
+      "amountM": 2280,
+      "yoy": "-1%",
+      "note": "The European packaging business being separated from the company \u2014 it lost $73M in the quarter in a soft market."
+    },
+    {
+      "name": "Corporate & inter-segment",
+      "amountM": 37,
+      "yoy": "",
+      "note": "Corporate items and sales between the company's own segments."
+    }
+  ],
+  "flow": {
+    "revenueM": 6197,
+    "costOfRevenueM": 4263,
+    "grossProfitM": 1934,
+    "opex": [
+      {
+        "name": "Goodwill impairment",
+        "amountM": 1377,
+        "note": "A non-cash write-down of the value recorded for the European packaging business \u2014 the single biggest item in the quarter."
+      },
+      {
+        "name": "Selling & administrative",
+        "amountM": 558,
+        "f100": "Selling & administrative",
+        "note": "Selling and administration, including $65M of costs for separating the EMEA business."
+      },
+      {
+        "name": "Distribution expenses",
+        "amountM": 559,
+        "f100": "Distribution",
+        "note": "Freight and delivery of paper and boxes to customers."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 526,
+        "f100": "Depreciation & amortization",
+        "note": "Spreading the cost of mills and machines over their lives, including $33M of accelerated depreciation from site closures."
+      },
+      {
+        "name": "Restructuring, taxes & other, net",
+        "amountM": 27,
+        "f100": "Restructuring & other",
+        "note": "Restructuring charges of $9M and $41M of non-income taxes, partly offset by a $23M net gain on asset sales."
+      }
+    ],
+    "operatingIncomeM": -1113,
+    "otherIncomeM": -81,
+    "taxM": -97,
+    "netIncomeM": -1097
+  },
+  "otherDetail": "Net interest expense of $96M, partly offset by $15M of non-operating pension income.",
+  "takeaways": [
+    {
+      "stat": "$427M",
+      "statColor": "#3d7bc8",
+      "title": "North America is improving fast",
+      "text": "North America segment profit jumped to $427M from $204M in Q2 and a $166M loss a year ago, on price increases and better mill performance."
+    },
+    {
+      "stat": "$1.38B",
+      "statColor": "#b8443c",
+      "title": "Europe drove the headline loss",
+      "text": "The $1.38B goodwill impairment is non-cash \u2014 it writes down what the EMEA business is carried at ahead of its planned separation. Excluding special items, adjusted operating EPS was +$0.37."
+    },
+    {
+      "stat": "$843M",
+      "statColor": "#5b6b7c",
+      "title": "Cash profit held up",
+      "text": "Adjusted EBITDA from continuing operations was $843M, close to last year's $859M, even as GAAP results showed a $1.1B loss."
+    }
+  ],
+  "oneTimers": [
+    "A $1.38B non-cash goodwill impairment on the Packaging Solutions EMEA business (before and after tax).",
+    "Special items overall added $2.70 per share of costs in the quarter, including EMEA separation costs and accelerated depreciation from site closures.",
+    "Discontinued operations \u2014 the former Global Cellulose Fibers business, sold in January 2026 \u2014 lost another $29M, taking the total net loss to $1,126M (EPS -$2.13)."
+  ],
+  "footerNote": "This page uses continuing operations, as International Paper presents them; discontinued operations are covered in the one-time items box. The tax line is a $97M benefit, which cushioned the loss.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143426000147/nextgenip-20260930ex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Packaging Solutions North America",
+      "amount": 62.61
+    },
+    {
+      "label": "Packaging Solutions EMEA",
+      "amount": 36.79
+    },
+    {
+      "label": "Corporate & inter-segment",
+      "amount": 0.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -68.79
+    },
+    {
+      "label": "Goodwill impairment",
+      "amount": -22.22
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -9.0
+    },
+    {
+      "label": "Distribution",
+      "amount": -9.02
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -8.49
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.44
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.31
+    },
+    {
+      "label": "Tax",
+      "amount": 1.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -17.7
+    }
+  ]
+}

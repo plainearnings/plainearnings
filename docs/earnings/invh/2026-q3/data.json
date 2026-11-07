@@ -1,0 +1,167 @@
+{
+  "ticker": "INVH",
+  "company": "Invitation Homes",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+6%",
+  "verdict": "Invitation Homes took in $731M, up 6%, and net income rose to $159M \u2014 helped along by $136M of gains on homes it sold \u2014 while core rental profit per share grew 2.4%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$731M",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.27",
+      "note": "vs $0.22 a year ago"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$0.48",
+      "note": "+2.4% YoY \u2014 the REIT profit yardstick"
+    },
+    {
+      "label": "Same Store NOI growth",
+      "value": "+1.1%",
+      "note": "net operating income from homes owned a year+"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental revenues",
+      "amountM": 597,
+      "yoy": "+1%",
+      "note": "Rent from roughly 86,000 single-family homes \u2014 blended rents grew 3.0% on new leases and renewals."
+    },
+    {
+      "name": "Other property income",
+      "amountM": 78,
+      "yoy": "+8%",
+      "note": "Fees and other income from the homes \u2014 things like pet fees, smart-home services and resident charges."
+    },
+    {
+      "name": "Management fee revenues",
+      "amountM": 20,
+      "yoy": "-10%",
+      "f100": "Management fees",
+      "note": "Fees for managing homes owned by joint ventures and other partners."
+    },
+    {
+      "name": "Homebuilding revenues",
+      "amountM": 36,
+      "yoy": "",
+      "note": "Selling newly built homes \u2014 a new revenue line for Invitation Homes in 2026."
+    }
+  ],
+  "flow": {
+    "revenueM": 731,
+    "costOfRevenueM": 296,
+    "grossProfitM": 435,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 196,
+        "f100": "Depreciation & amortization",
+        "note": "Spreading the cost of the houses over their lives \u2014 a large non-cash charge that REIT investors add back in FFO."
+      },
+      {
+        "name": "Property management expense",
+        "amountM": 39,
+        "f100": "Property management",
+        "note": "The cost of leasing and managing the portfolio day to day."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 34,
+        "f100": "G&A",
+        "note": "The corporate back office."
+      },
+      {
+        "name": "Casualty losses & impairment",
+        "amountM": 7,
+        "f100": "Casualty & impairment",
+        "note": "Storm and casualty losses and small write-downs on properties."
+      }
+    ],
+    "operatingIncomeM": 159,
+    "otherIncomeM": 0,
+    "taxM": 0,
+    "netIncomeM": 159
+  },
+  "otherDetail": "Interest expense of $92M, plus $44M of joint-venture losses, debt-extinguishment and other costs, were exactly offset by $136M of gains on homes sold in the quarter \u2014 net other items of $0M.",
+  "takeaways": [
+    {
+      "stat": "$0.48",
+      "statColor": "#3d7bc8",
+      "title": "Core profit per share inched up",
+      "text": "Core FFO per share rose 2.4% to $0.48 \u2014 helped by buybacks shrinking the share count \u2014 and full-year guidance midpoint was raised to $1.96."
+    },
+    {
+      "stat": "$136M",
+      "statColor": "#3e8e5a",
+      "title": "Home sales padded the profit",
+      "text": "Net income of $159M includes $136M of gains on homes sold. FFO, which strips those gains out, was $212M \u2014 down from $274M a year ago."
+    },
+    {
+      "stat": "~$1B",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks are the strategy",
+      "text": "Invitation Homes has repurchased nearly $1B of stock since December 2025, funded by home sales, and the board just authorized another $500M."
+    }
+  ],
+  "oneTimers": [
+    "A $136M gain on sale of property (versus $46M a year ago) is included in net income; REIT yardstick FFO removes it."
+  ],
+  "footerNote": "REIT presentation: cost of revenue combines property operating and maintenance ($264M) and homebuilding cost of sales ($32M). As a REIT, Invitation Homes distributes its income to shareholders as dividends instead of paying corporate income tax, so there is no tax line; the $136M gain on sales is stated net of tax in the release. Net income attributable to common stockholders was $158M.",
+  "sources": [
+    {
+      "label": "Official earnings release & supplemental (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1687229/000168722926000053/q32026supplemental.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Rental revenues",
+      "amount": 81.67
+    },
+    {
+      "label": "Other property income",
+      "amount": 10.67
+    },
+    {
+      "label": "Management fees",
+      "amount": 2.74
+    },
+    {
+      "label": "Homebuilding revenues",
+      "amount": 4.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.49
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -26.81
+    },
+    {
+      "label": "Property management",
+      "amount": -5.34
+    },
+    {
+      "label": "G&A",
+      "amount": -4.65
+    },
+    {
+      "label": "Casualty & impairment",
+      "amount": -0.96
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.75
+    }
+  ]
+}
