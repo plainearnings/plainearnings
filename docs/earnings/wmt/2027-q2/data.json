@@ -1,0 +1,155 @@
+{
+  "ticker": "WMT",
+  "company": "Walmart",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-20",
+  "verdict": "Walmart's sales grew 5.9% and operating profit jumped 28.8% — flattered by tariff refunds — but a $1.2B loss on investments pulled net income down to $6.4B.",
+  "revenueYoY": "+5.9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5.9%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.80",
+      "note": "vs $0.88 a year ago; $0.81 adjusted"
+    },
+    {
+      "label": "Operating income",
+      "value": "$9.4B",
+      "note": "+28.8% YoY"
+    },
+    {
+      "label": "eCommerce growth",
+      "value": "+23%",
+      "note": "global, across all segments"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Walmart U.S.",
+      "amountM": 125189,
+      "yoy": "+3.5%",
+      "note": "The big U.S. stores — net sales up 3.5%, comparable sales up 2.6%, and operating income up 20.6% to $8.1B."
+    },
+    {
+      "name": "Walmart International",
+      "amountM": 35198,
+      "yoy": "+12.8%",
+      "note": "Stores and e-commerce outside the U.S., including Flipkart in India — net sales up 12.8%, operating income $1.4B."
+    },
+    {
+      "name": "Sam's Club U.S.",
+      "amountM": 25713,
+      "yoy": "+8.8%",
+      "note": "The warehouse-club business — net sales up 8.8%, operating income up 44.3% to $678M on membership growth and tariff refunds."
+    },
+    {
+      "name": "Membership & other income",
+      "amountM": 1837,
+      "yoy": "+11.2%",
+      "compact": true,
+      "shortName": "Membership & other",
+      "pngLabel": "Membership & other: $1.8B",
+      "note": "Sam's Club membership fees plus other income such as advertising (Walmart Connect) and services."
+    }
+  ],
+  "flow": {
+    "revenueM": 187937,
+    "costOfRevenueM": 138804,
+    "grossProfitM": 49133,
+    "opex": [
+      {
+        "name": "Operating, selling, general & administrative",
+        "amountM": 39750,
+        "compact": true,
+        "shortName": "Operating & SG&A",
+        "pngLabel": "Operating & SG&A: ($39.8B)",
+        "note": "Running the stores, the supply chain and the back office — 21.2% of revenue."
+      }
+    ],
+    "operatingIncomeM": 9383,
+    "otherIncomeM": -1371,
+    "taxM": 1483,
+    "netIncomeM": 6366,
+    "equityM": -163
+  },
+  "follow100": [
+    {
+      "label": "Walmart U.S.",
+      "amount": 66.61
+    },
+    {
+      "label": "Walmart International",
+      "amount": 18.73
+    },
+    {
+      "label": "Sam's Club U.S.",
+      "amount": 13.68
+    },
+    {
+      "label": "Membership & other income",
+      "amount": 0.98
+    },
+    {
+      "label": "Cost of sales",
+      "amount": 73.86
+    },
+    {
+      "label": "Operating & SG&A",
+      "amount": -21.15
+    },
+    {
+      "label": "Interest & investment losses",
+      "amount": -0.73
+    },
+    {
+      "label": "Tax",
+      "amount": 0.79
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.39
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28.8%",
+      "statColor": "#3d7bc8",
+      "title": "Operating profit surged — with help",
+      "text": "Operating income jumped 28.8% to $9.4B, but tariff refunds (partly offset by price investments) did much of the lifting: on an adjusted constant-currency basis the rise was 17.4%."
+    },
+    {
+      "stat": "−$1.2B",
+      "statColor": "#cf5f4e",
+      "title": "Investments cut the bottom line",
+      "text": "Below the operating line, a $1,200M loss on equity and other investments (vs a $2,708M gain a year ago) turned a strong operating quarter into a 9.4% drop in attributable net income, to $6,366M."
+    },
+    {
+      "stat": "+23%",
+      "statColor": "#3e8e5a",
+      "title": "eCommerce keeps compounding",
+      "text": "Global eCommerce sales grew 23% and Walmart U.S. comparable sales rose 2.6% on more transactions. Management raised full-year FY27 guidance: net sales +4.0–5.0% and adjusted operating income +7.0–8.5% in constant currency."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm"
+    }
+  ],
+  "follow100Note": "Kept-as-profit is the $6,366M attributable to Walmart shareholders; consolidated net income was $6,529M before the $163M noncontrolling share. Rows may not add exactly due to rounding.",
+  "oneTimers": [
+    "Tariff refunds received in the quarter lifted the gross profit rate by about 96 basis points and boosted operating income, partly offset by deliberate price investments. Walmart plans to plow remaining refunds into prices in the second half — and says to judge Q2 and Q3 together.",
+    "A $1,200M loss on equity and other investments sits below operating income. Adjusted EPS of $0.81 excludes a $0.12-per-share loss on those investments and a $0.11-per-share benefit from a specific tax matter."
+  ],
+  "footerNote": "Net profit here is the $6,366M attributable to Walmart shareholders (EPS $0.80); consolidated net income was $6,529M before $163M attributable to noncontrolling interests."
+}

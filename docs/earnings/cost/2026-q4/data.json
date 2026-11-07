@@ -1,0 +1,124 @@
+{
+  "ticker": "COST",
+  "company": "Costco",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-08-30",
+  "reportedDate": "2026-09-24",
+  "verdict": "Costco's sales rose 11.2% in its 16-week fourth quarter — and the $1.9B of membership fees it collected covered nearly two-thirds of its entire net profit.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Net sales growth",
+      "value": "+11.2%",
+      "note": "comparable sales +9.4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.75",
+      "note": "vs $5.87 a year ago"
+    },
+    {
+      "label": "Membership fees",
+      "value": "$1.9B",
+      "note": "62% of net income"
+    },
+    {
+      "label": "Total revenue",
+      "value": "$95.7B",
+      "note": "16-week quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 93873,
+      "yoy": "+11.2%",
+      "note": "Everything sold in 939 warehouses and online — comparable sales up 9.4% (6.7% adjusted for gasoline prices and currency)."
+    },
+    {
+      "name": "Membership fees",
+      "amountM": 1850,
+      "yoy": "+7.3%",
+      "pngLabel": "Membership: $1.9B (+7.3%)",
+      "note": "Annual membership fees — almost pure profit, and the heart of the business model: members pay to shop, then spend heavily."
+    }
+  ],
+  "flow": {
+    "revenueM": 95723,
+    "costOfRevenueM": 83531,
+    "grossProfitM": 12192,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 8391,
+        "note": "Running the warehouses and the company — just 8.8% of revenue, famously lean."
+      }
+    ],
+    "operatingIncomeM": 3801,
+    "otherIncomeM": 208,
+    "taxM": 1011,
+    "netIncomeM": 2998
+  },
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 98.07
+    },
+    {
+      "label": "Membership fees",
+      "amount": 1.93
+    },
+    {
+      "label": "Merchandise costs",
+      "amount": 87.26
+    },
+    {
+      "label": "SG&A",
+      "amount": -8.77
+    },
+    {
+      "label": "Other income",
+      "amount": 0.22
+    },
+    {
+      "label": "Tax",
+      "amount": 1.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.13
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9.4%",
+      "statColor": "#3d7bc8",
+      "title": "Shoppers keep coming",
+      "text": "Comparable sales rose 9.4% (6.7% excluding gasoline-price and currency swings), and digitally-enabled sales grew 19.5%. Net sales hit $93.9B in the 16-week quarter."
+    },
+    {
+      "stat": "$1.9B",
+      "statColor": "#3e8e5a",
+      "title": "The membership is the profit",
+      "text": "Membership fees of $1,850M covered 62% of the quarter's $2,998M net income. Costco can price goods close to cost because members pay an annual fee just to walk in."
+    },
+    {
+      "stat": "+$0.15",
+      "statColor": "#5b6b7c",
+      "title": "A tariff refund helped",
+      "text": "EPS included a non-recurring +$0.15 per share from IEEPA tariff refunds received in the quarter, partly reinvested in member prices. Even without it, EPS of about $6.60 would still be up roughly 12%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm"
+    }
+  ],
+  "oneTimers": [
+    "A non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, net of amounts reinvested in lower prices and member values."
+  ],
+  "otherDetail": "Interest income and other of $253M, less $45M of interest expense — net +$208M.",
+  "footerNote": "Costco's fourth quarter is 16 weeks (the others are 12), so it is not directly comparable to a normal quarter."
+}

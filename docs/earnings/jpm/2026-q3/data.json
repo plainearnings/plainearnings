@@ -1,0 +1,163 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-13",
+  "verdict": "JPMorgan earned $15.3B in the quarter as net interest income jumped 13% — and it would have been $15.8B without $658M of investment securities losses booked in Corporate.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "reported basis, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.57",
+      "note": "vs $5.07 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$27.0B",
+      "note": "+13% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.7B",
+      "note": "$2.2B charged off, $539M reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 27036,
+      "yoy": "+13%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings — the bank's core engine, up 13% as loan and deposit balances grew."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 23136,
+      "yoy": "+3%",
+      "note": "Fees, trading and asset-management income — up only 3%, held back by $658M of investment securities losses. Asset management fees rose 15% and Markets revenue 15%."
+    }
+  ],
+  "flow": {
+    "revenueM": 50172,
+    "costOfRevenueM": 2743,
+    "grossProfitM": 47429,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 14772,
+        "note": "Pay and benefits for the bank's workforce — its biggest cost, up 9% on hiring and revenue-related pay."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 3897,
+        "note": "Outside services and professional fees — up 23%."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 3335,
+        "compact": true,
+        "shortName": "Technology & equipment",
+        "pngName": "Technology & equipment",
+        "note": "Technology, telecoms and equipment — up 17% as the bank invests in AI and its platforms."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1917,
+        "note": "Advertising and card marketing — up 30%."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3374,
+        "note": "Branches and offices ($1,525M of occupancy) plus other general costs ($1,849M).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 20134,
+    "otherIncomeM": 0,
+    "taxM": 4829,
+    "netIncomeM": 15305
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 53.89
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 46.11
+    },
+    {
+      "label": "Credit costs",
+      "amount": 5.47
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -29.44
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -7.77
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -6.65
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.82
+    },
+    {
+      "label": "Occupancy & other",
+      "amount": -6.72
+    },
+    {
+      "label": "Tax",
+      "amount": 9.62
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.51
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Interest income is the engine",
+      "text": "Net interest income rose 13% to $27.0B on bigger loan and deposit balances — average loans up 10% YoY. It is now 54% of all revenue."
+    },
+    {
+      "stat": "$15.8B",
+      "statColor": "#3e8e5a",
+      "title": "One item hides the strength",
+      "text": "Excluding $658M of investment securities losses in Corporate, net income was $15.8B and EPS $5.75 instead of $5.57 — a return on tangible equity of 21% rather than 20%."
+    },
+    {
+      "stat": "$2.7B",
+      "statColor": "#5b6b7c",
+      "title": "Credit costs are contained",
+      "text": "The bank set aside $2.7B for credit losses — $2.2B of actual charge-offs plus a $539M reserve build — down from $3.4B a year ago, even as lending grew."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $50.2B reported (GAAP), used here, or $50.9B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way.",
+  "oneTimers": [
+    "$658M of net investment securities losses in Corporate — the quarter's flagged 'significant item'. Excluding it, net income was $15.8B ($5.75 per share) instead of $15.3B ($5.57)."
+  ],
+  "footerNote": "JPMorgan headlines 'managed' revenue of $50.9B; this page uses reported (GAAP) revenue of $50.2B — the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue."
+}
