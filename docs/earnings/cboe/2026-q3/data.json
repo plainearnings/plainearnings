@@ -1,0 +1,162 @@
+{
+  "ticker": "CBOE",
+  "company": "Cboe Global Markets",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Cboe's profit jumped as record options trading \u2014 led by same-day-expiry index options \u2014 lifted net revenue 18%, with a $72M gain on selling its Australian business adding to the headline number.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "total revenues; net revenue +18%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.08",
+      "note": "a record, vs $2.85 a year ago"
+    },
+    {
+      "label": "Net revenue",
+      "value": "$712M",
+      "note": "+18% YoY \u2014 revenue after trading costs"
+    },
+    {
+      "label": "Options net revenue",
+      "value": "$470M",
+      "note": "+23% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Derivatives markets",
+      "amountM": 665,
+      "yoy": "+18%",
+      "note": "Options and futures exchanges \u2014 the biggest piece. Index options volumes rose 24%, helped by record trading in options that expire the same day (0DTE)."
+    },
+    {
+      "name": "Cash and spot markets",
+      "amountM": 511,
+      "yoy": "+23%",
+      "note": "Stock exchanges in North America and Europe plus foreign-exchange trading. This line includes $156M of regulatory fees collected and largely passed through."
+    },
+    {
+      "name": "Data Vantage",
+      "amountM": 183,
+      "yoy": "+13%",
+      "note": "Selling market data, index licensing and analytics \u2014 record quarterly revenue, and the most subscription-like part of Cboe."
+    }
+  ],
+  "flow": {
+    "revenueM": 1359,
+    "costOfRevenueM": 647,
+    "grossProfitM": 712,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 133,
+        "note": "Pay for the people who run the exchanges and build the technology."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 28,
+        "note": "Wear and tear on trading systems and buildings, and amortization of bought intangibles."
+      },
+      {
+        "name": "Technology & professional services",
+        "amountM": 52,
+        "note": "Technology support services ($28M) plus professional fees and outside services ($25M), rounded so the lines tie exactly."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 36,
+        "note": "Travel and promotion ($8M), facilities ($6M), a $1M asset impairment and $20M of other expenses \u2014 which include a $14M reserve on notes receivable funding the Consolidated Audit Trail."
+      }
+    ],
+    "operatingIncomeM": 463,
+    "otherIncomeM": 92,
+    "equityM": -2,
+    "taxM": 126,
+    "netIncomeM": 427
+  },
+  "otherDetail": "A $72M gain on selling Cboe Australia, plus $20M of net non-operating income (interest income and investment earnings, less interest expense), less $2M of profit allocated to participating securities \u2014 net +$90M shown in the chart.",
+  "oneTimers": [
+    "A $71.5M gain on the sale of Cboe Australia, completed in the quarter, is included in GAAP results. Excluding it and other adjustments, adjusted EPS was $3.63 (non-GAAP) versus GAAP EPS of $4.08.",
+    "Operating expenses include a $14.0M reserve on notes receivable connected with funding the Consolidated Audit Trail (the SEC's market-surveillance system), and a $1.4M asset impairment."
+  ],
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Options are booming",
+      "text": "Net revenue \u2014 what Cboe keeps after paying liquidity and clearing costs \u2014 rose 18% to a record $712M. Options net revenue rose 23% as index options volumes grew 24% on record same-day-expiry (0DTE) trading."
+    },
+    {
+      "stat": "$4.08",
+      "statColor": "#3e8e5a",
+      "title": "A record quarter, with help",
+      "text": "GAAP EPS hit a record $4.08, up 43%. About $0.68 of that came from the one-time $71.5M gain on selling Cboe Australia; adjusted EPS of $3.63 was still up 36%."
+    },
+    {
+      "stat": "High teens",
+      "statColor": "#5b6b7c",
+      "title": "Guidance went up",
+      "text": "Cboe raised its 2026 organic net revenue growth target to 'high teens' from 'mid to high teens', lifted Data Vantage to 'mid teens', and lowered its adjusted expense guide to $830\u2013845M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026068432/cboe-20261030xex991.htm"
+    }
+  ],
+  "footerNote": "Reported operating income of $534M includes the $72M gain on selling Cboe Australia; this page shows that gain in Other income (the same treatment as other divestiture gains on this site), so the operating-profit block reads $463M. Net income is the $427M allocated to common stockholders (total net income $428M). Cboe reports in tenths of millions; lines are rounded to whole $M and tie exactly.",
+  "follow100": [
+    {
+      "label": "Derivatives markets",
+      "amount": 48.93
+    },
+    {
+      "label": "Cash and spot markets",
+      "amount": 37.6
+    },
+    {
+      "label": "Data Vantage",
+      "amount": 13.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -47.61
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -9.79
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.06
+    },
+    {
+      "label": "Technology & professional services",
+      "amount": -3.83
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -2.65
+    },
+    {
+      "label": "Other income",
+      "amount": 6.62
+    },
+    {
+      "label": "Tax",
+      "amount": -9.27
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.42
+    }
+  ]
+}

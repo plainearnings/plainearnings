@@ -1,0 +1,150 @@
+{
+  "ticker": "CCI",
+  "company": "Crown Castle",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Crown Castle's revenue fell 7% as the DISH and Sprint tenant exits shrank tower rents, but lower interest costs after selling its fiber business still pushed AFFO per share up 11%.",
+  "revenueYoY": "-7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.67",
+      "note": "vs $0.74 a year ago"
+    },
+    {
+      "label": "AFFO per share (non-GAAP)",
+      "value": "$1.24",
+      "note": "+11% YoY \u2014 the REIT headline measure"
+    },
+    {
+      "label": "Site rental revenue",
+      "value": "$966M",
+      "note": "-5% YoY; organic billings +3.5% before DISH/Sprint exits"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Site rental",
+      "amountM": 966,
+      "yoy": "-4.5%",
+      "note": "Rent from mobile carriers putting antennas on Crown Castle's towers. Billings grew 3.5% organically, but DISH terminations (-$61M) and Sprint cancellations (-$5M) versus last year's billings, plus lower straight-line rent, pulled reported revenue down."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 29,
+      "yoy": "-52%",
+      "note": "Work installing and upgrading carriers' equipment on towers \u2014 much smaller since Crown Castle sold its fiber and small-cell businesses and became a pure tower company."
+    }
+  ],
+  "flow": {
+    "revenueM": 995,
+    "costOfRevenueM": 261,
+    "grossProfitM": 734,
+    "opex": [
+      {
+        "name": "Depreciation, amortization & accretion",
+        "amountM": 180,
+        "note": "The towers and land rights wearing out on paper over time \u2014 a big non-cash cost for a tower owner, and the main reason GAAP profit looks small next to AFFO."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 82,
+        "note": "Running the company \u2014 down from $97M a year ago on cost savings."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 6,
+        "note": "Costs of reshaping the company after the fiber and small-cell sale."
+      },
+      {
+        "name": "Asset write-down charges",
+        "amountM": 1,
+        "note": "Writing down assets that are worth less than their book value."
+      }
+    ],
+    "operatingIncomeM": 465,
+    "otherIncomeM": -177,
+    "taxM": 5,
+    "netIncomeM": 283
+  },
+  "otherDetail": "Interest expense of $177M (net of deferred financing cost amortization) on Crown Castle's debt, plus $3M of interest income and a $3M other expense \u2014 net -$177M.",
+  "oneTimers": [
+    "Restructuring charges of $6M and asset write-down charges of $1M are included in GAAP results this quarter.",
+    "There were no discontinued-operations results in Q3 2026. For the nine months, the sold fiber and small-cell businesses contributed $350M of income before a $625M loss on disposal \u2014 that disposal loss does not touch this quarter."
+  ],
+  "takeaways": [
+    {
+      "stat": "-4.5%",
+      "statColor": "#cf5f4e",
+      "title": "Tenant exits are the drag",
+      "text": "Site rental revenue fell to $966M. The underlying towers business grew \u2014 organic billings +3.5%, or +3.8% excluding DISH from last year \u2014 but losing DISH and Sprint as tenants removed $66M of billings versus a year ago."
+    },
+    {
+      "stat": "$1.24",
+      "statColor": "#3e8e5a",
+      "title": "AFFO rose anyway",
+      "text": "AFFO \u2014 the cash-style profit REIT investors watch, which adds back tower depreciation \u2014 rose 8% to $530M, and 11% per share to $1.24, helped by lower interest expense and fewer shares after the fiber sale proceeds were put to work."
+    },
+    {
+      "stat": "$673M",
+      "statColor": "#5b6b7c",
+      "title": "The guide went up a notch",
+      "text": "Adjusted EBITDA eased to $673M from $718M, but Crown Castle still raised its full-year 2026 guide \u2014 Adjusted EBITDA by $25M and AFFO by $5M \u2014 citing ground-lease buyouts, cost savings and a new customer agreement."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000085/q32026earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Site rental",
+      "amount": 97.09
+    },
+    {
+      "label": "Services and other",
+      "amount": 2.91
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.23
+    },
+    {
+      "label": "Depreciation, amortization & accretion",
+      "amount": -18.09
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -8.24
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.6
+    },
+    {
+      "label": "Asset write-down charges",
+      "amount": -0.1
+    },
+    {
+      "label": "Other income",
+      "amount": -17.79
+    },
+    {
+      "label": "Tax",
+      "amount": -0.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.44
+    }
+  ]
+}

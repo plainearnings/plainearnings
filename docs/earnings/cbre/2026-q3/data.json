@@ -1,0 +1,154 @@
+{
+  "ticker": "CBRE",
+  "company": "CBRE Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "CBRE grew revenue 13% to $11.5B, led by building operations and surging data-center work, and a $184M gain on selling real estate helped lift GAAP profit 22% to $443M.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.52",
+      "note": "vs $1.21 a year ago"
+    },
+    {
+      "label": "Core EPS (non-GAAP)",
+      "value": "$2.05",
+      "note": "+28% YoY, CBRE's headline measure"
+    },
+    {
+      "label": "Building Operations revenue",
+      "value": "$6.9B",
+      "note": "+17% YoY, 60% of all revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Building Operations & Experience",
+      "amountM": 6838,
+      "yoy": "+17%",
+      "note": "Running buildings for clients \u2014 facilities and property management. Reported segment revenue was $6,856M; the $18M of corporate eliminations is netted here so the lines tie. Critical infrastructure services revenue surged 80%, driven by data-center work and the Pearce Services acquisition."
+    },
+    {
+      "name": "Advisory Services",
+      "amountM": 2441,
+      "yoy": "+11%",
+      "note": "Leasing, property sales, mortgage origination, loan servicing and valuations. Global property sales revenue rose 28% and leasing 6%."
+    },
+    {
+      "name": "Project Management",
+      "amountM": 2035,
+      "yoy": "+3%",
+      "note": "Managing construction and fit-out projects for clients \u2014 growth tempered by slower corporate spending on real estate, while infrastructure program work stayed strong."
+    },
+    {
+      "name": "Real Estate Investments",
+      "amountM": 203,
+      "yoy": "-4%",
+      "note": "Developing property (Trammell Crow) and managing investments for clients, with more than $155B of assets under management. Revenue dipped, but segment profit more than doubled on data-center land sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 11517,
+    "costOfRevenueM": 9392,
+    "grossProfitM": 2125,
+    "opex": [
+      {
+        "name": "Operating, administrative & other",
+        "amountM": 1564,
+        "note": "Staff and running costs not billed straight through to clients \u2014 includes $76M of acquisition integration costs and $35M of business and finance transformation costs."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 184,
+        "note": "Wear and tear on offices and systems, and amortization of intangibles from acquisitions."
+      }
+    ],
+    "operatingIncomeM": 377,
+    "otherIncomeM": 234,
+    "equityM": -37,
+    "taxM": 131,
+    "netIncomeM": 443
+  },
+  "otherDetail": "A $184M gain on selling real estate, plus $104M of equity income from businesses CBRE part-owns and $8M of other income, less $62M of net interest expense and $37M of profit attributable to noncontrolling interests \u2014 net +$197M shown in the chart.",
+  "oneTimers": [
+    "A $184M gain on disposition of real estate (vs $36M a year ago) is included in GAAP operating income as reported; this page shows it in Other income. It came mainly from development asset sales, including data-center land.",
+    "CBRE's headline core EPS of $2.05 (non-GAAP) excludes, among other items, $76M of acquisition integration costs, $56M of non-cash amortization of acquisition intangibles and $35M of transformation costs; core net income was $599M versus GAAP net income of $443M."
+  ],
+  "takeaways": [
+    {
+      "stat": "+80%",
+      "statColor": "#3d7bc8",
+      "title": "Data centers are the growth story",
+      "text": "Critical infrastructure services revenue surged 80%, on data-center services demand and the Pearce acquisition (Nov 2025). Building Operations overall grew 17% to $6.9B and is now 60% of CBRE's revenue."
+    },
+    {
+      "stat": "$184M",
+      "statColor": "#3e8e5a",
+      "title": "Asset sales flattered GAAP profit",
+      "text": "A $184M gain on selling real estate \u2014 five times last year's \u2014 helped GAAP net income rise 22% to $443M. Strip out CBRE's list of one-offs and core net income was $599M, up 25%."
+    },
+    {
+      "stat": "$4.7B",
+      "statColor": "#5b6b7c",
+      "title": "Much of the revenue is pass-through",
+      "text": "Of the $11.5B top line, $4,691M is pass-through costs \u2014 subcontracted work for clients that CBRE bills back at no markup. That is why the profit margin on total revenue looks thin: the real service revenue is much smaller than the headline."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000028/cbre-20261022x8kexx991.htm"
+    }
+  ],
+  "footerNote": "Reported operating income of $561M includes the $184M gain on disposition of real estate; this page shows that gain in Other income, so the operating-profit block reads $377M. Net income is the $443M attributable to CBRE Group (total net income $480M, less $37M attributable to noncontrolling interests).",
+  "follow100": [
+    {
+      "label": "Building Operations & Experience",
+      "amount": 59.37
+    },
+    {
+      "label": "Advisory Services",
+      "amount": 21.19
+    },
+    {
+      "label": "Project Management",
+      "amount": 17.67
+    },
+    {
+      "label": "Real Estate Investments",
+      "amount": 1.76
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -81.55
+    },
+    {
+      "label": "Operating, administrative & other",
+      "amount": -13.58
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.6
+    },
+    {
+      "label": "Other income",
+      "amount": 1.71
+    },
+    {
+      "label": "Tax",
+      "amount": -1.14
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.85
+    }
+  ]
+}

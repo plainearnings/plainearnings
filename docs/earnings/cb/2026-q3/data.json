@@ -1,0 +1,163 @@
+{
+  "ticker": "CB",
+  "company": "Chubb Limited",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Chubb earned $2.8B as record investment income and disciplined underwriting \u2014 an 84.1% combined ratio \u2014 more than covered catastrophe losses that were two and a half times last year's unusually light level.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "operating revenue, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.30",
+      "note": "vs $6.99 a year ago"
+    },
+    {
+      "label": "P&C combined ratio",
+      "value": "84.1%",
+      "note": "underwriting kept $15.90 of every $100 of premium"
+    },
+    {
+      "label": "Net investment income",
+      "value": "$1.8B",
+      "note": "a record, +9% YoY before tax"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net premiums earned",
+      "amountM": 14924,
+      "yoy": "+4%",
+      "note": "Premiums from property & casualty and life policies, earned over the coverage period \u2014 up 3.9%. Consolidated net premiums written were $15.1B, up 1.9%."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 1791,
+      "yoy": "+9%",
+      "note": "Interest and dividends on the money Chubb invests between collecting premiums and paying claims \u2014 a record quarter, helped by rising interest rates."
+    },
+    {
+      "name": "Other operating income",
+      "amountM": 364,
+      "yoy": "",
+      "note": "Other income of $388M, less a $24M loss on separate-account assets held for policyholders."
+    }
+  ],
+  "flow": {
+    "revenueM": 17079,
+    "costOfRevenueM": 9003,
+    "grossProfitM": 8076,
+    "opex": [
+      {
+        "name": "Policy acquisition costs",
+        "amountM": 2739,
+        "note": "Commissions and the cost of winning and writing policies."
+      },
+      {
+        "name": "Administrative expenses",
+        "amountM": 1126,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 204,
+        "note": "Interest on Chubb's borrowings."
+      },
+      {
+        "name": "Amortization & integration",
+        "amountM": 85,
+        "note": "Amortization of intangibles bought in acquisitions ($74M) plus integration expenses and severance ($11M)."
+      }
+    ],
+    "operatingIncomeM": 3922,
+    "otherIncomeM": -520,
+    "equityM": 108,
+    "taxM": 666,
+    "netIncomeM": 2844
+  },
+  "otherDetail": "Net realized losses of $455M on investments and $65M of market risk benefits losses, partly offset by $108M of losses attributable to noncontrolling interests (borne by others, not Chubb shareholders) \u2014 a net $412M drag shown in the chart.",
+  "oneTimers": [
+    "Pre-tax catastrophe losses were $705M, versus an unusually light $285M a year ago \u2014 the main reason core operating income fell 2.2% despite growth elsewhere.",
+    "Favorable prior-period development of $511M: reserves set aside for past claims proved more than enough, so $511M flowed back into profit (vs $361M a year ago).",
+    "Net realized losses of $455M on the investment portfolio are included in GAAP net income but excluded from Chubb's headline core operating income of $2,980M ($7.66 per share, non-GAAP)."
+  ],
+  "takeaways": [
+    {
+      "stat": "84.1%",
+      "statColor": "#3d7bc8",
+      "title": "Underwriting stayed disciplined",
+      "text": "The P&C combined ratio of 84.1% means claims and expenses took 84 cents of every premium dollar. Excluding catastrophes, the current-accident-year ratio was 82.6%, and P&C underwriting income was $2.1B."
+    },
+    {
+      "stat": "$1.9B",
+      "statColor": "#3e8e5a",
+      "title": "Investments set a record",
+      "text": "Adjusted net investment income was a record $1.89B (GAAP net investment income $1.79B, +9%), as higher interest rates lift what Chubb earns on premiums held before claims are paid."
+    },
+    {
+      "stat": "$705M",
+      "statColor": "#cf5f4e",
+      "title": "Catastrophes explain the dip",
+      "text": "Catastrophe losses of $705M were 2.5 times last year's light $285M. That is why core operating income eased 2% in the quarter even though the nine-month figure is a record $8.6B, up 21%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/d160822dex991.htm"
+    }
+  ],
+  "footerNote": "Chubb does not print a single total-revenue line that fits this chart: revenue here is premiums earned plus net investment income plus other operating income ($17,079M). Net realized losses and market risk benefits losses are shown below operating income in Other income, and net income is the $2,844M attributable to Chubb (consolidated net income was $2,736M after a $108M loss attributable to noncontrolling interests).",
+  "follow100": [
+    {
+      "label": "Net premiums earned",
+      "amount": 87.38
+    },
+    {
+      "label": "Net investment income",
+      "amount": 10.49
+    },
+    {
+      "label": "Other operating income",
+      "amount": 2.13
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.71
+    },
+    {
+      "label": "Policy acquisition costs",
+      "amount": -16.04
+    },
+    {
+      "label": "Administrative expenses",
+      "amount": -6.59
+    },
+    {
+      "label": "Interest expense",
+      "amount": -1.19
+    },
+    {
+      "label": "Amortization & integration",
+      "amount": -0.5
+    },
+    {
+      "label": "Other income",
+      "amount": -2.41
+    },
+    {
+      "label": "Tax",
+      "amount": -3.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.65
+    }
+  ]
+}

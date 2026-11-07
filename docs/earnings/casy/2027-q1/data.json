@@ -1,0 +1,150 @@
+{
+  "ticker": "CASY",
+  "company": "Casey's",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-08",
+  "verdict": "Casey's revenue jumped 24% to $5.7B as fuel sales surged, and wider fuel and in-store margins turned that into a 28% jump in earnings per share.",
+  "revenueYoY": "+24%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+24%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.37",
+      "note": "vs $5.77 a year ago"
+    },
+    {
+      "label": "Inside gross profit",
+      "value": "$750M",
+      "note": "+6% YoY, at a 42.2% inside margin"
+    },
+    {
+      "label": "Fuel margin",
+      "value": "47.8\u00a2",
+      "note": "per gallon, vs 41.0\u00a2 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Fuel",
+      "amountM": 3724,
+      "yoy": "+36%",
+      "note": "Gasoline and diesel sold at 2,959 stores. Gallons sold rose only 2.5%, so most of the jump is fuel prices \u2014 but the profit per gallon also rose, to 47.8 cents, lifting fuel gross profit 20% to $447M. (Shown $1M lower than the reported $3,725M so the rounded lines add exactly to total revenue.)"
+    },
+    {
+      "name": "Grocery & general merchandise",
+      "amountM": 1285,
+      "yoy": "+5%",
+      "note": "Packaged food, drinks and everyday goods sold inside the store \u2014 same-store sales up 2.7%, led by non-alcoholic beverages, at a 35.6% gross margin."
+    },
+    {
+      "name": "Prepared food & dispensed beverage",
+      "amountM": 493,
+      "yoy": "+7%",
+      "note": "Pizza, sandwiches and drinks made in store \u2014 Casey's is one of America's largest pizza sellers. Same-store sales rose 4.8%, led by whole pizzas, at a rich 59.3% gross margin."
+    },
+    {
+      "name": "Other",
+      "amountM": 176,
+      "yoy": "+18%",
+      "note": "Wholesale fuel, fuel terminals and other smaller activities outside the stores."
+    }
+  ],
+  "flow": {
+    "revenueM": 5678,
+    "costOfRevenueM": 4439,
+    "grossProfitM": 1239,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 754,
+        "note": "Running the stores \u2014 staff, insurance and credit-card fees among the drivers; up 8% YoY with 64 more stores than a year ago."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 116,
+        "note": "Wear and tear on stores, kitchens and equipment, spread over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 369,
+    "otherIncomeM": -22,
+    "taxM": 73,
+    "netIncomeM": 274
+  },
+  "otherDetail": "Interest expense, net of interest income, was $22M \u2014 the cost of Casey's borrowings.",
+  "oneTimers": [],
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Fuel drove the top line",
+      "text": "Total revenue rose 24% to $5,678M, but gallons sold rose just 2.5% \u2014 this was mostly higher fuel prices flowing through the pump price, plus 64 more stores than a year ago."
+    },
+    {
+      "stat": "47.8\u00a2",
+      "statColor": "#3e8e5a",
+      "title": "Margins did the real work",
+      "text": "Fuel margin widened to 47.8 cents a gallon from 41.0 cents, and the inside margin ticked up to 42.2%. Together they lifted gross profit to $1,239M and net income 27% to $274M."
+    },
+    {
+      "stat": "+4.8%",
+      "statColor": "#5b6b7c",
+      "title": "Pizza is still the inside engine",
+      "text": "Prepared food same-store sales rose 4.8%, led by whole pizzas, at a 59.3% gross margin \u2014 the highest-margin food Casey's sells. Inside sales overall grew 5.6% to $1,778M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000084/q1fy2027earningspressrelea.htm"
+    }
+  ],
+  "footerNote": "Casey's reports in thousands; lines here are rounded to whole $M and tie exactly. Fuel segment revenue is shown as $3,724M (reported $3,725M) so the rounded segments sum to total revenue.",
+  "follow100": [
+    {
+      "label": "Fuel",
+      "amount": 65.59
+    },
+    {
+      "label": "Grocery & general merchandise",
+      "amount": 22.63
+    },
+    {
+      "label": "Prepared food & dispensed beverage",
+      "amount": 8.68
+    },
+    {
+      "label": "Other",
+      "amount": 3.1
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -78.18
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -13.28
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.04
+    },
+    {
+      "label": "Other income",
+      "amount": -0.39
+    },
+    {
+      "label": "Tax",
+      "amount": -1.29
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.83
+    }
+  ]
+}

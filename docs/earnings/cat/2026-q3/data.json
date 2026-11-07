@@ -1,0 +1,150 @@
+{
+  "ticker": "CAT",
+  "company": "Caterpillar Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Caterpillar's sales rose 17% to $20.7B on higher equipment volume and prices, and operating profit jumped 38% as those extra sales dropped through at much better margins.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.13",
+      "note": "vs $4.88 a year ago"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$4.2B",
+      "note": "+38% YoY, a 20.4% margin"
+    },
+    {
+      "label": "Power & Energy sales",
+      "value": "$8.8B",
+      "note": "+18% YoY, the largest business"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Machinery, Power & Energy",
+      "amountM": 19654,
+      "yoy": "+18%",
+      "note": "The equipment businesses: Power & Energy $8,784M (+18%), Construction Industries $7,983M (+18%) and Resource Industries (mining) $4,615M (+15%), less corporate items and eliminations. Higher sales volume added $2.2B and better prices $663M."
+    },
+    {
+      "name": "Financial Products",
+      "amountM": 1028,
+      "yoy": "+13%",
+      "note": "Cat Financial \u2014 loans and leases that help customers and dealers buy and rent Caterpillar equipment."
+    }
+  ],
+  "flow": {
+    "revenueM": 20682,
+    "costOfRevenueM": 13332,
+    "grossProfitM": 7350,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1797,
+        "note": "Sales teams, dealers support and running the company \u2014 roughly flat YoY despite 17% sales growth."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 596,
+        "note": "Developing new machines, engines and technology \u2014 up 7% YoY."
+      },
+      {
+        "name": "Interest expense of Financial Products",
+        "amountM": 384,
+        "note": "The funding cost of Cat Financial's loan and lease book \u2014 the finance arm's equivalent of a cost of borrowing."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 359,
+        "note": "Other operating costs, net \u2014 more than double a year ago, partly offset in operating profit by $128M of tariff (IEEPA) recoveries."
+      }
+    ],
+    "operatingIncomeM": 4214,
+    "otherIncomeM": 41,
+    "taxM": 968,
+    "netIncomeM": 3287
+  },
+  "otherDetail": "Other income of $135M, less $129M of interest expense on non-financial debt, plus $34M of equity earnings from affiliated companies and a $1M noncontrolling-interest adjustment \u2014 net +$41M.",
+  "oneTimers": [
+    "Restructuring costs of $41M before tax ($32M after tax, $0.07 per share) are included in GAAP results. Excluding them, adjusted EPS was $7.20 instead of $7.13.",
+    "Operating profit included $128M of IEEPA tariff recoveries \u2014 money back on tariffs previously paid \u2014 which flattered the 20.4% operating margin."
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Volume, not just price",
+      "text": "Sales rose $3.0B to $20.7B. About $2.2B of that was selling more equipment to end users and $663M was higher prices \u2014 demand, led by a record backlog, did most of the work."
+    },
+    {
+      "stat": "20.4%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded sharply",
+      "text": "Operating profit rose 38% to $4,214M and the operating margin widened to 20.4% from 17.3% a year ago, as the extra volume spread fixed costs \u2014 even with higher material and tariff costs in mining."
+    },
+    {
+      "stat": "$2.0B",
+      "statColor": "#5b6b7c",
+      "title": "Cash went back to shareholders",
+      "text": "Caterpillar returned $2.0B in the quarter \u2014 $1.2B of share buybacks and $0.7B of dividends \u2014 and ended the quarter with $7.9B of enterprise cash."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Machinery, Power & Energy",
+      "amount": 95.03
+    },
+    {
+      "label": "Financial Products",
+      "amount": 4.97
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.46
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -8.69
+    },
+    {
+      "label": "Research & development",
+      "amount": -2.88
+    },
+    {
+      "label": "Interest expense of Financial Products",
+      "amount": -1.86
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -1.74
+    },
+    {
+      "label": "Other income",
+      "amount": 0.2
+    },
+    {
+      "label": "Tax",
+      "amount": -4.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.89
+    }
+  ]
+}
