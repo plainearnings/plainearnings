@@ -218,11 +218,11 @@
   svg.addEventListener("click", function () { select("rev"); });
   select("rev");
 
-  /* ---------------- $100 toggle ---------------- */
+  /* ---------------- $100 breakdown (shown by default — user preference, Nov 7 2026) ---------------- */
   var btn = document.getElementById("hundredBtn"), body = document.getElementById("hundredBody");
   if (btn && body) {
-    btn.addEventListener("click", function () {
-      var open = body.classList.toggle("open");
+    var setOpen = function (open) {
+      body.classList.toggle("open", open);
       btn.setAttribute("aria-expanded", open ? "true" : "false");
       btn.textContent = open ? "Hide the $100 breakdown" : "Show the $100 breakdown";
       if (open) {
@@ -234,6 +234,8 @@
       } else {
         body.querySelectorAll(".hfill").forEach(function (f) { f.style.width = "0"; });
       }
-    });
+    };
+    btn.addEventListener("click", function () { setOpen(!body.classList.contains("open")); });
+    setOpen(true);
   }
 })();
