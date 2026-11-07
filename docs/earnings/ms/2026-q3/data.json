@@ -1,0 +1,169 @@
+{
+  "ticker": "MS",
+  "company": "Morgan Stanley",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-14",
+  "revenueYoY": "+12%",
+  "verdict": "Morgan Stanley earned $4.9B as wealth management posted record revenue of $9.1B and Wall Street trading stayed strong \u2014 total revenue rose 12% to $20.3B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$20.3B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.03",
+      "note": "vs $2.80 a year ago"
+    },
+    {
+      "label": "Wealth Management revenue",
+      "value": "$9.1B",
+      "note": "a record, with a 30.4% pre-tax margin"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$148M",
+      "note": "provision for credit losses, on loan growth"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Institutional Securities",
+      "amountM": 10029,
+      "yoy": "+18%",
+      "note": "Trading ($5.6B), investment banking ($2.4B) and lending for big institutions \u2014 the markets business had a strong quarter."
+    },
+    {
+      "name": "Wealth Management",
+      "amountM": 9065,
+      "yoy": "+10%",
+      "note": "Advising wealthy households \u2014 record revenue and a 30.4% pre-tax margin; the steady business Morgan Stanley has spent a decade building."
+    },
+    {
+      "name": "Investment Management",
+      "amountM": 1459,
+      "yoy": "-12%",
+      "note": "Managing funds for institutions and individuals \u2014 the soft spot this quarter."
+    },
+    {
+      "name": "Other",
+      "amountM": -215,
+      "yoy": "",
+      "note": "Corporate and funding items, including higher funding costs \u2014 a negative that brings the segments to total revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 20338,
+    "costOfRevenueM": 148,
+    "grossProfitM": 20190,
+    "opex": [
+      {
+        "name": "Compensation and benefits",
+        "amountM": 7997,
+        "note": "Pay for 80,000+ bankers, traders and advisors \u2014 39% of revenue, the firm's biggest cost."
+      },
+      {
+        "name": "Other non-compensation expenses",
+        "amountM": 2946,
+        "note": "Professional services ($700M), occupancy and equipment ($502M), marketing ($347M) and other costs ($1,397M)."
+      },
+      {
+        "name": "Brokerage, clearing & exchange fees",
+        "amountM": 1467,
+        "note": "The cost of executing and clearing trades."
+      },
+      {
+        "name": "Information processing & communications",
+        "amountM": 1302,
+        "note": "Technology and data \u2014 the firm's systems bill."
+      }
+    ],
+    "operatingIncomeM": 6478,
+    "otherIncomeM": 0,
+    "equityM": -60,
+    "taxM": 1509,
+    "netIncomeM": 4909
+  },
+  "otherDetail": "For a bank, the P&L runs straight from revenue-less-credit-costs-less-expenses to pre-tax income of $6,478M; there is no separate 'other income' block of size.",
+  "follow100": [
+    {
+      "label": "Institutional Securities",
+      "amount": 49.32
+    },
+    {
+      "label": "Wealth Management",
+      "amount": 44.57
+    },
+    {
+      "label": "Investment Management",
+      "amount": 7.17
+    },
+    {
+      "label": "Other",
+      "amount": -1.06
+    },
+    {
+      "label": "Credit costs",
+      "amount": -0.73
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -39.32
+    },
+    {
+      "label": "Other non-compensation",
+      "amount": -14.49
+    },
+    {
+      "label": "Brokerage & clearing",
+      "amount": -7.21
+    },
+    {
+      "label": "Technology & communications",
+      "amount": -6.4
+    },
+    {
+      "label": "Tax",
+      "amount": -7.42
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.13
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$9.1B",
+      "statColor": "#3d7bc8",
+      "title": "Wealth is now half the firm",
+      "text": "Wealth Management set a revenue record at $9.1B with a 30.4% pre-tax margin \u2014 nearly matching the $10.0B from the historically dominant trading and banking side."
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#3e8e5a",
+      "title": "Markets businesses fired",
+      "text": "Institutional Securities revenue rose 18%: trading brought in $5.6B (+12%) and investment banking $2.4B (+4%) as dealmaking recovered."
+    },
+    {
+      "stat": "-12%",
+      "statColor": "#5b6b7c",
+      "title": "Asset management lagged",
+      "text": "Investment Management revenue fell 12% to $1.5B and its pre-tax profit fell to $259M \u2014 the one business moving the wrong way."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm"
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses ($148M) plays the role of cost of revenue. Net income was $4,969M; after $60M to noncontrolling interests, $4,909M was applicable to Morgan Stanley, and after $158M of preferred dividends, $4,751M remained for common shareholders \u2014 the basis for the $3.03 EPS."
+}

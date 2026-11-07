@@ -1,0 +1,152 @@
+{
+  "ticker": "MSI",
+  "company": "Motorola Solutions",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+12%",
+  "verdict": "Motorola Solutions grew sales 12% to $3.4B on public-safety demand, but a $114M 'other charges' line and acquisition costs trimmed GAAP profit 9% to $512M \u2014 its non-GAAP EPS was $4.69.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.4B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.06",
+      "note": "vs $3.33 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$4.69",
+      "note": "excludes other charges, acquisition amortization and stock pay"
+    },
+    {
+      "label": "Products sales",
+      "value": "$2.0B",
+      "note": "+14% YoY \u2014 radios, cameras and networks"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Products",
+      "amountM": 1999,
+      "yoy": "+14%",
+      "note": "Radios, video cameras and the networks behind them \u2014 land mobile radio systems for police, fire and other public-safety users, plus fixed video security."
+    },
+    {
+      "name": "Services",
+      "amountM": 1377,
+      "yoy": "+9%",
+      "note": "Long-term service and software contracts: maintaining radio networks, command-center software and monitoring \u2014 recurring revenue that smooths the hardware cycle."
+    }
+  ],
+  "flow": {
+    "revenueM": 3376,
+    "costOfRevenueM": 1608,
+    "grossProfitM": 1768,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 504,
+        "note": "Selling to governments and enterprises, plus the back office."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 276,
+        "note": "Next-generation radios, cameras and AI-assisted command-center software."
+      },
+      {
+        "name": "Other charges",
+        "amountM": 114,
+        "note": "A net charge this quarter. In recent periods this line has included gains from the Hytera trade-secret litigation (Hytera paid $73M in the first nine months of 2026), alongside legal and other items."
+      },
+      {
+        "name": "Intangibles amortization",
+        "amountM": 97,
+        "note": "Write-down of technology bought in acquisitions \u2014 Motorola buys video and software companies regularly."
+      }
+    ],
+    "operatingIncomeM": 777,
+    "otherIncomeM": -99,
+    "equityM": -2,
+    "taxM": 164,
+    "netIncomeM": 512
+  },
+  "otherDetail": "Net interest expense of $107M, partly offset by $8M of other income.",
+  "follow100": [
+    {
+      "label": "Products",
+      "amount": 59.21
+    },
+    {
+      "label": "Services",
+      "amount": 40.79
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -47.63
+    },
+    {
+      "label": "SG&A",
+      "amount": -14.93
+    },
+    {
+      "label": "Research & development",
+      "amount": -8.17
+    },
+    {
+      "label": "Other charges",
+      "amount": -3.38
+    },
+    {
+      "label": "Intangibles amortization",
+      "amount": -2.87
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -2.93
+    },
+    {
+      "label": "Tax",
+      "amount": -4.86
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.17
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Public safety keeps spending",
+      "text": "Sales rose 12% in both North America and international markets, with acquisition contributions of $211M; management raised full-year guidance to about $13.05B of revenue."
+    },
+    {
+      "stat": "$4.69",
+      "statColor": "#3e8e5a",
+      "title": "The GAAP dip is in the adjustments",
+      "text": "Non-GAAP EPS was $4.69 vs $3.06 GAAP. The $114M of other charges and $97M of acquisition amortization explain most of the gap between the two profit stories."
+    },
+    {
+      "stat": "41%",
+      "statColor": "#5b6b7c",
+      "title": "Services are the ballast",
+      "text": "Services brought in 41% of sales and grew 9% \u2014 multi-year contracts with governments that keep paying regardless of hardware cycles."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000041/msiq32026pressrelease.htm"
+    }
+  ],
+  "footerNote": "This is Motorola Solutions' fiscal Q3 2026 (quarter ended October 3, 2026). The chart's sources are its reported sales split \u2014 products vs services; its reportable segments (Products & Systems Integration, Software & Services) grew 12% and 13% respectively."
+}

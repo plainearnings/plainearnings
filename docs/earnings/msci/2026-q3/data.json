@@ -1,0 +1,177 @@
+{
+  "ticker": "MSCI",
+  "company": "MSCI",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+12%",
+  "verdict": "MSCI's revenue rose 12% to $892M as rising markets lifted the fees it earns on index-linked funds, and it kept $351M of it \u2014 a 39-cent profit on every dollar.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$892M",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.86",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "Operating margin",
+      "value": "56.3%",
+      "note": "among the highest of any large public company"
+    },
+    {
+      "label": "Index revenue",
+      "value": "$533M",
+      "note": "+18% \u2014 asset-based fees rode the market rally"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Index",
+      "amountM": 532,
+      "yoy": "+18%",
+      "note": "Licensing stock and bond indexes (the MSCI World and Emerging Markets benchmarks) to fund managers. Much of the fee floats with the value of assets in index funds \u2014 so a rising market raises MSCI's revenue automatically."
+    },
+    {
+      "name": "Analytics",
+      "amountM": 191,
+      "yoy": "+5%",
+      "note": "Risk and portfolio analytics subscriptions sold to asset managers and banks."
+    },
+    {
+      "name": "ESG & Climate",
+      "amountM": 94,
+      "yoy": "+4%",
+      "note": "Sustainability ratings and climate data for investors."
+    },
+    {
+      "name": "All Other \u2014 Private Assets",
+      "amountM": 75,
+      "yoy": "+7%",
+      "note": "Data and analytics for private markets \u2014 real estate, private equity and infrastructure."
+    }
+  ],
+  "flow": {
+    "revenueM": 892,
+    "costOfRevenueM": 152,
+    "grossProfitM": 740,
+    "opex": [
+      {
+        "name": "Selling and marketing",
+        "amountM": 90,
+        "note": "Selling subscriptions and index licenses worldwide."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 48,
+        "note": "Back office and corporate costs."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 48,
+        "note": "Building indexes, models and data products."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 45,
+        "note": "Write-down of assets bought in past acquisitions."
+      },
+      {
+        "name": "Depreciation & other amortization",
+        "amountM": 7,
+        "note": "Wearing-out cost of equipment and offices."
+      }
+    ],
+    "operatingIncomeM": 502,
+    "otherIncomeM": -74,
+    "taxM": 77,
+    "netIncomeM": 351
+  },
+  "otherDetail": "Interest expense of $75M on MSCI's debt, less $3M of interest income, plus $2M of other expense.",
+  "follow100": [
+    {
+      "label": "Index",
+      "amount": 59.64
+    },
+    {
+      "label": "Analytics",
+      "amount": 21.41
+    },
+    {
+      "label": "ESG & Climate",
+      "amount": 10.54
+    },
+    {
+      "label": "Private Assets",
+      "amount": 8.41
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -17.04
+    },
+    {
+      "label": "Selling & marketing",
+      "amount": -10.09
+    },
+    {
+      "label": "General & administrative",
+      "amount": -5.38
+    },
+    {
+      "label": "Research & development",
+      "amount": -5.38
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -5.04
+    },
+    {
+      "label": "Depreciation",
+      "amount": -0.78
+    },
+    {
+      "label": "Other expense (mostly interest)",
+      "amount": -8.3
+    },
+    {
+      "label": "Tax",
+      "amount": -8.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.35
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "The market does MSCI's selling",
+      "text": "Index revenue jumped 18%: $49M of the quarter's $99M revenue increase came from asset-based fees, which rise automatically when markets lift the value of index-tracking funds."
+    },
+    {
+      "stat": "56.3%",
+      "statColor": "#3e8e5a",
+      "title": "A toll-booth margin",
+      "text": "Once an index or dataset exists, serving one more customer costs little \u2014 hence a 56.3% operating margin and $39 of every $100 kept as profit after interest and tax."
+    },
+    {
+      "stat": "-6%",
+      "statColor": "#5b6b7c",
+      "title": "Buybacks shrink the share count",
+      "text": "Diluted shares fell to 72.3M from 76.6M a year ago \u2014 buybacks are why EPS grew 14% on 8% net income growth."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000054/exhibit991earningsrelease-.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M from the release's one-decimal presentation, with $1M of rounding absorbed in Index segment revenue."
+}

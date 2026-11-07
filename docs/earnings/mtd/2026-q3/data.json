@@ -1,0 +1,138 @@
+{
+  "ticker": "MTD",
+  "company": "Mettler Toledo",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+6%",
+  "verdict": "Mettler Toledo's sales rose 6% to $1.1B \u2014 Asia grew 16% \u2014 and profit rose 13% to $246M as demand for its precision instruments firmed up.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.1B",
+      "note": "+6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$12.29",
+      "note": "+16% YoY \u2014 few shares, high price per share"
+    },
+    {
+      "label": "Gross margin",
+      "value": "59.8%",
+      "note": "vs 59.2% a year ago"
+    },
+    {
+      "label": "Asia / Rest of World sales",
+      "value": "+16%",
+      "note": "the growth engine this quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Precision instruments & services",
+      "amountM": 1094,
+      "yoy": "+6%",
+      "note": "Laboratory balances and pipettes, industrial weighing, product-inspection systems and supermarket scales, plus services. Mettler reports as one business; by region, sales rose 3% in the Americas, were flat in Europe and rose 16% in Asia/Rest of World."
+    }
+  ],
+  "flow": {
+    "revenueM": 1094,
+    "costOfRevenueM": 440,
+    "grossProfitM": 654,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 267,
+        "note": "A direct sales and service force in dozens of countries \u2014 Mettler's distribution model is its moat."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 54,
+        "note": "Next-generation instruments and software."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 19,
+        "note": "Write-down of intangibles from acquisitions."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 4,
+        "note": "Small restructuring program charges."
+      }
+    ],
+    "operatingIncomeM": 310,
+    "otherIncomeM": -10,
+    "taxM": 54,
+    "netIncomeM": 246
+  },
+  "otherDetail": "Interest expense of $16M, partly offset by $6M of other income, net.",
+  "follow100": [
+    {
+      "label": "Precision instruments & services",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -40.22
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.41
+    },
+    {
+      "label": "Research & development",
+      "amount": -4.94
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.74
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.37
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.91
+    },
+    {
+      "label": "Tax",
+      "amount": -4.94
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.49
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Asia is pulling the growth",
+      "text": "Sales rose 16% in Asia/Rest of World versus 3% in the Americas and flat Europe \u2014 demand for lab and industrial instruments is recovering fastest outside the West."
+    },
+    {
+      "stat": "59.8%",
+      "statColor": "#3e8e5a",
+      "title": "Pricing power in precision",
+      "text": "Gross margin widened to 59.8% \u2014 customers pay up for instruments that labs and factories depend on for accuracy, and Mettler's service army keeps them loyal."
+    },
+    {
+      "stat": "$12.29",
+      "statColor": "#5b6b7c",
+      "title": "Big EPS, tiny share count",
+      "text": "EPS rose 16% \u2014 faster than the 13% profit growth \u2014 because decades of buybacks have shrunk the share count to about 20 million."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000072/ex-991mtd8xkq32026.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to $M from the release's thousands presentation. Mettler's adjusted operating profit was $333.5M, excluding restructuring and the other items it adjusts for; the chart follows its GAAP statement, in which interest expense sits below gross profit alongside the operating lines."
+}

@@ -1,0 +1,126 @@
+{
+  "ticker": "MTB",
+  "company": "M&T Bank",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-16",
+  "revenueYoY": "+1%",
+  "verdict": "M&T Bank earned $775M \u2014 profit slipped 2% from a year ago as it set aside a bit more for possible loan losses, while its core lending income held steady.",
+  "kpis": [
+    {
+      "label": "Net income",
+      "value": "$775M",
+      "note": "vs $792M a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$5.04",
+      "note": "on income available to common shareholders of $732M"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$1.8B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$135M",
+      "note": "provision for credit losses, vs $125M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 1793,
+      "yoy": "+2%",
+      "note": "Interest on loans minus what M&T pays depositors \u2014 the core earnings engine of a regional bank."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 743,
+      "yoy": "-1%",
+      "note": "Mortgage banking, trust and service charges, card fees and other fee income."
+    }
+  ],
+  "flow": {
+    "revenueM": 2536,
+    "costOfRevenueM": 135,
+    "grossProfitM": 2401,
+    "opex": [
+      {
+        "name": "Salaries and employee benefits",
+        "amountM": 832,
+        "note": "Pay for the bank's branch, lending and operations staff \u2014 its biggest cost."
+      },
+      {
+        "name": "Other noninterest expense",
+        "amountM": 561,
+        "note": "Technology and data processing, professional services, occupancy, FDIC assessments and everything else."
+      }
+    ],
+    "operatingIncomeM": 1008,
+    "otherIncomeM": 0,
+    "equityM": 0,
+    "taxM": 233,
+    "netIncomeM": 775
+  },
+  "otherDetail": "A bank's statement runs straight from revenue, credit costs and expenses to pre-tax income of $1,008M.",
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 70.7
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 29.3
+    },
+    {
+      "label": "Credit costs",
+      "amount": -5.32
+    },
+    {
+      "label": "Salaries & benefits",
+      "amount": -32.81
+    },
+    {
+      "label": "Other noninterest expense",
+      "amount": -22.12
+    },
+    {
+      "label": "Tax",
+      "amount": -9.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.56
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+2%",
+      "statColor": "#3d7bc8",
+      "title": "The core engine is steady",
+      "text": "Net interest income rose 2% to $1.8B \u2014 loan and deposit balances are growing slowly, and the taxable-equivalent margin held up."
+    },
+    {
+      "stat": "$135M",
+      "statColor": "#3e8e5a",
+      "title": "Credit is a watch item, not a problem",
+      "text": "The provision for credit losses rose to $135M from $125M a year ago \u2014 a modest build as the loan book grows, and the main reason profit dipped despite steady revenue."
+    },
+    {
+      "stat": "$5.04",
+      "statColor": "#5b6b7c",
+      "title": "EPS held up better than profit",
+      "text": "Diluted EPS was $5.04 on $732M available to common shareholders; buybacks keep shrinking the share count, cushioning small profit declines."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm"
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses plays the role of cost of revenue. Net income was $775M; after preferred dividends, $732M was available to common shareholders. M&T reports revenue on a taxable-equivalent basis of $1,805M for net interest income in some tables; this page uses the GAAP figures."
+}
