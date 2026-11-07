@@ -1,0 +1,127 @@
+{
+  "ticker": "AME",
+  "company": "Ametek",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+17%",
+  "verdict": "Ametek's sales rose 17% to a record $2.22B and profit set a record too, as both of its instrument businesses grew at double-digit rates and recent acquisitions chipped in.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.22B",
+      "note": "+17% YoY \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.85",
+      "note": "Record; adjusted EPS was $2.21, up 17%"
+    },
+    {
+      "label": "Operating margin",
+      "value": "26.3%",
+      "note": "Operating income hit a record $585M"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$561M",
+      "note": "Up 27%; free cash flow was 124% of net income"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Electronic Instruments (EIG)",
+      "shortName": "Electronic Instruments",
+      "amountM": 1442,
+      "yoy": "+16%",
+      "note": "Precision instruments for aerospace, power, industrial and research markets \u2014 a record $1.44B, up 16%, helped by acquisitions."
+    },
+    {
+      "name": "Electromechanical (EMG)",
+      "shortName": "Electromechanical",
+      "amountM": 778,
+      "note": "Motors, pumps, interconnects and engineered materials \u2014 a record $778M in the quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 2220,
+    "costOfRevenueM": 1410,
+    "grossProfitM": 810,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 225,
+        "note": "Selling products and running the company \u2014 kept to about a tenth of sales."
+      }
+    ],
+    "operatingIncomeM": 585,
+    "otherIncomeM": -63,
+    "taxM": 96,
+    "netIncomeM": 426
+  },
+  "otherDetail": "Interest and other non-operating items cost $63M, net \u2014 mostly interest on Ametek's debt.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter, and guidance raised",
+      "text": "Sales rose 17% to a record $2.22B and GAAP profit rose to a record $426M. Management raised its full-year outlook after the strong quarter, citing broad-based organic growth plus contributions from recent acquisitions."
+    },
+    {
+      "stat": "$1.44B",
+      "statColor": "#3d7bc8",
+      "title": "Electronic Instruments did the heavy lifting",
+      "text": "EIG sales rose 16% to a record $1.44B with segment operating income of $407M. During the quarter Ametek also closed its acquisition of Indicor Instrumentation, adding another group of industrial technology businesses."
+    },
+    {
+      "stat": "124%",
+      "statColor": "#3e8e5a",
+      "title": "Profit turned into cash, and then some",
+      "text": "Operating cash flow rose 27% to $561M, and free cash flow (cash left after buying equipment) equaled 124% of net income \u2014 the company collected more cash than its accounting profit, a sign of disciplined working capital."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results add back $0.36 per share of acquisition-related intangible amortization and deal/integration costs, taking adjusted EPS to $2.21 versus the $1.85 GAAP figure \u2014 the business itself was not changed by these items."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000194/ametek8kexhibit99111032026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000196/ame-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Electronic Instruments",
+      "amount": 64.95
+    },
+    {
+      "label": "Electromechanical",
+      "amount": 35.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -63.51
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -10.14
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.84
+    },
+    {
+      "label": "Tax",
+      "amount": -4.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.19
+    }
+  ]
+}

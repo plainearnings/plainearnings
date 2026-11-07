@@ -1,0 +1,177 @@
+{
+  "ticker": "AON",
+  "company": "Aon plc",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+3%",
+  "verdict": "Aon's revenue grew 3% to $4.1B \u2014 6% once divestitures are stripped out \u2014 as risk advice boomed, while heavy spending on its growth program held reported operating profit flat at $809M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.1B",
+      "note": "+3% YoY; organic growth was +6%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.23",
+      "note": "Up 6%; adjusted EPS was $3.36, up 10%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$809M",
+      "note": "Adjusted operating income was $1,106M"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1,097M",
+      "note": "Cash provided by operations was $1,191M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial Risk Solutions",
+      "shortName": "Commercial Risk",
+      "amountM": 2110,
+      "yoy": "+6%",
+      "note": "Insurance brokerage and risk advice for companies \u2014 Aon's biggest business, up 6% on new business and strong retention."
+    },
+    {
+      "name": "Health Solutions",
+      "amountM": 992,
+      "yoy": "+6%",
+      "note": "Employee health-benefits advice and administration, up 6%."
+    },
+    {
+      "name": "Reinsurance Solutions",
+      "shortName": "Reinsurance",
+      "amountM": 572,
+      "yoy": "+7%",
+      "note": "Helping insurers themselves buy insurance (reinsurance) and manage risk \u2014 up 7%."
+    },
+    {
+      "name": "Wealth Solutions",
+      "shortName": "Wealth",
+      "amountM": 427,
+      "yoy": "-21%",
+      "note": "Retirement and investment advice. Down 21%, mostly because Aon sold the NFP Wealth business (shown here net of $2M of eliminations)."
+    }
+  ],
+  "flow": {
+    "revenueM": 4101,
+    "costOfRevenueM": 2275,
+    "grossProfitM": 1826,
+    "opex": [
+      {
+        "name": "Other general expense",
+        "amountM": 461,
+        "note": "Outside services, professional fees and other running costs."
+      },
+      {
+        "name": "Technology, premises & depreciation",
+        "amountM": 288,
+        "note": "IT ($156M), offices ($83M) and depreciation of equipment ($49M)."
+      },
+      {
+        "name": "Amortization & impairment",
+        "amountM": 175,
+        "note": "Writing down the value of past acquisitions over time (a non-cash charge)."
+      },
+      {
+        "name": "Accelerating Aon United program",
+        "amountM": 93,
+        "note": "The cost of Aon's multi-year restructuring and growth program \u2014 up from $32M a year ago."
+      }
+    ],
+    "operatingIncomeM": 809,
+    "otherIncomeM": -197,
+    "taxM": 126,
+    "netIncomeM": 486
+  },
+  "otherDetail": "Interest expense on Aon's debt and other non-operating items cost $197M, net.",
+  "footerNote": "Aon reports no cost-of-revenue line; following professional-services practice, the chart treats compensation and benefits ($2,275M \u2014 the people who deliver the service) as the direct cost. Net income of $486M includes $10M attributable to noncontrolling interests; $476M was attributable to Aon shareholders.",
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying growth is stronger than the headline",
+      "text": "Reported revenue rose 3% to $4.1B, but that is after losing revenue from sold businesses. Organic growth \u2014 the same business, like for like \u2014 was 6%, led by Commercial Risk (+7% organic) on new business wins and high retention."
+    },
+    {
+      "stat": "$93M",
+      "statColor": "#cf5f4e",
+      "title": "A growth program is eating reported profit",
+      "text": "Operating income was flat at $809M even though revenue grew, because spending on the Accelerating Aon United program nearly tripled to $93M. Excluding that program and acquisition amortization, adjusted operating income rose 5% to $1,106M."
+    },
+    {
+      "stat": "-21%",
+      "statColor": "#5b6b7c",
+      "title": "Wealth shrank after a business sale",
+      "text": "Wealth Solutions revenue fell 21% to $429M, almost entirely because Aon sold NFP's wealth business. The flip side: the sales recycle cash into Aon's faster-growing risk and health franchises."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses include $93M for the Accelerating Aon United restructuring program (vs $32M a year ago) and $175M of amortization and impairment of acquisition intangibles. Aon's adjusted EPS of $3.36 excludes these items."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/315293/000162828026067714/ex991prq32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/315293/000162828026067879/aon-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Commercial Risk",
+      "amount": 51.45
+    },
+    {
+      "label": "Health Solutions",
+      "amount": 24.19
+    },
+    {
+      "label": "Reinsurance",
+      "amount": 13.95
+    },
+    {
+      "label": "Wealth",
+      "amount": 10.41
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -55.47
+    },
+    {
+      "label": "Other general expense",
+      "amount": -11.24
+    },
+    {
+      "label": "Technology, premises & depreciation",
+      "amount": -7.02
+    },
+    {
+      "label": "Amortization & impairment",
+      "amount": -4.27
+    },
+    {
+      "label": "Accelerating Aon United program",
+      "amount": -2.27
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.8
+    },
+    {
+      "label": "Tax",
+      "amount": -3.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.85
+    }
+  ]
+}

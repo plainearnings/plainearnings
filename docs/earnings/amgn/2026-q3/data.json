@@ -1,0 +1,144 @@
+{
+  "ticker": "AMGN",
+  "company": "Amgen",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+8%",
+  "verdict": "Amgen's revenue rose 8% to $10.4B as more patients used its medicines, and a $1.5B paper gain on its investment stakes helped lift net income to $3.9B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$10.4B",
+      "note": "+8% YoY, driven by 8% volume growth"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$7.08",
+      "note": "vs $5.93 a year ago; non-GAAP was $6.45"
+    },
+    {
+      "label": "Product sales",
+      "value": "$9.9B",
+      "note": "+8% YoY \u2014 the medicines themselves"
+    },
+    {
+      "label": "Equity-investment gains",
+      "value": "$1.5B",
+      "note": "Paper gains inside other income \u2014 not from selling medicines"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product sales",
+      "amountM": 9883,
+      "yoy": "+8%",
+      "note": "Sales of Amgen's medicines \u2014 brands such as Repatha, Prolia, Evenity and Tepezza \u2014 up 8% on higher volumes."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 482,
+      "yoy": "+15%",
+      "note": "Royalties and other partnership income, up 15%."
+    }
+  ],
+  "flow": {
+    "revenueM": 10365,
+    "costOfRevenueM": 2788,
+    "grossProfitM": 7577,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2111,
+        "note": "Developing new medicines and running clinical trials \u2014 up 11% as the pipeline expanded."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1680,
+        "note": "Selling medicines and running the company."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 76,
+        "note": "Smaller operating items, down sharply from $329M a year ago."
+      }
+    ],
+    "operatingIncomeM": 3710,
+    "otherIncomeM": 976,
+    "taxM": 822,
+    "netIncomeM": 3864
+  },
+  "otherDetail": "Other income, net of $1,629M \u2014 including $1,465M of gains on equity investments Amgen holds \u2014 less $653M of net interest expense.",
+  "takeaways": [
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Volume, not price, drove growth",
+      "text": "Total revenue rose 8% to $10.4B, and product sales rose 8% entirely on volume \u2014 more prescriptions and patients \u2014 rather than price rises. Cost of sales actually fell 10% as the product mix improved."
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain flattered the bottom line",
+      "text": "Net income jumped 20% to $3.9B, but $1,465M of it came from mark-to-market gains on equity investments Amgen owns, booked in other income. On the company's non-GAAP view, which strips those out, earnings were $3.5B."
+    },
+    {
+      "stat": "$2.1B",
+      "statColor": "#cf5f4e",
+      "title": "Research spending keeps climbing",
+      "text": "R&D rose 11% to $2.1B as Amgen funds late-stage trials, including its closely watched weight-loss program. SG&A was roughly flat, so most of the quarter's extra revenue dropped through to operating income, up 47%."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes $1,465M of net gains from equity investments \u2014 paper (non-cash) gains from marking Amgen's stakes in partner companies to market value. They can reverse in any quarter; Amgen's non-GAAP results exclude them."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000153/amgn-20260930earningsrelea.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000155/amgn-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product sales",
+      "amount": 95.35
+    },
+    {
+      "label": "Other revenues",
+      "amount": 4.65
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.9
+    },
+    {
+      "label": "Research & development",
+      "amount": -20.37
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -16.21
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.73
+    },
+    {
+      "label": "Other income",
+      "amount": 9.42
+    },
+    {
+      "label": "Tax",
+      "amount": -7.93
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 37.28
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "ticker": "ANET",
+  "company": "Arista Networks",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+58%",
+  "verdict": "Arista's revenue jumped 58% to $3.66B \u2014 its fastest growth since its IPO \u2014 as builders of AI data centers bought its networking gear at a record pace.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.66B",
+      "note": "+58% YoY \u2014 the fastest growth since its IPO"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.22",
+      "note": "vs $0.67 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "63.6%",
+      "note": "Slightly below last year's 64.6% on product mix"
+    },
+    {
+      "label": "Operating margin",
+      "value": "44.9%",
+      "note": "Operating income of $1.64B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 3190,
+      "yoy": "+67%",
+      "note": "Switches and routers for data centers \u2014 the hardware AI clusters use to move data between servers. Up 67%."
+    },
+    {
+      "name": "Service",
+      "amountM": 468,
+      "yoy": "+18%",
+      "note": "Support and service contracts on installed gear \u2014 steadier, recurring revenue, up 18%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3658,
+    "costOfRevenueM": 1332,
+    "grossProfitM": 2326,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 487,
+        "note": "Designing the next switches and the CloudVision software that runs them."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 157,
+        "note": "Selling to cloud giants and large enterprises."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 40,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 1642,
+    "otherIncomeM": 273,
+    "taxM": 355,
+    "netIncomeM": 1560
+  },
+  "otherDetail": "Interest income on Arista's cash pile plus gains on strategic investments of $135M, less other items \u2014 $273M, net.",
+  "takeaways": [
+    {
+      "stat": "+58%",
+      "statColor": "#3d7bc8",
+      "title": "AI spending is Arista's rocket fuel",
+      "text": "Revenue grew 58.5% to $3.66B, beating the company's own $3.3B guidance. Product revenue \u2014 the switches and routers that connect AI servers \u2014 rose 67%, as cloud and AI customers raced to build out data centers."
+    },
+    {
+      "stat": "44.9%",
+      "statColor": "#3e8e5a",
+      "title": "Growth barely dented profitability",
+      "text": "Even while spending to keep up with demand, Arista kept a 63.6% gross margin and turned 44.9 cents of every revenue dollar into operating profit. Net income nearly doubled to $1.56B."
+    },
+    {
+      "stat": "$135M",
+      "statColor": "#5b6b7c",
+      "title": "Investment gains added a bonus",
+      "text": "Other income of $273M included about $135M of gains on strategic investments, on top of interest earned on cash. It is a helpful extra, but the core story is the product business, which produced most of the profit."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes roughly $135M of gains on strategic investments (paper gains on stakes Arista holds). Arista's non-GAAP results exclude them; non-GAAP operating income was $1,796M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/ex991q326-earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 87.21
+    },
+    {
+      "label": "Service",
+      "amount": 12.79
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -36.41
+    },
+    {
+      "label": "Research & development",
+      "amount": -13.31
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -4.29
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.09
+    },
+    {
+      "label": "Other income",
+      "amount": 7.46
+    },
+    {
+      "label": "Tax",
+      "amount": -9.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 42.65
+    }
+  ]
+}
