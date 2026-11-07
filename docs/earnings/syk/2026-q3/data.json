@@ -1,0 +1,149 @@
+{
+  "ticker": "SYK",
+  "company": "Stryker",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Stryker's sales rose 8% to $6.5B on strong MedSurg growth, but a $293M goodwill impairment cut reported EPS 12% to $1.96 \u2014 excluding that and similar items, adjusted EPS rose 10% to $3.52.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "net sales of $6,520M, +7.7% reported and organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.96",
+      "note": "diluted, vs $2.22 a year ago; adjusted EPS was $3.52"
+    },
+    {
+      "label": "MedSurg & Neurotechnology sales",
+      "value": "$3,664M",
+      "note": "+9% vs a year ago, 56% of total sales"
+    },
+    {
+      "label": "Goodwill impairment",
+      "value": "$293M",
+      "note": "one-off charge, vs no goodwill impairment a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "MedSurg and Neurotechnology",
+      "amountM": 3664,
+      "yoy": "+9%",
+      "note": "Surgical instruments, endoscopy, medical beds and neurotechnology \u2014 sales rose 9.2%, led by Endoscopy (+14%) and Medical (+10%), with growth driven by higher unit volume."
+    },
+    {
+      "name": "Orthopaedics",
+      "amountM": 2856,
+      "yoy": "+6%",
+      "note": "Knee and hip implants, trauma products and orthopaedic technology \u2014 sales rose 5.7%, with Ortho Tech up 16% partly offset by slower implant growth."
+    }
+  ],
+  "flow": {
+    "revenueM": 6520,
+    "costOfRevenueM": 2272,
+    "grossProfitM": 4248,
+    "opex": [
+      {
+        "name": "R&D",
+        "amountM": 433,
+        "note": "Research, development and engineering \u2014 up 6% vs a year ago."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 2313,
+        "note": "Selling, general and administrative expenses \u2014 up 13% vs a year ago."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 175,
+        "note": "Amortization of purchased intangible assets from past acquisitions."
+      },
+      {
+        "name": "Goodwill & other impairments",
+        "amountM": 293,
+        "note": "A $293M goodwill impairment charge \u2014 the single biggest reason reported profit fell."
+      }
+    ],
+    "operatingIncomeM": 1034,
+    "otherIncomeM": -37,
+    "taxM": 244,
+    "netIncomeM": 753
+  },
+  "follow100": [
+    {
+      "label": "MedSurg and Neurotechnology",
+      "amount": 56.2
+    },
+    {
+      "label": "Orthopaedics",
+      "amount": 43.8
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -34.85
+    },
+    {
+      "label": "R&D",
+      "amount": -6.64
+    },
+    {
+      "label": "SG&A",
+      "amount": -35.48
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.68
+    },
+    {
+      "label": "Goodwill & other impairments",
+      "amount": -4.49
+    },
+    {
+      "label": "Other income",
+      "amount": -0.57
+    },
+    {
+      "label": "Tax",
+      "amount": -3.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.55
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.7%",
+      "statColor": "#3d7bc8",
+      "title": "Volume drove sales growth",
+      "text": "Organic net sales rose 7.7%, driven by unit volume. MedSurg and Neurotechnology grew 9.2% to $3,664M while Orthopaedics grew 5.7% to $2,856M \u2014 good performance, management said, but short of its own expectations."
+    },
+    {
+      "stat": "$293M",
+      "statColor": "#b8443c",
+      "title": "Impairment cut reported EPS",
+      "text": "A $293M goodwill impairment (plus $153M of structural optimization and other special charges in the adjusted reconciliation) pushed reported operating margin down to 15.9% and EPS down 12% to $1.96, even as adjusted EPS rose 10% to $3.52."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#5b6b7c",
+      "title": "A billion back to shareholders",
+      "text": "Stryker repurchased $1.0B of its own stock in the quarter, and in October the board added another $3.0B to the buyback program. Full-year guidance is now 6.5\u20137.0% organic sales growth and adjusted EPS of $14.80\u2013$14.90."
+    }
+  ],
+  "oneTimers": [
+    "$293M goodwill impairment charge in the quarter (the reconciliation specifies the full $293M was goodwill).",
+    "Structural optimization and other special charges added a further $153M operating-income adjustment in the company's adjusted reconciliation, including $77M related to the Spinal Implants sale and $37M for terminating sales relationships in certain countries."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/310764/000031076426000059/sykex991earningsq32026.htm"
+    }
+  ]
+}

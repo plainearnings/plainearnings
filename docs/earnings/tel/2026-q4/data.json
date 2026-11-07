@@ -1,0 +1,161 @@
+{
+  "ticker": "TEL",
+  "company": "TE Connectivity",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-25",
+  "reportedDate": "2026-10-28",
+  "verdict": "TE Connectivity closed its fiscal year with record sales of $5.3B, up 12%, and EPS up 39% to $3.10, as AI data-center demand drove its Industrial business up 20%.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago; +13% organically"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.10",
+      "note": "from continuing operations, vs $2.23 a year ago"
+    },
+    {
+      "label": "Industrial Solutions sales",
+      "value": "$2.8B",
+      "note": "+20% vs a year ago, on AI data-center demand"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.2B",
+      "note": "$1,241M \u2014 operating cash flow of $1,528M minus $287M of net capital spending (money spent on buildings and equipment)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transportation Solutions",
+      "amountM": 2600,
+      "yoy": "+8%",
+      "note": "Connectors and sensors for cars, trucks and other vehicles \u2014 sales rose 7.7% to a record level as electric and data-heavy vehicles need more connections."
+    },
+    {
+      "name": "Industrial Solutions",
+      "amountM": 2799,
+      "yoy": "+20%",
+      "note": "Connectors for factories, energy and data centers \u2014 sales jumped 19.8%, powered by AI data-center demand from inside the rack out to the power grid."
+    },
+    {
+      "name": "Tariff refunds to be returned",
+      "amountM": -87,
+      "yoy": "",
+      "note": "A reconciling item, not a business: $87M of IEEPA tariff refunds TE received in fiscal 2026 that it expects to hand back to customers, so it is deducted from sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 5312,
+    "costOfRevenueM": 3425,
+    "grossProfitM": 1887,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 518,
+        "note": "Selling, general and administrative costs \u2014 up 4.9% as the business grew."
+      },
+      {
+        "name": "R&D",
+        "amountM": 250,
+        "note": "Research, development and engineering on new connectors and sensors \u2014 up 10%."
+      },
+      {
+        "name": "Acquisition & integration",
+        "amountM": 12,
+        "note": "Costs of buying and integrating smaller businesses."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 14,
+        "note": "Restructuring and other charges, net \u2014 severance and footprint changes."
+      }
+    ],
+    "operatingIncomeM": 1093,
+    "otherIncomeM": -17,
+    "taxM": 175,
+    "netIncomeM": 901
+  },
+  "follow100": [
+    {
+      "label": "Transportation Solutions",
+      "amount": 48.95
+    },
+    {
+      "label": "Industrial Solutions",
+      "amount": 52.69
+    },
+    {
+      "label": "Tariff refunds to be returned",
+      "amount": -1.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.48
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.75
+    },
+    {
+      "label": "R&D",
+      "amount": -4.71
+    },
+    {
+      "label": "Acquisition & integration",
+      "amount": -0.23
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.26
+    },
+    {
+      "label": "Other income",
+      "amount": -0.32
+    },
+    {
+      "label": "Tax",
+      "amount": -3.29
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "AI demand powers Industrial",
+      "text": "Industrial Solutions sales rose 19.8% to $2,799M \u2014 now the larger segment \u2014 as customers building AI data centers bought more power and data connectivity, from inside the rack to the energy grid."
+    },
+    {
+      "stat": "$6.1B",
+      "statColor": "#3e8e5a",
+      "title": "Orders point to more growth",
+      "text": "Orders hit $6.1B in the quarter, up 29% year over year, and TE guides for mid-teens sales growth and over 20% EPS growth in the first quarter of fiscal 2027."
+    },
+    {
+      "stat": "$87M",
+      "statColor": "#5b6b7c",
+      "title": "Tariff refunds will go back to customers",
+      "text": "Reported sales are after an $87M deduction for IEEPA tariff refunds TE received during fiscal 2026 that it expects to return to customers \u2014 a one-off reconciling item, not lost business."
+    }
+  ],
+  "oneTimers": [
+    "$87M of IEEPA tariff refunds received in fiscal 2026, deducted from sales as a reconciling item because TE expects to return them to customers.",
+    "$14M of restructuring charges and $12M of acquisition and integration costs inside operating expenses."
+  ],
+  "otherDetail": "Other income of -$17M is $23M of interest income, minus $31M of interest expense and $9M of other expense, net.",
+  "footerNote": "This page models continuing operations: income from continuing operations was $901M, and after a $1M loss from discontinued operations, total net income was $900M (diluted EPS $3.09 on that basis, $3.10 from continuing operations). TE's fiscal year ends in late September, so this closes fiscal 2026 \u2014 full-year sales were a record $19.9B.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926119326/tel-ex99d1.htm"
+    }
+  ]
+}

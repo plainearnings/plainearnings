@@ -1,0 +1,162 @@
+{
+  "ticker": "SWK",
+  "company": "Stanley Black & Decker",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-11-04",
+  "verdict": "Stanley Black & Decker's sales dipped 1% (up 4% organically), but EPS jumped to $1.83 from $0.34 \u2014 flattered by net tariff refunds worth about $0.67 a share that also added roughly 430 basis points to gross margin.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-1%",
+      "note": "net sales of $3,732M; up 4% on an organic basis"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.83",
+      "note": "vs $0.34 a year ago; includes ~$0.67 of net tariff refunds"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$585M",
+      "note": "$659M of operating cash flow minus $74M of capital and software spending"
+    },
+    {
+      "label": "Tools & Outdoor sales",
+      "value": "$3,336M",
+      "note": "+2% vs a year ago, 89% of total sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Tools & Outdoor",
+      "amountM": 3336,
+      "yoy": "+2%",
+      "note": "DEWALT, CRAFTSMAN, STANLEY and BLACK+DECKER tools and outdoor products \u2014 sales rose 2% (up 4% organically) on 7% higher volume, with segment profit of $569M."
+    },
+    {
+      "name": "Engineered Fastening",
+      "amountM": 396,
+      "yoy": "-21%",
+      "note": "Industrial fasteners \u2014 sales fell 21%, almost entirely because of the CAM divestiture (-22%); organically sales rose 2%, and segment profit was $46M."
+    }
+  ],
+  "flow": {
+    "revenueM": 3732,
+    "costOfRevenueM": 2278,
+    "grossProfitM": 1454,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 905,
+        "note": "Selling, general and administrative expenses \u2014 24.2% of sales, up from 21.1%, including incentive pay and growth investments tied to the tariff refunds."
+      },
+      {
+        "name": "Other expense",
+        "amountM": 64,
+        "note": "Other costs, net, as reported below gross profit."
+      },
+      {
+        "name": "Loss on sales of businesses",
+        "amountM": 20,
+        "note": "A $20.4M loss on the sale of a small business in the Engineered Fastening segment."
+      },
+      {
+        "name": "Asset impairment",
+        "amountM": 20,
+        "note": "Non-cash asset impairment charges of $19.7M."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 30,
+        "note": "Restructuring charges of $29.5M for footprint and cost actions."
+      }
+    ],
+    "operatingIncomeM": 415,
+    "otherIncomeM": -57,
+    "taxM": 86,
+    "netIncomeM": 272
+  },
+  "follow100": [
+    {
+      "label": "Tools & Outdoor",
+      "amount": 89.39
+    },
+    {
+      "label": "Engineered Fastening",
+      "amount": 10.61
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.04
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.25
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.71
+    },
+    {
+      "label": "Loss on sales of businesses",
+      "amount": -0.54
+    },
+    {
+      "label": "Asset impairment",
+      "amount": -0.54
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.8
+    },
+    {
+      "label": "Other income",
+      "amount": -1.53
+    },
+    {
+      "label": "Tax",
+      "amount": -2.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.29
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "39.0%",
+      "statColor": "#3d7bc8",
+      "title": "Margin jumped \u2014 with help",
+      "text": "Gross margin rose to 39.0% from 31.4% a year ago. About 430 basis points of that came from net IEEPA tariff refunds (a refund gain, partly offset by related incentive pay, growth spending and taxes), on top of real productivity and mix gains."
+    },
+    {
+      "stat": "$1.83",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised",
+      "text": "EPS of $1.83 beat last year's $0.34, and the company raised full-year 2026 GAAP EPS guidance to $5.45\u2013$5.85 and free cash flow guidance to $1.0\u2013$1.2B, partly on the tariff refunds received."
+    },
+    {
+      "stat": "$585M",
+      "statColor": "#5b6b7c",
+      "title": "Cash funded buybacks",
+      "text": "Free cash flow was $585M in the quarter. The company spent $250M repurchasing shares, using up its old authorization, and the board approved a new $1B buyback program."
+    }
+  ],
+  "oneTimers": [
+    "Net IEEPA tariff refunds were a major one-off tailwind: about 430 basis points of gross margin and about $0.67 of EPS in the quarter (the refund gain, net of directly related incentive compensation, growth investments and, for EPS, taxes).",
+    "Pre-tax non-GAAP adjustments totalled $89.3M, mainly restructuring charges ($29.5M), a non-cash asset impairment ($19.7M), a $20.4M loss on the sale of a small Engineered Fastening business, and footprint-action charges inside gross profit and SG&A."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000036/ex991q32026.htm"
+    },
+    {
+      "label": "Earnings release financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000036/exhibit992financialsq32026.htm"
+    }
+  ]
+}

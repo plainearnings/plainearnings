@@ -1,0 +1,171 @@
+{
+  "ticker": "SYF",
+  "company": "Synchrony Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Synchrony's total net revenue was flat at $3.8B \u2014 a bigger share of program profits went back to retail partners and credit costs rose 10% \u2014 so net earnings fell 17% to $892M even though purchase volume hit a record third-quarter level of $49.7B.",
+  "revenueYoY": "0%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "total net revenue of $3,818M vs $3,823M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.68",
+      "note": "diluted, vs $2.86 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$4,809M",
+      "note": "+2% vs a year ago; net interest margin 15.50%"
+    },
+    {
+      "label": "Purchase volume",
+      "value": "$49.7B",
+      "note": "+8% vs a year ago, a record third quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 4809,
+      "yoy": "+2%",
+      "note": "Interest and fees on loans ($5,591M) and on cash and securities ($197M), minus $979M of interest paid on deposits and borrowings \u2014 up 2% on higher average loan receivables and lower funding costs."
+    },
+    {
+      "name": "Retailer share arrangements",
+      "amountM": -1096,
+      "yoy": "+7%",
+      "note": "The share of program profits paid back to retail partners \u2014 a contra-revenue line that grew 7% to $1,096M as program performance improved, taking a bigger bite out of net interest income."
+    },
+    {
+      "name": "Other income",
+      "amountM": 105,
+      "yoy": "-17%",
+      "note": "Interchange revenue ($302M) and protection product revenue ($168M), minus $439M of loyalty program costs, plus other items \u2014 down 17% as loyalty costs rose."
+    }
+  ],
+  "flow": {
+    "revenueM": 3818,
+    "costOfRevenueM": 1266,
+    "grossProfitM": 2552,
+    "opex": [
+      {
+        "name": "Employee costs",
+        "amountM": 507,
+        "note": "Pay and benefits for the workforce \u2014 up 1% vs a year ago."
+      },
+      {
+        "name": "Professional fees",
+        "amountM": 234,
+        "note": "Outside professional and servicing fees \u2014 down 3% vs a year ago."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 137,
+        "note": "Marketing and business development \u2014 up 14% vs a year ago."
+      },
+      {
+        "name": "Information processing",
+        "amountM": 260,
+        "note": "Technology and data processing \u2014 up 15% on technology investment."
+      },
+      {
+        "name": "Other expense",
+        "amountM": 233,
+        "note": "Everything else \u2014 up 47% vs a year ago, driven by higher operational losses."
+      }
+    ],
+    "operatingIncomeM": 1181,
+    "otherIncomeM": 0,
+    "taxM": 289,
+    "netIncomeM": 864,
+    "equityM": -28
+  },
+  "otherDetail": "Synchrony reports no separate 'other income' line below operating income \u2014 earnings before tax of $1,181M is revenue minus the credit-loss provision and operating expenses. The $28M equityM line is preferred stock dividends: net earnings were $892M, of which $864M was available to common stockholders, which is the basis for the $2.68 diluted EPS.",
+  "footerNote": "For this lender, the provision for credit losses plays the role of cost of revenue, and retailer share arrangements (the profit share paid to retail partners) are treated as contra-revenue, so total net revenue is $4,809M + $105M \u2212 $1,096M = $3,818M. Net income here is the $864M available to common stockholders.",
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 125.96
+    },
+    {
+      "label": "Retailer share arrangements",
+      "amount": -28.71
+    },
+    {
+      "label": "Other income",
+      "amount": 2.75
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.16
+    },
+    {
+      "label": "Employee costs",
+      "amount": -13.28
+    },
+    {
+      "label": "Professional fees",
+      "amount": -6.13
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.59
+    },
+    {
+      "label": "Information processing",
+      "amount": -6.81
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.1
+    },
+    {
+      "label": "Preferred dividends",
+      "amount": -0.73
+    },
+    {
+      "label": "Tax",
+      "amount": -7.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.63
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$49.7B",
+      "statColor": "#3d7bc8",
+      "title": "Spending hit a record",
+      "text": "Purchase volume rose 8% to $49.7B \u2014 a record third quarter \u2014 and loan receivables grew 3% to $103.3B, with growth across all five sales platforms and the strongest gains from Gen Z and Millennial customers."
+    },
+    {
+      "stat": "$1,096M",
+      "statColor": "#b8443c",
+      "title": "Partners took a bigger share",
+      "text": "Retailer share arrangements rose 7% to $1,096M and the provision for credit losses rose 10% to $1,266M (a $30M reserve build, versus a $152M release a year ago). Together they more than ate the growth in interest income, cutting net earnings 17%."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#3e8e5a",
+      "title": "Credit held up, capital flowed back",
+      "text": "Net charge-offs improved to 4.79% of average loans from 5.16%, and loans 30+ days past due eased to 4.34%. The company returned $1.2B to shareholders in the quarter, including $1.1B of buybacks."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm"
+    },
+    {
+      "label": "Earnings release financial tables (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/financialtables3q26.htm"
+    }
+  ]
+}

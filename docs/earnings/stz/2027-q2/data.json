@@ -1,0 +1,138 @@
+{
+  "ticker": "STZ",
+  "company": "Constellation Brands",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-08-31",
+  "reportedDate": "2026-10-06",
+  "verdict": "Constellation's net sales rose 6% as beer shipments grew and wine & spirits bounced back 17%, but a $50M asset impairment and heavier brand spending cut operating income 8% \u2014 reported EPS still rose 25% because the tax bill was roughly half last year's.",
+  "revenueYoY": "+6%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "net sales of $2,633M vs $2,481M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.32",
+      "note": "vs $2.65 a year ago"
+    },
+    {
+      "label": "Beer net sales",
+      "value": "$2.47B",
+      "note": "+5% on 5.5% higher shipments"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.1B",
+      "note": "first half of FY27, up 4% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Beer",
+      "amountM": 2474,
+      "yoy": "+5%",
+      "note": "Modelo, Corona, Pacifico and the other imported beers \u2014 net sales rose 5% on a 5.5% increase in shipment volumes, and the business was the #1 dollar share gainer in U.S. beer."
+    },
+    {
+      "name": "Wine and Spirits",
+      "amountM": 159,
+      "yoy": "+17%",
+      "note": "Kim Crawford, The Prisoner, Mi CAMPO tequila and other brands \u2014 net sales jumped 17% on a 15.4% rise in shipments, swinging the segment back to a small operating profit."
+    }
+  ],
+  "flow": {
+    "revenueM": 2633,
+    "costOfRevenueM": 1240,
+    "grossProfitM": 1393,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 538,
+        "note": "Selling, general and administrative costs \u2014 up from $436M a year ago on increased marketing investment and other spending behind the brands."
+      },
+      {
+        "name": "Asset impairment",
+        "amountM": 50,
+        "note": "Impairment and related expenses \u2014 mainly writing down assets held for sale tied to the planned divestiture of the Nelson's Green Brier business."
+      }
+    ],
+    "operatingIncomeM": 805,
+    "otherIncomeM": -76,
+    "taxM": 147,
+    "netIncomeM": 566,
+    "equityM": -16
+  },
+  "otherDetail": "Below operating income: $8M of income from unconsolidated investments, minus $83M of net interest expense, gives net other expense of $76M (actual -$75.6M before rounding).",
+  "footerNote": "Net income was $582M; after the $16M share belonging to noncontrolling interests (actual $16.5M), net income attributable to Constellation (CBI) was $566M. Figures are rounded to the nearest $M, so the attribution line is shown as $16M to balance exactly.",
+  "follow100": [
+    {
+      "label": "Beer",
+      "amount": 93.96
+    },
+    {
+      "label": "Wine and Spirits",
+      "amount": 6.04
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -47.09
+    },
+    {
+      "label": "SG&A",
+      "amount": -20.43
+    },
+    {
+      "label": "Asset impairment",
+      "amount": -1.9
+    },
+    {
+      "label": "Other income",
+      "amount": -2.89
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.61
+    },
+    {
+      "label": "Tax",
+      "amount": -5.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.5
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Beer still carries the company",
+      "text": "Beer was $2,474M of the $2,633M total \u2014 94% of net sales \u2014 and grew 5% on higher shipments, even though depletions (what drinkers actually took off shelves) slipped 0.6% as Modelo Especial and Corona Extra softened."
+    },
+    {
+      "stat": "$50M",
+      "statColor": "#b8443c",
+      "title": "An impairment ate the growth",
+      "text": "A $49.8M asset impairment, mainly on assets held for sale for the planned Nelson's Green Brier divestiture, plus much higher SG&A, pushed operating income down 8% to $805M despite the sales growth. On the company's 'comparable' basis operating income was $897M."
+    },
+    {
+      "stat": "$3.32",
+      "statColor": "#3e8e5a",
+      "title": "A lighter tax bill lifted EPS",
+      "text": "The tax provision fell to $147M from $297M a year ago, so net income attributable to Constellation rose 21% to $566M and EPS rose 25% to $3.32, even though operating income fell."
+    }
+  ],
+  "oneTimers": [
+    "$49.8M of asset impairment and related expenses, mainly impairments on assets held for sale for the planned Nelson's Green Brier divestiture and the New Zealand wine divestitures.",
+    "Total 'comparable adjustments' cut GAAP operating income by $91.6M in the quarter ($71.5M after tax, $0.42 per share) \u2014 including the impairment, strategic reconfiguration and restructuring costs, and commodity-derivative settlements; comparable EPS was $3.74 vs reported $3.32."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/16918/000001691826000039/stzex991_83120268kearnings.htm"
+    }
+  ]
+}

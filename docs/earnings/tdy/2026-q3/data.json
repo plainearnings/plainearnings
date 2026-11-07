@@ -1,0 +1,160 @@
+{
+  "ticker": "TDY",
+  "company": "Teledyne Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-21",
+  "verdict": "Teledyne posted its strongest quarter ever \u2014 sales up 9% to $1.68B and GAAP EPS up 25% to $5.82 \u2014 as its imaging business surged on demand for infrared detectors for space and drone programs.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "+9.4% vs a year ago \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.82",
+      "note": "vs $4.65 a year ago"
+    },
+    {
+      "label": "Digital Imaging sales",
+      "value": "$903M",
+      "note": "+15% vs a year ago; its operating income rose 48%"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$320M",
+      "note": "$319.5M \u2014 cash from operations of $352.5M minus capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Digital Imaging",
+      "amountM": 903,
+      "yoy": "+15%",
+      "note": "Cameras, infrared detectors and imaging systems \u2014 sales rose 15.0%, led by infrared detectors for space and unmanned systems, and operating income jumped 48%."
+    },
+    {
+      "name": "Instrumentation",
+      "amountM": 371,
+      "yoy": "+2%",
+      "note": "Test, measurement and monitoring instruments \u2014 sales rose 1.9% to $370.5M."
+    },
+    {
+      "name": "Aerospace and Defense Electronics",
+      "amountM": 287,
+      "yoy": "+4%",
+      "note": "Electronics for aircraft and defense programs \u2014 sales rose 4.3%."
+    },
+    {
+      "name": "Engineered Systems",
+      "amountM": 124,
+      "yoy": "+8%",
+      "note": "Engineered systems and energy services, largely for government customers \u2014 sales rose 7.8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1685,
+    "costOfRevenueM": 946,
+    "grossProfitM": 739,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 258,
+        "note": "Selling, general and administrative costs \u2014 up 8.5%, mainly higher compensation and professional services."
+      },
+      {
+        "name": "R&D",
+        "amountM": 79,
+        "note": "Research and development on new sensors, cameras and electronics \u2014 down slightly from $83M a year ago."
+      },
+      {
+        "name": "Intangible amortization",
+        "amountM": 55,
+        "note": "Non-cash amortization of technology and customer relationships from past acquisitions ($55.2M) \u2014 Teledyne excludes it from its non-GAAP earnings."
+      }
+    ],
+    "operatingIncomeM": 347,
+    "otherIncomeM": 0,
+    "taxM": 74,
+    "netIncomeM": 273
+  },
+  "follow100": [
+    {
+      "label": "Digital Imaging",
+      "amount": 53.59
+    },
+    {
+      "label": "Instrumentation",
+      "amount": 22.02
+    },
+    {
+      "label": "Aerospace and Defense Electronics",
+      "amount": 17.03
+    },
+    {
+      "label": "Engineered Systems",
+      "amount": 7.36
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -56.14
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.31
+    },
+    {
+      "label": "R&D",
+      "amount": -4.69
+    },
+    {
+      "label": "Intangible amortization",
+      "amount": -3.26
+    },
+    {
+      "label": "Other income",
+      "amount": 0.0
+    },
+    {
+      "label": "Tax",
+      "amount": -4.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.2
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Imaging is the growth engine",
+      "text": "Digital Imaging sales rose 15% to $903M \u2014 over half of all revenue \u2014 on infrared detectors and subsystems for space and unmanned applications, plus growth in industrial vision and healthcare imaging."
+    },
+    {
+      "stat": "20.6%",
+      "statColor": "#3e8e5a",
+      "title": "Record profit margin",
+      "text": "Operating income rose 23% to $347M, a 20.6% margin vs 18.4% a year ago, as the higher-margin imaging mix grew fastest. Funded backlog reached nearly $5.3B."
+    },
+    {
+      "stat": "$225M",
+      "statColor": "#5b6b7c",
+      "title": "Cash goes to buybacks and a deal",
+      "text": "Teledyne generated $320M of free cash flow, repurchased $224.6M of stock in September\u2013October, and has a pending ~$1.1B acquisition of Varex Imaging."
+    }
+  ],
+  "oneTimers": [
+    "$55M of acquired intangible asset amortization \u2014 a non-cash cost of past acquisitions that Teledyne excludes from its non-GAAP earnings of $6.72 per share."
+  ],
+  "footerNote": "Teledyne reports to one decimal place ($1,684.9M of sales); figures here are rounded to whole $M and still balance exactly. Net other income rounds to $0M: it is $10.5M of net interest expense, plus $2.6M of retirement benefit income and $7.5M of other income (including a mark-to-market gain on Varex shares). Net income of $273M is the $272.8M attributable to Teledyne (noncontrolling interest was $0 this quarter).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/q3-2026earningsrelease.htm"
+    }
+  ]
+}

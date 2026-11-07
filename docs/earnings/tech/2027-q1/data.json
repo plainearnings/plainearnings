@@ -1,0 +1,131 @@
+{
+  "ticker": "TECH",
+  "company": "Bio-Techne",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "verdict": "Bio-Techne grew sales 5% to $300M on 9% growth at its core Protein Sciences business, but profit fell to $28M as costs tied to its pending takeover by Merck KGaA weighed on expenses.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "+4.6% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.18",
+      "note": "vs $0.24 a year ago"
+    },
+    {
+      "label": "Protein Sciences sales",
+      "value": "$220M",
+      "note": "+9% vs a year ago \u2014 about three-quarters of all sales"
+    },
+    {
+      "label": "Cash from operations",
+      "value": "$73M",
+      "note": "vs $28M a year ago, on working-capital swings"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Protein Sciences",
+      "amountM": 220,
+      "yoy": "+9%",
+      "note": "Proteins, antibodies and assay reagents for research labs \u2014 sales rose about 9% to $219.7M, with a segment operating margin near 38%."
+    },
+    {
+      "name": "Diagnostics and Spatial Biology",
+      "amountM": 80,
+      "yoy": "+1%",
+      "note": "Clinical diagnostic controls and spatial-biology tools that map tissue \u2014 sales were $80.2M, roughly flat vs $79.5M a year ago, and segment profit fell as costs rose."
+    }
+  ],
+  "flow": {
+    "revenueM": 300,
+    "costOfRevenueM": 103,
+    "grossProfitM": 197,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 134,
+        "note": "Selling, general and administrative costs \u2014 up 15% to $133.7M, swollen by costs of the pending acquisition of Bio-Techne by Merck KGaA (about $18M of acquisition-related expenses sat in unallocated costs)."
+      },
+      {
+        "name": "R&D",
+        "amountM": 26,
+        "note": "Research and development on new proteins, assays and diagnostic tools \u2014 up 9%."
+      }
+    ],
+    "operatingIncomeM": 37,
+    "otherIncomeM": -2,
+    "taxM": 7,
+    "netIncomeM": 28
+  },
+  "follow100": [
+    {
+      "label": "Protein Sciences",
+      "amount": 73.33
+    },
+    {
+      "label": "Diagnostics and Spatial Biology",
+      "amount": 26.67
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -34.33
+    },
+    {
+      "label": "SG&A",
+      "amount": -44.67
+    },
+    {
+      "label": "R&D",
+      "amount": -8.67
+    },
+    {
+      "label": "Other income",
+      "amount": -0.67
+    },
+    {
+      "label": "Tax",
+      "amount": -2.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.33
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "The core business carries growth",
+      "text": "Protein Sciences sales rose about 9% to $219.7M with a 37.9% segment operating margin, while Diagnostics and Spatial Biology was flat at $80.2M \u2014 all of the quarter's growth came from the core."
+    },
+    {
+      "stat": "$28M",
+      "statColor": "#b8443c",
+      "title": "Deal costs cut into profit",
+      "text": "Net earnings fell to $28.3M from $38.2M as SG&A jumped 15% \u2014 unallocated costs included about $17.8M of acquisition-related expenses for the pending Merck KGaA transaction, plus $3.8M of restructuring costs."
+    },
+    {
+      "stat": "$73M",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation improved",
+      "text": "Cash from operations rose to $73.1M from $27.6M a year ago, and the cash balance grew to $350M even after paying a $12.6M dividend."
+    }
+  ],
+  "oneTimers": [
+    "About $17.8M of acquisition-related expenses and other costs (pending acquisition by Merck KGaA, Darmstadt, Germany) in unallocated corporate costs, plus $3.8M of restructuring and restructuring-related costs."
+  ],
+  "footerNote": "Bio-Techne furnished no standalone earnings release this quarter \u2014 its November 4, 2026 Form 8-K only declared a dividend, against the backdrop of the pending Merck KGaA acquisition \u2014 so all figures are from the Form 10-Q for the quarter ended September 30, 2026, filed November 6, 2026. Bio-Techne reports in thousands ($299,712K of sales); figures are rounded to whole $M, with tax shown as $7M (actual $6.4M) so the rounded flow balances exactly. The second segment was renamed Diagnostics and Spatial Biology (formerly Diagnostics and Genomics). Segment sales are before a $0.1M intersegment elimination, which rounds to zero.",
+  "sources": [
+    {
+      "label": "Quarterly report Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/842023/000110465926123907/tech-20260930x10q.htm"
+    }
+  ]
+}

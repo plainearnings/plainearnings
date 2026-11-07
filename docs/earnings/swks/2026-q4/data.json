@@ -1,0 +1,132 @@
+{
+  "ticker": "SWKS",
+  "company": "Skyworks Solutions",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-11-03",
+  "verdict": "Skyworks' standalone sales fell 5% to $1,046M and GAAP EPS dropped to $0.15 from $0.94 as $82M of restructuring and impairment charges hit the quarter \u2014 days before the Qorvo combination closed and turned it into a much larger, full-stack radio-frequency company.",
+  "revenueYoY": "-5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-5%",
+      "note": "standalone net revenue of $1,046M vs $1,100M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.15",
+      "note": "diluted, vs $0.94 a year ago; non-GAAP EPS was $1.28"
+    },
+    {
+      "label": "Combined revenue with Qorvo",
+      "value": "$1.98B",
+      "note": "September quarter, Skyworks plus Qorvo (which had an extra week worth ~$70M)"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "-$61M",
+      "note": "$34M of operating cash flow minus $95M of capital expenditures"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net revenue (single segment)",
+      "amountM": 1046,
+      "yoy": "-5%",
+      "note": "Skyworks reports as a single segment, so there is no official revenue split for this standalone quarter. Its new Smartphone and Diversified Growth Markets categories start next quarter, after the Qorvo combination closed; combined September-quarter revenue including Qorvo was about $1,983M."
+    }
+  ],
+  "flow": {
+    "revenueM": 1046,
+    "costOfRevenueM": 618,
+    "grossProfitM": 428,
+    "opex": [
+      {
+        "name": "R&D",
+        "amountM": 214,
+        "note": "Research and development \u2014 designing the next generation of radio-frequency and mixed-signal chips; $213.5M as reported."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 110,
+        "note": "Selling, general and administrative expenses \u2014 $109.3M as reported, shown as $110M so the rounded lines balance exactly."
+      },
+      {
+        "name": "Restructuring & impairment",
+        "amountM": 82,
+        "note": "Restructuring, impairment and other charges of $82.1M, including a $66.2M asset impairment charge \u2014 versus just $1.6M a year ago."
+      }
+    ],
+    "operatingIncomeM": 22,
+    "otherIncomeM": -13,
+    "taxM": -14,
+    "netIncomeM": 23
+  },
+  "otherDetail": "Below operating income: $22M of interest expense (actual $21.5M, much of it on financing raised for the Qorvo deal), partly offset by $9M of other income, gives net other expense of $13M. The tax line is a $14M benefit (actual $13.6M), which is why tax adds to profit in the $100 walk.",
+  "footerNote": "Amounts are rounded to the nearest $M from the reported figures (revenue $1,045.7M, gross profit $427.4M, operating income $22.3M, net income $23.4M); SG&A is shown as $110M and gross profit as $428M so the rounded lines balance exactly.",
+  "follow100": [
+    {
+      "label": "Net revenue (single segment)",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.08
+    },
+    {
+      "label": "R&D",
+      "amount": -20.46
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.52
+    },
+    {
+      "label": "Restructuring & impairment",
+      "amount": -7.84
+    },
+    {
+      "label": "Other income",
+      "amount": -1.24
+    },
+    {
+      "label": "Tax",
+      "amount": 1.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.2
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$82M",
+      "statColor": "#b8443c",
+      "title": "Charges crushed GAAP profit",
+      "text": "Restructuring, impairment and other charges jumped to $82.1M from $1.6M a year ago, including a $66.2M asset impairment. Operating income fell to $22M from $111M, and GAAP EPS to $0.15 \u2014 versus non-GAAP EPS of $1.28."
+    },
+    {
+      "stat": "$1.98B",
+      "statColor": "#3d7bc8",
+      "title": "The Qorvo deal redraws the company",
+      "text": "The Qorvo combination closed after quarter-end, so these results are Skyworks standalone. Together the two did about $1.98B of September-quarter revenue, and management targets $500M or more of annual cost savings within 24\u201336 months."
+    },
+    {
+      "stat": "-$61M",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow went negative",
+      "text": "Operating cash flow fell to $34M from $200M a year ago while capital expenditures \u2014 money spent on buildings and equipment \u2014 rose to $95M, leaving free cash flow at -$61M for the quarter (still +$229M for the full year)."
+    }
+  ],
+  "oneTimers": [
+    "$82.1M of restructuring, impairment and other charges (vs $1.6M a year ago), including a $66.2M asset impairment charge shown in the cash-flow statement.",
+    "The non-GAAP reconciliation also flags $66.4M of settlements, gains, losses and impairments and $35.7M of acquisition-related expenses for the quarter, largely tied to the Qorvo combination \u2014 these overlap with, and are not additional to, the GAAP charge lines above."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000052/q426earningsreleaseformex9.htm"
+    }
+  ]
+}

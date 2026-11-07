@@ -1,0 +1,145 @@
+{
+  "ticker": "TDG",
+  "company": "TransDigm Group",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-08-04",
+  "verdict": "TransDigm's sales jumped 23% to $2.7B as all three aircraft-parts channels grew by double digits, lifting net income 10% to $540M despite interest costs climbing with its debt-funded deals.",
+  "revenueYoY": "+23%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+23%",
+      "note": "+22.5% vs a year ago; 13 points of it organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$9.39",
+      "note": "vs $8.47 a year ago"
+    },
+    {
+      "label": "EBITDA As Defined",
+      "value": "$1,447M",
+      "note": "52.8% of sales \u2014 the company's preferred profit measure"
+    },
+    {
+      "label": "Share buybacks",
+      "value": "~$1.0B",
+      "note": "repurchased in the quarter; over $1.8B so far in fiscal 2026"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Power & Control",
+      "amountM": 1509,
+      "yoy": "+33%",
+      "note": "Engines, power systems and other mission-critical aircraft parts \u2014 sales rose 32.5% on commercial aftermarket, OEM and defense growth, helped by acquisitions."
+    },
+    {
+      "name": "Airframe",
+      "amountM": 1186,
+      "yoy": "+12%",
+      "note": "Parts for the aircraft body and cabin \u2014 sales rose 12.1% across aftermarket, OEM and defense channels."
+    },
+    {
+      "name": "Non-aviation",
+      "amountM": 46,
+      "yoy": "+15%",
+      "note": "A small business selling similar engineered parts outside aviation \u2014 sales rose 15.0% to $46M."
+    }
+  ],
+  "flow": {
+    "revenueM": 2741,
+    "costOfRevenueM": 1113,
+    "grossProfitM": 1628,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 332,
+        "note": "Selling and administrative costs \u2014 up 37% as acquired businesses and higher sales added overhead, including acquisition and integration costs."
+      },
+      {
+        "name": "Intangible amortization",
+        "amountM": 69,
+        "note": "Non-cash amortization of patents and customer relationships bought in past acquisitions."
+      }
+    ],
+    "operatingIncomeM": 1227,
+    "otherIncomeM": -514,
+    "taxM": 173,
+    "netIncomeM": 540
+  },
+  "follow100": [
+    {
+      "label": "Power & Control",
+      "amount": 55.05
+    },
+    {
+      "label": "Airframe",
+      "amount": 43.27
+    },
+    {
+      "label": "Non-aviation",
+      "amount": 1.68
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.61
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.11
+    },
+    {
+      "label": "Intangible amortization",
+      "amount": -2.52
+    },
+    {
+      "label": "Other income",
+      "amount": -18.75
+    },
+    {
+      "label": "Tax",
+      "amount": -6.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.7
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in every channel",
+      "text": "Net sales rose 23% to $2,741M \u2014 13% organic plus acquisitions \u2014 with commercial aftermarket up 17% and double-digit growth in commercial OEM and defense as well."
+    },
+    {
+      "stat": "52.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins stay exceptionally high",
+      "text": "EBITDA As Defined was $1,447M, or 52.8 cents of every sales dollar, down slightly from 54.4% only because newly bought businesses carry lower margins at first."
+    },
+    {
+      "stat": "$514M",
+      "statColor": "#5b6b7c",
+      "title": "Interest is the big cost after parts",
+      "text": "Interest expense, net, rose 30% to $514M as borrowings grew to fund deals such as the $2.2B Jet Parts Engineering and Victor Sierra purchase \u2014 the price of TransDigm's debt-funded model."
+    }
+  ],
+  "oneTimers": [
+    "$35M of acquisition transaction and integration-related expenses were added back in the company's adjusted figures (GAAP results include them)."
+  ],
+  "footerNote": "Net income of $540M includes $1M attributable to noncontrolling interests; EPS of $9.39 is based on the $539M attributable to TransDigm common stockholders. TransDigm's fiscal year ends September 30 \u2014 Q4 FY26 results were not yet reported as of November 7, 2026, so this is the latest reported quarter. Segment sales are from the Form 10-Q for the same period.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000052/exhibit991tdg2026q3earning.htm"
+    },
+    {
+      "label": "Quarterly report Form 10-Q \u2014 segment sales (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000053/tdg-20260627.htm"
+    }
+  ]
+}

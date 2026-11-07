@@ -1,0 +1,172 @@
+{
+  "ticker": "T",
+  "company": "AT&T",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "AT&T grew revenue 5% and added over 1 million advanced-connectivity customers, but a $2.6B non-cash write-down of its Mexico business \u2014 which it has agreed to sell \u2014 cut GAAP EPS to $0.13 from $1.29.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "+5.3% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.13",
+      "note": "from continuing operations, vs $1.29 a year ago (which included the DIRECTV sale gain); adjusted EPS was $0.65 vs $0.54"
+    },
+    {
+      "label": "Postpaid phone net adds",
+      "value": "379,000",
+      "note": "plus a record 769,000 internet net adds (442,000 fiber, 327,000 fixed wireless)"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$5.0B",
+      "note": "cash from operations of $10.5B minus $5.1B of capital spending and $0.5B of vendor financing"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advanced Connectivity",
+      "amountM": 29481,
+      "yoy": "+7%",
+      "note": "5G wireless plus fiber internet for homes and businesses \u2014 service revenue rose 6.1%, with 379,000 postpaid phone net adds and a record 769,000 internet net adds."
+    },
+    {
+      "name": "Legacy",
+      "amountM": 1519,
+      "yoy": "-25%",
+      "note": "Old copper-network voice and data services, being shut down as customers move to fiber and 5G \u2014 revenue fell 24.5% on purpose."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1240,
+      "yoy": "+13%",
+      "note": "Wireless service and phones in Mexico \u2014 revenue rose 13.2% on postpaid growth and currency effects. AT&T agreed on Oct 13, 2026 to sell this business."
+    },
+    {
+      "name": "Corporate & Other",
+      "amountM": 82,
+      "yoy": "-16%",
+      "note": "Small corporate and other revenues that do not belong to a segment \u2014 $82M vs $98M a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 32322,
+    "costOfRevenueM": 12442,
+    "grossProfitM": 19880,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 7435,
+        "note": "Selling, support and head-office costs, including $44M of transaction, legal and other costs \u2014 higher equipment and bad-debt costs from subscriber growth, partly offset by cost-cutting."
+      },
+      {
+        "name": "Impairments & restructuring",
+        "amountM": 3372,
+        "note": "Asset impairments, abandonments and restructuring \u2014 dominated by a $2.6B non-cash impairment of the Mexico wireless business AT&T has agreed to sell, plus employee separation charges."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 4978,
+        "note": "The wear-and-tear cost of the network and equipment \u2014 down 6.4% as old copper assets finish depreciating."
+      }
+    ],
+    "operatingIncomeM": 4095,
+    "otherIncomeM": -1399,
+    "equityM": -414,
+    "taxM": 1390,
+    "netIncomeM": 892
+  },
+  "follow100": [
+    {
+      "label": "Advanced Connectivity",
+      "amount": 91.21
+    },
+    {
+      "label": "Legacy",
+      "amount": 4.7
+    },
+    {
+      "label": "Latin America",
+      "amount": 3.84
+    },
+    {
+      "label": "Corporate & Other",
+      "amount": 0.25
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -38.49
+    },
+    {
+      "label": "SG&A",
+      "amount": -23.0
+    },
+    {
+      "label": "Impairments & restructuring",
+      "amount": -10.43
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -15.4
+    },
+    {
+      "label": "Other income",
+      "amount": -4.33
+    },
+    {
+      "label": "Tax",
+      "amount": -4.3
+    },
+    {
+      "label": "Noncontrolling interests & preferred dividends",
+      "amount": -1.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.76
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.3%",
+      "statColor": "#3d7bc8",
+      "title": "Best service growth in four years",
+      "text": "Revenue rose 5.3% to $32.3B \u2014 the strongest consolidated service revenue growth in more than four years \u2014 as Advanced Connectivity service revenue grew 6.1% and its operating income jumped 18.9% to $7.6B."
+    },
+    {
+      "stat": "$2.6B",
+      "statColor": "#b8443c",
+      "title": "Mexico write-down sinks GAAP profit",
+      "text": "A $2.6B non-cash impairment on the Mexico wireless business (now held for sale) plus separation charges cut operating income to $4.1B from $6.1B. Adjusted operating income was $7.6B, up from $6.6B."
+    },
+    {
+      "stat": "769,000",
+      "statColor": "#3e8e5a",
+      "title": "Record internet additions",
+      "text": "AT&T added 769,000 fiber and fixed-wireless internet customers \u2014 a record \u2014 and 379,000 postpaid phones, passing 39 million fiber locations on the way to 40 million by year-end."
+    }
+  ],
+  "oneTimers": [
+    "$2.6B non-cash impairment charge on the held-for-sale Mexico wireless business, inside the $3,372M impairments, abandonments and restructuring line.",
+    "Employee separation charges \u2014 together with the impairment and other items, adjustments total $0.52 per share (adjusted EPS $0.65 vs $0.13 GAAP).",
+    "Year-ago comparison is distorted the other way: Q3 2025 included a large gain on the sale of the DIRECTV investment in other income."
+  ],
+  "otherDetail": "Other income of -$1,399M is $1,979M of interest expense, minus a $10M equity loss in affiliates, plus $590M of other income (mainly pension and interest income).",
+  "footerNote": "This page models CONTINUING operations, as AT&T headlines them. The flow ends at net income attributable to common stock from continuing operations ($892M = $1,306M of continuing income, less $378M attributable to noncontrolling interests and $36M of preferred dividends). Including a $37M loss from discontinued operations (the held-for-sale Forged Fiber 37 business), total net income was $1,269M and net income attributable to common stock was $855M. AT&T realigned its segments in Q1 2026 \u2014 Advanced Connectivity, Legacy and Latin America replaced the old Communications structure \u2014 so segments here follow the new reporting.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000370/t-3q2026exhibit991.htm"
+    },
+    {
+      "label": "Quarterly report Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000372/t-20260930.htm"
+    }
+  ]
+}

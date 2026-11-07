@@ -1,0 +1,145 @@
+{
+  "ticker": "SYY",
+  "company": "Sysco",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-03",
+  "verdict": "Sysco grew sales 3% and net earnings 11% to $526M as U.S. delivery volumes rose \u2014 but the headline profit was flattered by a $234M one-off gain tied to financing its Jetro Restaurant Depot acquisition.",
+  "revenueYoY": "+3%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+3%",
+      "note": "+2.8% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.09",
+      "note": "vs $0.99 a year ago"
+    },
+    {
+      "label": "U.S. local case volume",
+      "value": "+2.7%",
+      "note": "deliveries to local customers rose; total U.S. volume +2.6%"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$230M",
+      "note": "cash from operations of $278M minus $48M of net capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Foodservice Operations",
+      "amountM": 15142,
+      "yoy": "+2%",
+      "note": "Food and supplies delivered to U.S. restaurants, schools and hospitals \u2014 case volume rose 2.6%, and local (independent customer) volume rose 2.7%."
+    },
+    {
+      "name": "International Foodservice Operations",
+      "amountM": 4168,
+      "yoy": "+5%",
+      "note": "The same delivery business outside the U.S. \u2014 sales rose 5.1% (6.0% before currency effects), with double-digit growth in adjusted profit."
+    },
+    {
+      "name": "SYGMA",
+      "amountM": 2152,
+      "yoy": "+1%",
+      "note": "Sysco's chain-restaurant distribution arm, supplying large restaurant chains on contract \u2014 sales rose 1.1%."
+    },
+    {
+      "name": "Other",
+      "amountM": 282,
+      "yoy": "+3%",
+      "note": "Smaller businesses, including guest-supply operations for hotels \u2014 sales rose 3.3%."
+    }
+  ],
+  "flow": {
+    "revenueM": 21744,
+    "costOfRevenueM": 17693,
+    "grossProfitM": 4051,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 3334,
+        "note": "Running the warehouses, trucks and sales teams \u2014 up 7.5%, including $108M of acquisition-related costs (mostly for the Jetro Restaurant Depot deal) and $102M of restructuring and transformation costs."
+      }
+    ],
+    "operatingIncomeM": 717,
+    "otherIncomeM": -30,
+    "taxM": 161,
+    "netIncomeM": 526
+  },
+  "follow100": [
+    {
+      "label": "U.S. Foodservice Operations",
+      "amount": 69.64
+    },
+    {
+      "label": "International Foodservice Operations",
+      "amount": 19.17
+    },
+    {
+      "label": "SYGMA",
+      "amount": 9.9
+    },
+    {
+      "label": "Other",
+      "amount": 1.3
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -81.37
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -15.33
+    },
+    {
+      "label": "Other income",
+      "amount": -0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -0.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.42
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+2.7%",
+      "statColor": "#3d7bc8",
+      "title": "Volumes are growing again",
+      "text": "U.S. Foodservice local case volume rose 2.7% and total volume 2.6%, driving sales up 2.8% to $21.7B despite soft restaurant foot traffic and only 0.3% food-cost inflation."
+    },
+    {
+      "stat": "$234M",
+      "statColor": "#5b6b7c",
+      "title": "A financing gain props up profit",
+      "text": "Net earnings rose 10.5% to $526M, helped by a $234M gain on rate-lock deals taken out to finance the Jetro Restaurant Depot purchase. Excluding deal items, adjusted EPS was $1.19, up 3.5%."
+    },
+    {
+      "stat": "$717M",
+      "statColor": "#b8443c",
+      "title": "Deal costs hit operating profit",
+      "text": "Operating income fell 10.4% to $717M because acquisition, restructuring and transformation costs added $210M to expenses. Before those items, operating income rose 3.2% to $927M."
+    }
+  ],
+  "oneTimers": [
+    "$234M gain on deal-contingent rate-lock transactions (in other income) taken out to lock in borrowing costs for the Jetro Restaurant Depot acquisition.",
+    "$90M of bridge-loan cost amortization inside the $261M of interest expense, also tied to the Jetro deal.",
+    "$108M of acquisition-related costs and $102M of restructuring and transformation costs inside operating expenses; adjusted EPS was $1.19 vs $1.09 GAAP."
+  ],
+  "otherDetail": "Other income of -$30M is $261M of interest expense (including the $90M bridge-loan amortization for the Jetro deal) partly offset by $231M of other income, which includes the $234M rate-lock gain.",
+  "footerNote": "Sysco's fiscal year ends in late June, so this is the first quarter of fiscal 2027. GAAP figures throughout; adjusted figures are shown only in the notes.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000046/syy2027q1pressrelease.htm"
+    }
+  ]
+}

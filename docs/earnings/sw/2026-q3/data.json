@@ -1,0 +1,147 @@
+{
+  "ticker": "SW",
+  "company": "Smurfit Westrock",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Smurfit Westrock's net sales rose 2% to $8.2B, but what it called unprecedented freight and energy cost inflation cut gross profit 8% and net income fell \u2014 the company is pushing through price increases it expects to more than offset those costs into 2027.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "net sales of $8,161M vs $8,003M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.42",
+      "note": "diluted, vs $0.47 a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1,205M",
+      "note": "14.8% margin, vs 16.3% a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$874M",
+      "note": "vs $1,133M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 4750,
+      "yoy": "+2%",
+      "note": "Paperboard, corrugated and consumer packaging in the U.S., Canada and Mexico \u2014 the biggest region, with adjusted EBITDA of $760M at a 15.6% margin."
+    },
+    {
+      "name": "Europe, MEA and APAC",
+      "amountM": 2824,
+      "yoy": "0%",
+      "note": "Europe, the Middle East, Africa and Asia-Pacific \u2014 sales were flat as containerboard price increases passed through with a lag against rising energy costs; adjusted EBITDA was $379M."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 587,
+      "yoy": "+8%",
+      "note": "Central and South America and the Caribbean \u2014 the smallest but highest-margin region, with adjusted EBITDA of $126M at a 21.4% margin."
+    }
+  ],
+  "flow": {
+    "revenueM": 8161,
+    "costOfRevenueM": 6721,
+    "grossProfitM": 1440,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 927,
+        "note": "Selling, general and administrative expenses \u2014 down from $963M a year ago."
+      },
+      {
+        "name": "Impairment & restructuring",
+        "amountM": 26,
+        "note": "Impairment and restructuring costs as the combined company reshapes its mill and converting footprint."
+      }
+    ],
+    "operatingIncomeM": 487,
+    "otherIncomeM": -173,
+    "taxM": 95,
+    "netIncomeM": 222,
+    "equityM": 3
+  },
+  "otherDetail": "Below operating profit: $174M of net interest expense, plus $8M of pension and postretirement non-service income, minus $7M of other expense, gives net other expense of $173M.",
+  "footerNote": "Net income was $219M; noncontrolling interests took a $3M loss, so net income attributable to common shareholders was $222M.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 58.2
+    },
+    {
+      "label": "Europe, MEA and APAC",
+      "amount": 34.6
+    },
+    {
+      "label": "Latin America",
+      "amount": 7.19
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -82.36
+    },
+    {
+      "label": "SG&A",
+      "amount": -11.36
+    },
+    {
+      "label": "Impairment & restructuring",
+      "amount": -0.32
+    },
+    {
+      "label": "Other income",
+      "amount": -2.12
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": 0.04
+    },
+    {
+      "label": "Tax",
+      "amount": -1.16
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.72
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+2%",
+      "statColor": "#3d7bc8",
+      "title": "Sales grew, profit shrank",
+      "text": "Net sales rose 2% to $8,161M, but cost of goods sold rose faster \u2014 gross profit fell 8% to $1,440M \u2014 as freight, energy and other input costs surged."
+    },
+    {
+      "stat": "$700M",
+      "statColor": "#b8443c",
+      "title": "Cost inflation is the story",
+      "text": "Management expects to absorb about $700M of extra freight and energy costs alone in 2026, and cut its full-year adjusted EBITDA estimate to about $4.7B. Price increases already announced are meant to more than offset this, mostly landing in 2027."
+    },
+    {
+      "stat": "$514M",
+      "statColor": "#5b6b7c",
+      "title": "Still investing heavily",
+      "text": "Capital expenditures \u2014 money spent on buildings and equipment \u2014 were $514M in the quarter, against $874M of operating cash flow, and the company paid a quarterly dividend of $0.4523 per share."
+    }
+  ],
+  "oneTimers": [
+    "$26M of impairment and restructuring costs in the quarter, as the company continues reshaping the combined Smurfit Kappa / WestRock footprint."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2005951/000110465926119345/tm2628367d1_ex99-1.htm"
+    }
+  ]
+}
