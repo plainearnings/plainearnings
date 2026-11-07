@@ -1,0 +1,188 @@
+{
+  "ticker": "ECHO",
+  "company": "EchoStar",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "EchoStar's revenue fell 69% to $1.1B after it deconsolidated its pay-TV and most of its broadband businesses, yet it booked a $2.8B profit \u2014 almost entirely a $3.1B gain on selling wireless spectrum licenses to AT&T.",
+  "revenueYoY": "-69%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.1B",
+      "note": "$1,128M, -69% YoY \u2014 most of the drop is businesses deconsolidated in 2026, not lost sales"
+    },
+    {
+      "label": "Net income",
+      "value": "$2.8B",
+      "note": "$2,782M \u2014 almost all of it one-off deal gains, not money from customers"
+    },
+    {
+      "label": "AT&T spectrum gain",
+      "value": "$3.1B",
+      "note": "$3,107M gain on selling 3.45 GHz and 600 MHz spectrum licenses to AT&T (closed July 28, 2026)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$7.97",
+      "note": "Vs a loss of $44.37 a year ago, when the company booked a huge impairment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "AT&T spectrum gain",
+      "amountM": 3107.0,
+      "yoy": "one-off",
+      "note": "EchoStar sold all its 3.45 GHz and 600 MHz spectrum licenses to AT&T (the deal closed July 28, 2026) for $20.25B in cash and booked a $3,107M gain \u2014 the sale value minus what the licenses were carried at on its books. Spectrum licenses are the airwaves mobile networks run on. This one gain is 276% of the quarter's revenue."
+    },
+    {
+      "name": "Deconsolidation gain",
+      "amountM": 439.0,
+      "yoy": "one-off",
+      "note": "A $439M accounting gain from deconsolidating the pay-TV and broadband subsidiaries in 2026 ($10,168M over the first nine months). No cash arrived \u2014 EchoStar still owns and runs those businesses, but their results no longer count in its reported revenue or costs. The gain is 39% of revenue."
+    },
+    {
+      "name": "Wireless",
+      "amountM": 905.13,
+      "yoy": "-3%",
+      "note": "Mobile phone service (including the Boost Mobile business) and devices sold to subscribers \u2014 now 80% of all revenue after the other businesses were deconsolidated."
+    },
+    {
+      "name": "Broadband and Satellite Services",
+      "amountM": 117.714,
+      "yoy": "-65%",
+      "note": "Satellite broadband and communications services (the Hughes business). Most of this segment was deconsolidated on July 31, 2026, so only part of the quarter is included."
+    },
+    {
+      "name": "Pay-TV",
+      "amountM": 73.007,
+      "yoy": "-97%",
+      "note": "The DISH and Sling TV businesses. Substantially all of this segment was deconsolidated on June 30, 2026, so Q3 holds only a small remainder."
+    },
+    {
+      "name": "Other",
+      "amountM": 31.76,
+      "yoy": "+1,492%",
+      "note": "Mostly leased spectrum revenue and equipment and other sales outside the three main segments \u2014 the jump reflects spectrum leasing after the deconsolidations."
+    }
+  ],
+  "flow": {
+    "revenueM": 1127.611,
+    "costOfRevenueM": 650.839,
+    "grossProfitM": 476.772,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 234.579,
+        "note": "Selling and running the company, including $130M of subscriber acquisition costs (the cost of signing up new wireless customers)."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 86.364,
+        "note": "A non-cash charge spreading the cost of satellites, network gear and other long-lived assets over their lives \u2014 far lower than a year ago because the deconsolidated businesses took their assets with them.",
+        "compact": true
+      },
+      {
+        "name": "Impairments and other",
+        "amountM": 8.079,
+        "note": "Write-downs of assets in the broadband business \u2014 tiny next to the $16.5B of impairments booked in the same quarter a year ago."
+      }
+    ],
+    "operatingIncomeM": 147.75,
+    "otherIncomeM": 3251.348,
+    "taxM": 616.849,
+    "netIncomeM": 2782.249,
+    "spectrumGainM": 3107.0,
+    "deconsolidationGainM": 439.0,
+    "gainsGrossM": 3546.0,
+    "interestOtherNetM": -294.65200000000004,
+    "totalIncomeM": 4673.611,
+    "grossAfterDirectCostsM": 4022.772
+  },
+  "otherDetail": "Other income was $3,251M, net: a $3,107M gain on the AT&T spectrum sale and a $439M deconsolidation gain, plus $106M of interest income, minus $312M of interest expense and $89M of other net costs. It also reflects a $0.1M loss attributable to noncontrolling interests, so the flow lands on the $2,782M profit attributable to EchoStar.",
+  "oneTimers": [
+    "A $3,107M gain on the AT&T Transactions: EchoStar sold all its 3.45 GHz and 600 MHz spectrum licenses to AT&T, closing July 28, 2026, and received $20.25B in cash (a further $2.4B went into an FCC-mandated trust for wireless creditors). Spectrum licenses are the airwaves mobile networks run on \u2014 this sale is the quarter.",
+    "A $439M deconsolidation gain in Q3 ($10,168M over the first nine months). EchoStar still owns and manages the deconsolidated DISH/pay-TV and broadband subsidiaries, but their results no longer count in EchoStar's reported revenue or costs \u2014 which is why revenue fell 69% year over year."
+  ],
+  "footerNote": "EchoStar filed no separate earnings release for Q3 2026; every figure is from its Form 10-Q filed November 3, 2026. Segment figures are revenues from external customers in the 10-Q segment note (intersegment revenue excluded). Amounts are in $M to three decimals, as reported in thousands in the 10-Q. Chart adaptation: because net other income ($3,251M) is nearly three times revenue, this page anchors its chart on total money in \u2014 revenue plus the $3,107M AT&T spectrum gain and the $439M deconsolidation gain ($4,674M in all). Chart percentages are shares of total money in; node notes also give true shares of revenue. The $295M of interest and other net costs and the quarter's tax are shown charged against the gains. Reported figures are unchanged: revenue $1,128M, gross profit $477M, operating income $148M, net income $2,782M. One-off gains are orange; real sales are blue.",
+  "sources": [
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1415404/000110465926121675/sats-20260930x10q.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "AT&T spectrum gain",
+      "amount": 66.48
+    },
+    {
+      "label": "Deconsolidation gain",
+      "amount": 9.39
+    },
+    {
+      "label": "Wireless",
+      "amount": 19.37
+    },
+    {
+      "label": "Broadband & Satellite",
+      "amount": 2.52
+    },
+    {
+      "label": "Pay-TV + Other",
+      "amount": 2.24
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.93
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -5.02
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -1.85
+    },
+    {
+      "label": "Impairments & other",
+      "amount": -0.17
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -6.3
+    },
+    {
+      "label": "Tax",
+      "amount": -13.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 59.53
+    }
+  ],
+  "follow100Note": "Adapted for EchoStar: this table is per $100 of total money in (revenue + the two one-off gains), not per $100 of revenue \u2014 per $100 of revenue alone, the spectrum gain would be about $276 and the table would be meaningless. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-69%",
+      "statColor": "#cf5f4e",
+      "title": "A much smaller company on paper",
+      "text": "Revenue fell from $3,614M to $1,128M. Pay-TV was deconsolidated on June 30, 2026 and most of Broadband and Satellite Services on July 31 \u2014 EchoStar still owns and runs those businesses, but accounting rules no longer fold their sales into its results. Wireless, down just 3% to $905M, is now the core."
+    },
+    {
+      "stat": "$3.1B",
+      "statColor": "#3e8e5a",
+      "title": "The spectrum sale is the profit",
+      "text": "Selling its 3.45 GHz and 600 MHz licenses to AT&T produced a $3,107M gain, and deconsolidation added a further $439M gain. Together they turned $148M of operating income into a $2,782M net profit \u2014 one-off deal gains, not money from customers."
+    },
+    {
+      "stat": "$20.3B",
+      "statColor": "#3d7bc8",
+      "title": "Cash in, debt story changed",
+      "text": "AT&T paid $20.25B in cash at closing, with another $2.4B placed in an FCC-mandated trust for wireless creditors. Interest expense still cost $312M in the quarter, but the spectrum proceeds transform a balance sheet that a year ago supported a $12.8B quarterly loss."
+    }
+  ],
+  "adaptation": "Standard layout adapted: the chart anchors on total money in (revenue $1,127.6M + AT&T spectrum gain $3,107.0M + deconsolidation gain $439.0M = $4,673.6M) because EchoStar's net other income ($3,251.3M) is nearly three times its revenue. Flow balance checks on the adapted model: total money in = left after direct costs + cost of revenue ($4,673.6M = $4,022.8M + $650.8M); left after direct costs = one-off gains + operating income + operating expenses ($4,022.8M = $3,546.0M + $147.8M + $329.0M); operating income + other income - tax = net income ($147.8M + $3,251.3M - $616.8M = $2,782.2M), with the $294.7M of interest and other net costs and the $616.8M tax shown charged against the gains. Reported figures are unchanged: revenue $1,127.6M, gross profit $476.8M, operating income $147.8M, net income $2,782.2M.",
+  "adapted": true
+}
