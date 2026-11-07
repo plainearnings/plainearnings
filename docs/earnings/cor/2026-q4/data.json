@@ -1,0 +1,171 @@
+{
+  "ticker": "COR",
+  "company": "Cencora",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+5.5%",
+  "verdict": "Cencora grew revenue 5.5% to $88.4B and swung back to a $519M profit for shareholders, because gross profit jumped 22% while the big one-off charges that hit a year ago did not repeat.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$88.4B",
+      "note": "+5.5% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.71",
+      "note": "vs -$1.75 a year ago \u2014 net income attributable to Cencora was $519M"
+    },
+    {
+      "label": "Adjusted EPS (non-GAAP diluted)",
+      "value": "$4.66",
+      "note": "+21% YoY \u2014 excludes deal, legal and similar one-off items"
+    },
+    {
+      "label": "U.S. Healthcare Solutions revenue",
+      "value": "$78.3B",
+      "note": "+5.4% YoY \u2014 89% of total revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Healthcare Solutions",
+      "amountM": 78291,
+      "yoy": "+5.4%",
+      "note": "Delivering medicines and health products to hospitals, doctors and pharmacies in the US. Up 5.4% on overall market growth, more specialty products and more GLP-1 diabetes and weight-loss drugs, plus the OneOncology business bought in February 2026. Segment operating income was $998M, up 22%."
+    },
+    {
+      "name": "International Healthcare Solutions",
+      "amountM": 7798,
+      "yoy": "+5.1%",
+      "note": "The same work outside the US, including Canada and global specialty logistics (shipping delicate medicines worldwide). Up 5.1% as reported, and up 7.8% ignoring currency moves. Segment operating income was $152M, up 16%."
+    },
+    {
+      "name": "Other",
+      "amountM": 2266,
+      "yoy": "+10.1%",
+      "note": "Profarma (Brazil), MWI Animal Health (vet supplies) and consulting businesses. Cencora reports this group at $2,302M; it is shown here at $2,266M after removing $37M of sales between Cencora's own segments, plus a $1M rounding adjustment, so the segments sum exactly to total revenue. Segment operating income was $101M, up 36%."
+    }
+  ],
+  "flow": {
+    "revenueM": 88355,
+    "costOfRevenueM": 84754,
+    "grossProfitM": 3601,
+    "opex": [
+      {
+        "name": "Distribution, selling, and administrative",
+        "amountM": 2174,
+        "note": "Warehouses, delivery trucks, sales teams and the back office. Up 24% YoY, mainly because the OneOncology deal (February 2026) added a whole business. Shown $1M above the reported $2,173M so the rounded lines tie \u2014 see the footer note."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 266,
+        "note": "Spreading the cost of buildings, equipment and bought intangible assets (customer lists and similar) over their useful lives. Includes $116M of amortization of acquisition-related intangibles."
+      },
+      {
+        "name": "Litigation & opioid",
+        "amountM": 12,
+        "note": "Litigation and opioid-related expenses \u2014 legal costs and charges tied to opioid lawsuits and other litigation \u2014 treated by Cencora as one-off items."
+      },
+      {
+        "name": "Deal & integration costs",
+        "amountM": 177,
+        "note": "Acquisition and divestiture-related deal and integration expenses \u2014 costs of buying and selling businesses and combining them, including $94M of adjustments to equity units from the RCA and OneOncology deals."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 65,
+        "note": "Restructuring and other expenses \u2014 costs of reorganizing parts of the business \u2014 treated by Cencora as one-off items."
+      }
+    ],
+    "operatingIncomeM": 907,
+    "otherIncomeM": -120,
+    "taxM": 258,
+    "netIncomeM": 529
+  },
+  "otherDetail": "Other expense was $120M, net: $136M of interest expense, net, partly offset by $17M of other income, net. (The exact net was $119.6M, which rounds to $120M.)",
+  "takeaways": [
+    {
+      "stat": "+5.5%",
+      "statColor": "#3d7bc8",
+      "title": "Sales grew in every business",
+      "text": "Revenue rose 5.5% to $88.4B. US sales grew 5.4% to $78.3B, international sales grew 5.1% to $7.8B, and the smaller Other businesses grew 10.1% to $2.3B. Growth came from more units sold, including specialty products and GLP-1 medicines."
+    },
+    {
+      "stat": "4.08%",
+      "statColor": "#3e8e5a",
+      "title": "Each sale kept a little more",
+      "text": "Gross profit jumped 22% to $3.6B, and gross margin widened from 3.53% to 4.08% of revenue. The OneOncology acquisition lifted US margins, partly offset by fast-growing GLP-1 drugs, which carry thinner margins. For a distributor that keeps only about 4 cents of each sales dollar before running costs, that shift is large."
+    },
+    {
+      "stat": "$519M",
+      "statColor": "#3e8e5a",
+      "title": "Back to profit after a one-off-heavy year-ago quarter",
+      "text": "Net income attributable to Cencora was $519M, versus a $340M loss a year ago, when a $724M goodwill impairment on PharmaLex crushed the quarter. Leaving out one-offs, adjusted EPS was $4.66, up 21% \u2014 the clearest sign the underlying business improved."
+    }
+  ],
+  "oneTimers": [
+    "Acquisition and divestiture-related deal and integration costs were $177M in the quarter, including $94M of adjustments to RCA and OneOncology equity units and a $17M increase in the expected purchase price for RCA (contingent consideration \u2014 extra payment if the business performs).",
+    "Restructuring and other expenses were $65M and litigation and opioid-related expenses were $12M. Cencora treats both as one-off items outside its adjusted results.",
+    "Gross profit included two one-off boosts: a $38M gain from antitrust litigation settlements and a $6M LIFO credit (an inventory-accounting adjustment), partly offset by $15M of currency remeasurement expense in T\u00fcrkiye."
+  ],
+  "footerNote": "Reports in thousands; figures are rounded to $M. Distribution, selling and administrative is shown at $2,174M (reported $2,173M) so the rounded lines tie.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085926000038/exhibit991-q42026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. Healthcare Solutions",
+      "amount": 88.61
+    },
+    {
+      "label": "International Healthcare Solutions",
+      "amount": 8.83
+    },
+    {
+      "label": "Other",
+      "amount": 2.56
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -95.92
+    },
+    {
+      "label": "Distribution, selling & admin",
+      "amount": -2.46
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -0.3
+    },
+    {
+      "label": "Litigation & opioid",
+      "amount": -0.01
+    },
+    {
+      "label": "Deal & integration costs",
+      "amount": -0.2
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -0.29
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.6
+    }
+  ]
+}

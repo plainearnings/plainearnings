@@ -1,0 +1,138 @@
+{
+  "ticker": "DECK",
+  "company": "Deckers Brands",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+3.5%",
+  "verdict": "Deckers grew sales 3.5% to a record $1.5B as HOKA and UGG both rose, and a $46M tariff refund lifted margins and profit well beyond what sales growth alone would suggest.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.48B",
+      "note": "+3.5% YoY (+2.8% in constant currency \u2014 ignoring exchange-rate moves)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.31",
+      "note": "+27% YoY; about $0.28 of it came from tariff refunds (see one-offs)"
+    },
+    {
+      "label": "HOKA sales",
+      "value": "$677M",
+      "note": "+6.8% YoY \u2014 the growth brand"
+    },
+    {
+      "label": "Gross margin",
+      "value": "60.5%",
+      "note": "vs 56.2% a year ago; about 3.1 points of the gain came from the tariff refund"
+    }
+  ],
+  "segments": [
+    {
+      "name": "UGG",
+      "amountM": 787,
+      "yoy": "+3.5%",
+      "note": "Sheepskin boots and shoes \u2014 the larger brand this quarter as its autumn season starts. Net sales rose 3.5% to $786M, with a 61.2% gross margin (what is left after the direct cost of the products)."
+    },
+    {
+      "name": "HOKA",
+      "amountM": 677,
+      "yoy": "+6.8%",
+      "note": "Cushioned running shoes \u2014 the faster-growing brand. Net sales rose 6.8% to $677M, with a 59.9% gross margin."
+    },
+    {
+      "name": "Other brands",
+      "amountM": 17,
+      "yoy": "-54.3%",
+      "note": "Mainly Teva sandals, plus the last sales of brands being wound down (Koolaburra's standalone business was phased out). Net sales fell 54% to $17M because of that phase-out."
+    }
+  ],
+  "flow": {
+    "revenueM": 1481,
+    "costOfRevenueM": 586,
+    "grossProfitM": 895,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 506,
+        "note": "Running stores and websites, marketing the brands, and the back office. Rose 6% to $506M, growing a little faster than sales."
+      }
+    ],
+    "operatingIncomeM": 389,
+    "otherIncomeM": 14,
+    "taxM": 90,
+    "netIncomeM": 313
+  },
+  "follow100": [
+    {
+      "label": "UGG",
+      "amount": 53.14
+    },
+    {
+      "label": "HOKA",
+      "amount": 45.71
+    },
+    {
+      "label": "Other brands",
+      "amount": 1.15
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -39.57
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -34.17
+    },
+    {
+      "label": "Other income",
+      "amount": 0.95
+    },
+    {
+      "label": "Tax",
+      "amount": -6.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.13
+    }
+  ],
+  "otherDetail": "Other income was $14M, net: $15M of interest income on the company's cash pile (including $3M of interest paid on the tariff refunds), less $1M of interest expense, plus a small amount of other income.",
+  "takeaways": [
+    {
+      "stat": "+3.5%",
+      "statColor": "#3d7bc8",
+      "title": "Both big brands grew",
+      "text": "Net sales rose 3.5% to a record $1,481M. UGG grew 3.5% to $786M and HOKA grew 6.8% to $677M, while Other brands halved to $17M as Koolaburra was phased out. Wholesale sales rose 5.5% to $1,093M; direct-to-consumer sales (its own stores and websites) slipped 1.8% to $388M. International sales rose 9% and made up 44% of the total."
+    },
+    {
+      "stat": "60.5%",
+      "statColor": "#3e8e5a",
+      "title": "Margins jumped \u2014 mostly a refund",
+      "text": "Gross margin rose from 56.2% to 60.5%. About 3.1 points of that came from a $46M refund of tariffs (import taxes) previously paid, booked as a cut to cost of sales. Even without it, underlying margins improved, and operating income rose 19% to $389M."
+    },
+    {
+      "stat": "$313M",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose 17%, buybacks shrank the share count",
+      "text": "Net income rose to $313M from $268M, and EPS rose faster \u2014 up 27% to $2.31 \u2014 because buybacks cut the share count: Deckers repurchased $299M of shares in the quarter ($638M so far this year). It also raised full-year EPS guidance to $7.80\u2013$7.95."
+    }
+  ],
+  "oneTimers": [
+    "Deckers received $46M of IEEPA tariff refunds in the quarter \u2014 money back for import tariffs it had paid under a policy later unwound \u2014 plus $3M of interest on the refunds. The $46M was booked as a reduction in cost of sales and the $3M in interest income, adding about $0.28 to EPS after tax. It is a one-off: without it, gross margin would have been about 57.4% instead of 60.5%."
+  ],
+  "footerNote": "Reports in thousands; figures are rounded to $M. Cost of sales is shown as $586M (exact $585M) and UGG as $787M (exact $786M) so the lines add up.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/deckex991pressrelease-9302.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm"
+    }
+  ],
+  "follow100Note": "The $46M tariff refund sits inside cost of sales, as the company reported it."
+}

@@ -1,0 +1,144 @@
+{
+  "ticker": "DHI",
+  "company": "D. R. Horton",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "-3%",
+  "verdict": "D. R. Horton sold fewer homes and earned less as high mortgage rates and affordability pressure cooled demand, with a $91M write-down on rental projects adding to the squeeze, though it still made $742M and raised its dividend.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$9.4B",
+      "note": "-3% YoY, vs $9.7B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.67",
+      "note": "-12% YoY, vs $3.04 a year ago; attributable net income was $742M"
+    },
+    {
+      "label": "Homes closed",
+      "value": "22,915",
+      "note": "-2% YoY; home sales revenue was $8.4B"
+    },
+    {
+      "label": "Net sales orders",
+      "value": "18,619",
+      "note": "-7% YoY, worth $6.6B (-9%); the cancellation rate rose to 23% from 20%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Home sales",
+      "amountM": 8378,
+      "yoy": "-2%",
+      "note": "Selling newly built homes \u2014 22,915 homes closed in the quarter. 89% of all revenue, down 2% YoY."
+    },
+    {
+      "name": "Rental property sales",
+      "amountM": 647,
+      "yoy": "-20%",
+      "note": "Selling rental properties Horton built: 509 single-family rental homes for $134M and 2,182 multi-family rental units for $513M. Down 20% YoY."
+    },
+    {
+      "name": "Financial services",
+      "amountM": 219,
+      "yoy": "+0.4%",
+      "note": "Mortgage lending, title and insurance services for Horton's homebuyers. Roughly flat YoY."
+    },
+    {
+      "name": "Land/lot sales and other",
+      "amountM": 127,
+      "yoy": "+16%",
+      "note": "Selling developed lots and land, mostly through Forestar, Horton's lot-development business, after removing sales between Horton's own segments. Up 16% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 9371,
+    "costOfRevenueM": 7455,
+    "grossProfitM": 1916,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 989,
+        "note": "Sales offices, marketing, staff and running the company. Up 2% YoY even as revenue fell, so it took a bigger share of each sales dollar."
+      }
+    ],
+    "operatingIncomeM": 927,
+    "otherIncomeM": 87,
+    "taxM": 255,
+    "netIncomeM": 759
+  },
+  "otherDetail": "Other income was $87M, net \u2014 mainly interest income, plus other side income, gains and losses not tied directly to selling homes, land or lots. In Horton's own statement this line sits between running costs and pre-tax profit, so operating profit here is gross profit minus selling, general and administrative costs.",
+  "follow100": [
+    {
+      "label": "Home sales",
+      "amount": 89.4
+    },
+    {
+      "label": "Rental property sales",
+      "amount": 6.9
+    },
+    {
+      "label": "Financial services",
+      "amount": 2.34
+    },
+    {
+      "label": "Land/lot sales and other",
+      "amount": 1.36
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.55
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -10.55
+    },
+    {
+      "label": "Other income",
+      "amount": 0.93
+    },
+    {
+      "label": "Tax",
+      "amount": -2.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.1
+    }
+  ],
+  "follow100Note": "The rows reconcile to the profit row within a cent or two of rounding. The flow uses consolidated net income of $759M; $741.8M was attributable to D. R. Horton after $17.5M went to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "-3%",
+      "statColor": "#cf5f4e",
+      "title": "Demand cooled in the quarter",
+      "text": "Revenue fell 3% to $9.4B. Homes closed fell 2% to 22,915 and new orders fell 7% to 18,619 homes, as rising mortgage rates, affordability constraints and cautious buyers pressured demand, in the company's words. Horton adjusted prices and buyer incentives community by community and expects incentives to stay elevated in fiscal 2027."
+    },
+    {
+      "stat": "10.8%",
+      "statColor": "#5b6b7c",
+      "title": "Margins narrowed",
+      "text": "Pre-tax profit fell 16% to $1.0B, a 10.8% pre-tax margin versus 12.4% a year ago. Homebuilding pre-tax profit fell 11% to $891M. Forestar (lots) added $79M of pre-tax profit and financial services $78M, which cushioned the fall."
+    },
+    {
+      "stat": "$91M",
+      "statColor": "#cf5f4e",
+      "title": "A rental write-down weighed on profit",
+      "text": "The rental business lost $25M before tax, including a $91M inventory impairment \u2014 writing down the value of nine multi-family rental projects to what they are now expected to fetch, booked inside cost of sales. Attributable net income was $742M, down 18%. Horton still bought back $1.4B of its own shares in the quarter and raised the quarterly dividend 11% to $0.50."
+    }
+  ],
+  "oneTimers": [
+    "Cost of sales includes $91.4M of inventory impairment charges in the rental segment, writing down nine multi-family rental projects. Total inventory and land option charges in the quarter were $134.3M across all segments \u2014 charges taken when land or projects are worth less than Horton paid or expected, or when it walks away from land options."
+  ],
+  "footerNote": "Reports in millions with one decimal; figures are rounded to whole $M (gross profit $1,916M, exact $1,916.6M, so the lines add up).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm"
+    }
+  ]
+}

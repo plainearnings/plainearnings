@@ -1,0 +1,182 @@
+{
+  "ticker": "DE",
+  "company": "Deere & Company",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-02",
+  "reportedDate": "2026-08-20",
+  "revenueYoY": "+5%",
+  "verdict": "Deere grew revenue 5% to $12.6B and lifted profit to $1.4B as construction and small-farm equipment strength outweighed a still-soft market for its biggest farm machines.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$12.6B",
+      "note": "+5% YoY \u2014 net sales and revenues of $12,608M"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$5.10",
+      "note": "vs $4.75 a year ago, on net income attributable to Deere of $1,379M"
+    },
+    {
+      "label": "Construction & Forestry sales",
+      "value": "$3.6B",
+      "note": "+18% YoY, with operating profit up 84% to $436M"
+    },
+    {
+      "label": "Full-year guidance",
+      "value": "$4.75B\u2013$5.00B",
+      "note": "Net income attributable to Deere expected for fiscal 2026 \u2014 guidance was raised with this report"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Production and Precision Agriculture",
+      "amountM": 3998,
+      "yoy": "-6%",
+      "note": "The biggest farm machines \u2014 large tractors, combines and planters \u2014 plus precision-ag technology. Net sales fell 6% on lower shipment volumes, partly offset by higher prices. Operating profit was $527M, a 13.2% margin."
+    },
+    {
+      "name": "Small Agriculture and Turf",
+      "amountM": 3383,
+      "yoy": "+12%",
+      "note": "Smaller tractors, lawn and turf equipment. Net sales rose 12% on higher volumes and prices. Operating profit jumped 28% to $622M, an 18.4% margin \u2014 the most profitable equipment business this quarter."
+    },
+    {
+      "name": "Construction and Forestry",
+      "amountM": 3618,
+      "yoy": "+18%",
+      "note": "Construction, roadbuilding and forestry machines. Net sales rose 18% on higher volumes and prices, and operating profit almost doubled to $436M, a 12.1% margin."
+    },
+    {
+      "name": "Finance and interest income",
+      "amountM": 1353,
+      "yoy": "-5%",
+      "note": "Interest and fees earned on loans and leases that finance equipment purchases \u2014 mostly from the Financial Services business ($1,253M of it on an external basis), which earned net income of $219M in the quarter.",
+      "compact": true
+    },
+    {
+      "name": "Other income",
+      "amountM": 256,
+      "yoy": "+9%",
+      "note": "Miscellaneous revenue outside equipment sales and financing, as reported on the face of the income statement."
+    }
+  ],
+  "flow": {
+    "revenueM": 12608,
+    "costOfRevenueM": 7939,
+    "grossProfitM": 4669,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 567,
+        "note": "Designing new machines and precision-agriculture technology \u2014 guidance systems, automation and software. About flat vs a year ago."
+      },
+      {
+        "name": "Selling, administrative and general",
+        "amountM": 1220,
+        "note": "The dealer network, marketing and the back office. About flat vs a year ago, so sales growth dropped through to profit."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 290,
+        "note": "Mostly the running costs of the Financial Services loan and lease book that are not interest \u2014 credit costs and lease expenses, net of related items."
+      }
+    ],
+    "operatingIncomeM": 2592,
+    "otherIncomeM": -710,
+    "equityM": 24,
+    "taxM": 529,
+    "netIncomeM": 1377
+  },
+  "follow100": [
+    {
+      "label": "Production and Precision Agriculture",
+      "amount": 31.71
+    },
+    {
+      "label": "Small Agriculture and Turf",
+      "amount": 26.83
+    },
+    {
+      "label": "Construction and Forestry",
+      "amount": 28.7
+    },
+    {
+      "label": "Finance and interest income",
+      "amount": 10.73
+    },
+    {
+      "label": "Other income",
+      "amount": 2.03
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.97
+    },
+    {
+      "label": "Research and development",
+      "amount": -4.5
+    },
+    {
+      "label": "Selling, administrative and general",
+      "amount": -9.68
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -2.3
+    },
+    {
+      "label": "Equity in earnings of affiliates",
+      "amount": 0.19
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.63
+    },
+    {
+      "label": "Tax",
+      "amount": -4.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.92
+    }
+  ],
+  "otherDetail": "Interest expense of $710M, shown as other expense. Most of it \u2014 $661M inside Financial Services \u2014 is the cost of borrowing the money that Deere then lends to farmers and dealers to buy equipment, so it works like a cost of the loan book rather than ordinary corporate debt interest. The flow also adds $24M of equity income from part-owned affiliates, shown as its own line in the chart math.",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came from the smaller machines",
+      "text": "Total net sales and revenues rose 5% to $12,608M. Small Agriculture & Turf grew 12% to $3,383M and Construction & Forestry grew 18% to $3,618M, more than covering a 6% fall in Production & Precision Agriculture \u2014 the biggest farm machines \u2014 to $3,998M as farmers held back in a soft large-ag market."
+    },
+    {
+      "stat": "$1.4B",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose even at the cycle's low point",
+      "text": "Net income was $1,377M in total, $1,379M of it attributable to Deere shareholders (outside partners in some subsidiaries lost $2M), or $5.10 per share vs $4.75 a year ago. Deere calls 2026 the bottom of the farm-equipment cycle and raised full-year net income guidance to $4.75B\u2013$5.00B."
+    },
+    {
+      "stat": "$110M",
+      "statColor": "#5b6b7c",
+      "title": "A tariff recovery flattered production costs",
+      "text": "The quarter includes $110M of tariff recoveries ($382M so far this year) booked mainly against production costs. Leaving that one-off benefit aside, margins were helped by higher prices and volumes in two of the three equipment businesses, partly offset by higher production costs."
+    }
+  ],
+  "oneTimers": [
+    "Deere recorded $110M of tariff recoveries in the quarter ($382M in the first nine months of fiscal 2026), mainly credited against production costs. It is a refund-style benefit, not normal selling profit, so this quarter's margins look a little better than the underlying run rate."
+  ],
+  "footerNote": "Deere reports no operating-income line; this chart adapts it \u2014 interest is shown as other expense, equity income below operating profit.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/de-20260802x10q.htm"
+    }
+  ],
+  "follow100Note": "All figures as reported, in $M: cost of revenue is cost of sales ($7,939M); operating expenses are research and development, selling/administrative/general, and other operating expenses; interest expense ($710M) is shown as other expense and equity income ($24M) below operating profit \u2014 revenues $12,608M less total costs $10,726M equals pre-tax income of $1,882M, and $1,882M less $529M of tax plus $24M of equity income equals total net income of $1,377M. Of that, $1,379M was attributable to Deere & Company because noncontrolling interests recorded a $2M loss."
+}

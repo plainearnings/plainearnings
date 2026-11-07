@@ -1,0 +1,147 @@
+{
+  "ticker": "DGX",
+  "company": "Quest Diagnostics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+10%",
+  "verdict": "Quest Diagnostics grew revenue 10% to $3.1B as test volumes jumped 15%, and wider margins lifted profit attributable to shareholders 28% to $312M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.1B",
+      "note": "+10.0% YoY, vs $2.8B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.78",
+      "note": "+29% YoY, vs $2.16 a year ago; adjusted EPS was $3.00"
+    },
+    {
+      "label": "Test volume",
+      "value": "+14.5%",
+      "note": "Requisitions (test orders) rose 14.5%, 14.4% organically; revenue per requisition fell 4.2% on mix"
+    },
+    {
+      "label": "Diagnostic Information Services revenue",
+      "value": "$3.0B",
+      "note": "+10.2% YoY \u2014 98% of all revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Diagnostic Information Services",
+      "amountM": 3035,
+      "yoy": "+10%",
+      "note": "Laboratory testing and the diagnostic insights that come from it, sold to doctors, hospitals, health plans and consumers. 98% of revenue, up 10% YoY."
+    },
+    {
+      "name": "Diagnostic Solutions",
+      "amountM": 62,
+      "yoy": "+2%",
+      "note": "Risk-assessment services for insurers and healthcare software for providers and payers. The small remainder of revenue, up 2% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 3097,
+    "costOfRevenueM": 2055,
+    "grossProfitM": 1042,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 523,
+        "note": "Selling tests and running the company \u2014 sales, billing, admin and head office. Up 4% YoY, so it shrank as a share of sales."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 37,
+        "note": "Amortization of intangible assets \u2014 writing down the value of brands, customer relationships and other intangibles bought in acquisitions, spread over their lives \u2014 a bookkeeping charge, not cash."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 3,
+        "note": "Small net operating charges, mostly restructuring and integration costs and changes in the value of amounts still owed for past acquisitions."
+      }
+    ],
+    "operatingIncomeM": 479,
+    "otherIncomeM": -63,
+    "equityM": 9,
+    "taxM": 99,
+    "netIncomeM": 326
+  },
+  "otherDetail": "Other expense was $63M, net: $61M of net interest expense plus $2M of other expense. A separate $9M of equity earnings \u2014 Quest's share of profit from joint ventures it part-owns, shown after tax \u2014 is the equityM line. The flow uses consolidated net income of $326M; $312M of it was attributable to Quest shareholders after $14M went to noncontrolling interests (partners who own stakes in some Quest businesses).",
+  "follow100": [
+    {
+      "label": "Diagnostic Information Services",
+      "amount": 98.0
+    },
+    {
+      "label": "Diagnostic Solutions",
+      "amount": 2.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.35
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -16.89
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -1.19
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.1
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.74
+    },
+    {
+      "label": "Tax",
+      "amount": -3.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.53
+    }
+  ],
+  "follow100Note": "The other-expense row combines $63M of non-operating expense with $9M of equity earnings from joint ventures, for a net $54M. Profit is the consolidated $326M; $312M of it was attributable to Quest shareholders.",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Volume did the growing",
+      "text": "Revenue rose 10.0% to $3.1B, driven by requisition volume \u2014 the number of test orders \u2014 up 14.5% (14.4% without acquisitions), across doctors, hospitals and direct-to-consumer channels. Revenue per requisition fell 4.2% on the mix of tests and payers. Quest raised full-year revenue guidance to $12.07B\u2013$12.11B."
+    },
+    {
+      "stat": "15.5%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened as costs grew slowly",
+      "text": "Operating margin \u2014 operating profit as a share of revenue \u2014 rose to 15.5% from 13.7% a year ago, as operating income jumped 24% to $479M. The cost of running labs rose 10% with volume, but selling and admin costs rose only 4%, helped by automation and AI productivity gains."
+    },
+    {
+      "stat": "$312M",
+      "statColor": "#3e8e5a",
+      "title": "Bottom line rose 28%",
+      "text": "Net income attributable to Quest rose 28% to $312M and diluted EPS rose 29% to $2.78. Consolidated net income was $326M, including $14M belonging to noncontrolling interests. Leaving out amortization and small one-off items, Quest's own adjusted EPS was $3.00."
+    }
+  ],
+  "oneTimers": [
+    "Operating costs include $3M of restructuring and integration charges (workforce reductions and combining bought businesses) and $4M of other charges, mainly an increase in the estimated amount still owed for past acquisitions. Partly offsetting them were about $6M of other gains, including $4M of insurance recoveries for legal matters booked inside selling and admin costs."
+  ],
+  "footerNote": "Quest reports in whole $M. Segment revenues are as reported in the release and the 10-Q (Diagnostic Information Services $3,035M and Diagnostic Solutions $62M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000097/dgx093020268-kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000108/dgx-20260930.htm"
+    }
+  ]
+}

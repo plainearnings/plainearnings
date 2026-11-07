@@ -1,0 +1,147 @@
+{
+  "ticker": "DG",
+  "company": "Dollar General",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-27",
+  "revenueYoY": "+5.2%",
+  "verdict": "Dollar General grew sales 5.2% to $11.3B and profit rose by a third, helped by more shoppers in every category, wider margins and a one-off boost from tariff refunds.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$11.3B",
+      "note": "+5.2% YoY, vs $10.7B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.48",
+      "note": "+33% YoY, vs $1.86 a year ago"
+    },
+    {
+      "label": "Same-store sales",
+      "value": "+3.5%",
+      "note": "Customer traffic +2.0% and average spend per visit +1.5%"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$769M",
+      "note": "+29% YoY \u2014 6.8% of sales, vs 5.6% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Consumables",
+      "amountM": 9262,
+      "yoy": "+5%",
+      "note": "Food, cleaning, health and other everyday essentials \u2014 the core of the store and 82% of sales. Up 5% YoY."
+    },
+    {
+      "name": "Seasonal",
+      "amountM": 1188,
+      "yoy": "+7%",
+      "note": "Seasonal goods, holidays and events. The fastest-growing category, up 7% YoY."
+    },
+    {
+      "name": "Home products",
+      "amountM": 537,
+      "yoy": "+5%",
+      "note": "Things for the home \u2014 kitchen, storage and decor. Up 5% YoY."
+    },
+    {
+      "name": "Apparel",
+      "amountM": 303,
+      "yoy": "+5%",
+      "note": "Clothing. The smallest category, up 5% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 11290,
+    "costOfRevenueM": 7609,
+    "grossProfitM": 3681,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2912,
+        "note": "Running the stores and the company \u2014 staff, rent, depreciation and the back office. Flat as a share of sales at 25.8%."
+      }
+    ],
+    "operatingIncomeM": 769,
+    "otherIncomeM": -43,
+    "taxM": 176,
+    "netIncomeM": 550
+  },
+  "otherDetail": "Other expense was $43M of net interest expense \u2014 interest paid on borrowings, net of interest earned.",
+  "follow100": [
+    {
+      "label": "Consumables",
+      "amount": 82.04
+    },
+    {
+      "label": "Seasonal",
+      "amount": 10.52
+    },
+    {
+      "label": "Home products",
+      "amount": 4.76
+    },
+    {
+      "label": "Apparel",
+      "amount": 2.68
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -67.4
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -25.79
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -1.56
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.87
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.2%",
+      "statColor": "#3d7bc8",
+      "title": "Sales grew in every category",
+      "text": "Net sales rose 5.2% to $11.3B. Same-store sales \u2014 sales at stores open at least a year \u2014 rose 3.5%, from 2.0% more customer traffic and 1.5% more spent per visit, and all four categories grew, led by seasonal at 7.4%. It was the fifth straight quarter of traffic growth."
+    },
+    {
+      "stat": "32.6%",
+      "statColor": "#3e8e5a",
+      "title": "Each sale kept more profit",
+      "text": "Gross profit was $3.7B, and gross margin \u2014 the share of each sales dollar left after buying the goods \u2014 rose to 32.6% from 31.3% a year ago. Tariff refunds added about 81 basis points (0.81 of a percentage point), and distribution costs and the inventory charge known as LIFO were lower, partly offset by more markdowns and higher transport costs."
+    },
+    {
+      "stat": "$2.48",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose much faster than sales",
+      "text": "Net income rose 34% to $550M and diluted EPS rose 33% to $2.48, because operating profit jumped 29% to $769M while store running costs stayed flat as a share of sales. Management raised full-year EPS guidance to $7.80\u2013$8.00."
+    }
+  ],
+  "oneTimers": [
+    "Tariff refunds, after the money Dollar General reinvested from them, added about $0.25 to diluted EPS this quarter and about 66 basis points (0.66 of a percentage point) to operating margin. The company does not expect a material benefit from them in the second half of the year, so this boost should not be treated as the normal run rate."
+  ],
+  "footerNote": "Reports in thousands; figures are rounded to $M. Consumables is shown as $9,262M (exact $9,263.0M) so the categories add up to net sales.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926101918/tm2623914d1_ex99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926101932/dg-20260731x10q.htm"
+    }
+  ]
+}

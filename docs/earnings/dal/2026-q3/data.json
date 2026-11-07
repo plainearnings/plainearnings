@@ -1,0 +1,195 @@
+{
+  "ticker": "DAL",
+  "company": "Delta Air Lines",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-09",
+  "verdict": "Delta's revenue hit a September-quarter record of $20.2B, up 21%, but a 69% jump in fuel costs cut operating income to $1.5B and net income fell to $756M from $1.4B a year ago.",
+  "revenueYoY": "+21%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+21%",
+      "note": "Total operating revenue was a September-quarter record $20.2B, vs $16.7B a year ago; excluding the refinery's third-party sales, adjusted revenue rose 16% to $17.6B"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.15",
+      "note": "vs $2.17 a year ago; adjusted EPS was $1.72, mainly excluding mark-to-market losses on equity investments"
+    },
+    {
+      "label": "Aircraft fuel cost",
+      "value": "$4.4B",
+      "note": "Aircraft fuel and related taxes of $4,351M, up 69% from $2,570M a year ago \u2014 the main reason profit fell despite record revenue"
+    },
+    {
+      "label": "Passenger revenue",
+      "value": "$15.5B",
+      "note": "Up 15% vs a year ago on flat capacity, with premium products growing 18%; cargo revenue rose 29% to $301M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Passenger",
+      "amountM": 15534,
+      "note": "Tickets and travel-related fees \u2014 Delta's core business, about 77% of revenue. Up 15% on flat capacity, as higher fares (yields) and fuller planes offset no growth in seats; premium-cabin revenue grew 18%.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Cargo",
+      "amountM": 301,
+      "note": "Freight and mail carried in the bellies of passenger planes. Up 29%, split roughly evenly between more volume and higher prices.",
+      "yoy": "+29%",
+      "compact": true
+    },
+    {
+      "name": "Other",
+      "amountM": 4351,
+      "note": "Everything else: the Monroe oil refinery's sales to third parties ($2,601M), loyalty-program revenue from partners such as credit-card issuers, and maintenance (MRO) work sold to other airlines. Up 48%, mostly because refinery sales rose with fuel prices.",
+      "yoy": "+48%"
+    }
+  ],
+  "flow": {
+    "revenueM": 20186,
+    "costOfRevenueM": 10859,
+    "grossProfitM": 9327,
+    "opex": [
+      {
+        "name": "Salaries and related costs",
+        "amountM": 4822,
+        "note": "Pay and benefits for Delta's employees \u2014 its largest single cost. Up 9% vs a year ago."
+      },
+      {
+        "name": "Passenger commissions and other selling expenses",
+        "amountM": 703,
+        "note": "Commissions and the cost of selling tickets, including card fees. Shown as selling expenses.",
+        "shortName": "Selling expenses"
+      },
+      {
+        "name": "Profit sharing",
+        "amountM": 389,
+        "note": "The share of profits paid out to employees under Delta's profit-sharing plan."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 673,
+        "note": "The cost of aircraft, engines and equipment wearing out over time."
+      },
+      {
+        "name": "Passenger service",
+        "amountM": 494,
+        "note": "Looking after passengers \u2014 food, drinks, in-flight entertainment and amenities."
+      },
+      {
+        "name": "Aircraft rent",
+        "amountM": 159,
+        "note": "Rent for leased aircraft."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 633,
+        "note": "All remaining operating costs not listed separately on the statement.",
+        "shortName": "Other"
+      }
+    ],
+    "operatingIncomeM": 1454,
+    "otherIncomeM": -380,
+    "taxM": 318,
+    "netIncomeM": 756
+  },
+  "follow100": [
+    {
+      "label": "Passenger",
+      "amount": 76.95
+    },
+    {
+      "label": "Cargo",
+      "amount": 1.49
+    },
+    {
+      "label": "Other",
+      "amount": 21.55
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -53.79
+    },
+    {
+      "label": "Salaries",
+      "amount": -23.89
+    },
+    {
+      "label": "Selling expenses",
+      "amount": -3.48
+    },
+    {
+      "label": "Profit sharing",
+      "amount": -1.93
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.33
+    },
+    {
+      "label": "Passenger service",
+      "amount": -2.45
+    },
+    {
+      "label": "Aircraft rent",
+      "amount": -0.79
+    },
+    {
+      "label": "Other",
+      "amount": -3.14
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.88
+    },
+    {
+      "label": "Tax",
+      "amount": -1.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.75
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Cost of revenue groups the direct costs of flying and of the ancillary businesses \u2014 aircraft fuel and related taxes ($4,351M), ancillary businesses and refinery operating expense ($2,868M, combining the statement's refinery expense of $2,601M and MRO expense of $267M), contracted services ($1,277M), landing fees and other rents ($1,021M), aircraft maintenance materials and outside repairs ($662M) and regional carrier expense ($680M). Every other operating expense line is an operating expense in the chart, so each statement line sits in exactly one bucket.",
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue on flat capacity",
+      "text": "Revenue rose 21% to a September-quarter record $20,186M. Passenger revenue grew 15% to $15,534M with no growth in seats \u2014 fuller planes and higher fares did the work \u2014 while cargo rose 29% and loyalty revenue grew 18%. Delta guided to roughly 20% revenue growth again in the December quarter."
+    },
+    {
+      "stat": "+69%",
+      "statColor": "#cf5f4e",
+      "title": "Fuel ate the growth",
+      "text": "Aircraft fuel and related taxes cost $4,351M, up 69% from $2,570M a year ago in one of the most elevated fuel environments in years. Operating income fell to $1,454M from $1,684M despite the record top line, and net income fell to $756M from $1,417M. Delta still expects full-year pre-tax profit of roughly $4.5B, absorbing about $6B of extra fuel costs this year."
+    },
+    {
+      "stat": "$1.72",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted profit held up better",
+      "text": "GAAP EPS was $1.15, but excluding a $218M mark-to-market loss on equity investments and similar items, adjusted EPS was $1.72 and adjusted pre-tax income was $1.5B \u2014 matching last year. Delta guided to full-year EPS of $5.10\u2013$5.60 and about $2.5B of free cash flow."
+    }
+  ],
+  "oneTimers": [
+    "Non-operating results include a $218M mark-to-market loss on equity investments \u2014 paper losses on stakes Delta holds, which it excludes from adjusted earnings. That gap is most of the difference between GAAP EPS of $1.15 and adjusted EPS of $1.72."
+  ],
+  "otherDetail": "Interest expense, net of $146M and a $218M loss on investments, plus $18M of miscellaneous costs, partly offset by a $2M gain on early repayment of debt \u2014 a net $380M cost below operating income.",
+  "footerNote": "Flow adaptation: airlines report no gross-profit line; cost of revenue here groups the direct costs of flying (see the $100 note for the breakdown).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000035/deltaairlinesannouncessept.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000038/dal-20260930.htm"
+    }
+  ]
+}

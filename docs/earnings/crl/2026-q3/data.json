@@ -1,0 +1,147 @@
+{
+  "ticker": "CRL",
+  "company": "Charles River Laboratories",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-04",
+  "verdict": "Charles River's profit jumped to $333M only because a one-off $246M tax-reserve reversal flattered the quarter, while reported revenue fell 2% on divestitures even as underlying organic sales grew 5%.",
+  "revenueYoY": "-2%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$983M",
+      "note": "-2.2% YoY reported, vs $1,005M a year ago; +4.7% organic (stripping out deals, divestitures and currency)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.86",
+      "note": "vs $1.10 a year ago \u2014 includes a $5.06 one-off tax benefit (see one-offs)"
+    },
+    {
+      "label": "EPS (non-GAAP diluted)",
+      "value": "$3.09",
+      "note": "+27% YoY \u2014 the company's underlying measure, leaving out the tax reversal and deal items"
+    },
+    {
+      "label": "Tax-reserve reversal benefit",
+      "value": "$246M",
+      "note": "One-off gain from reversing acquired tax reserves \u2014 $201M in the tax line plus $45M in running costs"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Discovery and Safety Assessment (DSA)",
+      "amountM": 596,
+      "yoy": "-1%",
+      "note": "Testing new drugs for safety before human trials \u2014 the largest business. Reported revenue fell 1% after divesting some European sites, but organic revenue rose 6% on higher safety-assessment study volume."
+    },
+    {
+      "name": "Research Models and Services (RMS)",
+      "amountM": 208,
+      "yoy": "-3%",
+      "note": "Research models (animals bred for labs) and related services. Reported revenue fell 3% after the Cell Solutions divestiture; organic revenue fell 1% on softer demand for large research models."
+    },
+    {
+      "name": "Manufacturing Solutions",
+      "amountM": 179,
+      "yoy": "-6%",
+      "note": "Making and testing biologic medicines and keeping labs sterile and safe. Reported revenue fell 6% after the CDMO divestiture (contract drug manufacturing); organic revenue rose 7% on strong biologics testing and microbial solutions demand."
+    }
+  ],
+  "flow": {
+    "revenueM": 983,
+    "costOfRevenueM": 625,
+    "grossProfitM": 358,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 140,
+        "note": "Selling and running the company. Down sharply from $178M a year ago, helped by a $45M reversal of non-income tax reserves in DSA (see one-offs). Shown as $140M so the rounded lines tie \u2014 exact figure $140.6M."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 15,
+        "note": "Spreading the cost of intangible assets bought in past deals, such as customer relationships, over their useful lives. Down from $27M a year ago after divestitures."
+      }
+    ],
+    "operatingIncomeM": 203,
+    "otherIncomeM": -32,
+    "taxM": -163,
+    "netIncomeM": 334
+  },
+  "otherDetail": "A net $32M cost below operating profit: interest expense of $29M, less $1M of interest income, plus $4M of other expense, net.",
+  "follow100": [
+    {
+      "label": "Discovery and Safety Assessment (DSA)",
+      "amount": 60.63
+    },
+    {
+      "label": "Research Models and Services (RMS)",
+      "amount": 21.16
+    },
+    {
+      "label": "Manufacturing Solutions",
+      "amount": 18.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -63.58
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -14.24
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.53
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.26
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 16.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 33.98
+    }
+  ],
+  "follow100Note": "The tax row adds money this quarter instead of taking it: the tax-reserve reversal turned the tax line into a large benefit, which is why profit looks so high next to operating income.",
+  "takeaways": [
+    {
+      "stat": "$246M",
+      "statColor": "#5b6b7c",
+      "title": "A one-off tax reversal made the quarter",
+      "text": "Reversing acquired tax reserves \u2014 after newly enacted tax legislation and completing tax requirements in a foreign jurisdiction \u2014 added $245.6M, or $5.06 per share: a $201M benefit inside the tax line and a $44.6M benefit inside DSA running costs. That is why GAAP EPS was $6.86 while the company's non-GAAP EPS, which leaves the reversal out, was $3.09."
+    },
+    {
+      "stat": "+4.7%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying sales grew; reported sales fell",
+      "text": "Reported revenue fell 2.2% to $982.7M because of the May 2026 divestitures (the CDMO and Cell Solutions businesses and some European Discovery sites). On an organic basis revenue rose 4.7% \u2014 DSA up 5.9% and Manufacturing up 7.4%, partly offset by RMS down 0.6%."
+    },
+    {
+      "stat": "$3.09",
+      "statColor": "#3e8e5a",
+      "title": "Core earnings still improved",
+      "text": "Even without the tax reversal, non-GAAP EPS rose 27% to $3.09 and the non-GAAP operating margin widened to 23.0% from 19.7%, helped by the CDMO divestiture and more safety-assessment work. Consolidated net income was $334M ($333M attributable to shareholders), vs $56M a year ago, and the company raised its 2026 guidance."
+    }
+  ],
+  "oneTimers": [
+    "The quarter includes a $245.6M benefit ($5.06 per diluted share) from reversing acquired tax reserves, following newly enacted tax legislation clarifying the company's obligations and completion of certain tax requirements in a foreign jurisdiction: $201M was recognised as a benefit in the tax line \u2014 turning it into a $163.8M benefit for the quarter \u2014 and $44.6M as a benefit in selling, general and administrative costs for non-income tax reserves. The company treats it as one-off and excludes it from non-GAAP results."
+  ],
+  "footerNote": "In thousands, rounded to $M; SG&A shown as $140M (exact $140.6M), tax benefit as $163M (exact $163.8M), so lines tie.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000156/crl3q26earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000157/crl-20260926.htm"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "ticker": "CSCO",
+  "company": "Cisco",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-07-25",
+  "reportedDate": "2026-08-12",
+  "verdict": "Cisco's revenue jumped 18% to a record $17.3B as networking demand surged, lifting net income 51% to $3.9B even after a $511M restructuring charge.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$17.3B",
+      "note": "+18% YoY, vs $14.7B a year ago \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.97",
+      "note": "+52% YoY, vs $0.64 a year ago; non-GAAP EPS was $1.22"
+    },
+    {
+      "label": "Networking revenue",
+      "value": "$9.8B",
+      "note": "+28% YoY \u2014 the core business and the growth engine this quarter"
+    },
+    {
+      "label": "AI infrastructure orders",
+      "value": "$4.0B",
+      "note": "Orders from hyperscalers (the big cloud builders) in Q4 alone; $9.3B for the full fiscal year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Networking",
+      "amountM": 9791,
+      "yoy": "+28%",
+      "note": "Switches, routers and the gear that moves data \u2014 the core business. Up 28% as data-center and AI build-outs drove what Cisco calls a networking supercycle; networking product orders rose 40%."
+    },
+    {
+      "name": "Security",
+      "amountM": 2226,
+      "yoy": "+14%",
+      "note": "Software and services that protect networks and users. Up 14%."
+    },
+    {
+      "name": "Collaboration",
+      "amountM": 1167,
+      "yoy": "+12%",
+      "note": "Webex meetings, calling and contact-center tools. Up 12%."
+    },
+    {
+      "name": "Observability",
+      "amountM": 275,
+      "yoy": "+6%",
+      "note": "Software that monitors apps and systems to spot problems early. Up 6% \u2014 the smallest product line."
+    },
+    {
+      "name": "Services",
+      "amountM": 3793,
+      "yoy": "0%",
+      "note": "Support, maintenance and consulting attached to the products. Flat vs a year ago at $3,793M."
+    }
+  ],
+  "flow": {
+    "revenueM": 17252,
+    "costOfRevenueM": 6189,
+    "grossProfitM": 11063,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 2431,
+        "note": "Building new products and features. Up 2% YoY, from $2,380M."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 2952,
+        "note": "Selling products and supporting customers and partners. Up 5% YoY, from $2,818M."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 679,
+        "note": "Finance, legal and running the company. Down 4% YoY, from $706M."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 226,
+        "note": "Spreading the cost of technology bought in past acquisitions over its useful life. Down from $254M a year ago."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 511,
+        "note": "Restructuring and other charges \u2014 costs of the restructuring plan announced in May 2026. Up from just $35M a year ago \u2014 see one-offs."
+      }
+    ],
+    "operatingIncomeM": 4264,
+    "otherIncomeM": 669,
+    "taxM": 1074,
+    "netIncomeM": 3859
+  },
+  "otherDetail": "Interest and other income, net, added $669M: $822M of other income, net \u2014 mainly gains on investments \u2014 plus $220M of interest income, less $373M of interest expense.",
+  "follow100": [
+    {
+      "label": "Networking",
+      "amount": 56.75
+    },
+    {
+      "label": "Security",
+      "amount": 12.9
+    },
+    {
+      "label": "Collaboration",
+      "amount": 6.76
+    },
+    {
+      "label": "Observability",
+      "amount": 1.59
+    },
+    {
+      "label": "Services",
+      "amount": 21.99
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.87
+    },
+    {
+      "label": "Research & development",
+      "amount": -14.09
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -17.11
+    },
+    {
+      "label": "General & admin",
+      "amount": -3.94
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.31
+    },
+    {
+      "label": "Restructuring",
+      "amount": -2.96
+    },
+    {
+      "label": "Other income",
+      "amount": 3.88
+    },
+    {
+      "label": "Tax",
+      "amount": -6.23
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, led by networking",
+      "text": "Revenue hit a record $17,252M, up 18%. Product revenue rose 24% while services were flat. Networking jumped 28% to $9,791M, Security rose 14%, Collaboration 12% and Observability 6%. Total product orders rose 35%, and AI infrastructure orders from hyperscalers were $4B in the quarter."
+    },
+    {
+      "stat": "$3.9B",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew much faster than revenue",
+      "text": "Operating income rose 38% to $4,264M, a 24.7% margin, and net income rose 51% to $3,859M, or $0.97 per diluted share. Interest and other income added a net $669M, helped by investment gains, and cash flow from operations was $5,386M, up 27%."
+    },
+    {
+      "stat": "$511M",
+      "statColor": "#cf5f4e",
+      "title": "A big restructuring charge sits in the costs",
+      "text": "Restructuring and other charges jumped to $511M from $35M a year ago under the plan announced on May 13, 2026, which Cisco expects to be substantially complete by the end of fiscal 2027. Total GAAP operating expenses rose 10% to $6,799M; leaving out restructuring, share-based pay and similar items, they rose 5%."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges were $511M in Q4, up from $35M a year ago, under the restructuring plan announced on May 13, 2026. Cisco excludes these charges from its non-GAAP results and expects the plan to be substantially complete by the end of fiscal 2027.",
+    "Other income, net of $822M was boosted by about $869M of gains on investments (before smaller offsetting losses) that Cisco also excludes from non-GAAP results. It is the main reason interest and other income swung to a $669M gain from an $88M loss a year ago."
+  ],
+  "footerNote": "As reported in $M in the Q4 FY26 release; the lines tie exactly. The revenue split is the release's product groups plus Services.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000106/exhibit991pressrelease-q4f.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "ticker": "CPRT",
+  "company": "Copart",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-10",
+  "revenueYoY": "+2.4%",
+  "verdict": "Copart grew revenue 2.4% to $1,152M, but higher yard costs cut gross profit 5.5% and net income fell 17% to $327M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1,152M",
+      "note": "+2.4% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.35",
+      "note": "vs $0.41 a year ago"
+    },
+    {
+      "label": "Service revenues",
+      "value": "$970M",
+      "note": "+1.4% YoY \u2014 auction fees are 84% of revenue (shown as $969M in the flow; see footer)"
+    },
+    {
+      "label": "Gross profit",
+      "value": "$481M",
+      "note": "-5.5% YoY \u2014 facility costs rose much faster than sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service revenues",
+      "amountM": 969,
+      "yoy": "+1.4%",
+      "note": "Fees for running online auctions of damaged and unwanted vehicles, mostly for insurance companies. Copart reports $970M; it is shown here as $969M so the rounded segments sum exactly to total revenue."
+    },
+    {
+      "name": "Vehicle sales",
+      "amountM": 183,
+      "yoy": "+8.3%",
+      "note": "Vehicles Copart buys itself and resells at auction, rather than selling for someone else. Up 8.3%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1152,
+    "costOfRevenueM": 671,
+    "grossProfitM": 481,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 112,
+        "note": "Copart splits this into general and administrative of $97M, plus $7M of depreciation and amortization and $8M of stock-based compensation in general and administrative."
+      }
+    ],
+    "operatingIncomeM": 369,
+    "otherIncomeM": 36,
+    "taxM": 78,
+    "netIncomeM": 327
+  },
+  "otherDetail": "Other income was $36M, net: $40M of interest income, net, partly offset by $4M of other expense, net.",
+  "takeaways": [
+    {
+      "stat": "+2.4%",
+      "statColor": "#3d7bc8",
+      "title": "Sales edged up",
+      "text": "Revenue rose 2.4% to $1,152M. Service revenues \u2014 the auction fees that are the core business \u2014 rose 1.4% to $970M, while vehicle sales rose 8.3% to $183M."
+    },
+    {
+      "stat": "41.8%",
+      "statColor": "#cf5f4e",
+      "title": "Costs squeezed the yards' margin",
+      "text": "Gross margin fell from 45.3% to 41.8%. Facility (yard) operations cost $451M, up 7.7%, and the cost of vehicles Copart itself bought and resold rose 11.4% \u2014 both far faster than revenue. Gross profit fell 5.5% to $481M despite higher sales."
+    },
+    {
+      "stat": "$327M",
+      "statColor": "#cf5f4e",
+      "title": "Profit fell even as sales rose",
+      "text": "Net income fell 17% to $327M and EPS fell to $0.35 from $0.41. Higher yard and admin costs did most of the damage, and other income also dropped from $66M to $36M as interest income fell 21%."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Reports in thousands; figures are rounded to $M. Cost of revenue here is every facility cost above the gross-profit line in Copart's statement.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526405731/cprt-20260731.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Service revenues",
+      "amount": 84.11
+    },
+    {
+      "label": "Vehicle sales",
+      "amount": 15.89
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.25
+    },
+    {
+      "label": "General & admin",
+      "amount": -9.72
+    },
+    {
+      "label": "Other income",
+      "amount": 3.12
+    },
+    {
+      "label": "Tax",
+      "amount": -6.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.39
+    }
+  ],
+  "follow100Note": "The facility costs in cost of revenue are yard operations $451M, cost of vehicle sales $164M, facility depreciation and amortization $54M and facility stock-based compensation $2M. Service revenues are shown at $969M (reported $970M) and general and administrative at $97M (reported $98M) so the rounded lines tie exactly. Consolidated net income was $327M; a $1M loss (rounded) attributable to noncontrolling interests means net income attributable to Copart was also $327M."
+}

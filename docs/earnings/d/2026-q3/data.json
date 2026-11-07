@@ -1,0 +1,167 @@
+{
+  "ticker": "D",
+  "company": "Dominion Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Dominion Energy's revenue jumped 24% to $5.6B on surging data-center demand in Virginia, and net income rose to $1.2B, with the company's operating earnings of $1.28 a share just below GAAP EPS of $1.30.",
+  "revenueYoY": "+24%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+24%",
+      "note": "Operating revenues were $5.6B, vs $4.5B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.30",
+      "note": "From continuing operations, vs $1.16 a year ago; attributable net income was $1.2B"
+    },
+    {
+      "label": "Operating EPS (non-GAAP)",
+      "value": "$1.28",
+      "note": "Dominion's own headline measure, which strips out market gains and losses and other items it calls non-recurring; vs $1.06 a year ago"
+    },
+    {
+      "label": "High-load revenue",
+      "value": "$706M",
+      "note": "Regulated electric sales to high-load customers \u2014 mainly data centers \u2014 up 40% from $503M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Regulated electric sales",
+      "amountM": 5094,
+      "note": "Electricity sold at rates set by regulators, mostly in Virginia and South Carolina \u2014 homes ($2,157M), businesses ($1,404M), high-load customers such as data centers ($706M), industry, government and wholesale buyers, plus other regulated charges. Up 25% vs a year ago.",
+      "yoy": "+25%"
+    },
+    {
+      "name": "Regulated gas sales",
+      "amountM": 79,
+      "note": "Natural gas sold at regulated rates to about 500,000 customers in South Carolina, including transportation and storage. Up 8% vs a year ago.",
+      "yoy": "+8%",
+      "compact": true
+    },
+    {
+      "name": "Nonregulated and other",
+      "amountM": 444,
+      "note": "Power and services sold outside regulated rates \u2014 including output from contracted generation such as the Millstone nuclear plant in Connecticut \u2014 plus other revenues. Up 19% vs a year ago.",
+      "yoy": "+19%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5617,
+    "costOfRevenueM": 1749,
+    "grossProfitM": 3868,
+    "opex": [
+      {
+        "name": "Other operations and maintenance",
+        "amountM": 1070,
+        "note": "Running and maintaining power plants, wires and gas pipes \u2014 crews, repairs and day-to-day operations. Up from $850M a year ago as the system grows."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 722,
+        "note": "The cost of plants, grids and equipment wearing out over time."
+      },
+      {
+        "name": "Other taxes",
+        "amountM": 215,
+        "note": "Property and other taxes on operations \u2014 separate from income tax."
+      },
+      {
+        "name": "Impairment & other",
+        "amountM": 19,
+        "note": "Impairment of assets and other charges \u2014 writing down the value of assets and related charges \u2014 much smaller than the $130M recorded a year ago."
+      }
+    ],
+    "operatingIncomeM": 1842,
+    "otherIncomeM": -352,
+    "taxM": 215,
+    "netIncomeM": 1275
+  },
+  "follow100": [
+    {
+      "label": "Regulated electric sales",
+      "amount": 90.69
+    },
+    {
+      "label": "Regulated gas sales",
+      "amount": 1.41
+    },
+    {
+      "label": "Nonregulated and other",
+      "amount": 7.9
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.14
+    },
+    {
+      "label": "Other operations & maintenance",
+      "amount": -19.05
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -12.85
+    },
+    {
+      "label": "Other taxes",
+      "amount": -3.83
+    },
+    {
+      "label": "Impairment & other charges",
+      "amount": -0.34
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.27
+    },
+    {
+      "label": "Tax",
+      "amount": -3.83
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.7
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. The direct energy costs are electric fuel and other energy-related purchases ($1,603M), purchased electric capacity ($106M) and purchased gas ($40M). The flow uses net income from continuing operations including noncontrolling interests of $1,275M; net income attributable to Dominion Energy was $1,160M (including a $1M discontinued-operations loss), after $114M attributable to noncontrolling interests. Revenue rows use the 10-Q's revenue disaggregation, grouped, because segment revenue from external customers for Corporate and Other was negative (-$10M); the groups sum exactly to total operating revenue.",
+  "takeaways": [
+    {
+      "stat": "+40%",
+      "statColor": "#3d7bc8",
+      "title": "Data centers are driving growth",
+      "text": "Revenue rose 24% to $5,617M. The fastest-growing piece was high-load customers \u2014 mainly data centers concentrated in Loudoun County, Virginia \u2014 whose regulated electric purchases rose 40% to $706M from $503M. Residential sales rose 26% to $2,157M."
+    },
+    {
+      "stat": "$862M",
+      "statColor": "#3e8e5a",
+      "title": "Virginia is the profit engine",
+      "text": "Dominion Energy Virginia contributed $862M of operating earnings (the company's non-GAAP segment measure), up from $679M a year ago \u2014 about three-quarters of the company total. South Carolina added $230M and Contracted Energy $134M, while Corporate and Other lost $87M."
+    },
+    {
+      "stat": "$1.28",
+      "statColor": "#5b6b7c",
+      "title": "Near the top of guidance",
+      "text": "Operating earnings were $1.28 a share vs GAAP EPS of $1.30 \u2014 the items Dominion strips out were small this quarter. The company said it expects to land in the top half of its 2026 operating EPS guidance of $3.45\u2013$3.69 and reaffirmed its long-term growth, credit and dividend guidance; its release also discusses the proposed merger with NextEra Energy."
+    }
+  ],
+  "oneTimers": [
+    "The income statement includes $19M of impairment of assets and other charges in Q3, down from $130M a year ago.",
+    "GAAP EPS of $1.30 vs operating EPS of $1.28: the items Dominion excludes from operating earnings \u2014 mainly gains and losses on its nuclear decommissioning trust funds and mark-to-market moves on economic hedges \u2014 netted to only about $0.02 a share this quarter. Over the first nine months those adjustments were much larger, including an $820M charge on nonregulated renewable natural gas facilities, partly offset by trust-fund gains."
+  ],
+  "otherDetail": "Other income of $271M \u2014 including $229M of other income (such as gains on nuclear decommissioning trust funds and the allowance for funds used during construction, an amount regulators let the company count as income while projects are being built), $40M of interest income and $2M of equity earnings \u2014 less interest and related charges of $623M, for a net $352M cost below operating income.",
+  "footerNote": "Flow adaptation: Dominion reports no gross-profit line; cost of revenue combines fuel, purchased capacity and purchased gas.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526439883/d-ex99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526440697/d-20260930.htm"
+    }
+  ]
+}

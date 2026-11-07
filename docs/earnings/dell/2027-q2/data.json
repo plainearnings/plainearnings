@@ -1,0 +1,145 @@
+{
+  "ticker": "DELL",
+  "company": "Dell Technologies",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-09-01",
+  "revenueYoY": "+58%",
+  "verdict": "Dell's revenue jumped 58% to a record $47.0B and profit more than tripled, powered by $16.4B of AI server sales and a $95B order backlog still to ship.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$47.0B",
+      "note": "+58% YoY \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.34",
+      "note": "+273% YoY; non-GAAP EPS was $7.04"
+    },
+    {
+      "label": "AI-optimized server revenue",
+      "value": "$16.4B",
+      "note": "+100% YoY \u2014 servers built to train and run AI models"
+    },
+    {
+      "label": "AI server backlog",
+      "value": "$95B",
+      "note": "Orders booked but not yet shipped; Dell took a record $60.9B of AI orders in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Infrastructure Solutions Group",
+      "amountM": 31782,
+      "yoy": "+89%",
+      "note": "Servers, networking and storage \u2014 the AI engine. Revenue almost doubled to $31.8B: AI-optimized servers $16.4B (up 100%), traditional servers and networking $10.5B (up 122%) and storage $4.9B (up 26%). Operating income was $4.8B, 15.0% of its revenue."
+    },
+    {
+      "name": "Client Solutions Group",
+      "amountM": 15034,
+      "yoy": "+20%",
+      "note": "PCs and displays: $13.2B from business customers (up 22%) and $1.8B from consumers (up 7%). Operating income was $1.1B, 7.6% of its revenue."
+    },
+    {
+      "name": "Corporate and other",
+      "amountM": 155,
+      "yoy": "-67%",
+      "note": "Small leftovers that sit outside the two groups \u2014 mainly the wind-down of reselling VMware software on its own. Down from $473M a year ago as that resale business ended."
+    }
+  ],
+  "flow": {
+    "revenueM": 46971,
+    "costOfRevenueM": 37141,
+    "grossProfitM": 9830,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 3336,
+        "note": "Selling products and services and running the company. Rose 15% \u2014 much slower than revenue, which is how profit margins expanded."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 1109,
+        "note": "Designing servers, storage and PCs, including AI systems. Rose 41% as Dell invested in its AI line-up."
+      }
+    ],
+    "operatingIncomeM": 5385,
+    "otherIncomeM": -254,
+    "taxM": 998,
+    "netIncomeM": 4133
+  },
+  "follow100": [
+    {
+      "label": "Infrastructure Solutions Group",
+      "amount": 67.66
+    },
+    {
+      "label": "Client Solutions Group",
+      "amount": 32.01
+    },
+    {
+      "label": "Corporate and other",
+      "amount": 0.33
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.07
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -7.1
+    },
+    {
+      "label": "Research and development",
+      "amount": -2.36
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.54
+    },
+    {
+      "label": "Tax",
+      "amount": -2.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.8
+    }
+  ],
+  "otherDetail": "Interest and other, net was a $254M expense. Dell reports this line only as a single net figure \u2014 mainly interest paid on its debt, partly offset by interest and other income \u2014 so there is no official split to show.",
+  "takeaways": [
+    {
+      "stat": "+58%",
+      "statColor": "#3d7bc8",
+      "title": "AI servers drove a record quarter",
+      "text": "Revenue rose 58% to $47.0B. Infrastructure Solutions Group revenue rose 89% to $31.8B \u2014 AI-optimized servers doubled to $16.4B, traditional servers and networking rose 122% to $10.5B and storage rose 26% to $4.9B. Client Solutions (PCs) rose 20% to $15.0B. Dell raised full-year revenue guidance by $25B to $192B."
+    },
+    {
+      "stat": "$5.4B",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew much faster than sales",
+      "text": "Operating income tripled to $5.4B (an 11.5% margin, up from 6.0%) because running costs rose only 21% while revenue rose 58%. Net income was $4.1B, up 255%, and GAAP EPS was $6.34 vs $1.70 a year ago. Dell also returned a record $4.3B to shareholders in buybacks and dividends."
+    },
+    {
+      "stat": "$95B",
+      "statColor": "#5b6b7c",
+      "title": "The order book says demand is not slowing",
+      "text": "Dell booked a record $60.9B of AI server orders in the quarter and ended it with a $95B backlog \u2014 orders taken but not yet delivered or counted as revenue. That backlog, not just this quarter's sales, is why full-year AI server revenue guidance rose to $74B."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Amounts are reported in $M and tie exactly. Segment revenues are from the 10-Q segment note and sum to total net revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/exhibit991earnings8kq2fy27.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm"
+    }
+  ],
+  "follow100Note": "The two segment groups plus Corporate and other ($155M) sum to total net revenue. Operating expenses are the GAAP figures, which include stock-based pay and amortization."
+}

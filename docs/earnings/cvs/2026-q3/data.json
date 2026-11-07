@@ -1,0 +1,150 @@
+{
+  "ticker": "CVS",
+  "company": "CVS Health",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "CVS Health's revenue rose 5.4% to $108.4B and profit bounced back to $2.2B, as its Aetna insurance business improved sharply and last year's $5.7B goodwill impairment did not repeat.",
+  "revenueYoY": "+5.4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5.4%",
+      "note": "Total revenues were $108.4B, vs $102.9B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.68",
+      "note": "vs a $3.13 loss a year ago, when results included a $5.7B goodwill impairment; adjusted EPS was $2.09"
+    },
+    {
+      "label": "Health Care Benefits adj. operating income",
+      "value": "$912M",
+      "note": "The Aetna insurance business \u2014 nearly triple the $314M of a year ago, as the medical benefit ratio improved to 91.3% from 92.8%"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.09",
+      "note": "The company's own non-GAAP measure, vs $1.60 a year ago; full-year adjusted EPS guidance was raised to at least $8.20"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Pharmacy products",
+      "amountM": 69225,
+      "note": "Prescription drugs and other products sold through CVS pharmacies and its pharmacy-benefit business (the statement's 'Products' line) \u2014 by far the biggest revenue source. Up 7%, helped by drug mix and brand-price inflation.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "Premiums",
+      "amountM": 34566,
+      "note": "Health-insurance premiums from Aetna members and employers. Up 3%, as growth in government business outweighed the exit from individual exchange plans.",
+      "yoy": "+3%"
+    },
+    {
+      "name": "Services",
+      "amountM": 3961,
+      "note": "Fees for care itself \u2014 clinics, home health and other health services. Roughly flat vs a year ago.",
+      "yoy": "+1%"
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 647,
+      "note": "Income from the investment portfolio held to back insurance obligations.",
+      "yoy": "+2%",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 108399,
+    "costOfRevenueM": 93501,
+    "grossProfitM": 14898,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 11332,
+        "note": "Running the stores, clinics and insurance operations \u2014 staff, rent, technology and admin. It includes a $193M Omnicare guarantee charge and $425M of amortization of acquired intangibles that the company leaves out of its adjusted figures."
+      }
+    ],
+    "operatingIncomeM": 3566,
+    "otherIncomeM": -717,
+    "taxM": 678,
+    "netIncomeM": 2171
+  },
+  "follow100": [
+    {
+      "label": "Pharmacy products",
+      "amount": 63.86
+    },
+    {
+      "label": "Premiums",
+      "amount": 31.89
+    },
+    {
+      "label": "Services",
+      "amount": 3.65
+    },
+    {
+      "label": "Net investment income",
+      "amount": 0.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -86.26
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -10.45
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.66
+    },
+    {
+      "label": "Tax",
+      "amount": -0.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.0
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. The health care costs in cost of revenue are $32,316M (members' medical care) and the cost of products sold is $61,185M (mainly drugs bought for resale). The flow uses consolidated net income of $2,171M; net income attributable to CVS Health was $2,172M, as noncontrolling interests absorbed a $1M loss.",
+  "takeaways": [
+    {
+      "stat": "+5.4%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in every business",
+      "text": "Revenue rose 5.4% to $108.4B. Health Services \u2014 the pharmacy-benefit business that negotiates drug prices for employers and health plans \u2014 grew fastest, up 9.5% to $54.0B on drug mix and brand inflation, while store revenue dipped 2.0% on drug-price cuts and reimbursement pressure, partly offset by the Rite Aid stores and prescription files CVS bought in 2025."
+    },
+    {
+      "stat": "91.3%",
+      "statColor": "#3e8e5a",
+      "title": "Aetna's recovery carried profit",
+      "text": "The medical benefit ratio \u2014 the share of premiums paid out as medical care \u2014 improved to 91.3% from 92.8% a year ago. Health Care Benefits adjusted operating income nearly tripled to $912M from $314M, and company-wide adjusted operating income rose 21% to $4.2B."
+    },
+    {
+      "stat": "$1.68",
+      "statColor": "#5b6b7c",
+      "title": "Back in profit \u2014 and guidance raised",
+      "text": "GAAP EPS was $1.68, vs a $3.13 loss a year ago that included a $5.7B goodwill impairment (writing down the value of a past acquisition). Adjusted EPS was $2.09 vs $1.60. CVS raised full-year 2026 guidance \u2014 adjusted EPS to at least $8.20 and operating cash flow to at least $15.5B."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses include a $193M charge for an estimated guarantee liability tied to Omnicare, the long-term-care pharmacy business CVS separated from in September 2025. CVS excludes it from adjusted earnings.",
+    "The gap between GAAP operating income ($3,566M) and adjusted operating income ($4,194M) also reflects $425M of amortization of intangible assets from past acquisitions and $13M of acquisition-integration costs, partly offset by a $3M net realized capital gain."
+  ],
+  "otherDetail": "Interest expense of $747M on CVS's debt, partly offset by $30M of other income, for a net $717M cost below operating income.",
+  "footerNote": "Flow adaptation: CVS reports no gross-profit line; cost of revenue combines health care costs and the cost of products sold.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000107/cvs_ex99x1q3-26.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000108/cvs-20260930.htm"
+    }
+  ]
+}

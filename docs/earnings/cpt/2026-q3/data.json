@@ -1,0 +1,157 @@
+{
+  "ticker": "CPT",
+  "company": "Camden Property Trust",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "",
+  "verdict": "Camden's property revenue fell 4% to $381M after it sold its California portfolio, but that sale produced a $974M gain that lifted net income attributable to shareholders to $900M.",
+  "kpis": [
+    {
+      "label": "Property revenue",
+      "value": "$381M",
+      "note": "-4% vs a year ago \u2014 rent and other property income. The chart's top line is $1,355M of total money in, including the one-off sale gain below."
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$8.71",
+      "note": "vs $1.00 a year ago \u2014 includes about $9.37 a share of gain on the California sale, less $0.83 a share of impairments"
+    },
+    {
+      "label": "FFO per share (diluted)",
+      "value": "$1.70",
+      "note": "Funds From Operations \u2014 the REIT-standard profit measure, which adds back property depreciation and removes sale gains; Core FFO was $1.71"
+    },
+    {
+      "label": "Gain on sale of properties",
+      "value": "$974M",
+      "note": "Selling 11 California communities (3,620 apartment homes) for about $1.6B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental revenues",
+      "amountM": 338,
+      "yoy": "-4%",
+      "note": "Rent from apartment leases. Camden gives an approximate split of its $381M of property revenue: about $338M was rent, down from about $352M a year ago as the sold California homes left the portfolio."
+    },
+    {
+      "name": "Other property income",
+      "amountM": 43,
+      "yoy": "-3%",
+      "note": "Amounts in lease contracts for services other than rent itself \u2014 about $43M of property revenue, down from about $44M a year ago (approximate split given by Camden)."
+    },
+    {
+      "name": "Gain on sale of properties",
+      "amountM": 974,
+      "note": "Selling the whole California portfolio \u2014 11 communities, 3,620 apartment homes \u2014 for about $1.6B on July 29, 2026 booked this one-off gain. It is not rent and will not repeat; about $0.9B of the proceeds repaid borrowing."
+    }
+  ],
+  "flow": {
+    "revenueM": 1355,
+    "costOfRevenueM": 141,
+    "grossProfitM": 1214,
+    "opex": [
+      {
+        "name": "Property management and G&A",
+        "amountM": 28,
+        "compact": true,
+        "note": "Property management $9M, fee and asset management expenses $1M, and general and administrative $18M \u2014 Camden's smaller running-cost lines, grouped together so the chart stays readable."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 160,
+        "note": "Spreading the cost of the apartment buildings over their useful lives. This is a paper cost \u2014 no cash leaves \u2014 which is why REITs add it back in Funds From Operations."
+      },
+      {
+        "name": "Land impairment",
+        "amountM": 86,
+        "note": "Impairment of land development assets \u2014 writing down land held for development to what Camden now thinks it is worth. Treated as a one-off \u2014 see one-time items."
+      }
+    ],
+    "operatingIncomeM": 940,
+    "otherIncomeM": -32,
+    "taxM": 1,
+    "netIncomeM": 907
+  },
+  "otherDetail": "Other items were -$32M, net: $41M of interest expense, partly offset by $8M of fee and interest income from non-property activities and a $1M benefit in other non-operating items. Two deferred-compensation lines (about $2M each) cancel each other out and are left out of the flow. The $974M sale gain is counted as money in at the left of the chart, not here.",
+  "takeaways": [
+    {
+      "stat": "$974M",
+      "statColor": "#3e8e5a",
+      "title": "A big property sale dominates the quarter",
+      "text": "On July 29 Camden sold its whole California portfolio \u2014 11 communities, 3,620 homes \u2014 for about $1.6B and booked a $974M gain. About $0.9B of the money repaid borrowing. The gain is why EPS jumped to $8.71 from $1.00 a year ago."
+    },
+    {
+      "stat": "95.6%",
+      "statColor": "#5b6b7c",
+      "title": "The apartments themselves were steady",
+      "text": "For homes Camden owned in both periods, revenue was almost flat (-0.1% YoY) and occupancy was 95.6%. Renewing tenants paid 3.6% more, while new leases signed for 2.0% less. Total revenue fell mainly because the sold California homes are gone, not because the remaining homes weakened."
+    },
+    {
+      "stat": "$1.70",
+      "statColor": "#3e8e5a",
+      "title": "The REIT measure barely moved",
+      "text": "Funds From Operations was $1.70 a share, up from $1.67 a year ago, and Core FFO was $1.71, almost flat. FFO strips out the sale gain and the $86M land write-down and adds back depreciation, so it shows a steadier business than the $900M headline profit suggests. Camden also bought three communities for $305M in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Gain on sale of properties: $974M from selling the California portfolio (11 communities, 3,620 homes) for about $1.6B on July 29, 2026. Without this gain, Camden would have reported a loss this quarter \u2014 it is a one-off, not rent.",
+    "Impairment: Camden wrote down land development assets by $86M (recording that the land is worth less than its book value). Camden treats this as non-core and excludes it from Core FFO."
+  ],
+  "footerNote": "Adapted: the $974M California sale gain is counted as money in alongside rent (total $1,355M; property revenue alone $381M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/906345/000162828026071117/exhibit991earningsrelease3.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/906345/000162828026071470/cpt-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Rental revenues",
+      "amount": 24.95
+    },
+    {
+      "label": "Other property income",
+      "amount": 3.17
+    },
+    {
+      "label": "Gain on sale of properties",
+      "amount": 71.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -10.41
+    },
+    {
+      "label": "Property management & G&A",
+      "amount": -2.07
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -11.81
+    },
+    {
+      "label": "Impairment of land assets",
+      "amount": -6.35
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.36
+    },
+    {
+      "label": "Tax",
+      "amount": -0.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 66.93
+    }
+  ],
+  "follow100Note": "An unusual quarter: this $100 is $100 of everything that came in \u2014 about $25 of rent, $3 of other property income and $72 from selling the California portfolio. Camden's property revenue on its own was $381M."
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "CRH",
+  "company": "CRH",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "CRH grew revenue 3% to $11.4B on pricing and acquisitions, but a $178M impairment in the Philippines and a higher tax bill cut net income 22% to $1.2B.",
+  "revenueYoY": "+3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$11.4B",
+      "note": "+3% YoY, vs $11.1B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.86",
+      "note": "Attributable to CRH, vs $2.21 a year ago; $2.09 before the impairment"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$2.7B",
+      "note": "Flat YoY \u2014 the company's cash-earnings measure, before interest, tax and writedowns; margin 23.5% vs 24.3%"
+    },
+    {
+      "label": "Loss on impairments",
+      "value": "$178M",
+      "note": "Writedown of the Philippines unit \u2014 the main reason profit fell (see one-offs)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas Materials Solutions",
+      "amountM": 5985,
+      "yoy": "+6%",
+      "note": "Aggregates, cement, asphalt and paving in the Americas \u2014 the biggest business. Up 6% on higher aggregates and asphalt pricing, strong demand from major projects and acquisitions."
+    },
+    {
+      "name": "Americas Building Solutions",
+      "amountM": 1752,
+      "yoy": "-3%",
+      "note": "Building and infrastructure products and outdoor living in the Americas. Down 3% as weak homebuilding and divestitures outweighed strong utility infrastructure and data-center demand."
+    },
+    {
+      "name": "International Solutions",
+      "amountM": 3659,
+      "yoy": "+1%",
+      "note": "The same materials and building businesses outside the Americas. Up 1% on pricing and higher activity in some markets, partly offset by divestitures."
+    }
+  ],
+  "flow": {
+    "revenueM": 11396,
+    "costOfRevenueM": 6975,
+    "grossProfitM": 4421,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 2366,
+        "note": "Selling and running the group \u2014 people, offices and overhead. Up from $2,298M a year ago as cost inflation offset savings efforts."
+      },
+      {
+        "name": "Loss on impairments, net",
+        "amountM": 159,
+        "note": "A $178M impairment (a writedown of recorded value) on the Philippines unit, partly offset by a $19M gain on selling long-lived assets. See one-offs."
+      }
+    ],
+    "operatingIncomeM": 1896,
+    "otherIncomeM": -218,
+    "taxM": 494,
+    "netIncomeM": 1184
+  },
+  "otherDetail": "A net $218M cost below operating profit: interest expense of $209M less interest income of $22M (net finance costs of $187M), plus $10M of other nonoperating income, less a $41M loss from equity method investments (stakes in other companies, shown below tax in the statement).",
+  "follow100": [
+    {
+      "label": "Americas Materials Solutions",
+      "amount": 52.52
+    },
+    {
+      "label": "Americas Building Solutions",
+      "amount": 15.37
+    },
+    {
+      "label": "International Solutions",
+      "amount": 32.11
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.21
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -20.76
+    },
+    {
+      "label": "Impairments, net",
+      "amount": -1.4
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.91
+    },
+    {
+      "label": "Tax",
+      "amount": -4.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.39
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3%",
+      "statColor": "#3d7bc8",
+      "title": "Pricing and deals edged revenue higher",
+      "text": "Revenue rose 3% to $11,396M. Americas Materials led, up 6% to $5,985M, while Americas Building fell 3% to $1,752M on weak homebuilding and International rose 1% to $3,659M. Adjusted EBITDA was flat at $2,682M, a 23.5% margin vs 24.3% a year ago, as pricing and acquisitions only just covered cost inflation."
+    },
+    {
+      "stat": "$178M",
+      "statColor": "#cf5f4e",
+      "title": "An impairment took a bite out of profit",
+      "text": "Operating income fell to $1,896M from $2,081M a year ago. The biggest single reason was a $178M loss on impairments on the Philippines reporting unit, up from $40M a year ago, alongside higher running costs. Without the impairment, diluted EPS would have been $2.09 instead of $1.86."
+    },
+    {
+      "stat": "-22%",
+      "statColor": "#5b6b7c",
+      "title": "Bottom line fell even though cash earnings held up",
+      "text": "Consolidated net income fell 22% to $1,184M; the amount attributable to CRH shareholders was $1,245M, or $1.86 per diluted share vs $2.21 a year ago, after a higher tax charge of $494M. CRH cut its full-year 2026 net income guidance to $3.1B-$3.3B, announced a new buyback of up to $6B, and closed the $8.5B Arcosa acquisition on October 23, after the quarter ended."
+    }
+  ],
+  "oneTimers": [
+    "Loss on impairments was $178M in Q3 (Q3 2025: $40M), related to the Philippines reporting unit within International Solutions. It is the main reason net income fell even though Adjusted EBITDA was flat, and the company reports EPS before this charge as $2.09, vs the GAAP $1.86.",
+    "CRH launched Velocity, a restructuring of how it operates, in Q3 and recognised $49M of non-routine transformation costs from the program's start through quarter end. The two-year program is expected to cost about $400M in total and deliver about $400M of annual run-rate benefits by the end of 2028."
+  ],
+  "footerNote": "As reported in $M; the lines tie exactly. The impairment line is shown net of the $19M gain on disposal of long-lived assets.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000012/q3resultsannouncement2026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000013/crh-20260930.htm"
+    }
+  ],
+  "follow100Note": "The flow uses consolidated net income of $1,184M, after the $41M equity-method loss and before amounts attributable to noncontrolling interests; net income attributable to CRH was $1,245M."
+}

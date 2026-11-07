@@ -1,0 +1,167 @@
+{
+  "ticker": "CPAY",
+  "company": "Corpay",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+18%",
+  "verdict": "Corpay grew revenue 18% to $1,382M as Corporate Payments jumped 41%, and profit attributable to Corpay rose 36% to $378M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1,382M",
+      "note": "+18% vs a year ago \u2014 11% organic growth (ignoring deals and currency)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$5.66",
+      "note": "vs $3.91 a year ago \u2014 attributable to Corpay; consolidated net income was $382M"
+    },
+    {
+      "label": "Adjusted EPS (non-GAAP diluted)",
+      "value": "$7.54",
+      "note": "+32% YoY \u2014 excludes stock pay, amortization and deal costs"
+    },
+    {
+      "label": "Corporate Payments revenue",
+      "value": "$571M",
+      "note": "+41% YoY \u2014 helped by the Alpha acquisition, closed in late 2025"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Corporate Payments",
+      "amountM": 571,
+      "yoy": "+41%",
+      "note": "Cards and software that help companies control spending and pay bills, plus cross-border payments (paying suppliers in other currencies). Up 41%, helped by the Alpha acquisition; organic growth was 18%."
+    },
+    {
+      "name": "Vehicle Payments",
+      "amountM": 580,
+      "yoy": "+8%",
+      "note": "Fuel cards and payment tools for vehicle fleets \u2014 the biggest business this quarter. Up 8%."
+    },
+    {
+      "name": "Lodging Payments",
+      "amountM": 131,
+      "yoy": "+3%",
+      "note": "Paying for hotel rooms for travelling work crews. Up 3%."
+    },
+    {
+      "name": "Other",
+      "amountM": 100,
+      "yoy": "-2%",
+      "note": "Gift cards, outsourced card processing and payroll cards. Down 2%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1382,
+    "costOfRevenueM": 298,
+    "grossProfitM": 1084,
+    "opex": [
+      {
+        "name": "Selling",
+        "amountM": 145,
+        "note": "Sales teams and commissions. Up 24% YoY as the company grew."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 202,
+        "note": "Running the company \u2014 finance, legal, technology and admin. As reported it was $204M; it is shown here at $202M, net of a $3M gain on disposition and other operating costs that round to $0M, plus a $1M rounding adjustment so the lines tie \u2014 see the footer note."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 116,
+        "note": "Spreading the cost of equipment, software and bought intangible assets over their useful lives. Up 24% YoY, partly because of acquisitions."
+      }
+    ],
+    "operatingIncomeM": 621,
+    "otherIncomeM": -119,
+    "taxM": 120,
+    "netIncomeM": 382
+  },
+  "otherDetail": "Other expense was $119M, net: $109M of interest expense, net, plus $10M of other expense, net.",
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was broad, led by corporate payments",
+      "text": "Revenue rose 18% to $1,382M. Corporate Payments jumped 41% to $571M (18% without the Alpha deal), Vehicle Payments rose 8% to $580M and Lodging rose 3% to $131M. Management raised full-year revenue guidance to about $5.35B."
+    },
+    {
+      "stat": "57.4%",
+      "statColor": "#3e8e5a",
+      "title": "Very high margins held up",
+      "text": "Adjusted EBITDA (a cash-profit measure that leaves out interest, tax, depreciation and one-offs) was $794M, up 17%, for a 57.4% margin \u2014 almost unchanged from 57.7% a year ago. On a GAAP basis, operating profit was $621M, a 45% margin."
+    },
+    {
+      "stat": "$378M",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose faster than revenue",
+      "text": "Net income attributable to Corpay rose 36% to $378M, and EPS rose 45% to $5.66, helped by buybacks: Corpay repurchased 1.9M shares for $747M in the quarter alone, so each remaining share claims a bigger slice of profit."
+    }
+  ],
+  "oneTimers": [
+    "Integration and deal-related costs were $17M in the quarter and restructuring costs were $6M. Corpay excludes both from its adjusted results \u2014 a big part of why adjusted EPS ($7.54) sits well above GAAP EPS ($5.66).",
+    "Corpay booked a $3M gain on disposition (selling a business or asset) in the quarter; in the flow above it is netted into general and administrative costs. Its adjusted results also add back a $19M adjustment at an equity-method investment (a minority stake whose results Corpay shares in)."
+  ],
+  "footerNote": "Corpay reports no gross-profit line: processing expenses are treated here as the cost of revenue. Figures are rounded to $M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Corporate Payments",
+      "amount": 41.32
+    },
+    {
+      "label": "Vehicle Payments",
+      "amount": 41.96
+    },
+    {
+      "label": "Lodging Payments",
+      "amount": 9.48
+    },
+    {
+      "label": "Other",
+      "amount": 7.24
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.56
+    },
+    {
+      "label": "Selling",
+      "amount": -10.49
+    },
+    {
+      "label": "General and administrative",
+      "amount": -14.62
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -8.39
+    },
+    {
+      "label": "Other expense",
+      "amount": -8.61
+    },
+    {
+      "label": "Tax",
+      "amount": -8.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.64
+    }
+  ],
+  "follow100Note": "The flow uses consolidated net income of $382M; $4M was attributable to noncontrolling interests, leaving $378M attributable to Corpay."
+}

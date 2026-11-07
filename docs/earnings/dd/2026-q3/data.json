@@ -1,0 +1,170 @@
+{
+  "ticker": "DD",
+  "company": "DuPont",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+4%",
+  "verdict": "DuPont's slimmed-down business grew sales 4% to $1.9B and raised its full-year outlook, while the businesses it has split off or sold dragged total profit down to $126M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.9B",
+      "note": "+4% YoY (organic sales +5%, currency -1%) \u2014 continuing operations"
+    },
+    {
+      "label": "EPS (GAAP diluted, continuing ops)",
+      "value": "$1.24",
+      "note": "vs $0.70 a year ago; total diluted EPS was $0.91 after discontinued operations"
+    },
+    {
+      "label": "Operating EBITDA",
+      "value": "$469M",
+      "note": "+8% YoY, a 25.1% margin \u2014 the company's preferred profit measure, continuing operations"
+    },
+    {
+      "label": "Transaction-adjusted free cash flow",
+      "value": "$341M",
+      "note": "Cash from continuing operations of $410M less $71M of capex (money spent on plants and equipment) and $2M of separation payments; 121% of adjusted earnings"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Healthcare & Water Technologies",
+      "amountM": 865,
+      "yoy": "+4%",
+      "note": "Healthcare materials (such as medical packaging and personal protection) and water-treatment products. Sales rose 4% on organic growth \u2014 healthcare up mid-single digits, water up low-single digits despite disruption in the Middle East. Operating EBITDA (a profit measure before interest, tax and non-cash charges) was $263M, a 30.4% margin."
+    },
+    {
+      "name": "Diversified Industrials",
+      "amountM": 1003,
+      "yoy": "+4%",
+      "note": "Building materials and industrial products, including aerospace and electric-vehicle battery applications. Sales rose 4% (organic sales up 5%, partly offset by currency). Operating EBITDA was $242M, a 24.1% margin."
+    }
+  ],
+  "flow": {
+    "revenueM": 1868,
+    "costOfRevenueM": 1201,
+    "grossProfitM": 667,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 42,
+        "note": "Developing new materials and products for healthcare, water and industrial uses. Down from $52M a year ago."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 260,
+        "note": "Selling products and running the company \u2014 sales teams, finance, legal and admin. Flat vs a year ago."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 68,
+        "note": "A non-cash charge that spreads the cost of past acquisitions (bought technology and customer relationships) over their useful lives."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 6,
+        "note": "Costs of reshaping the business \u2014 job cuts and writing down assets that are no longer needed."
+      },
+      {
+        "name": "Separation costs",
+        "amountM": 15,
+        "note": "Acquisition, integration and separation costs \u2014 deal and break-up costs \u2014 mainly separating the Qnity electronics business and selling the Aramids business. Down sharply from $62M a year ago."
+      }
+    ],
+    "operatingIncomeM": 276,
+    "otherIncomeM": -47,
+    "equityM": 5,
+    "taxM": 108,
+    "netIncomeM": 126
+  },
+  "follow100": [
+    {
+      "label": "Healthcare & Water Technologies",
+      "amount": 46.31
+    },
+    {
+      "label": "Diversified Industrials",
+      "amount": 53.69
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.29
+    },
+    {
+      "label": "Research and development",
+      "amount": -2.25
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -13.92
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -3.64
+    },
+    {
+      "label": "Restructuring and asset-related charges",
+      "amount": -0.32
+    },
+    {
+      "label": "Acquisition, integration and separation costs",
+      "amount": -0.8
+    },
+    {
+      "label": "Equity in earnings of affiliates",
+      "amount": 0.27
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.52
+    },
+    {
+      "label": "Tax",
+      "amount": -5.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.75
+    }
+  ],
+  "otherDetail": "A net $47M cost below operating profit: sundry income of $38M (miscellaneous gains, including interest income), less $40M of interest expense, less the $45M loss from discontinued operations \u2014 the Qnity electronics business spun off on Nov 1, 2025 and the Aramids business sold on Apr 1, 2026, both shown net of tax. The flow also adds $5M of equity earnings from part-owned affiliates, shown as its own line in the chart math.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "The kept businesses are growing",
+      "text": "Net sales from continuing operations rose 4% to $1,868M \u2014 organic sales (growth excluding currency and deals) rose 5%. Healthcare & Water Technologies grew 4% to $865M and Diversified Industrials grew 4% to $1,003M. Management raised full-year 2026 guidance to about $7.19B of sales and $7.47\u2013$7.52 of adjusted EPS."
+    },
+    {
+      "stat": "$171M",
+      "statColor": "#3e8e5a",
+      "title": "Continuing profit jumped 68%",
+      "text": "Income from continuing operations was $171M, up from $102M a year ago, as higher segment earnings met lower interest expense ($40M vs $85M) and much lower separation costs. Continuing diluted EPS was $1.24 vs $0.70; adjusted EPS, which leaves out one-offs and amortization, was $2.09."
+    },
+    {
+      "stat": "$126M",
+      "statColor": "#5b6b7c",
+      "title": "The total bottom line is smaller than the continuing one",
+      "text": "Total net income was $126M \u2014 $123M of it attributable to DuPont shareholders \u2014 because discontinued operations (Qnity and Aramids) lost $45M after tax. That gap is the clean-up cost of the break-up, not the performance of the business DuPont kept."
+    }
+  ],
+  "oneTimers": [
+    "Discontinued operations lost $45M after tax in the quarter. These are the businesses DuPont has exited \u2014 the Qnity electronics spin-off (completed Nov 1, 2025) and the Aramids sale (completed Apr 1, 2026, for about $1.2B cash plus a $300M note and a stake in the buyer) \u2014 so their results no longer count as continuing operations.",
+    "Continuing operations include $15M of acquisition, integration and separation costs and $6M of restructuring and asset-related charges before tax ($22M of significant items in total, plus a $43M one-off tax charge inside the $108M tax line). A year ago the same separation costs were $62M, so this drag is fading."
+  ],
+  "footerNote": "All figures are on a continuing-operations basis (after the Qnity spin-off and Aramids sale); amounts are reported in $M and tie exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000058/exhibit991enrschedules-3q26.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm"
+    }
+  ],
+  "follow100Note": "Total net income of $126M includes the $45M discontinued-operations loss; $123M was attributable to DuPont shareholders after $3M for noncontrolling interests. Tax of $108M is the tax on continuing operations; discontinued operations are shown net of tax inside other income/expense."
+}

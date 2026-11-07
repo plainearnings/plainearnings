@@ -1,0 +1,167 @@
+{
+  "ticker": "CVX",
+  "company": "Chevron",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "Chevron's profit nearly tripled to $9.9B as revenue jumped 36% to $67.8B, with refining earnings more than quadrupling on strong margins and record U.S. refinery runs.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "Total revenues and other income were $67.8B, vs $49.7B a year ago, as Brent crude averaged $97 a barrel vs $69"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$5.06",
+      "note": "vs $1.82 a year ago; adjusted EPS was $5.28, excluding a legal reserve, an impairment and pension settlement costs"
+    },
+    {
+      "label": "Downstream earnings",
+      "value": "$4.9B",
+      "note": "Refining and fuels earnings, vs $1.1B a year ago, on higher margins and record U.S. crude throughput of 1.09M barrels a day at 98% utilization"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$12.0B",
+      "note": "Cash flow from operations was $16.0B; the quarterly dividend was declared at $1.78 a share"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Sales and other operating revenues",
+      "amountM": 65237,
+      "note": "Oil, gas and refined products sold to customers \u2014 the sales line of the income statement. Up 35% as oil prices rose (Brent averaged $97 vs $69 a barrel).",
+      "yoy": "+35%"
+    },
+    {
+      "name": "Income from equity affiliates",
+      "amountM": 2097,
+      "note": "Chevron's share of profits from partly owned affiliates it does not fully control, such as Tengizchevroil in Kazakhstan. Chevron presents it inside total revenue, so it is a revenue source here. More than doubled vs a year ago.",
+      "yoy": "+114%"
+    },
+    {
+      "name": "Other income",
+      "amountM": 464,
+      "note": "Income outside product sales, as presented in the statement \u2014 mostly gains on asset sales and similar items. Down 19% vs a year ago.",
+      "yoy": "-19%",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 67798,
+    "costOfRevenueM": 44784,
+    "grossProfitM": 23014,
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 1227,
+        "note": "Sales teams, offices and running the company. Down from $1,524M a year ago."
+      },
+      {
+        "name": "Exploration",
+        "amountM": 259,
+        "note": "Searching for new oil and gas, including dry holes."
+      },
+      {
+        "name": "Depreciation, depletion and amortization",
+        "amountM": 6272,
+        "note": "The cost of wells, refineries and plants wearing out over time."
+      },
+      {
+        "name": "Other taxes",
+        "amountM": 1310,
+        "note": "Taxes other than income taxes \u2014 production, property and other taxes on operations \u2014 separate from income tax."
+      }
+    ],
+    "operatingIncomeM": 13946,
+    "otherIncomeM": -321,
+    "taxM": 3577,
+    "netIncomeM": 10048
+  },
+  "follow100": [
+    {
+      "label": "Sales and other operating revenues",
+      "amount": 96.22
+    },
+    {
+      "label": "Income from equity affiliates",
+      "amount": 3.09
+    },
+    {
+      "label": "Other income",
+      "amount": 0.68
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.06
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.81
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.38
+    },
+    {
+      "label": "Depreciation, depletion & amortization",
+      "amount": -9.25
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -1.93
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.47
+    },
+    {
+      "label": "Tax",
+      "amount": -5.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.82
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Chevron reports no gross-profit or operating-income line: the $13,946M operating profit here is what is left after the costs above, before interest and benefit costs (shown as other expense). The flow uses consolidated net income of $10,048M; net income attributable to Chevron was $9,924M, after $124M for noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "$4.9B",
+      "statColor": "#3e8e5a",
+      "title": "Refining carried the quarter",
+      "text": "Downstream earnings \u2014 refining and selling fuels \u2014 rose to $4,931M from $1,137M a year ago on higher margins for refined products. U.S. refineries set a crude-throughput record of 1.09M barrels a day, running at nearly 98% of capacity."
+    },
+    {
+      "stat": "+36%",
+      "statColor": "#3d7bc8",
+      "title": "Higher prices lifted everything",
+      "text": "Total revenue rose 36% to $67.8B as Brent crude averaged $97 a barrel, vs $69 a year ago. Upstream (production) earned $5,698M, vs $3,302M. Production itself dipped to 3,980 thousand barrels of oil-equivalent a day from 4,086, mainly because higher prices reduce Chevron's share under some contracts and because of Middle East conflict impacts."
+    },
+    {
+      "stat": "$5.06",
+      "statColor": "#5b6b7c",
+      "title": "Strong cash, even after one-offs",
+      "text": "EPS was $5.06; excluding a $160M legal reserve, a $110M impairment and $24M of pension settlement costs, adjusted EPS was $5.28. Cash flow from operations was $16.0B and free cash flow $12.0B, and Chevron cut total debt by another $3.5B in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "GAAP earnings include a $160M legal reserve, a $110M asset impairment and $24M of pension settlement costs. Excluding these and a $143M unfavorable foreign-currency effect, adjusted earnings were $10,361M, or $5.28 a share.",
+    "Unfavorable timing effects of $1,580M cut GAAP earnings \u2014 mainly derivatives (price hedges) marked to end-of-quarter prices in a rising market before the matching physical sales are booked."
+  ],
+  "otherDetail": "Interest and debt expense of $304M, plus $17M of other components of net periodic benefit costs (pension and retiree-benefit costs outside service cost), for a net $321M cost below operating income.",
+  "footerNote": "Flow adaptation: revenue is total revenues and other income; cost of revenue combines purchased crude and products with operating expenses.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/cvx-20260930.htm"
+    }
+  ]
+}
