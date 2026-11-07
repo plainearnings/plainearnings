@@ -56,6 +56,11 @@
 
   <div class="search-wrap">
     <input id="company-search" type="search" placeholder="Search a company or ticker — try “Nvidia” or “COST”" autocomplete="off" aria-label="Search companies">
+    <div class="filter-bar" role="group" aria-label="Filter companies">
+      <button class="fbtn" data-flag="sp500" aria-pressed="false">S&amp;P 500 <span class="fcount" data-count="sp500"></span></button>
+      <button class="fbtn" data-flag="qqq" aria-pressed="false">QQQ <span class="fcount" data-count="qqq"></span></button>
+      <button class="fbtn" data-flag="ai" aria-pressed="false">AI Companies <span class="fcount" data-count="ai"></span></button>
+    </div>
     <div id="search-count" class="search-count"></div>
   </div>
 </section>
@@ -68,10 +73,10 @@
 
 <main>
   <section id="companies">
-    <h2>The company list — 70 companies and growing</h2>
-    <p class="section-sub">The names a curious reader most wants explained: the AI giants, the brands in your pocket and your kitchen, and the money machines. Reports roll out company by company, newest quarter first, then three years of history.</p>
+    <h2>The company list — every S&amp;P 500, QQQ and popular AI company</h2>
+    <p class="section-sub">All 500+ S&amp;P 500 companies, every Nasdaq-100 (QQQ) name, and the popular public AI companies — use the toggles above to filter, or search by name, ticker or sector. Reports roll out company by company, newest quarter first, then three years of history.</p>
     <div id="tiles" class="tiles"></div>
-    <p id="no-results" class="no-results" hidden>No match on the launch list yet — the full watchlist covers all 500+ S&amp;P 500 companies, and pages are being built in order.</p>
+    <p id="no-results" class="no-results" hidden>No company matches that search and filter combination.</p>
   </section>
 
   <section id="how">
@@ -116,6 +121,11 @@ fetch('companies.json')
       'reporting-soon': 'Reports soon',
       'coming-soon': 'Coming soon'
     };
+    const activeFlags = new Set();
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const f = el.getAttribute('data-count');
+      el.textContent = '(' + data.companies.filter(c => c.flags && c.flags[f]).length + ')';
+    });
     function render(list) {
       tiles.innerHTML = list.map(c => {
         const inner = `
@@ -124,18 +134,29 @@ fetch('companies.json')
           <div class="tile-sector">${c.sector}</div>
           <div class="tile-quarter">${c.latestQuarter ? 'Latest: ' + c.latestQuarter : ''}${c.status === 'live' ? ' &middot; View reports &rarr;' : ''}</div>`;
         return c.status === 'live'
-          ? `<a class="tile tile-link" href="earnings/${c.ticker.toLowerCase().replace(/[^a-z0-9]/g, '')}/">${inner}</a>`
+          ? `<a class="tile tile-link" href="earnings/${c.slug || c.ticker.toLowerCase().replace(/[^a-z0-9]/g, '')}/">${inner}</a>`
           : `<article class="tile">${inner}</article>`;
       }).join('');
       none.hidden = list.length > 0;
-      count.textContent = input.value ? list.length + ' of ' + data.companies.length + ' companies' : '';
+      count.textContent = (input.value || activeFlags.size) ? list.length + ' of ' + data.companies.length + ' companies' : '';
+    }
+    function apply() {
+      const q = input.value.trim().toLowerCase();
+      render(data.companies.filter(c => {
+        if (q && !(c.ticker.toLowerCase().includes(q) || c.name.toLowerCase().includes(q) || c.sector.toLowerCase().includes(q))) return false;
+        for (const f of activeFlags) { if (!c.flags || !c.flags[f]) return false; }
+        return true;
+      }));
     }
     render(data.companies);
-    input.addEventListener('input', () => {
-      const q = input.value.trim().toLowerCase();
-      render(q ? data.companies.filter(c =>
-        c.ticker.toLowerCase().includes(q) || c.name.toLowerCase().includes(q) || c.sector.toLowerCase().includes(q)
-      ) : data.companies);
+    input.addEventListener('input', apply);
+    document.querySelectorAll('.fbtn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f = btn.getAttribute('data-flag');
+        if (activeFlags.has(f)) { activeFlags.delete(f); btn.classList.remove('active'); btn.setAttribute('aria-pressed', 'false'); }
+        else { activeFlags.add(f); btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }
+        apply();
+      });
     });
   });
 </script>

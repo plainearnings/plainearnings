@@ -3,112 +3,208 @@
     {
       "ticker": "NVDA",
       "name": "Nvidia",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "nvda",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "AAPL",
-      "name": "Apple",
-      "sector": "Tech hardware / consumer",
+      "name": "Apple Inc.",
+      "sector": "Information Technology",
+      "slug": "aapl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
-      "sector": "Software / cloud",
+      "sector": "Information Technology",
+      "slug": "msft",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "FY27 Q1"
     },
     {
       "ticker": "AMZN",
       "name": "Amazon",
-      "sector": "E-commerce / cloud",
+      "sector": "Consumer Discretionary",
+      "slug": "amzn",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "GOOGL",
-      "name": "Alphabet (Google)",
-      "sector": "Internet / ads / cloud",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "slug": "googl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "META",
       "name": "Meta Platforms",
-      "sector": "Social media / ads",
+      "sector": "Communication Services",
+      "slug": "meta",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "TSLA",
-      "name": "Tesla",
-      "sector": "EV / autos",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "tsla",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "avgo",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 FY26"
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "amd",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "PLTR",
-      "name": "Palantir",
-      "sector": "Software / AI data",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "slug": "pltr",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "NFLX",
       "name": "Netflix",
-      "sector": "Streaming media",
+      "sector": "Communication Services",
+      "slug": "nflx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
-      "sector": "Banks",
+      "sector": "Financials",
+      "slug": "jpm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "BRK.B",
       "name": "Berkshire Hathaway",
-      "sector": "Conglomerate / insurance",
+      "sector": "Financials",
+      "slug": "brkb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "LLY",
-      "name": "Eli Lilly",
-      "sector": "Pharma",
+      "name": "Lilly (Eli)",
+      "sector": "Health Care",
+      "slug": "lly",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "WMT",
       "name": "Walmart",
-      "sector": "Retail",
+      "sector": "Consumer Staples",
+      "slug": "wmt",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "COST",
       "name": "Costco",
-      "sector": "Retail",
+      "sector": "Consumer Staples",
+      "slug": "cost",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
@@ -116,118 +212,220 @@
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
       "sector": "Semiconductors",
+      "slug": "tsm",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "HOOD",
-      "name": "Robinhood",
-      "sector": "Brokerage / fintech",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "slug": "hood",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase",
-      "sector": "Crypto exchange",
+      "sector": "Financials",
+      "slug": "coin",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "APP",
       "name": "AppLovin",
-      "sector": "Ad tech / software",
+      "sector": "Communication Services",
+      "slug": "app",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit",
-      "sector": "Social media",
+      "sector": "Communication Services",
+      "slug": "rddt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "MU",
-      "name": "Micron",
-      "sector": "Semiconductors / memory",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "slug": "mu",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "CRM",
       "name": "Salesforce",
-      "sector": "Software",
+      "sector": "Information Technology",
+      "slug": "crm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "ORCL",
-      "name": "Oracle",
-      "sector": "Software / cloud",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "slug": "orcl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q1 FY27"
     },
     {
       "ticker": "UBER",
       "name": "Uber",
-      "sector": "Ride-hailing / delivery",
+      "sector": "Industrials",
+      "slug": "uber",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "DIS",
-      "name": "Walt Disney",
-      "sector": "Media / entertainment",
+      "name": "Walt Disney Company (The)",
+      "sector": "Communication Services",
+      "slug": "dis",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 FY26"
     },
     {
       "ticker": "MCD",
       "name": "McDonald's",
-      "sector": "Restaurants",
+      "sector": "Consumer Discretionary",
+      "slug": "mcd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "SBUX",
       "name": "Starbucks",
-      "sector": "Restaurants / coffee",
+      "sector": "Consumer Discretionary",
+      "slug": "sbux",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "NKE",
-      "name": "Nike",
-      "sector": "Apparel / consumer",
+      "name": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "nke",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q1 FY27"
     },
     {
       "ticker": "V",
-      "name": "Visa",
-      "sector": "Payments",
+      "name": "Visa Inc.",
+      "sector": "Financials",
+      "slug": "v",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "ARM",
-      "name": "Arm Holdings",
-      "sector": "Semiconductors",
+      "name": "Arm Holdings plc",
+      "sector": "",
+      "slug": "arm",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "CRWV",
-      "name": "CoreWeave",
-      "sector": "AI cloud infrastructure",
+      "name": "CoreWeave, Inc.",
+      "sector": "",
+      "slug": "crwv",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 2026"
     },
     {
       "ticker": "SHOP",
-      "name": "Shopify",
-      "sector": "E-commerce software",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "sector": "",
+      "slug": "shop",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -235,6 +433,12 @@
       "ticker": "SPOT",
       "name": "Spotify",
       "sector": "Music streaming",
+      "slug": "spot",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -242,6 +446,12 @@
       "ticker": "SNOW",
       "name": "Snowflake",
       "sector": "Data cloud software",
+      "slug": "snow",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
@@ -249,160 +459,298 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "sector": "Internet infrastructure",
+      "slug": "net",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "INTC",
       "name": "Intel",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "intc",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "SMCI",
       "name": "Supermicro",
-      "sector": "AI servers / hardware",
+      "sector": "Information Technology",
+      "slug": "smci",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q1 FY27"
     },
     {
       "ticker": "MRVL",
       "name": "Marvell Technology",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "mrvl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "qcom",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "TXN",
       "name": "Texas Instruments",
-      "sector": "Semiconductors",
+      "sector": "Information Technology",
+      "slug": "txn",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "NOW",
       "name": "ServiceNow",
-      "sector": "Software",
+      "sector": "Information Technology",
+      "slug": "now",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "sector": "Cybersecurity software",
+      "sector": "Information Technology",
+      "slug": "crwd",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q2 FY27"
     },
     {
       "ticker": "PANW",
       "name": "Palo Alto Networks",
-      "sector": "Cybersecurity software",
+      "sector": "Information Technology",
+      "slug": "panw",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "DDOG",
       "name": "Datadog",
-      "sector": "Software / observability",
+      "sector": "Information Technology",
+      "slug": "ddog",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "DASH",
       "name": "DoorDash",
-      "sector": "Delivery",
+      "sector": "Consumer Discretionary",
+      "slug": "dash",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "ABNB",
       "name": "Airbnb",
-      "sector": "Travel",
+      "sector": "Consumer Discretionary",
+      "slug": "abnb",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "MA",
       "name": "Mastercard",
-      "sector": "Payments",
+      "sector": "Financials",
+      "slug": "ma",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "BAC",
       "name": "Bank of America",
-      "sector": "Banks",
+      "sector": "Financials",
+      "slug": "bac",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs",
-      "sector": "Banks / investment banking",
+      "sector": "Financials",
+      "slug": "gs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "PYPL",
       "name": "PayPal",
-      "sector": "Payments / fintech",
+      "sector": "Financials",
+      "slug": "pypl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "XYZ",
-      "name": "Block",
-      "sector": "Payments / fintech",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "slug": "xyz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "INTU",
       "name": "Intuit",
-      "sector": "Software / fintech",
+      "sector": "Information Technology",
+      "slug": "intu",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q4 FY26"
     },
     {
       "ticker": "ADBE",
-      "name": "Adobe",
-      "sector": "Software",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "slug": "adbe",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
       "status": "live",
       "latestQuarter": "Q3 FY26"
     },
     {
       "ticker": "HD",
-      "name": "Home Depot",
-      "sector": "Retail",
+      "name": "Home Depot (The)",
+      "sector": "Consumer Discretionary",
+      "slug": "hd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 FY26"
     },
     {
       "ticker": "XOM",
       "name": "ExxonMobil",
-      "sector": "Energy / oil",
+      "sector": "Energy",
+      "slug": "xom",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "UNH",
-      "name": "UnitedHealth",
-      "sector": "Health insurance",
+      "name": "UnitedHealth Group",
+      "sector": "Health Care",
+      "slug": "unh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "MRNA",
       "name": "Moderna",
-      "sector": "Biotech",
+      "sector": "Health Care",
+      "slug": "mrna",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -410,6 +758,12 @@
       "ticker": "RBLX",
       "name": "Roblox",
       "sector": "Gaming",
+      "slug": "rblx",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -417,6 +771,12 @@
       "ticker": "CRCL",
       "name": "Circle Internet Group",
       "sector": "Stablecoin / fintech",
+      "slug": "crcl",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -424,13 +784,25 @@
       "ticker": "FIG",
       "name": "Figma",
       "sector": "Design software",
+      "slug": "fig",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "MSTR",
-      "name": "Strategy (MicroStrategy)",
-      "sector": "Bitcoin treasury / software",
+      "name": "Strategy Inc Common Stock Class A",
+      "sector": "",
+      "slug": "mstr",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -438,20 +810,38 @@
       "ticker": "HIMS",
       "name": "Hims & Hers Health",
       "sector": "Telehealth",
+      "slug": "hims",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 2026"
     },
     {
       "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "sector": "Space / launch",
+      "name": "Rocket Lab Corporation",
+      "sector": "",
+      "slug": "rklb",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 2026"
     },
     {
       "ticker": "MELI",
-      "name": "MercadoLibre",
-      "sector": "E-commerce / fintech",
+      "name": "MercadoLibre, Inc.",
+      "sector": "",
+      "slug": "meli",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
@@ -459,36 +849,5743 @@
       "ticker": "NU",
       "name": "Nu Holdings",
       "sector": "Digital banking",
+      "slug": "nu",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 2026"
     },
     {
       "ticker": "CMG",
-      "name": "Chipotle",
-      "sector": "Restaurants",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "slug": "cmg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "LULU",
-      "name": "Lululemon",
-      "sector": "Apparel",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "slug": "lulu",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q2 Fiscal 2026"
     },
     {
       "ticker": "BKNG",
       "name": "Booking Holdings",
-      "sector": "Travel",
+      "sector": "Consumer Discretionary",
+      "slug": "bkng",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
     },
     {
       "ticker": "GEV",
       "name": "GE Vernova",
-      "sector": "Energy / power equipment",
+      "sector": "Industrials",
+      "slug": "gev",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
       "status": "live",
       "latestQuarter": "Q3 2026"
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies",
+      "sector": "Health Care",
+      "slug": "a",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "sector": "Health Care",
+      "slug": "abbv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "sector": "Health Care",
+      "slug": "abt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ACGL",
+      "name": "Arch Capital Group",
+      "sector": "Financials",
+      "slug": "acgl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "slug": "acn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "sector": "Information Technology",
+      "slug": "adi",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "slug": "adm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing",
+      "sector": "Industrials",
+      "slug": "adp",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "slug": "adsk",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AEE",
+      "name": "Ameren",
+      "sector": "Utilities",
+      "slug": "aee",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power",
+      "sector": "Utilities",
+      "slug": "aep",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AES",
+      "name": "AES Corporation",
+      "sector": "Utilities",
+      "slug": "aes",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "sector": "Financials",
+      "slug": "afl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group",
+      "sector": "Financials",
+      "slug": "aig",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AIZ",
+      "name": "Assurant",
+      "sector": "Financials",
+      "slug": "aiz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "sector": "Financials",
+      "slug": "ajg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "slug": "akam",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "slug": "alb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALGN",
+      "name": "Align Technology",
+      "sector": "Health Care",
+      "slug": "algn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "sector": "Financials",
+      "slug": "all",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALLE",
+      "name": "Allegion",
+      "sector": "Industrials",
+      "slug": "alle",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "slug": "amat",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor",
+      "sector": "Materials",
+      "slug": "amcr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AME",
+      "name": "Ametek",
+      "sector": "Industrials",
+      "slug": "ame",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "sector": "Health Care",
+      "slug": "amgn",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AMP",
+      "name": "Ameriprise Financial",
+      "sector": "Financials",
+      "slug": "amp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate",
+      "slug": "amt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "slug": "anet",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AON",
+      "name": "Aon plc",
+      "sector": "Financials",
+      "slug": "aon",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AOS",
+      "name": "A. O. Smith",
+      "sector": "Industrials",
+      "slug": "aos",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "slug": "apa",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products",
+      "sector": "Materials",
+      "slug": "apd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "slug": "aph",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
+      "slug": "apo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "slug": "aptv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "slug": "are",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ARES",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "slug": "ares",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy",
+      "sector": "Utilities",
+      "slug": "ato",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison",
+      "sector": "Materials",
+      "slug": "avy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works",
+      "sector": "Utilities",
+      "slug": "awk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "slug": "axon",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "sector": "Financials",
+      "slug": "axp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AZO",
+      "name": "AutoZone",
+      "sector": "Consumer Discretionary",
+      "slug": "azo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "slug": "ba",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "slug": "ball",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International",
+      "sector": "Health Care",
+      "slug": "bax",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "sector": "Consumer Discretionary",
+      "slug": "bby",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BDX",
+      "name": "Becton Dickinson",
+      "sector": "Health Care",
+      "slug": "bdx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "sector": "Industrials",
+      "slug": "be",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BEN",
+      "name": "Franklin Resources",
+      "sector": "Financials",
+      "slug": "ben",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BF.B",
+      "name": "Brown\u2013Forman",
+      "sector": "Consumer Staples",
+      "slug": "bfb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "sector": "Consumer Staples",
+      "slug": "bg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "sector": "Health Care",
+      "slug": "biib",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "slug": "bkr",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "sector": "Financials",
+      "slug": "blk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "sector": "Health Care",
+      "slug": "bmy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BNY",
+      "name": "BNY Mellon",
+      "sector": "Financials",
+      "slug": "bny",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BR",
+      "name": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "slug": "br",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BRO",
+      "name": "Brown & Brown",
+      "sector": "Financials",
+      "slug": "bro",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "slug": "bsx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "slug": "bx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BXP",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
+      "slug": "bxp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "slug": "c",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CAH",
+      "name": "Cardinal Health",
+      "sector": "Health Care",
+      "slug": "cah",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CARR",
+      "name": "Carrier Global",
+      "sector": "Industrials",
+      "slug": "carr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CASY",
+      "name": "Casey's",
+      "sector": "Consumer Staples",
+      "slug": "casy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "slug": "cat",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CB",
+      "name": "Chubb Limited",
+      "sector": "Financials",
+      "slug": "cb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "slug": "cboe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CBRE",
+      "name": "CBRE Group",
+      "sector": "Real Estate",
+      "slug": "cbre",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "slug": "cci",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "slug": "ccl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems",
+      "sector": "Information Technology",
+      "slug": "cdns",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "slug": "cdw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "slug": "ceg",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "slug": "cf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial Group",
+      "sector": "Financials",
+      "slug": "cfg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CHD",
+      "name": "Church & Dwight",
+      "sector": "Consumer Staples",
+      "slug": "chd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CHRW",
+      "name": "C.H. Robinson",
+      "sector": "Industrials",
+      "slug": "chrw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "slug": "chtr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CI",
+      "name": "Cigna",
+      "sector": "Health Care",
+      "slug": "ci",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "slug": "cien",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial",
+      "sector": "Financials",
+      "slug": "cinf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CL",
+      "name": "Colgate-Palmolive",
+      "sector": "Consumer Staples",
+      "slug": "cl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CLX",
+      "name": "Clorox",
+      "sector": "Consumer Staples",
+      "slug": "clx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "slug": "cmcsa",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group",
+      "sector": "Financials",
+      "slug": "cme",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "slug": "cmi",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CMS",
+      "name": "CMS Energy",
+      "sector": "Utilities",
+      "slug": "cms",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "slug": "cnc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CNP",
+      "name": "CenterPoint Energy",
+      "sector": "Utilities",
+      "slug": "cnp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "sector": "Financials",
+      "slug": "cof",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "slug": "cohr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "slug": "coo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "slug": "cop",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "slug": "cor",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay",
+      "sector": "Financials",
+      "slug": "cpay",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CPRT",
+      "name": "Copart",
+      "sector": "Industrials",
+      "slug": "cprt",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CPT",
+      "name": "Camden Property Trust",
+      "sector": "Real Estate",
+      "slug": "cpt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CRH",
+      "name": "CRH plc",
+      "sector": "Materials",
+      "slug": "crh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "slug": "crl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "sector": "Information Technology",
+      "slug": "csco",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "slug": "csgp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX Corporation",
+      "sector": "Industrials",
+      "slug": "csx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CTAS",
+      "name": "Cintas",
+      "sector": "Industrials",
+      "slug": "ctas",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "slug": "ctsh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "slug": "cvna",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "sector": "Health Care",
+      "slug": "cvs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
+      "slug": "cvx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "D",
+      "name": "Dominion Energy",
+      "sector": "Utilities",
+      "slug": "d",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "sector": "Industrials",
+      "slug": "dal",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DD",
+      "name": "DuPont",
+      "sector": "Industrials",
+      "slug": "dd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials",
+      "slug": "de",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DECK",
+      "name": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "slug": "deck",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "slug": "dell",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DG",
+      "name": "Dollar General",
+      "sector": "Consumer Staples",
+      "slug": "dg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DGX",
+      "name": "Quest Diagnostics",
+      "sector": "Health Care",
+      "slug": "dgx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DHI",
+      "name": "D. R. Horton",
+      "sector": "Consumer Discretionary",
+      "slug": "dhi",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "slug": "dhr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "sector": "Real Estate",
+      "slug": "dlr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "sector": "Consumer Staples",
+      "slug": "dltr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DOC",
+      "name": "Healthpeak Properties",
+      "sector": "Real Estate",
+      "slug": "doc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DOV",
+      "name": "Dover Corporation",
+      "sector": "Industrials",
+      "slug": "dov",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "slug": "dow",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DPZ",
+      "name": "Domino's",
+      "sector": "Consumer Discretionary",
+      "slug": "dpz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DRI",
+      "name": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
+      "slug": "dri",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DTE",
+      "name": "DTE Energy",
+      "sector": "Utilities",
+      "slug": "dte",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "sector": "Utilities",
+      "slug": "duk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "slug": "dva",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "slug": "dvn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "slug": "dxcm",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "ebay",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "slug": "echo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "sector": "Materials",
+      "slug": "ecl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison",
+      "sector": "Utilities",
+      "slug": "ed",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "slug": "efx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EG",
+      "name": "Everest Group",
+      "sector": "Financials",
+      "slug": "eg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "slug": "eix",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EL",
+      "name": "Est\u00e9e Lauder Companies (The)",
+      "sector": "Consumer Staples",
+      "slug": "el",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Care",
+      "slug": "elv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EME",
+      "name": "Emcor",
+      "sector": "Industrials",
+      "slug": "eme",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "sector": "Industrials",
+      "slug": "emr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "slug": "eog",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "sector": "Real Estate",
+      "slug": "eqix",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EQT",
+      "name": "EQT Corporation",
+      "sector": "Energy",
+      "slug": "eqt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "slug": "erie",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy",
+      "sector": "Utilities",
+      "slug": "es",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ESS",
+      "name": "Essex Property Trust",
+      "sector": "Real Estate",
+      "slug": "ess",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "slug": "etn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ETR",
+      "name": "Entergy",
+      "sector": "Utilities",
+      "slug": "etr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EVRG",
+      "name": "Evergy",
+      "sector": "Utilities",
+      "slug": "evrg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EW",
+      "name": "Edwards Lifesciences",
+      "sector": "Health Care",
+      "slug": "ew",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon",
+      "sector": "Utilities",
+      "slug": "exc",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "slug": "exe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EXPD",
+      "name": "Expeditors International",
+      "sector": "Industrials",
+      "slug": "expd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "slug": "expe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "EXR",
+      "name": "Extra Space Storage",
+      "sector": "Real Estate",
+      "slug": "exr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "slug": "f",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "slug": "fang",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal",
+      "sector": "Industrials",
+      "slug": "fast",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "slug": "fcx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "slug": "fds",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "sector": "Industrials",
+      "slug": "fdx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "slug": "fdxf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FE",
+      "name": "FirstEnergy",
+      "sector": "Utilities",
+      "slug": "fe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FERG",
+      "name": "Ferguson Enterprises",
+      "sector": "Industrials",
+      "slug": "ferg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "slug": "ffiv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "slug": "fico",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "slug": "fis",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "slug": "fisv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "sector": "Financials",
+      "slug": "fitb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "slug": "fix",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "slug": "flex",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FOX",
+      "name": "Fox Corporation (Class B)",
+      "sector": "Communication Services",
+      "slug": "fox",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FOXA",
+      "name": "Fox Corporation (Class A)",
+      "sector": "Communication Services",
+      "slug": "foxa",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FRT",
+      "name": "Federal Realty Investment Trust",
+      "sector": "Real Estate",
+      "slug": "frt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "slug": "fslr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "slug": "ftnt",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FTV",
+      "name": "Fortive",
+      "sector": "Industrials",
+      "slug": "ftv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Industrials",
+      "slug": "gd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "slug": "gddy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "sector": "Industrials",
+      "slug": "ge",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "sector": "Health Care",
+      "slug": "gehc",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "slug": "gen",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "sector": "Health Care",
+      "slug": "gild",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "slug": "gis",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GL",
+      "name": "Globe Life",
+      "sector": "Financials",
+      "slug": "gl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "slug": "glw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "sector": "Consumer Discretionary",
+      "slug": "gm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "slug": "gnrc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "slug": "googl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "live",
+      "latestQuarter": "Q3 2026"
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts Company",
+      "sector": "Consumer Discretionary",
+      "slug": "gpc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "slug": "gpn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GRMN",
+      "name": "Garmin",
+      "sector": "Consumer Discretionary",
+      "slug": "grmn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "GWW",
+      "name": "W. W. Grainger",
+      "sector": "Industrials",
+      "slug": "gww",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "sector": "Energy",
+      "slug": "hal",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HAS",
+      "name": "Hasbro",
+      "sector": "Consumer Discretionary",
+      "slug": "has",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares",
+      "sector": "Financials",
+      "slug": "hban",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HCA",
+      "name": "HCA Healthcare",
+      "sector": "Health Care",
+      "slug": "hca",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HIG",
+      "name": "Hartford (The)",
+      "sector": "Financials",
+      "slug": "hig",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries",
+      "sector": "Industrials",
+      "slug": "hii",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HLT",
+      "name": "Hilton Worldwide",
+      "sector": "Consumer Discretionary",
+      "slug": "hlt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell Technologies",
+      "sector": "Industrials",
+      "slug": "hon",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "slug": "hona",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "slug": "hpe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "slug": "hpq",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HRL",
+      "name": "Hormel Foods",
+      "sector": "Consumer Staples",
+      "slug": "hrl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HSIC",
+      "name": "Henry Schein",
+      "sector": "Health Care",
+      "slug": "hsic",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "sector": "Real Estate",
+      "slug": "hst",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HSY",
+      "name": "Hershey Company (The)",
+      "sector": "Consumer Staples",
+      "slug": "hsy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HUBB",
+      "name": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "slug": "hubb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HUM",
+      "name": "Humana",
+      "sector": "Health Care",
+      "slug": "hum",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "slug": "hwm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "slug": "ibkr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "sector": "Information Technology",
+      "slug": "ibm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange",
+      "sector": "Financials",
+      "slug": "ice",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IDXX",
+      "name": "Idexx Laboratories",
+      "sector": "Health Care",
+      "slug": "idxx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IEX",
+      "name": "IDEX Corporation",
+      "sector": "Industrials",
+      "slug": "iex",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IFF",
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "slug": "iff",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "slug": "ilmn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "INCY",
+      "name": "Incyte",
+      "sector": "Health Care",
+      "slug": "incy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "INVH",
+      "name": "Invitation Homes",
+      "sector": "Real Estate",
+      "slug": "invh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "slug": "ip",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA",
+      "sector": "Health Care",
+      "slug": "iqv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IR",
+      "name": "Ingersoll Rand",
+      "sector": "Industrials",
+      "slug": "ir",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IRM",
+      "name": "Iron Mountain",
+      "sector": "Real Estate",
+      "slug": "irm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "sector": "Health Care",
+      "slug": "isrg",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "slug": "it",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ITW",
+      "name": "Illinois Tool Works",
+      "sector": "Industrials",
+      "slug": "itw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IVZ",
+      "name": "Invesco",
+      "sector": "Financials",
+      "slug": "ivz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "slug": "j",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "slug": "jbht",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "slug": "jbl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "sector": "Industrials",
+      "slug": "jci",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "JKHY",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
+      "slug": "jkhy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "sector": "Health Care",
+      "slug": "jnj",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "slug": "kdp",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "sector": "Financials",
+      "slug": "key",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "slug": "keys",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KHC",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "slug": "khc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KIM",
+      "name": "Kimco Realty",
+      "sector": "Real Estate",
+      "slug": "kim",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KKR",
+      "name": "KKR & Co.",
+      "sector": "Financials",
+      "slug": "kkr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "slug": "klac",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KMB",
+      "name": "Kimberly-Clark",
+      "sector": "Consumer Staples",
+      "slug": "kmb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KMI",
+      "name": "Kinder Morgan",
+      "sector": "Energy",
+      "slug": "kmi",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola Company (The)",
+      "sector": "Consumer Staples",
+      "slug": "ko",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "KR",
+      "name": "Kroger",
+      "sector": "Consumer Staples",
+      "slug": "kr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "L",
+      "name": "Loews Corporation",
+      "sector": "Financials",
+      "slug": "l",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "sector": "Industrials",
+      "slug": "ldos",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "slug": "len",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LH",
+      "name": "Labcorp",
+      "sector": "Health Care",
+      "slug": "lh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3Harris",
+      "sector": "Industrials",
+      "slug": "lhx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International",
+      "sector": "Industrials",
+      "slug": "lii",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "sector": "Materials",
+      "slug": "lin",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "slug": "lite",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Industrials",
+      "slug": "lmt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LNT",
+      "name": "Alliant Energy",
+      "sector": "Utilities",
+      "slug": "lnt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's",
+      "sector": "Consumer Discretionary",
+      "slug": "low",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "slug": "lrcx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LUV",
+      "name": "Southwest Airlines",
+      "sector": "Industrials",
+      "slug": "luv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LVS",
+      "name": "Las Vegas Sands",
+      "sector": "Consumer Discretionary",
+      "slug": "lvs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "slug": "lyb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "LYV",
+      "name": "Live Nation Entertainment",
+      "sector": "Communication Services",
+      "slug": "lyv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communities",
+      "sector": "Real Estate",
+      "slug": "maa",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "sector": "Consumer Discretionary",
+      "slug": "mar",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "slug": "mas",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "slug": "mchp",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson",
+      "sector": "Health Care",
+      "slug": "mck",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MCO",
+      "name": "Moody's Corporation",
+      "sector": "Financials",
+      "slug": "mco",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MDLZ",
+      "name": "Mondelez International",
+      "sector": "Consumer Staples",
+      "slug": "mdlz",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "sector": "Health Care",
+      "slug": "mdt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "sector": "Financials",
+      "slug": "met",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MGM",
+      "name": "MGM Resorts",
+      "sector": "Consumer Discretionary",
+      "slug": "mgm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "slug": "mkc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MLM",
+      "name": "Martin Marietta Materials",
+      "sector": "Materials",
+      "slug": "mlm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "sector": "Industrials",
+      "slug": "mmm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "slug": "mnst",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "sector": "Consumer Staples",
+      "slug": "mo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "slug": "mos",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "slug": "mpc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "slug": "mpwr",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "sector": "Health Care",
+      "slug": "mrk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MRSH",
+      "name": "Marsh McLennan",
+      "sector": "Financials",
+      "slug": "mrsh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
+      "slug": "ms",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MSCI",
+      "name": "MSCI",
+      "sector": "Financials",
+      "slug": "msci",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
+      "sector": "Information Technology",
+      "slug": "msi",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "sector": "Financials",
+      "slug": "mtb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "MTD",
+      "name": "Mettler Toledo",
+      "sector": "Health Care",
+      "slug": "mtd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "slug": "nclh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "sector": "Financials",
+      "slug": "ndaq",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NDSN",
+      "name": "Nordson Corporation",
+      "sector": "Industrials",
+      "slug": "ndsn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "sector": "Utilities",
+      "slug": "nee",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "sector": "Materials",
+      "slug": "nem",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NI",
+      "name": "NiSource",
+      "sector": "Utilities",
+      "slug": "ni",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "sector": "Industrials",
+      "slug": "noc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "slug": "nrg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NSC",
+      "name": "Norfolk Southern",
+      "sector": "Industrials",
+      "slug": "nsc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "slug": "ntap",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Financials",
+      "slug": "ntrs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "slug": "nue",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NVR",
+      "name": "NVR, Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "nvr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "slug": "nws",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "slug": "nwsa",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "slug": "nxpi",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income",
+      "sector": "Real Estate",
+      "slug": "o",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "slug": "odfl",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "OKE",
+      "name": "Oneok",
+      "sector": "Energy",
+      "slug": "oke",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "sector": "Information Technology",
+      "slug": "okta",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group",
+      "sector": "Communication Services",
+      "slug": "omc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "slug": "on",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ORLY",
+      "name": "O'Reilly Automotive",
+      "sector": "Consumer Discretionary",
+      "slug": "orly",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "OTIS",
+      "name": "Otis Worldwide",
+      "sector": "Industrials",
+      "slug": "otis",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy",
+      "slug": "oxy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure",
+      "sector": "Information Technology",
+      "slug": "p",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PAYX",
+      "name": "Paychex",
+      "sector": "Industrials",
+      "slug": "payx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PCAR",
+      "name": "Paccar",
+      "sector": "Industrials",
+      "slug": "pcar",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "sector": "Utilities",
+      "slug": "pcg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PEG",
+      "name": "Public Service Enterprise Group",
+      "sector": "Utilities",
+      "slug": "peg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "sector": "Consumer Staples",
+      "slug": "pep",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "sector": "Health Care",
+      "slug": "pfe",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "slug": "pfg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "sector": "Consumer Staples",
+      "slug": "pg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive Corporation",
+      "sector": "Financials",
+      "slug": "pgr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PH",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
+      "slug": "ph",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PHM",
+      "name": "PulteGroup",
+      "sector": "Consumer Discretionary",
+      "slug": "phm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PKG",
+      "name": "Packaging Corporation of America",
+      "sector": "Materials",
+      "slug": "pkg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PLD",
+      "name": "Prologis",
+      "sector": "Real Estate",
+      "slug": "pld",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "slug": "pm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial Services",
+      "sector": "Financials",
+      "slug": "pnc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PNR",
+      "name": "Pentair",
+      "sector": "Industrials",
+      "slug": "pnr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PNW",
+      "name": "Pinnacle West Capital",
+      "sector": "Utilities",
+      "slug": "pnw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "slug": "podd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PPG",
+      "name": "PPG Industries",
+      "sector": "Materials",
+      "slug": "ppg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PPL",
+      "name": "PPL Corporation",
+      "sector": "Utilities",
+      "slug": "ppl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PRU",
+      "name": "Prudential Financial",
+      "sector": "Financials",
+      "slug": "pru",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PSA",
+      "name": "Public Storage",
+      "sector": "Real Estate",
+      "slug": "psa",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "slug": "psx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PTC",
+      "name": "PTC Inc.",
+      "sector": "Information Technology",
+      "slug": "ptc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "slug": "pwr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "slug": "q",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
+      "slug": "rcl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "REG",
+      "name": "Regency Centers",
+      "sector": "Real Estate",
+      "slug": "reg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "slug": "regn",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial Corporation",
+      "sector": "Financials",
+      "slug": "rf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RJF",
+      "name": "Raymond James Financial",
+      "sector": "Financials",
+      "slug": "rjf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RL",
+      "name": "Ralph Lauren Corporation",
+      "sector": "Consumer Discretionary",
+      "slug": "rl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "slug": "rmd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "slug": "rok",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ROL",
+      "name": "Rollins, Inc.",
+      "sector": "Industrials",
+      "slug": "rol",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "slug": "rop",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "sector": "Consumer Discretionary",
+      "slug": "rost",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RSG",
+      "name": "Republic Services",
+      "sector": "Industrials",
+      "slug": "rsg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "sector": "Industrials",
+      "slug": "rtx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "slug": "rvty",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "slug": "sbac",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "sector": "Financials",
+      "slug": "schw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SHW",
+      "name": "Sherwin-Williams",
+      "sector": "Materials",
+      "slug": "shw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SJM",
+      "name": "J.M. Smucker Company (The)",
+      "sector": "Consumer Staples",
+      "slug": "sjm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SKYD",
+      "name": "Skydance",
+      "sector": "Communication Services",
+      "slug": "skyd",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "sector": "Energy",
+      "slug": "slb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SNA",
+      "name": "Snap-on",
+      "sector": "Industrials",
+      "slug": "sna",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "slug": "sndk",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "slug": "snps",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "sector": "Utilities",
+      "slug": "so",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SOLV",
+      "name": "Solventum",
+      "sector": "Health Care",
+      "slug": "solv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "sector": "Real Estate",
+      "slug": "spg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "sector": "Financials",
+      "slug": "spgi",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SRE",
+      "name": "Sempra",
+      "sector": "Utilities",
+      "slug": "sre",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "STE",
+      "name": "Steris",
+      "sector": "Health Care",
+      "slug": "ste",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "slug": "stld",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street Corporation",
+      "sector": "Financials",
+      "slug": "stt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "slug": "stx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "STZ",
+      "name": "Constellation Brands",
+      "sector": "Consumer Staples",
+      "slug": "stz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SW",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
+      "slug": "sw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SWK",
+      "name": "Stanley Black & Decker",
+      "sector": "Industrials",
+      "slug": "swk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "slug": "swks",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SYF",
+      "name": "Synchrony Financial",
+      "sector": "Financials",
+      "slug": "syf",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
+      "slug": "syk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SYY",
+      "name": "Sysco",
+      "sector": "Consumer Staples",
+      "slug": "syy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "sector": "Communication Services",
+      "slug": "t",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TDG",
+      "name": "TransDigm Group",
+      "sector": "Industrials",
+      "slug": "tdg",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TDY",
+      "name": "Teledyne Technologies",
+      "sector": "Information Technology",
+      "slug": "tdy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "sector": "Health Care",
+      "slug": "tech",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TEL",
+      "name": "TE Connectivity",
+      "sector": "Information Technology",
+      "slug": "tel",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "slug": "ter",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial",
+      "sector": "Financials",
+      "slug": "tfc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "sector": "Consumer Staples",
+      "slug": "tgt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies",
+      "sector": "Consumer Discretionary",
+      "slug": "tjx",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings",
+      "sector": "Communication Services",
+      "slug": "tko",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "sector": "Health Care",
+      "slug": "tmo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "slug": "tmus",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "slug": "tpl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "tpr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "slug": "trgp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TRMB",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
+      "slug": "trmb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "sector": "Financials",
+      "slug": "trow",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers Companies (The)",
+      "sector": "Financials",
+      "slug": "trv",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "slug": "tsco",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TSN",
+      "name": "Tyson Foods",
+      "sector": "Consumer Staples",
+      "slug": "tsn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "slug": "tt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "slug": "ttwo",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "sector": "Information Technology",
+      "slug": "twlo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "slug": "txt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TYL",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
+      "slug": "tyl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
+      "slug": "ual",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "sector": "Real Estate",
+      "slug": "udr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "slug": "uhs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ULTA",
+      "name": "Ulta Beauty",
+      "sector": "Consumer Discretionary",
+      "slug": "ulta",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "slug": "unp",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "UPS",
+      "name": "United Parcel Service",
+      "sector": "Industrials",
+      "slug": "ups",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "slug": "uri",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "sector": "Financials",
+      "slug": "usb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "slug": "veev",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VICI",
+      "name": "Vici Properties",
+      "sector": "Real Estate",
+      "slug": "vici",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "slug": "vlo",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VLTO",
+      "name": "Veralto",
+      "sector": "Industrials",
+      "slug": "vlto",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VMC",
+      "name": "Vulcan Materials Company",
+      "sector": "Materials",
+      "slug": "vmc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VMRK",
+      "name": "Vivmark Residential",
+      "sector": "Real Estate",
+      "slug": "vmrk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "slug": "vrsk",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "sector": "Information Technology",
+      "slug": "vrsn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "slug": "vrt",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "Health Care",
+      "slug": "vrtx",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "slug": "vst",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas",
+      "sector": "Real Estate",
+      "slug": "vtr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "sector": "Health Care",
+      "slug": "vtrs",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VYLR",
+      "name": "Vylor",
+      "sector": "Consumer Staples",
+      "slug": "vylr",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "sector": "Communication Services",
+      "slug": "vz",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WAB",
+      "name": "Wabtec",
+      "sector": "Industrials",
+      "slug": "wab",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "sector": "Health Care",
+      "slug": "wat",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "slug": "wday",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "slug": "wdc",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WEC",
+      "name": "WEC Energy Group",
+      "sector": "Utilities",
+      "slug": "wec",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower",
+      "sector": "Real Estate",
+      "slug": "well",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "sector": "Financials",
+      "slug": "wfc",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management",
+      "sector": "Industrials",
+      "slug": "wm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "slug": "wmb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WRB",
+      "name": "W. R. Berkley Corporation",
+      "sector": "Financials",
+      "slug": "wrb",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WSM",
+      "name": "Williams-Sonoma, Inc.",
+      "sector": "Consumer Discretionary",
+      "slug": "wsm",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WST",
+      "name": "West Pharmaceutical Services",
+      "sector": "Health Care",
+      "slug": "wst",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WTW",
+      "name": "Willis Towers Watson",
+      "sector": "Financials",
+      "slug": "wtw",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WY",
+      "name": "Weyerhaeuser",
+      "sector": "Real Estate",
+      "slug": "wy",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WYNN",
+      "name": "Wynn Resorts",
+      "sector": "Consumer Discretionary",
+      "slug": "wynn",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "XEL",
+      "name": "Xcel Energy",
+      "sector": "Utilities",
+      "slug": "xel",
+      "flags": {
+        "sp500": true,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "slug": "xyl",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "YUM",
+      "name": "Yum! Brands",
+      "sector": "Consumer Discretionary",
+      "slug": "yum",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ZBH",
+      "name": "Zimmer Biomet",
+      "sector": "Health Care",
+      "slug": "zbh",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "slug": "zbra",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "slug": "zts",
+      "flags": {
+        "sp500": true,
+        "qqq": false,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "sector": "",
+      "slug": "alab",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "sector": "",
+      "slug": "alny",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "sector": "",
+      "slug": "asml",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners plc",
+      "sector": "",
+      "slug": "ccep",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "FER",
+      "name": "Ferrovial N.V.",
+      "sector": "",
+      "slug": "fer",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V. Class A",
+      "sector": "",
+      "slug": "nbis",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PDD",
+      "name": "PDD Holdings Inc.",
+      "sector": "",
+      "slug": "pdd",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp.",
+      "sector": "",
+      "slug": "spcx",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TRI",
+      "name": "Thomson Reuters Corporation",
+      "sector": "",
+      "slug": "tri",
+      "flags": {
+        "sp500": false,
+        "qqq": true,
+        "ai": false
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "AI",
+      "name": "C3.ai",
+      "sector": "Enterprise AI software",
+      "slug": "ai",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "sector": "AI data centers",
+      "slug": "apld",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "BBAI",
+      "name": "BigBear.ai",
+      "sector": "AI analytics",
+      "slug": "bbai",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CIFR",
+      "name": "Cipher Mining",
+      "sector": "AI data centers / power",
+      "slug": "cifr",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "sector": "AI data centers / power",
+      "slug": "corz",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "sector": "AI language learning",
+      "slug": "duol",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "sector": "Quantum computing",
+      "slug": "ionq",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "sector": "AI data centers / power",
+      "slug": "iren",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath",
+      "sector": "AI automation software",
+      "slug": "path",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "sector": "Quantum computing",
+      "slug": "qbts",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "sector": "Quantum computing",
+      "slug": "rgti",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SERV",
+      "name": "Serve Robotics",
+      "sector": "AI robotics / delivery",
+      "slug": "serv",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI",
+      "sector": "Voice AI",
+      "slug": "soun",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "SYM",
+      "name": "Symbotic",
+      "sector": "AI warehouse robotics",
+      "slug": "sym",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI",
+      "sector": "AI health data",
+      "slug": "tem",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
+    },
+    {
+      "ticker": "WULF",
+      "name": "TeraWulf",
+      "sector": "AI data centers / power",
+      "slug": "wulf",
+      "flags": {
+        "sp500": false,
+        "qqq": false,
+        "ai": true
+      },
+      "status": "coming-soon"
     }
   ]
 }
