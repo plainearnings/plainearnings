@@ -21,7 +21,16 @@
   /* ---------------- layout ---------------- */
   var COLX = [250, 470, 690, 910, 1210], BARW = 18;
   var TOP = 70, AVAIL = 484, GAPBUDGET = 8;
-  var K = (AVAIL - GAPBUDGET) / REV;
+  /* Scale to the tallest column, not revenue alone: in extreme-loss quarters
+     the running-cost column can be several times revenue, and scaling to
+     revenue pushed those bars off the canvas. Normal pages are unaffected
+     (revenue is their tallest column). */
+  var SCALE = REV;
+  COLS.forEach(function (ids) {
+    var t = ids.reduce(function (a, id) { return a + NODES[id].value; }, 0);
+    if (t > SCALE) SCALE = t;
+  });
+  var K = (AVAIL - GAPBUDGET) / SCALE;
   var POS = {};
   COLS.forEach(function (ids) {
     var total = ids.reduce(function (a, id) { return a + NODES[id].value; }, 0);
