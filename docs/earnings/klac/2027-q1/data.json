@@ -1,0 +1,132 @@
+{
+  "ticker": "KLAC",
+  "company": "KLA Corporation",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "KLA's revenue jumped 29% to $4.1B as AI chip-building drove demand for its inspection tools, and it kept $1.5B of that as profit.",
+  "revenueYoY": "+29%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+29%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.18",
+      "note": "diluted, split-adjusted, vs $0.85 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.34B",
+      "note": "operating cash flow minus capex"
+    },
+    {
+      "label": "Process Control revenue",
+      "value": "$3.75B",
+      "note": "Semiconductor Process Control segment, +29% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 3285,
+      "yoy": "+33%",
+      "note": "Chip-inspection and process-control equipment sold to chipmakers \u2014 up 33% from $2,465M a year ago as AI demand lifted leading-edge spending."
+    },
+    {
+      "name": "Service",
+      "amountM": 851,
+      "yoy": "+14%",
+      "note": "Servicing and supporting the installed base of KLA tools \u2014 up 14% from $745M a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 4136,
+    "costOfRevenueM": 1578,
+    "grossProfitM": 2558,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 395,
+        "note": "Designing the next generation of inspection and metrology tools."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 301,
+        "note": "Selling, general and administrative costs \u2014 running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 1862,
+    "otherIncomeM": -38,
+    "taxM": 275,
+    "netIncomeM": 1549
+  },
+  "otherDetail": "Net non-operating expense of $38M: interest expense was $68M, partly offset by $30M of other income, net.",
+  "oneTimers": [
+    "Non-GAAP net income was $1,603M ($1.22 per share) after adding back $43M of acquisition-related charges, mainly amortization of acquired intangibles."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/exhibit991earningsrelease0.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "AI spending is the growth engine",
+      "text": "Revenue rose to $4,136M from $3,210M a year ago. Semiconductor Process Control \u2014 the core business \u2014 brought in $3,754M, and management pointed to AI-driven investment in foundry, logic and advanced packaging."
+    },
+    {
+      "stat": "$1.55B",
+      "statColor": "#3e8e5a",
+      "title": "More than a third became profit",
+      "text": "Net income was $1,549M, a 37% margin, even after $68M of interest expense. Free cash flow was $1,336M in the quarter."
+    },
+    {
+      "stat": "$1.24B",
+      "statColor": "#5b6b7c",
+      "title": "Cash went back to shareholders",
+      "text": "KLA returned $1,241M in the quarter \u2014 $936M of share buybacks plus $305M of dividends \u2014 while guiding next-quarter revenue to about $4.7B."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 79.42
+    },
+    {
+      "label": "Service",
+      "amount": 20.58
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -38.15
+    },
+    {
+      "label": "Research & development",
+      "amount": -9.55
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.28
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.92
+    },
+    {
+      "label": "Tax",
+      "amount": -6.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 37.45
+    }
+  ],
+  "follow100Note": "Of every $100 of revenue, $38.14 went to direct costs and $16.83 to research and running the company \u2014 leaving $37.45 as profit."
+}

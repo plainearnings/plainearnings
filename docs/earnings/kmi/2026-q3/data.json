@@ -1,0 +1,179 @@
+{
+  "ticker": "KMI",
+  "company": "Kinder Morgan",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Kinder Morgan's revenue rose 9% to $4.5B with growth in every pipeline segment, and net income rose 22% to $764M despite a $138M legal and environmental charge.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.34",
+      "note": "vs $0.28 a year ago; adjusted EPS $0.35"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$2.18B",
+      "note": "+9% YoY (non-GAAP)"
+    },
+    {
+      "label": "Natural gas transport",
+      "value": "49.3 TBtu/d",
+      "note": "transport volumes, vs 47.9 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Natural Gas Pipelines",
+      "amountM": 2894,
+      "yoy": "+8%",
+      "note": "Moving and storing natural gas \u2014 revenue from external customers (10-Q segment note), the company's biggest business by far."
+    },
+    {
+      "name": "Products Pipelines",
+      "amountM": 772,
+      "yoy": "+14%",
+      "note": "Pipelines carrying gasoline, diesel, jet fuel and crude oil \u2014 external-customer revenue."
+    },
+    {
+      "name": "Terminals",
+      "amountM": 560,
+      "yoy": "+8%",
+      "note": "Storage tanks and terminals handling liquids and bulk cargo \u2014 external-customer revenue."
+    },
+    {
+      "name": "CO2",
+      "amountM": 305,
+      "yoy": "+9%",
+      "note": "Carbon dioxide supply and oil production in the Permian Basin \u2014 external-customer revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 4531,
+    "costOfRevenueM": 1566,
+    "grossProfitM": 2965,
+    "opex": [
+      {
+        "name": "Operations & maintenance",
+        "amountM": 949,
+        "note": "Running and maintaining pipelines and terminals day to day."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 628,
+        "note": "Spreading the cost of pipelines and plants over their working lives (DD&A)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 190,
+        "note": "Head-office and company-wide running costs."
+      },
+      {
+        "name": "Taxes, other than income taxes",
+        "amountM": 121,
+        "note": "Property and other non-income taxes."
+      }
+    ],
+    "operatingIncomeM": 1077,
+    "otherIncomeM": -97,
+    "equityM": -26,
+    "taxM": 190,
+    "netIncomeM": 764
+  },
+  "otherDetail": "Net other expense of $97M in this chart: $231M of earnings from equity investments and $83M of operating other income, more than offset by $430M of net interest expense, partly cushioned by $19M of other income. Net income is the $764M attributable to Kinder Morgan, after $26M attributable to noncontrolling interests.",
+  "oneTimers": [
+    "Certain Items cut $28M from adjusted earnings on a net basis: a $138M legal, environmental and other accrual (mainly in Products Pipelines) and $3M of risk-management losses, partly offset by a $71M gain on a divestiture and $42M of related tax benefits. Adjusted net income was $792M ($0.35 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000130/kmi2026q38-kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000132/kmi-20260930.htm"
+    }
+  ],
+  "footerNote": "Kinder Morgan reports operating income of $1,160M including $83M of 'Other income, net' inside its operating section; this chart shows that $83M below the operating line (in Other income), so operating income here is $1,077M \u2014 pre-tax income of $980M is unchanged. Segment revenues are external-customer revenues from the 10-Q, which sum to total revenue; segment totals including intersegment sales differ by a few million.",
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Every segment grew",
+      "text": "Revenue rose to $4,531M from $4,146M. Natural gas transport volumes rose to 49,273 BBtu/d, and management credited favorable contributions across all business segments for the earnings growth."
+    },
+    {
+      "stat": "$764M",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose 22% despite a charge",
+      "text": "Net income attributable to Kinder Morgan rose to $764M ($0.34 per share) from $628M, even after a $138M legal and environmental accrual. Adjusted EPS was $0.35."
+    },
+    {
+      "stat": "$545M",
+      "statColor": "#5b6b7c",
+      "title": "Free cash flow covered most of the dividend",
+      "text": "Free cash flow was $545M after $1,045M of capital spending; dividends paid were $665M, leaving FCF after dividends of -$120M for the quarter (positive $226M year to date)."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Natural Gas Pipelines",
+      "amount": 63.87
+    },
+    {
+      "label": "Products Pipelines",
+      "amount": 17.04
+    },
+    {
+      "label": "Terminals",
+      "amount": 12.36
+    },
+    {
+      "label": "CO2",
+      "amount": 6.73
+    },
+    {
+      "label": "Costs of sales",
+      "amount": -34.56
+    },
+    {
+      "label": "Operations & maintenance",
+      "amount": -20.94
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -13.86
+    },
+    {
+      "label": "G&A",
+      "amount": -4.19
+    },
+    {
+      "label": "Other taxes",
+      "amount": -2.67
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -2.14
+    },
+    {
+      "label": "Tax",
+      "amount": -4.19
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.88
+    }
+  ]
+}

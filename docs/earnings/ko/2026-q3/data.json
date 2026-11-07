@@ -1,0 +1,141 @@
+{
+  "ticker": "KO",
+  "company": "Coca-Cola",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-27",
+  "verdict": "Coca-Cola grew revenue 7% to $13.4B on 5% volume growth, widened its operating margin to 33.4%, and raised its full-year guidance.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "organic revenue also +7%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.93",
+      "note": "vs $0.86 a year ago; comparable EPS $0.91"
+    },
+    {
+      "label": "Unit case volume",
+      "value": "+5%",
+      "note": "global volume growth in the quarter"
+    },
+    {
+      "label": "Operating income",
+      "value": "$4.5B",
+      "note": "+12% YoY; margin 33.4% vs 32.0%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Concentrate operations",
+      "amountM": 8199,
+      "yoy": "+9%",
+      "note": "Selling concentrates, syrups and beverage bases to bottlers \u2014 the asset-light core of the system, up 9% from $7,499M a year ago (10-Q disaggregation by line of business)."
+    },
+    {
+      "name": "Finished product operations",
+      "amountM": 5181,
+      "yoy": "+5%",
+      "note": "Bottling and selling finished drinks itself, including fairlife and Costa ready-to-drink \u2014 up 5% from $4,956M a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 13380,
+    "costOfRevenueM": 4930,
+    "grossProfitM": 8450,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 3975,
+        "note": "Selling, general and administrative costs, including marketing investment in its brands."
+      },
+      {
+        "name": "Other operating charges",
+        "amountM": 10,
+        "note": "Small other operating charges in the quarter."
+      }
+    ],
+    "operatingIncomeM": 4465,
+    "otherIncomeM": 368,
+    "equityM": -47,
+    "taxM": 777,
+    "netIncomeM": 4009
+  },
+  "otherDetail": "Other income of $368M: $653M of equity income from bottler stakes plus $224M of interest income, minus $354M of interest expense and $155M of other losses. Net income is the $4,009M attributable to Coca-Cola shareowners, after $47M attributable to noncontrolling interests.",
+  "oneTimers": [
+    "The quarter included $192M of settlement charges and special termination benefits for a non-U.S. pension plan, recorded in items impacting comparability; comparable (non-GAAP) EPS was $0.91 versus $0.93 GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067403/a2026q3earningsreleaseex-9.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm"
+    }
+  ],
+  "footerNote": "Revenue segments are Coca-Cola's line-of-business split from its 10-Q (concentrate vs finished products), because its geographic segment table includes corporate revenue and eliminations that do not sum as standalone segments. Coca-Cola's fiscal quarter ended October 2, 2026.",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Volume, not just price, grew",
+      "text": "Global unit case volume rose 5% and concentrate sales rose 7%, with price/mix adding 1% \u2014 growth came mainly from selling more drinks. Sparkling soft drinks grew 5%, led by Coca-Cola Zero Sugar, up 16%."
+    },
+    {
+      "stat": "33.4%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened",
+      "text": "Operating margin rose to 33.4% from 32.0% a year ago as gross profit grew 10% to $8,450M, faster than revenue. Net income attributable to shareowners rose 8% to $4,009M."
+    },
+    {
+      "stat": "$11.4B",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow is strong year to date",
+      "text": "Year-to-date free cash flow (non-GAAP) was $11.4B on $12.5B of operating cash flow, and the company raised its full-year guidance alongside the results."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Concentrate operations",
+      "amount": 61.28
+    },
+    {
+      "label": "Finished product operations",
+      "amount": 38.72
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -36.85
+    },
+    {
+      "label": "SG&A",
+      "amount": -29.71
+    },
+    {
+      "label": "Other operating charges",
+      "amount": -0.07
+    },
+    {
+      "label": "Other income",
+      "amount": 2.75
+    },
+    {
+      "label": "Tax",
+      "amount": -5.81
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.96
+    }
+  ]
+}

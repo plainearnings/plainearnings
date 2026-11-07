@@ -1,0 +1,147 @@
+{
+  "ticker": "KIM",
+  "company": "Kimco Realty",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Kimco's profit more than doubled to $272M, lifted by $89M of property-sale gains and record 96.6% occupancy, while rent revenue kept growing steadily.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "FFO per share",
+      "value": "$0.47",
+      "note": "funds from operations, +6.8% YoY (non-GAAP)"
+    },
+    {
+      "label": "Net income (common)",
+      "value": "$272M",
+      "note": "$0.41 per diluted share, vs $0.19 a year ago"
+    },
+    {
+      "label": "Occupancy",
+      "value": "96.6%",
+      "note": "record portfolio occupancy"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental property revenue",
+      "amountM": 540,
+      "yoy": "+2%",
+      "note": "Rent from grocery-anchored shopping centers and mixed-use properties \u2014 $539.7M, up from $531.1M a year ago, with same-property NOI up 4.9%."
+    },
+    {
+      "name": "Management & other fees",
+      "amountM": 6,
+      "yoy": "+35%",
+      "note": "Management and other fee income \u2014 $6.4M in the quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 546,
+    "costOfRevenueM": 162,
+    "grossProfitM": 384,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 156,
+        "note": "Spreading the cost of buildings over their lives \u2014 a large non-cash cost for a property owner."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 30,
+        "note": "Running the company: head office, finance and legal."
+      },
+      {
+        "name": "Impairment charges",
+        "amountM": 8,
+        "note": "Write-downs on properties whose value fell."
+      }
+    ],
+    "operatingIncomeM": 190,
+    "otherIncomeM": 92,
+    "equityM": -3,
+    "taxM": 0,
+    "netIncomeM": 279
+  },
+  "otherDetail": "Other income of $92M: an $89M gain on sales of properties (including The Witmer apartments), $74M of income from joint ventures and $13M of mortgage and financing income, minus $88M of interest expense and plus $3M of other income. Net income here is the $279M attributable to the company, after $3M attributable to noncontrolling interests and before $7M of preferred dividends (leaving $272M for common shareholders). As a REIT, Kimco's income tax was near zero ($0.1M).",
+  "oneTimers": [
+    "Gains on sales of properties were $89M in the quarter, versus $4M a year ago \u2014 the main reason net income more than doubled. FFO, which excludes property-sale gains, was $316M ($0.47 per share).",
+    "Impairment charges were $8M in the quarter, versus $0.4M a year ago."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/879101/000119312526436941/kim-ex99_1.htm"
+    }
+  ],
+  "footerNote": "Kimco reports operating income of $280M including the $89M gain on property sales; this chart shows that gain below the operating line (in Other income), so operating income here is $190M \u2014 total net income is unchanged. For a REIT, rent is the revenue, property taxes, operating and maintenance costs are the direct costs, and depreciation is the biggest running cost.",
+  "takeaways": [
+    {
+      "stat": "96.6%",
+      "statColor": "#3d7bc8",
+      "title": "Fullest centers on record",
+      "text": "Portfolio occupancy hit an all-time high of 96.6%, small-shop occupancy matched its record at 92.9%, and new leases signed at cash rents 31.5% above the old ones on comparable spaces."
+    },
+    {
+      "stat": "$89M",
+      "statColor": "#3e8e5a",
+      "title": "Property sales drove the profit jump",
+      "text": "Net income available to common shareholders rose to $272M ($0.41 per share) from $130M, mainly on $122M more of property-sale gains than a year ago, including selling The Witmer apartments for $211.5M."
+    },
+    {
+      "stat": "$0.47",
+      "statColor": "#5b6b7c",
+      "title": "The rent engine grew too",
+      "text": "FFO \u2014 the REIT measure that strips out sale gains and depreciation \u2014 rose 6.8% per share to $0.47, same-property NOI grew 4.9%, and Kimco raised its full-year outlook again."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Rental property revenue",
+      "amount": 98.9
+    },
+    {
+      "label": "Management & other fees",
+      "amount": 1.1
+    },
+    {
+      "label": "Property costs",
+      "amount": -29.67
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -28.57
+    },
+    {
+      "label": "G&A",
+      "amount": -5.49
+    },
+    {
+      "label": "Impairment charges",
+      "amount": -1.47
+    },
+    {
+      "label": "Other income",
+      "amount": 16.85
+    },
+    {
+      "label": "Tax",
+      "amount": 0.0
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 51.1
+    }
+  ]
+}

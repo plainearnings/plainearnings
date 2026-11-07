@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kimberly-Clark — Q3 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Kimberly-Clark Q3 2026 earnings in plain English: Kimberly-Clark&#x27;s sales were flat at $4.1B and operating profit fell 17%, but a $1.4B gain on its IFP joint-venture deal pushed total net income to $1.8B.">
+<meta property="og:title" content="Kimberly-Clark — Q3 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Kimberly-Clark&#x27;s sales were flat at $4.1B and operating profit fell 17%, but a $1.4B gain on its IFP joint-venture deal pushed total net income to $1.8B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/kmb/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/kmb/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Kimberly-Clark quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Kimberly-Clark <span class="thin">(KMB)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">-0.4%</span>
+        <span class="q-meta">Reported 2026-11-05 · Revenue $4,134M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Kimberly-Clark — Q3 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 2026</strong> · Quarter ended 2026-09-30<br>
+      Reported 2026-11-05
+    </div>
+  </header>
+
+  <p class="verdict">Kimberly-Clark&#x27;s sales were flat at $4.1B and operating profit fell 17%, but a $1.4B gain on its IFP joint-venture deal pushed total net income to $1.8B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>-0.4%</b></span><span class="chip">EPS, continuing (GAAP)<b>$1.19</b></span><span class="chip">Total EPS (GAAP)<b>$5.37</b></span><span class="chip">IFP deal gain<b>~$1.4B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Kimberly-Clark's Q3 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Kimberly-Clark took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">North America</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$66.23</span></div>
+          <div class="hrow"><span class="hlabel">International Personal Care</span><div class="htrack"><div class="hfill" data-w="51.0" style="background:#3D7BC8"></div></div><span class="hval">$33.77</span></div>
+          <div class="hrow"><span class="hlabel">Cost of products sold</span><div class="htrack"><div class="hfill" data-w="98.4" style="background:#D96A57"></div></div><span class="hval">−$65.14</span></div>
+          <div class="hrow"><span class="hlabel">Marketing, research &amp; general</span><div class="htrack"><div class="hfill" data-w="33.3" style="background:#D96A57"></div></div><span class="hval">−$22.06</span></div>
+          <div class="hrow"><span class="hlabel">Other operating expense</span><div class="htrack"><div class="hfill" data-w="0.5" style="background:#D96A57"></div></div><span class="hval">−$0.31</span></div>
+          <div class="hrow"><span class="hlabel">Interest &amp; other, net</span><div class="htrack"><div class="hfill" data-w="1.6" style="background:#D96A57"></div></div><span class="hval">−$1.09</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="3.5" style="background:#B8443C"></div></div><span class="hval">−$2.30</span></div>
+          <div class="hrow"><span class="hlabel">Equity &amp; discontinued items</span><div class="htrack"><div class="hfill" data-w="51.8" style="background:#3D7BC8"></div></div><span class="hval">$34.28</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="65.5" style="background:#3E8E5A"></div></div><span class="hval">$43.38</span></div>
+      <p class="hnote">The $100 view is unusual this quarter: a $33.80-per-$100 gain from discontinued operations (the IFP deal) sits below the operating line, which is why profit kept ($43.37) is far above what the ongoing business earned ($1.19 continuing EPS).</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#cf5f4e">-1.3%</div>
+            <h3>Organic sales slipped</h3>
+            <p>Net sales were $4,134M, down 0.4%. Organic sales fell 1.3%, including a roughly 270-basis-point hit from a China social-media disruption and retailer inventory swings in North America.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$516M</div>
+            <h3>Operating profit fell on one-off costs</h3>
+            <p>Operating profit fell 17% to $516M, including $106M of Kenvue deal costs and $55M of transformation charges. Excluding items, adjusted operating profit was $677M, down 0.9%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$1.4B</div>
+            <h3>A deal gain swamped the quarter</h3>
+            <p>Completing the IFP joint-venture transaction produced a gain of about $1.4B inside discontinued operations, taking total net income to $1,800M and total EPS to $5.37 — most of it one-time.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Income from discontinued operations was $1,395M, including a pre-tax gain of about $1.4B on completing the IFP Transaction (the Arbex joint venture with Suzano) on July 1, 2026, and $52M of pre-tax separation costs.</li><li>Operating profit included $106M of Kenvue acquisition costs and $55M of 2024 Transformation Initiative charges; excluding these and other items, adjusted operating profit was $677M. Kimberly-Clark closed its Kenvue acquisition on November 2, 2026, after quarter-end.</li></ul>
+      </section>
+  
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/55785/000162828026070514/kmbq32026ex-991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Headline results in the release are for continuing operations (the IFP business is now in discontinued operations). This page&#x27;s bottom line is total net income attributable to Kimberly-Clark ($1,793M, $5.37 per diluted share), so the discontinued-operations gain is shown below the operating line and explained in Other income — continuing-operations EPS was $1.19.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":4.134,"nodes":{"seg0":{"name":"North America","amt":"$2.7B","value":2.738,"col":0,"color":"#3D7BC8","note":"+1% \u00b7 66.2% of revenue","plain":"Huggies, Kleenex, Cottonelle and other brands in North America \u2014 sales up 0.9%, with 2.0% volume growth partly offset by more promotions.","quarter":"66.2% of all revenue this quarter."},"seg1":{"name":"International Personal Care","amt":"$1.4B","value":1.396,"col":0,"color":"#7A68C4","note":"-3% \u00b7 33.8% of revenue","plain":"Personal care outside North America \u2014 sales down 2.8%, as a China social-media disruption cut organic sales by about 770 basis points in this segment.","quarter":"33.8% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$4.1B","value":4.134,"col":1,"color":"#2F3B4C","note":"-0.4%","plain":"All the money Kimberly-Clark took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$4.1B, -0.4% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.4B","value":1.441,"col":2,"color":"#69B578","note":"34.9% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"34.9 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($2.7B)","value":2.693,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$2.7B \u2014 about 65.1 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$1.4B","value":1.372,"col":3,"color":"#69B578","note":"","plain":"Below operating profit: net interest and nonoperating expense took $45M, tax took $95M, and then two large items lifted the total \u2014 $29M of income from equity companies and $1,395M of income from discontinued operations (mainly the ~$1.4B pre-tax gain on completing the IFP transaction), less $7M attributable to noncontrolling interests. Net income attributable to Kimberly-Clark was $1,793M.","quarter":"$1.4B added to profit."},"op":{"name":"Operating profit","amt":"$516M","value":0.516,"col":3,"color":"#4C9A67","note":"12.5% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 12.5% margin."},"opex":{"name":"Operating expenses","amt":"($925M)","value":0.925,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$925M total, split into Marketing, research & general, Other expense, net on the right."},"ox0":{"name":"Marketing, research & general","amt":"($912M)","value":0.912,"col":4,"color":"#CF5F4E","note":"22.1% of revenue","plain":"Marketing brands like Huggies and Kleenex, research, and general running costs.","quarter":"$912M \u2014 22.1% of revenue."},"ox1":{"name":"Other expense, net","amt":"($13M)","value":0.013,"col":4,"color":"#CF5F4E","note":"0.3% of revenue","plain":"Other operating expense, net, inside operating profit.","quarter":"$13M \u2014 0.3% of revenue.","compact":true,"compactLabel":"Other expense, net: $13M (0.3% of revenue)"},"net":{"name":"Net profit","amt":"$1.8B","value":1.793,"col":4,"color":"#3E8E5A","note":"43.4% margin","plain":"The bottom line \u2014 what Kimberly-Clark actually earned after everything.","quarter":"$1.8B \u2014 about 43.4 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($95M)","value":0.095,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$95M \u2014 roughly a 5% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1"]],"links":[{"s":"seg0","d":"rev","v":2.738,"c":"#94b6e1","amt":"$2.7B"},{"s":"seg1","d":"rev","v":1.396,"c":"#b6acdf","amt":"$1.4B"},{"s":"rev","d":"gross","v":1.441,"c":"#BFE0C6","amt":"$1.4B"},{"s":"rev","d":"cost","v":2.693,"c":"#F4C7B9","amt":"$2.7B"},{"s":"gross","d":"op","v":0.516,"c":"#ACD8B8","amt":"$516M"},{"s":"gross","d":"opex","v":0.925,"c":"#F2B3A4","amt":"$925M"},{"s":"op","d":"net","v":0.421,"c":"#ACD8B8","amt":"$421M"},{"s":"otherin","d":"net","v":1.372,"c":"#ACD8B8","amt":"$1.4B"},{"s":"op","d":"tax","v":0.095,"c":"#dfaba7","amt":"$95M"},{"s":"opex","d":"ox0","v":0.912,"c":"#F6C0B1","amt":"$912M"},{"s":"opex","d":"ox1","v":0.013,"c":"#F6C0B1","amt":"$13M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

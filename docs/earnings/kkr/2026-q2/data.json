@@ -1,0 +1,223 @@
+{
+  "ticker": "KKR",
+  "company": "KKR & Co.",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "KKR's Q2 revenue rose 13% to $5.7B on record fee earnings and steady insurance income, but $3.3B of insurance benefit payments kept GAAP profit at $660M.",
+  "revenueYoY": "+12.5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12.5%",
+      "note": "vs a year ago (Q2 2026)"
+    },
+    {
+      "label": "Adjusted net income",
+      "value": "$1.49B",
+      "note": "$1.63 per adjusted share, a record (non-GAAP)"
+    },
+    {
+      "label": "Fee-related earnings",
+      "value": "$1.2B",
+      "note": "$1.32 per adjusted share, +37% YoY, a record"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$796B",
+      "note": "+16% YoY; $34B raised in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Fees & other (asset mgmt)",
+      "amountM": 1180,
+      "yoy": "+28%",
+      "note": "Management fees and other fee income from funds \u2014 up from $924M a year ago as fee-paying AUM grew."
+    },
+    {
+      "name": "Capital allocation income",
+      "amountM": 1022,
+      "yoy": "+12%",
+      "note": "Carried interest and capital-allocation-based income \u2014 KKR's share of fund profits, up from $911M a year ago."
+    },
+    {
+      "name": "Insurance premiums",
+      "amountM": 697,
+      "yoy": "-5%",
+      "note": "Net premiums at Global Atlantic, KKR's insurance arm \u2014 retirement and life products."
+    },
+    {
+      "name": "Insurance policy fees",
+      "amountM": 340,
+      "yoy": "+1%",
+      "note": "Fees charged on insurance and annuity policies at Global Atlantic."
+    },
+    {
+      "name": "Insurance investment income",
+      "amountM": 2039,
+      "yoy": "+9%",
+      "note": "Interest and dividends on the portfolio backing insurance policies \u2014 up from $1,863M a year ago."
+    },
+    {
+      "name": "Insurance investment gains",
+      "amountM": 379,
+      "yoy": "+58%",
+      "note": "Net investment-related gains in the insurance portfolio."
+    },
+    {
+      "name": "Other insurance income",
+      "amountM": 69,
+      "yoy": "-20%",
+      "note": "Other income in the insurance business."
+    }
+  ],
+  "flow": {
+    "revenueM": 5726,
+    "costOfRevenueM": 3309,
+    "grossProfitM": 2417,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 1190,
+        "note": "Pay for KKR's investment and insurance teams \u2014 its biggest running cost."
+      },
+      {
+        "name": "General, administrative & other",
+        "amountM": 450,
+        "note": "Asset-management G&A and other operating costs."
+      },
+      {
+        "name": "Policy & other operating costs",
+        "amountM": 254,
+        "note": "Running the insurance business day to day (Global Atlantic)."
+      },
+      {
+        "name": "Policy acquisition amortization",
+        "amountM": 90,
+        "note": "Spreading the cost of winning insurance policies over their lives."
+      },
+      {
+        "name": "Insurance interest expense",
+        "amountM": 75,
+        "note": "Interest expense inside the insurance business."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 39,
+        "note": "Offices and related charges."
+      }
+    ],
+    "operatingIncomeM": 319,
+    "otherIncomeM": 661,
+    "equityM": -74,
+    "taxM": 246,
+    "netIncomeM": 660
+  },
+  "otherDetail": "Other income of $661M is KKR's own investment result outside the revenue lines: $404M of net investment gains, $227M of dividends and $733M of interest income, minus $703M of interest expense on KKR's borrowings. After $246M of tax, $74M went to others \u2014 $54M to redeemable noncontrolling interests and $40M of preferred dividends, partly offset by a $20M loss borne by noncontrolling interests \u2014 leaving $660M for common stockholders.",
+  "oneTimers": [
+    "KKR closed its acquisition of Arctos Partners (sports-franchise investing, $20B of AUM) on June 30, 2026 \u2014 it is reported inside Private Equity from this quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000022/q226earningsrelease_vf.htm"
+    }
+  ],
+  "footerNote": "KKR had not yet reported Q3 2026 as of November 7, 2026, so this page covers its latest reported quarter, Q2 2026. Adaptation: for an asset manager that also owns an insurer, insurance policy benefits and claims ($3,309M) play the role of cost of revenue, compensation is the biggest running cost, and KKR's own investment income ($661M net) is shown below the operating line \u2014 GAAP pre-tax income was $981M. Headline non-GAAP measures (fee-related earnings, adjusted net income) exclude unrealized gains and equity pay and are much higher than GAAP profit.",
+  "takeaways": [
+    {
+      "stat": "$1.2B",
+      "statColor": "#3d7bc8",
+      "title": "Fees set a record",
+      "text": "Fee-related earnings hit a record $1.2B ($1.32 per adjusted share), up 37%, and total operating earnings were $1.5B. Management fees grew as fee-paying AUM reached $638B."
+    },
+    {
+      "stat": "$796B",
+      "statColor": "#3e8e5a",
+      "title": "Money kept coming in",
+      "text": "Assets under management rose 16% to $796B, with $34B of new capital raised in the quarter and $133B over twelve months \u2014 and the quarter was KKR's strongest ever for returning capital to clients."
+    },
+    {
+      "stat": "$660M",
+      "statColor": "#5b6b7c",
+      "title": "GAAP profit is the noisy number",
+      "text": "GAAP net income for common stockholders was $660M, after $3,309M of insurance benefit payments and $703M of interest expense on KKR's own balance sheet. Adjusted net income \u2014 KKR's preferred lens \u2014 was a record $1,493M."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Fees & other",
+      "amount": 20.61
+    },
+    {
+      "label": "Capital allocation income",
+      "amount": 17.85
+    },
+    {
+      "label": "Insurance premiums",
+      "amount": 12.17
+    },
+    {
+      "label": "Insurance policy fees",
+      "amount": 5.94
+    },
+    {
+      "label": "Insurance investment income",
+      "amount": 35.61
+    },
+    {
+      "label": "Insurance investment gains",
+      "amount": 6.62
+    },
+    {
+      "label": "Other insurance income",
+      "amount": 1.21
+    },
+    {
+      "label": "Insurance benefits & claims",
+      "amount": -57.79
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -20.78
+    },
+    {
+      "label": "G&A & other",
+      "amount": -7.86
+    },
+    {
+      "label": "Policy & other operating",
+      "amount": -4.44
+    },
+    {
+      "label": "Policy acquisition amortization",
+      "amount": -1.57
+    },
+    {
+      "label": "Insurance interest",
+      "amount": -1.31
+    },
+    {
+      "label": "Occupancy",
+      "amount": -0.68
+    },
+    {
+      "label": "Investment income, net",
+      "amount": 11.54
+    },
+    {
+      "label": "Shares to others",
+      "amount": -1.29
+    },
+    {
+      "label": "Tax",
+      "amount": -4.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.52
+    }
+  ]
+}
