@@ -1,0 +1,183 @@
+{
+  "ticker": "ALNY",
+  "company": "Alnylam Pharmaceuticals",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+17%",
+  "verdict": "Alnylam's drug sales jumped 52% as AMVUTTRA kept growing, but the headline $2.2B profit came almost entirely from a one-off $1.9B tax benefit \u2014 not from selling more medicine.",
+  "kpis": [
+    {
+      "label": "Net product revenues",
+      "value": "$1.29B",
+      "note": "+52% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$15.72",
+      "note": "Inflated by the one-off tax benefit; non-GAAP EPS was $16.26"
+    },
+    {
+      "label": "AMVUTTRA sales",
+      "value": "$1.13B",
+      "note": "+65% vs a year ago"
+    },
+    {
+      "label": "Cash & securities",
+      "value": "$3.6B",
+      "note": "Cash, cash equivalents and marketable securities at Sep 30, 2026"
+    }
+  ],
+  "segments": [
+    {
+      "name": "AMVUTTRA",
+      "amountM": 1130.363,
+      "yoy": "+65%",
+      "note": "Alnylam's biggest drug \u2014 a treatment for ATTR amyloidosis, a disease where a misfolded protein damages the heart and nerves. Growth is driven by patients with the heart form of the disease (ATTR-CM) in the US and new launches in Japan, Germany and Italy.",
+      "f100": "AMVUTTRA"
+    },
+    {
+      "name": "Royalty revenue",
+      "amountM": 94.664,
+      "yoy": "+105%",
+      "note": "Royalties Alnylam earns on other companies' sales \u2014 mainly Novartis's Leqvio, a cholesterol drug built on Alnylam's technology. It doubled as Leqvio sales grew.",
+      "f100": "Royalties"
+    },
+    {
+      "name": "GIVLAARI",
+      "amountM": 89.487,
+      "yoy": "+21%",
+      "note": "A treatment for acute hepatic porphyria, a rare liver-related disorder. Sales rose as more patients started treatment.",
+      "f100": "GIVLAARI"
+    },
+    {
+      "name": "Collaboration revenue",
+      "amountM": 71.476,
+      "yoy": "-80%",
+      "note": "Payments from partners Roche and Regeneron for working together on new drugs. It fell sharply only because a year ago included a one-off $300M milestone payment from Roche.",
+      "f100": "Collaborations"
+    },
+    {
+      "name": "OXLUMO",
+      "amountM": 52.5,
+      "yoy": "-1%",
+      "note": "A treatment for primary hyperoxaluria, a rare kidney-stone disease. Sales were flat.",
+      "f100": "OXLUMO"
+    },
+    {
+      "name": "ONPATTRO",
+      "amountM": 19.596,
+      "yoy": "-50%",
+      "note": "The older version of the ATTR treatment. Sales halved as patients switch to AMVUTTRA, its longer-lasting successor.",
+      "f100": "ONPATTRO"
+    }
+  ],
+  "flow": {
+    "revenueM": 1458.086,
+    "costOfRevenueM": 361.75,
+    "grossProfitM": 1096.336,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 408.538,
+        "note": "Running clinical trials \u2014 including the big TRITON studies of nucresiran \u2014 and developing new RNAi drugs (medicines that switch off disease-causing genes)."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 342.0,
+        "note": "Selling the drugs worldwide, plus running the company \u2014 finance, legal and admin."
+      }
+    ],
+    "operatingIncomeM": 345.798,
+    "otherIncomeM": -49.988,
+    "taxM": -1871.525,
+    "netIncomeM": 2167.335
+  },
+  "otherDetail": "Other expense was $50.0M, net: $84.4M of interest expense (including $58M tied to the earlier sale of future Leqvio royalties and $23M for drug-development funding liabilities), partly offset by $30.9M of interest income and $3.4M of other income.",
+  "footerNote": "Cost of revenue is cost of goods sold; the separate 'cost of collaborations and royalties' line was $0 in Q3 2026. Figures are as reported, in $M.",
+  "oneTimers": [
+    "The $1,871.5M tax benefit \u2014 the reason net income hit $2,167.3M \u2014 came from releasing valuation allowances on US deferred tax assets: an accounting judgment that past tax losses and credits are now likely to be usable. It is non-cash and one-off; without it, net income would have been about $296M.",
+    "Collaboration revenue fell 80% only because Q3 2025 included a one-off $300M milestone payment from Roche when the first patient was dosed in the ZENITH trial of zilebesiran."
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.87B",
+      "statColor": "#5b6b7c",
+      "title": "A tax entry made the profit",
+      "text": "Net income was $2,167.3M, but $1,871.5M of it was a one-off tax benefit from releasing valuation allowances on deferred tax assets \u2014 paper profit, not cash from sales. Earnings per share of $15.72 carries the same boost."
+    },
+    {
+      "stat": "+52%",
+      "statColor": "#3d7bc8",
+      "title": "The drug business is booming",
+      "text": "Net product revenues rose 52% to $1,291.9M. AMVUTTRA alone brought in $1,130.4M, up 65%, as its use in the heart form of ATTR amyloidosis expanded; total TTR revenues were $1,150.0M, up 59%. Management kept its full-year 2026 guidance unchanged."
+    },
+    {
+      "stat": "-6%",
+      "statColor": "#cf5f4e",
+      "title": "Day-to-day profit actually fell",
+      "text": "Operating income slipped 6% to $345.8M despite higher sales. The cost of goods sold jumped 83% \u2014 AMVUTTRA carries a higher royalty rate on sales \u2014 and research spending rose 14% as big Phase 3 trials ramped up."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000074/alny2026q3earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000076/alny-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "AMVUTTRA",
+      "amount": 77.52
+    },
+    {
+      "label": "Royalties",
+      "amount": 6.49
+    },
+    {
+      "label": "GIVLAARI",
+      "amount": 6.14
+    },
+    {
+      "label": "Collaborations",
+      "amount": 4.9
+    },
+    {
+      "label": "OXLUMO",
+      "amount": 3.6
+    },
+    {
+      "label": "ONPATTRO",
+      "amount": 1.34
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.81
+    },
+    {
+      "label": "R&D",
+      "amount": -28.02
+    },
+    {
+      "label": "SG&A",
+      "amount": -23.46
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.43
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 128.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 148.64
+    }
+  ]
+}

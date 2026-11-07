@@ -1,0 +1,145 @@
+{
+  "ticker": "CCEP",
+  "company": "Coca-Cola Europacific Partners",
+  "quarterLabel": "H1 2026",
+  "quarterSlug": "2026-h1",
+  "periodEnd": "2026-07-03",
+  "reportedDate": "2026-08-04",
+  "revenueYoY": "+4.4%",
+  "verdict": "Coca-Cola Europacific grew half-year sales 4.4% to $12.3B as it sold more drinks at slightly higher prices \u2014 and turned that into $1.1B of profit.",
+  "kpis": [
+    {
+      "label": "Revenue (half year)",
+      "value": "$12.3B",
+      "note": "+4.4% vs H1 2025 (\u20ac10.7B as reported)"
+    },
+    {
+      "label": "EPS (diluted, reported)",
+      "value": "\u20ac2.17",
+      "note": "+9.1% vs H1 2025"
+    },
+    {
+      "label": "Volume",
+      "value": "2,041M cases",
+      "note": "+2.2% on a days-adjusted basis"
+    },
+    {
+      "label": "Profit after tax",
+      "value": "$1.1B",
+      "note": "\u20ac991M as reported, +5.8% vs H1 2025"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Europe",
+      "amountM": 9056.5,
+      "yoy": "+5.9%",
+      "note": "Bottling and selling Coca-Cola drinks across Europe \u2014 the bigger of the company's two regions. Revenue rose 5.9% from a year ago.",
+      "f100": "Europe"
+    },
+    {
+      "name": "Australia, Pacific & Southeast Asia",
+      "amountM": 3220.3,
+      "yoy": "+0.4%",
+      "note": "The APS region, including Australia, Indonesia and the Philippines. Reported revenue rose just 0.4% because currency moves hid stronger local growth of 5.4%.",
+      "f100": "APS region"
+    }
+  ],
+  "flow": {
+    "revenueM": 12276.8,
+    "costOfRevenueM": 7940.3,
+    "grossProfitM": 4336.5,
+    "opex": [
+      {
+        "name": "Selling & distribution",
+        "amountM": 1922.1,
+        "note": "Getting drinks to shops, bars and restaurants \u2014 trucks, warehouses, sales teams and coolers."
+      },
+      {
+        "name": "Administrative",
+        "amountM": 771.6,
+        "note": "Running the company \u2014 finance, IT, legal and head-office costs."
+      },
+      {
+        "name": "Other income",
+        "amountM": -26.3,
+        "note": "Income outside day-to-day bottling \u2014 this half it includes a \u20ac23M gain on selling a property in Germany."
+      }
+    ],
+    "operatingIncomeM": 1669.1,
+    "otherIncomeM": -136.2,
+    "taxM": 398.4,
+    "netIncomeM": 1134.5
+  },
+  "otherDetail": "Net finance and non-operating costs were $136.2M: $169.4M of finance costs, less $35.5M of finance income, plus a $2.3M non-operating charge.",
+  "footerNote": "CCEP reports half-yearly, so this report covers the six months ended Jul 3, 2026 \u2014 there is no standalone Q2 income statement. CCEP reports in euros (revenue \u20ac10,724M; profit after taxes \u20ac991M, of which \u20ac967M to owners of the parent). Dollar figures are converted at the ECB euro reference rate for the period-end date, \u20ac1 = $1.1448 on Jul 3, 2026. Lines are rounded after conversion, so converted totals may differ by a few $M from a direct conversion of the euro totals.",
+  "follow100Note": "This is a half-year report: the $100 breakdown is per $100 of revenue for the six months ended Jul 3, 2026.",
+  "oneTimers": [
+    "Reported costs include \u20ac44M of restructuring charges for business transformation. On the company's 'comparable' basis \u2014 leaving out such items \u2014 operating profit was \u20ac1,481M rather than the reported \u20ac1,458M.",
+    "Other income includes a \u20ac23M gain on the sale of a property in Germany."
+  ],
+  "takeaways": [
+    {
+      "stat": "+4.4%",
+      "statColor": "#3d7bc8",
+      "title": "Steady growth in the first half",
+      "text": "Revenue rose 4.4% to \u20ac10.7B ($12.3B) for the six months. Volume grew 2.2% once adjusted for extra selling days, and revenue per case rose 0.4% \u2014 growth came from selling more drinks, not from big price rises. Full-year guidance was reaffirmed."
+    },
+    {
+      "stat": "+5.9%",
+      "statColor": "#4C9A67",
+      "title": "Europe carried it; Asia was flat in euros",
+      "text": "Europe's revenue rose 5.9% to \u20ac7.9B. The APS region (Australia, Pacific and Southeast Asia) rose only 0.4% in euros to \u20ac2.8B, but grew 5.4% before currency effects \u2014 the euro's strength hid the local growth."
+    },
+    {
+      "stat": "\u20ac991M",
+      "statColor": "#5b6b7c",
+      "title": "Profit up, dividend set",
+      "text": "Profit after tax was \u20ac991M ($1.1B), up 5.8%, and diluted earnings per share rose 9.1% to \u20ac2.17. The company declared an interim dividend of \u20ac0.82 per share and generated \u20ac435M of comparable free cash flow in the half."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Half-year report (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650107/000165010726000094/ccep2026half-yearreportxfu.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Europe",
+      "amount": 73.77
+    },
+    {
+      "label": "APS region",
+      "amount": 26.23
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.68
+    },
+    {
+      "label": "Selling & distribution",
+      "amount": -15.66
+    },
+    {
+      "label": "Administrative",
+      "amount": -6.29
+    },
+    {
+      "label": "Other income",
+      "amount": 0.21
+    },
+    {
+      "label": "Net finance costs",
+      "amount": -1.11
+    },
+    {
+      "label": "Tax",
+      "amount": -3.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.24
+    }
+  ]
+}

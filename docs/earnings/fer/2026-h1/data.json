@@ -1,0 +1,190 @@
+{
+  "ticker": "FER",
+  "company": "Ferrovial",
+  "quarterLabel": "H1 2026",
+  "quarterSlug": "2026-h1",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-28",
+  "revenueYoY": "+5.2%",
+  "verdict": "Ferrovial's half-year revenue rose 5% to $5.4B on strong US toll roads and construction \u2014 but profit fell because a year ago included a very large one-off gain from selling assets.",
+  "kpis": [
+    {
+      "label": "Revenue (half year)",
+      "value": "$5.4B",
+      "note": "+5.2% reported; +11.3% like-for-like (\u20ac4.7B as reported)"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "\u20ac746M",
+      "note": "+13.9% vs H1 2025 (+21.6% like-for-like)"
+    },
+    {
+      "label": "Construction order book",
+      "value": "\u20ac18.0B",
+      "note": "A record high at Jun 30, 2026"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "\u20ac0.36",
+      "note": "vs \u20ac0.75 in H1 2025, on the tough comparison"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Construction",
+      "amountM": 4215.8,
+      "yoy": "+7.1%",
+      "note": "Building highways, bridges, airports and other big projects through Budimex, Webber and Ferrovial Construction. By far the largest business \u2014 and it ended the half with a record \u20ac18.0B order book.",
+      "f100": "Construction"
+    },
+    {
+      "name": "Highways",
+      "amountM": 843.2,
+      "yoy": "+9.4%",
+      "note": "Toll roads Ferrovial runs, mostly express lanes in the US and Canada. Small in revenue but the most profitable part of the group \u2014 $604M of adjusted operating cash profit (EBITDA) in the half.",
+      "f100": "Highways"
+    },
+    {
+      "name": "Energy",
+      "amountM": 230.2,
+      "yoy": "+42.5%",
+      "note": "Energy infrastructure and services \u2014 the fastest-growing division, from a small base.",
+      "f100": "Energy"
+    },
+    {
+      "name": "Airports",
+      "amountM": 36.5,
+      "yoy": "-12.5%",
+      "note": "Airport stakes and operations, including work on the New Terminal One at New York's JFK. Revenue is small because the biggest airport holdings are equity-accounted \u2014 their profits show up below operating profit, not in revenue.",
+      "f100": "Airports"
+    },
+    {
+      "name": "Other",
+      "amountM": 30.6,
+      "yoy": "-83%",
+      "note": "Everything else, including head office and newer activities such as data-center development. Revenue fell because businesses sold last year are no longer included.",
+      "f100": "Other"
+    }
+  ],
+  "flow": {
+    "revenueM": 5356.3,
+    "costOfRevenueM": 663.1,
+    "grossProfitM": 4693.2,
+    "opex": [
+      {
+        "name": "Other operating expenses",
+        "amountM": 2776.7,
+        "note": "The day-to-day cost of projects and services \u2014 subcontractors, equipment and site costs that are not materials or staff."
+      },
+      {
+        "name": "Personnel expenses",
+        "amountM": 1066.5,
+        "note": "Pay for the group's workforce, from construction crews to engineers and head-office staff."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 290.5,
+        "note": "The wearing-out cost of machinery, toll-road assets and other long-lived equipment, spread over their lives."
+      },
+      {
+        "name": "Gains on disposals",
+        "amountM": -31.9,
+        "note": "A gain, not a cost: Ferrovial sold stakes (including London's Silvertown Tunnel and Chile's Transchile) for more than their book value."
+      }
+    ],
+    "operatingIncomeM": 591.4,
+    "otherIncomeM": -82.0,
+    "taxM": 53.6,
+    "netIncomeM": 455.8
+  },
+  "otherDetail": "The net $82.0M below operating profit combines $243.8M of net finance costs (mostly interest on toll-road project debt), partly offset by a $153.8M share of profits from equity-accounted companies \u2014 roads and airports Ferrovial part-owns, above all Toronto's 407 ETR \u2014 and an $8.0M profit from discontinued operations.",
+  "footerNote": "Ferrovial reports half-yearly with a full income statement, so this report covers the six months ended Jun 30, 2026. Ferrovial reports in euros (revenue \u20ac4,701M; net profit \u20ac400M, of which \u20ac258M to the parent company's shareholders). Dollar figures are converted at the ECB euro reference rate for the period-end date, \u20ac1 = $1.1394 on Jun 30, 2026. Ferrovial reports costs by type rather than by function, so materials consumed are shown as the direct cost and everything else as running costs. Lines are rounded after conversion, so converted totals may differ by a few $M from a direct conversion of the euro totals.",
+  "follow100Note": "This is a half-year report: the $100 breakdown is per $100 of revenue for the six months ended Jun 30, 2026.",
+  "oneTimers": [
+    "Operating profit includes a \u20ac28M net gain on disposals and impairments \u2014 mainly selling the Silvertown Tunnel stake in London (a \u20ac8M gain) and Transchile in Chile (a \u20ac22M gain). A year earlier the same line was a \u20ac275M gain, which is the main reason operating profit fell from \u20ac706M to \u20ac519M even though the businesses grew."
+  ],
+  "takeaways": [
+    {
+      "stat": "+11.3%",
+      "statColor": "#3d7bc8",
+      "title": "Growth is stronger than it looks",
+      "text": "Revenue rose 5.2% to \u20ac4.7B ($5.4B) in reported terms, but 11.3% like-for-like \u2014 currency moves, mainly a weaker dollar, hid much of it. Highways revenue rose 9.4% and construction 7.1%, and the construction order book hit a record \u20ac18.0B."
+    },
+    {
+      "stat": "\u20ac530M",
+      "statColor": "#4C9A67",
+      "title": "US toll roads are the profit engine",
+      "text": "Highways produced \u20ac530M of adjusted EBITDA on just \u20ac740M of revenue. On the US express lanes, revenue per trip rose well ahead of inflation \u2014 NTE +18.9%, NTE 35W +17.3% and LBJ +11.7% \u2014 and Toronto's 407 ETR paid out strongly as traffic grew."
+    },
+    {
+      "stat": "\u20ac400M",
+      "statColor": "#cf5f4e",
+      "title": "Profit fell on a one-off comparison",
+      "text": "Net profit was \u20ac400M, down from \u20ac662M a year ago \u2014 not because operations weakened (adjusted EBITDA rose 13.9% to \u20ac746M), but because H1 2025 included \u20ac275M of asset-sale gains versus \u20ac28M this half. Earnings per share fell to \u20ac0.36 from \u20ac0.75."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Interim management report & financial statements (SEC EDGAR 6-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468522/000162828026050224/interimmanagementreportu.htm"
+    },
+    {
+      "label": "Form 6-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468522/000162828026050224/a6k20261hferrovialnvfinanc.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Construction",
+      "amount": 78.71
+    },
+    {
+      "label": "Highways",
+      "amount": 15.74
+    },
+    {
+      "label": "Energy",
+      "amount": 4.3
+    },
+    {
+      "label": "Airports",
+      "amount": 0.68
+    },
+    {
+      "label": "Other",
+      "amount": 0.57
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -12.38
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -51.84
+    },
+    {
+      "label": "Personnel",
+      "amount": -19.91
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -5.42
+    },
+    {
+      "label": "Disposal gains",
+      "amount": 0.6
+    },
+    {
+      "label": "Finance & other, net",
+      "amount": -1.53
+    },
+    {
+      "label": "Tax",
+      "amount": -1.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.51
+    }
+  ]
+}

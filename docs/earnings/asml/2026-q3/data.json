@@ -1,0 +1,139 @@
+{
+  "ticker": "ASML",
+  "company": "ASML",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-14",
+  "revenueYoY": "+55%",
+  "verdict": "ASML sold a record $13.3B of chipmaking machines as AI demand filled its order book \u2014 and a $581M gain on its investment stakes helped lift profit to $5.7B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$13.3B",
+      "note": "+55% vs a year ago (\u20ac11.7B as reported)"
+    },
+    {
+      "label": "Gross margin",
+      "value": "57.5%",
+      "note": "Above guidance, on strong upgrade demand"
+    },
+    {
+      "label": "Net income",
+      "value": "$5.7B",
+      "note": "42.5% of sales (\u20ac5.0B as reported)"
+    },
+    {
+      "label": "Systems sold",
+      "value": "121",
+      "note": "Lithography systems, vs 72 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Lithography systems",
+      "amountM": 9548.0,
+      "yoy": "+51%",
+      "note": "New chipmaking machines \u2014 the giant lithography systems that print the patterns of microchips, including EUV systems for the most advanced chips. ASML sold 121 lithography systems in the quarter, up from 72 a year ago.",
+      "f100": "Lithography systems"
+    },
+    {
+      "name": "Service & field options",
+      "amountM": 3750.2,
+      "yoy": "+68%",
+      "note": "Servicing, maintaining and upgrading machines already installed at customers' factories \u2014 ASML calls this Installed Base Management. It beat guidance on strong demand for productivity upgrades.",
+      "f100": "Service & upgrades"
+    }
+  ],
+  "flow": {
+    "revenueM": 13298.2,
+    "costOfRevenueM": 5658.4,
+    "grossProfitM": 7639.8,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1339.2,
+        "note": "Developing the next generations of lithography machines, including High NA EUV systems."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 402.1,
+        "note": "Selling the machines and running the company \u2014 finance, legal and admin."
+      }
+    ],
+    "operatingIncomeM": 5898.5,
+    "otherIncomeM": 659.0,
+    "equityM": 153.6,
+    "taxM": 1054.8,
+    "netIncomeM": 5656.3
+  },
+  "otherDetail": "Other income of $812.6M combines a $581.2M gain on equity investments (stakes ASML holds in other companies rose in value), $77.8M of net interest and other income, and a $153.6M profit share from equity-method investments, which ASML reports after tax.",
+  "footerNote": "ASML reports in euros (revenue \u20ac11,662M; net income \u20ac4,960M). Dollar figures are converted at the ECB euro reference rate of \u20ac1 = $1.1403 from Sep 25, 2026 \u2014 the last business day before the Sep 27 period end, which fell on a Sunday. Lines are rounded after conversion, so converted totals may differ by a few $M from a direct conversion of the euro totals.",
+  "oneTimers": [
+    "Net income includes a \u20ac509.7M (about $581M) gain on equity investments \u2014 the value of stakes ASML holds went up. It is not money from selling machines, and there was no such gain a year ago."
+  ],
+  "takeaways": [
+    {
+      "stat": "+55%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter",
+      "text": "Total net sales hit a record \u20ac11.7B ($13.3B), up 55% from a year ago and near the top of guidance. ASML sold 121 lithography systems, and service and upgrade sales jumped 68% as chipmakers squeezed more output from installed machines."
+    },
+    {
+      "stat": "57.5%",
+      "statColor": "#4C9A67",
+      "title": "Margins beat the plan",
+      "text": "Gross margin reached 57.5%, above guidance, helped by those high-value upgrades. Operating income was $5.9B, a 44% operating margin, even after $1.3B of research spending."
+    },
+    {
+      "stat": "2029\u201330",
+      "statColor": "#5b6b7c",
+      "title": "Demand runs past supply",
+      "text": "Customers are raising their equipment forecasts on AI investment, and some are already asking about orders for 2029 and 2030. ASML says its planned supply for 2027 and 2028 will not fully meet demand and it is looking for ways to add capacity. Q4 sales are guided to \u20ac14.2B\u2013\u20ac15.2B."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm"
+    },
+    {
+      "label": "Financial statements, US GAAP (SEC EDGAR 6-K Ex-99.3)",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Lithography systems",
+      "amount": 71.8
+    },
+    {
+      "label": "Service & upgrades",
+      "amount": 28.2
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.55
+    },
+    {
+      "label": "R&D",
+      "amount": -10.07
+    },
+    {
+      "label": "SG&A",
+      "amount": -3.02
+    },
+    {
+      "label": "Other income",
+      "amount": 6.11
+    },
+    {
+      "label": "Tax",
+      "amount": -7.93
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 42.53
+    }
+  ]
+}
