@@ -1,0 +1,129 @@
+{
+  "ticker": "GPN",
+  "company": "Global Payments",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+64%",
+  "verdict": "The Worldpay deal transformed Global Payments' scale \u2014 GAAP revenue jumped 64% \u2014 but over $1 billion of acquisition amortization and integration costs crushed GAAP operating profit.",
+  "kpis": [
+    {
+      "label": "Revenue (GAAP)",
+      "value": "$3.3B",
+      "note": "+64% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.06",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.58",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$1.4B",
+      "note": "42.5% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "SMB",
+      "amountM": 1664,
+      "note": "Payment acceptance and software for small and medium-sized businesses \u2014 the largest channel.",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Enterprise",
+      "amountM": 836,
+      "note": "Payments for large global merchants, transformed by Worldpay.",
+      "yoy": "+436%"
+    },
+    {
+      "name": "Platforms",
+      "amountM": 634,
+      "note": "Software platforms and payment services sold through partners.",
+      "yoy": "+123%"
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 172,
+      "note": "Other revenue lines outside the three main channels.",
+      "yoy": ""
+    }
+  ],
+  "flow": {
+    "revenueM": 3306,
+    "costOfRevenueM": 1297,
+    "grossProfitM": 2009,
+    "opex": [
+      {
+        "name": "Sales, general & admin",
+        "amountM": 1763,
+        "note": "Running the combined company, including $344M of acquisition, integration, separation and transformation costs excluded from adjusted results."
+      }
+    ],
+    "operatingIncomeM": 246,
+    "otherIncomeM": 26,
+    "equityM": 18,
+    "taxM": 0,
+    "netIncomeM": 290
+  },
+  "otherDetail": "Interest and other expense of $242M, more than offset by $202M of income from discontinued operations (the Issuer Solutions business being sold) and a $67M income-tax benefit \u2014 a net $26M added to profit. Tax was a benefit this quarter, not a cost, so it is included here rather than as a tax charge.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 39.22
+    },
+    {
+      "label": "Sales, general & admin",
+      "amount": 53.33
+    },
+    {
+      "label": "Other income & tax benefit (added back)",
+      "amount": -0.8
+    },
+    {
+      "label": "Equity income (added back)",
+      "amount": -0.53
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.78
+    }
+  ],
+  "follow100Note": "Figures are rounded to the nearest $1 million from the release (revenue $3,306.3M, total net income $290.2M). Kept as profit is total net income, including $202M from discontinued operations; continuing operations earned $88M and $281M in total was attributable to Global Payments shareholders. Cost of service includes $755M of amortization of acquired intangibles from the Worldpay deal.",
+  "takeaways": [
+    {
+      "stat": "+64%",
+      "statColor": "#3d7bc8",
+      "title": "Worldpay changed the company's size",
+      "text": "GAAP revenue rose 64% to $3.31 billion with Worldpay consolidated; on a normalized like-for-like basis, adjusted net revenue grew over 4% to $3.18 billion."
+    },
+    {
+      "stat": "$246M",
+      "statColor": "#cf5f4e",
+      "title": "GAAP operating profit was squeezed",
+      "text": "Operating income fell to $246 million because cost of service includes $763 million of acquisition-related amortization and adjustments, and SG&A includes $344 million of deal and transformation costs. Adjusted operating income was $1,353 million."
+    },
+    {
+      "stat": "$650M",
+      "statColor": "#3e8e5a",
+      "title": "Synergy target raised",
+      "text": "Management raised the expected annual run-rate Worldpay cost synergies to $650 million and kept 2026 guidance unchanged: adjusted EPS of $13.60-13.80."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results carry over $1.1 billion of Worldpay-related items: $763 million of adjustments in cost of service (mostly $755 million of acquired-intangible amortization) and $344 million in SG&A (acquisition/integration $222M, transformation $51M, employee termination $63M, other $8M).",
+    "Income from discontinued operations was $202 million, and the quarter's tax line was a $67 million benefit rather than a charge \u2014 both lift total net income of $290 million well above continuing-operations income of $88 million."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.businesswire.com/news/home/20261103515224/en/Global-Payments-Reports-Third-Quarter-2026-Results"
+    }
+  ]
+}

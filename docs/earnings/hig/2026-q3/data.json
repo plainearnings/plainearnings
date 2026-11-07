@@ -1,0 +1,151 @@
+{
+  "ticker": "HIG",
+  "company": "The Hartford",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "revenueYoY": "+4%",
+  "verdict": "The Hartford's GAAP profit jumped 23% on a one-off $497 million reserve-related gain, even as core earnings fell 6% on higher catastrophe losses.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.2B",
+      "note": "+4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.82",
+      "note": "+28% YoY"
+    },
+    {
+      "label": "Core EPS",
+      "value": "$3.50",
+      "note": "-3% YoY"
+    },
+    {
+      "label": "Net investment income",
+      "value": "$850M",
+      "note": "+13% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Business Insurance",
+      "amountM": 4259,
+      "note": "Insurance for companies \u2014 property, casualty and workers' compensation. Written premiums grew 6%.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Employee Benefits",
+      "amountM": 1888,
+      "note": "Group life, disability and other benefits employers offer workers.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "Personal Insurance",
+      "amountM": 997,
+      "note": "Auto and home insurance for individuals.",
+      "yoy": "-5%"
+    },
+    {
+      "name": "Corporate & P&C Other",
+      "amountM": 76,
+      "note": "Corporate items ($58M) plus P&C Other Operations ($18M), which holds runoff and legacy asbestos/environmental business.",
+      "yoy": ""
+    }
+  ],
+  "flow": {
+    "revenueM": 7220,
+    "costOfRevenueM": 3713,
+    "grossProfitM": 3507,
+    "opex": [
+      {
+        "name": "Insurance operating costs",
+        "amountM": 1177,
+        "note": "People, technology and other costs of running the insurance businesses."
+      },
+      {
+        "name": "Policy acquisition costs (DAC)",
+        "amountM": 679,
+        "note": "Commissions and other costs of signing policies, spread over the policies' lives."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 50,
+        "note": "Interest on the company's debt."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 18,
+        "note": "Spreading the cost of past acquisitions over time (a non-cash charge)."
+      }
+    ],
+    "operatingIncomeM": 1583,
+    "otherIncomeM": 0,
+    "taxM": 321,
+    "netIncomeM": 1262
+  },
+  "follow100": [
+    {
+      "label": "Claims & benefits (direct cost)",
+      "amount": 51.43
+    },
+    {
+      "label": "Insurance operating costs",
+      "amount": 16.3
+    },
+    {
+      "label": "Policy acquisition costs",
+      "amount": 9.4
+    },
+    {
+      "label": "Interest expense",
+      "amount": 0.69
+    },
+    {
+      "label": "Amortization",
+      "amount": 0.25
+    },
+    {
+      "label": "Tax",
+      "amount": 4.45
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.48
+    }
+  ],
+  "follow100Note": "Revenue is total revenues including net realized investment losses of $116M. Kept as profit is income from continuing operations of $1,262M; including $61M from discontinued operations (Hartford Funds, being sold), total net income was $1,323M and $1,317M was available to common stockholders.",
+  "takeaways": [
+    {
+      "stat": "$497M",
+      "statColor": "#3e8e5a",
+      "title": "A one-off gain lifted GAAP profit",
+      "text": "Commuting an asbestos & environmental reinsurance cover produced a $497 million pre-tax gain inside prior-year reserve development of $594 million \u2014 the main reason net income rose 23%."
+    },
+    {
+      "stat": "-6%",
+      "statColor": "#cf5f4e",
+      "title": "Core earnings fell",
+      "text": "Core earnings, which strip out that gain and market swings, fell 6% to $956 million as catastrophe losses rose to $198 million and Employee Benefits claims worsened."
+    },
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Dividend raised",
+      "text": "The Hartford raised its quarterly dividend 12% and returned $638 million to stockholders in the quarter, including $475 million of buybacks."
+    }
+  ],
+  "oneTimers": [
+    "The $497 million pre-tax gain from commuting the asbestos & environmental adverse development cover (A&E ADC) is non-core: management's core earnings of $956 million exclude it.",
+    "Hartford Funds is being sold and is reported as discontinued operations: its $61 million of after-tax income is in total net income but not in the continuing-operations profit charted here."
+  ],
+  "footerNote": "Insurer accounting: revenue is mostly earned premiums plus investment income, and claims and benefits are the direct cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.businesswire.com/news/home/20261026676351/en/The-Hartford-Reports-Strong-Third-Quarter-2026-Financial-Results"
+    }
+  ]
+}

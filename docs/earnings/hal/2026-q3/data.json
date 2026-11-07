@@ -1,0 +1,133 @@
+{
+  "ticker": "HAL",
+  "company": "Halliburton",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+2%",
+  "verdict": "Halliburton's revenue was flat as international growth offset weaker North America fracking, and it sees mid-single-digit growth in 2027.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.7B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.50",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.60",
+      "note": ""
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$156M",
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "name": "Completion and Production",
+      "amountM": 3089,
+      "note": "Cementing, stimulation (fracking) and finishing wells so they can produce.",
+      "yoy": "-4%"
+    },
+    {
+      "name": "Drilling and Evaluation",
+      "amountM": 2614,
+      "note": "Drilling wells and measuring what is underground.",
+      "yoy": "+10%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5703,
+    "costOfRevenueM": 4863,
+    "grossProfitM": 840,
+    "opex": [
+      {
+        "name": "Impairments & other charges",
+        "amountM": 107,
+        "note": "Write-downs and other one-off charges taken this quarter."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 67,
+        "note": "Running the head office and support functions."
+      },
+      {
+        "name": "SAP S4 upgrade",
+        "amountM": 42,
+        "note": "Migrating the company's core computer systems to SAP S4."
+      }
+    ],
+    "operatingIncomeM": 624,
+    "otherIncomeM": -111,
+    "taxM": 94,
+    "netIncomeM": 419
+  },
+  "otherDetail": "Interest and other costs outside the core business, net \u2014 $111 million taken out of profit on the way to $513 million of pre-tax income.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 85.26
+    },
+    {
+      "label": "Impairments & other charges",
+      "amount": 1.88
+    },
+    {
+      "label": "General & administrative",
+      "amount": 1.17
+    },
+    {
+      "label": "SAP S4 upgrade",
+      "amount": 0.74
+    },
+    {
+      "label": "Other costs",
+      "amount": 1.95
+    },
+    {
+      "label": "Tax",
+      "amount": 1.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.35
+    }
+  ],
+  "follow100Note": "Kept as profit is total net income of $419 million; $417 million of it is attributable to Halliburton shareholders.",
+  "takeaways": [
+    {
+      "stat": "$3.5B",
+      "statColor": "#3d7bc8",
+      "title": "International did the heavy lifting",
+      "text": "International revenue rose 3% from last quarter to $3.5 billion, led by an 8% jump in Middle East/Asia, while North America fell 5% to $2.2 billion."
+    },
+    {
+      "stat": "12.8%",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted margin improved",
+      "text": "Excluding $107 million of impairments and other charges, operating income was $731 million \u2014 a 12.8% margin, up from 12.0% last quarter."
+    },
+    {
+      "stat": "~15%",
+      "statColor": "#3d7bc8",
+      "title": "2027 outlook: margins near 15%",
+      "text": "Management expects mid-single-digit revenue growth in 2027 with operating margins of about 15%, assuming a flat North America market."
+    }
+  ],
+  "oneTimers": [
+    "Results include a $107 million pre-tax charge for impairments and other items; excluding it and tax adjustments, adjusted net income was $501 million, or $0.60 per share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.businesswire.com/news/home/20261020668780/en/Halliburton-Announces-Third-Quarter-2026-Results"
+    }
+  ]
+}

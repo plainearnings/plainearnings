@@ -1,0 +1,116 @@
+{
+  "ticker": "GWW",
+  "company": "W. W. Grainger",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "+11%",
+  "verdict": "Grainger's sales rose 11% as demand improved across both businesses, and strong operating leverage let it raise its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.2B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$12.42",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$12.54",
+      "note": "+23% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$546M",
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "name": "High-Touch Solutions N.A.",
+      "amountM": 4131,
+      "note": "Maintenance and repair products sold with dedicated sales teams and on-site services, about $4.1 billion per the earnings call.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Endless Assortment",
+      "amountM": 1050,
+      "note": "Online-only Zoro (U.S.) and MonotaRO (Japan), selling a huge catalog with no sales reps.",
+      "yoy": "+12%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5181,
+    "costOfRevenueM": 3170,
+    "grossProfitM": 2011,
+    "opex": [
+      {
+        "name": "Sales, general & admin",
+        "amountM": 1183,
+        "note": "Sales teams, distribution network support, marketing and the back office."
+      }
+    ],
+    "operatingIncomeM": 828,
+    "otherIncomeM": -14,
+    "taxM": 198,
+    "netIncomeM": 616
+  },
+  "otherDetail": "Net interest expense of $21 million, partly offset by $7 million of other income, for a net $14 million cost.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 61.19
+    },
+    {
+      "label": "Sales, general & admin",
+      "amount": 22.83
+    },
+    {
+      "label": "Other costs",
+      "amount": 0.27
+    },
+    {
+      "label": "Tax",
+      "amount": 3.82
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.89
+    }
+  ],
+  "follow100Note": "Kept as profit is total net earnings of $616 million; $587 million of it belongs to Grainger shareholders and $29 million to noncontrolling interests (mainly MonotaRO's minority owners).",
+  "takeaways": [
+    {
+      "stat": "+14.9%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying growth is even faster",
+      "text": "On a daily, organic constant-currency basis sales grew 14.9% \u2014 the reported 11.3% is held back by the exit from the U.K. market."
+    },
+    {
+      "stat": "16.1%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded on volume",
+      "text": "Adjusted operating margin rose to 16.1% as double-digit volume growth spread fixed costs, lifting adjusted operating earnings 18% to $836 million."
+    },
+    {
+      "stat": "$47-48",
+      "statColor": "#3d7bc8",
+      "title": "Full-year outlook raised",
+      "text": "Grainger now expects 2026 sales of $19.8-20.0 billion and adjusted EPS of $47.00-48.00, up from $45.50-47.25."
+    }
+  ],
+  "oneTimers": [
+    "Reported operating earnings include $8 million of transaction costs for the Adroit technology acquisition; adjusted operating earnings of $836 million exclude them.",
+    "Year-ago results included a large loss on the exit of the U.K. market, which is why reported operating earnings appear to jump 62% \u2014 the adjusted increase is 18%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.prnewswire.com/news-releases/grainger-reports-results-for-the-third-quarter-2026-302928505.html"
+    }
+  ]
+}

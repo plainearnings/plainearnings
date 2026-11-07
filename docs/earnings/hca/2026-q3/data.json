@@ -1,0 +1,117 @@
+{
+  "ticker": "HCA",
+  "company": "HCA Healthcare",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+4%",
+  "verdict": "HCA's revenue grew 3.6% on more patients, but a shift toward uninsured patients cost about $400 million and net income fell 3.9%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$19.8B",
+      "note": "+3.6% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.27",
+      "note": "+4.5% YoY"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$7.22",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$3.9B",
+      "note": "+1.2% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Hospitals & care sites",
+      "amountM": 19849,
+      "note": "189 hospitals and about 2,600 ambulatory care sites in 19 states and the U.K. HCA reports as a single segment.",
+      "yoy": "+4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 19849,
+    "costOfRevenueM": 15951,
+    "grossProfitM": 3898,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 954,
+        "note": "Spreading the cost of hospitals, equipment and systems over their useful lives (a non-cash charge)."
+      }
+    ],
+    "operatingIncomeM": 2944,
+    "otherIncomeM": -574,
+    "taxM": 521,
+    "netIncomeM": 1849
+  },
+  "otherDetail": "Interest expense of $607 million, partly offset by $20 million of equity earnings from affiliates and a $13 million gain on sales of facilities \u2014 a net $574 million cost.",
+  "follow100": [
+    {
+      "label": "Salaries & benefits (direct cost)",
+      "amount": 43.23
+    },
+    {
+      "label": "Supplies (direct cost)",
+      "amount": 14.22
+    },
+    {
+      "label": "Other operating costs (direct cost)",
+      "amount": 22.91
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": 4.81
+    },
+    {
+      "label": "Interest & other (net)",
+      "amount": 2.89
+    },
+    {
+      "label": "Tax",
+      "amount": 2.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.31
+    }
+  ],
+  "follow100Note": "Direct costs here are the cost of caring for patients: salaries and benefits $8,581M, supplies $2,822M and other operating expenses $4,548M. Kept as profit is total net income of $1,849M; $1,579M is attributable to HCA shareholders and $270M to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+3.0%",
+      "statColor": "#3d7bc8",
+      "title": "More patients came in",
+      "text": "Same-facility equivalent admissions rose 3.0% and emergency room visits rose 5.1%, driving revenue up 3.6% to $19.8 billion."
+    },
+    {
+      "stat": "~$400M",
+      "statColor": "#cf5f4e",
+      "title": "Uninsured mix hurt profit",
+      "text": "More patients arrived without insurance as exchange coverage lapsed \u2014 HCA estimates a roughly $400 million pre-tax hit in the quarter, and net income attributable fell 3.9% to $1.58 billion."
+    },
+    {
+      "stat": "$7.27",
+      "statColor": "#3e8e5a",
+      "title": "EPS still rose, on buybacks",
+      "text": "Diluted EPS rose 4.5% to $7.27 even as profit fell, because HCA repurchased 7.2 million shares for $3.0 billion in the quarter, shrinking the share count."
+    }
+  ],
+  "oneTimers": [
+    "Results include a $13 million gain on sales of facilities ($0.05 per share), versus a $2 million loss a year ago."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Third-Quarter-2026-Results/default.aspx"
+    }
+  ]
+}

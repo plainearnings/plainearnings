@@ -1,0 +1,149 @@
+{
+  "ticker": "HAS",
+  "company": "Hasbro",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-20",
+  "revenueYoY": "+15%",
+  "verdict": "Hasbro's revenue jumped 15% as Magic: The Gathering topped $600 million in a quarter for the first time, and it raised its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.6B",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.77",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.90",
+      "note": ""
+    },
+    {
+      "label": "Magic: The Gathering",
+      "value": "$616M",
+      "note": "+34% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Wizards & Digital Gaming",
+      "amountM": 747,
+      "note": "Magic: The Gathering and digital games \u2014 the high-margin growth engine, at a 49% operating margin.",
+      "yoy": "+31%"
+    },
+    {
+      "name": "Consumer Products",
+      "amountM": 828,
+      "note": "Toys and games sold in stores, led by Marvel, KPop Demon Hunters and Transformers.",
+      "yoy": "+4%"
+    },
+    {
+      "name": "Entertainment",
+      "amountM": 20,
+      "note": "Film, TV and licensing of Hasbro brands.",
+      "yoy": "+9%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1595,
+    "costOfRevenueM": 532,
+    "grossProfitM": 1063,
+    "opex": [
+      {
+        "name": "Selling, distribution & admin",
+        "amountM": 332,
+        "note": "Selling, shipping and running the company."
+      },
+      {
+        "name": "Product development",
+        "amountM": 103,
+        "note": "Designing new toys and games."
+      },
+      {
+        "name": "Advertising",
+        "amountM": 96,
+        "note": "Marketing toys and games to families."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 15,
+        "note": "Spreading the cost of past acquisitions over time (a non-cash charge)."
+      }
+    ],
+    "operatingIncomeM": 517,
+    "otherIncomeM": -28,
+    "taxM": 94,
+    "netIncomeM": 395
+  },
+  "otherDetail": "Interest expense of $43 million, partly offset by $15 million of interest income, for a net $28 million cost.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 33.35
+    },
+    {
+      "label": "Selling, distribution & admin",
+      "amount": 20.82
+    },
+    {
+      "label": "Product development",
+      "amount": 6.46
+    },
+    {
+      "label": "Advertising",
+      "amount": 6.02
+    },
+    {
+      "label": "Amortization",
+      "amount": 0.94
+    },
+    {
+      "label": "Other costs",
+      "amount": 1.76
+    },
+    {
+      "label": "Tax",
+      "amount": 5.89
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.76
+    }
+  ],
+  "follow100Note": "Figures are rounded to the nearest $1 million from the 10-Q (revenue $1,595.3M, operating profit $517.3M). Kept as profit is total net earnings of $395 million; $394.5 million is attributable to Hasbro shareholders. Direct costs combine cost of sales, royalties and program cost amortization.",
+  "takeaways": [
+    {
+      "stat": "$616M",
+      "statColor": "#3d7bc8",
+      "title": "Magic passes $600M in a quarter",
+      "text": "Magic: The Gathering revenue grew 34% to $616 million \u2014 its first quarter above $600 million \u2014 driving Wizards & Digital Gaming up 31%."
+    },
+    {
+      "stat": "32.4%",
+      "statColor": "#3e8e5a",
+      "title": "Operating margin leapt",
+      "text": "GAAP operating margin rose to 32.4% from 24.6% a year ago on favorable mix, cost savings and about $55 million of tariff refunds."
+    },
+    {
+      "stat": "7-9%",
+      "statColor": "#3d7bc8",
+      "title": "Outlook raised again",
+      "text": "Hasbro now expects 2026 revenue up 7-9% in constant currency and adjusted EBITDA of $1.575-1.625 billion, and doubled its buyback target to $400 million."
+    }
+  ],
+  "oneTimers": [
+    "Profit includes about $55 million of refunds of tariffs paid earlier \u2014 $48 million in Consumer Products and $7 million in Wizards \u2014 which will not repeat every quarter.",
+    "Adjusted operating profit of $541 million excludes items such as acquired-intangible amortization and transformation costs."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1) and Form 10-Q",
+      "url": "https://www.morningstar.com/news/business-wire/20261019779869/hasbro-reports-third-quarter-2026-financial-results"
+    }
+  ]
+}

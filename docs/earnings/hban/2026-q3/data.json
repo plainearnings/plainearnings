@@ -1,0 +1,111 @@
+{
+  "ticker": "HBAN",
+  "company": "Huntington Bancshares",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+31%",
+  "verdict": "Huntington's revenue jumped 31% as the Cadence and Veritex deals made it a much bigger bank, though acquisition costs and a larger share count held EPS at $0.33.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.8B",
+      "note": "+31% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.33",
+      "note": ""
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.38",
+      "note": ""
+    },
+    {
+      "label": "Net interest margin",
+      "value": "3.25%",
+      "note": "+4 bps QoQ"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 2069,
+      "note": "The spread between interest earned on loans and securities and interest paid on deposits \u2014 a bank's core revenue.",
+      "yoy": "+37%"
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 722,
+      "note": "Fees: service charges, cards, capital markets, wealth and other customer fees.",
+      "yoy": "+15%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2791,
+    "costOfRevenueM": 123,
+    "grossProfitM": 2668,
+    "opex": [
+      {
+        "name": "Noninterest expense",
+        "amountM": 1772,
+        "note": "People, branches, technology and other running costs, including acquisition-related expenses."
+      }
+    ],
+    "operatingIncomeM": 896,
+    "otherIncomeM": 0,
+    "taxM": 172,
+    "netIncomeM": 724
+  },
+  "follow100": [
+    {
+      "label": "Credit-loss provision (direct cost)",
+      "amount": 4.41
+    },
+    {
+      "label": "Noninterest expense",
+      "amount": 63.49
+    },
+    {
+      "label": "Tax",
+      "amount": 6.16
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.94
+    }
+  ],
+  "follow100Note": "For a bank, the 'direct cost' in this chart is the provision for credit losses \u2014 money set aside for loans that may not be repaid. Kept as profit is income after tax of $724 million; $721 million is attributable to Huntington and $680 million to common shareholders after preferred dividends.",
+  "takeaways": [
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "title": "Interest income surged on scale",
+      "text": "Net interest income rose 37% to $2.07 billion as the Cadence and Veritex acquisitions added loans and deposits, and the margin widened to 3.25%."
+    },
+    {
+      "stat": "$0.38",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS excludes deal costs",
+      "text": "Excluding notable items, mostly acquisition-related expenses worth $0.05 a share, adjusted EPS was $0.38 and adjusted return on tangible common equity was 16.6%."
+    },
+    {
+      "stat": "$146M",
+      "statColor": "#cf5f4e",
+      "title": "Charge-offs rose",
+      "text": "Net charge-offs increased to $146 million from $75 million a year ago, a credit cost to watch as the combined loan book seasons."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include notable items, mainly Cadence/Veritex acquisition-related expenses, worth about $0.05 per share after tax; adjusted EPS of $0.38 excludes them."
+  ],
+  "footerNote": "Bank accounting differs from other industries: revenue is net interest income plus fees, and the provision for credit losses is shown as the direct cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://ir.huntington.com/news-presentations/press-releases/detail/1029/huntington-bancshares-incorporated-reports-2026-third-quarter-earnings"
+    }
+  ]
+}

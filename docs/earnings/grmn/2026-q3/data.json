@@ -1,0 +1,142 @@
+{
+  "ticker": "GRMN",
+  "company": "Garmin",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+12%",
+  "verdict": "Garmin posted record revenue and profit as fitness, outdoor and marine devices all grew double digits, and it raised its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.0B",
+      "note": "+12% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.80",
+      "note": "+35% YoY"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$612M",
+      "note": "30.8% margin"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$293M",
+      "note": ""
+    }
+  ],
+  "segments": [
+    {
+      "name": "Fitness",
+      "amountM": 694,
+      "note": "Wearables and cycling computers, led by strong demand for fitness wearables.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "Outdoor",
+      "amountM": 597,
+      "note": "Adventure watches, led by the new fenix 9 series.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "Marine",
+      "amountM": 310,
+      "note": "Boat electronics, led by sonar products.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "Aviation",
+      "amountM": 253,
+      "note": "Flight decks and avionics for aircraft, mostly from equipment makers.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Auto OEM",
+      "amountM": 132,
+      "note": "Built-in car systems; domain controller sales fell ahead of a new Mercedes-Benz program.",
+      "yoy": "-20%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1986,
+    "costOfRevenueM": 728,
+    "grossProfitM": 1258,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 313,
+        "note": "Designing and engineering new products."
+      },
+      {
+        "name": "Sales, general & admin",
+        "amountM": 333,
+        "note": "Selling, marketing and running the company."
+      }
+    ],
+    "operatingIncomeM": 612,
+    "otherIncomeM": 49,
+    "taxM": 119,
+    "netIncomeM": 542
+  },
+  "otherDetail": "Interest income $36M, foreign-currency gains $10M and other income $3M.",
+  "follow100": [
+    {
+      "label": "Direct costs",
+      "amount": 36.67
+    },
+    {
+      "label": "Research & development",
+      "amount": 15.76
+    },
+    {
+      "label": "Sales, general & admin",
+      "amount": 16.78
+    },
+    {
+      "label": "Other income (added back)",
+      "amount": -2.49
+    },
+    {
+      "label": "Tax",
+      "amount": 6.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.27
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Record quarter, guidance raised",
+      "text": "Revenue hit a third-quarter record of $1.99 billion, and Garmin raised its 2026 outlook to about $8.15 billion of revenue."
+    },
+    {
+      "stat": "63.3%",
+      "statColor": "#3e8e5a",
+      "title": "Margins hit a record too",
+      "text": "Gross margin expanded to 63.3%, helped by product mix, lower costs and about $33 million of refunds of previously paid tariffs."
+    },
+    {
+      "stat": "-20%",
+      "statColor": "#cf5f4e",
+      "title": "Auto OEM is the one weak spot",
+      "text": "Car-system revenue fell 20% as domain controller sales wind down ahead of the expected Mercedes-Benz program launch."
+    }
+  ],
+  "oneTimers": [
+    "Gross profit includes about $33 million of refunds of tariffs paid in earlier periods, which flattered the record 63.3% gross margin."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=garmin&type=8-K"
+    }
+  ],
+  "follow100Note": "Figures are rounded to the nearest $1 million from the release (revenue $1,986.1M, net income $541.7M)."
+}
