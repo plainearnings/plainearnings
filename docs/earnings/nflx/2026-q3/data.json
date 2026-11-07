@@ -1,0 +1,130 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "Netflix turned 12% revenue growth into 37% profit growth — its operating margin hit 34.6%, and the streaming machine now funds record share buybacks.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.87",
+      "note": "vs $0.59 a year ago (split-adjusted)"
+    },
+    {
+      "label": "Operating margin",
+      "value": "34.6%",
+      "note": "up from 28.2% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.9B",
+      "note": "vs $2.7B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Streaming",
+      "amountM": 12874,
+      "note": "Memberships and advertising — effectively all of Netflix's money comes from people watching series, films and live events. Ads are still a small slice (about $2.7B expected for all of 2026) and are not reported separately.",
+      "yoy": "+12%"
+    }
+  ],
+  "flow": {
+    "revenueM": 12874,
+    "costOfRevenueM": 6079,
+    "grossProfitM": 6795,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 837,
+        "note": "Advertising the service and winning members."
+      },
+      {
+        "name": "Technology & development",
+        "amountM": 1033,
+        "note": "Building the app, the recommendation engine and the streaming technology — Netflix's version of R&D."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 466,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 4459,
+    "otherIncomeM": -142,
+    "taxM": 653,
+    "netIncomeM": 3664
+  },
+  "follow100": [
+    {
+      "label": "Streaming",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -47.22
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.5
+    },
+    {
+      "label": "Technology & development",
+      "amount": -8.02
+    },
+    {
+      "label": "G&A",
+      "amount": -3.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.1
+    },
+    {
+      "label": "Tax",
+      "amount": -5.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.46
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "34.6%",
+      "statColor": "#3e8e5a",
+      "title": "Margins keep climbing",
+      "text": "Operating margin rose from 28.2% to 34.6% in a year; Netflix guides to 31.5% for 2026 as a whole, even after a Q4 charge for job cuts."
+    },
+    {
+      "stat": "$2.7B",
+      "statColor": "#5b6b7c",
+      "title": "Ads: growing, but slower than hoped",
+      "text": "Netflix cut its 2026 ad-revenue expectation to about $2.7B from roughly $3B — the ad business is real money now, but still only about 5% of revenue."
+    },
+    {
+      "stat": "$4.8B",
+      "statColor": "#3d7bc8",
+      "title": "Record buybacks",
+      "text": "Netflix repurchased $4.8B of its own stock in one quarter — its biggest buyback ever — with $22.3B of capacity still unused."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm"
+    }
+  ],
+  "revenueYoY": "+12%",
+  "otherDetail": "Interest expense of $185M on Netflix's $15.3B of debt, partly offset by $43M of interest and other income — a net $142M cost below operating profit.",
+  "follow100Note": "The rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Per-share figures reflect Netflix's 10-for-1 stock split of November 14, 2025. Netflix reports a single operating segment, so the flow starts from total streaming revenue."
+}

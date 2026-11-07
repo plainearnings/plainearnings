@@ -1,0 +1,146 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Palantir's revenue nearly doubled to $2.3B — and for the first time ever, U.S. businesses paid it more than the U.S. government.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+96%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.44",
+      "note": "adjusted EPS was also $0.44"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "value": "$984M",
+      "note": "+148% YoY — passed U.S. government for the first time"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$1.2B",
+      "note": "53% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial",
+      "amountM": 1168,
+      "note": "Software for companies — the AI Platform (AIP) selling to businesses is the fastest-growing part; U.S. commercial revenue alone was $984M, up 148%.",
+      "yoy": "+113%"
+    },
+    {
+      "name": "Government",
+      "amountM": 1145,
+      "note": "Software for governments and militaries, led by the U.S. ($953M, up 96%) — Palantir's original business, now the smaller half.",
+      "yoy": "+81%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2313,
+    "costOfRevenueM": 383,
+    "grossProfitM": 1930,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 396,
+        "note": "Selling the platform and staffing customer deployments."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 220,
+        "note": "Building the platforms — Foundry, Gotham, Apollo and AIP."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 229,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 1085,
+    "otherIncomeM": 63,
+    "taxM": 14,
+    "netIncomeM": 1134
+  },
+  "follow100": [
+    {
+      "label": "Commercial",
+      "amount": 50.48
+    },
+    {
+      "label": "Government",
+      "amount": 49.52
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -16.57
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -17.15
+    },
+    {
+      "label": "R&D",
+      "amount": -9.5
+    },
+    {
+      "label": "G&A",
+      "amount": -9.89
+    },
+    {
+      "label": "Other income",
+      "amount": 2.73
+    },
+    {
+      "label": "Tax",
+      "amount": -0.59
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 49.04
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+96%",
+      "statColor": "#3d7bc8",
+      "title": "Growth is accelerating, not cooling",
+      "text": "Revenue growth hit 96% — extraordinary at this size — with U.S. revenue up 119% and 212 deals of at least $1M closed in the quarter."
+    },
+    {
+      "stat": "158%",
+      "statColor": "#3e8e5a",
+      "title": "The 'Rule of 40' score",
+      "text": "Palantir's own scorecard — growth rate plus adjusted operating margin — hit 158%, a level almost no software company reaches; adjusted operating margin was 62%."
+    },
+    {
+      "stat": "$984M",
+      "statColor": "#5b6b7c",
+      "title": "Businesses pass government",
+      "text": "U.S. commercial revenue ($984M) topped U.S. government revenue ($953M) for the first time in the company's history — the customer mix has flipped."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based pay cost $319M this quarter and sits inside the GAAP expenses; excluding it, 'adjusted' operating income was $1,427M (a 62% margin) versus $1,085M on a GAAP basis (47%)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+    }
+  ],
+  "revenueYoY": "+96%",
+  "otherDetail": "Interest income of $89M on Palantir's $10.4B cash and Treasury pile, less $26M of other net costs — a net +$63M.",
+  "follow100Note": "Other income adds $2.73 per $100 of revenue; the rows reconcile to $100 within a cent or two of rounding.",
+  "footerNote": "Government and Commercial revenue splits are from Palantir's Q3 2026 Form 10-Q; all other figures are from the earnings release. GAAP net income of $1,134M includes $6M belonging to minority partners; $1,128M is attributable to common stockholders."
+}

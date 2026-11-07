@@ -1,0 +1,171 @@
+{
+  "ticker": "MU",
+  "company": "Micron",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-03",
+  "reportedDate": "2026-09-30",
+  "verdict": "Micron's revenue quintupled in a year to $54.2B — AI data centers are buying every memory chip it can make, at prices so high that 87 cents of each sales dollar survived as gross profit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+379%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$32.87",
+      "note": "vs $2.83 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "87%",
+      "note": "vs 45% a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$44.0B",
+      "note": "in a single quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Core Data Center",
+      "amountM": 18002,
+      "note": "SSDs and memory for data-center builders — a year ago this was a $1.6B business; AI servers changed that.",
+      "yoy": "+1042%"
+    },
+    {
+      "name": "Cloud Memory",
+      "amountM": 16283,
+      "note": "HBM — the high-bandwidth memory stacked onto AI chips — plus memory for the giant cloud companies; an 83% gross margin business.",
+      "yoy": "+258%"
+    },
+    {
+      "name": "Mobile and Client",
+      "amountM": 13114,
+      "note": "Memory and storage for phones and PCs — device makers are paying shortage prices to secure supply.",
+      "yoy": "+249%"
+    },
+    {
+      "name": "Automotive and Embedded",
+      "amountM": 6824,
+      "note": "Chips for cars, factories and connected gadgets.",
+      "yoy": "+376%"
+    },
+    {
+      "name": "All other",
+      "amountM": 6,
+      "note": "Small leftovers outside the four business units."
+    }
+  ],
+  "flow": {
+    "revenueM": 54229,
+    "costOfRevenueM": 7182,
+    "grossProfitM": 47047,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1913,
+        "note": "Designing denser, faster memory — a smaller slice of revenue than ever, because sales exploded."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 859,
+        "note": "Selling chips and running the company."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 524,
+        "note": "Mostly a $500M patent-license charge (see one-time items) — not part of making or selling memory."
+      }
+    ],
+    "operatingIncomeM": 43751,
+    "otherIncomeM": 533,
+    "taxM": 6583,
+    "netIncomeM": 37701
+  },
+  "follow100": [
+    {
+      "label": "Core Data Center",
+      "amount": 33.2
+    },
+    {
+      "label": "Cloud Memory",
+      "amount": 30.03
+    },
+    {
+      "label": "Mobile and Client",
+      "amount": 24.18
+    },
+    {
+      "label": "Automotive and Embedded",
+      "amount": 12.58
+    },
+    {
+      "label": "All other",
+      "amount": 0.01
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -13.24
+    },
+    {
+      "label": "R&D",
+      "amount": -3.53
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.58
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.97
+    },
+    {
+      "label": "Other income",
+      "amount": 0.98
+    },
+    {
+      "label": "Tax",
+      "amount": -12.14
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 69.52
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+379%",
+      "statColor": "#3d7bc8",
+      "title": "The memory supercycle",
+      "text": "Revenue went from $11.3B to $54.2B in a year. Full-year revenue was $133B — three and a half times the year before."
+    },
+    {
+      "stat": "87%",
+      "statColor": "#3e8e5a",
+      "title": "Scarcity pricing",
+      "text": "Gross margin hit 87%, up from 45% a year ago: when every chip is spoken for before it is made, the maker sets the price."
+    },
+    {
+      "stat": "$61.5B",
+      "statColor": "#5b6b7c",
+      "title": "Next quarter: bigger",
+      "text": "Micron guided the current quarter to about $61.5B of revenue — it expects the shortage, and the pricing power, to continue."
+    }
+  ],
+  "oneTimers": [
+    "A $500M patent-license charge sits inside 'other operating expense' — a one-off legal cost of the quarter, unrelated to selling memory. Excluding such items, non-GAAP net income was $38.4B ($33.42 a share) versus $37.7B GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+    }
+  ],
+  "revenueYoY": "+379%",
+  "otherDetail": "Interest income of $575M on Micron's growing cash pile plus $46M from equity investments, less $88M of other non-operating costs — a net +$533M.",
+  "follow100Note": "Other income adds $0.98 per $100 of revenue; the rows reconcile to $100 at this rounding.",
+  "footerNote": "Business-unit revenues are as reported by Micron; 'All other' is the small residual outside the four units."
+}

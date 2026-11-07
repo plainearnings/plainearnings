@@ -1,0 +1,141 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-08-02",
+  "reportedDate": "2026-09-02",
+  "verdict": "Broadcom's revenue jumped 86% to a record $29.6B because one product line — custom AI chips for the big cloud builders — tripled in a year.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+86%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.68",
+      "note": "vs $0.85 a year ago"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "value": "$16.7B",
+      "note": "+221% YoY — over half of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$13.7B",
+      "note": "46% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 20839,
+      "note": "Chips — above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue alone was $16.7B, up 221% YoY.",
+      "yoy": "+127%"
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 8752,
+      "note": "VMware and other enterprise software — the steady, subscription side of the company.",
+      "yoy": "+29%"
+    }
+  ],
+  "flow": {
+    "revenueM": 29591,
+    "costOfRevenueM": 9135,
+    "grossProfitM": 20456,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2895,
+        "note": "Designing the next chips and software — Broadcom spends a smaller share of each revenue dollar here than most chip rivals."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 996,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 610,
+        "note": "Mostly writing down the value of brands and technology bought in acquisitions (VMware above all) — a bookkeeping charge, not cash — plus restructuring costs."
+      }
+    ],
+    "operatingIncomeM": 15955,
+    "otherIncomeM": -680,
+    "taxM": 2187,
+    "netIncomeM": 13088
+  },
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 70.42
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 29.58
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -30.87
+    },
+    {
+      "label": "R&D",
+      "amount": -9.78
+    },
+    {
+      "label": "SG&A",
+      "amount": -3.37
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -2.06
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.3
+    },
+    {
+      "label": "Tax",
+      "amount": -7.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 44.23
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+221%",
+      "statColor": "#3d7bc8",
+      "title": "AI chips are the story",
+      "text": "AI semiconductor revenue hit $16.7B — more than Broadcom's entire company revenue a year ago — and management guided it to $21.7B next quarter."
+    },
+    {
+      "stat": "$34.8B",
+      "statColor": "#3e8e5a",
+      "title": "Next quarter looks bigger",
+      "text": "Guidance calls for revenue of about $34.8B in Q4, up 93% YoY — growth is accelerating, not cooling."
+    },
+    {
+      "stat": "46%",
+      "statColor": "#5b6b7c",
+      "title": "A cash machine",
+      "text": "Free cash flow was $13.7B — 46 cents of every revenue dollar — because software-like margins now sit on top of a chip business."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $2,006M of amortization of acquisition-related intangible assets (split between cost of revenue and operating expenses) and $2,019M of stock-based pay — mostly non-cash charges. On Broadcom's non-GAAP view, EPS was $3.32 instead of $2.68."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+    }
+  ],
+  "revenueYoY": "+86%",
+  "otherDetail": "Interest expense of $778M on Broadcom's large debt stack (taken on for acquisitions), partly offset by $98M of other income — a net $680M cost below operating profit.",
+  "follow100Note": "The rows reconcile to $100 at this rounding."
+}

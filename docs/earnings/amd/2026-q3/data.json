@@ -1,0 +1,157 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-03",
+  "verdict": "AMD's record $13.4B quarter was powered by its data-center business nearly doubling — the AI boom finally has a second chip supplier at scale.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+45%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.46",
+      "note": "vs $0.75 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$8.5B",
+      "note": "+97% YoY, 64% of all revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "54%",
+      "note": "up from 52% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 8546,
+      "note": "Instinct AI accelerators and EPYC server processors — a record quarter as AI builders bought GPUs and CPUs together.",
+      "yoy": "+97%"
+    },
+    {
+      "name": "Client and Gaming",
+      "amountM": 3722,
+      "note": "PC chips (Ryzen) grew 7% to $2,949M, but gaming revenue fell 40% to $773M on weaker console and graphics demand.",
+      "yoy": "-8%"
+    },
+    {
+      "name": "Embedded",
+      "amountM": 1109,
+      "note": "Chips designed into aircraft, cars, telecom gear and factory equipment — steady, long-cycle business.",
+      "yoy": "+29%"
+    }
+  ],
+  "flow": {
+    "revenueM": 13377,
+    "costOfRevenueM": 6167,
+    "grossProfitM": 7210,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2803,
+        "note": "Designing AI accelerators, processors and the software around them."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 1298,
+        "note": "Selling chips and running the company."
+      },
+      {
+        "name": "Amortization of acquisition intangibles",
+        "amountM": 277,
+        "note": "Writing down technology and brands bought in past deals (mainly Xilinx) — bookkeeping, not cash. Another $257M of it sits in cost of sales."
+      }
+    ],
+    "operatingIncomeM": 2832,
+    "otherIncomeM": -959,
+    "taxM": -555,
+    "netIncomeM": 2428
+  },
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 63.89
+    },
+    {
+      "label": "Client and Gaming",
+      "amount": 27.82
+    },
+    {
+      "label": "Embedded",
+      "amount": 8.29
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -46.1
+    },
+    {
+      "label": "R&D",
+      "amount": -20.95
+    },
+    {
+      "label": "Marketing & admin",
+      "amount": -9.7
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -7.17
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 4.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.15
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+97%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center is the company now",
+      "text": "$8.5B of the $13.4B total, on record Instinct GPU and EPYC CPU sales; management expects growth to accelerate as Helios systems ramp."
+    },
+    {
+      "stat": "$2.09",
+      "statColor": "#5b6b7c",
+      "title": "Two versions of profit",
+      "text": "Non-GAAP EPS was $2.09; GAAP EPS was $1.46. Almost the whole gap is the non-cash warrant charge described below."
+    },
+    {
+      "stat": "-40%",
+      "statColor": "#cf5f4e",
+      "title": "Gaming is the weak spot",
+      "text": "Gaming revenue fell 40% to $773M — console chips and graphics cards are shrinking while everything AI-adjacent booms."
+    }
+  ],
+  "oneTimers": [
+    "The $1,097M warrant charge is non-cash: AMD granted two large customers warrants for up to 160M shares each (at $0.01) tied to purchase milestones; as AMD's share price climbed, the accounting value of that promise jumped, and the increase is booked as a loss. It will keep swinging with the share price until the warrants vest.",
+    "Income tax was a $555M benefit this quarter instead of the usual expense, which also lifted GAAP net income; AMD's non-GAAP results use a normalized 13% tax rate."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+    }
+  ],
+  "revenueYoY": "+45%",
+  "otherDetail": "A $1,097M paper loss on stock warrants granted to two big AI customers — the promised shares are worth more because AMD's share price rose — plus $62M of interest expense, partly offset by $123M of interest income, $67M of investment gains and $5M of equity income: a net $959M cost. Taxes, unusually, added a $555M benefit rather than a bill.",
+  "follow100Note": "The tax line is a benefit (money back), so it adds instead of subtracting; the rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Other income (expense), net and its warrant charge are detailed in AMD's Q3 2026 Form 10-Q; headline figures are from the earnings release."
+}

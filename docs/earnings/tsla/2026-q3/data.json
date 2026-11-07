@@ -1,0 +1,144 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Tesla's revenue was flat at $28.0B — cheaper cars and vanishing regulatory credits ate the growth — while operating profit fell by more than half as AI and robotics spending surged.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "roughly flat — $28.0B vs $28.1B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.22",
+      "note": "vs $0.39 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "486,532",
+      "note": "-2% YoY; production was 464,391 (+4%)"
+    },
+    {
+      "label": "Capex",
+      "value": "$4.7B",
+      "note": "AI compute, factories and the new Austin chip fab"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 20560,
+      "note": "Car sales, leasing and regulatory credits — down 3% YoY: record deliveries in several markets could not fully offset lower prices, and credit revenue shrank from $417M to $113M.",
+      "yoy": "-3%"
+    },
+    {
+      "name": "Services and other",
+      "amountM": 4605,
+      "note": "Supercharging, service centers, parts and FSD (supervised-driving) subscriptions — up 33% YoY to a record, with record gross profit of $734M.",
+      "yoy": "+33%"
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 2881,
+      "note": "Megapack battery systems and solar — down 16% YoY, partly on tariff-related refunds to customers, even though storage deployments were strong at 13.7 GWh.",
+      "yoy": "-16%"
+    }
+  ],
+  "flow": {
+    "revenueM": 28046,
+    "costOfRevenueM": 22552,
+    "grossProfitM": 5494,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2761,
+        "note": "Building AI ('Super Intelligence'), the Optimus robot and new vehicles — up 69% YoY, the big reason profit fell."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 2015,
+        "note": "Selling cars and running the company day to day — up 29% YoY."
+      }
+    ],
+    "operatingIncomeM": 718,
+    "otherIncomeM": 238,
+    "taxM": 152,
+    "netIncomeM": 804
+  },
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 73.31
+    },
+    {
+      "label": "Services and other",
+      "amount": 16.42
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 10.27
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.41
+    },
+    {
+      "label": "R&D",
+      "amount": -9.84
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.18
+    },
+    {
+      "label": "Other income",
+      "amount": 0.85
+    },
+    {
+      "label": "Tax",
+      "amount": -0.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.87
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-56%",
+      "statColor": "#cf5f4e",
+      "title": "Profit is funding the pivot",
+      "text": "Operating income fell from $1,624M to $718M even though gross profit rose — Tesla chose to pour the difference into AI, robotics and stock-based pay."
+    },
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "Services is the quiet growth story",
+      "text": "Services and other revenue hit a record $4,605M with record gross profit — charging, servicing and FSD subscriptions now bring in more than the entire energy business."
+    },
+    {
+      "stat": "$113M",
+      "statColor": "#5b6b7c",
+      "title": "Regulatory credits are drying up",
+      "text": "Credit sales fell from $417M a year ago to $113M — money rival carmakers pay Tesla for clean-air credits is disappearing, and it used to be almost pure profit."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based pay was $1,165M (vs $663M a year ago), swollen by the 2025 CEO Performance Award — a non-cash cost sitting inside operating expenses. Excluding it and mark-to-market swings, non-GAAP net income was $1,697M ($0.48 a share).",
+    "Other income includes paper swings: a $142M unrealized loss on Tesla's SpaceX stake and a $288M unrealized gain on digital assets. Neither involved cash."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm"
+    }
+  ],
+  "revenueYoY": "0%",
+  "otherDetail": "Interest income of $445M, less $90M of interest expense and a $117M net loss on investments and currency (including a $142M paper loss on Tesla's SpaceX stake, partly offset by a $288M paper gain on digital assets) — a net +$238M.",
+  "follow100Note": "Other income adds $0.85 per $100 of revenue; the rows reconcile to $100 within a cent of rounding.",
+  "footerNote": "Net income here is Tesla's total net income of $804M; $787M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries)."
+}
