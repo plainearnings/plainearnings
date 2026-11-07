@@ -1,0 +1,168 @@
+{
+  "ticker": "MU",
+  "company": "Micron",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-05-28",
+  "reportedDate": "2026-06-24",
+  "verdict": "Micron's revenue quadrupled to $41.5B as AI data centers bid memory prices sky-high \u2014 85 cents of every sales dollar survived as gross profit, and net income hit $28.2B.",
+  "revenueYoY": "+346%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+346%",
+      "note": "vs a year ago \u2014 the AI memory supercycle"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$24.67",
+      "note": "diluted"
+    },
+    {
+      "label": "Gross margin",
+      "value": "85%",
+      "note": "vs 38% a year ago"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$18.3B",
+      "note": "after $7.1B of capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud Memory",
+      "amountM": 13769,
+      "yoy": "+307%",
+      "note": "High-bandwidth memory (HBM) stacked right beside AI processors in cloud servers \u2014 the scarcest, most valuable memory Micron makes."
+    },
+    {
+      "name": "Core Data Center",
+      "amountM": 11524,
+      "yoy": "+653%",
+      "note": "DRAM and NAND for conventional cloud and enterprise data-center servers."
+    },
+    {
+      "name": "Mobile and Client",
+      "amountM": 11521,
+      "yoy": "+254%",
+      "note": "Memory for smartphones, PCs and other consumer devices."
+    },
+    {
+      "name": "Automotive and Embedded",
+      "amountM": 4634,
+      "yoy": "+311%",
+      "note": "Memory for cars, factories and industrial equipment \u2014 smaller and steadier than the AI-driven units."
+    },
+    {
+      "name": "All other",
+      "amountM": 8,
+      "yoy": null,
+      "note": "Small leftovers outside the four business units."
+    }
+  ],
+  "flow": {
+    "revenueM": 41456,
+    "costOfRevenueM": 6400,
+    "grossProfitM": 35056,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1316,
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 407,
+        "note": "Sales teams and the cost of running the company."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 15,
+        "note": "Small other operating costs, net."
+      }
+    ],
+    "operatingIncomeM": 33318,
+    "otherIncomeM": -97,
+    "taxM": 4978,
+    "netIncomeM": 28243
+  },
+  "otherDetail": "Interest income of $215M on Micron's growing cash pile plus $9M from equity investments, outweighed by $321M of other non-operating losses (foreign-exchange and debt-related items).",
+  "follow100": [
+    {
+      "label": "Cloud Memory",
+      "amount": 33.21
+    },
+    {
+      "label": "Core Data Center",
+      "amount": 27.8
+    },
+    {
+      "label": "Mobile and Client",
+      "amount": 27.79
+    },
+    {
+      "label": "Automotive & embedded",
+      "amount": 11.18
+    },
+    {
+      "label": "All other",
+      "amount": 0.02
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -15.44
+    },
+    {
+      "label": "R&D",
+      "amount": -3.17
+    },
+    {
+      "label": "SG&A",
+      "amount": -0.98
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.04
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.23
+    },
+    {
+      "label": "Tax",
+      "amount": -12.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 68.12
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+346%",
+      "statColor": "#3d7bc8",
+      "title": "The memory supercycle",
+      "text": "Revenue was four and a half times the year-ago quarter as AI builders scrambled for HBM and DRAM. Every business unit at least tripled."
+    },
+    {
+      "stat": "85%",
+      "statColor": "#3e8e5a",
+      "title": "Almost pure profit at the top",
+      "text": "Gross margin hit 85% \u2014 memory prices rose far faster than the cost of making chips. A year ago the same margin was 38%."
+    },
+    {
+      "stat": "$28.2B",
+      "statColor": "#3e8e5a",
+      "title": "A $28B profit quarter",
+      "text": "Net income of $28.2B was fifteen times the year-ago quarter \u2014 and Micron still spent $7.1B on factories (capex) chasing the demand."
+    }
+  ],
+  "footerNote": "Business-unit revenues are as reported by Micron; 'All other' is the small residual outside the four units.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm"
+    }
+  ]
+}

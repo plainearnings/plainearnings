@@ -1,0 +1,138 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Reddit's revenue jumped 61% to $805M as its ad business caught fire \u2014 and with costs growing far more slowly, net income more than doubled to $253M.",
+  "revenueYoY": "+61%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+61%",
+      "note": "8th straight quarter above 60%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.25",
+      "note": "diluted \u2014 more than double a year ago"
+    },
+    {
+      "label": "Daily users",
+      "value": "130.3M",
+      "note": "DAUq, +18% YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$343M",
+      "note": "43% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 762,
+      "yoy": "+64%",
+      "note": "Ads shown across Reddit's communities \u2014 powered by more users, more time on site, and better ad targeting."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 43,
+      "yoy": "+24%",
+      "note": "Mostly data licensing \u2014 deals that let AI companies train on Reddit's public posts \u2014 plus Reddit Premium subscriptions."
+    }
+  ],
+  "flow": {
+    "revenueM": 805,
+    "costOfRevenueM": 70,
+    "grossProfitM": 735,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 231,
+        "note": "Building the product and the ad platform \u2014 up 18% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 196,
+        "note": "Winning advertisers and users \u2014 up 62% YoY, the fastest-growing cost line."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 76,
+        "note": "Running the company \u2014 up 10% YoY."
+      }
+    ],
+    "operatingIncomeM": 232,
+    "otherIncomeM": 25,
+    "taxM": 4,
+    "netIncomeM": 253
+  },
+  "otherDetail": "Other income of $25M, net \u2014 mostly interest earned on Reddit's $2.8B pile of cash and marketable securities.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 94.66
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.34
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -8.7
+    },
+    {
+      "label": "R&D",
+      "amount": -28.7
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -24.35
+    },
+    {
+      "label": "G&A",
+      "amount": -9.44
+    },
+    {
+      "label": "Other income",
+      "amount": 3.11
+    },
+    {
+      "label": "Tax",
+      "amount": -0.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+61%",
+      "statColor": "#3d7bc8",
+      "title": "Eight straight quarters above 60%",
+      "text": "Revenue growth stayed above 60% for the eighth consecutive quarter, driven by ads (+64%). International revenue grew even faster, +84% to $167M."
+    },
+    {
+      "stat": "130.3M",
+      "statColor": "#3d7bc8",
+      "title": "Half a billion weekly users",
+      "text": "Daily active uniques rose 18% to 130.3 million, and weekly users crossed half a billion at 514.6 million \u2014 more audience for the ad machine to sell."
+    },
+    {
+      "stat": "$253M",
+      "statColor": "#3e8e5a",
+      "title": "Profit is scaling faster than revenue",
+      "text": "Net income more than doubled to $253M \u2014 31% of revenue \u2014 because revenue grew 61% while total costs grew about a third. Reddit also bought back $235M of its own stock."
+    }
+  ],
+  "footerNote": "Figures are rounded to the nearest $M, following the same convention as Reddit's Q3 2026 page; the statements report in thousands.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000098/earningspressreleaseq226.htm"
+    }
+  ]
+}

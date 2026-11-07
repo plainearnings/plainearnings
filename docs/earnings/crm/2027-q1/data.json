@@ -1,0 +1,150 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-04-30",
+  "reportedDate": "2026-05-27",
+  "verdict": "Salesforce grew revenue 13% to $11.1B \u2014 helped by $444M from the Informatica acquisition \u2014 and a $558M paper gain on its investment stakes padded net income to $2.1B.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "includes $444M from Informatica"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.42",
+      "note": "up 52% YoY; non-GAAP $3.88"
+    },
+    {
+      "label": "Backlog (CRPO)",
+      "value": "$33.6B",
+      "note": "current remaining performance obligation, +14% YoY"
+    },
+    {
+      "label": "Agentforce ARR",
+      "value": "$1.2B",
+      "note": "up 205% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 10593,
+      "yoy": "+14%",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau, Agentforce and Data 360 \u2014 including $428M contributed by Informatica."
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 540,
+      "yoy": "+2%",
+      "note": "Consulting and training that help customers roll the software out."
+    }
+  ],
+  "flow": {
+    "revenueM": 11133,
+    "costOfRevenueM": 2570,
+    "grossProfitM": 8563,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 3769,
+        "note": "The sales force and marketing \u2014 Salesforce's biggest running cost."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 1627,
+        "note": "Building the platform \u2014 including Agentforce, Salesforce's AI agents, and Data 360."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 740,
+        "note": "Running the company \u2014 finance, legal and the back office."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 80,
+        "note": "Costs of Salesforce's restructuring program \u2014 mainly severance for eliminated roles."
+      }
+    ],
+    "operatingIncomeM": 2347,
+    "otherIncomeM": 374,
+    "taxM": 614,
+    "netIncomeM": 2107
+  },
+  "otherDetail": "A $558M paper gain on strategic investments (stakes Salesforce holds in other companies), plus $133M of other income, minus $317M of interest expense.",
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 95.15
+    },
+    {
+      "label": "Professional services",
+      "amount": 4.85
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.08
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -33.86
+    },
+    {
+      "label": "R&D",
+      "amount": -14.62
+    },
+    {
+      "label": "G&A",
+      "amount": -6.65
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.72
+    },
+    {
+      "label": "Other income",
+      "amount": 3.36
+    },
+    {
+      "label": "Tax",
+      "amount": -5.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.93
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "Growth, with an acquisition assist",
+      "text": "Revenue rose 13% to a record $11.1B, but $444M of it came from Informatica, acquired in 2025 \u2014 roughly 4 points of the growth was bought, not organic."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#3d7bc8",
+      "title": "Agentforce is becoming real money",
+      "text": "Agentforce ARR passed $1.2B, up 205%, and combined AI and Data ARR reached $3.4B \u2014 the agent story is now a measurable slice of the business, not just a pitch."
+    },
+    {
+      "stat": "$2.42",
+      "statColor": "#3e8e5a",
+      "title": "Profit per share jumped 52%",
+      "text": "GAAP EPS rose 52% to $2.42, helped by a $558M paper gain on investment stakes and a shrinking share count after heavy buybacks."
+    }
+  ],
+  "oneTimers": [
+    "A $558M gain on strategic investments \u2014 paper gains on stakes Salesforce holds in other companies; it added $0.49 to diluted EPS.",
+    "Revenue includes $444M from Informatica, acquired in late 2025 \u2014 roughly 4 points of the 13% growth is the acquisition, not organic growth."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/crm-q1fy27xexhibit991.htm"
+    }
+  ]
+}

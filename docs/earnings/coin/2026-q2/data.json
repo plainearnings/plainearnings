@@ -1,0 +1,184 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Coinbase swung to a $359M net loss as revenue fell 19% to $1.22B in a soft crypto market \u2014 $209M of paper losses on the crypto it holds as an investment and a $52M restructuring charge dug the hole, even as the core business stayed Adjusted-EBITDA positive for a 14th straight quarter.",
+  "revenueYoY": "-19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-19%",
+      "note": "vs a year ago \u2014 a soft crypto market"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$1.36",
+      "note": "diluted \u2014 a loss quarter"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$208M",
+      "note": "14th straight positive quarter"
+    },
+    {
+      "label": "Investment losses",
+      "value": "-$209M",
+      "note": "paper losses on crypto held for investment"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 599.156,
+      "yoy": "-22%",
+      "note": "Fees from crypto trading \u2014 consumer $452M, institutional $100M, other $47M. Consumer fell with spot volumes; institutional grew after the Deribit acquisition."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 555.145,
+      "yoy": "-12%",
+      "note": "Steadier income: stablecoin revenue $292M, blockchain rewards $83M, interest and finance fees $66M, and other services $114M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 65.767,
+      "yoy": "-35%",
+      "note": "Interest earned on Coinbase's own corporate cash \u2014 smaller as balances and rates fell."
+    }
+  ],
+  "flow": {
+    "revenueM": 1220.068,
+    "costOfRevenueM": 189.79,
+    "grossProfitM": 1030.278,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 472.848,
+        "note": "Building the platform \u2014 the biggest running cost, though down 10% from Q1 after headcount cuts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 346.948,
+        "note": "Running the company \u2014 legal, compliance and the back office. Shown net of $10M of other operating income Coinbase reports as a negative expense."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 239.843,
+        "note": "Advertising and winning customers."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 52.408,
+        "note": "One-off cost of the restructuring plan announced in May 2026 \u2014 severance and related charges as Coinbase realigned its cost base."
+      },
+      {
+        "name": "Crypto losses (operations)",
+        "amountM": 31.719,
+        "note": "Paper losses on crypto Coinbase holds to run its business (staking, payments) \u2014 marked to market every quarter."
+      }
+    ],
+    "operatingIncomeM": -113.488,
+    "otherIncomeM": -281.923,
+    "taxM": -35.943,
+    "netIncomeM": -359.468
+  },
+  "otherDetail": "A $209M loss on crypto assets Coinbase holds as an investment, plus $50M of other losses (mainly marks on other investments) and $23M of interest expense.",
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 49.11
+    },
+    {
+      "label": "Subscriptions & services",
+      "amount": 45.5
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.39
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -15.56
+    },
+    {
+      "label": "Technology & development",
+      "amount": -38.75
+    },
+    {
+      "label": "G&A",
+      "amount": -28.44
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -19.66
+    },
+    {
+      "label": "Restructuring",
+      "amount": -4.3
+    },
+    {
+      "label": "Crypto losses (operations)",
+      "amount": -2.6
+    },
+    {
+      "label": "Interest expense",
+      "amount": -1.85
+    },
+    {
+      "label": "Crypto investment losses",
+      "amount": -17.17
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.09
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 2.95
+    },
+    {
+      "label": "Net loss",
+      "amount": -29.46
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, $17.17 of the damage was paper losses on crypto it holds as an investment \u2014 non-cash marks that reverse if crypto prices recover. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-22%",
+      "statColor": "#d96a57",
+      "title": "Trading slowed with the market",
+      "text": "Transaction revenue fell 22% year over year to $599M as crypto spot volumes shrank. Subscriptions and services \u2014 48% of net revenue \u2014 fell only 12%, cushioning the downturn."
+    },
+    {
+      "stat": "-$209M",
+      "statColor": "#d96a57",
+      "title": "Paper losses on Coinbase's own crypto",
+      "text": "A year ago this line was a $362M gain; this quarter the crypto Coinbase holds as an investment lost $209M on paper. That one swing is bigger than half the net loss."
+    },
+    {
+      "stat": "$208M",
+      "statColor": "#3d7bc8",
+      "title": "The core business still earned its keep",
+      "text": "Adjusted EBITDA was positive for the 14th straight quarter at $208M, and total operating expenses fell 12% year over year as Coinbase cut costs to match the quieter market."
+    }
+  ],
+  "oneTimers": [
+    "A $209M mark-to-market loss on crypto assets held for investment (versus a $362M gain a year ago) \u2014 non-cash, and it reverses if crypto prices rise.",
+    "A $52M restructuring charge from the plan announced in May 2026 to realign the cost base \u2014 severance and related one-off costs.",
+    "Losses of $32M on crypto held for operations, also mark-to-market."
+  ],
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. The quarter was a loss, so the slate 'Covered by cash on hand' block is the $359M net loss, funded from Coinbase's balance sheet. Figures are from Coinbase's Q2 2026 shareholder letter (Exhibit 99.1) and Form 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/q226earningsdeck_sec.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000088/coin-20260630.htm"
+    }
+  ]
+}

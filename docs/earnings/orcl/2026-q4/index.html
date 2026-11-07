@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle — Q4 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Oracle Q4 FY26 earnings in plain English: Oracle&#x27;s cloud revenue surged 47% and its order backlog hit $638B, but the quarter also carried an $823M restructuring bill and $1.4B of interest on the debt funding the AI build-out; net income was $4.3B.">
+<meta property="og:title" content="Oracle — Q4 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Oracle&#x27;s cloud revenue surged 47% and its order backlog hit $638B, but the quarter also carried an $823M restructuring bill and $1.4B of interest on the debt funding the AI build-out; net income was $4.3B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/orcl/2026-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/orcl/2026-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Oracle quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Oracle <span class="thin">(ORCL)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q1/">
+        <span class="q-label">Q1 FY27</span>
+        <span class="q-badge">+30%</span>
+        <span class="q-meta">Reported 2026-09-10 · Revenue $19.3B</span>
+      </a>
+      <a class="q-item active" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+21%</span>
+        <span class="q-meta">Reported 2026-06-10 · Revenue $19.2B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Oracle — Q4 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 FY26</strong> · Quarter ended 2026-05-31<br>
+      Reported 2026-06-10
+    </div>
+  </header>
+
+  <p class="verdict">Oracle's cloud revenue surged 47% and its order backlog hit $638B, but the quarter also carried an $823M restructuring bill and $1.4B of interest on the debt funding the AI build-out; net income was $4.3B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+21%</b></span><span class="chip">EPS (GAAP)<b>$1.45</b></span><span class="chip">Backlog (RPO)<b>$638B</b></span><span class="chip">Cloud revenue<b>+47%</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Oracle's Q4 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Oracle took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Cloud</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$51.67</span></div>
+      <div class="hrow"><span class="hlabel">Software</span><div class="htrack"><div class="hfill" data-w="68.8" style="background:#3D7BC8"></div></div><span class="hval">$35.57</span></div>
+      <div class="hrow"><span class="hlabel">Hardware</span><div class="htrack"><div class="hfill" data-w="9.3" style="background:#3D7BC8"></div></div><span class="hval">$4.82</span></div>
+      <div class="hrow"><span class="hlabel">Services</span><div class="htrack"><div class="hfill" data-w="15.4" style="background:#3D7BC8"></div></div><span class="hval">$7.94</span></div>
+      <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="67.3" style="background:#D96A57"></div></div><span class="hval">−$34.78</span></div>
+      <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="26.4" style="background:#CF5F4E"></div></div><span class="hval">−$13.62</span></div>
+      <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="20.9" style="background:#CF5F4E"></div></div><span class="hval">−$10.78</span></div>
+      <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="4.5" style="background:#CF5F4E"></div></div><span class="hval">−$2.31</span></div>
+      <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="4.4" style="background:#CF5F4E"></div></div><span class="hval">−$2.25</span></div>
+      <div class="hrow"><span class="hlabel">Restructuring &amp; other</span><div class="htrack"><div class="hfill" data-w="8.3" style="background:#CF5F4E"></div></div><span class="hval">−$4.29</span></div>
+      <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="7.7" style="background:#D96A57"></div></div><span class="hval">−$3.98</span></div>
+      <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="10.8" style="background:#B8443C"></div></div><span class="hval">−$5.56</span></div>
+      <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="43.4" style="background:#3E8E5A"></div></div><span class="hval">$22.44</span></div>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">$638B</div>
+            <h3>The backlog is the story</h3>
+            <p>Remaining performance obligations — work customers have signed for but not yet received — jumped $85B in one quarter to $638B, up 363% year over year, on giant AI contracts, some of them prepaid.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">+47%</div>
+            <h3>Cloud is now half the company</h3>
+            <p>Cloud revenue rose 47% to $9.9B — 52% of everything Oracle sells — while old-style software shrank 2%. Infrastructure (OCI) alone grew 93%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#d96a57">-$23.7B</div>
+            <h3>Growth is eating cash</h3>
+            <p>Free cash flow for fiscal 2026 was negative $23.7B — $32.0B of operating cash flow minus $55.7B spent on data centers and GPUs. Interest expense hit $1.4B in this quarter alone.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Restructuring and other charges of $823M — ten times the $83M of a year ago — mostly severance as Oracle reshaped its workforce.</li><li>Net income of $4,304M is before $81M of preferred-stock dividends; income available to common shareholders was $4,223M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q1/" class="">Q1 FY27</a></li><li><a href="../2026-q4/" class="current">Q4 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Oracle reports its delivery costs as 'Cloud and software', 'Hardware' and 'Services' expense lines; those three are combined here as cost of revenue.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB": 19.184, "nodes": {"seg0": {"name": "Cloud", "amt": "$9.9B", "value": 9.913, "col": 0, "color": "#3D7BC8", "note": "+47% \u00b7 51.7% of revenue", "plain": "Cloud services and license support: infrastructure (OCI) revenue of $5.8B grew 93%, and cloud applications (SaaS) brought in $4.1B, up 10%.", "quarter": "51.7% of all revenue this quarter."}, "seg1": {"name": "Software", "amt": "$6.8B", "value": 6.824, "col": 0, "color": "#7A68C4", "note": "-2% \u00b7 35.6% of revenue", "plain": "Traditional software licenses and support \u2014 slowly shrinking as customers move to the cloud.", "quarter": "35.6% of all revenue this quarter."}, "seg2": {"name": "Hardware", "amt": "$924M", "value": 0.924, "col": 0, "color": "#3D8BC8", "note": "+9% \u00b7 4.8% of revenue", "plain": "Servers and engineered systems.", "quarter": "4.8% of all revenue this quarter."}, "seg3": {"name": "Services", "amt": "$1.5B", "value": 1.523, "col": 0, "color": "#2E7CC4", "note": "+13% \u00b7 7.9% of revenue", "plain": "Consulting and support services.", "quarter": "7.9% of all revenue this quarter."}, "rev": {"name": "Revenue", "amt": "$19.2B", "value": 19.184, "col": 1, "color": "#2F3B4C", "note": "+21%", "plain": "All the money Oracle took in during the three months \u2014 the top line everything else is carved out of.", "quarter": "$19.2B, +21% vs a year ago."}, "gross": {"name": "Gross profit", "amt": "$12.5B", "value": 12.512, "col": 2, "color": "#69B578", "note": "65% margin", "plain": "What's left after paying the direct cost of delivering what was sold.", "quarter": "65 cents of every revenue dollar survived this step."}, "cost": {"name": "Cost of revenue", "amt": "$6.7B", "value": 6.672, "col": 2, "color": "#D96A57", "note": "", "plain": "The direct bill for making and delivering what was sold.", "quarter": "$6.7B \u2014 about 35 cents per revenue dollar."}, "ox0": {"name": "Research & development", "amt": "$2.6B", "value": 2.613, "col": 4, "color": "#CF5F4E", "note": "13.6% of revenue", "plain": "Building the cloud platform and the database software.", "quarter": "$2.6B \u2014 13.6% of revenue."}, "ox1": {"name": "Sales & marketing", "amt": "$2.1B", "value": 2.068, "col": 4, "color": "#CF5F4E", "note": "10.8% of revenue", "plain": "Selling to enterprises \u2014 down 10% YoY despite the growth push.", "quarter": "$2.1B \u2014 10.8% of revenue."}, "ox2": {"name": "General & administrative", "amt": "$444M", "value": 0.444, "col": 4, "color": "#CF5F4E", "note": "2.3% of revenue", "plain": "Running the company \u2014 finance, legal and the back office.", "quarter": "$444M \u2014 2.3% of revenue."}, "ox3": {"name": "Amortization of intangible assets", "amt": "$431M", "value": 0.431, "col": 4, "color": "#CF5F4E", "note": "2.2% of revenue", "plain": "Writing down the value of past acquisitions over time \u2014 a non-cash charge.", "quarter": "$431M \u2014 2.2% of revenue."}, "ox4": {"name": "Restructuring and other", "amt": "$823M", "value": 0.823, "col": 4, "color": "#CF5F4E", "note": "4.3% of revenue", "plain": "Mostly severance and related costs from a major restructuring \u2014 up from just $83M a year ago.", "quarter": "$823M \u2014 4.3% of revenue."}, "op": {"name": "Operating profit", "amt": "$6.1B", "value": 6.133, "col": 3, "color": "#4C9A67", "note": "32% margin", "plain": "What the core business earned after all running costs, before tax and other income.", "quarter": "A 32% margin."}, "opex": {"name": "Operating expenses", "amt": "$6.4B", "value": 6.379, "col": 3, "color": "#CF5F4E", "note": "", "plain": "The cost of running and growing the company: research, selling, and the back office.", "quarter": "$6.4B total, split into Research & development, Sales & marketing, General & administrative, Amortization of intangible assets, Restructuring and other on the right."}, "net": {"name": "Net profit", "amt": "$4.3B", "value": 4.304, "col": 4, "color": "#3E8E5A", "note": "22% margin", "plain": "The bottom line \u2014 what Oracle actually earned after everything.", "quarter": "$4.3B \u2014 about 22 cents of every revenue dollar."}, "tax": {"name": "Tax", "amt": "($1.1B)", "value": 1.066, "col": 4, "color": "#B8443C", "note": "", "plain": "Income tax on the quarter's profit.", "quarter": "$1.1B \u2014 roughly a 20% tax rate on pre-tax profit."}, "otherexp": {"name": "Other expense", "amt": "($763M)", "value": 0.763, "col": 4, "color": "#B8443C", "note": "", "plain": "Interest expense of $1,438M on Oracle's growing debt pile, partly offset by $675M of non-operating income.", "quarter": "$763M taken off profit."}}, "cols": [["seg0", "seg1", "seg2", "seg3"], ["rev"], ["gross", "cost"], ["op", "opex"], ["net", "tax", "otherexp", "ox0", "ox1", "ox2", "ox3", "ox4"]], "links": [{"s": "seg0", "d": "rev", "v": 9.913, "c": "#94b6e1", "amt": "$9.9B"}, {"s": "seg1", "d": "rev", "v": 6.824, "c": "#b6acdf", "amt": "$6.8B"}, {"s": "seg2", "d": "rev", "v": 0.924, "c": "#94bfe1", "amt": "$924M"}, {"s": "seg3", "d": "rev", "v": 1.523, "c": "#8cb7df", "amt": "$1.5B"}, {"s": "rev", "d": "gross", "v": 12.512, "c": "#BFE0C6", "amt": "$12.5B"}, {"s": "rev", "d": "cost", "v": 6.672, "c": "#F4C7B9", "amt": "$6.7B"}, {"s": "gross", "d": "op", "v": 6.133, "c": "#ACD8B8", "amt": "$6.1B"}, {"s": "gross", "d": "opex", "v": 6.379, "c": "#F2B3A4", "amt": "$6.4B"}, {"s": "op", "d": "net", "v": 4.304, "c": "#ACD8B8", "amt": "$4.3B"}, {"s": "op", "d": "tax", "v": 1.066, "c": "#dfaba7", "amt": "$1.1B"}, {"s": "op", "d": "otherexp", "v": 0.763, "c": "#dfaba7", "amt": "$763M"}, {"s": "opex", "d": "ox0", "v": 2.613, "c": "#F6C0B1", "amt": "$2.6B"}, {"s": "opex", "d": "ox1", "v": 2.068, "c": "#F6C0B1", "amt": "$2.1B"}, {"s": "opex", "d": "ox2", "v": 0.444, "c": "#F6C0B1", "amt": "$444M"}, {"s": "opex", "d": "ox3", "v": 0.431, "c": "#F6C0B1", "amt": "$431M"}, {"s": "opex", "d": "ox4", "v": 0.823, "c": "#F6C0B1", "amt": "$823M"}], "captions": ["WHERE THE MONEY COMES FROM", "TOTAL REVENUE", "AFTER DIRECT COSTS", "AFTER RUNNING COSTS", "THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

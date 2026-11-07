@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salesforce — Q1 FY27 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Salesforce Q1 FY27 earnings in plain English: Salesforce grew revenue 13% to $11.1B — helped by $444M from the Informatica acquisition — and a $558M paper gain on its investment stakes padded net income to $2.1B.">
+<meta property="og:title" content="Salesforce — Q1 FY27 Earnings, Explained Simply">
+<meta property="og:description" content="Salesforce grew revenue 13% to $11.1B — helped by $444M from the Informatica acquisition — and a $558M paper gain on its investment stakes padded net income to $2.1B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/crm/2027-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/crm/2027-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Salesforce quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Salesforce <span class="thin">(CRM)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q2/">
+        <span class="q-label">Q2 FY27</span>
+        <span class="q-badge">+11%</span>
+        <span class="q-meta">Reported 2026-08-26 · Revenue $11.3B</span>
+      </a>
+      <a class="q-item active" href="../2027-q1/">
+        <span class="q-label">Q1 FY27</span>
+        <span class="q-badge">+13%</span>
+        <span class="q-meta">Reported 2026-05-27 · Revenue $11.1B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Salesforce — Q1 FY27 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 FY27</strong> · Quarter ended 2026-04-30<br>
+      Reported 2026-05-27
+    </div>
+  </header>
+
+  <p class="verdict">Salesforce grew revenue 13% to $11.1B — helped by $444M from the Informatica acquisition — and a $558M paper gain on its investment stakes padded net income to $2.1B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+13%</b></span><span class="chip">EPS (GAAP)<b>$2.42</b></span><span class="chip">Backlog (CRPO)<b>$33.6B</b></span><span class="chip">Agentforce ARR<b>$1.2B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Salesforce's Q1 FY27 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Salesforce took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Subscription &amp; support</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$95.15</span></div>
+      <div class="hrow"><span class="hlabel">Professional services</span><div class="htrack"><div class="hfill" data-w="5.1" style="background:#3D7BC8"></div></div><span class="hval">$4.85</span></div>
+      <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="24.3" style="background:#D96A57"></div></div><span class="hval">−$23.08</span></div>
+      <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="35.6" style="background:#CF5F4E"></div></div><span class="hval">−$33.86</span></div>
+      <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="15.4" style="background:#CF5F4E"></div></div><span class="hval">−$14.62</span></div>
+      <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="7.0" style="background:#CF5F4E"></div></div><span class="hval">−$6.65</span></div>
+      <div class="hrow"><span class="hlabel">Restructuring</span><div class="htrack"><div class="hfill" data-w="0.8" style="background:#CF5F4E"></div></div><span class="hval">−$0.72</span></div>
+      <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="3.5" style="background:#3D7BC8"></div></div><span class="hval">$3.36</span></div>
+      <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="5.8" style="background:#B8443C"></div></div><span class="hval">−$5.51</span></div>
+      <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="19.9" style="background:#3E8E5A"></div></div><span class="hval">$18.93</span></div>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+13%</div>
+            <h3>Growth, with an acquisition assist</h3>
+            <p>Revenue rose 13% to a record $11.1B, but $444M of it came from Informatica, acquired in 2025 — roughly 4 points of the growth was bought, not organic.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">$1.2B</div>
+            <h3>Agentforce is becoming real money</h3>
+            <p>Agentforce ARR passed $1.2B, up 205%, and combined AI and Data ARR reached $3.4B — the agent story is now a measurable slice of the business, not just a pitch.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$2.42</div>
+            <h3>Profit per share jumped 52%</h3>
+            <p>GAAP EPS rose 52% to $2.42, helped by a $558M paper gain on investment stakes and a shrinking share count after heavy buybacks.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>A $558M gain on strategic investments — paper gains on stakes Salesforce holds in other companies; it added $0.49 to diluted EPS.</li><li>Revenue includes $444M from Informatica, acquired in late 2025 — roughly 4 points of the 13% growth is the acquisition, not organic growth.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q2/" class="">Q2 FY27</a></li><li><a href="../2027-q1/" class="current">Q1 FY27</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/crm-q1fy27xexhibit991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB": 11.133, "nodes": {"seg0": {"name": "Subscription and support", "amt": "$10.6B", "value": 10.593, "col": 0, "color": "#3D7BC8", "note": "+14% \u00b7 95.1% of revenue", "plain": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau, Agentforce and Data 360 \u2014 including $428M contributed by Informatica.", "quarter": "95.1% of all revenue this quarter."}, "seg1": {"name": "Professional services and other", "amt": "$540M", "value": 0.54, "col": 0, "color": "#7A68C4", "note": "+2% \u00b7 4.9% of revenue", "plain": "Consulting and training that help customers roll the software out.", "quarter": "4.9% of all revenue this quarter."}, "rev": {"name": "Revenue", "amt": "$11.1B", "value": 11.133, "col": 1, "color": "#2F3B4C", "note": "+13%", "plain": "All the money Salesforce took in during the three months \u2014 the top line everything else is carved out of.", "quarter": "$11.1B, +13% vs a year ago."}, "gross": {"name": "Gross profit", "amt": "$8.6B", "value": 8.563, "col": 2, "color": "#69B578", "note": "77% margin", "plain": "What's left after paying the direct cost of delivering what was sold.", "quarter": "77 cents of every revenue dollar survived this step."}, "cost": {"name": "Cost of revenue", "amt": "$2.6B", "value": 2.57, "col": 2, "color": "#D96A57", "note": "", "plain": "The direct bill for making and delivering what was sold.", "quarter": "$2.6B \u2014 about 23 cents per revenue dollar."}, "ox0": {"name": "Sales & marketing", "amt": "$3.8B", "value": 3.769, "col": 4, "color": "#CF5F4E", "note": "33.9% of revenue", "plain": "The sales force and marketing \u2014 Salesforce's biggest running cost.", "quarter": "$3.8B \u2014 33.9% of revenue."}, "ox1": {"name": "Research & development", "amt": "$1.6B", "value": 1.627, "col": 4, "color": "#CF5F4E", "note": "14.6% of revenue", "plain": "Building the platform \u2014 including Agentforce, Salesforce's AI agents, and Data 360.", "quarter": "$1.6B \u2014 14.6% of revenue."}, "ox2": {"name": "General & administrative", "amt": "$740M", "value": 0.74, "col": 4, "color": "#CF5F4E", "note": "6.6% of revenue", "plain": "Running the company \u2014 finance, legal and the back office.", "quarter": "$740M \u2014 6.6% of revenue."}, "ox3": {"name": "Restructuring", "amt": "$80M", "value": 0.08, "col": 4, "color": "#CF5F4E", "note": "0.7% of revenue", "plain": "Costs of Salesforce's restructuring program \u2014 mainly severance for eliminated roles.", "quarter": "$80M \u2014 0.7% of revenue."}, "op": {"name": "Operating profit", "amt": "$2.3B", "value": 2.347, "col": 3, "color": "#4C9A67", "note": "21% margin", "plain": "What the core business earned after all running costs, before tax and other income.", "quarter": "A 21% margin."}, "opex": {"name": "Operating expenses", "amt": "$6.2B", "value": 6.216, "col": 3, "color": "#CF5F4E", "note": "", "plain": "The cost of running and growing the company: research, selling, and the back office.", "quarter": "$6.2B total, split into Sales & marketing, Research & development, General & administrative, Restructuring on the right."}, "net": {"name": "Net profit", "amt": "$2.1B", "value": 2.107, "col": 4, "color": "#3E8E5A", "note": "18.9% margin", "plain": "The bottom line \u2014 what Salesforce actually earned after everything.", "quarter": "$2.1B \u2014 about 19 cents of every revenue dollar."}, "tax": {"name": "Tax", "amt": "($614M)", "value": 0.614, "col": 4, "color": "#B8443C", "note": "", "plain": "Income tax on the quarter's profit.", "quarter": "$614M \u2014 roughly a 23% tax rate on pre-tax profit."}, "otherin": {"name": "Other income", "amt": "$374M", "value": 0.374, "col": 3, "color": "#69B578", "note": "", "plain": "A $558M paper gain on strategic investments (stakes Salesforce holds in other companies), plus $133M of other income, minus $317M of interest expense.", "quarter": "$374M added to profit."}}, "cols": [["seg0", "seg1"], ["rev"], ["gross", "cost"], ["otherin", "op", "opex"], ["net", "tax", "ox0", "ox1", "ox2", "ox3"]], "links": [{"s": "seg0", "d": "rev", "v": 10.593, "c": "#94b6e1", "amt": "$10.6B"}, {"s": "seg1", "d": "rev", "v": 0.54, "c": "#b6acdf", "amt": "$540M"}, {"s": "rev", "d": "gross", "v": 8.563, "c": "#BFE0C6", "amt": "$8.6B"}, {"s": "rev", "d": "cost", "v": 2.57, "c": "#F4C7B9", "amt": "$2.6B"}, {"s": "gross", "d": "op", "v": 2.347, "c": "#ACD8B8", "amt": "$2.3B"}, {"s": "gross", "d": "opex", "v": 6.216, "c": "#F2B3A4", "amt": "$6.2B"}, {"s": "op", "d": "net", "v": 1.733, "c": "#ACD8B8", "amt": "$1.7B"}, {"s": "op", "d": "tax", "v": 0.614, "c": "#dfaba7", "amt": "$614M"}, {"s": "otherin", "d": "net", "v": 0.374, "c": "#ACD8B8", "amt": "$374M"}, {"s": "opex", "d": "ox0", "v": 3.769, "c": "#F6C0B1", "amt": "$3.8B"}, {"s": "opex", "d": "ox1", "v": 1.627, "c": "#F6C0B1", "amt": "$1.6B"}, {"s": "opex", "d": "ox2", "v": 0.74, "c": "#F6C0B1", "amt": "$740M"}, {"s": "opex", "d": "ox3", "v": 0.08, "c": "#F6C0B1", "amt": "$80M"}], "captions": ["WHERE THE MONEY COMES FROM", "TOTAL REVENUE", "AFTER DIRECT COSTS", "AFTER RUNNING COSTS", "THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

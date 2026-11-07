@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Micron — Q3 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Micron Q3 FY26 earnings in plain English: Micron&#x27;s revenue quadrupled to $41.5B as AI data centers bid memory prices sky-high — 85 cents of every sales dollar survived as gross profit, and net income hit $28.2B.">
+<meta property="og:title" content="Micron — Q3 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Micron&#x27;s revenue quadrupled to $41.5B as AI data centers bid memory prices sky-high — 85 cents of every sales dollar survived as gross profit, and net income hit $28.2B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/mu/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/mu/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Micron quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Micron <span class="thin">(MU)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+379%</span>
+        <span class="q-meta">Reported 2026-09-30 · Revenue $54.2B</span>
+      </a>
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+346%</span>
+        <span class="q-meta">Reported 2026-06-24 · Revenue $41.5B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Micron — Q3 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 FY26</strong> · Quarter ended 2026-05-28<br>
+      Reported 2026-06-24
+    </div>
+  </header>
+
+  <p class="verdict">Micron's revenue quadrupled to $41.5B as AI data centers bid memory prices sky-high — 85 cents of every sales dollar survived as gross profit, and net income hit $28.2B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+346%</b></span><span class="chip">EPS (GAAP)<b>$24.67</b></span><span class="chip">Gross margin<b>85%</b></span><span class="chip">Adjusted free cash flow<b>$18.3B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Micron's Q3 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Micron took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Cloud Memory</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$33.21</span></div>
+      <div class="hrow"><span class="hlabel">Core Data Center</span><div class="htrack"><div class="hfill" data-w="83.7" style="background:#3D7BC8"></div></div><span class="hval">$27.80</span></div>
+      <div class="hrow"><span class="hlabel">Mobile and Client</span><div class="htrack"><div class="hfill" data-w="83.7" style="background:#3D7BC8"></div></div><span class="hval">$27.79</span></div>
+      <div class="hrow"><span class="hlabel">Automotive &amp; embedded</span><div class="htrack"><div class="hfill" data-w="33.7" style="background:#3D7BC8"></div></div><span class="hval">$11.18</span></div>
+      <div class="hrow"><span class="hlabel">All other</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#3D7BC8"></div></div><span class="hval">$0.02</span></div>
+      <div class="hrow"><span class="hlabel">Cost of goods sold</span><div class="htrack"><div class="hfill" data-w="46.5" style="background:#D96A57"></div></div><span class="hval">−$15.44</span></div>
+      <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="9.5" style="background:#CF5F4E"></div></div><span class="hval">−$3.17</span></div>
+      <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="3.0" style="background:#CF5F4E"></div></div><span class="hval">−$0.98</span></div>
+      <div class="hrow"><span class="hlabel">Other operating expense</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#CF5F4E"></div></div><span class="hval">−$0.04</span></div>
+      <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="0.7" style="background:#D96A57"></div></div><span class="hval">−$0.23</span></div>
+      <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="36.2" style="background:#B8443C"></div></div><span class="hval">−$12.01</span></div>
+      <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="205.1" style="background:#3E8E5A"></div></div><span class="hval">$68.12</span></div>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+346%</div>
+            <h3>The memory supercycle</h3>
+            <p>Revenue was four and a half times the year-ago quarter as AI builders scrambled for HBM and DRAM. Every business unit at least tripled.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">85%</div>
+            <h3>Almost pure profit at the top</h3>
+            <p>Gross margin hit 85% — memory prices rose far faster than the cost of making chips. A year ago the same margin was 38%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$28.2B</div>
+            <h3>A $28B profit quarter</h3>
+            <p>Net income of $28.2B was fifteen times the year-ago quarter — and Micron still spent $7.1B on factories (capex) chasing the demand.</p>
+          </article>
+    </div>
+  </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q4/" class="">Q4 FY26</a></li><li><a href="../2026-q3/" class="current">Q3 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Business-unit revenues are as reported by Micron; 'All other' is the small residual outside the four units.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB": 41.456, "nodes": {"seg0": {"name": "Cloud Memory", "amt": "$13.8B", "value": 13.769, "col": 0, "color": "#3D7BC8", "note": "+307% \u00b7 33.2% of revenue", "plain": "High-bandwidth memory (HBM) stacked right beside AI processors in cloud servers \u2014 the scarcest, most valuable memory Micron makes.", "quarter": "33.2% of all revenue this quarter."}, "seg1": {"name": "Core Data Center", "amt": "$11.5B", "value": 11.524, "col": 0, "color": "#7A68C4", "note": "+653% \u00b7 27.8% of revenue", "plain": "DRAM and NAND for conventional cloud and enterprise data-center servers.", "quarter": "27.8% of all revenue this quarter."}, "seg2": {"name": "Mobile and Client", "amt": "$11.5B", "value": 11.521, "col": 0, "color": "#3D8BC8", "note": "+254% \u00b7 27.8% of revenue", "plain": "Memory for smartphones, PCs and other consumer devices.", "quarter": "27.8% of all revenue this quarter."}, "seg3": {"name": "Automotive and Embedded", "amt": "$4.6B", "value": 4.634, "col": 0, "color": "#2E7CC4", "note": "+311% \u00b7 11.2% of revenue", "plain": "Memory for cars, factories and industrial equipment \u2014 smaller and steadier than the AI-driven units.", "quarter": "11.2% of all revenue this quarter."}, "seg4": {"name": "All other", "amt": "$8M", "value": 0.008, "col": 0, "color": "#6FA8D8", "note": "0% of revenue", "plain": "Small leftovers outside the four business units.", "quarter": "0% of all revenue this quarter."}, "rev": {"name": "Revenue", "amt": "$41.5B", "value": 41.456, "col": 1, "color": "#2F3B4C", "note": "+346%", "plain": "All the money Micron took in during the three months \u2014 the top line everything else is carved out of.", "quarter": "$41.5B, +346% vs a year ago."}, "gross": {"name": "Gross profit", "amt": "$35.1B", "value": 35.056, "col": 2, "color": "#69B578", "note": "85% margin", "plain": "What's left after paying the direct cost of delivering what was sold.", "quarter": "85 cents of every revenue dollar survived this step."}, "cost": {"name": "Cost of goods sold", "amt": "$6.4B", "value": 6.4, "col": 2, "color": "#D96A57", "note": "", "plain": "The direct bill for making and delivering what was sold.", "quarter": "$6.4B \u2014 about 15 cents per revenue dollar."}, "ox0": {"name": "Research & development", "amt": "$1.3B", "value": 1.316, "col": 4, "color": "#CF5F4E", "note": "3.2% of revenue", "plain": "Designing the next generations of DRAM, HBM and NAND memory.", "quarter": "$1.3B \u2014 3.2% of revenue."}, "ox1": {"name": "Selling, general & administrative", "amt": "$407M", "value": 0.407, "col": 4, "color": "#CF5F4E", "note": "1% of revenue", "plain": "Sales teams and the cost of running the company.", "quarter": "$407M \u2014 1% of revenue."}, "ox2": {"name": "Other operating expense", "amt": "$15M", "value": 0.015, "col": 4, "color": "#CF5F4E", "note": "0% of revenue", "plain": "Small other operating costs, net.", "quarter": "$15M \u2014 0% of revenue."}, "op": {"name": "Operating profit", "amt": "$33.3B", "value": 33.318, "col": 3, "color": "#4C9A67", "note": "80% margin", "plain": "What the core business earned after all running costs, before tax and other income.", "quarter": "A 80% margin."}, "opex": {"name": "Operating expenses", "amt": "$1.7B", "value": 1.738, "col": 3, "color": "#CF5F4E", "note": "", "plain": "The cost of running and growing the company: research, selling, and the back office.", "quarter": "$1.7B total, split into Research & development, Selling, general & administrative, Other operating expense on the right."}, "net": {"name": "Net profit", "amt": "$28.2B", "value": 28.243, "col": 4, "color": "#3E8E5A", "note": "68% margin", "plain": "The bottom line \u2014 what Micron actually earned after everything.", "quarter": "$28.2B \u2014 about 68 cents of every revenue dollar."}, "tax": {"name": "Tax", "amt": "($5B)", "value": 4.978, "col": 4, "color": "#B8443C", "note": "", "plain": "Income tax on the quarter's profit.", "quarter": "$5B \u2014 roughly a 15% tax rate on pre-tax profit."}, "otherexp": {"name": "Other expense", "amt": "($97M)", "value": 0.097, "col": 4, "color": "#B8443C", "note": "", "plain": "Interest income of $215M on Micron's growing cash pile plus $9M from equity investments, outweighed by $321M of other non-operating losses (foreign-exchange and debt-related items).", "quarter": "$97M taken off profit."}}, "cols": [["seg0", "seg1", "seg2", "seg3", "seg4"], ["rev"], ["gross", "cost"], ["op", "opex"], ["net", "tax", "otherexp", "ox0", "ox1", "ox2"]], "links": [{"s": "seg0", "d": "rev", "v": 13.769, "c": "#94b6e1", "amt": "$13.8B"}, {"s": "seg1", "d": "rev", "v": 11.524, "c": "#b6acdf", "amt": "$11.5B"}, {"s": "seg2", "d": "rev", "v": 11.521, "c": "#94bfe1", "amt": "$11.5B"}, {"s": "seg3", "d": "rev", "v": 4.634, "c": "#8cb7df", "amt": "$4.6B"}, {"s": "seg4", "d": "rev", "v": 0.008, "c": "#b0cfea", "amt": "$8M"}, {"s": "rev", "d": "gross", "v": 35.056, "c": "#BFE0C6", "amt": "$35.1B"}, {"s": "rev", "d": "cost", "v": 6.4, "c": "#F4C7B9", "amt": "$6.4B"}, {"s": "gross", "d": "op", "v": 33.318, "c": "#ACD8B8", "amt": "$33.3B"}, {"s": "gross", "d": "opex", "v": 1.738, "c": "#F2B3A4", "amt": "$1.7B"}, {"s": "op", "d": "net", "v": 28.243, "c": "#ACD8B8", "amt": "$28.2B"}, {"s": "op", "d": "tax", "v": 4.978, "c": "#dfaba7", "amt": "$5B"}, {"s": "op", "d": "otherexp", "v": 0.097, "c": "#dfaba7", "amt": "$97M"}, {"s": "opex", "d": "ox0", "v": 1.316, "c": "#F6C0B1", "amt": "$1.3B"}, {"s": "opex", "d": "ox1", "v": 0.407, "c": "#F6C0B1", "amt": "$407M"}, {"s": "opex", "d": "ox2", "v": 0.015, "c": "#F6C0B1", "amt": "$15M"}], "captions": ["WHERE THE MONEY COMES FROM", "TOTAL REVENUE", "AFTER DIRECT COSTS", "AFTER RUNNING COSTS", "THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>
