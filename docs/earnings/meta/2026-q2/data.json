@@ -1,0 +1,150 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-29",
+  "verdict": "Meta's ad business grew revenue 28% to $60.8B \u2014 but costs rose even faster (R&D up 67%, a $2.4B legal charge, $1.2B of severance), so operating profit fell 8% and free cash flow shrank to just $784M.",
+  "revenueYoY": "+28%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.18",
+      "note": "vs $7.14 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$784M",
+      "note": "operating cash flow was $31.9B \u2014 capex took nearly all of it"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.60B",
+      "note": "daily active people, +3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 59363,
+      "yoy": "+27%",
+      "note": "Ads across Facebook, Instagram, Messenger and WhatsApp \u2014 98% of Meta's money. Ad impressions rose 14% and the average price per ad rose 12%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 1007,
+      "yoy": "+73%",
+      "note": "Non-ad income from the apps \u2014 WhatsApp business messaging, subscriptions and other fees; up 73% YoY."
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 431,
+      "yoy": "+16%",
+      "note": "Quest headsets and AI glasses; revenue up 16%, but the segment lost $4.6B this quarter building them."
+    }
+  ],
+  "flow": {
+    "revenueM": 60801,
+    "costOfRevenueM": 11330,
+    "grossProfitM": 49471,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 21656,
+        "note": "AI research and product engineering \u2014 up 67% YoY as Meta races to build superintelligence; now 36% of all revenue."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 3431,
+        "note": "Selling ads and promoting Meta's apps and devices."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 5609,
+        "note": "The back office, including $2.4B of legal charges recognized this quarter."
+      }
+    ],
+    "operatingIncomeM": 18775,
+    "otherIncomeM": -19,
+    "taxM": 2908,
+    "netIncomeM": 15848
+  },
+  "otherDetail": "Interest and other income (expense), net was a $19M expense \u2014 interest earned on Meta's cash roughly offset by interest and other costs.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.63
+    },
+    {
+      "label": "Family of Apps other",
+      "amount": 1.66
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.63
+    },
+    {
+      "label": "R&D",
+      "amount": -35.62
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -5.64
+    },
+    {
+      "label": "G&A",
+      "amount": -9.23
+    },
+    {
+      "label": "Other income",
+      "amount": -0.03
+    },
+    {
+      "label": "Tax",
+      "amount": -4.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "The ad machine is still growing fast",
+      "text": "Revenue rose 28% to $60.8B \u2014 impressions up 14%, price per ad up 12%, and 3.60 billion people use a Meta app daily."
+    },
+    {
+      "stat": "-8%",
+      "statColor": "#cf5f4e",
+      "title": "But profit fell anyway",
+      "text": "Total costs jumped 55%: R&D up 67% to $21.7B, plus $2.4B of legal charges and $1.18B of severance from the May layoffs (about 8,000 roles). Operating income fell 8% to $18.8B, and Reality Labs lost another $4.6B."
+    },
+    {
+      "stat": "$784M",
+      "statColor": "#5b6b7c",
+      "title": "Free cash flow nearly vanished",
+      "text": "Operations generated $31.9B of cash, but data-center and AI spending consumed almost all of it \u2014 free cash flow was just $784M. Meta now guides 2026 capex (incl. finance leases) to $130\u2013145B."
+    }
+  ],
+  "oneTimers": [
+    "$2.40B of charges related to legal proceedings are inside this quarter's costs (in general & administrative), and $1.18B of severance from the May 2026 headcount reduction is spread across the cost lines. Meta raised its full-year expense outlook to $165\u2013169B to absorb the legal charges."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm"
+    }
+  ]
+}

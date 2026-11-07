@@ -1,0 +1,167 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Amazon's sales rose 20% to $200.6B and AWS grew 37% \u2014 but the headline $62.6B profit mostly came from a $53.4B paper gain on its Anthropic investment, not from selling things.",
+  "revenueYoY": "+20%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+20%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.75",
+      "note": "vs $1.68 a year ago \u2014 flattered by the Anthropic gain"
+    },
+    {
+      "label": "AWS growth",
+      "value": "+37%",
+      "note": "fastest in 18 quarters"
+    },
+    {
+      "label": "Operating income",
+      "value": "$27.5B",
+      "note": "+43% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 116177,
+      "yoy": "+16%",
+      "note": "Stores, subscriptions and ads in North America; up 16% YoY, earning $9.1B of operating profit."
+    },
+    {
+      "name": "International",
+      "amountM": 42197,
+      "yoy": "+15%",
+      "note": "The same businesses outside North America; up 15% YoY, earning $1.7B of operating profit."
+    },
+    {
+      "name": "AWS",
+      "amountM": 42232,
+      "yoy": "+37%",
+      "note": "Amazon Web Services cloud computing; up 37% \u2014 its fastest growth in 18 quarters \u2014 and $16.6B of the company's $27.5B operating profit."
+    }
+  ],
+  "flow": {
+    "revenueM": 200606,
+    "costOfRevenueM": 95778,
+    "grossProfitM": 104828,
+    "opex": [
+      {
+        "name": "Fulfillment",
+        "amountM": 29633,
+        "note": "Warehouses, delivery network and shipping operations that get orders to doors."
+      },
+      {
+        "name": "Technology & infrastructure",
+        "amountM": 33158,
+        "note": "Engineers and the servers and data centers behind the store and AWS."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 11698,
+        "note": "Advertising Amazon's own services and winning customers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2788,
+        "note": "The back office \u2014 finance, legal and running the company."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 90,
+        "note": "Small one-off operating items, netted together.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 27461,
+    "otherIncomeM": 53396,
+    "equityM": -11,
+    "taxM": 18199,
+    "netIncomeM": 62647
+  },
+  "otherDetail": "Non-operating income of $53,396M: a $53,415M gain in 'other income, net' \u2014 primarily the increased paper value of Amazon's investment in the AI company Anthropic \u2014 plus $1,295M of interest income, less $1,314M of interest expense.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 57.91
+    },
+    {
+      "label": "International",
+      "amount": 21.03
+    },
+    {
+      "label": "AWS",
+      "amount": 21.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -47.74
+    },
+    {
+      "label": "Fulfillment",
+      "amount": -14.77
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -16.53
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -5.83
+    },
+    {
+      "label": "G&A",
+      "amount": -1.39
+    },
+    {
+      "label": "Other income",
+      "amount": 26.62
+    },
+    {
+      "label": "Tax",
+      "amount": -9.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.23
+    }
+  ],
+  "follow100Note": "The $26.62 of 'Other income' in each $100 is mostly the paper gain on Amazon's Anthropic stake \u2014 it is not cash from customers. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "title": "AWS is re-accelerating",
+      "text": "AWS sales grew 37% to $42.2B \u2014 the fastest in 18 quarters, a $169B annual run rate \u2014 and produced $16.6B of operating profit, 61% of Amazon's total."
+    },
+    {
+      "stat": "$53.4B",
+      "statColor": "#cf5f4e",
+      "title": "Most of the 'profit' is a paper gain",
+      "text": "Net income of $62.6B includes $53.4B of non-operating income, primarily the revalued Anthropic stake. The operating business itself earned $27.5B \u2014 up a strong 43%, but a very different story from the headline."
+    },
+    {
+      "stat": "-$7.6B",
+      "statColor": "#5b6b7c",
+      "title": "AI spending swallowed free cash flow",
+      "text": "Free cash flow over the last twelve months was an outflow of $7.6B, as purchases of property and equipment jumped $66.1B year over year \u2014 mostly AI data centers."
+    }
+  ],
+  "oneTimers": [
+    "Non-operating other income of $53.4B, primarily from Amazon's investments in Anthropic, is inside GAAP net income of $62.6B. Excluding it, the quarter's story is operating income of $27.5B, up 43%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm"
+    }
+  ]
+}

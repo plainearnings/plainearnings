@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsoft — Q3 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Microsoft Q3 FY26 earnings in plain English: Microsoft&#x27;s revenue rose 18% to $82.9B as Azure grew 40% — and it poured $30.9B into new data centers in a single quarter to keep up with AI demand.">
+<meta property="og:title" content="Microsoft — Q3 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Microsoft&#x27;s revenue rose 18% to $82.9B as Azure grew 40% — and it poured $30.9B into new data centers in a single quarter to keep up with AI demand.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/msft/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/msft/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Microsoft quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Microsoft <span class="thin">(MSFT)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q1/">
+        <span class="q-label">FY27 Q1</span>
+        <span class="q-badge">+19%</span>
+        <span class="q-meta">Reported 2026-10-28 · Revenue $92.3B</span>
+      </a>
+      <a class="q-item" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+18%</span>
+        <span class="q-meta">Reported 2026-07-29 · Revenue $90B</span>
+      </a>
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+18%</span>
+        <span class="q-meta">Reported 2026-04-29 · Revenue $82.9B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Microsoft — Q3 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 FY26</strong> · Quarter ended 2026-03-31<br>
+      Reported 2026-04-29
+    </div>
+  </header>
+
+  <p class="verdict">Microsoft&#x27;s revenue rose 18% to $82.9B as Azure grew 40% — and it poured $30.9B into new data centers in a single quarter to keep up with AI demand.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+18%</b></span><span class="chip">EPS (GAAP)<b>$4.27</b></span><span class="chip">Azure growth<b>+40%</b></span><span class="chip">Microsoft Cloud<b>$54.5B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Microsoft's Q3 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Microsoft took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Productivity and Business Processes</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$42.24</span></div>
+          <div class="hrow"><span class="hlabel">Intelligent Cloud</span><div class="htrack"><div class="hfill" data-w="99.1" style="background:#3D7BC8"></div></div><span class="hval">$41.84</span></div>
+          <div class="hrow"><span class="hlabel">More Personal Computing</span><div class="htrack"><div class="hfill" data-w="37.7" style="background:#3D7BC8"></div></div><span class="hval">$15.92</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="76.6" style="background:#D96A57"></div></div><span class="hval">−$32.37</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="25.5" style="background:#CF5F4E"></div></div><span class="hval">−$10.76</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="19.5" style="background:#CF5F4E"></div></div><span class="hval">−$8.22</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="5.5" style="background:#CF5F4E"></div></div><span class="hval">−$2.33</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="2.7" style="background:#3D7BC8"></div></div><span class="hval">$1.14</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="21.6" style="background:#B8443C"></div></div><span class="hval">−$9.12</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="90.8" style="background:#3E8E5A"></div></div><span class="hval">$38.34</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+40%</div>
+            <h3>Azure is still accelerating</h3>
+            <p>Azure and other cloud services revenue grew 40%, Intelligent Cloud rose 30% to $34.7B, and Microsoft Cloud overall reached $54.5B — two-thirds of all revenue.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#cf5f4e">$30.9B</div>
+            <h3>The data-center bill is staggering</h3>
+            <p>Microsoft spent $30.9B on property and equipment in one quarter — nearly double a year ago — yet still generated $46.7B of operating cash flow and $15.8B of free cash flow.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$627B</div>
+            <h3>Customers have pre-committed $627B</h3>
+            <p>Commercial remaining performance obligation — work customers have signed for but not yet paid — jumped 99% to $627B, a backlog that underwrites future cloud revenue.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Losses from Microsoft&#x27;s investment in OpenAI trimmed just $14M from net income this quarter — a rounding error next to the $583M drag in the same quarter a year ago.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q1/" class="">FY27 Q1</a></li><li><a href="../2026-q4/" class="">Q4 FY26</a></li><li><a href="../2026-q3/" class="current">Q3 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. </p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":82.886,"nodes":{"seg0":{"name":"Productivity and Business Processes","amt":"$35.0B","value":35.013,"col":0,"color":"#3D7BC8","note":"+17% \u00b7 42.2% of revenue","plain":"Microsoft 365, LinkedIn and Dynamics \u2014 the software businesses sell to companies; up 17% YoY. Microsoft 365 Commercial cloud grew 19% and Dynamics 365 grew 22%.","quarter":"42.2% of all revenue this quarter."},"seg1":{"name":"Intelligent Cloud","amt":"$34.7B","value":34.681,"col":0,"color":"#7A68C4","note":"+30% \u00b7 41.8% of revenue","plain":"Azure cloud computing and server products; up 30% YoY, with Azure itself up 40%.","quarter":"41.8% of all revenue this quarter."},"seg2":{"name":"More Personal Computing","amt":"$13.2B","value":13.192,"col":0,"color":"#2E7CC4","note":"-1% \u00b7 15.9% of revenue","plain":"Windows, Xbox, Surface devices and search ads; down 1% YoY \u2014 Xbox content and services fell 5% and Windows OEM and Devices fell 2%, partly offset by search advertising up 12%.","quarter":"15.9% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$82.9B","value":82.886,"col":1,"color":"#2F3B4C","note":"+18%","plain":"All the money Microsoft took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$82.9B, +18% vs a year ago."},"gross":{"name":"Gross profit","amt":"$56.1B","value":56.058,"col":2,"color":"#69B578","note":"67.6% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"67.6 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($26.8B)","value":26.828,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$26.8B \u2014 about 32.4 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$942M","value":0.942,"col":3,"color":"#69B578","note":"","plain":"Other income of $942M, net \u2014 interest and investment income, after a small $14M loss from Microsoft's stake in OpenAI.","quarter":"$942M added to profit."},"op":{"name":"Operating profit","amt":"$38.4B","value":38.398,"col":3,"color":"#4C9A67","note":"46.3% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 46.3% margin."},"opex":{"name":"Operating expenses","amt":"($17.7B)","value":17.66,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$17.7B total, split into Research & development, Sales & marketing, General & administrative on the right."},"ox0":{"name":"Research & development","amt":"($8.9B)","value":8.915,"col":4,"color":"#CF5F4E","note":"10.8% of revenue","plain":"Building new products and AI \u2014 researchers, engineers and the computing they use.","quarter":"$8.9B \u2014 10.8% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($6.8B)","value":6.814,"col":4,"color":"#CF5F4E","note":"8.2% of revenue","plain":"The sales teams and advertising that sell Microsoft's products.","quarter":"$6.8B \u2014 8.2% of revenue."},"ox2":{"name":"General & administrative","amt":"($1.9B)","value":1.931,"col":4,"color":"#CF5F4E","note":"2.3% of revenue","plain":"The back office \u2014 finance, legal, HR and running the company.","quarter":"$1.9B \u2014 2.3% of revenue."},"net":{"name":"Net profit","amt":"$31.8B","value":31.778,"col":4,"color":"#3E8E5A","note":"38.3% margin","plain":"The bottom line \u2014 what Microsoft actually earned after everything.","quarter":"$31.8B \u2014 about 38.3 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($7.6B)","value":7.562,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$7.6B \u2014 roughly a 19.2% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":35.013,"c":"#94b6e1","amt":"$35.0B"},{"s":"seg1","d":"rev","v":34.681,"c":"#b6acdf","amt":"$34.7B"},{"s":"seg2","d":"rev","v":13.192,"c":"#8cb7df","amt":"$13.2B"},{"s":"rev","d":"gross","v":56.058,"c":"#BFE0C6","amt":"$56.1B"},{"s":"rev","d":"cost","v":26.828,"c":"#F4C7B9","amt":"$26.8B"},{"s":"gross","d":"op","v":38.398,"c":"#ACD8B8","amt":"$38.4B"},{"s":"gross","d":"opex","v":17.66,"c":"#F2B3A4","amt":"$17.7B"},{"s":"op","d":"net","v":30.836,"c":"#ACD8B8","amt":"$30.8B"},{"s":"otherin","d":"net","v":0.942,"c":"#ACD8B8","amt":"$942M"},{"s":"op","d":"tax","v":7.562,"c":"#dfaba7","amt":"$7.6B"},{"s":"opex","d":"ox0","v":8.915,"c":"#F6C0B1","amt":"$8.9B"},{"s":"opex","d":"ox1","v":6.814,"c":"#F6C0B1","amt":"$6.8B"},{"s":"opex","d":"ox2","v":1.931,"c":"#F6C0B1","amt":"$1.9B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

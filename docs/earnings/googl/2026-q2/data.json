@@ -1,0 +1,164 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-22",
+  "verdict": "Alphabet's revenue rose 24% to $119.8B and Cloud grew 82% \u2014 but the quarter's real headline is a $99B paper gain on its investment portfolio, which tripled net income to $112.2B.",
+  "revenueYoY": "+24%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+24%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$9.11",
+      "note": "vs $2.31 a year ago \u2014 mostly the investment gain"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+82%",
+      "note": "revenue growth YoY"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$8.8B",
+      "note": "vs $2.8B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 94540,
+      "yoy": "+15%",
+      "note": "Search ($63.3B, +17%), YouTube ads ($11.1B, +13%), Google Network ads ($7.3B) and subscriptions, platforms and devices ($12.9B, +15%) \u2014 the ad-funded core; up 15% YoY."
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 24768,
+      "yoy": "+82%",
+      "note": "Cloud computing and AI services sold to businesses; up 82% YoY, and its operating profit more than tripled to $8.8B."
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 382,
+      "yoy": "+2%",
+      "note": "Early-stage ventures like Waymo self-driving cars; tiny revenue and a $1.8B operating loss this quarter."
+    },
+    {
+      "name": "Hedging gains",
+      "amountM": 106,
+      "note": "Gains on currency hedges Alphabet runs at the corporate level (a $112M loss a year ago)."
+    }
+  ],
+  "flow": {
+    "revenueM": 119796,
+    "costOfRevenueM": 45943,
+    "grossProfitM": 73853,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 18219,
+        "note": "Engineers and researchers building Search, AI and Cloud \u2014 Alphabet's biggest running cost."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 8403,
+        "note": "Selling ads and devices, and promoting Google's products.",
+        "compact": true
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 6461,
+        "note": "The back office \u2014 legal, finance and running the company.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 40770,
+    "otherIncomeM": 97983,
+    "taxM": 26560,
+    "netIncomeM": 112193
+  },
+  "otherDetail": "Other income of $97,983M \u2014 almost entirely a $99.0B net gain on equity securities (stocks Alphabet owns, marked up in value; unrealized, not cash from customers).",
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 78.92
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 20.68
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.32
+    },
+    {
+      "label": "Hedging gains",
+      "amount": 0.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -38.35
+    },
+    {
+      "label": "R&D",
+      "amount": -15.21
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.01
+    },
+    {
+      "label": "G&A",
+      "amount": -5.39
+    },
+    {
+      "label": "Other income",
+      "amount": 81.79
+    },
+    {
+      "label": "Tax",
+      "amount": -22.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 93.65
+    }
+  ],
+  "follow100Note": "The $81.80 of 'Other income' in each $100 is the paper gain on Alphabet's stock holdings \u2014 it dwarfs the operating business this quarter. Chart scale note: because that gain is so large, the chart's bands are sized against $171.8B (gross profit plus the gain), not revenue alone. Rows may not add exactly due to rounding.",
+  "footerNote": "The investment gain makes this quarter's flows wider than revenue: the chart is scaled to gross profit plus other income ($171.8B). Net income of $112,193M is before $86M of preferred stock dividends; net income available to common stockholders was $112,107M, on which the $9.11 EPS is based.",
+  "takeaways": [
+    {
+      "stat": "$99.0B",
+      "statColor": "#cf5f4e",
+      "title": "A paper gain tripled the bottom line",
+      "text": "Net unrealized gains on equity securities added $99.0B before tax. Strip them out and net income would have been roughly $35B \u2014 still strong, but the $112.2B headline is an investment story, not an ads story."
+    },
+    {
+      "stat": "+82%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is booming",
+      "text": "Google Cloud revenue jumped 82% to $24.8B and its operating profit more than tripled to $8.8B, while Search grew 17% to $63.3B."
+    },
+    {
+      "stat": "-$5.9B",
+      "statColor": "#5b6b7c",
+      "title": "Free cash flow went negative",
+      "text": "Capital spending hit $44.9B in one quarter \u2014 more than the $39.1B of operating cash flow \u2014 as Alphabet builds AI data centers. It also raised $49.6B of new equity and $20.3B of debt in the quarter to fund the build-out."
+    }
+  ],
+  "oneTimers": [
+    "Other income includes a $99.0B net gain on equity securities (mostly unrealized). Alphabet itself quantifies the effect: the gain raised the tax bill by $21.9B, net income by $77.1B and EPS by $6.26.",
+    "In June 2026 Alphabet raised $49.6B by issuing stock and mandatory convertible preferred shares, plus $20.3B of senior notes \u2014 war-chest funding for AI infrastructure, not an operating result."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    }
+  ]
+}

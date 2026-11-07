@@ -1,0 +1,161 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-07-30",
+  "verdict": "Apple's June quarter set records as iPhone sales jumped 22% and Services kept climbing \u2014 revenue rose 16% to $109.4B and profit hit $29.8B, even as iPad sales slipped.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.02",
+      "note": "vs $1.57 a year ago"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$54.3B",
+      "note": "+22% YoY"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$30.7B",
+      "note": "+12% YoY, a record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 54252,
+      "yoy": "+22%",
+      "note": "iPhone sales \u2014 about half of everything Apple sells; up 22% YoY to a June-quarter record."
+    },
+    {
+      "name": "Mac",
+      "amountM": 10352,
+      "yoy": "+29%",
+      "note": "Mac computers; up 29% YoY."
+    },
+    {
+      "name": "iPad",
+      "amountM": 6191,
+      "yoy": "-6%",
+      "note": "iPad tablets; down 6% YoY against a strong launch quarter a year ago.",
+      "compact": true
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 7883,
+      "yoy": "+6%",
+      "note": "Apple Watch, AirPods, HomePod and add-ons; up 6% YoY.",
+      "compact": true,
+      "shortName": "Wearables"
+    },
+    {
+      "name": "Services",
+      "amountM": 30739,
+      "yoy": "+12%",
+      "note": "App Store, iCloud, Apple Music, TV+, Pay and warranties \u2014 high-margin subscriptions and fees; up 12% to a record."
+    }
+  ],
+  "flow": {
+    "revenueM": 109417,
+    "costOfRevenueM": 54647,
+    "grossProfitM": 54770,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 11729,
+        "note": "Spending to design future products and technologies; up 32% YoY."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7346,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 35695,
+    "otherIncomeM": 572,
+    "taxM": 6478,
+    "netIncomeM": 29789
+  },
+  "otherDetail": "Other income of $572M, net \u2014 interest and investment results outside the product business.",
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 49.58
+    },
+    {
+      "label": "Mac",
+      "amount": 9.46
+    },
+    {
+      "label": "iPad",
+      "amount": 5.66
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 7.2
+    },
+    {
+      "label": "Services",
+      "amount": 28.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -49.94
+    },
+    {
+      "label": "R&D",
+      "amount": -10.72
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.71
+    },
+    {
+      "label": "Other income",
+      "amount": 0.52
+    },
+    {
+      "label": "Tax",
+      "amount": -5.92
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.23
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "The iPhone had a record June quarter",
+      "text": "iPhone revenue rose 22% to $54.3B \u2014 half of Apple's total sales \u2014 and Mac jumped 29%. Only iPad fell, down 6% against last year's launch-boosted quarter."
+    },
+    {
+      "stat": "$30.7B",
+      "statColor": "#3e8e5a",
+      "title": "Services set another record",
+      "text": "Services revenue hit $30.7B, up 12%. Services cost only $7.5B to deliver, so this segment quietly supplies an outsized share of Apple's profit."
+    },
+    {
+      "stat": "50.1%",
+      "statColor": "#5b6b7c",
+      "title": "Half of every sales dollar survives direct costs",
+      "text": "Gross margin was $54.8B on $109.4B of sales \u2014 a 50.1% gross margin \u2014 and Apple kept $29.8B as net profit, 27 cents of every revenue dollar."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm"
+    }
+  ]
+}

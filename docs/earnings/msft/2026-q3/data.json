@@ -1,0 +1,150 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-29",
+  "verdict": "Microsoft's revenue rose 18% to $82.9B as Azure grew 40% \u2014 and it poured $30.9B into new data centers in a single quarter to keep up with AI demand.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.27",
+      "note": "vs $3.46 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+40%",
+      "note": "Azure and other cloud services"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$54.5B",
+      "note": "+29% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 35013,
+      "yoy": "+17%",
+      "note": "Microsoft 365, LinkedIn and Dynamics \u2014 the software businesses sell to companies; up 17% YoY. Microsoft 365 Commercial cloud grew 19% and Dynamics 365 grew 22%."
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 34681,
+      "yoy": "+30%",
+      "note": "Azure cloud computing and server products; up 30% YoY, with Azure itself up 40%."
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 13192,
+      "yoy": "-1%",
+      "note": "Windows, Xbox, Surface devices and search ads; down 1% YoY \u2014 Xbox content and services fell 5% and Windows OEM and Devices fell 2%, partly offset by search advertising up 12%."
+    }
+  ],
+  "flow": {
+    "revenueM": 82886,
+    "costOfRevenueM": 26828,
+    "grossProfitM": 56058,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 8915,
+        "note": "Building new products and AI \u2014 researchers, engineers and the computing they use."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6814,
+        "note": "The sales teams and advertising that sell Microsoft's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1931,
+        "note": "The back office \u2014 finance, legal, HR and running the company."
+      }
+    ],
+    "operatingIncomeM": 38398,
+    "otherIncomeM": 942,
+    "taxM": 7562,
+    "netIncomeM": 31778
+  },
+  "otherDetail": "Other income of $942M, net \u2014 interest and investment income, after a small $14M loss from Microsoft's stake in OpenAI.",
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 42.24
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 41.84
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 15.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.37
+    },
+    {
+      "label": "R&D",
+      "amount": -10.76
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.22
+    },
+    {
+      "label": "G&A",
+      "amount": -2.33
+    },
+    {
+      "label": "Other income",
+      "amount": 1.14
+    },
+    {
+      "label": "Tax",
+      "amount": -9.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.34
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+40%",
+      "statColor": "#3d7bc8",
+      "title": "Azure is still accelerating",
+      "text": "Azure and other cloud services revenue grew 40%, Intelligent Cloud rose 30% to $34.7B, and Microsoft Cloud overall reached $54.5B \u2014 two-thirds of all revenue."
+    },
+    {
+      "stat": "$30.9B",
+      "statColor": "#cf5f4e",
+      "title": "The data-center bill is staggering",
+      "text": "Microsoft spent $30.9B on property and equipment in one quarter \u2014 nearly double a year ago \u2014 yet still generated $46.7B of operating cash flow and $15.8B of free cash flow."
+    },
+    {
+      "stat": "$627B",
+      "statColor": "#3e8e5a",
+      "title": "Customers have pre-committed $627B",
+      "text": "Commercial remaining performance obligation \u2014 work customers have signed for but not yet paid \u2014 jumped 99% to $627B, a backlog that underwrites future cloud revenue."
+    }
+  ],
+  "oneTimers": [
+    "Losses from Microsoft's investment in OpenAI trimmed just $14M from net income this quarter \u2014 a rounding error next to the $583M drag in the same quarter a year ago."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm"
+    }
+  ]
+}
