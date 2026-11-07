@@ -1,0 +1,224 @@
+{
+  "ticker": "BIIB",
+  "company": "Biogen",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Biogen's revenue grew 11% to $2.8B as its growth portfolio jumped 49%, but $284M of acquired research charges plus deal and restructuring costs pushed it to a small $21M GAAP loss.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.14",
+      "note": "vs $3.17 a year ago"
+    },
+    {
+      "label": "EPS (non-GAAP)",
+      "value": "$2.62",
+      "note": "excludes deal and restructuring items"
+    },
+    {
+      "label": "Growth Portfolio revenue",
+      "value": "$1.26B",
+      "note": "+49% YoY, 63% of core pharmaceutical revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Multiple sclerosis products",
+      "amountM": 920,
+      "yoy": "-13%",
+      "note": "Tecfidera, Vumerity, Avonex, Plegridy and Tysabri \u2014 the legacy franchise, down 13% as older drugs lose ground."
+    },
+    {
+      "name": "Rare disease products",
+      "amountM": 676,
+      "yoy": "+27%",
+      "note": "Spinraza, Skyclarys and Qalsody \u2014 up 27%, led by Spinraza's move to a high-dose regimen."
+    },
+    {
+      "name": "Specialized immunology products",
+      "amountM": 243,
+      "yoy": "new",
+      "note": "Empaveli and Syfovre, added with the Apellis acquisition that closed in May 2026 \u2014 a new revenue line this year."
+    },
+    {
+      "name": "Biosimilars",
+      "amountM": 166,
+      "yoy": "-16%",
+      "note": "Copycat versions of other companies' biologics \u2014 down 16%.",
+      "compact": true
+    },
+    {
+      "name": "Other products",
+      "amountM": 84,
+      "yoy": "+53%",
+      "note": "Zurzuvae, the postpartum-depression pill \u2014 up 53% on strong demand."
+    },
+    {
+      "name": "Anti-CD20 therapeutic programs",
+      "amountM": 497,
+      "yoy": "+1%",
+      "note": "Royalties and profit share from Ocrevus and other anti-CD20 drugs sold by partners \u2014 up 1%, high-margin income with no product sales."
+    },
+    {
+      "name": "Alzheimer's collaboration",
+      "amountM": 68,
+      "yoy": "+60%",
+      "note": "Biogen's 50% share of the Leqembi collaboration with Eisai \u2014 up 60%."
+    },
+    {
+      "name": "Contract manufacturing, royalty and other",
+      "amountM": 150,
+      "yoy": "-1%",
+      "note": "Making drugs for others plus royalties \u2014 flat YoY.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 2804,
+    "costOfRevenueM": 748,
+    "grossProfitM": 2056,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 574,
+        "note": "Clinical trials and drug development \u2014 up 32% on trials for felzartamab, salanersen and litifilimab, plus Apellis's costs."
+      },
+      {
+        "name": "Acquired in-process R&D and milestones",
+        "amountM": 284,
+        "note": "Paying for research bought from others \u2014 mainly the RayThera acquisition \u2014 expensed immediately because the projects are not yet approved drugs."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 752,
+        "note": "Selling the medicines and running the company \u2014 up 26%, including Apellis's commercial operations."
+      },
+      {
+        "name": "Amortization and impairment of acquired intangible assets",
+        "amountM": 173,
+        "note": "Writing down drug rights bought in the Apellis and Reata acquisitions over time."
+      },
+      {
+        "name": "Collaboration sharing, restructuring and other",
+        "amountM": 145,
+        "note": "Sharing Leqembi collaboration profits with Eisai ($78M), Fit for Growth restructuring charges ($67M), and revaluing future acquisition payments (under $1M this quarter).",
+        "compact": true,
+        "shortName": "Collaboration, restructuring & other"
+      }
+    ],
+    "operatingIncomeM": 128,
+    "otherIncomeM": -137,
+    "taxM": 12,
+    "netIncomeM": -21
+  },
+  "otherDetail": "Other (income) expense, net was a $137M expense in the quarter. Biogen reports no separate operating-income line; the operating step shown is total revenue less every reported cost except that line.",
+  "oneTimers": [
+    "$284M of acquired in-process R&D, upfront and milestone expense, primarily tied to the RayThera acquisition \u2014 the main reason GAAP EPS was -$0.14 while non-GAAP EPS was $2.62.",
+    "$67M of restructuring charges and $173M of amortization and impairment of acquired intangible assets, from the Apellis and Reata deals, also weighed on GAAP results."
+  ],
+  "takeaways": [
+    {
+      "stat": "+49%",
+      "statColor": "#3d7bc8",
+      "title": "The growth portfolio is taking over",
+      "text": "Growth Portfolio revenue reached $1.26B, up 49%, and is now 63% of core pharmaceutical revenue \u2014 including the first full quarter from the acquired Apellis products Syfovre ($191M) and Empaveli ($52M)."
+    },
+    {
+      "stat": "$284M",
+      "statColor": "#cf5f4e",
+      "title": "A deal charge caused the loss",
+      "text": "Acquired research expense of $284M, mainly for RayThera, plus $67M of restructuring, turned a profitable operating business into a $21M GAAP net loss. Non-GAAP EPS, which excludes these items, was $2.62."
+    },
+    {
+      "stat": "-13%",
+      "statColor": "#5b6b7c",
+      "title": "The old MS franchise keeps shrinking",
+      "text": "Multiple sclerosis product revenue fell 13% to $919M. Biogen's story now depends on growth products \u2014 Spinraza (+23%), Leqembi (+67%) and Skyclarys (+34%) \u2014 outgrowing that decline."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000094/exhibit991-q32026pressrele.htm"
+    }
+  ],
+  "footerNote": "MS revenue is shown $1M higher ($920M vs the reported $919M) so categories sum exactly to reported revenue of $2,804M.",
+  "follow100": [
+    {
+      "label": "Multiple sclerosis products",
+      "amount": 32.81
+    },
+    {
+      "label": "Rare disease products",
+      "amount": 24.11
+    },
+    {
+      "label": "Specialized immunology products",
+      "amount": 8.67
+    },
+    {
+      "label": "Biosimilars",
+      "amount": 5.92
+    },
+    {
+      "label": "Other products",
+      "amount": 3.0
+    },
+    {
+      "label": "Anti-CD20 therapeutic programs",
+      "amount": 17.72
+    },
+    {
+      "label": "Alzheimer's collaboration",
+      "amount": 2.43
+    },
+    {
+      "label": "Contract manufacturing, royalty and other",
+      "amount": 5.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.68
+    },
+    {
+      "label": "R&D",
+      "amount": -20.47
+    },
+    {
+      "label": "Acquired in-process R&D and milestones",
+      "amount": -10.13
+    },
+    {
+      "label": "SG&A",
+      "amount": -26.82
+    },
+    {
+      "label": "Amortization and impairment of acquired intangible assets",
+      "amount": -6.17
+    },
+    {
+      "label": "Collaboration, restructuring & other",
+      "amount": -5.17
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.89
+    },
+    {
+      "label": "Tax",
+      "amount": -0.43
+    },
+    {
+      "label": "Net loss",
+      "amount": -0.75
+    }
+  ]
+}
