@@ -1,0 +1,169 @@
+{
+  "ticker": "AMP",
+  "company": "Ameriprise Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+7%",
+  "verdict": "Ameriprise's net revenues rose 7% to $5.12B on strong advice fees, and net income rose 23% to $1.13B (EPS $12.32), helped by smaller market-related insurance charges.",
+  "kpis": [
+    {
+      "label": "Total net revenues",
+      "value": "$5.12B",
+      "note": "+7% vs a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$12.32",
+      "note": "Vs $9.33 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.13B",
+      "note": "+23% vs a year ago"
+    },
+    {
+      "label": "Advice assets under management",
+      "value": "$725B",
+      "note": "+12% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Management & financial advice fees",
+      "shortName": "Advice & mgmt fees",
+      "amountM": 3230,
+      "yoy": "+15%",
+      "note": "Fees for financial advice and managing client money \u2014 the engine of the business, up 15% as client assets grew."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 834,
+      "yoy": "-1%",
+      "note": "Income on the company's own investments, shown after $74M of banking and deposit interest expense (the gross figure was $908M, down 1%)."
+    },
+    {
+      "name": "Distribution fees",
+      "amountM": 568,
+      "yoy": "+5%",
+      "note": "Fees for distributing funds and products."
+    },
+    {
+      "name": "Premiums & policy charges",
+      "shortName": "Premiums & charges",
+      "amountM": 355,
+      "yoy": "-28%",
+      "note": "Insurance and annuity premiums and charges \u2014 down as the company steers away from some guarantee-heavy products."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 130,
+      "note": "Everything else, flat vs a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 5117,
+    "costOfRevenueM": 1955,
+    "grossProfitM": 3162,
+    "opex": [
+      {
+        "name": "Insurance benefits, claims & policy costs",
+        "shortName": "Benefits & policy costs",
+        "amountM": 670,
+        "note": "Benefits and claims paid ($302M), interest credited to fixed accounts ($72M), reserve changes ($234M) and deferred acquisition cost amortization ($62M)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 982,
+        "note": "Staff, technology and running the firm."
+      },
+      {
+        "name": "Interest and debt expense",
+        "amountM": 83,
+        "note": "Interest on Ameriprise's own borrowings."
+      }
+    ],
+    "operatingIncomeM": 1427,
+    "otherIncomeM": 0,
+    "taxM": 301,
+    "netIncomeM": 1126
+  },
+  "takeaways": [
+    {
+      "stat": "+7%",
+      "statColor": "#3d7bc8",
+      "title": "Net revenues rose to $5.12B",
+      "text": "Advice and management fees jumped 15% as client assets grew 12%, more than offsetting a 28% drop in insurance premiums."
+    },
+    {
+      "stat": "+23%",
+      "statColor": "#3e8e5a",
+      "title": "Net income rose to $1.13B",
+      "text": "Profit grew much faster than revenue because market-related insurance charges shrank \u2014 the change in fair value of market risk benefits fell from $302M to $202M."
+    },
+    {
+      "stat": "$12.32",
+      "statColor": "#3e8e5a",
+      "title": "EPS of $12.32, up from $9.33",
+      "text": "Buybacks amplify the growth: Ameriprise has shrunk its share count from about 98M to 91M diluted shares in a year."
+    }
+  ],
+  "footerNote": "Revenue is total net revenues \u2014 total revenues of $5,191M less $74M of banking and deposit interest expense, which is netted against investment income above. Distribution expenses (largely commissions paid to advisors) are treated as the direct cost of revenue. Ameriprise reports pre-tax income directly, so operating income here equals pre-tax income and there is no separate other-income line; its business segments on an adjusted basis were Advice & Wealth Management ($3,371M), Asset Management ($990M) and Retirement & Protection ($997M), before corporate and eliminations.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000050/q32026er.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000054/amp-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Advice & mgmt fees",
+      "amount": 63.12
+    },
+    {
+      "label": "Net investment income",
+      "amount": 16.3
+    },
+    {
+      "label": "Distribution fees",
+      "amount": 11.1
+    },
+    {
+      "label": "Premiums & charges",
+      "amount": 6.94
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.54
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -38.21
+    },
+    {
+      "label": "Benefits & policy costs",
+      "amount": -13.09
+    },
+    {
+      "label": "General & administrative",
+      "amount": -19.19
+    },
+    {
+      "label": "Interest and debt expense",
+      "amount": -1.62
+    },
+    {
+      "label": "Tax",
+      "amount": -5.88
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.01
+    }
+  ]
+}

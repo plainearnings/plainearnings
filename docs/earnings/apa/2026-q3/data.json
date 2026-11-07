@@ -1,0 +1,171 @@
+{
+  "ticker": "APA",
+  "company": "APA Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "revenueYoY": "-22%",
+  "verdict": "APA's revenue fell 22% to $1.99B because last year's result included a $620M UK tax settlement gain; underlying production rose 4% and new Suriname oil started flowing.",
+  "kpis": [
+    {
+      "label": "Revenues",
+      "value": "$1.99B",
+      "note": "-22% vs a year ago (which had a $620M one-off gain)"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$1.22",
+      "note": "Vs $3.49 a year ago, on the flows shown"
+    },
+    {
+      "label": "Production",
+      "value": "488 Mboe/d",
+      "note": "+4% vs a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$1.26B",
+      "note": "Free cash flow was $365M after capital spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 1041,
+      "yoy": "+5%",
+      "note": "Permian Basin shale. Lower oil and gas prices were offset by new production from the Granite Ridge merger."
+    },
+    {
+      "name": "Egypt",
+      "amountM": 562,
+      "yoy": "-12%",
+      "note": "Western Desert production; volumes fell on natural decline."
+    },
+    {
+      "name": "North Sea (UK)",
+      "shortName": "North Sea",
+      "amountM": 269,
+      "yoy": "-15%",
+      "note": "Maturing UK platforms; higher realized gas prices cushioned lower volumes."
+    },
+    {
+      "name": "Suriname",
+      "amountM": 117,
+      "note": "First full quarter of oil from the Gran Amatista field, which started up in June 2026."
+    }
+  ],
+  "flow": {
+    "revenueM": 1989,
+    "costOfRevenueM": 1165,
+    "grossProfitM": 824,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 116,
+        "note": "Head-office and administrative costs; APA cut G&A 11% from a year ago."
+      },
+      {
+        "name": "Exploration",
+        "amountM": 41,
+        "note": "Dry holes and exploration write-offs, mainly in Egypt."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 29,
+        "note": "Workforce and office reduction costs."
+      },
+      {
+        "name": "Merger & separation",
+        "amountM": 4,
+        "note": "Remaining costs of the Granite Ridge combination."
+      }
+    ],
+    "operatingIncomeM": 634,
+    "otherIncomeM": -47,
+    "taxM": 200,
+    "netIncomeM": 387
+  },
+  "otherDetail": "Interest expense of $120M, partly offset by a $64M gain as APA's stake in Granite Ridge rose in value and $9M of other income.",
+  "takeaways": [
+    {
+      "stat": "-22%",
+      "statColor": "#cf5f4e",
+      "title": "Revenue fell to $1.99B",
+      "text": "Almost all of the drop is the absence of last year's $620M UK tax-settlement gain in the comparison, not weaker operations."
+    },
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Production rose to 488 Mboe/d",
+      "text": "Permian growth, the Granite Ridge merger and new Suriname output more than offset declines in Egypt and the North Sea, while realized gas prices fell sharply."
+    },
+    {
+      "stat": "$1.22",
+      "statColor": "#5b6b7c",
+      "title": "EPS of $1.22 vs $3.49 a year ago",
+      "text": "Profit fell with the one-off gain gone and prices lower, though operating cash flow of $1.26B stayed strong. The growth bet is Suriname: a final investment decision on the larger GranMorgu project is expected in Q2 2027."
+    }
+  ],
+  "footerNote": "Excluded from the flow above so the chart stays readable: a $333M provision for valuation allowances against Egyptian tax credits under APA's RightWay program (recorded in its own income-statement line), $248M of impairments of curtailed projects recorded inside lease operating expense, and $32M of restructuring charges recorded within the tax line, so income tax is shown as reported. Including all of these, APA's reported net income attributable to common stock was $22M (EPS $0.07). Net income shown is before $69M attributed to noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/863882/000086388226000026/exhibit9913q26earningsrele.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/863882/000086388226000030/apa-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 52.34
+    },
+    {
+      "label": "Egypt",
+      "amount": 28.26
+    },
+    {
+      "label": "North Sea",
+      "amount": 13.52
+    },
+    {
+      "label": "Suriname",
+      "amount": 5.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.57
+    },
+    {
+      "label": "General & administrative",
+      "amount": -5.83
+    },
+    {
+      "label": "Exploration",
+      "amount": -2.06
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.46
+    },
+    {
+      "label": "Merger & separation",
+      "amount": -0.2
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.36
+    },
+    {
+      "label": "Tax",
+      "amount": -10.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.46
+    }
+  ]
+}

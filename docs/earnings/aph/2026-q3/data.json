@@ -1,0 +1,146 @@
+{
+  "ticker": "APH",
+  "company": "Amphenol",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+65%",
+  "verdict": "Amphenol's sales jumped 65% to $10.2B as the acquired CommScope connectivity business and AI data-center demand kicked in, and net income rose 64% to $2.1B.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$10.23B",
+      "note": "+65% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.79",
+      "note": "Vs $0.49 a year ago (two share classes combined)"
+    },
+    {
+      "label": "Operating income",
+      "value": "$3.02B",
+      "note": "A 29.5% operating margin"
+    },
+    {
+      "label": "Communications sales",
+      "value": "+99%",
+      "note": "CommScope deal plus AI data-center demand"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Communications Solutions",
+      "shortName": "Communications",
+      "amountM": 6583,
+      "yoy": "+99%",
+      "note": "Connectors and cable for data centers and networks \u2014 nearly doubled, driven by the acquired CommScope broadband/connectivity business and AI data-center demand."
+    },
+    {
+      "name": "Harsh Environment Solutions",
+      "shortName": "Harsh Environment",
+      "amountM": 2042,
+      "yoy": "+35%",
+      "note": "Rugged connectors for defense, aerospace and heavy industry."
+    },
+    {
+      "name": "Interconnect and Sensor Systems",
+      "shortName": "Interconnect & Sensors",
+      "amountM": 1605,
+      "yoy": "+17%",
+      "note": "Sensors and interconnects for cars, aircraft and industry."
+    }
+  ],
+  "flow": {
+    "revenueM": 10230,
+    "costOfRevenueM": 6214,
+    "grossProfitM": 4016,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 980,
+        "note": "Running the now much larger connector group after a year of acquisitions."
+      },
+      {
+        "name": "Acquisition-related expenses",
+        "amountM": 15,
+        "note": "Costs tied to the CommScope connectivity business and other deals."
+      }
+    ],
+    "operatingIncomeM": 3021,
+    "otherIncomeM": -192,
+    "taxM": 774,
+    "netIncomeM": 2055
+  },
+  "otherDetail": "Interest expense of $212M \u2014 debt rose to fund the CommScope deal \u2014 partly offset by $21M of other income.",
+  "takeaways": [
+    {
+      "stat": "+65%",
+      "statColor": "#3d7bc8",
+      "title": "Sales hit $10.2B",
+      "text": "Growth of 65% in dollars mixes the CommScope acquisition with strong organic demand, especially from AI data centers."
+    },
+    {
+      "stat": "29.5%",
+      "statColor": "#3e8e5a",
+      "title": "Margins held at scale",
+      "text": "Operating income of $3.02B was 29.5% of sales \u2014 a high margin for a manufacturing business, even while integrating a large acquisition."
+    },
+    {
+      "stat": "$2.05B",
+      "statColor": "#3e8e5a",
+      "title": "Net income rose 64%",
+      "text": "Profit rose from $1.26B a year ago to $2.05B, even with interest expense nearly tripling to $212M on acquisition debt."
+    }
+  ],
+  "footerNote": "Consolidated net income is shown; net income attributable to Amphenol shareholders was $2,034M, with $20M attributable to noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926119421/aph-ex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926120646/aph-20260930x10q.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Communications",
+      "amount": 64.35
+    },
+    {
+      "label": "Harsh Environment",
+      "amount": 19.96
+    },
+    {
+      "label": "Interconnect & Sensors",
+      "amount": 15.69
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.74
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -9.58
+    },
+    {
+      "label": "Acquisition-related expenses",
+      "amount": -0.15
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.88
+    },
+    {
+      "label": "Tax",
+      "amount": -7.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.09
+    }
+  ]
+}

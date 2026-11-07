@@ -1,0 +1,133 @@
+{
+  "ticker": "AOS",
+  "company": "A. O. Smith",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "-0.2%",
+  "verdict": "A. O. Smith's sales were flat at $941M: North America grew 3% with help from an acquisition, but China stayed weak \u2014 and the company agreed to sell 81% of its China business.",
+  "kpis": [
+    {
+      "label": "Sales",
+      "value": "$941M",
+      "note": "Essentially flat vs a year ago (-0.2%)"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$0.93",
+      "note": "Down just 1% vs a year ago"
+    },
+    {
+      "label": "North America sales",
+      "value": "+3%",
+      "note": "Aided by the Leonard Valve acquisition"
+    },
+    {
+      "label": "Free cash flow (year to date)",
+      "value": "$396M",
+      "note": "Up 4% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 762,
+      "yoy": "+3%",
+      "note": "Water heaters and boilers \u2014 growth aided by the Leonard Valve acquisition, which closed earlier in 2026."
+    },
+    {
+      "name": "Rest of World",
+      "amountM": 179,
+      "yoy": "-7%",
+      "note": "Mostly China water treatment and heating. Segment sales were $193M before $14M of corporate and intersegment eliminations; demand in China stayed weak."
+    }
+  ],
+  "flow": {
+    "revenueM": 941,
+    "costOfRevenueM": 576,
+    "grossProfitM": 365,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 190,
+        "note": "People, selling and overhead across the water-heater and boiler business."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 1,
+        "note": "A small net other operating expense line in the quarter."
+      }
+    ],
+    "operatingIncomeM": 174,
+    "otherIncomeM": -8,
+    "taxM": 40,
+    "netIncomeM": 126
+  },
+  "otherDetail": "Interest expense of $8M on the company's borrowings.",
+  "takeaways": [
+    {
+      "stat": "0%",
+      "statColor": "#3d7bc8",
+      "title": "Sales were flat at $941M",
+      "text": "North America's 3% growth exactly offset a 7% decline in the rest of the world, which is mostly China."
+    },
+    {
+      "stat": "81%",
+      "statColor": "#5b6b7c",
+      "title": "The China business is being sold down",
+      "text": "On October 27 the company agreed that CPE will acquire 81% of its China water-treatment business; A. O. Smith keeps a 19% stake rather than full control of a difficult market."
+    },
+    {
+      "stat": "$0.93",
+      "statColor": "#3e8e5a",
+      "title": "EPS barely moved",
+      "text": "EPS of $0.93 was down just 1% despite flat sales, helped by North America margins and share buybacks; net income was $126M."
+    }
+  ],
+  "footerNote": "A. O. Smith reports 'earnings before interest and taxes' rather than a labeled operating income; the operating income shown nets a small $1M other operating expense against gross profit. Rest of World segment sales are shown after corporate and intersegment eliminations so the parts sum to total sales.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000102/a9302026exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000104/aos-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 80.98
+    },
+    {
+      "label": "Rest of World",
+      "amount": 19.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.21
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -20.19
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.11
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.85
+    },
+    {
+      "label": "Tax",
+      "amount": -4.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.39
+    }
+  ]
+}

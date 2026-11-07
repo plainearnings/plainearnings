@@ -1,0 +1,158 @@
+{
+  "ticker": "APD",
+  "company": "Air Products and Chemicals",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+12%",
+  "verdict": "Air Products' sales rose 12% to $3.56B and its core gases business grew strongly, but charges for exiting two China coal-gasification projects held reported operating income to $633M.",
+  "kpis": [
+    {
+      "label": "Sales",
+      "value": "$3.56B",
+      "note": "+12% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.62",
+      "note": "After project-exit charges"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.61",
+      "note": "Excluding the exit charges; beat guidance"
+    },
+    {
+      "label": "Americas sales",
+      "value": "+27%",
+      "note": "Volumes up 26% on new plants starting up"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 1669,
+      "yoy": "+27%",
+      "note": "The largest region; volumes jumped 26% as new on-site plants started up, plus an asset sale tied to an early contract termination."
+    },
+    {
+      "name": "Asia",
+      "amountM": 909,
+      "yoy": "+4%",
+      "note": "Volumes up 3% with currency help."
+    },
+    {
+      "name": "Europe",
+      "amountM": 856,
+      "yoy": "+8%",
+      "note": "Growth mostly reflects higher energy costs passed through to customers, plus 2% pricing."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 122,
+      "yoy": "-34%",
+      "note": "Includes equipment sales, which fell from a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 3556,
+    "costOfRevenueM": 2471,
+    "grossProfitM": 1085,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 228,
+        "note": "Sales, admin and overhead for the global gases business."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 25,
+        "note": "Process and applications R&D."
+      },
+      {
+        "name": "Business & asset actions",
+        "amountM": 199,
+        "note": "Charges for exiting projects \u2014 primarily two coal-gasification plants in China. Shown net of $25M of other operating income."
+      }
+    ],
+    "operatingIncomeM": 633,
+    "otherIncomeM": 122,
+    "taxM": 199,
+    "netIncomeM": 556
+  },
+  "otherDetail": "Equity affiliates' income \u2014 profits from joint ventures, including a large affiliate in Saudi Arabia \u2014 added $189M; interest expense took back $67M, for net other income of $122M.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Sales rose to $3.56B",
+      "text": "Americas led with 27% growth as new on-site plants started up; Asia grew 4% and Europe 8%."
+    },
+    {
+      "stat": "$223M",
+      "statColor": "#cf5f4e",
+      "title": "Exit charges cut reported profit",
+      "text": "Exiting two China coal-gasification plants cost $223M this quarter; excluding such items, operating income would have been $856M."
+    },
+    {
+      "stat": "$3.61",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS beat guidance",
+      "text": "Adjusted EPS of $3.61 topped the guidance midpoint, and fiscal 2027 guidance of $14.15\u2013$14.50 implies another year of growth."
+    }
+  ],
+  "footerNote": "Business and asset actions are shown net of $25M of other operating income that the company reports inside operating income. Consolidated net income of $556M is shown; net income attributable to Air Products was $584M because noncontrolling interests absorbed a $28M loss.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000043/exhibit99130sep26.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 46.93
+    },
+    {
+      "label": "Asia",
+      "amount": 25.56
+    },
+    {
+      "label": "Europe",
+      "amount": 24.07
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 3.43
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -69.49
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -6.41
+    },
+    {
+      "label": "Research & development",
+      "amount": -0.7
+    },
+    {
+      "label": "Business & asset actions",
+      "amount": -5.6
+    },
+    {
+      "label": "Other income",
+      "amount": 3.43
+    },
+    {
+      "label": "Tax",
+      "amount": -5.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.64
+    }
+  ]
+}

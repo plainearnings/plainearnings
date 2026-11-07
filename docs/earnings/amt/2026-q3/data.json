@@ -1,0 +1,168 @@
+{
+  "ticker": "AMT",
+  "company": "American Tower",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+2.5%",
+  "verdict": "American Tower's revenue rose 2.5% to $2.79B as its data centers grew quickly, but net income fell 14% to $781M on higher interest costs and other charges, even though its rent-like AFFO measure grew.",
+  "kpis": [
+    {
+      "label": "Total revenue",
+      "value": "$2.79B",
+      "note": "+2.5% vs a year ago; property revenue +4.5%"
+    },
+    {
+      "label": "Net income",
+      "value": "$781M",
+      "note": "-14% vs a year ago ($766M attributable)"
+    },
+    {
+      "label": "AFFO",
+      "value": "$1,335M",
+      "note": "+2.4% \u2014 the cash-rent measure REIT investors watch"
+    },
+    {
+      "label": "Share buybacks",
+      "value": "$315M",
+      "note": "In the quarter; a new $2.0B authorization followed"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. & Canada",
+      "amountM": 1326,
+      "note": "The core tower portfolio, plus all of the company's services revenue ($51M) and $74M of non-lease property income."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 460,
+      "note": "Towers across Brazil, Mexico and other markets; tenant billings were soft here."
+    },
+    {
+      "name": "Africa & APAC",
+      "amountM": 428,
+      "note": "The fastest-growing tower region, with tenant billings up about 12%."
+    },
+    {
+      "name": "Data Centers",
+      "amountM": 313,
+      "note": "The CoreSite data-center business \u2014 cash revenue grew 16.3%, the standout performer."
+    },
+    {
+      "name": "Europe",
+      "amountM": 258,
+      "note": "Towers in France, Germany, Spain and Poland."
+    }
+  ],
+  "flow": {
+    "revenueM": 2785,
+    "costOfRevenueM": 757,
+    "grossProfitM": 2028,
+    "opex": [
+      {
+        "name": "Depreciation, amortization & accretion",
+        "amountM": 519,
+        "note": "Spreading the cost of towers and data centers over their lives \u2014 a non-cash charge that REIT investors largely add back (see AFFO)."
+      },
+      {
+        "name": "Selling, general, administrative & development",
+        "shortName": "SG&A & development",
+        "amountM": 228,
+        "note": "Running the company and developing new sites."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 12,
+        "note": "Small net other operating items."
+      }
+    ],
+    "operatingIncomeM": 1269,
+    "otherIncomeM": -371,
+    "taxM": 117,
+    "netIncomeM": 781
+  },
+  "otherDetail": "Interest expense of $366M on the tower debt load, plus $52M of other net charges, partly offset by $48M of interest income.",
+  "takeaways": [
+    {
+      "stat": "+2.5%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue rose to $2.79B",
+      "text": "Property revenue grew 4.5% to $2.73B; services revenue halved after last year's large projects wound down, which held total growth to 2.5%."
+    },
+    {
+      "stat": "-14%",
+      "statColor": "#cf5f4e",
+      "title": "Net income fell to $781M",
+      "text": "Higher interest expense ($366M) and a swing in other items cut accounting profit, even though the underlying rent business grew."
+    },
+    {
+      "stat": "+2.4%",
+      "statColor": "#3e8e5a",
+      "title": "AFFO \u2014 the cash measure \u2014 grew",
+      "text": "Adjusted funds from operations rose 2.4% to $1,335M and management raised its full-year outlook, citing data-center outperformance."
+    }
+  ],
+  "footerNote": "Direct costs are the costs of operating the properties ($725M) and delivering services ($32M), as the company reports them. Segment revenues follow the company's own geographic disaggregation in its 10-Q, which places all services revenue in U.S. & Canada. Net income attributable to common stockholders was $766M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000154/pressreleaseq32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000157/amt-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. & Canada",
+      "amount": 47.61
+    },
+    {
+      "label": "Latin America",
+      "amount": 16.52
+    },
+    {
+      "label": "Africa & APAC",
+      "amount": 15.37
+    },
+    {
+      "label": "Data Centers",
+      "amount": 11.24
+    },
+    {
+      "label": "Europe",
+      "amount": 9.26
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.18
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -18.64
+    },
+    {
+      "label": "SG&A & development",
+      "amount": -8.19
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -0.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -13.32
+    },
+    {
+      "label": "Tax",
+      "amount": -4.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.04
+    }
+  ]
+}
