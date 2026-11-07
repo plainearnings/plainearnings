@@ -1,0 +1,174 @@
+{
+  "ticker": "LYV",
+  "company": "Live Nation Entertainment",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Live Nation set a record quarter with $10.1B of revenue, up 19%, as 61 million fans attended shows and consolidated net income reached $567M.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.69",
+      "note": "diluted, available to common stockholders, vs $0.73 a year ago"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$1.18B",
+      "note": "non-GAAP AOI, up 14%"
+    },
+    {
+      "label": "Fan attendance",
+      "value": "61M",
+      "note": "up 19% YoY in Q3"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Concerts",
+      "amountM": 8746,
+      "yoy": "+20%",
+      "note": "Promoting and producing live shows and running venues \u2014 61 million fans attended in the quarter, up 19%, with international attendance up 29%."
+    },
+    {
+      "name": "Ticketing",
+      "amountM": 870,
+      "yoy": "+9%",
+      "note": "Ticketmaster ticket sales: 98 million fee-bearing tickets in the quarter, up 10%, with gross transaction value of $11.2B, up 13%."
+    },
+    {
+      "name": "Sponsorship, advertising & other",
+      "amountM": 489,
+      "yoy": "+17%",
+      "note": "Sponsorship and advertising revenue of $506M, up 14%, less $17M of other and intersegment eliminations \u2014 combined so the lines foot to total revenue, following the same treatment as the release's 'Other and Eliminations' line.",
+      "shortName": "Sponsorship & other"
+    }
+  ],
+  "flow": {
+    "revenueM": 10105,
+    "costOfRevenueM": 7748,
+    "grossProfitM": 2357,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1161,
+        "note": "Selling tickets and shows and running the company.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 183,
+        "note": "Spreading the cost of venues, systems and intangibles over their working lives.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "name": "Loss on disposal of operating assets",
+        "amountM": 7,
+        "note": "A small loss selling operating assets (a year ago this was a $15M gain).",
+        "shortName": "Disposal loss",
+        "compact": true
+      },
+      {
+        "name": "Corporate expenses",
+        "amountM": 114,
+        "note": "Head-office and unallocated corporate costs."
+      }
+    ],
+    "operatingIncomeM": 892,
+    "otherIncomeM": -67,
+    "taxM": 258,
+    "netIncomeM": 567
+  },
+  "follow100": [
+    {
+      "label": "Olefins & Polyolefins \u2013 Americas",
+      "amount": 24.45
+    },
+    {
+      "label": "Olefins & Polyolefins \u2013 EAI",
+      "amount": 20.76
+    },
+    {
+      "label": "Intermediates & Derivatives",
+      "amount": 44.76
+    },
+    {
+      "label": "Advanced Polymer Solutions",
+      "amount": 9.13
+    },
+    {
+      "label": "Technology",
+      "amount": 0.9
+    },
+    {
+      "label": "Direct operating expenses",
+      "amount": -76.67
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -11.49
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -1.81
+    },
+    {
+      "label": "Loss on disposal",
+      "amount": -0.07
+    },
+    {
+      "label": "Corporate expenses",
+      "amount": -1.13
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.66
+    },
+    {
+      "label": "Tax",
+      "amount": -2.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.62
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "61M",
+      "statColor": "#3d7bc8",
+      "title": "Fans showed up in record numbers",
+      "text": "Attendance grew 19% to 61 million, international markets supplied 60% of the growth, and 170 million tickets for 2026 shows had been sold through October \u2014 already ahead of all of 2025."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3e8e5a",
+      "title": "All three businesses grew AOI",
+      "text": "Adjusted operating income (non-GAAP) rose 14% to $1,179M: Concerts $603M (+17%), Ticketing $316M (+10%) and Sponsorship & Advertising $350M (+12%). GAAP operating income was $892M, up 13%."
+    },
+    {
+      "stat": "$448M",
+      "statColor": "#5b6b7c",
+      "title": "Shareholders' share of profit",
+      "text": "Consolidated net income was $567M; after $119M attributable to noncontrolling interests, $448M belonged to Live Nation common stockholders. After $43M of accretion on redeemable interests, diluted EPS available was $1.69."
+    }
+  ],
+  "oneTimers": [
+    "A $7M loss on disposal of operating assets this quarter compares with a $15M gain a year ago.",
+    "Nine-month corporate expenses include a $450M charge for governmental investigations and litigation recorded earlier in 2026 \u2014 it is not in this quarter's $114M corporate line, but it is why nine-month GAAP operating income is down 25% despite the record third quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000052/lyv-2026q3xex991er.htm"
+    }
+  ],
+  "otherDetail": "Net other expense of $67M: interest expense $102M and $4M of equity losses and $1M of other expense, partly offset by $40M of interest income (rounded from the statement's $102M / $40M / $4M / $1M lines).",
+  "footerNote": "Net income in the flow is consolidated net income of $567M, before $119M attributable to noncontrolling interests; net income attributable to Live Nation common stockholders was $448M. Direct operating expenses are shown as $7,748M (the statement prints $7,747M) so rounded millions foot exactly to the $892M operating income the company reports. The third segment combines Sponsorship & Advertising ($506M) with Other and Eliminations (-$17M) so segments foot to total revenue with no negative line."
+}

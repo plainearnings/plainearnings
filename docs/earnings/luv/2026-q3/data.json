@@ -1,0 +1,169 @@
+{
+  "ticker": "LUV",
+  "company": "Southwest Airlines",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Southwest set a third-quarter record with $8.4B of revenue, up 21%, and grew profit five-fold to $270M even though fuel costs jumped 62%.",
+  "revenueYoY": "+21%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+21%",
+      "note": "vs a year ago; a Q3 record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.55",
+      "note": "diluted, vs $0.10 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.66",
+      "note": "non-GAAP, excluding special items"
+    },
+    {
+      "label": "Operating margin",
+      "value": "4.5%",
+      "note": "up 4.0 points YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Passenger",
+      "amountM": 7754,
+      "yoy": "+23%",
+      "note": "Ticket revenue from passengers \u2014 a third-quarter record, with the highest passenger yield in company history as bag fees and other commercial changes lapped their first year."
+    },
+    {
+      "name": "Freight",
+      "amountM": 48,
+      "yoy": "+14%",
+      "note": "Cargo carried in the belly of passenger aircraft."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 620,
+      "yoy": "+5%",
+      "note": "Loyalty program, fees and other revenue. The release prints $621M; shown as $620M so the three lines foot exactly to the $8,422M reported total after $1M of rounding."
+    }
+  ],
+  "flow": {
+    "revenueM": 8422,
+    "costOfRevenueM": 2152,
+    "grossProfitM": 6270,
+    "opex": [
+      {
+        "name": "Salaries, wages & benefits",
+        "amountM": 3542,
+        "note": "Pay and benefits for flight crews, ground staff and all other employees \u2014 the airline's biggest cost.",
+        "shortName": "Salaries & benefits"
+      },
+      {
+        "name": "Maintenance materials & repairs",
+        "amountM": 303,
+        "note": "Keeping the fleet airworthy.",
+        "shortName": "Maintenance"
+      },
+      {
+        "name": "Landing fees & airport rentals",
+        "amountM": 623,
+        "note": "Fees to airports for gates, landings and terminal space.",
+        "shortName": "Landing fees & rentals"
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 398,
+        "note": "Spreading the cost of aircraft and equipment over their working lives.",
+        "shortName": "Depreciation"
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 1025,
+        "note": "All other day-to-day operating costs, including $73M of special items. The release prints $1,026M; shown as $1,025M so expenses foot to the reported total after $1M of rounding."
+      }
+    ],
+    "operatingIncomeM": 379,
+    "otherIncomeM": -24,
+    "taxM": 85,
+    "netIncomeM": 270
+  },
+  "follow100": [
+    {
+      "label": "Systems",
+      "amount": 70.48
+    },
+    {
+      "label": "Customer support & other",
+      "amount": 29.52
+    },
+    {
+      "label": "Aircraft fuel",
+      "amount": -25.55
+    },
+    {
+      "label": "Salaries, wages & benefits",
+      "amount": -42.06
+    },
+    {
+      "label": "Maintenance",
+      "amount": -3.6
+    },
+    {
+      "label": "Landing fees & airport rentals",
+      "amount": -7.4
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.73
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -12.17
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.28
+    },
+    {
+      "label": "Tax",
+      "amount": -1.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.2
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, record yields",
+      "text": "Operating revenue was a Q3 record $8,422M and unit revenue rose 21.6% to an all-time record 18.55 cents per available seat mile, on strong demand for the revamped product."
+    },
+    {
+      "stat": "$821M",
+      "statColor": "#cf5f4e",
+      "title": "Fuel was the big headwind",
+      "text": "Aircraft fuel and related taxes cost $2,152M, up $821M or 62% from a year ago \u2014 yet operating margin still expanded 4.0 points to 4.5% because revenue grew faster."
+    },
+    {
+      "stat": "$328M",
+      "statColor": "#3e8e5a",
+      "title": "Clean profit was higher",
+      "text": "Excluding $73M of pre-tax special items, adjusted net income was $328M ($0.66 per share) versus the GAAP $270M ($0.55). Southwest also returned $176M to shareholders in dividends."
+    }
+  ],
+  "oneTimers": [
+    "Special items cost $73M pre-tax in operating expenses ($58M after tax): excluding them, operating income was $452M instead of $379M and net income was $328M ($0.66 per share) instead of $270M ($0.55)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000104/er-9302026xerdoc.htm"
+    }
+  ],
+  "otherDetail": "Net non-operating expense of $24M: interest expense $70M, partly offset by $13M of capitalized interest, $33M of interest income and $1M of other gains, net.",
+  "footerNote": "For an airline there is no printed gross-profit line; here aircraft fuel plays the role of cost of revenue and gross profit is revenue less fuel, exactly as the statement foots to $379M of operating income. Two lines differ by $1M from the printed release (other revenue and other operating expenses) so rounded millions foot exactly to reported totals \u2014 see the segment and expense notes."
+}

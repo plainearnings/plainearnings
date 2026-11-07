@@ -1,0 +1,177 @@
+{
+  "ticker": "LYB",
+  "company": "LyondellBasell",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-30",
+  "verdict": "LyondellBasell swung from a $890M loss a year ago to a $758M profit as last year's $1.2B of impairments did not repeat and Intermediates & Derivatives earnings surged.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "sales & other operating revenues, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.32",
+      "note": "diluted, vs -$2.77 a year ago"
+    },
+    {
+      "label": "EPS ex-items",
+      "value": "$2.54",
+      "note": "non-GAAP, excluding identified items"
+    },
+    {
+      "label": "EBITDA ex-items",
+      "value": "$1.5B",
+      "note": "non-GAAP, $1,512M excluding identified items"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Olefins & Polyolefins \u2013 Americas",
+      "amountM": 2471,
+      "yoy": "+21%",
+      "note": "Olefins, polyethylene and polypropylene sold to customers in the Americas (intersegment sales excluded, so the five customer lines foot to total revenue).",
+      "shortName": "O&P \u2013 Americas"
+    },
+    {
+      "name": "Olefins & Polyolefins \u2013 EAI",
+      "amountM": 2098,
+      "yoy": "-14%",
+      "note": "The same chemicals sold to customers in Europe, Asia and internationally.",
+      "shortName": "O&P \u2013 EAI"
+    },
+    {
+      "name": "Intermediates & Derivatives",
+      "amountM": 2916,
+      "yoy": "+27%",
+      "note": "Propylene oxide and derivatives, oxyfuels and intermediate chemicals such as styrene and acetyls \u2014 the largest customer line this quarter, helped by strong oxyfuels.",
+      "shortName": "Intermediates & Deriv."
+    },
+    {
+      "name": "Advanced Polymer Solutions",
+      "amountM": 923,
+      "yoy": "+7%",
+      "note": "Compounding and solutions: polypropylene compounds, engineered plastics, masterbatches and colors.",
+      "shortName": "Advanced Polymer Sol."
+    },
+    {
+      "name": "Technology",
+      "amountM": 91,
+      "yoy": "+2%",
+      "note": "Licensing chemical and polyolefin process technologies and selling catalysts.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 8499,
+    "costOfRevenueM": 7003,
+    "grossProfitM": 1496,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 394,
+        "note": "Selling and running the company.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Research & development",
+        "amountM": 35,
+        "note": "Process and product research."
+      }
+    ],
+    "operatingIncomeM": 1067,
+    "otherIncomeM": -122,
+    "taxM": 187,
+    "netIncomeM": 758
+  },
+  "follow100": [
+    {
+      "label": "Casino",
+      "amount": 90.05
+    },
+    {
+      "label": "Rooms",
+      "amount": 4.42
+    },
+    {
+      "label": "Food & beverage",
+      "amount": 2.07
+    },
+    {
+      "label": "Mall",
+      "amount": 2.38
+    },
+    {
+      "label": "Convention, retail & other",
+      "amount": 1.08
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -82.4
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -4.64
+    },
+    {
+      "label": "Research & development",
+      "amount": -0.41
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -1.44
+    },
+    {
+      "label": "Tax",
+      "amount": -2.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.91
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+$1.6B",
+      "statColor": "#3e8e5a",
+      "title": "The swing is mostly last year's pain",
+      "text": "A year ago the quarter absorbed $972M of goodwill impairments and $230M of other impairments on the way to a $890M loss. With no impairments this quarter, net income was a $758M profit on revenue up 10% to $8,499M."
+    },
+    {
+      "stat": "$720M",
+      "statColor": "#3d7bc8",
+      "title": "Intermediates led the segments",
+      "text": "Intermediates & Derivatives EBITDA was $720M (before identified items $795M), ahead of O&P\u2013Americas at $641M, as oxyfuels strength and higher profitability offset softer O&P\u2013Americas polymer and olefin prices versus last quarter."
+    },
+    {
+      "stat": "$828M",
+      "statColor": "#5b6b7c",
+      "title": "Clean earnings were $828M",
+      "text": "Excluding $70M of identified items net of tax ($0.22 per share) \u2014 mainly European propylene-oxide joint-venture closure costs \u2014 net income was $828M, or $2.54 per diluted share."
+    }
+  ],
+  "oneTimers": [
+    "Identified items totaled $70M net of tax ($0.22 per share): pre-tax site closure costs of $77M (European propylene oxide joint venture), $2M of Cash Improvement Plan costs and a $9M European transaction credit, plus discontinued-operations effects. Excluding identified items, net income was $828M ($2.54 per share).",
+    "The year-ago quarter included $972M of goodwill impairments and $230M of other impairments, which is why the year-ago result was a $890M net loss."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000067/a2026q3ex991_pressrelease.htm"
+    },
+    {
+      "label": "Business results supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000067/a2026q3ex992_businessresul.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000070/lyb-20260930.htm"
+    }
+  ],
+  "otherDetail": "Net other expense of $122M: interest expense $138M, partly offset by $29M of interest income, $3M of other income and $2M of equity-investment income \u2014 and including the $18M loss from discontinued operations (the former Houston refining business), net of tax, so the flow lands on total net income.",
+  "footerNote": "LyondellBasell is a foreign issuer reporting in U.S. dollars; this quarter's release was furnished on Form 8-K with the full statements in the 10-Q (the task brief expected a 6-K \u2014 the company in fact filed an 8-K/10-Q this quarter). Segment revenue uses sales to external customers from the 10-Q, which foot to the $8,499M total; gross segment sales including intersegment transfers are higher. The $187M tax line is the continuing-operations provision; the discontinued-operations loss sits in Other expense as described, so the flow reconciles to total net income of $758M."
+}

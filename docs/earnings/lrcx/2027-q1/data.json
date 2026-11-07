@@ -1,0 +1,134 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-21",
+  "verdict": "Lam Research posted record revenue of $8.2B, up 54% from a year ago, as AI-driven chip demand lifted systems sales 62% and kept 33 cents of every revenue dollar as profit.",
+  "revenueYoY": "+54%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+54%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.19",
+      "note": "diluted, vs $1.24 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "52.3%",
+      "note": "GAAP, up from 50.4% a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$3.5B",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Systems",
+      "amountM": 5733,
+      "yoy": "+62%",
+      "note": "New wafer-fabrication equipment \u2014 deposition, etch and clean tools that chipmakers buy to build advanced chips; up 62% from $3,548M a year ago as AI demand drove fab spending."
+    },
+    {
+      "name": "Customer support & other",
+      "amountM": 2486,
+      "yoy": "+40%",
+      "note": "Services, spares, upgrades and Reliant non-leading-edge equipment for the installed base; up 40% from $1,777M a year ago. The release prints $2,487M before rounding from thousands; shown as $2,486M so the two lines foot exactly to reported revenue.",
+      "shortName": "Customer support"
+    }
+  ],
+  "flow": {
+    "revenueM": 8219,
+    "costOfRevenueM": 3920,
+    "grossProfitM": 4299,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 666,
+        "note": "Developing the next generation of etch, deposition and clean tools."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 349,
+        "note": "Sales, support and the back office.",
+        "shortName": "SG&A"
+      }
+    ],
+    "operatingIncomeM": 3284,
+    "otherIncomeM": 28,
+    "taxM": 559,
+    "netIncomeM": 2753
+  },
+  "follow100": [
+    {
+      "label": "Systems",
+      "amount": 69.75
+    },
+    {
+      "label": "Customer support",
+      "amount": 30.25
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -47.69
+    },
+    {
+      "label": "Research & development",
+      "amount": -8.1
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -4.25
+    },
+    {
+      "label": "Other income",
+      "amount": 0.34
+    },
+    {
+      "label": "Tax",
+      "amount": -6.8
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 33.5
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+54%",
+      "statColor": "#3d7bc8",
+      "title": "Record quarter on AI demand",
+      "text": "Revenue hit $8,219M, up from $5,324M a year ago and $6,722M last quarter. Management credited AI driving higher semiconductor demand and greater device complexity."
+    },
+    {
+      "stat": "52.3%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded too",
+      "text": "GAAP gross margin rose to 52.3% from 50.4% a year ago and the operating margin reached 40.0%, so net income grew even faster than revenue, to $2,753M."
+    },
+    {
+      "stat": "$8.6B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance points higher",
+      "text": "For the December 2026 quarter Lam guided to revenue of $8.60B plus or minus $400M, with a GAAP gross margin of about 52.5% and operating margin of about 40.5%."
+    }
+  ],
+  "oneTimers": [
+    "Non-GAAP results were only slightly above GAAP: non-GAAP gross profit was $4,305M versus $4,299M GAAP and non-GAAP net income was $2.77B ($2.20 per share) versus $2,753M ($2.19) GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm"
+    }
+  ],
+  "otherDetail": "Other income, net was $28M \u2014 income outside the core equipment business, added after operating income.",
+  "footerNote": "Figures are in $M and rounded from thousands in the release; cost of goods sold is shown as the $3,920M residual of reported revenue less reported gross profit so the chart foots exactly (the release prints $3,921M before rounding). Net income is GAAP net income of $2,753M."
+}

@@ -1,0 +1,153 @@
+{
+  "ticker": "MAA",
+  "company": "Mid-America Apartment Communities",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Mid-America Apartment Communities collected $560M of rent and other property revenue, up 1%, and earned $86M while Core FFO \u2014 the REIT cash-profit measure \u2014 was $2.10 per share.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "rental & other property revenues, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.72",
+      "note": "basic, available to common shareholders, vs $0.84 a year ago"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$2.10",
+      "note": "non-GAAP, diluted, vs $2.16 a year ago"
+    },
+    {
+      "label": "FFO per share",
+      "value": "$2.11",
+      "note": "non-GAAP, diluted, vs $2.14 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental revenues",
+      "amountM": 556,
+      "yoy": "+1%",
+      "note": "Rent from apartment residents across the portfolio \u2014 $515M from the same-store portfolio and $40M from newer and other properties (10-Q disaggregation, rounded), including utility reimbursements billed to residents."
+    },
+    {
+      "name": "Other property revenues",
+      "amountM": 4,
+      "yoy": "+11%",
+      "note": "Non-refundable fees, commissions and other property-level income."
+    }
+  ],
+  "flow": {
+    "revenueM": 560,
+    "costOfRevenueM": 222,
+    "grossProfitM": 338,
+    "opex": [
+      {
+        "name": "Property management expenses",
+        "amountM": 18,
+        "note": "Running the property-management platform.",
+        "shortName": "Property management"
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 13,
+        "note": "Corporate overhead.",
+        "shortName": "G&A"
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 167,
+        "note": "Spreading the cost of the apartment buildings over their accounting lives \u2014 the big non-cash cost that makes REIT GAAP profit look small next to FFO.",
+        "shortName": "Depreciation & amort."
+      }
+    ],
+    "operatingIncomeM": 140,
+    "otherIncomeM": -53,
+    "taxM": 1,
+    "netIncomeM": 86
+  },
+  "follow100": [
+    {
+      "label": "Concerts",
+      "amount": -142.68
+    },
+    {
+      "label": "Ticketing",
+      "amount": 155.36
+    },
+    {
+      "label": "Sponsorship, advertising & other",
+      "amount": 87.32
+    },
+    {
+      "label": "Property operating expenses",
+      "amount": -39.64
+    },
+    {
+      "label": "Property management",
+      "amount": -3.21
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.32
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -29.82
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -9.46
+    },
+    {
+      "label": "Tax",
+      "amount": -0.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.10",
+      "statColor": "#3d7bc8",
+      "title": "Core FFO met expectations",
+      "text": "Core FFO (non-GAAP) was $2.10 per diluted share, down from $2.16 a year ago, as MAA built occupancy through the quarter and kept expense growth disciplined; GAAP net income was $86M."
+    },
+    {
+      "stat": "5.3%",
+      "statColor": "#3e8e5a",
+      "title": "Renewals are carrying pricing",
+      "text": "Renewing-resident lease pricing rose 5.3% year over year, up 80 basis points, with record retention and turnover of just 39.6%. Same-store blended lease growth was 0.4%, and October new-lease pricing turned positive year over year for the first time in 2026."
+    },
+    {
+      "stat": "$55M",
+      "statColor": "#5b6b7c",
+      "title": "Interest is the growing cost",
+      "text": "Interest expense rose to $55M from $46M a year ago on a higher debt balance and rate \u2014 a key reason MAA trimmed its full-year Core FFO guidance even as October pricing accelerated."
+    }
+  ],
+  "oneTimers": [
+    "Results include a net $1M legal benefit: $2M of recoveries recorded in other non-operating income, partly offset by $1M (rounded) of real-estate joint-venture expense \u2014 see the 10-Q discussion of the $2.4M recovery and $1.5M expense in thousands."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526436173/maa-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526437813/maa-20260930.htm"
+    }
+  ],
+  "otherDetail": "Net other expense of $53M: interest expense of $55M and a $1M loss from a real-estate joint venture, partly offset by $3M of other non-operating income (including legal recoveries).",
+  "follow100Note": "Depreciation takes $29.82 of every $100 \u2014 almost twice the $15.37 kept as GAAP profit. That is exactly why REIT investors watch FFO, which adds most depreciation back: Core FFO was $2.10 per share versus $0.72 of GAAP EPS.",
+  "footerNote": "MAA is a REIT: the flow uses GAAP net income of $86M (consolidated, before $2M attributable to noncontrolling interests; $83M was available to common shareholders after preferred dividends). FFO and Core FFO are non-GAAP and appear in the KPIs and takeaways only. Cost of revenue is property operating expenses excluding depreciation ($144M of operating costs plus $78M of real-estate taxes and insurance, from the 10-Q, in $M rounded from thousands); revenue lines are the 10-Q disaggregation (rental $556M, other property $4M) footing to the $560M reported total."
+}

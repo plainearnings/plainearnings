@@ -1,0 +1,198 @@
+{
+  "ticker": "LVS",
+  "company": "Las Vegas Sands",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "verdict": "Las Vegas Sands earned $352M on $3.2B of revenue, down from $491M a year ago, as casino revenue fell 5% even though rooms, food and mall income all grew.",
+  "revenueYoY": "-3%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-3%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.48",
+      "note": "diluted, attributable, vs $0.61 a year ago"
+    },
+    {
+      "label": "SCL revenue",
+      "value": "$1.93B",
+      "note": "Sands China, +1.4% YoY (GAAP)"
+    },
+    {
+      "label": "Net income",
+      "value": "$352M",
+      "note": "consolidated; $304M attributable to LVS"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Casino",
+      "amountM": 2370,
+      "yoy": "-5%",
+      "note": "Gaming win from tables and slots across Macao, Singapore and Las Vegas \u2014 still almost three-quarters of all revenue, down 5% from $2,506M a year ago."
+    },
+    {
+      "name": "Rooms",
+      "amountM": 376,
+      "yoy": "+1%",
+      "note": "Hotel rooms at the integrated resorts."
+    },
+    {
+      "name": "Food & beverage",
+      "amountM": 176,
+      "yoy": "+7%",
+      "note": "Restaurants and bars.",
+      "shortName": "Food & beverage"
+    },
+    {
+      "name": "Mall",
+      "amountM": 202,
+      "yoy": "+2%",
+      "note": "Rent and sales from the luxury retail malls inside the resorts."
+    },
+    {
+      "name": "Convention, retail & other",
+      "amountM": 92,
+      "yoy": "+6%",
+      "note": "Conventions, entertainment, retail and other resort income.",
+      "shortName": "Convention & other"
+    }
+  ],
+  "flow": {
+    "revenueM": 3216,
+    "costOfRevenueM": 2103,
+    "grossProfitM": 1113,
+    "opex": [
+      {
+        "name": "Corporate",
+        "amountM": 88,
+        "note": "Head-office costs."
+      },
+      {
+        "name": "Pre-opening",
+        "amountM": 5,
+        "note": "Costs of preparing new or renovated properties to open."
+      },
+      {
+        "name": "Development",
+        "amountM": 37,
+        "note": "Pursuing new resort projects."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 340,
+        "note": "Spreading the cost of the resorts and equipment over their working lives.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "name": "Amortization of leasehold land",
+        "amountM": 21,
+        "note": "Amortization of leasehold interests in land.",
+        "shortName": "Leasehold amortization",
+        "compact": true
+      },
+      {
+        "name": "Loss on disposal / impairment",
+        "amountM": 4,
+        "note": "Loss on disposal or impairment of assets.",
+        "shortName": "Disposal loss",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 618,
+    "otherIncomeM": -164,
+    "taxM": 102,
+    "netIncomeM": 352
+  },
+  "follow100": [
+    {
+      "label": "Passenger",
+      "amount": 79.23
+    },
+    {
+      "label": "Freight",
+      "amount": 1.49
+    },
+    {
+      "label": "Other revenue",
+      "amount": 19.28
+    },
+    {
+      "label": "Resort operations",
+      "amount": -65.39
+    },
+    {
+      "label": "Corporate",
+      "amount": -2.74
+    },
+    {
+      "label": "Pre-opening",
+      "amount": -0.16
+    },
+    {
+      "label": "Development",
+      "amount": -1.15
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -10.57
+    },
+    {
+      "label": "Amortization of leasehold land",
+      "amount": -0.65
+    },
+    {
+      "label": "Loss on disposal / impairment",
+      "amount": -0.12
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -5.1
+    },
+    {
+      "label": "Tax",
+      "amount": -3.17
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.95
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-5%",
+      "statColor": "#cf5f4e",
+      "title": "Casino softness drove the dip",
+      "text": "Casino revenue fell to $2,370M from $2,506M a year ago and total revenue slipped 3% to $3,216M, while every non-gaming line \u2014 rooms, food and beverage, mall and conventions \u2014 grew."
+    },
+    {
+      "stat": "$191M",
+      "statColor": "#5b6b7c",
+      "title": "Sands China profit fell 30%",
+      "text": "Sands China revenue rose 1.4% to $1.93B, but its net income dropped 29.8% to $191M from $272M, the main drag on the group result."
+    },
+    {
+      "stat": "$304M",
+      "statColor": "#3d7bc8",
+      "title": "What LVS shareholders kept",
+      "text": "Consolidated net income was $352M; after $48M attributable to noncontrolling interests (mainly Sands China's minority holders), $304M belonged to Las Vegas Sands shareholders, or $0.48 per diluted share."
+    }
+  ],
+  "oneTimers": [
+    "Loss on disposal or impairment of assets was only $4M this quarter, versus $68M a year ago.",
+    "Net income includes $48M attributable to noncontrolling interests; net income attributable to Las Vegas Sands Corp. was $304M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000099/lvs_ex991x09302026.htm"
+    }
+  ],
+  "otherDetail": "Net other expense of $164M: interest expense of $186M net of amounts capitalized, partly offset by $23M of interest income, plus $1M of other expense.",
+  "footerNote": "Net income in the flow is consolidated net income of $352M, before the $48M attributable to noncontrolling interests; net income attributable to Las Vegas Sands Corp. was $304M. Resort operations play the role of cost of revenue, so gross profit is revenue less resort operations."
+}
