@@ -1,0 +1,154 @@
+{
+  "ticker": "SOUN",
+  "company": "SoundHound AI",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+48%",
+  "verdict": "SoundHound's revenue jumped 48% to a record $62M after closing the LivePerson deal, and a $23M paper gain on deal liabilities helped cut its net loss to $46M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$62M",
+      "note": "Up 48% from $42M a year ago \u2014 a record quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.10",
+      "note": "Non-GAAP loss was -$0.05 per share"
+    },
+    {
+      "label": "Cash",
+      "value": "$208M",
+      "note": "Cash and equivalents at September 30"
+    },
+    {
+      "label": "2026 revenue guidance",
+      "value": "$250\u2013260M",
+      "note": "Full-year guide; 2027 guided to $350\u2013400M, with sustained adjusted EBITDA profit expected in the second half of 2027"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Voice and agentic AI",
+      "amountM": 62.425,
+      "note": "All of SoundHound's revenue: voice and conversational AI for cars, restaurants, customer care and enterprises, now including LivePerson (bought September 4). The company reports as a single segment, so there is no official split to show.",
+      "yoy": "+48%"
+    }
+  ],
+  "flow": {
+    "revenueM": 62.425,
+    "costOfRevenueM": 41.143,
+    "grossProfitM": 21.282,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 35.954,
+        "note": "Running the company \u2014 finance, legal and admin, swollen by buying and combining six businesses, most recently LivePerson. Up 48% YoY."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 30.867,
+        "note": "Building the voice and agentic AI platform (OASYS). Up 35% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 18.216,
+        "note": "Selling to carmakers, restaurant chains and enterprises. Up 11% YoY."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 6.17,
+        "note": "The accounting cost of spreading past acquisitions' technology and customer relationships over their useful lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "Earn-out fair-value gain",
+        "amountM": -23.428,
+        "note": "A gain, not a cost: the paper value of earn-out shares owed to sellers of acquired companies fell with the share price, so this line reduced operating costs by $23.4M. It was a $66.2M charge a year ago."
+      }
+    ],
+    "operatingIncomeM": -46.497,
+    "otherIncomeM": -0.233,
+    "taxM": -0.362,
+    "netIncomeM": -46.368
+  },
+  "otherDetail": "Other expense was just $0.2M, net: $0.2M of other expense and a small amount of interest expense. The tax line was a $0.4M benefit, which added slightly to the bottom line.",
+  "follow100": [
+    {
+      "label": "Voice and agentic AI",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -65.91
+    },
+    {
+      "label": "General & admin",
+      "amount": -57.59
+    },
+    {
+      "label": "Research & development",
+      "amount": -49.45
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -29.18
+    },
+    {
+      "label": "Amortization",
+      "amount": -9.88
+    },
+    {
+      "label": "Earn-out gain",
+      "amount": 37.53
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.37
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.58
+    },
+    {
+      "label": "Net loss",
+      "amount": -74.28
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+48%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, bigger company",
+      "text": "Revenue rose 48% to $62.4M, a record, helped by closing the LivePerson acquisition on September 4. GAAP gross margin fell to 34% from 43% a year ago as lower-margin acquired businesses joined and some upfront licence deals shift to hosted models; on the company's non-GAAP basis gross margin was 50%."
+    },
+    {
+      "stat": "+$23M",
+      "statColor": "#3e8e5a",
+      "title": "A paper gain flattered the loss",
+      "text": "Operating costs include a $23.4M gain from revaluing earn-out liabilities (shares owed to sellers of bought companies, re-priced each quarter with the stock). A year ago the same line was a $66.2M charge. Leaving it out, the operating loss would have been about $70M, not $46M."
+    },
+    {
+      "stat": "-$46M",
+      "statColor": "#5b6b7c",
+      "title": "Still loss-making, with a dated target",
+      "text": "The net loss narrowed to $46.4M from $109.3M a year ago, and adjusted EBITDA (the company's cash-style profit measure) was a $20.7M loss. SoundHound guided 2026 revenue to $250\u2013260M and 2027 to $350\u2013400M, and says it expects sustained adjusted EBITDA profit in the second half of 2027, helped by $120M of identified annual cost savings."
+    }
+  ],
+  "oneTimers": [
+    "The $23.4M gain on contingent acquisition liabilities is non-cash and swings with SoundHound's share price; the company's non-GAAP figures exclude it (non-GAAP net loss $21.2M also excludes stock pay and other items).",
+    "SoundHound closed its acquisition of LivePerson on September 4, 2026, so Q3 includes less than a month of LivePerson's results plus deal-related costs in general and administrative expenses."
+  ],
+  "footerNote": "SoundHound reports in thousands; figures here are exact to the thousand, shown in $M. SoundHound files its income statement with cost of revenue inside operating expenses; the chart shows it as the direct-cost step so the gross profit line ($21.3M, as the company itself reports) reads the same way as on every other page.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1840856/000184085626000025/soun-20261105ex991earnings.htm"
+    },
+    {
+      "label": "Financial statements exhibit (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1840856/000184085626000025/soun-20261105ex992financia.htm"
+    }
+  ]
+}

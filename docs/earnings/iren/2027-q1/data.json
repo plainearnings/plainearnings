@@ -1,0 +1,175 @@
+{
+  "company": "IREN",
+  "flow": {
+    "costOfRevenueM": 46,
+    "grossProfitM": 182,
+    "netIncomeM": -263,
+    "operatingIncomeM": -186,
+    "opex": [
+      {
+        "amountM": 217,
+        "name": "Selling, general & administrative",
+        "note": "Running and growing the company \u2014 people, offices, professional fees and stock pay. Up from $138M a year ago as IREN scales its AI business."
+      },
+      {
+        "amountM": 148,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of data centers, GPUs and equipment over their useful lives. IREN lists this inside operating expenses \u2014 it is not part of the $46M cost of revenue above."
+      },
+      {
+        "amountM": 7,
+        "name": "Research & development",
+        "note": "Developing the AI cloud platform and services."
+      },
+      {
+        "amountM": 2,
+        "name": "Impairment of assets",
+        "note": "Writing down assets whose value has fallen \u2014 mainly older mining equipment."
+      },
+      {
+        "amountM": -6,
+        "name": "Gains & other operating income, net",
+        "note": "A gain, not a cost: an $8M gain on selling property and equipment plus $2M of other operating income, less $4M of other operating expenses \u2014 so this line reduced operating costs by $6M."
+      }
+    ],
+    "otherIncomeM": -75,
+    "revenueM": 228,
+    "taxM": 2
+  },
+  "follow100": [
+    {
+      "amount": 59.21,
+      "label": "AI Cloud Services"
+    },
+    {
+      "amount": 28.51,
+      "label": "AI Cloud Lease"
+    },
+    {
+      "amount": 12.28,
+      "label": "Bitcoin Mining"
+    },
+    {
+      "amount": -20.18,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -95.18,
+      "label": "Sales, general & admin"
+    },
+    {
+      "amount": -64.91,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -3.07,
+      "label": "Research & development"
+    },
+    {
+      "amount": -0.88,
+      "label": "Impairment"
+    },
+    {
+      "amount": 2.63,
+      "label": "Gains & other operating income"
+    },
+    {
+      "amount": -32.89,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.88,
+      "label": "Tax"
+    },
+    {
+      "amount": -115.35,
+      "label": "Net loss"
+    }
+  ],
+  "follow100Note": "IREN spent about $2.15 for every $1 it took in this quarter, so the $100 view is scaled up accordingly \u2014 the loss was covered by cash raised earlier; it held $3.5B of cash at quarter end.",
+  "footerNote": "IREN reports in whole USD millions. Its income statement lists depreciation and amortization inside operating expenses rather than in cost of revenue, so the gross profit step here ($182M) is revenue less the $46M cost of revenue IREN itself reports.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "Down 5% from $240M a year ago, as mining shrank faster than AI grew",
+      "value": "$228M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "Net loss per share, basic and diluted",
+      "value": "-$0.66"
+    },
+    {
+      "label": "AI Cloud revenue",
+      "note": "88% of all revenue, vs $7M a year ago",
+      "value": "$200M"
+    },
+    {
+      "label": "Cash",
+      "note": "Cash and equivalents at September 30, plus $2.3B of restricted cash",
+      "value": "$3.5B"
+    }
+  ],
+  "oneTimers": [
+    "The $28M unrealized loss on financial instruments is a non-cash mark-to-market charge (revaluing contracts at current prices); the same line was a $665M gain a year ago and swings sign with markets.",
+    "The $21M decrease in fair value of assets held for sale is a write-down of assets IREN plans to sell \u2014 largely mining-related \u2014 not a cash cost."
+  ],
+  "otherDetail": "Other expense was $75M, net: $73M of finance costs on IREN's borrowings, a $28M unrealized (paper) loss on financial instruments and a $21M write-down of assets held for sale, plus $4M of foreign-exchange losses \u2014 partly offset by $51M of interest income on its cash.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "-5%",
+  "segments": [
+    {
+      "amountM": 135,
+      "name": "AI Cloud Services",
+      "note": "Renting out GPU computing power for AI training and inference (running trained models) \u2014 the business IREN is pivoting to. Up from just $7M a year ago.",
+      "yoy": "+1,829%"
+    },
+    {
+      "amountM": 65,
+      "name": "AI Cloud Lease",
+      "note": "Leasing AI data-center capacity to customers under lease contracts \u2014 a brand-new revenue line this year.",
+      "yoy": "new"
+    },
+    {
+      "amountM": 28,
+      "name": "Bitcoin Mining",
+      "note": "Mining bitcoin in IREN's data centers \u2014 the old core business, being wound down as the company pivots to AI. Down from $233M a year ago.",
+      "yoy": "-88%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$200M",
+      "statColor": "#3d7bc8",
+      "text": "AI Cloud revenue was $200M \u2014 88% of the total \u2014 vs $7M a year ago, split between cloud services ($135M) and leasing capacity ($65M, a new line). Bitcoin mining, a year ago effectively the whole company at $233M, fell 88% to $28M as IREN redirects power and data centers to AI.",
+      "title": "AI is now the business"
+    },
+    {
+      "stat": "80%",
+      "statColor": "#3e8e5a",
+      "text": "Delivering the service cost only $46M, leaving a $182M gross profit \u2014 an 80% margin. But running the company cost $368M, including $217M of selling, general and administrative costs and $148M of depreciation on its growing data-center fleet, turning that into a $186M operating loss.",
+      "title": "Huge gross margin, bigger overhead"
+    },
+    {
+      "stat": "-$263M",
+      "statColor": "#5b6b7c",
+      "text": "Below the operating line, $73M of finance costs and $49M of paper losses (a $28M unrealized loss on financial instruments and a $21M write-down of assets held for sale) were partly offset by $51M of interest income. A year ago those paper lines were a $665M gain and IREN made a $385M profit. It ended the quarter with $3.5B of cash to fund the build-out.",
+      "title": "Paper losses deepened the bottom line"
+    }
+  ],
+  "ticker": "IREN",
+  "verdict": "IREN flipped its business in a year \u2014 AI cloud brought in $200M of its $228M revenue, up from just $7M, while bitcoin mining shrank to $28M \u2014 but the cost of the pivot produced a $263M net loss."
+}

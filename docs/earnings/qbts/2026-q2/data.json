@@ -1,0 +1,163 @@
+{
+  "ticker": "QBTS",
+  "company": "D-Wave Quantum",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-06",
+  "revenueYoY": "-1%",
+  "verdict": "D-Wave's revenue was flat at $3.1M, but running costs nearly doubled to $55M after its Quantum Circuits deal, widening the net loss to $48M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.1M",
+      "note": "Essentially flat vs $3.1M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.13",
+      "note": "Net loss per share, vs -$0.55 a year ago"
+    },
+    {
+      "label": "Cash & securities",
+      "value": "$546M",
+      "note": "Cash plus marketable investments at June 30, down from $819M a year ago after paying for Quantum Circuits"
+    },
+    {
+      "label": "Bookings (first half)",
+      "value": "$35.5M",
+      "note": "Orders signed in the first half, up 1,120% YoY; includes a $20M system sale not yet counted as revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "QCaaS",
+      "amountM": 1.86,
+      "note": "Quantum Computing as a Service \u2014 customers rent time on D-Wave's quantum computers over the cloud. Up 50% YoY.",
+      "yoy": "+50%"
+    },
+    {
+      "name": "Professional services",
+      "amountM": 0.929,
+      "note": "Helping customers build quantum applications. Up 18% YoY.",
+      "yoy": "+18%"
+    },
+    {
+      "name": "System sales",
+      "amountM": 0.255,
+      "note": "Whole quantum computers sold outright. Down 75% YoY \u2014 no big system sale closed this quarter, unlike a year ago.",
+      "yoy": "-75%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 0.032,
+      "note": "Small miscellaneous revenue. Down 27% YoY.",
+      "yoy": "-27%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3.076,
+    "costOfRevenueM": 1.372,
+    "grossProfitM": 1.704,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 28.239,
+        "note": "Building quantum computers and software \u2014 the biggest cost by far, more than doubling YoY after the Quantum Circuits acquisition added a gate-model team."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 15.388,
+        "note": "Running the company \u2014 finance, legal and admin. Up 68% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 11.355,
+        "note": "Selling quantum systems and cloud access. Up 71% YoY."
+      }
+    ],
+    "operatingIncomeM": -53.278,
+    "otherIncomeM": 5.258,
+    "taxM": 0.008,
+    "netIncomeM": -48.028
+  },
+  "otherDetail": "Other income was $5.3M, net: $5.0M of interest income on the cash pile, plus $0.5M of other income, less $0.3M of interest expense. A year ago this line held a $142M non-cash warrant charge; all public warrants were redeemed in November 2025, so that swing is gone.",
+  "follow100": [
+    {
+      "label": "QCaaS",
+      "amount": 60.47
+    },
+    {
+      "label": "Professional services",
+      "amount": 30.2
+    },
+    {
+      "label": "System sales",
+      "amount": 8.29
+    },
+    {
+      "label": "Other revenue",
+      "amount": 1.04
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -44.6
+    },
+    {
+      "label": "Research & development",
+      "amount": -917.98
+    },
+    {
+      "label": "General & admin",
+      "amount": -500.26
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -369.12
+    },
+    {
+      "label": "Other income",
+      "amount": 170.9
+    },
+    {
+      "label": "Net loss",
+      "amount": -1561.3
+    }
+  ],
+  "follow100Note": "D-Wave is an early-stage company: it spent about $18 for every $1 it took in this quarter, so the $100 view is scaled up accordingly \u2014 the loss was covered by cash raised earlier.",
+  "takeaways": [
+    {
+      "stat": "$3.1M",
+      "statColor": "#3d7bc8",
+      "title": "Revenue went nowhere \u2014 orders did",
+      "text": "Revenue was flat at $3.1M vs a year ago, and system sales fell 75% because no large computer sale landed. But bookings \u2014 orders that become revenue later \u2014 hit $35.5M in the first half, up 1,120%, including a $20M system sale, and unpaid contracted work (remaining performance obligations) jumped 668% to $40.7M."
+    },
+    {
+      "stat": "$55M",
+      "statColor": "#cf5f4e",
+      "title": "Costs nearly doubled after a deal",
+      "text": "Operating costs rose 93% to $55M. Research and development alone was $28M, up 122%, after January's acquisition of Quantum Circuits added a second, gate-model quantum team on top of D-Wave's annealing business, plus higher pay and stock compensation across the company."
+    },
+    {
+      "stat": "-$48M",
+      "statColor": "#5b6b7c",
+      "title": "A smaller loss, for a quieter reason",
+      "text": "The net loss narrowed from $167M to $48M \u2014 not because the business improved, but because a year ago the loss included a $142M non-cash charge from revaluing warrants ( IOUs whose value swings with the share price). Those warrants were redeemed in November 2025. The company still held $546M in cash and investments to fund the gap."
+    }
+  ],
+  "oneTimers": [
+    "First-half operating costs include $9.3M of non-recurring costs tied to acquiring Quantum Circuits in January 2026 (the six-month figure; the company does not split it by quarter).",
+    "The first half also booked a $28.4M one-off tax benefit arising from the Quantum Circuits acquisition \u2014 it sits in the six-month numbers, not in this quarter's $0.008M tax line."
+  ],
+  "footerNote": "D-Wave reports in thousands; figures here are exact to the thousand, shown in $M. D-Wave had not reported Q3 2026 as of November 7, 2026, so Q2 is its latest quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000127/qbts-20260806xexx991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/qbts-20260630.htm"
+    }
+  ]
+}

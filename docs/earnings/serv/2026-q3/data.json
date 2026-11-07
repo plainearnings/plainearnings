@@ -1,0 +1,155 @@
+{
+  "ticker": "SERV",
+  "company": "Serve Robotics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+313%",
+  "verdict": "Serve Robotics grew revenue 313% to $2.8M as its delivery robots scaled, but it still spent about $21 for every $1 taken in and lost $59M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.8M",
+      "note": "Up 313% from $0.7M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.68",
+      "note": "Net loss per share, vs -$0.54 a year ago"
+    },
+    {
+      "label": "Cash & securities",
+      "value": "$198M",
+      "note": "Cash plus marketable securities at September 30"
+    },
+    {
+      "label": "Daily active robots",
+      "value": "917",
+      "note": "Average robots working each day, up from 312 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Fleet services",
+      "amountM": 2.582,
+      "note": "Running the sidewalk delivery robots for delivery platforms and merchants \u2014 the delivery work itself. Up 496% YoY as the fleet and daily deliveries grew.",
+      "yoy": "+496%"
+    },
+    {
+      "name": "Software services",
+      "amountM": 0.253,
+      "note": "Software and related services sold on top of the fleet, including hospital automation work. Roughly flat YoY, and down from $0.9M in Q2 as project timing shifted.",
+      "yoy": "0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2.835,
+    "costOfRevenueM": 10.39,
+    "grossProfitM": -7.555,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 22.636,
+        "note": "Building the autonomous robots and their self-driving software. Up 69% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 20.227,
+        "note": "Running the company \u2014 finance, legal and admin, including a large stock-pay bill. Up 54% YoY on a GAAP basis."
+      },
+      {
+        "name": "Operations",
+        "amountM": 7.26,
+        "note": "The people and overhead who keep the deployed fleet running day to day. Up 143% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3.51,
+        "note": "Winning delivery partners, merchants and cities. Small, but up from $0.9M a year ago."
+      }
+    ],
+    "operatingIncomeM": -61.188,
+    "otherIncomeM": 1.879,
+    "taxM": -0.079,
+    "netIncomeM": -59.23
+  },
+  "otherDetail": "Other income was $1.9M, net: $2.0M of interest income on cash and marketable securities, less about $0.1M of small losses and expenses.",
+  "follow100": [
+    {
+      "label": "Fleet services",
+      "amount": 91.08
+    },
+    {
+      "label": "Software services",
+      "amount": 8.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -366.49
+    },
+    {
+      "label": "Research & development",
+      "amount": -798.45
+    },
+    {
+      "label": "General & admin",
+      "amount": -713.49
+    },
+    {
+      "label": "Operations",
+      "amount": -256.09
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -123.81
+    },
+    {
+      "label": "Other income",
+      "amount": 66.28
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 2.79
+    },
+    {
+      "label": "Net loss",
+      "amount": -2089.24
+    }
+  ],
+  "follow100Note": "Serve is an early-stage company: it spent about $21 for every $1 it took in this quarter, so the $100 view is scaled up accordingly \u2014 the loss was covered by cash raised earlier. Delivering the service cost $3.66 for every $1 of revenue, so the gross loss was $7.6M before any running costs.",
+  "takeaways": [
+    {
+      "stat": "+313%",
+      "statColor": "#3d7bc8",
+      "title": "Growth is real \u2014 and so is the scale gap",
+      "text": "Revenue rose to $2.8M from $0.7M a year ago. The average fleet grew to 917 robots working daily (from 312), daily delivery volume among new partners tripled, and recurring revenue was 69% of the total. Management raised full-year 2026 revenue guidance to $12M."
+    },
+    {
+      "stat": "-$7.6M",
+      "statColor": "#cf5f4e",
+      "title": "Each delivery still costs more than it earns",
+      "text": "Cost of revenue was $10.4M against $2.8M of revenue \u2014 a gross loss of $7.6M, though the margin improved a lot from a year ago (when delivery cost $7.37 per $1 of revenue) and from Q2. The company says fleet margins improved more than 100 percentage points sequentially as volume spread the fixed costs."
+    },
+    {
+      "stat": "-$59M",
+      "statColor": "#5b6b7c",
+      "title": "The bottom line is funded by the balance sheet",
+      "text": "Total operating costs were $53.6M \u2014 research, admin, operations and sales \u2014 producing a $59.2M net loss. A large share is stock pay: on the company's non-GAAP basis (leaving out stock compensation and similar items) the loss was $44.6M. Serve held $198M in cash and securities at quarter end."
+    }
+  ],
+  "oneTimers": [
+    "GAAP costs include substantial non-cash stock-based compensation: the company's non-GAAP figures put Q3 operating costs at $39.2M vs $53.6M GAAP, and the non-GAAP net loss at $44.6M vs $59.2M GAAP."
+  ],
+  "footerNote": "Serve reports in thousands; figures here are exact to the thousand, shown in $M. How this chart is drawn: delivering the service cost $10.4M against $2.8M of revenue, so gross profit was negative (-$7.6M) and there is no 'after direct costs' profit step to show. Instead, the slate 'Covered by cash on hand' block \u2014 the quarter's $59.2M net loss, funded from the $198M Serve held in cash and securities \u2014 is drawn paying the $7.6M delivery-cost gap and then the running costs, with $1.9M of interest income and a $0.1M tax benefit also flowing into running costs.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000048/serv-20260930_ex991earning.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000051/serv-20260930.htm"
+    }
+  ]
+}

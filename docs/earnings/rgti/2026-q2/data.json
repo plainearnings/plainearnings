@@ -1,0 +1,147 @@
+{
+  "ticker": "RGTI",
+  "company": "Rigetti Computing",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-06",
+  "revenueYoY": "+185%",
+  "verdict": "Rigetti's revenue nearly tripled to $5.1M, but a $29.6M non-cash warrant charge on top of $30M of running costs produced a $52.6M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.1M",
+      "note": "Up 185% from $1.8M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "-$0.16",
+      "note": "Non-GAAP loss was -$0.05 per share, leaving out the warrant charge and stock pay"
+    },
+    {
+      "label": "Cash & investments",
+      "value": "$541M",
+      "note": "Cash, cash equivalents and available-for-sale investments at June 30; no debt"
+    },
+    {
+      "label": "Warrant charge",
+      "value": "-$29.6M",
+      "note": "Non-cash charge from revaluing warrant liabilities as the share price moved"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 4.133,
+      "note": "Revenue from US customers \u2014 mostly government and research contracts for quantum systems and cloud access. Up 327% YoY.",
+      "yoy": "+327%"
+    },
+    {
+      "name": "Asia and other",
+      "amountM": 0.83,
+      "note": "Revenue from Asia and everywhere else outside the US and Europe. Up from just $0.06M a year ago.",
+      "yoy": "+1,217%"
+    },
+    {
+      "name": "Europe",
+      "amountM": 0.175,
+      "note": "Revenue from European customers. Down 77% YoY \u2014 contract timing, not a lost business line.",
+      "yoy": "-77%"
+    }
+  ],
+  "flow": {
+    "revenueM": 5.138,
+    "costOfRevenueM": 2.95,
+    "grossProfitM": 2.188,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 20.728,
+        "note": "Building quantum processors and the software stack \u2014 by far the biggest cost, up 53% YoY."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 9.522,
+        "note": "Selling plus the back office: finance, legal and admin. Up 37% YoY."
+      }
+    ],
+    "operatingIncomeM": -28.062,
+    "otherIncomeM": -24.544,
+    "taxM": 0,
+    "netIncomeM": -52.606
+  },
+  "otherDetail": "Other expense was $24.5M, net: a $29.6M non-cash charge from the change in fair value of derivative warrant liabilities (warrants are contracts whose paper value swings with Rigetti's share price), partly offset by $5.1M of interest income on its cash and investments.",
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 80.44
+    },
+    {
+      "label": "Asia and other",
+      "amount": 16.15
+    },
+    {
+      "label": "Europe",
+      "amount": 3.41
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.42
+    },
+    {
+      "label": "Research & development",
+      "amount": -403.43
+    },
+    {
+      "label": "Sales, general & admin",
+      "amount": -185.32
+    },
+    {
+      "label": "Interest income",
+      "amount": 98.44
+    },
+    {
+      "label": "Warrant fair-value charge",
+      "amount": -576.14
+    },
+    {
+      "label": "Net loss",
+      "amount": -1023.95
+    }
+  ],
+  "follow100Note": "Rigetti is an early-stage company: it spent about $11 for every $1 it took in this quarter, so the $100 view is scaled up accordingly \u2014 the loss was covered by cash raised earlier.",
+  "takeaways": [
+    {
+      "stat": "+185%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue nearly tripled \u2014 off a tiny base",
+      "text": "Revenue rose to $5.1M from $1.8M a year ago, driven by US customers ($4.1M, up 327%). One customer alone was 64% of the quarter's revenue, so single contracts swing the numbers hard. Rigetti also signed an expanded collaboration with HPE and the Pittsburgh Supercomputing Center, and a letter of intent for up to $100M of potential US Department of Commerce funding."
+    },
+    {
+      "stat": "$30M",
+      "statColor": "#cf5f4e",
+      "title": "Running costs are 6x revenue",
+      "text": "Operating costs were $30.3M against $5.1M of revenue: $20.7M of research and development and $9.5M of selling, general and administrative costs. The operating loss was $28.1M. Leaving out stock pay and the warrant charge, the company's own non-GAAP net loss was $16.0M."
+    },
+    {
+      "stat": "-$52.6M",
+      "statColor": "#5b6b7c",
+      "title": "A paper charge doubled the loss",
+      "text": "The GAAP net loss was $52.6M, of which $29.6M was a non-cash charge from revaluing warrant liabilities \u2014 no money left the company; the liability's paper value rose with the share price. Rigetti ended the quarter with $541M of cash and investments and no debt, which is what funds losses at this scale."
+    }
+  ],
+  "oneTimers": [
+    "The $29.6M change in fair value of derivative warrant liabilities is a non-cash mark-to-market charge (revaluing warrants at the current share price). It was a $24.1M gain in the first half as a whole, so it swings sign quarter to quarter."
+  ],
+  "footerNote": "Rigetti reports in thousands; figures here are exact to the thousand, shown in $M. Rigetti had not reported Q3 2026 as of November 7, 2026, so Q2 is its latest quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091979/rgti-20260806xex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/rgti-20260630x10q.htm"
+    }
+  ]
+}
