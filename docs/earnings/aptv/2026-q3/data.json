@@ -1,0 +1,142 @@
+{
+  "ticker": "APTV",
+  "company": "Aptiv",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+2%",
+  "verdict": "Aptiv's sales rose 2% to a record $3.2B as non-automotive demand offset flat car production, and it swung to a $194M profit from a loss a year ago, when a $648M goodwill charge hit results.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$3.20B",
+      "note": "A record quarter, +2% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.94",
+      "note": "From continuing operations; adjusted EPS was $1.42"
+    },
+    {
+      "label": "Net income",
+      "value": "$194M",
+      "note": "Vs a $352M loss a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$567M",
+      "note": "A 17.7% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Engineered Components",
+      "amountM": 1835,
+      "yoy": "+7%",
+      "note": "Connectors, cable management and components \u2014 increasingly sold beyond cars, into industry, aerospace and data centers."
+    },
+    {
+      "name": "Intelligent Systems",
+      "amountM": 1364,
+      "yoy": "-3%",
+      "note": "Software, sensing and compute for vehicle safety and automation. Segment sales were $1,402M before $38M of eliminations and other items."
+    }
+  ],
+  "flow": {
+    "revenueM": 3199,
+    "costOfRevenueM": 2509,
+    "grossProfitM": 690,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 294,
+        "note": "Running and selling \u2014 down from $333M a year ago on cost discipline."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 107,
+        "note": "Writing down acquired technology and customer relationships over time (non-cash); it includes impairment charges this quarter."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 8,
+        "note": "Costs of footprint and workforce actions."
+      }
+    ],
+    "operatingIncomeM": 281,
+    "otherIncomeM": -51,
+    "taxM": 36,
+    "netIncomeM": 194
+  },
+  "otherDetail": "Interest expense of $59M, partly offset by a $19M gain on equity-method transactions and $5M of other income; a $16M equity-method loss (net of tax) is also included here so the flow lands on reported net income.",
+  "takeaways": [
+    {
+      "stat": "+2%",
+      "statColor": "#3d7bc8",
+      "title": "Record sales of $3.2B",
+      "text": "Growth came from outside the car industry \u2014 Engineered Components rose 7% \u2014 while Intelligent Systems slipped 3% on soft vehicle production."
+    },
+    {
+      "stat": "$194M",
+      "statColor": "#3e8e5a",
+      "title": "Back to profit",
+      "text": "Net income of $194M compares with a $352M loss a year ago, when results absorbed a $648M goodwill impairment."
+    },
+    {
+      "stat": "$1.42",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS of $1.42",
+      "text": "Excluding amortization and one-offs, Aptiv earned $1.42 a share versus $0.94 on a GAAP basis."
+    }
+  ],
+  "footerNote": "Aptiv reports its equity-method result in two places \u2014 a $19M gain above the tax line and a $16M loss (net of tax) below it; both are folded into the other-expense line here so the flow reconciles to reported net income of $194M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000071/aptvq32026ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000075/aptv-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Engineered Components",
+      "amount": 57.36
+    },
+    {
+      "label": "Intelligent Systems",
+      "amount": 42.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -78.43
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -9.19
+    },
+    {
+      "label": "Amortization",
+      "amount": -3.34
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.25
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.59
+    },
+    {
+      "label": "Tax",
+      "amount": -1.13
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.06
+    }
+  ]
+}

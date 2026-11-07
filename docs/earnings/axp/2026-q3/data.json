@@ -1,0 +1,190 @@
+{
+  "ticker": "AXP",
+  "company": "American Express",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-23",
+  "revenueYoY": "+9%",
+  "verdict": "American Express posted record revenue of $20.1B (+9%) on strong card spending, and net income rose 28% to $3.7B \u2014 EPS of $5.42 included a $982M gain from selling its stake in Global Business Travel.",
+  "kpis": [
+    {
+      "label": "Revenue (net of interest expense)",
+      "value": "$20.1B",
+      "note": "A record, +9% vs a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$5.42",
+      "note": "Adjusted EPS was $4.68, up 13%"
+    },
+    {
+      "label": "Billed business",
+      "value": "$454B",
+      "note": "+8% \u2014 spending on Amex cards"
+    },
+    {
+      "label": "Net income",
+      "value": "$3.7B",
+      "note": "+28% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Consumer Services",
+      "shortName": "U.S. Consumer",
+      "amountM": 9745,
+      "yoy": "+11%",
+      "note": "Cards for U.S. consumers \u2014 Millennial and Gen-Z members are the largest and fastest-growing group. Segment revenue as reported was $9,840M; shown net of $95M of corporate and intersegment items so the parts sum to the company total."
+    },
+    {
+      "name": "Commercial Services",
+      "amountM": 4553,
+      "yoy": "+6%",
+      "note": "Cards and payments for businesses, from small firms to large corporates."
+    },
+    {
+      "name": "International Card Services",
+      "shortName": "International",
+      "amountM": 3682,
+      "yoy": "+10%",
+      "note": "Consumer and small-business cards outside the U.S. \u2014 Amex's fastest-growing segment, with billed business up 11%."
+    },
+    {
+      "name": "Global Merchant & Network Services",
+      "shortName": "Merchant & Network",
+      "amountM": 2082,
+      "yoy": "+6%",
+      "note": "Fees from merchants that accept Amex and from partners that issue cards on its network."
+    }
+  ],
+  "flow": {
+    "revenueM": 20062,
+    "costOfRevenueM": 985,
+    "grossProfitM": 19077,
+    "opex": [
+      {
+        "name": "Card Member rewards",
+        "amountM": 5090,
+        "note": "Points, cash back and partner rewards \u2014 the price of premium cardholders' spending, up 10% with billed business."
+      },
+      {
+        "name": "Salaries & employee benefits",
+        "amountM": 2570,
+        "note": "Pay for about 80,000 employees."
+      },
+      {
+        "name": "Card Member services",
+        "amountM": 2006,
+        "note": "Travel and lifestyle benefits \u2014 up 36% after last year's U.S. Platinum refresh added richer perks."
+      },
+      {
+        "name": "Business development",
+        "amountM": 1795,
+        "note": "Payments to partners, including co-brand and network partners."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1770,
+        "note": "Advertising and card acquisition, up 11%."
+      },
+      {
+        "name": "Other, net",
+        "amountM": 1315,
+        "note": "Data processing ($858M), professional services ($675M) and other costs ($764M), reduced by the $982M GBTG gain."
+      }
+    ],
+    "operatingIncomeM": 4531,
+    "otherIncomeM": 0,
+    "taxM": 819,
+    "netIncomeM": 3712
+  },
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue of $20.1B",
+      "text": "Card spending (billed business) rose 8% to $454B, discount revenue grew 8%, and card fees jumped 16% after the Platinum refresh."
+    },
+    {
+      "stat": "$982M",
+      "statColor": "#5b6b7c",
+      "title": "A one-off gain flattered EPS",
+      "text": "Selling its ~30% stake in Global Business Travel Group added a $982M pre-tax gain ($1.11 a share); part was reinvested via a $336M restructuring charge. Adjusted EPS of $4.68 strips both out."
+    },
+    {
+      "stat": "-23%",
+      "statColor": "#3e8e5a",
+      "title": "Credit costs fell",
+      "text": "Provisions for credit losses dropped 23% to $985M on a reserve release, with write-off and delinquency rates stable \u2014 Amex's premium customers kept paying."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include a $982M pre-tax gain on the sale of Amex's equity stake in Global Business Travel Group (closed Sep 29, 2026) and a $336M restructuring charge; adjusted EPS of $4.68 excludes both."
+  ],
+  "footerNote": "Bank model: revenue is total revenues net of interest expense, and provisions for credit losses are shown as the direct cost, following the format used for other banks on this site. Operating income here equals pre-tax income; there is no separate non-operating line in Amex's presentation.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. Consumer",
+      "amount": 48.57
+    },
+    {
+      "label": "Commercial Services",
+      "amount": 22.69
+    },
+    {
+      "label": "International",
+      "amount": 18.35
+    },
+    {
+      "label": "Merchant & Network",
+      "amount": 10.38
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -4.91
+    },
+    {
+      "label": "Card Member rewards",
+      "amount": -25.37
+    },
+    {
+      "label": "Salaries & employee benefits",
+      "amount": -12.81
+    },
+    {
+      "label": "Card Member services",
+      "amount": -10.0
+    },
+    {
+      "label": "Business development",
+      "amount": -8.95
+    },
+    {
+      "label": "Marketing",
+      "amount": -8.82
+    },
+    {
+      "label": "Other, net",
+      "amount": -6.55
+    },
+    {
+      "label": "Tax",
+      "amount": -4.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.5
+    }
+  ]
+}

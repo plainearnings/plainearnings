@@ -1,0 +1,144 @@
+{
+  "ticker": "BA",
+  "company": "Boeing",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+4%",
+  "verdict": "Boeing's revenue rose 4% to $24.2B and its operations swung to a $354M profit, but $573M of interest expense left a $116M net loss \u2014 still a dramatic improvement from the $5.3B loss a year ago.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$24.2B",
+      "note": "+4% vs a year ago"
+    },
+    {
+      "label": "Operating earnings",
+      "value": "$354M",
+      "note": "Vs a $4.8B operating loss a year ago"
+    },
+    {
+      "label": "GAAP loss per share",
+      "value": "$(0.26)",
+      "note": "Core (adjusted) loss per share was $0.34"
+    },
+    {
+      "label": "Total backlog",
+      "value": "$745B",
+      "note": "A record; 161 jets delivered in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commercial Airplanes",
+      "amountM": 10720,
+      "yoy": "-3%",
+      "note": "161 deliveries (about flat) with a less favorable mix; the segment lost $697M as 777X and production-rate costs bit. The 737 program is progressing toward a stabilized 47/month rate."
+    },
+    {
+      "name": "Defense, Space & Security",
+      "shortName": "Defense & Space",
+      "amountM": 7935,
+      "yoy": "+15%",
+      "note": "Fighters, satellites, missiles and space \u2014 revenue up 15% on higher volume, with operating earnings of $492M."
+    },
+    {
+      "name": "Global Services",
+      "amountM": 5533,
+      "yoy": "+4%",
+      "note": "Parts, maintenance and training for airlines and militaries \u2014 the steadiest business, with an 18.3% operating margin. Shown after $41M of corporate eliminations."
+    }
+  ],
+  "flow": {
+    "revenueM": 24188,
+    "costOfRevenueM": 21806,
+    "grossProfitM": 2382,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 1198,
+        "note": "Running the company \u2014 down from $1,522M a year ago."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 830,
+        "note": "New aircraft and defense programs, net of customer funding."
+      }
+    ],
+    "operatingIncomeM": 354,
+    "otherIncomeM": -477,
+    "taxM": -7,
+    "netIncomeM": -116
+  },
+  "otherDetail": "Interest and debt expense of $573M, partly offset by $96M of other income (mostly pension-related credits).",
+  "takeaways": [
+    {
+      "stat": "+$354M",
+      "statColor": "#3e8e5a",
+      "title": "Operations back in profit",
+      "text": "A year ago operations lost $4.8B on a huge 777X charge. This quarter all three businesses contributed, led by services ($1,019M of earnings) and defense ($492M)."
+    },
+    {
+      "stat": "$573M",
+      "statColor": "#cf5f4e",
+      "title": "Interest is the drag",
+      "text": "Debt taken on through the crisis years cost $573M of interest in one quarter \u2014 more than the operating profit \u2014 leaving a $116M net loss."
+    },
+    {
+      "stat": "$745B",
+      "statColor": "#3d7bc8",
+      "title": "Record backlog of $745B",
+      "text": "Orders grew to a record, including over 5,900 commercial jets \u2014 years of work, if Boeing can build them on schedule."
+    }
+  ],
+  "footerNote": "Boeing counts $215M of income from operating investments inside its operating result; here it is netted against cost of revenue so the flow balances. Net loss attributable to Boeing common shareholders was $203M (the $0.26 loss per share) after $87M of dividends on mandatory convertible preferred stock; the chart shows the $116M consolidated net loss before those dividends.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067411/a202609sep308kprex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Commercial Airplanes",
+      "amount": 44.32
+    },
+    {
+      "label": "Defense & Space",
+      "amount": 32.81
+    },
+    {
+      "label": "Global Services",
+      "amount": 22.87
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -90.15
+    },
+    {
+      "label": "General & administrative",
+      "amount": -4.95
+    },
+    {
+      "label": "Research & development",
+      "amount": -3.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.97
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.03
+    },
+    {
+      "label": "Net loss",
+      "amount": -0.48
+    }
+  ]
+}

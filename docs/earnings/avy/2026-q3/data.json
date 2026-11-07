@@ -1,0 +1,132 @@
+{
+  "ticker": "AVY",
+  "company": "Avery Dennison",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+5%",
+  "verdict": "Avery Dennison's sales rose 5% to $2.33B, led by its Materials Group, and net income rose 2% to $170M (EPS $2.24, or $2.42 adjusted) despite softer apparel-label demand.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$2.33B",
+      "note": "+5% reported; +3.7% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.24",
+      "note": "Adjusted EPS was $2.42, up 2%"
+    },
+    {
+      "label": "Materials Group sales",
+      "value": "+8.5%",
+      "note": "The labels and films core is growing again"
+    },
+    {
+      "label": "Net income",
+      "value": "$170M",
+      "note": "+2% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Materials Group",
+      "amountM": 1645,
+      "yoy": "+8.5%",
+      "note": "Label and graphics films \u2014 the paper-and-film materials that become product labels. High-value categories (including RFID-ready materials) grew mid-single digits."
+    },
+    {
+      "name": "Solutions Group",
+      "amountM": 687,
+      "yoy": "-1.8%",
+      "note": "RFID tags and identification solutions for apparel and other industries; apparel categories grew, but the overall segment dipped on currency and mix."
+    }
+  ],
+  "flow": {
+    "revenueM": 2332,
+    "costOfRevenueM": 1677,
+    "grossProfitM": 655,
+    "opex": [
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 373,
+        "note": "Selling, marketing and running the company."
+      },
+      {
+        "name": "Other expense, net",
+        "amountM": 10,
+        "note": "Smaller operating items, including restructuring-related costs."
+      }
+    ],
+    "operatingIncomeM": 272,
+    "otherIncomeM": -31,
+    "taxM": 71,
+    "netIncomeM": 170
+  },
+  "otherDetail": "Interest expense of $36M, partly offset by $4M of other non-operating income (pension and currency items).",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Sales rose to $2.33B",
+      "text": "Organic growth of 3.7% plus currency gains; the Materials Group did the heavy lifting with sales up 8.5%."
+    },
+    {
+      "stat": "$2.42",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS of $2.42",
+      "text": "Up 2% \u2014 slower than sales, reflecting margin pressure in Materials (adjusted margin down 110 basis points) as growth categories carry start-up costs."
+    },
+    {
+      "stat": "$9.45\u2013$9.59",
+      "statColor": "#5b6b7c",
+      "title": "Full-year EPS guidance set",
+      "text": "Reported EPS guidance for 2026 is $9.45\u2013$9.59, or $10.10\u2013$10.24 adjusted."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000162/ex9918k10-29x26.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000166/avy-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Materials Group",
+      "amount": 70.54
+    },
+    {
+      "label": "Solutions Group",
+      "amount": 29.46
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -71.91
+    },
+    {
+      "label": "Marketing, general & administrative",
+      "amount": -15.99
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.33
+    },
+    {
+      "label": "Tax",
+      "amount": -3.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.29
+    }
+  ]
+}

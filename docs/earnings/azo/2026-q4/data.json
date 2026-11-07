@@ -1,0 +1,113 @@
+{
+  "ticker": "AZO",
+  "company": "AutoZone",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-08-29",
+  "reportedDate": "2026-09-22",
+  "revenueYoY": "+6%",
+  "verdict": "AutoZone's fourth-quarter sales rose 6% to $6.6B with same-store sales up 1.5%, and net income rose 11% to $932M (EPS $56.05) as relentless buybacks shrank the share count.",
+  "kpis": [
+    {
+      "label": "Net sales (16 weeks)",
+      "value": "$6.59B",
+      "note": "+6% vs a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$56.05",
+      "note": "+15% vs a year ago"
+    },
+    {
+      "label": "Same-store sales",
+      "value": "+1.5%",
+      "note": "Domestic +1.6%; international +10.7% in local terms"
+    },
+    {
+      "label": "Stores",
+      "value": "8,031",
+      "note": "175 opened in the quarter, incl. 68 in Mexico"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Auto parts stores",
+      "amountM": 6595,
+      "note": "AutoZone reports a single segment: 6,863 stores in the U.S., 1,001 in Mexico and 167 in Brazil, selling parts and accessories to do-it-yourself customers and professional garages, plus the ALLDATA repair-software business."
+    }
+  ],
+  "flow": {
+    "revenueM": 6595,
+    "costOfRevenueM": 3077,
+    "grossProfitM": 3518,
+    "opex": [
+      {
+        "name": "Operating, selling, general & administrative",
+        "amountM": 2201,
+        "note": "Store payroll, rent and distribution \u2014 about a third of sales."
+      }
+    ],
+    "operatingIncomeM": 1317,
+    "otherIncomeM": -149,
+    "taxM": 236,
+    "netIncomeM": 932
+  },
+  "otherDetail": "Interest expense, net of $149M on AutoZone's borrowings (the company runs with significant debt by design, funding buybacks).",
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Sales rose to $6.6B",
+      "text": "Same-store sales grew 1.5% and 175 new stores (374 for the year) added the rest; full-year sales reached $20.3B."
+    },
+    {
+      "stat": "$56.05",
+      "statColor": "#3e8e5a",
+      "title": "EPS jumped 15% to $56.05",
+      "text": "Profit rose 11%, but EPS rose faster: buybacks cut the diluted share count from 17.2M to 16.6M in a year \u2014 AutoZone has the highest share price of any U.S. auto-parts retailer."
+    },
+    {
+      "stat": "53.3%",
+      "statColor": "#5b6b7c",
+      "title": "Gross margin of 53.3%",
+      "text": "More than half of every sales dollar survives the cost of the parts themselves \u2014 pricing power in a needs-based category."
+    }
+  ],
+  "footerNote": "AutoZone combined its operations into a single reportable segment in fiscal 2025 and does not disclose a revenue split by country, so the full top line is shown as one source. The quarter is 16 weeks (AutoZone's fourth quarter is longer than the others).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006159/exh_991.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926118791/azo-20260829x10k.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Auto parts stores",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.66
+    },
+    {
+      "label": "Operating, selling, general & administrative",
+      "amount": -33.37
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.26
+    },
+    {
+      "label": "Tax",
+      "amount": -3.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.13
+    }
+  ]
+}

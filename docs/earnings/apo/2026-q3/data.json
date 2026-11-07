@@ -1,0 +1,156 @@
+{
+  "ticker": "APO",
+  "company": "Apollo Global Management",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "-52%",
+  "verdict": "Apollo reported a $1.1B net loss as Athene's investment book marked down $3.4B in the quarter, overwhelming record fee growth \u2014 management fees rose 25% and loan origination hit a record $114B.",
+  "kpis": [
+    {
+      "label": "Total revenues",
+      "value": "$4.74B",
+      "note": "-52% vs a year ago, on investment marks"
+    },
+    {
+      "label": "Net loss (attributable)",
+      "value": "$(1.06)B",
+      "note": "Loss per share of $1.78"
+    },
+    {
+      "label": "Management fees",
+      "value": "$758M",
+      "note": "+25% vs a year ago"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$1.07T",
+      "note": "Origination hit a record $114B in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Retirement Services (Athene)",
+      "shortName": "Retirement Services",
+      "amountM": 3456,
+      "yoy": "-59%",
+      "note": "Athene's annuity business. Investment income of $5.7B (+14%) was swamped by $3.4B of investment-related losses as markets revalued its portfolio."
+    },
+    {
+      "name": "Asset Management",
+      "amountM": 1283,
+      "yoy": "-14%",
+      "note": "Fees for managing funds and accounts. Management and advisory fees grew strongly, but Apollo's own investment income swung to a $188M loss."
+    }
+  ],
+  "flow": {
+    "revenueM": 4739,
+    "costOfRevenueM": 4114,
+    "grossProfitM": 625,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 909,
+        "note": "Pay for Apollo's investment teams \u2014 the asset-management business's main cost."
+      },
+      {
+        "name": "Policy & other operating expenses (Athene)",
+        "shortName": "Athene operating expenses",
+        "amountM": 641,
+        "note": "Running the Athene insurance operations."
+      },
+      {
+        "name": "General, administrative & other",
+        "amountM": 461,
+        "note": "Overhead across the firm."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 84,
+        "note": "Interest on Apollo's own corporate debt."
+      }
+    ],
+    "operatingIncomeM": -1470,
+    "otherIncomeM": 4,
+    "taxM": -344,
+    "netIncomeM": -1122
+  },
+  "otherDetail": "A small net $4M of other income from Apollo's investment activities.",
+  "takeaways": [
+    {
+      "stat": "-$3.4B",
+      "statColor": "#cf5f4e",
+      "title": "Athene's portfolio marks drove the loss",
+      "text": "Retirement Services booked $3.4B of investment-related losses (versus a $2.3B gain a year ago) as falling values on its holdings flowed through earnings \u2014 even though its underlying investment income grew 14% to $5.7B."
+    },
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "title": "The fee machine set records",
+      "text": "Management fees rose 25% to $758M and advisory and transaction fees jumped 67% to $633M; origination reached a record $114B in the quarter."
+    },
+    {
+      "stat": "$1.07T",
+      "statColor": "#5b6b7c",
+      "title": "Scale keeps compounding",
+      "text": "Assets under management reached about $1.07 trillion, and clients entrusted Apollo with $270B of inflows over the last twelve months."
+    }
+  ],
+  "oneTimers": [
+    "The $3.4B of investment-related losses at Athene are mark-to-market movements on its investment portfolio and related derivatives \u2014 they can reverse in later quarters and are excluded from Apollo's preferred 'spread related earnings' measure."
+  ],
+  "footerNote": "Retirement Services' policyholder costs \u2014 interest-sensitive contract benefits ($3,669M), future policy benefits ($595M) and acquisition-cost amortization ($476M), net of a $626M market-risk-benefits remeasurement gain \u2014 are shown as the cost of revenue. The consolidated net loss was $1,122M; $1,057M was attributable to Apollo common stockholders after noncontrolling interests absorbed $65M of the loss.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/erex9913q2026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000067/apo-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Retirement Services",
+      "amount": 72.93
+    },
+    {
+      "label": "Asset Management",
+      "amount": 27.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -86.81
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -19.18
+    },
+    {
+      "label": "Policy & other operating expenses (Athene)",
+      "amount": -13.53
+    },
+    {
+      "label": "General, administrative & other",
+      "amount": -9.73
+    },
+    {
+      "label": "Interest expense",
+      "amount": -1.77
+    },
+    {
+      "label": "Other income",
+      "amount": 0.08
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 7.26
+    },
+    {
+      "label": "Net loss",
+      "amount": -23.68
+    }
+  ]
+}

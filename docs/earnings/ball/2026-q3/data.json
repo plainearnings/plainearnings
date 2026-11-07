@@ -1,0 +1,168 @@
+{
+  "ticker": "BALL",
+  "company": "Ball Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "revenueYoY": "+24%",
+  "verdict": "Ball's sales rose 24% to $4.19B on higher aluminum prices and volumes, but a $475M non-cash charge for buying out its UK pension plan pushed it to a $94M GAAP loss; underlying comparable EPS rose 7% to $1.10.",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$4.19B",
+      "note": "+24% vs a year ago, mostly aluminum price pass-through"
+    },
+    {
+      "label": "GAAP loss per share",
+      "value": "$(0.36)",
+      "note": "After the pension settlement charge"
+    },
+    {
+      "label": "Comparable EPS",
+      "value": "$1.10",
+      "note": "+7% \u2014 Ball's underlying measure"
+    },
+    {
+      "label": "Global shipments",
+      "value": "+4.7%",
+      "note": "More cans shipped in every region"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Beverage Packaging, North & Central America",
+      "shortName": "Bev. Packaging N. America",
+      "amountM": 2060,
+      "yoy": "+26%",
+      "note": "Drink cans for the U.S., Canada and Mexico \u2014 higher volumes and aluminum prices passed through to customers."
+    },
+    {
+      "name": "Beverage Packaging, EMEA",
+      "shortName": "Bev. Packaging EMEA",
+      "amountM": 1331,
+      "yoy": "+18%",
+      "note": "Cans across Europe, the Middle East and Africa, including the acquired Benepack business."
+    },
+    {
+      "name": "Beverage Packaging, South America",
+      "shortName": "Bev. Packaging S. America",
+      "amountM": 653,
+      "yoy": "+29%",
+      "note": "Cans in Brazil and neighbors \u2014 the fastest growth, on volume and price/mix."
+    },
+    {
+      "name": "Other",
+      "amountM": 144,
+      "yoy": "+33%",
+      "note": "Aluminum aerosol containers and other smaller businesses."
+    }
+  ],
+  "flow": {
+    "revenueM": 4188,
+    "costOfRevenueM": 3479,
+    "grossProfitM": 709,
+    "opex": [
+      {
+        "name": "Business consolidation & other activities",
+        "amountM": 482,
+        "note": "Dominated by a $475M non-cash settlement charge for buying out the U.K. defined-benefit pension plan, plus facility-closure costs, partly offset by a favorable tariff ruling."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 163,
+        "note": "Spreading the cost of can plants and equipment over their lives."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 141,
+        "note": "Running and selling \u2014 a lean 3.4% of sales."
+      }
+    ],
+    "operatingIncomeM": -77,
+    "otherIncomeM": -60,
+    "taxM": -43,
+    "netIncomeM": -94
+  },
+  "otherDetail": "Interest expense of $75M, partly offset by $7M of interest income and $8M of equity income from affiliates (which Ball reports below its tax line).",
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Sales jumped to $4.19B",
+      "text": "Most of the increase is aluminum: can prices carry a metal pass-through, so revenue inflates with the aluminum price. Underneath, shipments grew a healthy 4.7%."
+    },
+    {
+      "stat": "$475M",
+      "statColor": "#cf5f4e",
+      "title": "A pension buy-out charge",
+      "text": "Ball transferred its U.K. pension obligations to an insurer; accounting rules required recognizing a $475M non-cash settlement charge, swinging the quarter to a GAAP loss."
+    },
+    {
+      "stat": "$1.10",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS rose 7%",
+      "text": "Excluding the pension charge and similar items, comparable EPS was $1.10 and comparable operating earnings rose 2.5% to $451M."
+    }
+  ],
+  "oneTimers": [
+    "The $475M pension settlement charge is non-cash: it recognizes previously deferred pension losses in one go as the U.K. plan is bought out. It does not change Ball's cash position or its ongoing pension costs (which fall)."
+  ],
+  "footerNote": "Equity income from affiliates ($8M), which Ball reports below its tax line, is included in the other-expense line so the flow reconciles to the reported net loss.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/9389/000110465926121661/ball-ex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/9389/000110465926121838/ball-20260930x10q.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Bev. Packaging N. America",
+      "amount": 49.19
+    },
+    {
+      "label": "Bev. Packaging EMEA",
+      "amount": 31.78
+    },
+    {
+      "label": "Bev. Packaging S. America",
+      "amount": 15.59
+    },
+    {
+      "label": "Other",
+      "amount": 3.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.07
+    },
+    {
+      "label": "Business consolidation & other activities",
+      "amount": -11.51
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.89
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -3.37
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.43
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.03
+    },
+    {
+      "label": "Net loss",
+      "amount": -2.24
+    }
+  ]
+}

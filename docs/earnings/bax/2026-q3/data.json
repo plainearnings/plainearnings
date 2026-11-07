@@ -1,0 +1,145 @@
+{
+  "ticker": "BAX",
+  "company": "Baxter International",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+5%",
+  "verdict": "Baxter's sales rose 5% to $2.98B with growth in every segment, and a $253M gain from buying back its own debt below face value lifted net income to $294M (EPS $0.57).",
+  "kpis": [
+    {
+      "label": "Net sales",
+      "value": "$2.98B",
+      "note": "+5% reported and organic"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$0.57",
+      "note": "Vs a loss a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$294M",
+      "note": "Helped by the $253M debt gain"
+    },
+    {
+      "label": "Debt buyback gain",
+      "value": "$253M",
+      "note": "From repurchasing bonds at a discount"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Medical Products & Therapies",
+      "shortName": "Medical Products",
+      "amountM": 2102,
+      "yoy": "+6%",
+      "note": "IV solutions, infusion systems, drug compounding, injectable drugs (the former Pharmaceuticals segment) and advanced surgery products."
+    },
+    {
+      "name": "Healthcare Systems & Technologies",
+      "shortName": "Healthcare Systems",
+      "amountM": 806,
+      "yoy": "+4%",
+      "note": "Hospital beds, patient monitors and connected-care software."
+    },
+    {
+      "name": "Other",
+      "amountM": 68,
+      "yoy": "-20%",
+      "note": "Manufacturing supply sales to Vantive, the kidney-care business Baxter separated in 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 2976,
+    "costOfRevenueM": 1982,
+    "grossProfitM": 994,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 644,
+        "note": "As reported, SG&A was $730M; it is shown net of $86M of other operating income (mostly transition-services income from Vantive, plus a patent settlement benefit) so the flow balances."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 125,
+        "note": "Developing new medical devices and drug products."
+      }
+    ],
+    "operatingIncomeM": 225,
+    "otherIncomeM": 192,
+    "taxM": 119,
+    "netIncomeM": 298
+  },
+  "otherDetail": "A $253M gain on early extinguishment of debt \u2014 Baxter repurchased its bonds below face value \u2014 less $61M of net interest expense.",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Sales rose to $2.98B",
+      "text": "Both main segments grew: Medical Products & Therapies +6% on infusion strength, Healthcare Systems & Technologies +4%."
+    },
+    {
+      "stat": "$253M",
+      "statColor": "#5b6b7c",
+      "title": "A gain from its own debt",
+      "text": "With its bonds trading at a discount, Baxter bought debt back early and booked a $253M gain \u2014 the main reason net income swung from a $46M loss a year ago to a $294M profit."
+    },
+    {
+      "stat": "$0.57",
+      "statColor": "#3e8e5a",
+      "title": "EPS of $0.57",
+      "text": "Adjusted results strip out the debt gain and $95M of intangible amortization among other items; the underlying business grew steadily rather than spectacularly."
+    }
+  ],
+  "footerNote": "Net income from continuing operations ($298M) is shown; total net income was $294M after a $4M loss from discontinued operations. SG&A is shown net of $86M of other operating income, as explained in its note.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000001045626000004/bax-20260930xex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026068278/bax-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Medical Products",
+      "amount": 70.63
+    },
+    {
+      "label": "Healthcare Systems",
+      "amount": 27.08
+    },
+    {
+      "label": "Other",
+      "amount": 2.28
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.6
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -21.64
+    },
+    {
+      "label": "Research & development",
+      "amount": -4.2
+    },
+    {
+      "label": "Other income",
+      "amount": 6.45
+    },
+    {
+      "label": "Tax",
+      "amount": -4.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.01
+    }
+  ]
+}

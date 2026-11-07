@@ -1,0 +1,142 @@
+{
+  "ticker": "ATO",
+  "company": "Atmos Energy",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-05",
+  "revenueYoY": "+5%",
+  "verdict": "Atmos Energy's summer-quarter profit rose 30% to $243M (EPS $1.43) as rate increases and a growing pipeline business lifted operating income 27%.",
+  "kpis": [
+    {
+      "label": "Operating revenues",
+      "value": "$879M",
+      "note": "+5% vs a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$1.43",
+      "note": "+23% vs a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$243M",
+      "note": "+30% vs a year ago"
+    },
+    {
+      "label": "FY26 EPS guidance",
+      "value": "$8.40\u2013$8.50",
+      "note": "Reaffirmed with the results"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Distribution",
+      "amountM": 775,
+      "yoy": "+1%",
+      "note": "Delivering natural gas to 3.3 million customers in eight states \u2014 the summer quarter is seasonally quiet for heating demand."
+    },
+    {
+      "name": "Pipeline & storage",
+      "shortName": "Pipeline & storage",
+      "amountM": 104,
+      "note": "Moving and storing gas, mostly in Texas. Segment revenue was $333M including $229M of sales to Atmos's own distribution arm, which are eliminated in consolidation; shown here on an external basis."
+    }
+  ],
+  "flow": {
+    "revenueM": 879,
+    "costOfRevenueM": 8,
+    "grossProfitM": 871,
+    "opex": [
+      {
+        "name": "Operation & maintenance",
+        "amountM": 223,
+        "note": "Crews, pipeline inspections and keeping the network safe \u2014 over 85% of capital spending also targets safety and reliability."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 202,
+        "note": "Spreading the cost of pipes and plants over their lives; it grows as Atmos invests about $4.2B a year."
+      },
+      {
+        "name": "Taxes other than income",
+        "amountM": 126,
+        "note": "Property and franchise taxes paid to states and cities."
+      }
+    ],
+    "operatingIncomeM": 320,
+    "otherIncomeM": -17,
+    "taxM": 60,
+    "netIncomeM": 243
+  },
+  "otherDetail": "Interest charges of $33M on utility debt, partly offset by $16M of other non-operating income.",
+  "takeaways": [
+    {
+      "stat": "+30%",
+      "statColor": "#3e8e5a",
+      "title": "Net income rose to $243M",
+      "text": "Rate increases already approved by regulators ($355M annualized) flowed through, lifting EPS 23% to $1.43 in the seasonally smallest quarter."
+    },
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Pipeline & storage is the growth engine",
+      "text": "Segment revenue rose 22% to $333M (before internal eliminations) on new Texas infrastructure entering service."
+    },
+    {
+      "stat": "$8.40\u2013$8.50",
+      "statColor": "#5b6b7c",
+      "title": "Full-year guidance reaffirmed",
+      "text": "Atmos kept its fiscal 2026 EPS guidance and expects roughly $4.2B of capital spending, recovered through future rates."
+    }
+  ],
+  "footerNote": "Purchased gas cost is almost entirely internal in the summer quarter: the pipeline segment sells gas to the distribution segment, and the $229M of internal sales and matching gas cost are eliminated in consolidation, leaving just $8M of net purchased gas cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000100/ato20260805exhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000102/ato-20260630.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Distribution",
+      "amount": 88.17
+    },
+    {
+      "label": "Pipeline & storage",
+      "amount": 11.83
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -0.91
+    },
+    {
+      "label": "Operation & maintenance",
+      "amount": -25.37
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -22.98
+    },
+    {
+      "label": "Taxes other than income",
+      "amount": -14.33
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.93
+    },
+    {
+      "label": "Tax",
+      "amount": -6.83
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.65
+    }
+  ]
+}

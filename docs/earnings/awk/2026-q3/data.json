@@ -1,0 +1,131 @@
+{
+  "ticker": "AWK",
+  "company": "American Water Works",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+4%",
+  "verdict": "American Water's revenue rose 4% to $1.51B on higher regulated rates, and net income rose 2% to $387M \u2014 EPS held flat at $1.94 as new shares and higher depreciation absorbed the growth.",
+  "kpis": [
+    {
+      "label": "Operating revenues",
+      "value": "$1.51B",
+      "note": "+4% vs a year ago"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$1.94",
+      "note": "Flat vs a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$387M",
+      "note": "+2% vs a year ago"
+    },
+    {
+      "label": "Infrastructure invested (9 months)",
+      "value": "$2.8B",
+      "note": "Pipe replacement and growth, recovered through rates"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Regulated Businesses",
+      "amountM": 1403,
+      "note": "Water service ($1,263M: homes $762M, businesses $297M, fire service and others) and wastewater service ($120M) across 14 states, at rates set by regulators."
+    },
+    {
+      "name": "Other",
+      "amountM": 107,
+      "note": "Water services for military bases and homeowner services such as line protection plans."
+    }
+  ],
+  "flow": {
+    "revenueM": 1510,
+    "costOfRevenueM": 530,
+    "grossProfitM": 980,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 245,
+        "note": "Spreading the cost of treatment plants and pipes over their lives \u2014 it rises with the $2.8B invested so far this year."
+      },
+      {
+        "name": "General taxes",
+        "amountM": 94,
+        "note": "Property, payroll and other non-income taxes."
+      }
+    ],
+    "operatingIncomeM": 641,
+    "otherIncomeM": -142,
+    "taxM": 112,
+    "netIncomeM": 387
+  },
+  "otherDetail": "Interest expense of $167M on utility debt, partly offset by interest income, pension credits and $17M of other income.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue rose to $1.51B",
+      "text": "Higher approved rates and customer growth in the regulated business, which is 93% of revenue."
+    },
+    {
+      "stat": "$1.94",
+      "statColor": "#5b6b7c",
+      "title": "EPS flat at $1.94",
+      "text": "Profit grew 2%, but EPS went sideways: more shares outstanding and higher depreciation and interest on new investment ate the increase."
+    },
+    {
+      "stat": "$2.8B",
+      "statColor": "#3e8e5a",
+      "title": "Investing heavily in pipes",
+      "text": "American Water put $2.8B into infrastructure in nine months \u2014 spending that regulators let it earn a return on through future rates."
+    }
+  ],
+  "footerNote": "Operation and maintenance ($531M as reported) is treated as the direct cost of producing and delivering water, shown net of a $1M other operating credit. AWK reports no separate cost-of-revenue line.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000150/ex991-9302026q3pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000149/awk-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Regulated Businesses",
+      "amount": 92.91
+    },
+    {
+      "label": "Other",
+      "amount": 7.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.1
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -16.23
+    },
+    {
+      "label": "General taxes",
+      "amount": -6.23
+    },
+    {
+      "label": "Other expense",
+      "amount": -9.4
+    },
+    {
+      "label": "Tax",
+      "amount": -7.42
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.63
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "ticker": "BBY",
+  "company": "Best Buy",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-27",
+  "revenueYoY": "+4%",
+  "verdict": "Best Buy's revenue rose 4% to $9.8B as comparable sales grew 4.1% \u2014 computing, home theater and even AI glasses and trading cards \u2014 and net income jumped 69% to $315M against a charge-hit quarter last year.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$9.78B",
+      "note": "+4% vs a year ago"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+4.1%",
+      "note": "Domestic comps +4.5%"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$1.48",
+      "note": "+70%; adjusted EPS was $1.47"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$315M",
+      "note": "+69% vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Domestic",
+      "amountM": 9070,
+      "yoy": "+4%",
+      "note": "U.S. stores and bestbuy.com \u2014 comparable sales rose 4.5%, led by computing and home theater, plus emerging categories like AI glasses and trading cards."
+    },
+    {
+      "name": "International",
+      "amountM": 709,
+      "yoy": "-4%",
+      "note": "Canada and Mexico \u2014 comparable sales fell 1.8% and currency was a headwind."
+    }
+  ],
+  "flow": {
+    "revenueM": 9779,
+    "costOfRevenueM": 7441,
+    "grossProfitM": 2338,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1917,
+        "note": "Store staff, rent and technology. As reported, SG&A was $1,923M, reduced by a $6M restructuring credit; last year's quarter carried $114M of restructuring charges."
+      }
+    ],
+    "operatingIncomeM": 421,
+    "otherIncomeM": 9,
+    "taxM": 115,
+    "netIncomeM": 315
+  },
+  "otherDetail": "Investment income of $20M, less $11M of interest expense.",
+  "takeaways": [
+    {
+      "stat": "+4.1%",
+      "statColor": "#3d7bc8",
+      "title": "Comparable sales grew 4.1%",
+      "text": "Best Buy's best growth in years: computing and home theater led, with new categories (AI glasses, trading cards) adding novelty demand."
+    },
+    {
+      "stat": "+69%",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped to $315M",
+      "text": "The comparison is flattering \u2014 last year's quarter absorbed $114M of restructuring charges \u2014 but gross margin also improved to 23.9% on better product margins."
+    },
+    {
+      "stat": "$6.70\u2013$6.90",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "Best Buy lifted its FY27 outlook: comparable sales of +1.9% to +3.0% and adjusted EPS of $6.70\u2013$6.90."
+    }
+  ],
+  "footerNote": "Best Buy's fiscal year ends in late January, so this is Q2 of fiscal 2027. Tax is shown at $115M (the reported expense of $116M reflects unrounded figures) so the flow reconciles exactly to reported net earnings of $315M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000037/bby-fy27q2xexx99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000042/bby-20260801.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Domestic",
+      "amount": 92.75
+    },
+    {
+      "label": "International",
+      "amount": 7.25
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -76.09
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -19.6
+    },
+    {
+      "label": "Other income",
+      "amount": 0.09
+    },
+    {
+      "label": "Tax",
+      "amount": -1.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.22
+    }
+  ]
+}

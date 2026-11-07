@@ -1,0 +1,173 @@
+{
+  "ticker": "ARES",
+  "company": "Ares Management",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "-14%",
+  "verdict": "Ares' revenue fell 14% to $1.43B because carried interest dropped by two-thirds from a strong quarter last year, even as management fees hit a record $1.06B; fee related earnings were $524M.",
+  "kpis": [
+    {
+      "label": "Management fees",
+      "value": "$1.06B",
+      "note": "A record, +9% vs a year ago"
+    },
+    {
+      "label": "Total revenues",
+      "value": "$1.43B",
+      "note": "-14% vs a year ago on lower carried interest"
+    },
+    {
+      "label": "Fee related earnings",
+      "value": "$524M",
+      "note": "Ares' preferred measure of recurring profit"
+    },
+    {
+      "label": "EPS (GAAP, attributable)",
+      "value": "$0.21",
+      "note": "After-tax realized income was $1.26 per share"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Management fees",
+      "amountM": 1057,
+      "yoy": "+9%",
+      "note": "Recurring fees for managing credit, private equity, real estate and other funds \u2014 the steady core of the business."
+    },
+    {
+      "name": "Carried interest allocation",
+      "shortName": "Carried interest",
+      "amountM": 162,
+      "yoy": "-65%",
+      "note": "Ares' share of fund profits \u2014 lumpy by nature, and well below a strong quarter a year ago."
+    },
+    {
+      "name": "Administrative, transaction & other fees",
+      "shortName": "Admin & other fees",
+      "amountM": 112,
+      "yoy": "+10%",
+      "note": "Deal, monitoring and administrative fees."
+    },
+    {
+      "name": "Incentive fees",
+      "amountM": 82,
+      "yoy": "-18%",
+      "note": "Performance fees from publicly traded and perpetual funds."
+    },
+    {
+      "name": "Principal investment income",
+      "amountM": 20,
+      "note": "Returns on Ares' own money invested alongside clients."
+    }
+  ],
+  "flow": {
+    "revenueM": 1433,
+    "costOfRevenueM": 700,
+    "grossProfitM": 733,
+    "opex": [
+      {
+        "name": "Performance-related compensation",
+        "amountM": 174,
+        "note": "The share of carried interest paid out to the investment teams who earned it."
+      },
+      {
+        "name": "General, administrative & other",
+        "amountM": 259,
+        "note": "Overhead, technology and professional costs."
+      },
+      {
+        "name": "Expenses of Consolidated Funds",
+        "amountM": 16,
+        "note": "Operating costs of funds Ares consolidates for accounting purposes."
+      }
+    ],
+    "operatingIncomeM": 284,
+    "otherIncomeM": -43,
+    "taxM": 36,
+    "netIncomeM": 205
+  },
+  "otherDetail": "Losses of $147M on Ares' own investments and $59M of interest expense, partly offset by gains and income inside consolidated funds (a net $168M) and $9M of interest and dividend income.",
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Management fees hit a record $1.06B",
+      "text": "The recurring fee base keeps growing with assets under management, even in a quarter when performance income faded."
+    },
+    {
+      "stat": "-65%",
+      "statColor": "#cf5f4e",
+      "title": "Carried interest fell to $162M",
+      "text": "Profit-sharing from funds dropped by two-thirds versus an unusually strong quarter a year ago, pulling total revenue down 14%."
+    },
+    {
+      "stat": "$524M",
+      "statColor": "#3e8e5a",
+      "title": "Fee related earnings of $524M",
+      "text": "On the recurring measure Ares emphasizes, earnings stayed strong; GAAP net income attributable to the listed company was $85M after sharing profits with fund investors and operating-group partners."
+    }
+  ],
+  "footerNote": "Compensation and benefits is treated as the direct cost of an asset manager (the people who generate the fees). Consolidated net income of $205M is shown; from it, $77M belonged to investors in consolidated funds and $43M to operating-group partners, leaving $85M attributable to Ares Management Corporation shareholders.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026067994/a2026q3-ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026071628/ares-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Management fees",
+      "amount": 73.76
+    },
+    {
+      "label": "Carried interest",
+      "amount": 11.3
+    },
+    {
+      "label": "Admin & other fees",
+      "amount": 7.82
+    },
+    {
+      "label": "Incentive fees",
+      "amount": 5.72
+    },
+    {
+      "label": "Principal investment income",
+      "amount": 1.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.85
+    },
+    {
+      "label": "Performance-related compensation",
+      "amount": -12.14
+    },
+    {
+      "label": "General, administrative & other",
+      "amount": -18.07
+    },
+    {
+      "label": "Expenses of Consolidated Funds",
+      "amount": -1.12
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.0
+    },
+    {
+      "label": "Tax",
+      "amount": -2.51
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.31
+    }
+  ]
+}

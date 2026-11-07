@@ -1,0 +1,132 @@
+{
+  "ticker": "AXON",
+  "company": "Axon Enterprise",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "revenueYoY": "+28%",
+  "verdict": "Axon's revenue jumped 28% to a record $909M as its software business grew 43%, and it earned $57M (EPS $0.68) \u2014 while announcing a $1.2B investment to raise its stake in drone maker Skydio to 37%.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$909M",
+      "note": "A record, +28% vs a year ago"
+    },
+    {
+      "label": "Software & Services revenue",
+      "value": "$437M",
+      "note": "+43% \u2014 now 48% of all revenue"
+    },
+    {
+      "label": "Net income",
+      "value": "$57M",
+      "note": "EPS of $0.68; non-GAAP EPS was $1.72"
+    },
+    {
+      "label": "Annual recurring revenue",
+      "value": "$1,750M",
+      "note": "Net revenue retention of 126%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Connected Devices",
+      "amountM": 472,
+      "yoy": "+16%",
+      "note": "TASER devices, body cameras and drones. Platform Solutions (including drone-as-first-responder) more than doubled to $125M."
+    },
+    {
+      "name": "Software & Services",
+      "amountM": 437,
+      "yoy": "+43%",
+      "note": "Evidence.com, records and AI tools for police agencies \u2014 subscription revenue with 126% net retention, and AI ARR above $100M."
+    }
+  ],
+  "flow": {
+    "revenueM": 909,
+    "costOfRevenueM": 394,
+    "grossProfitM": 515,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 281,
+        "note": "Selling to police agencies and running the company; includes heavy stock-based pay."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 192,
+        "note": "21% of revenue \u2014 new TASERs, cameras, drones and AI software, including $65M of stock-based compensation."
+      }
+    ],
+    "operatingIncomeM": 42,
+    "otherIncomeM": 37,
+    "taxM": 22,
+    "netIncomeM": 57
+  },
+  "otherDetail": "Other income, net of $60M \u2014 largely gains on strategic equity investments \u2014 plus $6M of interest income, less $28M of interest expense on convertible notes.",
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue of $909M",
+      "text": "Growth accelerated: software rose 43% and devices 16%, with drones and AI products the fastest-growing pieces."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#5b6b7c",
+      "title": "A $1.2B bet on drones",
+      "text": "Axon is investing $1.2B more in Skydio, taking its stake to about 37% at a $5.2B valuation, and becomes Skydio's exclusive public-safety distributor in the U.S. and Canada."
+    },
+    {
+      "stat": "$0.68",
+      "statColor": "#3e8e5a",
+      "title": "EPS of $0.68, vs a loss last year",
+      "text": "GAAP profit of $57M compares with a $2M loss a year ago; excluding stock-based pay and investment gains, non-GAAP EPS was $1.72."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Q3 2026 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Connected Devices",
+      "amount": 51.93
+    },
+    {
+      "label": "Software & Services",
+      "amount": 48.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -43.34
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -30.91
+    },
+    {
+      "label": "Research & development",
+      "amount": -21.12
+    },
+    {
+      "label": "Other income",
+      "amount": 4.07
+    },
+    {
+      "label": "Tax",
+      "amount": -2.42
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.27
+    }
+  ]
+}

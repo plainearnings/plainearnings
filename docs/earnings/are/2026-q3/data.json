@@ -1,0 +1,141 @@
+{
+  "ticker": "ARE",
+  "company": "Alexandria Real Estate Equities",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "revenueYoY": "-11%",
+  "verdict": "Alexandria took a $638M impairment on properties it plans to sell, driving a $599M net loss; rental revenue fell 11% as it shrinks the portfolio, though funds from operations of $1.54 a share held up.",
+  "kpis": [
+    {
+      "label": "Total revenues",
+      "value": "$671M",
+      "note": "-11% vs a year ago as assets are sold"
+    },
+    {
+      "label": "Net loss",
+      "value": "$(599)M",
+      "note": "$(638)M attributable to common stockholders"
+    },
+    {
+      "label": "FFO per share (as adjusted)",
+      "value": "$1.54",
+      "note": "The cash-rent measure REIT investors watch"
+    },
+    {
+      "label": "Impairment charge",
+      "value": "$638M",
+      "note": "On real estate held for sale \u2014 non-cash"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Income from rentals",
+      "amountM": 653,
+      "yoy": "-11%",
+      "note": "Rent from laboratory and office campuses leased to life-science and technology tenants, mostly in Boston, San Francisco, San Diego and Seattle."
+    },
+    {
+      "name": "Other income",
+      "amountM": 18,
+      "note": "Fees and other non-rent income."
+    }
+  ],
+  "flow": {
+    "revenueM": 671,
+    "costOfRevenueM": 228,
+    "grossProfitM": 443,
+    "opex": [
+      {
+        "name": "Impairment of real estate",
+        "amountM": 638,
+        "note": "Writing down properties classified as held for sale to their expected selling prices \u2014 a non-cash charge, and the story of this quarter."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 304,
+        "note": "Spreading the cost of buildings over their lives \u2014 non-cash, and added back in the FFO measure."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 41,
+        "note": "Running the company."
+      }
+    ],
+    "operatingIncomeM": -540,
+    "otherIncomeM": -59,
+    "taxM": 0,
+    "netIncomeM": -599
+  },
+  "otherDetail": "Interest expense of $80M, partly offset by $24M of investment income, plus a $3M loss on early repayment of debt.",
+  "takeaways": [
+    {
+      "stat": "$638M",
+      "statColor": "#cf5f4e",
+      "title": "A write-down quarter",
+      "text": "Alexandria marked down properties it intends to sell by $638M, the main reason for the $599M net loss. As a REIT it pays little income tax, so the loss flows straight through."
+    },
+    {
+      "stat": "-11%",
+      "statColor": "#cf5f4e",
+      "title": "Revenue fell to $671M",
+      "text": "Rent declined as the company sells campuses and life-science leasing demand stays soft \u2014 a deliberate shrink to cut debt."
+    },
+    {
+      "stat": "$1.54",
+      "statColor": "#3e8e5a",
+      "title": "FFO per share held up",
+      "text": "Funds from operations \u2014 which add back depreciation and the impairment \u2014 were $1.54 a share on an as-adjusted basis, down from $2.22 a year ago."
+    }
+  ],
+  "footerNote": "As a REIT, Alexandria pays essentially no corporate income tax, so no tax line appears. Net loss attributable to common stockholders was $638M, after $39M of income attributable to noncontrolling interests. Figures are from the company's third-quarter 2026 supplemental package filed with the SEC.",
+  "sources": [
+    {
+      "label": "Q3 2026 supplemental package (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000077/a3q26ex991supp.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000076/are-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Income from rentals",
+      "amount": 97.32
+    },
+    {
+      "label": "Other income",
+      "amount": 2.68
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.98
+    },
+    {
+      "label": "Impairment of real estate",
+      "amount": -95.08
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -45.31
+    },
+    {
+      "label": "General & administrative",
+      "amount": -6.11
+    },
+    {
+      "label": "Other expense",
+      "amount": -8.79
+    },
+    {
+      "label": "Tax",
+      "amount": 0.0
+    },
+    {
+      "label": "Net loss",
+      "amount": -89.27
+    }
+  ]
+}
