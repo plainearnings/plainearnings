@@ -54,8 +54,8 @@
 </section>
 
 <section class="strip" aria-label="Latest activity">
-  <div class="strip-item"><span class="dot dot-green"></span><strong>Microsoft FY27 Q1</strong>&nbsp;— our template report, chart verified</div>
-  <div class="strip-item"><span class="dot dot-amber"></span><strong>Moderna Q3 2026</strong>&nbsp;— drafted, in review</div>
+  <div class="strip-item"><span class="dot dot-green"></span><strong>Microsoft FY27 Q1</strong>&nbsp;— <a href="earnings/msft/2027-q1/">published, read it</a></div>
+  <div class="strip-item"><span class="dot dot-green"></span><strong>Moderna Q3 2026</strong>&nbsp;— <a href="earnings/mrna/2026-q3/">published, read it</a></div>
   <div class="strip-item"><span class="dot dot-blue"></span><strong>Nvidia</strong>&nbsp;— reports Nov 17, page follows days later</div>
 </section>
 
@@ -102,6 +102,7 @@ fetch('companies.json')
     const count = document.getElementById('search-count');
     const none = document.getElementById('no-results');
     const statusText = {
+      'live': 'Live report',
       'template-ready': 'Template report ready',
       'draft-in-review': 'Draft in review',
       'reporting-soon': 'Reports soon',

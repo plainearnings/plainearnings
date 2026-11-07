@@ -1,0 +1,147 @@
+{
+  "company": "Moderna",
+  "flow": {
+    "costOfRevenueM": 318,
+    "grossProfitM": 995,
+    "netIncomeM": 162,
+    "operatingIncomeM": 130,
+    "opex": [
+      {
+        "amountM": 583,
+        "name": "Research & development",
+        "note": "The labs: developing new vaccines and drugs. Down 27% \u2014 late-stage infectious-disease trials finished and wound down, plus deliberate cost cuts."
+      },
+      {
+        "amountM": 282,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams, offices, admin. Up 5% \u2014 modest, the company is holding this line flat."
+      }
+    ],
+    "otherIncomeM": 41,
+    "revenueM": 1313,
+    "taxM": 9
+  },
+  "follow100": [
+    {
+      "amount": 96.95,
+      "label": "Net product sales"
+    },
+    {
+      "amount": 3.05,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -24.22,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -44.4,
+      "label": "R&D"
+    },
+    {
+      "amount": -21.48,
+      "label": "SG&A"
+    },
+    {
+      "amount": 4.72,
+      "label": "Interest income"
+    },
+    {
+      "amount": -1.6,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.69,
+      "label": "Tax"
+    },
+    {
+      "amount": 12.34,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: R&D eats $44 of every $100 \u2014 more than four times the operating profit it leaves behind. Moderna is still a research company that happens to sell vaccines, not a vaccine company with a research arm.",
+  "footerNote": "Other income is $62M of interest less $21M of other expense, net $41M.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+29% YoY",
+      "value": "$1,313M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs \u2212$0.51 a year ago",
+      "value": "$0.38"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 79.6% a year ago",
+      "value": "75.8%"
+    },
+    {
+      "label": "Cash & investments",
+      "note": "vs $6.9B at Jun 30",
+      "value": "$8.0B"
+    }
+  ],
+  "oneTimers": [
+    "The 2026 full-year cost-of-sales outlook (~$1.7B) includes a ~$0.9B non-recurring litigation-settlement charge booked earlier in 2026 \u2014 it is not in Q3's $318M, but it is why the 9-month cost of sales ($1,366M) looks so much bigger than last year's ($416M). The $950M cash payment for that settlement went out in Q3.",
+    "On October 28, 2026, Moderna and GSK settled all pending disputes in the U.S. and Europe with patent cross-licenses \u2014 no payments of any kind under that deal.",
+    "In September, Moderna raised ~$2.6B net from a ~$3.0B convertible-notes offering (after capped-call costs). That financing \u2014 not operations \u2014 is the main reason cash jumped from $6.9B (June 30) to $8.0B (September 30). Nine-month operating cash flow is still negative at \u2212$2,715M, and the 9-month net loss is \u2212$1,963M: the Q3 profit does not make the year profitable."
+  ],
+  "otherDetail": "Interest income of $62M, less $21M of other expense \u2014 net $41M.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-06",
+  "revenueYoY": "+29%",
+  "segments": [
+    {
+      "amountM": 1273,
+      "name": "Net product sales",
+      "note": "Almost all of Moderna's money is selling vaccines \u2014 mainly COVID vaccines, now in the fall season, plus the newer flu and RSV shots.",
+      "yoy": "+31%"
+    },
+    {
+      "amountM": 40,
+      "name": "Other revenue",
+      "note": "Grants, collaborations, licensing and royalties \u2014 small side income, not product sales.",
+      "yoy": "\u22127%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/mrna-20261106.htm"
+    },
+    {
+      "label": "Moderna investor relations",
+      "url": "https://investors.modernatx.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "text": "Net income of $162M vs a $200M loss a year ago. The swing came from two directions at once: revenue up 29% and R&D down 27%. Either alone wouldn't have done it.",
+      "title": "Back in the black \u2014 but read the fine print"
+    },
+    {
+      "stat": "15\u201325%",
+      "statColor": "#3e8e5a",
+      "text": "Full-year revenue growth 15\u201325% (was up to 10%), R&D cut to ~$2.7B, year-end cash $8.1\u20138.3B (was $4.7\u20135.2B). Management is signaling the turnaround is real, not one good quarter.",
+      "title": "Guidance went up everywhere it matters"
+    },
+    {
+      "stat": "\u221242%",
+      "statColor": "#5b6b7c",
+      "text": "Positive Phase 3 data for intismeran (Moderna's personalized cancer vaccine with Merck's Keytruda: 42% lower risk of melanoma recurrence or death) plus FDA approval of mFLUSIVA, a seasonal flu vaccine \u2014 Moderna's fifth approved product. The next chapter is oncology, not COVID.",
+      "title": "The pipeline is the story now"
+    }
+  ],
+  "ticker": "MRNA",
+  "verdict": "Moderna swung back to a profit on 29% revenue growth, but the profit is thin and the cost cuts did as much work as the sales rebound \u2014 and the fat cash balance came from a $3 billion convertible-note raise, not from operations."
+}

@@ -1,0 +1,142 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "segments": [
+    {
+      "name": "Agents and Infra",
+      "amountM": 76795,
+      "note": "Cloud and AI infrastructure, Azure, Microsoft 365 commercial cloud and server products \u2014 the engine of the quarter, up 25% YoY. Includes Azure revenue of $33,165M, up 48% YoY.",
+      "yoy": "+25%"
+    },
+    {
+      "name": "Devices and Consumer",
+      "amountM": 15484,
+      "note": "Windows, Xbox, Surface devices and consumer search/advertising \u2014 down 3% YoY, dragged by Windows OEM and devices revenue falling 22% YoY.",
+      "yoy": "-3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 92279,
+    "costOfRevenueM": 29720,
+    "grossProfitM": 62559,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 9047,
+        "note": "Spending on building products, led by AI and cloud \u2014 up 11% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 5716,
+        "note": "Selling and marketing the product line \u2014 essentially flat YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1881,
+        "note": "Running the company day to day \u2014 up 4% YoY."
+      }
+    ],
+    "operatingIncomeM": 45915,
+    "otherIncomeM": 38,
+    "taxM": 9324,
+    "netIncomeM": 36629
+  },
+  "oneTimers": [
+    "Non-GAAP results exclude a $207M net gain from investments in OpenAI in Q1 FY27 (vs a $3,086M net loss a year ago) \u2014 the reason GAAP net income (+32%) grew much faster than non-GAAP net income (+18%)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm"
+    }
+  ],
+  "verdict": "Microsoft grew 19% to $92.3B on Azure's 48% surge, and customers have now committed $677B of future cloud spending \u2014 the AI boom is real, and so is the bill to build it.",
+  "revenueYoY": "+19%",
+  "otherDetail": "Other income of $38M, net.",
+  "footerNote": "Segments use Microsoft's new FY27 reporting structure.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.92",
+      "note": "vs $3.72 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+48%",
+      "note": "fastest-growing large piece"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$63.9B",
+      "note": "+30% YoY, 69% of revenue"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Agents and Infra",
+      "amount": 83.22
+    },
+    {
+      "label": "Devices and Consumer",
+      "amount": 16.78
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.21
+    },
+    {
+      "label": "R&D",
+      "amount": -9.8
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.19
+    },
+    {
+      "label": "G&A",
+      "amount": -2.04
+    },
+    {
+      "label": "Other income",
+      "amount": 0.04
+    },
+    {
+      "label": "Tax",
+      "amount": -10.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.69
+    }
+  ],
+  "follow100Note": "Kept-as-profit includes +$0.04 of other income per $100 of revenue; the rows add to $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+48%",
+      "statColor": "#3d7bc8",
+      "title": "AI is the growth engine",
+      "text": "Azure grew 48%, and Microsoft Cloud revenue hit $63.9B \u2014 about 69% of all revenue. The growth story is the data centers."
+    },
+    {
+      "stat": "$677B",
+      "statColor": "#3e8e5a",
+      "title": "Customers have already committed",
+      "text": "Commercial remaining performance obligation \u2014 contracted future cloud revenue \u2014 reached $677B, up 73%. That is years of AI spending already signed."
+    },
+    {
+      "stat": "-3%",
+      "statColor": "#5b6b7c",
+      "title": "The consumer side is shrinking",
+      "text": "Devices & Consumer fell 3%, dragged by Windows OEM and devices revenue down 22%. PCs, Xbox and search ads are now just 17% of revenue \u2014 a side business next to the cloud."
+    }
+  ]
+}

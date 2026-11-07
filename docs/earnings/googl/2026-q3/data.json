@@ -1,0 +1,162 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 96302,
+      "note": "Search, YouTube ads, Google Network and subscriptions/platforms/devices \u2014 up 11% YoY. Search & other was $63,350M, YouTube ads $11,207M, Google advertising $82,012M in total.",
+      "yoy": "+11%"
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 30709,
+      "note": "Cloud infrastructure and AI services \u2014 more than doubled, up 103% YoY, powered by demand for AI infrastructure and TPUs. The quarter's standout.",
+      "yoy": "+103%"
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 372,
+      "note": "Moonshot bets such as Waymo \u2014 up 8% YoY, still small and loss-making (operating loss of $2,047M).",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Hedging gains",
+      "amountM": 194,
+      "note": "Currency-hedging gains added to revenue this quarter, vs a $207M hedging loss a year ago.",
+      "shortName": "Hedging"
+    }
+  ],
+  "flow": {
+    "revenueM": 127577,
+    "costOfRevenueM": 51419,
+    "grossProfitM": 76158,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 20640,
+        "note": "Building AI models, TPUs and products \u2014 up 36% YoY, the fastest-growing cost line as AI investment accelerates."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 8804,
+        "note": "Selling Google products and cloud \u2014 up 22% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 6138,
+        "note": "Running the company \u2014 down 17% YoY."
+      }
+    ],
+    "operatingIncomeM": 40576,
+    "otherIncomeM": -8221,
+    "taxM": 5887,
+    "netIncomeM": 26468
+  },
+  "oneTimers": [
+    "Other income swung to a net expense of $8,221M from $12,759M of income a year ago, driven by an $8,664M loss on equity securities (vs a $10,734M gain a year ago) \u2014 this $19.4B swing is why net income fell 24% despite operating income rising 30%. Note: the income statement's net income of $26,468M is before $298M of preferred stock dividends; net income available to common stockholders was $26,170M, on which the $2.12 EPS is based."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+    }
+  ],
+  "verdict": "Google's operating profit rose 30% and Cloud more than doubled \u2014 but an $8.7B paper loss on its stock holdings turned the bottom line down 24%.",
+  "revenueYoY": "+25%",
+  "otherDetail": "Other expense of $8,221M, driven by an $8,664M loss on equity securities.",
+  "footerNote": "Net income of $26,468M is before $298M of preferred stock dividends; EPS is based on $26,170M to common stockholders.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+25%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.12",
+      "note": "vs $2.87 a year ago"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+103%",
+      "note": "more than doubled"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$11.1B",
+      "note": "36% margin, tripled YoY"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 75.49
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 24.07
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.29
+    },
+    {
+      "label": "Hedging gains",
+      "amount": 0.15
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.3
+    },
+    {
+      "label": "R&D",
+      "amount": -16.18
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.9
+    },
+    {
+      "label": "G&A",
+      "amount": -4.81
+    },
+    {
+      "label": "Other expense",
+      "amount": -6.44
+    },
+    {
+      "label": "Tax",
+      "amount": -4.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.75
+    }
+  ],
+  "follow100Note": "The rows add to $99.99 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+103%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud more than doubled",
+      "text": "Google Cloud grew 103% to $30.7B, and its operating income tripled to $11.1B \u2014 a 36% margin. Cloud is now a quarter of Alphabet's revenue."
+    },
+    {
+      "stat": "-$8.7B",
+      "statColor": "#cf5f4e",
+      "title": "The paper loss that sank the bottom line",
+      "text": "An $8.7B mark-to-market loss on equity securities swung other income from +$12.8B to -$8.2B. Operating profit rose 30%, but net income fell 24%."
+    },
+    {
+      "stat": "1B",
+      "statColor": "#5b6b7c",
+      "title": "Gemini hit a billion users",
+      "text": "The Gemini app reached one billion users \u2014 called the fastest-growing product in Google's history \u2014 and YouTube Music and Premium passed 150 million subscribers."
+    }
+  ]
+}

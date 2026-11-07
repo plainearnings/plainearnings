@@ -1,0 +1,171 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 112852,
+      "note": "Amazon's retail business in the US, Canada and Mexico \u2014 up 6% YoY; operating income of $8,723M, up 82% YoY.",
+      "yoy": "+6%"
+    },
+    {
+      "name": "International",
+      "amountM": 43108,
+      "note": "Retail outside North America \u2014 up 5% YoY; operating income of $1,580M, up 32% YoY.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "AWS",
+      "amountM": 45984,
+      "note": "Amazon Web Services cloud computing \u2014 up 39% YoY, accelerating sharply; 23% of total sales but 63% of operating income ($17,773M, up 55% YoY, 38.7% margin).",
+      "yoy": "+39%"
+    }
+  ],
+  "flow": {
+    "revenueM": 201944,
+    "costOfRevenueM": 94573,
+    "grossProfitM": 107371,
+    "opex": [
+      {
+        "name": "Fulfillment",
+        "amountM": 29997,
+        "note": "Warehouses, delivery and logistics \u2014 up 8% YoY."
+      },
+      {
+        "name": "Technology & infrastructure",
+        "amountM": 34814,
+        "note": "Mostly AWS data centers and engineering \u2014 up 20% YoY as AI infrastructure spending surges."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 11649,
+        "note": "Advertising and selling \u2014 essentially flat YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2701,
+        "note": "Running the company \u2014 down 6% YoY."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 134,
+        "note": "Miscellaneous operating items \u2014 down from $2,875M a year ago."
+      }
+    ],
+    "operatingIncomeM": 28076,
+    "otherIncomeM": -1207,
+    "taxM": 6180,
+    "netIncomeM": 20685,
+    "equityM": -4
+  },
+  "oneTimers": [
+    "Q3 2025 non-operating income included $9.5B of pre-tax gains from Amazon's investments in Anthropic, which did not repeat \u2014 so net income fell 2% YoY despite operating income rising 61%. Total non-operating income was -$1,207M this quarter (interest income $1,187M, interest expense -$1,691M, other -$703M). The balance check also subtracts $4M of equity-method investment activity, net of tax."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+    }
+  ],
+  "verdict": "Amazon's operating profit jumped 61% as AWS accelerated to 39% growth \u2014 but net income slipped, because last year's quarter included a $9.5B one-off Anthropic gain, and free cash flow went deeply negative on AI data-center spending.",
+  "revenueYoY": "+12%",
+  "otherDetail": "Other expense of $1,207M (interest income $1,187M, interest expense -$1,691M, other -$703M), plus a $4M equity-method investment loss.",
+  "footerNote": "Amazon reports cost of sales as cost of revenue; operating expenses are shown as the release lists them, including fulfillment and technology & infrastructure.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.89",
+      "note": "vs $1.95 a year ago"
+    },
+    {
+      "label": "AWS growth",
+      "value": "+39%",
+      "note": "accelerating sharply"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "-$42.4B",
+      "note": "TTM, vs +$14.8B a year ago"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 55.88
+    },
+    {
+      "label": "International",
+      "amount": 21.35
+    },
+    {
+      "label": "AWS",
+      "amount": 22.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.83
+    },
+    {
+      "label": "Fulfillment",
+      "amount": -14.85
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -17.24
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -5.77
+    },
+    {
+      "label": "G&A",
+      "amount": -1.34
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.6
+    },
+    {
+      "label": "Tax",
+      "amount": -3.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.24
+    }
+  ],
+  "follow100Note": "AWS takes $22.77 of every $100 in, but produces 63% of the operating profit \u2014 the retail business runs on far thinner margins.",
+  "takeaways": [
+    {
+      "stat": "+39%",
+      "statColor": "#3d7bc8",
+      "title": "AWS is accelerating again",
+      "text": "AWS grew 39% to $46.0B \u2014 its fastest in years \u2014 and produced 63% of Amazon's entire operating profit at a 38.7% margin."
+    },
+    {
+      "stat": "-$42.4B",
+      "statColor": "#cf5f4e",
+      "title": "Free cash flow went deeply negative",
+      "text": "Twelve-month free cash flow swung to -$42.4B from +$14.8B a year ago, as property and equipment purchases jumped $94.8B \u2014 the AI data-center buildout, paid in cash."
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#3e8e5a",
+      "title": "Operating profit jumped \u2014 net income didn't",
+      "text": "Operating income rose 61% to $28.1B, but net income slipped 2%: last year's quarter included a $9.5B Anthropic investment gain that didn't repeat."
+    }
+  ]
+}

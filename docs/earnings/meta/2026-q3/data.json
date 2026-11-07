@@ -1,0 +1,153 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 63061,
+      "note": "Ads across Facebook, Instagram, WhatsApp and Messenger \u2014 up 26% YoY, on 10% more ad impressions and 14% higher average price per ad. 98% of total revenue.",
+      "yoy": "+26%"
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 1097,
+      "note": "Non-advertising revenue from the apps (e.g. subscriptions, business messaging) \u2014 up 59% YoY.",
+      "yoy": "+59%",
+      "shortName": "FoA other"
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 443,
+      "note": "Quest headsets and smart glasses \u2014 down 6% YoY, and still deeply loss-making with a $4,129M operating loss.",
+      "yoy": "-6%"
+    }
+  ],
+  "flow": {
+    "revenueM": 64601,
+    "costOfRevenueM": 13369,
+    "grossProfitM": 51232,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 20054,
+        "note": "Building AI, the metaverse and the apps \u2014 up 32% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 3333,
+        "note": "Marketing the apps \u2014 up 17% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 14857,
+        "note": "Includes a $9,890M charge to settle teen mental-health litigation with US State Attorneys General; without it, G&A would have been about $4,967M."
+      }
+    ],
+    "operatingIncomeM": 12988,
+    "otherIncomeM": 13,
+    "taxM": 3141,
+    "netIncomeM": 9860
+  },
+  "oneTimers": [
+    "Q3 2026 G&A includes a $9,890M charge for the August 2026 agreement with US State Attorneys General resolving teen mental-health/social-media litigation (payments of up to ~$18,590M in total). Excluding it: operating income would have been $22,880M, diluted EPS $7.40, effective tax rate 17% (vs 24% reported). Prior-year Q3 net income was itself depressed by an outsized $18,954M tax provision (87% effective tax rate), so the +264% net-income growth overstates the underlying trend."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm"
+    }
+  ],
+  "verdict": "Meta's ads grew 26% to $64.6B, but a $9.9B legal settlement cut operating profit by more than a third \u2014 and the number to watch is the $7.40 it would have earned without it.",
+  "revenueYoY": "+26%",
+  "otherDetail": "Other income of $13M, net.",
+  "footerNote": "Reality Labs lost $4,129M this quarter; full-year 2026 Reality Labs losses are now expected at $18-19B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+26%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.83",
+      "note": "vs $1.05 a year ago"
+    },
+    {
+      "label": "EPS ex-charge",
+      "value": "$7.40",
+      "note": "excluding the $9.9B legal charge"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.64B",
+      "note": "daily active people, +3% YoY"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.62
+    },
+    {
+      "label": "Family of Apps other",
+      "amount": 1.7
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.69
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -20.7
+    },
+    {
+      "label": "R&D",
+      "amount": -31.04
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -5.16
+    },
+    {
+      "label": "G&A",
+      "amount": -23.0
+    },
+    {
+      "label": "Other income",
+      "amount": 0.02
+    },
+    {
+      "label": "Tax",
+      "amount": -4.86
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.26
+    }
+  ],
+  "follow100Note": "R&D eats $31 of every $100 \u2014 Meta spends more on research than it keeps as profit. The rows add to $100.01 due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "title": "Ads are still a money machine",
+      "text": "Advertising grew 26% to $63.1B \u2014 98% of all revenue \u2014 on 10% more impressions and 14% higher prices."
+    },
+    {
+      "stat": "$9.9B",
+      "statColor": "#cf5f4e",
+      "title": "One settlement cut profit by a third",
+      "text": "A $9.9B charge to settle teen mental-health litigation with state attorneys general cut operating profit 37%. Without it, EPS would have been $7.40, not $3.83."
+    },
+    {
+      "stat": "-$4.1B",
+      "statColor": "#5b6b7c",
+      "title": "Reality Labs still burns billions",
+      "text": "The metaverse division lost $4.1B this quarter on just $443M of revenue \u2014 and Meta now expects $18-19B of Reality Labs losses for the full year."
+    }
+  ]
+}
