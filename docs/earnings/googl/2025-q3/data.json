@@ -1,0 +1,161 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-29",
+  "verdict": "Alphabet's revenue rose 16% to $102.3B as Google Cloud grew 34% \u2014 and a $12.8B paper gain on its equity stakes lifted net income 33% to $35.0B, even after a $3.5B European fine.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.87",
+      "note": "+35% vs a year ago"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+34%",
+      "note": "revenue growth"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$3.6B",
+      "note": "vs $1.9B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 87052,
+      "yoy": "+14%",
+      "note": "Search, YouTube, subscriptions and devices. Search revenue grew 15%, YouTube ads 15%, and subscriptions, platforms and devices 21%."
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 15157,
+      "yoy": "+34%",
+      "note": "Cloud computing for businesses \u2014 growth of 34% on enterprise AI infrastructure and AI solutions, and operating profit nearly doubled to $3.6B."
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 344,
+      "yoy": "-11%",
+      "note": "Moonshot projects like Waymo self-driving cars; they lost $1.4B at the operating level."
+    },
+    {
+      "name": "Hedging losses",
+      "amountM": -207,
+      "note": "Losses on Alphabet's currency-hedging program, which exists to smooth out exchange-rate swings on its overseas revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 102346,
+    "costOfRevenueM": 41369,
+    "grossProfitM": 60977,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 15151,
+        "note": "Engineers and AI research; up 22% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 7205,
+        "note": "Selling ads and cloud contracts, and marketing Google's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 7393,
+        "note": "Back-office, legal and admin costs \u2014 including the $3.5B European Commission fine."
+      }
+    ],
+    "operatingIncomeM": 31228,
+    "otherIncomeM": 12759,
+    "taxM": 9008,
+    "netIncomeM": 34979
+  },
+  "otherDetail": "A net gain of $12,759M, primarily net unrealized gains on non-marketable equity securities \u2014 stakes Alphabet holds in private companies.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+34%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is surging",
+      "text": "Google Cloud revenue jumped 34% to $15.2B and its operating profit nearly doubled to $3.6B, driven by enterprise demand for AI infrastructure and AI solutions."
+    },
+    {
+      "stat": "$3.5B",
+      "statColor": "#cf5f4e",
+      "title": "A European fine sat in the costs",
+      "text": "Operating income includes a $3.5B European Commission fine. Excluding it, operating income rose 22% and the operating margin was 33.9%, helped by strong revenue growth and a leaner expense base."
+    },
+    {
+      "stat": "$91-93B",
+      "statColor": "#3e8e5a",
+      "title": "Capex guidance raised again",
+      "text": "Alphabet raised expected 2025 capital spending to $91-93B, up from $85B, as Cloud customers' demand strains capacity. Third-quarter capex was $24.0B and free cash flow was $24.5B."
+    }
+  ],
+  "oneTimers": [
+    "Operating income includes a $3.5B charge related to the European Commission (EC) fine, recorded within general and administrative expenses. Excluding the fine, operating income increased 22% and operating margin was 33.9%.",
+    "Other income includes a $12.8B net gain, primarily net unrealized gains on non-marketable equity securities (stakes Alphabet holds in private companies)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 85.06
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 14.81
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.34
+    },
+    {
+      "label": "Hedging losses",
+      "amount": -0.2
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.42
+    },
+    {
+      "label": "R&D",
+      "amount": -14.8
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.04
+    },
+    {
+      "label": "General & administrative",
+      "amount": -7.22
+    },
+    {
+      "label": "Other income",
+      "amount": 12.47
+    },
+    {
+      "label": "Tax",
+      "amount": -8.8
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 34.18
+    }
+  ]
+}

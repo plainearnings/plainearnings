@@ -1,0 +1,176 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-30",
+  "verdict": "Amazon's sales rose 13% to $180.2B and AWS growth reached 20% \u2014 but $4.3B of one-off charges held operating income flat at $17.4B, while a $9.5B Anthropic gain lifted net income to $21.2B.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.95",
+      "note": "vs $1.43 a year ago"
+    },
+    {
+      "label": "AWS growth",
+      "value": "+20%",
+      "note": "to $33.0B of sales"
+    },
+    {
+      "label": "Operating income",
+      "value": "$17.4B",
+      "note": "$21.7B before special charges"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 106267,
+      "yoy": "+11%",
+      "note": "Stores, subscriptions and advertising in the US, Canada and Mexico; earned $4.8B of operating income \u2014 $7.3B before the FTC settlement charge."
+    },
+    {
+      "name": "International",
+      "amountM": 40896,
+      "yoy": "+14%",
+      "note": "Stores and subscriptions outside North America (+10% before currency effects); earned $1.2B of operating income."
+    },
+    {
+      "name": "AWS",
+      "amountM": 33006,
+      "yoy": "+20%",
+      "note": "Amazon Web Services cloud computing; earned $11.4B of operating income \u2014 two-thirds of Amazon's total, from 18% of its sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 180169,
+    "costOfRevenueM": 88670,
+    "grossProfitM": 91499,
+    "opex": [
+      {
+        "name": "Fulfillment",
+        "amountM": 27679,
+        "note": "Warehouses and delivery \u2014 getting orders to doors."
+      },
+      {
+        "name": "Technology & infrastructure",
+        "amountM": 28962,
+        "note": "Engineers and the tech behind the store and AWS; up 30% YoY with the AI build-out."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 11686,
+        "note": "Advertising Amazon's own services and sales teams."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2875,
+        "note": "Back-office costs: finance, legal and admin."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 2875,
+        "note": "Mostly this quarter's special charges: the $2.5B FTC legal settlement and $1.8B of severance for planned role eliminations.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 17422,
+    "otherIncomeM": 10748,
+    "equityM": -73,
+    "taxM": 6910,
+    "netIncomeM": 21187
+  },
+  "otherDetail": "Total non-operating income of $10,748M: a $9.5B pre-tax gain from revaluing Amazon's investment in Anthropic sits inside other income ($10,186M net), plus $1,100M of interest income less $538M of interest expense. Equity-method activity took off another $73M after tax.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "AWS growth picked up again",
+      "text": "AWS sales grew 20% to $33.0B and produced $11.4B of operating income \u2014 two-thirds of Amazon's total profit from 18% of its sales."
+    },
+    {
+      "stat": "$4.3B",
+      "statColor": "#cf5f4e",
+      "title": "One-off charges in the stores business",
+      "text": "Operating income includes a $2.5B legal settlement with the Federal Trade Commission and $1.8B of severance for planned role eliminations. Without them, operating income would have been $21.7B instead of a flat $17.4B."
+    },
+    {
+      "stat": "$14.8B",
+      "statColor": "#3e8e5a",
+      "title": "The AI build-out swallows the cash",
+      "text": "Free cash flow for the last twelve months fell to $14.8B, from $47.7B, because spending on property and equipment jumped $50.9B year over year \u2014 mostly AI. Operating cash flow still grew 16% to $130.7B."
+    }
+  ],
+  "oneTimers": [
+    "Operating income includes two special charges totaling $4.3B: a $2.5B legal settlement with the Federal Trade Commission and $1.8B in estimated severance costs, primarily for planned role eliminations. Excluding these charges, operating income would have been $21.7B.",
+    "Net income includes a $9.5B pre-tax gain from the revaluation of Amazon's investment in Anthropic, recorded within other income."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 58.98
+    },
+    {
+      "label": "International",
+      "amount": 22.7
+    },
+    {
+      "label": "AWS",
+      "amount": 18.32
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -49.21
+    },
+    {
+      "label": "Fulfillment",
+      "amount": -15.36
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -16.07
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.49
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.6
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -1.6
+    },
+    {
+      "label": "Other income",
+      "amount": 5.97
+    },
+    {
+      "label": "Equity-method activity",
+      "amount": -0.04
+    },
+    {
+      "label": "Tax",
+      "amount": -3.84
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.76
+    }
+  ]
+}

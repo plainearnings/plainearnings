@@ -1,0 +1,150 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-30",
+  "verdict": "Microsoft closed its fiscal year with revenue up 18% to $76.4B as Azure grew 39%, and it kept $27.2B as profit.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.65",
+      "note": "+24% vs a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+39%",
+      "note": "Azure & other cloud services"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$46.7B",
+      "note": "+27% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 33112,
+      "yoy": "+16%",
+      "note": "Microsoft 365 for businesses (commercial cloud +18%), LinkedIn (+9%) and Dynamics 365 (+23%) \u2014 the software businesses sell to companies.",
+      "shortName": "Productivity & Business"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 29878,
+      "yoy": "+26%",
+      "note": "Azure cloud computing and server products; Azure revenue grew 39% as AI demand kept building."
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 13451,
+      "yoy": "+9%",
+      "note": "Windows licences, Xbox, Surface devices and search ads. Windows OEM and Devices revenue rose 3%, Xbox content and services 13%, and search ads 21% outside traffic costs."
+    }
+  ],
+  "flow": {
+    "revenueM": 76441,
+    "costOfRevenueM": 24014,
+    "grossProfitM": 52427,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 8829,
+        "note": "Building new products and AI; up 10% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 7285,
+        "note": "The sales force and marketing; up 7% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1990,
+        "note": "Back-office and legal costs; down 11% YoY."
+      }
+    ],
+    "operatingIncomeM": 34323,
+    "otherIncomeM": -1707,
+    "taxM": 5383,
+    "netIncomeM": 27233
+  },
+  "otherDetail": "A net expense of $1,707M, mostly net losses on investments Microsoft accounts for under the equity method, which held back GAAP profit.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+39%",
+      "statColor": "#3d7bc8",
+      "title": "Azure growth stayed hot",
+      "text": "Azure revenue grew 39% and Microsoft Cloud reached $46.7B, up 27%. Intelligent Cloud overall grew 26% to $29.9B."
+    },
+    {
+      "stat": "$281.7B",
+      "statColor": "#3e8e5a",
+      "title": "A record fiscal year",
+      "text": "Fiscal 2025 revenue was $281.7B, up 15%, and net income was $101.8B, up 16% \u2014 Microsoft's first year past $100B of profit."
+    },
+    {
+      "stat": "$9.4B",
+      "statColor": "#3d7bc8",
+      "title": "Cash returns continued",
+      "text": "Microsoft returned $9.4B to shareholders in dividends and share repurchases during the quarter."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 43.32
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 39.09
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 17.6
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.42
+    },
+    {
+      "label": "R&D",
+      "amount": -11.55
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.53
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.6
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.23
+    },
+    {
+      "label": "Tax",
+      "amount": -7.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 35.63
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-29",
+  "verdict": "Meta's revenue rose 26% to $51.2B on strong ads \u2014 but a one-time $15.9B tax charge from the new U.S. tax law cut reported profit to $2.7B; without it, profit was $18.6B.",
+  "revenueYoY": "+26%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+26%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.05",
+      "note": "$7.25 excluding the one-time tax charge"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$10.6B",
+      "note": "after $19.4B of capex"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.54B",
+      "note": "daily users, +8% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 50082,
+      "yoy": "+26%",
+      "note": "Ads across Facebook, Instagram, WhatsApp and Messenger: impressions grew 14% and the average price per ad rose 10%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 690,
+      "yoy": "+59%",
+      "note": "WhatsApp business messaging, Meta Verified subscriptions and other app income; up 59% YoY.",
+      "shortName": "FoA other"
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 470,
+      "yoy": "+74%",
+      "note": "Quest headsets and AI glasses; sales rose 74% and the unit lost $4.4B at the operating level."
+    }
+  ],
+  "flow": {
+    "revenueM": 51242,
+    "costOfRevenueM": 9206,
+    "grossProfitM": 42036,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 15144,
+        "note": "AI research (Meta Superintelligence Labs), engineers and Reality Labs development; up 35% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 2845,
+        "note": "Selling ads and marketing Meta's apps and devices."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 3512,
+        "note": "Back-office and legal costs."
+      }
+    ],
+    "operatingIncomeM": 20535,
+    "otherIncomeM": 1128,
+    "taxM": 18954,
+    "netIncomeM": 2709
+  },
+  "otherDetail": "Meta reports one combined line, interest and other income (expense), net; this quarter it was a $1,128M net gain.",
+  "follow100Note": "The tax slice is swollen by a one-time, non-cash $15.9B tax charge from the new U.S. tax law. Without it, tax would have taken about $5.90 of each $100 and Meta would have kept about $36.37 as profit. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "title": "Ads kept growing fast",
+      "text": "Advertising revenue rose 26% to $50.1B: ad impressions grew 14% and the average price per ad rose 10%. The Family of Apps earned $25.0B of operating profit."
+    },
+    {
+      "stat": "$15.9B",
+      "statColor": "#cf5f4e",
+      "title": "A one-time tax charge crushed reported profit",
+      "text": "A non-cash tax charge from the new U.S. tax law (remeasuring deferred tax assets under the Corporate Alternative Minimum Tax) pushed Meta's tax rate to 87%. Reported net income was $2.7B; excluding the charge it was $18.6B, and EPS was $7.25 rather than $1.05."
+    },
+    {
+      "stat": "$19.4B",
+      "statColor": "#3e8e5a",
+      "title": "The AI bill keeps climbing",
+      "text": "Capital spending was $19.4B in the quarter, including finance leases, and free cash flow was $10.6B. For 2025 Meta raised its capex plan to $70-72B."
+    }
+  ],
+  "oneTimers": [
+    "A one-time, non-cash income tax charge of $15.93B \u2014 from remeasuring deferred tax assets after the One Big Beautiful Bill Act changed how the U.S. Corporate Alternative Minimum Tax applies \u2014 pushed Meta's effective tax rate to 87% and cut net income to $2.71B (EPS $1.05). Excluding the charge, net income was $18.64B (EPS $7.25) and the tax rate was 14%. Meta expects the law to significantly reduce its U.S. federal cash tax payments for the remainder of 2025 and in future years."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.74
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.35
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -17.97
+    },
+    {
+      "label": "R&D",
+      "amount": -29.55
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -5.55
+    },
+    {
+      "label": "General & administrative",
+      "amount": -6.85
+    },
+    {
+      "label": "Other income",
+      "amount": 2.2
+    },
+    {
+      "label": "Tax",
+      "amount": -36.99
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.29
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-09-27",
+  "reportedDate": "2025-10-30",
+  "verdict": "Apple set a September-quarter record: revenue rose 8% to $102.5B as Services hit an all-time high of $28.8B, and profit reached $27.5B.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.85",
+      "note": "+91% vs a tax-hit year-ago quarter; +13% adjusted"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$49.0B",
+      "note": "September-quarter record, +6%"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$28.8B",
+      "note": "all-time high, +15%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 49025,
+      "yoy": "+6%",
+      "note": "A September-quarter record for iPhone; the iPhone 17 lineup launched in the final week of the quarter."
+    },
+    {
+      "name": "Mac",
+      "amountM": 8726,
+      "yoy": "+13%",
+      "note": "Mac computers; sales rose 13% YoY."
+    },
+    {
+      "name": "iPad",
+      "amountM": 6952,
+      "yoy": "0%",
+      "note": "iPad tablets; flat YoY."
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 9013,
+      "yoy": "0%",
+      "note": "Apple Watch, AirPods, HomePod and accessories; flat YoY.",
+      "shortName": "Wearables & Home"
+    },
+    {
+      "name": "Services",
+      "amountM": 28750,
+      "yoy": "+15%",
+      "note": "The App Store, iCloud, Apple Music, Apple TV, Apple Pay and warranties \u2014 an all-time record, up 15% YoY, and Apple's highest-margin business."
+    }
+  ],
+  "flow": {
+    "revenueM": 102466,
+    "costOfRevenueM": 54125,
+    "grossProfitM": 48341,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 8866,
+        "note": "Designing future products and software; up 14% YoY as Apple invests in AI and new devices."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7048,
+        "note": "Selling and admin costs, including Apple's stores; up 8% YoY."
+      }
+    ],
+    "operatingIncomeM": 32427,
+    "otherIncomeM": 377,
+    "taxM": 5338,
+    "netIncomeM": 27466
+  },
+  "otherDetail": "Other income (expense), net was +$377M: interest and dividend income exceeded interest expense and other items.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$28.8B",
+      "statColor": "#3e8e5a",
+      "title": "Services set another all-time high",
+      "text": "Services reached $28.8B, up 15%, and it is Apple's most profitable money: delivering those services cost $7.1B, against $47.0B of cost on $73.7B of product sales. The installed base of active devices hit a new all-time high."
+    },
+    {
+      "stat": "$416.2B",
+      "statColor": "#3d7bc8",
+      "title": "A record fiscal year",
+      "text": "Fiscal 2025 revenue was a record $416.2B and net income was $112.0B. Apple bought back $90.7B of its own stock during the year."
+    },
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "title": "EPS growth, on a like-for-like basis",
+      "text": "GAAP EPS of $1.85 is up 91% \u2014 but only because the year-ago quarter absorbed a $10.2B one-time tax charge. Excluding that charge from the comparison, Apple says EPS grew 13%."
+    }
+  ],
+  "oneTimers": [
+    "The year-ago comparison is distorted: in Q4 FY24 Apple booked a one-time $10.2B income-tax charge after the European Commission's State Aid decision was reinstated, which cut that quarter's EPS to $0.97. This quarter's GAAP EPS of $1.85 is up 91% against it; on the adjusted basis Apple cites, EPS grew 13%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/a8-kex991q4202509272025.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 47.85
+    },
+    {
+      "label": "Mac",
+      "amount": 8.52
+    },
+    {
+      "label": "iPad",
+      "amount": 6.78
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 8.8
+    },
+    {
+      "label": "Services",
+      "amount": 28.06
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -52.82
+    },
+    {
+      "label": "R&D",
+      "amount": -8.65
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.88
+    },
+    {
+      "label": "Other income",
+      "amount": 0.37
+    },
+    {
+      "label": "Tax",
+      "amount": -5.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.8
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2025-07-27",
+  "reportedDate": "2025-08-27",
+  "verdict": "Nvidia's revenue jumped 56% to $46.7B as its Blackwell AI platform ramped, with Data Center bringing in $41.1B \u2014 and it kept $26.4B of that as profit.",
+  "revenueYoY": "+56%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+56%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.08",
+      "note": "+61% vs $0.67 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$41.1B",
+      "note": "+56% YoY, 88% of revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "72.4%",
+      "note": "vs 75.1% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 41096,
+      "yoy": "+56%",
+      "note": "AI data-center platforms; a record $41.1B, up 56% YoY and 88% of total revenue. Within it, compute was $33.8B (+50%) and networking $7.3B (+98%) on NVLink fabric for Blackwell systems."
+    },
+    {
+      "name": "Edge Computing",
+      "amountM": 5647,
+      "yoy": "+50%",
+      "note": "Gaming ($4.3B, +49%), professional visualization ($601M, +32%), automotive ($586M, +69%) and OEM and other ($173M, +97%); up 50% YoY in total."
+    }
+  ],
+  "flow": {
+    "revenueM": 46743,
+    "costOfRevenueM": 12890,
+    "grossProfitM": 33853,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 4291,
+        "note": "R&D spending on new chips and platforms; up 39% YoY as Nvidia hires and builds faster."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 1122,
+        "note": "Sales and admin costs; up 33% YoY, growing far slower than revenue."
+      }
+    ],
+    "operatingIncomeM": 28440,
+    "otherIncomeM": 2766,
+    "taxM": 4784,
+    "netIncomeM": 26422
+  },
+  "otherDetail": "Interest income of $592M, plus $2,236M of other income \u2014 mostly gains on a publicly-held equity stake Nvidia holds \u2014 less $62M of interest expense.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+56%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center is nearly the whole company",
+      "text": "Data Center revenue was a record $41.1B \u2014 88 cents of every revenue dollar. Compute brought in $33.8B (+50%) and networking $7.3B (+98%) as Blackwell systems ramped."
+    },
+    {
+      "stat": "$54.0B",
+      "statColor": "#3d7bc8",
+      "title": "Guidance points higher still",
+      "text": "Nvidia guided third-quarter revenue to $54.0B, plus or minus 2%, with gross margin around 73.3% \u2014 and assumed no H20 chip sales to China at all."
+    },
+    {
+      "stat": "$10.0B",
+      "statColor": "#3e8e5a",
+      "title": "Cash kept pouring in",
+      "text": "Operating cash flow was $15.4B in the quarter. Nvidia returned $10.0B to shareholders ($9.7B of buybacks plus dividends) and the board added $60B to the buyback plan."
+    }
+  ],
+  "oneTimers": [
+    "A $180M release of previously reserved H20 chip inventory flattered gross profit: without it, non-GAAP gross margin would have been 72.3% rather than 72.7%. There were no H20 sales to China-based customers in the quarter; about $650M of unrestricted H20 chips were sold to a customer outside China."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26pr.htm"
+    },
+    {
+      "label": "CFO commentary (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/q2fy26cfocommentary.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 87.92
+    },
+    {
+      "label": "Edge Computing",
+      "amount": 12.08
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.58
+    },
+    {
+      "label": "R&D",
+      "amount": -9.18
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.4
+    },
+    {
+      "label": "Other income",
+      "amount": 5.92
+    },
+    {
+      "label": "Tax",
+      "amount": -10.23
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 56.53
+    }
+  ]
+}
