@@ -1,0 +1,151 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2025-10-31",
+  "reportedDate": "2025-12-03",
+  "verdict": "Salesforce grew revenue 9% to $10.3B as Agentforce and Data 360 ARR hit nearly $1.4B \u2014 up 114% \u2014 and a $263M paper gain on its investments helped lift net income 37% to $2.09B.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.19",
+      "note": "vs $1.58 a year ago"
+    },
+    {
+      "label": "Backlog (CRPO)",
+      "value": "$29.4B",
+      "note": "current remaining performance obligation, +11% YoY"
+    },
+    {
+      "label": "Investment gain",
+      "value": "$263M",
+      "note": "one-time, on strategic investments"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 9726,
+      "yoy": "+10%",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau, Agentforce and Data 360."
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 533,
+      "yoy": "-6%",
+      "note": "Consulting and training that help customers roll the software out."
+    }
+  ],
+  "flow": {
+    "revenueM": 10259,
+    "costOfRevenueM": 2255,
+    "grossProfitM": 8004,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1433,
+        "note": "Building the platform \u2014 including Agentforce, Salesforce's AI agents, and Data 360 \u2014 up 6% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3456,
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine, up 4% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 667,
+        "note": "Running the company day to day \u2014 down 6% YoY."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 260,
+        "note": "One-off costs of reorganizing teams \u2014 up sharply from $56M a year ago."
+      }
+    ],
+    "operatingIncomeM": 2188,
+    "otherIncomeM": 324,
+    "taxM": 426,
+    "netIncomeM": 2086
+  },
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 94.8
+    },
+    {
+      "label": "Professional services",
+      "amount": 5.2
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.98
+    },
+    {
+      "label": "R&D",
+      "amount": -13.97
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -33.69
+    },
+    {
+      "label": "G&A",
+      "amount": -6.5
+    },
+    {
+      "label": "Restructuring",
+      "amount": -2.53
+    },
+    {
+      "label": "Other income",
+      "amount": 3.16
+    },
+    {
+      "label": "Tax",
+      "amount": -4.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.33
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$1.4B",
+      "statColor": "#3d7bc8",
+      "title": "Agentforce is scaling",
+      "text": "Agentforce and Data 360 ARR reached nearly $1.4B, up 114% YoY, with more than 9,500 paid Agentforce deals closed \u2014 Salesforce's AI agents are becoming a real revenue line, though still small next to $9.7B of subscription revenue."
+    },
+    {
+      "stat": "$59.5B",
+      "statColor": "#3d7bc8",
+      "title": "Backlog keeps climbing",
+      "text": "Remaining performance obligation \u2014 work customers have signed for but not yet paid \u2014 rose 12% to $59.5B, with $29.4B of it due within a year. Future revenue is unusually visible."
+    },
+    {
+      "stat": "$263M",
+      "statColor": "#3e8e5a",
+      "title": "A paper gain padded profit",
+      "text": "Gains on strategic investments added $263M before tax. Core operating income was $2.19B, up 16% from a year ago \u2014 solid growth even without the gain."
+    }
+  ],
+  "oneTimers": [
+    "A $263M gain on strategic investments \u2014 paper (mark-to-market) gains on stakes Salesforce holds in other companies.",
+    "Restructuring charges of $260M \u2014 up from $56M a year ago \u2014 sit inside operating expenses."
+  ],
+  "otherDetail": "A $263M paper gain on strategic investments (stakes Salesforce holds in other companies), plus $61M of other income, net \u2014 mostly interest earned, net of interest on Salesforce's debt.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000234/crm-q3fy26xexhibit991.htm"
+    }
+  ]
+}

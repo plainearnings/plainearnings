@@ -1,0 +1,175 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-12",
+  "verdict": "Coinbase's revenue fell 22% from a year ago to $1.78B in a softer crypto market, and paper losses on the crypto and strategic investments it holds \u2014 $718M and $395M \u2014 turned a $274M operating profit into a $667M net loss.",
+  "revenueYoY": "-22%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-22%",
+      "note": "vs a year ago \u2014 a softer crypto market"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$2.49",
+      "note": "diluted \u2014 a loss quarter"
+    },
+    {
+      "label": "Crypto investment losses",
+      "value": "-$718M",
+      "note": "paper losses on crypto held for investment"
+    },
+    {
+      "label": "Cash & equivalents",
+      "value": "$11.3B",
+      "note": "the cushion that covered the loss"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 982.652,
+      "yoy": "-37%",
+      "note": "Fees from crypto trading \u2014 consumer $734M, institutional $185M, other $64M. Trading slowed as crypto prices fell late in 2025."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 727.387,
+      "yoy": "+13%",
+      "note": "Steadier income: stablecoin revenue $364M, blockchain rewards $152M, interest and finance fees $60M, and other services $152M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 71.09,
+      "yoy": "-5%",
+      "note": "Interest earned on Coinbase's own corporate cash."
+    }
+  ],
+  "flow": {
+    "revenueM": 1781.129,
+    "costOfRevenueM": 218.625,
+    "grossProfitM": 1562.504,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 497.33,
+        "note": "Building the platform \u2014 the biggest running cost, up 35% YoY as Coinbase kept hiring through the downturn."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 445.863,
+        "note": "Running the company \u2014 legal, compliance and the back office. Includes $7M of other operating income Coinbase reports on its own line, netted here."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 314.777,
+        "note": "Advertising, USDC rewards and winning customers \u2014 up 39% YoY."
+      },
+      {
+        "name": "Crypto losses (operations)",
+        "amountM": 30.781,
+        "note": "Paper losses on crypto Coinbase holds to run its business (staking, payments) \u2014 marked to market every quarter."
+      }
+    ],
+    "operatingIncomeM": 273.753,
+    "otherIncomeM": -1160.06,
+    "taxM": -219.574,
+    "netIncomeM": -666.733
+  },
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 55.17
+    },
+    {
+      "label": "Subscriptions & services",
+      "amount": 40.84
+    },
+    {
+      "label": "Other revenue",
+      "amount": 3.99
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -12.27
+    },
+    {
+      "label": "Technology & development",
+      "amount": -27.92
+    },
+    {
+      "label": "G&A",
+      "amount": -25.03
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -17.67
+    },
+    {
+      "label": "Crypto losses (operations)",
+      "amount": -1.73
+    },
+    {
+      "label": "Interest expense",
+      "amount": -1.27
+    },
+    {
+      "label": "Crypto investment losses",
+      "amount": -40.32
+    },
+    {
+      "label": "Other expense",
+      "amount": -23.54
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 12.33
+    },
+    {
+      "label": "Net loss",
+      "amount": -37.43
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, $40.32 of the damage was paper losses on crypto it holds as an investment \u2014 non-cash marks that reverse if crypto prices recover. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-$718M",
+      "statColor": "#d96a57",
+      "title": "Paper losses drove the red ink",
+      "text": "The core business earned a $274M operating profit, but the crypto Coinbase holds as an investment lost $718M on paper and its strategic investments lost another $395M \u2014 together they turned a profitable quarter into a $667M net loss. Adjusted net income was $178M."
+    },
+    {
+      "stat": "+13%",
+      "statColor": "#3e8e5a",
+      "title": "Subscriptions kept growing",
+      "text": "Subscription and services revenue rose 13% year over year to $727M \u2014 stablecoin revenue alone was $364M \u2014 cushioning a 37% drop in trading revenue as crypto markets cooled."
+    },
+    {
+      "stat": "$11.3B",
+      "statColor": "#3d7bc8",
+      "title": "Cash covered the loss",
+      "text": "Coinbase ended 2025 with $11.3B of cash and equivalents, and still bought back $850M of its own shares in the quarter \u2014 the loss came out of a deep cushion."
+    }
+  ],
+  "oneTimers": [
+    "A $718M mark-to-market loss on crypto assets held for investment \u2014 non-cash, and it reverses if crypto prices rise.",
+    "A $395M loss on strategic investments, including Coinbase's stake in Circle (CRCL).",
+    "Losses of $31M on crypto held for operations, also mark-to-market."
+  ],
+  "otherDetail": "A $718M loss on crypto assets Coinbase holds as an investment, plus $419M of other expense \u2014 mostly a $395M loss on strategic investments including Circle \u2014 and $23M of interest expense.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. The quarter was a net loss despite an operating profit, so the slate 'Covered by cash on hand' block is the $667M net loss, funded from Coinbase's balance sheet. 'Other operating income, net' of $7M is folded into G&A, as on Coinbase's other pages. Figures are from Coinbase's Q4 2025 shareholder letter (Exhibit 99.1) and Form 10-K.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/q425shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-K financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm"
+    }
+  ]
+}
