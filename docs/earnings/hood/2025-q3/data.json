@@ -1,0 +1,169 @@
+{
+  "company": "Robinhood",
+  "flow": {
+    "costOfRevenueM": 56,
+    "grossProfitM": 1218,
+    "netIncomeM": 556,
+    "operatingIncomeM": 635,
+    "opex": [
+      {
+        "amountM": 237,
+        "name": "Technology and development",
+        "note": "Engineers and the platform \u2014 up 16%."
+      },
+      {
+        "amountM": 33,
+        "name": "Operations",
+        "note": "Customer support and running the service \u2014 up 22%."
+      },
+      {
+        "amountM": 26,
+        "name": "Provision for credit losses",
+        "note": "Money set aside for customer loans that may not be repaid."
+      },
+      {
+        "amountM": 102,
+        "name": "Marketing",
+        "note": "Advertising and promotions to win new customers \u2014 up 73%."
+      },
+      {
+        "amountM": 185,
+        "name": "General & administrative",
+        "note": "Legal, finance and head office \u2014 up 39%, partly on payroll taxes from the CEO's vesting stock awards."
+      }
+    ],
+    "otherIncomeM": -1,
+    "revenueM": 1274,
+    "taxM": 78
+  },
+  "follow100": [
+    {
+      "amount": 57.3,
+      "label": "Transaction-based revenues"
+    },
+    {
+      "amount": 35.79,
+      "label": "Net interest revenues"
+    },
+    {
+      "amount": 6.91,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -4.4,
+      "label": "Brokerage and transaction"
+    },
+    {
+      "amount": -18.6,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -2.59,
+      "label": "Operations"
+    },
+    {
+      "amount": -2.04,
+      "label": "Provision for credit losses"
+    },
+    {
+      "amount": -8.01,
+      "label": "Marketing"
+    },
+    {
+      "amount": -14.52,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.08,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.12,
+      "label": "Tax"
+    },
+    {
+      "amount": 43.64,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Net income of $556M is attributable to Robinhood; there was no non-controlling interest this quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+100% YoY",
+      "value": "$1.27B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "+259% YoY",
+      "value": "$0.61"
+    },
+    {
+      "label": "Total Platform Assets",
+      "note": "+119% YoY",
+      "value": "$333B"
+    },
+    {
+      "label": "Gold Subscribers",
+      "note": "+77% YoY",
+      "value": "3.9M"
+    }
+  ],
+  "oneTimers": [
+    "General and administrative costs rose 39% to $185M, partly on payroll taxes triggered when the CEO's 2019 market-based stock awards vested as the share price climbed \u2014 a cost that grows with the stock price, not with the business."
+  ],
+  "otherDetail": "Other income (loss), net was \u2212$1M \u2014 small next to the main business.",
+  "periodEnd": "2025-09-30",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-11-05",
+  "revenueYoY": "+100%",
+  "segments": [
+    {
+      "amountM": 730,
+      "name": "Transaction-based revenues",
+      "note": "What customers pay to trade \u2014 crypto brought in $268M, options $304M, equities $86M.",
+      "yoy": "+129%"
+    },
+    {
+      "amountM": 456,
+      "name": "Net interest revenues",
+      "note": "Interest on customers' cash and margin loans, plus securities lending.",
+      "yoy": "+66%"
+    },
+    {
+      "amountM": 88,
+      "name": "Other revenues",
+      "note": "Robinhood Gold subscriptions and other smaller income.",
+      "yoy": "+100%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000309/q32025robinhoodexhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$333B",
+      "statColor": "#3e8e5a",
+      "text": "Total Platform Assets rose 119% to $333B, with a record $20.4B of net deposits in the quarter and $68.3B over the past twelve months.",
+      "title": "Customers keep piling in assets"
+    },
+    {
+      "stat": "3.9M",
+      "statColor": "#5b6b7c",
+      "text": "Robinhood Gold subscribers rose 77% to a record 3.9M, helping Other revenues double to $88M; average revenue per user rose 82% to $191.",
+      "title": "Gold becomes a real business"
+    },
+    {
+      "stat": "$268M",
+      "statColor": "#5b6b7c",
+      "text": "Crypto revenue rose more than 300% to $268M \u2014 over a third of all transaction revenue \u2014 alongside options at $304M, up 50%, and equities at $86M, up 132%.",
+      "title": "Crypto is the swing factor"
+    }
+  ],
+  "ticker": "HOOD",
+  "verdict": "Robinhood's revenue doubled to a record $1.27B as crypto and options trading boomed \u2014 and profit more than tripled to $556M, with 11 business lines now each bringing in roughly $100M or more a year."
+}

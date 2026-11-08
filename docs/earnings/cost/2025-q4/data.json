@@ -1,0 +1,123 @@
+{
+  "company": "Costco",
+  "flow": {
+    "costOfRevenueM": 75037,
+    "grossProfitM": 11119,
+    "netIncomeM": 2610,
+    "operatingIncomeM": 3341,
+    "opex": [
+      {
+        "amountM": 7778,
+        "name": "Selling, general & administrative",
+        "note": "Running the warehouses and the back office."
+      }
+    ],
+    "otherIncomeM": 169,
+    "revenueM": 86156,
+    "taxM": 900
+  },
+  "follow100": [
+    {
+      "amount": 98.0,
+      "label": "Net sales"
+    },
+    {
+      "amount": 2.0,
+      "label": "Membership fees"
+    },
+    {
+      "amount": -87.09,
+      "label": "Merchandise costs"
+    },
+    {
+      "amount": -9.03,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": 0.2,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.04,
+      "label": "Tax"
+    },
+    {
+      "amount": 3.03,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Costco's merchandise costs include buying, freight and shrink (lost or damaged goods) \u2014 the direct cost of what's on the shelves. The quarter is 16 weeks; the fiscal year ended August 31, 2025.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+8.1% YoY",
+      "value": "$86.2B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "vs $5.29 a year ago",
+      "value": "$5.87"
+    },
+    {
+      "label": "Comparable sales",
+      "note": "total company, adjusted for fuel and currency",
+      "value": "+6.4%"
+    },
+    {
+      "label": "Membership fees",
+      "note": "+14% YoY",
+      "value": "$1.72B"
+    }
+  ],
+  "oneTimers": [
+    "The year-ago quarter included a one-time $63M tax benefit ($0.14 per share) from a transfer pricing settlement and reserve true-ups \u2014 so this year's 11% profit growth was earned against a flattered comparison."
+  ],
+  "otherDetail": "Interest income and other of $215M, less $46M of interest expense.",
+  "periodEnd": "2025-08-31",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-09-25",
+  "revenueYoY": "+8.1%",
+  "segments": [
+    {
+      "amountM": 84432,
+      "name": "Net sales",
+      "note": "Everything sold in the warehouses and online.",
+      "yoy": "+8.0%"
+    },
+    {
+      "amountM": 1724,
+      "name": "Membership fees",
+      "note": "Annual memberships \u2014 almost pure profit once collected.",
+      "yoy": "+14.0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000093/costex9918-k92525.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.4%",
+      "statColor": "#3e8e5a",
+      "text": "Comparable sales rose 6.4% after adjusting for fuel prices and currency \u2014 U.S. +6.0%, Canada +8.3%, other international +7.2% \u2014 and e-commerce grew 13.5%.",
+      "title": "Shoppers kept coming"
+    },
+    {
+      "stat": "$1.72B",
+      "statColor": "#5b6b7c",
+      "text": "Membership fees rose 14% to $1.72B \u2014 money that costs almost nothing to collect and alone covers more than half of the quarter's $3.3B operating profit.",
+      "title": "Membership is the profit engine"
+    },
+    {
+      "stat": "914",
+      "statColor": "#5b6b7c",
+      "text": "Costco ended the year with 914 warehouses, 629 of them in the U.S. and Puerto Rico, and full-year profit of $8.1B, up 10%.",
+      "title": "Still expanding"
+    }
+  ],
+  "ticker": "COST",
+  "verdict": "Costco's sales rose 8.0% to $84.4B in its 16-week fourth quarter as comparable sales grew 6.4% \u2014 and with $1.72B of nearly cost-free membership fees on top, profit rose 11% to $2.6B."
+}
