@@ -1,0 +1,153 @@
+{
+  "company": "Eli Lilly",
+  "flow": {
+    "costOfRevenueM": 2448,
+    "grossProfitM": 13110,
+    "netIncomeM": 5660,
+    "operatingIncomeM": 6867,
+    "opex": [
+      {
+        "amountM": 3336,
+        "name": "Research & development",
+        "note": "Developing new medicines \u2014 up 23% as the pipeline widened."
+      },
+      {
+        "amountM": 2753,
+        "name": "Marketing, selling & administrative",
+        "note": "Sales teams, advertising and running the company \u2014 up 30% to support new launches."
+      },
+      {
+        "amountM": 154,
+        "name": "Acquired IPR&D",
+        "note": "Research bought in from other companies, expensed on the spot."
+      }
+    ],
+    "otherIncomeM": -91,
+    "revenueM": 15558,
+    "taxM": 1116
+  },
+  "follow100": [
+    {
+      "amount": 33.42,
+      "label": "Mounjaro"
+    },
+    {
+      "amount": 21.73,
+      "label": "Zepbound"
+    },
+    {
+      "amount": 44.85,
+      "label": "All other medicines"
+    },
+    {
+      "amount": -15.73,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -21.44,
+      "label": "Research & development"
+    },
+    {
+      "amount": -17.7,
+      "label": "Marketing, selling & administrative"
+    },
+    {
+      "amount": -0.99,
+      "label": "Acquired IPR&D"
+    },
+    {
+      "amount": -0.58,
+      "label": "Other expense"
+    },
+    {
+      "amount": -7.17,
+      "label": "Tax"
+    },
+    {
+      "amount": 36.38,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $5.68B (EPS $6.31).",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+38% YoY",
+      "value": "$15.6B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $3.28 a year ago",
+      "value": "$6.29"
+    },
+    {
+      "label": "Mounjaro",
+      "note": "+68% YoY",
+      "value": "$5.2B"
+    },
+    {
+      "label": "Net income",
+      "note": "+91% YoY",
+      "value": "$5.7B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Net other expense of $91M \u2014 interest costs of $209M, partly offset by $118M of net other income.",
+  "periodEnd": "2025-06-30",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2025-08-07",
+  "revenueYoY": "+38%",
+  "segments": [
+    {
+      "amountM": 5199,
+      "name": "Mounjaro",
+      "note": "The diabetes and weight-loss shot \u2014 sales nearly doubled outside the U.S. as it entered new markets.",
+      "yoy": "+68%"
+    },
+    {
+      "amountM": 3381,
+      "name": "Zepbound",
+      "note": "The weight-loss shot sold in the U.S. \u2014 sales nearly tripled on strong demand.",
+      "yoy": "+172%"
+    },
+    {
+      "amountM": 6978,
+      "name": "All other medicines",
+      "note": "Everything else Lilly sells, including Verzenio at $1.5B.",
+      "yoy": "flat"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000202/q225lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended June 30, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000204/lly-20250630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$8.6B",
+      "statColor": "#3e8e5a",
+      "text": "Mounjaro ($5.2B) and Zepbound ($3.4B) together brought in 55% of Lilly's revenue \u2014 Mounjaro grew 68% and Zepbound 172%.",
+      "title": "Two drugs are now most of the company"
+    },
+    {
+      "stat": "84.3%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin rose 3.5 points to 84.3% on better production costs and a richer product mix \u2014 so profit grew 91%, much faster than revenue.",
+      "title": "Margins widened"
+    },
+    {
+      "stat": "$60\u201362B",
+      "statColor": "#5b6b7c",
+      "text": "After the strong first half, Lilly lifted its full-year 2025 revenue guidance to $60.0\u201362.0B.",
+      "title": "Guidance raised"
+    }
+  ],
+  "ticker": "LLY",
+  "verdict": "Lilly's revenue jumped 38% to $15.6B as Mounjaro and Zepbound kept surging \u2014 and wider margins turned that growth into $5.7B of profit, up 91%."
+}

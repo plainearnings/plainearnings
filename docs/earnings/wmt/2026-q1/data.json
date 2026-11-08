@@ -1,0 +1,152 @@
+{
+  "company": "Walmart",
+  "flow": {
+    "costOfRevenueM": 124303,
+    "equityM": -152,
+    "grossProfitM": 41306,
+    "netIncomeM": 4487,
+    "operatingIncomeM": 7135,
+    "opex": [
+      {
+        "amountM": 34171,
+        "name": "Operating, selling, general & administrative",
+        "note": "Running the stores, the supply chain and the back office."
+      }
+    ],
+    "otherIncomeM": -1141,
+    "revenueM": 165609,
+    "taxM": 1355
+  },
+  "follow100": [
+    {
+      "amount": 67.73,
+      "label": "Walmart U.S."
+    },
+    {
+      "amount": 17.97,
+      "label": "Walmart International"
+    },
+    {
+      "amount": 13.32,
+      "label": "Sam's Club U.S."
+    },
+    {
+      "amount": 0.98,
+      "label": "Membership & other income"
+    },
+    {
+      "amount": -75.06,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -20.63,
+      "label": "Operating, selling, general & administrative"
+    },
+    {
+      "amount": -0.69,
+      "label": "Other losses and interest"
+    },
+    {
+      "amount": -0.82,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.09,
+      "label": "Noncontrolling interests"
+    },
+    {
+      "amount": 2.71,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net profit shown is the $4,487M attributable to Walmart; consolidated net income was $4,639M, after $152M attributable to noncontrolling interests.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+2.5% YoY",
+      "value": "$165.6B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.63 a year ago; adjusted EPS was $0.61",
+      "value": "$0.56"
+    },
+    {
+      "label": "Operating income",
+      "note": "+4.3% YoY",
+      "value": "$7.1B"
+    },
+    {
+      "label": "eCommerce sales",
+      "note": "global growth, led by pickup & delivery and the marketplace",
+      "value": "+22%"
+    }
+  ],
+  "oneTimers": [
+    "Paper losses on investments: 'Other (gains) and losses' was a $597M loss, mostly from marking down the value of equity stakes Walmart holds \u2014 a year ago the same line was a $794M gain. The stores themselves had a solid quarter."
+  ],
+  "otherDetail": "A $597M loss on equity and other investments, plus $544M of net interest expense. Noncontrolling interests took a $152M share of the profit, which is removed to reach profit attributable to Walmart.",
+  "periodEnd": "2025-04-30",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "reportedDate": "2025-05-15",
+  "revenueYoY": "+2.5%",
+  "segments": [
+    {
+      "amountM": 112163,
+      "name": "Walmart U.S.",
+      "note": "The main store business \u2014 comparable sales rose 4.5%, led by grocery and health & wellness.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 29754,
+      "name": "Walmart International",
+      "note": "Stores outside the U.S. \u2014 China grew while Mexico and Central America sales slipped in dollar terms.",
+      "yoy": "flat"
+    },
+    {
+      "amountM": 22064,
+      "name": "Sam's Club U.S.",
+      "note": "The warehouse-club business.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 1628,
+      "name": "Membership & other income",
+      "note": "Membership fees and other income \u2014 nearly pure profit.",
+      "yoy": "+4%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000069/earningsreleasefy26q1.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended April 30, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000090/wmt-20250430.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$7.1B",
+      "statColor": "#5b6b7c",
+      "text": "The retail business itself improved \u2014 U.S. comparable sales rose 4.5% and the gross profit rate widened \u2014 even as headline profit fell on paper investment losses.",
+      "title": "Operating income rose 4.3%"
+    },
+    {
+      "stat": "+22%",
+      "statColor": "#3e8e5a",
+      "text": "Online sales grew 22% globally, and the global advertising business grew 50% including VIZIO \u2014 higher-margin income growing far faster than store sales.",
+      "title": "eCommerce is the growth engine"
+    },
+    {
+      "stat": "$0.61",
+      "statColor": "#5b6b7c",
+      "text": "Excluding the paper investment losses and other items, adjusted EPS was $0.61 versus GAAP EPS of $0.56.",
+      "title": "Adjusted EPS tells the cleaner story"
+    }
+  ],
+  "ticker": "WMT",
+  "verdict": "Walmart's revenue grew 2.5% to $165.6B and operating income rose 4% \u2014 but a $597M paper loss on its investment stakes cut headline profit 12% to $4.5B."
+}
