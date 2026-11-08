@@ -1,0 +1,238 @@
+{
+  "ticker": "TROW",
+  "company": "T. Rowe Price",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "T. Rowe Price grew revenue 6% to $2.0B on higher markets, but investment gains shrank and clients pulled $28.3B, leaving profit for shareholders down 5% at $612.3M.",
+  "revenueYoY": "+5.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2,004.9M",
+      "note": "Net revenues, +5.9% YoY"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.79",
+      "note": "vs $2.87 a year ago; adjusted diluted EPS was $2.86"
+    },
+    {
+      "label": "Assets under management",
+      "value": "$1.86T",
+      "note": "At Sep 30, 2026, +5.4% YoY; average AUM was $1,887.2B"
+    },
+    {
+      "label": "Net client flows",
+      "value": "-$28.3B",
+      "note": "Net outflows in the quarter, mostly from equity funds"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Investment advisory fees",
+      "amountM": 1796.4,
+      "yoy": "+6%",
+      "note": "Fees for managing client money \u2014 equity $1,047.4M, multi-asset $537.6M, fixed income $118.7M and alternatives $92.7M. The average fee rate slipped to 37.8 basis points (0.378% a year)."
+    },
+    {
+      "name": "Capital allocation-based income",
+      "amountM": 59.9,
+      "yoy": "+43%",
+      "note": "Mostly the rise in accrued carried interest \u2014 the firm's share of profits in some funds \u2014 of $63.1M, less $3.2M of acquisition-related amortization and impairments."
+    },
+    {
+      "name": "Administrative & other fees",
+      "amountM": 141.3,
+      "yoy": "-4%",
+      "note": "Administrative, distribution, servicing and other fees, including retirement-plan recordkeeping."
+    },
+    {
+      "name": "Performance-based advisory fees",
+      "amountM": 7.3,
+      "yoy": "+14%",
+      "note": "Extra fees earned when funds beat their targets, mostly in alternatives strategies."
+    }
+  ],
+  "flow": {
+    "revenueM": 2004.9,
+    "costOfRevenueM": 0,
+    "grossProfitM": 2004.9,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 664.7,
+        "note": "Pay and benefits for investment staff and everyone else \u2014 the firm's biggest cost."
+      },
+      {
+        "name": "Technology & occupancy",
+        "amountM": 205.1,
+        "note": "Technology, offices and facilities, including outsourced technology services."
+      },
+      {
+        "name": "Distribution & servicing",
+        "amountM": 111.0,
+        "note": "Paying distributors and servicing client accounts."
+      },
+      {
+        "name": "G&A & other",
+        "amountM": 95.5,
+        "note": "General, administrative and other running costs."
+      },
+      {
+        "name": "Product & recordkeeping",
+        "amountM": 79.3,
+        "note": "Product and retirement-plan recordkeeping costs."
+      },
+      {
+        "name": "Capital allocation compensation",
+        "amountM": 23.1,
+        "note": "The share of carried-interest income passed on to employees as pay."
+      },
+      {
+        "name": "Advertising & promotion",
+        "amountM": 21.7,
+        "note": "Advertising and promoting the firm's funds and services."
+      },
+      {
+        "name": "Acquisition amortization & other",
+        "amountM": 15.0,
+        "note": "Acquisition-related amortization, impairments and other costs."
+      },
+      {
+        "name": "Retention arrangements",
+        "amountM": 14.2,
+        "note": "Pay tied to keeping staff who joined through acquisitions."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 4.0,
+        "note": "Restructuring charge in the quarter, down from $28.5M a year ago."
+      },
+      {
+        "name": "Deferred compensation change",
+        "amountM": 1.5,
+        "note": "Market-related rise in deferred compensation liabilities \u2014 pay owed to staff that moves with markets."
+      }
+    ],
+    "operatingIncomeM": 769.8,
+    "otherIncomeM": 17.6,
+    "equityM": 15.2,
+    "taxM": 190.3,
+    "netIncomeM": 612.3
+  },
+  "otherDetail": "Non-operating income of $17.6M: $32.3M of net gains on investments and $3.3M of other gains, partly offset by $18.0M of net losses on consolidated investment products. Total net income was $597.1M; because redeemable noncontrolling interests bore a $15.2M loss, net income attributable to T. Rowe Price Group was $612.3M.",
+  "oneTimers": [
+    "Restructuring charges were $4.0M in the quarter, down from $28.5M a year ago. On the company's adjusted basis \u2014 which excludes restructuring, acquisition-related items and similar costs \u2014 net income attributable was $629.5M and diluted EPS was $2.86, versus $612.3M and $2.79 on a GAAP basis."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1113169/000111316926000003/earningsreleaseq32026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1113169/000111316926000005/trow-20260930.htm"
+    }
+  ],
+  "footerNote": "T. Rowe Price has no cost-of-revenue line \u2014 all of its costs are operating expenses, so gross profit equals revenue in the flow. Net income in the flow is the $612.3M attributable to T. Rowe Price Group, Inc.; total net income was $597.1M before a $15.2M loss allocated to redeemable noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "title": "Fees grew with markets",
+      "text": "Investment advisory fees rose 5.8% to $1,796.4M as average assets under management rose 9.5% to $1,887.2B, partly offset by a lower average fee rate of 37.8 basis points."
+    },
+    {
+      "stat": "-$28.3B",
+      "statColor": "#b8443c",
+      "title": "Clients kept pulling money out",
+      "text": "Net client outflows were $28.3B in the quarter, including $25.6B from equity. Ending AUM fell 1.6% in the quarter to $1,862.7B despite the revenue growth."
+    },
+    {
+      "stat": "$612M",
+      "statColor": "#5b6b7c",
+      "title": "Profit dipped on smaller investment gains",
+      "text": "Non-operating income fell to $17.6M from $238.4M a year ago, when investment gains were much larger. Net income for shareholders fell 5.2% to $612.3M, while operating income rose 19.7% to $769.8M."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Investment advisory fees",
+      "amount": 128.51
+    },
+    {
+      "label": "Capital allocation income",
+      "amount": 2.99
+    },
+    {
+      "label": "Administrative & other fees",
+      "amount": 7.05
+    },
+    {
+      "label": "Performance fees",
+      "amount": 0.36
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -33.15
+    },
+    {
+      "label": "Technology & occupancy",
+      "amount": -10.23
+    },
+    {
+      "label": "Distribution & servicing",
+      "amount": -5.54
+    },
+    {
+      "label": "G&A & other",
+      "amount": -4.76
+    },
+    {
+      "label": "Product & recordkeeping",
+      "amount": -3.96
+    },
+    {
+      "label": "Capital allocation compensation",
+      "amount": -1.15
+    },
+    {
+      "label": "Advertising & promotion",
+      "amount": -1.08
+    },
+    {
+      "label": "Acquisition amortization & other",
+      "amount": -0.75
+    },
+    {
+      "label": "Retention arrangements",
+      "amount": -0.71
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.2
+    },
+    {
+      "label": "Deferred compensation change",
+      "amount": -0.07
+    },
+    {
+      "label": "Other income",
+      "amount": 0.88
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": 0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -9.49
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.54
+    }
+  ]
+}

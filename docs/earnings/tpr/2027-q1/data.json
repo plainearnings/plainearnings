@@ -1,0 +1,127 @@
+{
+  "ticker": "TPR",
+  "company": "Tapestry",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-11-05",
+  "verdict": "Tapestry's sales rose 11% to $1.9B and profit rose 31% to $360M, as Coach grew 16% and margins widened, more than covering a 10% drop at Kate Spade.",
+  "revenueYoY": "+11%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1,894M",
+      "note": "+11% YoY (+12% pro forma, excluding the sold Stuart Weitzman brand)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.76",
+      "note": "vs $1.28 a year ago, +38%; non-GAAP EPS was $1.82"
+    },
+    {
+      "label": "Coach sales",
+      "value": "$1,661M",
+      "note": "+16% YoY \u2014 88% of all sales"
+    },
+    {
+      "label": "Gross margin",
+      "value": "78.6%",
+      "note": "Up 2.3 points YoY (230 basis points)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Coach",
+      "amountM": 1661,
+      "yoy": "+16%",
+      "note": "Handbags, accessories and leather goods under the Coach brand \u2014 the bulk of the company. Gross profit was $1,336M and operating income $590M."
+    },
+    {
+      "name": "Kate Spade",
+      "amountM": 233,
+      "yoy": "-10%",
+      "note": "The Kate Spade New York brand. Sales fell 10% and it lost $20M at the operating line, including distribution-network change costs."
+    }
+  ],
+  "flow": {
+    "revenueM": 1894,
+    "costOfRevenueM": 406,
+    "grossProfitM": 1488,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 1064,
+        "note": "Selling, general and administrative \u2014 stores, marketing and running the company, including $146M of unallocated corporate costs."
+      }
+    ],
+    "operatingIncomeM": 424,
+    "otherIncomeM": -13,
+    "taxM": 51,
+    "netIncomeM": 360
+  },
+  "otherDetail": "Interest expense, net, of $13M; other income was $0M in the quarter.",
+  "oneTimers": [
+    "Distribution network optimization costs \u2014 moving from the Ohio fulfillment center to a third-party facility in Pennsylvania \u2014 cut GAAP profit by $15M before tax ($11M after tax). Excluding them, non-GAAP EPS was $1.82 versus $1.76 on a GAAP basis."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1116132/000114036126042034/ef20084882_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1116132/000111613226000031/tpr-20260926.htm"
+    }
+  ],
+  "footerNote": "Tapestry's fiscal year ends around the start of July, so this is Q1 of fiscal 2027. Stuart Weitzman was sold on August 4, 2025 and had no sales this quarter, so the segments are Coach and Kate Spade only.",
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Coach carried the quarter",
+      "text": "Coach sales rose 16% to $1,661M \u2014 88% of Tapestry's total \u2014 and Coach operating income was $590M, a 36% margin on its sales."
+    },
+    {
+      "stat": "78.6%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened",
+      "text": "Gross margin expanded to 78.6% from 76.3% a year ago, and operating margin rose to 22.4% from 19.3%. GAAP EPS rose 38% to $1.76."
+    },
+    {
+      "stat": "-10%",
+      "statColor": "#5b6b7c",
+      "title": "Kate Spade shrank",
+      "text": "Kate Spade sales fell 10% to $233M and the brand lost $20M at the operating line. Tapestry still returned about $700M to shareholders in the quarter and raised its full-year outlook."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Coach",
+      "amount": 149.69
+    },
+    {
+      "label": "Kate Spade",
+      "amount": 12.3
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -21.44
+    },
+    {
+      "label": "SG&A",
+      "amount": -56.18
+    },
+    {
+      "label": "Interest, net",
+      "amount": -0.69
+    },
+    {
+      "label": "Tax",
+      "amount": -2.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.01
+    }
+  ]
+}

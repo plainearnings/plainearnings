@@ -1,0 +1,164 @@
+{
+  "ticker": "TER",
+  "company": "Teradyne",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-27",
+  "reportedDate": "2026-10-27",
+  "verdict": "Teradyne's revenue jumped 70% to $1.31B as AI chip-testing demand surged \u2014 semiconductor test alone brought in $1.07B, and profit nearly tripled to $342M.",
+  "revenueYoY": "+70%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+70%",
+      "note": "$1.31B vs $769M a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.17",
+      "note": "vs $0.75 a year ago"
+    },
+    {
+      "label": "Semiconductor Test",
+      "value": "$1.07B",
+      "note": "+77% YoY, 82% of revenue"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$314M",
+      "note": "$86M spent on property & equipment in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor Test",
+      "amountM": 1072,
+      "yoy": "+77%",
+      "note": "Machines that test computer chips \u2014 record Memory and Integrated Systems Test sales driven by AI chips and data centers."
+    },
+    {
+      "name": "Product Test",
+      "amountM": 138,
+      "yoy": "+56%",
+      "note": "Testing finished products and systems, including hard-disk drives, wireless and defense work \u2014 helped by AI demand."
+    },
+    {
+      "name": "Robotics",
+      "amountM": 96,
+      "yoy": "+28%",
+      "note": "Warehouse and factory robots (MiR and Universal Robots) \u2014 its best third quarter ever, and the unit turned profitable."
+    }
+  ],
+  "flow": {
+    "revenueM": 1306,
+    "costOfRevenueM": 535,
+    "grossProfitM": 771,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 199,
+        "note": "Selling the testers and robots and running the company \u2014 includes $3.7M of costs for a new ERP (business software) system."
+      },
+      {
+        "name": "Engineering & development",
+        "amountM": 163,
+        "note": "Designing the next generation of test machines and robots."
+      },
+      {
+        "name": "Acquired intangible amortization",
+        "amountM": 5,
+        "note": "Spreading the cost of patents and technology bought in past acquisitions over their useful lives.",
+        "compact": true
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 2,
+        "note": "One-off restructuring and deal-related charges.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 402,
+    "otherIncomeM": 2,
+    "equityM": -2,
+    "taxM": 60,
+    "netIncomeM": 342
+  },
+  "otherDetail": "Interest and other income of $2M, net. Below that line, $3M of equity earnings from an affiliate, minus $5M of profit belonging to noncontrolling interests, roughly cancel out \u2014 so the chart shows almost no other-income step.",
+  "oneTimers": [
+    "Non-GAAP EPS was $2.29 vs GAAP $2.17 \u2014 the gap is $5M of acquired-intangible amortization, $2M of restructuring and other charges, and their tax effects.",
+    "Cost of revenue included a $10.7M net charge for excess and obsolete inventory \u2014 a $10.9M provision, partly offset by selling stock that had previously been written down."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526434981/ter-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm"
+    }
+  ],
+  "footerNote": "Figures are rounded to the nearest $M from a statement reported in $ thousands (revenue was $1,305,950 thousand). Net income is the amount attributable to Teradyne ($342M); consolidated net income was $348M before $5M belonging to noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+77%",
+      "statColor": "#3d7bc8",
+      "title": "AI testing is the whole story",
+      "text": "Semiconductor Test revenue rose 77% to $1,072M \u2014 82 cents of every revenue dollar \u2014 on record memory and integrated-systems test sales tied to AI chips."
+    },
+    {
+      "stat": "$342M",
+      "statColor": "#3e8e5a",
+      "title": "Profit nearly tripled",
+      "text": "Net income attributable to Teradyne was $342M ($2.17 per share) vs $120M ($0.75) a year ago, as the extra sales dropped through at a 31% operating margin."
+    },
+    {
+      "stat": "$96M",
+      "statColor": "#5b6b7c",
+      "title": "Robotics turned the corner",
+      "text": "Robotics posted its highest third-quarter revenue yet, $96M, up 28%, and reached profitability after last year's restructuring cut about 150 jobs."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Semiconductor Test",
+      "amount": 82.08
+    },
+    {
+      "label": "Product Test",
+      "amount": 10.57
+    },
+    {
+      "label": "Robotics",
+      "amount": 7.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.97
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.24
+    },
+    {
+      "label": "Engineering & development",
+      "amount": -12.48
+    },
+    {
+      "label": "Intangible amortization",
+      "amount": -0.38
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.15
+    },
+    {
+      "label": "Tax",
+      "amount": -4.59
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.19
+    }
+  ]
+}

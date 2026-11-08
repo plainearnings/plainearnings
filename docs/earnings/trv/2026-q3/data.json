@@ -1,0 +1,157 @@
+{
+  "ticker": "TRV",
+  "company": "The Travelers Companies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-16",
+  "verdict": "Travelers earned $1.9B in Q3 as strong underwriting \u2014 an 86.8% combined ratio \u2014 and record investment income more than covered $538M of catastrophe losses.",
+  "revenueYoY": "0%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "total revenues $12.4B, flat vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$9.04",
+      "note": "diluted, vs $8.24 a year ago"
+    },
+    {
+      "label": "Combined ratio",
+      "value": "86.8%",
+      "note": "claims + expenses took 87 cents per premium dollar"
+    },
+    {
+      "label": "Net investment income",
+      "value": "$1.1B",
+      "note": "a record, +6% YoY before tax"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums earned",
+      "amountM": 11103,
+      "yoy": "0%",
+      "note": "Premiums from business, bond & specialty and personal insurance policies, earned over the coverage period \u2014 essentially flat, as growth in Business and Bond & Specialty offset the sale of the Canadian personal lines business."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 1098,
+      "yoy": "+6%",
+      "note": "Interest and dividends on the money Travelers invests between collecting premiums and paying claims \u2014 a record $1,098M, up 6%."
+    },
+    {
+      "name": "Fee income",
+      "amountM": 123,
+      "yoy": "-3%",
+      "note": "Fees for services such as claim handling for other insurers."
+    },
+    {
+      "name": "Other revenues & realized losses",
+      "amountM": 88,
+      "yoy": "",
+      "note": "Other revenues of $122M, less $34M of net realized investment losses on the portfolio."
+    }
+  ],
+  "flow": {
+    "revenueM": 12412,
+    "costOfRevenueM": 6487,
+    "grossProfitM": 5925,
+    "opex": [
+      {
+        "name": "Amortization of deferred acquisition costs",
+        "amountM": 1856,
+        "note": "Commissions and other costs of winning policies, spread over the policies' lives."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1582,
+        "note": "Running the company day to day \u2014 staff, offices and systems."
+      }
+    ],
+    "operatingIncomeM": 2487,
+    "otherIncomeM": -118,
+    "taxM": 452,
+    "netIncomeM": 1917
+  },
+  "follow100": [
+    {
+      "label": "Premiums earned",
+      "amount": 89.45
+    },
+    {
+      "label": "Net investment income",
+      "amount": 8.85
+    },
+    {
+      "label": "Fee income",
+      "amount": 0.99
+    },
+    {
+      "label": "Other revenues & realized losses",
+      "amount": 0.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.26
+    },
+    {
+      "label": "Policy acquisition costs",
+      "amount": -14.95
+    },
+    {
+      "label": "G&A",
+      "amount": -12.75
+    },
+    {
+      "label": "Interest expense",
+      "amount": -0.95
+    },
+    {
+      "label": "Tax",
+      "amount": -3.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.44
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "86.8%",
+      "statColor": "#3d7bc8",
+      "title": "Underwriting stayed strong",
+      "text": "The combined ratio was 86.8% (84.1% excluding catastrophes and reserve development), and pre-tax underwriting income was $1,432M \u2014 profitable insurance, not just investment gains."
+    },
+    {
+      "stat": "$1.1B",
+      "statColor": "#3e8e5a",
+      "title": "Investments set a record",
+      "text": "Net investment income hit a record $1,098M before tax, up 6%, as higher yields and a larger portfolio lifted what Travelers earns on premiums held before claims are paid."
+    },
+    {
+      "stat": "$538M",
+      "statColor": "#b8443c",
+      "title": "Storms cost more than last year",
+      "text": "Catastrophe losses were $538M before tax, up from $402M a year ago, mostly severe wind and hail. Favorable reserve development of $234M \u2014 past claims costing less than reserved \u2014 more than offset the increase."
+    }
+  ],
+  "oneTimers": [
+    "Net favorable prior-year reserve development was $234M before tax \u2014 reserves for past claims proved more than enough \u2014 even after a $295M addition to asbestos reserves.",
+    "Net realized investment losses were $34M before tax ($30M after tax); excluding them, core income was $1,947M, or $9.18 per diluted share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000180/a991pressrelease93026.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000181/trv-20260930.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $118M on Travelers' borrowings, shown below operating income \u2014 pre-tax income was $2,369M.",
+  "footerNote": "Insurer adaptation: revenue here is total reported revenues of $12,412M (premiums earned plus net investment income plus fee income plus other revenues, less realized investment losses). Claims and claim adjustment expenses play the role of cost of revenue, and interest expense is shown below the operating line."
+}

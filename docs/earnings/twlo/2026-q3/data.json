@@ -1,0 +1,129 @@
+{
+  "ticker": "TWLO",
+  "company": "Twilio",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Twilio's revenue jumped 20% to $1.6B and GAAP operating profit more than tripled to $149M, as demand for AI-era customer engagement lifted growth and free cash flow alike.",
+  "revenueYoY": "+20%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+20%",
+      "note": "revenue $1.56B vs $1.30B a year ago; +16% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.00",
+      "note": "diluted, vs $0.23 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$370M",
+      "note": "vs $248M a year ago; 24% of revenue"
+    },
+    {
+      "label": "Net expansion rate",
+      "value": "114%",
+      "note": "existing customers spent 14% more than a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Customer engagement platform",
+      "amountM": 1560,
+      "yoy": "+20%",
+      "note": "Messaging, voice, email and customer-data tools businesses use to reach customers \u2014 Twilio reports a single segment, so this is its one revenue line, up 20% (16% organic)."
+    }
+  ],
+  "flow": {
+    "revenueM": 1560,
+    "costOfRevenueM": 799,
+    "grossProfitM": 761,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 280,
+        "note": "Building the communications and customer-engagement platform."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 217,
+        "note": "Selling the platform to businesses and developers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 115,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 149,
+    "otherIncomeM": -10,
+    "taxM": -22,
+    "netIncomeM": 161
+  },
+  "follow100": [
+    {
+      "label": "Customer engagement platform",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -51.22
+    },
+    {
+      "label": "R&D",
+      "amount": -17.95
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -13.91
+    },
+    {
+      "label": "G&A",
+      "amount": -7.37
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.64
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.41
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.32
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated",
+      "text": "Revenue rose 20% to $1,560M \u2014 16% organic, the rest from carrier A2P fees passed through at cost and a small acquisition \u2014 and Twilio raised its full-year growth outlook to 20%."
+    },
+    {
+      "stat": "$149M",
+      "statColor": "#3e8e5a",
+      "title": "GAAP profit is now real",
+      "text": "GAAP operating income was $149M, up 263%, at a 49% gross margin. Non-GAAP operating income was $326M \u2014 the $177M gap is mostly $154M of stock-based pay, a real cost GAAP counts and non-GAAP does not."
+    },
+    {
+      "stat": "$370M",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow is the quiet headline",
+      "text": "Free cash flow was $370M, 24% of revenue, up from $248M a year ago. Net income of $161M also included a $22M tax benefit and a $25M share of losses from an equity-method investment."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000106/twloq326ex991.htm"
+    }
+  ],
+  "otherDetail": "Other expense, net of $10M (rounded): a $25M share of losses from an equity-method investment, partly offset by $16M of other income, net. A $22M income-tax benefit then lifted the $139M pre-tax profit to $161M of net income.",
+  "footerNote": "Twilio reports a single operating segment, so revenue is shown as one line. Amounts are rounded to the nearest $M from the release's figures in thousands."
+}

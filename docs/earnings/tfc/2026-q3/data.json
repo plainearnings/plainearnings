@@ -1,0 +1,145 @@
+{
+  "ticker": "TFC",
+  "company": "Truist Financial",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-16",
+  "verdict": "Truist's headline profit fell to $799M because it booked a $1.4B loss selling securities to reposition its balance sheet \u2014 underneath, adjusted EPS rose 12% to $1.16 and net interest income held steady at $3.7B.",
+  "revenueYoY": "-28%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-28%",
+      "note": "GAAP revenue $3.7B, hit by the $1.4B securities loss; adjusted revenue was stable at about $5.3B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.56",
+      "note": "adjusted EPS $1.16, up 12% YoY, excluding the securities loss and reserve release"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$3.66B",
+      "note": "+1% YoY; margin 3.00% on a taxable-equivalent basis"
+    },
+    {
+      "label": "Credit costs",
+      "value": "-$253M benefit",
+      "note": "a $581M reserve release from the RAC loan sale more than covered $629M of charge-offs"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 3663,
+      "yoy": "+1%",
+      "note": "Interest earned on loans and securities, minus interest paid on deposits and borrowings \u2014 the bank's core engine, roughly flat as balances held up."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 84,
+      "yoy": "-95%",
+      "note": "Fees and other income \u2014 crushed this quarter by $1,447M of losses on securities sold to reposition the portfolio, which swamped record wealth-management income of $407M."
+    }
+  ],
+  "flow": {
+    "revenueM": 3747,
+    "costOfRevenueM": -253,
+    "grossProfitM": 4000,
+    "opex": [
+      {
+        "name": "Personnel expense",
+        "amountM": 1853,
+        "note": "Pay and benefits for Truist's workforce \u2014 its biggest cost by far."
+      },
+      {
+        "name": "Professional & other services",
+        "amountM": 741,
+        "note": "Outside professional services ($365M) plus other noninterest expense ($376M) \u2014 legal, consulting and miscellaneous running costs."
+      },
+      {
+        "name": "Occupancy & equipment",
+        "amountM": 511,
+        "note": "Branch and office occupancy ($180M) plus software and equipment ($331M)."
+      }
+    ],
+    "operatingIncomeM": 895,
+    "otherIncomeM": 0,
+    "taxM": 96,
+    "netIncomeM": 799
+  },
+  "oneTimers": [
+    "$1,447M pre-tax loss on the sale of available-for-sale securities, booked as part of a balance-sheet repositioning after the Regional Acceptance Corporation (RAC) loan sale \u2014 the main reason GAAP EPS was $0.56 vs adjusted EPS of $1.16.",
+    "A $581M pre-tax benefit inside credit costs from releasing loan-loss reserves after the RAC loan sale, plus $106M of other RAC sale impacts and $40M of RAC sale costs in expenses. Excluding all flagged items, net income available to common shareholders was $1.42B instead of $684M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm"
+    },
+    {
+      "label": "Quarterly performance summary (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex992-qpsx3q26.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000129/tfc-20260930.htm"
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses plays the role of cost of revenue. This quarter it was a $253M benefit (money added back, not spent) because selling the RAC loan book released $581M of reserves \u2014 so the amount after credit costs ($4,000M) is larger than revenue itself. Net income of $799M is before $115M of preferred dividends, leaving $684M for common shareholders.",
+  "takeaways": [
+    {
+      "stat": "$1.16",
+      "statColor": "#3d7bc8",
+      "title": "The underlying quarter was solid",
+      "text": "Adjusted EPS was $1.16, up 12% from a year ago, and adjusted revenue was stable at about $5.3B \u2014 the GAAP drop is the securities repositioning, not the business shrinking."
+    },
+    {
+      "stat": "-$1.4B",
+      "statColor": "#b8443c",
+      "title": "A deliberate, one-off hit",
+      "text": "Truist sold securities at a $1,447M loss to reposition its balance sheet after selling the RAC auto-loan book, and agreed on October 14 to sell $7.7B of LightStream unsecured loans as well."
+    },
+    {
+      "stat": "1.25%",
+      "statColor": "#5b6b7c",
+      "title": "Credit cover got thinner \u2014 by design",
+      "text": "The allowance for loan and lease losses fell to 1.25% of loans from 1.54% a year ago, mostly because the riskier RAC loans left the book. Charge-offs were 0.77% annualized, including RAC effects."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 97.76
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 2.24
+    },
+    {
+      "label": "Credit-loss benefit",
+      "amount": 6.75
+    },
+    {
+      "label": "Personnel expense",
+      "amount": -49.47
+    },
+    {
+      "label": "Professional & other services",
+      "amount": -19.78
+    },
+    {
+      "label": "Occupancy & equipment",
+      "amount": -13.64
+    },
+    {
+      "label": "Tax",
+      "amount": -2.56
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 21.32
+    }
+  ]
+}

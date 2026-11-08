@@ -1,0 +1,130 @@
+{
+  "ticker": "ULTA",
+  "company": "Ulta Beauty",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-27",
+  "verdict": "Ulta's sales rose 9% to $3.0B on a 3.8% gain in comparable sales, new stores and the Space NK acquisition, and earnings per share rose 13% to $6.55.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "net sales $3.0B vs $2.8B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.55",
+      "note": "diluted, up 13% from $5.78 a year ago"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+3.8%",
+      "note": "sales at stores open at least a year, driven by a 3.9% higher average ticket"
+    },
+    {
+      "label": "Gross margin",
+      "value": "39.1%",
+      "note": "vs 39.2% a year ago \u2014 the Space NK business mix trimmed it slightly"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Beauty retail",
+      "amountM": 3036,
+      "yoy": "+9%",
+      "note": "All of Ulta's sales \u2014 it reports one segment. By category (the company's approximate percentages): cosmetics 37%, skincare and wellness 24%, haircare 20%, fragrance 13%, salon services 4% and other 2%, sold through 1,500-plus U.S. stores, online, and Space NK in the U.K. and Ireland."
+    }
+  ],
+  "flow": {
+    "revenueM": 3036,
+    "costOfRevenueM": 1849,
+    "grossProfitM": 1187,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 803,
+        "note": "Store payroll, marketing and head-office costs \u2014 26.4% of sales, a slightly smaller share than a year ago despite adding Space NK."
+      },
+      {
+        "name": "Pre-opening expenses",
+        "amountM": 4,
+        "note": "Costs of getting new stores ready to open \u2014 $4.5M on the statement, shown as $4M so the rounded flow ties exactly.",
+        "shortName": "Pre-opening"
+      }
+    ],
+    "operatingIncomeM": 380,
+    "otherIncomeM": -4,
+    "equityM": -2,
+    "taxM": 92,
+    "netIncomeM": 282
+  },
+  "otherDetail": "Interest expense, net of $4M, plus a $2M equity-method loss from an affiliate investment (the separate equity line in the flow) \u2014 together a $6M drag between operating income and pre-tax income.",
+  "follow100": [
+    {
+      "label": "Beauty retail",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -60.9
+    },
+    {
+      "label": "SG&A",
+      "amount": -26.45
+    },
+    {
+      "label": "Pre-opening",
+      "amount": -0.13
+    },
+    {
+      "label": "Interest, net",
+      "amount": -0.13
+    },
+    {
+      "label": "Share of affiliate loss",
+      "amount": -0.07
+    },
+    {
+      "label": "Tax",
+      "amount": -3.03
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.29
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came from three places",
+      "text": "Net sales rose 8.9% to $3,036M: comparable sales added 3.8%, new stores contributed, and the acquired Space NK luxury chain in the U.K. and Ireland added sales Ulta did not have a year ago."
+    },
+    {
+      "stat": "39.1%",
+      "statColor": "#5b6b7c",
+      "title": "Margins held nearly steady",
+      "text": "Gross profit rose 8.7% to $1,187M, but as a share of sales it eased to 39.1% from 39.2% because Space NK's mix carries a thinner margin. SG&A actually improved as a share of sales, to 26.4% from 26.6%, lifting operating income 10% to $380M."
+    },
+    {
+      "stat": "$6.55",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose, and guidance followed",
+      "text": "Net income rose to $282M and diluted EPS rose 13% to $6.55, helped by buybacks shrinking the share count. Ulta raised its full-year outlook \u2014 sales growth of 6.7%\u20137.2% and EPS of $28.70\u2013$29.00 \u2014 and lifted its planned buyback to $1.8B."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Ulta had not yet reported fiscal Q3 (the quarter ending October 31, 2026, reported in early December) as of November 7, 2026, so this page covers its latest reported quarter, Q2 of fiscal 2026. Amounts are rounded to $M from the statement, which is in thousands (net sales $3,035,676K).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926102438/ulta-20260827xex99d1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926102442/ulta-20260801x10q.htm"
+    }
+  ]
+}

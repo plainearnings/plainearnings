@@ -1,0 +1,167 @@
+{
+  "ticker": "TMUS",
+  "company": "T-Mobile US",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "T-Mobile grew revenue 7% to $23.6B and profit 27% to $3.5B, as postpaid service revenue rose 9% and customers spent more per account.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$23.6B",
+      "note": "+7% YoY, from $22.0B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.22",
+      "note": "vs $2.41 a year ago, +34%"
+    },
+    {
+      "label": "Postpaid service revenue",
+      "value": "$16.3B",
+      "note": "+9% YoY \u2014 the core monthly-bill business"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$5.1B",
+      "note": "+5% YoY (non-GAAP: operating cash flow less capex)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Postpaid service",
+      "amountM": 16269,
+      "yoy": "+9%",
+      "note": "Monthly bills from postpaid accounts \u2014 phones, broadband and connected devices on pay-after-use plans. Up 9% as accounts grew and revenue per account rose."
+    },
+    {
+      "name": "Prepaid service",
+      "amountM": 2427,
+      "yoy": "-8%",
+      "note": "Pay-in-advance plans (Metro by T-Mobile, Mint Mobile and similar). Down 8% from $2,625M a year ago."
+    },
+    {
+      "name": "Wholesale & other service",
+      "amountM": 679,
+      "yoy": "-7%",
+      "note": "Selling network access to other carriers and resellers, plus other service income. Down 7% from $734M."
+    },
+    {
+      "name": "Equipment",
+      "amountM": 3929,
+      "yoy": "+13%",
+      "note": "Phones and devices sold to customers, often on installment plans. Up 13% \u2014 device sales are low-margin, which is why equipment costs exceed this revenue."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 280,
+      "yoy": "+12%",
+      "note": "Everything else, including advertising and other smaller revenue lines."
+    }
+  ],
+  "flow": {
+    "revenueM": 23584,
+    "costOfRevenueM": 8451,
+    "grossProfitM": 15133,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 6020,
+        "note": "Selling, general and administrative \u2014 stores, marketing, customer care and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 3452,
+        "note": "The cost of the network, spectrum and equipment wearing out over time."
+      }
+    ],
+    "operatingIncomeM": 5661,
+    "otherIncomeM": -1121,
+    "taxM": 1085,
+    "netIncomeM": 3455
+  },
+  "otherDetail": "Other expense of $1,121M, net: $1,031M of interest expense, net, plus $90M of other expense, net.",
+  "oneTimers": [
+    "UScellular merger-related costs were $129M before tax in the quarter ($98M after tax) \u2014 integration and restructuring from the August 2025 UScellular acquisition, excluded from Core Adjusted EBITDA.",
+    "Other special items excluded from Core Adjusted EBITDA were $38M of network restructuring costs, $14M of legal-related expenses and $131M of other net costs, including $50M for retail store closures in the quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000128/tmus09302026ex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000129/tmus-20260930.htm"
+    }
+  ],
+  "footerNote": "T-Mobile reports a single Wireless segment, so the revenue split above uses the statement's revenue lines. Income-statement figures are from the Q3 2026 Form 10-Q; the earnings release (Ex-99.1) summarizes results and reconciles the non-GAAP measures.",
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Postpaid is the engine",
+      "text": "Postpaid service revenue rose 9% to $16.3B. Postpaid accounts grew by 274 thousand to 35.0 million, and average revenue per account rose 4% to $155.73 a month."
+    },
+    {
+      "stat": "$3.5B",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped 27%",
+      "text": "Net income rose 27% to $3.5B and diluted EPS rose 34% to $3.22. Core Adjusted EBITDA \u2014 the company's preferred profit measure before network depreciation and interest \u2014 rose 11% to $9.6B."
+    },
+    {
+      "stat": "$5.1B",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow stayed strong",
+      "text": "Adjusted free cash flow was $5.1B, up 5%, as cash capex fell 14% to $2.3B. T-Mobile returned $3.5B to shareholders in the quarter: $2.4B of buybacks and $1.1B of dividends."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Postpaid service",
+      "amount": 139.68
+    },
+    {
+      "label": "Prepaid service",
+      "amount": 10.29
+    },
+    {
+      "label": "Wholesale & other service",
+      "amount": 2.88
+    },
+    {
+      "label": "Equipment",
+      "amount": 16.66
+    },
+    {
+      "label": "Other revenues",
+      "amount": 1.19
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.83
+    },
+    {
+      "label": "SG&A",
+      "amount": -25.53
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -14.64
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.75
+    },
+    {
+      "label": "Tax",
+      "amount": -4.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.65
+    }
+  ]
+}

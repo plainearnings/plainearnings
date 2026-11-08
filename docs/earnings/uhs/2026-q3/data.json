@@ -1,0 +1,152 @@
+{
+  "ticker": "UHS",
+  "company": "Universal Health Services",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "UHS revenue rose 5% to $4.7B across its hospitals and behavioral-health centers, but bigger liability reserves and higher interest costs cut profit attributable to UHS to $309M from $373M a year ago.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "net revenues $4.7B vs $4.5B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.22",
+      "note": "diluted, attributable to UHS, vs $5.86 a year ago"
+    },
+    {
+      "label": "Acute Care revenue",
+      "value": "$2.8B",
+      "note": "up 5% YoY \u2014 general hospitals were 58% of revenue"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$625M",
+      "note": "adjusted EBITDA net of noncontrolling interests (non-GAAP), vs $671M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Acute Care",
+      "amountM": 2764,
+      "yoy": "+5%",
+      "note": "General and surgical hospitals \u2014 emergency care, surgery and inpatient treatment. Revenue rose 5% on more admissions; revenue per adjusted admission fell slightly at long-held hospitals."
+    },
+    {
+      "name": "Behavioral Health",
+      "amountM": 1966,
+      "yoy": "+6%",
+      "note": "Psychiatric and addiction-treatment facilities \u2014 UHS's other big business, and usually its steadier earner. Revenue rose 6%."
+    },
+    {
+      "name": "Other",
+      "amountM": 3,
+      "yoy": "-42%",
+      "note": "Corporate and other revenue, net of eliminations between the two hospital businesses \u2014 a small residual line so the segments tie to the $4,733M consolidated total.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 4733,
+    "costOfRevenueM": 4104,
+    "grossProfitM": 629,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 175,
+        "note": "Spreading the cost of hospitals, buildings and equipment over their working lives.",
+        "shortName": "Depreciation & amort."
+      }
+    ],
+    "operatingIncomeM": 454,
+    "otherIncomeM": -40,
+    "taxM": 101,
+    "netIncomeM": 313
+  },
+  "otherDetail": "Net interest expense of $56M, partly offset by $16M of other income \u2014 a net $40M cost below operating income. Total net income was $313M; $5M of it went to noncontrolling interests, leaving $309M attributable to UHS.",
+  "follow100": [
+    {
+      "label": "Acute Care",
+      "amount": 58.4
+    },
+    {
+      "label": "Behavioral Health",
+      "amount": 41.54
+    },
+    {
+      "label": "Other",
+      "amount": 0.06
+    },
+    {
+      "label": "Salaries & benefits",
+      "amount": -46.69
+    },
+    {
+      "label": "Other operating costs",
+      "amount": -30.13
+    },
+    {
+      "label": "Supplies",
+      "amount": -9.02
+    },
+    {
+      "label": "Lease & rental",
+      "amount": -0.87
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -3.7
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.85
+    },
+    {
+      "label": "Tax",
+      "amount": -2.13
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.61
+    }
+  ],
+  "follow100Note": "The cost rows above break down the $4,104M cost of revenue and the depreciation line: salaries, wages and benefits of $2,210M are the direct cost of care, alongside $1,426M of other operating expenses, $427M of supplies and $41M of lease and rental expense \u2014 the statement's operating-charge lines, grouped the same way as the flow.",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Both hospital businesses grew",
+      "text": "Net revenues rose 5.3% to $4,733M. Acute Care revenue rose 5% to $2,764M and Behavioral Health rose 6% to $1,966M, on more admissions in both businesses."
+    },
+    {
+      "stat": "$26M",
+      "statColor": "#b8443c",
+      "title": "Liability reserves took a bite",
+      "text": "UHS added $26M to its reserves for self-insured professional and general liability claims \u2014 tied to a tentative settlement \u2014 and interest expense rose to $56M from $38M. Income from operations fell to $454M from $522M despite the revenue growth."
+    },
+    {
+      "stat": "$47M",
+      "statColor": "#3e8e5a",
+      "title": "Medicaid payments helped",
+      "text": "Increases in Medicaid supplemental payments (extra state payments for treating Medicaid patients, mainly in Washington, D.C. and California) added a favorable $47M before tax, net of related provider taxes \u2014 partly offsetting the $26M reserve increase, for a net favorable $21M that was not in UHS's forecast."
+    }
+  ],
+  "oneTimers": [
+    "Two items UHS says were not in its forecast netted to a favorable $21M before tax: a $47M favorable impact from higher Medicaid supplemental payments (net of provider taxes), partly offset by a $26M increase in self-insured liability reserves tied to a tentative legal settlement."
+  ],
+  "footerNote": "Hospitals report no gross-profit line: cost of revenue here groups the direct cost of care \u2014 salaries and benefits, other operating expenses, supplies, and lease and rental expense \u2014 with depreciation and amortization as the operating expense below it, following the statement's operating-charge lines. The flow ties to consolidated net income of $313M, before the $5M attributable to noncontrolling interests.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526434414/uhs-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526451866/uhs-20260930.htm"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "ticker": "TMO",
+  "company": "Thermo Fisher Scientific",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-10-21",
+  "verdict": "Thermo Fisher grew revenue 9% to $12.1B, powered by a 15% jump in lab products and pharma services, and kept $1.7B as profit despite $199M of restructuring costs.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "$12.1B vs $11.1B a year ago; organic growth (excluding deals and currency) was 6%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.64",
+      "note": "up 9% YoY; adjusted EPS $6.68 excluding amortization and restructuring"
+    },
+    {
+      "label": "Lab Products & Biopharma",
+      "value": "$6.9B",
+      "note": "+15% YoY \u2014 57% of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.1B",
+      "note": "operating cash flow $2.55B minus $437M of plant & equipment spending"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Laboratory Products & Biopharma Services",
+      "amountM": 6863,
+      "yoy": "+15%",
+      "note": "Lab supplies, equipment and channels, plus pharma services and clinical research \u2014 the biggest and fastest-growing business, over half of revenue."
+    },
+    {
+      "name": "Life Sciences Solutions",
+      "amountM": 2719,
+      "yoy": "+5%",
+      "note": "Reagents, instruments and consumables used in biology research and biotech production."
+    },
+    {
+      "name": "Analytical Instruments",
+      "amountM": 2002,
+      "yoy": "+6%",
+      "note": "Precision instruments \u2014 chromatography, mass spectrometry and electron microscopes."
+    },
+    {
+      "name": "Specialty Diagnostics",
+      "amountM": 1098,
+      "yoy": "-6%",
+      "note": "Clinical and specialty diagnostic tests \u2014 down mainly because the microbiology business was sold during the quarter; its revenue halved to $70M."
+    },
+    {
+      "name": "Eliminations",
+      "amountM": -545,
+      "note": "Sales between Thermo Fisher's own segments, removed so revenue is not double-counted. The filing reports eliminations of $546M; its segment lines, rounded to $M, total $1M less than consolidated revenue, and this reconciling line absorbs that $1M."
+    }
+  ],
+  "flow": {
+    "revenueM": 12137,
+    "costOfRevenueM": 6945,
+    "grossProfitM": 5192,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 1863,
+        "note": "Selling, general and administrative \u2014 the sales force, marketing and running the company."
+      },
+      {
+        "name": "Intangible amortization",
+        "amountM": 519,
+        "note": "Spreading the cost of patents, brands and customer relationships from past acquisitions over their lives \u2014 a non-cash charge."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 348,
+        "note": "Developing new instruments, tests and services."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 199,
+        "note": "Severance, asset impairments and facility-consolidation charges from an ongoing cost-cutting program."
+      }
+    ],
+    "operatingIncomeM": 2263,
+    "otherIncomeM": -175,
+    "equityM": -15,
+    "taxM": 352,
+    "netIncomeM": 1721
+  },
+  "otherDetail": "Interest expense of $417M, partly offset by $252M of interest income, plus $10M of other expense \u2014 a net $175M cost. A further $9M of equity losses and $6M of profit belonging to noncontrolling interests are deducted to reach the $1,721M attributable to Thermo Fisher shareholders (total net income was $1,727M).",
+  "oneTimers": [
+    "Restructuring and other costs of $199M (severance, impairments and facility consolidations; about 2% of the workforce affected by the wider program) are excluded from adjusted results, as is $519M of acquisition-related intangible amortization \u2014 together they explain most of the gap between GAAP EPS of $4.64 and adjusted EPS of $6.68.",
+    "Thermo Fisher completed the sale of its microbiology business during the quarter, which is why Specialty Diagnostics revenue fell even as the rest of the company grew."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000173/q32026earnings8kex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000179/tmo-20260926.htm"
+    }
+  ],
+  "footerNote": "Segment revenues are as reported in $M; the filing's segment lines and its reported $546M of intersegment eliminations total $12,136M vs consolidated revenue of $12,137M, a $1M rounding difference absorbed in the eliminations line above.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Pharma services are the engine",
+      "text": "Laboratory Products & Biopharma Services grew 15% to $6,863M \u2014 clinical research revenue alone rose 21% to $2,445M \u2014 and now supplies 57% of all revenue."
+    },
+    {
+      "stat": "-6%",
+      "statColor": "#5b6b7c",
+      "title": "Diagnostics shrank on a sale, not demand",
+      "text": "Specialty Diagnostics fell 6% to $1,098M, mainly because the microbiology business was divested in the quarter (its revenue dropped from $162M to $70M)."
+    },
+    {
+      "stat": "$6.68",
+      "statColor": "#3e8e5a",
+      "title": "Two profit numbers, one business",
+      "text": "Adjusted EPS was $6.68 vs GAAP $4.64 \u2014 the $2.04 gap is mostly $519M of non-cash acquisition amortization and $199M of restructuring charges that adjusted results strip out."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Laboratory Products & Biopharma",
+      "amount": 56.54
+    },
+    {
+      "label": "Life Sciences Solutions",
+      "amount": 22.4
+    },
+    {
+      "label": "Analytical Instruments",
+      "amount": 16.5
+    },
+    {
+      "label": "Specialty Diagnostics",
+      "amount": 9.05
+    },
+    {
+      "label": "Eliminations",
+      "amount": -4.49
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -57.22
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.35
+    },
+    {
+      "label": "Intangible amortization",
+      "amount": -4.28
+    },
+    {
+      "label": "R&D",
+      "amount": -2.87
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -1.64
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -1.44
+    },
+    {
+      "label": "Equity & other shares",
+      "amount": -0.12
+    },
+    {
+      "label": "Tax",
+      "amount": -2.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.18
+    }
+  ]
+}

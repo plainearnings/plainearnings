@@ -1,0 +1,121 @@
+{
+  "ticker": "TSCO",
+  "company": "Tractor Supply Company",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-26",
+  "reportedDate": "2026-10-22",
+  "verdict": "Tractor Supply's sales rose 5% to $3.9B on new stores, but higher transport costs and price investments squeezed margins, so profit fell 13% to $225M.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "net sales $3.91B vs $3.72B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.43",
+      "note": "diluted, vs $0.49 a year ago"
+    },
+    {
+      "label": "Comparable store sales",
+      "value": "+0.4%",
+      "note": "vs +3.9% a year ago; improved through the quarter"
+    },
+    {
+      "label": "Gross margin",
+      "value": "36.4%",
+      "note": "down from 37.4% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rural lifestyle retail",
+      "amountM": 3910,
+      "yoy": "+5%",
+      "note": "Sales from 2,486 Tractor Supply stores and 135 Petsense stores, plus Allivet and VIP Petcare \u2014 farm, pet, equine and home products for rural living. Tractor Supply reports one retail business, so this is its single revenue line, up 5.1%."
+    }
+  ],
+  "flow": {
+    "revenueM": 3910,
+    "costOfRevenueM": 2485,
+    "grossProfitM": 1425,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 984,
+        "note": "Running the stores, distribution centers and head office \u2014 the company's biggest running cost."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 133,
+        "note": "Spreading the cost of stores, equipment and systems over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 308,
+    "otherIncomeM": -19,
+    "taxM": 64,
+    "netIncomeM": 225
+  },
+  "follow100": [
+    {
+      "label": "Rural lifestyle retail",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -63.55
+    },
+    {
+      "label": "SG&A",
+      "amount": -25.17
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.4
+    },
+    {
+      "label": "Interest expense, net",
+      "amount": -0.49
+    },
+    {
+      "label": "Tax",
+      "amount": -1.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.75
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.1%",
+      "statColor": "#3d7bc8",
+      "title": "Growth came from new stores",
+      "text": "Net sales rose to $3,910M, driven by 23 new Tractor Supply stores opened in the quarter, the VIP Petcare acquisition, and comparable sales up just 0.4% \u2014 new stores did most of the work."
+    },
+    {
+      "stat": "36.4%",
+      "statColor": "#b8443c",
+      "title": "Margins were squeezed",
+      "text": "Gross margin fell a full point to 36.4% on higher transportation and fuel costs and deliberate price investments, while SG&A rose to 28.6% of sales, including startup costs for a new distribution center."
+    },
+    {
+      "stat": "$225M",
+      "statColor": "#5b6b7c",
+      "title": "Profit fell despite higher sales",
+      "text": "Operating income fell 10% to $308M and net income fell 13% to $225M. The company still returned $213M to shareholders \u2014 $89M of buybacks and $125M of dividends."
+    }
+  ],
+  "oneTimers": [
+    "Tractor Supply closed 74 Petsense by Tractor Supply stores in the quarter, as previously announced; the related impairment charges ($63M over the first nine months) were recorded earlier in the year, not in Q3."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/916365/000091636526000069/ex991-q32026earningsrelease.htm"
+    }
+  ],
+  "otherDetail": "Interest expense, net of $19M \u2014 the cost of the company's borrowings, net of interest earned."
+}

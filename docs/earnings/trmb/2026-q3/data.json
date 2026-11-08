@@ -1,0 +1,174 @@
+{
+  "ticker": "TRMB",
+  "company": "Trimble",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-11-04",
+  "verdict": "Trimble grew revenue 7% to $966.8M and hit record recurring revenue of $2.56B, but a much higher tax bill cut GAAP profit nearly in half to $59.1M.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$966.8M",
+      "note": "+7% YoY, all of it organic growth"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.25",
+      "note": "vs $0.46 a year ago; non-GAAP EPS was $0.86"
+    },
+    {
+      "label": "Recurring revenue (ARR)",
+      "value": "$2.56B",
+      "note": "A record, +11% YoY \u2014 the annualized value of subscription contracts"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$278.5M",
+      "note": "28.8% of revenue (non-GAAP)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Field Systems",
+      "amountM": 435.8,
+      "yoy": "+7%",
+      "note": "Surveying, mapping and construction field hardware and software \u2014 the largest segment. Segment operating income was $128.7M."
+    },
+    {
+      "name": "AECO",
+      "amountM": 395.0,
+      "yoy": "+10%",
+      "note": "Software for architects, engineers, construction and building owners, including the acquired Document Crunch AI platform. Segment operating income was $132.2M."
+    },
+    {
+      "name": "Transportation & Logistics",
+      "amountM": 136.0,
+      "yoy": "+1%",
+      "note": "Software for shippers, carriers and supply chains. Segment operating income was $35.7M."
+    }
+  ],
+  "flow": {
+    "revenueM": 966.8,
+    "costOfRevenueM": 307.7,
+    "grossProfitM": 659.1,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 162.9,
+        "note": "Building the positioning, modeling and analytics products and subscriptions."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 177.7,
+        "note": "Selling through dealers, partners and direct channels worldwide."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 124.7,
+        "note": "Running the company \u2014 finance, legal and admin."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 24.9,
+        "note": "Restructuring charges, mainly job cuts and cost-saving programs."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 26.9,
+        "note": "Spreading the cost of technology and customer relationships bought in past acquisitions."
+      }
+    ],
+    "operatingIncomeM": 142.0,
+    "otherIncomeM": -20.7,
+    "taxM": 62.2,
+    "netIncomeM": 59.099999999999994
+  },
+  "otherDetail": "Non-operating expense of $20.7M, net: $20.4M of interest expense, net, and $1.1M of other losses, partly offset by $0.8M of income from equity method investments.",
+  "oneTimers": [
+    "Restructuring costs were $24.9M in the quarter, and acquisition/divestiture items added $13.1M to operating expenses. Excluding these, amortization and stock-based compensation, non-GAAP EPS was $0.86 versus $0.25 on a GAAP basis.",
+    "GAAP results for 2026 so far also include a $562.0M goodwill impairment recorded earlier in the year in the Transportation & Logistics segment. It did not recur in Q3, but it is why full-year GAAP guidance is a loss per share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474926000119/a2026q3-8kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474926000121/trmb-20261002.htm"
+    }
+  ],
+  "footerNote": "Trimble's fiscal Q3 2026 ended October 2, 2026. Segment revenue is from the Form 10-Q segment note. Subscription and services were $642.5M of revenue (66%) and product sales $324.3M.",
+  "takeaways": [
+    {
+      "stat": "$2.56B",
+      "statColor": "#3d7bc8",
+      "title": "Recurring revenue hit a record",
+      "text": "Annualized recurring revenue \u2014 the annualized value of subscription contracts \u2014 reached a record $2.56B, up 11%. Subscription and services brought in $642.5M, two-thirds of all revenue."
+    },
+    {
+      "stat": "+10%",
+      "statColor": "#3e8e5a",
+      "title": "AECO led the growth",
+      "text": "AECO revenue rose 10% to $395.0M and Field Systems rose 7% to $435.8M, while Transportation & Logistics was nearly flat at $136.0M, up 1%."
+    },
+    {
+      "stat": "51.3%",
+      "statColor": "#b8443c",
+      "title": "A tax spike cut GAAP profit",
+      "text": "The GAAP tax bill was $62.2M \u2014 51.3% of pre-tax profit, versus 10.9% a year ago \u2014 after the tax effects of excluded items. GAAP net income fell to $59.1M from $111.5M, while non-GAAP net income was $200.5M."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Field Systems",
+      "amount": 132.85
+    },
+    {
+      "label": "AECO",
+      "amount": 40.86
+    },
+    {
+      "label": "Transportation & Logistics",
+      "amount": 14.07
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -31.83
+    },
+    {
+      "label": "R&D",
+      "amount": -16.85
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -18.38
+    },
+    {
+      "label": "G&A",
+      "amount": -12.9
+    },
+    {
+      "label": "Restructuring",
+      "amount": -2.58
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -2.78
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.14
+    },
+    {
+      "label": "Tax",
+      "amount": -6.43
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.11
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "ticker": "TSN",
+  "company": "Tyson Foods",
+  "quarterLabel": "FY26 Q3",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-08-03",
+  "verdict": "Tyson's sales were flat at $13.9B, but strength in Chicken and Prepared Foods lifted operating income 39% to $362M even as Beef lost $142M.",
+  "revenueYoY": "0%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "sales $13.87B, flat vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.52",
+      "note": "diluted, vs $0.17 a year ago"
+    },
+    {
+      "label": "Chicken profit",
+      "value": "$389M",
+      "note": "segment operating income, 9.1% margin"
+    },
+    {
+      "label": "Beef loss",
+      "value": "-$142M",
+      "note": "segment operating loss, -2.6% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Beef",
+      "amountM": 5391,
+      "yoy": "-4%",
+      "note": "Beef sales \u2014 the largest business. Volume fell 15.9% but prices rose 12.1%, so sales fell only 4% to $5,391M."
+    },
+    {
+      "name": "Chicken",
+      "amountM": 4255,
+      "yoy": "+1%",
+      "note": "Chicken sales, up 1% on higher prices and volume \u2014 and the profit engine this quarter."
+    },
+    {
+      "name": "Prepared Foods",
+      "amountM": 2557,
+      "yoy": "+2%",
+      "note": "Branded packaged foods \u2014 Jimmy Dean, Hillshire Farm, Ball Park and Tyson branded products \u2014 up 2%."
+    },
+    {
+      "name": "Pork",
+      "amountM": 1580,
+      "yoy": "+5%",
+      "note": "Pork sales, up 5% on 5.2% higher volume."
+    },
+    {
+      "name": "International",
+      "amountM": 601,
+      "yoy": "+8%",
+      "note": "Sales outside the US, up 8% on higher prices."
+    },
+    {
+      "name": "Intersegment eliminations",
+      "amountM": -516,
+      "yoy": "",
+      "note": "Sales between Tyson's own businesses, removed so revenue is not counted twice."
+    }
+  ],
+  "flow": {
+    "revenueM": 13868,
+    "costOfRevenueM": 12947,
+    "grossProfitM": 921,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 559,
+        "note": "Selling the brands and running the company \u2014 marketing, distribution support and the back office."
+      }
+    ],
+    "operatingIncomeM": 362,
+    "otherIncomeM": -96,
+    "equityM": -4,
+    "taxM": 80,
+    "netIncomeM": 182
+  },
+  "follow100": [
+    {
+      "label": "Beef",
+      "amount": 38.87
+    },
+    {
+      "label": "Chicken",
+      "amount": 30.68
+    },
+    {
+      "label": "Prepared Foods",
+      "amount": 18.44
+    },
+    {
+      "label": "Pork",
+      "amount": 11.39
+    },
+    {
+      "label": "International",
+      "amount": 4.33
+    },
+    {
+      "label": "Intersegment eliminations",
+      "amount": -3.72
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -93.36
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.03
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.69
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.03
+    },
+    {
+      "label": "Tax",
+      "amount": -0.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.31
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$389M",
+      "statColor": "#3e8e5a",
+      "title": "Chicken carried the quarter",
+      "text": "Chicken earned $389M at a 9.1% margin and Prepared Foods earned $312M at 12.2% \u2014 together they more than covered Beef's $142M loss, its seventh difficult quarter on tight cattle supplies."
+    },
+    {
+      "stat": "$362M",
+      "statColor": "#3d7bc8",
+      "title": "GAAP profit rose 39%",
+      "text": "Operating income rose to $362M from $260M a year ago, when a $343M goodwill impairment weighed on results. Adjusted operating income, excluding this quarter's one-offs, was $547M."
+    },
+    {
+      "stat": "$98M",
+      "statColor": "#b8443c",
+      "title": "A legal charge cut the top line",
+      "text": "A $98M legal contingency accrual was booked as a reduction of Chicken sales, and a $73M leadership-transition charge sat in SG&A \u2014 together they explain most of the gap between GAAP and adjusted profit."
+    }
+  ],
+  "oneTimers": [
+    "A $98M legal contingency accrual was recognized as a reduction of Sales in the Chicken segment; excluding it, sales would have grown 0.6%.",
+    "Executive leadership transition charges of $73M were included in SG&A and are not deductible for tax \u2014 a main reason the effective tax rate was an unusually high 30.1%.",
+    "Restructuring and related charges added $14M in the quarter; adjusted (non-GAAP) operating income excluding all three items was $547M, vs $362M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/100493/000010049326000057/tsn2026q3exh-991.htm"
+    }
+  ],
+  "otherDetail": "Other expense, net of $96M: $98M of interest expense, less $6M of interest income, plus $4M of other expense, net. After $80M of tax, $4M of the $186M total net income went to noncontrolling interests, leaving $182M attributable to Tyson.",
+  "footerNote": "Tyson had not yet reported fiscal Q4 2026 as of November 7, 2026, so this page covers its latest reported quarter, fiscal Q3 2026 (ended June 27, 2026). Sales are as reported, after the $98M legal contingency accrual recorded as a reduction of sales."
+}

@@ -1,0 +1,182 @@
+{
+  "ticker": "TGT",
+  "company": "Target",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-19",
+  "verdict": "Target's sales rose 5.3% to $26.5B and profit doubled to $1.9B \u2014 but $994M of that came from one-off tariff refunds; even without them, EPS rose a solid 20%.",
+  "revenueYoY": "+5.3%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5.3%",
+      "note": "net sales of $26.5B vs $25.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.11",
+      "note": "includes $1.65 from tariff refunds; up 20% excluding them"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+3.8%",
+      "note": "traffic up 3.6%; digital comparable sales up 8.7%"
+    },
+    {
+      "label": "Tariff refunds",
+      "value": "$994M",
+      "note": "one-off IEEPA refunds booked as a reduction in cost of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Food & beverage",
+      "amountM": 5991,
+      "yoy": "+7%",
+      "note": "Groceries \u2014 Target's biggest category, and it grew at a high single-digit rate."
+    },
+    {
+      "name": "Household essentials",
+      "amountM": 4617,
+      "yoy": "+4%",
+      "note": "Cleaning, health and everyday basics."
+    },
+    {
+      "name": "Apparel & accessories",
+      "amountM": 4090,
+      "yoy": "+0%",
+      "note": "Clothing and accessories \u2014 essentially flat vs a year ago."
+    },
+    {
+      "name": "Hardlines (Fun 101)",
+      "amountM": 3894,
+      "yoy": "+11%",
+      "note": "Toys, electronics and seasonal 'Fun 101' goods \u2014 the fastest-growing big category, up double digits."
+    },
+    {
+      "name": "Home furnishings & d\u00e9cor",
+      "amountM": 3668,
+      "yoy": "+0%",
+      "note": "Furniture and home d\u00e9cor \u2014 essentially flat."
+    },
+    {
+      "name": "Beauty",
+      "amountM": 3639,
+      "yoy": "+7%",
+      "note": "Beauty and personal care, including the Ulta shop-in-shop format."
+    },
+    {
+      "name": "Other & non-merchandise",
+      "amountM": 640,
+      "yoy": "+20%",
+      "note": "Other merchandise ($48M) plus money that is not store sales at all: Roundel advertising ($279M), credit-card profit sharing ($139M) and other income ($174M) \u2014 up over 20%."
+    }
+  ],
+  "flow": {
+    "revenueM": 26539,
+    "costOfRevenueM": 17603,
+    "grossProfitM": 8936,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 5725,
+        "note": "Selling, general and administrative \u2014 store payroll, marketing and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 651,
+        "note": "Spreading the cost of stores, fixtures and technology over their useful lives (excluding depreciation already counted in cost of sales)."
+      }
+    ],
+    "operatingIncomeM": 2560,
+    "otherIncomeM": -101,
+    "taxM": 582,
+    "netIncomeM": 1877
+  },
+  "otherDetail": "Net interest expense of $98M plus $3M of net other expense \u2014 a $101M cost below the operating line.",
+  "oneTimers": [
+    "$994M of IEEPA tariff refunds received in the quarter were booked as a reduction of cost of sales, adding $752M to net earnings and $1.65 to EPS. Excluding the refunds, EPS rose 20% YoY and gross margin was about 29.9% instead of the reported 33.7%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000034/a2026q2ex-99.htm"
+    }
+  ],
+  "footerNote": "Target had not yet reported Q3 FY26 as of November 7, 2026 (that quarter ended October 31, 2026), so this page covers its latest reported quarter, Q2 FY26.",
+  "takeaways": [
+    {
+      "stat": "+3.8%",
+      "statColor": "#3d7bc8",
+      "title": "Shoppers came back",
+      "text": "Comparable sales rose 3.8% on 3.6% more traffic, with growth in all six core categories. Digital comparable sales rose 8.7%, led by same-day delivery up more than 25%."
+    },
+    {
+      "stat": "$994M",
+      "statColor": "#5b6b7c",
+      "title": "Refunds flatter the margin",
+      "text": "Gross margin was 33.7% vs 29.0% a year ago \u2014 but $994M of one-off tariff refunds sit inside it. Without them the margin was about 29.9%, still an improvement."
+    },
+    {
+      "stat": "$4.11",
+      "statColor": "#3e8e5a",
+      "title": "Profit doubled \u2014 honestly, mostly the refund",
+      "text": "EPS doubled to $4.11 from $2.05. Strip out the $1.65 refund benefit and EPS still rose 20%, which is the cleaner read on the quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Food & beverage",
+      "amount": 22.58
+    },
+    {
+      "label": "Household essentials",
+      "amount": 17.4
+    },
+    {
+      "label": "Apparel & accessories",
+      "amount": 15.41
+    },
+    {
+      "label": "Hardlines (Fun 101)",
+      "amount": 14.67
+    },
+    {
+      "label": "Home furnishings & d\u00e9cor",
+      "amount": 13.82
+    },
+    {
+      "label": "Beauty",
+      "amount": 13.71
+    },
+    {
+      "label": "Other & non-merchandise",
+      "amount": 2.41
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -66.34
+    },
+    {
+      "label": "SG&A",
+      "amount": -21.57
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.45
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -2.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.07
+    }
+  ]
+}

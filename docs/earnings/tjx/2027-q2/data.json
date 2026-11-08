@@ -1,0 +1,143 @@
+{
+  "ticker": "TJX",
+  "company": "TJX Companies",
+  "quarterLabel": "Q2 FY27",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-08-01",
+  "reportedDate": "2026-08-19",
+  "verdict": "TJX sales rose 5% to $15.2B with every division growing, and a $219M net benefit from tariff refunds helped lift EPS 24% to $1.36.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "net sales of $15.2B vs $14.4B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.36",
+      "note": "up 24% YoY; adjusted EPS $1.22 excluding the tariff-refund benefit"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+4%",
+      "note": "above plan; HomeGoods, Canada and International each up 6\u20137%"
+    },
+    {
+      "label": "Pretax margin",
+      "value": "13.3%",
+      "note": "includes 1.4 points from tariff refunds; adjusted margin 11.9%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Marmaxx (U.S.)",
+      "amountM": 9109,
+      "yoy": "+3%",
+      "note": "T.J. Maxx, Marshalls and Sierra stores in the U.S. \u2014 the biggest division, though its 1% comparable-sales gain lagged the rest."
+    },
+    {
+      "name": "HomeGoods (U.S.)",
+      "amountM": 2507,
+      "yoy": "+10%",
+      "note": "HomeGoods and Homesense home-fashions stores in the U.S. \u2014 comparable sales up 7%."
+    },
+    {
+      "name": "TJX International",
+      "amountM": 2094,
+      "yoy": "+11%",
+      "note": "TK Maxx and Homesense in Europe and Australia \u2014 the fastest-growing division, with comparable sales up 7%."
+    },
+    {
+      "name": "TJX Canada",
+      "amountM": 1470,
+      "yoy": "+6%",
+      "note": "Winners, HomeSense and Marshalls in Canada \u2014 comparable sales up 6%."
+    }
+  ],
+  "flow": {
+    "revenueM": 15180,
+    "costOfRevenueM": 10108,
+    "grossProfitM": 5072,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 3085,
+        "note": "Selling, general and administrative \u2014 store wages and payroll, rent-related running costs not in cost of sales, marketing and the back office. Includes extra bonus accruals linked to the tariff refunds."
+      }
+    ],
+    "operatingIncomeM": 1987,
+    "otherIncomeM": 31,
+    "taxM": 498,
+    "netIncomeM": 1520
+  },
+  "otherDetail": "Net interest income of $31M \u2014 interest earned on cash slightly exceeded interest costs.",
+  "oneTimers": [
+    "Tariff refunds gave TJX a $219M net pretax benefit this quarter ($0.14 per share): refunds received, minus $112M of extra year-end bonus accruals the windfall triggered. Excluding it, adjusted EPS was $1.22 (up 11%) and adjusted pretax margin was 11.9% instead of 13.3%. More refunds are expected in Q3, in uncertain amounts."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000045/tjxq2fy27earningspressrele.htm"
+    }
+  ],
+  "footerNote": "TJX had not yet reported Q3 FY27 as of November 7, 2026 (that quarter ended October 31, 2026), so this page covers its latest reported quarter, Q2 FY27.",
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Growth everywhere except the flagship",
+      "text": "Consolidated comparable sales rose 4%, above plan \u2014 but Marmaxx (T.J. Maxx/Marshalls U.S.) managed only +1%, while HomeGoods, Canada and International each rose 6\u20137%."
+    },
+    {
+      "stat": "$0.14",
+      "statColor": "#5b6b7c",
+      "title": "Refunds padded the profit beat",
+      "text": "EPS of $1.36 includes a $0.14 net benefit from IEEPA tariff refunds. The adjusted figure, $1.22, was still up 11% \u2014 and TJX raised its full-year outlook on the strength of the quarter."
+    },
+    {
+      "stat": "7,500",
+      "statColor": "#3e8e5a",
+      "title": "A bigger long-term map",
+      "text": "TJX lifted its long-term store target to 7,500 stores and plans to speed openings to 4% a year from FY28 \u2014 it ended the quarter with 5,285 stores."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Marmaxx (U.S.)",
+      "amount": 60.01
+    },
+    {
+      "label": "HomeGoods (U.S.)",
+      "amount": 16.52
+    },
+    {
+      "label": "TJX International",
+      "amount": 13.79
+    },
+    {
+      "label": "TJX Canada",
+      "amount": 9.68
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -66.59
+    },
+    {
+      "label": "SG&A",
+      "amount": -20.32
+    },
+    {
+      "label": "Interest income, net",
+      "amount": 0.2
+    },
+    {
+      "label": "Tax",
+      "amount": -3.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.01
+    }
+  ]
+}

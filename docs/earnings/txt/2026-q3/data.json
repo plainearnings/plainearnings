@@ -1,0 +1,165 @@
+{
+  "ticker": "TXT",
+  "company": "Textron",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-10-29",
+  "verdict": "Textron's revenue rose 4% to $3.8B as Citation jet deliveries jumped, and earnings per share rose to $1.56 even though Bell's military revenue slipped.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4%",
+      "note": "$3.8B vs $3.6B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.56",
+      "note": "diluted, from continuing operations, vs $1.31 a year ago; adjusted EPS was $1.76"
+    },
+    {
+      "label": "Textron Aviation revenue",
+      "value": "$1.7B",
+      "note": "up 14% YoY \u2014 51 Citation jets delivered, vs 42 a year ago"
+    },
+    {
+      "label": "Manufacturing cash flow",
+      "value": "$418M",
+      "note": "before pension contributions (non-GAAP), vs $281M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Textron Aviation",
+      "amountM": 1680,
+      "yoy": "+14%",
+      "note": "Cessna and Beechcraft planes \u2014 Citation jets and turboprops, plus parts and servicing. Aircraft revenue rose $152M on higher jet volume and mix, and aftermarket revenue rose $49M."
+    },
+    {
+      "name": "Bell",
+      "amountM": 933,
+      "yoy": "-9%",
+      "note": "Helicopters for the military and commercial customers. Revenue fell on lower volume on the MV-75 Cheyenne military program and lower commercial deliveries."
+    },
+    {
+      "name": "Textron Systems",
+      "amountM": 360,
+      "yoy": "+16%",
+      "note": "Defense products and services \u2014 armored vehicles, drones and military training (including ATAC). Growth came from armored land vehicles and training services."
+    },
+    {
+      "name": "Industrial",
+      "amountM": 765,
+      "yoy": "+1%",
+      "note": "E-Z-GO golf cars and other specialized vehicles, plus Kautex fuel systems for cars. Specialized Vehicles grew 9%; Kautex fell 5%. Textron plans to separate this business."
+    },
+    {
+      "name": "Finance",
+      "amountM": 13,
+      "yoy": "-50%",
+      "note": "Financing customers' purchases of Textron products \u2014 a small captive finance arm. A year ago it booked $11M of gains selling off non-captive assets.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 3751,
+    "costOfRevenueM": 3086,
+    "grossProfitM": 665,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 110,
+        "note": "Developing new aircraft and defense products \u2014 down 7% YoY."
+      },
+      {
+        "name": "Selling & administrative",
+        "amountM": 271,
+        "note": "Selling products and running the company day to day \u2014 up 5% YoY.",
+        "shortName": "SG&A"
+      }
+    ],
+    "operatingIncomeM": 284,
+    "otherIncomeM": 38,
+    "taxM": 52,
+    "netIncomeM": 270
+  },
+  "otherDetail": "Pension and postretirement income of $70M (the non-service part \u2014 returns on pension assets, not an operating cost), less $32M of net interest expense \u2014 a net $38M gain below operating income.",
+  "follow100": [
+    {
+      "label": "Textron Aviation",
+      "amount": 44.79
+    },
+    {
+      "label": "Bell",
+      "amount": 24.87
+    },
+    {
+      "label": "Textron Systems",
+      "amount": 9.6
+    },
+    {
+      "label": "Industrial",
+      "amount": 20.39
+    },
+    {
+      "label": "Finance",
+      "amount": 0.35
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -82.27
+    },
+    {
+      "label": "R&D",
+      "amount": -2.93
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -7.22
+    },
+    {
+      "label": "Pension & interest, net",
+      "amount": 1.01
+    },
+    {
+      "label": "Tax",
+      "amount": -1.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.2
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Jets carried the quarter",
+      "text": "Textron Aviation revenue rose 14% to $1,680M, with 51 Citation jets delivered versus 42 a year ago, and its backlog held at $8.0B. Segment profit rose only 4% to $179M, held back by manufacturing inefficiencies."
+    },
+    {
+      "stat": "-9%",
+      "statColor": "#b8443c",
+      "title": "Bell is the soft spot",
+      "text": "Bell revenue fell 9% to $933M and segment profit fell 17% to $76M on lower MV-75 program volume. After quarter-end the Army won Congressional approval for extra MV-75 funding, which helped Textron raise its full-year outlook."
+    },
+    {
+      "stat": "$1.76",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted profit beat the GAAP print",
+      "text": "Adjusted EPS was $1.76 versus $1.56 GAAP \u2014 the gap is a $36M LIFO inventory charge (an accounting method that raises cost of sales when prices rise) and $7M of intangible amortization, both before tax. Textron raised full-year adjusted EPS guidance to $6.55\u2013$6.65."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000043/q320268-kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000044/txt-20261003.htm"
+    }
+  ]
+}

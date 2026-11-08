@@ -1,0 +1,189 @@
+{
+  "ticker": "TRGP",
+  "company": "Targa Resources",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Targa's revenue jumped 35% to $5.6B and profit for shareholders rose 38% to $658M, on record Permian gas and NGL volumes and higher commodity prices.",
+  "revenueYoY": "+34.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$5.6B",
+      "note": "+34.9% YoY, from $4.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.04",
+      "note": "vs $2.20 a year ago, on profit attributable to Targa shareholders"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.5B",
+      "note": "+18% YoY (non-GAAP profit before interest, tax and depreciation)"
+    },
+    {
+      "label": "Quarterly dividend",
+      "value": "$1.25",
+      "note": "Per share, +25% YoY; a rise to $6.00 a year is expected for 2027"
+    }
+  ],
+  "segments": [
+    {
+      "name": "NGL sales",
+      "amountM": 3843.9,
+      "yoy": "+32%",
+      "note": "Natural gas liquids \u2014 propane, butane and similar fuels separated from raw gas \u2014 sold to customers. The biggest revenue line, up on higher prices and volumes."
+    },
+    {
+      "name": "Fees from midstream services",
+      "amountM": 875.7,
+      "yoy": "+29%",
+      "note": "Fees for gathering, processing, transporting, fractionating and storing gas and NGLs: gathering & processing $634.2M, NGL transportation & fractionation $111.2M, storage, terminaling & export $128.9M and other $1.4M."
+    },
+    {
+      "name": "Natural gas sales",
+      "amountM": 683.0,
+      "yoy": "+36%",
+      "note": "Natural gas sold to customers after processing. Up 36% on higher prices and record Permian inlet volumes."
+    },
+    {
+      "name": "Condensate & crude oil sales",
+      "amountM": 177.9,
+      "yoy": "+65%",
+      "note": "Condensate and crude oil separated during gathering and processing and sold to customers."
+    },
+    {
+      "name": "Derivative & other revenue",
+      "amountM": 18.1,
+      "yoy": "\u2014",
+      "note": "Net gains on commodity derivatives that are not sales to customers ($54.7M of non-hedge gains less $36.6M of hedge losses). A year ago this line was a $50.5M loss, so the swing flatters the comparison."
+    }
+  ],
+  "flow": {
+    "revenueM": 5598.6,
+    "costOfRevenueM": 3578.6,
+    "grossProfitM": 2020.0,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 372.3,
+        "note": "Running the pipelines, plants and terminals day to day \u2014 labor, maintenance and taxes on operations."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 459.6,
+        "note": "The cost of pipelines, processing plants and fractionators wearing out over time."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 112.9,
+        "note": "Running the company \u2014 headquarters, legal and admin."
+      },
+      {
+        "name": "Other operating income",
+        "amountM": -20.8,
+        "note": "A credit: other operating income of $20.8M reduced expenses this quarter."
+      }
+    ],
+    "operatingIncomeM": 1096.0,
+    "otherIncomeM": -245.2,
+    "equityM": -17.9,
+    "taxM": 174.7,
+    "netIncomeM": 658.2
+  },
+  "otherDetail": "Other expense of $245.2M, net: $232.8M of interest expense, net, and $22.6M of other expense, partly offset by $10.2M of equity earnings from joint ventures. A further $17.9M of net income belonged to noncontrolling interests \u2014 outside partners in some assets \u2014 leaving $658.2M attributable to Targa shareholders.",
+  "oneTimers": [
+    "Revenue includes $18.1M of net derivative gains that are not sales to customers \u2014 $54.7M of gains on derivatives not designated as hedges, partly offset by $36.6M of hedge losses \u2014 which can swing either way with gas prices."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526448401/trgp-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526449541/trgp-20260930.htm"
+    }
+  ],
+  "footerNote": "Segments use the Form 10-Q revenue split by product and service. By operating segment, Gathering & Processing earned an operating margin of $813.6M and Logistics & Transportation $771.0M in the quarter. Net income in the flow is the $658.2M attributable to Targa shareholders, after $17.9M for noncontrolling interests.",
+  "takeaways": [
+    {
+      "stat": "+35%",
+      "statColor": "#3d7bc8",
+      "title": "Commodity sales drove growth",
+      "text": "Revenue rose 35% to $5.6B. Higher NGL, gas and condensate prices added about $802M and higher volumes about $383M versus a year ago, and fee revenue rose 29% to $875.7M."
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EBITDA up 18%",
+      "text": "Adjusted EBITDA rose 18% to $1,504M on record Permian inlet volumes and record NGL transportation and fractionation volumes. Targa now expects at least $6.0B of adjusted EBITDA for 2026."
+    },
+    {
+      "stat": "$6.00",
+      "statColor": "#5b6b7c",
+      "title": "Dividend set to rise again",
+      "text": "The quarterly dividend is $1.25 a share, up 25% year over year, and management expects to recommend $6.00 a share annualized for 2027 \u2014 another 20% rise \u2014 while spending about $5.0B on growth projects in 2026."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "NGL sales",
+      "amount": 145.15
+    },
+    {
+      "label": "Fees from midstream services",
+      "amount": 15.64
+    },
+    {
+      "label": "Natural gas sales",
+      "amount": 12.2
+    },
+    {
+      "label": "Condensate & crude oil sales",
+      "amount": 3.18
+    },
+    {
+      "label": "Derivative & other revenue",
+      "amount": 0.32
+    },
+    {
+      "label": "Product purchases & fuel",
+      "amount": -63.92
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -6.65
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -8.21
+    },
+    {
+      "label": "G&A",
+      "amount": -2.02
+    },
+    {
+      "label": "Other operating income",
+      "amount": 0.37
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -4.38
+    },
+    {
+      "label": "Shares to others",
+      "amount": -0.32
+    },
+    {
+      "label": "Tax",
+      "amount": -3.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.76
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "ticker": "TT",
+  "company": "Trane Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Trane's revenue jumped 18% to $6.8B on Americas strength and a $12.5B backlog, lifting net profit to $1.0B even as margins slipped in EMEA and Asia Pacific.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "net revenues $6.76B vs $5.74B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.74",
+      "note": "diluted net; continuing operations $4.79"
+    },
+    {
+      "label": "Backlog",
+      "value": "$12.5B",
+      "note": "up 73% YoY; bookings up 21%"
+    },
+    {
+      "label": "Americas revenue",
+      "value": "$5.6B",
+      "note": "+21% YoY, 84% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 5648,
+      "yoy": "+21%",
+      "note": "Commercial and residential heating and cooling and Thermo King transport refrigeration in North and Latin America \u2014 up 21%, the engine of the quarter."
+    },
+    {
+      "name": "EMEA",
+      "amountM": 756,
+      "yoy": "+1%",
+      "note": "Europe, Middle East and Africa \u2014 revenue up just 1%, with margins down on mix and costs."
+    },
+    {
+      "name": "Asia Pacific",
+      "amountM": 356,
+      "yoy": "+8%",
+      "note": "Asia Pacific commercial systems and transport refrigeration \u2014 up 8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 6760,
+    "costOfRevenueM": 4375,
+    "grossProfitM": 2385,
+    "opex": [
+      {
+        "name": "Selling and administrative",
+        "amountM": 1042,
+        "note": "Selling heating, cooling and refrigeration systems and running the company \u2014 Trane's only operating-expense line."
+      }
+    ],
+    "operatingIncomeM": 1343,
+    "otherIncomeM": -58,
+    "equityM": -16,
+    "taxM": 220,
+    "netIncomeM": 1049
+  },
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 83.55
+    },
+    {
+      "label": "EMEA",
+      "amount": 11.18
+    },
+    {
+      "label": "Asia Pacific",
+      "amount": 5.27
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -64.72
+    },
+    {
+      "label": "Selling & administrative",
+      "amount": -15.41
+    },
+    {
+      "label": "Interest & other expense",
+      "amount": -0.86
+    },
+    {
+      "label": "Discontinued ops & noncontrolling interests",
+      "amount": -0.24
+    },
+    {
+      "label": "Tax",
+      "amount": -3.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.52
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "The Americas did the heavy lifting",
+      "text": "Americas revenue rose 21% to $5,648M with a 21.9% operating margin, across commercial HVAC, residential and transport refrigeration. EMEA grew just 1% and Asia Pacific 8%, with margins down in both."
+    },
+    {
+      "stat": "$12.5B",
+      "statColor": "#3e8e5a",
+      "title": "Future work is piling up",
+      "text": "Bookings rose 21% to $7.2B \u2014 more than the quarter's revenue in every segment \u2014 and the backlog reached $12.5B, up 73%, with Americas commercial HVAC backlog up about 80%."
+    },
+    {
+      "stat": "$4.86",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted EPS rose 25%",
+      "text": "Adjusted continuing EPS was $4.86, up 25%, vs $4.79 GAAP continuing EPS. Year-to-date free cash flow was $2.8B, up about 60%, funding $930M of dividends, $1.1B of acquisitions and $1.4B of buybacks so far this year."
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax non-GAAP adjustments were $21M in the quarter: $16M of amortization of an acquired backlog intangible, $4M of restructuring costs and $1M of deal costs \u2014 the gap between GAAP operating income of $1,343M and adjusted operating income of $1,364M.",
+    "Discontinued operations lost $11M after tax in the quarter (legacy businesses in Chapter 11-related separation), reducing net EPS to $4.74 from $4.79 for continuing operations."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1466258/000146625826000001/exhibit991-q32026earningsr.htm"
+    }
+  ],
+  "otherDetail": "Net expense of $58M below operating income: $52M of interest expense plus $5M of other expense, net (rounded). Continuing operations earned $1,065M after $220M of tax; a $11M discontinued-operations loss and $5M earned by noncontrolling interests (shown together as -$16M) leave $1,049M attributable to Trane shareholders.",
+  "footerNote": "Net income here is the $1,049M attributable to Trane Technologies plc (total net earnings were $1,054M). Amounts are rounded to the nearest $M from the release's $0.1M figures, so the discontinued-operations and noncontrolling-interest deduction is shown as $16M."
+}

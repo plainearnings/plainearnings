@@ -1,0 +1,150 @@
+{
+  "ticker": "TTWO",
+  "company": "Take-Two Interactive",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-07",
+  "verdict": "Take-Two's revenue rose 2% to $1.5B on steady in-game spending, but a $43M write-off on a cancelled game and heavy acquisition amortization left it with a $34M net loss ahead of the GTA VI launch.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "net revenue $1.53B vs $1.50B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.18",
+      "note": "diluted net loss per share, vs -$0.07 a year ago"
+    },
+    {
+      "label": "Net Bookings",
+      "value": "$1.39B",
+      "note": "down 3% YoY \u2014 games sold, before deferrals"
+    },
+    {
+      "label": "Recurrent spending",
+      "value": "$1.29B",
+      "note": "84% of revenue, up 3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Game revenue",
+      "amountM": 1423,
+      "yoy": "+3%",
+      "note": "Game sales and in-game spending \u2014 NBA 2K, Grand Theft Auto, Red Dead Redemption and Zynga mobile games \u2014 up 3%. Recurrent consumer spending (virtual currency, add-ons and in-game purchases) was $1,290M of this, 84% of total revenue."
+    },
+    {
+      "name": "Advertising revenue",
+      "amountM": 111,
+      "yoy": "-8%",
+      "note": "In-game advertising, mostly in mobile games \u2014 down 8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1534,
+    "costOfRevenueM": 651,
+    "grossProfitM": 883,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 370,
+        "note": "Marketing games and buying players for mobile titles \u2014 the biggest running cost."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 274,
+        "note": "Building games at Rockstar, 2K and Zynga studios."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 226,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 48,
+        "note": "Spreading the cost of equipment and other assets over their lives (acquired-game amortization sits in cost of revenue)."
+      }
+    ],
+    "operatingIncomeM": -35,
+    "otherIncomeM": -14,
+    "taxM": -15,
+    "netIncomeM": -34
+  },
+  "follow100": [
+    {
+      "label": "Game revenue",
+      "amount": 92.76
+    },
+    {
+      "label": "Advertising revenue",
+      "amount": 7.24
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.44
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -24.12
+    },
+    {
+      "label": "R&D",
+      "amount": -17.86
+    },
+    {
+      "label": "G&A",
+      "amount": -14.73
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.13
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.91
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.98
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -2.22
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "84%",
+      "statColor": "#3d7bc8",
+      "title": "Players keep spending in old games",
+      "text": "Recurrent consumer spending \u2014 virtual currency, add-on content and in-game purchases \u2014 was $1,290M, 84% of revenue, led by NBA 2K, Grand Theft Auto Online and Zynga mobile titles such as Toon Blast and Empires & Puzzles."
+    },
+    {
+      "stat": "-$34M",
+      "statColor": "#b8443c",
+      "title": "A GAAP loss, by design of the calendar",
+      "text": "The $34M net loss includes $161M of non-cash amortization of intangibles from past acquisitions and a $43M impairment on a cancelled title. The big release \u2014 Grand Theft Auto VI, due November 19, 2026 \u2014 lands in the next quarter but one."
+    },
+    {
+      "stat": "$1.39B",
+      "statColor": "#5b6b7c",
+      "title": "Bookings dipped slightly",
+      "text": "Net Bookings \u2014 what was actually sold in the quarter, before revenue deferrals \u2014 fell 3% to $1,386M. Mobile was half of revenue at $762M, console $641M and PC and other $131M."
+    }
+  ],
+  "oneTimers": [
+    "Cost of revenue included a $43.4M impairment charge after Take-Two decided not to proceed with an unannounced title from a third-party developer \u2014 the main reason software development costs and royalties jumped to $135M from $30M a year ago."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo1q27earningsrelease.htm"
+    }
+  ],
+  "otherDetail": "Interest and other, net was a $14M expense: $23M of interest income, less $30M of interest expense and $6M of other expense, net (rounded). A $15M tax benefit then reduced the $49M pre-tax loss to a $34M net loss.",
+  "footerNote": "Take-Two had not yet reported fiscal Q2 2027 (ended September 30, 2026) as of November 7, 2026, so this page covers its latest reported quarter, fiscal Q1 2027. Amounts are rounded to the nearest $M from the release's $0.1M figures; operating loss is shown as $35M (reported $35.5M). The chart draws the $34M net loss as covered by cash on hand \u2014 the shortfall came from the balance sheet, not from revenue."
+}

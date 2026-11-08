@@ -1,0 +1,157 @@
+{
+  "ticker": "TPL",
+  "company": "Texas Pacific Land",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Texas Pacific Land set records with revenue up 35% to $273.4M and net income of $167.4M, as oil and gas royalties surged 54% on higher prices and Permian drilling.",
+  "revenueYoY": "+34.6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$273.4M",
+      "note": "+34.6% YoY, a company record"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.42",
+      "note": "vs $1.76 a year ago"
+    },
+    {
+      "label": "Oil & gas royalties",
+      "value": "$167.3M",
+      "note": "A record, +54% YoY on higher prices and production"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$170.3M",
+      "note": "A record (non-GAAP, as the company defines it)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Land and Resource Management",
+      "amountM": 201.568,
+      "yoy": "+65%",
+      "note": "Royalties and rent from TPL's Permian Basin land: $167.3M of oil and gas royalties, $34.2M of easements and surface income, and $0.1M of land sales. Segment net income was $133.8M."
+    },
+    {
+      "name": "Water Services and Operations",
+      "amountM": 71.822,
+      "yoy": "-11%",
+      "note": "Water for oilfield use: $28.4M of water sales and $41.4M of produced-water royalties, plus $2.0M of easements. Segment net income was $33.6M."
+    }
+  ],
+  "flow": {
+    "revenueM": 273.39,
+    "costOfRevenueM": 0,
+    "grossProfitM": 273.39,
+    "opex": [
+      {
+        "name": "Salaries & related expenses",
+        "amountM": 17.167,
+        "note": "Pay for the people who manage the land, royalty interests and water business."
+      },
+      {
+        "name": "Water service-related expenses",
+        "amountM": 13.817,
+        "note": "Running the water sourcing, treatment and disposal operations."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 10.6,
+        "note": "Running the company \u2014 offices, legal and admin. Up from $5.6M a year ago."
+      },
+      {
+        "name": "Depreciation, depletion & amortization",
+        "amountM": 22.833,
+        "note": "The cost of water assets and royalty interests wearing out or being used up over time."
+      },
+      {
+        "name": "Ad valorem & other taxes",
+        "amountM": 1.19,
+        "note": "Property-type taxes on the land and assets \u2014 separate from income tax."
+      }
+    ],
+    "operatingIncomeM": 207.783,
+    "otherIncomeM": 2.609,
+    "taxM": 43.024,
+    "netIncomeM": 167.368
+  },
+  "otherDetail": "Other income of $2.6M, net: $3.6M of other income, net, less $1.0M of interest expense.",
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000075/exhibit991q32026earningsre.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000077/tpl-20260930.htm"
+    }
+  ],
+  "footerNote": "TPL reports in thousands; figures are shown in $M with decimals so the lines add up exactly. TPL has no separate cost-of-revenue line \u2014 all of its costs are operating expenses, so gross profit equals revenue in the flow.",
+  "takeaways": [
+    {
+      "stat": "$167.3M",
+      "statColor": "#3e8e5a",
+      "title": "Royalties set a record",
+      "text": "Oil and gas royalty revenue hit a record $167.3M, up 54% from a year ago. TPL's share of production was a record 42.3 thousand barrels of oil equivalent a day, and realized oil prices averaged $83.57 a barrel."
+    },
+    {
+      "stat": "+35%",
+      "statColor": "#3d7bc8",
+      "title": "Best quarter in company history",
+      "text": "Revenue, net income and free cash flow all set records. Easement and surface income more than doubled to $36.2M as operators built more pipelines and infrastructure across TPL's land."
+    },
+    {
+      "stat": "-11%",
+      "statColor": "#5b6b7c",
+      "title": "The water segment cooled",
+      "text": "Water Services revenue fell 11% to $71.8M: water sales dropped 36% even as produced-water royalty volumes hit a record 5,541 thousand barrels a day and produced-water royalties rose 28% to $41.4M."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Land and Resource Management",
+      "amount": 51.3
+    },
+    {
+      "label": "Water Services and Operations",
+      "amount": 26.27
+    },
+    {
+      "label": "Salaries & related",
+      "amount": -6.28
+    },
+    {
+      "label": "Water service costs",
+      "amount": -5.05
+    },
+    {
+      "label": "G&A",
+      "amount": -3.88
+    },
+    {
+      "label": "DD&A",
+      "amount": -8.35
+    },
+    {
+      "label": "Ad valorem taxes",
+      "amount": -0.44
+    },
+    {
+      "label": "Other income",
+      "amount": 0.95
+    },
+    {
+      "label": "Tax",
+      "amount": -15.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 61.22
+    }
+  ]
+}

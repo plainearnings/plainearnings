@@ -1,0 +1,175 @@
+{
+  "ticker": "TYL",
+  "company": "Tyler Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "Tyler's revenue rose 9% to $648M as cloud (SaaS) revenue jumped 21%, and record free cash flow of $277M helped fund a $379M share buyback.",
+  "revenueYoY": "+9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "$648M vs $596M a year ago; recurring revenue was 88% of the total"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.33",
+      "note": "diluted, vs $1.93 a year ago; non-GAAP EPS was $3.52"
+    },
+    {
+      "label": "SaaS revenue",
+      "value": "$242M",
+      "note": "up 21% YoY \u2014 software delivered from Tyler's cloud, the fastest-growing piece"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$277M",
+      "note": "a quarterly record, up 12% YoY (non-GAAP)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscriptions",
+      "amountM": 463,
+      "yoy": "+15%",
+      "note": "Software subscriptions \u2014 $242M of cloud (SaaS) revenue, up 21%, plus $220M of transaction-based fees (payments and other per-use charges), up 10%."
+    },
+    {
+      "name": "Maintenance",
+      "amountM": 106,
+      "yoy": "-5%",
+      "note": "Support and maintenance contracts for software customers run on their own systems \u2014 shrinking as customers move to the cloud."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 63,
+      "yoy": "-3%",
+      "note": "Installing, configuring and training \u2014 the people work that goes with new software deals."
+    },
+    {
+      "name": "Other",
+      "amountM": 16,
+      "yoy": "-16%",
+      "note": "Everything else, including hardware and third-party products sold with Tyler's software.",
+      "compact": true
+    }
+  ],
+  "flow": {
+    "revenueM": 648,
+    "costOfRevenueM": 330,
+    "grossProfitM": 318,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 40,
+        "note": "Selling to state and local governments."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 82,
+        "note": "Running the company day to day, including much of its stock-based pay.",
+        "shortName": "G&A"
+      },
+      {
+        "name": "Research & development",
+        "amountM": 63,
+        "note": "Building the software \u2014 up 22% YoY as Tyler adds AI features."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 16,
+        "note": "Spreading the cost of companies and technology Tyler bought in past deals over their useful lives.",
+        "shortName": "Amortization"
+      }
+    ],
+    "operatingIncomeM": 117,
+    "otherIncomeM": 4,
+    "taxM": 26,
+    "netIncomeM": 95
+  },
+  "otherDetail": "Other income, net of $8M, less $4M of interest expense \u2014 a net $4M gain below operating income.",
+  "follow100": [
+    {
+      "label": "Subscriptions",
+      "amount": 71.45
+    },
+    {
+      "label": "Maintenance",
+      "amount": 16.36
+    },
+    {
+      "label": "Professional services",
+      "amount": 9.72
+    },
+    {
+      "label": "Other",
+      "amount": 2.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -50.93
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.17
+    },
+    {
+      "label": "G&A",
+      "amount": -12.65
+    },
+    {
+      "label": "R&D",
+      "amount": -9.72
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.47
+    },
+    {
+      "label": "Other income, net",
+      "amount": 0.62
+    },
+    {
+      "label": "Tax",
+      "amount": -4.01
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.66
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "The cloud is doing the growing",
+      "text": "SaaS revenue grew 21% to $242M and subscription revenue overall grew 15%, while old-style maintenance fell 5%. Annualized recurring revenue reached $2.28B, up 11% \u2014 most of Tyler's sales now repeat every year."
+    },
+    {
+      "stat": "$277M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow set a record",
+      "text": "Free cash flow was $277M, up 12%, a quarterly record. Tyler spent it two ways: about $28M to buy public-safety software maker CODY Systems, and $379M buying back 1.1 million of its own shares."
+    },
+    {
+      "stat": "$3.52",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted profit is much higher than GAAP",
+      "text": "Non-GAAP EPS was $3.52 versus $2.33 GAAP. The gap is mostly $39M of stock-based pay and $25M of amortization of bought software and intangibles \u2014 real costs, but ones Tyler's preferred measure leaves out."
+    }
+  ],
+  "oneTimers": [],
+  "footerNote": "Amounts are rounded to $M from the statement, which is in thousands (total revenue $647,566K; cost of revenues $329,357K, shown as $330M so the rounded flow ties exactly). Tyler reports revenue by type on its income statement, so those statement lines are the segments here.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000056/a991earningsrelease-9302026.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000058/tyl-20260930.htm"
+    }
+  ]
+}

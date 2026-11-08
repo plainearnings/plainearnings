@@ -1,0 +1,177 @@
+{
+  "ticker": "UAL",
+  "company": "United Airlines",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-20",
+  "verdict": "United's revenue jumped 17% to a record $17.9B on strong premium, loyalty and cargo demand, but a 62% surge in fuel costs held net income to $1.0B.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "total operating revenue was a record $17.9B, vs $15.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.14",
+      "note": "diluted, vs $2.90 a year ago; adjusted EPS was $2.54 after removing special credits"
+    },
+    {
+      "label": "Aircraft fuel cost",
+      "value": "$4.8B",
+      "note": "up 62% YoY \u2014 $1.8B more than a year ago, at $3.90 a gallon vs $2.43"
+    },
+    {
+      "label": "Passenger revenue",
+      "value": "$16.2B",
+      "note": "up 18% YoY; premium-cabin revenue rose 17% and cargo revenue rose 23%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Passenger",
+      "amountM": 16241,
+      "yoy": "+18%",
+      "note": "Tickets and seat-related fees \u2014 about 91% of revenue. Premium products and loyalty-linked flying led growth; United carried a record 49.5 million passengers in the quarter."
+    },
+    {
+      "name": "Cargo",
+      "amountM": 529,
+      "yoy": "+23%",
+      "note": "Freight and mail flown in the bellies of passenger planes.",
+      "compact": true
+    },
+    {
+      "name": "Other",
+      "amountM": 1105,
+      "yoy": "+13%",
+      "note": "Loyalty-program revenue from partners such as credit-card issuers, plus maintenance and other services sold to third parties. The statement line is $1,106M; shown as $1,105M so the rounded segments tie to the $17,875M total (see footer)."
+    }
+  ],
+  "flow": {
+    "revenueM": 17875,
+    "costOfRevenueM": 7420,
+    "grossProfitM": 10455,
+    "opex": [
+      {
+        "name": "Salaries and related costs",
+        "amountM": 4961,
+        "note": "Pay and benefits for about 118,000 employees, including $146M of profit sharing \u2014 United's largest single cost, up 9% YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 777,
+        "note": "Spreading the cost of aircraft and equipment over their working lives.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "name": "Distribution expenses",
+        "amountM": 632,
+        "note": "The cost of selling tickets \u2014 booking channels, card fees and commissions."
+      },
+      {
+        "name": "Aircraft rent",
+        "amountM": 116,
+        "note": "Rent for leased aircraft."
+      },
+      {
+        "name": "Other operating expenses, net",
+        "amountM": 2523,
+        "note": "All remaining operating costs ($2,739M on the statement), reduced by $215M of special credits \u2014 mainly gains on aircraft sale-leaseback deals \u2014 and $1M of rounding so the flow ties (see footer).",
+        "shortName": "Other operating, net"
+      }
+    ],
+    "operatingIncomeM": 1446,
+    "otherIncomeM": -135,
+    "taxM": 282,
+    "netIncomeM": 1029
+  },
+  "otherDetail": "Interest expense of $359M, partly offset by $157M of interest income, $56M of capitalized interest and $24M of miscellaneous income, less a $13M unrealized loss on investments \u2014 a net $135M cost below operating income.",
+  "follow100": [
+    {
+      "label": "Passenger",
+      "amount": 90.86
+    },
+    {
+      "label": "Cargo",
+      "amount": 2.96
+    },
+    {
+      "label": "Other",
+      "amount": 6.18
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -41.51
+    },
+    {
+      "label": "Salaries",
+      "amount": -27.75
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -4.35
+    },
+    {
+      "label": "Distribution",
+      "amount": -3.54
+    },
+    {
+      "label": "Aircraft rent",
+      "amount": -0.65
+    },
+    {
+      "label": "Other operating, net",
+      "amount": -14.11
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -1.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.76
+    }
+  ],
+  "follow100Note": "Cost of revenue groups the direct costs of flying: aircraft fuel ($4,843M), landing fees and other rent ($1,046M), aircraft maintenance materials and outside repairs ($806M) and regional capacity purchase \u2014 paying regional airlines to fly United Express routes ($725M). Every other operating expense line sits in operating expenses, so each statement line is counted exactly once.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter for demand",
+      "text": "Revenue rose 17% to a record $17,875M. Premium revenue rose 17%, loyalty revenue 17%, cargo 23% and contracted business revenue 26% \u2014 and United expects even faster growth, over 20%, in the December quarter."
+    },
+    {
+      "stat": "+62%",
+      "statColor": "#b8443c",
+      "title": "Fuel ate most of the growth",
+      "text": "Aircraft fuel cost $4,843M, up $1,846M from a year ago, as the average price rose to $3.90 a gallon from $2.43. Operating income rose only 4% to $1,446M despite the record top line."
+    },
+    {
+      "stat": "$2.54",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted profit strips out sale gains",
+      "text": "GAAP EPS was $3.14, but that includes $215M of special credits, mostly gains from selling aircraft and leasing them back. Excluding those and a $13M investment loss, adjusted EPS was $2.54 and adjusted net income was $833M."
+    }
+  ],
+  "oneTimers": [
+    "Operating results include $215M of net special credits: $213M of net gains on sale of assets and other special charges \u2014 primarily $294M of gains on aircraft sale-leaseback transactions, partly offset by other charges \u2014 which is why GAAP EPS of $3.14 sits above adjusted EPS of $2.54."
+  ],
+  "footerNote": "Flow adaptation: airlines report no gross-profit line; cost of revenue here groups the direct costs of flying (see the $100 note). United's release is in $M and its own lines carry $1M of rounding \u2014 the revenue lines sum to $17,876M against a $17,875M total, and the expense lines to $16,430M against $16,429M \u2014 so two 'other' lines are each shown $1M lower here so the rounded flow ties exactly to the reported totals.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000184/ual_erx09302026xex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000186/ual-20260930.htm"
+    }
+  ]
+}
