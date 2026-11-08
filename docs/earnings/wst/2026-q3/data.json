@@ -1,0 +1,138 @@
+{
+  "ticker": "WST",
+  "company": "West Pharmaceutical Services",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "West's sales rose 9% to $875 million and net income jumped 53% to $214 million, lifted by a one-time $56 million gain on selling the SmartDose device business \u2014 and demand for high-value components was strong enough for West to raise its full-year guidance.",
+  "revenueYoY": "+8.7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$875M",
+      "note": "net sales, +8.7% vs a year ago (organic +11.9%)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.02",
+      "note": "diluted, vs $1.92 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.66",
+      "note": "non-GAAP, +36% YoY \u2014 excludes the SmartDose gain"
+    },
+    {
+      "label": "Operating profit",
+      "value": "$217M",
+      "note": "before the one-off SmartDose credit; $268M as printed (30.6% margin)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Proprietary Products",
+      "amountM": 729,
+      "yoy": "+12.6%",
+      "note": "West's own injectable packaging and delivery products \u2014 rubber stoppers, seals, plungers and devices. High-value components alone brought in $467M, up 20%."
+    },
+    {
+      "name": "West Vantage",
+      "amountM": 146,
+      "yoy": "-7.3%",
+      "note": "Contract manufacturing and services for drug makers. Sales fell 7% in the quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 875,
+    "costOfRevenueM": 527,
+    "grossProfitM": 348,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 18,
+        "note": "Developing new containment and delivery products."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 113,
+        "note": "Sales teams plus the back office: finance, legal, IT and head-office staff."
+      }
+    ],
+    "operatingIncomeM": 217,
+    "otherIncomeM": 51,
+    "equityM": 4,
+    "taxM": 58,
+    "netIncomeM": 214
+  },
+  "otherDetail": "The printed statement counts a $51M net credit inside operating profit \u2014 'Other expense (income), net' was $51M of income, mostly the $56M gain on selling the SmartDose device business, partly offset by $6M of restructuring charges. This chart shows operating profit before that credit ($217M) and counts the credit in Other income instead; printed operating profit was $268M. Interest expense and interest income roughly offset (~$0M net); the $4M of equity earnings from affiliated companies is counted on its own line in the chart math.",
+  "oneTimers": [
+    "A $55.7M pre-tax gain on the sale of the SmartDose 3.5mL On-Body Delivery System to AbbVie sits in other operating income (a $54.0M net benefit after related M&A costs, with about $22M of one-time tax on the gain) \u2014 it is the main reason GAAP EPS of $3.02 is above adjusted EPS of $2.66.",
+    "Restructuring and other charges were $6.3M pre-tax in the quarter under West's restructuring and legal-structure programs."
+  ],
+  "takeaways": [
+    {
+      "stat": "$467M",
+      "statColor": "#3d7bc8",
+      "title": "High-value components led",
+      "text": "High-Value Product Components sales rose 20% to $467M \u2014 53% of all sales \u2014 as drug makers bought more premium stoppers, seals and plungers for injectable medicines."
+    },
+    {
+      "stat": "30.6%",
+      "statColor": "#3e8e5a",
+      "title": "Margins jumped",
+      "text": "Operating margin before the one-off SmartDose credit was 24.8%, up from a year ago on a richer product mix \u2014 high-value components are simply more profitable. As printed, including the gain, the margin was 30.6%; excluding one-offs, adjusted operating margin also improved year over year."
+    },
+    {
+      "stat": "$9.38\u20139.48",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised",
+      "text": "Full-year 2026 guidance went up: net sales of $3.41\u20133.42B and adjusted-diluted EPS of $9.38 to $9.48, up from $8.85 to $9.05 previously."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000118/exh991q32026earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000121/wst-20260930.htm"
+    }
+  ],
+  "footerNote": "West prints figures to one decimal: net sales were $874.5M, gross profit $347.4M and operating profit $267.4M; this chart rounds to whole $M. The printed 'Other expense (income), net' line was $51.2M of income (mostly the SmartDose gain); following this site's usual treatment of one-off gains, the chart shows it in Other income below operating profit rather than as a negative expense, so chart operating profit is $217M vs $268M as printed. Segments are the printed Proprietary Products and West Vantage (contract manufacturing and services).",
+  "follow100": [
+    {
+      "label": "Proprietary Products",
+      "amount": 83.31
+    },
+    {
+      "label": "West Vantage",
+      "amount": 16.69
+    },
+    {
+      "label": "Cost of goods and services sold",
+      "amount": -60.23
+    },
+    {
+      "label": "Research and development",
+      "amount": -2.06
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -12.91
+    },
+    {
+      "label": "Other income",
+      "amount": 6.29
+    },
+    {
+      "label": "Tax",
+      "amount": -6.63
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.46
+    }
+  ]
+}

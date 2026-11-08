@@ -1,0 +1,152 @@
+{
+  "ticker": "WY",
+  "company": "Weyerhaeuser",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Weyerhaeuser's sales rose 8% to $1.9 billion on stronger wood-products demand, but net earnings fell to $61 million because last year's quarter included $63 million of one-off gains \u2014 a lumber mill sale and insurance recoveries \u2014 that did not repeat.",
+  "revenueYoY": "+8.4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.86B",
+      "note": "net sales, +8.4% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.08",
+      "note": "diluted, vs $0.11 a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$248M",
+      "note": "non-GAAP cash-earnings measure, +14% YoY"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$61M",
+      "note": "no special items this quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Timberlands",
+      "amountM": 378,
+      "yoy": "-2.1%",
+      "note": "Logs and timber from Weyerhaeuser's own forests in the West, South and North, sold to outside customers (another $153M was sold internally to Wood Products and is eliminated in consolidation)."
+    },
+    {
+      "name": "Strategic Land Solutions",
+      "amountM": 99,
+      "yoy": "-3.9%",
+      "note": "Selling surplus land, mineral and energy rights, and climate projects such as forest carbon credits \u2014 the segment renamed from Real Estate, Energy & Natural Resources in 2026."
+    },
+    {
+      "name": "Wood Products",
+      "amountM": 1385,
+      "yoy": "+12.8%",
+      "note": "Lumber, oriented strand board, engineered wood products and building-materials distribution \u2014 by far the biggest business."
+    }
+  ],
+  "flow": {
+    "revenueM": 1862,
+    "costOfRevenueM": 1605,
+    "grossProfitM": 257,
+    "opex": [
+      {
+        "name": "Selling expenses",
+        "amountM": 26,
+        "note": "The cost of selling lumber, panels and logs."
+      },
+      {
+        "name": "General and administrative expenses",
+        "amountM": 115,
+        "note": "The back office: finance, legal, IT and head-office staff."
+      },
+      {
+        "name": "Other operating costs, net",
+        "amountM": 16,
+        "note": "Litigation expense of $8M, research of $2M and $6M of other items. A year ago this line was $49M of income, including a mill-sale gain and insurance recoveries."
+      }
+    ],
+    "operatingIncomeM": 100,
+    "otherIncomeM": -39,
+    "taxM": 0,
+    "netIncomeM": 61
+  },
+  "otherDetail": "Interest expense of $63M and $15M of non-operating pension costs, partly offset by $3M of other income \u2014 and by the quarter's $36M income-tax benefit, which this chart nets into this line (see the note below). Net: $39M of expense below operating profit.",
+  "oneTimers": [
+    "No special items in Q3 2026: GAAP net earnings of $61M equal net earnings before special items. A year ago, other operating income included a $29M gain on a lumber mill sale and $34M of insurance recoveries, which flatter the year-ago comparison.",
+    "After quarter-end, Weyerhaeuser agreed to sell about 81,000 acres of non-core Arkansas timberlands for $146M, with closing expected in the fourth quarter of 2026."
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.39B",
+      "statColor": "#3d7bc8",
+      "title": "Wood Products carried sales",
+      "text": "Wood Products sales rose 13% to $1,385M and its contribution to earnings swung to +$32M from \u2212$19M a year ago, as lumber and panel markets improved."
+    },
+    {
+      "stat": "$248M",
+      "statColor": "#3e8e5a",
+      "title": "Cash earnings rose",
+      "text": "Adjusted EBITDA \u2014 a non-GAAP cash-earnings yardstick \u2014 rose 14% to $248M even as GAAP earnings fell, because last year's GAAP result held one-off gains that did not repeat."
+    },
+    {
+      "stat": "$146M",
+      "statColor": "#3d7bc8",
+      "title": "Selling non-core land",
+      "text": "Weyerhaeuser is selling about 81,000 acres in Arkansas for $146M (closing expected in Q4), while monetizing roughly 340,000 forest carbon credits so far this year and starting construction of its first biocarbon facility."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/106535/000119312526437799/wy-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/106535/000119312526441693/wy-20260930.htm"
+    }
+  ],
+  "footerNote": "Weyerhaeuser is a real estate investment trust (REIT). Net earnings of $61M are the consolidated figure attributable to common shareholders. Income taxes were a $36M benefit \u2014 the REIT structure leaves most timber income untaxed at the company level \u2014 so the printed statement steps from $25M of pre-tax income up to $61M of net earnings. This chart nets that $36M benefit into Other income (the tax line therefore reads $0) instead of drawing a negative tax band. Adjusted EBITDA and Adjusted FAD are non-GAAP measures reconciled in the release. Segment sales are sales to unaffiliated customers from the 10-Q segment note.",
+  "follow100": [
+    {
+      "label": "Timberlands",
+      "amount": 20.3
+    },
+    {
+      "label": "Strategic Land Solutions",
+      "amount": 5.32
+    },
+    {
+      "label": "Wood Products",
+      "amount": 74.38
+    },
+    {
+      "label": "Costs of sales",
+      "amount": -86.2
+    },
+    {
+      "label": "Selling expenses",
+      "amount": -1.4
+    },
+    {
+      "label": "General and administrative expenses",
+      "amount": -6.18
+    },
+    {
+      "label": "Other operating costs, net",
+      "amount": -0.86
+    },
+    {
+      "label": "Other income",
+      "amount": -2.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.28
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "ticker": "XYL",
+  "company": "Xylem",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Xylem's revenue slipped 3% to $2.2 billion on project timing and cautious customer spending, but tighter costs lifted operating profit 15% to $385 million \u2014 even so, Xylem cut its full-year outlook and announced divestitures to focus the portfolio.",
+  "revenueYoY": "-3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.20B",
+      "note": "-3% vs a year ago, flat organically"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.25",
+      "note": "diluted, +34% YoY"
+    },
+    {
+      "label": "Orders",
+      "value": "$2.33B",
+      "note": "+7% reported, +10% organic"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.44",
+      "note": "non-GAAP, +5% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Water Infrastructure",
+      "amountM": 645,
+      "yoy": "-1.7%",
+      "note": "Pumps and treatment equipment that move and clean water for utilities."
+    },
+    {
+      "name": "Applied Water",
+      "amountM": 489,
+      "yoy": "+7.2%",
+      "note": "Pumps and systems for commercial buildings and industry \u2014 the quarter's growth engine. Xylem plans to sell this segment's international business."
+    },
+    {
+      "name": "Measurement and Control Solutions",
+      "amountM": 436,
+      "yoy": "-16.5%",
+      "note": "Smart meters and analytics that measure water use and find leaks \u2014 revenue fell mainly because businesses were sold."
+    },
+    {
+      "name": "Water Solutions and Services",
+      "amountM": 631,
+      "yoy": "-0.5%",
+      "note": "Water treatment and services, including for industrial customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 2201,
+    "costOfRevenueM": 1294,
+    "grossProfitM": 907,
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 458,
+        "note": "Selling products and running the company day to day."
+      },
+      {
+        "name": "Research and development expenses",
+        "amountM": 56,
+        "note": "Developing pumps, meters and water-treatment technology."
+      },
+      {
+        "name": "Restructuring and asset impairment charges",
+        "amountM": 8,
+        "note": "Costs of reshaping the business and writing down assets."
+      }
+    ],
+    "operatingIncomeM": 385,
+    "otherIncomeM": -20,
+    "taxM": 77,
+    "netIncomeM": 288
+  },
+  "otherDetail": "Interest expense of $21M and a $5M loss on selling businesses, partly offset by $6M of other non-operating income \u2014 a net $20M cost.",
+  "oneTimers": [
+    "Restructuring and asset impairment charges were $8M in the quarter, down from $23M a year ago.",
+    "A $5M loss on the sale of businesses (versus $37M a year ago) sits below operating income; adjusted EPS of $1.44 excludes that loss, restructuring, purchase-accounting amortization and special charges, which included IEEPA tariff refunds."
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.33B",
+      "statColor": "#3d7bc8",
+      "title": "Orders outran sales",
+      "text": "Orders rose 7% to $2.33B (up 10% organically) even as revenue fell \u2014 customers are delaying project spending decisions, not cancelling the work."
+    },
+    {
+      "stat": "23.9%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded",
+      "text": "Adjusted EBITDA margin reached 23.9%, up 70 basis points, as productivity savings and pricing beat inflation and lower volumes; operating margin rose to 17.5% from 14.7%."
+    },
+    {
+      "stat": "$8.95B",
+      "statColor": "#cf5f4e",
+      "title": "Guidance cut, portfolio slimmed",
+      "text": "Full-year revenue guidance fell to about $8.95B and adjusted EPS to $5.40\u2013$5.45 (from $5.55\u2013$5.70), and Xylem will sell Applied Water International and Specialty Flow Control and move from four segments to three in 2027."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000146/xyl10272026ex991.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000148/xyl-20260930.htm"
+    }
+  ],
+  "footerNote": "Net income is the consolidated $288M; $291M was attributable to Xylem after a $3M loss attributable to noncontrolling interests. Xylem reported four segments in Q3 2026; its planned three-segment structure for 2027 (including an Integrated Solutions and Services segment) had not yet taken effect.",
+  "follow100": [
+    {
+      "label": "Water Infrastructure",
+      "amount": 29.3
+    },
+    {
+      "label": "Applied Water",
+      "amount": 22.22
+    },
+    {
+      "label": "Measurement and Control Solutions",
+      "amount": 19.81
+    },
+    {
+      "label": "Water Solutions and Services",
+      "amount": 28.67
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.79
+    },
+    {
+      "label": "Selling, general and administrative expenses",
+      "amount": -20.81
+    },
+    {
+      "label": "Research and development expenses",
+      "amount": -2.54
+    },
+    {
+      "label": "Restructuring and asset impairment charges",
+      "amount": -0.36
+    },
+    {
+      "label": "Other income",
+      "amount": -0.91
+    },
+    {
+      "label": "Tax",
+      "amount": -3.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.08
+    }
+  ]
+}

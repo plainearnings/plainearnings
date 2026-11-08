@@ -1,0 +1,175 @@
+{
+  "ticker": "XEL",
+  "company": "Xcel Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "Xcel's net income nearly doubled to $960 million \u2014 mostly because last year's quarter carried a $287 million Marshall wildfire charge versus $1 million this year \u2014 while recovery of grid investments and warm weather lifted underlying earnings per share 23%.",
+  "revenueYoY": "+6.6%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.17B",
+      "note": "operating revenues, +6.6% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.52",
+      "note": "diluted, vs $0.88 a year ago"
+    },
+    {
+      "label": "Ongoing EPS",
+      "value": "$1.52",
+      "note": "non-GAAP, vs $1.24 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$960M",
+      "note": "vs $524M a year ago, when wildfire charges hit"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Regulated Electric",
+      "amountM": 3888,
+      "yoy": "+6.9%",
+      "note": "Selling electricity across eight states \u2014 the core business, growing as Xcel recovers the cost of new generation and grid investment in regulated rates."
+    },
+    {
+      "name": "Regulated Natural Gas",
+      "amountM": 272,
+      "yoy": "+3.0%",
+      "note": "Delivering natural gas for heating and industry."
+    },
+    {
+      "name": "Corporate and Other",
+      "amountM": 12,
+      "yoy": "-7.7%",
+      "note": "Other revenues outside the two regulated utilities."
+    }
+  ],
+  "flow": {
+    "revenueM": 4172,
+    "costOfRevenueM": 1127,
+    "grossProfitM": 3045,
+    "opex": [
+      {
+        "name": "Operating and maintenance",
+        "amountM": 759,
+        "note": "Running power plants, power lines and customer service day to day."
+      },
+      {
+        "name": "Conservation and demand side management",
+        "amountM": 125,
+        "note": "Programs that help customers use less energy \u2014 a regulated cost recovered in rates."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 791,
+        "note": "Spreading the cost of power plants, wind farms and grid assets over their working lives."
+      },
+      {
+        "name": "Taxes other than income taxes",
+        "amountM": 178,
+        "note": "Mostly property taxes on plants and networks."
+      },
+      {
+        "name": "Marshall Wildfire litigation",
+        "amountM": 1,
+        "note": "Legal and settlement costs from the 2021 Marshall fire in Colorado \u2014 $287M in last year's quarter, $1M this year."
+      }
+    ],
+    "operatingIncomeM": 1191,
+    "otherIncomeM": -239,
+    "equityM": 77,
+    "taxM": 69,
+    "netIncomeM": 960
+  },
+  "otherDetail": "Interest charges and financing costs of $432M (interest of $484M less a $52M AFUDC-debt credit), partly offset by a $131M AFUDC-equity credit and $62M of other income, net \u2014 plus $77M of equity-method earnings counted separately; a net $162M cost in total.",
+  "oneTimers": [
+    "Marshall Wildfire litigation cost just $1M this quarter, versus a $287M charge in Q3 2025 \u2014 that swing is the main reason GAAP net income rose 83% year over year. Xcel's 'ongoing' EPS excludes the charge in both periods.",
+    "Earnings from equity method investments jumped to $77M from $6M a year ago, adding to the year-over-year increase."
+  ],
+  "takeaways": [
+    {
+      "stat": "$1M",
+      "statColor": "#cf5f4e",
+      "title": "The wildfire swing",
+      "text": "Marshall wildfire litigation cost $1M this quarter versus a $287M charge a year ago \u2014 that comparison alone explains most of the jump in GAAP profit, from $524M to $960M."
+    },
+    {
+      "stat": "+23%",
+      "statColor": "#3e8e5a",
+      "title": "Underlying earnings grew",
+      "text": "Ongoing EPS \u2014 Xcel's non-GAAP measure without the wildfire charge \u2014 rose to $1.52 from $1.24, on recovery of electric infrastructure investment and unseasonably warm weather, partly offset by higher financing costs."
+    },
+    {
+      "stat": "$4.48\u2013$4.62",
+      "statColor": "#3d7bc8",
+      "title": "2027 guidance initiated",
+      "text": "Xcel narrowed 2026 ongoing EPS guidance to $4.10\u2013$4.16 and guided 2027 at $4.48\u2013$4.62, targeting 6\u20138%+ annual EPS growth as it builds clean generation and transmission."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/xcelearningsreleaseq32026.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000181/xel-20260930.htm"
+    }
+  ],
+  "footerNote": "Utility layout: energy supply costs \u2014 electric fuel and purchased power of $1,067M, cost of natural gas sold and transported of $58M and $2M of other cost of sales \u2014 are the direct-cost block. Net income is the consolidated $960M, which is also the GAAP earnings figure attributable to common shareholders ($1.52 per diluted share) in Xcel's release. AFUDC is the allowance for funds used during construction \u2014 a regulated-utility credit for money tied up in projects being built.",
+  "follow100": [
+    {
+      "label": "Regulated Electric",
+      "amount": 93.19
+    },
+    {
+      "label": "Regulated Natural Gas",
+      "amount": 6.52
+    },
+    {
+      "label": "Corporate and Other",
+      "amount": 0.29
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.01
+    },
+    {
+      "label": "Operating and maintenance",
+      "amount": -18.19
+    },
+    {
+      "label": "Conservation and demand side management",
+      "amount": -3.0
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -18.96
+    },
+    {
+      "label": "Taxes other than income taxes",
+      "amount": -4.27
+    },
+    {
+      "label": "Marshall Wildfire litigation",
+      "amount": -0.02
+    },
+    {
+      "label": "Other income",
+      "amount": -3.88
+    },
+    {
+      "label": "Tax",
+      "amount": -1.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.01
+    }
+  ]
+}
