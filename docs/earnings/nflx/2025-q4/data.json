@@ -1,0 +1,160 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-20",
+  "verdict": "Netflix's revenue rose 18% to $12.1B as paid memberships passed 325 million, and operating income jumped 30% to $3.0B \u2014 net income reached $2.4B even after about $60M of Warner Bros. bridge-loan costs tucked into interest expense.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago; +17% at constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.56",
+      "note": "vs $0.43 a year ago (split-adjusted)"
+    },
+    {
+      "label": "Operating margin",
+      "value": "24.5%",
+      "note": "operating income of $3.0B, +30% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.9B",
+      "note": "vs $1.4B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 5339,
+      "yoy": "+18%",
+      "note": "The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3873,
+      "yoy": "+18%",
+      "note": "The second-largest region, growing in line with North America this quarter (15% at constant currency)."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1418,
+      "yoy": "+15%",
+      "note": "Cheaper plans are pulling in new households \u2014 up 15% as reported, 20% at constant currency."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1421,
+      "yoy": "+17%",
+      "note": "Mobile-first plans in price-sensitive markets \u2014 up 17% as reported, 19% at constant currency."
+    }
+  ],
+  "flow": {
+    "revenueM": 12051,
+    "costOfRevenueM": 6523,
+    "grossProfitM": 5528,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 890,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1113,
+        "note": "Advertising Netflix itself and winning subscribers \u2014 seasonally the biggest marketing quarter of the year."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 568,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 2957,
+    "otherIncomeM": -189,
+    "taxM": 349,
+    "netIncomeM": 2419
+  },
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 44.3
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 32.14
+    },
+    {
+      "label": "Latin America",
+      "amount": 11.77
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 11.79
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.13
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.24
+    },
+    {
+      "label": "Technology & development",
+      "amount": -7.39
+    },
+    {
+      "label": "G&A",
+      "amount": -4.71
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.57
+    },
+    {
+      "label": "Tax",
+      "amount": -2.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "325M",
+      "statColor": "#3d7bc8",
+      "title": "A membership milestone",
+      "text": "Netflix crossed 325 million paid memberships during the quarter \u2014 the last milestone it reported before moving to engagement and revenue as its headline measures."
+    },
+    {
+      "stat": "+30%",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew much faster than sales",
+      "text": "Operating income rose 30% YoY to $3.0B and the operating margin widened about two points to 24.5% \u2014 revenue growth of 18% dropped through to profit at a richer rate."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#5b6b7c",
+      "title": "Every region grew double digits",
+      "text": "UCAN and EMEA both grew 18%, Asia-Pacific 17% and Latin America 15% \u2014 broad growth, not one market carrying the quarter."
+    }
+  ],
+  "oneTimers": [
+    "About $60M of costs related to the Warner Bros. bridge loan and associated financings were booked inside interest expense \u2014 one-off deal financing costs, not part of the streaming business, and not in Netflix's own guidance for the quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000033/ex991_q425.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $234M on Netflix's debt (including about $60M of Warner Bros. bridge-loan costs), partly offset by $45M of interest and other income \u2014 a net -$189M below operating profit."
+}

@@ -1,0 +1,142 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-11-02",
+  "reportedDate": "2025-12-11",
+  "verdict": "Broadcom's revenue grew 28% to a record $18.0B as AI chip sales jumped 74%, and a $1.6B tax benefit \u2014 the tax line adding money instead of taking it \u2014 lifted net income to $8.5B.",
+  "revenueYoY": "+28%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.74",
+      "note": "vs $0.90 a year ago"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "value": "+74%",
+      "note": "vs a year ago \u2014 guided to roughly double next quarter, to $8.2B"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$7.5B",
+      "note": "41% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 11072,
+      "yoy": "+35%",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue grew 74% YoY, and Broadcom guided it to roughly double in the next quarter."
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 6943,
+      "yoy": "+19%",
+      "note": "VMware and other enterprise software \u2014 the steady, subscription side of the company, up 19% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 18015,
+    "costOfRevenueM": 5766,
+    "grossProfitM": 12249,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2981,
+        "note": "Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1107,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 653,
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring costs."
+      }
+    ],
+    "operatingIncomeM": 7508,
+    "otherIncomeM": -639,
+    "taxM": -1649,
+    "netIncomeM": 8518
+  },
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 61.46
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 38.54
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.01
+    },
+    {
+      "label": "R&D",
+      "amount": -16.55
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.14
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -3.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.55
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 9.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 47.28
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+74%",
+      "statColor": "#3e8e5a",
+      "title": "AI chips are the story",
+      "text": "AI semiconductor revenue grew 74% YoY, and Broadcom guided it to roughly double in the next quarter to $8.2B \u2014 on custom AI accelerators and Ethernet AI switches."
+    },
+    {
+      "stat": "$1.6B",
+      "statColor": "#3d7bc8",
+      "title": "A tax benefit, not a tax bill",
+      "text": "The tax line added $1,649M instead of subtracting \u2014 including a one-time, non-cash benefit of about $2.1B as tax statutes of limitations lapsed. That is why net income of $8,518M is bigger than pre-tax income of $6,869M."
+    },
+    {
+      "stat": "41%",
+      "statColor": "#3d7bc8",
+      "title": "A cash machine",
+      "text": "Free cash flow was $7,466M \u2014 41% of revenue \u2014 because capital spending was only $237M. Broadcom raised its quarterly dividend 10% to $0.65 a share on the strength of it."
+    }
+  ],
+  "oneTimers": [
+    "The $1,649M tax benefit includes a one-time discrete non-cash tax benefit of about $2.1B from the lapse of statutes of limitations on old tax positions \u2014 it flatters this quarter's bottom line and will not repeat on schedule.",
+    "GAAP profit carries $2,052M of amortization of acquisition-related intangible assets ($1,545M inside cost of revenue and $507M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $9,714M instead of $8,518M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm"
+    }
+  ],
+  "otherDetail": "Interest expense of $761M on Broadcom's debt, partly offset by $122M of other income \u2014 a net -$639M below operating profit.",
+  "taxBenefitDetail": "A $1,649M income-tax benefit \u2014 including a one-time ~$2.1B non-cash benefit from lapsed tax statutes of limitations \u2014 added to the bottom line instead of reducing it."
+}

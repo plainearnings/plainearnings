@@ -1,0 +1,161 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-27",
+  "reportedDate": "2026-02-03",
+  "verdict": "AMD's revenue grew 34% to $10.3B as Data Center sales rose 39% on AI demand, and net income more than tripled to $1.5B \u2014 even after a $109M loss from discontinued operations below the line.",
+  "revenueYoY": "+34%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.92",
+      "note": "vs $0.29 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$5.4B",
+      "note": "+39% YoY \u2014 52% of all revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.1B",
+      "note": "20% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 5380,
+      "yoy": "+39%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 up 39% as AI data centers kept buying; the segment earned $1,752M of operating profit."
+    },
+    {
+      "name": "Client",
+      "amountM": 3097,
+      "yoy": "+34%",
+      "note": "Ryzen processors for PCs \u2014 up 34% on strong demand and continued market-share gains."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 843,
+      "yoy": "+50%",
+      "note": "Graphics cards and console chips \u2014 up 50% YoY on Radeon GPU demand, though down from the prior quarter as semi-custom console revenue faded."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 950,
+      "yoy": "+3%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 up 3% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 10270,
+    "costOfRevenueM": 4693,
+    "grossProfitM": 5577,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2330,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators \u2014 up 36% YoY."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 1198,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of acquisition intangibles",
+        "amountM": 297,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      }
+    ],
+    "operatingIncomeM": 1752,
+    "otherIncomeM": 214,
+    "taxM": 455,
+    "netIncomeM": 1511
+  },
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 52.39
+    },
+    {
+      "label": "Client",
+      "amount": 30.16
+    },
+    {
+      "label": "Gaming",
+      "amount": 8.21
+    },
+    {
+      "label": "Embedded",
+      "amount": 9.25
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -45.7
+    },
+    {
+      "label": "R&D",
+      "amount": -22.69
+    },
+    {
+      "label": "Marketing, general & admin",
+      "amount": -11.67
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.89
+    },
+    {
+      "label": "Other income",
+      "amount": 2.08
+    },
+    {
+      "label": "Tax",
+      "amount": -4.43
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.71
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+39%",
+      "statColor": "#3e8e5a",
+      "title": "Data Center is the engine",
+      "text": "Data Center brought in $5.4B \u2014 52% of all revenue \u2014 and $1,752M of segment operating profit, as demand for EPYC server chips and Instinct AI accelerators stayed strong."
+    },
+    {
+      "stat": "54%",
+      "statColor": "#5b6b7c",
+      "title": "Gross margin widened",
+      "text": "Gross margin reached 54%, up from 51% a year ago, as high-value data-center products became a bigger share of the mix."
+    },
+    {
+      "stat": "$2.1B",
+      "statColor": "#3d7bc8",
+      "title": "Cash piled up",
+      "text": "Free cash flow was $2,082M \u2014 20% of revenue \u2014 taking cash and short-term investments to $10.6B against just $3.2B of debt."
+    }
+  ],
+  "oneTimers": [
+    "A $109M loss from discontinued operations sits below the continuing-operations line; profit from continuing operations was $1,620M.",
+    "Stock-based compensation was $486M inside the expense lines; on AMD's non-GAAP view (which excludes it and acquisition amortization), net income was $2,519M instead of $1,511M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/q42025991.htm"
+    }
+  ],
+  "otherDetail": "Other income of $358M plus $1M of equity income, less $36M of interest expense and a $109M loss from discontinued operations \u2014 a net +$214M."
+}

@@ -1,0 +1,164 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-13",
+  "verdict": "JPMorgan earned $13.0B in the quarter \u2014 revenue rose 7% to $45.8B, but credit costs jumped 77% to $4.7B as the bank built a $2.2B reserve for the Apple card portfolio it has agreed to take over, pulling profit down 7% from a year ago.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "reported basis, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.63",
+      "note": "vs $4.81 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$25.0B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$4.7B",
+      "note": "$2.5B charged off, $2.1B reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 24995,
+      "yoy": "+7%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 7% on higher deposit balances and more revolving card balances, partly offset by lower rates."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 20803,
+      "yoy": "+7%",
+      "note": "Fees, trading and asset-management income \u2014 up 7%, with Markets revenue up 17% to $8.2B and asset management fees up 17%."
+    }
+  ],
+  "flow": {
+    "revenueM": 45798,
+    "costOfRevenueM": 4655,
+    "grossProfitM": 41143,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 13118,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 3338,
+        "note": "Outside services and professional fees."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 2908,
+        "shortName": "Technology & equipment",
+        "pngName": "Technology & equipment",
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1468,
+        "note": "Advertising and card marketing."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3151,
+        "note": "Branches and offices ($1,475M of occupancy) plus other general costs ($1,676M).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 17160,
+    "otherIncomeM": 0,
+    "taxM": 4135,
+    "netIncomeM": 13025
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 54.58
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 45.42
+    },
+    {
+      "label": "Credit costs",
+      "amount": -10.16
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -28.64
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -7.29
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -6.35
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.21
+    },
+    {
+      "label": "Occupancy & other",
+      "amount": -6.88
+    },
+    {
+      "label": "Tax",
+      "amount": -9.03
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.44
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "18%",
+      "statColor": "#3e8e5a",
+      "title": "Returns still lead the industry",
+      "text": "Return on tangible common equity was 18% (15% on common equity) \u2014 profitability far beyond what other big banks produce, on $13.0B of net income."
+    },
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Markets had a strong quarter",
+      "text": "Markets revenue rose 17% YoY to $8.2B and asset management fees rose 17%, helping total revenue grow 7% even as card income fell."
+    },
+    {
+      "stat": "+77%",
+      "statColor": "#cf5f4e",
+      "title": "Credit costs spiked \u2014 on purpose",
+      "text": "The provision for credit losses jumped 77% YoY to $4.7B, but $2.2B of it was a reserve built ahead of taking over the Apple credit card portfolio \u2014 setting money aside early, not loans going bad today. Actual net charge-offs were $2.5B."
+    }
+  ],
+  "oneTimers": [
+    "The $4.7B provision for credit losses includes a net reserve build of $2.1B, reflecting a $2.2B reserve established for the forward purchase commitment of the Apple credit card portfolio \u2014 money set aside before the portfolio arrives, not losses on loans already made."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/a4q25erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/a4q25erfex992supplement.htm"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $45.8B reported (GAAP), used here, or $46.8B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way.",
+  "footerNote": "JPMorgan headlines 'managed' revenue of $46.8B; this page uses reported (GAAP) revenue of $45.8B \u2014 the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2.5B of loans were charged off in the quarter and $2.1B was added to reserves, reflecting a $2.2B reserve for the Apple card portfolio JPMorgan has agreed to take over."
+}

@@ -1,0 +1,145 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-02",
+  "verdict": "Palantir's revenue grew 70% to $1.41B as U.S. commercial revenue jumped 137%, and net income reached $611M \u2014 43% of revenue \u2014 because running costs grew far more slowly than sales.",
+  "revenueYoY": "+70%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+70%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.24",
+      "note": "vs $0.03 a year ago"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "value": "$507M",
+      "note": "+137% YoY"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$791M",
+      "note": "56% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Government",
+      "amountM": 730,
+      "yoy": "+60%",
+      "note": "Software for the U.S. military, intelligence agencies and allied governments \u2014 U.S. government revenue alone grew 66% to $570M."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 677,
+      "yoy": "+82%",
+      "note": "Software for companies \u2014 U.S. commercial revenue jumped 137% to $507M as businesses raced to put AI to work, and U.S. commercial remaining deal value hit $4.38B, up 145% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 1407,
+    "costOfRevenueM": 216,
+    "grossProfitM": 1191,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 302,
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 144,
+        "note": "Building the platforms \u2014 Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 170,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 575,
+    "otherIncomeM": 46,
+    "taxM": 10,
+    "netIncomeM": 611
+  },
+  "follow100": [
+    {
+      "label": "Government",
+      "amount": 51.88
+    },
+    {
+      "label": "Commercial",
+      "amount": 48.12
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -15.35
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -21.46
+    },
+    {
+      "label": "R&D",
+      "amount": -10.23
+    },
+    {
+      "label": "G&A",
+      "amount": -12.08
+    },
+    {
+      "label": "Other income",
+      "amount": 3.27
+    },
+    {
+      "label": "Tax",
+      "amount": -0.71
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 43.43
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+137%",
+      "statColor": "#3e8e5a",
+      "title": "U.S. commercial is exploding",
+      "text": "U.S. commercial revenue more than doubled to $507M, and the pipeline points the same way: U.S. commercial remaining deal value hit $4.38B, up 145% YoY."
+    },
+    {
+      "stat": "41%",
+      "statColor": "#3e8e5a",
+      "title": "A 41% operating margin",
+      "text": "GAAP operating income was $575M \u2014 41 cents of every revenue dollar \u2014 because revenue grew 70% while total operating expenses actually fell from a year ago."
+    },
+    {
+      "stat": "$4.26B",
+      "statColor": "#3d7bc8",
+      "title": "Record deal value closed",
+      "text": "Palantir closed $4.26B of total contract value in the quarter, up 138% YoY, including 180 deals of at least $1M."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation of $196M sits inside cost of revenue and operating expenses; excluding it and related employer payroll taxes, adjusted operating income was $798M (a 57% margin) instead of $575M, and adjusted EPS was $0.25 vs $0.24 GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/a2025q4ex991earningsrelease.htm"
+    },
+    {
+      "label": "FY2025 10-K \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+    }
+  ],
+  "otherDetail": "Interest income of $63M on Palantir's cash pile, less $17M of other expense \u2014 a net +$46M below operating profit (rounded from the release's thousands).",
+  "footerNote": "Net income here is Palantir's total net income of $611M (reported as $611.6M before rounding); $609M of it is attributable to common stockholders (the rest belongs to noncontrolling interests). Segment figures are Palantir's FY2025 10-K segment revenue less the nine-month figures in its Q3 2025 10-Q, rounded to the nearest $M."
+}
