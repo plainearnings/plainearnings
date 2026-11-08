@@ -1,0 +1,176 @@
+{
+  "ticker": "WYNN",
+  "company": "Wynn Resorts, Limited",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Wynn's revenue fell 8% to $1.7B as softer Macau demand, an unlucky Las Vegas hold and a Boston strike cut property profit by nearly a fifth.",
+  "revenueYoY": "-7.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.7B",
+      "note": "-7.9% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.17",
+      "note": "diluted, attributable to Wynn Resorts, vs $0.85 a year ago"
+    },
+    {
+      "label": "Adjusted Property EBITDAR",
+      "value": "$464M",
+      "note": "-19% YoY (non-GAAP property profit measure)"
+    },
+    {
+      "label": "Las Vegas Operations revenue",
+      "value": "$575M",
+      "note": "-7% YoY, hurt by a low hold rate"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Wynn Palace",
+      "amountM": 584,
+      "yoy": "-8%",
+      "note": "The Cotai, Macau resort \u2014 Wynn's largest property by revenue; casino revenue fell as Macau demand softened."
+    },
+    {
+      "name": "Wynn Macau",
+      "amountM": 335,
+      "yoy": "-8%",
+      "note": "The original Macau peninsula resort and its Encore expansion."
+    },
+    {
+      "name": "Las Vegas Operations",
+      "amountM": 575,
+      "yoy": "-7%",
+      "note": "Wynn Las Vegas, Encore and the retail joint venture \u2014 revenue also hurt by a table-games hold rate outside the expected range."
+    },
+    {
+      "name": "Encore Boston Harbor",
+      "amountM": 195,
+      "yoy": "-8%",
+      "note": "The Everett, Massachusetts resort \u2014 operations were disrupted by a strike that began in early September."
+    }
+  ],
+  "flow": {
+    "revenueM": 1689,
+    "costOfRevenueM": 1043,
+    "grossProfitM": 646,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 276,
+        "note": "Corporate and property overhead, including stock-based compensation and the triple-net lease cost for the Las Vegas land."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 167,
+        "note": "Spreading the cost of the resorts, furnishings and equipment over their working lives."
+      },
+      {
+        "name": "Property charges and other",
+        "amountM": 22,
+        "note": "Property charges and other items \u2014 up from $6M a year ago."
+      },
+      {
+        "name": "Pre-opening",
+        "amountM": 3,
+        "note": "Costs of preparing new projects, mainly Wynn Al Marjan Island in the UAE (planned to open September 2027), including equity-method losses."
+      }
+    ],
+    "operatingIncomeM": 178,
+    "otherIncomeM": -136,
+    "equityM": -19,
+    "taxM": 6,
+    "netIncomeM": 17
+  },
+  "otherDetail": "Other income (expense), net was -$136M: interest expense of $152M and a $5M loss on debt financing, partly offset by $13M of interest income and a $10M gain on derivatives. A further $19M of consolidated profit belonged to noncontrolling interests (mainly the minority holders of Wynn Macau), leaving $17M attributable to Wynn Resorts shareholders.",
+  "oneTimers": [
+    "Las Vegas results were hurt by a table-games hold rate outside the expected range, and Encore Boston Harbor operated through a strike that began in early September \u2014 neither effect is separately quantified in the release.",
+    "Adjusted net income attributable to Wynn Resorts was $33.9M, or $0.33 per diluted share (non-GAAP), versus GAAP EPS of $0.17."
+  ],
+  "takeaways": [
+    {
+      "stat": "-8%",
+      "statColor": "#cf5f4e",
+      "title": "All four properties shrank",
+      "text": "Revenue fell at every property \u2014 Wynn Palace -$52M, Las Vegas -$46M, Wynn Macau -$30M and Encore Boston Harbor -$17M versus a year ago \u2014 as Macau demand softened."
+    },
+    {
+      "stat": "$464M",
+      "statColor": "#cf5f4e",
+      "title": "Property profit fell nearly a fifth",
+      "text": "Adjusted Property EBITDAR dropped 19% to $464M from $570M, with the biggest dollar declines in Las Vegas (-$45M) and at Wynn Palace (-$35M)."
+    },
+    {
+      "stat": "$0.25",
+      "statColor": "#3d7bc8",
+      "title": "Dividend held, UAE build continues",
+      "text": "The board declared a $0.25 per-share dividend payable November 30, 2026, and finishing work continues at Wynn Al Marjan Island ahead of its planned September 2027 opening."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000078/ex991wrlq32026pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/wynn-20260930.htm"
+    }
+  ],
+  "footerNote": "Chart layout adapts Wynn's printed statement: direct property costs (casino $674M, rooms $83M, food and beverage $226M, entertainment, retail and other $50M, and the $9M provision for credit losses \u2014 $1,043M in total) form the direct-cost block; casino costs include $459M of gaming taxes. Figures are converted from the 10-Q's thousands to $M. Net income in the chart is the $17M attributable to Wynn Resorts, Limited: consolidated net income was $37M, of which $19M belonged to noncontrolling interests (shown in the Other income line). Wynn filed its Q3 2026 results on November 5, 2026, so no fallback to Q2 was needed.",
+  "follow100": [
+    {
+      "label": "Wynn Palace",
+      "amount": 34.58
+    },
+    {
+      "label": "Wynn Macau",
+      "amount": 19.83
+    },
+    {
+      "label": "Las Vegas Operations",
+      "amount": 34.04
+    },
+    {
+      "label": "Encore Boston Harbor",
+      "amount": 11.55
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.75
+    },
+    {
+      "label": "General and administrative",
+      "amount": -16.34
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -9.89
+    },
+    {
+      "label": "Property charges and other",
+      "amount": -1.3
+    },
+    {
+      "label": "Pre-opening",
+      "amount": -0.18
+    },
+    {
+      "label": "Other income",
+      "amount": -9.18
+    },
+    {
+      "label": "Tax",
+      "amount": -0.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 1.01
+    }
+  ]
+}

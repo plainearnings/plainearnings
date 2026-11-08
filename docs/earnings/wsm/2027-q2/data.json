@@ -1,0 +1,158 @@
+{
+  "ticker": "WSM",
+  "company": "Williams-Sonoma, Inc.",
+  "quarterLabel": "FY27 Q2",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-08-02",
+  "reportedDate": "2026-08-26",
+  "verdict": "Williams-Sonoma grew sales 6.7% to $2.0B with every brand up, though a $168M tariff refund \u2014 not store trading \u2014 explains most of the jump in GAAP profit.",
+  "revenueYoY": "+6.7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.0B",
+      "note": "+6.7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.84",
+      "note": "diluted, vs $2.00 a year ago"
+    },
+    {
+      "label": "Comparable brand revenue",
+      "value": "+6.2%",
+      "note": "growth at established stores and online, vs a year ago"
+    },
+    {
+      "label": "EPS (non-GAAP)",
+      "value": "$2.10",
+      "note": "excludes the IEEPA tariff refund and related items"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Pottery Barn",
+      "amountM": 771,
+      "yoy": "+6%",
+      "note": "Furniture and home furnishings under the Pottery Barn brand \u2014 the largest brand in the group."
+    },
+    {
+      "name": "West Elm",
+      "amountM": 496,
+      "yoy": "+6%",
+      "note": "Modern furniture and decor aimed at younger, urban customers."
+    },
+    {
+      "name": "Williams Sonoma",
+      "amountM": 269,
+      "yoy": "+8%",
+      "note": "Kitchen and cooking brands, including Williams Sonoma Home."
+    },
+    {
+      "name": "Pottery Barn Kids and Teen",
+      "amountM": 298,
+      "yoy": "+4%",
+      "note": "Children's and teens' furniture and decor (rounded up $1M so brand figures sum to total net revenues)."
+    },
+    {
+      "name": "Other",
+      "amountM": 126,
+      "yoy": "+17%",
+      "note": "Rejuvenation, Mark and Graham, GreenRow, Dormify and international franchise operations \u2014 the fastest-growing group this quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 1960,
+    "costOfRevenueM": 948,
+    "grossProfitM": 1012,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 563,
+        "note": "Store, head-office, employment and advertising costs \u2014 28.7% of revenue on a GAAP basis, including a one-time $10M tariff-related employee recognition contribution."
+      }
+    ],
+    "operatingIncomeM": 449,
+    "otherIncomeM": 12,
+    "taxM": 123,
+    "netIncomeM": 338
+  },
+  "otherDetail": "Interest income, net of $12M \u2014 including $6M of interest received alongside the IEEPA tariff refunds.",
+  "oneTimers": [
+    "GAAP results include IEEPA tariff refunds: a $168M reduction in cost of goods sold plus $6M of interest income, partly offset by a $48M provision to reimburse vendors for tariff concessions and a $10M one-time employee recognition contribution. Excluding these, operating income was $338M and EPS was $2.10 (non-GAAP).",
+    "A further $29M of tariff refund income was deferred inside merchandise inventories at quarter-end and is expected to reduce cost of goods sold in the next quarter."
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.2%",
+      "statColor": "#3d7bc8",
+      "title": "Every brand grew",
+      "text": "Comparable brand revenue rose 6.2% and total revenue 6.7%, with Pottery Barn, West Elm, Williams Sonoma and Pottery Barn Kids and Teen all up \u2014 and management raised full-year guidance."
+    },
+    {
+      "stat": "$168M",
+      "statColor": "#cf5f4e",
+      "title": "A refund flatters GAAP profit",
+      "text": "The $168M IEEPA tariff refund cut cost of goods sold and lifted the GAAP gross margin to 51.6%; without the tariff items the gross margin was 45.5%, down on last year as tariff costs bit into merchandise margins."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#3e8e5a",
+      "title": "Cash pile intact",
+      "text": "Williams-Sonoma held $1.0B of cash, generated $696M of operating cash flow in the half (including collecting the tariff refunds) and kept inventories nearly flat, up just 1.0% year on year."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000203/exhibit991fy2026q2earnings.htm"
+    },
+    {
+      "label": "Form 10-Q for FY27 Q2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000208/wsm-20260802.htm"
+    }
+  ],
+  "footerNote": "Williams-Sonoma reports cost of goods sold including occupancy costs (store rent and related costs sit in cost of goods sold, not in SG&A) \u2014 the chart follows that printed layout. This is the second quarter of fiscal 2027 (the fiscal year ending in early 2027), ended August 2, 2026. Figures are the Form 10-Q's printed amounts in $M; brand revenues in the 10-Q are in thousands and Pottery Barn Kids and Teen is rounded up $1M so the brands sum exactly to total net revenues.",
+  "follow100": [
+    {
+      "label": "Pottery Barn",
+      "amount": 39.34
+    },
+    {
+      "label": "West Elm",
+      "amount": 25.31
+    },
+    {
+      "label": "Williams Sonoma",
+      "amount": 13.72
+    },
+    {
+      "label": "Pottery Barn Kids and Teen",
+      "amount": 15.2
+    },
+    {
+      "label": "Other",
+      "amount": 6.43
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.37
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -28.72
+    },
+    {
+      "label": "Other income",
+      "amount": 0.61
+    },
+    {
+      "label": "Tax",
+      "amount": -6.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.24
+    }
+  ]
+}
