@@ -1,0 +1,162 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-17",
+  "verdict": "Netflix grew revenue 16% to $11.1B as every region expanded, and with costs growing far more slowly than sales, its operating margin hit 34% and net income jumped 46% to $3.1B.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$7.19",
+      "note": "vs $4.88 a year ago (both as reported, before the 10-for-1 stock split)"
+    },
+    {
+      "label": "Operating margin",
+      "value": "34.1%",
+      "note": "operating income of $3.8B, +45% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.3B",
+      "note": "vs $1.2B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 4929,
+      "yoy": "+15%",
+      "note": "The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3538,
+      "yoy": "+18%",
+      "note": "The second-largest region \u2014 up 18% as reported."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1307,
+      "yoy": "+9%",
+      "note": "Cheaper plans are pulling in new households \u2014 up 9% as reported."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1305,
+      "yoy": "+24%",
+      "note": "Mobile-first plans in price-sensitive markets \u2014 the fastest-growing region, up 24%."
+    }
+  ],
+  "flow": {
+    "revenueM": 11079,
+    "costOfRevenueM": 5325,
+    "grossProfitM": 5754,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 825,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 713,
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 441,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 3775,
+    "otherIncomeM": -143,
+    "taxM": 507,
+    "netIncomeM": 3125
+  },
+  "otherDetail": "Interest expense of $183M on Netflix's debt, partly offset by $40M of interest and other income \u2014 a net -$143M below operating profit.",
+  "footerNote": "Regional revenues are from Netflix's Q2 2025 10-Q. Figures are rounded to whole $M; the tax line is shown as $507M ($506M as reported) so the chart ties exactly to the reported $3,125M of net income.",
+  "takeaways": [
+    {
+      "stat": "34.1%",
+      "statColor": "#3e8e5a",
+      "title": "The margin keeps expanding",
+      "text": "Operating income rose 45% YoY to $3.8B \u2014 revenue grew 16% while the cost of revenues grew just 3%, so the operating margin widened from 27% a year ago to 34%."
+    },
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Every region grew",
+      "text": "Asia-Pacific led at +24%, EMEA rose 18%, the U.S. & Canada 15% and Latin America 9% \u2014 growth no longer depends on any single market."
+    },
+    {
+      "stat": "$8\u20138.5B",
+      "statColor": "#3d7bc8",
+      "title": "Cash-flow guidance raised",
+      "text": "Netflix raised its full-year 2025 free-cash-flow forecast to $8\u20138.5B and guided to 17% revenue growth in Q3 \u2014 price rises and the young ads business are doing the work."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000322/ex991_q225.htm"
+    },
+    {
+      "label": "Quarterly report (Form 10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000323/nflx-20250630.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 44.49
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 31.93
+    },
+    {
+      "label": "Latin America",
+      "amount": 11.8
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 11.78
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -48.06
+    },
+    {
+      "label": "Technology & development",
+      "amount": -7.45
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.44
+    },
+    {
+      "label": "G&A",
+      "amount": -3.98
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.29
+    },
+    {
+      "label": "Tax",
+      "amount": -4.58
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 71.8
+    }
+  ]
+}

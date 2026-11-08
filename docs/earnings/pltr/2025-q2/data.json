@@ -1,0 +1,142 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-08-04",
+  "verdict": "Palantir's revenue jumped 48% to $1.0B \u2014 its first billion-dollar quarter \u2014 as U.S. commercial sales nearly doubled, and it kept $327M of that as profit.",
+  "revenueYoY": "+48%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+48%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.13",
+      "note": "vs $0.06 a year ago"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "value": "$306M",
+      "note": "+93% YoY"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$569M",
+      "note": "57% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Government",
+      "amountM": 553,
+      "yoy": "+49%",
+      "note": "Software for governments, above all the U.S. military and intelligence agencies \u2014 up 49% YoY."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 451,
+      "yoy": "+47%",
+      "note": "Software for companies \u2014 up 47% YoY, with U.S. commercial revenue up 93% to $306M as the AIP 'bootcamp' push kept winning customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1004,
+    "costOfRevenueM": 193,
+    "grossProfitM": 811,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 244,
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 135,
+        "note": "Building the platforms \u2014 Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 163,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 269,
+    "otherIncomeM": 62,
+    "taxM": 4,
+    "netIncomeM": 327
+  },
+  "otherDetail": "Interest income of $56M and other income of $7M, net \u2014 shown as +$62M so the chart ties exactly to reported totals in whole $M.",
+  "footerNote": "Net income here is the $327M attributable to common stockholders; total net income was $329M, with $2M belonging to noncontrolling interests. Segment figures are from Palantir's Q2 2025 10-Q, rounded to the nearest $M.",
+  "takeaways": [
+    {
+      "stat": "+93%",
+      "statColor": "#3e8e5a",
+      "title": "U.S. business customers nearly doubled",
+      "text": "U.S. commercial revenue grew 93% YoY to $306M, and Palantir raised its outlook \u2014 it now expects full-year 2025 revenue of about $4.15B, with U.S. commercial growth of at least 85%."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#3d7bc8",
+      "title": "First billion-dollar quarter",
+      "text": "Total revenue reached $1,004M, up 48% YoY, with U.S. revenue up 68% to $733M \u2014 73% of everything Palantir sells."
+    },
+    {
+      "stat": "57%",
+      "statColor": "#3e8e5a",
+      "title": "Profit, not just growth",
+      "text": "Adjusted free cash flow was $569M \u2014 57 cents of every revenue dollar \u2014 and GAAP net income attributable to shareholders was $327M, a 33% margin."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/a2025q2ex991pressrelease.htm"
+    },
+    {
+      "label": "Quarterly report (Form 10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000106/pltr-20250630.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Government",
+      "amount": 55.08
+    },
+    {
+      "label": "Commercial",
+      "amount": 44.92
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -19.22
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -24.3
+    },
+    {
+      "label": "R&D",
+      "amount": -13.45
+    },
+    {
+      "label": "G&A",
+      "amount": -16.24
+    },
+    {
+      "label": "Other income",
+      "amount": 6.18
+    },
+    {
+      "label": "Tax",
+      "amount": -0.4
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 67.43
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-23",
+  "verdict": "Tesla's revenue fell 12% to $22.5B as car sales dropped, but the quarter was really about what comes next: its first Robotaxi service launched in Austin, and it still kept $1.2B of profit despite much thinner car margins.",
+  "revenueYoY": "-12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.33",
+      "note": "vs $0.40 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "443,956",
+      "note": "flat vs a year ago, up 32% vs Q1"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$146M",
+      "note": "operating cash flow of $2.5B, capex of $2.4B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 16661,
+      "yoy": "-16%",
+      "note": "Selling and leasing cars \u2014 still the core business, but revenue fell as Tesla cut prices and demand cooled ahead of newer, cheaper models."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 2789,
+      "yoy": "-7%",
+      "note": "Megapack batteries and solar \u2014 storage deployments hit a 12th straight quarterly record even as revenue dipped 7%."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 3046,
+      "yoy": "+17%",
+      "note": "Supercharging, repairs, insurance and used-car sales \u2014 the fastest-growing part of Tesla, up 17%."
+    }
+  ],
+  "flow": {
+    "revenueM": 22496,
+    "costOfRevenueM": 18618,
+    "grossProfitM": 3878,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1589,
+        "note": "AI, the Optimus robot, Cybercab and new vehicles \u2014 up 48% YoY as Tesla builds out its AI compute and robotaxi push."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1366,
+        "note": "Selling cars and running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 923,
+    "otherIncomeM": 626,
+    "taxM": 359,
+    "netIncomeM": 1190
+  },
+  "otherDetail": "Interest income of $392M and $320M of other income, less $86M of interest expense \u2014 a net +$626M below operating profit.",
+  "footerNote": "Net income here is Tesla's total net income of $1,190M; $1,172M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries).",
+  "takeaways": [
+    {
+      "stat": "-16%",
+      "statColor": "#cf5f4e",
+      "title": "Car sales fell",
+      "text": "Automotive revenue dropped 16% YoY to $16.7B even though deliveries held at 443,956 \u2014 price cuts and a cheaper mix meant less money per car, and the gross margin narrowed to 17.2%."
+    },
+    {
+      "stat": "Austin",
+      "statColor": "#3d7bc8",
+      "title": "Robotaxi service launched",
+      "text": "Tesla launched its first Robotaxi service in Austin in June and delivered its first car fully autonomously. First builds of a more affordable model also began, with volume production planned for the second half of 2025."
+    },
+    {
+      "stat": "$146M",
+      "statColor": "#b98a1c",
+      "title": "Free cash flow thinned",
+      "text": "Operating cash flow of $2.5B barely covered $2.4B of capex, leaving $146M of free cash flow \u2014 but the balance sheet still holds $36.8B of cash and investments."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035738/exhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 74.06
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 12.4
+    },
+    {
+      "label": "Services and other",
+      "amount": 13.54
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -82.76
+    },
+    {
+      "label": "R&D",
+      "amount": -7.06
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.07
+    },
+    {
+      "label": "Other income",
+      "amount": 2.78
+    },
+    {
+      "label": "Tax",
+      "amount": -1.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 94.71
+    }
+  ]
+}

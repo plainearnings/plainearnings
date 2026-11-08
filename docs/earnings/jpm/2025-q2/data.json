@@ -1,0 +1,161 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-15",
+  "verdict": "JPMorgan earned $15.0B in a strong quarter for markets and banking fees \u2014 revenue of $44.9B only looks down 11% because the same quarter a year ago booked a one-off $7.9B gain on Visa shares.",
+  "revenueYoY": "-11%",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2.1B of loans were charged off in the quarter and $763M was added to reserves.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-11%",
+      "note": "reported basis, vs a year ago \u2014 that quarter had a $7.9B Visa gain"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.24",
+      "note": "vs $6.12 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$23.2B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$2.8B",
+      "note": "$2.1B charged off, $763M reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 23209,
+      "yoy": "+2%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 2% as balance growth offset lower rates and deposit margin compression."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 21703,
+      "yoy": "-21%",
+      "note": "Fees, trading and asset-management income \u2014 down 21% only because a year ago it included a $7.9B gain on Visa shares; investment banking fees rose 8% to $2.5B and asset management fees 12% to $4.8B."
+    }
+  ],
+  "flow": {
+    "revenueM": 44912,
+    "costOfRevenueM": 2849,
+    "grossProfitM": 42063,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 13710,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 3006,
+        "note": "Outside services and professional fees."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 2704,
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms.",
+        "pngName": "Technology & equipment",
+        "shortName": "Technology & equipment"
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1279,
+        "note": "Advertising and card marketing."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3080,
+        "note": "Branches and offices ($1,264M of occupancy) plus other general costs ($1,816M).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 18284,
+    "otherIncomeM": 0,
+    "taxM": 3297,
+    "netIncomeM": 14987
+  },
+  "footerNote": "JPMorgan headlines 'managed' revenue of $45.7B; this page uses reported (GAAP) revenue of $44.9B \u2014 the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "follow100Note": "JPMorgan reports revenue two ways: $44.9B reported (GAAP), used here, or $45.7B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way. The rows reconcile to the $100 total within a cent of rounding.",
+  "takeaways": [
+    {
+      "stat": "$7.9B",
+      "statColor": "#b98a1c",
+      "title": "The year-ago mirage",
+      "text": "Revenue fell 11% and net income 17% vs a year ago \u2014 but that quarter included a $7.9B net gain on Visa shares, plus a $1.0B donation of Visa shares inside its costs. Against that flattered comparison, the underlying business grew."
+    },
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "Banking and markets stayed hot",
+      "text": "Investment banking fees rose 8% to $2.5B, asset management fees 12% to $4.8B, and trading (principal transactions) brought in $7.1B \u2014 the fee engine more than replaced the missing Visa gain."
+    },
+    {
+      "stat": "21%",
+      "statColor": "#3e8e5a",
+      "title": "Profitability stayed elite",
+      "text": "Return on tangible common equity was 21%, and the bank kept $15.0B \u2014 about 33 cents of every reported revenue dollar \u2014 while setting aside $2.8B for possible loan losses."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000518/a2q25erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000518/a2q25erfex992supplement.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 51.68
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 48.32
+    },
+    {
+      "label": "Credit costs",
+      "amount": -6.34
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -30.53
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -6.69
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -6.02
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.85
+    },
+    {
+      "label": "Occupancy & other expense",
+      "amount": -6.86
+    },
+    {
+      "label": "Tax",
+      "amount": -7.34
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 66.63
+    }
+  ]
+}

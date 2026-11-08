@@ -1,0 +1,163 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-28",
+  "reportedDate": "2025-08-05",
+  "verdict": "AMD's revenue jumped 32% to $7.7B on record server and PC chip sales, but an $800M charge on AI chips blocked from China pushed it to an operating loss \u2014 an $834M tax benefit still turned the quarter into an $872M net profit.",
+  "revenueYoY": "+32%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+32%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.54",
+      "note": "vs $0.24 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "40%",
+      "note": "an ~$800M MI308 charge cut it from ~54%"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$3.2B",
+      "note": "+14% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 3240,
+      "yoy": "+14%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 EPYC demand was strong, but US export controls blocked Instinct MI308 shipments to China."
+    },
+    {
+      "name": "Client",
+      "amountM": 2499,
+      "yoy": "+67%",
+      "note": "Ryzen processors for PCs \u2014 a record $2.5B quarter, up 67% on 'Zen 5' desktop chips and a richer product mix."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 1122,
+      "yoy": "+73%",
+      "note": "Graphics cards and console chips \u2014 up 73% YoY on Radeon GPU demand and recovering semi-custom console sales."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 824,
+      "yoy": "-4%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 down 4% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 7685,
+    "costOfRevenueM": 4626,
+    "grossProfitM": 3059,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1894,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 991,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 308,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      }
+    ],
+    "operatingIncomeM": -134,
+    "otherIncomeM": 172,
+    "taxM": -834,
+    "netIncomeM": 872
+  },
+  "otherDetail": "Other income of $98M, plus $8M of equity income and $104M from discontinued operations, less $38M of interest expense \u2014 a net +$172M.",
+  "footerNote": "The tax line was a benefit, not a bill: an $834M income-tax benefit (largely non-cash) is drawn as a green source into net profit. Continuing-operations profit was $768M; $104M came from discontinued operations.",
+  "takeaways": [
+    {
+      "stat": "~$800M",
+      "statColor": "#cf5f4e",
+      "title": "China controls bit hard",
+      "text": "US export controls on the Instinct MI308 AI chip led to roughly $800M of inventory and related charges inside cost of sales \u2014 GAAP gross margin was 40%, versus about 54% without the charges."
+    },
+    {
+      "stat": "+67%",
+      "statColor": "#3e8e5a",
+      "title": "PC chips had a record quarter",
+      "text": "Client revenue hit a record $2.5B, up 67% YoY on 'Zen 5' Ryzen desktop processors, and Gaming rose 73% \u2014 together they carried the quarter while Data Center absorbed the China hit."
+    },
+    {
+      "stat": "$834M",
+      "statColor": "#3e8e5a",
+      "title": "A tax benefit flipped the bottom line",
+      "text": "AMD booked an $834M income-tax benefit, so despite a $134M operating loss the quarter ended with $872M of net income \u2014 $768M from continuing operations plus $104M from the business being sold."
+    }
+  ],
+  "oneTimers": [
+    "Export-control charges: ~$800M \u2014 inventory and related charges on Instinct MI308 AI chips blocked from sale to China, booked inside cost of sales. Excluding them, gross margin would have been about 54% instead of 40%.",
+    "Discontinued operations added $104M below the line \u2014 profit from the server-rack manufacturing business (acquired with ZT Systems) that AMD agreed to sell; profit from continuing operations was $768M.",
+    "An $834M income-tax benefit \u2014 largely non-cash \u2014 turned an operating loss into a net profit; it is drawn as a green 'Tax benefit' source in the chart."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000106/q22025991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 42.16
+    },
+    {
+      "label": "Client",
+      "amount": 32.52
+    },
+    {
+      "label": "Gaming",
+      "amount": 14.6
+    },
+    {
+      "label": "Embedded",
+      "amount": 10.72
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -60.2
+    },
+    {
+      "label": "R&D",
+      "amount": -24.65
+    },
+    {
+      "label": "Marketing, general & administrative",
+      "amount": -12.9
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.01
+    },
+    {
+      "label": "Other income",
+      "amount": 2.24
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 10.85
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 88.67
+    }
+  ]
+}
