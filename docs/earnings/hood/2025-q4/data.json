@@ -1,0 +1,171 @@
+{
+  "company": "Robinhood",
+  "flow": {
+    "costOfRevenueM": 57,
+    "grossProfitM": 1226,
+    "netIncomeM": 605,
+    "operatingIncomeM": 650,
+    "opex": [
+      {
+        "amountM": 232,
+        "name": "Technology and development",
+        "note": "Building and running the app and its trading systems."
+      },
+      {
+        "amountM": 37,
+        "name": "Operations",
+        "note": "Customer support and day-to-day operations."
+      },
+      {
+        "amountM": 36,
+        "name": "Provision for credit losses",
+        "note": "Money set aside for customer loans that may not be repaid."
+      },
+      {
+        "amountM": 93,
+        "name": "Marketing",
+        "note": "Advertising and promotions to win new customers."
+      },
+      {
+        "amountM": 178,
+        "name": "General & administrative",
+        "note": "Legal, finance, compliance and running the company \u2014 swollen this quarter by acquisition-related costs."
+      }
+    ],
+    "otherIncomeM": 11,
+    "revenueM": 1283,
+    "taxM": 56
+  },
+  "follow100": [
+    {
+      "amount": 60.49,
+      "label": "Transaction-based revenues"
+    },
+    {
+      "amount": 32.03,
+      "label": "Net interest revenues"
+    },
+    {
+      "amount": 7.48,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -4.44,
+      "label": "Brokerage and transaction"
+    },
+    {
+      "amount": -18.08,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -2.88,
+      "label": "Operations"
+    },
+    {
+      "amount": -2.81,
+      "label": "Provision for credit losses"
+    },
+    {
+      "amount": -7.25,
+      "label": "Marketing"
+    },
+    {
+      "amount": -13.87,
+      "label": "General & administrative"
+    },
+    {
+      "amount": 0.86,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.36,
+      "label": "Tax"
+    },
+    {
+      "amount": 47.16,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Robinhood kept $47.16 of every $100 \u2014 a very different business from a retailer: most revenue arrives as fees and interest, and the biggest costs are engineers and growth spending. Rows may not add exactly due to rounding.",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Net income of $605M is attributable to Robinhood; there was no non-controlling interest this quarter.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+27% YoY",
+      "value": "$1.28B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "vs $1.01 a year ago, which included a $0.47 one-time benefit",
+      "value": "$0.66"
+    },
+    {
+      "label": "Total Platform Assets",
+      "note": "+68% YoY",
+      "value": "$324B"
+    },
+    {
+      "label": "Gold Subscribers",
+      "note": "+58% YoY",
+      "value": "4.2M"
+    }
+  ],
+  "oneTimers": [
+    "The year-ago comparison is flattered by a $424M benefit in Q4 2024 \u2014 a deferred-tax benefit plus the reversal of a regulatory accrual \u2014 worth $0.47 of that quarter's $1.01 EPS. Q4 2025 has no equivalent item.",
+    "General and administrative costs jumped 154% to $178M, driven by acquisition-related expenses for the TradePMR and Bitstamp deals and by growth investments; total operating expenses rose 38% to $633M."
+  ],
+  "otherDetail": "Other income (loss), net was $11M \u2014 small next to the main business.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-10",
+  "revenueYoY": "+27%",
+  "segments": [
+    {
+      "amountM": 776,
+      "name": "Transaction-based revenues",
+      "note": "Fees from customers' trades \u2014 options brought in $314M, crypto $221M, equities $94M, and other transaction revenue, including event contracts, jumped over 300% to $147M.",
+      "yoy": "+15%"
+    },
+    {
+      "amountM": 411,
+      "name": "Net interest revenues",
+      "note": "Interest on customers' cash and margin loans, plus securities lending \u2014 up 39% as balances grew.",
+      "yoy": "+39%"
+    },
+    {
+      "amountM": 96,
+      "name": "Other revenues",
+      "note": "Mostly Robinhood Gold subscriptions \u2014 $50M, up 56% \u2014 plus other services.",
+      "yoy": "+109%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000013/q42025robinhoodexhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$324B",
+      "statColor": "#3e8e5a",
+      "text": "Total Platform Assets rose 68% to $324B, with $15.9B of net deposits in the quarter alone and $68.1B over the year. Funded customers reached 27.0M.",
+      "title": "Customers keep piling in assets"
+    },
+    {
+      "stat": "4.2M",
+      "statColor": "#3d7bc8",
+      "text": "Robinhood Gold subscribers rose 58% to a record 4.2M, and Gold subscription revenue rose 56% to $50M \u2014 part of why 'other revenues' more than doubled to $96M.",
+      "title": "Gold becomes a real business"
+    },
+    {
+      "stat": "\u221234%",
+      "statColor": "#5b6b7c",
+      "text": "Net income fell from $916M to $605M, but last year's quarter included a $424M benefit from a deferred-tax item and a reversed regulatory accrual. Underneath, revenue grew 27%.",
+      "title": "Profit is down \u2014 on paper"
+    }
+  ],
+  "ticker": "HOOD",
+  "verdict": "Robinhood's revenue rose 27% to $1.28B as options trading and interest income grew \u2014 and its $605M profit only looks down 34% because a year ago included a $424M one-time tax and regulatory benefit."
+}

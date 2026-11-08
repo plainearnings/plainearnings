@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Robinhood — Q4 2025 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Robinhood Q4 2025 earnings in plain English: Robinhood&#x27;s revenue rose 27% to $1.28B as options trading and interest income grew — and its $605M profit only looks down 34% because a year ago included a $424M one-time tax and regulatory benefit.">
+<meta property="og:title" content="Robinhood — Q4 2025 Earnings, Explained Simply">
+<meta property="og:description" content="Robinhood&#x27;s revenue rose 27% to $1.28B as options trading and interest income grew — and its $605M profit only looks down 34% because a year ago included a $424M one-time tax and regulatory benefit.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/hood/2025-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/hood/2025-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Robinhood quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Robinhood <span class="thin">(HOOD)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+12%</span>
+        <span class="q-meta">Reported 2026-10-27 · Revenue $1,424M</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+32%</span>
+        <span class="q-meta">Reported 2026-07-29 · Revenue $1,308M</span>
+      </a>
+      <a class="q-item" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+15%</span>
+        <span class="q-meta">Reported 2026-04-28 · Revenue $1,067M</span>
+      </a>
+      <a class="q-item active" href="../2025-q4/">
+        <span class="q-label">Q4 2025</span>
+        <span class="q-badge">+27%</span>
+        <span class="q-meta">Reported 2026-02-10 · Revenue $1,283M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Robinhood — Q4 2025 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 2025</strong> · Quarter ended 2025-12-31<br>
+      Reported 2026-02-10
+    </div>
+  </header>
+
+  <p class="verdict">Robinhood&#x27;s revenue rose 27% to $1.28B as options trading and interest income grew — and its $605M profit only looks down 34% because a year ago included a $424M one-time tax and regulatory benefit.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$1.28B</b></span><span class="chip">EPS (diluted)<b>$0.66</b></span><span class="chip">Total Platform Assets<b>$324B</b></span><span class="chip">Gold Subscribers<b>4.2M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Robinhood's Q4 2025 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Robinhood took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Transaction-based revenues</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$60.49</span></div>
+          <div class="hrow"><span class="hlabel">Net interest revenues</span><div class="htrack"><div class="hfill" data-w="53.0" style="background:#3D7BC8"></div></div><span class="hval">$32.03</span></div>
+          <div class="hrow"><span class="hlabel">Other revenues</span><div class="htrack"><div class="hfill" data-w="12.4" style="background:#3D7BC8"></div></div><span class="hval">$7.48</span></div>
+          <div class="hrow"><span class="hlabel">Brokerage and transaction</span><div class="htrack"><div class="hfill" data-w="7.3" style="background:#D96A57"></div></div><span class="hval">−$4.44</span></div>
+          <div class="hrow"><span class="hlabel">Technology &amp; development</span><div class="htrack"><div class="hfill" data-w="29.9" style="background:#D96A57"></div></div><span class="hval">−$18.08</span></div>
+          <div class="hrow"><span class="hlabel">Operations</span><div class="htrack"><div class="hfill" data-w="4.8" style="background:#D96A57"></div></div><span class="hval">−$2.88</span></div>
+          <div class="hrow"><span class="hlabel">Provision for credit losses</span><div class="htrack"><div class="hfill" data-w="4.6" style="background:#D96A57"></div></div><span class="hval">−$2.81</span></div>
+          <div class="hrow"><span class="hlabel">Marketing</span><div class="htrack"><div class="hfill" data-w="12.0" style="background:#D96A57"></div></div><span class="hval">−$7.25</span></div>
+          <div class="hrow"><span class="hlabel">General &amp; administrative</span><div class="htrack"><div class="hfill" data-w="22.9" style="background:#D96A57"></div></div><span class="hval">−$13.87</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="1.4" style="background:#3D7BC8"></div></div><span class="hval">$0.86</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="7.2" style="background:#B8443C"></div></div><span class="hval">−$4.36</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="78.0" style="background:#3E8E5A"></div></div><span class="hval">$47.16</span></div>
+      <p class="hnote">Robinhood kept $47.16 of every $100 — a very different business from a retailer: most revenue arrives as fees and interest, and the biggest costs are engineers and growth spending. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">$324B</div>
+            <h3>Customers keep piling in assets</h3>
+            <p>Total Platform Assets rose 68% to $324B, with $15.9B of net deposits in the quarter alone and $68.1B over the year. Funded customers reached 27.0M.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">4.2M</div>
+            <h3>Gold becomes a real business</h3>
+            <p>Robinhood Gold subscribers rose 58% to a record 4.2M, and Gold subscription revenue rose 56% to $50M — part of why &#x27;other revenues&#x27; more than doubled to $96M.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">−34%</div>
+            <h3>Profit is down — on paper</h3>
+            <p>Net income fell from $916M to $605M, but last year&#x27;s quarter included a $424M benefit from a deferred-tax item and a reversed regulatory accrual. Underneath, revenue grew 27%.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>The year-ago comparison is flattered by a $424M benefit in Q4 2024 — a deferred-tax benefit plus the reversal of a regulatory accrual — worth $0.47 of that quarter&#x27;s $1.01 EPS. Q4 2025 has no equivalent item.</li><li>General and administrative costs jumped 154% to $178M, driven by acquisition-related expenses for the TradePMR and Bitstamp deals and by growth investments; total operating expenses rose 38% to $633M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="">Q1 2026</a></li><li><a href="../2025-q4/" class="current">Q4 2025</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1783879/000178387926000013/q42025robinhoodexhibit991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Robinhood does not report a separate cost of revenue; &#x27;Brokerage and transaction&#x27; — the direct cost of executing customers&#x27; trades — is shown as the direct cost here. Net income of $605M is attributable to Robinhood; there was no non-controlling interest this quarter.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":1.283,"nodes":{"seg0":{"name":"Transaction-based revenues","amt":"$776M","value":0.776,"col":0,"color":"#3D7BC8","note":"+15% \u00b7 60.5% of revenue","plain":"Fees from customers' trades \u2014 options brought in $314M, crypto $221M, equities $94M, and other transaction revenue, including event contracts, jumped over 300% to $147M.","quarter":"60.5% of all revenue this quarter."},"seg1":{"name":"Net interest revenues","amt":"$411M","value":0.411,"col":0,"color":"#7A68C4","note":"+39% \u00b7 32% of revenue","plain":"Interest on customers' cash and margin loans, plus securities lending \u2014 up 39% as balances grew.","quarter":"32% of all revenue this quarter."},"seg2":{"name":"Other revenues","amt":"$96M","value":0.096,"col":0,"color":"#2E7CC4","note":"+109% \u00b7 7.5% of revenue","plain":"Mostly Robinhood Gold subscriptions \u2014 $50M, up 56% \u2014 plus other services.","quarter":"7.5% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$1.3B","value":1.283,"col":1,"color":"#2F3B4C","note":"+27%","plain":"All the money Robinhood took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.3B, +27% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.2B","value":1.226,"col":2,"color":"#69B578","note":"95.6% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"95.6 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($57M)","value":0.057,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$57M \u2014 about 4.4 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$11M","value":0.011,"col":3,"color":"#69B578","note":"","plain":"Other income (loss), net was $11M \u2014 small next to the main business.","quarter":"$11M added to profit."},"op":{"name":"Operating profit","amt":"$650M","value":0.65,"col":3,"color":"#4C9A67","note":"50.7% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 50.7% margin."},"opex":{"name":"Operating expenses","amt":"($576M)","value":0.576,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$576M total, split into Technology and development, Operations, Provision for credit losses, Marketing, General & administrative on the right."},"ox0":{"name":"Technology and development","amt":"($232M)","value":0.232,"col":4,"color":"#CF5F4E","note":"18.1% of revenue","plain":"Building and running the app and its trading systems.","quarter":"$232M \u2014 18.1% of revenue."},"ox1":{"name":"Operations","amt":"($37M)","value":0.037,"col":4,"color":"#CF5F4E","note":"2.9% of revenue","plain":"Customer support and day-to-day operations.","quarter":"$37M \u2014 2.9% of revenue."},"ox2":{"name":"Provision for credit losses","amt":"($36M)","value":0.036,"col":4,"color":"#CF5F4E","note":"2.8% of revenue","plain":"Money set aside for customer loans that may not be repaid.","quarter":"$36M \u2014 2.8% of revenue."},"ox3":{"name":"Marketing","amt":"($93M)","value":0.093,"col":4,"color":"#CF5F4E","note":"7.2% of revenue","plain":"Advertising and promotions to win new customers.","quarter":"$93M \u2014 7.2% of revenue."},"ox4":{"name":"General & administrative","amt":"($178M)","value":0.178,"col":4,"color":"#CF5F4E","note":"13.9% of revenue","plain":"Legal, finance, compliance and running the company \u2014 swollen this quarter by acquisition-related costs.","quarter":"$178M \u2014 13.9% of revenue."},"net":{"name":"Net profit","amt":"$605M","value":0.605,"col":4,"color":"#3E8E5A","note":"47.2% margin","plain":"The bottom line \u2014 what Robinhood actually earned after everything.","quarter":"$605M \u2014 about 47.2 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($56M)","value":0.056,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$56M \u2014 roughly a 8.5% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2","ox3","ox4"]],"links":[{"s":"seg0","d":"rev","v":0.776,"c":"#94b6e1","amt":"$776M"},{"s":"seg1","d":"rev","v":0.411,"c":"#b6acdf","amt":"$411M"},{"s":"seg2","d":"rev","v":0.096,"c":"#8cb7df","amt":"$96M"},{"s":"rev","d":"gross","v":1.226,"c":"#BFE0C6","amt":"$1.2B"},{"s":"rev","d":"cost","v":0.057,"c":"#F4C7B9","amt":"$57M"},{"s":"gross","d":"op","v":0.65,"c":"#ACD8B8","amt":"$650M"},{"s":"gross","d":"opex","v":0.576,"c":"#F2B3A4","amt":"$576M"},{"s":"op","d":"net","v":0.594,"c":"#ACD8B8","amt":"$594M"},{"s":"otherin","d":"net","v":0.011,"c":"#ACD8B8","amt":"$11M"},{"s":"op","d":"tax","v":0.056,"c":"#dfaba7","amt":"$56M"},{"s":"opex","d":"ox0","v":0.232,"c":"#F6C0B1","amt":"$232M"},{"s":"opex","d":"ox1","v":0.037,"c":"#F6C0B1","amt":"$37M"},{"s":"opex","d":"ox2","v":0.036,"c":"#F6C0B1","amt":"$36M"},{"s":"opex","d":"ox3","v":0.093,"c":"#F6C0B1","amt":"$93M"},{"s":"opex","d":"ox4","v":0.178,"c":"#F6C0B1","amt":"$178M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

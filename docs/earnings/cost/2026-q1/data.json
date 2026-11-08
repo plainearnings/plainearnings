@@ -1,0 +1,124 @@
+{
+  "company": "Costco",
+  "flow": {
+    "costOfRevenueM": 58510,
+    "grossProfitM": 8797,
+    "netIncomeM": 2001,
+    "operatingIncomeM": 2463,
+    "opex": [
+      {
+        "amountM": 6334,
+        "name": "Selling, general & administrative",
+        "note": "Warehouse staff, checkout, and running the company."
+      }
+    ],
+    "otherIncomeM": 120,
+    "revenueM": 67307,
+    "taxM": 582
+  },
+  "follow100": [
+    {
+      "amount": 98.03,
+      "label": "Net sales"
+    },
+    {
+      "amount": 1.97,
+      "label": "Membership fees"
+    },
+    {
+      "amount": -86.93,
+      "label": "Merchandise costs"
+    },
+    {
+      "amount": -9.41,
+      "label": "Selling, general & administrative"
+    },
+    {
+      "amount": 0.18,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.86,
+      "label": "Tax"
+    },
+    {
+      "amount": 2.97,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 Costco took in, $1.97 was membership fees \u2014 money that costs almost nothing to earn, which is how a warehouse retailer keeps $2.97 of profit on razor-thin store margins. Rows may not add exactly due to rounding.",
+  "footerNote": "Costco's merchandise costs include buying, freight and shrink (lost or damaged goods) \u2014 the direct cost of what's on the shelves.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+8.3% YoY",
+      "value": "$67.3B"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "vs $4.04 a year ago",
+      "value": "$4.50"
+    },
+    {
+      "label": "Comparable sales",
+      "note": "total company, adjusted for fuel and currency",
+      "value": "+6.4%"
+    },
+    {
+      "label": "Membership fees",
+      "note": "+14% YoY",
+      "value": "$1.33B"
+    }
+  ],
+  "oneTimers": [
+    "Results included a $72M tax benefit ($0.16 per share) related to stock-based compensation \u2014 smaller than last year's $100M benefit, so the year-ago comparison is slightly harder, not easier."
+  ],
+  "otherDetail": "Interest income and other of $155M, less $35M of interest expense.",
+  "periodEnd": "2025-11-23",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "reportedDate": "2025-12-11",
+  "revenueYoY": "+8.3%",
+  "segments": [
+    {
+      "amountM": 65978,
+      "name": "Net sales",
+      "note": "Everything sold in the warehouses and online \u2014 comparable sales rose 6.4%, and digitally-enabled sales jumped 20.5%.",
+      "yoy": "+8.2%"
+    },
+    {
+      "amountM": 1329,
+      "name": "Membership fees",
+      "note": "Annual member fees \u2014 almost pure profit once collected.",
+      "yoy": "+14.0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000164/costex9918-k121125.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.4%",
+      "statColor": "#3e8e5a",
+      "text": "Comparable sales rose 6.4% across the company \u2014 U.S. +5.9%, Canada +6.5%, other international +8.8% \u2014 and digitally-enabled sales jumped 20.5%.",
+      "title": "Shoppers kept coming"
+    },
+    {
+      "stat": "$1.33B",
+      "statColor": "#3d7bc8",
+      "text": "Membership fees grew 14% to $1.33B. Costco runs its warehouses close to break-even on the goods themselves; the fees are what turn into the $2.0B bottom line.",
+      "title": "Membership is the profit engine"
+    },
+    {
+      "stat": "923",
+      "statColor": "#5b6b7c",
+      "text": "Costco ended the quarter with 923 warehouses, including 633 in the United States and Puerto Rico, 114 in Canada and 42 in Mexico.",
+      "title": "Still expanding"
+    }
+  ],
+  "ticker": "COST",
+  "verdict": "Costco's sales rose 8.2% to $66.0B as comparable sales grew 6.4% \u2014 and with $1.33B of nearly cost-free membership fees on top, profit rose 11% to $2.0B."
+}
