@@ -1,0 +1,121 @@
+{
+  "ticker": "VRSN",
+  "company": "Verisign",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "verdict": "Verisign grew revenue 5.7% to $443M as the domain name base expanded 6.1%, and kept $213M \u2014 about 48 cents of every revenue dollar \u2014 as profit.",
+  "revenueYoY": "+5.7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$443M",
+      "note": "+5.7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.35",
+      "note": "vs $2.27 a year ago"
+    },
+    {
+      "label": "Domain name base",
+      "value": "182.5M",
+      "note": ".com and .net registrations, +6.1% YoY"
+    },
+    {
+      "label": "Operating margin",
+      "value": "67%",
+      "note": "$296M of operating income on $443M of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Domain name registry services",
+      "amountM": 443,
+      "yoy": "+5.7%",
+      "note": "Verisign runs the authoritative registry for .com and .net \u2014 every registration and renewal worldwide pays it a wholesale fee. It reports a single segment. The domain base grew by 3.36M names in the quarter to 182.5M."
+    }
+  ],
+  "flow": {
+    "revenueM": 443,
+    "costOfRevenueM": 50,
+    "grossProfitM": 393,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 26,
+        "note": "Building and securing the registry infrastructure, including the new .web launch and the Verisign Informed validation service."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 70,
+        "note": "Selling, general and administrative costs \u2014 running a very lean operation."
+      }
+    ],
+    "operatingIncomeM": 297,
+    "otherIncomeM": -17,
+    "taxM": 67,
+    "netIncomeM": 213
+  },
+  "otherDetail": "Interest expense of $21M on the company's senior notes, partly offset by $4M of non-operating income.",
+  "follow100": [
+    {
+      "label": "Domain name registry services",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -11.29
+    },
+    {
+      "label": "R&D",
+      "amount": -5.87
+    },
+    {
+      "label": "SG&A",
+      "amount": -15.8
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.84
+    },
+    {
+      "label": "Tax",
+      "amount": -15.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 48.08
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+6.1%",
+      "statColor": "#3d7bc8",
+      "title": "The domain base is growing again",
+      "text": "The .com and .net base reached 182.5M names, up 6.1% YoY, with 13.1M new registrations processed in the quarter versus 10.6M a year ago."
+    },
+    {
+      "stat": "67%",
+      "statColor": "#3e8e5a",
+      "title": "A registry is a toll booth",
+      "text": "Operating income was $296M on $443M of revenue \u2014 a 67% margin. Running the registry costs little; most of each renewal fee drops through to profit."
+    },
+    {
+      "stat": "$189M",
+      "statColor": "#5b6b7c",
+      "title": "Profits go back to shareholders",
+      "text": "Verisign repurchased 0.7M shares for $189M in the quarter and declared a $0.81 per share dividend, payable November 24, 2026."
+    }
+  ],
+  "oneTimers": [
+    "A $7.5M pre-tax operating loss related to certain assets held for sale, which reduced diluted EPS by $0.06."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000038/q32026earningsrelease.htm"
+    }
+  ]
+}

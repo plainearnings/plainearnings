@@ -1,0 +1,160 @@
+{
+  "ticker": "VRT",
+  "company": "Vertiv",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "revenueYoY": "+61%",
+  "verdict": "Vertiv's sales surged 61% to $4.3B as data-center builders raced to add power and cooling, and net profit nearly doubled \u2014 the AI buildout is now the core of its business.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+61%",
+      "note": "vs a year ago; +55% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.95",
+      "note": "vs $1.02 a year ago"
+    },
+    {
+      "label": "Organic orders",
+      "value": ">100%",
+      "note": "growth vs a year ago"
+    },
+    {
+      "label": "Adj. operating margin",
+      "value": "25.2%",
+      "note": "up 2.9 pts YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 2989,
+      "note": "North and South America \u2014 power and cooling for data centers, up 75% YoY (66% organic).",
+      "yoy": "+75%"
+    },
+    {
+      "name": "Asia Pacific",
+      "amountM": 779,
+      "note": "Asia-Pacific data-center infrastructure \u2014 up 50% YoY (48% organic).",
+      "yoy": "+50%"
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 545,
+      "note": "Europe, the Middle East and Africa \u2014 up 23% YoY (19% organic), slower than the Americas but still fast.",
+      "yoy": "+23%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4313,
+    "costOfRevenueM": 2670,
+    "grossProfitM": 1643,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 557,
+        "note": "Selling and running a company growing this fast \u2014 up from $414M a year ago."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 65,
+        "note": "Non-cash amortization of technology and brands bought in past deals."
+      },
+      {
+        "name": "Other operating expense",
+        "amountM": 30,
+        "note": "Other operating costs, including acquisition-related fair-value changes."
+      },
+      {
+        "name": "Foreign currency loss",
+        "amountM": 7,
+        "note": "Net losses from currency moves this quarter."
+      }
+    ],
+    "operatingIncomeM": 984,
+    "otherIncomeM": 11,
+    "taxM": 230,
+    "netIncomeM": 765
+  },
+  "otherDetail": "Other non-operating income of $17M, less net interest expense of $6M, for net other income of $11M.",
+  "oneTimers": [
+    "Adjusted (non-GAAP) operating profit was $1,087M \u2014 a 25.2% margin \u2014 vs $984M GAAP; the gap is mostly the $65M of acquisition-intangible amortization. Adjusted EPS was $2.21 vs $1.95 GAAP."
+  ],
+  "footerNote": "Vertiv reports to one decimal place; figures here are rounded to the nearest $1M, so net income is shown as $765M vs the reported $764.5M. Restructuring costs of $0.2M round to zero and are not a separate expense line. Segment sales are by region.",
+  "takeaways": [
+    {
+      "stat": "+61%",
+      "statColor": "#3d7bc8",
+      "title": "The AI buildout, in one number",
+      "text": "Sales jumped 61% to $4.31B \u2014 55% of it organic \u2014 and organic orders more than doubled. Every region grew at least 23%."
+    },
+    {
+      "stat": "$765M",
+      "statColor": "#3e8e5a",
+      "title": "Profit nearly doubled",
+      "text": "Net income rose 92% to about $765M and GAAP EPS to $1.95, as operating margin expanded on the surge in volume. Operating cash flow was $794M."
+    },
+    {
+      "stat": "$14.65B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised again",
+      "text": "Vertiv lifted full-year 2026 sales guidance by $650M at the midpoint, to about $14.65B \u2014 management sees the data-center buildout accelerating, not pausing."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 69.3
+    },
+    {
+      "label": "Asia Pacific",
+      "amount": 18.06
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 12.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.91
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.91
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.51
+    },
+    {
+      "label": "Other operating",
+      "amount": -0.7
+    },
+    {
+      "label": "Currency loss",
+      "amount": -0.16
+    },
+    {
+      "label": "Other income",
+      "amount": 0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -5.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.74
+    }
+  ]
+}

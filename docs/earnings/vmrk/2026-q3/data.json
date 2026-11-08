@@ -1,0 +1,174 @@
+{
+  "ticker": "VMRK",
+  "company": "Vivmark Residential",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "In its first quarter as the merged AvalonBay\u2013Equity Residential giant, Vivmark booked a $747M GAAP loss on $544M of merger costs and stepped-up depreciation, even as Core FFO per share rose 5.1% to $1.03.",
+  "revenueYoY": "+55.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.20B",
+      "note": "+56% vs AvalonBay alone a year ago (pre-merger)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$1.27",
+      "note": "vs +$0.96 a year ago \u2014 merger costs"
+    },
+    {
+      "label": "Core FFO per share",
+      "value": "$1.03",
+      "note": "+5.1% YoY \u2014 the cash measure, excl. merger costs"
+    },
+    {
+      "label": "Merged same-store NOI",
+      "value": "+1.7%",
+      "note": "95.8% occupancy across 157,377 apartment homes"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Rental income",
+      "amountM": 1193,
+      "yoy": "+56%",
+      "note": "Rent from the apartment portfolio. The jump is the merger: the quarter includes Equity Residential only from the August 17, 2026 merger date, while the year-ago figures are AvalonBay alone."
+    },
+    {
+      "name": "Management & other fees",
+      "amountM": 2,
+      "yoy": "+4.5%",
+      "note": "Management, development and other fee income \u2014 a sliver next to rent."
+    }
+  ],
+  "flow": {
+    "revenueM": 1195,
+    "costOfRevenueM": 393,
+    "grossProfitM": 802,
+    "opex": [
+      {
+        "name": "Depreciation",
+        "amountM": 898,
+        "note": "Spreading the cost of the apartment buildings over their lives \u2014 it jumped because Equity Residential's assets were recorded at fair value in the merger, creating a much bigger base to depreciate. A non-cash charge."
+      },
+      {
+        "name": "Transaction costs",
+        "amountM": 464,
+        "note": "Deal costs of the AvalonBay\u2013Equity Residential merger, expensed in the quarter it closed."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 118,
+        "note": "Running the company \u2014 includes about $80M of merger-related compensation costs."
+      },
+      {
+        "name": "Property management",
+        "amountM": 56,
+        "note": "The cost of managing the communities day to day."
+      },
+      {
+        "name": "Development & pursuit costs",
+        "amountM": 5,
+        "note": "Development and pursuit costs expensed rather than capitalized."
+      },
+      {
+        "name": "Casualty & impairment",
+        "amountM": 2,
+        "note": "Casualty and impairment losses on properties."
+      }
+    ],
+    "operatingIncomeM": -741,
+    "otherIncomeM": -7,
+    "taxM": -1,
+    "netIncomeM": -747
+  },
+  "otherDetail": "Interest expense of $124M and a $6M loss from unconsolidated investments, partly offset by a $108M gain on sales of communities, $11M of other income and $4M of non-operating gains.",
+  "follow100": [
+    {
+      "label": "Rental income",
+      "amount": 99.83
+    },
+    {
+      "label": "Management & other fees",
+      "amount": 0.17
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.89
+    },
+    {
+      "label": "Depreciation",
+      "amount": -75.15
+    },
+    {
+      "label": "Transaction costs",
+      "amount": -38.83
+    },
+    {
+      "label": "General & administrative",
+      "amount": -9.87
+    },
+    {
+      "label": "Property management",
+      "amount": -4.69
+    },
+    {
+      "label": "Development & pursuit costs",
+      "amount": -0.42
+    },
+    {
+      "label": "Casualty & impairment",
+      "amount": -0.17
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.59
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -62.51
+    }
+  ],
+  "follow100Note": "This was a loss quarter: merger costs and non-cash depreciation were far larger than the quarter's rent profit, so the 'kept as profit' row is negative \u2014 the loss was covered by the combined company's balance sheet.",
+  "takeaways": [
+    {
+      "stat": "$544M",
+      "statColor": "#cf5f4e",
+      "title": "The merger bill drove the loss",
+      "text": "Merger-related costs of $544M \u2014 $464M of transaction costs plus about $80M of merger compensation inside G&A \u2014 cost $0.92 per share. Excluding them, Core FFO per share rose 5.1% to $1.03."
+    },
+    {
+      "stat": "$898M",
+      "statColor": "#5b6b7c",
+      "title": "Depreciation is a merger artifact",
+      "text": "Depreciation nearly quadrupled to $898M because Equity Residential's communities were stepped up to fair value on the merger balance sheet. It is non-cash, and FFO adds it back."
+    },
+    {
+      "stat": "+1.7%",
+      "statColor": "#3e8e5a",
+      "title": "The apartments themselves did fine",
+      "text": "On a merged same-store basis \u2014 both legacy portfolios as if combined all along \u2014 revenue rose 2.4% and NOI 1.7% at 95.8% occupancy."
+    }
+  ],
+  "oneTimers": [
+    "Merger-related costs of $544M ($0.92 per share): $464M of transaction costs plus roughly $80M of merger-related compensation in general & administrative expense. The company now expects total merger-related costs of about $725M.",
+    "Depreciation of $898M reflects the fair-value step-up of Equity Residential's assets in merger accounting \u2014 a non-cash charge that will stay elevated."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526448699/vmrk-ex99_1.htm"
+    },
+    {
+      "label": "Q3 2026 supplemental with consolidated statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526448699/vmrk-ex99_2.htm"
+    }
+  ],
+  "footerNote": "Vivmark Residential was formed on August 17, 2026 by the merger of Equity Residential and AvalonBay Communities, accounted for as a reverse acquisition: year-ago comparatives are AvalonBay alone, and this quarter includes Equity Residential only from the merger date. Direct costs are property operating expenses ($245M) plus property taxes ($147M). Net loss attributable to controlling interests was $735M; the net loss available to common shares was $736M."
+}

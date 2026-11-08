@@ -1,0 +1,131 @@
+{
+  "ticker": "VRTX",
+  "company": "Vertex Pharmaceuticals",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-02",
+  "verdict": "Vertex grew revenue 12% to $3.44B on cystic fibrosis strength and fast-growing newer medicines, but $502M of Crinetics acquisition costs cut GAAP profit to $654M.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.56",
+      "note": "vs $4.20 a year ago"
+    },
+    {
+      "label": "Cystic fibrosis products",
+      "value": "$3.27B",
+      "note": "+8% YoY, 95% of revenue"
+    },
+    {
+      "label": "Non-GAAP net income",
+      "value": "$1.21B",
+      "note": "vs GAAP net income of $654M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cystic fibrosis products",
+      "amountM": 3273,
+      "note": "CF medicines: TRIKAFTA/KAFTRIO $2,437M, ALYFTREK $706M and other CF products $131M \u2014 up 8% YoY.",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Other products",
+      "amountM": 168,
+      "note": "CASGEVY (gene therapy) $99M, JOURNAVX (pain) $58M and PALSONIFY (from the Crinetics acquisition) $10M \u2014 small but growing fast.",
+      "yoy": "+359%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3441,
+    "costOfRevenueM": 526,
+    "grossProfitM": 2915,
+    "opex": [
+      {
+        "name": "Research & development and acquired IPR&D",
+        "amountM": 1361,
+        "note": "Research spending of $1,321M plus $41M of acquired in-process R&D. GAAP R&D includes $282M of Crinetics acquisition-related compensation."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 841,
+        "note": "Selling and running the company \u2014 includes $220M of Crinetics acquisition-related costs, and is net of a $4M gain from revaluing contingent consideration (reported combined figure $841M in whole $M)."
+      }
+    ],
+    "operatingIncomeM": 713,
+    "otherIncomeM": 71,
+    "taxM": 130,
+    "netIncomeM": 654
+  },
+  "otherDetail": "Interest income $118M, less interest expense $36M and other expense $12M \u2014 $71M net in whole-$M figures (the release reports $70.5M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/ex-991_q32026.htm"
+    }
+  ],
+  "oneTimers": [
+    "About $502M of this quarter's GAAP expenses were Crinetics Pharmaceuticals acquisition-related costs \u2014 $282M in research & development and $220M in selling, general & administrative, mostly compensation for cash-settled Crinetics equity awards plus deal costs. Excluding these and other non-GAAP items, non-GAAP net income was $1,214M ($4.76 per share) versus GAAP net income of $654M ($2.56 per share), and non-GAAP operating income was $1,412M versus GAAP $713M."
+  ],
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "The base kept growing",
+      "text": "Revenue rose 12% to $3.44B. CF products grew 8% to $3.27B, led by ALYFTREK at $706M, and Vertex raised full-year 2026 revenue guidance to $13.15B\u2013$13.25B."
+    },
+    {
+      "stat": "$168M",
+      "statColor": "#7a68c4",
+      "title": "Diversification is showing up",
+      "text": "Non-CF products \u2014 CASGEVY $99M, JOURNAVX $58M and new PALSONIFY $10M \u2014 brought in $168M, more than four times a year ago, as Vertex adds endocrine and (soon) kidney franchises."
+    },
+    {
+      "stat": "$654M",
+      "statColor": "#b8443c",
+      "title": "Profit fell on deal costs",
+      "text": "GAAP net income dropped from $1,083M to $654M almost entirely because of $502M of Crinetics acquisition costs. Cash, cash equivalents and marketable securities were $9.8B after paying for the deal."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Cystic fibrosis products",
+      "amount": 95.12
+    },
+    {
+      "label": "Other products",
+      "amount": 4.88
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -15.29
+    },
+    {
+      "label": "R&D",
+      "amount": -39.55
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.44
+    },
+    {
+      "label": "Other income",
+      "amount": 2.06
+    },
+    {
+      "label": "Tax",
+      "amount": -3.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.01
+    }
+  ]
+}

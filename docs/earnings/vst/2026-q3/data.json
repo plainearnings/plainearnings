@@ -1,0 +1,141 @@
+{
+  "ticker": "VST",
+  "company": "Vistra",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-06",
+  "revenueYoY": "+28%",
+  "verdict": "Vistra's profit nearly doubled to $1.1B in a record-hot summer that lifted power prices \u2014 helped by $559M of paper gains on hedges for future years.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "Revenue $6,347M, vs $4,971M a year ago"
+    },
+    {
+      "label": "Net income (GAAP)",
+      "value": "$1,140M",
+      "note": "vs $652M a year ago"
+    },
+    {
+      "label": "Ongoing Adj. EBITDA",
+      "value": "$2,378M",
+      "note": "up more than 50% YoY"
+    },
+    {
+      "label": "2027 Adj. EBITDA guidance",
+      "value": "$7.7\u20138.5B",
+      "note": "initiated with this report"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Generation & retail power (combined)",
+      "amountM": 6347,
+      "yoy": "+28%",
+      "note": "All of Vistra's electricity generation and retail sales, combined \u2014 Vistra's earnings release does not split revenue by segment (its segment profit split is in the takeaways below); the revenue split by Retail, Texas, East and West arrives with the Form 10-Q."
+    }
+  ],
+  "flow": {
+    "revenueM": 6347,
+    "costOfRevenueM": 2530,
+    "grossProfitM": 3817,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 711,
+        "note": "Spreading the cost of power plants and nuclear fuel over their lives \u2014 up with the plants acquired from Lotus."
+      },
+      {
+        "name": "Operating costs",
+        "amountM": 683,
+        "note": "Running the generation fleet and retail business day to day, excluding fuel."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 448,
+        "note": "Selling power to retail customers and running the company."
+      },
+      {
+        "name": "Impairment of long-lived assets",
+        "amountM": 269,
+        "note": "Write-down of long-lived assets, including the partial impairment of the Moss Landing 350 battery facility."
+      }
+    ],
+    "operatingIncomeM": 1706,
+    "otherIncomeM": -210,
+    "taxM": 356,
+    "netIncomeM": 1140
+  },
+  "otherDetail": "Other income of $44M, less $254M of interest expense and related charges.",
+  "oneTimers": [
+    "$559M of unrealized gains on hedges expected to settle in future years sits inside GAAP net income \u2014 paper profit that flatters the headline. Vistra strips unrealized hedge moves out of its adjusted EBITDA.",
+    "$269M impairment of long-lived assets, including the partial impairment of the Moss Landing 350 battery facility in California."
+  ],
+  "footerNote": "Segment revenue by Retail/Texas/East/West is disclosed in Vistra's Form 10-Q, which had not been filed as of Nov 7, 2026; the release reports segment Adjusted EBITDA (Retail $98M, Texas $1,227M, East $979M, West $76M, Corporate & other \u2212$2M, Asset Closure \u2212$18M) but not segment revenue, so revenue is shown combined. Net income of $1,140M is before $48M of preferred-stock dividends ($1,092M attributable to common stock).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2,378M",
+      "statColor": "#3d7bc8",
+      "title": "Underlying profit jumped 50%",
+      "text": "Ongoing Operations Adjusted EBITDA rose more than 50% to $2,378M \u2014 Texas contributed $1,227M and the East $979M \u2014 on higher energy and capacity prices, the Lotus plants, and record summer demand in ERCOT and PJM."
+    },
+    {
+      "stat": "~95%",
+      "statColor": "#3e8e5a",
+      "title": "The fleet showed up in the heat",
+      "text": "In one of the hottest third quarters on record, Vistra's fleet ran at nearly 95% commercial availability \u2014 exactly when power is worth the most."
+    },
+    {
+      "stat": "5,500 MW",
+      "statColor": "#5b6b7c",
+      "title": "Still buying growth",
+      "text": "In October Vistra closed the Cogentrix acquisition \u2014 about 5,500 MW of gas generation \u2014 and authorized another $1.5B of share buybacks, taking remaining authorization to about $2.5B."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Generation & retail power (combined)",
+      "amount": 100.0
+    },
+    {
+      "label": "Fuel & purchased power",
+      "amount": -39.86
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -11.2
+    },
+    {
+      "label": "Operating costs",
+      "amount": -10.76
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -7.06
+    },
+    {
+      "label": "Impairment of long-lived assets",
+      "amount": -4.24
+    },
+    {
+      "label": "Other income & interest, net",
+      "amount": -3.31
+    },
+    {
+      "label": "Tax",
+      "amount": -5.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.96
+    }
+  ]
+}

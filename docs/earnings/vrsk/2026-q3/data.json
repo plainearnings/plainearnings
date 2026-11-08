@@ -1,0 +1,131 @@
+{
+  "ticker": "VRSK",
+  "company": "Verisk Analytics",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Verisk grew revenue 5.3% to $809M on price increases across underwriting and claims, but a $17.5M investment loss and higher interest costs trimmed net income to $219M.",
+  "revenueYoY": "+5.3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$809M",
+      "note": "+5.3% YoY; +7.4% on an organic constant-currency basis"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.70",
+      "note": "+5.6% YoY \u2014 buybacks shrank the share count"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$459M",
+      "note": "+7.0% YoY; 56.7% margin"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$200M",
+      "note": "-40.5% YoY on collection timing and higher interest payments"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Underwriting",
+      "amountM": 568,
+      "yoy": "+4.8%",
+      "note": "Data, models and analytics insurers use to price and select risk \u2014 forms, rules and loss costs, plus catastrophe and risk solutions. Up 7.7% on an organic constant-currency basis."
+    },
+    {
+      "name": "Claims",
+      "amountM": 241,
+      "yoy": "+6.6%",
+      "note": "Tools that help insurers handle claims \u2014 anti-fraud analytics, property estimating and restoration solutions."
+    }
+  ],
+  "flow": {
+    "revenueM": 809,
+    "costOfRevenueM": 242,
+    "grossProfitM": 567,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 118,
+        "note": "Selling, general and administrative costs of running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 84,
+        "note": "Depreciation of fixed assets ($70M) plus amortization of intangible assets from acquisitions ($14M)."
+      }
+    ],
+    "operatingIncomeM": 365,
+    "otherIncomeM": -70,
+    "taxM": 76,
+    "netIncomeM": 219
+  },
+  "otherDetail": "A $17.5M investment loss and $53.0M of net interest expense.",
+  "follow100": [
+    {
+      "label": "Underwriting",
+      "amount": 70.21
+    },
+    {
+      "label": "Claims",
+      "amount": 29.79
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.91
+    },
+    {
+      "label": "SG&A",
+      "amount": -14.59
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -10.38
+    },
+    {
+      "label": "Other expense",
+      "amount": -8.65
+    },
+    {
+      "label": "Tax",
+      "amount": -9.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.07
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+7.4%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying growth is faster than it looks",
+      "text": "Reported revenue rose 5.3%, but on an organic constant-currency basis \u2014 stripping out currency and portfolio changes \u2014 growth was 7.4%, with subscription revenue up 8.2%."
+    },
+    {
+      "stat": "$1.96",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS jumped 14%",
+      "text": "Diluted adjusted EPS rose 14.0% to $1.96, and GAAP EPS rose 5.6% to $1.70 \u2014 helped by buybacks, including a $100M accelerated repurchase in the quarter."
+    },
+    {
+      "stat": "-2.8%",
+      "statColor": "#cf5f4e",
+      "title": "Investments and interest cut net income",
+      "text": "Net income slipped 2.8% to $219M, mainly on a $17.5M investment loss and higher net interest expense, partly offset by operating leverage."
+    }
+  ],
+  "oneTimers": [
+    "A $17.5M investment loss (mostly a $16.7M loss on cost-based investments), versus a $1.6M loss a year ago \u2014 the main reason net income fell despite revenue and EBITDA growth."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/ex_1007822.htm"
+    }
+  ]
+}

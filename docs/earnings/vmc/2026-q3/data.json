@@ -1,0 +1,148 @@
+{
+  "ticker": "VMC",
+  "company": "Vulcan Materials",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "-5%",
+  "verdict": "Vulcan's revenue slipped 5% to $2.2B on lower shipments, but aggregates prices rose 4% and margins held \u2014 profit was $362M, close to a year ago.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-5%",
+      "note": "Revenue $2,185M, vs $2,292M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.80",
+      "note": "$2.81 from continuing operations; adjusted EPS was $2.83"
+    },
+    {
+      "label": "Aggregates gross profit",
+      "value": "$593M",
+      "note": "$9.46 per ton, same as a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$707M",
+      "note": "32.3% margin, vs 32.1% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Aggregates",
+      "amountM": 1711,
+      "yoy": "+2%",
+      "note": "Crushed stone, sand and gravel \u2014 the core business. Segment sales were $1,823M; this figure removes $112M sold to Vulcan's own asphalt and concrete plants. Shipments were 62.7M tons and gross profit was $593M."
+    },
+    {
+      "name": "Asphalt",
+      "amountM": 381,
+      "yoy": "-8%",
+      "note": "Asphalt mix sold to road builders \u2014 revenue fell 8% with softer volumes; gross profit was $64M."
+    },
+    {
+      "name": "Concrete",
+      "amountM": 92,
+      "yoy": "-61%",
+      "note": "Ready-mixed concrete \u2014 revenue fell 61% to $92M as the segment continued to shrink; gross profit was $8M."
+    }
+  ],
+  "flow": {
+    "revenueM": 2184,
+    "costOfRevenueM": 1519,
+    "grossProfitM": 665,
+    "opex": [
+      {
+        "name": "Selling, administrative & general",
+        "amountM": 137,
+        "note": "Selling the product and running the company \u2014 down 6% from a year ago, 6.3% of revenue."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 4,
+        "note": "Other operating items, net of a small gain on sales of property and businesses."
+      }
+    ],
+    "operatingIncomeM": 524,
+    "otherIncomeM": -53,
+    "equityM": -2,
+    "taxM": 107,
+    "netIncomeM": 362
+  },
+  "otherDetail": "Interest expense of $51M plus $2M of other nonoperating expense. A further $2M (the equityM line) covers the loss on discontinued operations and the share attributable to noncontrolling interests, so the flow lands on the $362M attributable to Vulcan.",
+  "footerNote": "Vulcan reports in tenths of millions; whole-million figures here are rounded, and the flow uses them consistently. Segment revenue for Aggregates is shown net of $112M of intersegment sales eliminated in consolidation.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126041095/ef20084525_ex99-1.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026068102/vmc-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$22.84",
+      "statColor": "#3d7bc8",
+      "title": "Pricing did the work",
+      "text": "Freight-adjusted aggregates prices rose 4% to $22.84 a ton and gross profit held at $9.46 a ton even as shipments slipped 3% to 62.7M tons \u2014 pricing and cost discipline protected the margin."
+    },
+    {
+      "stat": "-61%",
+      "statColor": "#5b6b7c",
+      "title": "Concrete is shrinking away",
+      "text": "Concrete revenue fell 61% to $92M and asphalt fell 8% to $381M \u2014 Vulcan is increasingly an aggregates-only story, which is where its pricing power lives."
+    },
+    {
+      "stat": "$2.4B",
+      "statColor": "#3e8e5a",
+      "title": "Full-year target held",
+      "text": "Vulcan expects about $2.4B of adjusted EBITDA for 2026 and targets earnings growth again in 2027, while spending on aggregates-led acquisitions in growth markets."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Aggregates",
+      "amount": 78.34
+    },
+    {
+      "label": "Asphalt",
+      "amount": 17.45
+    },
+    {
+      "label": "Concrete",
+      "amount": 4.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -69.55
+    },
+    {
+      "label": "Selling, administrative & general",
+      "amount": -6.27
+    },
+    {
+      "label": "Other operating expense, net",
+      "amount": -0.18
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -2.43
+    },
+    {
+      "label": "Discontinued operations & noncontrolling interests",
+      "amount": -0.09
+    },
+    {
+      "label": "Tax",
+      "amount": -4.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.58
+    }
+  ]
+}

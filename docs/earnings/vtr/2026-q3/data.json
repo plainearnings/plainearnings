@@ -1,0 +1,176 @@
+{
+  "ticker": "VTR",
+  "company": "Ventas",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "verdict": "Ventas grew revenue 23% to $1.83B as its senior-housing operating portfolio surged, and it raised full-year guidance after closing $5.2B of senior-housing investments so far this year.",
+  "revenueYoY": "+23%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.83B",
+      "note": "+23% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.13",
+      "note": "attributable net income of $65M"
+    },
+    {
+      "label": "Normalized FFO per share",
+      "value": "$0.99",
+      "note": "+10% YoY \u2014 the cash measure REIT investors watch"
+    },
+    {
+      "label": "SHOP same-store cash NOI",
+      "value": "+16%",
+      "note": "senior housing operating portfolio, YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Resident fees & services",
+      "amountM": 1451,
+      "yoy": "+33%",
+      "note": "Rent and care fees from senior-housing communities Ventas operates itself (the SHOP portfolio) \u2014 now by far the biggest revenue line, boosted by acquisitions."
+    },
+    {
+      "name": "Rental income",
+      "amountM": 363,
+      "yoy": "-6%",
+      "note": "Rent from properties leased to tenants: outpatient medical and research buildings ($233M) and triple-net leased properties ($129M), where the tenant pays most property costs."
+    },
+    {
+      "name": "Income from loans & investments",
+      "amountM": 12,
+      "yoy": "+120%",
+      "note": "Income from loans and other investments."
+    },
+    {
+      "name": "Third-party fees & other",
+      "amountM": 6,
+      "yoy": "-30%",
+      "note": "Third-party capital management revenues ($4M) plus interest and other income ($2M)."
+    }
+  ],
+  "flow": {
+    "revenueM": 1832,
+    "costOfRevenueM": 1105,
+    "grossProfitM": 727,
+    "opex": [
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 446,
+        "note": "Spreading the cost of the buildings over their lives \u2014 a large non-cash charge that FFO adds back."
+      },
+      {
+        "name": "G&A & professional fees",
+        "amountM": 48,
+        "note": "Running the company and professional fees."
+      },
+      {
+        "name": "Other expense",
+        "amountM": 10,
+        "note": "Other operating costs."
+      },
+      {
+        "name": "Transaction & restructuring",
+        "amountM": 8,
+        "note": "Transaction, transition and restructuring costs, mostly deal-related."
+      },
+      {
+        "name": "Third-party capital mgmt",
+        "amountM": 2,
+        "note": "Costs of managing capital for third parties."
+      }
+    ],
+    "operatingIncomeM": 213,
+    "otherIncomeM": -165,
+    "taxM": -19,
+    "netIncomeM": 67
+  },
+  "otherDetail": "Interest expense of $161M and a $5M loss from unconsolidated entities, partly offset by a $1M gain on real estate dispositions.",
+  "follow100": [
+    {
+      "label": "Resident fees & services",
+      "amount": 79.2
+    },
+    {
+      "label": "Rental income",
+      "amount": 19.81
+    },
+    {
+      "label": "Income from loans & investments",
+      "amount": 0.66
+    },
+    {
+      "label": "Third-party fees & other",
+      "amount": 0.33
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.32
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -24.34
+    },
+    {
+      "label": "G&A & professional fees",
+      "amount": -2.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.55
+    },
+    {
+      "label": "Transaction & restructuring",
+      "amount": -0.44
+    },
+    {
+      "label": "Third-party capital mgmt",
+      "amount": -0.11
+    },
+    {
+      "label": "Interest & other",
+      "amount": -9.01
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.66
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Senior housing is powering growth",
+      "text": "Total company net operating income rose 18% YoY, led by the senior-housing operating portfolio, where same-store cash NOI grew 16% \u2014 17% in the U.S."
+    },
+    {
+      "stat": "$5.2B",
+      "statColor": "#3e8e5a",
+      "title": "Buying into the demographic wave",
+      "text": "Ventas has closed $5.2B of senior-housing investments so far in 2026 and raised full-year guidance again, betting on the wave of Baby Boomers turning 80."
+    },
+    {
+      "stat": "$0.99",
+      "statColor": "#5b6b7c",
+      "title": "Cash earnings vs accounting profit",
+      "text": "GAAP net income was just $67M after $446M of depreciation and $161M of interest \u2014 but Normalized FFO, the cash-style measure, was $514M, or $0.99 per share, up 10%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/740260/000074026026000026/q32026earningsrelease.htm"
+    }
+  ],
+  "footerNote": "Direct costs are property-level operating expenses ($1,105M), mostly the cost of staffing and running the senior-housing communities. Interest expense sits below operating profit, following the REIT pattern used on this site. Net income attributable to common stockholders was $65M; the tax line is a $19M benefit."
+}
