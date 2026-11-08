@@ -1,0 +1,175 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-30",
+  "verdict": "Coinbase's revenue jumped 55% from a year ago to $1.87B as crypto trading rebounded, and net income rose nearly six-fold to $433M \u2014 a $424M paper gain on the crypto it holds as an investment more than covered roughly $400M of paper losses on its other investments.",
+  "revenueYoY": "+55%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+55%",
+      "note": "vs a year ago \u2014 crypto markets rebounded"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.50",
+      "note": "diluted"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$801M",
+      "note": "43% of revenue"
+    },
+    {
+      "label": "$USD resources",
+      "value": "$11.9B",
+      "note": "cash, USDC and investments \u2014 up 28% in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 1046.26,
+      "yoy": "+83%",
+      "note": "Fees from crypto trading \u2014 consumer $844M, institutional $135M, other $68M. Trading rebounded as crypto prices rose; revenue was up 37% from Q2."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 746.724,
+      "yoy": "+34%",
+      "note": "Steadier income: stablecoin revenue $355M, blockchain rewards $185M, interest and finance fees $65M, and other services $143M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 75.709,
+      "yoy": "-1%",
+      "note": "Interest earned on Coinbase's own corporate cash."
+    }
+  ],
+  "flow": {
+    "revenueM": 1868.693,
+    "costOfRevenueM": 253.318,
+    "grossProfitM": 1615.375,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 430.585,
+        "note": "Building the platform \u2014 engineering and product, now including Deribit, the options exchange Coinbase bought in August 2025."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 418.446,
+        "note": "Running the company \u2014 legal, compliance and the back office."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 260.272,
+        "note": "Advertising, USDC rewards and winning customers."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 25.54,
+        "note": "$61M of other operating costs \u2014 mostly customer reimbursements and legal costs from the May 2025 data-theft incident \u2014 partly offset by a $36M paper gain on crypto Coinbase holds to run its business."
+      }
+    ],
+    "operatingIncomeM": 480.532,
+    "otherIncomeM": 21.611,
+    "taxM": 69.591,
+    "netIncomeM": 432.552
+  },
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 55.99
+    },
+    {
+      "label": "Subscriptions & services",
+      "amount": 39.96
+    },
+    {
+      "label": "Other revenue",
+      "amount": 4.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.56
+    },
+    {
+      "label": "Technology & development",
+      "amount": -23.04
+    },
+    {
+      "label": "G&A",
+      "amount": -22.39
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -13.93
+    },
+    {
+      "label": "Other operating expense, net",
+      "amount": -1.37
+    },
+    {
+      "label": "Crypto investment gains",
+      "amount": 22.68
+    },
+    {
+      "label": "Other expense",
+      "amount": -20.36
+    },
+    {
+      "label": "Interest expense",
+      "amount": -1.17
+    },
+    {
+      "label": "Tax",
+      "amount": -3.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.15
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, paper gains on the crypto it holds as an investment added $22.68, while paper losses on its strategic investments took $20.36 back out \u2014 the two nearly cancelled. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+83%",
+      "statColor": "#3d7bc8",
+      "title": "Trading roared back",
+      "text": "Transaction revenue rose 83% year over year to $1.05B \u2014 consumer trading alone was $844M \u2014 as crypto prices and volumes recovered from a soft second quarter."
+    },
+    {
+      "stat": "$424M",
+      "statColor": "#3e8e5a",
+      "title": "Paper gains beat paper losses",
+      "text": "The crypto Coinbase holds as an investment gained $424M on paper, while its strategic investments lost about $400M. Adjusted net income was $421M \u2014 close to the reported $433M, because the two swings nearly cancelled."
+    },
+    {
+      "stat": "$61M",
+      "statColor": "#d96a57",
+      "title": "Data-theft costs lingered",
+      "text": "Other operating costs included $61M tied to the May 2025 data-theft incident \u2014 voluntary customer reimbursements and legal costs. Coinbase also closed its Deribit acquisition in August, adding costs across its main expense lines."
+    }
+  ],
+  "oneTimers": [
+    "A $424M mark-to-market gain on crypto assets held for investment \u2014 non-cash, and it reverses if crypto prices fall.",
+    "About $400M of net losses on strategic and other investments, inside the $381M of other expense, net.",
+    "$61M of costs from the May 2025 data-theft incident \u2014 customer reimbursements and legal bills \u2014 inside other operating expense."
+  ],
+  "otherDetail": "A $424M paper gain on crypto Coinbase holds as an investment, less $381M of other expense \u2014 mostly losses on strategic investments \u2014 and $22M of interest expense: a net $22M.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. 'Other operating expense, net' of $26M nets a $36M gain on crypto held for operations against $61M of other operating costs, most of it data-theft incident costs. Figures are from Coinbase's Q3 2025 shareholder letter (Exhibit 99.1) and Form 10-Q.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000207/q325shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000208/coin-20250930.htm"
+    }
+  ]
+}

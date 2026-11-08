@@ -1,0 +1,138 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-30",
+  "verdict": "Reddit's revenue grew 68% to $585M as ad sales jumped 74% \u2014 and with costs growing far more slowly, net income rose more than five-fold to $163M, 28 cents of every revenue dollar.",
+  "revenueYoY": "+68%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+68%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.80",
+      "note": "diluted \u2014 vs $0.16 a year ago"
+    },
+    {
+      "label": "Daily users",
+      "value": "116.0M",
+      "note": "DAUq, +19% YoY"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$236M",
+      "note": "40% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 549.342,
+      "yoy": "+74%",
+      "note": "Ads shown across Reddit's communities \u2014 powered by more users, more time on site, and better ad targeting."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 35.569,
+      "yoy": "+7%",
+      "note": "Mostly data licensing \u2014 deals that let AI companies train on Reddit's public posts \u2014 plus Reddit Premium subscriptions."
+    }
+  ],
+  "flow": {
+    "revenueM": 584.911,
+    "costOfRevenueM": 52.509,
+    "grossProfitM": 532.402,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 196.379,
+        "note": "Building the product and the ad platform \u2014 up 18% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 128.707,
+        "note": "Winning advertisers and users \u2014 up 73% YoY, the fastest-growing cost line."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 68.774,
+        "note": "Running the company \u2014 up 5% YoY."
+      }
+    ],
+    "operatingIncomeM": 138.542,
+    "otherIncomeM": 24.121,
+    "taxM": 0,
+    "netIncomeM": 162.663
+  },
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 93.92
+    },
+    {
+      "label": "Other revenue",
+      "amount": 6.08
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -8.98
+    },
+    {
+      "label": "R&D",
+      "amount": -33.57
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -22.0
+    },
+    {
+      "label": "G&A",
+      "amount": -11.76
+    },
+    {
+      "label": "Other income",
+      "amount": 4.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.81
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+68%",
+      "statColor": "#3d7bc8",
+      "title": "Growth stayed hot",
+      "text": "Revenue growth hit 68%, powered by advertising (+74%) as daily users reached 116.0M, up 19% \u2014 Reddit is still getting bigger and better at selling ads against its communities."
+    },
+    {
+      "stat": "$163M",
+      "statColor": "#3e8e5a",
+      "title": "Profit rose five-fold",
+      "text": "Net income rose from $30M a year ago to $163M \u2014 28% of revenue. Operating income was $139M, versus just $7M a year ago, because costs grew far more slowly than revenue."
+    },
+    {
+      "stat": "$183M",
+      "statColor": "#3d7bc8",
+      "title": "Cash flow followed",
+      "text": "Free cash flow was $183M \u2014 31% of revenue \u2014 on operating cash flow of $185M."
+    }
+  ],
+  "otherDetail": "Other income of $22M, net \u2014 mostly interest earned on Reddit's cash and marketable securities \u2014 plus a small $2M tax benefit: Reddit's tax line was slightly negative this quarter, so it is counted here and the tax step reads $0.",
+  "footerNote": "Figures are from Reddit's Q3 2025 earnings release (Exhibit 99.1) and Form 10-Q; the advertising/other revenue split is from the 10-Q. Reddit's tax line was a $2M benefit this quarter; it is folded into other income so the chart's tax step reads $0.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000225/earningspressreleaseq325.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000227/rddt-20250930.htm"
+    }
+  ]
+}
