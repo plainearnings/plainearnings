@@ -1,0 +1,184 @@
+{
+  "ticker": "UNP",
+  "company": "Union Pacific",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+15%",
+  "verdict": "Union Pacific hauled 6% more carloads and turned higher fuel surcharges and core pricing into record revenue of $7.2B and a 16% jump in profit \u2014 volume, not just price, did the work.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+15%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.49",
+      "note": "vs $3.01 a year ago"
+    },
+    {
+      "label": "Operating ratio",
+      "value": "59.1%",
+      "note": "costs per $100 of revenue; improved 0.1 pts YoY"
+    },
+    {
+      "label": "Carload volume",
+      "value": "+6%",
+      "note": "vs a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Bulk",
+      "amountM": 2116,
+      "note": "Grain, fertilizer, food and coal \u2014 farm and energy freight, up 10% YoY.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Industrial",
+      "amountM": 2509,
+      "note": "Chemicals, metals, forest products and energy markets \u2014 factory and raw-material freight, up 14% YoY.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Premium",
+      "amountM": 2188,
+      "note": "Intermodal containers and autos \u2014 up 21% YoY, with intermodal revenue alone up 27%.",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 384,
+      "note": "Non-freight revenue, such as subsidiary and service income \u2014 up 21% YoY.",
+      "yoy": "+21%"
+    }
+  ],
+  "flow": {
+    "revenueM": 7197,
+    "costOfRevenueM": 0,
+    "grossProfitM": 7197,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 1264,
+        "note": "Pay and benefits for the workforce \u2014 up 4% YoY."
+      },
+      {
+        "name": "Fuel",
+        "amountM": 1040,
+        "note": "Diesel for locomotives \u2014 up 69% YoY on higher fuel prices, largely recovered through surcharges."
+      },
+      {
+        "name": "Purchased services & materials",
+        "amountM": 746,
+        "note": "Outside services and materials bought in \u2014 up 9% YoY."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 643,
+        "note": "Wear and tear on track, locomotives and cars \u2014 up 4% YoY."
+      },
+      {
+        "name": "Equipment & other rents",
+        "amountM": 206,
+        "note": "Renting cars and equipment from others \u2014 down 3% YoY."
+      },
+      {
+        "name": "Other",
+        "amountM": 355,
+        "note": "Other operating costs, including casualty and taxes \u2014 up 1% YoY."
+      }
+    ],
+    "operatingIncomeM": 2943,
+    "otherIncomeM": -217,
+    "taxM": 650,
+    "netIncomeM": 2076
+  },
+  "otherDetail": "Other income of $95M, less $312M of interest expense, for a net cost of $217M.",
+  "oneTimers": [
+    "GAAP results include $22M of acquisition-related expense for the planned Norfolk Southern merger \u2014 non-deductible for tax and worth $0.04 of EPS. Excluding it, adjusted net income was $2,098M and adjusted EPS was $3.53."
+  ],
+  "footerNote": "Union Pacific does not split out a cost of revenue \u2014 every operating expense is a running cost, so gross profit equals revenue in this view.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Record revenue, real volume",
+      "text": "Revenue hit a record $7.2B, up 15%. Carloads rose 6% and pricing rose too \u2014 only part of the jump was fuel surcharges passed through to customers."
+    },
+    {
+      "stat": "59.1%",
+      "statColor": "#3e8e5a",
+      "title": "Costs stayed controlled",
+      "text": "The operating ratio \u2014 operating costs per $100 of revenue \u2014 was 59.1%, a touch better than a year ago, even though fuel costs jumped 69%."
+    },
+    {
+      "stat": "$3.49",
+      "statColor": "#5b6b7c",
+      "title": "Profit per share up 16%",
+      "text": "Net income rose 16% to $2.1B and EPS to $3.49. Adjusted EPS was $3.53 after adding back $22M of Norfolk Southern merger costs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Bulk",
+      "amount": 29.4
+    },
+    {
+      "label": "Industrial",
+      "amount": 34.86
+    },
+    {
+      "label": "Premium",
+      "amount": 30.4
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.34
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -17.56
+    },
+    {
+      "label": "Fuel",
+      "amount": -14.45
+    },
+    {
+      "label": "Purchased services",
+      "amount": -10.37
+    },
+    {
+      "label": "Depreciation",
+      "amount": -8.93
+    },
+    {
+      "label": "Equipment rents",
+      "amount": -2.86
+    },
+    {
+      "label": "Other operating costs",
+      "amount": -4.93
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -3.02
+    },
+    {
+      "label": "Tax",
+      "amount": -9.03
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.85
+    }
+  ]
+}

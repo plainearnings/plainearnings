@@ -1,0 +1,145 @@
+{
+  "ticker": "URI",
+  "company": "United Rentals",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+15.7%",
+  "verdict": "United Rentals rode booming specialty demand to record revenue of $4.9B, up 16%, and a 35% jump in earnings per share \u2014 a bigger fleet, used more of the time, at better margins.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+15.7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$14.77",
+      "note": "vs $10.91 a year ago"
+    },
+    {
+      "label": "Adj. EBITDA",
+      "value": "$2.33B",
+      "note": "47.6% of revenue"
+    },
+    {
+      "label": "Fleet productivity",
+      "value": "+6.5%",
+      "note": "rates, utilization and mix, YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "General Rentals",
+      "amountM": 3065,
+      "note": "Everyday construction and industrial equipment rental \u2014 the core fleet business, up 8.5% YoY.",
+      "yoy": "+8.5%"
+    },
+    {
+      "name": "Specialty",
+      "amountM": 1828,
+      "note": "Trench safety, power, climate and fluid solutions \u2014 specialty revenue surged 30.3% YoY on a bigger fleet and strong demand.",
+      "yoy": "+30.3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4893,
+    "costOfRevenueM": 2847,
+    "grossProfitM": 2046,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 511,
+        "note": "Selling and running the branch network and head office."
+      },
+      {
+        "name": "Non-rental depreciation",
+        "amountM": 111,
+        "note": "Depreciation and amortization on everything except the rental fleet (fleet depreciation sits in cost of revenue)."
+      },
+      {
+        "name": "Restructuring charge",
+        "amountM": 15,
+        "note": "A one-off restructuring charge taken this quarter."
+      }
+    ],
+    "operatingIncomeM": 1409,
+    "otherIncomeM": -178,
+    "taxM": 311,
+    "netIncomeM": 920
+  },
+  "otherDetail": "Interest expense, net of $184M, partly offset by $6M of other income, for a net cost of $178M.",
+  "oneTimers": [
+    "The quarter includes a $15M restructuring charge in operating expenses. Adjusted EPS was $15.55 vs $14.77 GAAP."
+  ],
+  "takeaways": [
+    {
+      "stat": "+30.3%",
+      "statColor": "#3d7bc8",
+      "title": "Specialty is the growth engine",
+      "text": "Specialty rentals \u2014 trench, power, climate and fluids \u2014 grew 30.3% to $1.83B and now bring in 37% of revenue, at a richer 47.6% rentals gross margin."
+    },
+    {
+      "stat": "$920M",
+      "statColor": "#3e8e5a",
+      "title": "Record profit",
+      "text": "Net income was a record $920M, an 18.8% margin, and adjusted EBITDA reached $2.33B \u2014 47.6 cents of every revenue dollar before interest, tax and depreciation."
+    },
+    {
+      "stat": "$14.77",
+      "statColor": "#5b6b7c",
+      "title": "EPS up 35%",
+      "text": "GAAP EPS rose to $14.77 from $10.91, helped by growth and by buybacks \u2014 the company returned $1.5B to shareholders in the first nine months."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000036/uri-9302026xex991.htm"
+    },
+    {
+      "label": "Form 10-Q \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000034/uri-20260930.htm"
+    }
+  ],
+  "follow100Note": "The breakdown rows add to $100.01 due to rounding.",
+  "follow100": [
+    {
+      "label": "General Rentals",
+      "amount": 62.64
+    },
+    {
+      "label": "Specialty",
+      "amount": 37.36
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.19
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.44
+    },
+    {
+      "label": "Non-rental depreciation",
+      "amount": -2.27
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.31
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -3.64
+    },
+    {
+      "label": "Tax",
+      "amount": -6.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.8
+    }
+  ]
+}

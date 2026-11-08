@@ -1,0 +1,187 @@
+{
+  "ticker": "UPS",
+  "company": "United Parcel Service",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-27",
+  "revenueYoY": "+6.7%",
+  "verdict": "UPS grew revenue 6.7% to $22.9B by charging more per package, but a $182M goodwill impairment and transformation costs held GAAP profit down \u2014 and management still raised its full-year outlook.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6.7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.37",
+      "note": "vs $1.55 a year ago"
+    },
+    {
+      "label": "Adj. EPS",
+      "value": "$1.69",
+      "note": "non-GAAP; vs $1.74 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "7.6%",
+      "note": "GAAP; 9.0% adjusted"
+    }
+  ],
+  "segments": [
+    {
+      "name": "U.S. Domestic",
+      "amountM": 14865,
+      "note": "Packages inside the U.S. \u2014 revenue per piece rose 6.1%, so growth came from price more than volume.",
+      "yoy": "+4.5%"
+    },
+    {
+      "name": "International",
+      "amountM": 5007,
+      "note": "Cross-border packages \u2014 revenue per piece rose 15.0%, the pricing star of the quarter, and margins held at 14.9%.",
+      "yoy": "+7.1%"
+    },
+    {
+      "name": "Supply Chain Solutions",
+      "amountM": 2981,
+      "note": "Forwarding, warehousing and healthcare logistics \u2014 up 18.2%, the fastest-growing piece, though a goodwill impairment cut its profit to $92M.",
+      "yoy": "+18.2%"
+    }
+  ],
+  "flow": {
+    "revenueM": 22853,
+    "costOfRevenueM": 0,
+    "grossProfitM": 22853,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 11807,
+        "note": "Pay and benefits \u2014 the biggest cost by far, and down from $12,118M a year ago as the network is automated and resized."
+      },
+      {
+        "name": "Purchased transportation",
+        "amountM": 3275,
+        "note": "Buying truck, air and rail capacity from others \u2014 up sharply from $2,463M a year ago."
+      },
+      {
+        "name": "Fuel",
+        "amountM": 1544,
+        "note": "Fuel for trucks and planes \u2014 up from $1,071M a year ago."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 965,
+        "note": "Wear and tear on planes, trucks, hubs and software."
+      },
+      {
+        "name": "Repairs & maintenance",
+        "amountM": 809,
+        "note": "Keeping the fleet and hubs running."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 2137,
+        "note": "Everything else it takes to run the network day to day."
+      },
+      {
+        "name": "Other occupancy",
+        "amountM": 572,
+        "note": "Rent and running costs of buildings and facilities."
+      }
+    ],
+    "operatingIncomeM": 1744,
+    "otherIncomeM": -173,
+    "taxM": 408,
+    "netIncomeM": 1163
+  },
+  "otherDetail": "Investment income and other of $116M, less $289M of interest expense, for a net cost of $173M.",
+  "oneTimers": [
+    "GAAP results include a net charge of $279M, or $0.32 per share: after-tax transformation strategy costs of $130M and a $182M goodwill impairment charge in Supply Chain Solutions, partly offset by a $33M gain on selling MD-11 aircraft assets. Adjusted EPS was $1.69 vs $1.37 GAAP."
+  ],
+  "footerNote": "UPS does not report a cost of revenue or gross profit \u2014 every operating expense is shown as a running cost, so gross profit equals revenue in this view. Expense lines are from the Q3 2026 Form 10-Q consolidated income statement.",
+  "takeaways": [
+    {
+      "stat": "+6.7%",
+      "statColor": "#3d7bc8",
+      "title": "Growth in every segment",
+      "text": "Revenue rose to $22.9B with all three segments growing \u2014 Supply Chain Solutions led at +18.2%, and U.S. and international pricing per piece rose 6.1% and 15.0%."
+    },
+    {
+      "stat": "$1.37",
+      "statColor": "#b8443c",
+      "title": "GAAP profit took one-off hits",
+      "text": "GAAP EPS fell to $1.37 from $1.55 as a $182M goodwill impairment and transformation costs landed in the quarter. Adjusted EPS was $1.69."
+    },
+    {
+      "stat": "~$92.6B",
+      "statColor": "#3e8e5a",
+      "title": "Guidance raised anyway",
+      "text": "Management raised full-year 2026 guidance to about $92.6B of revenue and roughly $7.28 of adjusted EPS, heading into the holiday peak with its most automated network ever."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026067381/exhibit991-earningspressre.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026070246/ups-20260930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "U.S. Domestic",
+      "amount": 65.05
+    },
+    {
+      "label": "International",
+      "amount": 21.91
+    },
+    {
+      "label": "Supply Chain Solutions",
+      "amount": 13.04
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -51.66
+    },
+    {
+      "label": "Purchased transportation",
+      "amount": -14.33
+    },
+    {
+      "label": "Fuel",
+      "amount": -6.76
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -4.22
+    },
+    {
+      "label": "Repairs & maintenance",
+      "amount": -3.54
+    },
+    {
+      "label": "Other expenses",
+      "amount": -9.35
+    },
+    {
+      "label": "Other occupancy",
+      "amount": -2.5
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -1.79
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.09
+    }
+  ]
+}

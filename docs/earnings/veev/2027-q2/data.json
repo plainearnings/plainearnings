@@ -1,0 +1,138 @@
+{
+  "ticker": "VEEV",
+  "company": "Veeva Systems",
+  "quarterLabel": "FY27 Q2",
+  "quarterSlug": "2027-q2",
+  "periodEnd": "2026-07-31",
+  "reportedDate": "2026-08-26",
+  "verdict": "Veeva grew revenue 18% to $928M as Vault CRM had its best quarter ever, and GAAP profit jumped 37% to $273M.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.66",
+      "note": "vs $1.19 a year ago"
+    },
+    {
+      "label": "Subscription revenue",
+      "value": "$767M",
+      "note": "+16% YoY, 83% of revenue"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$239M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription services",
+      "amountM": 767,
+      "note": "Cloud software subscriptions for life-sciences companies \u2014 up 16% YoY. Within it, R&D and Quality Solutions brought in $419M and Commercial Solutions $347M.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "Professional services",
+      "amountM": 161,
+      "note": "Consulting, implementation and other services \u2014 up 24% YoY.",
+      "yoy": "+24%"
+    }
+  ],
+  "flow": {
+    "revenueM": 928,
+    "costOfRevenueM": 232,
+    "grossProfitM": 696,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 223,
+        "note": "Building the Vault platform and new AI agents \u2014 up 16% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 127,
+        "note": "Selling subscriptions and services \u2014 up 16% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 71,
+        "note": "Running the company day to day \u2014 down from $96M a year ago, when it included a $31M litigation settlement charge."
+      }
+    ],
+    "operatingIncomeM": 275,
+    "otherIncomeM": 74,
+    "taxM": 76,
+    "netIncomeM": 273
+  },
+  "otherDetail": "Other income, net \u2014 mostly interest on Veeva's cash and short-term investments. The release reports $75M ($74.5M); shown as $74M so the figures, rounded to whole $M, balance exactly.",
+  "footerNote": "Veeva's fiscal Q3 (ended October 31, 2026) had not been reported as of November 7, 2026 \u2014 this is the latest reported quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260731xex991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Growth picked up",
+      "text": "Revenue rose 18% to $928M \u2014 subscription revenue up 16% to $767M and professional services up 24% to $161M. Veeva also raised its full-year outlook."
+    },
+    {
+      "stat": "$273M",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped 37%",
+      "text": "GAAP net income was $273M, up 37% from $200M a year ago, helped by last year's quarter carrying a $31M litigation charge in G&A. Non-GAAP net income was $387M."
+    },
+    {
+      "stat": "180+",
+      "statColor": "#7a68c4",
+      "title": "Vault CRM is winning",
+      "text": "More than 180 customers are live on Vault CRM, including five top-20 biopharmas, in what Veeva called its best CRM quarter ever \u2014 and its new AI agents are the next pitch."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription services",
+      "amount": 82.65
+    },
+    {
+      "label": "Professional services",
+      "amount": 17.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.0
+    },
+    {
+      "label": "R&D",
+      "amount": -24.03
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -13.69
+    },
+    {
+      "label": "G&A",
+      "amount": -7.65
+    },
+    {
+      "label": "Other income",
+      "amount": 7.97
+    },
+    {
+      "label": "Tax",
+      "amount": -8.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.42
+    }
+  ]
+}

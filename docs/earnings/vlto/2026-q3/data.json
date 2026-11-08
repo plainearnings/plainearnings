@@ -1,0 +1,138 @@
+{
+  "ticker": "VLTO",
+  "company": "Veralto",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+7.5%",
+  "verdict": "Veralto grew sales 7.5% to $1.5B, led by Water Quality, but GAAP operating margin fell as it spent on restructuring and new deals \u2014 a one-off tax benefit is what lifted the bottom line.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7.5%",
+      "note": "vs a year ago; core sales +5.1%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.03",
+      "note": "vs $0.95 a year ago"
+    },
+    {
+      "label": "Adj. EPS",
+      "value": "$1.18",
+      "note": "non-GAAP; +19% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$304M",
+      "note": "non-GAAP; operating cash flow was $323M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Water Quality",
+      "amountM": 939,
+      "note": "Water testing and treatment \u2014 Hach and ChemTreat. Core sales grew 6.4%, led by double-digit growth in water treatment; deals added the rest.",
+      "yoy": "+9.8%"
+    },
+    {
+      "name": "Product Quality & Innovation",
+      "amountM": 570,
+      "note": "Marking, coding and packaging design and inspection \u2014 Videojet and Esko. Core sales grew 3.2% as packaging demand picked up.",
+      "yoy": "+3.9%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1509,
+    "costOfRevenueM": 601,
+    "grossProfitM": 908,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 541,
+        "note": "Selling and running the company \u2014 up from $451M a year ago, including restructuring, deal and tax-indemnification items detailed below."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 69,
+        "note": "Developing new water and product-quality instruments and software."
+      }
+    ],
+    "operatingIncomeM": 298,
+    "otherIncomeM": -25,
+    "taxM": 20,
+    "netIncomeM": 253
+  },
+  "otherDetail": "Interest expense, net of $25M; other income was $0M this quarter.",
+  "oneTimers": [
+    "GAAP results include $22M of Cost Optimization Program restructuring costs and $10M of strategic-initiative costs, plus a $39M charge to write down a Danaher-era tax indemnification asset \u2014 largely offset in the tax line by a matching $39M reduction of the related tax liability, which is why tax was only $20M on $273M of pre-tax profit.",
+    "Adjusted figures also add back $17M of amortization of acquisition-related intangible assets. Adjusted EPS was $1.18 vs $1.03 GAAP, and adjusted operating margin was 25.6% vs 19.7% GAAP."
+  ],
+  "footerNote": "Veralto's fiscal third quarter ended October 2, 2026, the Friday nearest September 30. Segment sales dollars are from the Form 10-Q segment note; the earnings release reports segment growth rates only.",
+  "takeaways": [
+    {
+      "stat": "+9.8%",
+      "statColor": "#3d7bc8",
+      "title": "Water Quality leads",
+      "text": "Water Quality sales rose 9.8% to $939M \u2014 core growth of 6.4% plus acquisitions \u2014 as industrial customers, including data-center builders, spent more on water treatment and reuse."
+    },
+    {
+      "stat": "19.7%",
+      "statColor": "#b8443c",
+      "title": "GAAP margin compressed",
+      "text": "Operating margin fell to 19.7% from 23.2% as restructuring, deal costs and a $39M tax-indemnification write-down landed in expenses. The adjusted margin was 25.6%."
+    },
+    {
+      "stat": "$1.1B",
+      "statColor": "#3e8e5a",
+      "title": "Buying growth, and itself",
+      "text": "Veralto spent $1.1B on four acquisitions and $550M buying back its own shares in the first nine months, and still raised full-year adjusted EPS guidance to $4.49\u2013$4.52."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000047/vlto-20261029xex991.htm"
+    },
+    {
+      "label": "Form 10-Q \u2014 segment sales (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000048/vlto-20261002.htm"
+    }
+  ],
+  "follow100Note": "The breakdown rows add to $100.01 due to rounding.",
+  "follow100": [
+    {
+      "label": "Water Quality",
+      "amount": 62.23
+    },
+    {
+      "label": "Product Quality & Innovation",
+      "amount": 37.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -39.83
+    },
+    {
+      "label": "SG&A",
+      "amount": -35.85
+    },
+    {
+      "label": "R&D",
+      "amount": -4.57
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -1.66
+    },
+    {
+      "label": "Tax",
+      "amount": -1.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.77
+    }
+  ]
+}

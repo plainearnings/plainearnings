@@ -1,0 +1,170 @@
+{
+  "ticker": "VICI",
+  "company": "VICI Properties",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-28",
+  "verdict": "VICI's rent and financing income grew 5.8% to $1.07B and its cash-style AFFO rose 7.5%, but a $458M non-cash credit-loss allowance charge cut GAAP net income to $347M.",
+  "revenueYoY": "+5.8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.07B",
+      "note": "+5.8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.31",
+      "note": "vs $0.71 a year ago \u2014 hit by the CECL charge"
+    },
+    {
+      "label": "AFFO",
+      "value": "$685M",
+      "note": "$0.62/share, +7.5% YoY \u2014 the cash-rent measure"
+    },
+    {
+      "label": "Dividend",
+      "value": "$0.46/share",
+      "note": "+2.2% YoY \u2014 9th straight annual increase"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Sales-type lease income",
+      "amountM": 557,
+      "yoy": "+4.7%",
+      "note": "Rent from casino resorts leased directly to operators \u2014 Caesars, the MGM Grand/Mandalay Bay and Venetian leases are the biggest pieces."
+    },
+    {
+      "name": "Financing, loans & securities",
+      "amountM": 482,
+      "yoy": "+7.7%",
+      "note": "Income from lease financing receivables (led by the MGM master lease), plus interest on loans and securities the company holds."
+    },
+    {
+      "name": "Other income",
+      "amountM": 19,
+      "yoy": "-3.0%",
+      "note": "Other income, fully offset by matching other expenses below \u2014 it does not add to profit."
+    },
+    {
+      "name": "Golf revenues",
+      "amountM": 7,
+      "yoy": "-13.0%",
+      "note": "Revenue from the company's golf courses."
+    }
+  ],
+  "flow": {
+    "revenueM": 1065,
+    "costOfRevenueM": 458,
+    "grossProfitM": 607,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 17,
+        "note": "Running the company day to day \u2014 remarkably lean for a landlord of this size."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 19,
+        "note": "Expenses that exactly offset the other income above."
+      },
+      {
+        "name": "Golf expenses",
+        "amountM": 7,
+        "note": "Running the golf courses."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 1,
+        "note": "A small charge \u2014 most of VICI's assets are leases and loans, not buildings it depreciates."
+      }
+    ],
+    "operatingIncomeM": 563,
+    "otherIncomeM": -213,
+    "taxM": 3,
+    "netIncomeM": 347
+  },
+  "otherDetail": "Interest expense of $215M on the company's debt, partly offset by $2M of interest income.",
+  "follow100": [
+    {
+      "label": "Sales-type lease income",
+      "amount": 52.3
+    },
+    {
+      "label": "Financing, loans & securities",
+      "amount": 45.26
+    },
+    {
+      "label": "Other income",
+      "amount": 1.78
+    },
+    {
+      "label": "Golf revenues",
+      "amount": 0.66
+    },
+    {
+      "label": "Credit-loss allowance",
+      "amount": -43.0
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.6
+    },
+    {
+      "label": "Other expenses",
+      "amount": -1.78
+    },
+    {
+      "label": "Golf expenses",
+      "amount": -0.66
+    },
+    {
+      "label": "Depreciation",
+      "amount": -0.09
+    },
+    {
+      "label": "Interest & other",
+      "amount": -20.0
+    },
+    {
+      "label": "Tax",
+      "amount": -0.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.58
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.8%",
+      "statColor": "#3d7bc8",
+      "title": "The rent roll keeps growing",
+      "text": "Total revenue rose 5.8% to $1.07B, with built-in rent escalators doing most of the work \u2014 the triple-net model means tenants pay the property costs, not VICI."
+    },
+    {
+      "stat": "$458M",
+      "statColor": "#cf5f4e",
+      "title": "A paper charge sank GAAP profit",
+      "text": "The change in the CECL allowance \u2014 a non-cash reserve against lease and loan receivables \u2014 swung from a $20M release a year ago to a $458M charge, cutting net income attributable to common stockholders by 55% to $343M."
+    },
+    {
+      "stat": "+7.5%",
+      "statColor": "#3e8e5a",
+      "title": "The cash measure grew anyway",
+      "text": "AFFO, which adds the non-cash charge back, rose 7.5% to $685M, and management raised full-year AFFO guidance to $2,695M\u2013$2,705M."
+    }
+  ],
+  "oneTimers": [
+    "A $458M non-cash increase in the allowance for credit losses (CECL) \u2014 versus a $20M release in the same quarter last year. It is the sole reason GAAP net income fell 55%; AFFO excludes it."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000119/viciq32026earningsrelease.htm"
+    }
+  ],
+  "footerNote": "For this landlord-lender, the change in the allowance for credit losses plays the role of cost of revenue \u2014 a non-cash reserve that AFFO adds back. Net income attributable to common stockholders was $343M ($0.31 per share)."
+}

@@ -1,0 +1,152 @@
+{
+  "ticker": "VLO",
+  "company": "Valero Energy",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+43%",
+  "verdict": "Valero earned $6.8B \u2014 about six times a year ago \u2014 as its refineries ran at near-record rates and refining profit alone hit $8.8B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+43%",
+      "note": "Revenue $46.1B, vs $32.2B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$23.89",
+      "note": "vs $3.53 a year ago; adjusted EPS was $23.90"
+    },
+    {
+      "label": "Refining operating income",
+      "value": "$8.8B",
+      "note": "vs $1.6B a year ago"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$6.9B",
+      "note": "capital investments were just $432M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Refining",
+      "amountM": 44369,
+      "yoy": "+46%",
+      "note": "Making gasoline, diesel and jet fuel at 14 refineries \u2014 sales to outside customers. Throughput averaged 3.0 million barrels a day at near-record utilization, and the segment earned $8,782M of operating income."
+    },
+    {
+      "name": "Renewable Diesel",
+      "amountM": 664,
+      "yoy": "-8%",
+      "note": "The Diamond Green Diesel joint venture's low-carbon diesel and sustainable aviation fuel, sold to outside customers. The segment swung to a $353M operating profit from a $28M loss a year ago (most of its sales are to Valero's own Refining segment and are eliminated here)."
+    },
+    {
+      "name": "Ethanol",
+      "amountM": 1065,
+      "yoy": "+3%",
+      "note": "Corn ethanol from 12 plants \u2014 production hit a record 4.8 million gallons a day and the segment earned $272M."
+    }
+  ],
+  "flow": {
+    "revenueM": 46098,
+    "costOfRevenueM": 36691,
+    "grossProfitM": 9407,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 308,
+        "note": "Running the company day to day \u2014 headquarters, legal and back office."
+      },
+      {
+        "name": "Depreciation & amortization (corporate)",
+        "amountM": 15,
+        "note": "Depreciation Valero reports outside cost of sales (most depreciation sits inside cost of sales)."
+      },
+      {
+        "name": "Other operating expenses",
+        "amountM": 11,
+        "note": "Small other operating items, including $4M of Port Arthur Refinery fire expenses."
+      }
+    ],
+    "operatingIncomeM": 9073,
+    "otherIncomeM": -178,
+    "taxM": 2067,
+    "netIncomeM": 6828
+  },
+  "otherDetail": "Other income of $127M, less $144M of interest and debt expense and $161M of profit belonging to noncontrolling partners (mostly the other member of the Diamond Green Diesel joint venture) \u2014 so the flow lands on the $6,828M attributable to Valero stockholders (consolidated net income was $6,989M).",
+  "footerNote": "Segment revenues are sales to external customers; intersegment sales are eliminated in consolidation. Cost of revenue is Valero's total cost of sales ($36,691M \u2014 materials, taxes other than income taxes, operating expenses and depreciation reported inside cost of sales); the operating-expense lines below it are the ones Valero reports outside cost of sales.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026066795/a9302026exh9901earningsrel.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026067679/vlo-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$8,782M",
+      "statColor": "#3d7bc8",
+      "title": "Refining had a monster quarter",
+      "text": "Refining operating income was $8,782M, up from $1,649M a year ago, on near-record throughput of 3.0 million barrels a day \u2014 wide refining margins turned straight into profit."
+    },
+    {
+      "stat": "$353M",
+      "statColor": "#3e8e5a",
+      "title": "Renewable diesel swung to profit",
+      "text": "Diamond Green Diesel earned $353M versus a $28M loss a year ago, and Ethanol earned $272M on record production of 4.8 million gallons a day."
+    },
+    {
+      "stat": "52%",
+      "statColor": "#5b6b7c",
+      "title": "Half the cash went back to shareholders",
+      "text": "Valero generated $6.9B of operating cash flow, spent only $432M on capital investments, and paid out 52% of adjusted operating cash flow to stockholders."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Refining",
+      "amount": 96.25
+    },
+    {
+      "label": "Renewable Diesel",
+      "amount": 1.44
+    },
+    {
+      "label": "Ethanol",
+      "amount": 2.31
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.59
+    },
+    {
+      "label": "General & administrative",
+      "amount": -0.67
+    },
+    {
+      "label": "Depreciation & amortization (corporate)",
+      "amount": -0.03
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -0.02
+    },
+    {
+      "label": "Other income, interest & partners' share",
+      "amount": -0.39
+    },
+    {
+      "label": "Tax",
+      "amount": -4.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.81
+    }
+  ]
+}

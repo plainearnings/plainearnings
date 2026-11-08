@@ -1,0 +1,151 @@
+{
+  "ticker": "USB",
+  "company": "U.S. Bancorp",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-15",
+  "verdict": "U.S. Bancorp hit record revenue of $7.9B as fee income jumped 13% \u2014 helped by a first full quarter of BTIG in capital markets \u2014 and kept $2.2B as profit.",
+  "revenueYoY": "+8.9%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$7.9B",
+      "note": "+8.9% YoY (GAAP)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.34",
+      "note": "vs $1.22 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$4.5B",
+      "note": "+5.8% YoY (GAAP)"
+    },
+    {
+      "label": "Capital markets revenue",
+      "value": "$640M",
+      "note": "+69% YoY \u2014 first full quarter with BTIG"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 4468,
+      "yoy": "+5.8%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine. The net interest margin widened to 2.84%."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 3480,
+      "yoy": "+13.1%",
+      "note": "Fee income: trust and investment management fees ($802M), capital markets ($640M), merchant processing ($461M), corporate payments ($457M) and card revenue ($440M), partly offset by $65M of securities losses."
+    }
+  ],
+  "flow": {
+    "revenueM": 7948,
+    "costOfRevenueM": 654,
+    "grossProfitM": 7294,
+    "opex": [
+      {
+        "name": "Compensation & benefits",
+        "amountM": 2753,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost, up 7% YoY."
+      },
+      {
+        "name": "Technology & communications",
+        "amountM": 666,
+        "note": "Technology and telecoms \u2014 up 19% YoY on investment in the platform."
+      },
+      {
+        "name": "Occupancy & equipment",
+        "amountM": 309,
+        "note": "Branches, offices and equipment, net."
+      },
+      {
+        "name": "Other intangibles",
+        "amountM": 127,
+        "note": "Amortization of intangible assets from past acquisitions."
+      },
+      {
+        "name": "Professional, marketing & other",
+        "amountM": 638,
+        "note": "Professional services ($115M), marketing and business development ($199M) and other costs ($324M)."
+      }
+    ],
+    "operatingIncomeM": 2801,
+    "otherIncomeM": 0,
+    "taxM": 593,
+    "netIncomeM": 2208
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 56.22
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 43.78
+    },
+    {
+      "label": "Credit costs",
+      "amount": -8.23
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -34.64
+    },
+    {
+      "label": "Technology & communications",
+      "amount": -8.38
+    },
+    {
+      "label": "Occupancy & equipment",
+      "amount": -3.89
+    },
+    {
+      "label": "Other intangibles",
+      "amount": -1.6
+    },
+    {
+      "label": "Professional, marketing & other",
+      "amount": -8.03
+    },
+    {
+      "label": "Tax",
+      "amount": -7.46
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.78
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13.1%",
+      "statColor": "#3d7bc8",
+      "title": "Fees did the heavy lifting",
+      "text": "Noninterest income rose 13.1% to $3.5B, led by capital markets revenue up 69% to $640M in the first full quarter including BTIG. Net interest income added a steadier 5.8% growth to $4.5B."
+    },
+    {
+      "stat": "55.9%",
+      "statColor": "#3e8e5a",
+      "title": "Costs stayed on a leash",
+      "text": "The efficiency ratio \u2014 costs per dollar of revenue \u2014 improved to 55.9% from 57.2% a year ago, and return on tangible common equity was 18.5%."
+    },
+    {
+      "stat": "0.51%",
+      "statColor": "#5b6b7c",
+      "title": "Credit losses are contained",
+      "text": "The bank set aside $654M for credit losses while actual net charge-offs ran at 0.51% of loans, improved from 0.56% a year ago."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm"
+    }
+  ],
+  "footerNote": "U.S. Bancorp headlines taxable-equivalent net interest income of $4,490M (total revenue $7,970M); this page uses GAAP net interest income of $4,468M (total revenue $7,948M), which does not change net income. For a bank, the provision for credit losses plays the role of cost of revenue. Net income attributable to U.S. Bancorp was $2,202M."
+}
