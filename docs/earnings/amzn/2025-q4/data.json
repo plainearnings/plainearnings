@@ -1,0 +1,175 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-05",
+  "verdict": "Amazon's sales rose 14% to $213.4B and AWS growth accelerated to 24% \u2014 while $2.4B of one-off charges in its stores business held operating income to $25.0B.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.95",
+      "note": "vs $1.86 a year ago"
+    },
+    {
+      "label": "AWS growth",
+      "value": "+24%",
+      "note": "fastest in 13 quarters"
+    },
+    {
+      "label": "Operating income",
+      "value": "$25.0B",
+      "note": "$27.4B before special charges"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 127083,
+      "yoy": "+10%",
+      "note": "Stores, subscriptions and advertising in the US, Canada and Mexico; earned $11.5B of operating income."
+    },
+    {
+      "name": "International",
+      "amountM": 50724,
+      "yoy": "+17%",
+      "note": "Stores and subscriptions outside North America (+11% before currency effects); earned $1.0B of operating income."
+    },
+    {
+      "name": "AWS",
+      "amountM": 35579,
+      "yoy": "+24%",
+      "note": "Amazon Web Services cloud computing \u2014 its fastest growth in 13 quarters; earned $12.5B of operating income, half of Amazon's total."
+    }
+  ],
+  "flow": {
+    "revenueM": 213386,
+    "costOfRevenueM": 109959,
+    "grossProfitM": 103427,
+    "opex": [
+      {
+        "name": "Fulfillment",
+        "amountM": 30826,
+        "note": "Warehouses and delivery \u2014 getting orders to doors."
+      },
+      {
+        "name": "Technology & infrastructure",
+        "amountM": 29399,
+        "note": "Engineers and the tech behind the store and AWS; up 25% YoY with the AI build-out."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 14264,
+        "note": "Advertising Amazon's own services and sales teams."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2704,
+        "note": "Back-office costs: finance, legal and admin."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 1257,
+        "note": "Mostly this quarter's special charges: Italy tax-dispute resolutions and a lawsuit settlement, severance, and store asset impairments.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 24977,
+    "otherIncomeM": 1628,
+    "equityM": -467,
+    "taxM": 4946,
+    "netIncomeM": 21192
+  },
+  "otherDetail": "Total non-operating income of $1,628M: $1,130M of interest income and $1,177M of other income, less $679M of interest expense. Equity-method activity took off another $467M after tax.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "AWS growth is accelerating again",
+      "text": "AWS sales grew 24% to $35.6B \u2014 the fastest in 13 quarters \u2014 and produced $12.5B of operating income: half of Amazon's total profit from 17% of its sales. Amazon's own chips business (Trainium and Graviton) passed a $10B annual run rate, growing at triple-digit rates."
+    },
+    {
+      "stat": "$2.4B",
+      "statColor": "#cf5f4e",
+      "title": "One-off charges in the stores business",
+      "text": "Operating income includes $1.1B for resolving tax disputes tied to the stores business in Italy and settling a lawsuit, $730M of severance costs, and $610M of asset impairments, mainly on physical stores. Without them, operating income would have been $27.4B."
+    },
+    {
+      "stat": "$200B",
+      "statColor": "#3e8e5a",
+      "title": "The AI build-out swallows the cash",
+      "text": "Full-year free cash flow fell to $11.2B because spending on property and equipment jumped $50.7B year over year \u2014 mostly AI. Amazon expects to invest about $200B in capex across 2026."
+    }
+  ],
+  "oneTimers": [
+    "Operating income includes three special charges totaling about $2.4B: $1.1B for the resolution of tax disputes associated with Amazon's stores business in Italy and the settlement of a lawsuit, $730M in estimated severance costs, and $610M in asset impairments primarily related to physical stores. Excluding these charges, operating income would have been $27.4B."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 59.56
+    },
+    {
+      "label": "International",
+      "amount": 23.77
+    },
+    {
+      "label": "AWS",
+      "amount": 16.67
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -51.53
+    },
+    {
+      "label": "Fulfillment",
+      "amount": -14.45
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -13.78
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.68
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.27
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.59
+    },
+    {
+      "label": "Other income",
+      "amount": 0.76
+    },
+    {
+      "label": "Equity-method activity",
+      "amount": -0.22
+    },
+    {
+      "label": "Tax",
+      "amount": -2.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.93
+    }
+  ]
+}

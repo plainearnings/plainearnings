@@ -1,0 +1,161 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-12-27",
+  "reportedDate": "2026-01-29",
+  "verdict": "Apple posted its best quarter ever: revenue rose 16% to a record $143.8B on an all-time-high $85.3B of iPhone sales, and profit reached $42.1B.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.84",
+      "note": "+19%, an all-time high"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$85.3B",
+      "note": "best-ever quarter, +23%"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$30.0B",
+      "note": "all-time high, +14%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 85269,
+      "yoy": "+23%",
+      "note": "Its best quarter ever, on unprecedented demand for the iPhone 17 lineup, with all-time records in every geographic segment."
+    },
+    {
+      "name": "Mac",
+      "amountM": 8386,
+      "yoy": "-7%",
+      "note": "Mac computers; sales dipped 7% YoY against a strong year-ago quarter."
+    },
+    {
+      "name": "iPad",
+      "amountM": 8595,
+      "yoy": "+6%",
+      "note": "iPad tablets; up 6% YoY."
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 11493,
+      "yoy": "-2%",
+      "note": "Apple Watch, AirPods, HomePod and accessories; down 2% YoY.",
+      "shortName": "Wearables & Home"
+    },
+    {
+      "name": "Services",
+      "amountM": 30013,
+      "yoy": "+14%",
+      "note": "The App Store, iCloud, Apple Music, Apple TV, Apple Pay and warranties \u2014 an all-time record, up 14% YoY, and Apple's highest-margin business."
+    }
+  ],
+  "flow": {
+    "revenueM": 143756,
+    "costOfRevenueM": 74525,
+    "grossProfitM": 69231,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 10887,
+        "note": "Designing future products and software; up 32% YoY as Apple invests in AI and new devices."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7492,
+        "note": "Selling and admin costs, including Apple's stores; up 4% YoY."
+      }
+    ],
+    "operatingIncomeM": 50852,
+    "otherIncomeM": 150,
+    "taxM": 8905,
+    "netIncomeM": 42097
+  },
+  "otherDetail": "Other income (expense), net was +$150M: interest and dividend income modestly exceeded interest expense and other items.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$85.3B",
+      "statColor": "#3d7bc8",
+      "title": "iPhone's best quarter ever",
+      "text": "iPhone revenue hit $85.3B, up 23% \u2014 an all-time record, with records in every geographic segment. iPhone alone was 59% of everything Apple sold."
+    },
+    {
+      "stat": "$30.0B",
+      "statColor": "#3e8e5a",
+      "title": "Services set another all-time high",
+      "text": "Services reached $30.0B, up 14%, and it is Apple's most profitable money: delivering those services cost $7.0B, against $67.5B of cost on $113.7B of product sales. The installed base passed 2.5 billion active devices."
+    },
+    {
+      "stat": "$53.9B",
+      "statColor": "#3d7bc8",
+      "title": "Record cash funded big returns",
+      "text": "Operating cash flow was nearly $54B in the quarter, and Apple returned almost $32B to shareholders \u2014 $24.7B of buybacks plus dividends."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/a8-kex991q1202612272025.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 59.32
+    },
+    {
+      "label": "Mac",
+      "amount": 5.83
+    },
+    {
+      "label": "iPad",
+      "amount": 5.98
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 7.99
+    },
+    {
+      "label": "Services",
+      "amount": 20.88
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -51.84
+    },
+    {
+      "label": "R&D",
+      "amount": -7.57
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.21
+    },
+    {
+      "label": "Other income",
+      "amount": 0.1
+    },
+    {
+      "label": "Tax",
+      "amount": -6.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.28
+    }
+  ]
+}

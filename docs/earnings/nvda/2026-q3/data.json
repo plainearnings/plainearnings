@@ -1,0 +1,136 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2025-10-26",
+  "reportedDate": "2025-11-19",
+  "verdict": "Nvidia's revenue jumped 62% to a record $57.0B as Data Center sales hit $51.2B, and it kept $31.9B of that as profit.",
+  "revenueYoY": "+62%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+62%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.30",
+      "note": "+67% vs $0.78 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$51.2B",
+      "note": "+66% YoY, 90% of revenue"
+    },
+    {
+      "label": "Gross margin",
+      "value": "73.4%",
+      "note": "vs 74.6% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 51215,
+      "yoy": "+66%",
+      "note": "AI data-center platforms; a record $51.2B, up 66% YoY and 90% of total revenue. Within it, compute was $43.0B (+56%) and networking a record $8.2B (+162%) on NVLink fabric for GB200 and GB300 systems."
+    },
+    {
+      "name": "Edge Computing",
+      "amountM": 5791,
+      "yoy": "+34%",
+      "note": "Gaming ($4.3B, +30%), professional visualization ($760M, +56%), automotive ($592M) and OEM and other ($174M); up 34% YoY in total."
+    }
+  ],
+  "flow": {
+    "revenueM": 57006,
+    "costOfRevenueM": 15157,
+    "grossProfitM": 41849,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 4705,
+        "note": "R&D spending on new chips and platforms like Vera Rubin; up 39% YoY as Nvidia hires and builds faster."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 1134,
+        "note": "Sales and admin costs; up 26% YoY, growing far slower than revenue."
+      }
+    ],
+    "operatingIncomeM": 36010,
+    "otherIncomeM": 1926,
+    "taxM": 6026,
+    "netIncomeM": 31910
+  },
+  "otherDetail": "Interest income of $624M, plus $1,363M of other income \u2014 mostly $1,354M of gains on stakes Nvidia holds in other companies \u2014 less $61M of interest expense.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+66%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center is nearly the whole company",
+      "text": "Data Center revenue was a record $51.2B \u2014 90 cents of every revenue dollar. Compute brought in $43.0B (+56%) and networking a record $8.2B (+162%) as NVLink fabrics for GB200/GB300 systems ramped."
+    },
+    {
+      "stat": "$23.8B",
+      "statColor": "#3e8e5a",
+      "title": "Cash kept pouring in",
+      "text": "Operating cash flow was $23.8B in the quarter. Nvidia returned $12.7B to shareholders ($12.5B of buybacks plus dividends) and still had $62.2B of buyback authorization left."
+    },
+    {
+      "stat": "$65.0B",
+      "statColor": "#3d7bc8",
+      "title": "Guidance points higher still",
+      "text": "Nvidia guided fourth-quarter revenue to $65.0B, plus or minus 2%, with gross margin around 74.8% \u2014 another step up from this quarter's record."
+    }
+  ],
+  "oneTimers": [
+    "Gains from non-marketable and publicly-held equity securities of $1,354M sit inside GAAP other income and are excluded from non-GAAP results. GAAP and non-GAAP net income were nearly identical this quarter ($31,910M vs $31,767M)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm"
+    },
+    {
+      "label": "CFO commentary (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26cfocommentary.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 89.84
+    },
+    {
+      "label": "Edge Computing",
+      "amount": 10.16
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.59
+    },
+    {
+      "label": "R&D",
+      "amount": -8.25
+    },
+    {
+      "label": "SG&A",
+      "amount": -1.99
+    },
+    {
+      "label": "Other income",
+      "amount": 3.38
+    },
+    {
+      "label": "Tax",
+      "amount": -10.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 55.98
+    }
+  ]
+}

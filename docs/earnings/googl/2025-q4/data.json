@@ -1,0 +1,161 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-04",
+  "verdict": "Alphabet's revenue rose 18% to $113.8B as Google Cloud surged 48%, and annual revenue passed $400B for the first time \u2014 though a $2.1B Waymo pay charge sat inside the quarter's costs.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.82",
+      "note": "+31% vs a year ago"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+48%",
+      "note": "revenue growth, accelerating"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$5.3B",
+      "note": "vs $2.1B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 95862,
+      "yoy": "+14%",
+      "note": "Search, YouTube, subscriptions and devices. Search revenue grew 17%, subscriptions, platforms and devices 17%, and YouTube ads 9%; YouTube's ads-plus-subscriptions revenue passed $60B for the full year."
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 17664,
+      "yoy": "+48%",
+      "note": "Cloud computing for businesses \u2014 growth accelerated to 48% on enterprise AI infrastructure and AI solutions, and Cloud ended 2025 at an annual run rate over $70B."
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 370,
+      "yoy": "-8%",
+      "note": "Moonshot projects like Waymo self-driving cars; they lost $3.6B at the operating level, including a $2.1B employee compensation charge."
+    },
+    {
+      "name": "Hedging losses",
+      "amountM": -68,
+      "note": "Losses on Alphabet's currency-hedging program, which exists to smooth out exchange-rate swings on its overseas revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 113828,
+    "costOfRevenueM": 45766,
+    "grossProfitM": 68062,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 18572,
+        "note": "Engineers and AI research; up 42% YoY, including the $2.1B Waymo employee compensation charge."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 8215,
+        "note": "Selling ads and cloud contracts, and marketing Google's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 5341,
+        "note": "Back-office, legal and admin costs."
+      }
+    ],
+    "operatingIncomeM": 35934,
+    "otherIncomeM": 3183,
+    "taxM": 4662,
+    "netIncomeM": 34455
+  },
+  "otherDetail": "A net gain of $3,183M, including a $2.3B net gain on equity securities \u2014 stakes Alphabet holds in other companies.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+48%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is surging",
+      "text": "Google Cloud revenue jumped 48% to $17.7B and its operating profit more than doubled to $5.3B. Cloud ended 2025 at an annual run rate above $70B, driven by enterprise AI demand."
+    },
+    {
+      "stat": "$2.1B",
+      "statColor": "#cf5f4e",
+      "title": "A Waymo pay charge sat in the costs",
+      "text": "Operating income includes a $2.1B employee compensation charge for Waymo, based on its estimated stock valuation and recorded mostly in R&D. Operating income still rose 16% to $35.9B."
+    },
+    {
+      "stat": "$400B",
+      "statColor": "#3e8e5a",
+      "title": "A $400 billion year",
+      "text": "Full-year 2025 revenue was $402.8B \u2014 the first time Alphabet has passed $400B. Paid subscriptions passed 325 million, and 2026 capex is planned at $175-185B to keep up with AI demand."
+    }
+  ],
+  "oneTimers": [
+    "Operating income includes a $2.1B employee compensation charge for Waymo, based on estimated stock valuation, primarily reflected in research and development expenses.",
+    "Other income includes a $2.3B net gain on equity securities (stakes Alphabet holds in other companies), which added $1.8B to net income after tax."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 84.22
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 15.52
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.33
+    },
+    {
+      "label": "Hedging losses",
+      "amount": -0.06
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.21
+    },
+    {
+      "label": "R&D",
+      "amount": -16.32
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.22
+    },
+    {
+      "label": "General & administrative",
+      "amount": -4.69
+    },
+    {
+      "label": "Other income",
+      "amount": 2.8
+    },
+    {
+      "label": "Tax",
+      "amount": -4.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.27
+    }
+  ]
+}

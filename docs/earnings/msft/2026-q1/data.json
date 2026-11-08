@@ -1,0 +1,152 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-29",
+  "verdict": "Microsoft's revenue rose 18% to $77.7B as Azure grew 40% \u2014 but losses on its OpenAI investment held GAAP profit growth to 12%.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.72",
+      "note": "+13%, incl. OpenAI losses"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+40%",
+      "note": "Azure & other cloud services"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$49.1B",
+      "note": "+26% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 33020,
+      "yoy": "+17%",
+      "note": "Microsoft 365 for businesses (commercial cloud +17%), LinkedIn (+10%) and Dynamics 365 (+18%) \u2014 the software businesses sell to companies.",
+      "shortName": "Productivity & Business"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 30897,
+      "yoy": "+28%",
+      "note": "Azure cloud computing and server products; Azure revenue grew 40% as AI demand kept building."
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 13756,
+      "yoy": "+4%",
+      "note": "Windows licences, Xbox, Surface devices and search ads. Windows OEM and Devices revenue rose 6%, Xbox content and services 1%, and search ads 16% outside traffic costs."
+    }
+  ],
+  "flow": {
+    "revenueM": 77673,
+    "costOfRevenueM": 24043,
+    "grossProfitM": 53630,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 8146,
+        "note": "Building new products and AI; up 8% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 5717,
+        "note": "The sales force and marketing; flat YoY at $5.7B."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1806,
+        "note": "Back-office and legal costs; up 8% YoY."
+      }
+    ],
+    "operatingIncomeM": 37961,
+    "otherIncomeM": -3660,
+    "taxM": 6554,
+    "netIncomeM": 27747
+  },
+  "otherDetail": "A net expense of $3,660M, driven by losses on Microsoft's investment in OpenAI, which cut net income by $3.1B after tax. Microsoft's non-GAAP figures strip this impact out.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+40%",
+      "statColor": "#3d7bc8",
+      "title": "Azure growth accelerated",
+      "text": "Azure revenue grew 40% and Microsoft Cloud reached $49.1B, up 26%. Customers have committed to $392B of future spending (commercial remaining performance obligation, +51%)."
+    },
+    {
+      "stat": "$3.1B",
+      "statColor": "#cf5f4e",
+      "title": "OpenAI losses cut into GAAP profit",
+      "text": "Losses from investments in OpenAI reduced GAAP net income by $3.1B ($0.41 a share). Excluding that (non-GAAP), profit was $30.8B, up 22%, and EPS was $4.13 rather than $3.72."
+    },
+    {
+      "stat": "$10.7B",
+      "statColor": "#3e8e5a",
+      "title": "Cash returns continued",
+      "text": "Microsoft returned $10.7B to shareholders in dividends and share repurchases during the quarter."
+    }
+  ],
+  "oneTimers": [
+    "Losses from investments in OpenAI decreased GAAP net income by $3.1B ($0.41 per share) this quarter. Non-GAAP net income excluding the OpenAI impact was $30.8B ($4.13 per share), up 22%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 42.51
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 39.78
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 17.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -30.95
+    },
+    {
+      "label": "R&D",
+      "amount": -10.49
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.36
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.33
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.71
+    },
+    {
+      "label": "Tax",
+      "amount": -8.44
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 35.72
+    }
+  ]
+}

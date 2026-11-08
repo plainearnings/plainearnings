@@ -1,0 +1,150 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-28",
+  "verdict": "Meta's revenue rose 24% to $59.9B on strong ads, and profit grew 9% to $22.8B even as total costs jumped 40% on its AI build-out.",
+  "revenueYoY": "+24%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+24%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$8.88",
+      "note": "+11% vs a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$14.1B",
+      "note": "after $22.1B of capex"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.58B",
+      "note": "daily users, +7% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 58137,
+      "yoy": "+24%",
+      "note": "Ads across Facebook, Instagram, WhatsApp and Messenger: impressions grew 18% and the average price per ad rose 6%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 801,
+      "yoy": "+54%",
+      "note": "WhatsApp business messaging, Meta Verified subscriptions and other app income; up 54% YoY.",
+      "shortName": "FoA other"
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 955,
+      "yoy": "-12%",
+      "note": "Quest headsets and AI glasses; sales fell 12% and the unit lost $6.0B at the operating level."
+    }
+  ],
+  "flow": {
+    "revenueM": 59893,
+    "costOfRevenueM": 10905,
+    "grossProfitM": 48988,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 17136,
+        "note": "AI research (Meta Superintelligence Labs), engineers and Reality Labs development; up 41% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 3410,
+        "note": "Selling ads and marketing Meta's apps and devices."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 3697,
+        "note": "Back-office and legal costs."
+      }
+    ],
+    "operatingIncomeM": 24745,
+    "otherIncomeM": 609,
+    "taxM": 2586,
+    "netIncomeM": 22768
+  },
+  "otherDetail": "Meta reports one combined line, interest and other income (expense), net; this quarter it was a $609M net gain.",
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "Ads kept growing fast",
+      "text": "Advertising revenue rose 24% to $58.1B: ad impressions grew 18% and the average price per ad rose 6%. The Family of Apps earned $30.8B of operating profit."
+    },
+    {
+      "stat": "-$6.0B",
+      "statColor": "#cf5f4e",
+      "title": "Reality Labs losses widened",
+      "text": "Reality Labs lost $6.0B at the operating level on $955M of revenue, which fell 12%. Across 2025 the unit lost $19.2B; Meta expects similar losses in 2026."
+    },
+    {
+      "stat": "$22.1B",
+      "statColor": "#3e8e5a",
+      "title": "The AI bill keeps climbing",
+      "text": "Capital spending was $22.1B in the quarter ($72.2B for 2025), and free cash flow was $14.1B. For 2026 Meta plans capex of $115-135B and total expenses of $162-169B."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.07
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.34
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 1.59
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.21
+    },
+    {
+      "label": "R&D",
+      "amount": -28.61
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -5.69
+    },
+    {
+      "label": "General & administrative",
+      "amount": -6.17
+    },
+    {
+      "label": "Other income",
+      "amount": 1.02
+    },
+    {
+      "label": "Tax",
+      "amount": -4.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.01
+    }
+  ]
+}
