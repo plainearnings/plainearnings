@@ -1,0 +1,151 @@
+{
+  "ticker": "ZBRA",
+  "company": "Zebra Technologies",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-11-03",
+  "verdict": "Zebra's sales jumped 22% to a record $1.6B as the Elo Touch acquisition and double-digit organic growth in both segments outweighed pricier memory chips that squeezed gross margin from 48.0% to 45.7%.",
+  "revenueYoY": "+22%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.6B",
+      "note": "+22% vs a year ago; organic growth was +11%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.43",
+      "note": "vs $1.97 a year ago"
+    },
+    {
+      "label": "Non-GAAP EPS",
+      "value": "$4.95",
+      "note": "+28% vs a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$349M",
+      "note": "profit before interest, tax and write-downs, on Zebra's adjusted basis"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Connected Frontline",
+      "amountM": 949,
+      "yoy": "+35%",
+      "note": "Mobile computers, barcode scanners and printers used by frontline workers \u2014 Zebra's larger segment, renamed from Enterprise Visibility & Mobility. Reported sales rose 35%, helped by the Elo Touch acquisition; organic growth was 15%."
+    },
+    {
+      "name": "Asset Visibility & Automation",
+      "amountM": 665,
+      "yoy": "+8%",
+      "note": "RFID readers, machine-vision and automation products that track goods and assets \u2014 renamed from Asset Intelligence & Tracking. Reported sales rose 8%; organic growth was 7%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1614,
+    "costOfRevenueM": 876,
+    "grossProfitM": 738,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 305,
+        "note": "Selling and marketing ($183M) plus general and administrative costs ($122M) \u2014 the people who sell and run the business."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 158,
+        "note": "Designing new scanners, mobile computers, RFID and automation products."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 37,
+        "note": "Writing down technology and customer relationships bought in acquisitions \u2014 up from $25M a year ago after the Elo Touch deal."
+      },
+      {
+        "name": "Acquisition and integration costs",
+        "amountM": 1,
+        "note": "Costs of buying and absorbing Elo Touch and other acquisitions \u2014 down from $10M a year ago."
+      }
+    ],
+    "operatingIncomeM": 237,
+    "otherIncomeM": -39,
+    "taxM": 34,
+    "netIncomeM": 164
+  },
+  "otherDetail": "Net interest expense of $35M, a $3M foreign-exchange loss and $1M of other expense \u2014 a net $39M cost below operating income.",
+  "oneTimers": [
+    "The Elo Touch acquisition lifted reported growth well above the 11.3% organic rate and pushed intangible amortization up to $37M from $25M a year ago; acquisition and integration costs themselves were just $1M this quarter (vs $10M a year ago).",
+    "Exit and restructuring costs printed at $0 in the quarter, so no line is shown for them."
+  ],
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter, half of it bought",
+      "text": "Sales hit a record $1,614M, up 22%. Organic growth \u2014 excluding acquisitions and currency \u2014 was 11.3%, with Connected Frontline up 15% organically and Asset Visibility & Automation up 7%."
+    },
+    {
+      "stat": "45.7%",
+      "statColor": "#cf5f4e",
+      "title": "Memory chips squeezed margins",
+      "text": "Gross margin fell to 45.7% from 48.0% a year ago, mainly because memory components cost more and the product mix shifted, partly offset by pricing actions and currency."
+    },
+    {
+      "stat": "$4.95",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew faster than sales",
+      "text": "Non-GAAP EPS rose 28% to $4.95 and GAAP EPS rose to $3.43 from $1.97. Zebra raised its full-year outlook and has repurchased over $640M of shares in the first nine months."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026069148/zbraex99120261003.htm"
+    }
+  ],
+  "footerNote": "Zebra's fiscal third quarter ended October 3, 2026. Cost of sales combines the printed tangible-products cost ($745M) and services and software cost ($131M); SG&A combines the printed selling and marketing ($183M) and general and administrative ($122M) lines. Segment names are the ones Zebra prints now \u2014 Connected Frontline and Asset Visibility & Automation.",
+  "follow100": [
+    {
+      "label": "Connected Frontline",
+      "amount": 58.8
+    },
+    {
+      "label": "Asset Visibility & Automation",
+      "amount": 41.2
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -54.28
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -18.9
+    },
+    {
+      "label": "Research and development",
+      "amount": -9.79
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -2.29
+    },
+    {
+      "label": "Acquisition and integration costs",
+      "amount": -0.06
+    },
+    {
+      "label": "Other income",
+      "amount": -2.42
+    },
+    {
+      "label": "Tax",
+      "amount": -2.11
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.16
+    }
+  ]
+}

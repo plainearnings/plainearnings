@@ -1,0 +1,173 @@
+{
+  "ticker": "WFC",
+  "company": "Wells Fargo & Company",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-13",
+  "verdict": "Wells Fargo earned $6.0B as 11% growth in loans and deposits lifted net interest income 5%, more than covering weaker fee income and a higher credit provision.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$21.9B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.87",
+      "note": "diluted, vs $1.66 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$12.5B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "ROTCE",
+      "value": "16.3%",
+      "note": "return on tangible equity, vs 15.2% a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 12517,
+      "yoy": "+5%",
+      "note": "Interest earned on loans and securities, minus interest paid on deposits and borrowings \u2014 the bank's core engine, up 5% as average loans and deposits both grew 11%."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 9353,
+      "yoy": "-1%",
+      "note": "Fees and other income \u2014 advisory, card, deposit and investment banking fees rose, but lower trading gains, lower venture capital results, lower lease income after the rail car leasing sale and lower mortgage banking income pulled the total down 1%."
+    }
+  ],
+  "flow": {
+    "revenueM": 21870,
+    "costOfRevenueM": 1029,
+    "grossProfitM": 20841,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 8745,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost, down 3% on efficiency moves and lower severance, partly offset by higher revenue-related pay."
+      },
+      {
+        "name": "Technology, telecommunications and equipment",
+        "amountM": 1492,
+        "note": "Technology, telecoms and equipment \u2014 up 13% on higher software, depreciation and hardware costs."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 804,
+        "note": "Branches and offices \u2014 up 3%."
+      },
+      {
+        "name": "Professional and outside services",
+        "amountM": 1168,
+        "note": "Outside services and professional fees \u2014 roughly flat."
+      },
+      {
+        "name": "Advertising and promotion",
+        "amountM": 337,
+        "note": "Marketing campaigns \u2014 up 14% on higher campaign volume."
+      },
+      {
+        "name": "Other expense",
+        "amountM": 1197,
+        "note": "Everything else, including lease expense \u2014 down 4% after the rail car leasing business was sold in the first quarter."
+      }
+    ],
+    "operatingIncomeM": 7098,
+    "otherIncomeM": 0,
+    "equityM": 14,
+    "taxM": 1161,
+    "netIncomeM": 5951
+  },
+  "otherDetail": "The printed statement goes straight from pre-tax income to tax. The $14M shown here is a loss attributable to noncontrolling interests (borne by venture-capital partners, not Wells Fargo), which lifts Wells Fargo net income to $5,951M from consolidated net income of $5,937M.",
+  "oneTimers": [
+    "Income tax expense included $170M of discrete tax benefits from resolving prior-period tax matters, which cut the effective tax rate to 16.4% from 18.9% a year ago."
+  ],
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "title": "Balance sheet growth drove the quarter",
+      "text": "Average loans rose 11% to $1,033B and average deposits 11% to $1,483B. Net interest income grew 5% to $12.5B and is 57% of all revenue."
+    },
+    {
+      "stat": "16.3%",
+      "statColor": "#3e8e5a",
+      "title": "Returns climbed",
+      "text": "Return on tangible common equity reached 16.3%, up from 15.2% a year ago, and diluted EPS rose 13% to $1.87 \u2014 helped by buying back $2.5B of stock in the quarter."
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#cf5f4e",
+      "title": "Credit costs rose with lending",
+      "text": "The provision for credit losses was $1,029M, up from $681M a year ago \u2014 $983M of net charge-offs plus a $46M allowance build as commercial and auto loan balances grew."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm"
+    }
+  ],
+  "footerNote": "For a bank, the provision for credit losses plays the role of cost of revenue: revenue less the provision is shown as gross profit, and pre-tax income is the operating income line. Wells Fargo net income of $5,951M is after a $14M loss attributable to noncontrolling interests (consolidated net income was $5,937M); net income applicable to common stock was $5,703M after $248M of preferred stock dividends.",
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 57.23
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 42.77
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": -4.71
+    },
+    {
+      "label": "Personnel",
+      "amount": -39.99
+    },
+    {
+      "label": "Technology, telecommunications and equipment",
+      "amount": -6.82
+    },
+    {
+      "label": "Occupancy",
+      "amount": -3.68
+    },
+    {
+      "label": "Professional and outside services",
+      "amount": -5.34
+    },
+    {
+      "label": "Advertising and promotion",
+      "amount": -1.54
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.47
+    },
+    {
+      "label": "Other income",
+      "amount": 0.06
+    },
+    {
+      "label": "Tax",
+      "amount": -5.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.21
+    }
+  ]
+}

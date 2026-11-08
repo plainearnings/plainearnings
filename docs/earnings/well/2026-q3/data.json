@@ -1,0 +1,174 @@
+{
+  "ticker": "WELL",
+  "company": "Welltower Inc.",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "verdict": "Welltower grew revenue 38% to $3.72B as a wave of seniors-housing acquisitions landed, and normalized FFO per share jumped 25% to $1.67 on 21% same-store profit growth in its housing portfolio.",
+  "revenueYoY": "+38%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.72B",
+      "note": "+38% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.54",
+      "note": "diluted, attributable to common stockholders"
+    },
+    {
+      "label": "Normalized FFO per share",
+      "value": "$1.67",
+      "note": "+24.6% YoY (non-GAAP REIT measure)"
+    },
+    {
+      "label": "Same-store NOI growth",
+      "value": "+15.8%",
+      "note": "seniors housing operating +21.0%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Resident fees and services",
+      "amountM": 3121,
+      "yoy": "+51%",
+      "note": "What residents pay for housing, care and services in the seniors-housing communities Welltower operates \u2014 up 51% as acquired portfolios joined and occupancy and room rates rose."
+    },
+    {
+      "name": "Rental income",
+      "amountM": 489,
+      "yoy": "-2%",
+      "note": "Rent from tenants who lease Welltower's properties \u2014 outpatient medical, skilled nursing and triple-net seniors housing \u2014 down 2% as some leased properties were sold or converted."
+    },
+    {
+      "name": "Interest and other income",
+      "amountM": 106,
+      "yoy": "-15%",
+      "note": "Interest on loans Welltower has made ($83M) plus other income ($23M) \u2014 other income fell because a year ago it included larger one-off items."
+    }
+  ],
+  "flow": {
+    "revenueM": 3716,
+    "costOfRevenueM": 2246,
+    "grossProfitM": 1470,
+    "opex": [
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 707,
+        "note": "Spreading the cost of buildings and other assets over their useful lives \u2014 a large, non-cash REIT cost."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 125,
+        "note": "Other property and corporate costs as printed, up sharply with the enlarged portfolio."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 67,
+        "note": "Head-office running costs \u2014 finance, legal and management."
+      },
+      {
+        "name": "Impairment of assets",
+        "amountM": 33,
+        "note": "Writing down properties worth less than their book value."
+      },
+      {
+        "name": "Debt extinguishment and loan provisions",
+        "amountM": 7,
+        "note": "A $7M loss on paying off debt early, plus a small provision for loan losses."
+      }
+    ],
+    "operatingIncomeM": 531,
+    "otherIncomeM": -109,
+    "taxM": 7,
+    "netIncomeM": 415
+  },
+  "otherDetail": "Interest expense of $193M and a $31M loss from unconsolidated entities, partly offset by a $115M gain on real estate sales \u2014 a net $109M cost below operating income.",
+  "oneTimers": [
+    "A $115M gain on real estate dispositions and acquisitions of controlling interests lifted net income (versus a $4M gain a year ago).",
+    "Impairment charges of $33M and a $7M loss on extinguishment of debt also sit in this quarter's expenses."
+  ],
+  "takeaways": [
+    {
+      "stat": "+38%",
+      "statColor": "#3d7bc8",
+      "title": "Acquisitions transformed the top line",
+      "text": "Revenue jumped to $3.72B as resident fees rose 51%. Welltower completed $13.3B of investments in the first nine months and had $21.0B closed or under contract for the year."
+    },
+    {
+      "stat": "21.0%",
+      "statColor": "#3e8e5a",
+      "title": "Seniors housing is booming",
+      "text": "Same-store NOI in the seniors housing operating portfolio grew 21.0%, on 320 basis points of occupancy growth and 5.3% growth in revenue per occupied room; total portfolio same-store NOI grew 15.8%."
+    },
+    {
+      "stat": "$1.67",
+      "statColor": "#3e8e5a",
+      "title": "Cash earnings per share leapt",
+      "text": "Normalized FFO \u2014 the cash-earnings yardstick for REITs \u2014 rose 24.6% per share to $1.67, and Welltower raised full-year guidance to $6.47\u2013$6.53. Net debt was just 3.02x adjusted EBITDA."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000043/a3q26pressreleaseprnnewswi.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000046/well-20260930.htm"
+    }
+  ],
+  "footerNote": "Welltower is a real estate investment trust (REIT). Figures are converted from the 10-Q's thousands and rounded to $M. Interest expense is shown in Other income (together with the gain on property sales and losses from unconsolidated entities) rather than in operating expenses. Net income of $415M is consolidated; $397M ($0.54 per diluted share) was attributable to common stockholders after $18M for noncontrolling interests. FFO and normalized FFO are non-GAAP REIT measures reconciled in the release; GAAP net income is the bottom line used here.",
+  "follow100": [
+    {
+      "label": "Resident fees and services",
+      "amount": 83.99
+    },
+    {
+      "label": "Rental income",
+      "amount": 13.16
+    },
+    {
+      "label": "Interest and other income",
+      "amount": 2.85
+    },
+    {
+      "label": "Property operating expenses",
+      "amount": -60.44
+    },
+    {
+      "label": "Depreciation and amortization",
+      "amount": -19.03
+    },
+    {
+      "label": "Other expenses",
+      "amount": -3.36
+    },
+    {
+      "label": "General and administrative",
+      "amount": -1.8
+    },
+    {
+      "label": "Impairment of assets",
+      "amount": -0.89
+    },
+    {
+      "label": "Debt extinguishment and loan provisions",
+      "amount": -0.19
+    },
+    {
+      "label": "Other income",
+      "amount": -2.93
+    },
+    {
+      "label": "Tax",
+      "amount": -0.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.17
+    }
+  ]
+}

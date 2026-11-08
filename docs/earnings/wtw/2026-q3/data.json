@@ -1,0 +1,174 @@
+{
+  "ticker": "WTW",
+  "company": "Willis Towers Watson",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "verdict": "WTW grew revenue 8% to $2.46B on 4% organic growth plus acquisitions, but $56M of restructuring and deal costs held GAAP profit flat at $309M even as adjusted EPS rose 18%.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.46B",
+      "note": "+8% YoY, +4% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.24",
+      "note": "diluted, vs $3.11 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$3.63",
+      "note": "diluted, +18% YoY (non-GAAP)"
+    },
+    {
+      "label": "Adjusted operating margin",
+      "value": "21.9%",
+      "note": "vs 17.4% GAAP, up 150 bps YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Health, Wealth & Career",
+      "amountM": 1350,
+      "yoy": "+7%",
+      "note": "Advice and solutions for employee health benefits, retirement and careers \u2014 WTW's larger segment, with segment operating income of $398M, a 29% margin."
+    },
+    {
+      "name": "Risk & Broking",
+      "amountM": 1087,
+      "yoy": "+8%",
+      "note": "Insurance broking and risk advice for companies \u2014 placing coverage and negotiating with insurers, with segment operating income of $216M, a 20% margin."
+    },
+    {
+      "name": "Corporate and reimbursable items",
+      "amountM": 23,
+      "yoy": "+15%",
+      "note": "Costs incurred on behalf of clients and reimbursed by them, plus other items WTW does not count in segment revenue \u2014 the bridge from segment revenue ($2,437M) to GAAP revenue ($2,460M)."
+    }
+  ],
+  "flow": {
+    "revenueM": 2460,
+    "costOfRevenueM": 1507,
+    "grossProfitM": 953,
+    "opex": [
+      {
+        "name": "Other operating expenses",
+        "amountM": 354,
+        "note": "Day-to-day running costs other than people \u2014 offices, technology, travel and professional fees."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 59,
+        "note": "Spreading the cost of intangible assets bought in acquisitions over their useful lives."
+      },
+      {
+        "name": "Depreciation",
+        "amountM": 55,
+        "note": "Spreading the cost of buildings, equipment and software over their useful lives."
+      },
+      {
+        "name": "Transaction and program expenses",
+        "amountM": 42,
+        "note": "Deal and program costs \u2014 mainly share-based compensation and transaction costs for the Newfront and Cushon acquisitions, plus Propel AI plan integration."
+      },
+      {
+        "name": "Restructuring costs",
+        "amountM": 14,
+        "note": "One-off costs of Propel, WTW's AI Acceleration Plan."
+      }
+    ],
+    "operatingIncomeM": 429,
+    "otherIncomeM": -41,
+    "taxM": 79,
+    "netIncomeM": 309
+  },
+  "otherDetail": "Interest expense of $80M and a $13M loss from interests in associates, partly offset by $52M of other income \u2014 a net $41M cost below operating income.",
+  "oneTimers": [
+    "Restructuring costs of $14M for Propel, WTW's AI Acceleration Plan (there were none in this line a year ago).",
+    "Transaction and program expenses of $42M, mainly share-based compensation and other transaction-related costs for the Newfront and Cushon acquisitions and Propel integration \u2014 up from $2M a year ago."
+  ],
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Organic growth held up",
+      "text": "Revenue rose 8% as reported, of which 4% was organic \u2014 the rest came from acquisitions and currency. Health, Wealth & Career grew 7% and Risk & Broking 8% on a reported basis."
+    },
+    {
+      "stat": "$3.63",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EPS jumped 18%",
+      "text": "Adjusted diluted EPS was $3.63 versus GAAP $3.24, and the adjusted operating margin widened to 21.9% from 20.4% \u2014 the deal and restructuring costs are the gap between the two views."
+    },
+    {
+      "stat": "$56M",
+      "statColor": "#cf5f4e",
+      "title": "One-off costs flattened GAAP profit",
+      "text": "Restructuring ($14M) plus transaction and program expenses ($42M) are why net income was nearly flat at $309M versus $306M despite 8% revenue growth; the GAAP operating margin slipped to 17.4% from 18.3%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326006942/exh_991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526437327/wtw-20260930.htm"
+    }
+  ],
+  "footerNote": "WTW prints a single 'Costs of providing services' block. This page treats salaries and benefits ($1,507M) \u2014 the people who deliver the advice and broking \u2014 as the direct cost of revenue, so gross profit is revenue less that people cost; the rest of the printed block sits in operating expenses, and the totals tie exactly to the printed income from operations of $429M. Segment figures are WTW's segment revenue measure; adding $23M of reimbursable expenses and other items reaches GAAP revenue. Net income of $309M is consolidated; $303M was attributable to WTW shareholders after $6M for noncontrolling interests.",
+  "follow100": [
+    {
+      "label": "Health, Wealth & Career",
+      "amount": 54.88
+    },
+    {
+      "label": "Risk & Broking",
+      "amount": 44.19
+    },
+    {
+      "label": "Corporate and reimbursable items",
+      "amount": 0.93
+    },
+    {
+      "label": "Salaries and benefits",
+      "amount": -61.26
+    },
+    {
+      "label": "Other operating expenses",
+      "amount": -14.39
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.4
+    },
+    {
+      "label": "Depreciation",
+      "amount": -2.24
+    },
+    {
+      "label": "Transaction and program expenses",
+      "amount": -1.71
+    },
+    {
+      "label": "Restructuring costs",
+      "amount": -0.57
+    },
+    {
+      "label": "Other income",
+      "amount": -1.67
+    },
+    {
+      "label": "Tax",
+      "amount": -3.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.56
+    }
+  ]
+}

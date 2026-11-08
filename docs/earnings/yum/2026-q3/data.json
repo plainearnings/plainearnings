@@ -1,0 +1,181 @@
+{
+  "ticker": "YUM",
+  "company": "Yum! Brands",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-03",
+  "verdict": "Yum! sold Pizza Hut during the quarter for a $1.7B pre-tax gain that swamped everything else \u2014 GAAP profit hit $1.6B \u2014 while the brands it kept grew revenue 4%, led by KFC.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.1B",
+      "note": "+4% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.92",
+      "note": "vs $1.41 a year ago, lifted by the Pizza Hut sale gain"
+    },
+    {
+      "label": "EPS excl. Special Items",
+      "value": "$1.56",
+      "note": "Yum!'s underlying per-share profit, without the sale gain"
+    },
+    {
+      "label": "KFC system sales",
+      "value": "$10.0B",
+      "note": "+8% YoY; 878 gross new restaurants opened"
+    }
+  ],
+  "segments": [
+    {
+      "name": "KFC",
+      "amountM": 948,
+      "yoy": "+8%",
+      "note": "Fried-chicken restaurants worldwide \u2014 company-owned sales plus franchise royalties and advertising contributions. System sales were $10.0B, up 8%."
+    },
+    {
+      "name": "Taco Bell",
+      "amountM": 770,
+      "yoy": "+5%",
+      "note": "Mexican-inspired fast food. Revenue rose 5% even though U.S. same-store sales fell 4% in the quarter."
+    },
+    {
+      "name": "Pizza Hut",
+      "amountM": 202,
+      "yoy": "-16%",
+      "note": "Pizza Hut's revenue through its sale dates only \u2014 mainland China was sold on August 7, 2026 and the rest on September 1, 2026 \u2014 so this line will not recur."
+    },
+    {
+      "name": "Habit Burger & Grill",
+      "amountM": 134,
+      "yoy": "0%",
+      "note": "Chargrilled burgers, all in the U.S. \u2014 390 restaurants, about four-fifths company-owned. Revenue was flat year over year."
+    }
+  ],
+  "flow": {
+    "revenueM": 2054,
+    "costOfRevenueM": 679,
+    "grossProfitM": 1375,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 305,
+        "note": "Head-office and brand support costs \u2014 running the company behind the restaurants."
+      },
+      {
+        "name": "Franchise advertising and other services",
+        "amountM": 413,
+        "note": "Spending the advertising funds collected from franchisees \u2014 it roughly matches the contributions collected in revenue."
+      },
+      {
+        "name": "Franchise and property expenses",
+        "amountM": 51,
+        "note": "Costs of properties Yum! owns and leases on to franchisees."
+      },
+      {
+        "name": "Refranchising gain",
+        "amountM": -22,
+        "note": "A gain, not a cost: Yum! sold company-owned restaurants to franchisees for more than their book value."
+      },
+      {
+        "name": "Other income",
+        "amountM": -7,
+        "note": "Small miscellaneous income items, net \u2014 this line reduces total costs."
+      }
+    ],
+    "operatingIncomeM": 635,
+    "otherIncomeM": 1560,
+    "taxM": 572,
+    "netIncomeM": 1623
+  },
+  "otherDetail": "A $1,683M pre-tax gain on the Pizza Hut divestitures, less $120M of net interest expense and $2M of other pension expense (and $1M of rounding in the printed millions) \u2014 net $1,560M. Yum!'s printed operating profit including the gain was $2,317M.",
+  "oneTimers": [
+    "Pre-tax gain of $1,683M on selling Pizza Hut \u2014 mainland China to Yum China (August 7, 2026) and the rest of the world to LongRange Capital (September 1, 2026). It is why GAAP EPS was $5.92 versus $1.56 excluding Special Items.",
+    "Pizza Hut contributed $202M of revenue and $50M of operating profit through its sale dates; neither will recur, and year-ago comparisons included a full quarter of Pizza Hut.",
+    "Refranchising gain of $22M from selling company restaurants to franchisees."
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.68B",
+      "statColor": "#3e8e5a",
+      "title": "The Pizza Hut sale is the quarter",
+      "text": "Selling Pizza Hut booked a $1,683M pre-tax gain and took GAAP net income to $1,623M. Excluding Special Items, EPS was $1.56, and core operating profit excluding Pizza Hut grew 1%."
+    },
+    {
+      "stat": "+8%",
+      "statColor": "#3d7bc8",
+      "title": "KFC carried the growth",
+      "text": "KFC revenue rose 8% to $948M on $10.0B of system sales, with 878 gross new restaurants and unit growth of 7%. KFC is now well over half of Yum!'s ongoing business."
+    },
+    {
+      "stat": "-4%",
+      "statColor": "#cf5f4e",
+      "title": "Taco Bell U.S. had a soft quarter",
+      "text": "Taco Bell U.S. same-store sales fell 4% and division operating profit fell 5% to $255M, though Yum! says Taco Bell U.S. has outpaced the fast-food industry on same-store sales since the end of September."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000195/a8kex9919302026.htm"
+    }
+  ],
+  "footerNote": "Yum! prints the $1,683M Pizza Hut divestiture gain between total costs and operating profit. This chart shows operating profit before that one-time gain ($635M) and puts the gain in Other income below, so the underlying restaurant business stays readable; printed operating profit including the gain was $2,317M (the printed millions also carry a $1M rounding difference, absorbed in Other income). Division revenues are the total revenues printed for each division in the release and 10-Q.",
+  "follow100": [
+    {
+      "label": "KFC",
+      "amount": 46.16
+    },
+    {
+      "label": "Taco Bell",
+      "amount": 37.49
+    },
+    {
+      "label": "Pizza Hut",
+      "amount": 9.83
+    },
+    {
+      "label": "Habit Burger & Grill",
+      "amount": 6.52
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.06
+    },
+    {
+      "label": "General and administrative",
+      "amount": -14.85
+    },
+    {
+      "label": "Franchise advertising and other services",
+      "amount": -20.11
+    },
+    {
+      "label": "Franchise and property expenses",
+      "amount": -2.48
+    },
+    {
+      "label": "Refranchising gain",
+      "amount": 1.07
+    },
+    {
+      "label": "Other income",
+      "amount": 0.34
+    },
+    {
+      "label": "Other income",
+      "amount": 75.95
+    },
+    {
+      "label": "Tax",
+      "amount": -27.85
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 79.02
+    }
+  ]
+}

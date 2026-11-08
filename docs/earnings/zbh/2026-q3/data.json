@@ -1,0 +1,182 @@
+{
+  "ticker": "ZBH",
+  "company": "Zimmer Biomet",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-04",
+  "verdict": "Zimmer Biomet grew sales 3% to $2.1B on upper-single-digit growth in hips, extremities and surgical products, but GAAP profit fell 17% as an acquisition-related credit a year ago swung to a cost and spending rose.",
+  "revenueYoY": "+3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.1B",
+      "note": "+3% reported, +4% at constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.00",
+      "note": "vs $1.16 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.90",
+      "note": "flat vs a year ago, excluding amortization and one-off items"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$372M",
+      "note": "operating cash flow was $560M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Knees",
+      "amountM": 768,
+      "yoy": "-3%",
+      "note": "Knee replacement implants \u2014 Zimmer Biomet's largest category. Sales fell 3%, with the U.S. down 2% and international down 5%."
+    },
+    {
+      "name": "S.E.T.",
+      "amountM": 578,
+      "yoy": "+7%",
+      "note": "Sports medicine, extremities and trauma \u2014 including the Paragon 28 foot-and-ankle business bought in April 2025. Sales rose 7%."
+    },
+    {
+      "name": "Hips",
+      "amountM": 536,
+      "yoy": "+6%",
+      "note": "Hip replacement implants. Sales rose 6%, up 6% in the U.S. and 6% internationally."
+    },
+    {
+      "name": "Technology & Data, Bone Cement and Surgical",
+      "amountM": 181,
+      "yoy": "+12%",
+      "note": "Surgical tools, bone cement and data/technology products \u2014 the smallest category and the fastest growing, up 12%."
+    }
+  ],
+  "flow": {
+    "revenueM": 2063,
+    "costOfRevenueM": 595,
+    "grossProfitM": 1468,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 855,
+        "note": "The sales force that works with surgeons and hospitals, plus head-office costs."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 166,
+        "note": "Writing down the value of brands, patents and customer relationships bought in past acquisitions, year by year."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 106,
+        "note": "Designing and testing new implants and surgical products."
+      },
+      {
+        "name": "Acquisition, integration and divestiture",
+        "amountM": 20,
+        "note": "Deal and integration costs \u2014 a year ago this line was a $34M credit, so the swing cost about $54M year over year."
+      },
+      {
+        "name": "Restructuring and other cost reduction",
+        "amountM": 14,
+        "note": "Severance and program costs from cost-cutting initiatives."
+      }
+    ],
+    "operatingIncomeM": 307,
+    "otherIncomeM": -77,
+    "equityM": -1,
+    "taxM": 37,
+    "netIncomeM": 192
+  },
+  "otherDetail": "Net interest expense of $75M plus $3M of other expense, net (rounded from $2.5M), and $1M of the quarter's earnings belongs to noncontrolling interests \u2014 so net income here is the $192M attributable to Zimmer Biomet shareholders (printed: $191.6M; consolidated net earnings were $192.9M).",
+  "oneTimers": [
+    "Acquisition, integration and divestiture swung from a $34M credit a year ago to a $20M cost \u2014 a roughly $54M year-over-year drag on operating profit.",
+    "Restructuring and cost-reduction charges were $14M in the quarter.",
+    "Adjusted net earnings were $363M versus $192M GAAP \u2014 the gap is mostly the $166M of intangible amortization plus restructuring and deal costs that Zimmer Biomet excludes from its adjusted figures."
+  ],
+  "takeaways": [
+    {
+      "stat": "+3%",
+      "statColor": "#3d7bc8",
+      "title": "Growth outside knees",
+      "text": "Hips grew 6%, S.E.T. 7% and Technology & Data, Bone Cement and Surgical 12% \u2014 together two-thirds of sales \u2014 while Knees, still the biggest category, fell 3%."
+    },
+    {
+      "stat": "$1.90",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS held flat",
+      "text": "Adjusted EPS of $1.90 matched last year even as GAAP EPS fell to $1.00, because the adjusted figure strips out $166M of acquisition amortization and the deal-cost swing."
+    },
+    {
+      "stat": "$372M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed strong",
+      "text": "Operating cash flow was $560M and free cash flow $372M in the quarter, even though GAAP net earnings fell 17% to $192M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526446145/zbh-ex99_1.htm"
+    }
+  ],
+  "footerNote": "Zimmer Biomet prints its 10-Q figures in tenths of a million (net sales $2,062.9M; cost of products sold $594.5M; operating profit $307.6M). This chart rounds each line to the nearest $M, so individual lines can differ by $1M from a simple rounding of the printed totals. Product categories are the four printed in the release \u2014 Knees $767.5M, Hips $536.5M, S.E.T. $578.3M and Technology & Data, Bone Cement and Surgical $180.6M before rounding.",
+  "follow100": [
+    {
+      "label": "Knees",
+      "amount": 37.23
+    },
+    {
+      "label": "S.E.T.",
+      "amount": 28.02
+    },
+    {
+      "label": "Hips",
+      "amount": 25.98
+    },
+    {
+      "label": "Technology & Data, Bone Cement and Surgical",
+      "amount": 8.77
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.84
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -41.44
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -8.05
+    },
+    {
+      "label": "Research and development",
+      "amount": -5.14
+    },
+    {
+      "label": "Acquisition, integration and divestiture",
+      "amount": -0.97
+    },
+    {
+      "label": "Restructuring and other cost reduction",
+      "amount": -0.68
+    },
+    {
+      "label": "Other income",
+      "amount": -3.78
+    },
+    {
+      "label": "Tax",
+      "amount": -1.79
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.31
+    }
+  ]
+}

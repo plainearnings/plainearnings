@@ -1,0 +1,157 @@
+{
+  "ticker": "WRB",
+  "company": "W. R. Berkley Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-19",
+  "verdict": "W. R. Berkley earned $446M \u2014 underwriting stayed strong at a 90.8% combined ratio and investment income rose 9%, but a swing from investment gains a year ago to losses this year pulled profit down from $511M.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.74B",
+      "note": "-1% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.14",
+      "note": "diluted, vs $1.28 a year ago"
+    },
+    {
+      "label": "Combined ratio",
+      "value": "90.8%",
+      "note": "underwriting kept $9.20 of every $100 of premium"
+    },
+    {
+      "label": "Net investment income",
+      "value": "$384M",
+      "note": "+9% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net premiums earned",
+      "amountM": 3214,
+      "yoy": "+2%",
+      "note": "Premiums from specialty insurance policies, earned over the coverage period \u2014 up 2%, with Insurance segment premiums written up about 5% gross and average rates up about 4% outside workers' compensation."
+    },
+    {
+      "name": "Net investment income",
+      "amountM": 384,
+      "yoy": "+9%",
+      "note": "Interest and dividends on the money Berkley invests between collecting premiums and paying claims \u2014 up 9% as the core portfolio grew 12% and fixed-maturity income rose 10%."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 141,
+      "yoy": "-46%",
+      "note": "Revenues from non-insurance businesses and insurance service fees, reduced by $18M of net investment losses this quarter (a year ago this line included $79M of investment gains)."
+    }
+  ],
+  "flow": {
+    "revenueM": 3739,
+    "costOfRevenueM": 1998,
+    "grossProfitM": 1741,
+    "opex": [
+      {
+        "name": "Other operating costs and expenses",
+        "amountM": 1010,
+        "note": "Underwriting and running costs as Berkley prints them in one line \u2014 commissions, salaries and the cost of operating its 60 specialty businesses."
+      },
+      {
+        "name": "Expenses from non-insurance businesses",
+        "amountM": 125,
+        "note": "The cost of running the non-insurance businesses whose revenues sit in Other revenues."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 32,
+        "note": "Interest on Berkley's borrowings."
+      }
+    ],
+    "operatingIncomeM": 574,
+    "otherIncomeM": 0,
+    "equityM": -2,
+    "taxM": 126,
+    "netIncomeM": 446
+  },
+  "otherDetail": "The printed statement goes straight from pre-tax income ($574M) to tax. The -$2M shown here is the profit share attributable to noncontrolling interests, leaving $446M for common stockholders.",
+  "oneTimers": [
+    "Net investment losses of $18M (versus gains of $79M a year ago) are inside GAAP net income but excluded from Berkley's operating income of $457M ($1.17 per diluted share).",
+    "Catastrophe losses added 2.7 points to the combined ratio; excluding them, the current accident-year combined ratio was 88.1%."
+  ],
+  "takeaways": [
+    {
+      "stat": "90.8%",
+      "statColor": "#3d7bc8",
+      "title": "Underwriting stayed profitable",
+      "text": "The combined ratio of 90.8% means claims and underwriting expenses took about 91 cents of every premium dollar. Insurance segment pre-tax underwriting income grew 10.6% to $238M."
+    },
+    {
+      "stat": "$384M",
+      "statColor": "#3e8e5a",
+      "title": "Investment income keeps climbing",
+      "text": "Net investment income rose 9% to $384M as the core portfolio grew 12%. Operating income \u2014 Berkley's preferred measure, which strips out investment gains and losses \u2014 rose to $457M, or $1.17 per share."
+    },
+    {
+      "stat": "-13%",
+      "statColor": "#cf5f4e",
+      "title": "An investment swing cut GAAP profit",
+      "text": "Net income fell to $446M from $511M a year ago almost entirely because investments swung from $79M of gains to $18M of losses \u2014 the underlying insurance business improved."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000046/wrb93020268-kex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000048/wrb-20260930.htm"
+    }
+  ],
+  "footerNote": "For an insurer, claims (loss and loss expenses) play the role of cost of revenue. Berkley does not split out policy acquisition costs \u2014 its printed 'Other operating costs and expenses' ($1,010M) holds underwriting and operating costs together, so it is shown whole. Figures are converted from the statements' thousands and rounded to $M; 'Other revenues' ($141M) is the balancing total of non-insurance revenues, service fees and other income, less $18M of net investment losses. Net income of $446M is attributable to common stockholders; consolidated net income before noncontrolling interests was $448M.",
+  "follow100": [
+    {
+      "label": "Net premiums earned",
+      "amount": 85.96
+    },
+    {
+      "label": "Net investment income",
+      "amount": 10.27
+    },
+    {
+      "label": "Other revenues",
+      "amount": 3.77
+    },
+    {
+      "label": "Loss and loss expenses",
+      "amount": -53.44
+    },
+    {
+      "label": "Other operating costs and expenses",
+      "amount": -27.01
+    },
+    {
+      "label": "Expenses from non-insurance businesses",
+      "amount": -3.34
+    },
+    {
+      "label": "Interest expense",
+      "amount": -0.86
+    },
+    {
+      "label": "Other income",
+      "amount": -0.05
+    },
+    {
+      "label": "Tax",
+      "amount": -3.37
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.93
+    }
+  ]
+}

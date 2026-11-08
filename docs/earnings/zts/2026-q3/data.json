@@ -1,0 +1,162 @@
+{
+  "ticker": "ZTS",
+  "company": "Zoetis",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Zoetis revenue slipped 1% to $2.4B as U.S. companion-animal sales fell on dermatology competition and price sensitivity, partly offset by livestock growth and a 4% rise internationally \u2014 and GAAP profit fell 18%.",
+  "revenueYoY": "-1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$2.4B",
+      "note": "-1% vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.44",
+      "note": "vs $1.63 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.75",
+      "note": "+3% vs a year ago, excluding one-off items"
+    },
+    {
+      "label": "U.S. revenue",
+      "value": "$1.2B",
+      "note": "-6% vs a year ago \u2014 the weak spot of the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 1246,
+      "yoy": "-6%",
+      "note": "Zoetis's home market. Companion-animal revenue fell 8% on dermatology competition, generic pressure and price sensitivity, while livestock revenue rose 5%."
+    },
+    {
+      "name": "International",
+      "amountM": 1116,
+      "yoy": "+4%",
+      "note": "All markets outside the U.S. Companion-animal revenue rose 1% and livestock revenue rose 8%."
+    },
+    {
+      "name": "Contract Manufacturing & Human Health",
+      "amountM": 29,
+      "yoy": "+12%",
+      "note": "Contract manufacturing for others (Client Supply Services) plus the human-health business \u2014 small, and not part of either geographic segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 2391,
+    "costOfRevenueM": 698,
+    "grossProfitM": 1693,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 582,
+        "note": "The sales force that calls on vets and livestock producers, plus head-office costs."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 174,
+        "note": "Developing new animal medicines, vaccines and diagnostics."
+      },
+      {
+        "name": "Restructuring and certain acquisition/divestiture costs",
+        "amountM": 43,
+        "note": "Restructuring charges plus certain acquisition and divestiture-related costs \u2014 up from just $4M a year ago."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 31,
+        "note": "Writing down product rights and other intangibles bought in past deals, year by year."
+      }
+    ],
+    "operatingIncomeM": 863,
+    "otherIncomeM": -134,
+    "taxM": 138,
+    "netIncomeM": 591
+  },
+  "otherDetail": "Net interest expense of $62M plus $72M of other deductions\u2014net \u2014 a year ago that second line was $12M of income, so the swing cost about $84M year over year.",
+  "oneTimers": [
+    "Restructuring charges and certain acquisition/divestiture-related costs jumped to $43M from $4M a year ago.",
+    "Adjusted net income of $720M excludes a net $129M impact from purchase-accounting adjustments, acquisition and divestiture-related costs and certain significant items \u2014 which is why adjusted EPS rose 3% while GAAP EPS fell 12%.",
+    "The divested medicated feed additive portfolio cut revenue growth by about 1 percentage point in the quarter."
+  ],
+  "takeaways": [
+    {
+      "stat": "-8%",
+      "statColor": "#cf5f4e",
+      "title": "U.S. pet products are the problem",
+      "text": "U.S. companion-animal revenue fell 8% as dermatology products faced competition and pet owners showed price sensitivity. U.S. livestock rose 5%, cushioning the segment's 6% decline."
+    },
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "International and livestock grew",
+      "text": "International revenue rose 4% to $1,116M and worldwide livestock revenue rose 7% to $797M, offsetting much of the U.S. pet weakness."
+    },
+    {
+      "stat": "$1.75",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS still rose",
+      "text": "GAAP net income fell 18% to $591M on higher restructuring and other deductions, but adjusted EPS rose 3% to $1.75 \u2014 and Zoetis raised its full-year adjusted EPS guidance while narrowing its revenue guidance."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000048/exhibit99q32026.htm"
+    }
+  ],
+  "footerNote": "Zoetis does not print an operating-income subtotal \u2014 it lists interest expense and other deductions among its costs and expenses. Operating income here ($863M) is gross profit less SG&A, R&D, amortization and restructuring charges, with the $62M of interest and $72M of other deductions shown below it in Other income. Segment figures are the printed U.S., International and Contract Manufacturing & Human Health revenues from the release.",
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 52.11
+    },
+    {
+      "label": "International",
+      "amount": 46.68
+    },
+    {
+      "label": "Contract Manufacturing & Human Health",
+      "amount": 1.21
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.19
+    },
+    {
+      "label": "Selling, general and administrative",
+      "amount": -24.34
+    },
+    {
+      "label": "Research and development",
+      "amount": -7.28
+    },
+    {
+      "label": "Restructuring and certain acquisition/divestiture costs",
+      "amount": -1.8
+    },
+    {
+      "label": "Amortization of intangible assets",
+      "amount": -1.3
+    },
+    {
+      "label": "Other income",
+      "amount": -5.6
+    },
+    {
+      "label": "Tax",
+      "amount": -5.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.72
+    }
+  ]
+}
