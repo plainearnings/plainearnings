@@ -1,0 +1,154 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "FY25 Q2",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-01-29",
+  "verdict": "Microsoft grew 12% to $69.6B as Azure jumped 31% and its AI business passed a $13 billion annual run rate \u2014 it kept $24.1B as profit, even as the data-center buildout pushed costs up and investment losses weighed below the line.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.23",
+      "note": "vs $2.93 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+31%",
+      "note": "fastest-growing large piece"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$40.9B",
+      "note": "+21% YoY, 59% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 29437,
+      "note": "Office 365, LinkedIn and Dynamics \u2014 Microsoft 365 Commercial cloud grew 16% and LinkedIn 9%.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 25544,
+      "note": "Azure and server products \u2014 Azure and other cloud services grew 31%, the fastest-growing large piece.",
+      "yoy": "+19%"
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 14651,
+      "note": "Windows, Xbox and search ads \u2014 search and news advertising up 21%, Xbox content and services up 2%.",
+      "yoy": "+0%"
+    }
+  ],
+  "flow": {
+    "revenueM": 69632,
+    "costOfRevenueM": 21799,
+    "grossProfitM": 47833,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 7917,
+        "note": "Spending on building products, led by AI and cloud \u2014 up 11% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6440,
+        "note": "Selling and marketing the product line \u2014 up 3% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1823,
+        "note": "Running the company day to day \u2014 down 8% YoY."
+      }
+    ],
+    "operatingIncomeM": 31653,
+    "otherIncomeM": -2288,
+    "taxM": 5257,
+    "netIncomeM": 24108
+  },
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 42.28
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 36.68
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 21.04
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.31
+    },
+    {
+      "label": "R&D",
+      "amount": -11.37
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.25
+    },
+    {
+      "label": "G&A",
+      "amount": -2.62
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.29
+    },
+    {
+      "label": "Tax",
+      "amount": -7.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 34.62
+    }
+  ],
+  "follow100Note": "The rows reconcile to the $34.62 kept as profit within $0.01 of rounding; other expense is a $3.29 drag per $100 of revenue.",
+  "footerNote": "Segments use Microsoft's FY25 reporting structure (three segments).",
+  "otherDetail": "Other expense of $2,288M, net.",
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "Azure is the growth engine",
+      "text": "Azure and other cloud services grew 31%, and Microsoft said its AI business has passed an annual revenue run rate of $13 billion \u2014 up 175% year over year."
+    },
+    {
+      "stat": "$40.9B",
+      "statColor": "#3e8e5a",
+      "title": "The cloud is most of Microsoft now",
+      "text": "Microsoft Cloud revenue hit $40.9B, up 21% \u2014 about 59% of all revenue. The growth story is the data centers."
+    },
+    {
+      "stat": "+0%",
+      "statColor": "#5b6b7c",
+      "title": "The PC side stood still",
+      "text": "More Personal Computing was flat at $14.7B: search ads (+21%) and Windows (+4%) offset a soft quarter for Xbox content and services (+2%)."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm"
+    }
+  ]
+}

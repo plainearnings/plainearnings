@@ -1,0 +1,176 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-31",
+  "verdict": "Amazon's sales rose 13% to $167.7B and profit jumped 35% to $18.2B as AWS grew 17% and every segment earned more \u2014 but free cash flow is shrinking as spending on AI data centers surges.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+13%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.68",
+      "note": "vs $1.26 a year ago"
+    },
+    {
+      "label": "AWS growth",
+      "value": "+17%",
+      "note": "cloud unit, $30.9B of sales"
+    },
+    {
+      "label": "Operating income",
+      "value": "$19.2B",
+      "note": "up 31% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 100068,
+      "note": "Stores, subscriptions and advertising in the US, Canada and Mexico; up 11% YoY.",
+      "yoy": "+11%"
+    },
+    {
+      "name": "International",
+      "amountM": 36761,
+      "note": "Stores and subscriptions outside North America; up 16% YoY.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "AWS",
+      "amountM": 30873,
+      "note": "Amazon Web Services cloud computing; earned $10.2B of operating income \u2014 over half of Amazon's total.",
+      "yoy": "+17%"
+    }
+  ],
+  "flow": {
+    "revenueM": 167702,
+    "costOfRevenueM": 80809,
+    "grossProfitM": 86893,
+    "opex": [
+      {
+        "name": "Fulfillment",
+        "amountM": 25976,
+        "note": "Warehouses and delivery \u2014 getting orders to doors."
+      },
+      {
+        "name": "Technology & infrastructure",
+        "amountM": 27166,
+        "note": "Engineers and the tech behind the store and AWS; up 22% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 11416,
+        "note": "Advertising Amazon's own services and sales teams."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2965,
+        "note": "Back-office costs: finance, legal and admin."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 199,
+        "note": "Smaller operating items that don't fit the lines above, net."
+      }
+    ],
+    "operatingIncomeM": 19171,
+    "otherIncomeM": 1686,
+    "equityM": -15,
+    "taxM": 2678,
+    "netIncomeM": 18164
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 59.67
+    },
+    {
+      "label": "International",
+      "amount": 21.92
+    },
+    {
+      "label": "AWS",
+      "amount": 18.41
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -48.19
+    },
+    {
+      "label": "Fulfillment",
+      "amount": -15.49
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -16.2
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.81
+    },
+    {
+      "label": "General & administrative",
+      "amount": -1.77
+    },
+    {
+      "label": "Other operating expense",
+      "amount": -0.12
+    },
+    {
+      "label": "Other income",
+      "amount": 1.01
+    },
+    {
+      "label": "Equity-method activity",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -1.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.83
+    }
+  ],
+  "follow100Note": "AWS is only $18.41 of every $100 of sales, but it produces over half of Amazon's operating profit. The rows may not add exactly due to rounding.",
+  "otherDetail": "Total non-operating income of $1,686M: $1,117M of other income, plus $1,085M of interest income less $516M of interest expense. Equity-method activity took off another $15M after tax.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "AWS growth picked up",
+      "text": "AWS sales grew 17% to $30.9B and the unit earned $10.2B \u2014 more than half of Amazon's total operating income comes from the cloud."
+    },
+    {
+      "stat": "+35%",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew far faster than sales",
+      "text": "Net income jumped 35% to $18.2B. International operating income rose more than fivefold to $1.5B as the overseas stores got more efficient."
+    },
+    {
+      "stat": "$18.2B",
+      "statColor": "#b8443c",
+      "title": "Free cash flow is shrinking",
+      "text": "Free cash flow over the last twelve months fell to $18.2B, from $53.0B a year earlier \u2014 Amazon is pouring cash into AI data centers and warehouses faster than the business generates it."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250630xex991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+    }
+  ]
+}

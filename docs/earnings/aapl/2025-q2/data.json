@@ -1,0 +1,165 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q2 FY25",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-03-29",
+  "reportedDate": "2025-05-01",
+  "verdict": "Apple grew revenue 5% to $95.4B \u2014 a March-quarter record \u2014 as Services hit an all-time high of $26.6B and the new iPhone 16e joined the lineup, keeping $24.8B as profit.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.65",
+      "note": "March-quarter record; up 8% YoY"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$46.8B",
+      "note": "up 2% YoY"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$26.6B",
+      "note": "all-time high, up 12% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 46841,
+      "note": "Apple's flagship smartphone \u2014 the iPhone 16 family, joined this quarter by the lower-cost iPhone 16e; up 2% YoY.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Mac",
+      "amountM": 7949,
+      "note": "Mac computers \u2014 new M4-powered models lifted sales 7%.",
+      "yoy": "+7%"
+    },
+    {
+      "name": "iPad",
+      "amountM": 6402,
+      "note": "iPad tablets \u2014 new iPad Air and mini models lifted sales 15%.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 7522,
+      "note": "Apple Watch, AirPods, HomePod, Apple TV and accessories; down 5% YoY.",
+      "yoy": "-5%"
+    },
+    {
+      "name": "Services",
+      "amountM": 26645,
+      "note": "App Store, Apple Music, iCloud, Apple Pay, Apple TV+ and licensing \u2014 an all-time high, up 12% YoY.",
+      "yoy": "+12%"
+    }
+  ],
+  "flow": {
+    "revenueM": 95359,
+    "costOfRevenueM": 50492,
+    "grossProfitM": 44867,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 8550,
+        "note": "Spending to design future products and technologies."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 6728,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 29589,
+    "otherIncomeM": -279,
+    "taxM": 4530,
+    "netIncomeM": 24780
+  },
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 49.12
+    },
+    {
+      "label": "Mac",
+      "amount": 8.34
+    },
+    {
+      "label": "iPad",
+      "amount": 6.71
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 7.89
+    },
+    {
+      "label": "Services",
+      "amount": 27.94
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -52.95
+    },
+    {
+      "label": "R&D",
+      "amount": -8.97
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.06
+    },
+    {
+      "label": "Other income",
+      "amount": -0.29
+    },
+    {
+      "label": "Tax",
+      "amount": -4.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.99
+    }
+  ],
+  "follow100Note": "Services is now $27.94 of every $100 Apple takes in, and still growing fastest. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "otherDetail": "Other expense of $279M, net.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Services hit another record",
+      "text": "Services revenue reached an all-time high of $26.6B, up 12% \u2014 it is now 28% of everything Apple sells, and it carries much higher margins than hardware."
+    },
+    {
+      "stat": "$1.65",
+      "statColor": "#3e8e5a",
+      "title": "EPS set a March-quarter record",
+      "text": "Diluted earnings per share rose 8% to $1.65, a March-quarter record, and Apple returned $29B to shareholders in the quarter through dividends and buybacks."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#5b6b7c",
+      "title": "iPad bounced back",
+      "text": "iPad sales jumped 15% to $6.4B on new models, while Wearables, Home and Accessories fell 5% to $7.5B \u2014 the only shrinking category."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000055/a8-kex991q2202503292025.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm"
+    }
+  ]
+}

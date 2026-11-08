@@ -1,0 +1,178 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-01-26",
+  "reportedDate": "2025-02-26",
+  "verdict": "Nvidia's revenue jumped 78% to a record $39.3B as Data Center sales nearly doubled \u2014 its new Blackwell chips shipped $11.0B in their first quarter \u2014 and it kept $22.1B as profit.",
+  "revenueYoY": "+78%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+78%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.89",
+      "note": "non-GAAP also $0.89"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$35.6B",
+      "note": "up 93% YoY, 90% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$15.5B",
+      "note": "operating cash flow $16.6B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 35580,
+      "note": "AI data-center chips and networking \u2014 Blackwell systems shipped $11.0B in their first quarter; up 93% YoY.",
+      "yoy": "+93%"
+    },
+    {
+      "name": "Gaming",
+      "amountM": 2544,
+      "note": "GeForce graphics cards for gamers and AI PCs \u2014 down 11% YoY on limited supply as the RTX 50 series launched.",
+      "yoy": "-11%"
+    },
+    {
+      "name": "Professional Visualization",
+      "amountM": 511,
+      "note": "Workstation graphics for designers and engineers; up 10% YoY.",
+      "yoy": "+10%",
+      "compact": true,
+      "shortName": "Pro Viz"
+    },
+    {
+      "name": "Automotive",
+      "amountM": 570,
+      "note": "Chips and software for cars and robots \u2014 self-driving platform sales drove a 103% jump.",
+      "yoy": "+103%",
+      "compact": true
+    },
+    {
+      "name": "OEM and Other",
+      "amountM": 126,
+      "note": "Smaller chip sales to other manufacturers; up 40% YoY.",
+      "yoy": "+40%",
+      "compact": true,
+      "shortName": "OEM & Other"
+    }
+  ],
+  "flow": {
+    "revenueM": 39331,
+    "costOfRevenueM": 10608,
+    "grossProfitM": 28723,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3714,
+        "note": "Spending to design future chips and AI software."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 975,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 24034,
+    "otherIncomeM": 1183,
+    "taxM": 3126,
+    "netIncomeM": 22091
+  },
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 90.46
+    },
+    {
+      "label": "Gaming",
+      "amount": 6.47
+    },
+    {
+      "label": "Professional Visualization",
+      "amount": 1.3
+    },
+    {
+      "label": "Automotive",
+      "amount": 1.45
+    },
+    {
+      "label": "OEM and Other",
+      "amount": 0.32
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.97
+    },
+    {
+      "label": "R&D",
+      "amount": -9.44
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.48
+    },
+    {
+      "label": "Other income",
+      "amount": 3.01
+    },
+    {
+      "label": "Tax",
+      "amount": -7.95
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 56.17
+    }
+  ],
+  "follow100Note": "Data Center alone is $90.47 of every $100 Nvidia takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are revenue by market platform, as NVIDIA reports them.",
+  "otherDetail": "Interest income $511M, plus $733M of other income (mostly $727M of gains on equity investments), less $61M interest expense, net.",
+  "takeaways": [
+    {
+      "stat": "+93%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center did the heavy lifting",
+      "text": "Data Center revenue hit a record $35.6B, up 93% \u2014 about $90 of every $100 Nvidia took in \u2014 as cloud builders raced to install AI systems."
+    },
+    {
+      "stat": "$11.0B",
+      "statColor": "#3e8e5a",
+      "title": "Blackwell's first quarter",
+      "text": "The new Blackwell AI chips shipped $11.0B in their first quarter \u2014 the fastest product ramp in Nvidia's history \u2014 with large cloud providers taking about half of Data Center revenue."
+    },
+    {
+      "stat": "-22%",
+      "statColor": "#5b6b7c",
+      "title": "Gaming took a breather",
+      "text": "Gaming revenue fell 22% from the prior quarter to $2.5B because both new and older graphics cards were in short supply, even as the GeForce RTX 50 series launched."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/q4fy25pr.htm"
+    },
+    {
+      "label": "CFO commentary with segment detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/q4fy25cfocommentary.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-23",
+  "verdict": "Alphabet's revenue rose 14% to $96.4B as Search and Cloud both grew at double-digit rates \u2014 Cloud's operating profit more than doubled \u2014 and it kept $28.2B as profit even after a $1.4B legal settlement charge.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.31",
+      "note": "up 22% YoY"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+32%",
+      "note": "revenue growth YoY"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$2.8B",
+      "note": "up from $1.2B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 82543,
+      "note": "Search, YouTube, subscriptions and devices. Revenues grew 12%, with Search, subscriptions and YouTube ads all up double digits.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 13624,
+      "note": "Cloud computing for businesses \u2014 growth of 32% on AI infrastructure and data tools.",
+      "yoy": "+32%"
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 373,
+      "note": "Moonshot projects like Waymo self-driving cars; they lost $1.2B this quarter.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Hedging losses",
+      "amountM": -112,
+      "note": "Losses on Alphabet's currency-hedging program, which exists to smooth out exchange-rate swings.",
+      "yoy": null
+    }
+  ],
+  "flow": {
+    "revenueM": 96428,
+    "costOfRevenueM": 39039,
+    "grossProfitM": 57389,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 13808,
+        "note": "Engineers and AI research; up 16% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 7101,
+        "note": "Selling ads and cloud contracts, and marketing Google's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 5209,
+        "note": "Back-office, legal and admin costs \u2014 including the $1.4B legal settlement charge below."
+      }
+    ],
+    "operatingIncomeM": 31271,
+    "otherIncomeM": 2662,
+    "taxM": 5737,
+    "netIncomeM": 28196
+  },
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 85.6
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 14.13
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.39
+    },
+    {
+      "label": "Hedging losses",
+      "amount": -0.12
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.49
+    },
+    {
+      "label": "R&D",
+      "amount": -14.32
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.36
+    },
+    {
+      "label": "General & administrative",
+      "amount": -5.4
+    },
+    {
+      "label": "Other income",
+      "amount": 2.76
+    },
+    {
+      "label": "Tax",
+      "amount": -5.95
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.24
+    }
+  ],
+  "follow100Note": "Google Services is $85.60 of every $100 Alphabet takes in; Cloud adds $14.13. The rows may not add exactly due to rounding.",
+  "otherDetail": "A net gain of $2,662M \u2014 mainly gains on debt and equity securities Alphabet holds, plus interest income net of interest expense.",
+  "takeaways": [
+    {
+      "stat": "+32%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is compounding",
+      "text": "Google Cloud revenue grew 32% to $13.6B and its operating profit more than doubled to $2.8B \u2014 the AI buildout is turning into real earnings, not just sales."
+    },
+    {
+      "stat": "$1.4B",
+      "statColor": "#b8443c",
+      "title": "A legal charge sits in the costs",
+      "text": "General & administrative costs include a $1.4B charge for a settlement in principle of legal matters. Operating income still rose 14% to $31.3B despite it."
+    },
+    {
+      "stat": "29%",
+      "statColor": "#3e8e5a",
+      "title": "Nearly 30 cents of every dollar became profit",
+      "text": "Net income rose 19% to $28.2B \u2014 a 29% margin \u2014 even while Alphabet spent $22.4B in the quarter on data centers and other capital projects."
+    }
+  ],
+  "oneTimers": [
+    "A $1.4 billion charge in general & administrative costs for a settlement in principle of certain legal matters. The charge is not tax-deductible, which also pushed the quarter's tax bill up; without it, operating income would have been $32.7B instead of $31.3B."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm"
+    }
+  ]
+}
