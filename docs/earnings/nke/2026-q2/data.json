@@ -1,0 +1,169 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2025-11-30",
+  "reportedDate": "2025-12-18",
+  "revenueYoY": "+1%",
+  "verdict": "Nike's revenue rose 1% to $12.4B \u2014 wholesale grew 8% and North America 9%, but Nike Direct fell 8% and Greater China 17% \u2014 and higher tariffs cut the gross margin by three points, dropping profit 32% to $792M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "vs a year ago (flat currency-neutral)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.53",
+      "note": "-32% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "40.6%",
+      "note": "down from 43.6%, on higher tariffs"
+    },
+    {
+      "label": "Net income",
+      "value": "$792M",
+      "note": "-32% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 5633,
+      "yoy": "+9%",
+      "note": "Nike's home market \u2014 the growth engine this quarter, on wholesale demand."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3392,
+      "yoy": "+3%",
+      "note": "Europe, the Middle East and Africa \u2014 up on reported numbers, down 1% without currency help."
+    },
+    {
+      "name": "Asia Pacific & Latin America",
+      "amountM": 1667,
+      "yoy": "-4%",
+      "note": "Asia-Pacific (outside Greater China) and Latin America."
+    },
+    {
+      "name": "Greater China",
+      "amountM": 1423,
+      "yoy": "-17%",
+      "note": "China \u2014 down hard (-16% without currency help) as footwear fell 21%."
+    },
+    {
+      "name": "Converse",
+      "amountM": 300,
+      "yoy": "-30%",
+      "note": "The Converse sneaker brand \u2014 down across all territories."
+    },
+    {
+      "name": "Global Brand & Corporate",
+      "amountM": 12,
+      "yoy": "",
+      "note": "Global brand divisions plus corporate leftovers (mostly currency-hedge results)."
+    }
+  ],
+  "flow": {
+    "revenueM": 12427,
+    "costOfRevenueM": 7382,
+    "grossProfitM": 5045,
+    "opex": [
+      {
+        "name": "Demand creation",
+        "amountM": 1273,
+        "note": "Advertising and sports marketing \u2014 up 13%, with higher brand marketing and sports marketing."
+      },
+      {
+        "name": "Operating overhead",
+        "amountM": 2766,
+        "note": "Salaries, technology and running the business \u2014 down 4% on lower wage-related and administrative costs."
+      }
+    ],
+    "operatingIncomeM": 1006,
+    "otherIncomeM": -7,
+    "taxM": 207,
+    "netIncomeM": 792
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 45.33
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 27.3
+    },
+    {
+      "label": "Asia Pacific & Latin America",
+      "amount": 13.41
+    },
+    {
+      "label": "Greater China",
+      "amount": 11.45
+    },
+    {
+      "label": "Converse",
+      "amount": 2.41
+    },
+    {
+      "label": "Global Brand & Corporate",
+      "amount": 0.1
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -59.4
+    },
+    {
+      "label": "Demand creation",
+      "amount": -10.24
+    },
+    {
+      "label": "Operating overhead",
+      "amount": -22.26
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.06
+    },
+    {
+      "label": "Tax",
+      "amount": -1.67
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+1%",
+      "statColor": "#3d7bc8",
+      "title": "Wholesale carried the quarter",
+      "text": "Revenue rose 1% to $12.4B (flat without currency help). Wholesale revenue grew 8% and North America 9%, but Nike Direct fell 8% \u2014 digital sales dropped 14% \u2014 and Greater China fell 17%."
+    },
+    {
+      "stat": "40.6%",
+      "statColor": "#5b6b7c",
+      "title": "Tariffs squeezed the margin",
+      "text": "Gross margin fell 300 basis points to 40.6%, primarily on higher tariffs in North America. Inventories were $7.7B, down 3% \u2014 fewer units, but carrying higher tariff-driven product costs."
+    },
+    {
+      "stat": "$0.53",
+      "statColor": "#3e8e5a",
+      "title": "Profit fell 32%",
+      "text": "Net income fell 32% to $792M and EPS to $0.53. Demand creation spending rose 13% as Nike leans into brand marketing for its 'Win Now' reset, while operating overhead fell 4%."
+    }
+  ],
+  "otherDetail": "$9M of net interest income, less $16M of other expense, net.",
+  "footerNote": "Segment revenues are Nike's divisional revenues; 'Global Brand & Corporate' combines Global Brand Divisions ($9M) and Corporate ($3M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000138/q2fy26exhibit991er.htm"
+    }
+  ]
+}

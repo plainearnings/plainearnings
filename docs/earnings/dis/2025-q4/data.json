@@ -1,0 +1,146 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-09-27",
+  "reportedDate": "2025-11-13",
+  "revenueYoY": "0%",
+  "verdict": "Disney's revenue was flat at $22.5B \u2014 a record quarter at the parks (Experiences profit up 13% to $1.9B) offset an Entertainment segment whose profit fell 35% against last year's blockbuster slate; reported EPS rose to $0.73 mainly because a year ago carried $1.5B of restructuring charges.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.11",
+      "note": "-3% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$3.5B",
+      "note": "-5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.73",
+      "note": "vs $0.25 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 20068,
+      "yoy": "-1%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2396,
+      "yoy": "+4%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "flow": {
+    "revenueM": 22464,
+    "costOfRevenueM": 14018,
+    "grossProfitM": 8446,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 4449,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1394,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 382,
+        "note": "Mostly a $450M writedown of Disney's stake in A+E Global Media, partly offset by other benefits."
+      }
+    ],
+    "operatingIncomeM": 2221,
+    "otherIncomeM": -176,
+    "taxM": 602,
+    "netIncomeM": 1443
+  },
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.33
+    },
+    {
+      "label": "Products",
+      "amount": 10.67
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -62.4
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.81
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -6.21
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -1.7
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.78
+    },
+    {
+      "label": "Tax",
+      "amount": -2.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.42
+    }
+  ],
+  "follow100Note": "Of the $6.42 kept as profit per $100 of revenue, about $0.58 belongs to noncontrolling partners \u2014 $5.85 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$1.9B",
+      "statColor": "#3e8e5a",
+      "title": "A record quarter at the parks",
+      "text": "Experiences \u2014 parks, resorts and cruises \u2014 set a fourth-quarter record, with operating income up 13% to $1.9B: international parks grew 25% on higher attendance and guest spending, and domestic parks grew 9% on more cruise days from the Disney Treasure. Full-year Experiences profit hit a record $10.0B."
+    },
+    {
+      "stat": "-35%",
+      "statColor": "#5b6b7c",
+      "title": "Entertainment had a tough comparison",
+      "text": "Entertainment operating income fell 35% to $691M: a year ago, Inside Out 2 and Deadpool & Wolverine set box-office records, and Star India still contributed before its move into a joint venture. Streaming was the bright spot \u2014 Direct-to-Consumer revenue rose 8% and its operating income rose to $352M, with 196 million Disney+ and Hulu subscriptions at quarter-end."
+    },
+    {
+      "stat": "$0.73",
+      "statColor": "#3d7bc8",
+      "title": "Reported EPS nearly tripled \u2014 on comparisons",
+      "text": "Diluted EPS rose to $0.73 from $0.25, but mostly because last year's quarter absorbed $1.5B of restructuring and impairment charges versus $382M this year. Excluding such items, adjusted EPS actually slipped 3% to $1.11."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and impairment charges were $382M \u2014 mainly a $450M writedown of Disney's equity stake in A+E Global Media, partly offset by $68M of other benefits. A year ago the same line was $1,543M, including goodwill, retail-asset and Star India charges."
+  ],
+  "otherDetail": "Interest expense, net, of $268M on Disney's debt, partly offset by $92M of equity income from companies Disney part-owns.",
+  "footerNote": "Segment operating income: Entertainment $691M, Sports $911M, Experiences $1,878M (before corporate costs). Of the $1,443M of net income, $130M belongs to noncontrolling partners; $1,313M is attributable to Disney shareholders. Disney's Q4 release does not split out costs, so the cost lines (cost of services and products, selling, general & administrative, depreciation) are derived from the fiscal 2025 Form 10-K minus the first three quarters' Form 10-Q reports; every total matches the earnings release exactly.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000154/fy2025_q4xprxex991.htm"
+    },
+    {
+      "label": "Annual report 10-K \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/dis-20250927.htm"
+    }
+  ]
+}

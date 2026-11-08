@@ -1,0 +1,183 @@
+{
+  "ticker": "V",
+  "company": "Visa",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-29",
+  "revenueYoY": "+15%",
+  "verdict": "Visa's net revenue rose 15% to $10.9B as payments volume grew 8% and cross-border volume 12% \u2014 profit rose 14% to $5.9B despite a $707M litigation provision, helped by a one-off $333M tax benefit.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "value": "+15%",
+      "note": "to $10.9B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.03",
+      "note": "+17% YoY; non-GAAP EPS was $3.17"
+    },
+    {
+      "label": "Payments volume",
+      "value": "+8%",
+      "note": "constant-dollar; cross-border volume +12%"
+    },
+    {
+      "label": "Client incentives",
+      "value": "$4.3B",
+      "note": "28% of gross revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service revenue",
+      "amountM": 4760,
+      "yoy": "+13%",
+      "note": "Fees from banks for using the Visa brand and network on cards \u2014 based on the prior quarter's payments volume."
+    },
+    {
+      "name": "Data processing revenue",
+      "amountM": 5544,
+      "yoy": "+17%",
+      "note": "Fees for clearing and processing each transaction \u2014 processed transactions grew 9%."
+    },
+    {
+      "name": "International transaction revenue",
+      "amountM": 3652,
+      "yoy": "+6%",
+      "note": "Fees when a card is used outside its home country \u2014 cross-border volume rose 12% in constant dollars."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 1214,
+      "yoy": "+33%",
+      "note": "Value-added services \u2014 fraud tools, data and consulting for banks and merchants."
+    }
+  ],
+  "flow": {
+    "revenueM": 15170,
+    "costOfRevenueM": 4269,
+    "grossProfitM": 10901,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 1764,
+        "note": "Pay and benefits for Visa's workforce."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 515,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 410,
+        "note": "Brand, sponsorship and card marketing."
+      },
+      {
+        "name": "Litigation provision",
+        "amountM": 708,
+        "note": "Almost entirely the interchange multidistrict litigation (MDL) case \u2014 a legal charge Visa excludes from its non-GAAP results."
+      },
+      {
+        "name": "Network, professional & depreciation",
+        "amountM": 767,
+        "note": "Network and processing ($233M), professional fees ($208M) and depreciation & amortization ($326M).",
+        "compact": true,
+        "shortName": "Network, prof. & depreciation"
+      }
+    ],
+    "operatingIncomeM": 6737,
+    "otherIncomeM": -11,
+    "taxM": 873,
+    "netIncomeM": 5853
+  },
+  "follow100": [
+    {
+      "label": "Service revenue",
+      "amount": 31.38
+    },
+    {
+      "label": "Data processing revenue",
+      "amount": 36.55
+    },
+    {
+      "label": "International transaction revenue",
+      "amount": 24.07
+    },
+    {
+      "label": "Other revenue",
+      "amount": 8.0
+    },
+    {
+      "label": "Client incentives",
+      "amount": -28.15
+    },
+    {
+      "label": "Personnel",
+      "amount": -11.63
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.39
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.7
+    },
+    {
+      "label": "Litigation provision",
+      "amount": -4.67
+    },
+    {
+      "label": "Network, professional & depreciation",
+      "amount": -5.06
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.07
+    },
+    {
+      "label": "Tax",
+      "amount": -5.75
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.58
+    }
+  ],
+  "follow100Note": "Per $100 of gross revenue (before client incentives). Measured against Visa's reported net revenue of $10.9B instead, the kept profit is $53.69 per $100. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Volume growth stayed strong",
+      "text": "Net revenue rose 15% to $10.9B \u2014 data processing +17%, service revenue +13%, other revenue +33% and international transactions +6%. Payments volume grew 8% in constant dollars, cross-border volume 12% and processed transactions 9%."
+    },
+    {
+      "stat": "$3.03",
+      "statColor": "#3e8e5a",
+      "title": "EPS rose 17%",
+      "text": "GAAP EPS rose 17% to $3.03 and net income 14% to $5.9B. Non-GAAP EPS, which strips out the litigation charge and other one-offs, was $3.17, up 15%."
+    },
+    {
+      "stat": "$707M",
+      "statColor": "#5b6b7c",
+      "title": "The legal bill spiked again",
+      "text": "The litigation provision included a $707M special item for the interchange MDL case \u2014 in November, Visa signed a superseding settlement agreement for the injunctive-relief class claims, still subject to court approval. A one-off $333M deferred tax benefit, from a change in U.S. taxation of certain foreign earnings, pulled the GAAP tax rate down to 13.0%."
+    }
+  ],
+  "oneTimers": [
+    "A litigation provision of $707M (the special item within the $708M provision line) for the interchange multidistrict litigation (MDL) case sits in operating expenses; Visa excludes it from non-GAAP results.",
+    "Also excluded from non-GAAP results: $66M of amortization of acquired intangible assets and acquisition-related costs, and $7M of net losses on equity investments. GAAP results also include a $333M deferred tax benefit from a change in the U.S. taxation of certain foreign earnings. Non-GAAP net income was $6.1B ($3.17 per share)."
+  ],
+  "otherDetail": "Investment income and other gains of $183M, less $194M of interest expense \u2014 net -$11M.",
+  "footerNote": "Visa reports 'net revenue' of $10,901M; this page starts from gross revenue of $15,170M so the $4,269M of client incentives shows as a cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000044/q12026earningsrelease.htm"
+    }
+  ]
+}

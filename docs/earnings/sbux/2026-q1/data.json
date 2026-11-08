@@ -1,0 +1,162 @@
+{
+  "ticker": "SBUX",
+  "company": "Starbucks",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-12-28",
+  "reportedDate": "2026-01-28",
+  "revenueYoY": "+6%",
+  "verdict": "Starbucks grew revenue 6% to $9.9B as comparable sales rose 4% \u2014 U.S. transactions grew for the first time in eight quarters \u2014 but 'Back to Starbucks' labor investment squeezed margins, and a 61.7% tax rate tied to the China held-for-sale move cut EPS to $0.26.",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "value": "+4%",
+      "note": "transactions +3%, average ticket +1%"
+    },
+    {
+      "label": "Revenue",
+      "value": "+6%",
+      "note": "to $9.9B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.26",
+      "note": "-62% YoY on a 61.7% tax rate; non-GAAP EPS was $0.56"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$293M",
+      "note": "-62% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 7280,
+      "yoy": "+3%",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales rose 4%, on more transactions (+3%) and bigger tickets (+1%)."
+    },
+    {
+      "name": "International",
+      "amountM": 2065,
+      "yoy": "+10%",
+      "note": "Coffeehouses outside North America \u2014 comparable sales rose 5%, with China comps up 7%."
+    },
+    {
+      "name": "Channel Development",
+      "amountM": 523,
+      "yoy": "+20%",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores \u2014 growth came from the Global Coffee Alliance."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 47,
+      "yoy": "",
+      "note": "Small leftover businesses and unallocated items."
+    }
+  ],
+  "flow": {
+    "revenueM": 9915,
+    "costOfRevenueM": 7957,
+    "grossProfitM": 1958,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 639,
+        "note": "Running the company \u2014 down 4% YoY."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 401,
+        "note": "Wear and tear on coffeehouses, roasteries and equipment."
+      },
+      {
+        "name": "Restructuring & impairments",
+        "amountM": 88,
+        "note": "Store closures and write-downs under 'Back to Starbucks' \u2014 the year-ago quarter had none."
+      }
+    ],
+    "operatingIncomeM": 830,
+    "otherIncomeM": -65,
+    "taxM": 472,
+    "netIncomeM": 293
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 73.43
+    },
+    {
+      "label": "International",
+      "amount": 20.83
+    },
+    {
+      "label": "Channel Development",
+      "amount": 5.27
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.47
+    },
+    {
+      "label": "Cost of running stores",
+      "amount": -80.25
+    },
+    {
+      "label": "G&A",
+      "amount": -6.44
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.04
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -0.89
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.66
+    },
+    {
+      "label": "Tax",
+      "amount": -4.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3d7bc8",
+      "title": "Transactions are growing again",
+      "text": "Global comparable store sales rose 4% \u2014 transactions +3% and average ticket +1%. In the U.S., comparable transactions grew for the first time in eight quarters, and China comparable sales rose 7%."
+    },
+    {
+      "stat": "+6%",
+      "statColor": "#3e8e5a",
+      "title": "Revenue growth across segments",
+      "text": "Revenue rose 6% to $9.9B (5% without currency help). Channel Development jumped 20% on the Global Coffee Alliance, International rose 10% and North America 3%. Starbucks opened 128 net new stores, ending the quarter with 41,118."
+    },
+    {
+      "stat": "61.7%",
+      "statColor": "#5b6b7c",
+      "title": "A tax quirk halved the bottom line",
+      "text": "Net earnings fell 62% to $293M, squeezed twice: the GAAP operating margin narrowed 290 basis points to 9.0% on 'Back to Starbucks' labor investment, coffee prices and tariffs \u2014 and the tax rate spiked to 61.7% on a discrete charge tied to classifying the China retail business as held for sale. Non-GAAP EPS was $0.56."
+    }
+  ],
+  "oneTimers": [
+    "The 61.7% GAAP tax rate was driven by a discrete charge from changes in indefinite reinvestment assertions after Starbucks classified its China retail operations as held for sale in the quarter (ahead of the planned joint venture with Boyu Capital); the non-GAAP tax rate was 26.8%.",
+    "Restructuring and impairment charges were $88M under 'Back to Starbucks'; the year-ago quarter had none."
+  ],
+  "otherDetail": "$61M of income from equity investees and $13M of interest and other income, less $139M of interest expense.",
+  "footerNote": "Reported operating income of $891M includes $61M of income from equity investees; this page shows that in Other income (the same treatment as this site's other Starbucks pages), so the operating-profit block reads $830M. Starbucks reports in tenths of millions \u2014 lines are rounded to whole millions and tie exactly. Net earnings of $293M are essentially all attributable to Starbucks (noncontrolling interests were about $0M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000010/sbux-12282025xearningsrele.htm"
+    }
+  ]
+}

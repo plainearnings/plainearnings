@@ -1,0 +1,137 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-11",
+  "revenueYoY": "+10%",
+  "verdict": "McDonald's grew revenue 10% to $7.0B and operating profit 10% to $3.2B \u2014 comparable sales rose 5.7% worldwide, with the U.S. up 6.8% as value promotions brought in more guests.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "vs a year ago (+6% in constant currencies)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.03",
+      "note": "+8% YoY; $3.12 excluding restructuring charges"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+5.7%",
+      "note": "U.S. +6.8%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$3.2B",
+      "note": "+10% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 4311,
+      "yoy": "+9%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2536,
+      "yoy": "+10%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 162,
+      "yoy": "+35%",
+      "note": "Fees from franchisees for technology and digital platforms, plus brand-licensing income."
+    }
+  ],
+  "flow": {
+    "revenueM": 7009,
+    "costOfRevenueM": 2981,
+    "grossProfitM": 4028,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 872,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 includes $123M of depreciation and amortization."
+      }
+    ],
+    "operatingIncomeM": 3156,
+    "otherIncomeM": -398,
+    "taxM": 594,
+    "netIncomeM": 2164
+  },
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 61.51
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 36.18
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.31
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -42.54
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.44
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.68
+    },
+    {
+      "label": "Tax",
+      "amount": -8.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.87
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+5.7%",
+      "statColor": "#3d7bc8",
+      "title": "Comps rose everywhere",
+      "text": "Global comparable sales rose 5.7% with positive guest counts \u2014 the U.S. +6.8% on successful value promotions, International Operated Markets +5.2% and licensed markets +4.5%. Systemwide sales across all restaurants rose 11%."
+    },
+    {
+      "stat": "$3.03",
+      "statColor": "#3e8e5a",
+      "title": "EPS rose 8%",
+      "text": "Diluted EPS was $3.03, up 8%. Excluding $80M of net pre-tax charges tied to 'Accelerating the Organization', it was $3.12, up 10%. Operating income rose 10% to $3.2B."
+    },
+    {
+      "stat": "61%",
+      "statColor": "#5b6b7c",
+      "title": "Franchisees carry the model",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $4.3B, 61% of all revenue. Company-run stores brought in most of the rest at much thinner margins."
+    }
+  ],
+  "oneTimers": [
+    "Net pre-tax charges of $80M ($0.09 per share), primarily restructuring charges under the 'Accelerating the Organization' program to modernize how the company works; excluding them, operating income rose 13%."
+  ],
+  "otherDetail": "Interest expense of $410M on McDonald's debt, partly offset by $12M of net nonoperating income.",
+  "footerNote": "Restaurant costs include $140M of 'other restaurant expenses' and the $4M of net other operating expense, following the same presentation as this site's other McDonald's pages. McDonald's printed pre-tax income is $2,757M; the rounded lines on this page sum to $2,758M (a $1M rounding difference inside the source statement).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000032/exhibit991-12312025.htm"
+    },
+    {
+      "label": "Supplemental financial information \u2014 Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000032/exhibit992-12312025.htm"
+    }
+  ]
+}
