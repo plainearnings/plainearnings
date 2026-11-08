@@ -1,0 +1,167 @@
+{
+  "company": "Apple",
+  "flow": {
+    "costOfRevenueM": 50318,
+    "grossProfitM": 43718,
+    "netIncomeM": 23434,
+    "operatingIncomeM": 28202,
+    "opex": [
+      {
+        "amountM": 8866,
+        "name": "Research and development",
+        "note": "Spending to design future products and technologies."
+      },
+      {
+        "amountM": 6650,
+        "name": "SG&A",
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "otherIncomeM": -171,
+    "revenueM": 94036,
+    "taxM": 4597
+  },
+  "follow100": [
+    {
+      "amount": 47.41,
+      "label": "iPhone"
+    },
+    {
+      "amount": 8.56,
+      "label": "Mac"
+    },
+    {
+      "amount": 7.0,
+      "label": "iPad"
+    },
+    {
+      "amount": 7.87,
+      "label": "Wearables, Home and Accessories"
+    },
+    {
+      "amount": 29.16,
+      "label": "Services"
+    },
+    {
+      "amount": -53.51,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -9.43,
+      "label": "R&D"
+    },
+    {
+      "amount": -7.07,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.18,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.89,
+      "label": "Tax"
+    },
+    {
+      "amount": 24.92,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "iPhone alone is $47.41 of every $100 Apple takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+10%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "up 12% YoY",
+      "value": "$1.57"
+    },
+    {
+      "label": "iPhone revenue",
+      "note": "June quarter record, +13%",
+      "value": "$44.6B"
+    },
+    {
+      "label": "Services revenue",
+      "note": "all-time high, +13%",
+      "value": "$27.4B"
+    }
+  ],
+  "otherDetail": "Other expense of $171M, net.",
+  "periodEnd": "2025-06-28",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-07-31",
+  "revenueYoY": "+10%",
+  "segments": [
+    {
+      "amountM": 44582,
+      "name": "iPhone",
+      "note": "Apple's flagship smartphone; June quarter record revenue, up 13% YoY.",
+      "yoy": "+13%"
+    },
+    {
+      "amountM": 8046,
+      "name": "Mac",
+      "note": "Mac computers; up 15% YoY.",
+      "yoy": "+15%"
+    },
+    {
+      "amountM": 6581,
+      "compact": true,
+      "name": "iPad",
+      "note": "iPad tablets; down 8% YoY.",
+      "yoy": "-8%"
+    },
+    {
+      "amountM": 7404,
+      "compact": true,
+      "name": "Wearables, Home and Accessories",
+      "note": "Apple Watch, AirPods, HomePod, Apple TV and accessories; down 9% YoY.",
+      "shortName": "Wearables",
+      "yoy": "-9%"
+    },
+    {
+      "amountM": 27423,
+      "name": "Services",
+      "note": "App Store, Apple Music, iCloud, Apple Pay, Apple TV+ and licensing; all-time high revenue, up 13% YoY.",
+      "yoy": "+13%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/a8-kex991q3202506282025.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+13%",
+      "statColor": "#3d7bc8",
+      "text": "iPhone revenue hit a June-quarter record $44.6B, up 13% \u2014 nearly half of everything Apple sold.",
+      "title": "iPhone drove a June-quarter record"
+    },
+    {
+      "stat": "$27.4B",
+      "statColor": "#3e8e5a",
+      "text": "Services reached a new all-time high at $27.4B, up 13% \u2014 nearly 30% of revenue, and Apple's steadiest growth engine.",
+      "title": "Services set another all-time high"
+    },
+    {
+      "stat": "+10%",
+      "statColor": "#5b6b7c",
+      "text": "Revenue grew in every geographic segment, the installed base of active devices hit a new all-time high, and EPS rose 12% to $1.57.",
+      "title": "Growth in every region"
+    }
+  ],
+  "ticker": "AAPL",
+  "verdict": "Apple set a June-quarter revenue record \u2014 $94.0B, up 10% \u2014 with iPhone up 13% to $44.6B and Services at an all-time high of $27.4B."
+}

@@ -1,0 +1,180 @@
+{
+  "company": "NVIDIA",
+  "flow": {
+    "costOfRevenueM": 17394,
+    "grossProfitM": 26668,
+    "netIncomeM": 18775,
+    "operatingIncomeM": 21638,
+    "opex": [
+      {
+        "amountM": 3989,
+        "name": "Research and development",
+        "note": "Spending to design future chips and AI software."
+      },
+      {
+        "amountM": 1041,
+        "name": "SG&A",
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "otherIncomeM": 272,
+    "revenueM": 44062,
+    "taxM": 3135
+  },
+  "follow100": [
+    {
+      "amount": 88.77,
+      "label": "Data Center"
+    },
+    {
+      "amount": 8.54,
+      "label": "Gaming"
+    },
+    {
+      "amount": 1.16,
+      "label": "Professional Visualization"
+    },
+    {
+      "amount": 1.29,
+      "label": "Automotive"
+    },
+    {
+      "amount": 0.25,
+      "label": "OEM and Other"
+    },
+    {
+      "amount": -39.48,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -9.05,
+      "label": "R&D"
+    },
+    {
+      "amount": -2.36,
+      "label": "SG&A"
+    },
+    {
+      "amount": 0.62,
+      "label": "Other income"
+    },
+    {
+      "amount": -7.11,
+      "label": "Tax"
+    },
+    {
+      "amount": 42.61,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Data Center alone is $88.77 of every $100 Nvidia takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are revenue by market platform, as NVIDIA reports them.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+69%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "non-GAAP $0.81; $0.96 excluding the H20 charge",
+      "value": "$0.76"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "up 73% YoY, 89% of revenue",
+      "value": "$39.1B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "operating cash flow $27.4B",
+      "value": "$26.1B"
+    }
+  ],
+  "oneTimers": [
+    "A $4.5 billion charge for H20 excess inventory and purchase obligations after the U.S. government required a license to export H20 products to China \u2014 sales of H20 chips were $4.6B in the quarter, and a further $2.5B of H20 revenue could not ship. Excluding the charge, non-GAAP gross margin would have been 71.3% (vs 60.5% GAAP) and diluted EPS $0.96 (vs $0.76 GAAP)."
+  ],
+  "otherDetail": "Interest income $515M, less $63M interest expense and $180M other expense, net.",
+  "periodEnd": "2025-04-27",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "reportedDate": "2025-05-28",
+  "revenueYoY": "+69%",
+  "segments": [
+    {
+      "amountM": 39112,
+      "name": "Data Center",
+      "note": "AI data-center chips and networking \u2014 Blackwell systems now in full production; up 73% YoY.",
+      "yoy": "+73%"
+    },
+    {
+      "amountM": 3763,
+      "name": "Gaming",
+      "note": "GeForce graphics cards for gamers and AI PCs \u2014 a record quarter, up 42% YoY.",
+      "yoy": "+42%"
+    },
+    {
+      "amountM": 509,
+      "compact": true,
+      "name": "Professional Visualization",
+      "note": "Workstation graphics for designers and engineers; up 19% YoY.",
+      "shortName": "Pro Viz",
+      "yoy": "+19%"
+    },
+    {
+      "amountM": 567,
+      "compact": true,
+      "name": "Automotive",
+      "note": "Chips and software for cars and robots, including the new GM partnership; up 72% YoY.",
+      "yoy": "+72%"
+    },
+    {
+      "amountM": 111,
+      "compact": true,
+      "name": "OEM and Other",
+      "note": "Smaller chip sales to other manufacturers; up 42% YoY.",
+      "shortName": "OEM & Other",
+      "yoy": "+42%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/q1fy26pr.htm"
+    },
+    {
+      "label": "CFO commentary with segment detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/q1fy26cfocommentary.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+73%",
+      "statColor": "#3d7bc8",
+      "text": "Data Center revenue hit $39.1B, up 73% \u2014 almost $89 of every $100 Nvidia took in \u2014 as Blackwell AI systems went into full production.",
+      "title": "Data Center is nearly the whole company"
+    },
+    {
+      "stat": "$4.5B",
+      "statColor": "#b8443c",
+      "text": "A new U.S. license rule for H20 chips bound for China forced a $4.5B charge for unsold inventory and purchase commitments, and $2.5B of H20 sales that could not ship.",
+      "title": "The China export ban cost real money"
+    },
+    {
+      "stat": "71.3%",
+      "statColor": "#3e8e5a",
+      "text": "Excluding the H20 charge, gross margin would have been 71.3% and non-GAAP earnings $0.96 a share \u2014 the core AI business is still highly profitable.",
+      "title": "Underneath the charge, margins held up"
+    }
+  ],
+  "ticker": "NVDA",
+  "verdict": "Nvidia's revenue jumped 69% to $44.1B on AI data-center demand, but a $4.5B charge for H20 chips blocked from China cut gross margin to 60.5% \u2014 without it, earnings would have been $0.96 a share instead of $0.76."
+}

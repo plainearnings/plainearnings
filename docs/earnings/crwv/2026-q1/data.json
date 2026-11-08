@@ -1,0 +1,132 @@
+{
+  "company": "CoreWeave",
+  "flow": {
+    "costOfRevenueM": 716,
+    "grossProfitM": 1362,
+    "netIncomeM": -740,
+    "operatingIncomeM": -144,
+    "opex": [
+      {
+        "amountM": 1273,
+        "name": "Technology and infrastructure",
+        "note": "Running and expanding the platform: data-center operations and the engineering behind the AI cloud; up from $561M a year ago as capacity grew."
+      },
+      {
+        "amountM": 69,
+        "name": "Sales and marketing",
+        "note": "Selling the cloud to AI labs, hyperscalers and large enterprises; up from $11M a year ago as the sales effort scaled."
+      },
+      {
+        "amountM": 164,
+        "name": "General and administrative",
+        "note": "The back office: finance, legal and company-wide administration."
+      }
+    ],
+    "otherIncomeM": -512,
+    "revenueM": 2078,
+    "taxM": 84
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "AI cloud infrastructure"
+    },
+    {
+      "amount": -34.46,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -61.26,
+      "label": "Technology & infrastructure"
+    },
+    {
+      "amount": -3.32,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.89,
+      "label": "G&A"
+    },
+    {
+      "amount": -24.64,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.04,
+      "label": "Tax"
+    },
+    {
+      "amount": -35.61,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: interest and other non-operating costs took $24.64 of every $100 \u2014 and running the platform took another $61.26. The business lost $35.61 of every $100 it took in.",
+  "footerNote": "Gross profit = revenue less cost of revenue. The $740M net loss is drawn as 'Covered by cash on hand'.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+112%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted net loss per share, vs -$1.49 a year ago",
+      "value": "-$1.40"
+    },
+    {
+      "label": "Revenue backlog",
+      "note": "at Mar 31, 2026",
+      "value": "$99.4B"
+    },
+    {
+      "label": "Capex",
+      "note": "purchases of property and equipment in Q1 alone",
+      "value": "$7.7B"
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation of $153M is stripped out of the adjusted figures: the non-GAAP reconciliation removes $153M of stock-based compensation, $11M of amortization of acquired intangibles and $1M of acquisition-related costs on the way from the GAAP net loss of $740M to the adjusted net loss of $589M. There was no fair-value gain or loss this quarter."
+  ],
+  "otherDetail": "Net non-operating expense of $512M: interest expense, net was $536M \u2014 the cost of borrowing heavily to build data centers \u2014 partly offset by $24M of other income, net. There was no fair-value gain or loss this quarter.",
+  "periodEnd": "2026-03-31",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "reportedDate": "2026-05-07",
+  "revenueYoY": "+112%",
+  "segments": [
+    {
+      "amountM": 2078,
+      "name": "AI cloud infrastructure",
+      "note": "Renting out GPU-powered cloud capacity purpose-built for AI training and inference (running trained models); the company's single revenue line, up 112% YoY as demand from AI labs, hyperscalers and enterprises surged.",
+      "yoy": "+112%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000220/coreweave1q26earningspress.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+112%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue hit $2,078M, up from $982M a year ago, and the revenue backlog \u2014 work customers have committed to \u2014 reached about $99.4B at quarter-end, with new Meta and Anthropic agreements signed in the quarter.",
+      "title": "Revenue more than doubled"
+    },
+    {
+      "stat": "$536M",
+      "statColor": "#5b6b7c",
+      "text": "Operations lost $144M, but net interest expense was $536M. After $24M of other income and $84M of tax, the net loss was $740M \u2014 the price of borrowing to build ahead of demand.",
+      "title": "Interest is what makes the loss bigger"
+    },
+    {
+      "stat": "$7.7B",
+      "statColor": "#3e8e5a",
+      "text": "CoreWeave spent $7,695M on property and equipment in the quarter \u2014 about 3.7 times its revenue \u2014 while operating cash flow was $2,984M. Active power passed 1 GW, with over 3.5 GW contracted.",
+      "title": "Spending to build is enormous"
+    }
+  ],
+  "ticker": "CRWV",
+  "verdict": "CoreWeave's revenue more than doubled to $2.1B and its backlog reached $99.4B, but $536M of net interest turned a $144M operating loss into a $740M net loss."
+}
