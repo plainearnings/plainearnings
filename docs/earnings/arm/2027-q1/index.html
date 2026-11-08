@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arm Holdings — Q1 FY27 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Arm Holdings Q1 FY27 earnings in plain English: Arm&#x27;s revenue hit a record $1.29B, up 22%, with data center royalties more than doubling — but GAAP profit stayed thin at $270M, and nearly half of it came from gains on investments, not the chip business.">
+<meta property="og:title" content="Arm Holdings — Q1 FY27 Earnings, Explained Simply">
+<meta property="og:description" content="Arm&#x27;s revenue hit a record $1.29B, up 22%, with data center royalties more than doubling — but GAAP profit stayed thin at $270M, and nearly half of it came from gains on investments, not the chip business.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/arm/2027-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/arm/2027-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Arm Holdings quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Arm Holdings <span class="thin">(ARM)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q2/">
+        <span class="q-label">Q2 FY27</span>
+        <span class="q-badge">+27%</span>
+        <span class="q-meta">Reported 2026-11-04 · Revenue $1,443M</span>
+      </a>
+      <a class="q-item active" href="../2027-q1/">
+        <span class="q-label">Q1 FY27</span>
+        <span class="q-badge">+22%</span>
+        <span class="q-meta">Reported 2026-07-29 · Revenue $1,289M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Arm Holdings — Q1 FY27 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 FY27</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-07-29
+    </div>
+  </header>
+
+  <p class="verdict">Arm&#x27;s revenue hit a record $1.29B, up 22%, with data center royalties more than doubling — but GAAP profit stayed thin at $270M, and nearly half of it came from gains on investments, not the chip business.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+22%</b></span><span class="chip">EPS (GAAP)<b>$0.25</b></span><span class="chip">Royalty revenue<b>$715M</b></span><span class="chip">Free cash flow<b>$665M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Arm Holdings's Q1 FY27 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Arm Holdings took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">License and other revenue</span><div class="htrack"><div class="hfill" data-w="68.5" style="background:#3D7BC8"></div></div><span class="hval">$44.53</span></div>
+          <div class="hrow"><span class="hlabel">Royalty revenue</span><div class="htrack"><div class="hfill" data-w="85.3" style="background:#3D7BC8"></div></div><span class="hval">$55.47</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="4.3" style="background:#D96A57"></div></div><span class="hval">−$2.79</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#CF5F4E"></div></div><span class="hval">−$65.01</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="37.8" style="background:#CF5F4E"></div></div><span class="hval">−$24.59</span></div>
+          <div class="hrow"><span class="hlabel">Disposal and restructuring</span><div class="htrack"><div class="hfill" data-w="0.8" style="background:#D96A57"></div></div><span class="hval">−$0.54</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="4.1" style="background:#3D7BC8"></div></div><span class="hval">$2.64</span></div>
+          <div class="hrow"><span class="hlabel">Gains on investments</span><div class="htrack"><div class="hfill" data-w="15.3" style="background:#3D7BC8"></div></div><span class="hval">$9.93</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="2.0" style="background:#B8443C"></div></div><span class="hval">$1.32</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="32.2" style="background:#3E8E5A"></div></div><span class="hval">$20.95</span></div>
+      <p class="hnote">Royalty revenue alone is $55.47 of every $100 Arm takes in. Tax was a $17M benefit this quarter, so it adds to profit. The rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+22%</div>
+            <h3>Both halves of the business grew over 20%</h3>
+            <p>License revenue rose 23% to $574M and royalty revenue 22% to $715M — a record first quarter. Data center royalties more than doubled as Arm-based server chips spread, and Neoverse shipments have now passed 1.5 billion cores.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$0.25</div>
+            <h3>GAAP profit is much smaller than the headline</h3>
+            <p>GAAP EPS was $0.25 while non-GAAP EPS was $0.45. The gap is mostly $343M of share-based pay plus $90M of employer taxes — and $128M of net income came from fair-value gains on listed-company investments, not operations.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$1.38B</div>
+            <h3>Next quarter is guided higher</h3>
+            <p>Arm guided Q2 FY27 revenue to $1.38B (plus or minus $50M) with non-GAAP EPS of $0.47 (plus or minus $0.04). Demand for its new Arm AGI CPU now exceeds $2B across fiscal 2027–28, double the $1B opportunity outlined last quarter.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Share-based pay is the main gap between the two profit numbers: the non-GAAP reconciliation adds back $343M of equity-settled share-based compensation plus $90M of related employer taxes (net of R&amp;D incentives) and $7M of disposal and restructuring costs, which is why GAAP net income of $270M sits far below non-GAAP net income of $480M.</li><li>Net income got a $128M lift from income on equity investments — mostly $126M of fair-value gains on shares in publicly listed companies. That is market-driven, not operating profit, and Arm excludes it from its non-GAAP results.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q2/" class="">Q2 FY27</a></li><li><a href="../2027-q1/" class="current">Q1 FY27</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1973239/000197323926000113/exhibit992fye27q130-junx26.htm">Official earnings release — shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1973239/000197323926000113/exhibit991fye27q130-junx26.htm">Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1973239/000197323926000114/arm-20260630.htm">Quarterly report with financial statements, Form 6-K (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Arm calls its direct cost &#x27;cost of sales&#x27; ($36M). The $17M tax benefit is a green source into net profit.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":1.289,"nodes":{"seg0":{"name":"License and other revenue","amt":"$574M","value":0.574,"col":0,"color":"#3D7BC8","note":"+23% \u00b7 44.5% of revenue","plain":"Fees for licensing Arm chip designs, plus support and related services; up 23% YoY on continued strong demand, several high-value license agreements, and contributions from backlog.","quarter":"44.5% of all revenue this quarter."},"seg1":{"name":"Royalty revenue","amt":"$715M","value":0.715,"col":0,"color":"#7A68C4","note":"+22% \u00b7 55.5% of revenue","plain":"A cut of every chip shipped with Arm technology inside; up 22% YoY on higher royalty rates from newer designs such as Armv9 and Arm CSS, with data center royalties more than doubling.","quarter":"55.5% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$1.3B","value":1.289,"col":1,"color":"#2F3B4C","note":"+22%","plain":"All the money Arm Holdings took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.3B, +22% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.3B","value":1.253,"col":2,"color":"#69B578","note":"97.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"97.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($36M)","value":0.036,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$36M \u2014 about 2.8 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$162M","value":0.162,"col":3,"color":"#69B578","note":"","plain":"Combined other income was $162M: interest income of $31M plus $3M of other non-operating income (together the $34M shown as other income), plus $128M of income from equity investments \u2014 mostly fair-value gains on shares in listed companies. Tax was a $17M benefit, not a charge.","quarter":"$162M added to profit."},"op":{"name":"Operating profit","amt":"$91M","value":0.091,"col":3,"color":"#4C9A67","note":"7.1% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 7.1% margin."},"opex":{"name":"Operating expenses","amt":"($1.2B)","value":1.162,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.2B total, split into Research and development, Selling, general and administrative, Disposal, restructuring and other on the right."},"ox0":{"name":"Research and development","amt":"($838M)","value":0.838,"col":4,"color":"#CF5F4E","note":"65% of revenue","plain":"Designing new processors and platform technology; the GAAP figure includes $247M of share-based pay (paying staff in shares) and $61M of related employer taxes.","quarter":"$838M \u2014 65% of revenue."},"ox1":{"name":"Selling, general and administrative","amt":"($317M)","value":0.317,"col":4,"color":"#CF5F4E","note":"24.6% of revenue","plain":"Selling and running the company; the GAAP figure includes $87M of share-based pay and $27M of related employer taxes.","quarter":"$317M \u2014 24.6% of revenue."},"ox2":{"name":"Disposal, restructuring and other","amt":"($7M)","value":0.007,"col":4,"color":"#CF5F4E","note":"0.5% of revenue","plain":"One-off disposal and restructuring costs \u2014 excluded from Arm's non-GAAP results.","quarter":"$7M \u2014 0.5% of revenue.","compact":true,"compactLabel":"Disposal, restructuring and other: $7M (0.5% of revenue)"},"net":{"name":"Net profit","amt":"$270M","value":0.27,"col":4,"color":"#3E8E5A","note":"20.9% margin","plain":"The bottom line \u2014 what Arm Holdings actually earned after everything.","quarter":"$270M \u2014 about 20.9 cents of every revenue dollar."},"taxben":{"name":"Tax benefit","amt":"$17M","value":0.017,"col":4,"color":"#69B578","note":"","plain":"The tax line added money back instead of taking it \u2014 a $17M benefit this quarter, drawn here as its own source into net profit.","quarter":"$17M added to the bottom line."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","taxben","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":0.574,"c":"#94b6e1","amt":"$574M"},{"s":"seg1","d":"rev","v":0.715,"c":"#b6acdf","amt":"$715M"},{"s":"rev","d":"gross","v":1.253,"c":"#BFE0C6","amt":"$1.3B"},{"s":"rev","d":"cost","v":0.036,"c":"#F4C7B9","amt":"$36M"},{"s":"gross","d":"op","v":0.091,"c":"#ACD8B8","amt":"$91M"},{"s":"gross","d":"opex","v":1.162,"c":"#F2B3A4","amt":"$1.2B"},{"s":"op","d":"net","v":0.108,"c":"#ACD8B8","amt":"$108M"},{"s":"otherin","d":"net","v":0.162,"c":"#ACD8B8","amt":"$162M"},{"s":"taxben","d":"net","v":0.017,"c":"#ACD8B8","amt":"$17M"},{"s":"opex","d":"ox0","v":0.838,"c":"#F6C0B1","amt":"$838M"},{"s":"opex","d":"ox1","v":0.317,"c":"#F6C0B1","amt":"$317M"},{"s":"opex","d":"ox2","v":0.007,"c":"#F6C0B1","amt":"$7M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>
