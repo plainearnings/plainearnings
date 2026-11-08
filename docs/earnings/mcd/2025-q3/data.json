@@ -1,0 +1,138 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-11-05",
+  "revenueYoY": "+3%",
+  "verdict": "McDonald's grew revenue 3% to $7.1B and operating income 5% to $3.4B \u2014 comparable sales rose 3.6% across every segment \u2014 but franchised rent and royalties did the lifting while company-run restaurant sales fell 3%.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+3%",
+      "note": "vs a year ago (+1% in constant currencies)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.18",
+      "note": "+2% YoY; $3.22 excluding restructuring charges"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+3.6%",
+      "note": "U.S. +2.4%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$3.4B",
+      "note": "+5% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 4363,
+      "yoy": "+7%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2563,
+      "yoy": "-3%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 152,
+      "yoy": "+22%",
+      "note": "Fees from franchisees for technology and digital platforms, plus brand-licensing income."
+    }
+  ],
+  "flow": {
+    "revenueM": 7078,
+    "costOfRevenueM": 2973,
+    "grossProfitM": 4105,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 748,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $785M of SG&A (including $121M of depreciation and amortization), less $37M of other operating income."
+      }
+    ],
+    "operatingIncomeM": 3357,
+    "otherIncomeM": -408,
+    "taxM": 671,
+    "netIncomeM": 2278
+  },
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 61.64
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 36.21
+    },
+    {
+      "label": "Other revenues",
+      "amount": 2.15
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -42.0
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.57
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.76
+    },
+    {
+      "label": "Tax",
+      "amount": -9.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.18
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3.6%",
+      "statColor": "#3d7bc8",
+      "title": "Comps rose everywhere",
+      "text": "Global comparable sales rose 3.6% \u2014 the U.S. +2.4% on positive check growth, International Operated Markets +4.3% led by Germany and Australia, and licensed markets +4.7% led by Japan. Systemwide sales rose 8% to over $36B."
+    },
+    {
+      "stat": "$3.18",
+      "statColor": "#3e8e5a",
+      "title": "EPS rose 2%",
+      "text": "Diluted EPS was $3.18, up 2%. Excluding $39M of pre-tax restructuring charges under 'Accelerating the Organization', it was $3.22. Operating income rose 5% to $3.4B."
+    },
+    {
+      "stat": "62%",
+      "statColor": "#5b6b7c",
+      "title": "Franchisees carry the model",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $4.4B, 62% of all revenue, and grew 7%. Company-run stores shrank 3% to $2.6B at much thinner margins."
+    }
+  ],
+  "oneTimers": [
+    "Net pre-tax charges of $39M ($0.04 per share), primarily restructuring charges under the 'Accelerating the Organization' program to modernize how the company works; excluding them, operating income rose 3%."
+  ],
+  "otherDetail": "Interest expense of $406M on McDonald's debt, plus $1M of net nonoperating expense.",
+  "footerNote": "The release's printed lines are rounded: the revenue lines sum to $7,077M vs the $7,078M total printed (the $1M difference is carried in Other revenues), and the interest and nonoperating lines sum to pre-tax income of $2,950M vs the $2,949M printed; this page follows the printed totals and net income.",
+  "segmentNote": "Systemwide sales grew 8% (6% in constant currency) to over $36B; comparable sales: U.S. +2.4%, International Operated Markets +4.3%, International Developmental Licensed Markets +4.7%.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000057/exhibit991-9302025.htm"
+    },
+    {
+      "label": "Supplemental financial information \u2014 Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000057/exhibit992-9302025.htm"
+    }
+  ]
+}

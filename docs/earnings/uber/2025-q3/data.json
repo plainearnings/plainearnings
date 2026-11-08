@@ -1,0 +1,174 @@
+{
+  "ticker": "UBER",
+  "company": "Uber",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-11-04",
+  "revenueYoY": "+20%",
+  "verdict": "Uber grew revenue 20% to $13.5B on 22% more trips, but operating profit rose only 5% to $1.1B as legal reserves swelled \u2014 the headline $6.6B net income came mostly from a $4.9B one-off tax benefit and $1.5B of investment gains.",
+  "kpis": [
+    {
+      "label": "Gross Bookings",
+      "value": "$49.7B",
+      "note": "+21% YoY; trips grew 22%"
+    },
+    {
+      "label": "Revenue growth",
+      "value": "+20%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.11",
+      "note": "includes a $4.9B tax valuation release"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$2.3B",
+      "note": "+33% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mobility",
+      "amountM": 7682,
+      "yoy": "+20%",
+      "note": "Rides \u2014 the original Uber business. Gross Bookings rose 20% to $25.1B."
+    },
+    {
+      "name": "Delivery",
+      "amountM": 4477,
+      "yoy": "+29%",
+      "note": "Food and grocery delivery \u2014 Uber Eats and couriers. Gross Bookings rose 25% to $23.3B."
+    },
+    {
+      "name": "Freight",
+      "amountM": 1308,
+      "yoy": "0%",
+      "note": "Trucking logistics \u2014 matching shippers with carriers. Revenue and bookings were flat."
+    }
+  ],
+  "flow": {
+    "revenueM": 13467,
+    "costOfRevenueM": 8109,
+    "grossProfitM": 5358,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 735,
+        "note": "Running the platform day to day \u2014 support, operations and local teams."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1277,
+        "note": "Promotions, advertising and winning riders, eaters and drivers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 862,
+        "note": "Building the platform and its autonomous-vehicle partnerships."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1183,
+        "note": "Running the company \u2014 legal, finance and the back office. This quarter it absorbed $479M of legal, tax and regulatory reserve changes and settlements."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 188,
+        "note": "Spreading the cost of equipment and past acquisitions over their useful lives.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 1113,
+    "otherIncomeM": 1507,
+    "equityM": -14,
+    "taxM": -4046,
+    "netIncomeM": 6652
+  },
+  "follow100": [
+    {
+      "label": "Mobility",
+      "amount": 57.04
+    },
+    {
+      "label": "Delivery",
+      "amount": 33.24
+    },
+    {
+      "label": "Freight",
+      "amount": 9.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.21
+    },
+    {
+      "label": "Operations & support",
+      "amount": -5.46
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.48
+    },
+    {
+      "label": "R&D",
+      "amount": -6.4
+    },
+    {
+      "label": "G&A",
+      "amount": -8.78
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.4
+    },
+    {
+      "label": "Other income",
+      "amount": 11.09
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 30.04
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 49.39
+    }
+  ],
+  "follow100Note": "Of the $49.40 kept as profit per $100 of revenue, $0.19 belongs to non-controlling partners \u2014 $49.21 is Uber shareholders'. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Trips still booming",
+      "text": "Trips grew 22% to 3.5 billion and Gross Bookings 21% to $49.7B, with Monthly Active Platform Consumers up 17%. Revenue grew 20% to $13.5B \u2014 Mobility +20%, Delivery +29%, Freight flat."
+    },
+    {
+      "stat": "$479M",
+      "statColor": "#5b6b7c",
+      "title": "Legal reserves hit operating profit",
+      "text": "Income from operations rose just 5% to $1.1B: general & administrative costs jumped to $1,183M as Uber booked $479M of legal, tax and regulatory reserve changes and settlements. Adjusted EBITDA, which excludes them, rose 33% to $2.3B."
+    },
+    {
+      "stat": "$4.9B",
+      "statColor": "#3e8e5a",
+      "title": "A tax release made the bottom line",
+      "text": "Net income attributable to Uber was $6.6B ($3.11 a share) \u2014 but $4.9B of it was a non-cash benefit from releasing a tax valuation allowance, and other income included a $1.5B net gain on revaluations of Uber's equity investments."
+    }
+  ],
+  "oneTimers": [
+    "A $4.9B non-cash tax benefit from releasing valuation allowances against deferred tax assets sits in the tax line (a $4,046M net tax benefit for the quarter) \u2014 it reflects Uber's sustained profitability, not cash received.",
+    "Other income includes a $1.5B net benefit (pre-tax) from revaluations of Uber's equity investments \u2014 paper gains on stakes it holds.",
+    "General & administrative expense includes $479M of legal, tax and regulatory reserve changes and settlements, which Uber excludes from Adjusted EBITDA."
+  ],
+  "otherDetail": "Other income, net of $1,619M \u2014 mostly a $1.5B net gain on revaluations of Uber's equity investments, plus interest income \u2014 less $112M of interest expense and a $14M equity-method loss.",
+  "footerNote": "Net income of $6,652M includes $26M attributable to non-controlling interests; $6,626M is attributable to Uber shareholders (the $3.11 EPS figure).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000030/uberq325earningspressrelea.htm"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-06-28",
+  "reportedDate": "2025-08-06",
+  "revenueYoY": "+2%",
+  "verdict": "Disney grew revenue 2% to $23.7B and segment profit 8% to $4.6B \u2014 Experiences hit $2.5B and streaming turned solidly profitable \u2014 while a $3.3B one-off tax benefit on the Hulu deal more than doubled reported net income to $5.9B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.61",
+      "note": "+16% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$4.6B",
+      "note": "+8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.92",
+      "note": "vs $1.43 a year ago \u2014 flattered by a $3.3B tax benefit"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 21214,
+      "yoy": "+2%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2436,
+      "yoy": "+5%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "flow": {
+    "revenueM": 23650,
+    "costOfRevenueM": 14532,
+    "grossProfitM": 9118,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 4141,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1332,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 185,
+        "note": "Primarily an impairment of an equity investment."
+      }
+    ],
+    "operatingIncomeM": 3460,
+    "otherIncomeM": -249,
+    "taxM": -2732,
+    "netIncomeM": 5943
+  },
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.7
+    },
+    {
+      "label": "Products",
+      "amount": 10.3
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -61.45
+    },
+    {
+      "label": "SG&A",
+      "amount": -17.51
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.63
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -0.78
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -1.05
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 11.55
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.13
+    }
+  ],
+  "follow100Note": "Of the $25.13 kept as profit per $100 of revenue, about $2.88 belongs to noncontrolling partners \u2014 $22.25 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$2.5B",
+      "statColor": "#3e8e5a",
+      "title": "Experiences carried the quarter",
+      "text": "Experiences \u2014 parks, resorts and cruises \u2014 grew operating income 13% to $2,516M on 8% higher revenue, with domestic parks up 22% on higher attendance and guest spending. Sports profit rose 29% to $1,037M, helped by the absence of last year's $314M Star India loss."
+    },
+    {
+      "stat": "$346M",
+      "statColor": "#3d7bc8",
+      "title": "Streaming is now a real profit engine",
+      "text": "Entertainment operating income fell 15% to $1,022M as TV networks declined and last year's Inside Out 2 set an impossible comparison \u2014 but Direct-to-Consumer operating income swung to $346M from a $19M loss, with 183 million Disney+ and Hulu subscriptions."
+    },
+    {
+      "stat": "$3.3B",
+      "statColor": "#5b6b7c",
+      "title": "A tax benefit doubled the bottom line",
+      "text": "Reported net income was $5,943M ($2.92 a share), but $3.3B of it was a non-cash tax benefit recognized when Hulu's U.S. tax classification changed. Excluding such items, adjusted EPS was $1.61, up 16%."
+    }
+  ],
+  "oneTimers": [
+    "A $3.3B non-cash tax benefit, recognized upon the change in Hulu's U.S. income tax classification, sits in the tax line (a $2,732M net tax benefit for the quarter) and accounts for most of the jump in reported net income.",
+    "Restructuring and impairment charges were $185M, primarily an impairment of an equity investment."
+  ],
+  "otherDetail": "Interest expense, net, of $324M on Disney's debt, partly offset by $75M of equity income from companies Disney part-owns.",
+  "footerNote": "Of the $5,943M of net income, $681M belongs to noncontrolling partners; $5,262M is attributable to Disney (the $2.92 EPS figure).",
+  "segmentNote": "Segment operating income: Entertainment $1,022M, Sports $1,037M, Experiences $2,516M (before corporate costs).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000135/fy2025_q3xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/dis-20250628.htm"
+    }
+  ]
+}

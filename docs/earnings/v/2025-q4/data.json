@@ -1,0 +1,183 @@
+{
+  "ticker": "V",
+  "company": "Visa",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-10-28",
+  "revenueYoY": "+12%",
+  "verdict": "Visa's net revenue rose 12% to $10.7B as payments volume grew 9% and cross-border volume 12% \u2014 but a $903M litigation provision cut GAAP profit 4% to $5.1B, even as underlying EPS rose 10%.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "value": "+12%",
+      "note": "to $10.7B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.62",
+      "note": "-1% YoY; non-GAAP EPS was $2.98"
+    },
+    {
+      "label": "Payments volume",
+      "value": "+9%",
+      "note": "constant-dollar; cross-border volume +12%"
+    },
+    {
+      "label": "Client incentives",
+      "value": "$4.2B",
+      "note": "28% of gross revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service revenue",
+      "amountM": 4602,
+      "yoy": "+10%",
+      "note": "Fees from banks for using the Visa brand and network on cards \u2014 based on the prior quarter's payments volume."
+    },
+    {
+      "name": "Data processing revenue",
+      "amountM": 5394,
+      "yoy": "+17%",
+      "note": "Fees for clearing and processing each transaction \u2014 processed transactions grew 10%."
+    },
+    {
+      "name": "International transaction revenue",
+      "amountM": 3800,
+      "yoy": "+10%",
+      "note": "Fees when a card is used outside its home country \u2014 cross-border volume rose 12% in constant dollars."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 1176,
+      "yoy": "+21%",
+      "note": "Value-added services \u2014 fraud tools, data and consulting for banks and merchants."
+    }
+  ],
+  "flow": {
+    "revenueM": 14972,
+    "costOfRevenueM": 4248,
+    "grossProfitM": 10724,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 1742,
+        "note": "Pay and benefits for Visa's workforce."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 544,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 576,
+        "note": "Brand, sponsorship and card marketing."
+      },
+      {
+        "name": "Litigation provision",
+        "amountM": 903,
+        "note": "Almost entirely the special item for the interchange multidistrict litigation (MDL) case and other uncovered legal matters \u2014 a legal charge Visa excludes from its non-GAAP results."
+      },
+      {
+        "name": "Network, professional & depreciation",
+        "amountM": 811,
+        "note": "Network and processing ($239M), professional fees ($256M) and depreciation & amortization ($316M).",
+        "compact": true,
+        "shortName": "Network, prof. & depreciation"
+      }
+    ],
+    "operatingIncomeM": 6148,
+    "otherIncomeM": 75,
+    "taxM": 1133,
+    "netIncomeM": 5090
+  },
+  "follow100": [
+    {
+      "label": "Service revenue",
+      "amount": 30.74
+    },
+    {
+      "label": "Data processing revenue",
+      "amount": 36.03
+    },
+    {
+      "label": "International transaction revenue",
+      "amount": 25.38
+    },
+    {
+      "label": "Other revenue",
+      "amount": 7.85
+    },
+    {
+      "label": "Client incentives",
+      "amount": -28.37
+    },
+    {
+      "label": "Personnel",
+      "amount": -11.64
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.63
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.85
+    },
+    {
+      "label": "Litigation provision",
+      "amount": -6.03
+    },
+    {
+      "label": "Network, professional & depreciation",
+      "amount": -5.42
+    },
+    {
+      "label": "Other income",
+      "amount": 0.5
+    },
+    {
+      "label": "Tax",
+      "amount": -7.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 34.0
+    }
+  ],
+  "follow100Note": "Per $100 of gross revenue (before client incentives). Measured against Visa's reported net revenue of $10.7B instead, the kept profit is $47.46 per $100. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "title": "Volume growth stayed strong",
+      "text": "Net revenue rose 12% to $10.7B \u2014 data processing +17%, other revenue +21%, service revenue +10% and international transactions +10%. Payments volume grew 9% in constant dollars, cross-border volume 12% and processed transactions 10%."
+    },
+    {
+      "stat": "$2.98",
+      "statColor": "#3e8e5a",
+      "title": "Underlying EPS rose 10%",
+      "text": "Non-GAAP EPS was $2.98, up 10%, and non-GAAP net income $5.8B, up 7%. GAAP EPS slipped 1% to $2.62 because of the legal charge below. Visa also raised its quarterly dividend 14% to $0.67 a share."
+    },
+    {
+      "stat": "$903M",
+      "statColor": "#5b6b7c",
+      "title": "The legal bill spiked again",
+      "text": "The litigation provision was $903M \u2014 mostly a $899M special item for the interchange MDL case and other uncovered legal matters, vs just $10M a year ago. It cut GAAP net income 4% to $5.1B; Visa excludes it from non-GAAP results."
+    }
+  ],
+  "oneTimers": [
+    "A litigation provision of $903M sits in operating expenses, $899M of it the special item for the interchange multidistrict litigation (MDL) case and other uncovered legal matters; Visa excludes it from non-GAAP results.",
+    "Also excluded from non-GAAP results: $54M of amortization of acquired intangible assets and $12M of acquisition-related costs, and $46M of net gains on equity investments. Non-GAAP net income was $5.8B ($2.98 per share)."
+  ],
+  "otherDetail": "Investment income and other gains of $285M, less $210M of interest expense \u2014 net +$75M.",
+  "footerNote": "Visa reports 'net revenue' of $10,724M; this page starts from gross revenue of $14,972M so the $4,248M of client incentives shows as a cost.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm"
+    }
+  ]
+}
