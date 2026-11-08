@@ -1,0 +1,167 @@
+{
+  "ticker": "WEC",
+  "company": "WEC Energy Group",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-29",
+  "revenueYoY": "+9%",
+  "verdict": "WEC Energy earned $389M, up 43%, as warmer weather, new Wisconsin rates and very large new customers lifted electricity sales \u2014 and it raised its 2026 guidance.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+9%",
+      "note": "Revenue $2,291M, vs $2,104M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.18",
+      "note": "vs $0.83 a year ago"
+    },
+    {
+      "label": "Wisconsin segment profit",
+      "value": "$362M",
+      "note": "net income contribution, up 29% YoY"
+    },
+    {
+      "label": "2026 EPS guidance",
+      "value": "$5.60\u2013$5.64",
+      "note": "raised and narrowed with this report"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Wisconsin utilities",
+      "amountM": 1964,
+      "yoy": "+10%",
+      "note": "Electric and gas utilities in Wisconsin (We Energies, Wisconsin Public Service and others) selling to outside customers \u2014 the heart of the company. The segment contributed $362M of net income."
+    },
+    {
+      "name": "Illinois gas utilities",
+      "amountM": 183,
+      "yoy": "0%",
+      "note": "Peoples Gas and North Shore Gas in Chicago and its suburbs \u2014 a seasonally quiet quarter for heating gas; revenue was flat."
+    },
+    {
+      "name": "Non-utility energy infrastructure",
+      "amountM": 82,
+      "yoy": "+8%",
+      "note": "We Power's generating plants, gas storage and majority-owned renewable projects \u2014 sales to outside customers only (it also sold $119M to WEC's own utilities, eliminated here)."
+    },
+    {
+      "name": "Other states gas utilities",
+      "amountM": 61,
+      "yoy": "+15%",
+      "note": "Gas utilities in Minnesota and Michigan (Minnesota Energy Resources, Michigan Gas Utilities)."
+    }
+  ],
+  "flow": {
+    "revenueM": 2290,
+    "costOfRevenueM": 651,
+    "grossProfitM": 1639,
+    "opex": [
+      {
+        "name": "Other operation & maintenance",
+        "amountM": 614,
+        "note": "Running and repairing power plants, wires and gas networks, and serving customers day to day."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 389,
+        "note": "Spreading the cost of plants and networks over their long lives \u2014 rises as WEC builds."
+      },
+      {
+        "name": "Property & revenue taxes",
+        "amountM": 72,
+        "note": "Property taxes on plants and networks, plus revenue-based taxes."
+      }
+    ],
+    "operatingIncomeM": 564,
+    "otherIncomeM": -194,
+    "equityM": 66,
+    "taxM": 47,
+    "netIncomeM": 389
+  },
+  "otherDetail": "Interest expense of $242M, partly offset by $50M of other income (including allowance for funds used during construction); the line also absorbs about $1M of subsidiary preferred dividends and amounts attributable to noncontrolling interests, so the flow lands on the $389M attributable to common shareholders. Separately, WEC's roughly 60% share of the American Transmission Company added $66M of equity earnings (the equityM line).",
+  "footerNote": "Adaptation for a utility: fuel and purchased power ($559M) plus the cost of natural gas sold ($92M) are treated as cost of revenue \u2014 together they are WEC's reported cost of sales. Segment revenues are external revenues from the Form 10-Q segment note; the electric transmission segment earns through equity earnings, not revenue. WEC reports in tenths of millions; whole millions are rounded.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000104/a2026q3wecearningsreleasee.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000107/wec-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$362M",
+      "statColor": "#3d7bc8",
+      "title": "Wisconsin carried the quarter",
+      "text": "The Wisconsin segment contributed $362M of net income, up 29%, on new rates in effect since January, warmer summer weather and carrying costs on construction for very large customers (VLCs) \u2014 the data-center-style loads arriving in Wisconsin."
+    },
+    {
+      "stat": "+3.3%",
+      "statColor": "#3e8e5a",
+      "title": "People used more power",
+      "text": "Retail electricity deliveries rose 3.3% excluding the iron-ore mine and the very large customers \u2014 residential use rose 5.1% in the warm weather."
+    },
+    {
+      "stat": "$5.60\u2013$5.64",
+      "statColor": "#5b6b7c",
+      "title": "Guidance raised",
+      "text": "WEC raised and narrowed its 2026 EPS guidance to $5.60\u2013$5.64, citing favorable weather and capital investment supported by the very large customers."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Wisconsin utilities",
+      "amount": 85.76
+    },
+    {
+      "label": "Illinois gas utilities",
+      "amount": 7.99
+    },
+    {
+      "label": "Non-utility energy infrastructure",
+      "amount": 3.58
+    },
+    {
+      "label": "Other states gas utilities",
+      "amount": 2.66
+    },
+    {
+      "label": "Fuel, purchased power & gas",
+      "amount": -28.43
+    },
+    {
+      "label": "Other operation & maintenance",
+      "amount": -26.81
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -16.99
+    },
+    {
+      "label": "Property & revenue taxes",
+      "amount": -3.14
+    },
+    {
+      "label": "Transmission equity earnings",
+      "amount": 2.88
+    },
+    {
+      "label": "Other income & interest, net",
+      "amount": -8.47
+    },
+    {
+      "label": "Tax",
+      "amount": -2.05
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.99
+    }
+  ]
+}

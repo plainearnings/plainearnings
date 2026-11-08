@@ -1,0 +1,141 @@
+{
+  "ticker": "WAB",
+  "company": "Wabtec",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-21",
+  "revenueYoY": "+8.1%",
+  "verdict": "Wabtec grew sales 8% to $3.1B and widened margins in both rail segments, lifting GAAP earnings per share 34% \u2014 demand for freight and transit equipment stayed strong.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8.1%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.42",
+      "note": "vs $1.81 a year ago"
+    },
+    {
+      "label": "Backlog",
+      "value": "$31.4B",
+      "note": "total orders on hand, +23% YoY"
+    },
+    {
+      "label": "Operating margin",
+      "value": "20.0%",
+      "note": "GAAP; up 3.0 pts YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Freight",
+      "amountM": 2237,
+      "note": "Locomotives, freight-car parts and digital rail systems \u2014 up 6.9% YoY, earning a 23.0% operating margin.",
+      "yoy": "+6.9%"
+    },
+    {
+      "name": "Transit",
+      "amountM": 883,
+      "note": "Passenger-rail brakes, doors and couplers \u2014 up 11.3% YoY, helped by the Dellner Couplers acquisition, at a 16.4% margin.",
+      "yoy": "+11.3%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3120,
+    "costOfRevenueM": 1956,
+    "grossProfitM": 1164,
+    "opex": [
+      {
+        "name": "SG&A",
+        "amountM": 383,
+        "note": "Selling and running the company day to day."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 89,
+        "note": "Non-cash amortization of brands and technology bought in past deals."
+      },
+      {
+        "name": "Engineering",
+        "amountM": 67,
+        "note": "Engineering and product development spending."
+      }
+    ],
+    "operatingIncomeM": 625,
+    "otherIncomeM": -68,
+    "taxM": 146,
+    "netIncomeM": 411
+  },
+  "otherDetail": "Interest expense, net of $80M, partly offset by $12M of other income, for a net cost of $68M.",
+  "oneTimers": [
+    "Adjusted EPS of $2.83 excludes $89M of non-cash amortization of acquisition intangibles (worth $0.39 a share after tax) and $4M of after-tax restructuring and portfolio-optimization costs."
+  ],
+  "footerNote": "Net income of $411M is the consolidated total; $409M was attributable to Wabtec shareholders after $2M to noncontrolling interests \u2014 EPS is calculated on the $409M figure.",
+  "takeaways": [
+    {
+      "stat": "+8.1%",
+      "statColor": "#3d7bc8",
+      "title": "Both segments grew",
+      "text": "Sales reached $3.12B as Freight rose 6.9% and Transit rose 11.3%, with the Frauscher and Dellner acquisitions adding to demand that was already healthy."
+    },
+    {
+      "stat": "20.0%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened",
+      "text": "GAAP operating margin hit 20.0%, up 3.0 points, as gross margin improved to 37.3% \u2014 the company kept more of each sales dollar than a year ago."
+    },
+    {
+      "stat": "$31.4B",
+      "statColor": "#5b6b7c",
+      "title": "A record order book",
+      "text": "Backlog reached $31.4B, up 23% from a year ago \u2014 years of locomotive, parts and transit work already ordered by customers."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/a3q26pressreleaseword.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Freight",
+      "amount": 71.7
+    },
+    {
+      "label": "Transit",
+      "amount": 28.3
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.69
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.28
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.85
+    },
+    {
+      "label": "Engineering",
+      "amount": -2.15
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -2.18
+    },
+    {
+      "label": "Tax",
+      "amount": -4.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.17
+    }
+  ]
+}

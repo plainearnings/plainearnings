@@ -1,0 +1,155 @@
+{
+  "ticker": "WDC",
+  "company": "Western Digital",
+  "quarterLabel": "FY27 Q1",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-10-02",
+  "reportedDate": "2026-10-22",
+  "revenueYoY": "+55%",
+  "verdict": "Western Digital's revenue jumped 55% to $4.4B and profit hit $1.8B as AI data centers bought high-capacity disk drives at sharply higher prices.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+55%",
+      "note": "Revenue $4,381M, vs $2,818M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$4.63",
+      "note": "vs $3.07 a year ago; non-GAAP EPS was $4.64"
+    },
+    {
+      "label": "Gross margin (GAAP)",
+      "value": "57.8%",
+      "note": "vs 43.5% a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.38B",
+      "note": "operating cash flow was $1.60B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloud",
+      "amountM": 3868,
+      "yoy": "+54%",
+      "note": "Hard drives for data centers and big enterprise customers \u2014 88% of all revenue. Exabytes shipped rose more than 20% and the average price per exabyte rose about 25% on AI-driven demand."
+    },
+    {
+      "name": "Client",
+      "amountM": 320,
+      "yoy": "+119%",
+      "note": "Drives sold into PCs and other devices through computer makers and distributors \u2014 more than doubled off a small base."
+    },
+    {
+      "name": "Consumer",
+      "amountM": 193,
+      "yoy": "+19%",
+      "note": "Retail external drives and other consumer products \u2014 prices per exabyte rose about 70% while units shipped fell about 30%."
+    }
+  ],
+  "flow": {
+    "revenueM": 4381,
+    "costOfRevenueM": 1847,
+    "grossProfitM": 2534,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 283,
+        "note": "Developing higher-capacity drive technology \u2014 actually down from $294M a year ago."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 162,
+        "note": "Selling the drives and running the company."
+      },
+      {
+        "name": "Business realignment charges",
+        "amountM": 43,
+        "note": "Restructuring charges \u2014 severance and related costs of reshaping the business."
+      }
+    ],
+    "operatingIncomeM": 2046,
+    "otherIncomeM": -8,
+    "taxM": 259,
+    "netIncomeM": 1779
+  },
+  "otherDetail": "Interest and other expense of $8M, net.",
+  "oneTimers": [
+    "$43M of business realignment (restructuring) charges are inside operating expenses. Excluding them and similar adjustments, non-GAAP EPS was $4.64 versus GAAP EPS of $4.63 \u2014 a nearly clean quarter."
+  ],
+  "footerNote": "End-market revenue (Cloud, Client, Consumer) is the disaggregation in the Form 10-Q; the earnings release reports the same income-statement totals.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "88%",
+      "statColor": "#3d7bc8",
+      "title": "It is a cloud company now",
+      "text": "Cloud was $3,868M of the $4,381M total, up 54% \u2014 data centers racing to store AI data bought more exabytes at about 25% higher prices per exabyte."
+    },
+    {
+      "stat": "57.8%",
+      "statColor": "#3e8e5a",
+      "title": "Pricing power showed up in margin",
+      "text": "Gross margin jumped to 57.8% from 43.5% a year ago, and operating margin reached 46.7% \u2014 scarce high-capacity drives are being sold at premium prices."
+    },
+    {
+      "stat": "~$5.1B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance says more of the same",
+      "text": "For FY27 Q2 Western Digital guided to revenue of about $5.1B (up 66\u201372% YoY) and non-GAAP gross margin around 60.5% \u2014 and raised the quarterly dividend 17% to $0.175 a share."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Cloud",
+      "amount": 88.29
+    },
+    {
+      "label": "Client",
+      "amount": 7.3
+    },
+    {
+      "label": "Consumer",
+      "amount": 4.41
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -42.16
+    },
+    {
+      "label": "Research & development",
+      "amount": -6.46
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -3.7
+    },
+    {
+      "label": "Business realignment charges",
+      "amount": -0.98
+    },
+    {
+      "label": "Interest & other, net",
+      "amount": -0.18
+    },
+    {
+      "label": "Tax",
+      "amount": -5.91
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 40.61
+    }
+  ]
+}

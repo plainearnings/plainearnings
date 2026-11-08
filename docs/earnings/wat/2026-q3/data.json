@@ -1,0 +1,169 @@
+{
+  "ticker": "WAT",
+  "company": "Waters Corporation",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-10-03",
+  "reportedDate": "2026-11-03",
+  "verdict": "Waters more than doubled revenue to $1.77B by adding Becton Dickinson's biosciences and diagnostics businesses, but acquisition accounting charges cut GAAP profit to $81M.",
+  "revenueYoY": "+121%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+121%",
+      "note": "reported; +9% organic"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.82",
+      "note": "vs $2.50 a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$4.10",
+      "note": "+21% YoY, non-GAAP"
+    },
+    {
+      "label": "Acquired BDS revenue",
+      "value": "$896M",
+      "note": "of $1,767M total revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Analytical Sciences Division",
+      "amountM": 703,
+      "note": "Waters' core instruments, chemistry consumables and services \u2014 up 8% YoY, with double-digit instrument and chemistry growth.",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Advanced Diagnostics Division",
+      "amountM": 575,
+      "note": "Clinical diagnostics, mostly from the acquired Becton Dickinson diagnostics business \u2014 prior-year Waters revenue here was only $64M."
+    },
+    {
+      "name": "Biosciences Division",
+      "amountM": 396,
+      "note": "Reagents and bioscience tools from the acquired Becton Dickinson biosciences business \u2014 a new division for Waters."
+    },
+    {
+      "name": "Materials Sciences Division",
+      "amountM": 93,
+      "note": "Materials testing (TA Instruments) \u2014 up 7% YoY.",
+      "yoy": "+7%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1767,
+    "costOfRevenueM": 879,
+    "grossProfitM": 888,
+    "opex": [
+      {
+        "name": "Selling & administrative",
+        "amountM": 398,
+        "note": "Selling and running the company, including acquisition-related costs."
+      },
+      {
+        "name": "Purchased intangibles amortization",
+        "amountM": 244,
+        "note": "Non-cash amortization of acquired intangible assets \u2014 $232M of it related to the BDS acquisition."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 106,
+        "note": "Developing new instruments, reagents and tests."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 12,
+        "note": "Charges to consolidate operations after the acquisition."
+      }
+    ],
+    "operatingIncomeM": 128,
+    "otherIncomeM": -54,
+    "taxM": -7,
+    "netIncomeM": 81
+  },
+  "otherDetail": "Interest expense, net $53M, plus about $1M of other expense implied by the reported pre-tax profit of $74M; other income was nil.",
+  "footerNote": "Waters' fiscal third quarter ended October 3, 2026 \u2014 the Saturday closest to September 30.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312526444400/d22941dex991.htm"
+    }
+  ],
+  "oneTimers": [
+    "BDS acquisition accounting dominates the GAAP figures: cost of revenue includes an $80M non-cash inventory and fixed-asset fair-value step-up, purchased intangibles amortization was $244M ($232M BDS-related), and Waters also recorded $54M of acquisition-related costs, $20M of restructuring and other items and $7M of ERP transformation costs. Excluding these, adjusted net income was $404M ($4.10 per share) versus GAAP net income of $81M ($0.82 per share), and adjusted operating income was $532M versus GAAP $128M."
+  ],
+  "takeaways": [
+    {
+      "stat": "+121%",
+      "statColor": "#3d7bc8",
+      "title": "A much bigger company",
+      "text": "Reported revenue jumped 121% to $1,767M \u2014 $896M from the acquired BDS businesses and $871M organic. Organic growth alone was 9% (10% in constant currency), ahead of guidance."
+    },
+    {
+      "stat": "$4.10",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted earnings grew 21%",
+      "text": "Adjusted EPS rose 21% to $4.10 and Waters raised every part of its full-year 2026 guidance, saying integration and synergies are ahead of schedule."
+    },
+    {
+      "stat": "$81M",
+      "statColor": "#b8443c",
+      "title": "GAAP profit is the deal's shadow",
+      "text": "GAAP net income fell to $81M from $149M a year ago despite revenue doubling, because of roughly $400M of pre-tax acquisition accounting and deal charges running through the GAAP lines."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Analytical Sciences Division",
+      "amount": 39.79
+    },
+    {
+      "label": "Advanced Diagnostics Division",
+      "amount": 32.54
+    },
+    {
+      "label": "Biosciences Division",
+      "amount": 22.41
+    },
+    {
+      "label": "Materials Sciences Division",
+      "amount": 5.26
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -49.75
+    },
+    {
+      "label": "Selling & admin",
+      "amount": -22.52
+    },
+    {
+      "label": "Intangibles amortization",
+      "amount": -13.81
+    },
+    {
+      "label": "R&D",
+      "amount": -6.0
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.68
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.06
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.4
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.58
+    }
+  ],
+  "follow100Note": "The tax line is a small benefit ($7M), not a bill, so it adds $0.40 per $100 of revenue."
+}

@@ -1,0 +1,163 @@
+{
+  "ticker": "VTRS",
+  "company": "Viatris",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-11-05",
+  "verdict": "Viatris sales were flat at $3.75B, but a $453M tax bill on just $128M of pre-tax profit turned the quarter into a $325M GAAP loss.",
+  "revenueYoY": "0%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "essentially flat vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.28",
+      "note": "loss per share"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.71",
+      "note": "+6% YoY, non-GAAP"
+    },
+    {
+      "label": "Greater China sales",
+      "value": "$703M",
+      "note": "+14% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Developed Markets",
+      "amountM": 2216,
+      "note": "Net sales in North America, Europe and other developed markets \u2014 down 2% YoY on supply constraints in Europe and added competition.",
+      "yoy": "-2%"
+    },
+    {
+      "name": "Greater China",
+      "amountM": 703,
+      "note": "Net sales in Greater China \u2014 up 14% YoY, the growth engine this quarter.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Emerging Markets",
+      "amountM": 529,
+      "note": "Net sales in emerging markets \u2014 down 7% YoY on supply constraints.",
+      "yoy": "-7%"
+    },
+    {
+      "name": "JANZ",
+      "amountM": 287,
+      "note": "Net sales in Japan, Australia and New Zealand \u2014 down 6% YoY.",
+      "yoy": "-6%"
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 15,
+      "note": "Revenues other than product net sales, as reported."
+    }
+  ],
+  "flow": {
+    "revenueM": 3750,
+    "costOfRevenueM": 2312,
+    "grossProfitM": 1438,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 237,
+        "note": "Research spending of $232M plus $5M of acquired in-process R&D, as reported."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 940,
+        "note": "Selling and running the company \u2014 reported SG&A of $951M, net of an $11M litigation settlements credit, in whole $M."
+      }
+    ],
+    "operatingIncomeM": 261,
+    "otherIncomeM": -133,
+    "taxM": 453,
+    "netIncomeM": -325
+  },
+  "otherDetail": "Interest expense $112M plus other expense, net $21M \u2014 a $133M net cost in whole-$M figures (the release reports $134M combined).",
+  "footerNote": "Loss quarter: Viatris made an operating profit, but interest, other expense and an unusually large tax provision produced a GAAP net loss.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792044/000179204426000053/exhibit991-3q26earningsrel.htm"
+    }
+  ],
+  "oneTimers": [
+    "Purchase accounting amortization of $614M \u2014 a non-cash charge from past acquisitions, mostly in cost of sales \u2014 is the biggest reason GAAP gross margin was 38.4% while adjusted gross margin was 58.0%. Adjusted net earnings were $821M ($0.71 per share) versus the GAAP net loss of $325M.",
+    "Tax drove the loss: the GAAP tax provision was $453M despite only $128M of pre-tax profit, because losses in some jurisdictions earn minimal tax benefit. The company also recorded $66M of restructuring costs and $66M of other special items in cost of sales in the quarter (both excluded from adjusted results)."
+  ],
+  "takeaways": [
+    {
+      "stat": "$453M",
+      "statColor": "#b8443c",
+      "title": "Tax turned profit into loss",
+      "text": "Viatris earned $261M of operating profit, but after $133M of interest and other expense, a $453M tax provision \u2014 on only $128M of pre-tax profit \u2014 left a $325M GAAP net loss."
+    },
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "China carried the growth",
+      "text": "Greater China sales rose 14% to $703M and brands like Lipitor ($452M) stayed strong, offsetting a 2% dip in Developed Markets and supply problems in Europe and Emerging Markets."
+    },
+    {
+      "stat": "$0.71",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted profit rose",
+      "text": "Adjusted EPS was $0.71, up 6%, and adjusted EBITDA rose 4% to $1.20B. Operating cash flow was $899M in the quarter \u2014 the underlying business still generates cash."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Developed Markets",
+      "amount": 59.09
+    },
+    {
+      "label": "Greater China",
+      "amount": 18.75
+    },
+    {
+      "label": "Emerging Markets",
+      "amount": 14.11
+    },
+    {
+      "label": "JANZ",
+      "amount": 7.65
+    },
+    {
+      "label": "Other revenues",
+      "amount": 0.4
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.65
+    },
+    {
+      "label": "R&D",
+      "amount": -6.32
+    },
+    {
+      "label": "SG&A",
+      "amount": -25.07
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.55
+    },
+    {
+      "label": "Tax",
+      "amount": -12.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -8.67
+    }
+  ],
+  "follow100Note": "Kept as profit is negative: after a $12.08 tax bill per $100 of revenue, Viatris lost $8.67 for every $100 it took in."
+}

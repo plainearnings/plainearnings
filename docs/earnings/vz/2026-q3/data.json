@@ -1,0 +1,148 @@
+{
+  "ticker": "VZ",
+  "company": "Verizon",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-09-30",
+  "reportedDate": "2026-10-26",
+  "revenueYoY": "+1%",
+  "verdict": "Verizon added 406,000 postpaid phone customers \u2014 its best third quarter in five years \u2014 and record adjusted EBITDA let it raise full-year guidance for a third straight quarter.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "Revenue $34.3B, vs $33.8B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.25",
+      "note": "vs $1.17 a year ago; adjusted EPS was $1.31"
+    },
+    {
+      "label": "Postpaid phone net adds",
+      "value": "406K",
+      "note": "best Q3 in five years; 137K net account adds, best in a decade"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$7.8B",
+      "note": "up 12% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Consumer",
+      "amountM": 26432,
+      "yoy": "+1%",
+      "note": "Phones, home internet and devices for households \u2014 mobility and broadband service of $19,777M, wireless equipment of $4,277M and other revenue of $2,378M. The segment earned $8,093M of operating income."
+    },
+    {
+      "name": "Business",
+      "amountM": 7023,
+      "yoy": "+3%",
+      "note": "Wireless and wireline services for companies, governments and wholesale customers. The segment earned $855M of operating income, up 19%."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 858,
+      "yoy": "-2%",
+      "note": "Device insurance programs, businesses held for sale (including the international wireline business moved here in Q2 2026) and the remainder to consolidated revenue after intersegment eliminations."
+    }
+  ],
+  "flow": {
+    "revenueM": 34313,
+    "costOfRevenueM": 13088,
+    "grossProfitM": 21225,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 7480,
+        "note": "Selling phones and plans, stores, marketing and running the company \u2014 down 4% as promotional spending was cut."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 5095,
+        "note": "Spreading the cost of the network, spectrum-related assets and equipment over their lives \u2014 up 10%."
+      }
+    ],
+    "operatingIncomeM": 8650,
+    "otherIncomeM": -1952,
+    "equityM": -3,
+    "taxM": 1497,
+    "netIncomeM": 5198
+  },
+  "otherDetail": "Interest expense of $1,950M and $122M of profit belonging to noncontrolling interests, partly offset by $120M of other income; part-owned businesses lost $3M (the equityM line). The flow lands on the $5,198M attributable to Verizon \u2014 consolidated net income was $5,320M.",
+  "footerNote": "Cost of revenue combines Verizon's reported cost of services ($7,265M) and cost of wireless equipment ($5,823M); operating expenses are SG&A and depreciation & amortization, matching Verizon's income statement. Consumer and Business revenues are as reported by segment; Corporate & other is the remainder to consolidated revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/a2026q3exhibit99.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000052/vz-20260930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "406K",
+      "statColor": "#3d7bc8",
+      "title": "Customers came back",
+      "text": "Verizon added 406,000 postpaid phone customers and 137,000 net accounts \u2014 the best account growth in over a decade \u2014 while postpaid phone churn improved to 0.94% and promotional acquisition costs fell 41%."
+    },
+    {
+      "stat": "$23.5B",
+      "statColor": "#3e8e5a",
+      "title": "Service revenue is the engine",
+      "text": "Mobility and broadband service revenue grew 2.9% to $23.5B. Equipment revenue fell 9% as people keep phones longer and Verizon spends less on device subsidies \u2014 a deliberate trade for margin: adjusted EBITDA hit a record $13.8B."
+    },
+    {
+      "stat": "$2B+",
+      "statColor": "#5b6b7c",
+      "title": "An AI infrastructure bet",
+      "text": "Verizon signed a $2B+ deal with Amazon Web Services to scale distributed compute for AI workloads over its fiber network \u2014 and raised full-year guidance for postpaid adds, adjusted EPS and free cash flow for the third straight quarter."
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Consumer",
+      "amount": 77.03
+    },
+    {
+      "label": "Business",
+      "amount": 20.47
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 2.5
+    },
+    {
+      "label": "Cost of services & equipment",
+      "amount": -38.14
+    },
+    {
+      "label": "Selling, general & administrative",
+      "amount": -21.8
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -14.85
+    },
+    {
+      "label": "Other income, interest & partners' share",
+      "amount": -5.69
+    },
+    {
+      "label": "Equity losses",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -4.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.15
+    }
+  ]
+}
