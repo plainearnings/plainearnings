@@ -1,0 +1,161 @@
+{
+  "company": "JPMorgan Chase",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2.6B of loans were charged off in the quarter and $810M was added to reserves.",
+  "flow": {
+    "costOfRevenueM": 3403,
+    "grossProfitM": 43024,
+    "netIncomeM": 14393,
+    "operatingIncomeM": 18743,
+    "opex": [
+      {
+        "amountM": 13566,
+        "name": "Compensation expense",
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost."
+      },
+      {
+        "amountM": 3173,
+        "name": "Professional & outside services",
+        "note": "Outside services and professional fees."
+      },
+      {
+        "amountM": 2839,
+        "name": "Technology, communications & equipment",
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms.",
+        "pngName": "Technology & equipment",
+        "shortName": "Technology & equipment"
+      },
+      {
+        "amountM": 1480,
+        "name": "Marketing",
+        "note": "Advertising and card marketing."
+      },
+      {
+        "amountM": 3223,
+        "name": "Occupancy & other expense",
+        "note": "Branches and offices ($1,420M of occupancy) plus other general costs ($1,803M).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 46427,
+    "taxM": 4350
+  },
+  "follow100": [
+    {
+      "amount": 51.62,
+      "label": "Net interest income"
+    },
+    {
+      "amount": 48.38,
+      "label": "Noninterest revenue"
+    },
+    {
+      "amount": -7.33,
+      "label": "Credit costs"
+    },
+    {
+      "amount": -29.22,
+      "label": "Compensation expense"
+    },
+    {
+      "amount": -6.83,
+      "label": "Professional & outside services"
+    },
+    {
+      "amount": -6.11,
+      "label": "Technology & equipment"
+    },
+    {
+      "amount": -3.19,
+      "label": "Marketing"
+    },
+    {
+      "amount": -6.94,
+      "label": "Occupancy & other"
+    },
+    {
+      "amount": -9.37,
+      "label": "Tax"
+    },
+    {
+      "amount": 31.0,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $46.4B reported (GAAP), used here, or $47.1B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way. The rows reconcile to the $100 total within a cent of rounding.",
+  "footerNote": "JPMorgan headlines 'managed' revenue of $47.1B; this page uses reported (GAAP) revenue of $46.4B \u2014 the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "reported basis, vs a year ago",
+      "value": "+9%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $4.37 a year ago",
+      "value": "$5.07"
+    },
+    {
+      "label": "Net interest income",
+      "note": "+2% YoY",
+      "value": "$24.0B"
+    },
+    {
+      "label": "Credit costs",
+      "note": "$2.6B charged off, $810M reserve build",
+      "value": "$3.4B"
+    }
+  ],
+  "periodEnd": "2025-09-30",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-10-14",
+  "revenueYoY": "+9%",
+  "segments": [
+    {
+      "amountM": 23966,
+      "name": "Net interest income",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 2% as higher revolving card balances and wholesale deposits offset lower rates and deposit margin compression.",
+      "yoy": "+2%"
+    },
+    {
+      "amountM": 22461,
+      "name": "Noninterest revenue",
+      "note": "Fees, trading and asset-management income \u2014 up 17%, with investment banking fees up 17% to $2.6B and asset management fees up 14%.",
+      "yoy": "+17%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/a3q25erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025044845/a3q25erfex992supplement.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "text": "Noninterest revenue rose 17% YoY to $22.5B \u2014 investment banking fees up 17% to $2.6B and asset management fees up 14% \u2014 while net interest income grew 2% to $24.0B on the reported basis.",
+      "title": "Fees and trading did the lifting"
+    },
+    {
+      "stat": "$14.4B",
+      "statColor": "#3e8e5a",
+      "text": "Net income rose 12% YoY to $14.4B and EPS rose 16% to $5.07 \u2014 the bank kept 31 cents of profit out of every revenue dollar.",
+      "title": "Profit rose 12%"
+    },
+    {
+      "stat": "$810M",
+      "statColor": "#5b6b7c",
+      "text": "Credit costs were $3.4B: $2.6B of loans were charged off and $810M was added to reserves, mostly in Consumer \u2014 a build, but smaller than the $1.0B added in the same quarter a year ago.",
+      "title": "Reserves built modestly"
+    }
+  ],
+  "ticker": "JPM",
+  "verdict": "JPMorgan earned $14.4B as reported revenue rose 9% to $46.4B \u2014 fee and trading income jumped 17% \u2014 while credit costs of $3.4B stayed close to last year's level."
+}

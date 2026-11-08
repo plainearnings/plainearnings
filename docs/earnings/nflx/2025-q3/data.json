@@ -1,0 +1,161 @@
+{
+  "company": "Netflix",
+  "flow": {
+    "costOfRevenueM": 6164,
+    "grossProfitM": 5346,
+    "netIncomeM": 2547,
+    "operatingIncomeM": 3248,
+    "opex": [
+      {
+        "amountM": 854,
+        "name": "Technology & development",
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "amountM": 786,
+        "name": "Sales & marketing",
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "amountM": 458,
+        "name": "General & administrative",
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "otherIncomeM": -139,
+    "revenueM": 11510,
+    "taxM": 562
+  },
+  "follow100": [
+    {
+      "amount": 44.06,
+      "label": "United States & Canada"
+    },
+    {
+      "amount": 32.14,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 11.91,
+      "label": "Latin America"
+    },
+    {
+      "amount": 11.89,
+      "label": "Asia-Pacific"
+    },
+    {
+      "amount": -53.55,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -6.83,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.42,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -3.98,
+      "label": "G&A"
+    },
+    {
+      "amount": -1.21,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.88,
+      "label": "Tax"
+    },
+    {
+      "amount": 22.13,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Regional revenues are rounded to whole $M and adjusted by $1M in the largest region so the parts sum exactly to the reported $11,510M total.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+17%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $5.40 a year ago (as reported then, before the 10-for-1 stock split)",
+      "value": "$5.87"
+    },
+    {
+      "label": "Operating margin",
+      "note": "operating income of $3.2B, +12% YoY \u2014 after the $619M Brazil charge",
+      "value": "28.2%"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "vs $2.2B a year ago",
+      "value": "$2.7B"
+    }
+  ],
+  "oneTimers": [
+    "Brazil tax dispute: $619M \u2014 an expense for non-income tax assessments covering 2022 through Q3 2025, booked inside cost of revenues. Excluding it, operating income would have been roughly $3.9B, and Netflix says it does not expect the matter to materially affect future results."
+  ],
+  "otherDetail": "Interest expense of $175M on Netflix's debt, partly offset by $36M of interest and other income \u2014 a net -$139M below operating profit.",
+  "periodEnd": "2025-09-30",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-10-21",
+  "revenueYoY": "+17%",
+  "segments": [
+    {
+      "amountM": 5071,
+      "name": "United States & Canada",
+      "note": "The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 3699,
+      "name": "Europe, Middle East & Africa",
+      "note": "The second-largest region \u2014 up 18% as reported, 15% at constant currency.",
+      "yoy": "+18%"
+    },
+    {
+      "amountM": 1371,
+      "name": "Latin America",
+      "note": "Cheaper plans are pulling in new households \u2014 up 10% as reported, 20% at constant currency.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 1369,
+      "name": "Asia-Pacific",
+      "note": "Mobile-first plans in price-sensitive markets \u2014 up 21% as reported, 20% at constant currency.",
+      "yoy": "+21%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000404/ex991_q325.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$619M",
+      "statColor": "#cf5f4e",
+      "text": "A $619M expense for a Brazilian non-income tax dispute \u2014 covering 2022 through Q3 2025 and booked inside cost of revenues \u2014 cut the operating margin by more than five points to 28.2%. Without it, Netflix says it would have beaten its margin forecast.",
+      "title": "A tax dispute ate the margin"
+    },
+    {
+      "stat": "+17%",
+      "statColor": "#3e8e5a",
+      "text": "Revenue rose 17% to $11.5B with every region up double digits: Asia-Pacific +21%, EMEA +18%, UCAN +17% and Latin America +10%.",
+      "title": "Growth stayed broad"
+    },
+    {
+      "stat": "$2.7B",
+      "statColor": "#3d7bc8",
+      "text": "Free cash flow was $2.7B, up from $2.2B a year ago, and Netflix raised its full-year 2025 free-cash-flow forecast to about $9B.",
+      "title": "Cash flow jumped"
+    }
+  ],
+  "ticker": "NFLX",
+  "verdict": "Netflix grew revenue 17% to $11.5B and kept $2.5B as profit \u2014 but a $619M charge from a Brazilian tax dispute, booked inside cost of revenues, is why the operating margin came in at 28% instead of the roughly 31.5% Netflix had aimed for."
+}

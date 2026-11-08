@@ -1,0 +1,161 @@
+{
+  "company": "AMD",
+  "flow": {
+    "costOfRevenueM": 4466,
+    "grossProfitM": 4780,
+    "netIncomeM": 1243,
+    "operatingIncomeM": 1270,
+    "opex": [
+      {
+        "amountM": 2139,
+        "name": "Research & development",
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators \u2014 up 31% YoY."
+      },
+      {
+        "amountM": 1069,
+        "name": "Marketing, general & administrative",
+        "note": "Selling products and running the company."
+      },
+      {
+        "amountM": 302,
+        "name": "Amortization of acquisition intangibles",
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      }
+    ],
+    "otherIncomeM": 126,
+    "revenueM": 9246,
+    "taxM": 153
+  },
+  "follow100": [
+    {
+      "amount": 46.95,
+      "label": "Data Center"
+    },
+    {
+      "amount": 29.74,
+      "label": "Client"
+    },
+    {
+      "amount": 14.04,
+      "label": "Gaming"
+    },
+    {
+      "amount": 9.27,
+      "label": "Embedded"
+    },
+    {
+      "amount": -48.3,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -23.14,
+      "label": "R&D"
+    },
+    {
+      "amount": -11.56,
+      "label": "Marketing, general & admin"
+    },
+    {
+      "amount": -3.27,
+      "label": "Amortization"
+    },
+    {
+      "amount": 1.36,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.65,
+      "label": "Tax"
+    },
+    {
+      "amount": 13.44,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 a quarterly record",
+      "value": "+36%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.54 a year ago",
+      "value": "$0.75"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "+22% YoY \u2014 47% of all revenue",
+      "value": "$4.3B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "17% of revenue",
+      "value": "$1.5B"
+    }
+  ],
+  "oneTimers": [
+    "Discontinued operations added $71M below the line \u2014 profit from the server-rack manufacturing business (acquired with ZT Systems) that AMD agreed to sell; profit from continuing operations was $1,172M.",
+    "Stock-based compensation sits inside the expense lines; on AMD's non-GAAP view (which excludes it and acquisition amortization), net income was $1,965M instead of $1,243M."
+  ],
+  "otherDetail": "Other income of $82M plus $10M of equity income, less $37M of interest expense, plus a $71M contribution from discontinued operations \u2014 a net +$126M.",
+  "periodEnd": "2025-09-27",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-11-04",
+  "revenueYoY": "+36%",
+  "segments": [
+    {
+      "amountM": 4341,
+      "name": "Data Center",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 up 22% as AI data centers kept buying; the segment earned $1,074M of operating profit.",
+      "yoy": "+22%"
+    },
+    {
+      "amountM": 2750,
+      "name": "Client",
+      "note": "Ryzen processors for PCs \u2014 up 46% on strong demand and continued market-share gains.",
+      "yoy": "+46%"
+    },
+    {
+      "amountM": 1298,
+      "name": "Gaming",
+      "note": "Graphics cards and console chips \u2014 up 181% YoY on Radeon GPU demand and recovering semi-custom console sales.",
+      "yoy": "+181%"
+    },
+    {
+      "amountM": 857,
+      "name": "Embedded",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 down 8% YoY.",
+      "yoy": "-8%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000163/q32025991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+73%",
+      "statColor": "#3e8e5a",
+      "text": "Client and Gaming together brought in $4.0B, up 73% YoY \u2014 Ryzen PC chips up 46% and Gaming up 181% \u2014 while Data Center grew 22% to $4.3B.",
+      "title": "Client and Gaming surged"
+    },
+    {
+      "stat": "52%",
+      "statColor": "#5b6b7c",
+      "text": "Gross margin reached 52%, up from 50% a year ago, as data-center products became a bigger share of the mix \u2014 and the quarter included no revenue from MI308 AI-chip shipments to China.",
+      "title": "Gross margin widened"
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#3d7bc8",
+      "text": "Free cash flow was a record $1,530M \u2014 17% of revenue \u2014 as the quarter's profits converted straight into cash.",
+      "title": "Record free cash flow"
+    }
+  ],
+  "ticker": "AMD",
+  "verdict": "AMD set a revenue record at $9.2B, up 36%, as Client and Gaming sales surged 73% and Data Center grew 22% \u2014 and profit rose 43% to $1.2B, helped by a $71M contribution from the business it is selling."
+}

@@ -1,0 +1,141 @@
+{
+  "company": "Broadcom",
+  "flow": {
+    "costOfRevenueM": 5249,
+    "grossProfitM": 10703,
+    "netIncomeM": 4140,
+    "operatingIncomeM": 5887,
+    "opex": [
+      {
+        "amountM": 3050,
+        "name": "Research & development",
+        "note": "Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "amountM": 1072,
+        "name": "Selling, general & administrative",
+        "note": "Selling the products and running the company."
+      },
+      {
+        "amountM": 694,
+        "name": "Amortization & restructuring",
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring costs."
+      }
+    ],
+    "otherIncomeM": -602,
+    "revenueM": 15952,
+    "taxM": 1145
+  },
+  "follow100": [
+    {
+      "amount": 57.46,
+      "label": "Semiconductor solutions"
+    },
+    {
+      "amount": 42.54,
+      "label": "Infrastructure software"
+    },
+    {
+      "amount": -32.91,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -19.12,
+      "label": "R&D"
+    },
+    {
+      "amount": -6.72,
+      "label": "SG&A"
+    },
+    {
+      "amount": -4.35,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": -3.77,
+      "label": "Other expense"
+    },
+    {
+      "amount": -7.18,
+      "label": "Tax"
+    },
+    {
+      "amount": 25.95,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+22%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $(0.31) a year ago from continuing operations",
+      "value": "$0.85"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "note": "to $5.2B \u2014 guided to $6.2B next quarter",
+      "value": "+63%"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "44% of revenue",
+      "value": "$7.0B"
+    }
+  ],
+  "oneTimers": [
+    "A $163M gain on the sale of a business sits inside other income, partly offsetting the quarter's $807M of interest expense.",
+    "The year-ago quarter (Q3 FY24) showed a net loss only because of a one-time $4,238M tax provision tied to moving intellectual property between subsidiaries; this quarter's tax was a normal $1,145M expense."
+  ],
+  "otherDetail": "Interest expense of $807M on Broadcom's debt, partly offset by $205M of other income, net \u2014 which includes a $163M gain on the sale of a business \u2014 a net -$602M below operating profit.",
+  "periodEnd": "2025-08-03",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-09-04",
+  "revenueYoY": "+22%",
+  "segments": [
+    {
+      "amountM": 9166,
+      "name": "Semiconductor solutions",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue grew 63% YoY to $5.2B, and Broadcom guided it to $6.2B in the next quarter.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 6786,
+      "name": "Infrastructure software",
+      "note": "VMware and other enterprise software \u2014 the steady, subscription side of the company, up 17% YoY.",
+      "yoy": "+17%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000094/avgo-08032025x8kxex99.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+63%",
+      "statColor": "#3e8e5a",
+      "text": "AI semiconductor revenue grew 63% YoY to $5.2B \u2014 custom accelerators and networking \u2014 and Broadcom guided it higher again, to $6.2B in Q4, an eleventh straight quarter of AI growth.",
+      "title": "AI revenue accelerated"
+    },
+    {
+      "stat": "$7.0B",
+      "statColor": "#3d7bc8",
+      "text": "Free cash flow was a record $7,024M \u2014 44% of revenue \u2014 because capital spending was only $142M. Broadcom returned $2.8B to shareholders in the quarter through cash dividends.",
+      "title": "Record free cash flow"
+    },
+    {
+      "stat": "$8.4B",
+      "statColor": "#5b6b7c",
+      "text": "GAAP profit carries $2,026M of amortization of acquisition-related intangibles plus $213M of restructuring \u2014 mostly VMware bookkeeping, not cash. On Broadcom's non-GAAP view, net income was $8,404M instead of $4,140M.",
+      "title": "Non-GAAP profit was double"
+    }
+  ],
+  "ticker": "AVGO",
+  "verdict": "Broadcom's revenue grew 22% to a record $16.0B as AI revenue jumped 63% to $5.2B, and it kept $4.1B as profit \u2014 a year after a one-time tax charge had pushed the same quarter into the red."
+}

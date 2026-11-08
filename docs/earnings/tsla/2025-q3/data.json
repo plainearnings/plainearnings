@@ -1,0 +1,154 @@
+{
+  "company": "Tesla",
+  "flow": {
+    "costOfRevenueM": 23041,
+    "grossProfitM": 5054,
+    "netIncomeM": 1389,
+    "operatingIncomeM": 1624,
+    "opex": [
+      {
+        "amountM": 1630,
+        "name": "Research & development",
+        "note": "AI, the Optimus robot, Cybercab and new vehicles \u2014 up 57% YoY as Tesla builds out its AI compute and robotaxi infrastructure."
+      },
+      {
+        "amountM": 1562,
+        "name": "Selling, general & administrative",
+        "note": "Selling cars and running the company day to day \u2014 up 32% YoY."
+      },
+      {
+        "amountM": 238,
+        "name": "Restructuring & other",
+        "note": "Restructuring and other one-off operating charges.",
+        "pngName": "Restructuring & other",
+        "shortName": "Restructuring"
+      }
+    ],
+    "otherIncomeM": 335,
+    "revenueM": 28095,
+    "taxM": 570
+  },
+  "follow100": [
+    {
+      "amount": 75.47,
+      "label": "Automotive"
+    },
+    {
+      "amount": 12.16,
+      "label": "Energy generation and storage"
+    },
+    {
+      "amount": 12.37,
+      "label": "Services and other"
+    },
+    {
+      "amount": -82.01,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -5.8,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.56,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.85,
+      "label": "Restructuring & other"
+    },
+    {
+      "amount": 1.19,
+      "label": "Other income"
+    },
+    {
+      "amount": -2.03,
+      "label": "Tax"
+    },
+    {
+      "amount": 4.94,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income here is Tesla's total net income of $1,389M; $1,373M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.62 a year ago",
+      "value": "$0.39"
+    },
+    {
+      "label": "Deliveries",
+      "note": "a record, +7% YoY",
+      "value": "497,099"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "$6.2B of operating cash flow less $2.2B of capex",
+      "value": "$4.0B"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges of $238M sit inside operating expenses (vs $55M a year ago), and stock-based compensation was $663M \u2014 a non-cash cost inside the expense lines.",
+    "Other income includes an $80M gain on digital assets (Tesla's bitcoin holdings are marked to market each quarter). Excluding stock pay and digital-asset moves, non-GAAP net income was $1,770M ($0.50 a share) vs GAAP net income attributable to common stockholders of $1,373M ($0.39)."
+  ],
+  "otherDetail": "Interest income of $439M, less $76M of interest expense and $28M of other expense, net \u2014 a net +$335M below operating profit.",
+  "periodEnd": "2025-09-30",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-10-22",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "amountM": 21205,
+      "name": "Automotive",
+      "note": "Car sales, leasing and regulatory credits \u2014 up 6% YoY on record deliveries of 497,099, with regulatory credit revenue of $417M vs $739M a year ago.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 3415,
+      "name": "Energy generation and storage",
+      "note": "Megapack battery systems and solar \u2014 up 44% YoY on record storage deployments of 12.5 GWh.",
+      "yoy": "+44%"
+    },
+    {
+      "amountM": 3475,
+      "name": "Services and other",
+      "note": "Supercharging, service centers, parts and FSD (supervised-driving) subscriptions \u2014 up 25% YoY.",
+      "yoy": "+25%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/exhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "497,099",
+      "statColor": "#3e8e5a",
+      "text": "Tesla delivered 497,099 vehicles \u2014 its best quarter ever, up 7% YoY \u2014 and deployed a record 12.5 GWh of energy storage, up 81%, as buyers pulled purchases forward before the U.S. EV tax credit expired.",
+      "title": "A record quarter for volume"
+    },
+    {
+      "stat": "-40%",
+      "statColor": "#cf5f4e",
+      "text": "Operating income dropped 40% YoY to $1,624M: price cuts and a higher average cost per vehicle (tariffs included) squeezed gross margin to 18.0%, while operating expenses jumped 50% on AI and R&D spending.",
+      "title": "Profit fell anyway"
+    },
+    {
+      "stat": "$4.0B",
+      "statColor": "#3d7bc8",
+      "text": "Free cash flow hit a record $3,990M \u2014 $6,238M of operating cash flow less $2,248M of capex \u2014 lifting cash and investments to $41.6B.",
+      "title": "Record free cash flow"
+    }
+  ],
+  "ticker": "TSLA",
+  "verdict": "Tesla delivered a record 497,099 cars and grew revenue 12% to $28.1B, but price cuts, tariff costs and a 50% jump in operating expenses \u2014 AI spending above all \u2014 cut operating income 40% to $1.6B."
+}
