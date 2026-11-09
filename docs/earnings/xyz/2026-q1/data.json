@@ -1,0 +1,188 @@
+{
+  "ticker": "XYZ",
+  "company": "Block",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "verdict": "Block's gross profit jumped 27% to $2.9B \u2014 Cash App up 38% \u2014 but restructuring charges, a large legal accrual and a $173M paper loss on its bitcoin holdings pushed it to a $309M net loss.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Gross profit",
+      "value": "$2.9B",
+      "note": "+27% YoY \u2014 the number Block steers by"
+    },
+    {
+      "label": "Revenue",
+      "value": "$6.1B",
+      "note": "+5% YoY; +24% excluding bitcoin"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.52",
+      "note": "vs $0.85 adjusted, a record"
+    },
+    {
+      "label": "Adjusted operating income",
+      "value": "$728M",
+      "note": "A record \u2014 a 25% margin on gross profit"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commerce enablement",
+      "amountM": 2938.47,
+      "note": "Square's business: payment processing and tools for sellers, plus Cash App's commerce features. Square's gross payment volume grew 13% \u2014 international volume up 35% \u2014 and gross profit from this category rose 15% to about $1,608M.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Financial solutions",
+      "amountM": 1321.985,
+      "note": "Cash App's money products \u2014 Borrow loans, Afterpay buy-now-pay-later, the Cash App Card and banking features. Gross profit jumped 55% to about $1,233M as Cash App Borrow origination volume grew 175%. Costs were just $89M against $1,322M of revenue.",
+      "yoy": "+51%"
+    },
+    {
+      "name": "Bitcoin ecosystem",
+      "amountM": 1796.392,
+      "note": "Bitcoin bought and sold through Cash App, plus Block's bitcoin hardware and mining efforts. Revenue fell as bitcoin trading cooled and Block cut the fee it charges on some trades; $1,728M of costs against $1,796M of revenue left just $68M of gross profit, down 26%.",
+      "yoy": "-23%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6056.847,
+    "costOfRevenueM": 3147.608,
+    "grossProfitM": 2909.239,
+    "costPlain": "What Block pays to run each transaction and product: card-network fees for sellers, the cost of Cash App's money features, and the bitcoin Block buys to resell \u2014 $1,728M of the total is bitcoin cost alone.",
+    "opex": [
+      {
+        "name": "Product development",
+        "amountM": 1038.873,
+        "note": "Engineers and designers building Square, Cash App and Block's bitcoin products \u2014 this quarter it carries severance and other restructuring costs from the February 'Workforce Plan' reorganization."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 650.508,
+        "note": "Winning sellers for Square and new users for Cash App, including Cash App peer-to-peer processing costs."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 857.564,
+        "note": "Running the company \u2014 finance, legal, people and offices. It jumped 74% because Block accrued roughly $254M more for litigation and regulatory matters, plus restructuring costs."
+      },
+      {
+        "name": "Transaction & loan losses",
+        "amountM": 500.125,
+        "note": "Money Block expects not to collect on Cash App Borrow, Afterpay and seller loans \u2014 the cost of being a lender."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 34.159,
+        "note": "Spreading the cost of companies Block has bought.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": -171.99,
+    "otherIncomeM": -220.587,
+    "taxM": -83.982,
+    "netIncomeM": -308.595
+  },
+  "otherDetail": "Interest expense, net of $53M and a $173M paper loss from revaluing Block's bitcoin holdings, partly offset by $5M of other income \u2014 a net $221M cost below operating income.",
+  "footerNote": "Net loss attributable to common stockholders was $308.7M.",
+  "pngFooterNote": "Loss driven by one-time charges \u2014 see one-time items.",
+  "follow100Note": "For every $100 of revenue, Block's products earned $48.04 of gross profit \u2014 then restructuring, legal accruals and lending losses turned the quarter into a $5.10 net loss per $100. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+27%",
+      "statColor": "#3e8e5a",
+      "title": "Gross profit growth accelerated",
+      "text": "Gross profit rose 27% to $2,909M \u2014 Cash App contributed $1.91B (+38%) and Square $982M (+9%). Block raised its full-year gross profit guidance to $12.33B, up over 19%."
+    },
+    {
+      "stat": "$728M",
+      "statColor": "#3d7bc8",
+      "title": "Record adjusted profit",
+      "text": "Adjusted operating income hit a record $728M \u2014 a 25% margin on gross profit \u2014 and adjusted EPS rose 52% to a record $0.85. The adjusted figures strip out the quarter's restructuring and legal charges."
+    },
+    {
+      "stat": "-$0.52",
+      "statColor": "#cf5f4e",
+      "title": "One-time charges hid the progress",
+      "text": "GAAP EPS was a $0.52 loss. A February reorganization ('Workforce Plan') loaded severance into every expense line, G&A carried roughly $254M of extra litigation and regulatory accruals, and bitcoin revaluation cost $173M \u2014 none of it from the core business slowing down."
+    }
+  ],
+  "oneTimers": [
+    "A February 2026 reorganization \u2014 the 'Workforce Plan' \u2014 put severance and restructuring costs into product development, sales & marketing and G&A; management does not break out the total, but personnel costs rose sharply in all three lines.",
+    "General and administrative expense includes roughly $254M of additional accruals for litigation and regulatory matters, the main reason G&A jumped 74% year over year.",
+    "A $173M non-cash loss from revaluing Block's bitcoin holdings (a $93M loss a year ago) sits below operating income.",
+    "Adjusted figures strip out these items: adjusted operating income was a record $728M versus a $172M GAAP operating loss, and adjusted EPS was $0.85 versus -$0.52 GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official Q1 2026 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526212032/d132441dex991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026032200/xyz-20260331.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Commerce enablement",
+      "amount": 48.51
+    },
+    {
+      "label": "Financial solutions",
+      "amount": 21.83
+    },
+    {
+      "label": "Bitcoin ecosystem",
+      "amount": 29.66
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -51.97
+    },
+    {
+      "label": "Product development",
+      "amount": -17.15
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -10.74
+    },
+    {
+      "label": "G&A",
+      "amount": -14.16
+    },
+    {
+      "label": "Transaction & loan losses",
+      "amount": -8.26
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.56
+    },
+    {
+      "label": "Interest expense",
+      "amount": -0.88
+    },
+    {
+      "label": "Bitcoin revaluation loss",
+      "amount": -2.85
+    },
+    {
+      "label": "Other income",
+      "amount": 0.09
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.39
+    },
+    {
+      "label": "Net loss",
+      "amount": -5.09
+    }
+  ]
+}

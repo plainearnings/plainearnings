@@ -1,0 +1,153 @@
+{
+  "ticker": "MRNA",
+  "company": "Moderna",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-01",
+  "verdict": "Moderna's revenue more than tripled to $389M on international vaccine deliveries, but a $0.9B litigation settlement charge drove a $1.3B net loss \u2014 without it, the loss would have been about $465M.",
+  "revenueYoY": "+260%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$389M",
+      "note": "+260% YoY \u2014 $311M of it international"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$3.40",
+      "note": "vs -$2.52 a year ago; includes the $0.9B settlement charge"
+    },
+    {
+      "label": "Cash & investments",
+      "value": "$7.5B",
+      "note": "vs $8.1B at Dec 31, 2025"
+    },
+    {
+      "label": "Cost of sales",
+      "value": "$955M",
+      "note": "Includes the $878M litigation settlement charge"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net product sales",
+      "amountM": 352,
+      "note": "Vaccine sales \u2014 mainly COVID vaccines. Sales jumped on deliveries under long-term strategic partnerships with governments, including the first shipment under the U.K. partnership. Revenue was $78M in the U.S. and $311M international (including other revenue).",
+      "yoy": "+309%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 37,
+      "note": "Grants, collaborations, licensing and royalties.",
+      "yoy": "+68%"
+    }
+  ],
+  "flow": {
+    "revenueM": 389,
+    "costOfRevenueM": 77,
+    "grossProfitM": 312,
+    "costPlain": "Making vaccines, excluding the litigation settlement shown separately below \u2014 including $38M of inventory write-downs and the cost of plant capacity kept ready for the fall season. As reported, total cost of sales was $955M.",
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 649,
+        "note": "The labs: developing new vaccines and drugs. Down 24% \u2014 large Phase 3 respiratory programs and CMV studies wound down."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 173,
+        "note": "Sales teams, offices, admin. Down 18% on lower employee and marketing costs."
+      },
+      {
+        "name": "Litigation settlement",
+        "amountM": 878,
+        "note": "A one-time settlement charge Moderna booked inside cost of sales (in third-party royalties). Shown on its own line here so the vaccine business's own costs stay visible; the $950M cash payment followed in July 2026."
+      }
+    ],
+    "operatingIncomeM": -1388,
+    "otherIncomeM": 54,
+    "taxM": 9,
+    "netIncomeM": -1343
+  },
+  "otherDetail": "Interest income of $72M, less $18M of other expense \u2014 net $54M.",
+  "footerNote": "As reported, cost of sales was $955M including the settlement.",
+  "pngFooterNote": "Includes a $878M litigation settlement charge.",
+  "follow100Note": "For every $100 of revenue, the settlement charge alone consumed $226 \u2014 without it, Moderna's loss would have been about $119 per $100 of revenue, not $345. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+260%",
+      "statColor": "#3e8e5a",
+      "title": "International partnerships delivered",
+      "text": "Revenue rose to $389M from $108M a year ago, with $311M earned internationally \u2014 COVID vaccine deliveries under long-term government partnerships, including the first U.K. shipment, did the work while the U.S. contributed $78M."
+    },
+    {
+      "stat": "-24%",
+      "statColor": "#3d7bc8",
+      "title": "The cost reset is real",
+      "text": "Excluding the settlement, costs fell across the board: R&D down 24% to $649M, SG&A down 18% to $173M, and underlying cost of sales down as unused-capacity costs and write-downs shrank. Moderna reiterated up to 10% revenue growth for 2026 with lower operating expenses."
+    },
+    {
+      "stat": "2",
+      "statColor": "#5b6b7c",
+      "title": "Two European approvals",
+      "text": "The EU approved mNEXSPIKE and mCOMBRIAX \u2014 the world's first flu-plus-COVID combination vaccine \u2014 and broadened mRESVIA's approval, while a Phase 3 trial of the intismeran cancer therapy in early-stage lung cancer began."
+    }
+  ],
+  "oneTimers": [
+    "Cost of sales as reported was $955M, of which $878M was litigation settlement-related expense booked in third-party royalties (total royalties were $895M). The related $950M cash payment was made in July 2026, after this quarter ended.",
+    "Excluding the settlement charge, Moderna's net loss would have been about $465M instead of $1,343M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/exhibit9912026q1pressrelea.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000060/mrna-20260331.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net product sales",
+      "amount": 90.49
+    },
+    {
+      "label": "Other revenue",
+      "amount": 9.51
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -19.79
+    },
+    {
+      "label": "Litigation settlement",
+      "amount": -225.71
+    },
+    {
+      "label": "R&D",
+      "amount": -166.84
+    },
+    {
+      "label": "SG&A",
+      "amount": -44.47
+    },
+    {
+      "label": "Interest income",
+      "amount": 18.51
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.63
+    },
+    {
+      "label": "Tax",
+      "amount": -2.31
+    },
+    {
+      "label": "Net loss",
+      "amount": -345.24
+    }
+  ]
+}

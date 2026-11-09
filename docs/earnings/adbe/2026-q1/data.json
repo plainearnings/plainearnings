@@ -1,0 +1,167 @@
+{
+  "ticker": "ADBE",
+  "company": "Adobe",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-02-27",
+  "reportedDate": "2026-03-12",
+  "verdict": "Adobe opened its year with record revenue of $6.4B, up 12%, and record operating cash flow of $3.0B, as AI-first recurring revenue more than tripled and subscriptions grew 13%.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.4B",
+      "note": "+12% YoY \u2014 a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.60",
+      "note": "vs $6.06 non-GAAP"
+    },
+    {
+      "label": "Total ARR",
+      "value": "$26.1B",
+      "note": "annualized recurring revenue at quarter end"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$3.0B",
+      "note": "$2.96B \u2014 a first-quarter record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 6198,
+      "note": "Creative Cloud, Acrobat and Experience Cloud subscriptions \u2014 97 cents of every revenue dollar. Creative & Marketing Professionals paid $4,390M (+12%); Business Professionals & Consumers paid $1,780M (+16%).",
+      "yoy": "+13%"
+    },
+    {
+      "name": "Product",
+      "amountM": 90,
+      "note": "One-time software licenses \u2014 a small legacy line from before Adobe moved to subscriptions.",
+      "shortName": "Product",
+      "yoy": "-5%"
+    },
+    {
+      "name": "Services and other",
+      "amountM": 110,
+      "note": "Consulting, training and support services sold alongside the software.",
+      "shortName": "Services & other",
+      "yoy": "-19%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6398,
+    "costOfRevenueM": 664,
+    "grossProfitM": 5734,
+    "costPlain": "Running Adobe's cloud services \u2014 data centers, customer support and the cost of delivering its software.",
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1110,
+        "note": "Building Photoshop, Acrobat, Firefly AI and the rest of the product line."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1708,
+        "note": "Sales teams, advertising and marketing \u2014 Adobe's biggest running cost."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 463,
+        "note": "Running the company day to day: finance, legal, HR, offices."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 35,
+        "note": "Spreading the cost of technology and customer relationships bought in past acquisitions.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 2418,
+    "otherIncomeM": 4,
+    "taxM": 533,
+    "netIncomeM": 1889
+  },
+  "otherDetail": "Non-operating items added $4M: $62M of other income and $5M of investment gains, less $63M of interest expense.",
+  "footerNote": "Revenue is split by type, not by customer group.",
+  "pngFooterNote": "Revenue is split by type, not by customer group.",
+  "follow100Note": "Adobe keeps about $29.52 of every $100 \u2014 and note that sales & marketing ($26.70) still costs it more per $100 than research & development ($17.35). Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$6.4B",
+      "statColor": "#3e8e5a",
+      "title": "A record quarter, again",
+      "text": "Revenue hit a record $6,398M, up 12% (11% in constant currency), and GAAP net income rose to $1,889M. Remaining performance obligations \u2014 work customers have already committed to \u2014 stood at $22.22B."
+    },
+    {
+      "stat": "3x+",
+      "statColor": "#3d7bc8",
+      "title": "AI products are scaling",
+      "text": "AI-first annualized recurring revenue more than tripled year over year, and total ARR reached $26.06B. Business Professionals & Consumers subscription revenue grew 16% to $1.78B, faster than the creative professional line's 12%."
+    },
+    {
+      "stat": "$2.96B",
+      "statColor": "#5b6b7c",
+      "title": "Cash flow set a Q1 record",
+      "text": "Operating cash flow was a first-quarter record $2.96B \u2014 more than the quarter's $1.89B of net income, because customers pay for subscriptions up front."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbeex991q126.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000056/adbe-20260227.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 96.87
+    },
+    {
+      "label": "Product",
+      "amount": 1.41
+    },
+    {
+      "label": "Services & other",
+      "amount": 1.72
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -10.38
+    },
+    {
+      "label": "R&D",
+      "amount": -17.35
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -26.7
+    },
+    {
+      "label": "G&A",
+      "amount": -7.24
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.55
+    },
+    {
+      "label": "Other income",
+      "amount": 0.06
+    },
+    {
+      "label": "Tax",
+      "amount": -8.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.52
+    }
+  ]
+}

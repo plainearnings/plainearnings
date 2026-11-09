@@ -1,0 +1,130 @@
+{
+  "ticker": "HD",
+  "company": "Home Depot",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2026-02-01",
+  "reportedDate": "2026-02-24",
+  "verdict": "Home Depot's sales fell 3.8% to $38.2B \u2014 mostly because last year's quarter had an extra week worth about $2.5B \u2014 while comparable sales rose 0.4% and profit came in at $2.6B.",
+  "revenueYoY": "-3.8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$38.2B",
+      "note": "-3.8% YoY \u2014 against a 14-week quarter last year"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.58",
+      "note": "vs $2.72 adjusted"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+0.4%",
+      "note": "+0.3% in the U.S."
+    },
+    {
+      "label": "Quarterly dividend",
+      "value": "$2.33",
+      "note": "Raised 1.3% \u2014 the 156th straight quarterly dividend"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 38198,
+      "note": "Everything sold through 2,359 Home Depot stores and its website, plus over 1,250 SRS locations \u2014 the professional-supply business Home Depot has been buying to win more contractor spending. This quarter had 13 weeks; the same quarter last year had 14.",
+      "yoy": "-3.8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 38198,
+    "costOfRevenueM": 25732,
+    "grossProfitM": 12466,
+    "costName": "Cost of sales",
+    "costPlain": "What Home Depot paid suppliers for the merchandise it sold, plus the cost of getting it into stores.",
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 7772,
+        "note": "Store payroll, rent, advertising and running the head office.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 845,
+        "note": "Spreading the cost of stores, warehouses and equipment over their useful lives.",
+        "shortName": "Depreciation & amort."
+      }
+    ],
+    "operatingIncomeM": 3849,
+    "otherIncomeM": -551,
+    "taxM": 727,
+    "netIncomeM": 2571
+  },
+  "otherDetail": "Interest and other, net was a $551M cost: $594M of interest expense on Home Depot's debt, partly offset by $43M of interest and other income.",
+  "follow100Note": "Two-thirds of every $100 goes straight back out as the cost of the merchandise itself \u2014 retail keeps a much thinner slice than software does. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+0.4%",
+      "statColor": "#3d7bc8",
+      "title": "Underlying demand held steady",
+      "text": "Comparable sales rose 0.4% (0.3% in the U.S.). Management said demand was relatively stable through the year once storms are accounted for, despite consumer uncertainty and pressure in housing."
+    },
+    {
+      "stat": "$2.5B",
+      "statColor": "#cf5f4e",
+      "title": "The extra week explains the decline",
+      "text": "Sales fell 3.8% and EPS fell to $2.58 from $3.02 \u2014 but last year's quarter ran 14 weeks, and that extra week added about $2.5B of sales and roughly $0.30 of EPS. On a like-for-like basis the quarter was close to flat."
+    },
+    {
+      "stat": "+2.5\u20134.5%",
+      "statColor": "#5b6b7c",
+      "title": "Guidance: a modest 2026",
+      "text": "For fiscal 2026 Home Depot guided to total sales growth of about 2.5% to 4.5%, comparable sales flat to +2%, and diluted EPS roughly flat to +4% \u2014 and raised the quarterly dividend 1.3% to $2.33."
+    }
+  ],
+  "oneTimers": [
+    "The comparison is distorted by the calendar: fiscal 2024's fourth quarter had 14 weeks versus 13 this year. The extra week added approximately $2.5B of sales and about $0.30 of diluted EPS to last year's quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000026/hd_exhibit991x02012026.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -67.36
+    },
+    {
+      "label": "SG&A",
+      "amount": -20.35
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.21
+    },
+    {
+      "label": "Interest & other",
+      "amount": -1.44
+    },
+    {
+      "label": "Tax",
+      "amount": -1.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.73
+    }
+  ]
+}

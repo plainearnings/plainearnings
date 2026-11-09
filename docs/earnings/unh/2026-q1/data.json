@@ -1,0 +1,154 @@
+{
+  "ticker": "UNH",
+  "company": "UnitedHealth Group",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-21",
+  "verdict": "UnitedHealth Group grew revenue 2% to $111.7B and held operating profit at $9.0B, as an 83.9% medical care ratio offset higher spending on operations, technology and care delivery.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "$111.7B in revenue, vs $109.6B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.90",
+      "note": "vs $6.85 a year ago; adjusted EPS was $7.23"
+    },
+    {
+      "label": "Medical care ratio",
+      "value": "83.9%",
+      "note": "Share of premiums paid out as medical care \u2014 down from 84.8% a year ago"
+    },
+    {
+      "label": "Earnings from operations",
+      "value": "$9.0B",
+      "note": "UnitedHealthcare $5.7B, Optum $3.3B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 87561,
+      "note": "Health-insurance premiums from members, employers and government programs \u2014 the money people pay for coverage. UnitedHealthcare served 49.1 million people in the quarter.",
+      "yoy": "+1%"
+    },
+    {
+      "name": "Products",
+      "amountM": 13250,
+      "note": "Prescription drugs and other products sold, mainly through Optum Rx pharmacies.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Services",
+      "amountM": 9779,
+      "note": "Fees for delivering care and for health technology and data services, mainly from Optum Health clinics and Optum Insight.",
+      "yoy": "+9%"
+    },
+    {
+      "name": "Investment and other income",
+      "amountM": 1131,
+      "note": "Income from the company's investment portfolio and other small sources.",
+      "yoy": "+9%"
+    }
+  ],
+  "flow": {
+    "revenueM": 111721,
+    "costOfRevenueM": 86312,
+    "grossProfitM": 25409,
+    "opex": [
+      {
+        "name": "Operating costs",
+        "amountM": 15390,
+        "note": "The day-to-day cost of running the company \u2014 people, technology and offices. At 13.8% of revenue (the operating cost ratio, up from 12.4% a year ago), it reflects deliberate investment in consumer and provider experience, AI and cybersecurity."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 1029,
+        "note": "A non-cash charge spreading the cost of buildings, equipment, software and acquired businesses over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 8990,
+    "otherIncomeM": -1027,
+    "taxM": 1482,
+    "netIncomeM": 6481
+  },
+  "otherDetail": "Other expense of $1,027M is $955M of interest expense plus a $72M loss on subsidiaries held for sale (mainly the remaining South American businesses). Investment income is not in this line \u2014 it is already counted in revenue.",
+  "footerNote": "Net earnings of $6,481M include $201M belonging to noncontrolling interests; $6,280M is attributable to common shareholders.",
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "83.9%",
+      "statColor": "#3e8e5a",
+      "title": "Medical costs stayed controlled",
+      "text": "The medical care ratio \u2014 the share of premiums paid out as medical care \u2014 was 83.9%, down from 84.8% a year ago, on strong cost management and favorable reserve development, even though utilization and unit costs stayed elevated."
+    },
+    {
+      "stat": "$5.7B",
+      "statColor": "#3d7bc8",
+      "title": "The insurer carried the quarter",
+      "text": "UnitedHealthcare earned $5,694M on $86.3B of revenue (a 6.6% margin), up from $5,226M a year ago, as repricing caught up with cost trends. Optum earned $3,296M \u2014 Optum Health $1,141M, Optum Insight $963M, Optum Rx $1,192M \u2014 down from $3,893M as it invested."
+    },
+    {
+      "stat": ">$18.25",
+      "statColor": "#5b6b7c",
+      "title": "Outlook raised",
+      "text": "UnitedHealth raised its full-year 2026 outlook to net earnings above $17.35 a share and adjusted earnings above $18.25. Cash flow from operations was $8.9B in the quarter, 1.4 times net income."
+    }
+  ],
+  "oneTimers": [
+    "Below operating earnings, UnitedHealth booked a $72M loss on subsidiaries held for sale, tied to the remaining South American businesses it is exiting as it refocuses on U.S. health care.",
+    "The quarter's adjusted EPS of $7.23 (versus $6.90 GAAP) excludes items including that loss and restructuring and other charges in Optum; adjusted earnings from operations were $8,964M versus $8,990M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000121/earningsrelease1q26press.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Premiums",
+      "amount": 78.37
+    },
+    {
+      "label": "Products",
+      "amount": 11.86
+    },
+    {
+      "label": "Services",
+      "amount": 8.75
+    },
+    {
+      "label": "Investment and other income",
+      "amount": 1.01
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -77.26
+    },
+    {
+      "label": "Operating costs",
+      "amount": -13.78
+    },
+    {
+      "label": "Depreciation",
+      "amount": -0.92
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.92
+    },
+    {
+      "label": "Tax",
+      "amount": -1.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.8
+    }
+  ]
+}

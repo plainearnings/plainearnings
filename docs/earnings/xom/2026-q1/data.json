@@ -1,0 +1,207 @@
+{
+  "ticker": "XOM",
+  "company": "ExxonMobil",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-01",
+  "verdict": "ExxonMobil earned $4.2B in a disrupted quarter \u2014 headline profit fell from $7.7B a year ago, but $3.9B of paper timing losses and $0.7B of hedge losses from Middle East disruptions masked an underlying result of $8.8B.",
+  "revenueYoY": "+3%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+3%",
+      "note": "Sales and other operating revenue of $83.2B, up from $81.1B a year ago; total revenue including other income was $85.1B"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$1.00",
+      "note": "Down from $1.76 a year ago; excluding identified items and timing effects, $2.09"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2.7B",
+      "note": "Cash flow from operations was $8.7B \u2014 $13.8B excluding margin postings on derivatives"
+    },
+    {
+      "label": "Shareholder distributions",
+      "value": "$9.2B",
+      "note": "$4.3B of dividends and $4.9B of buybacks \u2014 more than the quarter's free cash flow"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Upstream",
+      "amountM": 10078,
+      "note": "Oil and gas production \u2014 crude and gas sold to outside buyers. Most output goes to ExxonMobil's own refineries, so earnings are the better gauge: $5,737M, down from a year ago on lower prices, with production of 4.6 million oil-equivalent barrels a day and a Guyana record above 900 thousand gross barrels a day.",
+      "yoy": "-11%"
+    },
+    {
+      "name": "Energy Products",
+      "amountM": 63194,
+      "note": "Refining and fuels \u2014 gasoline, diesel and jet fuel sold worldwide, by far the largest sales line. The segment lost $1,262M on paper this quarter: unsettled-derivative timing losses and hedge losses from Middle East disruptions landed here, even though the underlying refining business was profitable.",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Chemical Products",
+      "amountM": 5474,
+      "note": "Basic chemicals and plastics that go into packaging, cars and everyday goods. Earnings were $110M.",
+      "yoy": "+1%",
+      "compact": true
+    },
+    {
+      "name": "Specialty Products",
+      "amountM": 4390,
+      "note": "Higher-value products \u2014 lubricants, basestocks and specialty fluids. Earnings were $651M.",
+      "yoy": "0%",
+      "compact": true
+    },
+    {
+      "name": "Other",
+      "amountM": 25,
+      "note": "Sales and other operating revenue in Corporate and Financing that is not part of a reportable segment \u2014 the small remainder so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "flow": {
+    "revenueM": 83161,
+    "costOfRevenueM": 62497,
+    "grossProfitM": 20664,
+    "costPlain": "Crude oil and product purchases ($51,802M) plus production and manufacturing expenses ($10,695M) \u2014 what it costs ExxonMobil to buy, pump and process oil and gas.",
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 2684,
+        "note": "Sales teams, offices and running the company."
+      },
+      {
+        "name": "Depreciation and depletion",
+        "amountM": 6771,
+        "note": "The cost of wells, refineries and plants wearing out over time, including impairments."
+      },
+      {
+        "name": "Other taxes and duties",
+        "amountM": 5736,
+        "note": "Taxes and duties on products and operations \u2014 separate from income tax."
+      },
+      {
+        "name": "Exploration expenses",
+        "amountM": 126,
+        "note": "Searching for new oil and gas, including dry holes."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 295,
+        "note": "The cost of borrowing money."
+      },
+      {
+        "name": "Non-service pension and postretirement benefit expense",
+        "amountM": 62,
+        "note": "Pension and retiree-benefit costs outside service cost."
+      }
+    ],
+    "operatingIncomeM": 4990,
+    "otherIncomeM": 1688,
+    "taxM": 2495,
+    "netIncomeM": 4183
+  },
+  "otherDetail": "Income from equity affiliates of $1,369M plus other income of $608M, less the $289M of net income attributable to noncontrolling interests \u2014 outside partners' shares of joint ventures \u2014 leaving $1,688M.",
+  "footerNote": "Revenue is sales and other operating revenue; equity and other income are shown as other income in the flow.",
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$2.09",
+      "statColor": "#3d7bc8",
+      "title": "The underlying quarter was much stronger",
+      "text": "Excluding identified items and an estimated $3.9B of unfavorable timing effects \u2014 derivatives marked to market before the physical shipments they hedge are delivered \u2014 earnings were $8,772M, or $2.09 a share, up from $7,584M a year ago. Those timing effects unwind in later quarters."
+    },
+    {
+      "stat": "4.6M",
+      "statColor": "#3e8e5a",
+      "title": "Record Guyana output",
+      "text": "Net production reached 4.6 million oil-equivalent barrels a day, with Guyana setting a quarterly record above 900 thousand gross barrels a day. Higher prices and margins, advantaged volume growth and $0.6B more of structural cost savings (now $15.6B cumulative since 2019) drove the underlying result."
+    },
+    {
+      "stat": "$9.2B",
+      "statColor": "#5b6b7c",
+      "title": "Distributions outran cash flow",
+      "text": "Operating cash flow was $8.7B ($13.8B excluding margin postings) and free cash flow $2.7B, yet ExxonMobil returned $9.2B to shareholders and declared a $1.03 second-quarter dividend. The period-end cash balance was $8.4B."
+    }
+  ],
+  "oneTimers": [
+    "Identified items cost $706M: losses on financial hedges that were settled while the physical shipments they covered were disrupted in the Middle East, so the offsets never landed in the same quarter. Excluding them, earnings were $4,889M ($1.16 a share).",
+    "Estimated timing effects cost a further $3,883M \u2014 mostly unsettled derivatives marked to quarter-end prices while the matching physical transactions complete in later periods. Excluding identified items and timing effects, earnings were $8,772M ($2.09 a share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/livef8k1q26991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000067/xom-20260331.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Upstream",
+      "amount": 12.12
+    },
+    {
+      "label": "Energy Products",
+      "amount": 75.99
+    },
+    {
+      "label": "Chemical Products",
+      "amount": 6.58
+    },
+    {
+      "label": "Specialty Products",
+      "amount": 5.28
+    },
+    {
+      "label": "Other",
+      "amount": 0.03
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -75.15
+    },
+    {
+      "label": "SG&A",
+      "amount": -3.23
+    },
+    {
+      "label": "Depreciation & depletion",
+      "amount": -8.14
+    },
+    {
+      "label": "Other taxes & duties",
+      "amount": -6.9
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.15
+    },
+    {
+      "label": "Interest",
+      "amount": -0.35
+    },
+    {
+      "label": "Pension expense",
+      "amount": -0.07
+    },
+    {
+      "label": "Other income",
+      "amount": 2.03
+    },
+    {
+      "label": "Tax",
+      "amount": -3.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.03
+    }
+  ]
+}

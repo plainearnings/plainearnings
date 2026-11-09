@@ -1,0 +1,155 @@
+{
+  "ticker": "INTU",
+  "company": "Intuit",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-01-31",
+  "reportedDate": "2026-02-26",
+  "verdict": "Intuit grew revenue 17% to $4.7B in its pre-tax-season quarter, as QuickBooks' online ecosystem jumped 21% and Credit Karma surged 23%, lifting net income 47% to $693M.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$4.7B",
+      "note": "+17% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.48",
+      "note": "vs $4.15 non-GAAP"
+    },
+    {
+      "label": "Global Business Solutions",
+      "value": "$3.2B",
+      "note": "+18% YoY; online ecosystem +21%"
+    },
+    {
+      "label": "Credit Karma",
+      "value": "$616M",
+      "note": "+23% YoY \u2014 personal loans, cards and auto insurance"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Global Business Solutions",
+      "amountM": 3164,
+      "note": "QuickBooks and Mailchimp for small and mid-sized businesses. The online ecosystem brought in $2.5B (+21%), with QuickBooks Online accounting revenue up 24% \u2014 higher prices, customer growth and a richer mix.",
+      "yoy": "+18%"
+    },
+    {
+      "name": "Consumer",
+      "amountM": 1487,
+      "note": "Credit Karma ($616M, +23%), TurboTax ($581M, +12% \u2014 early filers, ahead of the Q3 peak) and ProTax for professional preparers ($290M, +7%).",
+      "yoy": "+15%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4651,
+    "costOfRevenueM": 1043,
+    "grossProfitM": 3608,
+    "costPlain": "Running Intuit's cloud services and customer support ($981M), product costs ($18M), and amortization of acquired technology ($44M).",
+    "opex": [
+      {
+        "name": "Selling and marketing",
+        "amountM": 1395,
+        "note": "Selling TurboTax, QuickBooks and Credit Karma \u2014 the spend ramps ahead of tax season, when the year's customers are won."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 836,
+        "note": "Building QuickBooks, TurboTax, Credit Karma and Mailchimp \u2014 increasingly, AI agents that do bookkeeping and tax prep."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 401,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 121,
+        "note": "Spreading the cost of customer relationships and other assets from acquisitions like Mailchimp and Credit Karma.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 855,
+    "otherIncomeM": 14,
+    "taxM": 176,
+    "netIncomeM": 693
+  },
+  "otherDetail": "Interest and other income, net of $72M, less $58M of interest expense, added $14M.",
+  "footerNote": "Cost combines Intuit's three reported cost-of-revenue lines.",
+  "pngFooterNote": "Cost combines Intuit's three reported cost-of-revenue lines.",
+  "follow100Note": "This is Intuit's build-up quarter, before tax season peaks: it kept $14.90 of every $100 \u2014 compare the Q3 tax-season quarter, when it keeps $35.81. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3e8e5a",
+      "title": "Growth before the main event",
+      "text": "Revenue rose 17% to $4,651M even though Q2 is only the warm-up to tax season. Global Business Solutions grew 18% and Consumer 15%, and Intuit reiterated its full-year guidance."
+    },
+    {
+      "stat": "$616M",
+      "statColor": "#3d7bc8",
+      "title": "Credit Karma is the growth engine",
+      "text": "Credit Karma revenue jumped 23% to $616M on personal loans, credit cards and auto insurance, while TurboTax grew 12% to $581M on early-season filers."
+    },
+    {
+      "stat": "+44%",
+      "statColor": "#5b6b7c",
+      "title": "Profit grew much faster than sales",
+      "text": "GAAP operating income rose 44% to $855M and net income 47% to $693M, as revenue growth outran a 16% rise in running costs. GAAP EPS was $2.48; non-GAAP EPS was $4.15."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000012/fy26q2earningspressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000014/intu-20260131.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Global Business Solutions",
+      "amount": 68.03
+    },
+    {
+      "label": "Consumer",
+      "amount": 31.97
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -22.43
+    },
+    {
+      "label": "Selling & marketing",
+      "amount": -29.99
+    },
+    {
+      "label": "R&D",
+      "amount": -17.97
+    },
+    {
+      "label": "G&A",
+      "amount": -8.62
+    },
+    {
+      "label": "Amortization",
+      "amount": -2.6
+    },
+    {
+      "label": "Other income",
+      "amount": 0.3
+    },
+    {
+      "label": "Tax",
+      "amount": -3.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.9
+    }
+  ]
+}

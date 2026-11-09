@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moderna — Q1 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Moderna Q1 2026 earnings in plain English: Moderna&#x27;s revenue more than tripled to $389M on international vaccine deliveries, but a $0.9B litigation settlement charge drove a $1.3B net loss — without it, the loss would have been about $465M.">
+<meta property="og:title" content="Moderna — Q1 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Moderna&#x27;s revenue more than tripled to $389M on international vaccine deliveries, but a $0.9B litigation settlement charge drove a $1.3B net loss — without it, the loss would have been about $465M.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/mrna/2026-q1/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/mrna/2026-q1/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Moderna quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Moderna <span class="thin">(MRNA)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+29%</span>
+        <span class="q-meta">Reported 2026-11-06 · Revenue $1,313M</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+2%</span>
+        <span class="q-meta">Reported 2026-07-31 · Revenue $145M</span>
+      </a>
+      <a class="q-item active" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+260%</span>
+        <span class="q-meta">Reported 2026-05-01 · Revenue $389M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Moderna — Q1 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q1 2026</strong> · Quarter ended 2026-03-31<br>
+      Reported 2026-05-01
+    </div>
+  </header>
+
+  <p class="verdict">Moderna&#x27;s revenue more than tripled to $389M on international vaccine deliveries, but a $0.9B litigation settlement charge drove a $1.3B net loss — without it, the loss would have been about $465M.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$389M</b></span><span class="chip">EPS (GAAP)<b>-$3.40</b></span><span class="chip">Cash &amp; investments<b>$7.5B</b></span><span class="chip">Cost of sales<b>$955M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Moderna's Q1 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Moderna took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Net product sales</span><div class="htrack"><div class="hfill" data-w="26.2" style="background:#CF5F4E"></div></div><span class="hval">$90.49</span></div>
+          <div class="hrow"><span class="hlabel">Other revenue</span><div class="htrack"><div class="hfill" data-w="2.8" style="background:#3D7BC8"></div></div><span class="hval">$9.51</span></div>
+          <div class="hrow"><span class="hlabel">Cost of sales</span><div class="htrack"><div class="hfill" data-w="5.7" style="background:#CF5F4E"></div></div><span class="hval">−$19.79</span></div>
+          <div class="hrow"><span class="hlabel">Litigation settlement</span><div class="htrack"><div class="hfill" data-w="65.4" style="background:#D96A57"></div></div><span class="hval">−$225.71</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="48.3" style="background:#CF5F4E"></div></div><span class="hval">−$166.84</span></div>
+          <div class="hrow"><span class="hlabel">SG&amp;A</span><div class="htrack"><div class="hfill" data-w="12.9" style="background:#CF5F4E"></div></div><span class="hval">−$44.47</span></div>
+          <div class="hrow"><span class="hlabel">Interest income</span><div class="htrack"><div class="hfill" data-w="5.4" style="background:#3D7BC8"></div></div><span class="hval">$18.51</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="1.3" style="background:#D96A57"></div></div><span class="hval">−$4.63</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="0.7" style="background:#B8443C"></div></div><span class="hval">−$2.31</span></div>
+          <div class="hrow"><span class="hlabel">Net loss</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$345.24</span></div>
+      <p class="hnote">For every $100 of revenue, the settlement charge alone consumed $226 — without it, Moderna&#x27;s loss would have been about $119 per $100 of revenue, not $345. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">+260%</div>
+            <h3>International partnerships delivered</h3>
+            <p>Revenue rose to $389M from $108M a year ago, with $311M earned internationally — COVID vaccine deliveries under long-term government partnerships, including the first U.K. shipment, did the work while the U.S. contributed $78M.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">-24%</div>
+            <h3>The cost reset is real</h3>
+            <p>Excluding the settlement, costs fell across the board: R&amp;D down 24% to $649M, SG&amp;A down 18% to $173M, and underlying cost of sales down as unused-capacity costs and write-downs shrank. Moderna reiterated up to 10% revenue growth for 2026 with lower operating expenses.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">2</div>
+            <h3>Two European approvals</h3>
+            <p>The EU approved mNEXSPIKE and mCOMBRIAX — the world&#x27;s first flu-plus-COVID combination vaccine — and broadened mRESVIA&#x27;s approval, while a Phase 3 trial of the intismeran cancer therapy in early-stage lung cancer began.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Cost of sales as reported was $955M, of which $878M was litigation settlement-related expense booked in third-party royalties (total royalties were $895M). The related $950M cash payment was made in July 2026, after this quarter ended.</li><li>Excluding the settlement charge, Moderna&#x27;s net loss would have been about $465M instead of $1,343M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="current">Q1 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/exhibit9912026q1pressrelea.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1682852/000168285226000060/mrna-20260331.htm">Form 10-Q (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. As reported, cost of sales was $955M including the settlement.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":0.389,"nodes":{"seg0":{"name":"Net product sales","amt":"$352M","value":0.352,"col":0,"color":"#3D7BC8","note":"+309% \u00b7 90.5% of revenue","plain":"Vaccine sales \u2014 mainly COVID vaccines. Sales jumped on deliveries under long-term strategic partnerships with governments, including the first shipment under the U.K. partnership. Revenue was $78M in the U.S. and $311M international (including other revenue).","quarter":"90.5% of all revenue this quarter."},"seg1":{"name":"Other revenue","amt":"$37M","value":0.037,"col":0,"color":"#7A68C4","note":"+68% \u00b7 9.5% of revenue","plain":"Grants, collaborations, licensing and royalties.","quarter":"9.5% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$389M","value":0.389,"col":1,"color":"#2F3B4C","note":"+260%","plain":"All the money Moderna took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$389M, +260% vs a year ago."},"gross":{"name":"Gross profit","amt":"$312M","value":0.312,"col":2,"color":"#69B578","note":"80.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"80.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($77M)","value":0.077,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$77M \u2014 about 19.8 cents per revenue dollar."},"opex":{"name":"Operating expenses","amt":"($1.7B)","value":1.7,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.7B total, split into Research & development, Selling, general & administrative, Litigation settlement on the right."},"otherin":{"name":"Other income","amt":"$54M","value":0.054,"col":3,"color":"#69B578","note":"","plain":"Interest income of $72M, less $18M of other expense \u2014 net $54M.","quarter":"$54M added to profit."},"shortfall":{"name":"Covered by cash on hand","amt":"($1.3B)","value":1.343,"col":3,"color":"#94A3B8","note":"","plain":"The business spent more than it took in. The $1.3B net loss was covered by cash Moderna already had on its balance sheet.","quarter":"A net loss of $1.3B this quarter."},"tax":{"name":"Tax","amt":"($9M)","value":0.009,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$9M \u2014 roughly a -0.7% tax rate on pre-tax profit."},"ox0":{"name":"Research & development","amt":"($649M)","value":0.649,"col":4,"color":"#CF5F4E","note":"166.8% of revenue","plain":"The labs: developing new vaccines and drugs. Down 24% \u2014 large Phase 3 respiratory programs and CMV studies wound down.","quarter":"$649M \u2014 166.8% of revenue."},"ox1":{"name":"Selling, general & administrative","amt":"($173M)","value":0.173,"col":4,"color":"#CF5F4E","note":"44.5% of revenue","plain":"Sales teams, offices, admin. Down 18% on lower employee and marketing costs.","quarter":"$173M \u2014 44.5% of revenue."},"ox2":{"name":"Litigation settlement","amt":"($878M)","value":0.878,"col":4,"color":"#CF5F4E","note":"225.7% of revenue","plain":"A one-time settlement charge Moderna booked inside cost of sales (in third-party royalties). Shown on its own line here so the vaccine business's own costs stay visible; the $950M cash payment followed in July 2026.","quarter":"$878M \u2014 225.7% of revenue."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","shortfall","opex"],["tax","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":0.352,"c":"#94b6e1","amt":"$352M"},{"s":"seg1","d":"rev","v":0.037,"c":"#b6acdf","amt":"$37M"},{"s":"rev","d":"gross","v":0.312,"c":"#BFE0C6","amt":"$312M"},{"s":"rev","d":"cost","v":0.077,"c":"#F4C7B9","amt":"$77M"},{"s":"gross","d":"opex","v":0.312,"c":"#F2B3A4","amt":"$312M"},{"s":"otherin","d":"opex","v":0.054,"c":"#F2B3A4","amt":"$54M"},{"s":"shortfall","d":"opex","v":1.334,"c":"#c4ccd8","amt":"$1.3B"},{"s":"shortfall","d":"tax","v":0.009,"c":"#c4ccd8","amt":"$9M"},{"s":"opex","d":"ox0","v":0.649,"c":"#F6C0B1","amt":"$649M"},{"s":"opex","d":"ox1","v":0.173,"c":"#F6C0B1","amt":"$173M"},{"s":"opex","d":"ox2","v":0.878,"c":"#F6C0B1","amt":"$878M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>
