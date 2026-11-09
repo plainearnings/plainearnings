@@ -1,0 +1,163 @@
+{
+  "company": "AMD",
+  "flow": {
+    "costOfRevenueM": 3257,
+    "grossProfitM": 2911,
+    "netIncomeM": 667,
+    "operatingIncomeM": 342,
+    "opex": [
+      {
+        "amountM": 1511,
+        "name": "Research & development",
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators."
+      },
+      {
+        "amountM": 644,
+        "name": "Marketing, general & administrative",
+        "note": "Selling products and running the company."
+      },
+      {
+        "amountM": 414,
+        "name": "Amortization of intangibles",
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash \u2014 shown net of a $6M licensing gain."
+      }
+    ],
+    "otherIncomeM": 28,
+    "revenueM": 6168,
+    "taxM": -297
+  },
+  "follow100": [
+    {
+      "amount": 37.0,
+      "label": "Data Center"
+    },
+    {
+      "amount": 23.69,
+      "label": "Client"
+    },
+    {
+      "amount": 22.18,
+      "label": "Gaming"
+    },
+    {
+      "amount": 17.14,
+      "label": "Embedded"
+    },
+    {
+      "amount": -52.8,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -24.5,
+      "label": "R&D"
+    },
+    {
+      "amount": -10.44,
+      "label": "Marketing, general & administrative"
+    },
+    {
+      "amount": -6.71,
+      "label": "Amortization of intangibles"
+    },
+    {
+      "amount": 0.45,
+      "label": "Other income"
+    },
+    {
+      "amount": 4.82,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 10.81,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Cost of sales of $3,257M includes $215M of amortization of acquisition-related intangibles, on top of $3,042M of cost of sales before that amortization, following AMD's own presentation of its income statement. The amortization line in operating expenses is shown as $414M \u2014 AMD's $420M of amortization net of a $6M licensing gain. The tax line was a $297M benefit, drawn as a green source into net profit (the taxben link fix used on AMD's 2024-q3 and 2025-q2 pages is applied here too).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+10%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.01 a year ago",
+      "value": "$0.41"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 43% a year ago",
+      "value": "47%"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "+38% YoY \u2014 record Instinct GPU and EPYC sales",
+      "value": "$2.3B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other income, net of $49M (primarily interest income from short-term investments, partly offset by other effects), plus $6M of equity income from an investee, less $27M of interest expense \u2014 a net +$28M. AMD reports equity income on its own line below the tax line; following the sibling AMD pages it is folded into otherIncomeM here and disclosed in this breakdown.",
+  "periodEnd": "2023-12-30",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-01-30",
+  "revenueYoY": "+10%",
+  "segments": [
+    {
+      "amountM": 2282,
+      "name": "Data Center",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 driven by the first Instinct MI300 GPU shipments and growth in 4th Gen EPYC CPU sales.",
+      "yoy": "+38%"
+    },
+    {
+      "amountM": 1461,
+      "name": "Client",
+      "note": "Ryzen processors for PCs \u2014 up 62%, driven primarily by Ryzen 7000 Series processor sales as the PC market recovered.",
+      "yoy": "+62%"
+    },
+    {
+      "amountM": 1368,
+      "name": "Gaming",
+      "note": "Graphics cards and console chips \u2014 down 17% on lower semi-custom (console) revenue, partly offset by higher Radeon GPU sales.",
+      "yoy": "-17%"
+    },
+    {
+      "amountM": 1057,
+      "name": "Embedded",
+      "note": "Chips built into industrial, communications and other equipment (the Xilinx business) \u2014 down 24% as customers continued to reduce their inventory levels.",
+      "yoy": "-24%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000009/q42023991final.htm"
+    },
+    {
+      "label": "Form 10-K for fiscal 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000012/amd-20231230.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+38%",
+      "statColor": "#3e8e5a",
+      "text": "Data Center revenue hit $2,282M, up 38% YoY, on the ramp of Instinct MI300 GPUs and 4th Gen EPYC CPUs \u2014 while Embedded fell 24% to $1,057M as customers worked through inventory.",
+      "title": "Data Center carried the quarter"
+    },
+    {
+      "stat": "$297M",
+      "statColor": "#b98a1c",
+      "text": "GAAP net income was $667M, but $297M of it was an income-tax benefit rather than operating performance; operating income itself was $342M, a 6% margin. Non-GAAP net income was $1,249M.",
+      "title": "A tax benefit flattered profit"
+    },
+    {
+      "stat": "+62%",
+      "statColor": "#3d7bc8",
+      "text": "Client revenue rose 62% YoY to $1,461M on Ryzen 7000 Series sales as the PC market recovered; Gaming fell 17% to $1,368M on weaker semi-custom revenue.",
+      "title": "PC chips bounced back"
+    }
+  ],
+  "ticker": "AMD",
+  "verdict": "AMD's revenue rose 10% to $6.2B as record AI GPU and server-chip sales outran a weak embedded market, and a $297M tax benefit lifted net income to $667M."
+}

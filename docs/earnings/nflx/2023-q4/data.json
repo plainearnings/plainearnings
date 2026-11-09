@@ -1,0 +1,165 @@
+{
+  "company": "Netflix",
+  "flow": {
+    "costOfRevenueM": 5308,
+    "grossProfitM": 3525,
+    "netIncomeM": 938,
+    "operatingIncomeM": 1496,
+    "opex": [
+      {
+        "amountM": 673,
+        "name": "Technology & development",
+        "note": "The streaming platform, apps, recommendation systems and product development."
+      },
+      {
+        "amountM": 917,
+        "name": "Sales & marketing",
+        "note": "Advertising Netflix itself and winning subscribers \u2014 listed as 'Marketing' in Netflix's statement."
+      },
+      {
+        "amountM": 439,
+        "name": "General & administrative",
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "otherIncomeM": -348,
+    "revenueM": 8833,
+    "taxM": 210
+  },
+  "follow100": [
+    {
+      "amount": 44.49,
+      "label": "United States & Canada"
+    },
+    {
+      "amount": 31.52,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 13.09,
+      "label": "Latin America"
+    },
+    {
+      "amount": 10.9,
+      "label": "Asia-Pacific"
+    },
+    {
+      "amount": -60.09,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -7.62,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -10.38,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -4.97,
+      "label": "G&A"
+    },
+    {
+      "amount": -3.94,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.38,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.62,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M; cost of revenues is shown as $5,308M ($5,307M as reported, rounded from thousands) and United States & Canada revenue as $3,930M ($3,931M in the letter's regional table) so the rounded chart ties exactly to reported totals. All other flow lines round directly from the as-reported thousands. Regional revenues are from the shareholder letter's regional breakdown.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago; +13% on an F/X-neutral basis",
+      "value": "+12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted, vs $0.12 a year ago",
+      "value": "$2.11"
+    },
+    {
+      "label": "Paid net additions",
+      "note": "the largest Q4 ever; memberships ended the quarter at 260.28M",
+      "value": "13.12M"
+    },
+    {
+      "label": "Operating margin",
+      "note": "operating income of $1.5B \u2014 up from 7.0% a year ago",
+      "value": "16.9%"
+    }
+  ],
+  "oneTimers": [
+    "Currency loss: 'interest and other income (expense)' includes a $239M non-cash unrealized loss from F/X remeasurement on Netflix's euro-denominated debt \u2014 a paper loss below operating income, not a cost of running the service."
+  ],
+  "otherDetail": "Interest expense of $175M on Netflix's debt, plus $173M of interest and other expense, net \u2014 which includes a $239M non-cash unrealized loss from F/X remeasurement on its euro-denominated debt \u2014 a net -$348M below operating profit.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-01-23",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "amountM": 3930,
+      "name": "United States & Canada",
+      "note": "The biggest and richest market \u2014 80.13M paid memberships after 2.81M net additions, with revenue per member of $16.64 a month, up 3% year over year.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 2784,
+      "name": "Europe, Middle East & Africa",
+      "note": "The second-largest region \u2014 88.81M paid memberships after 5.05M net additions; revenue per member was $10.75 a month, up 3% year over year.",
+      "yoy": "+18%"
+    },
+    {
+      "amountM": 1156,
+      "name": "Latin America",
+      "note": "46.00M paid memberships after 2.35M net additions; revenue per member was $8.60 a month, up 4% year over year.",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 963,
+      "name": "Asia-Pacific",
+      "note": "45.34M paid memberships after 2.91M net additions; revenue per member was $7.31 a month, down 5% year over year as reported, down 4% on an F/X-neutral basis.",
+      "yoy": "+12%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter, 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000029/ex991_q423.htm"
+    },
+    {
+      "label": "Form 8-K announcing Q4 2023 results on January 23, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000029/nflx-20240123.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "13.12M",
+      "statColor": "#3e8e5a",
+      "text": "Paid net additions were 13.12M \u2014 Netflix's largest Q4 ever, versus 7.66M a year ago \u2014 taking paid memberships to 260.28M as paid sharing and the ad-supported plan kept converting borrowers into members.",
+      "title": "A record fourth quarter for sign-ups"
+    },
+    {
+      "stat": "16.9%",
+      "statColor": "#3d7bc8",
+      "text": "Operating income rose to $1,496M from $550M a year ago \u2014 a 16.9% margin versus 7.0% \u2014 on revenue upside and lower-than-planned spending; full-year 2023 operating margin reached 21%, ahead of Netflix's 20% target.",
+      "title": "Margins jumped as spending lagged"
+    },
+    {
+      "stat": "$239M",
+      "statColor": "#b98a1c",
+      "text": "EPS of $2.11 includes a $239M non-cash unrealized loss from remeasuring euro-denominated debt as the dollar weakened in the quarter; even so, net income was $938M, up from just $55M a year ago.",
+      "title": "Currency noise cut into EPS"
+    }
+  ],
+  "ticker": "NFLX",
+  "verdict": "Netflix added a record 13.1M members in the quarter as paid sharing kept paying off, lifting revenue 12% to $8.8B and net income to $938M."
+}

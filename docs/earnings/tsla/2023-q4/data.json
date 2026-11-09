@@ -1,0 +1,154 @@
+{
+  "company": "Tesla",
+  "flow": {
+    "costOfRevenueM": 20729,
+    "grossProfitM": 4438,
+    "netIncomeM": 7943,
+    "operatingIncomeM": 2064,
+    "opex": [
+      {
+        "amountM": 1094,
+        "name": "Research & development",
+        "note": "Developing new vehicles \u2014 the Cybertruck ramp above all \u2014 battery cells and AI for self-driving."
+      },
+      {
+        "amountM": 1280,
+        "name": "Selling, general & administrative",
+        "note": "Stores, service, delivery and head-office running costs."
+      }
+    ],
+    "otherIncomeM": 127,
+    "revenueM": 25167,
+    "taxM": -5752
+  },
+  "follow100": [
+    {
+      "amount": 85.68,
+      "label": "Automotive"
+    },
+    {
+      "amount": 5.71,
+      "label": "Energy generation and storage"
+    },
+    {
+      "amount": 8.61,
+      "label": "Services and other"
+    },
+    {
+      "amount": -82.37,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -4.35,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.09,
+      "label": "SG&A"
+    },
+    {
+      "amount": 0.5,
+      "label": "Other income"
+    },
+    {
+      "amount": 22.86,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 31.56,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income here is Tesla's total net income of $7,943M; $7,928M of it was attributable to common stockholders and $15M to noncontrolling interests. Tesla's Q4 update letter is a slide deck, so the Q4 figures are derived from the audited full-year 2023 Form 10-K statements less the nine months ended September 30, 2023 in the Q3 2023 Form 10-Q \u2014 and every line ties exactly to the update letter's own summary table (revenue $25,167M, gross profit $4,438M, operating income $2,064M). The tax line was a $5,752M benefit, drawn as a green source into net profit (the taxben link fix used on other tax-benefit pages is applied here too).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+3%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted, vs $1.07 a year ago \u2014 flattered by the one-time tax benefit",
+      "value": "$2.27"
+    },
+    {
+      "label": "Deliveries",
+      "note": "a record quarter, up 20% YoY; production was 494,989",
+      "value": "484,507"
+    },
+    {
+      "label": "Cash & investments",
+      "note": "cash of $16.4B plus $12.7B of short-term investments at December 31, 2023",
+      "value": "$29.1B"
+    }
+  ],
+  "oneTimers": [
+    "One-time non-cash tax benefit of $5.9B \u2014 Tesla released the valuation allowance it had held against its deferred tax assets, judging future profits now make those assets usable. It turned $2,191M of pre-tax profit into $7,943M of net income (the total tax line was a $5,752M benefit); it is not cash and not a repeat item."
+  ],
+  "otherDetail": "Interest income of $333M on cash and short-term investments, less $61M of interest expense and $145M of other expense, net \u2014 mainly foreign-exchange moves \u2014 a net +$127M.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-01-24",
+  "revenueYoY": "+3%",
+  "segments": [
+    {
+      "amountM": 21563,
+      "name": "Automotive",
+      "note": "Cars: $20,630M of vehicle sales, plus $433M of regulatory credits and $500M of leasing.",
+      "yoy": "+1%"
+    },
+    {
+      "amountM": 1438,
+      "name": "Energy generation and storage",
+      "note": "Megapack and Powerwall batteries and solar energy systems.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 2166,
+      "name": "Services and other",
+      "note": "Repairs and maintenance, Supercharging, insurance, parts sales and used cars.",
+      "yoy": "+27%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Q4 and full-year 2023 update letter \u2014 Exhibit 99.1 to Form 8-K filed January 24, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024007073/tsla-ex99_1.htm"
+    },
+    {
+      "label": "Form 10-K for fiscal 2023 \u2014 full-year income statement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm"
+    },
+    {
+      "label": "Form 10-Q for Q3 2023 \u2014 nine-month income statement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828023034847/tsla-20230930.htm"
+    },
+    {
+      "label": "Q4 2023 production and deliveries release \u2014 Exhibit 99.1 to Form 8-K filed January 2, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024000282/tsla-ex99_1.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose just 3% YoY to $25.2B \u2014 automotive revenue grew only 1% as repeated price cuts offset record deliveries of 484,507 vehicles.",
+      "title": "Revenue growth nearly stalled"
+    },
+    {
+      "stat": "$5.9B",
+      "statColor": "#b98a1c",
+      "text": "Net income of $7,943M includes a $5.9B one-time, non-cash tax benefit from releasing a valuation allowance on deferred tax assets. Operating income itself fell 47% YoY to $2,064M.",
+      "title": "A tax bookkeeping gain did the profit"
+    },
+    {
+      "stat": "17.6%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin was 17.6%, down from 23.8% a year ago, as price cuts outran cost reductions \u2014 and Tesla warned 2024 volume growth could be notably lower while it launches its next-generation vehicle.",
+      "title": "Car margins kept thinning"
+    }
+  ],
+  "ticker": "TSLA",
+  "verdict": "Tesla's revenue grew just 3% to $25.2B as price cuts squeezed car profits \u2014 but a one-time $5.9B tax benefit lifted net income to $7.9B."
+}

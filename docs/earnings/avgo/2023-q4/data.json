@@ -1,0 +1,146 @@
+{
+  "company": "Broadcom",
+  "flow": {
+    "costOfRevenueM": 2888,
+    "grossProfitM": 6407,
+    "netIncomeM": 3524,
+    "operatingIncomeM": 4240,
+    "opex": [
+      {
+        "amountM": 1388,
+        "name": "Research & development",
+        "note": "Designing the next chips and software."
+      },
+      {
+        "amountM": 418,
+        "name": "Selling, general & administrative",
+        "note": "Selling the products and running the company."
+      },
+      {
+        "amountM": 361,
+        "name": "Amortization & restructuring",
+        "note": "Writing down the value of brands and technology bought in acquisitions \u2014 $348M of amortization, a bookkeeping charge, not cash \u2014 plus $13M of restructuring and other charges."
+      }
+    ],
+    "otherIncomeM": -273,
+    "revenueM": 9295,
+    "taxM": 443
+  },
+  "follow100": [
+    {
+      "amount": 78.82,
+      "label": "Semiconductor solutions"
+    },
+    {
+      "amount": 21.18,
+      "label": "Infrastructure software"
+    },
+    {
+      "amount": -31.07,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -14.93,
+      "label": "R&D"
+    },
+    {
+      "amount": -4.5,
+      "label": "SG&A"
+    },
+    {
+      "amount": -3.88,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": -2.94,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.77,
+      "label": "Tax"
+    },
+    {
+      "amount": 37.91,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "All figures are GAAP, in $ millions unless noted; EPS is shown exactly as reported in the release \u2014 GAAP diluted EPS of $8.25 \u2014 on a pre-split basis (Broadcom's 10-for-1 stock split took effect in October 2024). Free cash flow is cash from operations of $4,828M less $105M of capital expenditures. This was the last quarter before VMware was consolidated: the acquisition closed on November 22, 2023, after the October 29, 2023 quarter end, so no VMware revenue is included.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $7.83 a year ago \u2014 pre-split, as reported",
+      "value": "$8.25"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "51% of revenue",
+      "value": "$4.7B"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "65% of revenue",
+      "value": "$6.0B"
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $786M of amortization of acquisition-related intangible assets ($438M inside cost of revenue and $348M inside operating expenses) \u2014 a bookkeeping charge, not cash. On Broadcom's non-GAAP view, net income was $4,810M instead of $3,524M.",
+    "Stock-based compensation expense was $638M in the quarter ($62M in cost of revenue, $448M in research and development and $128M in selling, general and administrative)."
+  ],
+  "otherDetail": "Interest expense of $405M on Broadcom's debt, partly offset by $132M of other income, net \u2014 a net -$273M below operating profit.",
+  "periodEnd": "2023-10-29",
+  "quarterLabel": "Q4 FY23",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2023-12-07",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "amountM": 7326,
+      "name": "Semiconductor solutions",
+      "note": "Chips \u2014 above all networking and custom silicon for data centers, where demand from the AI build-out was the growth engine.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 1969,
+      "name": "Infrastructure software",
+      "note": "Enterprise software from CA Technologies, Symantec and Brocade \u2014 the last quarter before VMware joined; that deal closed on November 22, 2023, just after the quarter ended.",
+      "yoy": "+7%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000093/avgo-10292023x8kxex99.htm"
+    },
+    {
+      "label": "Form 10-K for fiscal 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$35.8B",
+      "statColor": "#3d7bc8",
+      "text": "Quarterly revenue of $9,295M was up just 4% YoY, but fiscal 2023 revenue hit a record $35,819M, up 8%, and free cash flow was a record $17.6B \u2014 49% of revenue.",
+      "title": "A record year, a quiet quarter"
+    },
+    {
+      "stat": "$50B",
+      "statColor": "#3e8e5a",
+      "text": "Broadcom closed the VMware acquisition on November 22, 2023 \u2014 after this quarter ended \u2014 and guided fiscal 2024 revenue to approximately $50B including VMware, up about 40%.",
+      "title": "VMware changes everything next year"
+    },
+    {
+      "stat": "51%",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $4,723M in the quarter \u2014 51% of revenue \u2014 and Broadcom raised its quarterly dividend by 14% to $5.25 a share for fiscal 2024.",
+      "title": "Half of revenue became free cash"
+    }
+  ],
+  "ticker": "AVGO",
+  "verdict": "Broadcom closed its pre-VMware era with revenue up 4% to $9.3B and $3.5B of profit \u2014 then guided to about $50B of revenue in fiscal 2024 with VMware in the fold."
+}
