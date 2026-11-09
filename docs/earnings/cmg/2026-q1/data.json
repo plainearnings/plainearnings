@@ -1,0 +1,161 @@
+{
+  "ticker": "CMG",
+  "company": "Chipotle",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-29",
+  "verdict": "Chipotle grew revenue 7.4% to $3.1B as transactions turned positive again, but profit fell 22% to $303M as labor, food and a biennial managers' conference pushed costs up faster than sales.",
+  "revenueYoY": "+7.4%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.1B",
+      "note": "+7.4% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.23",
+      "note": "adjusted EPS was $0.24"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+0.5%",
+      "note": "transactions +0.6%, check -0.1%"
+    },
+    {
+      "label": "Restaurant-level margin",
+      "value": "23.3%",
+      "note": "of revenue, at the store level; 23.7% adjusted"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Food and beverage revenue",
+      "amountM": 3072.73,
+      "note": "Burritos, bowls and drinks across 4,090 company-owned restaurants. Digital orders were 38.6% of this revenue, and 49 new restaurants opened in the quarter \u2014 42 of them with a Chipotlane drive-thru.",
+      "yoy": "+7.4%"
+    },
+    {
+      "name": "Delivery service revenue",
+      "amountM": 15.512,
+      "note": "Delivery fees Chipotle collects on orders placed through its own app and website \u2014 a sliver next to the food itself.",
+      "shortName": "Delivery",
+      "yoy": "+0.6%"
+    }
+  ],
+  "flow": {
+    "costName": "Restaurant operating costs",
+    "costOfRevenueM": 2369.281,
+    "costPlain": "Everything it costs to run the restaurants themselves: food, beverage and packaging ($913M), crew labor ($805M), occupancy ($170M) and other operating costs ($481M).",
+    "grossName": "Restaurant-level profit",
+    "grossProfitM": 718.961,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 203.72,
+        "note": "Running the company above the restaurant level \u2014 headquarters, marketing and support, including the biennial All Managers Conference held this quarter."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 96.718,
+        "note": "Spreading the cost of restaurant build-outs, equipment and technology.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "name": "Pre-opening costs",
+        "amountM": 11.641,
+        "note": "Costs to open new restaurants before they serve their first burrito bowl.",
+        "shortName": "Pre-opening"
+      },
+      {
+        "name": "Impairment and closure costs",
+        "amountM": 9.819,
+        "note": "Writing down or closing underperforming locations, and disposing of assets.",
+        "shortName": "Impairment & closures"
+      }
+    ],
+    "operatingIncomeM": 397.063,
+    "otherIncomeM": 8.742,
+    "revenueM": 3088.242,
+    "taxM": 102.981,
+    "netIncomeM": 302.824
+  },
+  "follow100": [
+    {
+      "label": "Food & beverage revenue",
+      "amount": 99.5
+    },
+    {
+      "label": "Delivery service revenue",
+      "amount": 0.5
+    },
+    {
+      "label": "Restaurant operating costs",
+      "amount": -76.72
+    },
+    {
+      "label": "G&A",
+      "amount": -6.6
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -3.13
+    },
+    {
+      "label": "Pre-opening",
+      "amount": -0.38
+    },
+    {
+      "label": "Impairment & closures",
+      "amount": -0.32
+    },
+    {
+      "label": "Other income",
+      "amount": 0.28
+    },
+    {
+      "label": "Tax",
+      "amount": -3.33
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.81
+    }
+  ],
+  "follow100Note": "Three-quarters of every $100 never leaves the restaurant \u2014 ingredients, crew and rent eat it on site. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+0.5%",
+      "statColor": "#3d7bc8",
+      "title": "Transactions turned positive",
+      "text": "Comparable sales rose 0.5% \u2014 transactions up 0.6%, partly offset by a 0.1% smaller average check \u2014 the first positive transaction comp after a soft 2025. Digital sales were 38.6% of food and beverage revenue."
+    },
+    {
+      "stat": "49",
+      "statColor": "#3e8e5a",
+      "title": "49 new restaurants opened",
+      "text": "Chipotle opened 49 company-owned restaurants (42 with a Chipotlane), reaching 4,090 company-owned and 14 partner-operated locations. Full-year guidance was for about flat comparable sales and 350\u2013370 openings."
+    },
+    {
+      "stat": "23.3%",
+      "statColor": "#5b6b7c",
+      "title": "Margins squeezed at the restaurant",
+      "text": "Restaurant-level margin fell to 23.3% from 26.2% as labor rose to 26.1% of revenue (including legal costs) and food, beverage and packaging rose to 29.6% on beef and freight inflation. Operating margin fell to 12.9% from 16.7%."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted net income of $316.2M excludes $17.6M of items: $11.9M of legal-proceeding costs in labor, $0.6M of legal costs in G&A, $2.1M of Recipe for Growth restructuring costs and $3.0M of retention stock pay.",
+    "G&A of $203.7M included the biennial All Managers Conference, held in the first quarter of 2026.",
+    "Chipotle repurchased $700.8M of its own stock in the quarter at an average of $36.14; about $1.0B of buyback authorization remained at March 31."
+  ],
+  "otherDetail": "Interest and other income, net, was $8.7M \u2014 mostly interest earned on Chipotle's cash and investments.",
+  "footerNote": "Chipotle doesn't report gross profit; the middle step is its own 'restaurant-level operating profit' \u2014 revenue minus the four costs of running the restaurants.",
+  "pngFooterNote": "The middle step is Chipotle's restaurant-level operating profit.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex 99.1)",
+      "url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=319994201&type=PDF&symbol=CMG&cdn=977cf4781317e8e69aeb58a7e026daa4&companyName=Chipotle+Mexican+Grill+Inc.&formType=8-K&dateFiled=2026-04-29"
+    }
+  ]
+}

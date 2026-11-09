@@ -1,0 +1,153 @@
+{
+  "ticker": "LULU",
+  "company": "Lululemon",
+  "quarterLabel": "Q4 Fiscal 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2026-02-01",
+  "reportedDate": "2026-03-17",
+  "verdict": "Lululemon's revenue rose just 1% to $3.6B in its holiday quarter as China Mainland grew 24% but the Americas shrank, and profit fell 22% to $587M as tariffs and markdowns cut gross margin by 550 points.",
+  "revenueYoY": "+1%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.6B",
+      "note": "+1% YoY; +6% excluding the 53rd week of fiscal 2024"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.01",
+      "note": "vs $6.14 a year ago"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+3%",
+      "note": "Americas -1%, China Mainland +30%, as reported"
+    },
+    {
+      "label": "Gross margin",
+      "value": "54.9%",
+      "note": "down 550 basis points from 60.4%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Americas",
+      "amountM": 2680.901,
+      "note": "The engine market shrank: revenue fell 4% and comparable sales fell 1% (U.S. revenue -6%, Canada +1%). Excluding the extra 53rd week a year ago, Americas revenue was flat. Still almost three of every four dollars.",
+      "yoy": "-4%"
+    },
+    {
+      "name": "China Mainland",
+      "amountM": 528.4,
+      "note": "Revenue jumped 24% as reported (21% in constant currency) and comparable sales rose 30% \u2014 despite Chinese New Year shifting into the next quarter.",
+      "shortName": "China Mainland",
+      "yoy": "+24%"
+    },
+    {
+      "name": "Rest of World",
+      "amountM": 431.5,
+      "note": "Europe, Asia-Pacific outside mainland China and elsewhere: revenue up 10% as reported, comparable sales up 9%.",
+      "shortName": "Rest of World",
+      "yoy": "+10%"
+    }
+  ],
+  "flow": {
+    "costName": "Cost of goods sold",
+    "costOfRevenueM": 1642.913,
+    "costPlain": "Making and shipping the clothes \u2014 this quarter tariffs and heavier markdowns pushed it up much faster than sales.",
+    "grossProfitM": 1997.888,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1183.773,
+        "note": "Store payroll, marketing and head-office costs \u2014 32.5% of revenue, up from 31.5% a year ago."
+      },
+      {
+        "name": "Amortization of intangible assets",
+        "amountM": 1.825,
+        "note": "Spreading the cost of acquired intangible assets.",
+        "shortName": "Amortization"
+      }
+    ],
+    "operatingIncomeM": 812.29,
+    "otherIncomeM": 0.975,
+    "revenueM": 3640.801,
+    "taxM": 226.394,
+    "netIncomeM": 586.871
+  },
+  "follow100": [
+    {
+      "label": "Americas",
+      "amount": 73.63
+    },
+    {
+      "label": "China Mainland",
+      "amount": 14.51
+    },
+    {
+      "label": "Rest of World",
+      "amount": 11.85
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -45.13
+    },
+    {
+      "label": "SG&A",
+      "amount": -32.51
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.05
+    },
+    {
+      "label": "Other income",
+      "amount": 0.03
+    },
+    {
+      "label": "Tax",
+      "amount": -6.22
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.12
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "China carried the quarter",
+      "text": "China Mainland revenue rose 24% to $528M with comparable sales up 30%, and Rest of World rose 10% to $432M. The Americas fell 4% to $2,681M \u2014 international growth is the only reason total revenue grew at all."
+    },
+    {
+      "stat": "54.9%",
+      "statColor": "#5b6b7c",
+      "title": "Margin fell 550 points",
+      "text": "Gross margin dropped to 54.9% from 60.4%: product margin fell 560 points on higher tariffs and heavier markdowns, partly offset by efficiency gains. Operating margin fell to 22.3% from 28.9%."
+    },
+    {
+      "stat": "$12.10\u201312.30",
+      "statColor": "#cf5f4e",
+      "title": "Next year's EPS was guided down",
+      "text": "For fiscal 2026 management guided revenue of $11.350\u201311.500B (up 2\u20134%) but EPS of $12.10\u2013$12.30, down from $13.26 in fiscal 2025, with Americas revenue expected to fall 1\u20133%."
+    }
+  ],
+  "oneTimers": [
+    "Fiscal 2024 had a 53rd week and fiscal 2025 had 52, which distorts every growth rate in this quarter: excluding the extra week, total revenue rose 6% (4% in constant currency) instead of 1%.",
+    "Lululemon repurchased 1.4 million of its shares for $269.1M in the quarter and opened 15 net new company-operated stores, ending the year with 811 stores and $1.8B of cash; inventories rose 18% to $1.7B."
+  ],
+  "otherDetail": "Other income, net, was $1.0M, down from $15.4M a year ago on equity-investment write-offs and lower interest income.",
+  "footerNote": "The release gives only percentage changes by region; the China Mainland ($528.4M) and Rest of World ($431.5M) dollar figures are from Lululemon's Q4 fiscal 2025 financial supplement, with Americas as the residual. Lululemon calls this fiscal year '2025' \u2014 it ended February 1, 2026.",
+  "pngFooterNote": "Region splits are from Lululemon's Q4 supplement; Americas is the residual.",
+  "sources": [
+    {
+      "label": "Official earnings release in Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000020/lulu-20260201.htm"
+    },
+    {
+      "label": "Q4 Fiscal 2025 financial supplement (company)",
+      "url": "https://investor.lululemon.com/~/media/Files/L/Lululemon/investors/results-center/financial-supplement-q4-2025.pdf"
+    }
+  ]
+}

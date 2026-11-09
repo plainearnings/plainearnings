@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nu Holdings — Q4 2025 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Nu Holdings Q4 2025 earnings in plain English: Nu grew IFRS revenue 57% in dollars to $4.7B and profit 62% to a record $895M, closing 2025 with 131 million customers and a 33% return on equity.">
+<meta property="og:title" content="Nu Holdings — Q4 2025 Earnings, Explained Simply">
+<meta property="og:description" content="Nu grew IFRS revenue 57% in dollars to $4.7B and profit 62% to a record $895M, closing 2025 with 131 million customers and a 33% return on equity.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/nu/2025-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/nu/2025-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Nu Holdings quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Nu Holdings <span class="thin">(NU)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+50%</span>
+        <span class="q-meta">Reported 2026-08-13 · Revenue $5,513M</span>
+      </a>
+      <a class="q-item" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+53%</span>
+        <span class="q-meta">Reported 2026-05-14 · Revenue $4,968M</span>
+      </a>
+      <a class="q-item active" href="../2025-q4/">
+        <span class="q-label">Q4 2025</span>
+        <span class="q-badge">+57%</span>
+        <span class="q-meta">Reported 2026-02-25 · Revenue $4,685.8M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Nu Holdings — Q4 2025 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 2025</strong> · Quarter ended 2025-12-31<br>
+      Reported 2026-02-25
+    </div>
+  </header>
+
+  <p class="verdict">Nu grew IFRS revenue 57% in dollars to $4.7B and profit 62% to a record $895M, closing 2025 with 131 million customers and a 33% return on equity.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+57%</b></span><span class="chip">Net income<b>$895M</b></span><span class="chip">Customers<b>131M</b></span><span class="chip">Deposits<b>$41.9B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Nu Holdings's Q4 2025 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Nu Holdings took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Interest income &amp; gains</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$85.29</span></div>
+          <div class="hrow"><span class="hlabel">Fees &amp; commissions</span><div class="htrack"><div class="hfill" data-w="17.2" style="background:#3D7BC8"></div></div><span class="hval">$14.71</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="68.6" style="background:#D96A57"></div></div><span class="hval">−$58.53</span></div>
+          <div class="hrow"><span class="hlabel">Customer support</span><div class="htrack"><div class="hfill" data-w="4.1" style="background:#D96A57"></div></div><span class="hval">−$3.50</span></div>
+          <div class="hrow"><span class="hlabel">General &amp; admin</span><div class="htrack"><div class="hfill" data-w="11.0" style="background:#D96A57"></div></div><span class="hval">−$9.39</span></div>
+          <div class="hrow"><span class="hlabel">Marketing</span><div class="htrack"><div class="hfill" data-w="3.0" style="background:#D96A57"></div></div><span class="hval">−$2.58</span></div>
+          <div class="hrow"><span class="hlabel">Other expenses</span><div class="htrack"><div class="hfill" data-w="3.5" style="background:#D96A57"></div></div><span class="hval">−$2.98</span></div>
+          <div class="hrow"><span class="hlabel">Share of associates</span><div class="htrack"><div class="hfill" data-w="0.0" style="background:#D96A57"></div></div><span class="hval">−$0.01</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="4.6" style="background:#B8443C"></div></div><span class="hval">−$3.90</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="22.4" style="background:#3E8E5A"></div></div><span class="hval">$19.10</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">$895M</div>
+            <h3>A record profit, at a 33% ROE</h3>
+            <p>Net income reached $894.8M, up 62% in dollars from $552.6M a year ago, for a record 33% return on equity. Full-year net income was $2.9B, up from $2.0B in 2024.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">131M</div>
+            <h3>17 million customers added in 2025</h3>
+            <p>Nu added 4 million customers in the quarter to reach 131 million — 113 million in Brazil, where it is now the largest private financial institution by customer count, about 15% of Mexico&#x27;s adult population, and over 4 million in Colombia. Monthly revenue per active customer reached $15.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">4.1%</div>
+            <h3>Credit quality improved at year-end</h3>
+            <p>The 15–90 day delinquency ratio fell to 4.1% and the 90+ ratio to 6.6%, helped by Brazil&#x27;s 13th-salary seasonality, while the credit portfolio grew 40% to $32.7B and deposits rose 29% to $41.9B.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>This was the first quarter reported under Nu&#x27;s new Managerial P&amp;L framework. This page uses the IFRS accounting P&amp;L from the KPMG-assured reconciliation bridge: managerial revenue was $4,857.3M, but net income is identical ($894.8M) on both bases.</li><li>Risk-adjusted NIM of 10.5% included a one-off extraordinary contribution to Prosofipo, the sector-wide deposit-protection fund all Mexican Sofipos must fund.</li><li>In January 2026 Nu received conditional OCC approval for a U.S. national bank charter — the first of three clearances for its planned U.S. expansion.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="">Q1 2026</a></li><li><a href="../2025-q4/" class="current">Q4 2025</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1691493/000129281426000501/nu20260225_6k.htm">Official earnings release (SEC EDGAR 6-K)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1691493/000129281426000505/nu20260225_6k2.htm">Managerial P&amp;L reconciliation — IFRS accounting P&amp;L (SEC EDGAR 6-K)</a></p>
+      <p>Educational only — not financial advice. Nu is a digital bank; cost of revenue is mostly interest paid to depositors and loan-loss provisions. Figures are the IFRS accounting P&amp;L from the reconciliation bridge; its rounded components sum to $4,685.8M against the $4,685.9M total shown in the filing.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":4.686,"nodes":{"seg0":{"name":"Interest income & instrument gains","amt":"$4.0B","value":3.996,"col":0,"color":"#3D7BC8","note":"+60% \u00b7 85.3% of revenue","plain":"Interest earned on loans, credit cards and investments, plus gains on financial instruments \u2014 the core money a bank makes from lending. In the accounting P&L this is credit income of $2,732.0M plus float (treasury) income of $1,264.3M.","quarter":"85.3% of all revenue this quarter."},"seg1":{"name":"Fee and commission income","amt":"$690M","value":0.69,"col":0,"color":"#7A68C4","note":"+39% \u00b7 14.7% of revenue","plain":"Fees and commissions from cards and other services customers use in the app.","quarter":"14.7% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$4.7B","value":4.686,"col":1,"color":"#2F3B4C","note":"+57%","plain":"All the money Nu Holdings took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$4.7B, +57% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.9B","value":1.943,"col":2,"color":"#69B578","note":"41.5% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"41.5 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($2.7B)","value":2.743,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$2.7B \u2014 about 58.5 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$1.1B","value":1.078,"col":3,"color":"#4C9A67","note":"23% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 23% margin."},"opex":{"name":"Operating expenses","amt":"($865M)","value":0.865,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$865M total, split into Customer support and operations, General and administrative expenses, Marketing expenses, Other expenses on the right."},"otherexp":{"name":"Other expense","amt":"($0M)","value":0.0,"col":4,"color":"#B8443C","note":"","plain":"A $0.4M share of losses from associates \u2014 the accounting P&L has no separate other-income line this quarter.","quarter":"$0M taken out of profit."},"ox0":{"name":"Customer support and operations","amt":"($164M)","value":0.164,"col":4,"color":"#CF5F4E","note":"3.5% of revenue","plain":"Customer support and day-to-day operations for an app-only bank with no branches.","quarter":"$164M \u2014 3.5% of revenue."},"ox1":{"name":"General and administrative expenses","amt":"($440M)","value":0.44,"col":4,"color":"#CF5F4E","note":"9.4% of revenue","plain":"Staff, technology and running the company \u2014 the biggest operating cost block.","quarter":"$440M \u2014 9.4% of revenue."},"ox2":{"name":"Marketing expenses","amt":"($121M)","value":0.121,"col":4,"color":"#CF5F4E","note":"2.6% of revenue","plain":"Advertising and customer acquisition.","quarter":"$121M \u2014 2.6% of revenue."},"ox3":{"name":"Other expenses","amt":"($140M)","value":0.14,"col":4,"color":"#CF5F4E","note":"3% of revenue","plain":"Other operating expenses as reported in the accounting P&L.","quarter":"$140M \u2014 3% of revenue."},"net":{"name":"Net profit","amt":"$895M","value":0.895,"col":4,"color":"#3E8E5A","note":"19.1% margin","plain":"The bottom line \u2014 what Nu Holdings actually earned after everything.","quarter":"$895M \u2014 about 19.1 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($183M)","value":0.183,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$183M \u2014 roughly a 17% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":3.996,"c":"#94b6e1","amt":"$4.0B"},{"s":"seg1","d":"rev","v":0.69,"c":"#b6acdf","amt":"$690M"},{"s":"rev","d":"gross","v":1.943,"c":"#BFE0C6","amt":"$1.9B"},{"s":"rev","d":"cost","v":2.743,"c":"#F4C7B9","amt":"$2.7B"},{"s":"gross","d":"op","v":1.078,"c":"#ACD8B8","amt":"$1.1B"},{"s":"gross","d":"opex","v":0.865,"c":"#F2B3A4","amt":"$865M"},{"s":"op","d":"net","v":0.895,"c":"#ACD8B8","amt":"$895M"},{"s":"op","d":"otherexp","v":0.0,"c":"#dfaba7","amt":"$0M"},{"s":"op","d":"tax","v":0.183,"c":"#dfaba7","amt":"$183M"},{"s":"opex","d":"ox0","v":0.164,"c":"#F6C0B1","amt":"$164M"},{"s":"opex","d":"ox1","v":0.44,"c":"#F6C0B1","amt":"$440M"},{"s":"opex","d":"ox2","v":0.121,"c":"#F6C0B1","amt":"$121M"},{"s":"opex","d":"ox3","v":0.14,"c":"#F6C0B1","amt":"$140M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

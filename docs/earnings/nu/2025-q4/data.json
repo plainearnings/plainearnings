@@ -1,0 +1,157 @@
+{
+  "ticker": "NU",
+  "company": "Nu Holdings",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-25",
+  "verdict": "Nu grew IFRS revenue 57% in dollars to $4.7B and profit 62% to a record $895M, closing 2025 with 131 million customers and a 33% return on equity.",
+  "revenueYoY": "+57%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+57%",
+      "note": "Total revenue $4.7B vs $3.0B in Q4 2024, in dollars (IFRS accounting basis)"
+    },
+    {
+      "label": "Net income",
+      "value": "$895M",
+      "note": "A record high, up 62% in dollars from $553M a year ago; return on equity was 33%"
+    },
+    {
+      "label": "Customers",
+      "value": "131M",
+      "note": "131 million total, up 15% from 114.2 million a year ago; 4 million added in the quarter"
+    },
+    {
+      "label": "Deposits",
+      "value": "$41.9B",
+      "note": "Customer deposits held with Nu, up 29% year over year; credit portfolio $32.7B, up 40%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Interest income & instrument gains",
+      "amountM": 3996.3,
+      "note": "Interest earned on loans, credit cards and investments, plus gains on financial instruments \u2014 the core money a bank makes from lending. In the accounting P&L this is credit income of $2,732.0M plus float (treasury) income of $1,264.3M.",
+      "yoy": "+60%"
+    },
+    {
+      "name": "Fee and commission income",
+      "amountM": 689.5,
+      "note": "Fees and commissions from cards and other services customers use in the app.",
+      "yoy": "+39%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4685.8,
+    "costOfRevenueM": 2742.8,
+    "grossProfitM": 1943.0,
+    "opex": [
+      {
+        "name": "Customer support and operations",
+        "amountM": 164.0,
+        "note": "Customer support and day-to-day operations for an app-only bank with no branches."
+      },
+      {
+        "name": "General and administrative expenses",
+        "amountM": 440.1,
+        "note": "Staff, technology and running the company \u2014 the biggest operating cost block."
+      },
+      {
+        "name": "Marketing expenses",
+        "amountM": 121.0,
+        "note": "Advertising and customer acquisition."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 139.8,
+        "note": "Other operating expenses as reported in the accounting P&L."
+      }
+    ],
+    "operatingIncomeM": 1078.1,
+    "otherIncomeM": -0.4,
+    "taxM": 182.9,
+    "netIncomeM": 894.8
+  },
+  "follow100": [
+    {
+      "label": "Interest income & gains",
+      "amount": 85.29
+    },
+    {
+      "label": "Fees & commissions",
+      "amount": 14.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.53
+    },
+    {
+      "label": "Customer support",
+      "amount": -3.5
+    },
+    {
+      "label": "General & admin",
+      "amount": -9.39
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.58
+    },
+    {
+      "label": "Other expenses",
+      "amount": -2.98
+    },
+    {
+      "label": "Share of associates",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -3.9
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 19.1
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$895M",
+      "statColor": "#3e8e5a",
+      "title": "A record profit, at a 33% ROE",
+      "text": "Net income reached $894.8M, up 62% in dollars from $552.6M a year ago, for a record 33% return on equity. Full-year net income was $2.9B, up from $2.0B in 2024."
+    },
+    {
+      "stat": "131M",
+      "statColor": "#3d7bc8",
+      "title": "17 million customers added in 2025",
+      "text": "Nu added 4 million customers in the quarter to reach 131 million \u2014 113 million in Brazil, where it is now the largest private financial institution by customer count, about 15% of Mexico's adult population, and over 4 million in Colombia. Monthly revenue per active customer reached $15."
+    },
+    {
+      "stat": "4.1%",
+      "statColor": "#5b6b7c",
+      "title": "Credit quality improved at year-end",
+      "text": "The 15\u201390 day delinquency ratio fell to 4.1% and the 90+ ratio to 6.6%, helped by Brazil's 13th-salary seasonality, while the credit portfolio grew 40% to $32.7B and deposits rose 29% to $41.9B."
+    }
+  ],
+  "oneTimers": [
+    "This was the first quarter reported under Nu's new Managerial P&L framework. This page uses the IFRS accounting P&L from the KPMG-assured reconciliation bridge: managerial revenue was $4,857.3M, but net income is identical ($894.8M) on both bases.",
+    "Risk-adjusted NIM of 10.5% included a one-off extraordinary contribution to Prosofipo, the sector-wide deposit-protection fund all Mexican Sofipos must fund.",
+    "In January 2026 Nu received conditional OCC approval for a U.S. national bank charter \u2014 the first of three clearances for its planned U.S. expansion."
+  ],
+  "otherDetail": "A $0.4M share of losses from associates \u2014 the accounting P&L has no separate other-income line this quarter.",
+  "footerNote": "Nu is a digital bank; cost of revenue is mostly interest paid to depositors and loan-loss provisions. Figures are the IFRS accounting P&L from the reconciliation bridge; its rounded components sum to $4,685.8M against the $4,685.9M total shown in the filing.",
+  "pngFooterNote": "Nu is a digital bank; figures are the IFRS accounting P&L.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426000501/nu20260225_6k.htm"
+    },
+    {
+      "label": "Managerial P&L reconciliation \u2014 IFRS accounting P&L (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426000505/nu20260225_6k2.htm"
+    }
+  ]
+}

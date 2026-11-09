@@ -1,0 +1,160 @@
+{
+  "ticker": "GEV",
+  "company": "GE Vernova",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-22",
+  "verdict": "GE Vernova grew revenue 16% to $9.3B as orders rose 71% organically to $18.3B, but the headline $4.7B profit was mostly a $4.5B one-time gain from buying the rest of Prolec GE \u2014 the underlying business earned far less.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "Revenue of $9.3B, up from $8.0B a year ago; +7% organically, led by equipment at Electrification and Power"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$17.44",
+      "note": "Net income was $4.7B, a 50.9% margin \u2014 including $4.5B of pre-tax M&A net gains, primarily from Prolec GE"
+    },
+    {
+      "label": "Backlog",
+      "value": "$163B",
+      "note": "Orders of $18.3B in the quarter, +71% organically; backlog grew $13B in three months"
+    },
+    {
+      "label": "Gas Power backlog",
+      "value": "100 GW",
+      "note": "Gas equipment backlog plus slot reservations rose from 83 GW to 100 GW \u2014 hitting the year-end target in one quarter; the target was raised to at least 110 GW"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Power",
+      "amountM": 4971,
+      "note": "Gas turbines and other power-plant equipment and services \u2014 the biggest business. Revenue +12% on Gas Power strength; gas equipment backlog plus slot reservations reached 100 GW.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Electrification",
+      "amountM": 2959,
+      "note": "Grid equipment \u2014 substations, transformers and high-voltage gear that move electricity. Revenue +61% as reported, including Prolec GE from February 2; +29% organically.",
+      "yoy": "+61%"
+    },
+    {
+      "name": "Wind",
+      "amountM": 1432,
+      "note": "Wind turbines, onshore and offshore, plus servicing. Revenue -23% on lower onshore equipment deliveries, and the segment lost $382M at the EBITDA level.",
+      "yoy": "-23%"
+    },
+    {
+      "name": "Other/eliminations",
+      "amountM": -23,
+      "note": "Other revenues minus sales between GE Vernova's own segments, removed so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "flow": {
+    "revenueM": 9339,
+    "costOfRevenueM": 7558,
+    "grossProfitM": 1781,
+    "opex": [
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 1297,
+        "note": "Sales teams, offices and running the company."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 304,
+        "note": "Developing new turbines, grid and energy-transition technology \u2014 about $0.3B funded in the quarter."
+      }
+    ],
+    "operatingIncomeM": 180,
+    "otherIncomeM": 4924,
+    "taxM": 354,
+    "netIncomeM": 4750
+  },
+  "follow100": [
+    {
+      "label": "Power",
+      "amount": 53.23
+    },
+    {
+      "label": "Electrification",
+      "amount": 31.68
+    },
+    {
+      "label": "Wind",
+      "amount": 15.33
+    },
+    {
+      "label": "Other / eliminations",
+      "amount": -0.25
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.93
+    },
+    {
+      "label": "SG&A",
+      "amount": -13.89
+    },
+    {
+      "label": "R&D",
+      "amount": -3.26
+    },
+    {
+      "label": "Other income",
+      "amount": 52.73
+    },
+    {
+      "label": "Tax",
+      "amount": -3.79
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 50.86
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$18.3B",
+      "statColor": "#3d7bc8",
+      "title": "Orders rose 71% organically",
+      "text": "Orders rose 71% organically to $18.3B with growth in all segments, and total backlog grew $13B in one quarter to $163B. Gas Power equipment backlog plus slot reservation agreements leapt from 83 GW to 100 GW, and the company now expects at least 110 GW by year-end 2026."
+    },
+    {
+      "stat": "$4.0B",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain made the profit",
+      "text": "Net income of $4.7B includes a $3,992M pre-tax gain from remeasuring GE Vernova's old 50% Prolec GE stake when it bought the rest, plus a $330M gain on selling the Proficy software business. Stripping out one-offs, adjusted EBITDA was $896M, up 87%."
+    },
+    {
+      "stat": "-23%",
+      "statColor": "#cf5f4e",
+      "title": "Wind kept shrinking",
+      "text": "Wind revenue fell 23% to $1.4B on lower onshore deliveries and the segment's EBITDA loss widened to $382M, while Electrification revenue jumped 61% to $3.0B with Prolec GE included and Power rose 12% to $5.0B."
+    }
+  ],
+  "oneTimers": [
+    "Gains on purchases and sales of business interests were $4,405M pre-tax: a $3,992M gain remeasuring the previously held Prolec GE stake, a $330M gain on the sale of the Proficy manufacturing-software business, and an $86M gain on selling an equity-method investment (components per the 10-Q note).",
+    "Net interest and investment income of $263M included $251M of gains on the China XD Electric stake ($231M unrealized and $20M realized).",
+    "GE Vernova bought the remaining 50% of Prolec GE on February 2, 2026 for about $5.3B of cash, issued $2.6B of senior notes, and incurred $23M of separation costs and $41M of costs under its restructuring plan in the quarter.",
+    "Free cash flow was $4.8B in the quarter \u2014 more than all of 2025 \u2014 and management raised full-year 2026 guidance to $44.5\u201345.5B of revenue and $6.5\u20137.5B of free cash flow."
+  ],
+  "otherDetail": "Other income of $4,924M is made up of $28M of interest and other financial income, $134M of non-operating benefit income (pension and retiree-benefit plans), and $4,762M of other income \u2014 net. That $4,762M is $4,405M of gains on purchases and sales of business interests, $263M of net interest and investment income (including $251M of China XD Electric gains), $65M of equity-method income, $9M of licensing income, $5M of derivative gains and $14M of other items (components total $4,761M; $1M rounding in the filing).",
+  "footerNote": "GE Vernova reports in whole $ millions; cost of revenue is the filing's $7,558M combined total and SG&A carries a $1M rounding plug so the lines add up exactly.",
+  "pngFooterNote": "GE Vernova reports in whole $ millions; $1M rounding plug in SG&A.",
+  "sources": [
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000064/gev1q2026form10-q.pdf"
+    },
+    {
+      "label": "Official earnings release (company)",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-first-quarter-2026-financial"
+    }
+  ]
+}
