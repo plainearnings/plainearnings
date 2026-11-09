@@ -1,0 +1,132 @@
+{
+  "ticker": "RKLB",
+  "company": "Rocket Lab",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "verdict": "Rocket Lab grew revenue 63% to a record $200M and lifted its backlog to a record $2.2B, but research and overhead still outran its gross profit, leaving a $45M loss.",
+  "revenueYoY": "+63%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+63%",
+      "note": "Revenue was a record $200M, up from $123M in Q1 2025"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "\u2212$0.07",
+      "note": "Basic and diluted; net loss was $45M, vs \u2212$0.12 and a $61M loss a year earlier"
+    },
+    {
+      "label": "Backlog",
+      "value": "$2.2B",
+      "note": "Orders booked but not yet flown or built; up 108% year over year and 20% in the quarter"
+    },
+    {
+      "label": "Cash",
+      "value": "$1.21B",
+      "note": "Cash and equivalents at March 31, plus $271M in marketable securities"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product revenues",
+      "amountM": 127.488,
+      "yoy": "+58%",
+      "note": "Spacecraft, satellite components and systems sold \u2014 reaction wheels, propulsion, solar power and the Photon spacecraft platform."
+    },
+    {
+      "name": "Service revenues",
+      "amountM": 72.86,
+      "yoy": "+74%",
+      "note": "Launch services (Electron and HASTE missions) and mission services \u2014 flying and operating things in space for customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 200.348,
+    "costOfRevenueM": 123.855,
+    "grossProfitM": 76.493,
+    "opex": [
+      {
+        "name": "Research and development, net",
+        "amountM": 80.513,
+        "note": "Developing the Neutron rocket, Electron and spacecraft \u2014 up 46% from $55M a year earlier."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 51.949,
+        "note": "Running and selling the company \u2014 up 32% from $39M a year earlier, including deal work on acquisitions."
+      }
+    ],
+    "operatingIncomeM": -55.969,
+    "otherIncomeM": 9.155,
+    "taxM": -1.792,
+    "netIncomeM": -45.022
+  },
+  "follow100": [
+    {
+      "label": "Product revenues",
+      "amount": 63.63
+    },
+    {
+      "label": "Service revenues",
+      "amount": 36.37
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -61.82
+    },
+    {
+      "label": "R&D",
+      "amount": -40.19
+    },
+    {
+      "label": "SG&A",
+      "amount": -25.93
+    },
+    {
+      "label": "Other income",
+      "amount": 4.57
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.89
+    },
+    {
+      "label": "Net loss",
+      "amount": -22.47
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.2B",
+      "statColor": "#3d7bc8",
+      "title": "The order book doubled",
+      "text": "Backlog hit a record $2.2B, up 108% YoY: 31 new Electron and HASTE contracts plus five dedicated Neutron launches were signed in the quarter \u2014 more launches sold than in all of 2025."
+    },
+    {
+      "stat": "38.2%",
+      "statColor": "#3e8e5a",
+      "title": "Best gross margin yet",
+      "text": "GAAP gross margin reached a record 38.2%, up from 29% a year ago, as higher-margin space systems work grows faster than launch."
+    },
+    {
+      "stat": "$45M",
+      "statColor": "#b8443c",
+      "title": "Losses are narrowing",
+      "text": "The net loss shrank from $61M a year ago to $45M even as R&D rose to $81M \u2014 the Neutron program is the big deliberate spend standing between Rocket Lab and break-even."
+    }
+  ],
+  "oneTimers": [
+    "Rocket Lab closed its acquisition of Mynaric (laser communications terminals for satellites) in the quarter and agreed to buy Motiv Space Systems \u2014 deal costs sit inside SG&A, and the acquired businesses add to revenue from here on."
+  ],
+  "otherDetail": "Other income was $9.2M net: $10.1M of interest income on the large cash pile, partly offset by $1.3M of interest expense, plus small foreign-exchange and other gains.",
+  "footerNote": "Net loss is the filed $45.0M; the loss per share was \u2212$0.07.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Form 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://files.sec2pdf.com/Rocket%20Lab%20Corp%20(RKLB)/SEC_Filings_PDF/8-K/20260507-8-K-Rocket%20Lab%20Corp-0001819994-26-000027.pdf"
+    }
+  ]
+}

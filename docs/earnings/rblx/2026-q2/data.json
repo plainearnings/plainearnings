@@ -1,0 +1,150 @@
+{
+  "ticker": "RBLX",
+  "company": "Roblox",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Roblox grew revenue 36% to $1.47B as more than 120 million daily users played over 29 billion hours, but bookings growth slowed to 8% \u2014 players spent less per hour \u2014 and it still lost $185M.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "\u2212$0.26",
+      "note": "net loss per share"
+    },
+    {
+      "label": "Bookings",
+      "value": "$1.56B",
+      "note": "+8% YoY \u2014 the cash players actually spent"
+    },
+    {
+      "label": "Daily active users",
+      "value": "120M+",
+      "note": "hours engaged over 29B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Platform revenue",
+      "amountM": 1469,
+      "yoy": "+36%",
+      "note": "Sales of Robux (the platform's virtual currency) and subscriptions, recognized gradually over the ~27 months players are expected to keep spending. The cash collected upfront ('bookings') was $1,557M."
+    }
+  ],
+  "flow": {
+    "revenueM": 1469,
+    "costOfRevenueM": 292,
+    "grossProfitM": 1177,
+    "opex": [
+      {
+        "name": "Developer exchange fees",
+        "amountM": 363,
+        "note": "The cut paid out to creators when players spend Robux in their games \u2014 Roblox raised creator pay rates in September 2025."
+      },
+      {
+        "name": "Infrastructure and trust & safety",
+        "amountM": 363,
+        "note": "Servers and computing (including AI) plus the safety operation that polices the platform."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 420,
+        "note": "Building the platform, tools and AI features."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 199,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 61,
+        "note": "Winning new players and creators."
+      }
+    ],
+    "operatingIncomeM": -229,
+    "otherIncomeM": 46,
+    "taxM": 2,
+    "netIncomeM": -185
+  },
+  "follow100": [
+    {
+      "label": "Platform revenue",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -19.88
+    },
+    {
+      "label": "Developer exchange fees",
+      "amount": -24.71
+    },
+    {
+      "label": "Infrastructure and trust & safety",
+      "amount": -24.71
+    },
+    {
+      "label": "R&D",
+      "amount": -28.59
+    },
+    {
+      "label": "G&A",
+      "amount": -13.55
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -4.15
+    },
+    {
+      "label": "Other income",
+      "amount": 3.13
+    },
+    {
+      "label": "Tax",
+      "amount": -0.14
+    },
+    {
+      "label": "Net loss",
+      "amount": -12.59
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference. Costs ran to $112.60 per $100 of revenue \u2014 the extra is the loss, covered by cash the company already had.",
+  "takeaways": [
+    {
+      "stat": "120M+",
+      "statColor": "#3d7bc8",
+      "title": "The audience kept growing",
+      "text": "Daily active users passed 120 million and hours engaged topped 29 billion in the quarter \u2014 reach is not the problem."
+    },
+    {
+      "stat": "+8%",
+      "statColor": "#b8443c",
+      "title": "Bookings slowed sharply",
+      "text": "Bookings \u2014 Robux cash sales \u2014 grew only 8%, landing at the low end of guidance: a discovery-algorithm change that favors retention cut spending per hour, especially among younger U.S. and Canadian players."
+    },
+    {
+      "stat": "$294M",
+      "statColor": "#3e8e5a",
+      "title": "Losses, but cash-positive",
+      "text": "Free cash flow was +$294M despite the $185M accounting loss: players pay upfront, and $282M of the quarter's costs were stock pay, not cash."
+    }
+  ],
+  "oneTimers": [
+    "Revenue is not the cash in: bookings were $1,557M but revenue was $1,469M. Roblox defers most bookings and recognizes them over the 27-month average paying-user lifetime, so reported revenue lags the cash by design.",
+    "Roblox bought back about $380M of its own shares in the quarter under a new $3B repurchase program announced in May 2026 \u2014 a use of cash, not an expense in the figures above."
+  ],
+  "otherDetail": "Interest and other items netted +$46M: $59M of interest earned on Roblox's investment pile, minus $10M of interest expense and $3M of other expense.",
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026051059/ex991-robloxq22026earnin.htm"
+    }
+  ]
+}

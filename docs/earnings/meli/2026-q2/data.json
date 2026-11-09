@@ -1,0 +1,146 @@
+{
+  "ticker": "MELI",
+  "company": "MercadoLibre",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-05",
+  "verdict": "MercadoLibre grew revenue 50% to $10.2B \u2014 its fastest pace in four years \u2014 as shoppers bought more often and Mercado Pago handled $101B of payments, while deliberate spending on free shipping and credit held operating profit to $683M.",
+  "revenueYoY": "+50%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+50%",
+      "note": "Net revenues & financial income of $10.2B vs $6.8B in Q2 2025, in dollars; up 43% ignoring currency moves"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$9.19",
+      "note": "Diluted earnings per share, vs $10.31 a year ago; net income was $466M"
+    },
+    {
+      "label": "Gross merchandise volume",
+      "value": "$21.9B",
+      "note": "The total value of goods sold on the marketplace (GMV), up 44% in dollars"
+    },
+    {
+      "label": "Total payment volume",
+      "value": "$101B",
+      "note": "The total value of payments processed by Mercado Pago (TPV), up 56% in dollars"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commerce",
+      "amountM": 5762,
+      "note": "Marketplace fees, shipping, first-party product sales, advertising and MELI+ subscriptions. Brazil alone brought in $5.5B of total company revenue."
+    },
+    {
+      "name": "Fintech",
+      "amountM": 4407,
+      "note": "Mercado Pago payment fees, financing fees and interest earned on consumer and merchant credit, plus point-of-sale devices. The credit portfolio reached $16.4B, up 75% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 10169,
+    "costOfRevenueM": 6010,
+    "grossProfitM": 4159,
+    "opex": [
+      {
+        "name": "Product and technology development",
+        "amountM": 729,
+        "note": "Building and running the marketplace, payments platform and AI tools."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 1131,
+        "note": "Advertising and customer acquisition across Latin America."
+      },
+      {
+        "name": "Provision for doubtful accounts",
+        "amountM": 1276,
+        "note": "Money set aside for loans and credit-card balances that may not be repaid, as the credit book grows."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 340,
+        "note": "Staff and running the company."
+      }
+    ],
+    "operatingIncomeM": 683,
+    "otherIncomeM": -77,
+    "taxM": 140,
+    "netIncomeM": 466
+  },
+  "follow100": [
+    {
+      "label": "Commerce",
+      "amount": 56.66
+    },
+    {
+      "label": "Fintech",
+      "amount": 43.34
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.1
+    },
+    {
+      "label": "Product & tech",
+      "amount": -7.17
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.12
+    },
+    {
+      "label": "Bad-debt provision",
+      "amount": -12.55
+    },
+    {
+      "label": "General & admin",
+      "amount": -3.34
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -1.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.58
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+50%",
+      "statColor": "#3d7bc8",
+      "title": "Fastest growth in four years",
+      "text": "Revenue passed $10B in a quarter for the first time. Shoppers bought more often \u2014 items per buyer rose 14% \u2014 a year after the free-shipping threshold was cut in Brazil."
+    },
+    {
+      "stat": "6.7%",
+      "statColor": "#b8443c",
+      "title": "Margin is a choice, for now",
+      "text": "Operating margin fell to 6.7% from 12.1% a year ago as MercadoLibre spends on shipping, warehouses and credit-card issuance. Management calls it deliberate: users who use both marketplace and Pago spend far more."
+    },
+    {
+      "stat": "$16.4B",
+      "statColor": "#3d7bc8",
+      "title": "The credit book is ballooning",
+      "text": "The loan and credit-card portfolio grew 75% YoY to $16.4B, with 2.6 million new cards issued in the quarter. The bad-debt provision \u2014 $1.28B this quarter \u2014 grows with it."
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Below operating income, $30M of interest income and other financial gains was more than offset by $62M of interest expense and other financial losses and $45M of foreign-currency losses, for a net other expense of $77M.",
+  "footerNote": "MercadoLibre reports 'net revenues and financial income' \u2014 marketplace sales plus Mercado Pago's financial income; its cost line includes financial expenses.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000021/meli-20260805xex991.htm"
+    }
+  ]
+}

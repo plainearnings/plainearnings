@@ -1,0 +1,151 @@
+{
+  "ticker": "HIMS",
+  "company": "Hims & Hers",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-11",
+  "verdict": "Hims & Hers grew revenue just 4% to $608M as U.S. sales fell 8% during its weight-loss pivot, and restructuring, legal and deal costs swung it to a $92M loss \u2014 even as international revenue jumped nearly tenfold to $78M.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4%",
+      "note": "Revenue was $608M, vs $586M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "\u2212$0.40",
+      "note": "vs +$0.20 a year ago \u2014 the company made a loss this quarter"
+    },
+    {
+      "label": "Subscribers",
+      "value": "2.58M",
+      "note": "Up 9% YoY \u2014 people on a recurring subscription plan at quarter end"
+    },
+    {
+      "label": "International revenue",
+      "value": "$78M",
+      "note": "Up 969% YoY, from $7M \u2014 the ZAVA and LIVWELL acquisitions"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States",
+      "amountM": 529.909,
+      "yoy": "\u22128%",
+      "note": "Sales in the US \u2014 mostly online telehealth (care by app or phone) for weight loss, hair, skin and other treatments, plus the products that go with them. Down 8% as the weight-loss offering shifted toward branded GLP-1 medicines, with compounded versions offered only on a limited scale."
+    },
+    {
+      "name": "Rest of the world",
+      "amountM": 78.195,
+      "yoy": "+969%",
+      "note": "Sales outside the US. Up nearly tenfold, mainly because of acquisitions \u2014 ZAVA in Europe and LIVWELL \u2014 as the company builds an international business."
+    }
+  ],
+  "flow": {
+    "revenueM": 608.104,
+    "costOfRevenueM": 211.317,
+    "grossProfitM": 396.787,
+    "opex": [
+      {
+        "name": "Marketing",
+        "amountM": 222.003,
+        "note": "Ads and the cost of signing up new customers \u2014 the biggest running cost, though a smaller share of sales than a year ago (37% vs 39%)."
+      },
+      {
+        "name": "Operations and support",
+        "amountM": 96.503,
+        "note": "Fulfilling orders, running pharmacies and supporting customers. Up 53% YoY as volumes and acquired businesses grew."
+      },
+      {
+        "name": "Technology and development",
+        "amountM": 46.936,
+        "note": "Building the app, website and AI clinical tools, and paying the engineers behind them."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 109.668,
+        "note": "Running the company \u2014 finance, legal and admin. More than doubled YoY; it includes $15M of legal settlement costs and $13M of acquisition costs (see one-offs)."
+      }
+    ],
+    "operatingIncomeM": -78.323,
+    "otherIncomeM": -23.228,
+    "taxM": -9.436,
+    "netIncomeM": -92.115
+  },
+  "follow100": [
+    {
+      "label": "United States",
+      "amount": 87.14
+    },
+    {
+      "label": "Rest of the world",
+      "amount": 12.86
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -34.75
+    },
+    {
+      "label": "Marketing",
+      "amount": -36.51
+    },
+    {
+      "label": "Operations & support",
+      "amount": -15.87
+    },
+    {
+      "label": "Tech & development",
+      "amount": -7.72
+    },
+    {
+      "label": "General & admin",
+      "amount": -18.03
+    },
+    {
+      "label": "Other expense",
+      "amount": -3.82
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.55
+    },
+    {
+      "label": "Net loss",
+      "amount": -15.15
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "\u22128%",
+      "statColor": "#b8443c",
+      "title": "The U.S. engine stalled",
+      "text": "U.S. revenue fell 8% as the weight-loss business pivoted from compounded GLP-1s to branded medicines. Monthly revenue per subscriber slipped to $80 from $85."
+    },
+    {
+      "stat": "65%",
+      "statColor": "#b8443c",
+      "title": "Margins compressed",
+      "text": "Gross margin fell to 65% from 73% a year ago \u2014 product costs rose in the pivot, and cost of revenue absorbed $28M of inventory write-downs tied to it."
+    },
+    {
+      "stat": "$44M",
+      "statColor": "#3e8e5a",
+      "title": "Cash still flowed",
+      "text": "Despite the $92M GAAP loss, Adjusted EBITDA was +$44M and free cash flow +$53M \u2014 much of the loss is one-off charges and non-cash items, listed below."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charges of $33M tied to the 2026 shift in the U.S. weight-loss offering toward branded GLP-1 medicines \u2014 including $28M of inventory write-downs inside cost of revenue.",
+    "General and administrative costs include $15M of legal settlement costs and $13M of acquisition and transaction-related costs (per the company's Adjusted EBITDA reconciliation) \u2014 items it treats as non-recurring."
+  ],
+  "otherDetail": "Other expense was $23.2M, net: the value of liabilities Hims & Hers owes rose by $17.6M and its equity securities fell in value by $9.7M, partly offset by $4.1M of other income, net.",
+  "footerNote": "Filed in thousands; shown in $M to three decimals so the lines add up.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001773751/62c093e2-9380-41b4-85db-bb1805542f04.pdf"
+    }
+  ]
+}

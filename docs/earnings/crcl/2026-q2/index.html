@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Circle Q2 2026 earnings in plain English: Circle grew revenue 7% to $701M as USDC in circulation rose 19% to $73.3B, and it made a $48M profit — a year earlier, a huge IPO stock-pay bill had driven a $482M loss.">
+<meta property="og:title" content="Circle — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Circle grew revenue 7% to $701M as USDC in circulation rose 19% to $73.3B, and it made a $48M profit — a year earlier, a huge IPO stock-pay bill had driven a $482M loss.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/crcl/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/crcl/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Circle quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Circle <span class="thin">(CRCL)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+17%</span>
+        <span class="q-meta">Reported 2026-11-04 · Revenue $865M</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+7%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $701.315M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Circle — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-08-05
+    </div>
+  </header>
+
+  <p class="verdict">Circle grew revenue 7% to $701M as USDC in circulation rose 19% to $73.3B, and it made a $48M profit — a year earlier, a huge IPO stock-pay bill had driven a $482M loss.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+7%</b></span><span class="chip">EPS (GAAP diluted)<b>$0.18</b></span><span class="chip">USDC in circulation<b>$73.3B</b></span><span class="chip">Adjusted EBITDA<b>$143M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Circle's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Circle took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Reserve income</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$95.21</span></div>
+          <div class="hrow"><span class="hlabel">Other revenue</span><div class="htrack"><div class="hfill" data-w="5.0" style="background:#3D7BC8"></div></div><span class="hval">$4.79</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="61.8" style="background:#D96A57"></div></div><span class="hval">−$58.81</span></div>
+          <div class="hrow"><span class="hlabel">Compensation</span><div class="htrack"><div class="hfill" data-w="20.1" style="background:#D96A57"></div></div><span class="hval">−$19.11</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="9.9" style="background:#CF5F4E"></div></div><span class="hval">−$9.45</span></div>
+          <div class="hrow"><span class="hlabel">Depreciation &amp; amort.</span><div class="htrack"><div class="hfill" data-w="4.5" style="background:#D96A57"></div></div><span class="hval">−$4.26</span></div>
+          <div class="hrow"><span class="hlabel">IT infrastructure</span><div class="htrack"><div class="hfill" data-w="2.4" style="background:#D96A57"></div></div><span class="hval">−$2.33</span></div>
+          <div class="hrow"><span class="hlabel">Marketing</span><div class="htrack"><div class="hfill" data-w="1.3" style="background:#D96A57"></div></div><span class="hval">−$1.23</span></div>
+          <div class="hrow"><span class="hlabel">Digital asset gains</span><div class="htrack"><div class="hfill" data-w="0.1" style="background:#3D7BC8"></div></div><span class="hval">$0.10</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="2.7" style="background:#3D7BC8"></div></div><span class="hval">$2.56</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="0.6" style="background:#B8443C"></div></div><span class="hval">−$0.58</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="7.2" style="background:#3E8E5A"></div></div><span class="hval">$6.87</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">$73.3B</div>
+            <h3>USDC kept growing</h3>
+            <p>USDC in circulation ended the quarter at $73.3B, up 19% YoY, and onchain transaction volume hit $14.8 trillion — the network is expanding even as crypto markets cooled.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#b8443c">3.5%</div>
+            <h3>Falling rates bite</h3>
+            <p>The return Circle earns on USDC reserves fell 66 basis points to 3.5%. Balances grew fast enough to offset it this quarter, but reserve income — 95% of all revenue — rises and falls with interest rates.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$48M</div>
+            <h3>Back in profit</h3>
+            <p>Net income was $48M versus a $482M loss a year ago. The difference is mostly stock pay: $54M this quarter versus $435M in Q2 2025, when the IPO made years of awards vest at once.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Operating expenses include a $5M charitable donation of shares to the Circle Foundation and $10M of one-off legal expenses — items Circle excludes from its non-GAAP Adjusted EBITDA of $143M.</li><li>The year-ago comparison is distorted by the June 2025 IPO: Q2 2025 operating expenses included $435M of stock-based compensation, versus $54M this quarter.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1876042/000187604226000246/augustepr-circle_q22026f.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Circle&#x27;s cost of revenue is mostly the cut of reserve income paid to USDC distribution partners like Coinbase.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":0.701,"nodes":{"seg0":{"name":"Reserve income","amt":"$668M","value":0.668,"col":0,"color":"#3D7BC8","note":"+5% \u00b7 95.2% of revenue","plain":"Interest earned on the cash and U.S. Treasuries backing USDC (a dollar-tracking crypto token). Average USDC in circulation grew 25%, but the return rate on reserves fell 66 basis points to 3.5%, so income grew only 5%.","quarter":"95.2% of all revenue this quarter."},"seg1":{"name":"Other revenue","amt":"$34M","value":0.034,"col":0,"color":"#7A68C4","note":"+41% \u00b7 4.8% of revenue","plain":"Transaction, subscription and services revenue \u2014 up 41% on growth in subscription and services.","quarter":"4.8% of all revenue this quarter.","compact":true,"compactLabel":"Other revenue: $34M (+41%)"},"rev":{"name":"Revenue","amt":"$701M","value":0.701,"col":1,"color":"#2F3B4C","note":"+7%","plain":"All the money Circle took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$701M, +7% vs a year ago."},"gross":{"name":"Gross profit","amt":"$289M","value":0.289,"col":2,"color":"#69B578","note":"41.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"41.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($412M)","value":0.412,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$412M \u2014 about 58.8 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$18M","value":0.018,"col":3,"color":"#69B578","note":"","plain":"Other income of $17.9M, net: $14.5M of interest on corporate cash, $3.7M of gains on digital assets and strategic investments and $1.5M of currency gains, partly offset by a $1.9M fair-value loss on convertible debt, warrants and derivatives and a $0.1M impairment.","quarter":"$18M added to profit."},"op":{"name":"Operating profit","amt":"$34M","value":0.034,"col":3,"color":"#4C9A67","note":"4.9% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 4.9% margin."},"opex":{"name":"Operating expenses","amt":"($254M)","value":0.254,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$254M total, split into Compensation expenses, General and administrative expenses, Depreciation and amortization expenses, IT infrastructure costs, Marketing expenses, Digital assets losses (gains) on the right."},"ox0":{"name":"Compensation expenses","amt":"($134M)","value":0.134,"col":4,"color":"#CF5F4E","note":"19.1% of revenue","plain":"Pay and benefits for staff, including stock-based compensation.","quarter":"$134M \u2014 19.1% of revenue."},"ox1":{"name":"General and administrative expenses","amt":"($66M)","value":0.066,"col":4,"color":"#CF5F4E","note":"9.4% of revenue","plain":"Running the company \u2014 offices, legal, finance and admin.","quarter":"$66M \u2014 9.4% of revenue."},"ox2":{"name":"Depreciation and amortization expenses","amt":"($30M)","value":0.03,"col":4,"color":"#CF5F4E","note":"4.3% of revenue","plain":"Spreading the cost of software, equipment and acquired assets over their useful lives.","quarter":"$30M \u2014 4.3% of revenue."},"ox3":{"name":"IT infrastructure costs","amt":"($16M)","value":0.016,"col":4,"color":"#CF5F4E","note":"2.3% of revenue","plain":"The computing and systems that run the platform.","quarter":"$16M \u2014 2.3% of revenue."},"ox4":{"name":"Marketing expenses","amt":"($9M)","value":0.009,"col":4,"color":"#CF5F4E","note":"1.2% of revenue","plain":"Promoting USDC and Circle's platform.","quarter":"$9M \u2014 1.2% of revenue."},"ox5":{"name":"Digital assets losses (gains)","amt":"$1M","value":-0.001,"col":4,"color":"#CF5F4E","note":"-0.1% of revenue","plain":"A $0.7M gain \u2014 digital assets held in day-to-day operations rose in value, so this line reduced expenses.","quarter":"($1M) \u2014 -0.1% of revenue.","compact":true,"compactLabel":"Digital assets losses (gains): ($1M) (-0.1% of revenue)"},"net":{"name":"Net profit","amt":"$48M","value":0.048,"col":4,"color":"#3E8E5A","note":"6.9% margin","plain":"The bottom line \u2014 what Circle actually earned after everything.","quarter":"$48M \u2014 about 6.9 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($4M)","value":0.004,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$4M \u2014 roughly a 7.8% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2","ox3","ox4","ox5"]],"links":[{"s":"seg0","d":"rev","v":0.668,"c":"#94b6e1","amt":"$668M"},{"s":"seg1","d":"rev","v":0.034,"c":"#b6acdf","amt":"$34M"},{"s":"rev","d":"gross","v":0.289,"c":"#BFE0C6","amt":"$289M"},{"s":"rev","d":"cost","v":0.412,"c":"#F4C7B9","amt":"$412M"},{"s":"gross","d":"op","v":0.034,"c":"#ACD8B8","amt":"$34M"},{"s":"gross","d":"opex","v":0.254,"c":"#F2B3A4","amt":"$254M"},{"s":"op","d":"net","v":0.03,"c":"#ACD8B8","amt":"$30M"},{"s":"otherin","d":"net","v":0.018,"c":"#ACD8B8","amt":"$18M"},{"s":"op","d":"tax","v":0.004,"c":"#dfaba7","amt":"$4M"},{"s":"opex","d":"ox0","v":0.134,"c":"#F6C0B1","amt":"$134M"},{"s":"opex","d":"ox1","v":0.066,"c":"#F6C0B1","amt":"$66M"},{"s":"opex","d":"ox2","v":0.03,"c":"#F6C0B1","amt":"$30M"},{"s":"opex","d":"ox3","v":0.016,"c":"#F6C0B1","amt":"$16M"},{"s":"opex","d":"ox4","v":0.009,"c":"#F6C0B1","amt":"$9M"},{"s":"opex","d":"ox5","v":-0.001,"c":"#F6C0B1","amt":"($1M)"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

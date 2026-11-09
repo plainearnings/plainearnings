@@ -1,0 +1,146 @@
+{
+  "ticker": "MSTR",
+  "company": "Strategy",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Strategy lost $8.2B in a single quarter \u2014 almost all of it a paper writedown of its Bitcoin stash as the price fell \u2014 while the actual software business took in $122M and roughly broke even before the Bitcoin line.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Software revenue",
+      "value": "$122M",
+      "note": "+7% YoY \u2014 the actual business"
+    },
+    {
+      "label": "Bitcoin loss",
+      "value": "\u2212$8.3B",
+      "note": "paper writedown \u2014 no Bitcoin sold for this loss, no cash out"
+    },
+    {
+      "label": "Net loss",
+      "value": "$8.2B",
+      "note": "$8.6B attributable to common stockholders"
+    },
+    {
+      "label": "EPS (diluted, GAAP)",
+      "value": "\u2212$24.45",
+      "note": "per common share"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Software revenue",
+      "amountM": 122.368,
+      "yoy": "+7%",
+      "note": "The original business: analytics software \u2014 subscriptions ($62.9M), product support ($40.2M), licenses ($3.7M) and other services ($15.6M). Up 7% YoY as subscriptions keep replacing licenses."
+    }
+  ],
+  "flow": {
+    "revenueM": 122.368,
+    "costOfRevenueM": 40.818,
+    "grossProfitM": 81.55,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 34.119,
+        "note": "Selling the software."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 23.099,
+        "note": "Building the software."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 39.917,
+        "note": "Running the company \u2014 for Strategy this also covers the machinery of its Bitcoin treasury strategy."
+      },
+      {
+        "name": "Unrealized Bitcoin loss",
+        "amountM": 8315.365,
+        "note": "Strategy holds Bitcoin and marks it to market price every quarter (accounting rule ASU 2023-08). Bitcoin's price fell in Q2, so the stash was written down by $8.3B. This is a paper loss \u2014 it reverses if the price recovers \u2014 and the filing puts it inside operating expenses."
+      }
+    ],
+    "operatingIncomeM": -8330.95,
+    "otherIncomeM": 112.88,
+    "taxM": 1.558,
+    "netIncomeM": -8219.628,
+    "btcLossM": -8315.365,
+    "preferredDividendsM": 400.661,
+    "netAttributableM": -8620.289
+  },
+  "follow100": [
+    {
+      "label": "Software revenue",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.36
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -27.88
+    },
+    {
+      "label": "R&D",
+      "amount": -18.88
+    },
+    {
+      "label": "G&A",
+      "amount": -32.62
+    },
+    {
+      "label": "Unrealized Bitcoin loss",
+      "amount": -6795.38
+    },
+    {
+      "label": "Other income",
+      "amount": 92.25
+    },
+    {
+      "label": "Tax",
+      "amount": -1.27
+    },
+    {
+      "label": "Net loss",
+      "amount": -6717.14
+    }
+  ],
+  "follow100Note": "Shrunk to $100 of software revenue, the Bitcoin writedown is $6,795 \u2014 it dwarfs the software business, which is the story of this company.",
+  "takeaways": [
+    {
+      "stat": "\u2212$8.3B",
+      "statColor": "#b8443c",
+      "title": "A paper loss, not a cash loss",
+      "text": "Bitcoin fell during the quarter, so accounting rules wrote the stash down by $8.3B. Strategy actually bought 85,296 more Bitcoin in Q2 for $6.4B and ended June holding 846,000."
+    },
+    {
+      "stat": "$122M",
+      "statColor": "#3d7bc8",
+      "title": "The software business is steady",
+      "text": "Software revenue grew 7% to $122M with a 67% gross margin \u2014 subscriptions ($63M) are now the biggest piece as licenses shrink. Before the Bitcoin line, software gross profit roughly covered running costs."
+    },
+    {
+      "stat": "\u2212$24.45",
+      "statColor": "#b8443c",
+      "title": "Common holders bear it all",
+      "text": "After $401M of dividends on Strategy's preferred stock, the loss attributable to common stockholders was $8.62B, or $24.45 per share."
+    }
+  ],
+  "oneTimers": [
+    "The $8.3B Bitcoin loss is not a sale \u2014 it is a mark-to-market revaluation under accounting rule ASU 2023-08 (in force since January 1, 2025), which runs Bitcoin's price changes through earnings every quarter. It will be back next quarter, as a gain or a loss: over the first half of 2026 this same line nets to a $22.8B loss.",
+    "Between net loss and what common shareholders 'got': $400.7M of dividends on Strategy's preferred stock \u2014 leaving \u2212$8,620.3M attributable to common stockholders.",
+    "Strategy repurchased $1.5B of its 2029 convertible notes for about $1.38B in cash in May 2026, booking a $113.9M gain on debt extinguishment \u2014 it sits in other income above."
+  ],
+  "otherDetail": "A $113.9M gain on buying back $1.5B of convertible notes for about $1.38B in cash (an 8% discount to par), plus $0.2M of other income, minus $1.3M of net interest expense.",
+  "footerNote": "Formerly MicroStrategy. The Bitcoin writedown sits in operating expenses, as filed.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Q2 2026 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://files.quartr.com/reports/945ee2ceaa565a3a615e32e63676a377-2026-07-30-20-01-34.pdf?ref=dGlwcmFua3M="
+    }
+  ]
+}

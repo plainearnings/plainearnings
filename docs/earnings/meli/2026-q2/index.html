@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MercadoLibre — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="MercadoLibre Q2 2026 earnings in plain English: MercadoLibre grew revenue 50% to $10.2B — its fastest pace in four years — as shoppers bought more often and Mercado Pago handled $101B of payments, while deliberate spending on free shipping and credit held operating profit to $683M.">
+<meta property="og:title" content="MercadoLibre — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="MercadoLibre grew revenue 50% to $10.2B — its fastest pace in four years — as shoppers bought more often and Mercado Pago handled $101B of payments, while deliberate spending on free shipping and credit held operating profit to $683M.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/meli/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/meli/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All MercadoLibre quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>MercadoLibre <span class="thin">(MELI)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+45%</span>
+        <span class="q-meta">Reported 2026-11-04 · Revenue $10.8B</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+50%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $10.2B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>MercadoLibre — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-08-05
+    </div>
+  </header>
+
+  <p class="verdict">MercadoLibre grew revenue 50% to $10.2B — its fastest pace in four years — as shoppers bought more often and Mercado Pago handled $101B of payments, while deliberate spending on free shipping and credit held operating profit to $683M.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+50%</b></span><span class="chip">EPS (GAAP diluted)<b>$9.19</b></span><span class="chip">Gross merchandise volume<b>$21.9B</b></span><span class="chip">Total payment volume<b>$101B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of MercadoLibre's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 MercadoLibre took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Commerce</span><div class="htrack"><div class="hfill" data-w="95.9" style="background:#3D7BC8"></div></div><span class="hval">$56.66</span></div>
+          <div class="hrow"><span class="hlabel">Fintech</span><div class="htrack"><div class="hfill" data-w="73.3" style="background:#3D7BC8"></div></div><span class="hval">$43.34</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$59.10</span></div>
+          <div class="hrow"><span class="hlabel">Product &amp; tech</span><div class="htrack"><div class="hfill" data-w="12.1" style="background:#D96A57"></div></div><span class="hval">−$7.17</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="18.8" style="background:#CF5F4E"></div></div><span class="hval">−$11.12</span></div>
+          <div class="hrow"><span class="hlabel">Bad-debt provision</span><div class="htrack"><div class="hfill" data-w="21.2" style="background:#D96A57"></div></div><span class="hval">−$12.55</span></div>
+          <div class="hrow"><span class="hlabel">General &amp; admin</span><div class="htrack"><div class="hfill" data-w="5.7" style="background:#D96A57"></div></div><span class="hval">−$3.34</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="1.3" style="background:#D96A57"></div></div><span class="hval">−$0.76</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="2.3" style="background:#B8443C"></div></div><span class="hval">−$1.38</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="7.7" style="background:#3E8E5A"></div></div><span class="hval">$4.58</span></div>
+      
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+50%</div>
+            <h3>Fastest growth in four years</h3>
+            <p>Revenue passed $10B in a quarter for the first time. Shoppers bought more often — items per buyer rose 14% — a year after the free-shipping threshold was cut in Brazil.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#b8443c">6.7%</div>
+            <h3>Margin is a choice, for now</h3>
+            <p>Operating margin fell to 6.7% from 12.1% a year ago as MercadoLibre spends on shipping, warehouses and credit-card issuance. Management calls it deliberate: users who use both marketplace and Pago spend far more.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">$16.4B</div>
+            <h3>The credit book is ballooning</h3>
+            <p>The loan and credit-card portfolio grew 75% YoY to $16.4B, with 2.6 million new cards issued in the quarter. The bad-debt provision — $1.28B this quarter — grows with it.</p>
+          </article>
+    </div>
+  </section>
+  
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1099590/000109959026000021/meli-20260805xex991.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. MercadoLibre reports &#x27;net revenues and financial income&#x27; — marketplace sales plus Mercado Pago&#x27;s financial income; its cost line includes financial expenses.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":10.169,"nodes":{"seg0":{"name":"Commerce","amt":"$5.8B","value":5.762,"col":0,"color":"#3D7BC8","note":"56.7% of revenue","plain":"Marketplace fees, shipping, first-party product sales, advertising and MELI+ subscriptions. Brazil alone brought in $5.5B of total company revenue.","quarter":"56.7% of all revenue this quarter."},"seg1":{"name":"Fintech","amt":"$4.4B","value":4.407,"col":0,"color":"#7A68C4","note":"43.3% of revenue","plain":"Mercado Pago payment fees, financing fees and interest earned on consumer and merchant credit, plus point-of-sale devices. The credit portfolio reached $16.4B, up 75% YoY.","quarter":"43.3% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$10.2B","value":10.169,"col":1,"color":"#2F3B4C","note":"+50%","plain":"All the money MercadoLibre took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$10.2B, +50% vs a year ago."},"gross":{"name":"Gross profit","amt":"$4.2B","value":4.159,"col":2,"color":"#69B578","note":"40.9% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"40.9 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($6.0B)","value":6.01,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$6.0B \u2014 about 59.1 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$683M","value":0.683,"col":3,"color":"#4C9A67","note":"6.7% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 6.7% margin."},"opex":{"name":"Operating expenses","amt":"($3.5B)","value":3.476,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$3.5B total, split into Product and technology development, Sales and marketing, Provision for doubtful accounts, General and administrative on the right."},"otherexp":{"name":"Other expense","amt":"($77M)","value":0.077,"col":4,"color":"#B8443C","note":"","plain":"Below operating income, $30M of interest income and other financial gains was more than offset by $62M of interest expense and other financial losses and $45M of foreign-currency losses, for a net other expense of $77M.","quarter":"$77M taken out of profit."},"ox0":{"name":"Product and technology development","amt":"($729M)","value":0.729,"col":4,"color":"#CF5F4E","note":"7.2% of revenue","plain":"Building and running the marketplace, payments platform and AI tools.","quarter":"$729M \u2014 7.2% of revenue."},"ox1":{"name":"Sales and marketing","amt":"($1.1B)","value":1.131,"col":4,"color":"#CF5F4E","note":"11.1% of revenue","plain":"Advertising and customer acquisition across Latin America.","quarter":"$1.1B \u2014 11.1% of revenue."},"ox2":{"name":"Provision for doubtful accounts","amt":"($1.3B)","value":1.276,"col":4,"color":"#CF5F4E","note":"12.5% of revenue","plain":"Money set aside for loans and credit-card balances that may not be repaid, as the credit book grows.","quarter":"$1.3B \u2014 12.5% of revenue."},"ox3":{"name":"General and administrative","amt":"($340M)","value":0.34,"col":4,"color":"#CF5F4E","note":"3.3% of revenue","plain":"Staff and running the company.","quarter":"$340M \u2014 3.3% of revenue."},"net":{"name":"Net profit","amt":"$466M","value":0.466,"col":4,"color":"#3E8E5A","note":"4.6% margin","plain":"The bottom line \u2014 what MercadoLibre actually earned after everything.","quarter":"$466M \u2014 about 4.6 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($140M)","value":0.14,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$140M \u2014 roughly a 23.1% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":5.762,"c":"#94b6e1","amt":"$5.8B"},{"s":"seg1","d":"rev","v":4.407,"c":"#b6acdf","amt":"$4.4B"},{"s":"rev","d":"gross","v":4.159,"c":"#BFE0C6","amt":"$4.2B"},{"s":"rev","d":"cost","v":6.01,"c":"#F4C7B9","amt":"$6.0B"},{"s":"gross","d":"op","v":0.683,"c":"#ACD8B8","amt":"$683M"},{"s":"gross","d":"opex","v":3.476,"c":"#F2B3A4","amt":"$3.5B"},{"s":"op","d":"net","v":0.466,"c":"#ACD8B8","amt":"$466M"},{"s":"op","d":"otherexp","v":0.077,"c":"#dfaba7","amt":"$77M"},{"s":"op","d":"tax","v":0.14,"c":"#dfaba7","amt":"$140M"},{"s":"opex","d":"ox0","v":0.729,"c":"#F6C0B1","amt":"$729M"},{"s":"opex","d":"ox1","v":1.131,"c":"#F6C0B1","amt":"$1.1B"},{"s":"opex","d":"ox2","v":1.276,"c":"#F6C0B1","amt":"$1.3B"},{"s":"opex","d":"ox3","v":0.34,"c":"#F6C0B1","amt":"$340M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>
