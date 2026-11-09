@@ -1,0 +1,138 @@
+{
+  "company": "Reddit",
+  "flow": {
+    "costOfRevenueM": 37.089,
+    "grossProfitM": 355.272,
+    "netIncomeM": 26.158,
+    "operatingIncomeM": 3.903,
+    "opex": [
+      {
+        "amountM": 191.271,
+        "name": "Research & development",
+        "note": "Engineers building the platform and its ad technology. Includes $85M of stock-based pay across the company this quarter \u2014 down from $578M a year ago, when the IPO triggered a one-time stock-award charge."
+      },
+      {
+        "amountM": 90.685,
+        "name": "Sales & marketing",
+        "note": "The ad sales team and marketing."
+      },
+      {
+        "amountM": 69.413,
+        "name": "General & administrative",
+        "note": "Running a newly public company \u2014 legal, finance and the back office."
+      }
+    ],
+    "otherIncomeM": 22.255,
+    "revenueM": 392.361,
+    "taxM": 0
+  },
+  "follow100": [
+    {
+      "amount": 91.4,
+      "label": "Advertising"
+    },
+    {
+      "amount": 8.6,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -9.45,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -48.75,
+      "label": "R&D"
+    },
+    {
+      "amount": -23.11,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -17.69,
+      "label": "G&A"
+    },
+    {
+      "amount": 5.67,
+      "label": "Other income"
+    },
+    {
+      "amount": 6.67,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are from Reddit's Q1 2025 earnings release (Exhibit 99.1) and Form 10-Q; the advertising/other revenue split is from the 10-Q. Reddit's tax line was a $1.7M benefit this quarter; it is folded into other income so the chart's tax step reads $0.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+61%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs a loss of $8.19 a share a year ago",
+      "value": "$0.13"
+    },
+    {
+      "label": "Daily users",
+      "note": "DAUq, +31% YoY",
+      "value": "108.1M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "29% of revenue",
+      "value": "$115M"
+    }
+  ],
+  "otherDetail": "Other income of $21M, net \u2014 mostly interest earned on Reddit's cash and marketable securities \u2014 plus a small $2M tax benefit: Reddit's tax line was slightly negative this quarter, and it is folded in here.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-05-01",
+  "revenueYoY": "+61%",
+  "segments": [
+    {
+      "amountM": 358.63,
+      "name": "Advertising",
+      "note": "Ads shown across Reddit's communities \u2014 the overwhelming majority of Reddit's money.",
+      "yoy": "+61%"
+    },
+    {
+      "amountM": 33.731,
+      "name": "Other revenue",
+      "note": "Mostly licensing Reddit's content \u2014 including data deals with AI companies \u2014 plus premium subscriptions and other services.",
+      "yoy": "+66%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000100/earningspressreleaseq125.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000102/rddt-20250331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$26M",
+      "statColor": "#3e8e5a",
+      "text": "A year earlier Reddit lost $575M in a single quarter \u2014 almost all of it a one-time stock-award charge triggered by its IPO ($578M of stock-based pay). With that gone, stock pay fell to $85M and the same business model produced a $26M profit.",
+      "title": "Profitable \u2014 a swing from the IPO quarter"
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#3d7bc8",
+      "text": "Ad revenue rose 61% to $359M as advertisers followed the audience: daily users grew 31% to 108.1M, and advertisers paid more to reach them. Other revenue \u2014 mostly content licensing \u2014 rose 66% to $34M.",
+      "title": "Ads are the engine"
+    },
+    {
+      "stat": "29%",
+      "statColor": "#3e8e5a",
+      "text": "Adjusted EBITDA \u2014 profit before interest, tax and non-cash charges \u2014 was $115M, 29 cents of every revenue dollar, up from a 4% margin a year ago. Scale is starting to do its work.",
+      "title": "Margins jumped with scale"
+    }
+  ],
+  "ticker": "RDDT",
+  "verdict": "Reddit grew revenue 61% to $392M as ad sales surged \u2014 and stayed profitable, with net income of $26M \u2014 a swing from the $575M loss a year ago, when IPO-triggered stock awards swamped the quarter."
+}

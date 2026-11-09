@@ -1,0 +1,136 @@
+{
+  "company": "AppLovin",
+  "flow": {
+    "costOfRevenueM": 151.68,
+    "grossProfitM": 1007.294,
+    "netIncomeM": 576.419,
+    "operatingIncomeM": 839.982,
+    "opex": [
+      {
+        "amountM": 56.406,
+        "name": "Research & development",
+        "note": "Building and improving the AXON ad platform \u2014 down 37% YoY, because last year's figure still carried costs of the apps business that has since been sold."
+      },
+      {
+        "amountM": 59.383,
+        "name": "Sales & marketing",
+        "note": "Selling the platform to advertisers and app publishers \u2014 roughly flat YoY."
+      },
+      {
+        "amountM": 51.523,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 up 29% YoY."
+      }
+    ],
+    "otherIncomeM": -192.495,
+    "revenueM": 1158.974,
+    "taxM": 71.068
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Advertising platform"
+    },
+    {
+      "amount": -13.09,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -4.87,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.12,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -4.45,
+      "label": "G&A"
+    },
+    {
+      "amount": -16.61,
+      "label": "Other expense, net"
+    },
+    {
+      "amount": -6.13,
+      "label": "Tax"
+    },
+    {
+      "amount": 49.74,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The 'other expense' step nets a $147M loss from the sold apps business against $45M of interest and other costs of the continuing platform \u2014 see the note under the chart. Rows may not add exactly due to rounding.",
+  "footerNote": "AppLovin reports as a single segment. The flow shows the continuing advertising-platform business, as restated in AppLovin's Q2 2025 release after the apps business was sold in June 2025; the apps business's $147M loss is folded into the 'other' step so the bottom line matches the reported net income of $576M. The continuing platform earned $724M. When Q1 was first reported in May 2025, the apps business was still included and total revenue was $1,484M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago, continuing operations",
+      "value": "+71%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs $0.67 a year ago",
+      "value": "$1.67"
+    },
+    {
+      "label": "Net income",
+      "note": "after a $147M loss from the apps business sold in June",
+      "value": "$576M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "81% of revenue",
+      "value": "$938M"
+    }
+  ],
+  "oneTimers": [
+    "A $147M loss from discontinued operations \u2014 the apps business AppLovin sold in June 2025 \u2014 including a $189M goodwill impairment recorded in this quarter ahead of the sale."
+  ],
+  "otherDetail": "Interest expense of $53M on AppLovin's debt, partly offset by $8M of other income \u2014 and a $147M loss from the apps business AppLovin sold in June, which accounting rules report as discontinued operations. That loss includes a $189M write-down of the apps business's goodwill ahead of the sale.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-05-07",
+  "revenueYoY": "+71%",
+  "segments": [
+    {
+      "amountM": 1158.974,
+      "name": "Advertising platform",
+      "note": "Ads placed through AppLovin's AXON platform \u2014 advertisers pay to reach users inside other companies' apps, and AXON's AI decides which ads to show. AppLovin sold its own apps business in June 2025; its results sit in discontinued operations, below.",
+      "yoy": "+71%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000051/exhibit991-1q25earningspre.htm"
+    },
+    {
+      "label": "Q2 2025 release \u2014 restated continuing-operations statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000069/exhibit991-2q25earningspre.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+71%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue from the AXON advertising platform rose 71% from a year ago to $1.16B, and the continuing business turned that into $840M of operating income \u2014 a 72% operating margin, because the platform's costs barely grow with its sales.",
+      "title": "The platform kept compounding"
+    },
+    {
+      "stat": "$189M",
+      "statColor": "#d96a57",
+      "text": "In February AppLovin agreed to sell its own games/apps business. Writing that business's goodwill down by $189M ahead of the sale drove a $147M discontinued-operations loss \u2014 the reason reported net income ($576M) is well below the platform's own earnings ($724M).",
+      "title": "A goodwill write-down on the way out"
+    },
+    {
+      "stat": "$938M",
+      "statColor": "#3e8e5a",
+      "text": "Adjusted EBITDA \u2014 profit before interest, tax and non-cash charges \u2014 was $938M, 81 cents of every revenue dollar. Few companies anywhere convert sales into cash profit at that rate.",
+      "title": "Cash generation stayed extreme"
+    }
+  ],
+  "ticker": "APP",
+  "verdict": "AppLovin's ad platform grew revenue 71% to $1.16B and earned $724M from its continuing business \u2014 but a $147M loss from the apps business it was about to sell, including a $189M goodwill write-down, held reported net income to $576M."
+}

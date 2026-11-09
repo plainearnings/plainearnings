@@ -1,0 +1,166 @@
+{
+  "company": "Coinbase",
+  "flow": {
+    "costOfRevenueM": 303.026,
+    "grossProfitM": 1731.269,
+    "netIncomeM": 65.608,
+    "operatingIncomeM": 705.806,
+    "opex": [
+      {
+        "amountM": 355.368,
+        "name": "Technology & development",
+        "note": "Building the platform \u2014 engineering and product."
+      },
+      {
+        "amountM": 394.346,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, compliance and the back office."
+      },
+      {
+        "amountM": 247.283,
+        "name": "Sales & marketing",
+        "note": "Advertising, USDC rewards and winning customers \u2014 up sharply from a year ago as Coinbase marketed through the crypto rally."
+      },
+      {
+        "amountM": 28.466,
+        "name": "Other operating expense, net",
+        "note": "$34M of losses on crypto Coinbase holds to run its business, partly offset by $6M of other operating income, net."
+      }
+    ],
+    "otherIncomeM": -623.35,
+    "revenueM": 2034.295,
+    "taxM": 16.848
+  },
+  "follow100": [
+    {
+      "amount": 62.05,
+      "label": "Transaction revenue"
+    },
+    {
+      "amount": 34.31,
+      "label": "Subscriptions & services"
+    },
+    {
+      "amount": 3.64,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -14.9,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -17.47,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -19.38,
+      "label": "G&A"
+    },
+    {
+      "amount": -12.16,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -1.4,
+      "label": "Other operating expense, net"
+    },
+    {
+      "amount": -30.64,
+      "label": "Investment losses"
+    },
+    {
+      "amount": -0.83,
+      "label": "Tax"
+    },
+    {
+      "amount": 3.22,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, the trading business itself was profitable \u2014 but paper losses on its crypto investments took $30.64 back out. Rows may not add exactly due to rounding.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. 'Other operating expense, net' of $28M nets a $34M loss on crypto held for operations against $6M of other operating income. Figures are from Coinbase's Q1 2025 shareholder letter (Exhibit 99.1) and Form 10-Q.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 down 10% from Q4 as trading cooled",
+      "value": "+24%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs $4.40 a year ago",
+      "value": "$0.24"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "46% of revenue",
+      "value": "$930M"
+    },
+    {
+      "label": "$USD resources",
+      "note": "cash, USDC and investments at quarter end",
+      "value": "$9.9B"
+    }
+  ],
+  "oneTimers": [
+    "A $597M pre-tax paper loss on crypto assets Coinbase holds for investment \u2014 a year earlier the same line was a $650M gain. It is non-cash, and it reverses if prices recover.",
+    "$34M of losses on crypto held for operations, inside other operating expense."
+  ],
+  "otherDetail": "A $597M paper loss on crypto Coinbase holds as an investment \u2014 crypto prices fell in early 2025 \u2014 plus $21M of interest expense and $6M of other expense, net: a $623M drag below the operating line. That is the whole story of this quarter's small bottom line.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-05-08",
+  "revenueYoY": "+24%",
+  "segments": [
+    {
+      "amountM": 1262.208,
+      "name": "Transaction revenue",
+      "note": "Fees from crypto trading \u2014 consumer $1,096M, institutional $99M, other $68M. Volumes fell from Q4's post-election frenzy even as Bitcoin hit a new all-time high in January.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 698.111,
+      "name": "Subscription and services",
+      "note": "Steadier income: stablecoin revenue $298M, blockchain rewards $197M, interest and finance fees $63M, and other services $141M. USDC's market cap passed $60B in the quarter.",
+      "yoy": "+37%"
+    },
+    {
+      "amountM": 73.976,
+      "name": "Other revenue",
+      "note": "Interest earned on Coinbase's own corporate cash.",
+      "yoy": "+48%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000088/q125shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000089/coin-20250331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$597M",
+      "statColor": "#d96a57",
+      "text": "Coinbase's operating business earned $706M. But the crypto it holds as an investment lost $597M on paper as prices fell \u2014 a year earlier the same line added a $650M gain. Net income swung from $1.18B to $66M almost entirely on that one line.",
+      "title": "A paper loss swamped a solid quarter"
+    },
+    {
+      "stat": "+37%",
+      "statColor": "#3d7bc8",
+      "text": "Subscription and services revenue rose 37% from a year ago to $698M, led by stablecoin revenue of $298M as USDC \u2014 the stablecoin Coinbase co-founded \u2014 passed $60B in market value. This income does not depend on trading frenzies.",
+      "title": "The steadier business kept growing"
+    },
+    {
+      "stat": "-19%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue fell 10% from the fourth quarter as crypto volatility faded from its post-election peak. Transaction revenue dropped 19% from Q4 to $1.26B, with consumer trading volume down 17%.",
+      "title": "Trading cooled from Q4's frenzy"
+    }
+  ],
+  "ticker": "COIN",
+  "verdict": "Coinbase's core business stayed nicely profitable \u2014 $706M of operating income on $2.03B of revenue \u2014 but a $597M paper loss on the crypto it holds as an investment cut net income to $66M, from $1.18B a year ago, when the same holdings had gained $650M."
+}

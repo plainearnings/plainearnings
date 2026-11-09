@@ -1,0 +1,146 @@
+{
+  "company": "Salesforce",
+  "flow": {
+    "costOfRevenueM": 2217,
+    "grossProfitM": 7776,
+    "netIncomeM": 1708,
+    "operatingIncomeM": 1820,
+    "opex": [
+      {
+        "amountM": 1420,
+        "name": "Research & development",
+        "note": "Building the platform \u2014 including Agentforce, Salesforce's AI agents, and Data Cloud \u2014 up 11% YoY."
+      },
+      {
+        "amountM": 3471,
+        "name": "Sales & marketing",
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine, up 1% YoY."
+      },
+      {
+        "amountM": 767,
+        "name": "General & administrative",
+        "note": "Running the company day to day \u2014 up 21% YoY."
+      },
+      {
+        "amountM": 298,
+        "name": "Restructuring",
+        "note": "One-off costs of reorganizing teams and facilities \u2014 a $298M charge this quarter."
+      }
+    ],
+    "otherIncomeM": 168,
+    "revenueM": 9993,
+    "taxM": 280
+  },
+  "follow100": [
+    {
+      "amount": 94.58,
+      "label": "Subscription and support"
+    },
+    {
+      "amount": 5.42,
+      "label": "Professional services"
+    },
+    {
+      "amount": -22.19,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -14.21,
+      "label": "R&D"
+    },
+    {
+      "amount": -34.73,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.68,
+      "label": "G&A"
+    },
+    {
+      "amount": -2.98,
+      "label": "Restructuring"
+    },
+    {
+      "amount": 1.68,
+      "label": "Other income"
+    },
+    {
+      "amount": -2.8,
+      "label": "Tax"
+    },
+    {
+      "amount": 17.09,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+8%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs $1.47 a year ago",
+      "value": "$1.75"
+    },
+    {
+      "label": "Backlog (CRPO)",
+      "note": "current remaining performance obligation, +9% YoY",
+      "value": "$30.2B"
+    },
+    {
+      "label": "Data Cloud & AI ARR",
+      "note": "annual recurring revenue, +120% YoY",
+      "value": "$900M"
+    }
+  ],
+  "otherDetail": "A $96M gain on strategic investments \u2014 stakes Salesforce holds in other companies \u2014 plus $72M of other income, mostly interest earned.",
+  "periodEnd": "2025-01-31",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-02-26",
+  "revenueYoY": "+8%",
+  "segments": [
+    {
+      "amountM": 9451,
+      "name": "Subscription and support",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau, Agentforce and Data Cloud.",
+      "yoy": "+8%"
+    },
+    {
+      "amountM": 542,
+      "name": "Professional services and other",
+      "note": "Consulting and training that help customers roll the software out.",
+      "yoy": "+1%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000002/crm-q4fy25xexhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$900M",
+      "statColor": "#3d7bc8",
+      "text": "Data Cloud and AI recurring revenue reached $900M a year, up 120%, and Salesforce had closed 5,000 Agentforce deals since October \u2014 more than 3,000 of them paid. The AI-agent business was small next to $10B of quarterly revenue, but it was the fastest-growing thing in the company.",
+      "title": "AI revenue became real"
+    },
+    {
+      "stat": "$63B",
+      "statColor": "#3d7bc8",
+      "text": "Remaining performance obligation \u2014 work customers have signed for but Salesforce hasn't yet delivered or billed \u2014 reached $63.4B, up 11%. The current portion, due within a year, rose 9% to $30.2B, locking in most of next year's growth in advance.",
+      "title": "A $63B backlog"
+    },
+    {
+      "stat": "$298M",
+      "statColor": "#d96a57",
+      "text": "A $298M restructuring charge \u2014 severance and facility costs \u2014 sat in running costs this quarter. Even with it, net income rose 18% to $1.71B, and for the full year Salesforce generated a record $13.1B of operating cash flow.",
+      "title": "Restructuring weighed, cash flow didn't"
+    }
+  ],
+  "ticker": "CRM",
+  "verdict": "Salesforce closed its fiscal year with revenue up 8% to $10.0B and net income up 18% to $1.71B \u2014 and the new story was AI: Data Cloud and AI recurring revenue hit $900M, up 120%, with 5,000 Agentforce deals signed since October."
+}
