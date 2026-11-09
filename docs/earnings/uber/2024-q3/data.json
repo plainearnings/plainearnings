@@ -1,0 +1,172 @@
+{
+  "company": "Uber",
+  "flow": {
+    "costOfRevenueM": 6761,
+    "equityM": -12,
+    "grossProfitM": 4427,
+    "netIncomeM": 2599,
+    "operatingIncomeM": 1061,
+    "opex": [
+      {
+        "amountM": 687,
+        "name": "Operations and support",
+        "note": "Running the platform day to day \u2014 support, operations and local teams."
+      },
+      {
+        "amountM": 1096,
+        "name": "Sales & marketing",
+        "note": "Promotions, advertising and winning riders, eaters and drivers."
+      },
+      {
+        "amountM": 774,
+        "name": "Research & development",
+        "note": "Building the platform and its autonomous-vehicle partnerships."
+      },
+      {
+        "amountM": 630,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, finance and the back office."
+      },
+      {
+        "amountM": 179,
+        "compact": true,
+        "name": "Depreciation & amortization",
+        "note": "Spreading the cost of equipment and past acquisitions over their useful lives."
+      }
+    ],
+    "otherIncomeM": 1708,
+    "revenueM": 11188,
+    "taxM": 158
+  },
+  "follow100": [
+    {
+      "amount": 57.28,
+      "label": "Mobility"
+    },
+    {
+      "amount": 31.02,
+      "label": "Delivery"
+    },
+    {
+      "amount": 11.7,
+      "label": "Freight"
+    },
+    {
+      "amount": -60.43,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -6.14,
+      "label": "Operations & support"
+    },
+    {
+      "amount": -9.8,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -6.92,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.63,
+      "label": "G&A"
+    },
+    {
+      "amount": -1.6,
+      "label": "Depreciation"
+    },
+    {
+      "amount": 15.16,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.41,
+      "label": "Tax"
+    },
+    {
+      "amount": 23.23,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of the $23.23 kept as profit per $100 of revenue, $23.35 accrued to Uber shareholders and non-controlling partners absorbed a $0.12 loss. Rows may not add exactly due to rounding.",
+  "footerNote": "Net income of $2,599M is the total including non-controlling interests; $2,612M is attributable to Uber shareholders (the $1.20 EPS figure) because non-controlling partners absorbed a $13M loss.",
+  "kpis": [
+    {
+      "label": "Gross Bookings",
+      "note": "+16% YoY; trips grew 17% to 2.9 billion",
+      "value": "$41.0B"
+    },
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+20%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.10 a year ago \u2014 flattered by the investment gain below",
+      "value": "$1.20"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "+55% YoY",
+      "value": "$1.7B"
+    }
+  ],
+  "oneTimers": [
+    "Net income includes a $1.7B pre-tax benefit from net unrealized gains on the revaluation of Uber's equity investments \u2014 a paper gain that could reverse if those stocks fall."
+  ],
+  "otherDetail": "Other income, net of $1,851M \u2014 mostly a $1.7B pre-tax gain from revaluing Uber's equity investments \u2014 less $143M of interest expense and a $12M loss from equity method investments.",
+  "periodEnd": "2024-09-30",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2024-10-31",
+  "revenueYoY": "+20%",
+  "segments": [
+    {
+      "amountM": 6409,
+      "name": "Mobility",
+      "note": "Rides \u2014 the original Uber business. Gross Bookings rose 17% to $21.0B.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 3470,
+      "name": "Delivery",
+      "note": "Food and grocery delivery \u2014 Uber Eats and couriers. Gross Bookings rose 16% to $18.7B.",
+      "yoy": "+18%"
+    },
+    {
+      "amountM": 1309,
+      "name": "Freight",
+      "note": "Trucking logistics \u2014 matching shippers with carriers. Revenue barely grew as freight markets stayed soft.",
+      "yoy": "+2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.1B",
+      "statColor": "#3e8e5a",
+      "text": "Income from operations reached $1,061M \u2014 the first time Uber has cleared $1B in a quarter \u2014 up from $394M a year ago, as revenue growth outpaced costs. Adjusted EBITDA rose 55% to $1.7B.",
+      "title": "First billion-dollar operating profit"
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 20% to $11.2B on 2.9 billion trips (+17%). Mobility revenue jumped 26% and Delivery 18%; Freight, still facing a soft trucking market, grew just 2%.",
+      "title": "Growth stayed broad"
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "#5b6b7c",
+      "text": "Net income attributable to Uber was $2.6B, but $1.7B of it (pre-tax) was an unrealized gain from marking up the value of Uber's equity investments \u2014 not cash from rides or deliveries. Free cash flow was a more grounded $2.1B.",
+      "title": "A paper gain padded the bottom line"
+    }
+  ],
+  "ticker": "UBER",
+  "verdict": "Uber passed $1B of quarterly operating profit for the first time as revenue grew 20% to $11.2B \u2014 and a $1.7B paper gain on its investments then lifted net income to $2.6B."
+}

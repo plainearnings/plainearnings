@@ -1,0 +1,135 @@
+{
+  "company": "McDonald's",
+  "flow": {
+    "costOfRevenueM": 2998,
+    "grossProfitM": 3875,
+    "netIncomeM": 2255,
+    "operatingIncomeM": 3188,
+    "opex": [
+      {
+        "amountM": 687,
+        "name": "Selling, general & administrative",
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $647M of SG&A (including $111M of depreciation and amortization), plus $39M of other operating expense, net."
+      }
+    ],
+    "otherIncomeM": -345,
+    "revenueM": 6873,
+    "taxM": 588
+  },
+  "follow100": [
+    {
+      "amount": 59.55,
+      "label": "Franchised restaurants"
+    },
+    {
+      "amount": 38.64,
+      "label": "Company-owned restaurants"
+    },
+    {
+      "amount": 1.8,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -43.62,
+      "label": "Cost of restaurants"
+    },
+    {
+      "amount": -10.0,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.02,
+      "label": "Other expense"
+    },
+    {
+      "amount": -8.56,
+      "label": "Tax"
+    },
+    {
+      "amount": 32.81,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "The release's rounded lines carry $1M seams: printed segment revenues sum to $6,874M against a printed total of $6,873M (the difference is carried in franchised revenues here), and the printed cost components sum $1M below the printed total of $3,685M (carried in SG&A here), so this page ties exactly to reported operating income of $3,188M and net income of $2,255M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+3%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "-1% YoY; $3.23 excluding charges",
+      "value": "$3.13"
+    },
+    {
+      "label": "Global comparable sales",
+      "note": "U.S. +0.3%; International Operated -2.1%; Developmental Licensed -3.5%",
+      "value": "-1.5%"
+    },
+    {
+      "label": "Operating income",
+      "note": "-1% YoY",
+      "value": "$3.2B"
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $52M \u2014 transaction costs and non-cash impairment charges tied to the sale of McDonald's business in South Korea and the acquisition of its business in Israel.",
+    "Pre-tax restructuring charges of $46M for 'Accelerating the Organization,' the company's internal modernization program. Together the charges cost $0.10 of EPS; excluding them, EPS was $3.23."
+  ],
+  "otherDetail": "Interest expense of $381M on McDonald's debt, partly offset by $36M of net nonoperating income.",
+  "periodEnd": "2024-09-30",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2024-10-29",
+  "revenueYoY": "+3%",
+  "segmentNote": "Systemwide sales were flat (flat in constant currencies); comparable sales: U.S. +0.3%, International Operated Markets -2.1%, International Developmental Licensed Markets -3.5%. Loyalty members drove about $8B of the quarter's systemwide sales.",
+  "segments": [
+    {
+      "amountM": 4093,
+      "name": "Franchised restaurants",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model.",
+      "yoy": "+1%"
+    },
+    {
+      "amountM": 2656,
+      "name": "Company-owned restaurants",
+      "note": "Food and drink sold at restaurants McDonald's runs itself.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 124,
+      "name": "Other revenues",
+      "note": "Fees and other income beyond rent, royalties and restaurant sales.",
+      "yoy": "+39%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000152/exhibit991-9302024.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-1.5%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable sales fell 1.5%: the U.S. eked out +0.3% on bigger average checks despite slightly fewer guests, but International Operated Markets fell 2.1% (France and the U.K. were weak) and Developmental Licensed Markets fell 3.5% on the continued impact of the war in the Middle East and soft demand in China.",
+      "title": "Comparable sales went backwards"
+    },
+    {
+      "stat": "$6.9B",
+      "statColor": "#3e8e5a",
+      "text": "Total revenue rose 3% to $6,873M \u2014 franchised rent and royalties grew 1% to $4,094M and company-run restaurant sales 4% to $2,656M \u2014 helped by new restaurants even as existing ones sold less.",
+      "title": "Revenue still grew"
+    },
+    {
+      "stat": "$3.13",
+      "statColor": "#5b6b7c",
+      "text": "Operating income slipped 1% to $3,188M after $98M of pre-tax charges \u2014 $52M of transaction and impairment costs tied to selling the South Korea business and buying the Israel business, plus $46M of 'Accelerating the Organization' restructuring. Excluding charges, EPS was $3.23.",
+      "title": "Charges trimmed EPS"
+    }
+  ],
+  "ticker": "MCD",
+  "verdict": "McDonald's revenue rose 3% to $6.9B, but global comparable sales fell 1.5% as the Middle East war and weak demand in France, the U.K. and China weighed \u2014 operating income slipped 1% to $3.2B."
+}

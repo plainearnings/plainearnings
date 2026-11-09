@@ -1,0 +1,135 @@
+{
+  "company": "Disney",
+  "flow": {
+    "costOfRevenueM": 14709,
+    "grossProfitM": 8446,
+    "netIncomeM": 2842,
+    "operatingIncomeM": 3354,
+    "opex": [
+      {
+        "amountM": 3872,
+        "name": "Selling, general & administrative",
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "amountM": 1220,
+        "name": "Depreciation & amortization",
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      }
+    ],
+    "otherIncomeM": -261,
+    "revenueM": 23155,
+    "taxM": 251
+  },
+  "follow100": [
+    {
+      "amount": 89.98,
+      "label": "Services"
+    },
+    {
+      "amount": 10.02,
+      "label": "Products"
+    },
+    {
+      "amount": -63.52,
+      "label": "Cost of services & products"
+    },
+    {
+      "amount": -16.72,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.27,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -1.13,
+      "label": "Other expense (interest, net)"
+    },
+    {
+      "amount": -1.08,
+      "label": "Tax"
+    },
+    {
+      "amount": 12.27,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of the $12.27 kept as profit per $100 of revenue, about $0.95 belongs to noncontrolling partners \u2014 $11.32 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "footerNote": "Of the $2,842M of net income, $221M belongs to noncontrolling partners; $2,621M is attributable to Disney (the $1.43 EPS figure). The earnings release reports one combined cost line; the split between cost of services/products, SG&A and depreciation comes from the Q3 FY24 10-Q.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+4%"
+    },
+    {
+      "label": "Adjusted EPS",
+      "note": "+35% YoY, excludes certain items",
+      "value": "$1.39"
+    },
+    {
+      "label": "Segment operating income",
+      "note": "+19% YoY",
+      "value": "$4.2B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs a $0.25 loss a year ago",
+      "value": "$1.43"
+    }
+  ],
+  "otherDetail": "Interest expense, net, of $342M on Disney's debt and a $65M other expense, partly offset by $146M of equity income from companies Disney part-owns.",
+  "periodEnd": "2024-06-29",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2024-08-07",
+  "revenueYoY": "+4%",
+  "segmentNote": "Segment operating income: Entertainment $1,201M, Sports $802M, Experiences $2,222M (before corporate costs).",
+  "segments": [
+    {
+      "amountM": 20836,
+      "name": "Services",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 2319,
+      "name": "Products",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells.",
+      "yoy": "0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000231/fy2024_q3xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000232/dis-20240629.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "text": "Total segment operating income rose 19% to $4,225M: Entertainment nearly tripled to $1,201M as streaming improved and Inside Out 2 powered content sales, Experiences eased 3% to $2,222M on softer park demand late in the quarter, and Sports slipped 6% to $802M.",
+      "title": "Segment profit jumped"
+    },
+    {
+      "stat": "$66M",
+      "statColor": "#3e8e5a",
+      "text": "Disney's combined streaming businesses (Disney+, Hulu and ESPN+) earned $66M \u2014 their first profit, and a quarter ahead of Disney's own target. Entertainment's Direct-to-Consumer loss narrowed to just $19M, from $505M a year ago.",
+      "title": "Streaming turned profitable \u2014 early"
+    },
+    {
+      "stat": "$1.43",
+      "statColor": "#5b6b7c",
+      "text": "Unlike the year-ago quarter \u2014 which absorbed $2,650M of restructuring and impairment charges and lost $0.25 a share \u2014 this quarter had no such charges, and diluted EPS swung to $1.43.",
+      "title": "A clean quarter, for once"
+    }
+  ],
+  "ticker": "DIS",
+  "verdict": "Disney's streaming businesses turned profitable for the first time as Entertainment profit nearly tripled \u2014 revenue rose 4% to $23.2B and net income reached $2.8B, a year after a small loss."
+}
