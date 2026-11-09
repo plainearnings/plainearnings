@@ -1,0 +1,211 @@
+{
+  "company": "Berkshire Hathaway",
+  "flow": {
+    "costOfRevenueM": 67084,
+    "equityM": -150,
+    "grossProfitM": 26569,
+    "netIncomeM": 30348,
+    "operatingIncomeM": 14028,
+    "opex": [
+      {
+        "amountM": 4046,
+        "name": "Insurance underwriting expenses",
+        "note": "Commissions, agents and running the insurance operations."
+      },
+      {
+        "amountM": 6033,
+        "name": "Selling, general & administrative",
+        "note": "Offices, sales teams and admin across the non-insurance businesses."
+      },
+      {
+        "amountM": 336,
+        "compact": true,
+        "name": "Interest \u2014 Insurance & Other",
+        "note": "Interest on borrowings outside the railroad and energy group."
+      },
+      {
+        "amountM": 1232,
+        "name": "Other expenses",
+        "note": "Miscellaneous operating costs in the railroad and energy group."
+      },
+      {
+        "amountM": 894,
+        "compact": true,
+        "name": "Interest \u2014 railroad, utilities & energy",
+        "note": "Interest on BNSF and Berkshire Hathaway Energy debt."
+      }
+    ],
+    "otherIncomeM": 24109,
+    "revenueM": 93653,
+    "taxM": 7639
+  },
+  "follow100": [
+    {
+      "amount": 23.44,
+      "label": "Insurance premiums earned"
+    },
+    {
+      "amount": 55.35,
+      "label": "Sales and service revenues"
+    },
+    {
+      "amount": 2.46,
+      "label": "Leasing revenues"
+    },
+    {
+      "amount": 5.64,
+      "label": "Investment income"
+    },
+    {
+      "amount": 6.11,
+      "label": "Railroad revenues"
+    },
+    {
+      "amount": 5.45,
+      "label": "Utilities & energy revenues"
+    },
+    {
+      "amount": 1.54,
+      "label": "Service & other income"
+    },
+    {
+      "amount": -85.02,
+      "label": "All costs and expenses"
+    },
+    {
+      "amount": 25.47,
+      "label": "Investment gains"
+    },
+    {
+      "amount": 0.27,
+      "label": "Equity method earnings"
+    },
+    {
+      "amount": -8.16,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.16,
+      "label": "Noncontrolling interests"
+    },
+    {
+      "amount": 32.4,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Investment gains added $25.47 of every $100 of revenue \u2014 a net of $47.0B in after-tax gains locked in by selling stock, mostly Apple, minus a $28.2B fall in paper gains on stocks still held. Without them, the businesses and everything else kept $6.93. Rows may not add exactly due to rounding.",
+  "footerNote": "Berkshire has no single gross-profit line: costs are split following the 10-Q's own structure. Figures are the three months ended June 30, 2024, as reclassified in the Q2 2025 Form 10-Q \u2014 Berkshire moved Pilot Travel Centers from the Railroad, Utilities and Energy section to Insurance and Other, so no year-ago growth rate is shown for the sales-and-service, utility and service revenue lines.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+1% YoY",
+      "value": "$93.7B"
+    },
+    {
+      "label": "EPS (GAAP, Class B)",
+      "note": "vs $16.52 a year ago",
+      "value": "$14.08"
+    },
+    {
+      "label": "Operating earnings",
+      "note": "+15% YoY \u2014 the number Buffett says matters",
+      "value": "$11.6B"
+    },
+    {
+      "label": "Insurance underwriting",
+      "note": "vs $1.2B a year ago, after tax",
+      "value": "$2.3B"
+    }
+  ],
+  "oneTimers": [
+    "Investment gains of $23,857M before tax ($18,750M after tax) were mostly locked in, not paper: after-tax realized gains on sales were $47.0B in the quarter \u2014 taxable gains were $59.6B before tax, mainly from trimming Apple \u2014 partly offset by a $28.2B after-tax fall in unrealized gains, much of it those same Apple gains leaving the unsold pile. The unrealized part can just as easily reverse next quarter.",
+    "No significant catastrophe events hit in the first six months of 2024, while a year ago they cost about $450M after tax in the first half. GEICO's pre-tax underwriting earnings jumped to $1,786M from $514M as its loss ratio fell to 74.1% from 84.3%.",
+    "Currency moves on foreign debt: revaluing Berkshire's non-dollar borrowings produced a gain of about $446M after tax inside the 'Other' operating earnings line, similar to a $465M gain a year ago."
+  ],
+  "otherDetail": "Investment gains of $23,857M \u2014 mostly gains on Berkshire's stock portfolio, led by sales of Apple shares \u2014 plus $252M of equity-method earnings, less $150M attributable to noncontrolling interests.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-08-03",
+  "revenueYoY": "+1%",
+  "segments": [
+    {
+      "amountM": 21953,
+      "name": "Insurance premiums earned",
+      "note": "Premiums from GEICO, reinsurance and primary insurance \u2014 GEICO's premiums earned rose about 8% on higher average premiums per policy.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 51841,
+      "name": "Sales and service revenues",
+      "note": "The biggest bucket: everything the manufacturing, service and retailing businesses sell. On the restated basis this line now includes Pilot's truck stops.",
+      "yoy": ""
+    },
+    {
+      "amountM": 2308,
+      "name": "Leasing revenues",
+      "note": "Renting out railcars, aircraft and other equipment.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 5284,
+      "name": "Investment income",
+      "note": "What the insurance float and the cash pile earn \u2014 mostly interest and dividends. Interest on Treasury Bills climbed as the cash pile swelled to about $277B.",
+      "yoy": "+36%"
+    },
+    {
+      "amountM": 5720,
+      "name": "Railroad revenues",
+      "note": "BNSF freight revenue \u2014 what shippers pay to move goods by rail.",
+      "yoy": "-2%"
+    },
+    {
+      "amountM": 5103,
+      "name": "Utilities & energy revenues",
+      "note": "Berkshire Hathaway Energy: electric and gas utilities, pipelines and renewables.",
+      "yoy": ""
+    },
+    {
+      "amountM": 1444,
+      "name": "Service & other income",
+      "note": "Smaller service income inside the railroad and energy group.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q, quarter ended June 30, 2025 \u2014 reclassified 2024 comparatives (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm"
+    },
+    {
+      "label": "Earnings news release, August 3, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524193776/d876927dex991.htm"
+    },
+    {
+      "label": "Berkshire Hathaway investor relations",
+      "url": "https://www.berkshirehathaway.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$11.6B",
+      "statColor": "#3e8e5a",
+      "text": "The businesses themselves earned $11.6B after tax, up from $10.0B a year ago \u2014 insurance underwriting nearly doubled to $2.3B as GEICO's loss ratio fell about 10 points, and insurance investment income rose to $3.3B on Treasury Bill yields.",
+      "title": "Operating earnings rose 15%"
+    },
+    {
+      "stat": "$30.3B",
+      "statColor": "#5b6b7c",
+      "text": "Headline profit was $30.3B, down from $35.9B a year ago even though the businesses improved \u2014 investment gains were $23.9B before tax, less than last year's $33.1B. Berkshire sold roughly half its Apple stake: Apple was worth $84.2B at June 30, down from $174.3B at year-end.",
+      "title": "Selling Apple swelled the headline"
+    },
+    {
+      "stat": "$277B",
+      "statColor": "#3d7bc8",
+      "text": "Cash, equivalents and Treasury Bills reached about $277B at June 30 \u2014 Berkshire received $97.1B from stock sales in the first six months and spent only $4.3B buying. Insurance float was about $169B.",
+      "title": "The cash pile set a record"
+    }
+  ],
+  "ticker": "BRK.B",
+  "verdict": "Berkshire's operating earnings rose 15% to $11.6B as GEICO drove insurance underwriting to $2.3B, and $23.9B of pre-tax investment gains \u2014 mostly locked in by selling Apple stock \u2014 lifted headline profit to $30.3B."
+}

@@ -1,0 +1,166 @@
+{
+  "company": "Eli Lilly",
+  "flow": {
+    "costOfRevenueM": 2171,
+    "grossProfitM": 9132,
+    "netIncomeM": 2967,
+    "operatingIncomeM": 3715,
+    "opex": [
+      {
+        "amountM": 2711,
+        "name": "Research & development",
+        "note": "Developing new medicines \u2014 up 15%."
+      },
+      {
+        "amountM": 2117,
+        "name": "Marketing, selling & administrative",
+        "note": "Sales teams, advertising and the back office \u2014 up 10% on launch spending."
+      },
+      {
+        "amountM": 154,
+        "name": "Acquired IPR&D",
+        "note": "Research bought in from other companies, charged at once \u2014 $0.14 of the quarter's EPS."
+      },
+      {
+        "amountM": 435,
+        "name": "Asset impairment & restructuring",
+        "note": "Related to anticipated litigation payments \u2014 there was no such charge a year ago."
+      }
+    ],
+    "otherIncomeM": -198,
+    "revenueM": 11303,
+    "taxM": 550
+  },
+  "follow100": [
+    {
+      "amount": 27.35,
+      "label": "Mounjaro"
+    },
+    {
+      "amount": 11,
+      "label": "Zepbound"
+    },
+    {
+      "amount": 61.66,
+      "label": "All other medicines"
+    },
+    {
+      "amount": -19.21,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -23.98,
+      "label": "Research & development"
+    },
+    {
+      "amount": -18.73,
+      "label": "Marketing, selling & administrative"
+    },
+    {
+      "amount": -1.36,
+      "label": "Acquired IPR&D"
+    },
+    {
+      "amount": -3.85,
+      "label": "Impairment & restructuring"
+    },
+    {
+      "amount": -1.75,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.87,
+      "label": "Tax"
+    },
+    {
+      "amount": 26.25,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $3,541M (EPS $3.92). The release reports figures to one decimal place; they are rounded to whole millions here.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+36% YoY",
+      "value": "$11.3B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.95 a year ago; $3.92 non-GAAP",
+      "value": "$3.28"
+    },
+    {
+      "label": "Mounjaro",
+      "note": "+215% YoY",
+      "value": "$3.1B"
+    },
+    {
+      "label": "Net income",
+      "note": "vs $1.76B a year ago",
+      "value": "$2.97B"
+    }
+  ],
+  "oneTimers": [
+    "Acquired in-process R&D of $154M ($0.14 of EPS), up from $97M a year ago. Lilly counts IPR&D in both its reported and its non-GAAP figures.",
+    "Asset impairment, restructuring and other special charges of $435M ($0.38 of EPS), related to anticipated litigation payments, with no such charge a year ago. Lilly's non-GAAP net income of $3,541M (EPS $3.92) excludes this charge, along with net losses on equity securities and amortization of intangible assets.",
+    "The year-ago quarter's revenue included $579M from the sale of rights for Baqsimi \u2014 excluding it, Q2 2024 revenue grew 46% rather than the reported 36%."
+  ],
+  "otherDetail": "Net other expense of $198M \u2014 $146.3M of net interest expense and $51.3M of net other expense, the latter driven by net losses on investments in equity securities.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-08-08",
+  "revenueYoY": "+36%",
+  "segments": [
+    {
+      "amountM": 3091,
+      "name": "Mounjaro",
+      "note": "The diabetes shot (tirzepatide) \u2014 revenue more than tripled on strong demand, higher realized prices and the launch of the KwikPen outside the U.S.",
+      "yoy": "+215%"
+    },
+    {
+      "amountM": 1243,
+      "name": "Zepbound",
+      "note": "The weight-loss shot (tirzepatide), launched in the U.S. in November 2023 \u2014 already $1.2B a quarter.",
+      "yoy": ""
+    },
+    {
+      "amountM": 6969,
+      "name": "All other medicines",
+      "note": "Everything else \u2014 Verzenio ($1.3B, +44%), Trulicity ($1.2B, -31%), Jardiance, Taltz and Humalog. Down 5% overall, partly because the year-ago quarter included $579M from selling the rights to Baqsimi.",
+      "yoy": "-5%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000185/q224lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended June 30, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000187/lly-20240630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$4.3B",
+      "statColor": "#3e8e5a",
+      "text": "Mounjaro ($3.1B, +215%) and Zepbound ($1.2B, launched November 2023) together brought in $4.3B of the $11.3B total \u2014 two versions of the same drug, tirzepatide.",
+      "title": "Two shots are 38% of revenue"
+    },
+    {
+      "stat": "$45.4\u2013$46.6B",
+      "statColor": "#3d7bc8",
+      "text": "Lilly lifted full-year 2024 revenue guidance from $42.4\u2013$43.6B to $45.4\u2013$46.6B, and reported EPS guidance by $2.05 to $15.10\u2013$15.60, on the strength of Mounjaro and Zepbound.",
+      "title": "Guidance raised by $3B"
+    },
+    {
+      "stat": "$435M",
+      "statColor": "#5b6b7c",
+      "text": "Lilly booked a $435M asset impairment, restructuring and other special charge related to anticipated litigation payments, plus a $154M acquired IPR&D charge \u2014 and operating income still rose 75% to $3.7B.",
+      "title": "A litigation charge in the quarter"
+    }
+  ],
+  "ticker": "LLY",
+  "verdict": "Lilly's revenue rose 36% to $11.3B as Mounjaro more than tripled to $3.1B and Zepbound added $1.2B \u2014 and profit jumped 68% to $2.97B, prompting Lilly to raise full-year revenue guidance by $3B."
+}
