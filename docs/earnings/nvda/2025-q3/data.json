@@ -1,0 +1,178 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2024-10-27",
+  "reportedDate": "2024-11-20",
+  "verdict": "Nvidia's revenue jumped 94% to a record $35.1B as Data Center sales more than doubled on Hopper AI chips \u2014 and it kept $19.3B as profit, about 55 cents of every dollar.",
+  "revenueYoY": "+94%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+94%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.78",
+      "note": "non-GAAP $0.81"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$30.8B",
+      "note": "up 112% YoY, 88% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$16.8B",
+      "note": "operating cash flow $17.6B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 30771,
+      "note": "AI data-center chips and networking \u2014 Hopper demand for training and running AI models drove a 112% jump; cloud providers took about half.",
+      "yoy": "+112%"
+    },
+    {
+      "name": "Gaming",
+      "amountM": 3279,
+      "note": "GeForce graphics cards for gamers and AI PCs \u2014 RTX 40 series sales and game-console chips lifted revenue 15%.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Professional Visualization",
+      "amountM": 486,
+      "note": "Workstation graphics for designers and engineers; up 17% YoY.",
+      "yoy": "+17%",
+      "compact": true,
+      "shortName": "Pro Viz"
+    },
+    {
+      "name": "Automotive",
+      "amountM": 449,
+      "note": "Chips and software for cars and robots \u2014 self-driving platform sales drove a 72% jump to a record.",
+      "yoy": "+72%",
+      "compact": true
+    },
+    {
+      "name": "OEM and Other",
+      "amountM": 97,
+      "note": "Smaller chip sales to other manufacturers; up 33% YoY.",
+      "yoy": "+33%",
+      "compact": true,
+      "shortName": "OEM & Other"
+    }
+  ],
+  "flow": {
+    "revenueM": 35082,
+    "costOfRevenueM": 8926,
+    "grossProfitM": 26156,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3390,
+        "note": "Spending to design future chips and AI software."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 897,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 21869,
+    "otherIncomeM": 447,
+    "taxM": 3007,
+    "netIncomeM": 19309
+  },
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 87.71
+    },
+    {
+      "label": "Gaming",
+      "amount": 9.35
+    },
+    {
+      "label": "Professional Visualization",
+      "amount": 1.39
+    },
+    {
+      "label": "Automotive",
+      "amount": 1.28
+    },
+    {
+      "label": "OEM and Other",
+      "amount": 0.28
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.44
+    },
+    {
+      "label": "R&D",
+      "amount": -9.66
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.56
+    },
+    {
+      "label": "Other income",
+      "amount": 1.27
+    },
+    {
+      "label": "Tax",
+      "amount": -8.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 55.04
+    }
+  ],
+  "follow100Note": "Data Center alone is $87.71 of every $100 Nvidia takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are revenue by market platform, as NVIDIA reports them.",
+  "otherDetail": "Interest income $472M, plus $36M of other income, less $61M interest expense, net.",
+  "takeaways": [
+    {
+      "stat": "+112%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center more than doubled",
+      "text": "Data Center revenue hit a record $30.8B, up 112% \u2014 about $88 of every $100 Nvidia took in \u2014 as cloud builders raced to train and run AI models on Hopper chips."
+    },
+    {
+      "stat": "55\u00a2",
+      "statColor": "#3e8e5a",
+      "title": "More than half of sales became profit",
+      "text": "Net income reached $19.3B \u2014 55 cents of every revenue dollar \u2014 because the 74.6% gross margin held even as Nvidia ramped costlier, more complex systems."
+    },
+    {
+      "stat": "$37.5B",
+      "statColor": "#5b6b7c",
+      "title": "Guidance pointed higher",
+      "text": "Nvidia guided fourth-quarter revenue to $37.5B as Blackwell production shipments begin, with demand for Blackwell expected to exceed supply for several quarters."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/q3fy25pr.htm"
+    },
+    {
+      "label": "CFO commentary with segment detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/q3fy25cfocommentary.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/nvda-20241120.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm"
+    }
+  ]
+}

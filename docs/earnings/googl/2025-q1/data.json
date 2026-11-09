@@ -1,0 +1,165 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet (Google)",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-31",
+  "reportedDate": "2025-04-24",
+  "verdict": "Alphabet's revenue rose 12% to $90.2B as Search, YouTube and Cloud all grew at double-digit rates \u2014 and an $8.0B paper gain on a private-company investment flattered the bottom line, lifting net income 46% to $34.5B.",
+  "revenueYoY": "+12%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.81",
+      "note": "up 49% YoY"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+28%",
+      "note": "revenue growth YoY"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$2.2B",
+      "note": "up from $0.9B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 77264,
+      "note": "Search, YouTube, subscriptions and devices. Revenues grew 10%, with Search, subscriptions and YouTube ads all up double digits.",
+      "yoy": "+10%"
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 12260,
+      "note": "Cloud computing for businesses \u2014 growth of 28% on AI infrastructure and generative AI tools.",
+      "yoy": "+28%"
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 450,
+      "note": "Moonshot projects like Waymo self-driving cars; they lost $1.2B this quarter.",
+      "yoy": "-9%"
+    },
+    {
+      "name": "Hedging gains",
+      "amountM": 260,
+      "note": "Gains on Alphabet's currency-hedging program, which exists to smooth out exchange-rate swings.",
+      "yoy": null
+    }
+  ],
+  "flow": {
+    "revenueM": 90234,
+    "costOfRevenueM": 36361,
+    "grossProfitM": 53873,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 13556,
+        "note": "Engineers and AI research; up 14% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6172,
+        "note": "Selling ads and cloud contracts, and marketing Google's products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 3539,
+        "note": "Back-office, legal and admin costs."
+      }
+    ],
+    "operatingIncomeM": 30606,
+    "otherIncomeM": 11183,
+    "taxM": 7249,
+    "netIncomeM": 34540
+  },
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 85.63
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 13.59
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.5
+    },
+    {
+      "label": "Hedging gains",
+      "amount": 0.29
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -40.3
+    },
+    {
+      "label": "R&D",
+      "amount": -15.02
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.84
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.92
+    },
+    {
+      "label": "Other income",
+      "amount": 12.39
+    },
+    {
+      "label": "Tax",
+      "amount": -8.03
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.28
+    }
+  ],
+  "follow100Note": "Google Services is $85.63 of every $100 Alphabet takes in; a one-off investment gain added an unusual $12.39 below the operating line. The rows may not add exactly due to rounding.",
+  "otherDetail": "A net gain of $11,183M \u2014 dominated by a $9,758M gain on equity securities, including an $8.0B unrealized gain on a private-company stake, plus interest income net of interest expense.",
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is compounding",
+      "text": "Google Cloud revenue grew 28% to $12.3B and its operating profit rose to $2.2B from $0.9B a year ago \u2014 the AI buildout is turning into real earnings, not just sales."
+    },
+    {
+      "stat": "$8.0B",
+      "statColor": "#5b6b7c",
+      "title": "A paper gain did heavy lifting",
+      "text": "Other income included an $8.0B unrealized gain on a private-company stake; with related items it added about $7.7B to net income after tax \u2014 most of the 46% jump \u2014 without anything being sold."
+    },
+    {
+      "stat": "38%",
+      "statColor": "#3e8e5a",
+      "title": "Over a third of revenue became profit",
+      "text": "Net income hit $34.5B, a 38% margin \u2014 but strip out the investment gain and the underlying margin was closer to 30%, still strong."
+    }
+  ],
+  "oneTimers": [
+    "An $8.0 billion unrealized gain on non-marketable equity securities \u2014 Alphabet's stake in a private company \u2014 sits in other income. Together with related items it added $7.7B to net income (and $0.62 to EPS) after tax; it is a paper gain, not cash earned by the business."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000040/googexhibit991q12025.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm"
+    }
+  ]
+}

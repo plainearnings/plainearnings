@@ -1,0 +1,153 @@
+{
+  "ticker": "META",
+  "company": "Meta",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-31",
+  "reportedDate": "2025-04-30",
+  "verdict": "Meta's revenue rose 16% to $42.3B as ad prices climbed 10% \u2014 and with costs growing only 9%, it kept $16.6B as profit, about 39 cents of every dollar, even as Reality Labs lost another $4.2B.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.43",
+      "note": "up 37% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$10.3B",
+      "note": "after $13.7B of capex incl. finance leases"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.43B",
+      "note": "people using Meta's apps daily, +6% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 41392,
+      "note": "Ads across Facebook, Instagram, WhatsApp and Messenger: impressions rose 5% and the average price per ad rose 10%.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 510,
+      "note": "WhatsApp business messaging, Meta Verified subscriptions and other app income; up 34% YoY.",
+      "yoy": "+34%"
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 412,
+      "note": "Quest headsets and AI glasses; revenue fell 6% and the unit lost $4.2B this quarter.",
+      "yoy": "-6%"
+    }
+  ],
+  "flow": {
+    "revenueM": 42314,
+    "costOfRevenueM": 7572,
+    "grossProfitM": 34742,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 12150,
+        "note": "AI research, engineers and Reality Labs development; up 22% YoY."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 2757,
+        "note": "Selling ads and marketing Meta's apps and devices."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 2280,
+        "note": "Back-office and legal costs \u2014 well down from $3.5B a year ago."
+      }
+    ],
+    "operatingIncomeM": 17555,
+    "otherIncomeM": 827,
+    "taxM": 1738,
+    "netIncomeM": 16644
+  },
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 97.82
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.21
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.97
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -17.89
+    },
+    {
+      "label": "R&D",
+      "amount": -28.71
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -6.52
+    },
+    {
+      "label": "General & administrative",
+      "amount": -5.39
+    },
+    {
+      "label": "Other income",
+      "amount": 1.95
+    },
+    {
+      "label": "Tax",
+      "amount": -4.11
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.33
+    }
+  ],
+  "follow100Note": "Advertising is $97.82 of every $100 Meta takes in. The rows may not add exactly due to rounding.",
+  "otherDetail": "Meta reports one combined line, interest and other income (expense), net; this quarter it was an $827M net gain.",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "Higher ad prices did the work",
+      "text": "Ad impressions rose 5% and the average price per ad rose 10%, powered by AI ad tools \u2014 advertising brought in $41.4B of the $42.3B total."
+    },
+    {
+      "stat": "41%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened again",
+      "text": "Operating margin reached 41%, up from 38% a year ago, because revenue grew 16% while total costs grew only 9%."
+    },
+    {
+      "stat": "$4.2B",
+      "statColor": "#b8443c",
+      "title": "Reality Labs still burns cash",
+      "text": "The headsets-and-glasses unit lost $4,210M in one quarter on just $412M of revenue \u2014 the price Meta pays to build its next platform while the ad business funds it."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm"
+    }
+  ]
+}

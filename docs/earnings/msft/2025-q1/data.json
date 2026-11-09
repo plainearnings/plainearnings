@@ -1,0 +1,154 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "FY25 Q1",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-30",
+  "verdict": "Microsoft grew 16% to $65.6B as Azure jumped 33% and Microsoft Cloud revenue hit $38.9B \u2014 it kept $24.7B as profit, while Xbox got a big one-year lift from the Activision acquisition.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.30",
+      "note": "vs $2.99 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+33%",
+      "note": "fastest-growing large piece"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$38.9B",
+      "note": "+22% YoY, 59% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 28317,
+      "note": "Office 365, LinkedIn and Dynamics \u2014 Microsoft 365 Commercial cloud grew 15% and LinkedIn 10%.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 24092,
+      "note": "Azure and server products \u2014 Azure and other cloud services grew 33%, the fastest-growing large piece.",
+      "yoy": "+20%"
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 13176,
+      "note": "Windows, Xbox and search ads \u2014 Xbox content and services up 61% on the Activision acquisition, search ads up 18%.",
+      "yoy": "+17%"
+    }
+  ],
+  "flow": {
+    "revenueM": 65585,
+    "costOfRevenueM": 20099,
+    "grossProfitM": 45486,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 7544,
+        "note": "Spending on building products, led by AI and cloud \u2014 up 13% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 5717,
+        "note": "Selling and marketing the product line \u2014 up 10% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1673,
+        "note": "Running the company day to day \u2014 up 14% YoY."
+      }
+    ],
+    "operatingIncomeM": 30552,
+    "otherIncomeM": -283,
+    "taxM": 5602,
+    "netIncomeM": 24667
+  },
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 43.18
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 36.73
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 20.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -30.65
+    },
+    {
+      "label": "R&D",
+      "amount": -11.5
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.72
+    },
+    {
+      "label": "G&A",
+      "amount": -2.55
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.43
+    },
+    {
+      "label": "Tax",
+      "amount": -8.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 37.61
+    }
+  ],
+  "follow100Note": "The rows reconcile to the $37.61 kept as profit within $0.01 of rounding; other expense is a $0.43 drag per $100 of revenue.",
+  "footerNote": "Segments use Microsoft's FY25 reporting structure (three segments).",
+  "otherDetail": "Other expense of $283M, net.",
+  "takeaways": [
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "Azure is the growth engine",
+      "text": "Azure and other cloud services grew 33%, and Microsoft Cloud overall reached $38.9B \u2014 about 59% of all revenue \u2014 as AI demand pulled customers onto the platform."
+    },
+    {
+      "stat": "$38.9B",
+      "statColor": "#3e8e5a",
+      "title": "The cloud is most of Microsoft now",
+      "text": "Microsoft Cloud revenue hit $38.9B, up 22%. The growth story is the data centers \u2014 and the cost of revenue rose 23% as Microsoft built them out."
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#5b6b7c",
+      "title": "Xbox got an acquisition lift",
+      "text": "Xbox content and services revenue jumped 61%, but 53 points of that came from the Activision acquisition closing a year earlier \u2014 the underlying games business grew much more slowly."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118955/msft-ex99_1.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm"
+    }
+  ]
+}

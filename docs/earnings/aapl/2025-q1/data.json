@@ -1,0 +1,165 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q1 FY25",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2024-12-28",
+  "reportedDate": "2025-01-30",
+  "verdict": "Apple set a December-quarter record with revenue up 4% to $124.3B \u2014 Services hit an all-time high of $26.3B and Mac and iPad both grew double digits \u2014 keeping $36.3B as profit even though iPhone sales dipped slightly.",
+  "revenueYoY": "+4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.40",
+      "note": "all-time record; up 10% YoY"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$69.1B",
+      "note": "down 1% YoY"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$26.3B",
+      "note": "all-time high, up 14% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 69138,
+      "note": "Apple's flagship smartphone \u2014 the iPhone 16 family; sales dipped 1% YoY.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Mac",
+      "amountM": 8987,
+      "note": "Mac computers \u2014 new M4-powered MacBook Pro, iMac and Mac mini models lifted sales 16%.",
+      "yoy": "+16%"
+    },
+    {
+      "name": "iPad",
+      "amountM": 8088,
+      "note": "iPad tablets \u2014 new iPad Air and mini models lifted sales 15%.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 11747,
+      "note": "Apple Watch, AirPods, HomePod, Apple TV and accessories; down 2% YoY.",
+      "yoy": "-2%"
+    },
+    {
+      "name": "Services",
+      "amountM": 26340,
+      "note": "App Store, Apple Music, iCloud, Apple Pay, Apple TV+ and licensing \u2014 an all-time high, up 14% YoY.",
+      "yoy": "+14%"
+    }
+  ],
+  "flow": {
+    "revenueM": 124300,
+    "costOfRevenueM": 66025,
+    "grossProfitM": 58275,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 8268,
+        "note": "Spending to design future products and technologies."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 7175,
+        "note": "Sales, marketing and day-to-day running costs."
+      }
+    ],
+    "operatingIncomeM": 42832,
+    "otherIncomeM": -248,
+    "taxM": 6254,
+    "netIncomeM": 36330
+  },
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 55.62
+    },
+    {
+      "label": "Mac",
+      "amount": 7.23
+    },
+    {
+      "label": "iPad",
+      "amount": 6.51
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 9.45
+    },
+    {
+      "label": "Services",
+      "amount": 21.19
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -53.12
+    },
+    {
+      "label": "R&D",
+      "amount": -6.65
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.77
+    },
+    {
+      "label": "Other income",
+      "amount": -0.2
+    },
+    {
+      "label": "Tax",
+      "amount": -5.03
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 29.23
+    }
+  ],
+  "follow100Note": "iPhone is $55.62 of every $100 Apple takes in; Services adds another $21.19. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "otherDetail": "Other expense of $248M, net.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Services set another record",
+      "text": "Services revenue reached an all-time high of $26.3B, up 14% \u2014 more than a fifth of everything Apple sells, at much higher margins than hardware."
+    },
+    {
+      "stat": "46.9%",
+      "statColor": "#3e8e5a",
+      "title": "Margins hit a record",
+      "text": "Gross margin reached 46.9% of revenue, and EPS rose 10% to an all-time record $2.40 \u2014 the mix keeps shifting toward Services, which keeps far more of each dollar than hardware."
+    },
+    {
+      "stat": "-1%",
+      "statColor": "#5b6b7c",
+      "title": "iPhone took a small step back",
+      "text": "iPhone sales slipped 1% to $69.1B and Greater China revenue fell 11%, even as Mac (+16%) and iPad (+15%) more than covered the gap."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000007/a8-kex991q1202512282024.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm"
+    }
+  ]
+}
