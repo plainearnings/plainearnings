@@ -1,0 +1,165 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-03-30",
+  "reportedDate": "2024-05-02",
+  "verdict": "Apple's sales fell 4% to $90.8B as iPhone revenue dropped 10%, but Services set another all-time record at $23.9B and EPS hit a March-quarter record \u2014 it kept $23.6B as profit.",
+  "revenueYoY": "-4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.53",
+      "note": "a March-quarter record; vs $1.52 a year ago"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$23.9B",
+      "note": "an all-time record, up 14%"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$46.0B",
+      "note": "down 10% YoY, 51% of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 45963,
+      "yoy": "-10%",
+      "note": "Apple's flagship phone \u2014 sales fell 10% from a strong year-ago quarter."
+    },
+    {
+      "name": "Mac",
+      "amountM": 7451,
+      "yoy": "+4%",
+      "note": "Mac computers \u2014 up 4%, helped by the MacBook Air with the M3 chip, launched in March."
+    },
+    {
+      "name": "iPad",
+      "amountM": 5559,
+      "yoy": "-17%",
+      "note": "Tablets \u2014 down 17% with no new models in the quarter; the redesigned iPad Pro and iPad Air arrived in May, just after the quarter ended."
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 7913,
+      "yoy": "-10%",
+      "note": "Apple Watch, AirPods and home devices \u2014 down 10%; Apple Vision Pro, the $3,499 headset, launched in February but was still a tiny part of sales."
+    },
+    {
+      "name": "Services",
+      "amountM": 23867,
+      "yoy": "+14%",
+      "note": "App Store, Apple Music, iCloud, TV+ and advertising \u2014 an all-time record, up 14%."
+    }
+  ],
+  "flow": {
+    "revenueM": 90753,
+    "costOfRevenueM": 48482,
+    "grossProfitM": 42271,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 7903,
+        "note": "Designing future iPhones, Macs, chips and services."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 6468,
+        "note": "Stores, marketing and running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 27900,
+    "otherIncomeM": 158,
+    "taxM": 4422,
+    "netIncomeM": 23636
+  },
+  "otherDetail": "Other income of $158M, net.",
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 50.65
+    },
+    {
+      "label": "Mac",
+      "amount": 8.21
+    },
+    {
+      "label": "iPad",
+      "amount": 6.13
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 8.72
+    },
+    {
+      "label": "Services",
+      "amount": 26.3
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -53.42
+    },
+    {
+      "label": "R&D",
+      "amount": -8.71
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.13
+    },
+    {
+      "label": "Other income",
+      "amount": 0.17
+    },
+    {
+      "label": "Tax",
+      "amount": -4.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.04
+    }
+  ],
+  "follow100Note": "Services alone is $26.30 of every $100 Apple takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "takeaways": [
+    {
+      "stat": "$23.9B",
+      "statColor": "#3e8e5a",
+      "title": "Services set another record",
+      "text": "Services revenue reached $23.9B, an all-time high, up 14% \u2014 more than a quarter of everything Apple sells now comes from subscriptions, the App Store and other services."
+    },
+    {
+      "stat": "-10%",
+      "statColor": "#b8443c",
+      "title": "iPhone had a soft quarter",
+      "text": "iPhone revenue fell 10% to $46.0B and Greater China sales fell 8% to $16.4B, while Mac grew 4% on the new M3 MacBook Air."
+    },
+    {
+      "stat": "$110B",
+      "statColor": "#5b6b7c",
+      "title": "A bigger buyback",
+      "text": "Apple authorized another $110B of share repurchases and raised its dividend 4% to $0.25 a share \u2014 its twelfth straight annual increase."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000067/a8-kex991q2202403302024.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-06-30",
+  "reportedDate": "2024-07-23",
+  "verdict": "Alphabet grew revenue 14% to $84.7B as Search rose 14% and Google Cloud jumped 29% \u2014 and it kept $23.6B as profit, even after a $714M paper loss on its investment stakes.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+14%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.89",
+      "note": "vs $1.44 a year ago"
+    },
+    {
+      "label": "Google Cloud",
+      "value": "+29%",
+      "note": "revenue $10.3B"
+    },
+    {
+      "label": "Cloud op. income",
+      "value": "$1.2B",
+      "note": "vs $0.4B a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Google Services",
+      "amountM": 73928,
+      "yoy": "+12%",
+      "note": "Search, YouTube, subscriptions and devices \u2014 Search & other revenue rose 14% to $48.5B and YouTube ads 13% to $8.7B."
+    },
+    {
+      "name": "Google Cloud",
+      "amountM": 10347,
+      "yoy": "+29%",
+      "note": "Cloud computing rented to companies \u2014 up 29%, and its operating profit nearly tripled to $1.2B from $0.4B a year ago."
+    },
+    {
+      "name": "Other Bets",
+      "amountM": 365,
+      "yoy": "+28%",
+      "note": "Moonshot projects such as Waymo \u2014 small revenue and a $1.1B operating loss this quarter."
+    },
+    {
+      "name": "Hedging gains",
+      "amountM": 102,
+      "note": "Gains from currency hedging that sit outside the three businesses."
+    }
+  ],
+  "flow": {
+    "revenueM": 84742,
+    "costOfRevenueM": 35507,
+    "grossProfitM": 49235,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 11860,
+        "note": "Engineers and researchers building the products and AI models."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6792,
+        "note": "Selling ads and devices, and promoting the products."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 3158,
+        "note": "Running the company \u2014 legal, finance and facilities."
+      }
+    ],
+    "operatingIncomeM": 27425,
+    "otherIncomeM": 126,
+    "taxM": 3932,
+    "netIncomeM": 23619
+  },
+  "otherDetail": "Interest income of $1,090M and a $128M performance-fee reversal, partly offset by a $714M loss on equity securities, a $310M loss on debt securities, currency losses and interest expense, net.",
+  "follow100": [
+    {
+      "label": "Google Services",
+      "amount": 87.24
+    },
+    {
+      "label": "Google Cloud",
+      "amount": 12.21
+    },
+    {
+      "label": "Other Bets",
+      "amount": 0.43
+    },
+    {
+      "label": "Hedging gains",
+      "amount": 0.12
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -41.9
+    },
+    {
+      "label": "R&D",
+      "amount": -14.0
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.01
+    },
+    {
+      "label": "G&A",
+      "amount": -3.73
+    },
+    {
+      "label": "Other income",
+      "amount": 0.15
+    },
+    {
+      "label": "Tax",
+      "amount": -4.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 27.87
+    }
+  ],
+  "follow100Note": "A $714M paper loss on investments is netted inside the $0.15 of other income per $100. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "Cloud is compounding",
+      "text": "Google Cloud revenue jumped 29% to $10.3B, and its operating profit nearly tripled to $1.2B from $0.4B a year ago \u2014 the cloud has become a real second engine, not just a growth story."
+    },
+    {
+      "stat": "$48.5B",
+      "statColor": "#3e8e5a",
+      "title": "Search still pays for everything",
+      "text": "Search & other revenue rose 14% to $48.5B and YouTube ads grew 13% to $8.7B \u2014 the advertising core still supplies the great bulk of Alphabet's money."
+    },
+    {
+      "stat": "$23.6B",
+      "statColor": "#5b6b7c",
+      "title": "Profit rose 29%",
+      "text": "Net income rose 29% to $23.6B despite the $714M paper loss on equity investments inside other income; free cash flow was $13.5B in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "A $714M loss on equity securities \u2014 paper losses on stakes Alphabet holds \u2014 is netted inside the small $126M of net other income; together with a $128M reversal of previously accrued performance fees, it cut net income by $463M (about $0.04 a share), per the release's own footnote."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm"
+    }
+  ]
+}

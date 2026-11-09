@@ -1,0 +1,155 @@
+{
+  "ticker": "META",
+  "company": "Meta",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-06-30",
+  "reportedDate": "2024-07-31",
+  "verdict": "Meta's revenue rose 22% to $39.1B as ad impressions and prices both climbed 10% \u2014 and even with a $1.4B Texas legal settlement in its costs, it kept $13.5B as profit, about 34 cents of every dollar.",
+  "revenueYoY": "+22%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+22%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.16",
+      "note": "vs $2.98 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$10.9B",
+      "note": "capex, incl. finance leases, was $8.5B"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.27B",
+      "note": "people using a Meta app daily, +7%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 38329,
+      "yoy": "+22%",
+      "note": "Ads across Facebook, Instagram and WhatsApp \u2014 ad impressions rose 10% and the average price per ad rose 10%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 389,
+      "yoy": "+73%",
+      "note": "Mostly WhatsApp business messaging and other fees from the social apps."
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 353,
+      "yoy": "+28%",
+      "note": "Quest headsets and Ray-Ban Meta glasses \u2014 $353M of revenue against a $4.5B operating loss."
+    }
+  ],
+  "flow": {
+    "revenueM": 39071,
+    "costOfRevenueM": 7308,
+    "grossProfitM": 31763,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 10537,
+        "note": "Engineers building the apps, the AI models and the headsets."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 2721,
+        "note": "Selling ads and devices, and promoting the apps."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 3658,
+        "note": "Legal, finance and overhead for running the company \u2014 this quarter it includes a $1.4B legal settlement charge."
+      }
+    ],
+    "operatingIncomeM": 14847,
+    "otherIncomeM": 259,
+    "taxM": 1641,
+    "netIncomeM": 13465
+  },
+  "otherDetail": "Interest and other income of $259M, net.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 98.1
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.0
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.9
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.7
+    },
+    {
+      "label": "R&D",
+      "amount": -26.97
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -6.96
+    },
+    {
+      "label": "G&A",
+      "amount": -9.36
+    },
+    {
+      "label": "Other income",
+      "amount": 0.66
+    },
+    {
+      "label": "Tax",
+      "amount": -4.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 34.46
+    }
+  ],
+  "follow100Note": "Advertising alone is $98.10 of every $100 Meta takes in. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Ads did the lifting",
+      "text": "Advertising revenue grew 22% to $38.3B \u2014 98 cents of every dollar Meta made \u2014 helped by 10% more ad views and a 10% higher average price per ad."
+    },
+    {
+      "stat": "-$4.5B",
+      "statColor": "#b8443c",
+      "title": "Reality Labs still burns cash",
+      "text": "Reality Labs lost $4.5B in the quarter on just $353M of revenue, and Meta said it expects the segment's operating losses to keep growing as it builds headsets and glasses."
+    },
+    {
+      "stat": "$10.9B",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed enormous",
+      "text": "Free cash flow was $10.9B even after $8.5B of capital spending, and Meta raised its full-year capex outlook to $37\u201340B, mostly for AI computing."
+    }
+  ],
+  "oneTimers": [
+    "A $1.4B charge for Meta's settlement with the State of Texas (over its past use of facial-recognition data) sits inside general & administrative costs. Without it, operating income would have been about $16.2B instead of $14.8B."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm"
+    }
+  ]
+}
