@@ -1,0 +1,129 @@
+{
+  "company": "Costco",
+  "flow": {
+    "costOfRevenueM": 50457,
+    "grossProfitM": 7342,
+    "netIncomeM": 1589,
+    "operatingIncomeM": 1984,
+    "opex": [
+      {
+        "amountM": 5358,
+        "name": "Selling, general & administrative",
+        "note": "Warehouse labor, rent, utilities and head office."
+      }
+    ],
+    "otherIncomeM": 122,
+    "revenueM": 57799,
+    "taxM": 517
+  },
+  "follow100": [
+    {
+      "amount": 98.13,
+      "label": "Net sales"
+    },
+    {
+      "amount": 1.87,
+      "label": "Membership fees"
+    },
+    {
+      "amount": -87.3,
+      "label": "Merchandise costs"
+    },
+    {
+      "amount": -9.27,
+      "label": "Selling, general & admin"
+    },
+    {
+      "amount": 0.21,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.89,
+      "label": "Tax"
+    },
+    {
+      "amount": 2.75,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Membership fees were only $1.87 of every $100 of revenue, yet they covered about 55% of Costco's operating profit \u2014 the membership model, not the markup, is where the money is.",
+  "footerNote": "Costco's merchandise costs include buying, freight and shrink (lost or damaged goods) \u2014 the direct cost of what's on the shelves. The quarter is 12 weeks, ended November 26, 2023.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+6.2% YoY",
+      "value": "$57.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+16.6% YoY",
+      "value": "$3.58"
+    },
+    {
+      "label": "Comparable sales",
+      "note": "total company; also +4% adjusted for fuel prices and currency",
+      "value": "+4%"
+    },
+    {
+      "label": "Net income",
+      "note": "vs $1.36B a year ago",
+      "value": "$1.59B"
+    }
+  ],
+  "oneTimers": [
+    "Income taxes included a $44M benefit ($0.10 per diluted share) related to stock-based compensation.",
+    "The year-ago quarter included a $93M pre-tax charge tied to charter shipping, which flatters this quarter's margin comparison by about 17 basis points."
+  ],
+  "otherDetail": "Interest income and other of $160M, net, less $38M of interest expense.",
+  "periodEnd": "2023-11-26",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2023-12-14",
+  "revenueYoY": "+6.2%",
+  "segments": [
+    {
+      "amountM": 56717,
+      "name": "Net sales",
+      "note": "Everything sold in the warehouses and online \u2014 comparable sales rose 4% (U.S. +2%, Canada +6%, other international +11%), and e-commerce comparable sales rose 6%.",
+      "yoy": "+6.1%"
+    },
+    {
+      "amountM": 1082,
+      "name": "Membership fees",
+      "note": "Annual fees from members \u2014 almost pure profit, since the warehouses would run anyway. Renewal rates in the U.S. and Canada were 92.8%.",
+      "yoy": "+8.2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000062/costex9918-k121423.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000065/cost-20231126.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4%",
+      "statColor": "#3e8e5a",
+      "text": "Comparable sales rose 4% \u2014 U.S. +2%, Canada +6% and other international +11% \u2014 and e-commerce comparable sales rose 6%. Net sales grew 6.1% to $56,717M, and the net-sales gross margin improved 43 basis points to 11.04%.",
+      "title": "Shoppers kept coming"
+    },
+    {
+      "stat": "$1.08B",
+      "statColor": "#3d7bc8",
+      "text": "Membership fees rose 8.2% to $1,082M. They are just 1.9% of revenue, yet they alone cover about 55% of the quarter's $1,984M in operating income. Costco ended the quarter with 72.0M paid household members, 129.5M cardholders and 871 warehouses.",
+      "title": "Membership is the profit engine"
+    },
+    {
+      "stat": "$15",
+      "statColor": "#5b6b7c",
+      "text": "On December 13, 2023, Costco declared a special cash dividend of $15 per share \u2014 about $6.7B in total, payable January 12, 2024 \u2014 on top of its regular dividend. Net income was $1,589M, or $3.58 a share, up 16.6%.",
+      "title": "A $15 special dividend"
+    }
+  ],
+  "ticker": "COST",
+  "verdict": "Costco's revenue rose 6.2% to $57.8B as comparable sales grew 4%, and with $1.08B of nearly cost-free membership fees on top, earnings per share rose 16.6% to $3.58 \u2014 and Costco declared a $15-per-share special dividend."
+}

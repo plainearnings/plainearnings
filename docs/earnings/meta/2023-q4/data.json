@@ -1,0 +1,155 @@
+{
+  "company": "Meta",
+  "flow": {
+    "costOfRevenueM": 7695,
+    "grossProfitM": 32416,
+    "netIncomeM": 14017,
+    "operatingIncomeM": 16384,
+    "opex": [
+      {
+        "amountM": 10517,
+        "name": "Research & development",
+        "note": "Engineers building the apps, the AI models and the headsets."
+      },
+      {
+        "amountM": 3226,
+        "name": "Marketing & sales",
+        "note": "Selling ads and devices, and promoting the apps."
+      },
+      {
+        "amountM": 2289,
+        "name": "General & administrative",
+        "note": "Legal, finance and overhead for running the company."
+      }
+    ],
+    "otherIncomeM": 424,
+    "revenueM": 40111,
+    "taxM": 2791
+  },
+  "follow100": [
+    {
+      "amount": 96.5,
+      "label": "Advertising"
+    },
+    {
+      "amount": 0.83,
+      "label": "Family of Apps other revenue"
+    },
+    {
+      "amount": 2.67,
+      "label": "Reality Labs"
+    },
+    {
+      "amount": -19.18,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -26.22,
+      "label": "R&D"
+    },
+    {
+      "amount": -8.04,
+      "label": "Marketing & sales"
+    },
+    {
+      "amount": -5.71,
+      "label": "G&A"
+    },
+    {
+      "amount": 1.06,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.96,
+      "label": "Tax"
+    },
+    {
+      "amount": 34.95,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 Meta took in, $34.95 stayed as profit \u2014 the 'year of efficiency' in one line: revenue up 25%, total costs down 8%. Rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+25%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.76 a year ago",
+      "value": "$5.33"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "capex, incl. finance leases, was $7.9B",
+      "value": "$11.5B"
+    },
+    {
+      "label": "Family DAP",
+      "note": "people using a Meta app daily, +8%",
+      "value": "3.19B"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges of $1,148M in the quarter \u2014 mostly facilities consolidation as Meta shrank its office footprint \u2014 are inside the quarter's costs; the 'year of efficiency' total for 2023 was $3,452M."
+  ],
+  "otherDetail": "Interest and other income of $424M, net.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-02-01",
+  "revenueYoY": "+25%",
+  "segments": [
+    {
+      "amountM": 38706,
+      "name": "Advertising",
+      "note": "Ads across Facebook, Instagram and WhatsApp \u2014 ad impressions rose 21% and the average price per ad rose 2%.",
+      "yoy": "+24%"
+    },
+    {
+      "amountM": 334,
+      "name": "Family of Apps other revenue",
+      "note": "Mostly WhatsApp business messaging and other fees from the social apps.",
+      "yoy": ""
+    },
+    {
+      "amountM": 1071,
+      "name": "Reality Labs",
+      "note": "Quest headsets and Ray-Ban Meta glasses \u2014 a holiday-quarter $1,071M of revenue against a $4,646M operating loss.",
+      "yoy": "+47%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "text": "Advertising revenue rose 24% to $38.7B \u2014 97 cents of every dollar Meta made \u2014 on 21% more ad impressions and a 2% higher average price per ad. Reality Labs chipped in $1,071M of revenue but lost $4,646M.",
+      "title": "Ads surged in the holiday quarter"
+    },
+    {
+      "stat": "41%",
+      "statColor": "#3e8e5a",
+      "text": "Revenue rose 25% while total costs and expenses fell 8%, so operating margin widened to 41% from 20% a year ago and net income tripled to $14.0B \u2014 free cash flow was $11.5B, and Meta ended the year with $65.4B of cash and marketable securities.",
+      "title": "The efficiency year paid off"
+    },
+    {
+      "stat": "$0.50",
+      "statColor": "#5b6b7c",
+      "text": "Meta declared its first-ever dividend \u2014 $0.50 a share, payable March 26, 2024 \u2014 and added $50B to its buyback authorization, after repurchasing $6.32B of stock in the quarter. Headcount was 67,317, down 22% from a year earlier.",
+      "title": "A first-ever dividend"
+    }
+  ],
+  "ticker": "META",
+  "verdict": "Meta's revenue rose 25% to $40.1B in the holiday quarter as ad impressions jumped 21%, and with total costs down 8% in its 'year of efficiency', profit tripled to $14.0B \u2014 and Meta declared its first-ever dividend."
+}

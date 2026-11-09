@@ -1,0 +1,154 @@
+{
+  "company": "Walmart",
+  "flow": {
+    "costOfRevenueM": 121183,
+    "equityM": -190,
+    "grossProfitM": 39621,
+    "netIncomeM": 453,
+    "operatingIncomeM": 6202,
+    "opex": [
+      {
+        "amountM": 33419,
+        "name": "Operating, selling, general & administrative",
+        "note": "Running the stores, clubs, warehouses and head office."
+      }
+    ],
+    "otherIncomeM": -5287,
+    "revenueM": 160804,
+    "taxM": 272
+  },
+  "follow100": [
+    {
+      "amount": 68.04,
+      "label": "Walmart U.S."
+    },
+    {
+      "amount": 17.43,
+      "label": "Walmart International"
+    },
+    {
+      "amount": 13.68,
+      "label": "Sam's Club U.S."
+    },
+    {
+      "amount": 0.85,
+      "label": "Membership & other income"
+    },
+    {
+      "amount": -75.36,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -20.78,
+      "label": "Operating & admin costs"
+    },
+    {
+      "amount": -3.29,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.17,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.12,
+      "label": "Noncontrolling interests"
+    },
+    {
+      "amount": 0.28,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The stores earned $3.86 of operating profit from every $100 of revenue, but a $4,750M unrealized loss on investment stakes \u2014 inside the 'Other income' line above \u2014 plus tax and partners' shares left just $0.28. Rows may not add exactly due to rounding.",
+  "footerNote": "Net profit shown is the $453M attributable to Walmart; consolidated net income was $643M, of which $190M belongs to noncontrolling interests. Per-share figures are shown split-adjusted for the 3-for-1 stock split distributed February 23, 2024; as originally reported before the split, GAAP EPS was $0.17 and adjusted EPS was $1.53.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+5.2% YoY",
+      "value": "$160.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "split-adjusted; $0.17 as reported pre-split; adjusted $0.51 split-adjusted ($1.53 pre-split)",
+      "value": "$0.06"
+    },
+    {
+      "label": "Operating income",
+      "note": "+130.1% YoY reported; +3.0% adjusted",
+      "value": "$6.2B"
+    },
+    {
+      "label": "U.S. comp sales",
+      "note": "excludes fuel; eCommerce +24%",
+      "value": "+4.9%"
+    }
+  ],
+  "oneTimers": [
+    "Other (gains) and losses was a $4,750M loss this quarter \u2014 unrealized fair-value declines on equity and other investments Walmart holds. Adjusted EPS of $1.53 (as reported before the split) excludes the loss's $1.36-per-share effect, net of tax.",
+    "The year-ago quarter's operating expenses included a large opioid-litigation charge, which flatters this quarter's reported comparisons: operating expenses as a share of net sales fell 182 basis points, and reported operating income rose 130.1% against 3.0% on an adjusted basis."
+  ],
+  "otherDetail": "Net interest expense of $537M, plus a $4,750M loss in 'Other (gains) and losses' \u2014 unrealized fair-value declines on equity and other investments Walmart holds.",
+  "periodEnd": "2023-10-31",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2023-11-16",
+  "revenueYoY": "+5.2%",
+  "segments": [
+    {
+      "amountM": 109419,
+      "name": "Walmart U.S.",
+      "note": "Stores and eCommerce in the United States \u2014 comparable sales rose 4.9% excluding fuel, eCommerce rose 24%, and segment operating income was $4,981M.",
+      "yoy": "+4.4%"
+    },
+    {
+      "amountM": 28022,
+      "name": "Walmart International",
+      "note": "Stores and eCommerce outside the U.S. \u2014 net sales rose 5.4% in constant currency, led by Walmex and China; growth was muted by the timing of Flipkart's Big Billion Days, which shifted into the fourth quarter. Segment operating income was $1,117M.",
+      "yoy": "+10.8%"
+    },
+    {
+      "amountM": 21998,
+      "name": "Sam's Club U.S.",
+      "note": "Walmart's warehouse clubs in the United States \u2014 comparable sales rose 3.8% excluding fuel, eCommerce rose 16%, membership income rose 7.2%, and segment operating income was $593M.",
+      "yoy": "+2.8%"
+    },
+    {
+      "amountM": 1365,
+      "name": "Membership & other income",
+      "note": "Membership fees from Sam's Club and Walmart+, plus other income \u2014 small, but nearly cost-free.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000124/earningsreleasefy24q3.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended October 31, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000132/wmt-20231031.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+4.9%",
+      "statColor": "#3e8e5a",
+      "text": "Walmart U.S. comparable sales rose 4.9% excluding fuel, with transactions up 3.4% and eCommerce up 24%; global eCommerce rose 15% and the global advertising business about 20%, with Walmart Connect up 26%.",
+      "title": "U.S. stores stayed strong"
+    },
+    {
+      "stat": "-$4.75B",
+      "statColor": "#b8443c",
+      "text": "A $4,750M loss on equity and other investments \u2014 unrealized fair-value moves on stakes Walmart holds \u2014 held GAAP profit to $453M. Adjusted EPS, which strips the loss out, was $1.53 as reported ($0.51 split-adjusted).",
+      "title": "A paper loss swamped the stores"
+    },
+    {
+      "stat": "$6.40\u20136.48",
+      "statColor": "#3d7bc8",
+      "text": "Walmart raised its fiscal 2024 outlook to net sales growth of 5.0\u20135.5% and adjusted EPS of $6.40\u2013$6.48. Reported operating income rose 130.1% to $6,202M \u2014 flattered by a charge-hit year-ago quarter; adjusted operating income rose 3.0%.",
+      "title": "Guidance raised"
+    }
+  ],
+  "ticker": "WMT",
+  "verdict": "Walmart grew revenue 5.2% to $160.8B on 4.9% U.S. comparable sales and 15% global eCommerce growth, and raised its full-year guidance \u2014 but a $4.75B unrealized loss on its investment stakes held headline profit to $453M, while adjusted EPS was $1.53."
+}

@@ -1,0 +1,166 @@
+{
+  "company": "Eli Lilly",
+  "flow": {
+    "costOfRevenueM": 1788,
+    "grossProfitM": 7566,
+    "netIncomeM": 2190,
+    "operatingIncomeM": 2388,
+    "opex": [
+      {
+        "amountM": 2563,
+        "name": "Research & development",
+        "note": "Developing new medicines \u2014 the pipeline behind the diabetes, obesity, cancer and Alzheimer's drugs."
+      },
+      {
+        "amountM": 1924,
+        "name": "Marketing, selling & administrative",
+        "note": "Sales teams, advertising and the back office."
+      },
+      {
+        "amountM": 623,
+        "name": "Acquired IPR&D",
+        "note": "Research bought in from other companies, charged at once \u2014 $0.62 of the quarter's EPS, mainly the Mablink Biosciences acquisition and a Beam Therapeutics collaboration."
+      },
+      {
+        "amountM": 68,
+        "name": "Asset impairment, restructuring & other",
+        "note": "Asset impairment, restructuring and other special charges."
+      }
+    ],
+    "otherIncomeM": 121,
+    "revenueM": 9354,
+    "taxM": 319
+  },
+  "follow100": [
+    {
+      "amount": 23.58,
+      "label": "Mounjaro"
+    },
+    {
+      "amount": 1.88,
+      "label": "Zepbound"
+    },
+    {
+      "amount": 74.54,
+      "label": "All other medicines"
+    },
+    {
+      "amount": -19.11,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -27.4,
+      "label": "Research & development"
+    },
+    {
+      "amount": -20.57,
+      "label": "Marketing, selling & administrative"
+    },
+    {
+      "amount": -6.66,
+      "label": "Acquired IPR&D"
+    },
+    {
+      "amount": -0.73,
+      "label": "Asset impairment & restructuring"
+    },
+    {
+      "amount": 1.29,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.41,
+      "label": "Tax"
+    },
+    {
+      "amount": 23.41,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Mounjaro and Zepbound together supplied $25.46 of every $100 Lilly took in \u2014 two versions of the same drug, tirzepatide. Rows may not add exactly due to rounding.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $2,249M (EPS $2.49). The release reports figures to one decimal place; they are rounded to whole millions here.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+28% YoY",
+      "value": "$9.4B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.14 a year ago; $2.49 non-GAAP",
+      "value": "$2.42"
+    },
+    {
+      "label": "Mounjaro",
+      "note": "vs $279M a year ago",
+      "value": "$2.2B"
+    },
+    {
+      "label": "Net income",
+      "note": "+13% YoY",
+      "value": "$2.19B"
+    }
+  ],
+  "oneTimers": [
+    "Acquired in-process R&D of $622.6M ($0.62 of EPS), mainly the acquisition of Mablink Biosciences and a collaboration agreement with Beam Therapeutics. Lilly counts IPR&D in both its reported and its non-GAAP figures.",
+    "U.S. Mounjaro revenue included a favorable one-time change in estimates for rebates and discounts \u2014 reported U.S. Mounjaro sales rose 65% from the third quarter, versus underlying growth of about 30%."
+  ],
+  "otherDetail": "Net other income of $121M \u2014 $214.7M of net other income, including net gains on investments in equity securities, partly offset by $93.7M of net interest expense.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-02-06",
+  "revenueYoY": "+28%",
+  "segments": [
+    {
+      "amountM": 2206,
+      "name": "Mounjaro",
+      "note": "The diabetes shot (tirzepatide) \u2014 revenue rose almost eightfold on strong demand; U.S. sales of $2.11B included a favorable one-time change in rebate and discount estimates.",
+      "yoy": "+690%"
+    },
+    {
+      "amountM": 176,
+      "name": "Zepbound",
+      "note": "The weight-loss shot (tirzepatide), launched in the U.S. in November 2023 \u2014 $175.8M in its first partial quarter.",
+      "yoy": ""
+    },
+    {
+      "amountM": 6972,
+      "name": "All other medicines",
+      "note": "Everything else \u2014 Verzenio ($1,145.4M, +42%), Jardiance ($798.1M, +30%) and Taltz ($784.6M, +11%) grew, while Trulicity fell 14% to $1,669.3M. New Products revenue was $2.49B and Growth Products $5.27B.",
+      "yoy": "-1%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000032/q423lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000065/lly-20231231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.2B",
+      "statColor": "#3e8e5a",
+      "text": "Mounjaro brought in $2,205.6M, up from $279.2M a year ago, and Zepbound \u2014 launched in November 2023 \u2014 added $175.8M in its first partial quarter. Together the two tirzepatide shots were about a quarter of Lilly's revenue; U.S. revenue rose 39% to $6.46B.",
+      "title": "Mounjaro exploded, Zepbound arrived"
+    },
+    {
+      "stat": "$623M",
+      "statColor": "#b8443c",
+      "text": "Acquired in-process R&D charges of $622.6M, plus $67.7M of asset impairment, restructuring and other special charges, held reported EPS to $2.42 (non-GAAP $2.49). Even so, operating income rose 30% to $2,387.8M on an 80.9% gross margin.",
+      "title": "Bought-in research weighed on profit"
+    },
+    {
+      "stat": "$40.4\u201341.6B",
+      "statColor": "#3d7bc8",
+      "text": "Lilly guided 2024 revenue to $40.4\u201341.6B and reported EPS to $11.80\u2013$12.30, with Mounjaro and Zepbound growth hinging on how fast it can expand production capacity.",
+      "title": "2024 guidance set"
+    }
+  ],
+  "ticker": "LLY",
+  "verdict": "Lilly's revenue rose 28% to $9.4B as Mounjaro jumped to $2.2B from $279M a year ago and Zepbound added $176M in its launch quarter \u2014 and even after $623M of bought-in research charges, profit rose 13% to $2.19B."
+}

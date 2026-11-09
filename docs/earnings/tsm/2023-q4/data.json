@@ -1,0 +1,166 @@
+{
+  "company": "TSMC",
+  "flow": {
+    "costOfRevenueM": 9213,
+    "grossProfitM": 10407,
+    "netIncomeM": 7488,
+    "operatingIncomeM": 8162,
+    "opex": [
+      {
+        "amountM": 2245,
+        "name": "Operating expenses",
+        "note": "Research, engineering and running the business side of the fabs \u2014 shown as one line, including other operating income and expenses, net."
+      }
+    ],
+    "otherIncomeM": 567,
+    "revenueM": 19620,
+    "taxM": 1241
+  },
+  "follow100": [
+    {
+      "amount": 43,
+      "label": "High-performance computing"
+    },
+    {
+      "amount": 43,
+      "label": "Smartphone"
+    },
+    {
+      "amount": 5,
+      "label": "Internet of Things"
+    },
+    {
+      "amount": 5,
+      "label": "Automotive"
+    },
+    {
+      "amount": 2,
+      "label": "Digital consumer electronics"
+    },
+    {
+      "amount": 2,
+      "label": "Others"
+    },
+    {
+      "amount": -46.96,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -11.44,
+      "label": "Operating expenses"
+    },
+    {
+      "amount": 2.89,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.33,
+      "label": "Tax"
+    },
+    {
+      "amount": 38.17,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 of revenue, $38.17 stayed as profit; high-performance computing and smartphones brought in $43 each, and advanced 7nm-and-below nodes were 67% of wafer revenue. Rows may not add exactly due to rounding.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$625.53B; net income attributable to shareholders NT$238.71B). Dollar figures are converted at NT$31.88 per US$1 \u2014 implied by TSMC's own stated US-dollar revenue of $19.62B (NT$ revenue divided by that figure). Operating expenses are shown as one line combining operating expenses with other operating income and expenses, net, as in TSMC's consolidated financial statements. Segment dollars are TSMC's official platform revenues for the quarter converted at the same rate (platform shares: high-performance computing 43%, smartphone 43%, Internet of Things 5%, automotive 5%, digital consumer electronics 2%, others 2%). The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "flat YoY in NT$; -1.5% in US$",
+      "value": "$19.6B"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "note": "NT$9.21; -19.3% YoY",
+      "value": "$1.44"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 62.2% a year ago",
+      "value": "53.0%"
+    },
+    {
+      "label": "Net income",
+      "note": "38.2% margin",
+      "value": "$7.5B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Non-operating income of NT$18.1B (about $0.6B) \u2014 mostly NT$14.5B of net interest income on TSMC's large cash pile, plus NT$1.3B of share of profits from associates and NT$2.3B of other gains.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-01-18",
+  "revenueYoY": "0%",
+  "segments": [
+    {
+      "amountM": 8437,
+      "name": "High-performance computing",
+      "note": "Chips for AI data centers and servers \u2014 grew 17% from the third quarter to tie smartphones at 43% of revenue.",
+      "yoy": "+17% QoQ"
+    },
+    {
+      "amountM": 8437,
+      "name": "Smartphone",
+      "note": "Chips for phones \u2014 jumped 27% from the third quarter on year-end launches, tying high-performance computing at 43%.",
+      "yoy": "+27% QoQ"
+    },
+    {
+      "amountM": 981,
+      "name": "Internet of Things",
+      "note": "Chips for connected devices of every kind \u2014 fell 29% from the third quarter.",
+      "yoy": "-29% QoQ"
+    },
+    {
+      "amountM": 981,
+      "name": "Automotive",
+      "note": "Chips for cars \u2014 up 13% from the third quarter.",
+      "yoy": "+13% QoQ"
+    },
+    {
+      "amountM": 392,
+      "name": "Digital consumer electronics",
+      "note": "Chips for TVs, game consoles and gadgets \u2014 fell 35% from the third quarter.",
+      "yoy": "-35% QoQ"
+    },
+    {
+      "amountM": 392,
+      "name": "Others",
+      "note": "Everything else, including older-node specialty work \u2014 fell 16% from the third quarter.",
+      "yoy": "-16% QoQ"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (TSMC investor relations)",
+      "url": "https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2024-01/b65d7a92d8dc9da3f66817946d941401fa4b2cda/4Q23EarningsRelease.pdf"
+    },
+    {
+      "label": "Quarterly management report (TSMC investor relations)",
+      "url": "https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2024-01/894c1f6b900634fd7f369ef213bdfbf11c617297/4Q23ManagementReport.pdf"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "43%",
+      "statColor": "#3d7bc8",
+      "text": "High-performance computing rose 17% from the third quarter and smartphone chips 27% \u2014 each was 43% of revenue. The new 3nm node reached 15% of wafer revenue, and 7nm-and-below nodes were 67% in total.",
+      "title": "AI chips caught up with phones"
+    },
+    {
+      "stat": "53.0%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin was 53.0% \u2014 down 1.3 points from the third quarter and 9.2 points from a year ago as the 3nm ramp diluted margins \u2014 and operating margin was 41.6%. Net income of NT$238.71B fell 19.3% from a year ago but rose 13.1% from the third quarter.",
+      "title": "Margins dipped on the 3nm ramp"
+    },
+    {
+      "stat": "$18.0\u201318.8B",
+      "statColor": "#5b6b7c",
+      "text": "Management guided first-quarter 2024 revenue to $18.0\u201318.8B with a gross margin of 52\u201354% and an operating margin of 40\u201342%. TSMC ended the quarter with NT$1,687.65B (about $55B) of cash and marketable securities; fourth-quarter capital spending was $5.24B.",
+      "title": "A seasonally softer Q1 guided"
+    }
+  ],
+  "ticker": "TSM",
+  "verdict": "TSMC's revenue was NT$625.53B ($19.6B) \u2014 flat from a year ago but up 14% from the third quarter \u2014 as the 3nm ramp lifted AI chips and smartphones to 43% of sales each, and it kept NT$238.71B ($7.5B) as profit despite the new node's margin drag."
+}
