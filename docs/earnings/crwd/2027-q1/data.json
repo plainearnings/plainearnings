@@ -1,0 +1,143 @@
+{
+  "company": "CrowdStrike",
+  "flow": {
+    "costOfRevenueM": 342.277,
+    "grossProfitM": 1043.352,
+    "netIncomeM": 45.966,
+    "operatingIncomeM": -30.6,
+    "opex": [
+      {
+        "amountM": 488.674,
+        "name": "Sales and marketing",
+        "note": "Selling Falcon to enterprises \u2014 the biggest running cost."
+      },
+      {
+        "amountM": 408.326,
+        "name": "Research and development",
+        "note": "Building the Falcon platform and its AI defenses."
+      },
+      {
+        "amountM": 176.952,
+        "name": "General and administrative",
+        "note": "Running the company day to day \u2014 includes $18.1M of costs tied to the July 19 Incident and related matters."
+      }
+    ],
+    "otherIncomeM": 69.663,
+    "revenueM": 1385.629,
+    "taxM": -6.903
+  },
+  "follow100": [
+    {
+      "amount": 95.33,
+      "label": "Subscription"
+    },
+    {
+      "amount": 4.67,
+      "label": "Professional services"
+    },
+    {
+      "amount": -24.7,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -35.27,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -29.47,
+      "label": "R&D"
+    },
+    {
+      "amount": -12.77,
+      "label": "G&A"
+    },
+    {
+      "amount": 5.03,
+      "label": "Other income"
+    },
+    {
+      "amount": 0.5,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 3.32,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "$46.0M net income is the consolidated total; $18.2M of it belonged to a non-controlling interest.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+26%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "attributable, diluted; vs $1.10 non-GAAP",
+      "value": "$0.11"
+    },
+    {
+      "label": "ARR",
+      "note": "+24% YoY; $256M net new ARR in Q1",
+      "value": "$5.51B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "in Q1 FY27",
+      "value": "$469M"
+    }
+  ],
+  "oneTimers": [
+    "Costs tied to the July 19 Incident and related matters were $18.1M in the quarter (mostly inside G&A), down from $39.7M a year ago.",
+    "Stock-based compensation and related payroll taxes were $317.6M \u2014 the main reason non-GAAP net income attributable to CrowdStrike ($283.4M) is about 10\u00d7 the GAAP attributable figure ($27.8M).",
+    "$18.2M of the quarter's $46.0M consolidated net income belonged to a non-controlling interest; net income attributable to CrowdStrike was $27.8M."
+  ],
+  "otherDetail": "Interest and other items netted +$69.7M: $40.5M of interest income and $35.2M of other income, net (including $36.4M of gains on strategic investments), less $6.1M of interest expense.",
+  "periodEnd": "2026-04-30",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "reportedDate": "2026-06-03",
+  "revenueYoY": "+26%",
+  "segments": [
+    {
+      "amountM": 1320.853,
+      "name": "Subscription",
+      "note": "The Falcon security platform, sold by subscription \u2014 95% of all revenue.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 64.776,
+      "name": "Professional services",
+      "note": "Security experts for hire \u2014 incident response and setup help.",
+      "yoy": "+23%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000022/crwd-20260603xex991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "text": "Annual recurring revenue grew 24% to $5.51B, with $255.8M of net new ARR added in the quarter \u2014 demand for the Falcon platform stayed strong.",
+      "title": "ARR keeps compounding"
+    },
+    {
+      "stat": "-$31M",
+      "statColor": "#b8443c",
+      "text": "The operating loss narrowed to $30.6M from $118.7M a year ago; interest and investment gains of $69.7M, plus a $6.9M tax benefit, turned the quarter profitable overall.",
+      "title": "Operating loss shrank fast"
+    },
+    {
+      "stat": "$469M",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $468.5M on $590.9M of operating cash flow \u2014 CrowdStrike's cash generation is far stronger than its GAAP profit suggests.",
+      "title": "Cash flow tells another story"
+    }
+  ],
+  "ticker": "CRWD",
+  "verdict": "CrowdStrike grew revenue 26% to $1.39B and cut its operating loss to $31M; investment gains and a tax benefit turned that into a $46M net profit."
+}

@@ -1,0 +1,153 @@
+{
+  "company": "Texas Instruments",
+  "flow": {
+    "costOfRevenueM": 2111,
+    "grossProfitM": 3352,
+    "netIncomeM": 1980,
+    "operatingIncomeM": 2310,
+    "opex": [
+      {
+        "amountM": 535,
+        "name": "Research and development",
+        "note": "R&D \u2014 designing new analog and embedded chips; up from $527M a year ago, growing far slower than revenue."
+      },
+      {
+        "amountM": 490,
+        "name": "Selling, general and administrative",
+        "note": "Sales, marketing and the back office (SG&A); up from $485M a year ago."
+      },
+      {
+        "amountM": 17,
+        "name": "Acquisition charges",
+        "note": "Charges tied to acquisitions."
+      }
+    ],
+    "otherIncomeM": -72,
+    "revenueM": 5463,
+    "taxM": 258
+  },
+  "follow100": [
+    {
+      "amount": 79.9,
+      "label": "Analog"
+    },
+    {
+      "amount": 14.42,
+      "label": "Embedded Processing"
+    },
+    {
+      "amount": 5.67,
+      "label": "Other"
+    },
+    {
+      "amount": -38.64,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -9.79,
+      "label": "R&D"
+    },
+    {
+      "amount": -8.97,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.31,
+      "label": "Acquisition charges"
+    },
+    {
+      "amount": -1.32,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.72,
+      "label": "Tax"
+    },
+    {
+      "amount": 36.24,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a cent above the $36.24 kept as profit.",
+  "footerNote": "Segment operating profit: Analog $1,992M, Embedded Processing $168M, Other $150M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+23%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.41 a year ago",
+      "value": "$2.14"
+    },
+    {
+      "label": "Analog revenue",
+      "note": "+26% YoY, 80% of revenue",
+      "value": "$4.4B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "in Q2, incl. $549M of CHIPS Act incentive proceeds",
+      "value": "$2,738M"
+    }
+  ],
+  "oneTimers": [
+    "Earnings per share included a 5-cent benefit that was not in the company's original guidance, as stated in the release.",
+    "Free cash flow of $2,738M includes $549M of CHIPS Act incentive proceeds received in the quarter; a further $301M of CHIPS investment tax credits was used to reduce income taxes payable."
+  ],
+  "otherDetail": "Other income (expense), net was $69M, less $141M of interest and debt expense \u2014 a net $72M expense outside operations.",
+  "periodEnd": "2026-06-30",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "reportedDate": "2026-07-22",
+  "revenueYoY": "+23%",
+  "segments": [
+    {
+      "amountM": 4365,
+      "name": "Analog",
+      "note": "Analog chips \u2014 sensing and power products used in nearly every electronic device; growth led by industrial, data center and automotive.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 788,
+      "name": "Embedded Processing",
+      "note": "Processors that sit inside cars, appliances and factory equipment.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 310,
+      "name": "Other",
+      "note": "DLP products, calculators and custom chips.",
+      "yoy": "-2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000148/q22026txnex99-eredgar.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "text": "Analog revenue rose 26% to $4.37B with broad growth led by industrial, data center and automotive demand \u2014 TI's biggest business did the heavy lifting.",
+      "title": "Analog is driving the quarter"
+    },
+    {
+      "stat": "61.4%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin reached 61.4% (from 57.9% a year ago) as revenue grew 23% while R&D and SG&A barely rose \u2014 operating profit jumped 48%.",
+      "title": "Margins expanded sharply"
+    },
+    {
+      "stat": "$1,322M",
+      "statColor": "#3e8e5a",
+      "text": "TI returned $1,322M to owners in the quarter \u2014 $1,295M of dividends and $27M of buybacks; trailing-12-month free cash flow was $6.5B.",
+      "title": "Cash returned to owners"
+    }
+  ],
+  "ticker": "TXN",
+  "verdict": "Texas Instruments' revenue rose 23% to $5.46B as Analog sales surged 26%, and flat running costs turned that growth into a 53% jump in net income to $1.98B."
+}

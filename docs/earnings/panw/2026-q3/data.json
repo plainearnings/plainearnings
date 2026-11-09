@@ -1,0 +1,143 @@
+{
+  "company": "Palo Alto Networks",
+  "flow": {
+    "costOfRevenueM": 974,
+    "grossProfitM": 2028,
+    "netIncomeM": -177,
+    "operatingIncomeM": -183,
+    "opex": [
+      {
+        "amountM": 734,
+        "name": "Research and development",
+        "note": "Building the security platforms \u2014 swollen by the teams that came with CyberArk and Chronosphere."
+      },
+      {
+        "amountM": 1161,
+        "name": "Sales and marketing",
+        "note": "Selling security platforms to enterprises \u2014 the largest running cost."
+      },
+      {
+        "amountM": 316,
+        "name": "General and administrative",
+        "note": "Running the company day to day \u2014 nearly double a year ago on CyberArk and Chronosphere deal and integration costs."
+      }
+    ],
+    "otherIncomeM": 27,
+    "revenueM": 3002,
+    "taxM": 21
+  },
+  "follow100": [
+    {
+      "amount": 80.21,
+      "label": "Subscription & support"
+    },
+    {
+      "amount": 19.79,
+      "label": "Product"
+    },
+    {
+      "amount": -32.45,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -24.45,
+      "label": "R&D"
+    },
+    {
+      "amount": -38.67,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -10.53,
+      "label": "G&A"
+    },
+    {
+      "amount": 0.9,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.7,
+      "label": "Tax"
+    },
+    {
+      "amount": -5.9,
+      "label": "Net loss"
+    }
+  ],
+  "follow100Note": "Costs ran to $105.90 per $100 of revenue \u2014 the extra is the loss, covered by cash the company already had.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago; includes $388M from CyberArk and Chronosphere",
+      "value": "+31%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.85 non-GAAP",
+      "value": "-$0.22"
+    },
+    {
+      "label": "Next-Gen Security ARR",
+      "note": "+60% YoY",
+      "value": "$8.1B"
+    },
+    {
+      "label": "Adj. free cash flow",
+      "note": "in the quarter; operating cash flow was $871M",
+      "value": "$910M"
+    }
+  ],
+  "oneTimers": [
+    "Share-based compensation was $517M, acquisition-related costs $198M and amortization of acquired intangible assets $280M \u2014 together they are the entire gap between the $177M GAAP net loss and $684M of non-GAAP net income.",
+    "Acquisitions did heavy lifting: CyberArk and Chronosphere contributed $388M of the quarter's revenue, $1.6B of Next-Generation Security ARR and $1.8B of remaining performance obligations.",
+    "Excluding one-offs and stock pay, Palo Alto earned $684M (non-GAAP) \u2014 the underlying business was profitable even as GAAP showed a loss."
+  ],
+  "otherDetail": "Other income, net of $27M, with no interest expense in the quarter.",
+  "periodEnd": "2026-04-30",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-06-02",
+  "revenueYoY": "+31%",
+  "segments": [
+    {
+      "amountM": 2408,
+      "name": "Subscription & support",
+      "note": "Security subscriptions and support \u2014 the recurring core of the business, now including CyberArk identity security.",
+      "yoy": "+31%"
+    },
+    {
+      "amountM": 594,
+      "name": "Product",
+      "note": "Firewalls and other security appliances.",
+      "yoy": "+31%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/ex991q326earningsrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue grew 31% to $3.0B \u2014 but $388M of it came from the newly acquired CyberArk and Chronosphere, so organic growth was slower than the headline.",
+      "title": "Growth, much of it bought"
+    },
+    {
+      "stat": "+60%",
+      "statColor": "#3d7bc8",
+      "text": "Next-Generation Security ARR grew 60% to $8.1B (including $1.6B from the acquisitions), and remaining performance obligations rose 36% to $18.4B.",
+      "title": "The platform bet is working"
+    },
+    {
+      "stat": "-$177M",
+      "statColor": "#b8443c",
+      "text": "GAAP showed a $177M loss, driven by $517M of stock pay and $478M of acquisition costs and amortization. Operating cash flow was $871M in the same quarter \u2014 the loss consumed no cash.",
+      "title": "A paper loss, not a cash loss"
+    }
+  ],
+  "ticker": "PANW",
+  "verdict": "Palo Alto Networks grew revenue 31% to $3.0B with help from CyberArk, but $995M of stock pay and deal costs flipped the quarter to a $177M GAAP loss."
+}

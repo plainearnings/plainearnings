@@ -1,0 +1,144 @@
+{
+  "company": "Marvell Technology",
+  "flow": {
+    "costOfRevenueM": 1157.0,
+    "grossProfitM": 1260.8,
+    "netIncomeM": 34.5,
+    "operatingIncomeM": 339.4,
+    "opex": [
+      {
+        "amountM": 652.3,
+        "name": "Research and development",
+        "note": "Designing new data-infrastructure chips and platforms; up 28% YoY, including teams from the Celestial AI and XConn acquisitions."
+      },
+      {
+        "amountM": 258.4,
+        "name": "Selling, general and administrative",
+        "note": "Selling the chips and running the company; up 39% YoY."
+      },
+      {
+        "amountM": 10.7,
+        "name": "Restructuring related charges (gains), net",
+        "note": "Restructuring charges this quarter \u2014 severance and facility-exit costs, net of gains \u2014 versus a net gain a year ago."
+      }
+    ],
+    "otherIncomeM": -256.1,
+    "revenueM": 2417.8,
+    "taxM": 48.8
+  },
+  "follow100": [
+    {
+      "amount": 75.8,
+      "label": "Data center"
+    },
+    {
+      "amount": 24.2,
+      "label": "Communications and other"
+    },
+    {
+      "amount": -47.85,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -26.98,
+      "label": "R&D"
+    },
+    {
+      "amount": -10.69,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.44,
+      "label": "Restructuring charges"
+    },
+    {
+      "amount": -10.59,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.02,
+      "label": "Tax"
+    },
+    {
+      "amount": 1.43,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Marvell kept only $1.43 of every $100 this quarter \u2014 a $331.8M paper charge on the Celestial AI deal price, plus heavy stock pay and acquisition amortization, ate most of the operating profit.",
+  "footerNote": "Marvell guided Q2 FY27 revenue to $2.7B \u00b15% and raised its FY27 and FY28 revenue outlook on AI bookings.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+28%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.80 non-GAAP; $0.20 a year ago",
+      "value": "$0.04"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "+27% YoY, 76% of revenue",
+      "value": "$1.83B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "$639M operating cash flow \u2212 $156M capex",
+      "value": "$483M"
+    }
+  ],
+  "oneTimers": [
+    "Inside the $203.3M other expense, net: the fair value of the contingent consideration owed for Celestial AI rose $331.8M \u2014 a non-cash charge \u2014 partly offset by an $81.1M unrealized gain on a forward stock purchase contract. Both are excluded from non-GAAP results.",
+    "GAAP profit is far below non-GAAP profit ($34.5M vs $718.0M) mainly because GAAP includes $207.6M of stock-based compensation and $225.2M of amortization of acquired intangible assets, both excluded from non-GAAP.",
+    "Marvell closed two acquisitions in the quarter \u2014 Celestial AI on February 2, 2026 and XConn on February 10, 2026 \u2014 and their results are included from those dates."
+  ],
+  "otherDetail": "Interest expense of $52.8M plus other expense, net of $203.3M \u2014 a net $256.1M non-operating loss. Inside it, a $331.8M rise in the fair value of the Celestial acquisition contingent consideration was partly offset by an $81.1M gain on a forward stock purchase contract.",
+  "periodEnd": "2026-05-02",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "reportedDate": "2026-05-27",
+  "revenueYoY": "+28%",
+  "segments": [
+    {
+      "amountM": 1832.7,
+      "name": "Data center",
+      "note": "Chips for AI data centers \u2014 custom silicon, 800G/1.6T optics and Ethernet switches; a record quarter, 76% of all revenue.",
+      "yoy": "+27%"
+    },
+    {
+      "amountM": 585.1,
+      "name": "Communications and other",
+      "note": "Carrier, enterprise networking, automotive and industrial markets.",
+      "yoy": "+29%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/q127_8kx522026ex-991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+27%",
+      "statColor": "#3d7bc8",
+      "text": "Data Center revenue hit a record $1.83B \u2014 76% of the company \u2014 on AI demand for custom XPU silicon, optics and scale-out switches.",
+      "title": "Data Center set the record"
+    },
+    {
+      "stat": "$0.04 vs $0.80",
+      "statColor": "#b8443c",
+      "text": "GAAP EPS was just 4 cents against 80 cents non-GAAP: a $331.8M Celestial deal fair-value charge, $207.6M of stock pay and $225.2M of acquisition amortization sit in the GAAP column only.",
+      "title": "Two very different profits"
+    },
+    {
+      "stat": "$639M",
+      "statColor": "#3e8e5a",
+      "text": "Operating cash flow was a record $638.8M \u2014 the business generated plenty of cash even though GAAP profit was only $34.5M.",
+      "title": "Record operating cash flow"
+    }
+  ],
+  "ticker": "MRVL",
+  "verdict": "Marvell set a revenue record at $2.42B, up 28% on AI data-center demand, but a $331.8M paper charge tied to the Celestial AI deal left GAAP profit at just $34.5M."
+}

@@ -1,0 +1,157 @@
+{
+  "company": "Qualcomm",
+  "flow": {
+    "costOfRevenueM": 4670,
+    "grossProfitM": 5277,
+    "netIncomeM": 2002,
+    "operatingIncomeM": 1626,
+    "opex": [
+      {
+        "amountM": 2607,
+        "name": "Research and development",
+        "note": "Building chips, modems and AI platforms; up 17% YoY."
+      },
+      {
+        "amountM": 976,
+        "name": "Selling, general and administrative",
+        "note": "Selling, legal costs and running the company; up 27% YoY."
+      },
+      {
+        "amountM": 68,
+        "name": "Other",
+        "note": "Restructuring and restructuring-related charges of $68M \u2014 substantially severance costs (10-Q); a one-time cost Qualcomm excludes from its non-GAAP results."
+      }
+    ],
+    "otherIncomeM": 836,
+    "revenueM": 9947,
+    "taxM": 460
+  },
+  "follow100": [
+    {
+      "amount": 85.49,
+      "label": "QCT"
+    },
+    {
+      "amount": 12.85,
+      "label": "QTL"
+    },
+    {
+      "amount": 1.66,
+      "label": "Other and reconciling items"
+    },
+    {
+      "amount": -46.95,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -26.21,
+      "label": "R&D"
+    },
+    {
+      "amount": -9.81,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.68,
+      "label": "Other"
+    },
+    {
+      "amount": 8.4,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.62,
+      "label": "Tax"
+    },
+    {
+      "amount": 20.13,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Gross profit = revenues less cost of revenues. Qualcomm guided Q4 FY26 revenue to $9.7B\u2013$10.5B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "-4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.43 a year ago",
+      "value": "$1.87"
+    },
+    {
+      "label": "Automotive revenue",
+      "note": "+61% YoY, a record",
+      "value": "$1.6B"
+    },
+    {
+      "label": "Cash returned",
+      "note": "$1.4B buybacks + $973M dividends in Q3",
+      "value": "$2.3B"
+    }
+  ],
+  "oneTimers": [
+    "The $68M 'Other' operating-expense line is restructuring and restructuring-related charges, substantially severance (10-Q) \u2014 excluded from non-GAAP results.",
+    "Most of the $1,014M investment and other income was paper gains: $726M of net gains on marketable securities and $149M on deferred-compensation plan assets (10-Q), plus $771M attributable to the QSI strategic-investment segment in Qualcomm's non-GAAP bridge.",
+    "Qualcomm flagged broad input-cost inflation \u2014 wafers, assembly, test, packaging and memory \u2014 and said pricing actions to offset it should benefit gross margins over time."
+  ],
+  "otherDetail": "Investment and other income, net of $1,014M, less $178M of interest expense \u2014 a net $836M non-operating gain. The investment income was mostly gains on marketable securities and deferred-compensation plan assets.",
+  "periodEnd": "2026-06-28",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-07-29",
+  "revenueYoY": "-4%",
+  "segments": [
+    {
+      "amountM": 8504,
+      "name": "QCT",
+      "note": "The chip business. Inside it: Handsets $5,086M (\u221220% YoY), Automotive $1,588M (+61%), IoT $1,830M (+9%).",
+      "yoy": "-5%"
+    },
+    {
+      "amountM": 1278,
+      "name": "QTL",
+      "note": "Licensing phone makers to use Qualcomm's patents \u2014 very high margin (69% pre-tax).",
+      "yoy": "-3%"
+    },
+    {
+      "amountM": 165,
+      "name": "Other and reconciling items",
+      "note": "QSI strategic investments and corporate items not in QCT or QTL; the difference between segment revenue and the reported total.",
+      "yoy": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom062826erex991.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Jun 28, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-20%",
+      "statColor": "#b8443c",
+      "text": "Handset chip revenue fell to $5.09B as phone demand softened \u2014 the whole reason total revenue slipped 4% despite growth everywhere else.",
+      "title": "Handsets dragged"
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#3d7bc8",
+      "text": "Automotive chip revenue set another record at $1.59B and IoT grew 9% to $1.83B \u2014 Qualcomm's diversification beyond phones is working.",
+      "title": "Cars keep climbing"
+    },
+    {
+      "stat": "$1,014M",
+      "statColor": "#3e8e5a",
+      "text": "Investment and other income of $1,014M \u2014 mostly securities gains \u2014 is why net income held at $2.0B even though operating income fell to $1.63B from $2.76B a year ago.",
+      "title": "Investments padded profit"
+    }
+  ],
+  "ticker": "QCOM",
+  "verdict": "Qualcomm's revenue slipped 4% to $9.9B as handset chips fell 20%, but record automotive sales and $1.0B of investment gains kept profit at $2.0B."
+}
