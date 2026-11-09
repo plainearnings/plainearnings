@@ -1,0 +1,167 @@
+{
+  "ticker": "MU",
+  "company": "Micron",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2023-11-30",
+  "reportedDate": "2023-12-20",
+  "revenueYoY": "+16%",
+  "verdict": "Micron's revenue rose 16% in a year to $4.73B as the memory recovery began \u2014 but chip prices were still so low that making the quarter's chips cost more than they sold for, leaving a $1.23B net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$1.12",
+      "note": "diluted; non-GAAP was -$0.95"
+    },
+    {
+      "label": "Gross margin",
+      "value": "-0.7%",
+      "note": "vs 22% a year ago \u2014 prices still below cost"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "-$333M",
+      "note": "operating cash flow of $1.40B less $1.73B of net capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Compute and Networking",
+      "amountM": 1737,
+      "note": "Memory for PCs, servers, graphics and networking \u2014 an operating loss of $397M in the quarter (segment note)."
+    },
+    {
+      "name": "Mobile",
+      "amountM": 1293,
+      "note": "Memory and storage for smartphones \u2014 revenue nearly doubled in a year, but the unit still lost $687M, the weakest of the four."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 1037,
+      "note": "Chips for cars, factories and consumer devices \u2014 the only unit near break-even, with a $10M operating profit."
+    },
+    {
+      "name": "Storage",
+      "amountM": 653,
+      "note": "SSDs and storage components for data centers, PCs and consumers \u2014 an operating loss of $490M."
+    },
+    {
+      "name": "All other",
+      "amountM": 6,
+      "note": "Everything else \u2014 too small to be its own unit."
+    }
+  ],
+  "flow": {
+    "revenueM": 4726,
+    "costOfRevenueM": 4761,
+    "grossProfitM": -35,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 845,
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 263,
+        "note": "Sales teams and the cost of running the company."
+      }
+    ],
+    "operatingIncomeM": -1143,
+    "otherIncomeM": -12,
+    "equityM": -6,
+    "taxM": 73,
+    "netIncomeM": -1234
+  },
+  "follow100": [
+    {
+      "label": "Compute and Networking",
+      "amount": 36.75
+    },
+    {
+      "label": "Mobile",
+      "amount": 27.36
+    },
+    {
+      "label": "Embedded",
+      "amount": 21.94
+    },
+    {
+      "label": "Storage",
+      "amount": 13.82
+    },
+    {
+      "label": "All other",
+      "amount": 0.13
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -100.74
+    },
+    {
+      "label": "R&D",
+      "amount": -17.88
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.56
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.25
+    },
+    {
+      "label": "Equity-method loss",
+      "amount": -0.13
+    },
+    {
+      "label": "Tax",
+      "amount": -1.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -26.11
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Delivering the quarter's chips cost $100.74 for every $100 of revenue \u2014 the $605M inventory credit described below flattered even that figure.",
+  "takeaways": [
+    {
+      "stat": "-$35M",
+      "statColor": "#d96a57",
+      "title": "Chips sold below cost",
+      "text": "Gross margin was -$35M: it cost $4.76B to make $4.73B of memory. Buried in that figure is a $605M benefit from selling inventory written down in earlier quarters \u2014 without it, gross margin would have been about -$640M."
+    },
+    {
+      "stat": "+97%",
+      "statColor": "#3d7bc8",
+      "title": "Mobile snapped back first",
+      "text": "Mobile revenue rose 97% year-over-year to $1.29B on higher bit shipments as phone makers restocked. Compute and Networking was flat at $1.74B \u2014 the AI data-center wave had not reached Micron yet."
+    },
+    {
+      "stat": "$1.40B",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed positive",
+      "text": "Despite the $1.23B accounting loss, operations generated $1.40B of cash \u2014 depreciation alone was $1.92B. After $1.73B of net factory spending, adjusted free cash flow was -$333M."
+    }
+  ],
+  "oneTimers": [
+    "A $605M benefit inside cost of goods sold from selling inventory Micron had written down during the glut (it appears in the 'unallocated' line of the segment note). Without it, gross margin would have been about -$640M instead of -$35M."
+  ],
+  "otherDetail": "Interest income of $132M on Micron's cash pile exactly offset $132M of interest expense; other non-operating expense was $27M, partly offset by the $15M of other operating income described under the chart \u2014 and equity-method investments lost a further $6M: a net -$18M in this step.",
+  "footerNote": "Business units are shown as originally reported for fiscal 2024 \u2014 Compute and Networking, Mobile, Embedded, and Storage (Q1 FY24 Form 10-Q segment note; the unit operating figures in the notes are from that note) \u2014 because no SEC filing reports this quarter on the recast structure Micron adopted in fiscal 2026 (Cloud Memory, Core Data Center, Mobile and Client, Automotive and Embedded); on the recast basis Micron has filed only full-year FY24 unit revenue and the FQ4-24 quarter. Reported operating loss was $1,128M; Micron's $15M 'Other operating (income) expense, net' line was income this quarter, so the chart shows it in the other step rather than as a negative expense \u2014 chart operating loss is therefore $1,143M, with the net loss unchanged at $1,234M. Gross margin was negative, so there is no 'after direct costs' profit step: the slate 'Covered by cash on hand' block \u2014 the $1,234M net loss \u2014 is drawn paying the $35M direct-cost gap first, then the running costs, other expense and tax.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312523000071/a2024q1ex991-pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended November 30, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312523000077/mu-20231130.htm"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2023-10-31",
+  "reportedDate": "2023-11-29",
+  "revenueYoY": "+11%",
+  "verdict": "Salesforce grew revenue 11% to $8.72B and turned its cost-cutting year into real profit \u2014 net income jumped to $1.22B from $210M a year ago, with a 17.2% GAAP operating margin.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.25",
+      "note": "diluted \u2014 vs $0.21 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "17.2%",
+      "note": "GAAP; non-GAAP was 31.2%"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.22B",
+      "note": "vs $210M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 8141,
+      "yoy": "+13%",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Marketing and Commerce clouds, MuleSoft and Tableau."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 579,
+      "yoy": "-4%",
+      "note": "Consulting and training that help big customers roll the software out \u2014 a shrinking sideline whose direct costs ($584M) again exceeded its revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 8720,
+    "costOfRevenueM": 2155,
+    "grossProfitM": 6565,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1204,
+        "note": "Building the platform \u2014 including the Einstein AI push \u2014 down 6% YoY after the restructuring."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3173,
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine, down 5% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 632,
+        "note": "Running the company day to day \u2014 down 5% YoY."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 55,
+        "note": "Severance and office-exit charges from the January 2023 restructuring plan."
+      }
+    ],
+    "operatingIncomeM": 1501,
+    "otherIncomeM": -14,
+    "taxM": 263,
+    "netIncomeM": 1224
+  },
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 93.36
+    },
+    {
+      "label": "Professional services",
+      "amount": 6.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.71
+    },
+    {
+      "label": "R&D",
+      "amount": -13.81
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -36.39
+    },
+    {
+      "label": "G&A",
+      "amount": -7.25
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.63
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -0.16
+    },
+    {
+      "label": "Tax",
+      "amount": -3.02
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 14.04
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "17.2%",
+      "statColor": "#3e8e5a",
+      "title": "The margin plan worked",
+      "text": "GAAP operating margin reached 17.2%, up from 5.9% a year ago, as the January 2023 restructuring cut spending \u2014 research, sales and admin costs all fell in dollar terms even as revenue grew 11%."
+    },
+    {
+      "stat": "$1.53B",
+      "statColor": "#3d7bc8",
+      "title": "Cash poured in",
+      "text": "Operating cash flow was $1.53B, up 389% year-over-year, and free cash flow was $1.37B \u2014 the profit is turning into cash, not just accounting gains."
+    },
+    {
+      "stat": "$23.9B",
+      "statColor": "#5b6b7c",
+      "title": "The order book kept growing",
+      "text": "Current remaining performance obligation \u2014 work customers have contracted for but Salesforce has not yet billed as revenue \u2014 reached $23.9B, up 14% year-over-year."
+    }
+  ],
+  "oneTimers": [
+    "$55M of restructuring charges in the quarter from the January 2023 plan (workforce cuts and office exits); $815M was booked across the first nine months of FY24.",
+    "A $72M mark-down on strategic investments \u2014 stakes Salesforce holds in other companies \u2014 which cut GAAP EPS by about $0.06."
+  ],
+  "otherDetail": "A $72M loss on strategic investments (stakes Salesforce holds in other companies), partly offset by $58M of other income \u2014 mostly interest earned, net of interest on Salesforce's debt: a net -$14M.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000046/crm-q3fy24xexhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended October 31, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000048/crm-20231031.htm"
+    }
+  ]
+}

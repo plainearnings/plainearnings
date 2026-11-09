@@ -1,0 +1,170 @@
+{
+  "ticker": "HOOD",
+  "company": "Robinhood",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-02-13",
+  "revenueYoY": "+24%",
+  "verdict": "Robinhood swung back into profit in Q4 2023 \u2014 $30M of net income on $471M of revenue \u2014 as high interest rates lifted net interest revenue 41% and crypto trading recovered.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$471M",
+      "note": "+24% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$0.03",
+      "note": "vs -$0.19 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$30M",
+      "note": "vs a $166M loss a year ago"
+    },
+    {
+      "label": "Net deposits",
+      "value": "$4.6B",
+      "note": "a 21% annualized growth rate"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction-based revenues",
+      "amountM": 200,
+      "yoy": "+8%",
+      "note": "Fees from customers' trades \u2014 crypto $43M, options $121M, equities $25M and $11M of other trading fees. Crypto rose 10% as digital-asset markets recovered."
+    },
+    {
+      "name": "Net interest revenues",
+      "amountM": 236,
+      "yoy": "+41%",
+      "note": "Interest on customers' cash and margin loans, plus securities lending, less interest paid on customer balances \u2014 up on bigger balances and higher short-term interest rates."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 35,
+      "yoy": "+30%",
+      "note": "Mostly Robinhood Gold subscriptions \u2014 1.42M subscribers, up 25% \u2014 plus Sherwood Media."
+    }
+  ],
+  "flow": {
+    "revenueM": 471,
+    "costOfRevenueM": 32,
+    "grossProfitM": 439,
+    "opex": [
+      {
+        "name": "Technology and development",
+        "amountM": 197,
+        "note": "Engineers and the platform \u2014 up 9%."
+      },
+      {
+        "name": "Operations",
+        "amountM": 26,
+        "note": "Customer support and running the service."
+      },
+      {
+        "name": "Provision for credit losses",
+        "amountM": 14,
+        "note": "Money set aside for customer loans that may not be repaid."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 43,
+        "note": "Advertising and promotions to win new customers \u2014 up 48%."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 133,
+        "note": "Legal, finance and head office \u2014 down 32% as one-off costs faded."
+      }
+    ],
+    "operatingIncomeM": 26,
+    "otherIncomeM": 3,
+    "taxM": -1,
+    "netIncomeM": 30
+  },
+  "follow100": [
+    {
+      "label": "Transaction-based revenues",
+      "amount": 42.46
+    },
+    {
+      "label": "Net interest revenues",
+      "amount": 50.11
+    },
+    {
+      "label": "Other revenues",
+      "amount": 7.43
+    },
+    {
+      "label": "Brokerage and transaction",
+      "amount": -6.79
+    },
+    {
+      "label": "Technology and development",
+      "amount": -41.83
+    },
+    {
+      "label": "Operations",
+      "amount": -5.52
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": -2.97
+    },
+    {
+      "label": "Marketing",
+      "amount": -9.13
+    },
+    {
+      "label": "General & administrative",
+      "amount": -28.24
+    },
+    {
+      "label": "Other income",
+      "amount": 0.64
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.37
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+41%",
+      "statColor": "#3d7bc8",
+      "title": "Interest became the biggest line",
+      "text": "Net interest revenues rose 41% year-over-year to $236M \u2014 more than trading fees \u2014 driven by growth in interest-earning assets and higher short-term interest rates."
+    },
+    {
+      "stat": "$30M",
+      "statColor": "#3e8e5a",
+      "title": "Back in the black",
+      "text": "Net income was $30M versus a $166M loss a year ago. Total operating expenses fell 17% to $445M, and the tax line was a $1M benefit, so profit came out slightly above the $29M pre-tax figure."
+    },
+    {
+      "stat": "$102.6B",
+      "statColor": "#5b6b7c",
+      "title": "Customer assets jumped 65%",
+      "text": "Assets under custody rose 65% year-over-year to $102.6B on $4.6B of net deposits and higher market values. Gold subscribers rose 25% to 1.42M and funded customers reached 23.4M."
+    }
+  ],
+  "otherDetail": "Other income, net was $3M \u2014 small next to the main business. Income tax was a $1M benefit rather than a bill, which is why net income ($30M) sits slightly above pre-tax income ($29M).",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Expense lines are as re-presented in Robinhood's Q4 2024 earnings release, which splits the original $40M operations line into Operations ($26M) and Provision for credit losses ($14M).",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387924000047/q42023robinhoodexhibit991.htm"
+    },
+    {
+      "label": "Q4 2024 earnings release \u2014 re-presented 2023 comparatives (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000045/q42024robinhoodexhibit991.htm"
+    }
+  ]
+}

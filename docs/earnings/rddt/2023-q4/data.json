@@ -1,0 +1,144 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-02-22",
+  "revenueYoY": "+25%",
+  "verdict": "Still a private company weeks before its IPO filing, Reddit posted a rare profit in Q4 2023 \u2014 $19M of net income on $250M of revenue \u2014 as advertising grew and running costs barely moved.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+25%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$18.5M",
+      "note": "vs a $22.2M loss a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$23.2M",
+      "note": "vs -$11.1M a year ago"
+    },
+    {
+      "label": "Daily users (DAUq)",
+      "value": "73.1M",
+      "note": "average daily active uniques in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 246.848,
+      "note": "Ads shown across Reddit's communities \u2014 99% of all revenue this quarter."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 2.902,
+      "note": "Mostly Reddit Premium subscriptions and other small streams \u2014 the data-licensing business only took off in 2024."
+    }
+  ],
+  "flow": {
+    "revenueM": 249.75,
+    "costOfRevenueM": 28.917,
+    "grossProfitM": 220.833,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 111.568,
+        "note": "Engineers building the product and the ad platform \u2014 the biggest cost line, including stock-based pay."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 57.925,
+        "note": "Selling ads to brands and marketing Reddit itself."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 48.325,
+        "note": "Running the company \u2014 finance, legal and admin, including stock-based pay."
+      }
+    ],
+    "operatingIncomeM": 3.015,
+    "otherIncomeM": 16.461,
+    "taxM": 0.942,
+    "netIncomeM": 18.534
+  },
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 98.84
+    },
+    {
+      "label": "Other revenue",
+      "amount": 1.16
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -11.58
+    },
+    {
+      "label": "R&D",
+      "amount": -44.67
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -23.19
+    },
+    {
+      "label": "G&A",
+      "amount": -19.35
+    },
+    {
+      "label": "Other income",
+      "amount": 6.59
+    },
+    {
+      "label": "Tax",
+      "amount": -0.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.42
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "title": "Ads carried the quarter",
+      "text": "Revenue rose 25% year-over-year to $250M, and $247M of it was advertising. Gross margin was 88% \u2014 Reddit's content is written by its users, so serving it is cheap."
+    },
+    {
+      "stat": "$18.5M",
+      "statColor": "#3e8e5a",
+      "title": "A rare profit",
+      "text": "Net income of $18.5M was Reddit's first profitable quarter since Q4 2021. The operating profit was a slim $3M \u2014 $16.5M of interest and other income did most of the work."
+    },
+    {
+      "stat": "73.1M",
+      "statColor": "#5b6b7c",
+      "title": "The audience kept growing",
+      "text": "Daily active uniques averaged 73.1M in the quarter. Weeks later, on February 22, 2024, Reddit filed its IPO prospectus \u2014 the document these figures come from \u2014 and listed on the NYSE that March."
+    }
+  ],
+  "otherDetail": "Other income of $16.5M, net \u2014 $15.3M of interest income, net, earned on Reddit's cash and marketable securities, plus $1.1M of other income. It is what turned a $3.0M operating profit into a $19.5M pre-tax profit.",
+  "footerNote": "Reddit was a private company in Q4 2023, so there was no earnings release. Figures are from the unaudited quarterly results table in Reddit's IPO prospectus (Form S-1, filed February 22, 2024), which reports in thousands; the advertising/other revenue split is full-year 2023 (FY2024 Form 10-K) less the nine months to September 2023 (Q3 2024 Form 10-Q). The 'Reported' date above is the S-1 filing date \u2014 the first public disclosure of these results.",
+  "sources": [
+    {
+      "label": "IPO prospectus \u2014 Form S-1 quarterly results (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000162828024006294/reddits-1q423.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000102/rddt-20240930.htm"
+    }
+  ]
+}

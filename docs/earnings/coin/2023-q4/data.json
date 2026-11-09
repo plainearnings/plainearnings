@@ -1,0 +1,167 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-02-15",
+  "revenueYoY": "+52%",
+  "verdict": "Coinbase closed 2023 with its most profitable quarter of the year \u2014 $273M of net income \u2014 as the crypto rally lifted transaction revenue 83% from Q3, and a $121M tax-allowance release flattered the bottom line.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+52%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.04",
+      "note": "diluted \u2014 vs a $2.46 loss a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$305M",
+      "note": "32% of revenue"
+    },
+    {
+      "label": "$USD resources",
+      "value": "$5.7B",
+      "note": "cash, USDC and investments at year end"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 529.268,
+      "yoy": "+64%",
+      "note": "Fees from crypto trading \u2014 consumer $493M, institutional $37M. Revenue jumped 83% from Q3 as crypto prices and volatility rose into year-end."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 375.37,
+      "yoy": "+33%",
+      "note": "Steadier income: stablecoin revenue $172M, blockchain rewards $95M, interest income $43M, custodial fees $20M and other services $46M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 49.157,
+      "yoy": "+103%",
+      "note": "Interest earned on Coinbase's own corporate cash."
+    }
+  ],
+  "flow": {
+    "revenueM": 953.795,
+    "costOfRevenueM": 125.559,
+    "grossProfitM": 828.236,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 323.087,
+        "note": "Building the platform \u2014 engineering and product, including $100M of stock-based pay."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 280.929,
+        "note": "Running the company \u2014 legal, compliance and the back office. Includes a $15M legal settlement and higher year-end bonus accruals."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 106.305,
+        "note": "Advertising \u2014 including seasonal NBA sponsorship \u2014 USDC rewards and winning customers. Up 36% from Q3."
+      },
+      {
+        "name": "Other operating expense, net",
+        "amountM": 54.066,
+        "note": "A net bucket of smaller operating costs and charges Coinbase reports as a single line."
+      }
+    ],
+    "operatingIncomeM": 63.849,
+    "otherIncomeM": 69.004,
+    "taxM": -140.584,
+    "netIncomeM": 273.437
+  },
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 55.49
+    },
+    {
+      "label": "Subscriptions & services",
+      "amount": 39.36
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.15
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.16
+    },
+    {
+      "label": "Technology & development",
+      "amount": -33.87
+    },
+    {
+      "label": "G&A",
+      "amount": -29.45
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.15
+    },
+    {
+      "label": "Other operating expense, net",
+      "amount": -5.67
+    },
+    {
+      "label": "Other income",
+      "amount": 7.23
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 14.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.67
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, the tax line added $14.74 back \u2014 mostly a one-time release of the tax valuation allowance \u2014 which is a big part of why $28.67 was kept as profit. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+83%",
+      "statColor": "#3d7bc8",
+      "title": "Trading roared back",
+      "text": "Transaction revenue jumped 83% from the third quarter to $529M as crypto prices and volatility climbed into year-end. Consumer trading supplied $493M of it; institutions $37M."
+    },
+    {
+      "stat": "$375M",
+      "statColor": "#3e8e5a",
+      "title": "The steadier business kept growing",
+      "text": "Subscription and services revenue reached $375M \u2014 39% of the total \u2014 led by $172M of stablecoin revenue and $95M of blockchain rewards. It is the cushion that keeps Coinbase profitable when trading cools."
+    },
+    {
+      "stat": "$141M",
+      "statColor": "#5b6b7c",
+      "title": "A tax benefit padded the profit",
+      "text": "The tax line was a $141M benefit, $121M of it a non-cash release of the valuation allowance Coinbase had held against its deferred tax assets. That is why net income of $273M is more than double the $133M pre-tax profit."
+    }
+  ],
+  "oneTimers": [
+    "A $121M non-cash income-tax benefit from releasing part of Coinbase's valuation allowance against its deferred tax assets \u2014 the main reason the quarter's $141M tax benefit is so large.",
+    "An $18M gain on buying back Coinbase's own debt below face value, inside other income.",
+    "$15M of legal settlement costs inside general & administrative expense."
+  ],
+  "otherDetail": "A $52M net gain on crypto Coinbase holds for operations \u2014 price recoveries on coins previously written down, net of new impairments \u2014 is shown in this step rather than inside operating expenses, alongside $36M of other income (including an $18M gain on repurchasing its own debt) less $19M of interest expense: a net +$69M.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. Coinbase also reports a $52M net crypto-asset impairment gain inside operating expenses; the chart shows that gain in the other-income step instead, so chart operating profit is $64M rather than the reported $116M \u2014 net income is unchanged at $273M. Figures are from Coinbase's Q4 2023 shareholder letter (Exhibit 99.1) and Form 10-K.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Q4 2023 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000019/shareholderletterq42023.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000022/coin-20231231.htm"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "ticker": "APP",
+  "company": "AppLovin",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-02-14",
+  "revenueYoY": "+36%",
+  "verdict": "AppLovin's advertising platform nearly doubled in a year \u2014 software revenue rose 88% to $576M \u2014 powering a $172M profit on $953M of total revenue, even as its own game apps shrank.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$476M",
+      "note": "50% of revenue"
+    },
+    {
+      "label": "Software Platform revenue",
+      "value": "$576M",
+      "note": "+88% YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$172M",
+      "note": "for the whole company, apps included"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Software Platform",
+      "amountM": 576.489,
+      "yoy": "+88%",
+      "note": "Fees from advertisers using AppLovin's AXON ad platform, MAX mediation and Adjust measurement \u2014 the business AppLovin kept."
+    },
+    {
+      "name": "Apps",
+      "amountM": 376.772,
+      "yoy": "-5%",
+      "note": "In-app purchases and ads inside AppLovin's own mobile games \u2014 the business it sold to Tripledot in June 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 953.261,
+    "costOfRevenueM": 273.607,
+    "grossProfitM": 679.654,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 150.823,
+        "note": "Product and engineering for the platform and the game studios."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 222.963,
+        "note": "Buying players for the apps, plus selling the platform to advertisers \u2014 the biggest running cost in the old two-business model."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 36.354,
+        "note": "Running the company \u2014 finance, legal and head office."
+      }
+    ],
+    "operatingIncomeM": 269.514,
+    "otherIncomeM": -90.618,
+    "taxM": 6.663,
+    "netIncomeM": 172.233
+  },
+  "follow100": [
+    {
+      "label": "Software Platform",
+      "amount": 60.48
+    },
+    {
+      "label": "Apps",
+      "amount": 39.52
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.7
+    },
+    {
+      "label": "R&D",
+      "amount": -15.82
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -23.39
+    },
+    {
+      "label": "G&A",
+      "amount": -3.81
+    },
+    {
+      "label": "Other expense, net",
+      "amount": -9.51
+    },
+    {
+      "label": "Tax",
+      "amount": -0.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.07
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Interest on AppLovin's debt \u2014 $9.51 of every $100 \u2014 sits in 'Other expense, net' below the operating line.",
+  "takeaways": [
+    {
+      "stat": "+88%",
+      "statColor": "#3e8e5a",
+      "title": "The AXON engine took off",
+      "text": "Software Platform revenue rose 88% year-over-year to $576M as the AXON AI ad engine won bigger advertiser budgets. The platform passed the apps business to become 60% of all revenue."
+    },
+    {
+      "stat": "$476M",
+      "statColor": "#3d7bc8",
+      "title": "Half of revenue became EBITDA",
+      "text": "Adjusted EBITDA was $476M \u2014 50 cents of every revenue dollar \u2014 up 83% from $260M a year ago. GAAP profit was $172M after $91M of net interest and other costs and a small tax bill."
+    },
+    {
+      "stat": "-5%",
+      "statColor": "#d96a57",
+      "title": "The apps were already fading",
+      "text": "Apps revenue slipped 5% to $377M. AppLovin was steering the company toward the software platform \u2014 in June 2025 it sold the apps business to Tripledot Studios."
+    }
+  ],
+  "otherDetail": "Interest expense and loss on settlement of debt of $72M \u2014 the bill on AppLovin's borrowings \u2014 plus $19M of other expense, net: a net -$91M in this step.",
+  "footerNote": "Figures are as originally reported for Q4 2023 \u2014 the quarter as AppLovin reported it at the time, with both businesses in (derived from the FY2023 Form 10-K less the nine months to September 2023 in the Q3 2023 Form 10-Q). Every later quarter on this page is shown on the continuing-operations basis AppLovin adopted after selling its apps business in June 2025, with the apps folded into the 'other' step. No SEC filing restates Q4 2023 on that basis \u2014 the restated quarterly statements begin with the 2024 quarters, and full-year 2023 continuing revenue of $1,842M appears only as an annual total in the FY2025 Form 10-K \u2014 so this quarter keeps the apps as their own revenue line instead.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100824000004/exhibit991-pressreleasedat.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100824000012/app-20231231.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2023 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100823000072/app-20230930.htm"
+    }
+  ]
+}
