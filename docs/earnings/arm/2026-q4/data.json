@@ -1,0 +1,153 @@
+{
+  "company": "Arm Holdings",
+  "flow": {
+    "costOfRevenueM": 32,
+    "equityM": 20,
+    "grossProfitM": 1458,
+    "netIncomeM": 313,
+    "operatingIncomeM": 438,
+    "opex": [
+      {
+        "amountM": 698,
+        "name": "Research and development",
+        "note": "Designing new processors and platform technology; the GAAP figure includes $187M of share-based pay (paying staff in shares) and $18M of related employer taxes."
+      },
+      {
+        "amountM": 320,
+        "name": "Selling, general and administrative",
+        "note": "Selling and running the company; the GAAP figure includes $67M of share-based pay and $11M of related employer taxes, plus $1M of acquisition-related expenses."
+      },
+      {
+        "amountM": 2,
+        "compact": true,
+        "name": "Disposal, restructuring and other",
+        "note": "One-off disposal and restructuring costs \u2014 excluded from Arm's non-GAAP results."
+      }
+    ],
+    "otherIncomeM": 23,
+    "revenueM": 1490,
+    "taxM": 168
+  },
+  "follow100": [
+    {
+      "amount": 54.97,
+      "label": "License and other revenue"
+    },
+    {
+      "amount": 45.03,
+      "label": "Royalty revenue"
+    },
+    {
+      "amount": -2.15,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -46.85,
+      "label": "R&D"
+    },
+    {
+      "amount": -21.48,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.13,
+      "label": "Disposal and restructuring"
+    },
+    {
+      "amount": 1.54,
+      "label": "Other income"
+    },
+    {
+      "amount": 1.34,
+      "label": "Gains on investments"
+    },
+    {
+      "amount": -11.28,
+      "label": "Tax"
+    },
+    {
+      "amount": 21.01,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "License revenue alone is $54.97 of every $100 Arm takes in. Tax took $11.28 of every $100 this quarter \u2014 a charge, after a $66M tax benefit a year ago. The rows may not add exactly due to rounding.",
+  "footerNote": "Arm calls its direct cost 'cost of sales' ($32M). Tax was a $168M charge this quarter \u2014 about 35% of pre-tax income, versus a $66M benefit a year ago.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+20%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "up 45% YoY, vs $0.20 a year ago",
+      "value": "$0.29"
+    },
+    {
+      "label": "License and other revenue",
+      "note": "+29% YoY; a record quarter",
+      "value": "$819M"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "non-GAAP, down 7% YoY; operating cash flow was $260M",
+      "value": "$152M"
+    }
+  ],
+  "oneTimers": [
+    "Share-based pay is the main gap between the two profit numbers: the non-GAAP reconciliation adds back $261M of equity-settled share-based compensation (including $7M in cost of sales) plus $29M of related employer taxes (net of R&D incentives), $1M of acquisition-related expenses and $2M of restructuring costs, which is why GAAP net income of $313M sits far below non-GAAP net income of $641M.",
+    "Net income got a $20M lift from income on equity investments \u2014 a swing from a $290M loss a year ago. That is market-driven, not operating profit, and Arm excludes it from its non-GAAP results."
+  ],
+  "otherDetail": "Combined other income was $43M: interest income of $28M less a $5M other non-operating loss (together the $23M shown as other income), plus $20M of income from equity investments. Tax was a $168M charge, a 34.9% effective rate on $481M of pre-tax income, versus a $66M benefit a year ago.",
+  "periodEnd": "2026-03-31",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "reportedDate": "2026-05-06",
+  "revenueYoY": "+20%",
+  "segments": [
+    {
+      "amountM": 819,
+      "name": "License and other revenue",
+      "note": "Fees for licensing Arm chip designs, plus support and related services; up 29% YoY on strong demand, the timing and size of high-value license agreements, and contributions from backlog.",
+      "yoy": "+29%"
+    },
+    {
+      "amountM": 671,
+      "name": "Royalty revenue",
+      "note": "A cut of every chip shipped with Arm technology inside; up 11% YoY on higher royalty rates from newer designs such as Armv9 and Arm CSS, with data center royalties more than doubling.",
+      "yoy": "+11%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000062/exhibit992fye26q431-marx26.htm"
+    },
+    {
+      "label": "Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000062/exhibit991fye26q431-marx26.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "text": "License revenue rose 29% to a record $819M and royalty revenue 11% to $671M \u2014 also a record for a fourth quarter. Data center royalties more than doubled as Arm-based server chips spread, and Arm's share of CPU compute at the top hyperscalers is now about 50%.",
+      "title": "Both halves of the business set records"
+    },
+    {
+      "stat": "$0.29",
+      "statColor": "#5b6b7c",
+      "text": "GAAP EPS was $0.29 while non-GAAP EPS was $0.60. The gap is mostly $261M of share-based pay plus $29M of related employer taxes \u2014 and unlike a year ago, when equity investments lost $290M, this quarter they added $20M.",
+      "title": "GAAP profit is much smaller than the headline"
+    },
+    {
+      "stat": "$2B+",
+      "statColor": "#3e8e5a",
+      "text": "Customer demand for the Arm AGI CPU, Arm's first own data-center chip, now exceeds $2B across fiscal 2027\u201328 \u2014 more than double what Arm stated at launch, with Meta as lead partner. For Q1 FY27 Arm guided revenue to $1.26B (plus or minus $50M) with non-GAAP EPS of $0.40 (plus or minus $0.04).",
+      "title": "The AGI chip is the next growth bet"
+    }
+  ],
+  "ticker": "ARM",
+  "verdict": "Arm closed fiscal 2026 with a record $1.49B quarter, up 20%, as licensing hit a record $819M \u2014 but GAAP profit of $313M was less than half the $641M non-GAAP figure, mostly because of $261M of share-based pay."
+}

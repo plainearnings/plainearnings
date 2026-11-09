@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CoreWeave — Q4 2025 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="CoreWeave Q4 2025 earnings in plain English: CoreWeave&#x27;s revenue more than doubled to $1.6B and its backlog reached $66.8B, but $388M of net interest turned an $89M operating loss into a $452M net loss.">
+<meta property="og:title" content="CoreWeave — Q4 2025 Earnings, Explained Simply">
+<meta property="og:description" content="CoreWeave&#x27;s revenue more than doubled to $1.6B and its backlog reached $66.8B, but $388M of net interest turned an $89M operating loss into a $452M net loss.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/crwv/2025-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/crwv/2025-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All CoreWeave quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>CoreWeave <span class="thin">(CRWV)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+112%</span>
+        <span class="q-meta">Reported 2026-08-11 · Revenue $2,575M</span>
+      </a>
+      <a class="q-item" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+112%</span>
+        <span class="q-meta">Reported 2026-05-07 · Revenue $2,078M</span>
+      </a>
+      <a class="q-item active" href="../2025-q4/">
+        <span class="q-label">Q4 2025</span>
+        <span class="q-badge">+110%</span>
+        <span class="q-meta">Reported 2026-02-26 · Revenue $1,572M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>CoreWeave — Q4 2025 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 2025</strong> · Quarter ended 2025-12-31<br>
+      Reported 2026-02-26
+    </div>
+  </header>
+
+  <p class="verdict">CoreWeave&#x27;s revenue more than doubled to $1.6B and its backlog reached $66.8B, but $388M of net interest turned an $89M operating loss into a $452M net loss.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+110%</b></span><span class="chip">EPS (GAAP)<b>-$0.89</b></span><span class="chip">Revenue backlog<b>$66.8B</b></span><span class="chip">Capex<b>$4.1B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of CoreWeave's Q4 2025 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 CoreWeave took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">AI cloud infrastructure</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$100.00</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="32.4" style="background:#D96A57"></div></div><span class="hval">−$32.38</span></div>
+          <div class="hrow"><span class="hlabel">Technology &amp; infrastructure</span><div class="htrack"><div class="hfill" data-w="60.4" style="background:#D96A57"></div></div><span class="hval">−$60.43</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="3.3" style="background:#CF5F4E"></div></div><span class="hval">−$3.31</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="9.5" style="background:#CF5F4E"></div></div><span class="hval">−$9.54</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="24.1" style="background:#D96A57"></div></div><span class="hval">−$24.05</span></div>
+          <div class="hrow"><span class="hlabel">Tax benefit</span><div class="htrack"><div class="hfill" data-w="0.9" style="background:#3E8E5A"></div></div><span class="hval">$0.95</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="28.7" style="background:#3E8E5A"></div></div><span class="hval">−$28.75</span></div>
+      <p class="hnote">The striking thing: interest and other non-operating costs took $24.05 of every $100 — and running the platform took another $60.43. A $15M tax benefit added back $0.95, but the business still lost $28.75 of every $100 it took in.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+110%</div>
+            <h3>Revenue more than doubled</h3>
+            <p>Revenue hit $1,572M, up from $747M a year ago, and the revenue backlog — work customers have committed to — reached $66.8B at quarter-end, more than four times where the year began.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$388M</div>
+            <h3>Interest is what makes the loss bigger</h3>
+            <p>Operations lost $89M, but net interest expense was $388M. After $10M of other income and a $15M tax benefit, the net loss was $452M — the price of borrowing to build ahead of demand.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$4.1B</div>
+            <h3>Spending to build is enormous</h3>
+            <p>CoreWeave spent $4,060M on property and equipment in the quarter — about 2.6 times its revenue — while operating cash flow was $1,559M. Active power passed 850 MW after adding about 260 MW in the quarter, with about 3.1 GW contracted.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Stock-based compensation of $157M is stripped out of the adjusted figures: the non-GAAP reconciliation removes $157M of stock-based compensation, $11M of amortization of acquired intangibles, $9M of acquisition-related costs and a $4M loss on extinguishment of debt on the way from the GAAP net loss of $452M to the adjusted net loss of $284M. There was no fair-value gain or loss this quarter. Adjusted operating income (non-GAAP) was $88M and adjusted EBITDA (non-GAAP) was $898M, a 57% margin.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="">Q1 2026</a></li><li><a href="../2025-q4/" class="current">Q4 2025</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000094/coreweave4q25earningspress.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Gross profit = revenue less cost of revenue. The $452M net loss is drawn as &#x27;Covered by cash on hand&#x27;.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":1.572,"nodes":{"seg0":{"name":"AI cloud infrastructure","amt":"$1.6B","value":1.572,"col":0,"color":"#3D7BC8","note":"+110% \u00b7 100% of revenue","plain":"Renting out GPU-powered cloud capacity purpose-built for AI training and inference (running trained models); the company's single revenue line, up 110% YoY as demand from AI labs, hyperscalers and enterprises surged.","quarter":"100% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$1.6B","value":1.572,"col":1,"color":"#2F3B4C","note":"+110%","plain":"All the money CoreWeave took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.6B, +110% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.1B","value":1.063,"col":2,"color":"#69B578","note":"67.6% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"67.6 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($509M)","value":0.509,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$509M \u2014 about 32.4 cents per revenue dollar."},"opex":{"name":"Operating expenses","amt":"($1.2B)","value":1.152,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.2B total, split into Technology and infrastructure, Sales and marketing, General and administrative on the right."},"taxben":{"name":"Tax benefit","amt":"$15M","value":0.015,"col":3,"color":"#69B578","note":"","plain":"The tax line was a benefit this quarter \u2014 it added to the bottom line instead of reducing it.","quarter":"$15M added back by the tax benefit."},"shortfall":{"name":"Covered by cash on hand","amt":"($452M)","value":0.452,"col":3,"color":"#94A3B8","note":"","plain":"The business spent more than it took in. The $452M net loss was covered by cash CoreWeave already had on its balance sheet.","quarter":"A net loss of $452M this quarter."},"otherexp":{"name":"Other expense","amt":"($378M)","value":0.378,"col":4,"color":"#B8443C","note":"","plain":"Net non-operating expense of $378M: interest expense, net was $388M \u2014 the cost of borrowing heavily to build data centers \u2014 partly offset by $10M of other income, net. There was no fair-value gain or loss this quarter. The tax line was a $15M benefit, not a bill.","quarter":"$378M taken out of profit."},"ox0":{"name":"Technology and infrastructure","amt":"($950M)","value":0.95,"col":4,"color":"#CF5F4E","note":"60.4% of revenue","plain":"Running and expanding the platform: data-center operations and the engineering behind the AI cloud; up from $398M a year ago as capacity grew.","quarter":"$950M \u2014 60.4% of revenue."},"ox1":{"name":"Sales and marketing","amt":"($52M)","value":0.052,"col":4,"color":"#CF5F4E","note":"3.3% of revenue","plain":"Selling the cloud to AI labs, hyperscalers and large enterprises; up from $6M a year ago as the sales effort scaled.","quarter":"$52M \u2014 3.3% of revenue."},"ox2":{"name":"General and administrative","amt":"($150M)","value":0.15,"col":4,"color":"#CF5F4E","note":"9.5% of revenue","plain":"The back office: finance, legal and company-wide administration; up from $48M a year ago.","quarter":"$150M \u2014 9.5% of revenue."}},"cols":[["seg0"],["rev"],["gross","cost"],["taxben","shortfall","opex"],["otherexp","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":1.572,"c":"#94b6e1","amt":"$1.6B"},{"s":"rev","d":"gross","v":1.063,"c":"#BFE0C6","amt":"$1.1B"},{"s":"rev","d":"cost","v":0.509,"c":"#F4C7B9","amt":"$509M"},{"s":"gross","d":"opex","v":1.063,"c":"#F2B3A4","amt":"$1.1B"},{"s":"taxben","d":"opex","v":0.015,"c":"#BFE0C6","amt":"$15M"},{"s":"shortfall","d":"opex","v":0.074,"c":"#c4ccd8","amt":"$74M"},{"s":"shortfall","d":"otherexp","v":0.378,"c":"#c4ccd8","amt":"$378M"},{"s":"opex","d":"ox0","v":0.95,"c":"#F6C0B1","amt":"$950M"},{"s":"opex","d":"ox1","v":0.052,"c":"#F6C0B1","amt":"$52M"},{"s":"opex","d":"ox2","v":0.15,"c":"#F6C0B1","amt":"$150M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

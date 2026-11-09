@@ -1,0 +1,178 @@
+{
+  "company": "Amazon",
+  "flow": {
+    "costOfRevenueM": 72633,
+    "equityM": -85,
+    "grossProfitM": 70680,
+    "netIncomeM": 10431,
+    "operatingIncomeM": 15307,
+    "opex": [
+      {
+        "amountM": 22317,
+        "name": "Fulfillment",
+        "note": "Running the warehouses and delivering packages \u2014 the biggest single running cost."
+      },
+      {
+        "amountM": 20424,
+        "name": "Technology & infrastructure",
+        "note": "Servers, data centers, and the engineers who build and run the products."
+      },
+      {
+        "amountM": 9662,
+        "name": "Sales & marketing",
+        "note": "Advertising Amazon's products and winning customers."
+      },
+      {
+        "amountM": 2742,
+        "name": "General & administrative",
+        "note": "Back office \u2014 finance, legal and management."
+      },
+      {
+        "amountM": 228,
+        "name": "Other operating expense, net",
+        "note": "Small net charges that do not fit the other lines."
+      }
+    ],
+    "otherIncomeM": -2324,
+    "revenueM": 143313,
+    "taxM": 2467
+  },
+  "follow100": [
+    {
+      "amount": 60.25,
+      "label": "North America"
+    },
+    {
+      "amount": 22.28,
+      "label": "International"
+    },
+    {
+      "amount": 17.47,
+      "label": "AWS"
+    },
+    {
+      "amount": -50.68,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -15.57,
+      "label": "Fulfillment"
+    },
+    {
+      "amount": -14.25,
+      "label": "Technology & infrastructure"
+    },
+    {
+      "amount": -6.74,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -1.91,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.16,
+      "label": "Other operating expense"
+    },
+    {
+      "amount": -1.62,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.72,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.06,
+      "label": "Equity-method activity"
+    },
+    {
+      "amount": 7.28,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "AWS alone earned $9.4B of operating profit \u2014 62% of Amazon's total \u2014 on just $17.47 of every $100 of sales. The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+13%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.31 a year ago",
+      "value": "$0.98"
+    },
+    {
+      "label": "AWS growth",
+      "note": "cloud revenue $25.0B",
+      "value": "+17%"
+    },
+    {
+      "label": "Operating income",
+      "note": "vs $4.8B a year ago",
+      "value": "$15.3B"
+    }
+  ],
+  "oneTimers": [
+    "A $2.0B pre-tax paper loss on Amazon's common-stock investment in Rivian Automotive sits inside non-operating expense \u2014 it is a revaluation of shares Amazon owns, not money lost to customers. A year ago the same line held a $0.5B loss."
+  ],
+  "otherDetail": "Interest income $993M, less $644M interest expense and $2,673M of other expense, net \u2014 the non-operating lines include a $2.0B pre-tax valuation loss on Amazon's stake in Rivian; an $85M equity-method loss is recorded below the tax line.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-30",
+  "revenueYoY": "+13%",
+  "segments": [
+    {
+      "amountM": 86341,
+      "name": "North America",
+      "note": "Stores, subscriptions and ads in North America \u2014 the biggest piece, and it earned a $5.0B operating profit, up from $0.9B a year ago.",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 31935,
+      "name": "International",
+      "note": "The same businesses outside North America \u2014 swung to a $0.9B operating profit after a $1.2B loss a year earlier.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 25037,
+      "name": "AWS",
+      "note": "Cloud computing rented to other companies \u2014 grew 17%, and its $9.4B operating profit was 62% of Amazon's total.",
+      "yoy": "+17%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "text": "AWS sales grew 17% to $25.0B \u2014 a $100B annual revenue run rate, per CEO Andy Jassy \u2014 and the segment earned $9.4B of operating profit at a 37.6% margin, 62% of Amazon's total, as companies renewed infrastructure modernization and bought AI work on its cloud.",
+      "title": "AWS reaccelerated"
+    },
+    {
+      "stat": "$15.3B",
+      "statColor": "#3e8e5a",
+      "text": "Consolidated operating income rose 221% from a year ago: North America earned $5.0B (up from $0.9B) and International swung from a $1.2B loss to a $0.9B profit as the store networks got more efficient.",
+      "title": "Operating income more than tripled"
+    },
+    {
+      "stat": "$10.4B",
+      "statColor": "#5b6b7c",
+      "text": "Net income rose to $10.4B from $3.2B a year ago even though $2.0B of it was wiped out by a paper loss on Amazon's investment in electric-truck maker Rivian, recorded before tax. Free cash flow over the trailing twelve months swung to a $50.1B inflow from a $3.3B outflow.",
+      "title": "Profit tripled despite the Rivian drag"
+    }
+  ],
+  "ticker": "AMZN",
+  "verdict": "Amazon's sales rose 13% to $143.3B and operating income more than tripled to $15.3B as AWS reaccelerated to 17% growth and International turned profitable \u2014 and it kept $10.4B as profit even after a $2.0B paper loss on its Rivian stake."
+}
