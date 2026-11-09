@@ -1,0 +1,157 @@
+{
+  "company": "Coinbase",
+  "flow": {
+    "costOfRevenueM": 171.781,
+    "grossProfitM": 1033.412,
+    "netIncomeM": 75.495,
+    "operatingIncomeM": 160.815,
+    "opex": [
+      {
+        "amountM": 377.44,
+        "name": "Technology & development",
+        "note": "Building the platform \u2014 engineering and product."
+      },
+      {
+        "amountM": 330.387,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, compliance and the back office."
+      },
+      {
+        "amountM": 164.77,
+        "name": "Sales & marketing",
+        "note": "Advertising, USDC rewards and winning customers."
+      }
+    ],
+    "otherIncomeM": -92.234,
+    "revenueM": 1205.193,
+    "taxM": -6.914
+  },
+  "follow100": [
+    {
+      "amount": 47.5,
+      "label": "Transaction revenue"
+    },
+    {
+      "amount": 46.14,
+      "label": "Subscription and services"
+    },
+    {
+      "amount": 6.36,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -14.25,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -31.32,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -27.41,
+      "label": "G&A"
+    },
+    {
+      "amount": -13.67,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.65,
+      "label": "Other expense"
+    },
+    {
+      "amount": 0.57,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 6.26,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. Coinbase also reports two gain lines inside operating expenses (a $0.1M gain on crypto held for operations and $8.6M of other operating income \u2014 $9M in total); the chart shows that $9M in the 'other income' step instead, so the chart's operating profit is $161M rather than the reported $170M \u2014 net income is unchanged. Figures are from Coinbase's Q3 2024 shareholder letter (Exhibit 99.1) and Form 10-Q.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 though down 17% from Q2 as crypto markets cooled",
+      "value": "+79%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted",
+      "value": "$0.28"
+    },
+    {
+      "label": "Net income",
+      "note": "after a $121M pre-tax paper loss on crypto held for investment",
+      "value": "$75M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "37% of revenue \u2014 7th straight positive quarter",
+      "value": "$449M"
+    }
+  ],
+  "oneTimers": [
+    "A $121M mark-to-market loss on crypto assets held for investment \u2014 mostly unrealized and non-cash ($92M after tax), and it reverses if crypto prices recover.",
+    "$9M of net operating gains (crypto held for operations, and other operating income) that Coinbase reports inside its expense lines; the chart shows them in the other-income step \u2014 see the note under the chart."
+  ],
+  "otherDetail": "A $121M loss on crypto Coinbase holds as an investment and $21M of interest expense, partly offset by $40M of other income and the $9M of operating gains moved here from operating expenses (see footer): a net $92M expense.",
+  "periodEnd": "2024-09-30",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2024-10-30",
+  "revenueYoY": "+79%",
+  "segments": [
+    {
+      "amountM": 572.504,
+      "name": "Transaction revenue",
+      "note": "Fees from crypto trading \u2014 consumer $483M, institutional $55M, other $34M. Trading volume was $185B, down 18% from Q2 as volatility eased, but revenue nearly doubled from a year ago.",
+      "yoy": "+98%"
+    },
+    {
+      "amountM": 556.093,
+      "name": "Subscription and services",
+      "note": "Steadier income: stablecoin revenue $247M, blockchain rewards $155M, interest and finance fees $64M, custodial fees $32M, and other services $59M.",
+      "yoy": "+66%"
+    },
+    {
+      "amountM": 76.596,
+      "name": "Other revenue",
+      "note": "Interest earned on Coinbase's own corporate cash.",
+      "yoy": "+50%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000186/q324shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000187/coin-20240930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+98%",
+      "statColor": "#3d7bc8",
+      "text": "Transaction revenue rose 98% year over year to $573M \u2014 consumer trading alone was $483M \u2014 even though volume fell 18% from Q2 to $185B as crypto volatility eased.",
+      "title": "Trading nearly doubled from a year ago"
+    },
+    {
+      "stat": "$556M",
+      "statColor": "#3e8e5a",
+      "text": "Subscription and services revenue rose 66% year over year to $556M, almost as much as trading brought in \u2014 stablecoin revenue was the biggest piece at $247M, ahead of blockchain rewards at $155M.",
+      "title": "Steadier revenue nearly matched trading"
+    },
+    {
+      "stat": "$121M",
+      "statColor": "#d96a57",
+      "text": "A $121M pre-tax loss on crypto Coinbase holds as an investment \u2014 mostly unrealized, $92M after tax \u2014 held net income to $75M, even though Adjusted EBITDA was $449M for a 7th straight positive quarter.",
+      "title": "Paper crypto losses capped profit"
+    }
+  ],
+  "ticker": "COIN",
+  "verdict": "Coinbase's revenue rose 79% from a year ago to $1.21B as trading revenue nearly doubled, but a $121M paper loss on the crypto it holds as an investment held net income to $75M."
+}

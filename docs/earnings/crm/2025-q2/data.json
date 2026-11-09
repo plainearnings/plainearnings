@@ -1,0 +1,155 @@
+{
+  "company": "Salesforce",
+  "flow": {
+    "costOfRevenueM": 2159,
+    "grossProfitM": 7166,
+    "netIncomeM": 1429,
+    "operatingIncomeM": 1783,
+    "opex": [
+      {
+        "amountM": 1349,
+        "name": "Research & development",
+        "note": "Building the platform \u2014 including Einstein AI and Data Cloud \u2014 up 11% YoY."
+      },
+      {
+        "amountM": 3224,
+        "name": "Sales & marketing",
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine, up 4% YoY."
+      },
+      {
+        "amountM": 711,
+        "name": "General & administrative",
+        "note": "Running the company day to day \u2014 up 12.5% YoY."
+      },
+      {
+        "amountM": 99,
+        "name": "Restructuring",
+        "note": "One-off costs of reorganizing teams \u2014 $99M this quarter, up from $49M a year ago."
+      }
+    ],
+    "otherIncomeM": 54,
+    "revenueM": 9325,
+    "taxM": 408
+  },
+  "follow100": [
+    {
+      "amount": 93.98,
+      "label": "Subscription and support"
+    },
+    {
+      "amount": 6.02,
+      "label": "Professional services"
+    },
+    {
+      "amount": -23.15,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -14.47,
+      "label": "R&D"
+    },
+    {
+      "amount": -34.57,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.62,
+      "label": "G&A"
+    },
+    {
+      "amount": -1.06,
+      "label": "Restructuring"
+    },
+    {
+      "amount": 0.58,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.38,
+      "label": "Tax"
+    },
+    {
+      "amount": 15.32,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+8%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs $1.28 a year ago",
+      "value": "$1.47"
+    },
+    {
+      "label": "Operating margin",
+      "note": "GAAP, up from 17.2% a year ago",
+      "value": "19.1%"
+    },
+    {
+      "label": "Net income",
+      "note": "vs $1.27B a year ago",
+      "value": "$1.43B"
+    }
+  ],
+  "oneTimers": [
+    "A $37M loss on strategic investments, net \u2014 paper (mark-to-market) losses on stakes Salesforce holds in other companies.",
+    "Restructuring charges of $99M \u2014 up from $49M a year ago \u2014 sit inside operating expenses."
+  ],
+  "otherDetail": "A $37M loss on strategic investments (stakes Salesforce holds in other companies), partly offset by $91M of other income \u2014 mostly interest earned, net of interest on Salesforce's debt: a net $54M gain.",
+  "periodEnd": "2024-07-31",
+  "quarterLabel": "Q2 FY25",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2024-08-28",
+  "revenueYoY": "+8%",
+  "segments": [
+    {
+      "amountM": 8764,
+      "name": "Subscription and support",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau and Data Cloud.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 561,
+      "name": "Professional services",
+      "note": "Consulting and training that help customers roll the software out.",
+      "yoy": "-6%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000020/crm-q2fy25xexhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000022/crm-20240731.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "19.1%",
+      "statColor": "#3e8e5a",
+      "text": "GAAP operating margin reached 19.1%, up 190 basis points from a year ago, as operating income rose 21% to $1.78B on revenue up just 8% \u2014 Salesforce grew profit much faster than sales, and raised its full-year margin guidance.",
+      "title": "Margins hit a record"
+    },
+    {
+      "stat": "$26.5B",
+      "statColor": "#3d7bc8",
+      "text": "Current remaining performance obligation \u2014 work customers have signed for and will pay for within a year \u2014 rose 10% to $26.5B. That locks in a large share of future subscription revenue in advance.",
+      "title": "Backlog keeps climbing"
+    },
+    {
+      "stat": "$99M",
+      "statColor": "#d96a57",
+      "text": "Restructuring charges were $99M, double the $49M a year ago, and losses on strategic investments cost another $37M. Even after both, net income rose 13% to $1.43B, and Salesforce returned $4.3B to stockholders through share repurchases plus $0.4B in dividends.",
+      "title": "Restructuring doubled"
+    }
+  ],
+  "ticker": "CRM",
+  "verdict": "Salesforce grew revenue 8% to $9.33B and expanded its GAAP operating margin to a record 19.1%, lifting net income 13% to $1.43B despite a $37M loss on its strategic investments."
+}
