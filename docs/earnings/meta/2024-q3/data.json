@@ -1,0 +1,153 @@
+{
+  "ticker": "META",
+  "company": "Meta",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-30",
+  "verdict": "Meta's revenue rose 19% to $40.6B as ad prices climbed 11% and impressions grew 7% \u2014 and it kept $15.7B as profit, about 39 cents of every dollar, even as Reality Labs lost another $4.4B.",
+  "revenueYoY": "+19%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.03",
+      "note": "vs $4.39 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$15.5B",
+      "note": "capex, incl. finance leases, was $9.2B"
+    },
+    {
+      "label": "Family DAP",
+      "value": "3.29B",
+      "note": "people using a Meta app daily, +5%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 39885,
+      "yoy": "+19%",
+      "note": "Ads across Facebook, Instagram and WhatsApp \u2014 ad impressions rose 7% and the average price per ad rose 11%."
+    },
+    {
+      "name": "Family of Apps other revenue",
+      "amountM": 434,
+      "yoy": "+48%",
+      "note": "Mostly WhatsApp business messaging and other fees from the social apps."
+    },
+    {
+      "name": "Reality Labs",
+      "amountM": 270,
+      "yoy": "+29%",
+      "note": "Quest headsets and Ray-Ban Meta glasses \u2014 $270M of revenue against a $4.4B operating loss."
+    }
+  ],
+  "flow": {
+    "revenueM": 40589,
+    "costOfRevenueM": 7375,
+    "grossProfitM": 33214,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 11177,
+        "note": "Engineers building the apps, the AI models and the headsets."
+      },
+      {
+        "name": "Marketing & sales",
+        "amountM": 2822,
+        "note": "Selling ads and devices, and promoting the apps."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1865,
+        "note": "Legal, finance and overhead for running the company."
+      }
+    ],
+    "operatingIncomeM": 17350,
+    "otherIncomeM": 472,
+    "taxM": 2134,
+    "netIncomeM": 15688
+  },
+  "otherDetail": "Interest and other income of $472M, net.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 98.27
+    },
+    {
+      "label": "Family of Apps other revenue",
+      "amount": 1.07
+    },
+    {
+      "label": "Reality Labs",
+      "amount": 0.67
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -18.17
+    },
+    {
+      "label": "R&D",
+      "amount": -27.54
+    },
+    {
+      "label": "Marketing & sales",
+      "amount": -6.95
+    },
+    {
+      "label": "G&A",
+      "amount": -4.59
+    },
+    {
+      "label": "Other income",
+      "amount": 1.16
+    },
+    {
+      "label": "Tax",
+      "amount": -5.26
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 38.65
+    }
+  ],
+  "follow100Note": "Advertising alone is $98.27 of every $100 Meta takes in. The rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "title": "Ads did the lifting",
+      "text": "Advertising revenue grew 19% to $39.9B \u2014 98 cents of every dollar Meta made \u2014 helped by 7% more ad views and an 11% higher average price per ad."
+    },
+    {
+      "stat": "-$4.4B",
+      "statColor": "#b8443c",
+      "title": "Reality Labs still burns cash",
+      "text": "Reality Labs lost $4.4B in the quarter on just $270M of revenue, and Meta said its losses would grow meaningfully in 2024 as it keeps building headsets and glasses."
+    },
+    {
+      "stat": "$15.5B",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed enormous",
+      "text": "Free cash flow was $15.5B even after $9.2B of capital spending, and Meta raised its full-year capex outlook to $38\u201340B, mostly for AI computing."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm"
+    }
+  ]
+}

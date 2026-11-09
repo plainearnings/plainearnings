@@ -1,0 +1,165 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-06-29",
+  "reportedDate": "2024-08-01",
+  "verdict": "Apple's sales rose 5% to a June-quarter record $85.8B as Services hit an all-time high and iPad jumped 24% on its new models \u2014 and it kept $21.4B as profit even though iPhone sales dipped 1%.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.40",
+      "note": "vs $1.26 a year ago"
+    },
+    {
+      "label": "Services revenue",
+      "value": "$24.2B",
+      "note": "an all-time record, up 14%"
+    },
+    {
+      "label": "iPhone revenue",
+      "value": "$39.3B",
+      "note": "down 1% YoY, 46% of sales"
+    }
+  ],
+  "segments": [
+    {
+      "name": "iPhone",
+      "amountM": 39296,
+      "yoy": "-1%",
+      "note": "Apple's flagship phone \u2014 sales dipped 1% in the last full quarter before the iPhone 16 launch."
+    },
+    {
+      "name": "Mac",
+      "amountM": 7009,
+      "yoy": "+2%",
+      "note": "Mac computers \u2014 up 2%, helped by the MacBook Air with the M3 chip."
+    },
+    {
+      "name": "iPad",
+      "amountM": 7162,
+      "yoy": "+24%",
+      "note": "Tablets \u2014 the new iPad Pro with M4 and iPad Air with M2, launched in May, drove a 24% jump."
+    },
+    {
+      "name": "Wearables, Home and Accessories",
+      "amountM": 8097,
+      "yoy": "-2%",
+      "note": "Apple Watch, AirPods and home devices \u2014 down 2% against a tough comparison."
+    },
+    {
+      "name": "Services",
+      "amountM": 24213,
+      "yoy": "+14%",
+      "note": "App Store, Apple Music, iCloud, TV+ and advertising \u2014 an all-time record, up 14%."
+    }
+  ],
+  "flow": {
+    "revenueM": 85777,
+    "costOfRevenueM": 46099,
+    "grossProfitM": 39678,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 8006,
+        "note": "Designing future iPhones, Macs, chips and services."
+      },
+      {
+        "name": "SG&A",
+        "amountM": 6320,
+        "note": "Stores, marketing and running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 25352,
+    "otherIncomeM": 142,
+    "taxM": 4046,
+    "netIncomeM": 21448
+  },
+  "otherDetail": "Other income of $142M, net.",
+  "follow100": [
+    {
+      "label": "iPhone",
+      "amount": 45.81
+    },
+    {
+      "label": "Mac",
+      "amount": 8.17
+    },
+    {
+      "label": "iPad",
+      "amount": 8.35
+    },
+    {
+      "label": "Wearables, Home and Accessories",
+      "amount": 9.44
+    },
+    {
+      "label": "Services",
+      "amount": 28.23
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -53.74
+    },
+    {
+      "label": "R&D",
+      "amount": -9.33
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.37
+    },
+    {
+      "label": "Other income",
+      "amount": 0.17
+    },
+    {
+      "label": "Tax",
+      "amount": -4.72
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.0
+    }
+  ],
+  "follow100Note": "Services alone is $28.23 of every $100 Apple takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "takeaways": [
+    {
+      "stat": "$24.2B",
+      "statColor": "#3e8e5a",
+      "title": "Services hit another record",
+      "text": "Services revenue reached $24.2B, an all-time high, up 14% \u2014 more than a quarter of everything Apple sells now comes from subscriptions, the App Store and other services."
+    },
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "iPad bounced back",
+      "text": "iPad sales jumped 24% to $7.2B after the May launch of the redesigned iPad Pro and iPad Air \u2014 the lineup's first new models in over a year."
+    },
+    {
+      "stat": "$1.40",
+      "statColor": "#5b6b7c",
+      "title": "Profit rose even with iPhone flat",
+      "text": "Net income rose 8% to $21.4B and EPS reached $1.40, helped by the high-margin Services mix; Apple Intelligence, unveiled in June, was still to come in the fall."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000080/a8-kex991q3202406292024.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm"
+    }
+  ]
+}

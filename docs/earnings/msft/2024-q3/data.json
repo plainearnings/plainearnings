@@ -1,0 +1,154 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-04-25",
+  "verdict": "Microsoft grew 17% to $61.9B as Azure jumped 31% and Microsoft Cloud revenue hit $35.1B \u2014 and it kept $21.9B as profit, about 35 cents of every dollar.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.94",
+      "note": "vs $2.45 a year ago"
+    },
+    {
+      "label": "Azure growth",
+      "value": "+31%",
+      "note": "fastest-growing large piece"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "value": "$35.1B",
+      "note": "+23% YoY, 57% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Productivity and Business Processes",
+      "amountM": 19570,
+      "yoy": "+12%",
+      "note": "Office 365, LinkedIn and Dynamics \u2014 Office Commercial cloud services grew 13%, LinkedIn 10% and Dynamics 365 23%."
+    },
+    {
+      "name": "Intelligent Cloud",
+      "amountM": 26708,
+      "yoy": "+21%",
+      "note": "Azure and server products \u2014 Azure and other cloud services grew 31%, the fastest-growing large piece."
+    },
+    {
+      "name": "More Personal Computing",
+      "amountM": 15580,
+      "yoy": "+17%",
+      "note": "Windows, Xbox and search ads \u2014 Xbox content and services up 62% on the Activision acquisition, Windows up 11%, devices down 17%."
+    }
+  ],
+  "flow": {
+    "revenueM": 61858,
+    "costOfRevenueM": 18505,
+    "grossProfitM": 43353,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 7653,
+        "note": "Spending on building products, led by AI and cloud \u2014 up 10% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 6207,
+        "note": "Selling and marketing the product line \u2014 up 8% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1912,
+        "note": "Running the company day to day \u2014 up 16% YoY."
+      }
+    ],
+    "operatingIncomeM": 27581,
+    "otherIncomeM": -854,
+    "taxM": 4788,
+    "netIncomeM": 21939
+  },
+  "otherDetail": "Other expense of $854M, net.",
+  "follow100": [
+    {
+      "label": "Productivity and Business Processes",
+      "amount": 31.64
+    },
+    {
+      "label": "Intelligent Cloud",
+      "amount": 43.18
+    },
+    {
+      "label": "More Personal Computing",
+      "amount": 25.19
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -29.92
+    },
+    {
+      "label": "R&D",
+      "amount": -12.37
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -10.03
+    },
+    {
+      "label": "G&A",
+      "amount": -3.09
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.38
+    },
+    {
+      "label": "Tax",
+      "amount": -7.74
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 35.47
+    }
+  ],
+  "follow100Note": "The rows reconcile to the $35.47 kept as profit within $0.01 of rounding; other expense is a $1.38 drag per $100 of revenue.",
+  "footerNote": "Segments use Microsoft's FY24 reporting structure (three segments, as reported at the time).",
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "Azure accelerated",
+      "text": "Azure and other cloud services grew 31% \u2014 faster than the quarter before \u2014 as AI demand added to regular cloud growth; Microsoft Cloud overall reached $35.1B, up 23%."
+    },
+    {
+      "stat": "$61.9B",
+      "statColor": "#3e8e5a",
+      "title": "Growth was broad-based",
+      "text": "All three segments grew at double-digit rates \u2014 Intelligent Cloud +21%, More Personal Computing +17% (Xbox content +62% on the Activision deal) and Productivity and Business Processes +12%."
+    },
+    {
+      "stat": "35\u00a2",
+      "statColor": "#5b6b7c",
+      "title": "A third of sales became profit",
+      "text": "Net income rose 20% to $21.9B \u2014 about 35 cents of every revenue dollar \u2014 even as Microsoft kept spending heavily on the data centers behind its AI push."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048268/msft-ex99_1.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm"
+    }
+  ]
+}
