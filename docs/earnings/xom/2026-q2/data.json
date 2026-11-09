@@ -1,0 +1,207 @@
+{
+  "ticker": "XOM",
+  "company": "ExxonMobil",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-31",
+  "verdict": "ExxonMobil's profit doubled to $14.5B as sales jumped 44% to $114.5B on much higher oil and gas prices, with every segment earning more than a year ago.",
+  "revenueYoY": "+44%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+44%",
+      "note": "Sales and other operating revenue of $114.5B, up from $79.5B a year ago; total revenue including other income was $116.0B"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$3.48",
+      "note": "Up from $1.64 a year ago; adjusted EPS was $3.52"
+    },
+    {
+      "label": "Energy Products earnings",
+      "value": "$5.5B",
+      "note": "Refining and fuels earnings (GAAP), up from $1.4B a year ago as refining margins jumped"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$17.2B",
+      "note": "Cash flow from operations was $23.6B; $9.4B was returned to shareholders in dividends and buybacks"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Upstream",
+      "amountM": 12680,
+      "note": "Oil and gas production \u2014 crude and gas sold to outside buyers. Most output goes to ExxonMobil's own refineries, so earnings are the better gauge: $7.9B, up from $5.4B a year ago, on production of 4,514 thousand barrels of oil-equivalent a day.",
+      "yoy": "+37%"
+    },
+    {
+      "name": "Energy Products",
+      "amountM": 89608,
+      "note": "Refining and fuels \u2014 gasoline, diesel and jet fuel sold worldwide, by far the largest sales line. Earnings jumped to $5.5B from $1.4B a year ago as refining margins surged (the indicative margin was $29.0 a barrel, vs $16.3 in Q1).",
+      "yoy": "+49%"
+    },
+    {
+      "name": "Chemical Products",
+      "amountM": 6887,
+      "note": "Basic chemicals and plastics that go into packaging, cars and everyday goods. Earnings were $1.1B, up from $293M a year ago on a North American feedstock advantage.",
+      "yoy": "+21%",
+      "compact": true
+    },
+    {
+      "name": "Specialty Products",
+      "amountM": 5328,
+      "note": "Higher-value products \u2014 lubricants, basestocks and specialty fluids. Earnings rose to $956M from $780M a year ago on higher basestock margins.",
+      "yoy": "+17%",
+      "compact": true
+    },
+    {
+      "name": "Other",
+      "amountM": 26,
+      "note": "Sales and other operating revenue in Corporate and Financing that is not part of a reportable segment \u2014 the small remainder so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "flow": {
+    "revenueM": 114529,
+    "costOfRevenueM": 80051,
+    "grossProfitM": 34478,
+    "costPlain": "Crude oil and product purchases ($67,801M) plus production and manufacturing expenses ($12,250M) \u2014 what it costs ExxonMobil to buy, pump and process oil and gas.",
+    "opex": [
+      {
+        "name": "Selling, general and administrative expenses",
+        "amountM": 2483,
+        "note": "Sales teams, offices and running the company."
+      },
+      {
+        "name": "Depreciation and depletion",
+        "amountM": 8689,
+        "note": "The cost of wells, refineries and plants wearing out over time, including impairments."
+      },
+      {
+        "name": "Other taxes and duties",
+        "amountM": 4956,
+        "note": "Taxes and duties on products and operations \u2014 separate from income tax."
+      },
+      {
+        "name": "Exploration expenses",
+        "amountM": 155,
+        "note": "Searching for new oil and gas, including dry holes."
+      },
+      {
+        "name": "Interest expense",
+        "amountM": 227,
+        "note": "The cost of borrowing money."
+      },
+      {
+        "name": "Non-service pension and postretirement benefit expense",
+        "amountM": 32,
+        "note": "Pension and retiree-benefit costs outside service cost."
+      }
+    ],
+    "operatingIncomeM": 17936,
+    "otherIncomeM": 1132,
+    "taxM": 4543,
+    "netIncomeM": 14525
+  },
+  "otherDetail": "Income from equity affiliates of $893M plus other income of $595M, less the $356M of net income attributable to noncontrolling interests \u2014 outside partners' shares of joint ventures \u2014 leaving $1,132M.",
+  "footerNote": "Revenue is sales and other operating revenue; equity and other income are shown as other income in the flow.",
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$104.52",
+      "statColor": "#3d7bc8",
+      "title": "Prices did the heavy lifting",
+      "text": "Brent crude averaged $104.52 a barrel in the quarter (the U.S. marker, WTI, $93.21), and ExxonMobil's own U.S. crude realized $97.58. Sales rose 44% while production of 4,514 thousand oil-equivalent barrels a day was the highest in more than two decades, excluding Middle East disruptions."
+    },
+    {
+      "stat": "$5.5B",
+      "statColor": "#3e8e5a",
+      "title": "Refining quadrupled its earnings",
+      "text": "Energy Products earned $5,465M, up from $1,366M a year ago, as refining margins surged and diesel production hit a second-quarter record. Upstream added $7,927M, helped by record Permian output above 1.8 million barrels a day."
+    },
+    {
+      "stat": "$1.03",
+      "statColor": "#5b6b7c",
+      "title": "Cash kept flowing back",
+      "text": "Operating cash flow was $23.6B and free cash flow $17.2B. ExxonMobil returned $9.4B to shareholders ($4.3B of dividends, $5.1B of buybacks) and declared a third-quarter dividend of $1.03 a share."
+    }
+  ],
+  "oneTimers": [
+    "GAAP earnings include $1,079M of impairments among the company's 'identified items,' plus other identified charges including $1,365M added to financial reserves. Excluding identified items and timing effects, adjusted earnings were $14,680M, or $3.52 a share \u2014 only slightly above GAAP, because favorable timing effects offset much of the charges.",
+    "Results were delivered despite Middle East disruptions that took part of upstream production offline; a fifth Guyana floating production vessel is on plan to start up in Q4 2026, adding 250 thousand barrels a day of capacity."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/livef8k2q26991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000093/xom-20260630.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Upstream",
+      "amount": 11.07
+    },
+    {
+      "label": "Energy Products",
+      "amount": 78.24
+    },
+    {
+      "label": "Chemical Products",
+      "amount": 6.01
+    },
+    {
+      "label": "Specialty Products",
+      "amount": 4.65
+    },
+    {
+      "label": "Other",
+      "amount": 0.02
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -69.9
+    },
+    {
+      "label": "SG&A",
+      "amount": -2.17
+    },
+    {
+      "label": "Depreciation & depletion",
+      "amount": -7.59
+    },
+    {
+      "label": "Other taxes & duties",
+      "amount": -4.33
+    },
+    {
+      "label": "Exploration",
+      "amount": -0.14
+    },
+    {
+      "label": "Interest",
+      "amount": -0.2
+    },
+    {
+      "label": "Pension expense",
+      "amount": -0.03
+    },
+    {
+      "label": "Other income",
+      "amount": 0.99
+    },
+    {
+      "label": "Tax",
+      "amount": -3.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.68
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "MRNA",
+  "company": "Moderna",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-31",
+  "verdict": "Moderna lost $782M in its quiet season \u2014 revenue of just $145M cannot cover $651M of research \u2014 but the loss narrowed from a year ago as costs fell, and management improved its full-year expense and cash outlook.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$145M",
+      "note": "+2% YoY \u2014 the seasonal trough quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$1.97",
+      "note": "vs -$2.13 a year ago"
+    },
+    {
+      "label": "Cash & investments",
+      "value": "$6.9B",
+      "note": "vs $7.5B at Mar 31, 2026"
+    },
+    {
+      "label": "R&D spending",
+      "value": "$651M",
+      "note": "-7% YoY as late-stage trials wind down"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net product sales",
+      "amountM": 94,
+      "note": "Vaccine sales \u2014 mainly COVID vaccines. Sales fell in the U.S. and South America, partly offset by deliveries in the U.K. under a long-term government partnership. Revenue was $87M in the U.S. and $58M international (including other revenue).",
+      "yoy": "-18%"
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 51,
+      "note": "Grants, collaborations, licensing and royalties \u2014 and this quarter, stand-ready manufacturing revenue, which is why this line nearly doubled.",
+      "yoy": "+82%"
+    }
+  ],
+  "flow": {
+    "revenueM": 145,
+    "costOfRevenueM": 93,
+    "grossProfitM": 52,
+    "costPlain": "Making vaccines in plants that run far below capacity in the off-season \u2014 including $41M of inventory write-downs and $23M of unutilized manufacturing capacity costs.",
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 651,
+        "note": "The labs: developing new vaccines and drugs. Down 7% \u2014 several late-stage programs wound down, plus deliberate cost cuts."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 216,
+        "note": "Sales teams, offices, admin. Down 6% \u2014 the company is holding this line down too."
+      }
+    ],
+    "operatingIncomeM": -815,
+    "otherIncomeM": 48,
+    "taxM": 15,
+    "netIncomeM": -782
+  },
+  "otherDetail": "Interest income of $67M, less $19M of other expense \u2014 net $48M.",
+  "footerNote": "Q2 is Moderna's seasonal trough quarter.",
+  "pngFooterNote": "Q2 is Moderna's seasonal trough quarter.",
+  "follow100": [
+    {
+      "label": "Net product sales",
+      "amount": 64.83
+    },
+    {
+      "label": "Other revenue",
+      "amount": 35.17
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -64.14
+    },
+    {
+      "label": "R&D",
+      "amount": -448.97
+    },
+    {
+      "label": "SG&A",
+      "amount": -148.97
+    },
+    {
+      "label": "Interest income",
+      "amount": 46.21
+    },
+    {
+      "label": "Other expense",
+      "amount": -13.1
+    },
+    {
+      "label": "Tax",
+      "amount": -10.34
+    },
+    {
+      "label": "Net loss",
+      "amount": -539.31
+    }
+  ],
+  "follow100Note": "For every $100 of revenue, Moderna spent $449 on research alone \u2014 Q2 revenue is a trickle, but the labs run all year. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$145M",
+      "statColor": "#3d7bc8",
+      "title": "The trough quarter, by design",
+      "text": "Moderna's year is back-loaded: fall vaccination drives the second half, and about 55% of second-half revenue is expected in Q3 alone. Q2's $145M \u2014 $87M of it in the U.S. \u2014 is the smallest quarter of the year, against $867M of research and overhead."
+    },
+    {
+      "stat": "-7%",
+      "statColor": "#3e8e5a",
+      "title": "Costs are coming down",
+      "text": "R&D fell 7% to $651M, SG&A 6% to $216M and cost of sales 22% to $93M. Moderna improved its 2026 operating-expense outlook by about $0.2B and raised its expected year-end cash to $4.7\u20135.2B."
+    },
+    {
+      "stat": "Aug 5",
+      "statColor": "#5b6b7c",
+      "title": "The pipeline giveth and taketh away",
+      "text": "The norovirus vaccine's Phase 3 interim analysis missed its early-success criteria, so Moderna will enroll an additional cohort. Offsetting that: its flu vaccine mFLUSIVA faced an August 5 FDA decision date, and Phase 3 melanoma data for the intismeran cancer vaccine could arrive in 2026."
+    }
+  ],
+  "oneTimers": [
+    "Cost of sales includes $41M of inventory write-downs and $23M of costs for manufacturing capacity that sat unused \u2014 the price of keeping vaccine plants ready for the fall season.",
+    "After the quarter ended, Moderna paid $950M in July 2026 to settle the litigation announced in Q1 \u2014 the settlement behind a roughly $0.9B non-recurring charge in first-half cost of sales (first-half cost of sales was $1,048M, vs $209M a year ago). That payment is not in Q2's $93M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm"
+    }
+  ]
+}

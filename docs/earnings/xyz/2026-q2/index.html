@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Block — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Block Q2 2026 earnings in plain English: Block&#x27;s gross profit rose 25% to $3.2B — Cash App up 31%, Square up 13% — but a steep tax bill and an $88M paper loss on its bitcoin holdings cut reported net income to $89M.">
+<meta property="og:title" content="Block — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Block&#x27;s gross profit rose 25% to $3.2B — Cash App up 31%, Square up 13% — but a steep tax bill and an $88M paper loss on its bitcoin holdings cut reported net income to $89M.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/xyz/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/xyz/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Block quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Block <span class="thin">(XYZ)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+9.9%</span>
+        <span class="q-meta">Reported 2026-11-03 · Revenue $6,719.4M</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+9.3%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $6,617.687M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Block — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-08-05
+    </div>
+  </header>
+
+  <p class="verdict">Block&#x27;s gross profit rose 25% to $3.2B — Cash App up 31%, Square up 13% — but a steep tax bill and an $88M paper loss on its bitcoin holdings cut reported net income to $89M.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Gross profit<b>$3.2B</b></span><span class="chip">Revenue<b>$6.6B</b></span><span class="chip">EPS (GAAP)<b>$0.15</b></span><span class="chip">Square GPV<b>$74.7B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Block's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Block took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Commerce enablement</span><div class="htrack"><div class="hfill" data-w="96.8" style="background:#3D7BC8"></div></div><span class="hval">$50.49</span></div>
+          <div class="hrow"><span class="hlabel">Financial solutions</span><div class="htrack"><div class="hfill" data-w="40.0" style="background:#3D7BC8"></div></div><span class="hval">$20.89</span></div>
+          <div class="hrow"><span class="hlabel">Bitcoin ecosystem</span><div class="htrack"><div class="hfill" data-w="54.9" style="background:#3D7BC8"></div></div><span class="hval">$28.62</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$52.16</span></div>
+          <div class="hrow"><span class="hlabel">Product development</span><div class="htrack"><div class="hfill" data-w="17.6" style="background:#D96A57"></div></div><span class="hval">−$9.20</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="19.3" style="background:#CF5F4E"></div></div><span class="hval">−$10.05</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="23.9" style="background:#CF5F4E"></div></div><span class="hval">−$12.48</span></div>
+          <div class="hrow"><span class="hlabel">Transaction &amp; loan losses</span><div class="htrack"><div class="hfill" data-w="17.0" style="background:#D96A57"></div></div><span class="hval">−$8.85</span></div>
+          <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="1.0" style="background:#D96A57"></div></div><span class="hval">−$0.52</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="4.2" style="background:#D96A57"></div></div><span class="hval">−$2.18</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="6.2" style="background:#B8443C"></div></div><span class="hval">−$3.24</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="2.6" style="background:#3E8E5A"></div></div><span class="hval">$1.34</span></div>
+      <p class="hnote">Bitcoin is the illusion in Block&#x27;s revenue: $28.62 of every $100 comes in from bitcoin sales and $27.53 goes straight back out to buy the bitcoin. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">+25%</div>
+            <h3>Gross profit is the growth story</h3>
+            <p>Gross profit rose 25% to $3,166M — Cash App contributed $1,974M (+31%) and Square $1,157M (+13%). Block raised its full-year gross profit guidance to $12.51B.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">$864M</div>
+            <h3>Record adjusted profitability</h3>
+            <p>Adjusted operating income hit a record $864M — a 27% margin on gross profit — and adjusted EPS rose 65% to $1.02. Block&#x27;s own AI tools are part of the story: in June, agentic AI helped write and review nearly all of its production code changes.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#cf5f4e">$0.15</div>
+            <h3>Tax and bitcoin hid the progress</h3>
+            <p>GAAP EPS fell to $0.15 from $0.87 a year ago. An $88M paper loss on bitcoin (a $212M gain a year ago) and a $214M tax provision on $301M of pre-tax income — a 71% effective rate — did the damage, not the operating business.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>An $88M non-cash loss from revaluing Block&#x27;s bitcoin holdings — versus a $212M gain in the same quarter last year — sits below operating income and is the biggest single reason net income fell to $89M from $538M.</li><li>The $214M tax provision on $301M of pre-tax income is a 71% effective rate, far above Block&#x27;s usual level — taxes, not operations, squeezed this quarter&#x27;s bottom line.</li><li>Adjusted figures strip out share-based compensation and other items: adjusted operating income was $864M versus $447M GAAP, and adjusted EPS $1.02 versus $0.15 GAAP.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1512673/000119312526335117/d91486dex991.htm">Official Q2 2026 shareholder letter (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net income is the figure attributable to common stockholders.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":6.618,"nodes":{"seg0":{"name":"Commerce enablement","amt":"$3.3B","value":3.342,"col":0,"color":"#3D7BC8","note":"+15% \u00b7 50.5% of revenue","plain":"Square's business: payment processing and tools for sellers, plus Cash App's commerce features. Square's gross payment volume was $74,734M, up 12% \u2014 U.S. volume growth was the strongest since Q2 2023.","quarter":"50.5% of all revenue this quarter."},"seg1":{"name":"Financial solutions","amt":"$1.4B","value":1.382,"col":0,"color":"#7A68C4","note":"+40% \u00b7 20.9% of revenue","plain":"Cash App's money products \u2014 Borrow loans, Afterpay buy-now-pay-later, the Cash App Card and banking features. Almost all of this revenue is kept: costs were just $94M against $1,382M of revenue.","quarter":"20.9% of all revenue this quarter."},"seg2":{"name":"Bitcoin ecosystem","amt":"$1.9B","value":1.894,"col":0,"color":"#2E7CC4","note":"-13% \u00b7 28.6% of revenue","plain":"Bitcoin bought and sold through Cash App, plus Block's bitcoin hardware and mining efforts. Enormous revenue, almost no profit: $1,821M of costs against $1,894M of revenue left just $72M of gross profit.","quarter":"28.6% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$6.6B","value":6.618,"col":1,"color":"#2F3B4C","note":"+9.3%","plain":"All the money Block took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$6.6B, +9.3% vs a year ago."},"gross":{"name":"Gross profit","amt":"$3.2B","value":3.166,"col":2,"color":"#69B578","note":"47.8% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"47.8 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($3.5B)","value":3.452,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$3.5B \u2014 about 52.2 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$447M","value":0.447,"col":3,"color":"#4C9A67","note":"6.8% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 6.8% margin."},"opex":{"name":"Operating expenses","amt":"($2.7B)","value":2.719,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$2.7B total, split into Product development, Sales and marketing, General and administrative, Transaction & loan losses, Amortization on the right."},"otherexp":{"name":"Other expense","amt":"($144M)","value":0.144,"col":4,"color":"#B8443C","note":"","plain":"Interest expense, net $56M, an $88M non-cash loss from revaluing Block's bitcoin holdings and $1M of other expense came to $145M; the $1M loss borne by noncontrolling interests brings the net hit to common shareholders to $144M.","quarter":"$144M taken out of profit."},"ox0":{"name":"Product development","amt":"($609M)","value":0.609,"col":4,"color":"#CF5F4E","note":"9.2% of revenue","plain":"Engineers and designers building Square, Cash App and Block's bitcoin products.","quarter":"$609M \u2014 9.2% of revenue."},"ox1":{"name":"Sales and marketing","amt":"($665M)","value":0.665,"col":4,"color":"#CF5F4E","note":"10% of revenue","plain":"Winning sellers for Square and new users for Cash App.","quarter":"$665M \u2014 10% of revenue."},"ox2":{"name":"General and administrative","amt":"($826M)","value":0.826,"col":4,"color":"#CF5F4E","note":"12.5% of revenue","plain":"Running the company \u2014 finance, legal, people and offices.","quarter":"$826M \u2014 12.5% of revenue."},"ox3":{"name":"Transaction & loan losses","amt":"($585M)","value":0.585,"col":4,"color":"#CF5F4E","note":"8.8% of revenue","plain":"Money Block expects not to collect on Cash App Borrow, Afterpay and seller loans \u2014 the cost of being a lender.","quarter":"$585M \u2014 8.8% of revenue."},"ox4":{"name":"Amortization","amt":"($34M)","value":0.034,"col":4,"color":"#CF5F4E","note":"0.5% of revenue","plain":"Spreading the cost of companies Block has bought.","quarter":"$34M \u2014 0.5% of revenue.","compact":true,"compactLabel":"Amortization: $34M (0.5% of revenue)"},"net":{"name":"Net profit","amt":"$89M","value":0.089,"col":4,"color":"#3E8E5A","note":"1.3% margin","plain":"The bottom line \u2014 what Block actually earned after everything.","quarter":"$89M \u2014 about 1.3 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($214M)","value":0.214,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$214M \u2014 roughly a 70.8% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3","ox4"]],"links":[{"s":"seg0","d":"rev","v":3.342,"c":"#94b6e1","amt":"$3.3B"},{"s":"seg1","d":"rev","v":1.382,"c":"#b6acdf","amt":"$1.4B"},{"s":"seg2","d":"rev","v":1.894,"c":"#8cb7df","amt":"$1.9B"},{"s":"rev","d":"gross","v":3.166,"c":"#BFE0C6","amt":"$3.2B"},{"s":"rev","d":"cost","v":3.452,"c":"#F4C7B9","amt":"$3.5B"},{"s":"gross","d":"op","v":0.447,"c":"#ACD8B8","amt":"$447M"},{"s":"gross","d":"opex","v":2.719,"c":"#F2B3A4","amt":"$2.7B"},{"s":"op","d":"net","v":0.089,"c":"#ACD8B8","amt":"$89M"},{"s":"op","d":"otherexp","v":0.144,"c":"#dfaba7","amt":"$144M"},{"s":"op","d":"tax","v":0.214,"c":"#dfaba7","amt":"$214M"},{"s":"opex","d":"ox0","v":0.609,"c":"#F6C0B1","amt":"$609M"},{"s":"opex","d":"ox1","v":0.665,"c":"#F6C0B1","amt":"$665M"},{"s":"opex","d":"ox2","v":0.826,"c":"#F6C0B1","amt":"$826M"},{"s":"opex","d":"ox3","v":0.585,"c":"#F6C0B1","amt":"$585M"},{"s":"opex","d":"ox4","v":0.034,"c":"#F6C0B1","amt":"$34M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

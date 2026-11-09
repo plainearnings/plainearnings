@@ -1,0 +1,160 @@
+{
+  "ticker": "INTU",
+  "company": "Intuit",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-04-30",
+  "reportedDate": "2026-05-20",
+  "verdict": "Intuit's tax-season quarter delivered: revenue rose 10% to $8.6B and net income 9% to $3.1B, powered by TurboTax's assisted-tax growth and a 19% jump in QuickBooks' online ecosystem.",
+  "revenueYoY": "+10%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.6B",
+      "note": "+10% YoY \u2014 the tax-season peak quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$11.09",
+      "note": "vs $12.80 non-GAAP"
+    },
+    {
+      "label": "TurboTax revenue",
+      "value": "$4.4B",
+      "note": "+7% YoY, on higher prices and assisted tax"
+    },
+    {
+      "label": "Credit Karma",
+      "value": "$631M",
+      "note": "+15% YoY \u2014 personal loans and insurance"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Global Business Solutions",
+      "amountM": 3285,
+      "note": "QuickBooks and Mailchimp for small and mid-sized businesses. The online ecosystem brought in $2.5B (+19%), with QuickBooks Online accounting revenue up 22% \u2014 price rises, customer growth and richer mix.",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Consumer",
+      "amountM": 5273,
+      "note": "TurboTax ($4,364M in its peak quarter), Credit Karma ($631M, +15%) and ProTax for professional preparers ($278M, flat). This is the segment that makes Q3 Intuit's biggest quarter of the year.",
+      "yoy": "+8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 8558,
+    "costOfRevenueM": 1374,
+    "grossProfitM": 7184,
+    "costPlain": "Running Intuit's cloud services and customer support ($1,317M), product costs ($14M), and amortization of acquired technology ($43M).",
+    "opex": [
+      {
+        "name": "Selling and marketing",
+        "amountM": 1793,
+        "note": "Selling TurboTax, QuickBooks and Credit Karma \u2014 tax season is when the year's customers are won."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 840,
+        "note": "Building QuickBooks, TurboTax, Credit Karma and Mailchimp \u2014 increasingly, AI agents that do bookkeeping and tax prep."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 409,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 122,
+        "note": "Spreading the cost of customer relationships and other assets from acquisitions like Mailchimp and Credit Karma.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 4020,
+    "otherIncomeM": 27,
+    "taxM": 983,
+    "netIncomeM": 3064
+  },
+  "otherDetail": "Interest and other income, net of $97M, less $70M of interest expense, added $27M.",
+  "footerNote": "Cost combines Intuit's three reported cost-of-revenue lines.",
+  "pngFooterNote": "Cost combines Intuit's three reported cost-of-revenue lines.",
+  "follow100Note": "This is Intuit at full stretch: in tax season it keeps $35.81 of every $100 \u2014 compare the off-season quarter, when it keeps far less. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$5.3B",
+      "statColor": "#3e8e5a",
+      "title": "Tax season is still the main event",
+      "text": "Consumer revenue was $5,273M, 62% of the company. TurboTax grew 7% to $4,364M \u2014 fewer federal returns, but higher prices and fast growth in assisted tax (TurboTax Live is guided to +36% for the full year) more than made up for it."
+    },
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "title": "QuickBooks' online engine keeps compounding",
+      "text": "Global Business Solutions grew 15% to $3,285M, with the online ecosystem up 19% to $2.5B and QuickBooks Online accounting revenue up 22%. Mid-market businesses are growing north of 30%."
+    },
+    {
+      "stat": "$1.6B",
+      "statColor": "#5b6b7c",
+      "title": "Cash comes back to shareholders",
+      "text": "Intuit bought back $1.6B of stock in the quarter and ended it with $6.8B of cash and investments against $6.2B of debt. It also raised its full-year FY26 revenue guidance alongside this print."
+    }
+  ],
+  "oneTimers": [
+    "Share-based compensation was $485M in the quarter \u2014 counted in GAAP profit, and the main reason non-GAAP EPS ($12.80) sits well above the GAAP figure ($11.09).",
+    "There was no restructuring charge this quarter (versus $1M a year ago) \u2014 unusually for Intuit's recent prints, the GAAP numbers are clean of big one-off charges.",
+    "Segment split: Consumer revenue is stated in the release; Global Business Solutions is the remainder of total revenue."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3earningspressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000025/intu-20260430.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Global Business Solutions",
+      "amount": 38.39
+    },
+    {
+      "label": "Consumer",
+      "amount": 61.61
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -16.06
+    },
+    {
+      "label": "Selling & marketing",
+      "amount": -20.95
+    },
+    {
+      "label": "R&D",
+      "amount": -9.82
+    },
+    {
+      "label": "G&A",
+      "amount": -4.78
+    },
+    {
+      "label": "Amortization",
+      "amount": -1.43
+    },
+    {
+      "label": "Other income",
+      "amount": 0.32
+    },
+    {
+      "label": "Tax",
+      "amount": -11.49
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 35.8
+    }
+  ]
+}

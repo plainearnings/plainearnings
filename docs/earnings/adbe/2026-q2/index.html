@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adobe — Q2 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Adobe Q2 FY26 earnings in plain English: Adobe posted record revenue of $6.6B, up 13%, with AI-first recurring revenue tripling past $500M — but a goodwill impairment charge held GAAP profit growth to just 1%, at $1.7B.">
+<meta property="og:title" content="Adobe — Q2 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Adobe posted record revenue of $6.6B, up 13%, with AI-first recurring revenue tripling past $500M — but a goodwill impairment charge held GAAP profit growth to just 1%, at $1.7B.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/adbe/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/adbe/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Adobe quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Adobe <span class="thin">(ADBE)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+13%</span>
+        <span class="q-meta">Reported 2026-09-10 · Revenue $6,760M</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 FY26</span>
+        <span class="q-badge">+13%</span>
+        <span class="q-meta">Reported 2026-06-11 · Revenue $6,618M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Adobe — Q2 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 FY26</strong> · Quarter ended 2026-05-29<br>
+      Reported 2026-06-11
+    </div>
+  </header>
+
+  <p class="verdict">Adobe posted record revenue of $6.6B, up 13%, with AI-first recurring revenue tripling past $500M — but a goodwill impairment charge held GAAP profit growth to just 1%, at $1.7B.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$6.6B</b></span><span class="chip">EPS (GAAP)<b>$4.25</b></span><span class="chip">Total ARR<b>$27.1B</b></span><span class="chip">AI-first ARR<b>$500M+</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Adobe's Q2 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Adobe took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Subscription</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$96.95</span></div>
+          <div class="hrow"><span class="hlabel">Product</span><div class="htrack"><div class="hfill" data-w="1.4" style="background:#3D7BC8"></div></div><span class="hval">$1.34</span></div>
+          <div class="hrow"><span class="hlabel">Services &amp; other</span><div class="htrack"><div class="hfill" data-w="1.8" style="background:#3D7BC8"></div></div><span class="hval">$1.71</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="11.1" style="background:#D96A57"></div></div><span class="hval">−$10.80</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="18.7" style="background:#CF5F4E"></div></div><span class="hval">−$18.10</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="29.4" style="background:#CF5F4E"></div></div><span class="hval">−$28.47</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="8.5" style="background:#CF5F4E"></div></div><span class="hval">−$8.25</span></div>
+          <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="0.6" style="background:#D96A57"></div></div><span class="hval">−$0.56</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="8.2" style="background:#B8443C"></div></div><span class="hval">−$7.95</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="26.7" style="background:#3E8E5A"></div></div><span class="hval">$25.87</span></div>
+      <p class="hnote">The split to notice: sales &amp; marketing ($28.47) costs Adobe more per $100 than research &amp; development ($18.10). Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">3x</div>
+            <h3>AI-first products are a real business now</h3>
+            <p>Recurring revenue from Adobe&#x27;s AI-first products tripled year over year and passed $500M, and total ARR ended the quarter at $27.10B — including about $480M from the newly acquired Semrush.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">97%</div>
+            <h3>The subscription machine</h3>
+            <p>Subscriptions were $6,416M of the $6,618M total, and remaining performance obligations (contracted future revenue) reached $22.27B. Very little of Adobe&#x27;s revenue has to be re-won each quarter.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">+1%</div>
+            <h3>Profit barely grew</h3>
+            <p>Revenue rose 13% but net income only 1%, to $1,712M. A goodwill impairment charge and heavy spending weighed on GAAP profit; non-GAAP net income, which sets those aside, was $2.40B. Adobe still raised its full-year revenue and non-GAAP EPS targets.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>GAAP results include a non-cash goodwill impairment charge of $0.17 per share related to the Publishing &amp; Advertising reporting unit — it is the main reason GAAP EPS ($4.25) trails the non-GAAP figure ($5.96) by more than stock pay alone would explain.</li><li>Adobe closed its Semrush acquisition during the period: Semrush added roughly $480M of ARR and about $40M of subscription revenue in the quarter, and Adobe&#x27;s updated full-year targets include it.</li><li>Adobe also announced a CFO change with this print: Dan Durn departed on June 15, 2026, with Steve Day, a 20-year Adobe finance leader, serving as interim CFO.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 FY26</a></li><li><a href="../2026-q2/" class="current">Q2 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm">Official earnings release (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Revenue is split by type, not by customer group.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":6.618,"nodes":{"seg0":{"name":"Subscription","amt":"$6.4B","value":6.416,"col":0,"color":"#3D7BC8","note":"+14% \u00b7 96.9% of revenue","plain":"Creative Cloud, Acrobat and Experience Cloud subscriptions \u2014 97 cents of every revenue dollar. Creative & Marketing Professionals paid $4,540M (+13%); Business Professionals & Consumers paid $1,850M (+16%).","quarter":"96.9% of all revenue this quarter."},"seg1":{"name":"Product","amt":"$89M","value":0.089,"col":0,"color":"#7A68C4","note":"+1% \u00b7 1.3% of revenue","plain":"One-time software licenses \u2014 a small legacy line from before Adobe moved to subscriptions.","quarter":"1.3% of all revenue this quarter.","compact":true,"compactLabel":"Product: $89M (+1%)"},"seg2":{"name":"Services and other","amt":"$113M","value":0.113,"col":0,"color":"#2E7CC4","note":"-22% \u00b7 1.7% of revenue","plain":"Consulting, training and support services sold alongside the software.","quarter":"1.7% of all revenue this quarter.","compact":true,"compactLabel":"Services & other: $113M (-22%)"},"rev":{"name":"Revenue","amt":"$6.6B","value":6.618,"col":1,"color":"#2F3B4C","note":"+13%","plain":"All the money Adobe took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$6.6B, +13% vs a year ago."},"gross":{"name":"Gross profit","amt":"$5.9B","value":5.903,"col":2,"color":"#69B578","note":"89.2% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"89.2 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($715M)","value":0.715,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$715M \u2014 about 10.8 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$2.2B","value":2.238,"col":3,"color":"#4C9A67","note":"33.8% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 33.8% margin."},"opex":{"name":"Operating expenses","amt":"($3.7B)","value":3.665,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$3.7B total, split into Research & development, Sales & marketing, General & administrative, Amortization on the right."},"ox0":{"name":"Research & development","amt":"($1.2B)","value":1.198,"col":4,"color":"#CF5F4E","note":"18.1% of revenue","plain":"Building Photoshop, Acrobat, Firefly AI and the rest of the product line.","quarter":"$1.2B \u2014 18.1% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($1.9B)","value":1.884,"col":4,"color":"#CF5F4E","note":"28.5% of revenue","plain":"Sales teams, advertising and marketing \u2014 Adobe's biggest running cost.","quarter":"$1.9B \u2014 28.5% of revenue."},"ox2":{"name":"General & administrative","amt":"($546M)","value":0.546,"col":4,"color":"#CF5F4E","note":"8.3% of revenue","plain":"Running the company day to day: finance, legal, HR, offices \u2014 this quarter it also carries a goodwill impairment charge (see one-time items).","quarter":"$546M \u2014 8.3% of revenue."},"ox3":{"name":"Amortization","amt":"($37M)","value":0.037,"col":4,"color":"#CF5F4E","note":"0.6% of revenue","plain":"Spreading the cost of technology and customer relationships bought in past acquisitions.","quarter":"$37M \u2014 0.6% of revenue.","compact":true,"compactLabel":"Amortization: $37M (0.6% of revenue)"},"net":{"name":"Net profit","amt":"$1.7B","value":1.712,"col":4,"color":"#3E8E5A","note":"25.9% margin","plain":"The bottom line \u2014 what Adobe actually earned after everything.","quarter":"$1.7B \u2014 about 25.9 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($526M)","value":0.526,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$526M \u2014 roughly a 23.5% tax rate on pre-tax profit."}},"cols":[["seg0","seg1","seg2"],["rev"],["gross","cost"],["op","opex"],["net","tax","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":6.416,"c":"#94b6e1","amt":"$6.4B"},{"s":"seg1","d":"rev","v":0.089,"c":"#b6acdf","amt":"$89M"},{"s":"seg2","d":"rev","v":0.113,"c":"#8cb7df","amt":"$113M"},{"s":"rev","d":"gross","v":5.903,"c":"#BFE0C6","amt":"$5.9B"},{"s":"rev","d":"cost","v":0.715,"c":"#F4C7B9","amt":"$715M"},{"s":"gross","d":"op","v":2.238,"c":"#ACD8B8","amt":"$2.2B"},{"s":"gross","d":"opex","v":3.665,"c":"#F2B3A4","amt":"$3.7B"},{"s":"op","d":"net","v":1.712,"c":"#ACD8B8","amt":"$1.7B"},{"s":"op","d":"tax","v":0.526,"c":"#dfaba7","amt":"$526M"},{"s":"opex","d":"ox0","v":1.198,"c":"#F6C0B1","amt":"$1.2B"},{"s":"opex","d":"ox1","v":1.884,"c":"#F6C0B1","amt":"$1.9B"},{"s":"opex","d":"ox2","v":0.546,"c":"#F6C0B1","amt":"$546M"},{"s":"opex","d":"ox3","v":0.037,"c":"#F6C0B1","amt":"$37M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

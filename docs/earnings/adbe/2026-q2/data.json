@@ -1,0 +1,164 @@
+{
+  "ticker": "ADBE",
+  "company": "Adobe",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-05-29",
+  "reportedDate": "2026-06-11",
+  "verdict": "Adobe posted record revenue of $6.6B, up 13%, with AI-first recurring revenue tripling past $500M \u2014 but a goodwill impairment charge held GAAP profit growth to just 1%, at $1.7B.",
+  "revenueYoY": "+13%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$6.6B",
+      "note": "+13% YoY \u2014 a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.25",
+      "note": "vs $5.96 non-GAAP"
+    },
+    {
+      "label": "Total ARR",
+      "value": "$27.1B",
+      "note": "annualized recurring revenue, incl. ~$480M from Semrush"
+    },
+    {
+      "label": "AI-first ARR",
+      "value": "$500M+",
+      "note": "tripled year over year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 6416,
+      "note": "Creative Cloud, Acrobat and Experience Cloud subscriptions \u2014 97 cents of every revenue dollar. Creative & Marketing Professionals paid $4,540M (+13%); Business Professionals & Consumers paid $1,850M (+16%).",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Product",
+      "amountM": 89,
+      "note": "One-time software licenses \u2014 a small legacy line from before Adobe moved to subscriptions.",
+      "shortName": "Product",
+      "yoy": "+1%"
+    },
+    {
+      "name": "Services and other",
+      "amountM": 113,
+      "note": "Consulting, training and support services sold alongside the software.",
+      "shortName": "Services & other",
+      "yoy": "-22%"
+    }
+  ],
+  "flow": {
+    "revenueM": 6618,
+    "costOfRevenueM": 715,
+    "grossProfitM": 5903,
+    "costPlain": "Running Adobe's cloud services \u2014 data centers, customer support and the cost of delivering its software.",
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1198,
+        "note": "Building Photoshop, Acrobat, Firefly AI and the rest of the product line."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1884,
+        "note": "Sales teams, advertising and marketing \u2014 Adobe's biggest running cost."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 546,
+        "note": "Running the company day to day: finance, legal, HR, offices \u2014 this quarter it also carries a goodwill impairment charge (see one-time items)."
+      },
+      {
+        "name": "Amortization",
+        "amountM": 37,
+        "note": "Spreading the cost of technology and customer relationships bought in past acquisitions.",
+        "compact": true
+      }
+    ],
+    "operatingIncomeM": 2238,
+    "otherIncomeM": 0,
+    "taxM": 526,
+    "netIncomeM": 1712
+  },
+  "otherDetail": "Non-operating items netted to exactly zero: $65M of interest expense was offset by $18M of investment gains and $47M of other income.",
+  "footerNote": "Revenue is split by type, not by customer group.",
+  "pngFooterNote": "Revenue is split by type, not by customer group.",
+  "follow100Note": "The split to notice: sales & marketing ($28.47) costs Adobe more per $100 than research & development ($18.10). Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "3x",
+      "statColor": "#3d7bc8",
+      "title": "AI-first products are a real business now",
+      "text": "Recurring revenue from Adobe's AI-first products tripled year over year and passed $500M, and total ARR ended the quarter at $27.10B \u2014 including about $480M from the newly acquired Semrush."
+    },
+    {
+      "stat": "97%",
+      "statColor": "#3e8e5a",
+      "title": "The subscription machine",
+      "text": "Subscriptions were $6,416M of the $6,618M total, and remaining performance obligations (contracted future revenue) reached $22.27B. Very little of Adobe's revenue has to be re-won each quarter."
+    },
+    {
+      "stat": "+1%",
+      "statColor": "#5b6b7c",
+      "title": "Profit barely grew",
+      "text": "Revenue rose 13% but net income only 1%, to $1,712M. A goodwill impairment charge and heavy spending weighed on GAAP profit; non-GAAP net income, which sets those aside, was $2.40B. Adobe still raised its full-year revenue and non-GAAP EPS targets."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include a non-cash goodwill impairment charge of $0.17 per share related to the Publishing & Advertising reporting unit \u2014 it is the main reason GAAP EPS ($4.25) trails the non-GAAP figure ($5.96) by more than stock pay alone would explain.",
+    "Adobe closed its Semrush acquisition during the period: Semrush added roughly $480M of ARR and about $40M of subscription revenue in the quarter, and Adobe's updated full-year targets include it.",
+    "Adobe also announced a CFO change with this print: Dan Durn departed on June 15, 2026, with Steve Day, a 20-year Adobe finance leader, serving as interim CFO."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 96.95
+    },
+    {
+      "label": "Product",
+      "amount": 1.34
+    },
+    {
+      "label": "Services & other",
+      "amount": 1.71
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -10.8
+    },
+    {
+      "label": "R&D",
+      "amount": -18.1
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -28.47
+    },
+    {
+      "label": "G&A",
+      "amount": -8.25
+    },
+    {
+      "label": "Amortization",
+      "amount": -0.56
+    },
+    {
+      "label": "Tax",
+      "amount": -7.95
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.87
+    }
+  ]
+}

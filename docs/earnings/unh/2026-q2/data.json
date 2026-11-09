@@ -1,0 +1,154 @@
+{
+  "ticker": "UNH",
+  "company": "UnitedHealth Group",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-16",
+  "verdict": "UnitedHealth Group's operating profit surged 55% to $8.0B even though revenue barely grew, because medical costs fell, the care ratio dropped to 86.7%, and both the insurer and Optum earned more.",
+  "revenueYoY": "+0.4%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+0.4%",
+      "note": "$112.0B in revenue, vs $111.6B a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$6.04",
+      "note": "vs $3.74 a year ago; adjusted EPS was $6.38"
+    },
+    {
+      "label": "Medical care ratio",
+      "value": "86.7%",
+      "note": "Share of premiums paid out as medical care \u2014 helped by $860M of favorable reserve development"
+    },
+    {
+      "label": "Earnings from operations",
+      "value": "$8.0B",
+      "note": "Up 55% vs $5.2B a year ago \u2014 UnitedHealthcare $3.9B, Optum $4.0B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premiums",
+      "amountM": 86956,
+      "note": "Health-insurance premiums from members, employers and government programs \u2014 the money people pay for coverage. UnitedHealthcare served 48.5 million people in the quarter.",
+      "yoy": "-1%"
+    },
+    {
+      "name": "Products",
+      "amountM": 13835,
+      "note": "Prescription drugs and other products sold, mainly through Optum Rx pharmacies.",
+      "yoy": "+2%"
+    },
+    {
+      "name": "Services",
+      "amountM": 10018,
+      "note": "Fees for delivering care and for health technology and data services, mainly from Optum Health clinics and Optum Insight.",
+      "yoy": "+11%"
+    },
+    {
+      "name": "Investment and other income",
+      "amountM": 1223,
+      "note": "Income from the company's investment portfolio and other small sources.",
+      "yoy": "+10%"
+    }
+  ],
+  "flow": {
+    "revenueM": 112032,
+    "costOfRevenueM": 88733,
+    "grossProfitM": 23299,
+    "opex": [
+      {
+        "name": "Operating costs",
+        "amountM": 14268,
+        "note": "The day-to-day cost of running the company \u2014 people, technology and offices. At 12.7% of revenue (the operating cost ratio), it reflects targeted investment in infrastructure, AI and care delivery."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 1040,
+        "note": "A non-cash charge spreading the cost of buildings, equipment, software and acquired businesses over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 7991,
+    "otherIncomeM": -1023,
+    "taxM": 1298,
+    "netIncomeM": 5670
+  },
+  "otherDetail": "Other expense of $1,023M is $962M of interest expense plus a $61M loss on subsidiaries held for sale (mainly the remaining South American businesses). Investment income is not in this line \u2014 it is already counted in revenue.",
+  "footerNote": "Net earnings of $5,670M include $186M belonging to noncontrolling interests; $5,484M is attributable to common shareholders.",
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+55%",
+      "statColor": "#3e8e5a",
+      "title": "Profit rebounded while sales stood still",
+      "text": "Earnings from operations jumped 55% to $8.0B and EPS rose to $6.04 from $3.74, even as revenue grew just 0.4% to $112.0B. The recovery came from spending less on medical care, not from growth \u2014 and the company raised its full-year 2026 adjusted EPS outlook to $19.50\u2013$20.00."
+    },
+    {
+      "stat": "86.7%",
+      "statColor": "#3d7bc8",
+      "title": "Medical costs came down hard",
+      "text": "The medical care ratio \u2014 the share of premiums paid out as medical care \u2014 was 86.7%, and medical costs fell about $3.2B to $75.4B. Pricing and benefit redesign helped, as did $860M of favorable reserve development: care cost less than the money set aside for it, mostly for 2026 dates of service."
+    },
+    {
+      "stat": "48.5M",
+      "statColor": "#5b6b7c",
+      "title": "Optum again out-earned the insurer",
+      "text": "UnitedHealthcare served 48.5 million people and earned $3.9B on $86.0B of revenue (a 4.6% margin). Optum supported more than 120 million consumers and earned $4.0B on $65.7B of revenue, with margins expanding 1.6 points year over year."
+    }
+  ],
+  "oneTimers": [
+    "Below operating earnings, UnitedHealth booked a $61M loss on subsidiaries held for sale, tied to the remaining South American businesses it is exiting; the six-month total on that line is $133M.",
+    "The medical care ratio includes $860M of net favorable prior-period development \u2014 care that cost less than the reserves set aside for it \u2014 which flatters the quarter's medical-cost improvement."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000191/earningsrelease2q26_7152.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Premiums",
+      "amount": 77.62
+    },
+    {
+      "label": "Products",
+      "amount": 12.35
+    },
+    {
+      "label": "Services",
+      "amount": 8.94
+    },
+    {
+      "label": "Investment and other income",
+      "amount": 1.09
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -79.2
+    },
+    {
+      "label": "Operating costs",
+      "amount": -12.74
+    },
+    {
+      "label": "Depreciation",
+      "amount": -0.93
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.91
+    },
+    {
+      "label": "Tax",
+      "amount": -1.16
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.06
+    }
+  ]
+}

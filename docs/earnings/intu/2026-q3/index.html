@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intuit — Q3 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Intuit Q3 FY26 earnings in plain English: Intuit&#x27;s tax-season quarter delivered: revenue rose 10% to $8.6B and net income 9% to $3.1B, powered by TurboTax&#x27;s assisted-tax growth and a 19% jump in QuickBooks&#x27; online ecosystem.">
+<meta property="og:title" content="Intuit — Q3 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Intuit&#x27;s tax-season quarter delivered: revenue rose 10% to $8.6B and net income 9% to $3.1B, powered by TurboTax&#x27;s assisted-tax growth and a 19% jump in QuickBooks&#x27; online ecosystem.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/intu/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/intu/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Intuit quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Intuit <span class="thin">(INTU)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+14%</span>
+        <span class="q-meta">Reported 2026-08-25 · Revenue $4,354M</span>
+      </a>
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+10%</span>
+        <span class="q-meta">Reported 2026-05-20 · Revenue $8,558M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Intuit — Q3 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 FY26</strong> · Quarter ended 2026-04-30<br>
+      Reported 2026-05-20
+    </div>
+  </header>
+
+  <p class="verdict">Intuit&#x27;s tax-season quarter delivered: revenue rose 10% to $8.6B and net income 9% to $3.1B, powered by TurboTax&#x27;s assisted-tax growth and a 19% jump in QuickBooks&#x27; online ecosystem.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue<b>$8.6B</b></span><span class="chip">EPS (GAAP)<b>$11.09</b></span><span class="chip">TurboTax revenue<b>$4.4B</b></span><span class="chip">Credit Karma<b>$631M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Intuit's Q3 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Intuit took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Global Business Solutions</span><div class="htrack"><div class="hfill" data-w="62.3" style="background:#3D7BC8"></div></div><span class="hval">$38.39</span></div>
+          <div class="hrow"><span class="hlabel">Consumer</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$61.61</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="26.1" style="background:#D96A57"></div></div><span class="hval">−$16.06</span></div>
+          <div class="hrow"><span class="hlabel">Selling &amp; marketing</span><div class="htrack"><div class="hfill" data-w="34.0" style="background:#D96A57"></div></div><span class="hval">−$20.95</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="15.9" style="background:#CF5F4E"></div></div><span class="hval">−$9.82</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="7.8" style="background:#CF5F4E"></div></div><span class="hval">−$4.78</span></div>
+          <div class="hrow"><span class="hlabel">Amortization</span><div class="htrack"><div class="hfill" data-w="2.3" style="background:#D96A57"></div></div><span class="hval">−$1.43</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="0.5" style="background:#3D7BC8"></div></div><span class="hval">$0.32</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="18.6" style="background:#B8443C"></div></div><span class="hval">−$11.49</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="58.1" style="background:#3E8E5A"></div></div><span class="hval">$35.80</span></div>
+      <p class="hnote">This is Intuit at full stretch: in tax season it keeps $35.81 of every $100 — compare the off-season quarter, when it keeps far less. Rows may not add exactly due to rounding.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3e8e5a">$5.3B</div>
+            <h3>Tax season is still the main event</h3>
+            <p>Consumer revenue was $5,273M, 62% of the company. TurboTax grew 7% to $4,364M — fewer federal returns, but higher prices and fast growth in assisted tax (TurboTax Live is guided to +36% for the full year) more than made up for it.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3d7bc8">+19%</div>
+            <h3>QuickBooks&#x27; online engine keeps compounding</h3>
+            <p>Global Business Solutions grew 15% to $3,285M, with the online ecosystem up 19% to $2.5B and QuickBooks Online accounting revenue up 22%. Mid-market businesses are growing north of 30%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$1.6B</div>
+            <h3>Cash comes back to shareholders</h3>
+            <p>Intuit bought back $1.6B of stock in the quarter and ended it with $6.8B of cash and investments against $6.2B of debt. It also raised its full-year FY26 revenue guidance alongside this print.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Share-based compensation was $485M in the quarter — counted in GAAP profit, and the main reason non-GAAP EPS ($12.80) sits well above the GAAP figure ($11.09).</li><li>There was no restructuring charge this quarter (versus $1M a year ago) — unusually for Intuit&#x27;s recent prints, the GAAP numbers are clean of big one-off charges.</li><li>Segment split: Consumer revenue is stated in the release; Global Business Solutions is the remainder of total revenue.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q4/" class="">Q4 FY26</a></li><li><a href="../2026-q3/" class="current">Q3 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3earningspressrelease.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/896878/000089687826000025/intu-20260430.htm">Form 10-Q (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Cost combines Intuit&#x27;s three reported cost-of-revenue lines.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":8.558,"nodes":{"seg0":{"name":"Global Business Solutions","amt":"$3.3B","value":3.285,"col":0,"color":"#3D7BC8","note":"+15% \u00b7 38.4% of revenue","plain":"QuickBooks and Mailchimp for small and mid-sized businesses. The online ecosystem brought in $2.5B (+19%), with QuickBooks Online accounting revenue up 22% \u2014 price rises, customer growth and richer mix.","quarter":"38.4% of all revenue this quarter."},"seg1":{"name":"Consumer","amt":"$5.3B","value":5.273,"col":0,"color":"#7A68C4","note":"+8% \u00b7 61.6% of revenue","plain":"TurboTax ($4,364M in its peak quarter), Credit Karma ($631M, +15%) and ProTax for professional preparers ($278M, flat). This is the segment that makes Q3 Intuit's biggest quarter of the year.","quarter":"61.6% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$8.6B","value":8.558,"col":1,"color":"#2F3B4C","note":"+10%","plain":"All the money Intuit took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$8.6B, +10% vs a year ago."},"gross":{"name":"Gross profit","amt":"$7.2B","value":7.184,"col":2,"color":"#69B578","note":"83.9% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"83.9 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($1.4B)","value":1.374,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$1.4B \u2014 about 16.1 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$27M","value":0.027,"col":3,"color":"#69B578","note":"","plain":"Interest and other income, net of $97M, less $70M of interest expense, added $27M.","quarter":"$27M added to profit."},"op":{"name":"Operating profit","amt":"$4.0B","value":4.02,"col":3,"color":"#4C9A67","note":"47% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 47% margin."},"opex":{"name":"Operating expenses","amt":"($3.2B)","value":3.164,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$3.2B total, split into Selling and marketing, Research & development, General and administrative, Amortization on the right."},"ox0":{"name":"Selling and marketing","amt":"($1.8B)","value":1.793,"col":4,"color":"#CF5F4E","note":"21% of revenue","plain":"Selling TurboTax, QuickBooks and Credit Karma \u2014 tax season is when the year's customers are won.","quarter":"$1.8B \u2014 21% of revenue."},"ox1":{"name":"Research & development","amt":"($840M)","value":0.84,"col":4,"color":"#CF5F4E","note":"9.8% of revenue","plain":"Building QuickBooks, TurboTax, Credit Karma and Mailchimp \u2014 increasingly, AI agents that do bookkeeping and tax prep.","quarter":"$840M \u2014 9.8% of revenue."},"ox2":{"name":"General and administrative","amt":"($409M)","value":0.409,"col":4,"color":"#CF5F4E","note":"4.8% of revenue","plain":"Running the company day to day.","quarter":"$409M \u2014 4.8% of revenue."},"ox3":{"name":"Amortization","amt":"($122M)","value":0.122,"col":4,"color":"#CF5F4E","note":"1.4% of revenue","plain":"Spreading the cost of customer relationships and other assets from acquisitions like Mailchimp and Credit Karma.","quarter":"$122M \u2014 1.4% of revenue.","compact":true,"compactLabel":"Amortization: $122M (1.4% of revenue)"},"net":{"name":"Net profit","amt":"$3.1B","value":3.064,"col":4,"color":"#3E8E5A","note":"35.8% margin","plain":"The bottom line \u2014 what Intuit actually earned after everything.","quarter":"$3.1B \u2014 about 35.8 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($983M)","value":0.983,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$983M \u2014 roughly a 24.3% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":3.285,"c":"#94b6e1","amt":"$3.3B"},{"s":"seg1","d":"rev","v":5.273,"c":"#b6acdf","amt":"$5.3B"},{"s":"rev","d":"gross","v":7.184,"c":"#BFE0C6","amt":"$7.2B"},{"s":"rev","d":"cost","v":1.374,"c":"#F4C7B9","amt":"$1.4B"},{"s":"gross","d":"op","v":4.02,"c":"#ACD8B8","amt":"$4.0B"},{"s":"gross","d":"opex","v":3.164,"c":"#F2B3A4","amt":"$3.2B"},{"s":"op","d":"net","v":3.037,"c":"#ACD8B8","amt":"$3.0B"},{"s":"otherin","d":"net","v":0.027,"c":"#ACD8B8","amt":"$27M"},{"s":"op","d":"tax","v":0.983,"c":"#dfaba7","amt":"$983M"},{"s":"opex","d":"ox0","v":1.793,"c":"#F6C0B1","amt":"$1.8B"},{"s":"opex","d":"ox1","v":0.84,"c":"#F6C0B1","amt":"$840M"},{"s":"opex","d":"ox2","v":0.409,"c":"#F6C0B1","amt":"$409M"},{"s":"opex","d":"ox3","v":0.122,"c":"#F6C0B1","amt":"$122M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

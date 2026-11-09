@@ -1,0 +1,127 @@
+{
+  "ticker": "HD",
+  "company": "Home Depot",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-05-03",
+  "reportedDate": "2026-05-19",
+  "verdict": "Home Depot grew sales 4.8% to $41.8B as bigger tickets offset fewer trips, but profit slipped 4% to $3.3B because the cost of merchandise rose faster than sales.",
+  "revenueYoY": "+4.8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$41.8B",
+      "note": "+4.8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.30",
+      "note": "vs $3.43 adjusted"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+0.6%",
+      "note": "+0.4% in the U.S.; currency added ~0.55 points"
+    },
+    {
+      "label": "Average ticket",
+      "value": "$92.76",
+      "note": "+2.3%, on 0.9% fewer transactions"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 41765,
+      "note": "Everything sold through 2,361 Home Depot stores and its website, plus over 1,280 SRS locations \u2014 the professional-supply business Home Depot has been buying to win more contractor spending.",
+      "yoy": "+4.8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 41765,
+    "costOfRevenueM": 27984,
+    "grossProfitM": 13781,
+    "costName": "Cost of sales",
+    "costPlain": "What Home Depot paid suppliers for the merchandise it sold, plus the cost of getting it into stores.",
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 7959,
+        "note": "Store payroll, rent, advertising and running the head office.",
+        "shortName": "SG&A"
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 841,
+        "note": "Spreading the cost of stores, warehouses and equipment over their useful lives \u2014 including $171M of amortization tied to acquired companies like SRS.",
+        "shortName": "Depreciation & amort."
+      }
+    ],
+    "operatingIncomeM": 4981,
+    "otherIncomeM": -604,
+    "taxM": 1088,
+    "netIncomeM": 3289
+  },
+  "otherDetail": "Interest and other, net was a $604M cost: $611M of interest expense on Home Depot's debt, partly offset by $7M of interest and other income.",
+  "follow100Note": "Two-thirds of every $100 goes straight back out as the cost of the merchandise itself \u2014 retail keeps a much thinner slice than software does. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+0.6%",
+      "statColor": "#3d7bc8",
+      "title": "Demand is flat, not falling",
+      "text": "Comparable sales rose 0.6% (0.4% in the U.S.), with currency adding about half a point. Management said underlying demand looked much as it did through fiscal 2025, despite consumer uncertainty and housing affordability pressure."
+    },
+    {
+      "stat": "$92.76",
+      "statColor": "#3e8e5a",
+      "title": "Bigger baskets, fewer trips",
+      "text": "The average ticket rose 2.3% to $92.76 while customer transactions fell 0.9% to 391.1 million (excluding HD Supply and SRS). Shoppers came less often but spent more each visit."
+    },
+    {
+      "stat": "33.0%",
+      "statColor": "#cf5f4e",
+      "title": "Margins got squeezed",
+      "text": "Cost of sales rose 6.0% against sales growth of 4.8%, so gross profit grew only 2.4% and the gross margin narrowed to 33.0% from 33.8% a year ago. Operating income fell 3% to $4,981M."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted results exclude $171M of amortization from acquired intangibles (including $119M tied to SRS) \u2014 on that basis EPS was $3.43 instead of the GAAP $3.30.",
+    "Home Depot reaffirmed its fiscal 2026 guidance with this print: sales growth of about 2.5\u20134.5%, comparable sales roughly flat to +2%, and a gross margin near 33.1%."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000101/hd_exhibit991x05032026.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -67.0
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.06
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -2.01
+    },
+    {
+      "label": "Interest & other",
+      "amount": -1.45
+    },
+    {
+      "label": "Tax",
+      "amount": -2.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.88
+    }
+  ]
+}
