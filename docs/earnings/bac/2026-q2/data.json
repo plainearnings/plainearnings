@@ -1,0 +1,189 @@
+{
+  "ticker": "BAC",
+  "company": "Bank of America",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-14",
+  "verdict": "Bank of America had one of its strongest quarters yet: revenue rose 15% to $31.6B, every business segment grew profit by double digits, and net income rose 27% to $9.1B.",
+  "revenueYoY": "+15%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$31.6B",
+      "note": "+15% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.21",
+      "note": "+34% YoY"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$16.0B",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "CET1 ratio",
+      "value": "11.2%",
+      "note": "capital strength, standardized"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 15997,
+      "yoy": "+9%",
+      "note": "The spread between what the bank earns on loans and investments and what it pays on deposits \u2014 its biggest single money source."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 15561,
+      "yoy": "+22%",
+      "note": "Fees and markets income: asset management fees, investment banking fees and sales & trading revenue of $7.1B."
+    }
+  ],
+  "flow": {
+    "revenueM": 31558,
+    "costOfRevenueM": 1366,
+    "costName": "Provision for credit losses",
+    "costPlain": "Money set aside for loans expected to go bad \u2014 the closest thing a bank has to a cost of goods sold.",
+    "grossProfitM": 30192,
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "opex": [
+      {
+        "name": "Compensation and benefits",
+        "amountM": 10987,
+        "note": "Pay and benefits for the bank's roughly 213,000 employees \u2014 well over half of all running costs.",
+        "shortName": "Compensation & benefits"
+      },
+      {
+        "name": "Information processing and communications",
+        "amountM": 1924,
+        "note": "Technology, data processing and communications \u2014 the plumbing of a digital bank.",
+        "shortName": "Info processing & comms"
+      },
+      {
+        "name": "Occupancy and equipment",
+        "amountM": 1914,
+        "note": "Branches, offices, ATMs and the equipment in them."
+      },
+      {
+        "name": "Product delivery and transaction related",
+        "amountM": 1327,
+        "note": "The cost of moving money: processing payments, producing cards and handling transactions.",
+        "shortName": "Product delivery"
+      },
+      {
+        "name": "Professional fees",
+        "amountM": 573,
+        "note": "Lawyers, auditors and outside consultants."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 736,
+        "note": "Advertising and promoting the bank's products."
+      },
+      {
+        "name": "Other general operating",
+        "amountM": 1166,
+        "note": "Everything else that does not fit the lines above.",
+        "shortName": "Other operating"
+      }
+    ],
+    "operatingIncomeM": 11565,
+    "opName": "Profit before tax",
+    "otherIncomeM": 0,
+    "taxM": 2491,
+    "netIncomeM": 9074
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 50.69
+    },
+    {
+      "label": "Noninterest income",
+      "amount": 49.31
+    },
+    {
+      "label": "Credit-loss provision",
+      "amount": -4.33
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -34.82
+    },
+    {
+      "label": "Info processing & comms",
+      "amount": -6.1
+    },
+    {
+      "label": "Occupancy & equipment",
+      "amount": -6.07
+    },
+    {
+      "label": "Product delivery",
+      "amount": -4.2
+    },
+    {
+      "label": "Professional fees",
+      "amount": -1.82
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.33
+    },
+    {
+      "label": "Other operating",
+      "amount": -3.69
+    },
+    {
+      "label": "Tax",
+      "amount": -7.89
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 28.75
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Growth everywhere at once",
+      "text": "Revenue rose 15% and every segment \u2014 consumer, wealth, global banking and markets \u2014 grew net income by double digits. Investment banking fees rose 50% and equities trading revenue rose 70%."
+    },
+    {
+      "stat": "59%",
+      "statColor": "#3e8e5a",
+      "title": "Efficiency improved sharply",
+      "text": "The efficiency ratio improved to 59% from 63% a year ago: revenue grew much faster than the $18.6B of expenses, a 6.6% operating-leverage gain."
+    },
+    {
+      "stat": "$8B",
+      "statColor": "#3e8e5a",
+      "title": "Shareholders got paid",
+      "text": "The bank returned about $8B to shareholders in the quarter through dividends and buybacks, while its CET1 capital ratio stayed strong at 11.2%."
+    }
+  ],
+  "oneTimers": [
+    "Preferred stock dividends of $326M sit between net income ($9,074M) and the $8,748M applicable to common shareholders."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000353/bac06302026ex991.htm"
+    },
+    {
+      "label": "Quarterly financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000353/bac-06302026ex993.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended June 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000394/bac-20260630.htm"
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference."
+}

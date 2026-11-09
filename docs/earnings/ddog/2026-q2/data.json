@@ -1,0 +1,131 @@
+{
+  "ticker": "DDOG",
+  "company": "Datadog",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-06",
+  "verdict": "Datadog grew revenue 36% to $1.12B as big customers expanded their usage, but stock pay ate almost all of the operating profit \u2014 GAAP operating income was just $5M, with net income of $45M helped by interest earnings.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.12",
+      "note": "vs $0.65 non-GAAP"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$279M",
+      "note": "25% of revenue"
+    },
+    {
+      "label": "$100k+ ARR customers",
+      "value": "4,720",
+      "note": "+23% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Platform subscriptions",
+      "amountM": 1121.5,
+      "yoy": "+36%",
+      "note": "One integrated platform \u2014 monitoring, security and AI observability, priced per host and per feature. Datadog reports a single revenue stream."
+    }
+  ],
+  "flow": {
+    "revenueM": 1121.5,
+    "costOfRevenueM": 240.1,
+    "grossProfitM": 881.4,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 478.0,
+        "note": "Building the platform and its AI features \u2014 by far the biggest running cost."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 311.5,
+        "note": "Selling to engineering and security teams at large companies."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 86.4,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 5.5,
+    "otherIncomeM": 46.3,
+    "taxM": 7.2,
+    "netIncomeM": 44.6
+  },
+  "follow100": [
+    {
+      "label": "Platform subscriptions",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.41
+    },
+    {
+      "label": "R&D",
+      "amount": -42.62
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -27.78
+    },
+    {
+      "label": "G&A",
+      "amount": -7.7
+    },
+    {
+      "label": "Other income",
+      "amount": 4.13
+    },
+    {
+      "label": "Tax",
+      "amount": -0.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.98
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+36%",
+      "statColor": "#3d7bc8",
+      "title": "Growth stayed hot",
+      "text": "Revenue grew 36% to $1.12B, and customers spending $100k+ a year rose 23% to about 4,720 \u2014 big companies keep putting more of their systems on Datadog."
+    },
+    {
+      "stat": "$5M vs $257M",
+      "statColor": "#b8443c",
+      "title": "Stock pay is the whole gap",
+      "text": "GAAP operating income was just $5M, while non-GAAP operating income was $257M. Almost the entire difference is $220M of stock-based compensation \u2014 pay delivered in shares rather than cash."
+    },
+    {
+      "stat": "$279M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow tells a richer story",
+      "text": "Free cash flow was $279M \u2014 25 cents per revenue dollar \u2014 and Datadog held $5.0B of cash and marketable securities at quarter-end."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation was $220M in the quarter, and G&A included $2M of M&A transaction costs (Datadog acquired AI startup Adaptive ML in the quarter)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ex-991x20260630x8k.htm"
+    }
+  ],
+  "otherDetail": "Other income of $46M, net \u2014 $50M of interest income and other income, minus $3M of interest expense on Datadog's convertible notes.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}

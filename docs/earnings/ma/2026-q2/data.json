@@ -1,0 +1,153 @@
+{
+  "ticker": "MA",
+  "company": "Mastercard",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-30",
+  "verdict": "Mastercard's net revenue rose 14% to $9.3B as card spending grew around the world, and net income rose 19% to $4.4B \u2014 another quarter of the toll-booth model doing its work.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Net revenue",
+      "value": "$9.3B",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.97",
+      "note": "vs $5.04 adjusted"
+    },
+    {
+      "label": "Cross-border volume",
+      "value": "+12%",
+      "note": "growth, local currency"
+    },
+    {
+      "label": "Value-added services",
+      "value": "$3.8B",
+      "note": "net revenue, +20% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Payment network",
+      "amountM": 5451,
+      "yoy": "+10%",
+      "note": "Fees every time a Mastercard is swiped, tapped or used online \u2014 gross dollar volume was $2.9 trillion in the quarter, up 8% in local currency."
+    },
+    {
+      "name": "Value-added services and solutions",
+      "amountM": 3826,
+      "yoy": "+20%",
+      "note": "Fraud protection, data analytics, consulting and identity services sold on top of the network \u2014 growing twice as fast as the network itself."
+    }
+  ],
+  "flow": {
+    "revenueM": 9277,
+    "costOfRevenueM": 0,
+    "grossProfitM": 9277,
+    "grossName": "Net revenue",
+    "grossNote": "already net of $6.0B of rebates",
+    "grossPlain": "Mastercard reports revenue already net of the $5,997M of rebates and incentives it pays banks and merchants to win card business \u2014 so there is no separate cost-of-revenue line in its books. The costs were taken out before revenue was counted.",
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 3082,
+        "note": "Salaries, technology and offices for the people who run the network \u2014 by far Mastercard's biggest cost."
+      },
+      {
+        "name": "Advertising and marketing",
+        "amountM": 217,
+        "note": "Brand campaigns, sponsorships and the 'Priceless' advertising."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 309,
+        "note": "Spreading the cost of buildings, data centers, equipment and acquired technology."
+      },
+      {
+        "name": "Provision for litigation",
+        "amountM": 82,
+        "note": "Legal provisions, including ATM surcharge complaints and merchants who opted out of the U.S. merchant class litigation \u2014 Mastercard flags this as a special item."
+      }
+    ],
+    "operatingIncomeM": 5587,
+    "otherIncomeM": -101,
+    "taxM": 1098,
+    "netIncomeM": 4388
+  },
+  "follow100": [
+    {
+      "label": "Payment network",
+      "amount": 58.76
+    },
+    {
+      "label": "Value-added services",
+      "amount": 41.24
+    },
+    {
+      "label": "G&A",
+      "amount": -33.22
+    },
+    {
+      "label": "Advertising & marketing",
+      "amount": -2.34
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -3.33
+    },
+    {
+      "label": "Litigation provision",
+      "amount": -0.88
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.09
+    },
+    {
+      "label": "Tax",
+      "amount": -11.84
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 47.3
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Spending held up everywhere",
+      "text": "Gross dollar volume rose 8% in local currency, cross-border volume rose 12% and switched transactions rose 9% \u2014 the growth was broad, not one market carrying the rest."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3e8e5a",
+      "title": "Services are the growth engine",
+      "text": "Value-added services net revenue grew 20% to $3.8B \u2014 fraud, data and consulting products now bring in over 40% of Mastercard's revenue."
+    },
+    {
+      "stat": "60%",
+      "statColor": "#3e8e5a",
+      "title": "Six dollars in ten became operating profit",
+      "text": "The operating margin was 60.2%, up from 58.7% a year ago. Net income rose 19% to $4.4B despite an $82M litigation provision flagged as a special item."
+    }
+  ],
+  "oneTimers": [
+    "An $82M litigation provision \u2014 covering ATM non-discrimination surcharge complaints, a change in estimate on claims from merchants who opted out of the U.S. merchant class litigation, and other legal matters \u2014 is flagged by Mastercard as a special item. Excluding it and a $2M loss on equity investments, adjusted net income was $4.5B and adjusted EPS was $5.04."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended June 30, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000083/ma-20260630.htm"
+    }
+  ],
+  "otherDetail": "Other income (expense) was \u2212$101M: $88M of investment income and $31M of other income, outweighed by $218M of interest expense and a $2M loss on equity investments.",
+  "follow100Note": "Rows add up with a small rounding difference. The first row is net revenue (already net of rebates), so there is no cost-of-revenue row."
+}

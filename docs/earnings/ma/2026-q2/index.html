@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mastercard — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Mastercard Q2 2026 earnings in plain English: Mastercard&#x27;s net revenue rose 14% to $9.3B as card spending grew around the world, and net income rose 19% to $4.4B — another quarter of the toll-booth model doing its work.">
+<meta property="og:title" content="Mastercard — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Mastercard&#x27;s net revenue rose 14% to $9.3B as card spending grew around the world, and net income rose 19% to $4.4B — another quarter of the toll-booth model doing its work.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/ma/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/ma/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Mastercard quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Mastercard <span class="thin">(MA)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+14%</span>
+        <span class="q-meta">Reported 2026-10-29 · Revenue $9,807M</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+14%</span>
+        <span class="q-meta">Reported 2026-07-30 · Revenue $9,277M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Mastercard — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-07-30
+    </div>
+  </header>
+
+  <p class="verdict">Mastercard&#x27;s net revenue rose 14% to $9.3B as card spending grew around the world, and net income rose 19% to $4.4B — another quarter of the toll-booth model doing its work.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Net revenue<b>$9.3B</b></span><span class="chip">EPS (GAAP)<b>$4.97</b></span><span class="chip">Cross-border volume<b>+12%</b></span><span class="chip">Value-added services<b>$3.8B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Mastercard's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Mastercard took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Payment network</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$58.76</span></div>
+          <div class="hrow"><span class="hlabel">Value-added services</span><div class="htrack"><div class="hfill" data-w="70.2" style="background:#3D7BC8"></div></div><span class="hval">$41.24</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="56.5" style="background:#CF5F4E"></div></div><span class="hval">−$33.22</span></div>
+          <div class="hrow"><span class="hlabel">Advertising &amp; marketing</span><div class="htrack"><div class="hfill" data-w="4.0" style="background:#D96A57"></div></div><span class="hval">−$2.34</span></div>
+          <div class="hrow"><span class="hlabel">Depreciation &amp; amort.</span><div class="htrack"><div class="hfill" data-w="5.7" style="background:#D96A57"></div></div><span class="hval">−$3.33</span></div>
+          <div class="hrow"><span class="hlabel">Litigation provision</span><div class="htrack"><div class="hfill" data-w="1.5" style="background:#D96A57"></div></div><span class="hval">−$0.88</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="1.9" style="background:#D96A57"></div></div><span class="hval">−$1.09</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="20.1" style="background:#B8443C"></div></div><span class="hval">−$11.84</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="80.5" style="background:#3E8E5A"></div></div><span class="hval">$47.30</span></div>
+      <p class="hnote">Rows add up with a small rounding difference. The first row is net revenue (already net of rebates), so there is no cost-of-revenue row.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+14%</div>
+            <h3>Spending held up everywhere</h3>
+            <p>Gross dollar volume rose 8% in local currency, cross-border volume rose 12% and switched transactions rose 9% — the growth was broad, not one market carrying the rest.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">+20%</div>
+            <h3>Services are the growth engine</h3>
+            <p>Value-added services net revenue grew 20% to $3.8B — fraud, data and consulting products now bring in over 40% of Mastercard&#x27;s revenue.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">60%</div>
+            <h3>Six dollars in ten became operating profit</h3>
+            <p>The operating margin was 60.2%, up from 58.7% a year ago. Net income rose 19% to $4.4B despite an $82M litigation provision flagged as a special item.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>An $82M litigation provision — covering ATM non-discrimination surcharge complaints, a change in estimate on claims from merchants who opted out of the U.S. merchant class litigation, and other legal matters — is flagged by Mastercard as a special item. Excluding it and a $2M loss on equity investments, adjusted net income was $4.5B and adjusted EPS was $5.04.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1141391/000114139126000083/ma-20260630.htm">Form 10-Q, quarter ended June 30, 2026 (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. </p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":9.277,"nodes":{"seg0":{"name":"Payment network","amt":"$5.5B","value":5.451,"col":0,"color":"#3D7BC8","note":"+10% \u00b7 58.8% of revenue","plain":"Fees every time a Mastercard is swiped, tapped or used online \u2014 gross dollar volume was $2.9 trillion in the quarter, up 8% in local currency.","quarter":"58.8% of all revenue this quarter."},"seg1":{"name":"Value-added services and solutions","amt":"$3.8B","value":3.826,"col":0,"color":"#7A68C4","note":"+20% \u00b7 41.2% of revenue","plain":"Fraud protection, data analytics, consulting and identity services sold on top of the network \u2014 growing twice as fast as the network itself.","quarter":"41.2% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$9.3B","value":9.277,"col":1,"color":"#2F3B4C","note":"+14%","plain":"All the money Mastercard took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$9.3B, +14% vs a year ago."},"gross":{"name":"Gross profit","amt":"$9.3B","value":9.277,"col":2,"color":"#69B578","note":"100% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"100 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"$0M","value":0.0,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$0M \u2014 about 0 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$5.6B","value":5.587,"col":3,"color":"#4C9A67","note":"60.2% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 60.2% margin."},"opex":{"name":"Operating expenses","amt":"($3.7B)","value":3.69,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$3.7B total, split into General and administrative, Advertising and marketing, Depreciation and amortization, Provision for litigation on the right."},"otherexp":{"name":"Other expense","amt":"($101M)","value":0.101,"col":4,"color":"#B8443C","note":"","plain":"Other income (expense) was \u2212$101M: $88M of investment income and $31M of other income, outweighed by $218M of interest expense and a $2M loss on equity investments.","quarter":"$101M taken out of profit."},"ox0":{"name":"General and administrative","amt":"($3.1B)","value":3.082,"col":4,"color":"#CF5F4E","note":"33.2% of revenue","plain":"Salaries, technology and offices for the people who run the network \u2014 by far Mastercard's biggest cost.","quarter":"$3.1B \u2014 33.2% of revenue."},"ox1":{"name":"Advertising and marketing","amt":"($217M)","value":0.217,"col":4,"color":"#CF5F4E","note":"2.3% of revenue","plain":"Brand campaigns, sponsorships and the 'Priceless' advertising.","quarter":"$217M \u2014 2.3% of revenue."},"ox2":{"name":"Depreciation and amortization","amt":"($309M)","value":0.309,"col":4,"color":"#CF5F4E","note":"3.3% of revenue","plain":"Spreading the cost of buildings, data centers, equipment and acquired technology.","quarter":"$309M \u2014 3.3% of revenue."},"ox3":{"name":"Provision for litigation","amt":"($82M)","value":0.082,"col":4,"color":"#CF5F4E","note":"0.9% of revenue","plain":"Legal provisions, including ATM surcharge complaints and merchants who opted out of the U.S. merchant class litigation \u2014 Mastercard flags this as a special item.","quarter":"$82M \u2014 0.9% of revenue."},"net":{"name":"Net profit","amt":"$4.4B","value":4.388,"col":4,"color":"#3E8E5A","note":"47.3% margin","plain":"The bottom line \u2014 what Mastercard actually earned after everything.","quarter":"$4.4B \u2014 about 47.3 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($1.1B)","value":1.098,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$1.1B \u2014 roughly a 20% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["op","opex"],["net","tax","otherexp","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":5.451,"c":"#94b6e1","amt":"$5.5B"},{"s":"seg1","d":"rev","v":3.826,"c":"#b6acdf","amt":"$3.8B"},{"s":"rev","d":"gross","v":9.277,"c":"#BFE0C6","amt":"$9.3B"},{"s":"rev","d":"cost","v":0.0,"c":"#F4C7B9","amt":"$0M"},{"s":"gross","d":"op","v":5.587,"c":"#ACD8B8","amt":"$5.6B"},{"s":"gross","d":"opex","v":3.69,"c":"#F2B3A4","amt":"$3.7B"},{"s":"op","d":"net","v":4.388,"c":"#ACD8B8","amt":"$4.4B"},{"s":"op","d":"otherexp","v":0.101,"c":"#dfaba7","amt":"$101M"},{"s":"op","d":"tax","v":1.098,"c":"#dfaba7","amt":"$1.1B"},{"s":"opex","d":"ox0","v":3.082,"c":"#F6C0B1","amt":"$3.1B"},{"s":"opex","d":"ox1","v":0.217,"c":"#F6C0B1","amt":"$217M"},{"s":"opex","d":"ox2","v":0.309,"c":"#F6C0B1","amt":"$309M"},{"s":"opex","d":"ox3","v":0.082,"c":"#F6C0B1","amt":"$82M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

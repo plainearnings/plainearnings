@@ -1,0 +1,166 @@
+{
+  "ticker": "PYPL",
+  "company": "PayPal",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-28",
+  "verdict": "PayPal moved $486B of payments (+10%) and grew revenue 5% to $8.7B, but profit fell 12% to $1.1B as costs rose faster than revenue \u2014 management still raised full-year non-GAAP guidance on the transformation plan.",
+  "revenueYoY": "+5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.7B",
+      "note": "+5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.25",
+      "note": "vs $1.38 non-GAAP"
+    },
+    {
+      "label": "Total payment volume",
+      "value": "$486B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Active accounts",
+      "value": "439M",
+      "note": "+0.3% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenues",
+      "amountM": 7832,
+      "yoy": "+5%",
+      "note": "The cut PayPal takes on every payment it processes \u2014 $486B of payment volume flowed through in the quarter, up 10%, across 6.8 billion transactions.",
+      "shortName": "Transaction revenues"
+    },
+    {
+      "name": "Revenues from other value added services",
+      "amountM": 850,
+      "yoy": "0%",
+      "note": "Interest on customer balances, partner fees and other services around the core payment.",
+      "shortName": "Other value-added services"
+    }
+  ],
+  "flow": {
+    "revenueM": 8682,
+    "costOfRevenueM": 4782,
+    "costName": "Transaction costs & credit losses",
+    "costPlain": "What each payment costs PayPal to run: $4,385M of transaction expense (card-network and processing fees) plus $397M of transaction and credit losses on its loans.",
+    "grossProfitM": 3900,
+    "grossName": "Transaction margin",
+    "grossNote": "transaction margin",
+    "opex": [
+      {
+        "name": "Customer support and operations",
+        "amountM": 462,
+        "note": "Support staff and the cost of running payment operations."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 546,
+        "note": "Marketing, and winning merchants and users."
+      },
+      {
+        "name": "Technology and development",
+        "amountM": 849,
+        "note": "Building and running the PayPal and Venmo platforms."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 503,
+        "note": "Running the company: finance, legal, risk and offices."
+      },
+      {
+        "name": "Restructuring and other",
+        "amountM": 113,
+        "note": "Severance and reshaping costs as PayPal works through its transformation plan."
+      }
+    ],
+    "operatingIncomeM": 1427,
+    "otherIncomeM": -117,
+    "taxM": 206,
+    "netIncomeM": 1104
+  },
+  "follow100": [
+    {
+      "label": "Transaction revenues",
+      "amount": 90.21
+    },
+    {
+      "label": "Other value-added services",
+      "amount": 9.79
+    },
+    {
+      "label": "Transaction costs & losses",
+      "amount": -55.08
+    },
+    {
+      "label": "Customer support & ops",
+      "amount": -5.32
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.29
+    },
+    {
+      "label": "Technology & development",
+      "amount": -9.78
+    },
+    {
+      "label": "G&A",
+      "amount": -5.79
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.3
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.35
+    },
+    {
+      "label": "Tax",
+      "amount": -2.37
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.72
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$486B",
+      "statColor": "#3d7bc8",
+      "title": "The pipes keep growing",
+      "text": "Total payment volume rose 10% to $486.4B and transactions rose 8% to 6.8 billion, with 439 million active accounts. Venmo and Braintree kept their momentum, and branded checkout stabilized."
+    },
+    {
+      "stat": "+1%",
+      "statColor": "#5b6b7c",
+      "title": "What PayPal keeps barely grew",
+      "text": "Transaction margin dollars rose just 1% to $3.9B (3% excluding interest on customer balances). Revenue grew 5%, but transaction costs grew faster \u2014 the margin squeeze is the story of the turnaround."
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#3e8e5a",
+      "title": "Buybacks and a guidance raise",
+      "text": "PayPal returned $1.5B to shareholders via buybacks in the quarter ($6.0B over twelve months), paid a $0.14 dividend, and raised full-year non-GAAP guidance while reaffirming GAAP EPS guidance."
+    }
+  ],
+  "oneTimers": [
+    "GAAP EPS includes a roughly $0.07 negative impact from PayPal's strategic investment portfolio and crypto assets held for investment, versus a $0.01 positive impact a year ago \u2014 that swing sits inside the $117M of other expense.",
+    "Restructuring and other charges were $113M in the quarter as the transformation plan reshapes the company."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm"
+    }
+  ],
+  "otherDetail": "Other income (expense), net was \u2212$117M, including losses on PayPal's strategic investment portfolio and crypto assets held for investment.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}

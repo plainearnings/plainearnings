@@ -1,0 +1,140 @@
+{
+  "ticker": "ABNB",
+  "company": "Airbnb",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-06",
+  "verdict": "Airbnb grew revenue 17% to $3.6B as nights and seats booked rose 10%, and net income jumped to $816M \u2014 helped by higher operating profit and a $77M tax benefit tied to prior-year taxes.",
+  "revenueYoY": "+17%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+17%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.27",
+      "note": "diluted"
+    },
+    {
+      "label": "Nights & seats booked",
+      "value": "148.3M",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.3B",
+      "note": "35% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Stays & experiences",
+      "amountM": 3608,
+      "yoy": "+17%",
+      "note": "Service fees on every stay, experience and service booked. Airbnb reports a single revenue stream; the bookings behind it were worth $27.2B in gross booking value."
+    }
+  ],
+  "flow": {
+    "revenueM": 3608,
+    "costOfRevenueM": 633,
+    "grossProfitM": 2975,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 361,
+        "note": "Supporting hosts and guests \u2014 customer service, trust & safety and host insurance."
+      },
+      {
+        "name": "Product development",
+        "amountM": 672,
+        "note": "Building the app and new products like experiences and services."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 875,
+        "note": "Marketing to win travelers and hosts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 309,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 758,
+    "otherIncomeM": 139,
+    "taxM": 81,
+    "netIncomeM": 816
+  },
+  "follow100": [
+    {
+      "label": "Stays & experiences",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -17.54
+    },
+    {
+      "label": "Operations & support",
+      "amount": -10.01
+    },
+    {
+      "label": "Product development",
+      "amount": -18.63
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -24.25
+    },
+    {
+      "label": "G&A",
+      "amount": -8.56
+    },
+    {
+      "label": "Other income",
+      "amount": 3.85
+    },
+    {
+      "label": "Tax",
+      "amount": -2.25
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 22.62
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Bookings value accelerated",
+      "text": "Gross booking value rose 16% to $27.2B on 10% more nights and seats booked and a moderate rise in nightly rates \u2014 growth accelerated in core markets like the U.S., France, the UK and Australia."
+    },
+    {
+      "stat": "$816M",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped on two boosts",
+      "text": "Net income rose from $642M to $816M (a 23% margin). Higher operating income did most of the work, and a $77M benefit related to prior-year taxes \u2014 from newly published guidance \u2014 helped too."
+    },
+    {
+      "stat": "$1.3B",
+      "statColor": "#3e8e5a",
+      "title": "A third of revenue became free cash",
+      "text": "Free cash flow was $1.3B, 35% of revenue, and $4.8B over the last twelve months \u2014 guests pay upfront, hosts are paid after check-in."
+    }
+  ],
+  "oneTimers": [
+    "The tax line includes a $77M benefit recorded in the quarter related to recently published guidance impacting prior-year taxes; without it, the tax bill would have been higher and net income lower."
+  ],
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm"
+    }
+  ],
+  "otherDetail": "Interest and other items netted +$139M: $183M of interest earned (Airbnb holds billions in guest payments before stays happen), minus $37M of interest expense and $7M of other expense.",
+  "follow100Note": "Rows add up with a small rounding difference."
+}
