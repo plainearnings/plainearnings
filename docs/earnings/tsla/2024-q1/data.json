@@ -1,0 +1,148 @@
+{
+  "company": "Tesla",
+  "flow": {
+    "costOfRevenueM": 17605,
+    "grossProfitM": 3696,
+    "netIncomeM": 1144,
+    "operatingIncomeM": 1171,
+    "opex": [
+      {
+        "amountM": 1151,
+        "name": "Research & development",
+        "note": "Developing new vehicles, battery cells and AI for self-driving."
+      },
+      {
+        "amountM": 1374,
+        "name": "Selling, general & administrative",
+        "note": "Stores, service, delivery and head-office running costs."
+      }
+    ],
+    "otherIncomeM": 382,
+    "revenueM": 21301,
+    "taxM": 409
+  },
+  "follow100": [
+    {
+      "amount": 81.58,
+      "label": "Automotive"
+    },
+    {
+      "amount": 7.68,
+      "label": "Energy generation and storage"
+    },
+    {
+      "amount": 10.74,
+      "label": "Services and other"
+    },
+    {
+      "amount": -82.65,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -5.4,
+      "label": "R&D"
+    },
+    {
+      "amount": -6.45,
+      "label": "SG&A"
+    },
+    {
+      "amount": 1.79,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.92,
+      "label": "Tax"
+    },
+    {
+      "amount": 5.37,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income here is Tesla's total net income of $1,144M; $1,129M of it was attributable to common stockholders and $15M to noncontrolling interests and redeemable noncontrolling interests in subsidiaries. Figures are from Tesla's Form 10-Q for the quarter ended March 31, 2024 (filed April 24, 2024), cross-checked to the Q1 2024 update letter filed as Exhibit 99.1 to the Form 8-K on April 23, 2024; deliveries, production and energy storage deployments are from the production and deliveries release filed as Exhibit 99.1 to the Form 8-K on April 2, 2024. No rounding adjustment was needed: the filings already report in whole millions and all totals balance exactly.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Revenue fell to $21,301M from $23,329M in Q1 2023, mainly on lower vehicle prices and fewer deliveries.",
+      "value": "-9%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "Diluted earnings per share attributable to common stockholders, down from $0.73 in Q1 2023.",
+      "value": "$0.34"
+    },
+    {
+      "label": "Deliveries",
+      "note": "Down 9% from 422,875 a year earlier; production was 433,371, hit by the updated Model 3 ramp in Fremont and disruptions at Gigafactory Berlin.",
+      "value": "386,810"
+    },
+    {
+      "label": "Energy storage deployed",
+      "note": "A record quarter \u2014 described in the release as the highest deployment yet \u2014 up 4% from 3,889 MWh in Q1 2023.",
+      "value": "4,053 MWh"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Net $382M of other income: $350M of interest income on cash and short-term investments, plus $108M of other income (mainly foreign-exchange gains on intercompany balances), minus $76M of interest expense.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-23",
+  "revenueYoY": "-9%",
+  "segments": [
+    {
+      "amountM": 17378,
+      "name": "Automotive",
+      "note": "Cars: $16,460M of vehicle sales, plus $442M of regulatory credits and $476M of leasing.",
+      "yoy": "-13%"
+    },
+    {
+      "amountM": 1635,
+      "name": "Energy generation and storage",
+      "note": "Megapack and Powerwall batteries and solar; higher Megapack prices offset fewer solar deployments.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 2288,
+      "name": "Services and other",
+      "note": "Repairs and maintenance, Supercharging, insurance, parts sales and used cars.",
+      "yoy": "+25%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q for Q1 2024 (filed April 24, 2024) \u2014 income statement and segment revenues",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331.htm"
+    },
+    {
+      "label": "Q1 2024 update letter \u2014 Exhibit 99.1 to Form 8-K filed April 23, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024046895/tsla-ex99_1.htm"
+    },
+    {
+      "label": "Q1 2024 production and deliveries release \u2014 Exhibit 99.1 to Form 8-K filed April 2, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024040274/tsla-ex99_1.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-56%",
+      "statColor": "#cf5f4e",
+      "text": "Operating income fell to $1,171M from $2,664M a year earlier. Lower average selling prices, fewer deliveries and the Cybertruck ramp outweighed cheaper raw materials, and overall gross margin narrowed to 17.4% from 19.3%.",
+      "title": "Car price cuts crushed operating profit"
+    },
+    {
+      "stat": "+140%",
+      "statColor": "#3e8e5a",
+      "text": "Energy generation and storage gross profit jumped to $403M from $168M, lifting its gross margin to 24.6% from 11.0%, helped by Megapack and IRA manufacturing credits \u2014 on record storage deployments of 4,053 MWh.",
+      "title": "Energy became a real profit engine"
+    },
+    {
+      "stat": "+49%",
+      "statColor": "#b98a1c",
+      "text": "Research and development rose to $1,151M from $771M on AI, battery-cell and other new programs, and selling, general and administrative costs rose 28% to $1,374M, so total operating expenses climbed 37% even as revenue fell 9%.",
+      "title": "Spending on the future jumped while sales fell"
+    }
+  ],
+  "ticker": "TSLA",
+  "verdict": "Price cuts and a disrupted, lower-delivery quarter squeezed car profits sharply, even as energy storage hit a record and grew much more profitable."
+}

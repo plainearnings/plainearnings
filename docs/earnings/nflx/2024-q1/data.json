@@ -1,0 +1,165 @@
+{
+  "company": "Netflix",
+  "flow": {
+    "costOfRevenueM": 4977,
+    "grossProfitM": 4393,
+    "netIncomeM": 2332,
+    "operatingIncomeM": 2633,
+    "opex": [
+      {
+        "amountM": 702,
+        "name": "Technology & development",
+        "note": "The streaming platform, apps, recommendation systems and product development."
+      },
+      {
+        "amountM": 654,
+        "name": "Sales & marketing",
+        "note": "Advertising Netflix itself and winning subscribers \u2014 listed as 'Marketing' in Netflix's statement."
+      },
+      {
+        "amountM": 404,
+        "name": "General & administrative",
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "otherIncomeM": -18,
+    "revenueM": 9370,
+    "taxM": 283
+  },
+  "follow100": [
+    {
+      "amount": 45.08,
+      "label": "United States & Canada"
+    },
+    {
+      "amount": 31.57,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 12.43,
+      "label": "Latin America"
+    },
+    {
+      "amount": 10.92,
+      "label": "Asia-Pacific"
+    },
+    {
+      "amount": -53.12,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -7.49,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -6.98,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -4.31,
+      "label": "G&A"
+    },
+    {
+      "amount": -0.19,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.02,
+      "label": "Tax"
+    },
+    {
+      "amount": 24.89,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are rounded to whole $M; the tax line is shown as $283M ($282M as reported) so the chart ties exactly to the reported $2,332M of net income. All other flow lines round directly from the as-reported thousands with no adjustment, and the regional revenues sum exactly to reported total revenue with no adjustment. Regional revenues are from the shareholder letter's regional breakdown.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago; +18% on an F/X-neutral basis",
+      "value": "+15%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted, vs $2.88 a year ago",
+      "value": "$5.28"
+    },
+    {
+      "label": "Paid net additions",
+      "note": "vs 1.75M a year ago; memberships ended the quarter at 269.60M",
+      "value": "9.33M"
+    },
+    {
+      "label": "Operating margin",
+      "note": "operating income of $2.6B, +54% YoY \u2014 up from 21.0% a year ago",
+      "value": "28.1%"
+    }
+  ],
+  "oneTimers": [
+    "Currency gain: 'interest and other income' includes a $131M non-cash unrealized gain from F/X remeasurement on Netflix's euro-denominated debt \u2014 a paper gain below operating income, not revenue from running the service."
+  ],
+  "otherDetail": "Interest expense of $173M on Netflix's debt, partly offset by $155M of interest and other income \u2014 including a $131M non-cash unrealized gain from F/X remeasurement on its euro-denominated debt \u2014 a net -$18M below operating profit.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-18",
+  "revenueYoY": "+15%",
+  "segments": [
+    {
+      "amountM": 4224,
+      "name": "United States & Canada",
+      "note": "The biggest and richest market \u2014 82.66M paid memberships after 2.53M net additions, with revenue per member of $17.30 a month, up 7% year over year.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 2958,
+      "name": "Europe, Middle East & Africa",
+      "note": "The second-largest region \u2014 91.73M paid memberships after 2.92M net additions; revenue per member was $10.92 a month, flat year over year.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 1165,
+      "name": "Latin America",
+      "note": "47.72M paid memberships after 1.72M net additions; revenue per member was $8.29 a month, down 4% as reported but up 16% on an F/X-neutral basis, reflecting price increases in Argentina and the peso's devaluation.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 1023,
+      "name": "Asia-Pacific",
+      "note": "47.50M paid memberships after 2.16M net additions; revenue per member was $7.35 a month, down 8% year over year as reported, down 4% on an F/X-neutral basis.",
+      "yoy": "+10%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter, 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000127/ex991_q124.htm"
+    },
+    {
+      "label": "Form 8-K announcing Q1 2024 results on April 18, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000127/nflx-20240412.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "9.33M",
+      "statColor": "#3d7bc8",
+      "text": "Netflix added 9.33M paid memberships, up from 1.75M a year ago, to end the quarter at 269.60M \u2014 paid memberships were up 16.0% year over year, with every region adding at least 1.7M members.",
+      "title": "Member growth surged"
+    },
+    {
+      "stat": "28.1%",
+      "statColor": "#3e8e5a",
+      "text": "Operating income rose 54% year over year to $2.6B on revenue growth of 15% \u2014 the operating margin reached 28.1%, seven points better than 21.0% a year ago, and net income rose 79% to $2.3B.",
+      "title": "Profit grew much faster than revenue"
+    },
+    {
+      "stat": "$131M",
+      "statColor": "#b98a1c",
+      "text": "Net income included a $131M non-cash unrealized gain from F/X remeasurement on Netflix's euro-denominated debt, recognised below operating income in interest and other income \u2014 a paper gain, not money from running the service.",
+      "title": "A paper currency gain helped profit"
+    }
+  ],
+  "ticker": "NFLX",
+  "verdict": "Netflix added 9.3M members and grew revenue 15% to $9.4B, and because costs grew far more slowly than sales, operating income jumped 54% to $2.6B and net income rose to $2.3B."
+}

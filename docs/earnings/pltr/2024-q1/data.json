@@ -1,0 +1,143 @@
+{
+  "company": "Palantir",
+  "flow": {
+    "costOfRevenueM": 116,
+    "grossProfitM": 518,
+    "netIncomeM": 106,
+    "operatingIncomeM": 81,
+    "opex": [
+      {
+        "amountM": 193,
+        "name": "Sales & marketing",
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers."
+      },
+      {
+        "amountM": 110,
+        "name": "Research & development",
+        "note": "Building the platforms \u2014 Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "amountM": 134,
+        "name": "General & administrative",
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "otherIncomeM": 30,
+    "revenueM": 634,
+    "taxM": 5
+  },
+  "follow100": [
+    {
+      "amount": 52.84,
+      "label": "Government"
+    },
+    {
+      "amount": 47.16,
+      "label": "Commercial"
+    },
+    {
+      "amount": -18.29,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -30.44,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -17.35,
+      "label": "R&D"
+    },
+    {
+      "amount": -21.14,
+      "label": "G&A"
+    },
+    {
+      "amount": 4.73,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.79,
+      "label": "Tax"
+    },
+    {
+      "amount": 16.72,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income here is Palantir's total net income of $106M; $105.5M of it is attributable to common stockholders (the remaining $0.5M belongs to noncontrolling interests). Segment figures are from the segment note in Palantir's Q1 2024 Form 10-Q. Palantir reports in thousands; figures are rounded to whole $M and tie exactly to reported totals with no line adjusted beyond normal rounding \u2014 other income is shown as $30M (reported net $29.8M: $43.4M of interest income less $13.5M of other expense).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+21%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.01 a year ago",
+      "value": "$0.04"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "note": "+40% YoY",
+      "value": "$150M"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "note": "23% of revenue",
+      "value": "$149M"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Interest income of $43.4M on Palantir's cash pile, less $13.5M of other expense, net \u2014 mainly realized and unrealized losses on equity securities and foreign-currency moves \u2014 a net +$29.8M below operating profit, shown as $30M rounded.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-05-06",
+  "revenueYoY": "+21%",
+  "segments": [
+    {
+      "amountM": 335,
+      "name": "Government",
+      "note": "Software for governments, above all the U.S. military and intelligence agencies \u2014 U.S. government revenue grew 12% YoY to $257M.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 299,
+      "name": "Commercial",
+      "note": "Software for companies \u2014 U.S. commercial revenue jumped 40% to $150M as the AIP 'bootcamp' push kept winning customers, and the U.S. commercial customer count grew 69% to 262.",
+      "yoy": "+27%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000069/a2024q1ex991earningsrelease.htm"
+    },
+    {
+      "label": "Q1 2024 10-Q \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/pltr-20240331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+40%",
+      "statColor": "#3e8e5a",
+      "text": "U.S. commercial revenue grew 40% YoY to $150M, the U.S. commercial customer count grew 69% to 262, and U.S. commercial remaining deal value grew 74%.",
+      "title": "U.S. business customers surged"
+    },
+    {
+      "stat": "$106M",
+      "statColor": "#3d7bc8",
+      "text": "GAAP net income was $106M \u2014 a 17% margin \u2014 with GAAP operating income of $81M, a 13% margin, and GAAP EPS of $0.04, up from $0.01 a year ago.",
+      "title": "Sixth straight profitable quarter"
+    },
+    {
+      "stat": "$149M",
+      "statColor": "#3e8e5a",
+      "text": "Adjusted free cash flow was $149M \u2014 23 cents of every revenue dollar \u2014 with $3.9B of cash and short-term U.S. Treasury securities on hand, a Rule of 40 score of 57%, and Palantir raised full-year revenue guidance to $2.677\u2013$2.689B.",
+      "title": "Cash generation and a higher outlook"
+    }
+  ],
+  "ticker": "PLTR",
+  "verdict": "Palantir grew revenue 21% to $634M as U.S. commercial sales jumped 40% on AI demand, and kept $106M as profit \u2014 its sixth straight profitable quarter \u2014 while raising its full-year outlook."
+}

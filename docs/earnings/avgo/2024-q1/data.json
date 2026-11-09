@@ -1,0 +1,148 @@
+{
+  "company": "Broadcom",
+  "flow": {
+    "costOfRevenueM": 4586,
+    "grossProfitM": 7375,
+    "netIncomeM": 1325,
+    "operatingIncomeM": 2083,
+    "opex": [
+      {
+        "amountM": 2308,
+        "name": "Research & development",
+        "note": "Designing the next chips and software \u2014 swelled by VMware's engineers joining after the acquisition and by higher stock-based compensation."
+      },
+      {
+        "amountM": 1572,
+        "name": "Selling, general & administrative",
+        "note": "Selling the products and running the company \u2014 up sharply with VMware headcount, stock-based compensation and acquisition-related costs."
+      },
+      {
+        "amountM": 1412,
+        "name": "Amortization & restructuring",
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 $792M of amortization, a bookkeeping charge, not cash \u2014 plus $620M of restructuring and other charges, mainly employee termination costs from integrating VMware."
+      }
+    ],
+    "otherIncomeM": -690,
+    "revenueM": 11961,
+    "taxM": 68
+  },
+  "follow100": [
+    {
+      "amount": 61.78,
+      "label": "Semiconductor solutions"
+    },
+    {
+      "amount": 38.22,
+      "label": "Infrastructure software"
+    },
+    {
+      "amount": -38.33,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -19.3,
+      "label": "R&D"
+    },
+    {
+      "amount": -13.14,
+      "label": "SG&A"
+    },
+    {
+      "amount": -11.81,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": -5.77,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.57,
+      "label": "Tax"
+    },
+    {
+      "amount": 11.08,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "All figures are GAAP, in $ millions unless noted; EPS is shown exactly as reported in the release \u2014 GAAP diluted EPS of $2.84 \u2014 on a pre-split basis. Free cash flow is cash from operations of $4,815M less $122M of capital expenditures. Net income of $1,325M includes $51M from discontinued operations; continuing operations earned $1,274M, and the $51M is folded into otherIncomeM so the flow balances to total net income, following the Q4 FY24 sibling precedent. The tax provision was just $68M \u2014 there was no large one-time intra-group IP-transfer tax charge this quarter.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+34%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $8.80 a year ago \u2014 pre-split, as reported",
+      "value": "$2.84"
+    },
+    {
+      "label": "Infrastructure software revenue",
+      "note": "+153% YoY \u2014 VMware's first full quarter; the release gives no AI revenue dollar figure",
+      "value": "$4.6B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "39% of revenue",
+      "value": "$4.7B"
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $2,172M of amortization of acquisition-related intangible assets ($1,380M inside cost of revenue and $792M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $5,254M instead of $1,325M.",
+    "Restructuring charges totaled $712M ($92M inside cost of revenue and $620M inside operating expenses), primarily employee termination costs from integrating VMware, and the non-GAAP reconciliation also adds back $292M of acquisition-related costs.",
+    "Stock-based compensation expense was $1,572M, up from $391M a year ago, including a one-time impact from aligning the vesting dates of equity awards assumed in the VMware merger and accelerated vesting for employees terminated in connection with the merger.",
+    "Discontinued operations added $51M, net of tax \u2014 mainly VMware's end-user computing business held for sale, which Broadcom agreed in February 2024 to sell for approximately $3.8B. Profit from continuing operations was $1,274M."
+  ],
+  "otherDetail": "Interest expense of $926M on Broadcom's debt, much of it taken on to buy VMware, partly offset by $185M of other income, net \u2014 interest income, investment gains/losses and other items \u2014 plus $51M of profit from discontinued operations folded in here, for a net -$690M below operating profit.",
+  "periodEnd": "2024-02-04",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-03-07",
+  "revenueYoY": "+34%",
+  "segments": [
+    {
+      "amountM": 7390,
+      "name": "Semiconductor solutions",
+      "note": "Chips \u2014 above all networking products for AI data centers and custom AI accelerators from hyperscalers. Strong networking demand was partly offset by lower demand for server storage and broadband products.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 4571,
+      "name": "Infrastructure software",
+      "note": "VMware and other enterprise software \u2014 the jump is VMware, acquired November 22, 2023 and included for its first full quarter, as customers deployed VMware Cloud Foundation.",
+      "yoy": "+153%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Q1 FY24 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000012/avgo-02042024x8kxex99.htm"
+    },
+    {
+      "label": "Q1 FY24 Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+153%",
+      "statColor": "#3d7bc8",
+      "text": "Infrastructure software revenue rose 153% to $4.6B \u2014 38% of all revenue, up from 20% a year ago \u2014 in VMware's first full quarter, making Broadcom nearly as much a software company as a chip company.",
+      "title": "VMware transformed the mix"
+    },
+    {
+      "stat": "-65%",
+      "statColor": "#cf5f4e",
+      "text": "GAAP net income fell to $1,325M from $3,774M a year ago despite revenue rising 34%, weighed down by $2,172M of acquisition amortization, $712M of restructuring charges and $1,572M of stock-based compensation. On Broadcom's non-GAAP view, net income was $5,254M.",
+      "title": "Profit fell even as sales soared"
+    },
+    {
+      "stat": "$4.7B",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $4,693M \u2014 39% of revenue \u2014 from $4,815M of cash from operations less $122M of capital expenditures. Excluding restructuring in the quarter, management put free cash flow at $5.4B.",
+      "title": "Cash flow stayed strong"
+    }
+  ],
+  "ticker": "AVGO",
+  "verdict": "Broadcom's revenue jumped 34% to $12.0B in VMware's first full quarter \u2014 software surged 153% and AI networking demand grew \u2014 but the cost of absorbing VMware cut GAAP profit to $1.3B."
+}

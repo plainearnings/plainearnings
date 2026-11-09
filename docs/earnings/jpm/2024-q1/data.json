@@ -1,0 +1,165 @@
+{
+  "company": "JPMorgan",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $1,956M of loans were charged off in the quarter, partly offset by a $72M net reserve release (a $142M net release in Wholesale, partly offset by a $44M net build in Consumer and other items), leaving a provision of $1,884M.",
+  "flow": {
+    "costOfRevenueM": 1884,
+    "grossProfitM": 40050,
+    "netIncomeM": 13419,
+    "operatingIncomeM": 17293,
+    "opex": [
+      {
+        "amountM": 13118,
+        "name": "Compensation expense",
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost, up 12% on more employees and higher pay, including staff added with First Republic."
+      },
+      {
+        "amountM": 2548,
+        "name": "Professional & outside services",
+        "note": "Professional fees and outside services combined, as reported in the supplement \u2014 up 4%."
+      },
+      {
+        "amountM": 2421,
+        "name": "Technology, communications & equipment",
+        "note": "Technology, communications and equipment \u2014 up 11% as the bank keeps investing in its platforms.",
+        "pngName": "Technology & equipment",
+        "shortName": "Technology & equipment"
+      },
+      {
+        "amountM": 1160,
+        "name": "Marketing",
+        "note": "Advertising and card marketing \u2014 up 11%."
+      },
+      {
+        "amountM": 3510,
+        "name": "Occupancy & other expense",
+        "note": "Branches and offices ($1,211M of occupancy) plus other expense ($2,299M) \u2014 other expense jumped 40%, driven by the $725M increase to the FDIC special assessment in Corporate.",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 41934,
+    "taxM": 3874
+  },
+  "follow100": [
+    {
+      "amount": 55.04,
+      "label": "Net interest income"
+    },
+    {
+      "amount": 44.96,
+      "label": "Noninterest revenue"
+    },
+    {
+      "amount": -4.49,
+      "label": "Credit costs"
+    },
+    {
+      "amount": -31.28,
+      "label": "Compensation expense"
+    },
+    {
+      "amount": -6.08,
+      "label": "Professional & outside services"
+    },
+    {
+      "amount": -5.77,
+      "label": "Technology & equipment"
+    },
+    {
+      "amount": -2.77,
+      "label": "Marketing"
+    },
+    {
+      "amount": -8.37,
+      "label": "Occupancy & other expense"
+    },
+    {
+      "amount": -9.24,
+      "label": "Tax"
+    },
+    {
+      "amount": 32,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "JPMorgan headlines 'managed' revenue of $42.5B; this page uses reported (GAAP) revenue of $41.9B \u2014 the $614M difference is a fully taxable-equivalent gross-up of tax-exempt income ($121M in net interest income and $493M in noninterest revenue) that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and operating profit here is income before income taxes.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "reported basis, vs a year ago",
+      "value": "+9%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $4.10 a year ago",
+      "value": "$4.44"
+    },
+    {
+      "label": "Net interest income",
+      "note": "+11% YoY, reported basis",
+      "value": "$23.1B"
+    },
+    {
+      "label": "Credit costs",
+      "note": "$1,956M charged off, $72M net reserve release",
+      "value": "$1.9B"
+    }
+  ],
+  "oneTimers": [
+    "$725M increase to the estimated FDIC special assessment in Corporate \u2014 the release's flagged 'significant item' for 1Q24, reflecting the FDIC's revised estimated losses to the Deposit Insurance Fund from the 2023 bank failures. It reduced EPS by $0.19; excluding it, net income was $14.0B ($4.63 per share) instead of $13.4B ($4.44). It sits inside other expense, in the 'Occupancy & other expense' bucket on this page.",
+    "$366M of net investment securities losses in Corporate, predominantly from sales of mortgage-backed securities and U.S. Treasuries (versus $868M of net securities losses in 1Q23).",
+    "First Republic (acquired May 1, 2023) contributed $668M of net income in the quarter \u2014 $1.3B of net interest income and $315M of noninterest revenue, less $806M of expense and a $31M net benefit to the provision \u2014 per the release; it is included in all reported figures above, not stripped out."
+  ],
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-12",
+  "revenueYoY": "+9%",
+  "segments": [
+    {
+      "amountM": 23082,
+      "name": "Net interest income",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 11% on balance-sheet mix, higher rates and higher revolving Card Services balances (and the First Republic portfolio), partly offset by deposit margin compression and lower deposit balances in Consumer & Community Banking.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 18852,
+      "name": "Noninterest revenue",
+      "note": "Fees, trading and asset-management income \u2014 up 7% on higher asset management fees and higher Investment Banking fees, partly offset by lower Markets revenue; Corporate also booked $366M of net investment securities losses, versus $868M of losses a year ago.",
+      "yoy": "+7%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000315/a1q24erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000315/a1q24erfex992supplement.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "text": "Reported net interest income rose 11% to $23.1B \u2014 55% of all revenue \u2014 on balance-sheet mix, higher rates and higher revolving card balances, even as deposit margins compressed in the consumer bank.",
+      "title": "Interest income did the heavy lifting"
+    },
+    {
+      "stat": "$725M",
+      "statColor": "#b98a1c",
+      "text": "A $725M increase to the FDIC special assessment (in Corporate, inside other expense) cut EPS by $0.19. Excluding it, net income was $14.0B, or $4.63 per share, instead of $13.4B and $4.44.",
+      "title": "One charge hid $0.6B of profit"
+    },
+    {
+      "stat": "$1.9B",
+      "statColor": "#3e8e5a",
+      "text": "The provision dropped 17% to $1.9B: $2.0B of net charge-offs \u2014 mostly normalising Card Services losses \u2014 were partly offset by a $72M net reserve release, versus a $1.1B reserve build a year ago.",
+      "title": "Credit costs fell year on year"
+    }
+  ],
+  "ticker": "JPM",
+  "verdict": "JPMorgan made $13.4B as reported revenue rose 9% to $41.9B \u2014 and profit would have been $14.0B without a $725M extra FDIC charge tied to last year's bank failures."
+}

@@ -1,0 +1,165 @@
+{
+  "company": "AMD",
+  "flow": {
+    "costOfRevenueM": 2913,
+    "grossProfitM": 2560,
+    "netIncomeM": 123,
+    "operatingIncomeM": 36,
+    "opex": [
+      {
+        "amountM": 1525,
+        "name": "Research & development",
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators \u2014 up 8% year over year as AMD invested more in AI."
+      },
+      {
+        "amountM": 620,
+        "name": "Marketing, general & administrative",
+        "note": "Selling products and running the company."
+      },
+      {
+        "amountM": 379,
+        "name": "Amortization of intangibles",
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash \u2014 shown net of a $13M licensing gain."
+      }
+    ],
+    "otherIncomeM": 35,
+    "revenueM": 5473,
+    "taxM": -52
+  },
+  "follow100": [
+    {
+      "amount": 42.69,
+      "label": "Data Center"
+    },
+    {
+      "amount": 25,
+      "label": "Client"
+    },
+    {
+      "amount": 16.85,
+      "label": "Gaming"
+    },
+    {
+      "amount": 15.46,
+      "label": "Embedded"
+    },
+    {
+      "amount": -53.23,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -27.86,
+      "label": "R&D"
+    },
+    {
+      "amount": -11.33,
+      "label": "Marketing, general & administrative"
+    },
+    {
+      "amount": -6.92,
+      "label": "Amortization of intangibles"
+    },
+    {
+      "amount": 0.64,
+      "label": "Other income"
+    },
+    {
+      "amount": 0.95,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 2.25,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Cost of sales of $2,913M includes $230M of amortization of acquisition-related intangibles, on top of $2,683M of cost of sales before that amortization, following AMD's own presentation of its income statement. The amortization line in operating expenses is shown as $379M \u2014 AMD's $392M of amortization net of a $13M licensing gain. The tax line was a $52M benefit, drawn as a green source into net profit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+2%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs -$0.09 a year ago",
+      "value": "$0.07"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 44% a year ago",
+      "value": "47%"
+    },
+    {
+      "label": "Data Center revenue",
+      "note": "+80% YoY \u2014 a record",
+      "value": "$2.3B"
+    }
+  ],
+  "oneTimers": [
+    "Inventory loss of $65M at a third-party contract manufacturer, related to an incident at that manufacturer's facility \u2014 included in GAAP cost of sales and added back in AMD's non-GAAP results."
+  ],
+  "otherDetail": "Other income, net of $53M (primarily interest income from short-term investments, partly offset by losses on equity investments and foreign currency effects), plus $7M of equity income from an investee, less $25M of interest expense \u2014 a net +$35M. AMD reports equity income on its own line below the tax line; following the sibling AMD pages it is folded into otherIncomeM here and disclosed in this breakdown.",
+  "periodEnd": "2024-03-30",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-30",
+  "revenueYoY": "+2%",
+  "segments": [
+    {
+      "amountM": 2337,
+      "name": "Data Center",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 revenue hit a record $2.3B, up 80%, driven by the ramp of Instinct MI300 GPU shipments and growth in 4th Gen EPYC CPU sales.",
+      "yoy": "+80%"
+    },
+    {
+      "amountM": 1368,
+      "name": "Client",
+      "note": "Ryzen processors for PCs \u2014 up 85%, driven primarily by Ryzen 8000 Series processor sales.",
+      "yoy": "+85%"
+    },
+    {
+      "amountM": 922,
+      "name": "Gaming",
+      "note": "Graphics cards and console chips \u2014 down 48% due to a decrease in semi-custom revenue and lower Radeon GPU sales.",
+      "yoy": "-48%"
+    },
+    {
+      "amountM": 846,
+      "name": "Embedded",
+      "note": "Chips built into industrial, communications and other equipment (the Xilinx business) \u2014 down 46% as customers continued to manage their inventory levels.",
+      "yoy": "-46%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000054/q12024991.htm"
+    },
+    {
+      "label": "Form 10-Q for Q1 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000056/amd-20240330.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+80%",
+      "statColor": "#3e8e5a",
+      "text": "Data Center revenue reached a record $2,337M, up 80% year over year on the ramp of Instinct MI300 AI accelerators and 4th Gen EPYC sales, and Client rose 85% to $1,368M on Ryzen 8000 sales \u2014 the two AI-and-PC businesses now bring in more than two-thirds of AMD's revenue.",
+      "title": "Data Center hit a record"
+    },
+    {
+      "stat": "$36M",
+      "statColor": "#b98a1c",
+      "text": "Operating income was just $36M \u2014 a 1% margin \u2014 because GAAP results carry $622M of acquisition-related amortization and $371M of stock-based compensation. On AMD's non-GAAP view, which strips those out, operating income was $1,133M. Net income of $123M also leaned on a $52M tax benefit.",
+      "title": "GAAP operating profit was barely positive"
+    },
+    {
+      "stat": "-48%",
+      "statColor": "#cf5f4e",
+      "text": "Gaming revenue fell 48% to $922M on lower semi-custom console and Radeon sales, and Embedded fell 46% to $846M as customers worked through inventories \u2014 together wiping out almost all of the growth from Data Center and Client, so total revenue rose only 2% to $5,473M.",
+      "title": "Gaming and Embedded dragged total growth to 2%"
+    }
+  ],
+  "ticker": "AMD",
+  "verdict": "AMD's revenue grew just 2% to $5.5B because record Data Center sales and a surging Client business were almost entirely offset by steep falls in Gaming and Embedded, leaving GAAP operating income at just $36M."
+}
