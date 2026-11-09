@@ -1,0 +1,157 @@
+{
+  "company": "Eli Lilly",
+  "flow": {
+    "costOfRevenueM": 1673,
+    "grossProfitM": 7095,
+    "netIncomeM": 2243,
+    "operatingIncomeM": 2509,
+    "opex": [
+      {
+        "amountM": 2523,
+        "name": "Research & development",
+        "note": "Developing new medicines \u2014 up 27%, driven by higher development expenses for late-stage assets and early-stage research, plus a charge of about $75M to end the Verzenio prostate cancer program."
+      },
+      {
+        "amountM": 1952,
+        "name": "Marketing, selling & administrative",
+        "note": "Sales teams, advertising and the back office \u2014 up 12% on promotional efforts for ongoing and future launches and higher compensation costs."
+      },
+      {
+        "amountM": 111,
+        "name": "Acquired IPR&D",
+        "note": "Research bought in from other companies, charged at once \u2014 $0.10 of the quarter's EPS."
+      }
+    ],
+    "otherIncomeM": 27,
+    "revenueM": 8768,
+    "taxM": 293
+  },
+  "follow100": [
+    {
+      "amount": 20.61,
+      "label": "Mounjaro"
+    },
+    {
+      "amount": 5.9,
+      "label": "Zepbound"
+    },
+    {
+      "amount": 73.49,
+      "label": "All other medicines"
+    },
+    {
+      "amount": -19.08,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -28.78,
+      "label": "Research & development"
+    },
+    {
+      "amount": -22.26,
+      "label": "Marketing, selling & administrative"
+    },
+    {
+      "amount": -1.27,
+      "label": "Acquired IPR&D"
+    },
+    {
+      "amount": 0.31,
+      "label": "Other income"
+    },
+    {
+      "amount": -3.34,
+      "label": "Tax"
+    },
+    {
+      "amount": 25.58,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Mounjaro and Zepbound together supplied $26.51 of every $100 Lilly took in \u2014 two versions of the same drug, tirzepatide. Rows may not add exactly due to rounding.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $2,335M (EPS $2.58). The release reports figures to one decimal place; they are rounded to whole millions here.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+26% YoY",
+      "value": "$8.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.49 a year ago; $2.58 non-GAAP",
+      "value": "$2.48"
+    },
+    {
+      "label": "Mounjaro",
+      "note": "+218% YoY",
+      "value": "$1.8B"
+    },
+    {
+      "label": "Net income",
+      "note": "vs $1.34B a year ago",
+      "value": "$2.24B"
+    }
+  ],
+  "oneTimers": [
+    "Acquired in-process R&D of $111M ($0.10 of EPS), up from $105M a year ago. Lilly counts IPR&D in both its reported and its non-GAAP figures.",
+    "Research and development expenses included a charge of approximately $75M associated with terminating the Verzenio prostate cancer program \u2014 the Phase 3 CYCLONE-3 trial in metastatic hormone-sensitive prostate cancer, stopped for futility after an interim analysis."
+  ],
+  "otherDetail": "Net other income of $27M \u2014 $160.9M of net other income, including net gains on investments in equity securities, partly offset by $133.8M of net interest expense.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-30",
+  "revenueYoY": "+26%",
+  "segments": [
+    {
+      "amountM": 1807,
+      "name": "Mounjaro",
+      "note": "The diabetes shot (tirzepatide) \u2014 revenue more than tripled on strong demand and higher realized prices in the U.S. as savings-card use fell, with volume limited by available supply.",
+      "yoy": "+218%"
+    },
+    {
+      "amountM": 517,
+      "name": "Zepbound",
+      "note": "The weight-loss shot (tirzepatide), launched in the U.S. in November 2023 \u2014 already $517M a quarter.",
+      "yoy": ""
+    },
+    {
+      "amountM": 6444,
+      "name": "All other medicines",
+      "note": "Everything else \u2014 Verzenio ($1.1B, +40%), Trulicity ($1.5B, -26%), Jardiance, Taltz and Humalog. Up 1% overall as Verzenio and Jardiance growth offset the Trulicity decline.",
+      "yoy": "+1%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000116/q124lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000118/lly-20240331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$2.3B",
+      "statColor": "#3e8e5a",
+      "text": "Mounjaro ($1.8B, +218%) and Zepbound ($517M, launched November 2023) together brought in $2.3B of the $8.8B total \u2014 two versions of the same drug, tirzepatide. Demand outpaced supply, and Lilly said sales growth for its incretin medicines will mainly depend on how much it can produce and ship.",
+      "title": "Two shots are 27% of revenue"
+    },
+    {
+      "stat": "$42.4\u2013$43.6B",
+      "statColor": "#3d7bc8",
+      "text": "Lilly lifted full-year 2024 revenue guidance by $2.0B to $42.4\u2013$43.6B, and reported EPS guidance by $1.25 to $13.05\u2013$13.55, on the strength of Mounjaro and Zepbound and greater visibility into its production expansion for the rest of the year.",
+      "title": "Guidance raised by $2B"
+    },
+    {
+      "stat": "80.9%",
+      "statColor": "#5b6b7c",
+      "text": "Gross margin rose 4.3 points to 80.9% on higher realized prices \u2014 mainly Mounjaro in the U.S. as savings-card dynamics faded \u2014 a favorable product mix, and, to a lesser extent, improvements in the cost of production. Operating income rose 68% to $2.5B.",
+      "title": "Margins widened as prices rose"
+    }
+  ],
+  "ticker": "LLY",
+  "verdict": "Lilly's revenue rose 26% to $8.8B as Mounjaro more than tripled to $1.8B and Zepbound added $517M \u2014 and profit jumped 67% to $2.24B, prompting Lilly to raise full-year revenue guidance by $2B."
+}

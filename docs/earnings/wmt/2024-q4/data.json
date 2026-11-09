@@ -1,0 +1,154 @@
+{
+  "company": "Walmart",
+  "flow": {
+    "costOfRevenueM": 131825,
+    "equityM": -184,
+    "grossProfitM": 41563,
+    "netIncomeM": 5494,
+    "operatingIncomeM": 7254,
+    "opex": [
+      {
+        "amountM": 34309,
+        "name": "Operating, selling, general & administrative",
+        "note": "Running the stores, clubs, warehouses and head office."
+      }
+    ],
+    "otherIncomeM": 264,
+    "revenueM": 173388,
+    "taxM": 1840
+  },
+  "follow100": [
+    {
+      "amount": 67.85,
+      "label": "Walmart U.S."
+    },
+    {
+      "amount": 18.7,
+      "label": "Walmart International"
+    },
+    {
+      "amount": 12.6,
+      "label": "Sam's Club U.S."
+    },
+    {
+      "amount": 0.85,
+      "label": "Membership & other income"
+    },
+    {
+      "amount": -76.03,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -19.79,
+      "label": "Operating & admin costs"
+    },
+    {
+      "amount": 0.15,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.06,
+      "label": "Tax"
+    },
+    {
+      "amount": -0.11,
+      "label": "Noncontrolling interests"
+    },
+    {
+      "amount": 3.17,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The stores earned $4.18 of operating profit from every $100 of revenue; an $813M investment gain, tax and partners' shares left $3.17. Rows may not add exactly due to rounding.",
+  "footerNote": "Net profit shown is the $5,494M attributable to Walmart; consolidated net income was $5,678M, of which $184M belongs to noncontrolling interests. Per-share figures are shown split-adjusted for the 3-for-1 stock split distributed February 23, 2024; as originally reported before the split, GAAP EPS was $2.03 and adjusted EPS was $1.80.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+5.7% YoY",
+      "value": "$173.4B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "\u221212.5% YoY, split-adjusted; adjusted $0.60",
+      "value": "$0.68"
+    },
+    {
+      "label": "Operating income",
+      "note": "+30.4% YoY; adjusted +13.2%",
+      "value": "$7.3B"
+    },
+    {
+      "label": "U.S. comp sales",
+      "note": "excludes fuel; transactions +4.3%, ticket \u22120.3%",
+      "value": "+4.0%"
+    }
+  ],
+  "oneTimers": [
+    "Other (gains) and losses was an $813M gain this quarter versus a $3,848M gain a year ago \u2014 unrealized fair-value moves on equity investments Walmart holds, led by Symbotic and Asda debt securities and partly offset by JD.com. Adjusted EPS of $0.60 (split-adjusted; $1.80 as reported before the 3-for-1 split) excludes the net-of-tax effect of the investment gain ($0.08 per share split-adjusted; $0.23 pre-split).",
+    "The year-ago quarter included $849M of business reorganization and restructuring charges in Walmart International, which flatters the reported 30.4% operating-income growth; adjusted operating income, which excludes those year-ago charges, rose 13.2%."
+  ],
+  "otherDetail": "Interest of $549M, net, offset by an $813M gain on equity and other investments \u2014 mostly fair-value moves, led by a higher Symbotic share price and Asda debt securities, partly offset by a lower JD.com share price.",
+  "periodEnd": "2024-01-31",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2024-02-20",
+  "revenueYoY": "+5.7%",
+  "segments": [
+    {
+      "amountM": 117643,
+      "name": "Walmart U.S.",
+      "note": "Stores and eCommerce in the United States \u2014 comparable sales rose 4.0%, eCommerce rose 17%, and segment operating income rose 12.9% to $6,075M as the gross margin rate widened 64 basis points.",
+      "yoy": "+3.4%"
+    },
+    {
+      "amountM": 32419,
+      "name": "Walmart International",
+      "note": "Stores and eCommerce outside the U.S. \u2014 net sales rose 13.0% in constant currency, led by Flipkart, Walmex and China; eCommerce rose 44% and segment operating income was $1,438M versus $289M a year ago.",
+      "yoy": "+17.6%"
+    },
+    {
+      "amountM": 21852,
+      "name": "Sam's Club U.S.",
+      "note": "Walmart's warehouse clubs in the United States \u2014 comparable sales rose 3.1% excluding fuel, eCommerce rose 17%, and membership income rose 10.0%.",
+      "yoy": "+2.0%"
+    },
+    {
+      "amountM": 1474,
+      "name": "Membership & other income",
+      "note": "Membership fees from Sam's Club and Walmart+, plus other income \u2014 small, but nearly cost-free.",
+      "yoy": "+13.0%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000019/earningsreleasefy24q4.htm"
+    },
+    {
+      "label": "Form 10-K, fiscal year ended January 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000056/wmt-20240131.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+30.4%",
+      "statColor": "#3e8e5a",
+      "text": "Operating income rose 30.4% to $7,254M on 5.7% revenue growth \u2014 the gross margin rate widened 39 basis points, led by Walmart U.S., membership income grew 13.0%, and global eCommerce sales rose 23%, passing $100B for the full year. On an adjusted basis, which adds back $849M of reorganization charges in the year-ago quarter, operating income still grew 13.2%.",
+      "title": "Operating income grew far faster than sales"
+    },
+    {
+      "stat": "$813M",
+      "statColor": "#5b6b7c",
+      "text": "Below the operating line, Walmart booked an $813M gain on equity and other investments \u2014 mostly fair-value moves on stakes it holds. A year ago the same line was a $3,848M gain; that swing is the main reason headline profit fell 12.4% to $5,494M even though the stores had a much stronger quarter. Adjusted EPS of $0.60, split-adjusted, strips the gain out, versus GAAP EPS of $0.68.",
+      "title": "A smaller paper gain, not weaker stores"
+    },
+    {
+      "stat": "$0.83",
+      "statColor": "#3d7bc8",
+      "text": "Walmart raised its annual dividend 9% to $0.83 per share on a post-split basis \u2014 its largest increase in over a decade and its 51st consecutive annual rise \u2014 after generating $35.7B in operating cash flow and $15.1B in free cash flow for the full year.",
+      "title": "Dividend raised 9%"
+    }
+  ],
+  "ticker": "WMT",
+  "verdict": "Walmart's revenue rose 5.7% to $173.4B and operating income jumped 30.4% as U.S. comparable sales rose 4.0% and eCommerce grew 23% \u2014 but headline profit fell 12.4% to $5.5B because a year ago an even bigger $3.8B paper gain on its investment stakes had flattered the comparison."
+}

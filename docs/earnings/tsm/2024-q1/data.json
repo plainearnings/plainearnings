@@ -1,0 +1,170 @@
+{
+  "company": "TSMC",
+  "flow": {
+    "costOfRevenueM": 8856,
+    "grossProfitM": 10014,
+    "netIncomeM": 7180,
+    "operatingIncomeM": 7929,
+    "opex": [
+      {
+        "amountM": 2085,
+        "name": "Operating expenses",
+        "note": "Research, engineering and running the business side of the fabs \u2014 shown as one line, including other operating income and expenses, net."
+      }
+    ],
+    "otherIncomeM": 558,
+    "revenueM": 18870,
+    "taxM": 1307
+  },
+  "follow100": [
+    {
+      "amount": 46.0,
+      "label": "High-performance computing"
+    },
+    {
+      "amount": 38.0,
+      "label": "Smartphone"
+    },
+    {
+      "amount": 6.0,
+      "label": "Internet of Things"
+    },
+    {
+      "amount": 6.0,
+      "label": "Automotive"
+    },
+    {
+      "amount": 2.0,
+      "label": "Digital consumer electronics"
+    },
+    {
+      "amount": 2.0,
+      "label": "Others"
+    },
+    {
+      "amount": -46.93,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -11.05,
+      "label": "Operating expenses"
+    },
+    {
+      "amount": 2.96,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.93,
+      "label": "Tax"
+    },
+    {
+      "amount": 38.05,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 of revenue, $38.05 stayed as profit; high-performance computing alone brought in $46 of it, and advanced 7nm-and-below nodes were 65% of wafer revenue.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$592.6B; net income attributable to shareholders NT$225.5B). Dollar figures are converted at NT$31.41 per US$1 \u2014 implied by TSMC's own stated US-dollar revenue of $18.87B (NT$ revenue divided by that figure). Operating expenses are shown as one line combining operating expenses with other operating income and expenses, net, as in TSMC's consolidated financial statements. Segment dollars are TSMC's official platform revenues for the quarter converted at the same rate (platform shares: high-performance computing 46%, smartphone 38%, Internet of Things 6%, automotive 6%, digital consumer electronics 2%, others 2%). The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+13% YoY in US$",
+      "value": "$18.9B"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "note": "+9% YoY",
+      "value": "$1.38"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 56.3% a year ago",
+      "value": "53.1%"
+    },
+    {
+      "label": "Net income",
+      "note": "38.0% margin",
+      "value": "$7.2B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Non-operating income of NT$17.5B (about $0.6B) \u2014 mostly NT$19.4B of interest earned on TSMC's large cash pile, plus a NT$3.2B foreign-exchange gain and NT$0.9B share of profits from associates, partly offset by NT$3.3B of other losses and NT$2.7B of finance costs.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-18",
+  "revenueYoY": "+16.5%",
+  "segments": [
+    {
+      "amountM": 8749,
+      "name": "High-performance computing",
+      "note": "Chips for AI data centers and servers \u2014 46% of everything TSMC sells, and still growing in a soft quarter.",
+      "yoy": "+3% QoQ"
+    },
+    {
+      "amountM": 7165,
+      "name": "Smartphone",
+      "note": "Chips for phones \u2014 38% of revenue, down in the seasonal lull after year-end launches.",
+      "yoy": "\u221216% QoQ"
+    },
+    {
+      "amountM": 1125,
+      "name": "Internet of Things",
+      "note": "Chips for connected devices of every kind.",
+      "yoy": "+5% QoQ"
+    },
+    {
+      "amountM": 1023,
+      "name": "Automotive",
+      "note": "Chips for cars.",
+      "yoy": "0% QoQ"
+    },
+    {
+      "amountM": 374,
+      "name": "Digital consumer electronics",
+      "note": "Chips for TVs, game consoles and gadgets.",
+      "yoy": "+33% QoQ"
+    },
+    {
+      "amountM": 434,
+      "name": "Others",
+      "note": "Everything else, including older-node specialty work.",
+      "yoy": "\u22128% QoQ"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release with Q2 guidance (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000046/a1q24e_withguidancexfinal.htm"
+    },
+    {
+      "label": "Q1 2024 earnings presentation (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000046/a1q24presentatione_x.htm"
+    },
+    {
+      "label": "Consolidated financial statements, Q1 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000061/a0515.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "46%",
+      "statColor": "#3d7bc8",
+      "text": "High-performance computing \u2014 mostly AI accelerators \u2014 was 46% of revenue and grew 3% from the fourth quarter, while smartphone chips fell 16% in their seasonal lull and still made up another 38%.",
+      "title": "AI demand cushioned the phone dip"
+    },
+    {
+      "stat": "53.1%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin was 53.1% and operating margin 42.0% \u2014 both down from a year earlier (56.3% and 45.5%) as newer fabs ramped \u2014 yet net income still rose 9% on 16.5% revenue growth.",
+      "title": "Margins eased from a year ago"
+    },
+    {
+      "stat": "$19.6\u201320.4B",
+      "statColor": "#5b6b7c",
+      "text": "Management guided second-quarter revenue to $19.6\u201320.4B with a gross margin of 51\u201353%, expecting strong demand for its industry-leading 3nm and 5nm technologies to outweigh continued smartphone seasonality.",
+      "title": "A bigger Q2 guided"
+    }
+  ],
+  "ticker": "TSM",
+  "verdict": "TSMC's revenue rose 16.5% to NT$592.6B ($18.9B) as continued demand for AI and high-performance computing chips softened a seasonal smartphone dip \u2014 and with a 53.1% gross margin, it kept NT$225.5B ($7.2B) as profit, up 9%."
+}

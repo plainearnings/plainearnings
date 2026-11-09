@@ -1,0 +1,179 @@
+{
+  "company": "Robinhood",
+  "flow": {
+    "costOfRevenueM": 35,
+    "grossProfitM": 583,
+    "netIncomeM": 157,
+    "operatingIncomeM": 158,
+    "opex": [
+      {
+        "amountM": 196,
+        "name": "Technology and development",
+        "note": "Engineers and the platform \u2014 down 2%."
+      },
+      {
+        "amountM": 28,
+        "name": "Operations",
+        "note": "Customer support and running the service."
+      },
+      {
+        "amountM": 16,
+        "name": "Provision for credit losses",
+        "note": "Money set aside for customer loans that may not be repaid."
+      },
+      {
+        "amountM": 67,
+        "name": "Marketing",
+        "note": "Advertising and promotions to win new customers \u2014 up 158%."
+      },
+      {
+        "amountM": 118,
+        "name": "General & administrative",
+        "note": "Legal, finance and head office \u2014 down 82%, because a year ago the line carried a one-time $485M share-based pay charge."
+      }
+    ],
+    "otherIncomeM": 4,
+    "revenueM": 618,
+    "taxM": 5
+  },
+  "follow100": [
+    {
+      "amount": 53.24,
+      "label": "Transaction-based revenues"
+    },
+    {
+      "amount": 41.1,
+      "label": "Net interest revenues"
+    },
+    {
+      "amount": 5.66,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -5.66,
+      "label": "Brokerage and transaction"
+    },
+    {
+      "amount": -31.72,
+      "label": "Technology and development"
+    },
+    {
+      "amount": -4.53,
+      "label": "Operations"
+    },
+    {
+      "amount": -2.59,
+      "label": "Provision for credit losses"
+    },
+    {
+      "amount": -10.84,
+      "label": "Marketing"
+    },
+    {
+      "amount": -19.09,
+      "label": "General & administrative"
+    },
+    {
+      "amount": 0.65,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.81,
+      "label": "Tax"
+    },
+    {
+      "amount": 25.4,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Crypto alone supplied $20.39 of every $100 of revenue \u2014 $126M of the $618M total \u2014 as digital-asset trading more than tripled from a year ago.",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Expense lines are as re-presented in Robinhood's Q1 2025 Form 10-Q, which splits the original $44M operations line into Operations ($28M) and Provision for credit losses ($16M). The tax line is a $5M provision, not a benefit.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+40% YoY",
+      "value": "$618M"
+    },
+    {
+      "label": "EPS (diluted)",
+      "note": "vs -$0.57 a year ago",
+      "value": "$0.18"
+    },
+    {
+      "label": "Net income",
+      "note": "vs a $511M loss a year ago",
+      "value": "$157M"
+    },
+    {
+      "label": "Net deposits",
+      "note": "a record; 44% annualized growth rate",
+      "value": "$11.2B"
+    }
+  ],
+  "oneTimers": [
+    "The year-ago comparison is distorted by a one-time $485M share-based compensation charge in Q1 2023, when Robinhood's co-founders cancelled their 2021 market-based stock awards. It sat in that quarter's general & administrative line, which is why total operating expenses appear to fall 52% year-over-year even though underlying spending rose \u2014 adjusted operating expenses were up 13% to $398M.",
+    "The $5M tax provision is unusually small: Robinhood carried a full valuation allowance against its U.S. federal and state deferred tax assets in Q1 2024. It released that allowance later in 2024, booking a one-time $369M tax benefit in Q4 2024."
+  ],
+  "otherDetail": "Other income, net was $4M \u2014 small next to the main business. Income tax was just $5M (a 3.1% effective rate), because Robinhood carried a full valuation allowance against its U.S. federal and state deferred tax assets, partly offset by current taxes payable.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-05-08",
+  "revenueYoY": "+40%",
+  "segments": [
+    {
+      "amountM": 329,
+      "name": "Transaction-based revenues",
+      "note": "Fees from customers' trades \u2014 crypto $126M, options $154M, equities $39M and $10M of other trading fees.",
+      "yoy": "+59%"
+    },
+    {
+      "amountM": 254,
+      "name": "Net interest revenues",
+      "note": "Interest on customers' cash and margin loans, plus securities lending \u2014 up on growth in interest-earning assets and higher short-term interest rates.",
+      "yoy": "+22%"
+    },
+    {
+      "amountM": 35,
+      "name": "Other revenues",
+      "note": "Mostly Robinhood Gold subscriptions \u2014 1.7M subscribers, up 42%.",
+      "yoy": "+35%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387924000144/q12024robinhoodexhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387924000145/hood-20240331.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2025 \u2014 re-presented 2024 comparatives (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000145/hood-20250331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+232%",
+      "statColor": "#3e8e5a",
+      "text": "Transaction-based revenue rose 59% to $329M \u2014 crypto revenue jumped 232% to $126M, options rose 16% to $154M and equities rose 44% to $39M, as customers traded actively across asset classes.",
+      "title": "Crypto revenue more than tripled"
+    },
+    {
+      "stat": "$157M",
+      "statColor": "#3d7bc8",
+      "text": "Net income was $157M versus a $511M loss a year ago \u2014 a record quarter for profit. Revenue rose 40% while reported operating expenses fell, though that fall mostly reflects the one-time $485M pay charge in the year-ago quarter; the tax bill was just $5M because Robinhood still carried a full valuation allowance against its U.S. deferred tax assets.",
+      "title": "Swung to a record profit"
+    },
+    {
+      "stat": "$11.2B",
+      "statColor": "#5b6b7c",
+      "text": "Net deposits hit a record $11.2B in the quarter \u2014 a 44% annualized growth rate against assets under custody, which rose 65% to $129.6B. Gold subscribers rose 42% to a record 1.7M and funded customers reached 23.9M.",
+      "title": "Record net deposits"
+    }
+  ],
+  "ticker": "HOOD",
+  "verdict": "Robinhood's revenue rose 40% to a record $618M as crypto revenue more than tripled \u2014 and it swung to $157M of profit from a $511M loss a year ago."
+}
