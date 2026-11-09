@@ -1,0 +1,158 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-28",
+  "reportedDate": "2024-10-29",
+  "verdict": "AMD's revenue rose 18% to $6.8B \u2014 its best quarter yet \u2014 as Data Center sales more than doubled on AI demand, and with gross margin back to 50%, net income more than doubled to $771M.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.47",
+      "note": "vs $0.18 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "50%",
+      "note": "vs 47% a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$3.5B",
+      "note": "+122% YoY \u2014 a record"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 3549,
+      "yoy": "+122%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 revenue more than doubled to a record $3.5B on the Instinct GPU ramp and EPYC share gains."
+    },
+    {
+      "name": "Client",
+      "amountM": 1881,
+      "yoy": "+29%",
+      "note": "Ryzen processors for PCs \u2014 up 29% on strong demand for 'Zen 5' desktop chips."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 462,
+      "yoy": "-69%",
+      "note": "Graphics cards and console chips \u2014 down 69% as semi-custom console revenue fell late in the console cycle."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 927,
+      "yoy": "-25%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 down 25% as customers worked through their inventories."
+    }
+  ],
+  "flow": {
+    "revenueM": 6819,
+    "costOfRevenueM": 3400,
+    "grossProfitM": 3419,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1636,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 721,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 338,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash \u2014 shown net of a $14M licensing gain."
+      }
+    ],
+    "operatingIncomeM": 724,
+    "otherIncomeM": 20,
+    "taxM": -27,
+    "netIncomeM": 771
+  },
+  "otherDetail": "Other income of $36M, plus $7M of equity income from an investee, less $23M of interest expense \u2014 a net +$20M.",
+  "footerNote": "Cost of sales of $3,400M includes $233M of amortization of acquisition-related intangibles, following AMD's own presentation of its income statement. The amortization line in operating expenses is shown as $338M \u2014 AMD's $352M of amortization net of a $14M licensing gain. The tax line was a small $27M benefit, drawn as a green source into net profit.",
+  "takeaways": [
+    {
+      "stat": "+122%",
+      "statColor": "#3e8e5a",
+      "title": "Data Center more than doubled",
+      "text": "Data Center revenue hit a record $3.5B, up 122% YoY, on the ramp of Instinct AI GPUs and EPYC server CPUs \u2014 it is now more than half of everything AMD sells."
+    },
+    {
+      "stat": "50%",
+      "statColor": "#3d7bc8",
+      "title": "Margins healed",
+      "text": "Gross margin reached 50%, up from 47% a year ago, as high-margin data-center chips became the mix \u2014 operating income more than tripled to $724M and net income reached $771M."
+    },
+    {
+      "stat": "-69%",
+      "statColor": "#cf5f4e",
+      "title": "Gaming and Embedded still shrinking",
+      "text": "Gaming revenue fell 69% to $462M late in the console cycle and Embedded fell 25% as customers digested inventories \u2014 together they masked how fast the AI-driven businesses are growing."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000161/q32024991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 52.05
+    },
+    {
+      "label": "Client",
+      "amount": 27.58
+    },
+    {
+      "label": "Gaming",
+      "amount": 6.78
+    },
+    {
+      "label": "Embedded",
+      "amount": 13.59
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -49.86
+    },
+    {
+      "label": "R&D",
+      "amount": -23.99
+    },
+    {
+      "label": "Marketing, general & administrative",
+      "amount": -10.57
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.96
+    },
+    {
+      "label": "Other income",
+      "amount": 0.29
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.4
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.31
+    }
+  ]
+}

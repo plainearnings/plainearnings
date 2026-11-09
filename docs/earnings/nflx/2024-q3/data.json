@@ -1,0 +1,162 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-17",
+  "verdict": "Netflix grew revenue 15% to $9.8B and added 5.1M members, and because costs grew far more slowly than sales, operating income jumped 52% to $2.9B and net income rose 41% to $2.4B.",
+  "revenueYoY": "+15%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+15%",
+      "note": "vs a year ago; +21% at constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$5.40",
+      "note": "vs $3.73 a year ago (both as reported, before the 10-for-1 stock split)"
+    },
+    {
+      "label": "Paid net additions",
+      "value": "5.1M",
+      "note": "memberships ended the quarter at 282.7M"
+    },
+    {
+      "label": "Operating margin",
+      "value": "30%",
+      "note": "operating income of $2.9B, +52% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 4322,
+      "yoy": "+16%",
+      "note": "The biggest and richest market \u2014 revenue up 16% on 10% growth in average paid memberships and 5% higher revenue per member."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3133,
+      "yoy": "+16%",
+      "note": "The second-largest region \u2014 up 16%, in line with membership growth."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1241,
+      "yoy": "+9%",
+      "note": "Up 9% as reported and 27% at constant currency \u2014 recent price changes and a softer slate cost it a small net member loss in the quarter."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1129,
+      "yoy": "+19%",
+      "note": "Mobile-first plans in price-sensitive markets \u2014 the fastest-growing region, up 19% on strong local slates in Japan, Korea, Thailand and India."
+    }
+  ],
+  "flow": {
+    "revenueM": 9825,
+    "costOfRevenueM": 5120,
+    "grossProfitM": 4705,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 735,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 643,
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 418,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 2909,
+    "otherIncomeM": -206,
+    "taxM": 339,
+    "netIncomeM": 2364
+  },
+  "otherDetail": "Interest expense of $185M on Netflix's debt, plus $22M of interest and other losses \u2014 including a $91M currency loss on its euro-denominated debt \u2014 a net -$206M below operating profit after whole-$M rounding.",
+  "footerNote": "Figures are rounded to whole $M; general & administrative is shown as $418M ($417M as reported) and Asia-Pacific revenue as $1,129M ($1,128M in the shareholder letter) so the chart ties exactly to the reported $2,364M of net income. Regional revenues are from the shareholder letter's regional breakdown.",
+  "follow100Note": "Netflix reports in whole dollars; every line here is rounded to the nearest $M, with two $1M rounding adjustments (noted in the footer) so the chart ties to reported net income.",
+  "takeaways": [
+    {
+      "stat": "5.1M",
+      "statColor": "#3d7bc8",
+      "title": "Steady member growth, richer members",
+      "text": "Netflix added 5.07M paid memberships to reach 282.7M, and average paid memberships rose 15% YoY \u2014 paid sharing and the ads plan kept pulling new households in."
+    },
+    {
+      "stat": "+52%",
+      "statColor": "#3e8e5a",
+      "title": "Profit grew three times faster than revenue",
+      "text": "Operating income rose 52% YoY to $2.9B on revenue growth of 15% \u2014 the operating margin reached 30%, seven points better than a year ago, and net income rose 41% to $2.4B."
+    },
+    {
+      "stat": "$2.2B",
+      "statColor": "#3e8e5a",
+      "title": "Cash rich, and raising the bar",
+      "text": "Free cash flow was $2.2B in the quarter, Netflix raised its full-year FCF outlook to $6.0\u20136.5B, and it bought back $1.7B of stock while net debt fell to $6.8B."
+    }
+  ],
+  "oneTimers": [
+    "Currency loss: 'interest and other income' includes a $91M foreign-exchange loss, mostly from remeasuring Netflix's euro-denominated debt (net of hedges) \u2014 a paper loss below operating income, not a cost of running the service."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000286/ex991_q324.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 43.99
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 31.89
+    },
+    {
+      "label": "Latin America",
+      "amount": 12.63
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 11.49
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -52.11
+    },
+    {
+      "label": "Technology & development",
+      "amount": -7.48
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.54
+    },
+    {
+      "label": "G&A",
+      "amount": -4.25
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.1
+    },
+    {
+      "label": "Tax",
+      "amount": -3.45
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.07
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-11-04",
+  "verdict": "Palantir's revenue jumped 30% to $726M as U.S. sales surged 44% on AI demand \u2014 and it stayed solidly profitable, keeping $144M for shareholders, then raised its full-year outlook.",
+  "revenueYoY": "+30%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+30%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.06",
+      "note": "vs $0.03 a year ago"
+    },
+    {
+      "label": "U.S. revenue",
+      "value": "$499M",
+      "note": "+44% YoY"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$435M",
+      "note": "60% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Government",
+      "amountM": 408,
+      "yoy": "+33%",
+      "note": "Software for governments, above all the U.S. military and intelligence agencies \u2014 U.S. government revenue grew 40% YoY to $320M."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 318,
+      "yoy": "+27%",
+      "note": "Software for companies \u2014 U.S. commercial revenue jumped 54% to $179M as the AIP 'bootcamp' push kept winning customers."
+    }
+  ],
+  "flow": {
+    "revenueM": 726,
+    "costOfRevenueM": 147,
+    "grossProfitM": 579,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 209,
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 118,
+        "note": "Building the platforms \u2014 Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 139,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 113,
+    "otherIncomeM": 44,
+    "taxM": 8,
+    "netIncomeM": 149
+  },
+  "otherDetail": "Interest income of $52M on Palantir's cash pile, less $8M of other expense \u2014 a net +$44M below operating profit.",
+  "footerNote": "Net income here is Palantir's total net income of $149M; $144M of it is attributable to common stockholders (the rest belongs to noncontrolling interests). Segment figures are from the segment note in Palantir's Q3 2024 Form 10-Q, rounded to the nearest $M; Commercial is shown as $318M so the segments tie to the $726M total.",
+  "takeaways": [
+    {
+      "stat": "+44%",
+      "statColor": "#3e8e5a",
+      "title": "A U.S.-driven AI surge",
+      "text": "U.S. revenue grew 44% YoY to $499M \u2014 U.S. commercial up 54% and U.S. government up 40% \u2014 and Palantir raised its full-year revenue guidance to about $2.81B."
+    },
+    {
+      "stat": "104",
+      "statColor": "#3d7bc8",
+      "title": "Deal-making at full tilt",
+      "text": "Palantir closed 104 deals worth over $1M each in the quarter, and its customer count grew 39% YoY as AIP bootcamps kept converting into contracts."
+    },
+    {
+      "stat": "$435M",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed elite",
+      "text": "Adjusted free cash flow was $435M \u2014 60 cents of every revenue dollar \u2014 and Palantir ended the quarter with $4.6B of cash and Treasury securities."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation was $142M in the quarter \u2014 a real cost to shareholders through dilution, even though it is not cash. Palantir's adjusted (non-GAAP) operating income, which excludes it, was $276M versus $113M GAAP."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000207/a2024q3ex991earningsrelease.htm"
+    },
+    {
+      "label": "Q3 2024 10-Q \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000209/pltr-20240930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Government",
+      "amount": 56.2
+    },
+    {
+      "label": "Commercial",
+      "amount": 43.8
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -20.25
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -28.79
+    },
+    {
+      "label": "R&D",
+      "amount": -16.25
+    },
+    {
+      "label": "G&A",
+      "amount": -19.15
+    },
+    {
+      "label": "Other income",
+      "amount": 6.06
+    },
+    {
+      "label": "Tax",
+      "amount": -1.1
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.52
+    }
+  ]
+}

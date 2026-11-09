@@ -1,0 +1,161 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-11",
+  "verdict": "JPMorgan's revenue rose 7% to $42.7B as investment banking fees jumped 31% and trading held up \u2014 but setting aside $3.1B for possible loan losses, more than double a year ago, left net income slightly lower at $12.9B.",
+  "revenueYoY": "+7%",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2.1B of loans were charged off in the quarter and reserves were built by about $1.0B on a net basis.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "reported basis, vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.37",
+      "note": "vs $4.33 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$23.4B",
+      "note": "+3% YoY"
+    },
+    {
+      "label": "Credit costs",
+      "value": "$3.1B",
+      "note": "$2.1B charged off, plus a $1.0B net reserve build"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 23405,
+      "yoy": "+3%",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 3% as balance growth outweighed deposit-margin pressure."
+    },
+    {
+      "name": "Noninterest revenue",
+      "amountM": 19249,
+      "yoy": "+12%",
+      "note": "Fees, trading and asset-management income \u2014 up 12% as investment banking fees jumped 31% and Markets revenue rose 8%."
+    }
+  ],
+  "flow": {
+    "revenueM": 42654,
+    "costOfRevenueM": 3111,
+    "grossProfitM": 39543,
+    "opex": [
+      {
+        "name": "Compensation expense",
+        "amountM": 12817,
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost."
+      },
+      {
+        "name": "Professional & outside services",
+        "amountM": 2780,
+        "note": "Outside services and professional fees."
+      },
+      {
+        "name": "Technology, communications & equipment",
+        "amountM": 2447,
+        "note": "Technology, telecoms and equipment as the bank invests in AI and its platforms.",
+        "pngName": "Technology & equipment",
+        "shortName": "Technology & equipment"
+      },
+      {
+        "name": "Marketing",
+        "amountM": 1258,
+        "note": "Advertising and card marketing."
+      },
+      {
+        "name": "Occupancy & other expense",
+        "amountM": 3263,
+        "note": "Branches and offices ($1,258M of occupancy) plus other general costs ($2,005M, including $259M of legal expense).",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "operatingIncomeM": 16978,
+    "otherIncomeM": 0,
+    "taxM": 4080,
+    "netIncomeM": 12898
+  },
+  "footerNote": "JPMorgan headlines 'managed' revenue of $43.3B; this page uses reported (GAAP) revenue of $42.7B \u2014 the difference is a tax gross-up that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "follow100Note": "JPMorgan reports revenue two ways: $42.7B reported (GAAP), used here, or $43.3B on a 'managed' basis that grosses up tax-exempt income. Net income is identical either way. The rows reconcile to the $100 total within a cent of rounding.",
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "Deals and trading carried the quarter",
+      "text": "Investment banking fees jumped 31% YoY to $2.2B \u2014 JPMorgan ranked #1 globally with a 9.1% wallet share \u2014 and Markets revenue rose 8%, lifting noninterest revenue 12%."
+    },
+    {
+      "stat": "$3.1B",
+      "statColor": "#b98a1c",
+      "title": "Credit costs more than doubled",
+      "text": "The provision for credit losses was $3.1B \u2014 $2.1B of loans charged off, mostly cards, plus a $1.0B net reserve build \u2014 up 125% from a year ago, and the main reason profit dipped despite higher revenue."
+    },
+    {
+      "stat": "19%",
+      "statColor": "#3e8e5a",
+      "title": "Still an elite return on capital",
+      "text": "Return on tangible common equity was 19%, the bank kept $12.9B \u2014 about 30 cents of every reported revenue dollar \u2014 and its CET1 capital ratio stood at 15.3%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000555/a3q24erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000555/a3q24erfex992supplement.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 54.87
+    },
+    {
+      "label": "Noninterest revenue",
+      "amount": 45.13
+    },
+    {
+      "label": "Credit costs",
+      "amount": -7.29
+    },
+    {
+      "label": "Compensation expense",
+      "amount": -30.05
+    },
+    {
+      "label": "Professional & outside services",
+      "amount": -6.52
+    },
+    {
+      "label": "Technology & equipment",
+      "amount": -5.74
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.95
+    },
+    {
+      "label": "Occupancy & other expense",
+      "amount": -7.65
+    },
+    {
+      "label": "Tax",
+      "amount": -9.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.23
+    }
+  ]
+}

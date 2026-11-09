@@ -1,0 +1,159 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-23",
+  "verdict": "Tesla's revenue rose 8% to $25.2B and operating income jumped 54% to $2.7B, as cost cuts and a booming energy business outweighed lower car prices \u2014 net income rose 17% to $2.2B.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.62",
+      "note": "vs $0.53 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "462,890",
+      "note": "up 6% YoY"
+    },
+    {
+      "label": "Energy storage deployed",
+      "value": "6.9 GWh",
+      "note": "up 75% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 20016,
+      "yoy": "+2%",
+      "note": "Selling and leasing cars, plus $739M of regulatory credits \u2014 deliveries rose 6% to 462,890, but lower average prices held revenue growth to 2%."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 2376,
+      "yoy": "+52%",
+      "note": "Megapack batteries and solar \u2014 deployments hit 6.9 GWh, up 75% YoY, and the energy business earned a record 30.5% gross margin."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 2790,
+      "yoy": "+29%",
+      "note": "Supercharging, repairs, insurance and used-car sales \u2014 gross profit grew over 90% YoY to a record."
+    }
+  ],
+  "flow": {
+    "revenueM": 25182,
+    "costOfRevenueM": 20185,
+    "grossProfitM": 4997,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1039,
+        "note": "AI, the Optimus robot, Cybercab and new vehicles."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1186,
+        "note": "Selling cars and running the company day to day."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 55,
+        "note": "One-off costs of reshaping the business \u2014 much smaller than the charges taken earlier in 2024."
+      }
+    ],
+    "operatingIncomeM": 2717,
+    "otherIncomeM": 67,
+    "taxM": 601,
+    "netIncomeM": 2183
+  },
+  "otherDetail": "Interest income of $429M, less $92M of interest expense and $270M of other expense \u2014 mostly currency losses \u2014 a net +$67M below operating profit.",
+  "footerNote": "Net income here is Tesla's total net income of $2,183M; $2,167M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries). Financial statements are from Tesla's Q3 2024 Form 10-Q; deliveries and deployments are from its October 2, 2024 release.",
+  "takeaways": [
+    {
+      "stat": "462,890",
+      "statColor": "#3d7bc8",
+      "title": "Deliveries bounced back",
+      "text": "Tesla delivered 462,890 vehicles, up 6% YoY, and produced 469,796 \u2014 but it had cut prices to get there, so automotive revenue rose only 2% to $20.0B."
+    },
+    {
+      "stat": "+75%",
+      "statColor": "#3e8e5a",
+      "title": "Energy is quietly surging",
+      "text": "Energy storage deployments jumped 75% YoY to 6.9 GWh, energy revenue rose 52% to $2.4B, and the energy business earned a record 30.5% gross margin."
+    },
+    {
+      "stat": "+54%",
+      "statColor": "#3e8e5a",
+      "title": "Cost cuts widened margins",
+      "text": "Operating income rose 54% YoY to $2.7B as the gross margin widened to 19.8% from 17.9% a year ago \u2014 cost reductions per car more than offset the price cuts."
+    }
+  ],
+  "oneTimers": [
+    "Self-driving revenue recognised early: Tesla recognised $326M of Full Self-Driving revenue in the quarter for Cybertruck and features such as Actually Smart Summon \u2014 money customers had paid earlier, booked as revenue when the features shipped."
+  ],
+  "sources": [
+    {
+      "label": "Q3 2024 update letter (Exhibit 99.1, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043432/exhibit.htm"
+    },
+    {
+      "label": "Quarterly report (Form 10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043486/tsla-20240930.htm"
+    },
+    {
+      "label": "Production & deliveries release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024041816/ex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 79.48
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 9.44
+    },
+    {
+      "label": "Services and other",
+      "amount": 11.08
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -80.16
+    },
+    {
+      "label": "R&D",
+      "amount": -4.13
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.71
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.22
+    },
+    {
+      "label": "Other income",
+      "amount": 0.27
+    },
+    {
+      "label": "Tax",
+      "amount": -2.39
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.66
+    }
+  ]
+}
