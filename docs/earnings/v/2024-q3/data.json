@@ -1,0 +1,180 @@
+{
+  "ticker": "V",
+  "company": "Visa",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-06-30",
+  "reportedDate": "2024-07-23",
+  "revenueYoY": "+10%",
+  "verdict": "Visa's net revenue rose 10% to $8.9B as payments volume grew 7% and cross-border volume 14% \u2014 and with last year's large legal provision not repeating, net income jumped 17% to $4.9B.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "value": "+10%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.40",
+      "note": "+20% YoY"
+    },
+    {
+      "label": "Payments volume",
+      "value": "+7%",
+      "note": "constant dollars"
+    },
+    {
+      "label": "Client incentives",
+      "value": "$3.5B",
+      "note": "rebates paid to card issuers"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service revenue",
+      "amountM": 3967,
+      "yoy": "+8%",
+      "note": "Fees based on the payments volume Visa's clients processed in the prior quarter."
+    },
+    {
+      "name": "Data processing revenue",
+      "amountM": 4489,
+      "yoy": "+9%",
+      "note": "Fees for authorizing, clearing and settling each transaction on Visa's network."
+    },
+    {
+      "name": "International transaction revenue",
+      "amountM": 3194,
+      "yoy": "+9%",
+      "note": "Fees when a card is used outside its home country \u2014 the cross-border business."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 780,
+      "yoy": "+31%",
+      "note": "Value-added services, consulting and other fees."
+    }
+  ],
+  "flow": {
+    "revenueM": 12430,
+    "costOfRevenueM": 3530,
+    "grossProfitM": 8900,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 1573,
+        "note": "Salaries and benefits for the people who run the network."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 382,
+        "note": "Running the company \u2014 offices, legal and administration."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 378,
+        "note": "Advertising and sponsorships that keep the Visa brand in front of cardholders."
+      },
+      {
+        "name": "Litigation provision",
+        "amountM": 13,
+        "note": "Setting money aside for legal cases (see one-time items)."
+      },
+      {
+        "name": "Network, professional & depreciation",
+        "amountM": 616,
+        "note": "Running the network, outside professional help, and wear on Visa's technology \u2014 $200M network and processing, $152M professional fees and $264M depreciation and amortization."
+      }
+    ],
+    "operatingIncomeM": 5938,
+    "otherIncomeM": 51,
+    "taxM": 1117,
+    "netIncomeM": 4872
+  },
+  "otherDetail": "Investment income and other income of $247M, partly offset by $196M of interest expense on Visa's debt.",
+  "follow100": [
+    {
+      "label": "Service revenue",
+      "amount": 31.92
+    },
+    {
+      "label": "Data processing revenue",
+      "amount": 36.11
+    },
+    {
+      "label": "International transaction revenue",
+      "amount": 25.69
+    },
+    {
+      "label": "Other revenue",
+      "amount": 6.28
+    },
+    {
+      "label": "Client incentives",
+      "amount": -28.4
+    },
+    {
+      "label": "Personnel",
+      "amount": -12.65
+    },
+    {
+      "label": "General & administrative",
+      "amount": -3.07
+    },
+    {
+      "label": "Marketing",
+      "amount": -3.04
+    },
+    {
+      "label": "Litigation provision",
+      "amount": -0.1
+    },
+    {
+      "label": "Network, professional & depreciation",
+      "amount": -4.96
+    },
+    {
+      "label": "Other income",
+      "amount": 0.41
+    },
+    {
+      "label": "Tax",
+      "amount": -8.99
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 39.2
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Visa reports 'net revenue' of $8,900M; this page starts from gross revenue of $12,430M so the $3,530M of client incentives shows as a cost.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Cross-border stayed hot",
+      "text": "Payments volume rose 7% in constant dollars and processed transactions 10% to 59.3 billion, while cross-border volume \u2014 the most lucrative traffic \u2014 jumped 14%, lifting international transaction revenue 9%."
+    },
+    {
+      "stat": "+10%",
+      "statColor": "#3e8e5a",
+      "title": "Every revenue line grew",
+      "text": "Net revenue rose 10% to $8,900M: service revenue +8%, data processing +9%, international transaction +9% and other revenue +31%, against client incentives of $3,530M paid back to card issuers."
+    },
+    {
+      "stat": "$2.40",
+      "statColor": "#5b6b7c",
+      "title": "Profit grew faster than revenue",
+      "text": "Net income rose 17% to $4,872M and EPS 20% to $2.40 \u2014 helped by a litigation provision of just $13M versus $457M a year ago. Excluding special items, non-GAAP EPS was $2.42."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include three special items: a $118M release of an indirect tax reserve set aside in fiscal 2021 (a gain), a $67M donation of investment securities to the Visa Foundation, and a $10M litigation provision for the interchange multidistrict litigation (MDL) case. Excluding these and related items, non-GAAP net income was $4,909M, or $2.42 per share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000040/q32024earningsrelease.htm"
+    }
+  ]
+}

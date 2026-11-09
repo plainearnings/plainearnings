@@ -1,0 +1,147 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-03-30",
+  "reportedDate": "2024-05-07",
+  "revenueYoY": "+1%",
+  "verdict": "Disney's businesses improved \u2014 segment profit rose 17% to $3.8B and entertainment streaming turned its first profit \u2014 but a $2.1B goodwill impairment on Star India and its TV networks swung the reported result to a small loss for shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.21",
+      "note": "+30% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$3.8B",
+      "note": "+17% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.01",
+      "note": "vs $0.69 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 19757,
+      "yoy": "+1%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2326,
+      "yoy": "+4%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "segmentNote": "Segment operating income: Entertainment $781M, Sports $778M, Experiences $2,286M (before corporate costs).",
+  "flow": {
+    "revenueM": 22083,
+    "costOfRevenueM": 14172,
+    "grossProfitM": 7911,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 3790,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1242,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 2052,
+        "note": "Writing down assets that lost value \u2014 goodwill at Star India and the entertainment linear TV networks (detailed below)."
+      }
+    ],
+    "operatingIncomeM": 827,
+    "otherIncomeM": -170,
+    "taxM": 441,
+    "netIncomeM": 216
+  },
+  "otherDetail": "Interest expense, net, of $311M on Disney's debt, partly offset by $141M of equity income from companies Disney part-owns; other income was nil this quarter.",
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.46
+    },
+    {
+      "label": "Products",
+      "amount": 10.54
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -64.18
+    },
+    {
+      "label": "SG&A",
+      "amount": -17.16
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.62
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -9.29
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.77
+    },
+    {
+      "label": "Tax",
+      "amount": -2.0
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 0.98
+    }
+  ],
+  "follow100Note": "Of the $0.98 kept as profit per $100 of revenue, $1.07 belongs to noncontrolling partners \u2014 Disney shareholders' share was a $0.09 loss after the impairment charges. Rows may not add exactly due to rounding.",
+  "footerNote": "Of the $216M of net income, $236M belongs to noncontrolling interests, leaving a $20M loss attributable to Disney (the -$0.01 EPS figure). The earnings release reports one combined cost line; the split between cost of services/products, SG&A and depreciation comes from the Q2 FY24 10-Q.",
+  "takeaways": [
+    {
+      "stat": "+17%",
+      "statColor": "#3d7bc8",
+      "title": "Segment profit jumped",
+      "text": "Total segment operating income rose 17% to $3,845M: Experiences grew 12% to $2,286M, Entertainment jumped 72% to $781M, and Sports eased 2% to $778M on the timing of College Football Playoff games."
+    },
+    {
+      "stat": "1st",
+      "statColor": "#3e8e5a",
+      "title": "Entertainment streaming turned profitable",
+      "text": "Disney's Entertainment direct-to-consumer business (Disney+ and Hulu) made its first quarterly profit, and Disney+ Core added more than 6 million subscribers. Disney still expected the combined streaming businesses to be profitable by Q4 of fiscal 2024."
+    },
+    {
+      "stat": "$2.1B",
+      "statColor": "#5b6b7c",
+      "title": "Impairments masked the progress",
+      "text": "Goodwill impairments of $2,052M \u2014 mainly Star India, which Disney agreed to contribute to a new joint venture with Reliance, plus its entertainment linear networks \u2014 swung the reported result to a $0.01-per-share loss, versus $1.21 excluding certain items."
+    }
+  ],
+  "oneTimers": [
+    "Goodwill impairments of $2,052M \u2014 mainly Star India, written down as Disney agreed to contribute it to a new joint venture with Reliance, plus the entertainment linear TV networks. The charges are largely not tax deductible, which is why the tax bill stayed high relative to profit."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000149/fy2024_q2xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000152/dis-20240330.htm"
+    }
+  ]
+}
