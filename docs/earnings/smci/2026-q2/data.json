@@ -1,0 +1,145 @@
+{
+  "ticker": "SMCI",
+  "company": "Super Micro Computer",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-03",
+  "revenueYoY": "+123.4%",
+  "verdict": "Supermicro's sales more than doubled to a record $12.7B, but gross margin squeezed to 6.3% on giant AI deals, so net income rose only modestly to $401M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+123.4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.60",
+      "note": "diluted; vs $0.51 a year ago; $0.69 non-GAAP"
+    },
+    {
+      "label": "Gross margin",
+      "value": "6.3%",
+      "note": "vs 11.8% a year ago and 9.3% in Q1 FY26"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "-$24M",
+      "note": "used in Q2; capex and investments were $46M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Total net sales",
+      "amountM": 12682.491,
+      "note": "Supermicro reports a single operating segment and printed no product split this quarter. Sales are mostly complete AI server and rack systems built on its Data Center Building Block Solutions.",
+      "yoy": "+123.4%"
+    }
+  ],
+  "flow": {
+    "revenueM": 12682.491,
+    "costOfRevenueM": 11883.924,
+    "grossProfitM": 798.567,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 180.761,
+        "note": "Designing next-generation servers, racks and Data Center Building Block Solutions; up 14% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 73.078,
+        "note": "Sales teams and marketing; down 8% YoY.",
+        "short": "Sales & marketing"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 70.43,
+        "note": "Back office, legal and facilities; up 11% YoY.",
+        "short": "G&A"
+      }
+    ],
+    "operatingIncomeM": 474.298,
+    "otherIncomeM": 25.909,
+    "equityM": -0.492,
+    "taxM": 99.151,
+    "netIncomeM": 400.564
+  },
+  "otherDetail": "Interest income of $51.0M plus $0.2M of other income, net, less $25.4M of interest expense \u2014 a net $25.9M gain outside operations. A separate $0.5M share of loss from an equity investee, net of taxes, is shown as equityM (amounts from thousands).",
+  "oneTimers": [
+    "Stock-based compensation was $90.5M in the quarter \u2014 the main gap between GAAP net income ($401M) and non-GAAP net income ($486M, diluted basis).",
+    "Management raised the full-year FY26 net sales outlook to at least $40B in this release."
+  ],
+  "footerNote": "Supermicro guided Q3 FY26 net sales to at least $12.3B.",
+  "takeaways": [
+    {
+      "stat": "+123.4%",
+      "statColor": "#3d7bc8",
+      "title": "Sales more than doubled",
+      "text": "Net sales rose to a record $12.7B from $5.7B a year ago on large AI datacenter deployments \u2014 more than double Q1's $5.0B in a single step."
+    },
+    {
+      "stat": "6.3%",
+      "statColor": "#b8443c",
+      "title": "Margins squeezed hard",
+      "text": "Gross margin fell to 6.3% from 11.8% a year ago as very large AI deals dominated the mix \u2014 revenue more than doubled, but gross profit rose only 19%."
+    },
+    {
+      "stat": "$401M",
+      "statColor": "#3e8e5a",
+      "title": "Profit followed, slowly",
+      "text": "Net income rose to $401M from $321M a year ago and $168M in Q1 \u2014 real growth, but a fraction of the sales surge, because so little of each sales dollar survived direct costs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000006/exhibit991_20251231.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Dec 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000007/smci-20251231.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Total net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -93.7
+    },
+    {
+      "label": "R&D",
+      "amount": -1.43
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -0.58
+    },
+    {
+      "label": "G&A",
+      "amount": -0.56
+    },
+    {
+      "label": "Other income",
+      "amount": 0.2
+    },
+    {
+      "label": "Equity investee loss",
+      "amount": -0.0
+    },
+    {
+      "label": "Tax",
+      "amount": -0.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.16
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a cent below the $3.16 kept as profit \u2014 at a 6.3% gross margin, almost every sales dollar goes straight back into building the systems."
+}

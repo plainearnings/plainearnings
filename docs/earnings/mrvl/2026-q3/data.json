@@ -1,0 +1,146 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2025-11-01",
+  "reportedDate": "2025-12-02",
+  "revenueYoY": "+37%",
+  "verdict": "Marvell's revenue hit a record $2.07B, up 37% on AI data-center demand \u2014 but the headline $1.90B profit came mostly from a $1.8B one-time gain on selling its automotive ethernet business.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+37%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.20",
+      "note": "vs $0.76 non-GAAP; -$0.78 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$1.52B",
+      "note": "+38% YoY, 73% of revenue"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "$582M",
+      "note": "in Q3; capex was $74M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data center",
+      "amountM": 1517.9,
+      "note": "Chips for AI data centers \u2014 custom silicon, optics and Ethernet switches; 73% of all revenue.",
+      "yoy": "+38%"
+    },
+    {
+      "name": "Communications and other",
+      "amountM": 556.6,
+      "note": "Enterprise networking ($237M), carrier infrastructure ($168M), consumer ($117M) and automotive/industrial ($35M) \u2014 reported separately this quarter, and combined into this one group from Q4 FY26.",
+      "yoy": "+34%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2074.5,
+    "costOfRevenueM": 1004.7,
+    "grossProfitM": 1069.8,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 512.5,
+        "note": "Designing new data-infrastructure chips and platforms; up 5% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 189.9,
+        "note": "Selling the chips and running the company; down 7% YoY.",
+        "short": "SG&A"
+      },
+      {
+        "name": "Restructuring related charges, net",
+        "amountM": 9.6,
+        "note": "Restructuring charges this quarter \u2014 severance and facility-exit costs, net of gains.",
+        "short": "Restructuring charges"
+      }
+    ],
+    "operatingIncomeM": 357.8,
+    "otherIncomeM": 1857.6,
+    "taxM": 314.1,
+    "netIncomeM": 1901.3
+  },
+  "otherDetail": "A $1,830.4M pre-tax gain on the sale of the automotive ethernet business sits inside interest income and other, net ($1,908.8M), less $51.2M of interest expense \u2014 a net $1,857.6M outside operations.",
+  "oneTimers": [
+    "Marvell closed the sale of its automotive ethernet business to Infineon on August 14, 2025 for $2.5B in cash, booking a $1,830.4M pre-tax gain this quarter \u2014 the entire reason GAAP EPS ($2.20) dwarfs non-GAAP EPS ($0.76). Net cash proceeds were $2,478.6M.",
+    "GAAP results also include $152.1M of stock-based compensation and $229.0M of amortization of acquired intangible assets, both excluded from non-GAAP."
+  ],
+  "footerNote": "Marvell guided Q4 FY26 revenue to $2.2B \u00b15%.",
+  "takeaways": [
+    {
+      "stat": "+38%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center set the record",
+      "text": "Data Center revenue hit $1.52B \u2014 73% of the company \u2014 on AI demand, and total revenue set a record at $2.07B, up 37% YoY."
+    },
+    {
+      "stat": "$1.8B",
+      "statColor": "#b8443c",
+      "title": "A one-time gain did the lifting",
+      "text": "The $1,830.4M gain on the automotive ethernet sale is most of the quarter's $1,901.3M GAAP profit. Underlying non-GAAP net income was $655.0M."
+    },
+    {
+      "stat": "$582M",
+      "statColor": "#3e8e5a",
+      "title": "Cash kept flowing",
+      "text": "Operating cash flow was $582.3M in the quarter, and Marvell spent $1.3B buying back its own shares after banking the sale proceeds."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000193/q326_8kx1112025ex-991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data center",
+      "amount": 73.17
+    },
+    {
+      "label": "Communications and other",
+      "amount": 26.83
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.43
+    },
+    {
+      "label": "R&D",
+      "amount": -24.7
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.15
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.46
+    },
+    {
+      "label": "Other income",
+      "amount": 89.54
+    },
+    {
+      "label": "Tax",
+      "amount": -15.14
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 91.65
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a cent above the $91.65 kept as profit on paper \u2014 almost all of the extra is the one-time $1.8B gain on the automotive ethernet sale; without it, profit would have been a few dollars per $100."
+}

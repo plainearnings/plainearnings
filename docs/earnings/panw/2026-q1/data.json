@@ -1,0 +1,145 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-10-31",
+  "reportedDate": "2025-11-19",
+  "revenueYoY": "+16%",
+  "verdict": "Palo Alto Networks grew revenue 16% to $2.47B and earned $334M \u2014 a steady, profitable start to the year, with the big CyberArk acquisition still to come.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.47",
+      "note": "vs $0.93 non-GAAP; $0.49 a year ago"
+    },
+    {
+      "label": "Next-Gen Security ARR",
+      "value": "$5.9B",
+      "note": "+29% YoY"
+    },
+    {
+      "label": "Remaining performance obligations",
+      "value": "$15.5B",
+      "note": "+24% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription & support",
+      "amountM": 2040,
+      "note": "Security subscriptions and support \u2014 the recurring core of the business.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Product",
+      "amountM": 434,
+      "note": "Firewalls and other security appliances.",
+      "yoy": "+23%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2474,
+    "costOfRevenueM": 638,
+    "grossProfitM": 1836,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 528,
+        "note": "Building the security platforms.",
+        "short": "R&D"
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 820,
+        "note": "Selling security platforms to enterprises \u2014 the largest running cost.",
+        "short": "Sales & marketing"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 179,
+        "note": "Running the company day to day \u2014 up sharply from $98M a year ago, with acquisition activity under way.",
+        "short": "G&A"
+      }
+    ],
+    "operatingIncomeM": 309,
+    "otherIncomeM": 103,
+    "taxM": 78,
+    "netIncomeM": 334
+  },
+  "otherDetail": "Other income, net of $103M, with no interest expense in the quarter.",
+  "oneTimers": [
+    "Share-based compensation was $387M, acquisition-related costs $5M, amortization of acquired intangible assets $39M and litigation-related charges $6M \u2014 together they explain most of the gap between the $334M GAAP net income and $662M of non-GAAP net income.",
+    "Palo Alto announced its intent to acquire Chronosphere in this release; the previously announced CyberArk acquisition had not yet closed, so neither deal's revenue or costs are in these numbers."
+  ],
+  "footerNote": "Palo Alto guided Q2 FY26 revenue to $2.57B\u2013$2.59B in this release.",
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Steady growth",
+      "text": "Revenue grew 16% to $2.47B \u2014 product revenue rose 23% to $434M and subscription and support 14% to $2.04B."
+    },
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "The platform bet is working",
+      "text": "Next-Generation Security ARR grew 29% to $5.9B, and remaining performance obligations rose 24% to $15.5B."
+    },
+    {
+      "stat": "$334M",
+      "statColor": "#3e8e5a",
+      "title": "Profitably run",
+      "text": "GAAP net income was $334M, just below $351M a year ago as G&A rose with acquisition activity \u2014 operating income still grew to $309M from $286M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000032/ex991q126earningsrelease.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 82.46
+    },
+    {
+      "label": "Product",
+      "amount": 17.54
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.79
+    },
+    {
+      "label": "R&D",
+      "amount": -21.34
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -33.14
+    },
+    {
+      "label": "G&A",
+      "amount": -7.24
+    },
+    {
+      "label": "Other income",
+      "amount": 4.16
+    },
+    {
+      "label": "Tax",
+      "amount": -3.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.5
+    }
+  ]
+}

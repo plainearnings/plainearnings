@@ -1,0 +1,156 @@
+{
+  "ticker": "TXN",
+  "company": "Texas Instruments",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-27",
+  "revenueYoY": "+10%",
+  "verdict": "Texas Instruments grew revenue 10% to $4.42B as Analog sales rose 14%, and operating profit climbed 7% \u2014 though a bigger tax bill left net income a touch lower at $1.16B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+10%",
+      "note": "vs a year ago; -7% sequentially"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.27",
+      "note": "vs $1.30 a year ago"
+    },
+    {
+      "label": "Analog revenue",
+      "value": "$3.6B",
+      "note": "+14% YoY, 82% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1,329M",
+      "note": "in Q4; trailing-12-month FCF was $2.9B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Analog",
+      "amountM": 3615,
+      "note": "Analog chips \u2014 sensing and power products used in nearly every electronic device.",
+      "yoy": "+14%"
+    },
+    {
+      "name": "Embedded Processing",
+      "amountM": 662,
+      "note": "Processors that sit inside cars, appliances and factory equipment.",
+      "yoy": "+8%"
+    },
+    {
+      "name": "Other",
+      "amountM": 146,
+      "note": "DLP products, calculators and custom chips.",
+      "yoy": "-34%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4423,
+    "costOfRevenueM": 1951,
+    "grossProfitM": 2472,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 521,
+        "note": "R&D \u2014 designing new analog and embedded chips; up 6% from $491M a year ago.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 446,
+        "note": "Sales, marketing and the back office (SG&A); flat vs $446M a year ago.",
+        "short": "SG&A"
+      },
+      {
+        "name": "Restructuring charges/other",
+        "amountM": 32,
+        "note": "Restructuring charges and other items; none a year ago. TI reports these inside its 'Other' segment result.",
+        "short": "Restructuring charges"
+      }
+    ],
+    "operatingIncomeM": 1473,
+    "otherIncomeM": -101,
+    "taxM": 209,
+    "netIncomeM": 1163
+  },
+  "otherDetail": "Other income (expense), net was $40M, less $141M of interest and debt expense \u2014 a net $101M expense outside operations.",
+  "oneTimers": [
+    "Earnings per share included a 6-cent reduction that was not in the company's original guidance, as stated in the release.",
+    "The $32M of restructuring charges/other is reported inside the 'Other' segment, whose operating profit fell to $7M from $82M a year ago."
+  ],
+  "footerNote": "Segment operating profit: Analog $1,395M, Embedded Processing $71M, Other $7M.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Analog did the lifting",
+      "text": "Analog revenue rose 14% to $3.62B \u2014 82% of all sales \u2014 while Embedded Processing grew 8% to $662M and Other fell 34% to $146M."
+    },
+    {
+      "stat": "55.9%",
+      "statColor": "#b8443c",
+      "title": "Margins eased",
+      "text": "Gross margin slipped to 55.9% from 57.8% a year ago, but the revenue growth still lifted operating profit 7% to $1.47B."
+    },
+    {
+      "stat": "$1,693M",
+      "statColor": "#3e8e5a",
+      "title": "Cash returned to owners",
+      "text": "TI returned $1,693M in the quarter \u2014 $1,290M of dividends and $403M of buybacks \u2014 against $1,329M of free cash flow."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000003/q42025txnex99-eredgar.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Analog",
+      "amount": 81.73
+    },
+    {
+      "label": "Embedded Processing",
+      "amount": 14.97
+    },
+    {
+      "label": "Other",
+      "amount": 3.3
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -44.11
+    },
+    {
+      "label": "R&D",
+      "amount": -11.78
+    },
+    {
+      "label": "SG&A",
+      "amount": -10.08
+    },
+    {
+      "label": "Restructuring charges/other",
+      "amount": -0.72
+    },
+    {
+      "label": "Other expense",
+      "amount": -2.28
+    },
+    {
+      "label": "Tax",
+      "amount": -4.73
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.29
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a cent above the $26.29 kept as profit."
+}

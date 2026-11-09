@@ -1,0 +1,150 @@
+{
+  "ticker": "QCOM",
+  "company": "Qualcomm",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-12-28",
+  "reportedDate": "2026-02-04",
+  "revenueYoY": "+5%",
+  "verdict": "Qualcomm set a revenue record at $12.3B, up 5%, on record chip sales \u2014 though profit eased 6% to $3.00B and memory shortages clouded the near-term handset outlook.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.78",
+      "note": "vs $3.50 non-GAAP; $2.83 a year ago"
+    },
+    {
+      "label": "Automotive revenue",
+      "value": "$1.1B",
+      "note": "+15% YoY; second straight quarter above $1B"
+    },
+    {
+      "label": "Cash returned",
+      "value": "$3.6B",
+      "note": "$2.6B buybacks + $949M dividends in Q1"
+    }
+  ],
+  "segments": [
+    {
+      "name": "QCT",
+      "amountM": 10613,
+      "note": "The chip business. Inside it: Handsets $7,824M (+3% YoY), Automotive $1,101M (+15%), IoT $1,688M (+9%).",
+      "yoy": "+5%"
+    },
+    {
+      "name": "QTL",
+      "amountM": 1592,
+      "note": "Licensing phone makers to use Qualcomm's patents \u2014 very high margin (77% pre-tax).",
+      "yoy": "+4%"
+    },
+    {
+      "name": "Other and reconciling items",
+      "amountM": 47,
+      "note": "QSI strategic investments and corporate items not in QCT or QTL; the difference between segment revenue and the reported total.",
+      "yoy": null
+    }
+  ],
+  "flow": {
+    "revenueM": 12252,
+    "costOfRevenueM": 5568,
+    "grossProfitM": 6684,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 2453,
+        "note": "Building chips, modems and AI platforms; up 10% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 865,
+        "note": "Selling, legal costs and running the company; up 20% YoY.",
+        "short": "SG&A"
+      }
+    ],
+    "operatingIncomeM": 3366,
+    "otherIncomeM": 181,
+    "taxM": 543,
+    "netIncomeM": 3004
+  },
+  "otherDetail": "Investment and other income, net of $350M, less $169M of interest expense \u2014 a net $181M non-operating gain.",
+  "oneTimers": [
+    "Qualcomm completed its acquisition of Alphawave Semi in the quarter, accelerating its expansion into data-center chips.",
+    "The Q2 FY26 guidance in this release includes the estimated impact of industry-wide memory supply constraints on several handset customers."
+  ],
+  "footerNote": "Qualcomm's Q2 FY26 guidance in this release reflects expected memory-supply pressure on handset demand.",
+  "takeaways": [
+    {
+      "stat": "$12.3B",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter",
+      "text": "Revenue hit a record $12.25B, up 5% \u2014 and QCT chip revenue set its own record at $10.61B."
+    },
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Cars keep climbing",
+      "text": "Automotive chip revenue topped $1B for a second straight quarter, at $1.10B, and IoT grew 9% to $1.69B \u2014 diversification beyond phones continued."
+    },
+    {
+      "stat": "$2.78 vs $3.50",
+      "statColor": "#b8443c",
+      "title": "Two profit pictures",
+      "text": "GAAP EPS was $2.78 against $3.50 non-GAAP \u2014 share-based compensation and acquisition items sit in the GAAP column only. GAAP net income eased 6% YoY to $3.00B."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000016/qcom122825erex991.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Dec 28, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000017/qcom-20251228.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "QCT",
+      "amount": 86.62
+    },
+    {
+      "label": "QTL",
+      "amount": 12.99
+    },
+    {
+      "label": "Other and reconciling items",
+      "amount": 0.38
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -45.45
+    },
+    {
+      "label": "R&D",
+      "amount": -20.02
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.06
+    },
+    {
+      "label": "Other income",
+      "amount": 1.48
+    },
+    {
+      "label": "Tax",
+      "amount": -4.43
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 24.52
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a cent below the $24.52 kept as profit."
+}

@@ -1,0 +1,146 @@
+{
+  "ticker": "NOW",
+  "company": "ServiceNow",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-28",
+  "revenueYoY": "+20.5%",
+  "verdict": "ServiceNow closed 2025 with revenue up 20.5% to $3.57B and $28.2B of future revenue already booked, though $494M of stock pay held GAAP profit to $401M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+20.5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.38",
+      "note": "diluted, split-adjusted; vs $0.92 non-GAAP"
+    },
+    {
+      "label": "Future revenue booked (RPO)",
+      "value": "$28.2B",
+      "note": "+26.5% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2,032M",
+      "note": "57% of revenue, per the release"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 3466,
+      "note": "Companies paying to use the ServiceNow platform \u2014 97% of all revenue; grew 21% YoY (19.5% in constant currency).",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Professional services",
+      "amountM": 102,
+      "note": "Consultants who help customers set the platform up.",
+      "yoy": "+13%"
+    }
+  ],
+  "flow": {
+    "revenueM": 3568,
+    "costOfRevenueM": 834,
+    "grossProfitM": 2734,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 1150,
+        "note": "Selling the platform to big companies \u2014 the largest running cost.",
+        "short": "Sales & marketing"
+      },
+      {
+        "name": "Research and development",
+        "amountM": 773,
+        "note": "Building the platform and its AI features.",
+        "short": "R&D"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 368,
+        "note": "Running the company day to day.",
+        "short": "G&A"
+      }
+    ],
+    "operatingIncomeM": 443,
+    "otherIncomeM": 98,
+    "taxM": 140,
+    "netIncomeM": 401
+  },
+  "otherDetail": "Interest income of $105M, less $7M of other expense, net \u2014 a net $98M gain outside operations.",
+  "oneTimers": [
+    "Stock-based compensation was $494M in the quarter (including $89M inside cost of revenues) \u2014 the main reason non-GAAP net income ($959M) is more than double the GAAP figure ($401M). The cost is real; it is paid in shares instead of cash.",
+    "ServiceNow closed its Moveworks acquisition on December 15, 2025; a 5-for-1 stock split also took effect in the quarter (December 17), so per-share figures are split-adjusted."
+  ],
+  "footerNote": "ServiceNow authorized an additional $5B of share repurchases in this release.",
+  "takeaways": [
+    {
+      "stat": "+20.5%",
+      "statColor": "#3d7bc8",
+      "title": "Growth held up",
+      "text": "Total revenue grew 20.5% to $3.57B and subscription revenue 21% \u2014 ServiceNow beat its Q4 guidance and finished 2025 with $13.28B of revenue, up 21%."
+    },
+    {
+      "stat": "$28.2B",
+      "statColor": "#3d7bc8",
+      "title": "Future revenue is booked",
+      "text": "Remaining performance obligations \u2014 revenue customers have signed for but not yet been billed as sales \u2014 grew 26.5% to $28.2B, with $12.85B due in the next 12 months."
+    },
+    {
+      "stat": "$0.38 vs $0.92",
+      "statColor": "#b8443c",
+      "title": "Two very different profits",
+      "text": "GAAP EPS was $0.38 against $0.92 non-GAAP: $494M of stock-based compensation is the biggest single difference between the two profit pictures."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000005/erq4fy25.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 97.14
+    },
+    {
+      "label": "Professional services",
+      "amount": 2.86
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.37
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -32.23
+    },
+    {
+      "label": "R&D",
+      "amount": -21.66
+    },
+    {
+      "label": "G&A",
+      "amount": -10.31
+    },
+    {
+      "label": "Other income",
+      "amount": 2.75
+    },
+    {
+      "label": "Tax",
+      "amount": -3.92
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.24
+    }
+  ],
+  "follow100Note": "Rows are rounded to cents, so the waterfall lands a couple of cents above the $11.24 kept as profit \u2014 stock pay, not cash costs, is what holds the GAAP figure down."
+}
