@@ -1,0 +1,160 @@
+{
+  "ticker": "CMG",
+  "company": "Chipotle",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-07-29",
+  "verdict": "Chipotle grew revenue 9.3% to $3.3B as comparable sales rose 2.2% with traffic positive again, and it raised full-year comp guidance \u2014 but profit fell 7% to $404M as food, labor and legal costs climbed.",
+  "revenueYoY": "+9.3%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$3.3B",
+      "note": "+9.3% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.32",
+      "note": "adjusted EPS was $0.33"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+2.2%",
+      "note": "transactions +1.0%, check +1.2%"
+    },
+    {
+      "label": "Restaurant-level margin",
+      "value": "25.2%",
+      "note": "of revenue, at the store level"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Food and beverage revenue",
+      "amountM": 3332.792,
+      "note": "Burritos, bowls and drinks across 4,186 company-owned restaurants. Digital orders were 38.3% of this revenue, and 100 new restaurants opened in the quarter \u2014 80 of them with a Chipotlane drive-thru.",
+      "yoy": "+9.4%"
+    },
+    {
+      "name": "Delivery service revenue",
+      "amountM": 15.77,
+      "note": "Delivery fees Chipotle collects on orders placed through its own app and website \u2014 a sliver next to the food itself.",
+      "shortName": "Delivery",
+      "yoy": "+0.8%"
+    }
+  ],
+  "flow": {
+    "costName": "Restaurant operating costs",
+    "costOfRevenueM": 2503.997,
+    "costPlain": "Everything it costs to run the restaurants themselves: food, beverage and packaging ($994M), crew labor ($836M), occupancy ($174M) and other operating costs ($500M).",
+    "grossName": "Restaurant-level profit",
+    "grossProfitM": 844.565,
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 190.471,
+        "note": "Running the company above the restaurant level \u2014 headquarters, marketing and support, including a $10M legal reserve this quarter."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 98.327,
+        "note": "Spreading the cost of restaurant build-outs, equipment and technology.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "name": "Pre-opening costs",
+        "amountM": 16.364,
+        "note": "Costs to open new restaurants before they serve their first burrito bowl.",
+        "shortName": "Pre-opening"
+      },
+      {
+        "name": "Impairment and closure costs",
+        "amountM": 13.808,
+        "note": "Writing down or closing underperforming locations, and disposing of assets.",
+        "shortName": "Impairment & closures"
+      }
+    ],
+    "operatingIncomeM": 525.595,
+    "otherIncomeM": 7.677,
+    "revenueM": 3348.562,
+    "taxM": 129.725,
+    "netIncomeM": 403.547
+  },
+  "follow100": [
+    {
+      "label": "Food & beverage revenue",
+      "amount": 99.53
+    },
+    {
+      "label": "Delivery service revenue",
+      "amount": 0.47
+    },
+    {
+      "label": "Restaurant operating costs",
+      "amount": -74.78
+    },
+    {
+      "label": "G&A",
+      "amount": -5.69
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -2.94
+    },
+    {
+      "label": "Pre-opening",
+      "amount": -0.49
+    },
+    {
+      "label": "Impairment & closures",
+      "amount": -0.41
+    },
+    {
+      "label": "Other income",
+      "amount": 0.23
+    },
+    {
+      "label": "Tax",
+      "amount": -3.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.05
+    }
+  ],
+  "follow100Note": "Three-quarters of every $100 never leaves the restaurant \u2014 ingredients, crew and rent eat it on site. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+2.2%",
+      "statColor": "#3d7bc8",
+      "title": "Traffic improved again",
+      "text": "Comparable sales rose 2.2% \u2014 transactions up 1.0% and average check up 1.2% \u2014 a second straight quarter of improving transaction comps. Digital sales climbed to 38.3% of food and beverage revenue."
+    },
+    {
+      "stat": "100",
+      "statColor": "#3e8e5a",
+      "title": "100 new restaurants, guidance raised",
+      "text": "Chipotle opened 100 company-owned restaurants (80 with a Chipotlane) plus one partner-operated abroad, passing 4,200 total locations. Management raised full-year guidance to low-single-digit comparable sales growth and 350\u2013370 openings."
+    },
+    {
+      "stat": "25.2%",
+      "statColor": "#5b6b7c",
+      "title": "Margins squeezed at the restaurant",
+      "text": "Restaurant-level margin fell to 25.2% from 27.4% as food, beverage and packaging costs rose to 29.7% of revenue (beef and freight inflation) and labor rose to 25.0%. Operating margin fell to 15.7% from 18.2%."
+    }
+  ],
+  "oneTimers": [
+    "Adjusted net income of $418.9M excludes $18.2M of items: a $10.0M legal reserve in G&A, $3.9M of restaurant asset impairment, $3.3M of Recipe for Growth restructuring costs and $0.9M of retention stock pay.",
+    "Chipotle repurchased $630.7M of its own stock in the quarter at an average of $32.55, and the board added $1.3B of buyback authorization; $1.7B remained at June 30."
+  ],
+  "otherDetail": "Interest and other income, net, was $7.7M \u2014 mostly interest earned on Chipotle's cash and investments.",
+  "footerNote": "Chipotle doesn't report gross profit; the middle step is its own 'restaurant-level operating profit' \u2014 revenue minus the four costs of running the restaurants.",
+  "pngFooterNote": "The middle step is Chipotle's restaurant-level operating profit.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 8-K Ex 99.1)",
+      "url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=90423&ref=320224648&type=PDF&symbol=CMG&cdn=2d095c3d09737458282de78067851bc6&companyName=Chipotle+Mexican+Grill+Inc.&formType=8-K&formDescription=Current+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2026-07-29"
+    }
+  ]
+}

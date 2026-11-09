@@ -1,0 +1,149 @@
+{
+  "ticker": "NU",
+  "company": "Nu Holdings",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-14",
+  "verdict": "Nu grew revenue 53% to $5.0B and profit 56% to $871M in IFRS terms, passing 135 million customers as its Mexico business reached break-even.",
+  "revenueYoY": "+53%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+53%",
+      "note": "Total revenue $5.0B vs $3.2B in Q1 2025, in dollars (IFRS accounting basis)"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.18",
+      "note": "Diluted earnings per share, vs $0.11 a year ago"
+    },
+    {
+      "label": "Customers",
+      "value": "135M",
+      "note": "135.2 million total, up from 118.6 million a year ago; about 4 million added in the quarter"
+    },
+    {
+      "label": "Deposits",
+      "value": "$42.4B",
+      "note": "Customer deposits held with Nu, up 22% year over year; credit portfolio $37.2B, up 40%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Interest income & instrument gains",
+      "amountM": 4275.3,
+      "note": "Interest earned on loans, credit cards and investments, plus gains on financial instruments \u2014 the core money a bank makes from lending. Reported as 'Interest income and gains on financial instruments'.",
+      "yoy": "+57%"
+    },
+    {
+      "name": "Fee and commission income",
+      "amountM": 692.7,
+      "note": "Fees and commissions from cards and other services customers use in the app.",
+      "yoy": "+34%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4968,
+    "costOfRevenueM": 3103.1,
+    "grossProfitM": 1864.9,
+    "opex": [
+      {
+        "name": "Customer support and operations",
+        "amountM": 204.9,
+        "note": "Customer support and day-to-day operations for an app-only bank with no branches."
+      },
+      {
+        "name": "General and administrative expenses",
+        "amountM": 492.0,
+        "note": "Staff, technology and running the company \u2014 the biggest operating cost block."
+      },
+      {
+        "name": "Marketing expenses",
+        "amountM": 62.9,
+        "note": "Advertising and customer acquisition."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 169.8,
+        "note": "Other operating expenses as reported in the statement."
+      }
+    ],
+    "operatingIncomeM": 935.3,
+    "otherIncomeM": 19.0,
+    "taxM": 82.9,
+    "netIncomeM": 871.4
+  },
+  "follow100": [
+    {
+      "label": "Interest income & gains",
+      "amount": 86.06
+    },
+    {
+      "label": "Fees & commissions",
+      "amount": 13.94
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.46
+    },
+    {
+      "label": "Customer support",
+      "amount": -4.12
+    },
+    {
+      "label": "General & admin",
+      "amount": -9.9
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.27
+    },
+    {
+      "label": "Other expenses",
+      "amount": -3.42
+    },
+    {
+      "label": "Other income",
+      "amount": 0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -1.67
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.54
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$871M",
+      "statColor": "#3e8e5a",
+      "title": "Profit jumped 56% in dollars",
+      "text": "Net income reached $871M, up from $557M a year ago in dollar terms, with return on equity of 29%. On Nu's managerial view, revenue passed $5 billion for the first time ($5,315.5M)."
+    },
+    {
+      "stat": "135M",
+      "statColor": "#3d7bc8",
+      "title": "Still adding millions of customers",
+      "text": "Nu added about 4 million customers to reach 135.2 million \u2014 over 115 million in Brazil, 15 million in Mexico and approaching 5 million in Colombia. Mexico reached break-even in the quarter."
+    },
+    {
+      "stat": "$1.79B",
+      "statColor": "#5b6b7c",
+      "title": "Loan-loss costs spiked seasonally",
+      "text": "Credit loss allowances closed at $1.79B, up 33% in the quarter on seasonality, portfolio growth and mix. Expected credit losses of $1,718M were the biggest single cost after funding, and the 15\u201390 day delinquency ratio rose to 5.0% on the usual first-quarter pattern."
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other income of $20M, less a $1M share of losses from associates \u2014 net +$19M.",
+  "footerNote": "Nu is a digital bank; cost of revenue is mostly interest paid to depositors and loan-loss provisions. Figures are the IFRS accounting P&L.",
+  "pngFooterNote": "Nu is a digital bank; figures are the IFRS accounting P&L.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426003057/nu20260514_6k2.htm"
+    }
+  ]
+}

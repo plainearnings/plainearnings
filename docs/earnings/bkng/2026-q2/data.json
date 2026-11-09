@@ -1,0 +1,189 @@
+{
+  "ticker": "BKNG",
+  "company": "Booking Holdings",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-30",
+  "reportedDate": "2026-08-04",
+  "verdict": "Booking grew revenue 8% to $7.4B on $51.0B of gross bookings, and net income more than doubled to $2.0B \u2014 mostly because a year ago a large foreign-currency loss on its euro debt dragged profit down.",
+  "revenueYoY": "+8%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "Revenue was $7.4B, or about +7% on a constant-currency basis"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$2.53",
+      "note": "Up 131% from $1.10 a year ago \u2014 per-share figures reflect the 25-for-1 stock split on April 2, 2026"
+    },
+    {
+      "label": "Gross bookings",
+      "value": "$51.0B",
+      "note": "Up 9% from a year ago; room nights rose 5% to 325 million"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$2.54",
+      "note": "Adjusted net income rose 8% to $2.0B and adjusted EBITDA rose 9% to $2.6B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Merchant revenues",
+      "amountM": 5127,
+      "note": "Booking collects the traveler's money itself and pays the hotel or airline \u2014 up 15% as Booking.com keeps shifting to this model",
+      "yoy": "+15%"
+    },
+    {
+      "name": "Agency revenues",
+      "amountM": 1903,
+      "note": "Hotels and other providers pay Booking a commission and collect the traveler's money themselves \u2014 down 7% in the shift to merchant",
+      "yoy": "-7%"
+    },
+    {
+      "name": "Advertising and other revenues",
+      "amountM": 322,
+      "note": "Advertising on Booking's sites and OpenTable restaurant revenue \u2014 up 8%",
+      "yoy": "+8%"
+    }
+  ],
+  "flow": {
+    "revenueM": 7352,
+    "costOfRevenueM": 0,
+    "grossProfitM": 7352,
+    "opex": [
+      {
+        "name": "Marketing expenses",
+        "amountM": 2371,
+        "note": "Ads and partner marketing to bring in travelers \u2014 4.7% of gross bookings, vs 4.6% a year ago"
+      },
+      {
+        "name": "Sales and other expenses",
+        "amountM": 942,
+        "note": "Payment processing for merchant bookings and customer-service costs"
+      },
+      {
+        "name": "Personnel",
+        "amountM": 900,
+        "note": "Pay for the company's staff, including $140M of stock-based pay"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 217,
+        "note": "Running the company",
+        "compact": true
+      },
+      {
+        "name": "Information technology",
+        "amountM": 263,
+        "note": "Cloud, software and generative AI costs",
+        "compact": true
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 129,
+        "note": "Wear and tear on buildings, equipment and software",
+        "compact": true
+      },
+      {
+        "name": "Transformation costs",
+        "amountM": 30,
+        "note": "Costs of the company's transformation program"
+      }
+    ],
+    "operatingIncomeM": 2500,
+    "otherIncomeM": 60,
+    "taxM": 610,
+    "netIncomeM": 1950
+  },
+  "follow100": [
+    {
+      "label": "Merchant revenues",
+      "amount": 69.74
+    },
+    {
+      "label": "Agency revenues",
+      "amount": 25.88
+    },
+    {
+      "label": "Advertising and other",
+      "amount": 4.38
+    },
+    {
+      "label": "Marketing",
+      "amount": -32.25
+    },
+    {
+      "label": "Sales & other",
+      "amount": -12.81
+    },
+    {
+      "label": "Personnel",
+      "amount": -12.24
+    },
+    {
+      "label": "G&A",
+      "amount": -2.95
+    },
+    {
+      "label": "IT",
+      "amount": -3.58
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.75
+    },
+    {
+      "label": "Transformation",
+      "amount": -0.41
+    },
+    {
+      "label": "Other income",
+      "amount": 0.82
+    },
+    {
+      "label": "Tax",
+      "amount": -8.3
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.52
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+15%",
+      "statColor": "#3d7bc8",
+      "title": "Merchant is now the engine",
+      "text": "Merchant revenue rose 15% to $5.1B as Booking collects more travelers' payments itself, while agency revenue fell 7% to $1.9B \u2014 the ongoing shift from agency to merchant at Booking.com."
+    },
+    {
+      "stat": "325M",
+      "statColor": "#3e8e5a",
+      "title": "Travel demand stayed resilient",
+      "text": "Room nights rose 5% to 325 million and gross bookings rose 9% to $51.0B. Alternative-accommodation room nights at Booking.com rose 4% and connected-trip bookings kept growing."
+    },
+    {
+      "stat": "$195M",
+      "statColor": "#5b6b7c",
+      "title": "A currency swing flattered profit",
+      "text": "A $195M foreign-currency gain on remeasuring euro-denominated debt \u2014 versus a $961M loss a year ago \u2014 is the main reason GAAP net income jumped 118%, while adjusted net income rose a steadier 8% to $2.0B."
+    }
+  ],
+  "oneTimers": [
+    "Foreign currency: a $195M gain on the remeasurement of euro-denominated debt and related derivatives, versus a $961M loss in Q2 2025; equity securities lost $25M in the quarter.",
+    "Discrete tax items added $79M of tax expense, including a one-time deemed-repatriation item and the tax impact of intercompany asset transfers.",
+    "Transformation costs were $30M in the quarter; the company raised the program's expected annual run-rate savings to about $650M, to be realized by the end of 2027.",
+    "Stock split: Booking completed a 25-for-1 stock split on April 2, 2026, and all share and per-share figures in the filings are retroactively adjusted."
+  ],
+  "otherDetail": "Net other income was $60M: interest expense of -$300M, interest and dividend income of +$201M, and other income of +$159M. That $159M was a $195M foreign-currency gain on euro-debt remeasurement, less $25M of net losses on equity securities and $11M of other net losses.",
+  "footerNote": "Booking Holdings reports no cost of revenue \u2014 every cost is an operating expense, so gross profit equals revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000036/q2-26bkngearningsrelease.htm"
+    }
+  ]
+}
