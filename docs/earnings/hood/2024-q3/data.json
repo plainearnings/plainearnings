@@ -1,0 +1,175 @@
+{
+  "ticker": "HOOD",
+  "company": "Robinhood",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-30",
+  "verdict": "Robinhood's revenue rose 36% to $637M as options and crypto trading surged \u2014 and with costs down 10% from a year ago, it swung from an $85M loss to a $150M profit.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$637M",
+      "note": "+36% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$0.17",
+      "note": "vs \u2212$0.09 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$150M",
+      "note": "vs \u2212$85M a year ago"
+    },
+    {
+      "label": "Net deposits",
+      "value": "$10.0B",
+      "note": "29% annualized growth vs assets under custody"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction-based revenues",
+      "amountM": 319,
+      "yoy": "+72%",
+      "note": "Fees from customers' trades \u2014 options $202M, crypto $61M, equities $37M and $19M of other trading fees."
+    },
+    {
+      "name": "Net interest revenues",
+      "amountM": 274,
+      "yoy": "+9%",
+      "note": "Interest on customers' cash and margin loans, plus securities lending \u2014 up on growth in interest-earning assets."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 44,
+      "yoy": "+42%",
+      "note": "Mostly Robinhood Gold subscriptions \u2014 2.2M subscribers, up 65%."
+    }
+  ],
+  "flow": {
+    "revenueM": 637,
+    "costOfRevenueM": 39,
+    "grossProfitM": 598,
+    "opex": [
+      {
+        "name": "Technology and development",
+        "amountM": 205,
+        "note": "Engineers and the platform \u2014 up 1%."
+      },
+      {
+        "name": "Operations",
+        "amountM": 27,
+        "note": "Customer support and running the service."
+      },
+      {
+        "name": "Provision for credit losses",
+        "amountM": 23,
+        "note": "Money set aside for customer loans that may not be repaid."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 59,
+        "note": "Advertising and promotions to win new customers \u2014 up 111%."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 133,
+        "note": "Legal, finance and head office \u2014 down 42% from a year ago."
+      }
+    ],
+    "operatingIncomeM": 151,
+    "otherIncomeM": 2,
+    "taxM": 3,
+    "netIncomeM": 150
+  },
+  "otherDetail": "Other income, net was $2M \u2014 small next to the main business. Income tax was just $3M, because Robinhood still carried a valuation allowance against most of its deferred tax assets (released the following quarter).",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here. Expense lines are as re-presented in Robinhood's Q3 2025 Form 10-Q, which splits the provision for credit losses out of operations.",
+  "follow100Note": "Trading supplied $50.08 of every $100 of revenue \u2014 options alone were $31.71 of it ($202M of $637M).",
+  "takeaways": [
+    {
+      "stat": "+72%",
+      "statColor": "#3e8e5a",
+      "title": "Trading revenue surged",
+      "text": "Transaction-based revenue rose 72% to $319M \u2014 options revenue grew 63% to $202M, crypto jumped 165% to $61M and equities rose 37% to $37M, as customers traded actively across asset classes."
+    },
+    {
+      "stat": "$150M",
+      "statColor": "#3d7bc8",
+      "title": "A swing to profit",
+      "text": "Net income was $150M versus an $85M loss a year ago: revenue rose 36% while total operating expenses fell 10%, with general & administrative costs down 42%. The tax bill was just $3M \u2014 most deferred tax assets still sat under a valuation allowance."
+    },
+    {
+      "stat": "2.2M",
+      "statColor": "#5b6b7c",
+      "title": "Gold subscribers climbed 65%",
+      "text": "Robinhood Gold subscribers rose 65% to a record 2.2M, funded customers reached 24.3M, and net deposits were $10.0B in the quarter \u2014 a 29% annualized growth rate against assets under custody at the end of Q2."
+    }
+  ],
+  "oneTimers": [
+    "Reported revenue is after $27M of matches paid to customers on transfers and deposits \u2014 an incentive Robinhood nets against revenue (it was $13M in Q2 2024), so the trading growth underneath was slightly stronger than the headline.",
+    "The $3M tax provision is unusually small: Robinhood still carried a valuation allowance against most of its deferred tax assets in Q3 2024. It released that allowance the following quarter, booking a one-time $369M tax benefit in Q4 2024."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387924000295/q32024robinhoodexhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2025 \u2014 re-presented 2024 comparatives (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000310/hood-20250930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Transaction-based revenues",
+      "amount": 50.08
+    },
+    {
+      "label": "Net interest revenues",
+      "amount": 43.01
+    },
+    {
+      "label": "Other revenues",
+      "amount": 6.91
+    },
+    {
+      "label": "Brokerage and transaction",
+      "amount": -6.12
+    },
+    {
+      "label": "Technology and development",
+      "amount": -32.18
+    },
+    {
+      "label": "Operations",
+      "amount": -4.24
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": -3.61
+    },
+    {
+      "label": "Marketing",
+      "amount": -9.26
+    },
+    {
+      "label": "General & administrative",
+      "amount": -20.88
+    },
+    {
+      "label": "Other income",
+      "amount": 0.31
+    },
+    {
+      "label": "Tax",
+      "amount": -0.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 23.55
+    }
+  ]
+}

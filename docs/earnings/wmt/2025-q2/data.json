@@ -1,0 +1,153 @@
+{
+  "ticker": "WMT",
+  "company": "Walmart",
+  "quarterLabel": "Q2 FY25",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2024-07-31",
+  "reportedDate": "2024-08-15",
+  "verdict": "Walmart's revenue rose 4.8% to $169.3B and operating income grew 8.5% as its U.S. stores gained share \u2014 but a $1.2B paper loss on its investment stakes, versus a $3.9B gain a year ago, left headline profit down 43% at $4.5B.",
+  "revenueYoY": "+4.8%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$169.3B",
+      "note": "+4.8% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.56",
+      "note": "vs $0.97 a year ago; adjusted $0.67"
+    },
+    {
+      "label": "Operating income",
+      "value": "$7.9B",
+      "note": "+8.5% YoY"
+    },
+    {
+      "label": "U.S. comp sales",
+      "value": "+4.2%",
+      "note": "transactions and units both up"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Walmart U.S.",
+      "amountM": 115347,
+      "yoy": "+4.1%",
+      "note": "Stores and eCommerce in the United States \u2014 comparable sales rose 4.2%, led by growth in transactions and units."
+    },
+    {
+      "name": "Walmart International",
+      "amountM": 29567,
+      "yoy": "+7.1%",
+      "note": "Stores and eCommerce outside the U.S. \u2014 sales rose 8.3% in constant currency."
+    },
+    {
+      "name": "Sam's Club U.S.",
+      "amountM": 22853,
+      "yoy": "+4.7%",
+      "note": "Walmart's warehouse clubs in the United States."
+    },
+    {
+      "name": "Membership & other income",
+      "amountM": 1568,
+      "yoy": "+16.0%",
+      "note": "Membership fees from Sam's Club and Walmart+, plus other income \u2014 small, but nearly cost-free."
+    }
+  ],
+  "flow": {
+    "revenueM": 169335,
+    "costOfRevenueM": 126810,
+    "grossProfitM": 42525,
+    "opex": [
+      {
+        "name": "Operating, selling, general & administrative",
+        "amountM": 34585,
+        "note": "Running the stores, clubs, warehouses and head office."
+      }
+    ],
+    "operatingIncomeM": 7940,
+    "otherIncomeM": -1727,
+    "equityM": -210,
+    "taxM": 1502,
+    "netIncomeM": 4501
+  },
+  "otherDetail": "Interest of $565M, net, plus a $1,162M loss on equity and other investments \u2014 mostly fair-value moves. A year ago that investments line was a $3,905M gain, which is why the year-ago profit was so large.",
+  "footerNote": "Net profit shown is the $4,501M attributable to Walmart; consolidated net income was $4,711M, of which $210M belongs to noncontrolling interests.",
+  "follow100Note": "The stores earned $4.69 of operating profit from every $100 of revenue; paper losses on investment stakes, tax and partners' shares left $2.66. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+8.5%",
+      "statColor": "#3e8e5a",
+      "title": "Operating income outgrew sales",
+      "text": "Operating income rose 8.5% to $7,940M on 4.8% revenue growth \u2014 the gross margin rate widened 43 basis points, membership income grew 16%, and global eCommerce sales rose 21%, led by store-fulfilled pickup and delivery."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#5b6b7c",
+      "title": "A paper loss, not a store problem",
+      "text": "Below the operating line, Walmart booked a $1,162M loss on equity and other investments \u2014 mostly fair-value moves on stakes it holds. A year ago the same line was a $3,905M gain; that swing is the whole reason headline profit fell 43% while the stores improved."
+    },
+    {
+      "stat": "$0.67",
+      "statColor": "#3d7bc8",
+      "title": "Guidance went up anyway",
+      "text": "GAAP EPS was $0.56, but adjusted EPS was $0.67 excluding the $0.11-per-share net loss on investments. With this release Walmart raised its FY25 outlook: net sales up 3.75% to 4.75% and adjusted operating income up 6.5% to 8.0% in constant currency."
+    }
+  ],
+  "oneTimers": [
+    "Other (gains) and losses was a $1,162M loss this quarter versus a $3,905M gain a year ago \u2014 unrealized fair-value moves on equity investments Walmart holds. Adjusted EPS of $0.67 excludes the net-of-tax effect ($0.11 per share) of those investment moves."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000131/earningsreleasefy25q2.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended July 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Walmart U.S.",
+      "amount": 68.11
+    },
+    {
+      "label": "Walmart International",
+      "amount": 17.46
+    },
+    {
+      "label": "Sam's Club U.S.",
+      "amount": 13.5
+    },
+    {
+      "label": "Membership & other income",
+      "amount": 0.93
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -74.88
+    },
+    {
+      "label": "Operating & admin costs",
+      "amount": -20.42
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.02
+    },
+    {
+      "label": "Tax",
+      "amount": -0.89
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.12
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.66
+    }
+  ]
+}

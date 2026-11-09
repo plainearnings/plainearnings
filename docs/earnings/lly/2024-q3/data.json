@@ -1,0 +1,166 @@
+{
+  "ticker": "LLY",
+  "company": "Eli Lilly",
+  "quarterLabel": "Q3 2024",
+  "quarterSlug": "2024-q3",
+  "periodEnd": "2024-09-30",
+  "reportedDate": "2024-10-30",
+  "verdict": "Lilly's revenue rose 20% to $11.4B as Mounjaro more than doubled to $3.1B and Zepbound added $1.3B \u2014 but a $2.8B charge for research bought in the Morphic acquisition held reported profit to $970M.",
+  "revenueYoY": "+20%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$11.4B",
+      "note": "+20% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.07",
+      "note": "vs \u2212$0.06 a year ago; $1.18 non-GAAP"
+    },
+    {
+      "label": "Mounjaro",
+      "value": "$3.1B",
+      "note": "+121% YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$970M",
+      "note": "vs \u2212$57M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mounjaro",
+      "amountM": 3113,
+      "yoy": "+121%",
+      "note": "The diabetes shot (tirzepatide) \u2014 revenue more than doubled on strong demand and increased supply, despite U.S. wholesaler inventory drawdowns late in the quarter."
+    },
+    {
+      "name": "Zepbound",
+      "amountM": 1258,
+      "yoy": "",
+      "note": "The weight-loss shot (tirzepatide), launched in the U.S. in November 2023 \u2014 already $1.3B a quarter."
+    },
+    {
+      "name": "All other medicines",
+      "amountM": 7068,
+      "yoy": "\u221213%",
+      "note": "Everything else \u2014 Verzenio, Taltz, Jardiance, Humalog and the older brands. Down on paper only: a year ago included $1.42B from selling the rights to the olanzapine portfolio (Zyprexa)."
+    }
+  ],
+  "flow": {
+    "revenueM": 11439,
+    "costOfRevenueM": 2171,
+    "grossProfitM": 9268,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2734,
+        "note": "Developing new medicines \u2014 up 13%."
+      },
+      {
+        "name": "Marketing, selling & administrative",
+        "amountM": 2100,
+        "note": "Sales teams, advertising and the back office \u2014 up 16% on launch spending."
+      },
+      {
+        "name": "Acquired IPR&D",
+        "amountM": 2826,
+        "note": "Research bought with acquisitions, charged at once \u2014 mostly the Morphic Holding deal."
+      },
+      {
+        "name": "Asset impairment & restructuring",
+        "amountM": 82,
+        "note": "Mostly an impairment on an intangible asset tied to a molecule in development."
+      }
+    ],
+    "operatingIncomeM": 1526,
+    "otherIncomeM": 62,
+    "taxM": 618,
+    "netIncomeM": 970
+  },
+  "otherDetail": "Net other income of $62M \u2014 $207M of net other income, partly offset by $145M of net interest expense.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $1,065M (EPS $1.18). The release reports figures to one decimal place; they are rounded to whole millions here.",
+  "takeaways": [
+    {
+      "stat": "+42%",
+      "statColor": "#3e8e5a",
+      "title": "Growth, adjusting for a divestiture",
+      "text": "Reported revenue rose 20% \u2014 but the year-ago quarter included $1.42B from selling the rights to the olanzapine portfolio (Zyprexa). Excluding that one-off, revenue grew 42%, and revenue from everything except the weight-loss and diabetes shots grew 17%."
+    },
+    {
+      "stat": "$4.4B",
+      "statColor": "#3d7bc8",
+      "title": "Two shots are 38% of revenue",
+      "text": "Mounjaro ($3.11B, +121%) and Zepbound ($1.26B, launched November 2023) together brought in $4.4B of the $11.4B total. U.S. sales of both were trimmed a mid-single-digit percent by wholesalers running down inventories built up in Q2."
+    },
+    {
+      "stat": "$2.8B",
+      "statColor": "#5b6b7c",
+      "title": "The Morphic charge",
+      "text": "Lilly booked a $2,826M acquired IPR&D charge, mostly for buying Morphic Holding, plus an $82M impairment. The charge is largely not tax-deductible, which pushed the reported tax rate to 38.9% \u2014 and reported profit to $970M (EPS $1.07), versus a $57M loss a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Acquired in-process R&D of $2,826M \u2014 mostly the Morphic Holding acquisition, which closed in August 2024 \u2014 plus $82M of asset impairment and restructuring charges. Lilly's non-GAAP net income of $1,065M (EPS $1.18) excludes the impairment-type charges; Lilly still counts IPR&D in its non-GAAP figures.",
+    "The year-ago quarter's revenue included $1,420M from the sale of rights for the olanzapine portfolio (Zyprexa) \u2014 a one-off that makes the reported +20% growth look slower than the underlying +42%.",
+    "Guidance moved down with this release: Lilly set 2024 revenue guidance at $45.4\u2013$46.0B and reported EPS at $12.05\u2013$12.55, after wholesaler inventory drawdowns trimmed Mounjaro and Zepbound sales in the quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000242/q324lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000245/lly-20240930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Mounjaro",
+      "amount": 27.21
+    },
+    {
+      "label": "Zepbound",
+      "amount": 11.0
+    },
+    {
+      "label": "All other medicines",
+      "amount": 61.79
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -18.98
+    },
+    {
+      "label": "Research & development",
+      "amount": -23.9
+    },
+    {
+      "label": "Marketing, selling & administrative",
+      "amount": -18.36
+    },
+    {
+      "label": "Acquired IPR&D",
+      "amount": -24.71
+    },
+    {
+      "label": "Impairment & restructuring",
+      "amount": -0.72
+    },
+    {
+      "label": "Other income",
+      "amount": 0.54
+    },
+    {
+      "label": "Tax",
+      "amount": -5.4
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.48
+    }
+  ]
+}
