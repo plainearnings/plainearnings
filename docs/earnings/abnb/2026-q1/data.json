@@ -1,0 +1,143 @@
+{
+  "ticker": "ABNB",
+  "company": "Airbnb",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "verdict": "Airbnb grew revenue 18% to $2.7B as guests booked $29.2B of stays, but net income was just $160M \u2014 a one-time $70M tax-asset adjustment tied to new U.S. minimum-tax rules ate much of the quarter's profit.",
+  "revenueYoY": "+18%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+18%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.26",
+      "note": "diluted"
+    },
+    {
+      "label": "Nights & seats booked",
+      "value": "156.2M",
+      "note": "+9% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1.7B",
+      "note": "64% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Stays & experiences",
+      "amountM": 2678,
+      "yoy": "+18%",
+      "note": "Service fees on every stay, experience and service booked. Airbnb reports a single revenue stream; the bookings behind it were worth $29.2B in gross booking value."
+    }
+  ],
+  "flow": {
+    "revenueM": 2678,
+    "costOfRevenueM": 581,
+    "grossProfitM": 2097,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 326,
+        "note": "Supporting hosts and guests \u2014 customer service, trust & safety and host insurance."
+      },
+      {
+        "name": "Product development",
+        "amountM": 638,
+        "note": "Building the app and new products like experiences and services."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 751,
+        "note": "Marketing to win travelers and hosts."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 296,
+        "note": "Running the company day to day."
+      }
+    ],
+    "operatingIncomeM": 86,
+    "otherIncomeM": 195,
+    "taxM": 121,
+    "netIncomeM": 160
+  },
+  "follow100": [
+    {
+      "label": "Stays & experiences",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.7
+    },
+    {
+      "label": "Operations & support",
+      "amount": -12.17
+    },
+    {
+      "label": "Product development",
+      "amount": -23.82
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -28.04
+    },
+    {
+      "label": "G&A",
+      "amount": -11.05
+    },
+    {
+      "label": "Other income",
+      "amount": 7.28
+    },
+    {
+      "label": "Tax",
+      "amount": -4.52
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.97
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$29.2B",
+      "statColor": "#3d7bc8",
+      "title": "Guests spent freely",
+      "text": "Gross booking value rose 19% to $29.2B and nights and seats booked rose 9% to 156.2M \u2014 demand and pricing both helped, with a currency tailwind on top."
+    },
+    {
+      "stat": "$1.7B",
+      "statColor": "#3e8e5a",
+      "title": "A seasonal cash gusher",
+      "text": "Free cash flow was $1.7B \u2014 64% of revenue \u2014 because guests pay when they book, months before many stays happen. Q1 is always Airbnb's biggest cash quarter."
+    },
+    {
+      "stat": "$70M",
+      "statColor": "#b8443c",
+      "title": "A tax quirk cut profit",
+      "text": "Net income was $160M on $281M of pre-tax profit \u2014 a 43% tax rate \u2014 because of a one-time $70M deferred-tax adjustment from new U.S. minimum-tax rules."
+    }
+  ],
+  "oneTimers": [
+    "The tax bill includes a one-time adjustment of approximately $70M to certain deferred tax assets as a result of changes to the U.S. Corporate Alternative Minimum Tax effective in Q1 2026; Airbnb expects its full-year effective tax rate to be in the high teens."
+  ],
+  "otherDetail": "Interest and other items netted +$195M: $155M of interest earned (Airbnb holds billions in guest payments before stays happen), plus $40M of other income.",
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351dex991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000014/abnb-20260331.htm"
+    }
+  ]
+}

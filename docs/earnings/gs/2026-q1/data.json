@@ -1,0 +1,189 @@
+{
+  "ticker": "GS",
+  "company": "Goldman Sachs",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-13",
+  "verdict": "Goldman Sachs grew revenue 14% to $17.2B and profit 19% to $5.6B as investment banking revenues jumped 48% from a year ago and trading stayed busy \u2014 a strong start built on Wall Street activity.",
+  "revenueYoY": "+14%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$17.2B",
+      "note": "+14% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$17.55",
+      "note": "+24% YoY"
+    },
+    {
+      "label": "Assets under supervision",
+      "value": "$3.65T",
+      "note": "at quarter-end"
+    },
+    {
+      "label": "Returned to shareholders",
+      "value": "$6.4B",
+      "note": "$5.0B buybacks + $1.4B dividends"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Noninterest revenues",
+      "amountM": 13672,
+      "yoy": "+12%",
+      "note": "Fees and trading: investment banking fees of $2.8B, FICC and equities trading, plus asset management fees."
+    },
+    {
+      "name": "Net interest income",
+      "amountM": 3555,
+      "yoy": "+23%",
+      "note": "Interest earned on loans and investments, minus interest paid \u2014 a smaller, steadier slice for Goldman than for retail banks."
+    }
+  ],
+  "flow": {
+    "revenueM": 17227,
+    "costOfRevenueM": 315,
+    "costName": "Provision for credit losses",
+    "costPlain": "Money set aside for loans expected to go bad \u2014 the closest thing a bank has to a cost of goods sold.",
+    "grossProfitM": 16912,
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "opex": [
+      {
+        "name": "Compensation and benefits",
+        "amountM": 5412,
+        "note": "Pay and bonuses \u2014 Goldman's biggest cost by far, rising with the firm's strong results."
+      },
+      {
+        "name": "Transaction based",
+        "amountM": 2515,
+        "shortName": "Transaction-based",
+        "note": "Costs that rise and fall with trading and deal volume: brokerage, clearing and exchange fees."
+      },
+      {
+        "name": "Market development",
+        "amountM": 186,
+        "note": "Marketing and developing new business."
+      },
+      {
+        "name": "Communications and technology",
+        "amountM": 583,
+        "shortName": "Comms & technology",
+        "note": "Trading systems, market data and communications."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 495,
+        "shortName": "Depreciation & amort.",
+        "note": "Spreading the cost of offices, systems and equipment over their useful lives."
+      },
+      {
+        "name": "Occupancy",
+        "amountM": 254,
+        "note": "Rent and running costs for offices around the world."
+      },
+      {
+        "name": "Professional fees",
+        "amountM": 379,
+        "note": "Lawyers, accountants and outside advisers."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 602,
+        "note": "Everything else that does not fit the lines above."
+      }
+    ],
+    "operatingIncomeM": 6486,
+    "opName": "Profit before tax",
+    "otherIncomeM": 0,
+    "taxM": 856,
+    "netIncomeM": 5630
+  },
+  "follow100": [
+    {
+      "label": "Noninterest revenues",
+      "amount": 79.36
+    },
+    {
+      "label": "Net interest income",
+      "amount": 20.64
+    },
+    {
+      "label": "Credit-loss provision",
+      "amount": -1.83
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -31.42
+    },
+    {
+      "label": "Transaction-based",
+      "amount": -14.6
+    },
+    {
+      "label": "Market development",
+      "amount": -1.08
+    },
+    {
+      "label": "Comms & technology",
+      "amount": -3.38
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -2.87
+    },
+    {
+      "label": "Occupancy",
+      "amount": -1.47
+    },
+    {
+      "label": "Professional fees",
+      "amount": -2.2
+    },
+    {
+      "label": "Other expenses",
+      "amount": -3.49
+    },
+    {
+      "label": "Tax",
+      "amount": -4.97
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.68
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+48%",
+      "statColor": "#3d7bc8",
+      "title": "Dealmaking woke up",
+      "text": "Investment banking revenues jumped 48% from a year ago to $2.8B \u2014 advisory fees of $1.5B led the way \u2014 as companies returned to buying, selling and raising money."
+    },
+    {
+      "stat": "$17.55",
+      "statColor": "#3e8e5a",
+      "title": "EPS up 24%",
+      "text": "Diluted EPS rose 24% to $17.55 and return on equity was 19.8% \u2014 profit growth plus a shrinking share count from $5.0B of buybacks in the quarter."
+    },
+    {
+      "stat": "$3.65T",
+      "statColor": "#3d7bc8",
+      "title": "Client money keeps growing",
+      "text": "Assets under supervision reached $3.65T, with $87B of net inflows in the quarter \u2014 the wealth business gives Goldman steadier fee income between trading booms."
+    }
+  ],
+  "oneTimers": [
+    "Platform Solutions revenue fell 33% to $411M as Goldman's exit from consumer banking winds down.",
+    "Preferred stock dividends of $227M sit between net earnings ($5,630M) and the $5,403M attributable to common shareholders."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000096/a1q26gsearningsresults.htm"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ticker": "DASH",
+  "company": "DoorDash",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-06",
+  "verdict": "DoorDash grew revenue 33% to $4.0B on record order value of $31.6B, but profit attributable to shareholders slipped 5% to $184M as Deliveroo-era depreciation and a $48M restructuring bill weighed on the quarter.",
+  "revenueYoY": "+33%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+33%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.42",
+      "note": "vs $0.44 a year ago"
+    },
+    {
+      "label": "Marketplace GOV",
+      "value": "$31.6B",
+      "note": "+37% YoY"
+    },
+    {
+      "label": "Total orders",
+      "value": "933M",
+      "note": "+27% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Marketplace services",
+      "amountM": 4036,
+      "yoy": "+33%",
+      "note": "Fees from restaurants, stores and couriers on every order, plus DashPass subscriptions. DoorDash reports a single revenue stream; orders placed through it were worth $31.6B in the quarter."
+    }
+  ],
+  "flow": {
+    "revenueM": 4036,
+    "costOfRevenueM": 1992,
+    "grossProfitM": 2044,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 746,
+        "note": "Marketing and promotions to win diners, merchants and couriers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 398,
+        "note": "Building the delivery platform, including AI and autonomy work."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 432,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 269,
+        "note": "Wear-and-tear on equipment, vehicles and software \u2014 the part not counted inside cost of revenue. It jumped with the Deliveroo acquisition."
+      },
+      {
+        "name": "Restructuring charges",
+        "amountM": 48,
+        "note": "One-off restructuring charges \u2014 exiting operations in certain countries."
+      }
+    ],
+    "operatingIncomeM": 151,
+    "otherIncomeM": 40,
+    "taxM": 8,
+    "netIncomeM": 183
+  },
+  "follow100": [
+    {
+      "label": "Marketplace services",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -49.36
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -18.48
+    },
+    {
+      "label": "R&D",
+      "amount": -9.86
+    },
+    {
+      "label": "G&A",
+      "amount": -10.7
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -6.67
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.19
+    },
+    {
+      "label": "Other income",
+      "amount": 0.99
+    },
+    {
+      "label": "Tax",
+      "amount": -0.2
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.53
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$31.6B",
+      "statColor": "#3d7bc8",
+      "title": "Record order value",
+      "text": "Marketplace GOV rose 37% to $31.6B on 933 million orders (+27%) \u2014 more people ordering more, across more categories than food."
+    },
+    {
+      "stat": "+33%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue kept pace",
+      "text": "Revenue rose 33% to $4.0B. DoorDash keeps a slice of every order as its fee, so revenue grows with the value of what is ordered."
+    },
+    {
+      "stat": "$184M",
+      "statColor": "#b8443c",
+      "title": "Profit dipped despite growth",
+      "text": "Net income attributable to shareholders fell 5% to $184M: depreciation jumped to $269M after the Deliveroo deal and restructuring cost $48M \u2014 even though Adjusted EBITDA rose 28% to $754M."
+    }
+  ],
+  "oneTimers": [
+    "The chart's net profit is $183M \u2014 net income including redeemable non-controlling interests. After a $1M loss attributable to those interests, $184M was attributable to DoorDash common stockholders, the headline figure.",
+    "Restructuring charges were $48M in the quarter \u2014 employee termination and closure costs as DoorDash exited operations in certain countries."
+  ],
+  "otherDetail": "Interest income, net, of $34M, plus $6M of other income \u2014 $40M added to profit.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000036/proddashex991-pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000037/dash-20260331.htm"
+    }
+  ]
+}

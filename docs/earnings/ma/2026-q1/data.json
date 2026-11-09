@@ -1,0 +1,143 @@
+{
+  "ticker": "MA",
+  "company": "Mastercard",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-30",
+  "verdict": "Mastercard's net revenue rose 16% to $8.4B as card spending grew around the world, and net income rose 18% to $3.9B \u2014 the toll-booth model doing its work again.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Net revenue",
+      "value": "$8.4B",
+      "note": "+16% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.35",
+      "note": "vs $4.60 adjusted"
+    },
+    {
+      "label": "Cross-border volume",
+      "value": "+13%",
+      "note": "growth, local currency"
+    },
+    {
+      "label": "Value-added services",
+      "value": "$3.5B",
+      "note": "net revenue, +22% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Payment network",
+      "amountM": 4948,
+      "yoy": "+12%",
+      "note": "Fees every time a Mastercard is swiped, tapped or used online \u2014 gross dollar volume was $2.7 trillion in the quarter, up 7% in local currency."
+    },
+    {
+      "name": "Value-added services and solutions",
+      "amountM": 3450,
+      "yoy": "+22%",
+      "note": "Fraud protection, data analytics, consulting and identity services sold on top of the network \u2014 growing nearly twice as fast as the network itself."
+    }
+  ],
+  "flow": {
+    "revenueM": 8398,
+    "costOfRevenueM": 0,
+    "grossProfitM": 8398,
+    "grossName": "Net revenue",
+    "grossNote": "already net of rebates and incentives",
+    "grossPlain": "Mastercard reports revenue already net of the rebates and incentives it pays banks and merchants to win card business \u2014 so there is no separate cost-of-revenue line in its books. The costs were taken out before revenue was counted.",
+    "opex": [
+      {
+        "name": "General and administrative",
+        "amountM": 3039,
+        "note": "Salaries, technology and offices for the people who run the network \u2014 by far Mastercard's biggest cost."
+      },
+      {
+        "name": "Advertising and marketing",
+        "amountM": 153,
+        "note": "Brand campaigns, sponsorships and the 'Priceless' advertising."
+      },
+      {
+        "name": "Depreciation and amortization",
+        "amountM": 299,
+        "note": "Spreading the cost of buildings, data centers, equipment and acquired technology."
+      }
+    ],
+    "operatingIncomeM": 4907,
+    "otherIncomeM": -95,
+    "taxM": 930,
+    "netIncomeM": 3882
+  },
+  "follow100": [
+    {
+      "label": "Payment network",
+      "amount": 58.92
+    },
+    {
+      "label": "Value-added services",
+      "amount": 41.08
+    },
+    {
+      "label": "G&A",
+      "amount": -36.19
+    },
+    {
+      "label": "Advertising & marketing",
+      "amount": -1.82
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -3.56
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.13
+    },
+    {
+      "label": "Tax",
+      "amount": -11.07
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 46.23
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Spending held up everywhere",
+      "text": "Net revenue rose 16% (12% currency-neutral). Gross dollar volume grew 7% and cross-border volume 13% on a local-currency basis \u2014 travel and everyday spending both contributed."
+    },
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Services are the growth engine",
+      "text": "Value-added services and solutions \u2014 security, data and authentication tools sold on top of the network \u2014 grew 22% to $3.5B, well ahead of the payment network itself (+12%)."
+    },
+    {
+      "stat": "46%",
+      "statColor": "#3e8e5a",
+      "title": "Nearly half of revenue kept",
+      "text": "Net income was $3.9B \u2014 46 cents of every revenue dollar \u2014 even after a $202M restructuring charge. Few businesses convert revenue to profit at this rate."
+    }
+  ],
+  "oneTimers": [
+    "A $202M restructuring charge (inside general and administrative costs) and a $66M loss on equity investments are excluded from Mastercard's adjusted figures; excluding them, adjusted net income was $4.1B and adjusted EPS was $4.60."
+  ],
+  "otherDetail": "Other income (expense) was \u2212$95M: $81M of investment income and $75M of other income, outweighed by $185M of interest expense and a $66M loss on equity investments.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000029/ma03312026-exx991xearnings.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000031/ma-20260331.htm"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "ticker": "PYPL",
+  "company": "PayPal",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-05",
+  "verdict": "PayPal moved $464B of payments (+11%) and grew revenue 7% to $8.4B, but net profit fell 14% to $1.1B as transaction costs rose faster than revenue and its investment portfolio swung to a loss.",
+  "revenueYoY": "+7%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$8.4B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.21",
+      "note": "vs $1.34 non-GAAP"
+    },
+    {
+      "label": "Total payment volume",
+      "value": "$464B",
+      "note": "+11% YoY"
+    },
+    {
+      "label": "Active accounts",
+      "value": "439M",
+      "note": "+1% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenues",
+      "amountM": 7501,
+      "yoy": "+7%",
+      "note": "The cut PayPal takes on every payment it processes \u2014 $464B of payment volume flowed through in the quarter, up 11%, across 6.5 billion transactions."
+    },
+    {
+      "name": "Revenues from other value added services",
+      "amountM": 852,
+      "yoy": "+10%",
+      "shortName": "Other value-added services",
+      "note": "Interest on customer balances, partner fees and other services around the core payment."
+    }
+  ],
+  "flow": {
+    "revenueM": 8353,
+    "costOfRevenueM": 4543,
+    "costName": "Transaction costs & credit losses",
+    "costPlain": "What each payment costs PayPal to run: $4,165M of transaction expense (card-network and processing fees) plus $378M of transaction and credit losses on its loans.",
+    "grossProfitM": 3810,
+    "grossName": "Transaction margin",
+    "grossNote": "transaction margin",
+    "opex": [
+      {
+        "name": "Customer support and operations",
+        "amountM": 446,
+        "note": "Support staff and the cost of running payment operations."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 518,
+        "note": "Marketing, and winning merchants and users."
+      },
+      {
+        "name": "Technology and development",
+        "amountM": 793,
+        "note": "Building and running the PayPal and Venmo platforms."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 491,
+        "note": "Running the company: finance, legal, risk and offices."
+      },
+      {
+        "name": "Restructuring and other",
+        "amountM": 74,
+        "note": "Severance and reshaping costs as PayPal works through its transformation plan."
+      }
+    ],
+    "operatingIncomeM": 1488,
+    "otherIncomeM": -95,
+    "taxM": 280,
+    "netIncomeM": 1113
+  },
+  "follow100": [
+    {
+      "label": "Transaction revenues",
+      "amount": 89.8
+    },
+    {
+      "label": "Other value-added services",
+      "amount": 10.2
+    },
+    {
+      "label": "Transaction costs & losses",
+      "amount": -54.39
+    },
+    {
+      "label": "Customer support & ops",
+      "amount": -5.34
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.2
+    },
+    {
+      "label": "Technology & development",
+      "amount": -9.49
+    },
+    {
+      "label": "G&A",
+      "amount": -5.88
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.89
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.14
+    },
+    {
+      "label": "Tax",
+      "amount": -3.35
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.32
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$464B",
+      "statColor": "#3d7bc8",
+      "title": "The payment pipes keep growing",
+      "text": "Total payment volume rose 11% to $464.0B and transactions rose 7% to 6.5 billion, with 439 million active accounts."
+    },
+    {
+      "stat": "+7%",
+      "statColor": "#5b6b7c",
+      "title": "Growth picked up a little",
+      "text": "Revenue grew 7%: transaction revenues +7% and value-added services +10%. U.S. revenue rose 9% while international revenue grew 4%."
+    },
+    {
+      "stat": "$1.5B",
+      "statColor": "#3e8e5a",
+      "title": "Shareholders are getting the cash",
+      "text": "PayPal returned $1.5B to shareholders via buybacks in the quarter \u2014 $6.0B over twelve months \u2014 funding the returns from its cash pile even as GAAP profit fell."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include $101M of losses on PayPal's strategic investment portfolio (inside other expense), versus gains a year ago \u2014 a swing that explains much of the profit decline.",
+    "Restructuring and other charges were $74M in the quarter as new leadership simplifies the organization."
+  ],
+  "otherDetail": "Other income (expense), net was \u2212$95M, including $101M of losses on PayPal's strategic investment portfolio.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000065/pypl1q-26earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000067/pypl-20260331.htm"
+    }
+  ]
+}
