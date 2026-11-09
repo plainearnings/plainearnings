@@ -1,0 +1,193 @@
+{
+  "company": "Goldman Sachs",
+  "flow": {
+    "costName": "Provision for credit losses",
+    "costOfRevenueM": -2123,
+    "costPlain": "Money set aside for loans expected to go bad \u2014 this quarter it was a net BENEFIT of $2,123M: transferring the Apple Card portfolio released $2,480M of reserves, more than covering the quarter's charge-offs, so the line added money back instead of costing money.",
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "grossProfitM": 15577,
+    "netIncomeM": 4617,
+    "opName": "Profit before tax",
+    "operatingIncomeM": 5855,
+    "opex": [
+      {
+        "amountM": 4665,
+        "name": "Compensation and benefits",
+        "note": "Pay and bonuses \u2014 Goldman's biggest cost by far, rising with the firm's strong results."
+      },
+      {
+        "amountM": 2224,
+        "name": "Transaction based",
+        "note": "Costs that rise and fall with trading and deal volume: brokerage, clearing and exchange fees.",
+        "shortName": "Transaction-based"
+      },
+      {
+        "amountM": 216,
+        "name": "Market development",
+        "note": "Marketing and developing new business."
+      },
+      {
+        "amountM": 589,
+        "name": "Communications and technology",
+        "note": "Trading systems, market data and communications.",
+        "shortName": "Comms & technology"
+      },
+      {
+        "amountM": 527,
+        "name": "Depreciation and amortization",
+        "note": "Spreading the cost of offices, systems and equipment over their useful lives.",
+        "shortName": "Depreciation & amort."
+      },
+      {
+        "amountM": 249,
+        "name": "Occupancy",
+        "note": "Rent and running costs for offices around the world."
+      },
+      {
+        "amountM": 474,
+        "name": "Professional fees",
+        "note": "Lawyers, accountants and outside advisers."
+      },
+      {
+        "amountM": 778,
+        "name": "Other expenses",
+        "note": "Everything else that does not fit the lines above."
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 13454,
+    "taxM": 1238
+  },
+  "follow100": [
+    {
+      "amount": 72.42,
+      "label": "Noninterest revenues"
+    },
+    {
+      "amount": 27.58,
+      "label": "Net interest income"
+    },
+    {
+      "amount": 15.78,
+      "label": "Credit-loss provision benefit"
+    },
+    {
+      "amount": -34.67,
+      "label": "Compensation & benefits"
+    },
+    {
+      "amount": -16.53,
+      "label": "Transaction-based"
+    },
+    {
+      "amount": -1.61,
+      "label": "Market development"
+    },
+    {
+      "amount": -4.38,
+      "label": "Comms & technology"
+    },
+    {
+      "amount": -3.92,
+      "label": "Depreciation & amort."
+    },
+    {
+      "amount": -1.85,
+      "label": "Occupancy"
+    },
+    {
+      "amount": -3.52,
+      "label": "Professional fees"
+    },
+    {
+      "amount": -5.78,
+      "label": "Other expenses"
+    },
+    {
+      "amount": -9.2,
+      "label": "Tax"
+    },
+    {
+      "amount": 34.32,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "-3% YoY",
+      "value": "$13.5B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+17% YoY",
+      "value": "$14.01"
+    },
+    {
+      "label": "Assets under supervision",
+      "note": "record, at quarter-end",
+      "value": "$3.61T"
+    },
+    {
+      "label": "Share buybacks",
+      "note": "in the quarter",
+      "value": "$3.0B"
+    }
+  ],
+  "oneTimers": [
+    "The Apple Card transition is the quarter's big one-timer: -$2,258M in net revenues, -$2,481M in provision for credit losses (a benefit), +$38M in operating expenses \u2014 a net +$185M pre-tax, +$145M after tax. Excluding it, revenue was $15.7B and EPS was $13.55.",
+    "Preferred stock dividends of $233M sit between net earnings ($4,617M) and the $4,384M applicable to common shareholders."
+  ],
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-01-15",
+  "revenueYoY": "-3%",
+  "segments": [
+    {
+      "amountM": 9744,
+      "name": "Noninterest revenues",
+      "note": "Fees and trading: Global Banking & Markets brought in $10.4B and Asset & Wealth Management $4.7B, partly offset by a $1.7B negative contribution from Platform Solutions as the Apple Card portfolio was marked down for transfer."
+    },
+    {
+      "amountM": 3710,
+      "name": "Net interest income",
+      "note": "Interest earned on loans and investments, minus interest paid \u2014 up 58% from a year ago on lower funding costs and more interest-earning assets.",
+      "yoy": "+58%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000008/a4q25gsearningsresults.htm"
+    },
+    {
+      "label": "Earnings results presentation, Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000008/a4q25gsearningsresultspr.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$10.4B",
+      "statColor": "#3d7bc8",
+      "text": "Global Banking & Markets revenue rose 22% to $10.4B \u2014 investment banking fees +25%, equities +25% with record financing, FICC +12% \u2014 the engine more than offset the Apple Card markdown.",
+      "title": "Banking & markets had a record quarter"
+    },
+    {
+      "stat": "-$2.3B / +$2.5B",
+      "statColor": "#5b6b7c",
+      "text": "Agreeing to hand Apple Card to another issuer cut revenue by $2,258M (a markdown on the loan portfolio) but released $2,480M of credit reserves in the provision line \u2014 a net $145M boost to net earnings after tax and related costs.",
+      "title": "Apple Card exit cut both ways"
+    },
+    {
+      "stat": "$14.01",
+      "statColor": "#3e8e5a",
+      "text": "Net earnings rose 12% to $4.6B and diluted EPS rose 17% to $14.01, a 16.0% return on equity \u2014 helped by $3.0B of buybacks in the quarter shrinking the share count.",
+      "title": "Profit per share jumped"
+    }
+  ],
+  "ticker": "GS",
+  "verdict": "Goldman's headline revenue fell 3% to $13.5B only because exiting Apple Card cost a $2.3B markdown \u2014 the same exit released $2.5B of loan reserves, and underlying banking and markets revenue was a record, lifting net earnings 12% to $4.6B.",
+  "footerNote": "Credit-loss provision was a $2,123M benefit \u2014 money added back, not spent."
+}

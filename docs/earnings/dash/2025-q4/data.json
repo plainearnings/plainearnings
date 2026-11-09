@@ -1,0 +1,145 @@
+{
+  "company": "DoorDash",
+  "flow": {
+    "costOfRevenueM": 1935,
+    "grossProfitM": 2020,
+    "netIncomeM": 213,
+    "operatingIncomeM": 147,
+    "opex": [
+      {
+        "amountM": 707,
+        "name": "Sales & marketing",
+        "note": "Marketing and promotions to win diners, merchants and couriers."
+      },
+      {
+        "amountM": 419,
+        "name": "Research & development",
+        "note": "Building the delivery platform, including AI and autonomy work."
+      },
+      {
+        "amountM": 480,
+        "name": "General & administrative",
+        "note": "Running the company day to day, including $57M of Deliveroo transaction-related costs."
+      },
+      {
+        "amountM": 267,
+        "name": "Depreciation & amortization",
+        "note": "Wear-and-tear on equipment, vehicles and software \u2014 the part not counted inside cost of revenue. It rose with the Deliveroo acquisition."
+      }
+    ],
+    "otherIncomeM": 75,
+    "revenueM": 3955,
+    "taxM": 9
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Marketplace services"
+    },
+    {
+      "amount": -48.93,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -17.88,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -10.59,
+      "label": "R&D"
+    },
+    {
+      "amount": -12.14,
+      "label": "G&A"
+    },
+    {
+      "amount": -6.75,
+      "label": "Depreciation & amort."
+    },
+    {
+      "amount": 1.9,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.23,
+      "label": "Tax"
+    },
+    {
+      "amount": 5.39,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+38%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.33 a year ago",
+      "value": "$0.48"
+    },
+    {
+      "label": "Marketplace GOV",
+      "note": "+39% YoY",
+      "value": "$29.7B"
+    },
+    {
+      "label": "Total orders",
+      "note": "+32% YoY",
+      "value": "903M"
+    }
+  ],
+  "oneTimers": [
+    "The chart's net profit is $213M \u2014 net income including redeemable non-controlling interests, which was also the figure attributable to DoorDash common stockholders this quarter (no amount was attributable to those interests in Q4).",
+    "General and administrative costs include $57M of transaction-related costs, mostly for the Deliveroo acquisition, and $29M of certain legal, tax and regulatory settlements, reserves and expenses."
+  ],
+  "otherDetail": "Interest income, net, of $42M, plus $33M of other income \u2014 $75M added to profit.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-18",
+  "revenueYoY": "+38%",
+  "segments": [
+    {
+      "amountM": 3955,
+      "name": "Marketplace services",
+      "note": "Fees from restaurants, stores and couriers on every order, plus DashPass subscriptions. DoorDash reports a single revenue stream; orders placed through it were worth $29.7B in the quarter.",
+      "yoy": "+38%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000012/prodq4dashex991-pressrelea.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$29.7B",
+      "statColor": "#3d7bc8",
+      "text": "Marketplace GOV rose 39% to $29.7B on 903 million orders (+32%) \u2014 growth in diners and order frequency, plus a first full quarter of Deliveroo, which closed on October 2, 2025.",
+      "title": "Record order value"
+    },
+    {
+      "stat": "+38%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 38% to $4.0B. DoorDash keeps a slice of every order as its fee, so revenue grows with the value of what is ordered; excluding Deliveroo, revenue still rose 26%.",
+      "title": "Revenue kept pace"
+    },
+    {
+      "stat": "$213M",
+      "statColor": "#3e8e5a",
+      "text": "Net income attributable to shareholders rose 51% to $213M and Adjusted EBITDA rose 38% to $780M, even as depreciation climbed to $267M after the Deliveroo deal.",
+      "title": "Profit rose with scale"
+    }
+  ],
+  "ticker": "DASH",
+  "verdict": "DoorDash grew revenue 38% to $4.0B on record order value of $29.7B in its first full quarter owning Deliveroo, and profit attributable to shareholders rose 51% to $213M."
+}

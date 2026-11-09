@@ -1,0 +1,168 @@
+{
+  "company": "PayPal",
+  "flow": {
+    "costName": "Transaction costs & credit losses",
+    "costOfRevenueM": 4642,
+    "costPlain": "What each payment costs PayPal to run: $4,252M of transaction expense (card-network and processing fees) plus $390M of transaction and credit losses on its loans.",
+    "grossName": "Transaction margin",
+    "grossNote": "transaction margin",
+    "grossProfitM": 4034,
+    "netIncomeM": 1437,
+    "operatingIncomeM": 1511,
+    "opex": [
+      {
+        "amountM": 446,
+        "name": "Customer support and operations",
+        "note": "Support staff and the cost of running payment operations."
+      },
+      {
+        "amountM": 691,
+        "name": "Sales and marketing",
+        "note": "Marketing, and winning merchants and users."
+      },
+      {
+        "amountM": 804,
+        "name": "Technology and development",
+        "note": "Building and running the PayPal and Venmo platforms."
+      },
+      {
+        "amountM": 502,
+        "name": "General and administrative",
+        "note": "Running the company: finance, legal, risk and offices."
+      },
+      {
+        "amountM": 80,
+        "name": "Restructuring and other",
+        "note": "Severance and reshaping costs as PayPal works through its transformation plan."
+      }
+    ],
+    "otherIncomeM": 116,
+    "revenueM": 8676,
+    "taxM": 190
+  },
+  "follow100": [
+    {
+      "amount": 90.12,
+      "label": "Transaction revenues"
+    },
+    {
+      "amount": 9.88,
+      "label": "Other value-added services"
+    },
+    {
+      "amount": -53.5,
+      "label": "Transaction costs & losses"
+    },
+    {
+      "amount": -5.14,
+      "label": "Customer support & ops"
+    },
+    {
+      "amount": -7.96,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -9.27,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -5.79,
+      "label": "G&A"
+    },
+    {
+      "amount": -0.92,
+      "label": "Restructuring"
+    },
+    {
+      "amount": 1.34,
+      "label": "Other income"
+    },
+    {
+      "amount": -2.19,
+      "label": "Tax"
+    },
+    {
+      "amount": 16.56,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+4% YoY",
+      "value": "$8.7B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.23 non-GAAP",
+      "value": "$1.53"
+    },
+    {
+      "label": "Total payment volume",
+      "note": "+9% YoY",
+      "value": "$475B"
+    },
+    {
+      "label": "Active accounts",
+      "note": "+1% YoY",
+      "value": "439M"
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include gains on PayPal's strategic investment portfolio and crypto assets worth about $0.10 of EPS in the quarter, versus a roughly $0.04 drag in Q4 2024 \u2014 a swing that explains much of the GAAP profit jump.",
+    "Restructuring and other charges were $80M in the quarter as PayPal reshapes the organization; the board also announced Enrique Lores as the next President and CEO alongside these results."
+  ],
+  "otherDetail": "Other income (expense), net was +$116M, including gains on PayPal's strategic investment portfolio.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-03",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "amountM": 7819,
+      "name": "Transaction revenues",
+      "note": "The cut PayPal takes on every payment it processes \u2014 $475B of payment volume flowed through in the quarter, up 9%, across 6.8 billion transactions.",
+      "yoy": "+3%"
+    },
+    {
+      "amountM": 857,
+      "name": "Revenues from other value added services",
+      "note": "Interest on customer balances, partner fees and other services around the core payment.",
+      "shortName": "Other value-added services",
+      "yoy": "+10%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$475B",
+      "statColor": "#3d7bc8",
+      "text": "Total payment volume rose 9% to $475.1B and transactions rose 2% to 6.8 billion, with 439 million active accounts.",
+      "title": "The payment pipes keep growing"
+    },
+    {
+      "stat": "+4%",
+      "statColor": "#5b6b7c",
+      "text": "Revenue grew 4%: transaction revenues +3% and value-added services +10%. Transaction margin dollars rose 3% to $4.0B \u2014 the core business grew, just slowly.",
+      "title": "Steady, slower growth"
+    },
+    {
+      "stat": "$1.53",
+      "statColor": "#3e8e5a",
+      "text": "GAAP EPS rose 38% to $1.53, including a roughly $0.10 boost from PayPal's strategic investment portfolio and crypto assets, versus a $0.04 drag a year ago. Non-GAAP EPS was $1.23.",
+      "title": "Investment gains flattered EPS"
+    }
+  ],
+  "ticker": "PYPL",
+  "verdict": "PayPal moved $475B of payments (+9%) and grew revenue 4% to $8.7B, while GAAP net income rose 28% to $1.4B \u2014 helped by gains in its investment portfolio \u2014 as the board named a new CEO to fix branded checkout execution."
+}
