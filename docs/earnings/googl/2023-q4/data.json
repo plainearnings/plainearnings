@@ -1,0 +1,165 @@
+{
+  "company": "Alphabet",
+  "flow": {
+    "costOfRevenueM": 37575,
+    "grossProfitM": 48735,
+    "netIncomeM": 20687,
+    "operatingIncomeM": 23697,
+    "opex": [
+      {
+        "amountM": 12113,
+        "name": "Research & development",
+        "note": "Engineers and researchers building the products and AI models."
+      },
+      {
+        "amountM": 7719,
+        "name": "Sales & marketing",
+        "note": "Selling ads and devices, and promoting the products."
+      },
+      {
+        "amountM": 5206,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, finance and facilities."
+      }
+    ],
+    "otherIncomeM": 715,
+    "revenueM": 86310,
+    "taxM": 3725
+  },
+  "follow100": [
+    {
+      "amount": 88.42,
+      "label": "Google Services"
+    },
+    {
+      "amount": 10.65,
+      "label": "Google Cloud"
+    },
+    {
+      "amount": 0.76,
+      "label": "Other Bets"
+    },
+    {
+      "amount": 0.17,
+      "label": "Hedging gains"
+    },
+    {
+      "amount": -43.53,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -14.03,
+      "label": "R&D"
+    },
+    {
+      "amount": -8.94,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -6.03,
+      "label": "G&A"
+    },
+    {
+      "amount": 0.83,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.32,
+      "label": "Tax"
+    },
+    {
+      "amount": 23.97,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+13%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.05 a year ago",
+      "value": "$1.64"
+    },
+    {
+      "label": "Google Cloud",
+      "note": "revenue $9.2B; operating profit $864M",
+      "value": "+26%"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "capex was $11.0B in the quarter",
+      "value": "$7.9B"
+    }
+  ],
+  "oneTimers": [
+    "Office-space exit charges of $1.2B (plus $62M of accelerated rent and depreciation) sit inside the quarter's costs, mostly in unallocated corporate costs, as Alphabet shrinks its real-estate footprint; employee severance added just $7M this quarter, after $2.1B for the full year.",
+    "A January 2023 change that stretched the assumed life of Alphabet's servers from four to six years cut depreciation expense by $983M in this quarter alone, which flatters the profit comparison."
+  ],
+  "otherDetail": "A $471M net gain on debt and equity securities plus interest income, partly offset by interest expense and other items, net.",
+  "periodEnd": "2023-12-31",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "reportedDate": "2024-01-30",
+  "revenueYoY": "+13%",
+  "segments": [
+    {
+      "amountM": 76311,
+      "name": "Google Services",
+      "note": "Search, YouTube, subscriptions and devices \u2014 Search & other revenue rose 13% to $48.0B and subscriptions, platforms and devices 23% to $10.8B.",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 9192,
+      "name": "Google Cloud",
+      "note": "Cloud computing rented to companies \u2014 up 26%, and it swung to an $864M operating profit from a $186M loss a year ago.",
+      "yoy": "+26%"
+    },
+    {
+      "amountM": 657,
+      "name": "Other Bets",
+      "note": "Moonshot projects such as Waymo \u2014 small revenue and an $863M operating loss this quarter.",
+      "yoy": "+191%"
+    },
+    {
+      "amountM": 150,
+      "name": "Hedging gains",
+      "note": "Gains from currency hedging that sit outside the three businesses."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000014/googexhibit991q42023.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000014/goog-20240130.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "text": "Google Cloud revenue jumped 26% to $9.2B, and its operating result swung to an $864M profit from a $186M loss a year ago \u2014 the cloud is becoming a real second engine next to ads.",
+      "title": "Cloud swung to a profit"
+    },
+    {
+      "stat": "$48.0B",
+      "statColor": "#3e8e5a",
+      "text": "Search & other revenue rose 13% to $48.0B, YouTube ads reached $9.2B, and subscriptions, platforms and devices grew 23% to $10.8B \u2014 Google Services earned $26.7B of operating profit in total.",
+      "title": "Search and subscriptions carried Services"
+    },
+    {
+      "stat": "27%",
+      "statColor": "#5b6b7c",
+      "text": "Operating margin reached 27%, up from 24% a year ago, even with $1.2B of office-space exit charges inside the quarter's costs \u2014 net income rose 52% to $20.7B.",
+      "title": "Margins widened despite the charges"
+    }
+  ],
+  "ticker": "GOOGL",
+  "verdict": "Alphabet grew revenue 13% to $86.3B as Search rose 13% and Google Cloud jumped 26% and swung to a profit \u2014 and it kept $20.7B as profit, even after $1.2B of office-space exit charges."
+}

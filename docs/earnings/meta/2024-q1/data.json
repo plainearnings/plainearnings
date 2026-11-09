@@ -1,0 +1,154 @@
+{
+  "company": "Meta",
+  "flow": {
+    "costOfRevenueM": 6640,
+    "grossProfitM": 29815,
+    "netIncomeM": 12369,
+    "operatingIncomeM": 13818,
+    "opex": [
+      {
+        "amountM": 9978,
+        "name": "Research & development",
+        "note": "Engineers building the apps, the AI models and the headsets."
+      },
+      {
+        "amountM": 2564,
+        "name": "Marketing & sales",
+        "note": "Selling ads and devices, and promoting the apps."
+      },
+      {
+        "amountM": 3455,
+        "name": "General & administrative",
+        "note": "Legal, finance and overhead for running the company."
+      }
+    ],
+    "otherIncomeM": 365,
+    "revenueM": 36455,
+    "taxM": 1814
+  },
+  "follow100": [
+    {
+      "amount": 97.75,
+      "label": "Advertising"
+    },
+    {
+      "amount": 1.04,
+      "label": "Family of Apps other revenue"
+    },
+    {
+      "amount": 1.21,
+      "label": "Reality Labs"
+    },
+    {
+      "amount": -18.21,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -27.37,
+      "label": "R&D"
+    },
+    {
+      "amount": -7.03,
+      "label": "Marketing & sales"
+    },
+    {
+      "amount": -9.48,
+      "label": "G&A"
+    },
+    {
+      "amount": 1.0,
+      "label": "Other income"
+    },
+    {
+      "amount": -4.98,
+      "label": "Tax"
+    },
+    {
+      "amount": 33.93,
+      "label": "Kept as profit"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+27%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.20 a year ago",
+      "value": "$4.71"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "capex, incl. finance leases, was $6.7B",
+      "value": "$12.5B"
+    },
+    {
+      "label": "Family DAP",
+      "note": "people using a Meta app daily, +7%",
+      "value": "3.24B"
+    }
+  ],
+  "oneTimers": [
+    "Impairment charges of $240M for facilities consolidation \u2014 part of Meta's ongoing shrink of its office footprint \u2014 are inside the quarter's costs, per the cash-flow statement in the release."
+  ],
+  "otherDetail": "Interest and other income of $365M, net.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-24",
+  "revenueYoY": "+27%",
+  "segments": [
+    {
+      "amountM": 35635,
+      "name": "Advertising",
+      "note": "Ads across Facebook, Instagram and WhatsApp \u2014 ad impressions rose 20% and the average price per ad rose 6%.",
+      "yoy": "+27%"
+    },
+    {
+      "amountM": 380,
+      "name": "Family of Apps other revenue",
+      "note": "Mostly WhatsApp business messaging and other fees from the social apps.",
+      "yoy": "+85%"
+    },
+    {
+      "amountM": 440,
+      "name": "Reality Labs",
+      "note": "Quest headsets and Ray-Ban Meta glasses \u2014 $440M of revenue against a $3.8B operating loss.",
+      "yoy": "+30%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm"
+    },
+    {
+      "label": "Quarterly report (10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+27%",
+      "statColor": "#3d7bc8",
+      "text": "Advertising revenue grew 27% to $35.6B \u2014 98 cents of every dollar Meta made \u2014 helped by 20% more ad views and a 6% higher average price per ad.",
+      "title": "Ads did the lifting"
+    },
+    {
+      "stat": "38%",
+      "statColor": "#3e8e5a",
+      "text": "Costs rose just 6% while revenue rose 27%, so operating margin widened to 38% from 25% a year ago and net income more than doubled to $12.4B \u2014 free cash flow was $12.5B.",
+      "title": "The efficiency year paid off"
+    },
+    {
+      "stat": "-$3.8B",
+      "statColor": "#b8443c",
+      "text": "Reality Labs lost $3.8B in the quarter on $440M of revenue \u2014 slightly less than the $4.0B it lost a year ago, but still the one big drag on an otherwise highly profitable company.",
+      "title": "Reality Labs still burns cash"
+    }
+  ],
+  "ticker": "META",
+  "verdict": "Meta's revenue jumped 27% to $36.5B as ad impressions rose 20% and prices 6% \u2014 and with costs up only 6%, operating income nearly doubled to $13.8B and it kept $12.4B as profit, about 34 cents of every dollar."
+}
