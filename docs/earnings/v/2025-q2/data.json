@@ -1,0 +1,183 @@
+{
+  "company": "Visa",
+  "flow": {
+    "costOfRevenueM": 3734,
+    "grossProfitM": 9594,
+    "netIncomeM": 4577,
+    "operatingIncomeM": 5435,
+    "opex": [
+      {
+        "amountM": 1657,
+        "name": "Personnel",
+        "note": "Pay and benefits for Visa's workforce."
+      },
+      {
+        "amountM": 419,
+        "name": "General & administrative",
+        "note": "Running the company day to day."
+      },
+      {
+        "amountM": 381,
+        "name": "Marketing",
+        "note": "Brand, sponsorship and card marketing."
+      },
+      {
+        "amountM": 1000,
+        "name": "Litigation provision",
+        "note": "The special item for the interchange multidistrict litigation (MDL) case and other legal matters \u2014 a legal charge Visa excludes from its non-GAAP results."
+      },
+      {
+        "amountM": 702,
+        "compact": true,
+        "name": "Network, professional & depreciation",
+        "note": "Network and processing ($224M), professional fees ($173M) and depreciation & amortization ($305M).",
+        "shortName": "Network, prof. & depreciation"
+      }
+    ],
+    "otherIncomeM": 3,
+    "revenueM": 13328,
+    "taxM": 861
+  },
+  "follow100": [
+    {
+      "amount": 33.01,
+      "label": "Service revenue"
+    },
+    {
+      "amount": 35.27,
+      "label": "Data processing revenue"
+    },
+    {
+      "amount": 24.69,
+      "label": "International transaction revenue"
+    },
+    {
+      "amount": 7.03,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -28.01,
+      "label": "Client incentives"
+    },
+    {
+      "amount": -12.43,
+      "label": "Personnel"
+    },
+    {
+      "amount": -3.14,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -2.86,
+      "label": "Marketing"
+    },
+    {
+      "amount": -7.5,
+      "label": "Litigation provision"
+    },
+    {
+      "amount": -5.27,
+      "label": "Network, professional & depreciation"
+    },
+    {
+      "amount": 0.02,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.46,
+      "label": "Tax"
+    },
+    {
+      "amount": 34.34,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Per $100 of gross revenue (before client incentives). Measured against Visa's reported net revenue of $9.6B instead, the kept profit is $47.71 per $100. Rows may not add exactly due to rounding.",
+  "footerNote": "Visa reports 'net revenue' of $9,594M; this page starts from gross revenue of $13,328M so the $3,734M of client incentives shows as a cost.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "note": "to $9.6B",
+      "value": "+9%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+1% YoY; non-GAAP EPS was $2.76",
+      "value": "$2.32"
+    },
+    {
+      "label": "Payments volume",
+      "note": "constant-dollar; cross-border volume +13%",
+      "value": "+8%"
+    },
+    {
+      "label": "Client incentives",
+      "note": "28% of gross revenue",
+      "value": "$3.7B"
+    }
+  ],
+  "oneTimers": [
+    "A litigation provision of $1,000M sits in operating expenses \u2014 $992M of it is the special item for the interchange multidistrict litigation (MDL) case; Visa excludes it from non-GAAP results.",
+    "Also excluded from non-GAAP results: $96M of amortization of acquired intangible assets and acquisition-related costs, and $23M of net losses on equity investments. Non-GAAP net income was $5.4B ($2.76 per share)."
+  ],
+  "otherDetail": "Investment income and other gains of $161M, less $158M of interest expense \u2014 net +$3M.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q2 FY25",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2025-04-29",
+  "revenueYoY": "+9%",
+  "segments": [
+    {
+      "amountM": 4399,
+      "name": "Service revenue",
+      "note": "Fees from banks for using the Visa brand and network on cards \u2014 based on the prior quarter's payments volume.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 4701,
+      "name": "Data processing revenue",
+      "note": "Fees for clearing and processing each transaction \u2014 processed transactions grew 9%.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 3291,
+      "name": "International transaction revenue",
+      "note": "Fees when a card is used outside its home country \u2014 cross-border volume rose 13% in constant dollars.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 937,
+      "name": "Other revenue",
+      "note": "Value-added services \u2014 fraud tools, data and consulting for banks and merchants.",
+      "yoy": "+24%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000035/q22025earningsrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "text": "Net revenue rose 9% to $9.6B \u2014 data processing +10%, international transactions +10%, service revenue +9% and other revenue +24%. Payments volume grew 8% and cross-border volume 13% in constant dollars; processed transactions rose 9%.",
+      "title": "Volume growth stayed solid"
+    },
+    {
+      "stat": "$2.76",
+      "statColor": "#3e8e5a",
+      "text": "Non-GAAP EPS was $2.76, up 10%, and non-GAAP net income $5.4B, up 6%. GAAP EPS rose just 1% to $2.32 because of the legal charge below.",
+      "title": "Underlying EPS rose 10%"
+    },
+    {
+      "stat": "$1.0B",
+      "statColor": "#5b6b7c",
+      "text": "The litigation provision was $1,000M \u2014 mostly the special item for the interchange MDL case \u2014 versus $430M a year ago. GAAP operating expenses rose 22%; excluding such items, they rose 7%.",
+      "title": "The legal bill spiked again"
+    }
+  ],
+  "ticker": "V",
+  "verdict": "Visa's net revenue rose 9% to $9.6B as payments volume grew 8% and cross-border volume 13% \u2014 but a $1,000M litigation provision left GAAP profit slightly lower at $4.6B, even as underlying EPS rose 10%."
+}

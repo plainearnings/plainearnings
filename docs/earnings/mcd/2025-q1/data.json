@@ -1,0 +1,138 @@
+{
+  "company": "McDonald's",
+  "flow": {
+    "costOfRevenueM": 2619,
+    "grossProfitM": 3337,
+    "netIncomeM": 1868,
+    "operatingIncomeM": 2648,
+    "opex": [
+      {
+        "amountM": 689,
+        "name": "Selling, general & administrative",
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $682M of SG&A (including $107M of depreciation and amortization), plus $7M of other operating expense, net."
+      }
+    ],
+    "otherIncomeM": -319,
+    "revenueM": 5956,
+    "taxM": 461
+  },
+  "follow100": [
+    {
+      "amount": 61.47,
+      "label": "Franchised restaurants"
+    },
+    {
+      "amount": 35.8,
+      "label": "Company-owned restaurants"
+    },
+    {
+      "amount": 2.72,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -43.97,
+      "label": "Cost of restaurants"
+    },
+    {
+      "amount": -11.57,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.36,
+      "label": "Other expense"
+    },
+    {
+      "amount": -7.74,
+      "label": "Tax"
+    },
+    {
+      "amount": 31.36,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "The release's rounded lines do not tie exactly: operating income less interest expense plus nonoperating income gives pre-tax income of $2,329M, $1M below the printed $2,330M; this page follows the printed lines and the reported net income of $1,868M. Segment revenues as printed sum to $5,955M, $1M below the printed total revenue of $5,956M; that $1M rounding difference is carried in franchised revenues here.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago (-2% in constant currencies)",
+      "value": "-3%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "-2% YoY; $2.67 excluding restructuring charges",
+      "value": "$2.60"
+    },
+    {
+      "label": "Global comparable sales",
+      "note": "U.S. -3.6%; essentially flat excluding Leap Day",
+      "value": "-1.0%"
+    },
+    {
+      "label": "Operating income",
+      "note": "-3% YoY",
+      "value": "$2.6B"
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $66M ($0.07 per share), primarily restructuring charges under the 'Accelerating the Organization' program to modernize how the company works; excluding them, operating income fell 2% and EPS was $2.67."
+  ],
+  "otherDetail": "Interest expense of $376M on McDonald's debt, partly offset by $57M of net nonoperating income.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-05-01",
+  "revenueYoY": "-3%",
+  "segmentNote": "Systemwide sales fell 1% (up 1% in constant currency); comparable sales: U.S. -3.6%, International Operated Markets -1.0%, International Developmental Licensed Markets +3.5%. Excluding the Leap Day comparison, global comparable sales were essentially flat.",
+  "segments": [
+    {
+      "amountM": 3662,
+      "name": "Franchised restaurants",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model.",
+      "yoy": "-2%"
+    },
+    {
+      "amountM": 2132,
+      "name": "Company-owned restaurants",
+      "note": "Food and drink sold at restaurants McDonald's runs itself.",
+      "yoy": "-9%"
+    },
+    {
+      "amountM": 162,
+      "name": "Other revenues",
+      "note": "Fees from franchisees for technology and digital platforms, plus brand-licensing income.",
+      "yoy": "+78%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000021/exhibit991-33125xq1.htm"
+    },
+    {
+      "label": "Supplemental financial information \u2014 Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000021/exhibit992-33125xq1.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-1.0%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable sales fell 1.0% \u2014 the U.S. -3.6% on fewer guest visits, International Operated Markets -1.0% with the U.K. weak, licensed markets +3.5% on the Middle East and Japan. Against a Leap Day quarter a year ago, comps were essentially flat.",
+      "title": "Comps dipped, mostly the calendar"
+    },
+    {
+      "stat": "$2.60",
+      "statColor": "#3e8e5a",
+      "text": "Diluted EPS was $2.60, down 2%. Excluding $66M of pre-tax restructuring charges under 'Accelerating the Organization', it was $2.67, down 1%. Net income was $1,868M.",
+      "title": "EPS eased 2%"
+    },
+    {
+      "stat": "61%",
+      "statColor": "#5b6b7c",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $3.7B, 61% of all revenue, and fell only 2%. Company-run store sales fell 9% to $2.1B, at much thinner margins.",
+      "title": "Franchisees carry the model"
+    }
+  ],
+  "ticker": "MCD",
+  "verdict": "McDonald's revenue fell 3% to $6.0B and operating income 3% to $2.6B \u2014 comparable sales dipped 1.0% against a Leap Day quarter, with U.S. guest counts down \u2014 while franchise rent and royalties held up far better than company-run store sales."
+}
