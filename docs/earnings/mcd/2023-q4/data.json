@@ -1,0 +1,134 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q4 2023",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-02-05",
+  "revenueYoY": "+8%",
+  "verdict": "McDonald's grew revenue 8% to $6.4B and operating income 8% to $2.8B as global comparable sales rose 3.4% \u2014 though the war in the Middle East held back its licensed markets.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "vs a year ago; +6% in constant currencies"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.80",
+      "note": "diluted; +8% YoY"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+3.4%",
+      "note": "U.S. +4.3%, International Operated Markets +4.4%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$2.8B",
+      "note": "+8% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 3869,
+      "yoy": "+6%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2474,
+      "yoy": "+12%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 63,
+      "yoy": "-13%",
+      "note": "Fees and other income beyond rent, royalties and restaurant sales."
+    }
+  ],
+  "flow": {
+    "revenueM": 6406,
+    "costOfRevenueM": 2752,
+    "grossProfitM": 3654,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 852,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 includes $91M of depreciation and amortization and $31M of other operating expense."
+      }
+    ],
+    "operatingIncomeM": 2802,
+    "otherIncomeM": -287,
+    "taxM": 476,
+    "netIncomeM": 2039
+  },
+  "otherDetail": "Interest expense of $360M on McDonald's debt, partly offset by $73M of net nonoperating income.",
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 60.4
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 38.62
+    },
+    {
+      "label": "Other revenues",
+      "amount": 0.98
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -42.96
+    },
+    {
+      "label": "SG&A",
+      "amount": -13.3
+    },
+    {
+      "label": "Other expense",
+      "amount": -4.48
+    },
+    {
+      "label": "Tax",
+      "amount": -7.43
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.83
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "McDonald's reports in tenths of a million; this page rounds to whole millions (reported operating income was $2,801.9M and net income $2,039.0M). Other revenues are shown as $63M rather than the rounded $64M so the three revenue lines tie exactly to the reported $6,406M total.",
+  "takeaways": [
+    {
+      "stat": "+3.4%",
+      "statColor": "#3d7bc8",
+      "title": "Comparable sales stayed positive everywhere",
+      "text": "Global comparable sales rose 3.4% \u2014 U.S. +4.3% and International Operated Markets +4.4% \u2014 while International Developmental Licensed Markets managed only +0.7% as the war in the Middle East weighed on sales."
+    },
+    {
+      "stat": "+8%",
+      "statColor": "#3e8e5a",
+      "title": "Revenue and profit both grew 8%",
+      "text": "Revenue rose 8% to $6,406M and operating income 8% to $2,802M. For the full year, global comparable sales grew 9% \u2014 more than 30% above 2019 levels \u2014 and systemwide sales to loyalty members passed $20B."
+    },
+    {
+      "stat": "$2.80",
+      "statColor": "#5b6b7c",
+      "title": "Charges trimmed EPS",
+      "text": "EPS rose 8% to $2.80 despite $138M of pre-tax charges \u2014 a $72M write-off of software no longer in use and $66M for the Accelerating the Arches restructuring. Excluding them, EPS was $2.95, up 14%."
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $138M ($0.15 per share): $72M to write off impaired software no longer in use, and $66M related to the Accelerating the Arches growth strategy, including restructuring for 'Accelerating the Organization,' the company's internal modernization program. Excluding them, EPS was $2.95."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000029/exhibit991-12312023.htm"
+    }
+  ]
+}

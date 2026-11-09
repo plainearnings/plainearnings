@@ -1,0 +1,170 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2023-11-30",
+  "reportedDate": "2023-12-21",
+  "revenueYoY": "+1%",
+  "verdict": "Nike's revenue rose just 1% to $13.4B, but wider gross margins and flat overhead lifted net income 19% to $1.6B \u2014 even as it warned of a softer second half and announced a $2B cost-cutting plan.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+1%",
+      "note": "vs a year ago; -1% in constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.03",
+      "note": "diluted; +21% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "44.6%",
+      "note": "+170 basis points YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.6B",
+      "note": "+19% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 5625,
+      "yoy": "-4%",
+      "note": "Nike's home market \u2014 footwear fell 5%, apparel fell 1%, and equipment jumped 10%."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3567,
+      "yoy": "+2%",
+      "note": "Nike's second-biggest region \u2014 footwear rose 6%, apparel fell 6%, equipment rose 25%."
+    },
+    {
+      "name": "Asia Pacific & Latin America",
+      "amountM": 1805,
+      "yoy": "+13%",
+      "note": "Footwear rose 18%, apparel was flat and equipment rose 16%."
+    },
+    {
+      "name": "Greater China",
+      "amountM": 1863,
+      "yoy": "+4%",
+      "note": "Footwear fell 1%, apparel rose 19% and equipment rose 32%."
+    },
+    {
+      "name": "Converse",
+      "amountM": 519,
+      "yoy": "-11%",
+      "note": "The Chuck Taylor brand \u2014 revenue fell 11% on declines in North America and Europe, partly offset by growth in Asia."
+    },
+    {
+      "name": "Global Brand & Corporate",
+      "amountM": 9,
+      "yoy": "",
+      "note": "Global Brand Divisions revenue of $12M plus Corporate of -$3M, mostly currency-hedge results \u2014 a small residual."
+    }
+  ],
+  "flow": {
+    "revenueM": 13388,
+    "costOfRevenueM": 7417,
+    "grossProfitM": 5971,
+    "opex": [
+      {
+        "name": "Demand creation",
+        "amountM": 1114,
+        "note": "Advertising and brand marketing \u2014 up 1% YoY on higher marketing spending."
+      },
+      {
+        "name": "Operating overhead",
+        "amountM": 3032,
+        "note": "Running the company \u2014 flat YoY, as higher NIKE Direct variable costs were offset by lower technology spend and wage-related expenses."
+      }
+    ],
+    "operatingIncomeM": 1825,
+    "otherIncomeM": 97,
+    "taxM": 344,
+    "netIncomeM": 1578
+  },
+  "otherDetail": "$22M of net interest income, plus $75M of other income, net.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 42.02
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 26.64
+    },
+    {
+      "label": "Asia Pacific & Latin America",
+      "amount": 13.48
+    },
+    {
+      "label": "Greater China",
+      "amount": 13.92
+    },
+    {
+      "label": "Converse",
+      "amount": 3.88
+    },
+    {
+      "label": "Global Brand & Corporate",
+      "amount": 0.07
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -55.4
+    },
+    {
+      "label": "Demand creation",
+      "amount": -8.32
+    },
+    {
+      "label": "Operating overhead",
+      "amount": -22.65
+    },
+    {
+      "label": "Other income",
+      "amount": 0.72
+    },
+    {
+      "label": "Tax",
+      "amount": -2.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 11.79
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Segment revenues are Nike's divisional revenues; 'Global Brand & Corporate' combines Global Brand Divisions ($12M) and Corporate (-$3M, mostly currency-hedge results).",
+  "takeaways": [
+    {
+      "stat": "+1%",
+      "statColor": "#3d7bc8",
+      "title": "Growth was split by region",
+      "text": "Total revenue rose 1% to $13,388M: Asia Pacific & Latin America jumped 13% and Greater China 4%, while North America fell 4% and Converse fell 11%. NIKE Direct sales rose 6% to $5.7B; wholesale fell 2%."
+    },
+    {
+      "stat": "44.6%",
+      "statColor": "#3e8e5a",
+      "title": "Margins did the heavy lifting",
+      "text": "Gross margin widened 170 basis points to 44.6% on higher prices and lower ocean freight costs, and inventories fell 14% to $8.0B. With overhead flat, net income rose 19% to $1,578M and EPS 21% to $1.03."
+    },
+    {
+      "stat": "$2B",
+      "statColor": "#5b6b7c",
+      "title": "A big cost-cutting plan is coming",
+      "text": "Nike announced a plan to find up to $2B of savings over three years \u2014 simpler product ranges, more automation, a leaner organization \u2014 and warned of pre-tax restructuring charges of about $400M to $450M, mostly severance, largely landing next quarter."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018723000054/q2fy24exhibit991er.htm"
+    }
+  ]
+}

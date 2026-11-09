@@ -1,0 +1,150 @@
+{
+  "ticker": "SBUX",
+  "company": "Starbucks",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-01-30",
+  "revenueYoY": "+8%",
+  "verdict": "Starbucks grew revenue 8% to a record $9.4B as global comparable sales rose 5%, and wider margins lifted net earnings 20% to $1.0B.",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "value": "+5%",
+      "note": "transactions +3%, average ticket +2%"
+    },
+    {
+      "label": "Revenue",
+      "value": "+8%",
+      "note": "vs a year ago \u2014 a quarterly record"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.90",
+      "note": "+22% YoY; non-GAAP also $0.90"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$1,024M",
+      "note": "+20% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 7121,
+      "yoy": "+9%",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales rose 5% on a 4% higher average ticket and 1% more transactions, plus new stores."
+    },
+    {
+      "name": "International",
+      "amountM": 1846,
+      "yoy": "+10%",
+      "note": "Coffeehouses outside North America \u2014 comparable sales rose 7%, with China up 10% on 21% more transactions partly offset by a 9% lower ticket."
+    },
+    {
+      "name": "Channel Development",
+      "amountM": 448,
+      "yoy": "-6%",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores \u2014 down after the sale of the Seattle's Best Coffee brand and softer ready-to-drink sales."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 10,
+      "yoy": "",
+      "note": "Small leftover businesses and unallocated items."
+    }
+  ],
+  "flow": {
+    "revenueM": 9425,
+    "costOfRevenueM": 6983,
+    "grossProfitM": 2442,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 648,
+        "note": "Running the company \u2014 support centers and head office, including higher spending behind the Reinvention plan."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 365,
+        "note": "Wear and tear on coffeehouses, roasteries and equipment."
+      }
+    ],
+    "operatingIncomeM": 1429,
+    "otherIncomeM": -50,
+    "taxM": 355,
+    "netIncomeM": 1024
+  },
+  "otherDetail": "Income from equity investees of $56M and $34M of interest and other income, less $140M of interest expense.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 75.55
+    },
+    {
+      "label": "International",
+      "amount": 19.59
+    },
+    {
+      "label": "Channel Development",
+      "amount": 4.75
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.11
+    },
+    {
+      "label": "Cost of running stores",
+      "amount": -74.09
+    },
+    {
+      "label": "G&A",
+      "amount": -6.88
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -3.87
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.53
+    },
+    {
+      "label": "Tax",
+      "amount": -3.77
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 10.86
+    }
+  ],
+  "follow100Note": "Net earnings of $1,024M are essentially all attributable to Starbucks. Rows may not add exactly due to rounding.",
+  "footerNote": "Reported operating income of $1,485M includes $56M of income from equity investees, shown here in Other income. Starbucks reports in tenths of a million; this page rounds to whole millions (reported net earnings were $1,024.4M, all attributable to Starbucks).",
+  "takeaways": [
+    {
+      "stat": "+5%",
+      "statColor": "#3d7bc8",
+      "title": "Customers came more often and spent more",
+      "text": "Global comparable store sales rose 5% \u2014 transactions up 3% and average ticket up 2%. North America rose 5%, International 7%, and China 10% as transactions there jumped 21%."
+    },
+    {
+      "stat": "15.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened",
+      "text": "GAAP operating margin expanded 140 basis points to 15.8% on sales leverage and in-store efficiency work under the Reinvention plan, partly offset by higher store wages and benefits. North America's margin reached 21.4%."
+    },
+    {
+      "stat": "34.3M",
+      "statColor": "#5b6b7c",
+      "title": "Loyalty kept growing, stores kept opening",
+      "text": "U.S. Starbucks Rewards 90-day active members rose 13% to 34.3 million, and Starbucks opened 549 net new stores to end the quarter with 38,587 \u2014 51% company-operated and 49% licensed."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000011/sbux-12312023xexhibit991.htm"
+    }
+  ]
+}

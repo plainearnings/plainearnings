@@ -1,0 +1,180 @@
+{
+  "ticker": "V",
+  "company": "Visa",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2023-12-31",
+  "reportedDate": "2024-01-25",
+  "revenueYoY": "+9%",
+  "verdict": "Visa's net revenue rose 9% to $8.6B and net income jumped 17% to $4.9B, as cross-border spending stayed strong and the prior year's $341M litigation provision did not repeat.",
+  "kpis": [
+    {
+      "label": "Net revenue growth",
+      "value": "+9%",
+      "note": "vs a year ago, nominal and constant-dollar"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.39",
+      "note": "+20% YoY; non-GAAP $2.41"
+    },
+    {
+      "label": "Payments volume",
+      "value": "+8%",
+      "note": "in constant dollars; processed transactions +9%"
+    },
+    {
+      "label": "Client incentives",
+      "value": "$3.3B",
+      "note": "paid back to card issuers"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Service revenue",
+      "amountM": 3915,
+      "yoy": "+11%",
+      "note": "Fees based on the payments volume Visa's clients processed in the prior quarter, which rose 8% in constant dollars."
+    },
+    {
+      "name": "Data processing revenue",
+      "amountM": 4356,
+      "yoy": "+14%",
+      "note": "Fees for authorizing, clearing and settling each transaction on Visa's network; processed transactions rose 9%."
+    },
+    {
+      "name": "International transaction revenue",
+      "amountM": 3019,
+      "yoy": "+8%",
+      "note": "Fees when a card is used outside its home country \u2014 the cross-border business; cross-border volume rose 16% in constant dollars."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 692,
+      "yoy": "+18%",
+      "note": "Value-added services, consulting and other fees."
+    }
+  ],
+  "flow": {
+    "revenueM": 11982,
+    "costOfRevenueM": 3348,
+    "grossProfitM": 8634,
+    "opex": [
+      {
+        "name": "Personnel",
+        "amountM": 1479,
+        "note": "Salaries and benefits for the people who run the network."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 340,
+        "note": "Running the company \u2014 offices, legal and administration."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 293,
+        "note": "Advertising and sponsorships that keep the Visa brand in front of cardholders."
+      },
+      {
+        "name": "Litigation provision",
+        "amountM": 9,
+        "note": "Setting money aside for legal cases \u2014 far below the $341M provided a year ago for the interchange litigation."
+      },
+      {
+        "name": "Network, professional & depreciation",
+        "amountM": 559,
+        "note": "Running the network, outside professional help, and wear on Visa's technology \u2014 $181M network and processing, $131M professional fees and $247M depreciation and amortization."
+      }
+    ],
+    "operatingIncomeM": 5954,
+    "otherIncomeM": 88,
+    "taxM": 1152,
+    "netIncomeM": 4890
+  },
+  "otherDetail": "Investment income and other income of $275M, partly offset by $187M of interest expense on Visa's debt.",
+  "follow100": [
+    {
+      "label": "Service revenue",
+      "amount": 32.67
+    },
+    {
+      "label": "Data processing revenue",
+      "amount": 36.35
+    },
+    {
+      "label": "International transaction revenue",
+      "amount": 25.2
+    },
+    {
+      "label": "Other revenue",
+      "amount": 5.78
+    },
+    {
+      "label": "Client incentives",
+      "amount": -27.94
+    },
+    {
+      "label": "Personnel",
+      "amount": -12.34
+    },
+    {
+      "label": "General & administrative",
+      "amount": -2.84
+    },
+    {
+      "label": "Marketing",
+      "amount": -2.45
+    },
+    {
+      "label": "Litigation provision",
+      "amount": -0.08
+    },
+    {
+      "label": "Network, professional & depreciation",
+      "amount": -4.67
+    },
+    {
+      "label": "Other income",
+      "amount": 0.73
+    },
+    {
+      "label": "Tax",
+      "amount": -9.61
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 40.81
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Visa reports 'net revenue' of $8,634M; this page starts from gross revenue of $11,982M so the $3,348M of client incentives shows as a cost.",
+  "takeaways": [
+    {
+      "stat": "+16%",
+      "statColor": "#3d7bc8",
+      "title": "Cross-border stayed hot",
+      "text": "Payments volume rose 8% in constant dollars and processed transactions 9%, while cross-border volume \u2014 the most lucrative traffic \u2014 jumped 16%, lifting international transaction revenue 8%."
+    },
+    {
+      "stat": "+9%",
+      "statColor": "#3e8e5a",
+      "title": "Every revenue line grew",
+      "text": "Net revenue rose 9% to $8,634M: service revenue +11%, data processing +14%, international transaction +8% and other revenue +18%, against client incentives of $3,348M paid back to card issuers."
+    },
+    {
+      "stat": "$2.39",
+      "statColor": "#5b6b7c",
+      "title": "An easy comparison flattered GAAP profit",
+      "text": "Net income rose 17% to $4,890M and EPS 20% to $2.39 \u2014 helped by a litigation provision of just $9M versus $341M a year ago. Excluding special items, non-GAAP EPS was $2.41, up 11%. Visa also returned $4.4B to shareholders in buybacks and dividends."
+    }
+  ],
+  "oneTimers": [
+    "GAAP results include $61M of amortization of acquired intangible assets and acquisition-related costs ($40M of amortization plus $21M of acquisition costs) and $4M of net gains on equity investments. Excluding these items, non-GAAP net income was $4,938M, or $2.41 per share."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000013/q12024earningsrelease.htm"
+    }
+  ]
+}

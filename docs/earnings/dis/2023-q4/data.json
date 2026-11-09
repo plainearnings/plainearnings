@@ -1,0 +1,150 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q4 FY23",
+  "quarterSlug": "2023-q4",
+  "periodEnd": "2023-09-30",
+  "reportedDate": "2023-11-08",
+  "revenueYoY": "+5%",
+  "verdict": "Disney grew revenue 5% to $21.2B and segment profit jumped 86% to $3.0B \u2014 but $1.0B of impairment and restructuring charges cut the profit shareholders actually kept to just $264M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$0.82",
+      "note": "excluding certain items; vs $0.30 a year ago"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$3.0B",
+      "note": "+86% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.14",
+      "note": "diluted, from continuing operations"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 18971,
+      "yoy": "+5%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2270,
+      "yoy": "+5%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "flow": {
+    "revenueM": 21241,
+    "costOfRevenueM": 13728,
+    "grossProfitM": 7513,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 4021,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1409,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 1021,
+        "note": "Writing down goodwill, an equity investment and licensed content, plus severance \u2014 see one-time items."
+      }
+    ],
+    "operatingIncomeM": 1062,
+    "otherIncomeM": -55,
+    "taxM": 313,
+    "netIncomeM": 694
+  },
+  "otherDetail": "Interest expense, net, of $282M on Disney's debt, partly offset by $227M of equity income from companies Disney part-owns.",
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.31
+    },
+    {
+      "label": "Products",
+      "amount": 10.69
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -64.63
+    },
+    {
+      "label": "SG&A",
+      "amount": -18.93
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -6.63
+    },
+    {
+      "label": "Restructuring & impairment charges",
+      "amount": -4.81
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -1.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.27
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Of the $694M of net income, $430M belongs to noncontrolling interests, leaving $264M attributable to Disney (the $0.14 EPS figure). Costs are split between services and products using the fiscal 2023 10-K less the first nine months reported in the Q3 FY23 10-Q, since the earnings release reports one combined cost line; operating income of $1,062M is derived as revenue less those costs and the restructuring charge.",
+  "takeaways": [
+    {
+      "stat": "+86%",
+      "statColor": "#3e8e5a",
+      "title": "Segment profit jumped",
+      "text": "Total segment operating income rose 86% to $2,976M: Experiences profit grew 31% to $1,759M on cruise ships, Vacation Club sales and international parks, Sports rose 14% to $981M, and Entertainment swung from a $608M loss to a $236M profit as streaming losses narrowed."
+    },
+    {
+      "stat": "+7M",
+      "statColor": "#3d7bc8",
+      "title": "Streaming added subscribers",
+      "text": "Disney+ added nearly 7 million core subscribers in the quarter, helped by Elemental, The Little Mermaid and Guardians of the Galaxy Vol. 3 arriving on the service, and Disney still expected streaming to reach profitability in Q4 of fiscal 2024."
+    },
+    {
+      "stat": "$0.14",
+      "statColor": "#5b6b7c",
+      "title": "Charges held GAAP profit to $0.14",
+      "text": "GAAP EPS was just $0.14 because of $1,021M of restructuring and impairment charges and Fox/Hulu purchase-accounting amortization. Excluding certain items, EPS was $0.82. Disney also raised its cost-cutting target to $7.5B a year."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and impairment charges were $1,021M. The charges Disney excludes from its adjusted EPS ($965M net) included impairments of goodwill ($721M), an equity investment ($141M) and licensed content ($137M) plus $22M of severance, partly offset by a $56M gain related to A+E. Adjusted EPS of $0.82 also adds back $429M of amortization of the Fox (TFCF) and Hulu acquisition intangible assets."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448923000213/fy2023_q4xprxex991.htm"
+    },
+    {
+      "label": "Annual report 10-K \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448923000216/dis-20230930.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 nine-month cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448923000171/dis-20230701.htm"
+    }
+  ]
+}
