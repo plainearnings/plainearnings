@@ -1,0 +1,158 @@
+{
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-01-21",
+  "verdict": "Netflix added a record 18.9M subscribers in a single quarter \u2014 powered by Squid Game 2, the NFL Christmas games and the Paul\u2013Tyson fight \u2014 lifting revenue 16% to $10.2B and nearly doubling net income to $1.9B.",
+  "revenueYoY": "+16%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+16%",
+      "note": "vs a year ago; +19% at constant currency"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.27",
+      "note": "vs $2.11 a year ago (both as reported, before the 10-for-1 stock split)"
+    },
+    {
+      "label": "Paid net additions",
+      "value": "18.9M",
+      "note": "a quarterly record \u2014 memberships passed 300M, ending at 301.6M"
+    },
+    {
+      "label": "Operating margin",
+      "value": "22%",
+      "note": "operating income of $2.3B, +52% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "United States & Canada",
+      "amountM": 4517,
+      "yoy": "+15%",
+      "note": "The biggest and richest market \u2014 subscription streaming, plus the fast-growing ads business."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3288,
+      "yoy": "+18%",
+      "note": "The second-largest region \u2014 up 18% as reported."
+    },
+    {
+      "name": "Latin America",
+      "amountM": 1230,
+      "yoy": "+6%",
+      "note": "Cheaper plans are pulling in new households \u2014 up 6% as reported, 18% at constant currency."
+    },
+    {
+      "name": "Asia-Pacific",
+      "amountM": 1212,
+      "yoy": "+26%",
+      "note": "Mobile-first plans in price-sensitive markets \u2014 the fastest-growing region, up 26% on a surge of new members."
+    }
+  ],
+  "flow": {
+    "revenueM": 10247,
+    "costOfRevenueM": 5768,
+    "grossProfitM": 4479,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 776,
+        "note": "The streaming platform, apps, recommendation systems and the new in-house ad-tech stack."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 976,
+        "note": "Advertising Netflix itself and winning subscribers \u2014 the December slate of live events was marketed worldwide."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 454,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 2273,
+    "otherIncomeM": -138,
+    "taxM": 266,
+    "netIncomeM": 1869
+  },
+  "otherDetail": "Interest and other income of $54M, less $193M of interest expense on Netflix's debt \u2014 a net -$138M below operating profit (lines rounded to whole $M).",
+  "footerNote": "Figures are rounded to whole $M; the cost-of-revenues line is shown as $5,768M ($5,767M as reported) and technology & development as $776M ($777M as reported) so the chart ties exactly to the reported $1,869M of net income. Regional revenues are from the shareholder letter's regional breakdown.",
+  "takeaways": [
+    {
+      "stat": "18.9M",
+      "statColor": "#3e8e5a",
+      "title": "The biggest subscriber quarter ever",
+      "text": "Netflix added 18.91M paid memberships in three months \u2014 its largest quarter on record \u2014 taking the total past 300M to 301.6M, powered by Squid Game season 2, two NFL Christmas Day games and the Paul\u2013Tyson boxing event."
+    },
+    {
+      "stat": "+52%",
+      "statColor": "#3d7bc8",
+      "title": "Profit grew three times faster than revenue",
+      "text": "Operating income rose 52% YoY to $2.3B on revenue growth of 16% \u2014 the operating margin reached 22%, and net income nearly doubled to $1.9B."
+    },
+    {
+      "stat": "$7.4B",
+      "statColor": "#3e8e5a",
+      "title": "A cash-rich year",
+      "text": "Free cash flow was $1.4B in the quarter and $7.4B for 2024 as a whole, and Netflix announced a further $15B share-buyback authorization alongside the results."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000033/ex991_q424.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "United States & Canada",
+      "amount": 44.08
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 32.09
+    },
+    {
+      "label": "Latin America",
+      "amount": 12.0
+    },
+    {
+      "label": "Asia-Pacific",
+      "amount": 11.83
+    },
+    {
+      "label": "Cost of revenues",
+      "amount": -56.29
+    },
+    {
+      "label": "Technology & development",
+      "amount": -7.57
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.52
+    },
+    {
+      "label": "G&A",
+      "amount": -4.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.35
+    },
+    {
+      "label": "Tax",
+      "amount": -2.6
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 18.24
+    }
+  ]
+}

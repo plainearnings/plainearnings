@@ -1,0 +1,143 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-11-03",
+  "reportedDate": "2024-12-12",
+  "verdict": "Broadcom closed its first full year with VMware by growing revenue 51% to $14.1B, and a $442M tax benefit lifted net income to $4.3B \u2014 capping a record year in which AI chips and VMware remade the company.",
+  "revenueYoY": "+51%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+51%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.90",
+      "note": "vs $0.83 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$5.5B",
+      "note": "39% of revenue"
+    },
+    {
+      "label": "Semiconductor revenue",
+      "value": "$8.2B",
+      "note": "+12% YoY \u2014 AI revenue hit $12.2B for fiscal 2024"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 8230,
+      "yoy": "+12%",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue grew 220% across fiscal 2024 to $12.2B."
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 5824,
+      "yoy": "+196%",
+      "note": "VMware and other enterprise software \u2014 up 196% YoY with a full quarter of VMware included (the deal had only just closed in the year-ago quarter)."
+    }
+  ],
+  "flow": {
+    "revenueM": 14054,
+    "costOfRevenueM": 5052,
+    "grossProfitM": 9002,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2234,
+        "note": "Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1010,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 1131,
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring and other charges."
+      }
+    ],
+    "operatingIncomeM": 4627,
+    "otherIncomeM": -745,
+    "taxM": -442,
+    "netIncomeM": 4324
+  },
+  "otherDetail": "Interest expense of $916M on Broadcom's debt, plus $52M of other income and $119M of profit from discontinued operations \u2014 a net -$745M below operating profit.",
+  "footerNote": "The tax line was a benefit, not a bill: a $442M income-tax benefit is drawn as a green source into net profit. Net income of $4,324M includes $119M from discontinued operations; continuing operations earned $4,205M.",
+  "takeaways": [
+    {
+      "stat": "+196%",
+      "statColor": "#3d7bc8",
+      "title": "VMware transformed the mix",
+      "text": "Infrastructure software revenue nearly tripled to $5.8B with a full quarter of VMware included \u2014 Broadcom is now as much a software company as a chip company, with software at 41% of revenue."
+    },
+    {
+      "stat": "$12.2B",
+      "statColor": "#3e8e5a",
+      "title": "AI carried the chip business",
+      "text": "Semiconductor revenue was a record $30.1B for fiscal 2024, driven by $12.2B of AI revenue \u2014 up 220% \u2014 from custom AI accelerators (XPUs) and Ethernet networking gear."
+    },
+    {
+      "stat": "$442M",
+      "statColor": "#3e8e5a",
+      "title": "A tax benefit padded profit",
+      "text": "GAAP net income of $4,324M was helped by a $442M income-tax benefit. On Broadcom's non-GAAP view, which strips out $2,415M of acquisition amortization and $1,314M of stock pay, net income was $6,965M."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $2,415M of amortization of acquisition-related intangible assets ($1,602M inside cost of revenue and $813M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $6,965M instead of $4,324M.",
+    "A $442M income-tax benefit \u2014 a benefit, not a bill \u2014 is drawn as a green 'Tax benefit' source in the chart.",
+    "Discontinued operations added $119M below the line \u2014 profit from businesses being exited; profit from continuing operations was $4,205M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000125/avgo-11032024x8kxex99.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 58.56
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 41.44
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -35.94
+    },
+    {
+      "label": "R&D",
+      "amount": -15.9
+    },
+    {
+      "label": "SG&A",
+      "amount": -7.19
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -8.05
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.3
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 3.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 30.77
+    }
+  ]
+}

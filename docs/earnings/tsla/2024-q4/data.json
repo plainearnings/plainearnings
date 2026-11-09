@@ -1,0 +1,156 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-01-29",
+  "verdict": "Tesla closed 2024 with record deliveries and record revenue of $25.7B, but price cuts squeezed car profits \u2014 operating income fell 23% to $1.6B, and only booming energy and services revenue kept total revenue growing.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+2%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.66",
+      "note": "vs $2.27 a year ago \u2014 that quarter carried a one-time tax benefit"
+    },
+    {
+      "label": "Deliveries",
+      "value": "495,570",
+      "note": "a record quarter, up 2% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$2,031M",
+      "note": "operating cash flow of $4.8B, capex of $2.8B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 19798,
+      "yoy": "-8%",
+      "note": "Selling and leasing cars, plus $692M of regulatory credits \u2014 revenue fell 8% as average prices came down, even though deliveries hit a record 495,570."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 3061,
+      "yoy": "+113%",
+      "note": "Megapack batteries and solar \u2014 storage deployments hit a record 11.0 GWh, up 244% YoY, and revenue more than doubled."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 2848,
+      "yoy": "+31%",
+      "note": "Supercharging, repairs, insurance and used-car sales \u2014 up 31%."
+    }
+  ],
+  "flow": {
+    "revenueM": 25707,
+    "costOfRevenueM": 21528,
+    "grossProfitM": 4179,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1276,
+        "note": "AI, the Optimus robot, Cybercab and new vehicles."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1313,
+        "note": "Selling cars and running the company day to day."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 7,
+        "note": "One-off costs of reshaping the business \u2014 just $7M this quarter, after much bigger charges earlier in 2024."
+      }
+    ],
+    "operatingIncomeM": 1583,
+    "otherIncomeM": 1183,
+    "taxM": 434,
+    "netIncomeM": 2332
+  },
+  "otherDetail": "Interest income of $442M, plus $837M of other income \u2014 largely fair-value gains on Tesla's bitcoin holdings and currency gains \u2014 less $96M of interest expense: a net +$1,183M below operating profit.",
+  "footerNote": "Net income here is Tesla's total net income of $2,332M; $2,317M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries).",
+  "takeaways": [
+    {
+      "stat": "495,570",
+      "statColor": "#3d7bc8",
+      "title": "A record quarter for deliveries",
+      "text": "Tesla delivered a record 495,570 vehicles and deployed a record 11.0 GWh of energy storage \u2014 but it cut prices to get there, so automotive revenue still fell 8% YoY."
+    },
+    {
+      "stat": "+113%",
+      "statColor": "#3e8e5a",
+      "title": "Energy is the growth story",
+      "text": "Energy generation and storage revenue more than doubled to $3.1B and services grew 31% \u2014 together they added about $1.8B of revenue versus a year ago and kept total revenue growing."
+    },
+    {
+      "stat": "$837M",
+      "statColor": "#b98a1c",
+      "title": "A bitcoin gain flattered the bottom line",
+      "text": "Other income swung from a $270M expense in Q3 to +$837M, helped by fair-value gains on Tesla's bitcoin holdings. And GAAP EPS of $0.66 only looks weak next to Q4 2023's $2.27 because that quarter included a one-time $5.8B tax benefit."
+    }
+  ],
+  "oneTimers": [
+    "Bitcoin remeasurement: Tesla's other income includes fair-value gains on its bitcoin holdings after new crypto accounting rules took effect on January 1, 2024 \u2014 the 10-K records a $589M unrealized gain on digital assets for 2024 as a whole.",
+    "The year-ago comparison is distorted: Q4 2023 net income was boosted by a one-time $5,752M tax benefit (release of a valuation allowance), which is why GAAP net income shows a 71% YoY drop even though operations were steadier."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025002993/exhibit991.htm"
+    },
+    {
+      "label": "Annual report (Form 10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 77.01
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 11.91
+    },
+    {
+      "label": "Services and other",
+      "amount": 11.08
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.74
+    },
+    {
+      "label": "R&D",
+      "amount": -4.96
+    },
+    {
+      "label": "SG&A",
+      "amount": -5.11
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.03
+    },
+    {
+      "label": "Other income",
+      "amount": 4.6
+    },
+    {
+      "label": "Tax",
+      "amount": -1.69
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.07
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-28",
+  "reportedDate": "2025-02-04",
+  "verdict": "AMD's revenue rose 24% to a record $7.7B as Data Center sales jumped 69% on AI chips, but a $186M restructuring charge and an unusually heavy tax bill held GAAP profit to $482M.",
+  "revenueYoY": "+24%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+24%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.29",
+      "note": "vs $0.41 a year ago; non-GAAP EPS was $1.09"
+    },
+    {
+      "label": "Gross margin",
+      "value": "51%",
+      "note": "vs 47% a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$3.9B",
+      "note": "+69% YoY \u2014 a record quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 3859,
+      "yoy": "+69%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 a record $3.9B, up 69% on the strong ramp of Instinct GPU shipments and growth in EPYC sales."
+    },
+    {
+      "name": "Client",
+      "amountM": 2313,
+      "yoy": "+58%",
+      "note": "Ryzen processors for PCs \u2014 a record $2.3B, up 58% on strong demand for Ryzen processors."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 563,
+      "yoy": "-59%",
+      "note": "Graphics cards and console chips \u2014 down 59% YoY as semi-custom console chip sales fell."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 923,
+      "yoy": "-13%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 down 13% as customers kept working through their inventories."
+    }
+  ],
+  "flow": {
+    "revenueM": 7658,
+    "costOfRevenueM": 3776,
+    "grossProfitM": 3882,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1712,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 792,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 332,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 175,
+        "note": "Restructuring charges of $186M, partly offset by an $11M licensing gain."
+      }
+    ],
+    "operatingIncomeM": 871,
+    "otherIncomeM": 30,
+    "taxM": 419,
+    "netIncomeM": 482
+  },
+  "otherDetail": "Other income of $37M, plus $12M of equity income and less $19M of interest expense \u2014 a net +$30M.",
+  "footerNote": "Cost of sales of $3,776M includes $252M of amortization of acquisition-related intangibles, following AMD's own presentation of its income statement.",
+  "takeaways": [
+    {
+      "stat": "+69%",
+      "statColor": "#3e8e5a",
+      "title": "Data Center set the pace",
+      "text": "Data Center revenue hit a record $3.9B, up 69%, as Instinct AI GPU shipments ramped and EPYC server CPUs kept growing \u2014 the segment is now half of everything AMD sells."
+    },
+    {
+      "stat": "+58%",
+      "statColor": "#3d7bc8",
+      "title": "PC chips had a record quarter too",
+      "text": "Client revenue was a record $2.3B, up 58% on Ryzen demand \u2014 together, Data Center and Client growth more than covered a 59% drop in Gaming and a 13% dip in Embedded."
+    },
+    {
+      "stat": "$419M",
+      "statColor": "#cf5f4e",
+      "title": "Taxes ate the profit growth",
+      "text": "Operating income more than doubled to $871M, yet net income fell to $482M from $667M a year ago: a $419M tax provision \u2014 a 47% effective rate \u2014 plus the $186M restructuring charge absorbed the gains. Non-GAAP EPS was $1.09."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges of $186M \u2014 one-off costs of reshaping the business, shown in the 'Restructuring & other' line net of an $11M licensing gain.",
+    "GAAP results carry $584M of amortization of acquisition-related intangibles ($252M in cost of sales and $332M in operating expenses) \u2014 bookkeeping from past deals, not cash. On AMD's non-GAAP view, EPS was $1.09 instead of $0.29."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000009/q42024991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 50.39
+    },
+    {
+      "label": "Client",
+      "amount": 30.21
+    },
+    {
+      "label": "Gaming",
+      "amount": 7.35
+    },
+    {
+      "label": "Embedded",
+      "amount": 12.05
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -49.3
+    },
+    {
+      "label": "R&D",
+      "amount": -22.36
+    },
+    {
+      "label": "Marketing, general & administrative",
+      "amount": -10.34
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.34
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -2.29
+    },
+    {
+      "label": "Other income",
+      "amount": 0.39
+    },
+    {
+      "label": "Tax",
+      "amount": -5.47
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 6.29
+    }
+  ]
+}

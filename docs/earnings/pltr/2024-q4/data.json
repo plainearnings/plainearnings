@@ -1,0 +1,150 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-03",
+  "verdict": "Palantir's revenue jumped 36% to $828M as U.S. sales soared 52%, but a one-time $116M stock charge tied to its founders' appreciation rights held GAAP profit to $79M for shareholders.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.03",
+      "note": "vs $0.04 a year ago \u2014 held back by the one-time SAR charge"
+    },
+    {
+      "label": "U.S. commercial revenue",
+      "value": "$214M",
+      "note": "+64% YoY"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$517M",
+      "note": "63% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Government",
+      "amountM": 455,
+      "yoy": "+40%",
+      "note": "Software for governments, above all the U.S. military and intelligence agencies \u2014 U.S. government revenue grew 45% YoY to $343M."
+    },
+    {
+      "name": "Commercial",
+      "amountM": 373,
+      "yoy": "+31%",
+      "note": "Software for companies \u2014 U.S. commercial revenue jumped 64% to $214M as the AIP 'bootcamp' push kept winning customers, and Palantir closed a record $803M of U.S. commercial contract value."
+    }
+  ],
+  "flow": {
+    "revenueM": 828,
+    "costOfRevenueM": 175,
+    "grossProfitM": 653,
+    "opex": [
+      {
+        "name": "Sales & marketing",
+        "amountM": 288,
+        "note": "Sales teams and the 'bootcamp' try-before-you-buy push that has been winning commercial customers \u2014 this line absorbed much of the one-time SAR stock charge."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 172,
+        "note": "Building the platforms \u2014 Gotham, Foundry and the AIP AI layer."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 182,
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "operatingIncomeM": 11,
+    "otherIncomeM": 70,
+    "taxM": 4,
+    "netIncomeM": 77
+  },
+  "otherDetail": "Interest income of $55M on Palantir's cash pile, plus $15M of other income \u2014 a net +$70M below operating profit.",
+  "footerNote": "Net income here is Palantir's total net income of $77M; $79M of it is attributable to common stockholders (noncontrolling interests absorbed a $2M loss). Segment figures are Palantir's FY2024 10-K segment revenue less the nine-month figures in its Q3 2024 10-Q, rounded to the nearest $M; Commercial is shown as $373M so the segments tie to the $828M total.",
+  "takeaways": [
+    {
+      "stat": "+64%",
+      "statColor": "#3e8e5a",
+      "title": "U.S. business customers surged",
+      "text": "U.S. commercial revenue grew 64% YoY to $214M, and Palantir closed a record $803M of U.S. commercial contract value \u2014 up 134% \u2014 as its AIP bootcamps kept converting into deals. It then guided 2025 revenue to grow 31%."
+    },
+    {
+      "stat": "$116M",
+      "statColor": "#cf5f4e",
+      "title": "A one-time stock charge masked profit",
+      "text": "GAAP operating income was just $11M because the quarter absorbed $116M of accelerated stock pay tied to the founders' market-vesting appreciation rights (SARs), plus related payroll taxes. Excluding the SAR items, operating income was $142M and net income $165M."
+    },
+    {
+      "stat": "63%",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation stayed elite",
+      "text": "Adjusted free cash flow was $517M \u2014 63 cents of every revenue dollar \u2014 and Palantir ended 2024 with $5.2B of cash and Treasury securities."
+    }
+  ],
+  "oneTimers": [
+    "One-time SAR-related expenses: $115.8M of accelerated stock-based compensation plus $15.5M of employer payroll taxes, triggered by the vesting of market-vesting stock appreciation rights (SARs). Palantir's own figures excluding them: net income of $165M and EPS of $0.07.",
+    "Total stock-based compensation was $282M in the quarter (including the SAR acceleration) \u2014 a real cost to shareholders through dilution, even though it is not cash."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000007/a2024q4ex991earningsrelease.htm"
+    },
+    {
+      "label": "FY2024 10-K \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm"
+    },
+    {
+      "label": "Q3 2024 10-Q \u2014 segment revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000209/pltr-20240930.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Government",
+      "amount": 54.95
+    },
+    {
+      "label": "Commercial",
+      "amount": 45.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -21.14
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -34.78
+    },
+    {
+      "label": "R&D",
+      "amount": -20.77
+    },
+    {
+      "label": "G&A",
+      "amount": -21.98
+    },
+    {
+      "label": "Other income",
+      "amount": 8.45
+    },
+    {
+      "label": "Tax",
+      "amount": -0.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.3
+    }
+  ]
+}
