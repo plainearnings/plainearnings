@@ -1,0 +1,147 @@
+{
+  "ticker": "SNOW",
+  "company": "Snowflake",
+  "quarterLabel": "Q1 FY27",
+  "quarterSlug": "2027-q1",
+  "periodEnd": "2026-04-30",
+  "reportedDate": "2026-05-27",
+  "revenueYoY": "+33%",
+  "verdict": "Snowflake's revenue grew 33% to $1.39B as product revenue posted its strongest sequential dollar growth ever \u2014 but $402M of stock-based pay helped leave a GAAP operating loss of $326M and a net loss of $296M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+33%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.86",
+      "note": "vs -$1.29 a year ago"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$1.33B",
+      "note": "+34% YoY, 96% of revenue"
+    },
+    {
+      "label": "Remaining performance obligations",
+      "value": "$9.21B",
+      "note": "contracted future revenue, +38% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 1334.329,
+      "yoy": "+34%",
+      "note": "Customers paying to store and analyze data on Snowflake's platform, billed mostly by how much they use. Up 34% YoY."
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 56.622,
+      "yoy": "+25%",
+      "note": "Consulting and training that help customers get started. Up 25% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 1390.951,
+    "costOfRevenueM": 464.5,
+    "grossProfitM": 926.451,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 588.952,
+        "note": "Sales teams and marketing. Up 28% YoY."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 534.937,
+        "note": "Building the platform and its AI products. Up 13% YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 128.716,
+        "note": "The back office \u2014 finance, legal and admin. Down 39% YoY from $210M."
+      }
+    ],
+    "operatingIncomeM": -326.154,
+    "otherIncomeM": 29.494,
+    "taxM": -1.089,
+    "netIncomeM": -295.571
+  },
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 95.93
+    },
+    {
+      "label": "Professional services and other",
+      "amount": 4.07
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.39
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -42.34
+    },
+    {
+      "label": "R&D",
+      "amount": -38.46
+    },
+    {
+      "label": "G&A",
+      "amount": -9.25
+    },
+    {
+      "label": "Other income",
+      "amount": 2.12
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 121.24
+    }
+  ],
+  "follow100Note": "Snowflake spent $123.42 of every $100 it took in on direct and running costs \u2014 more than it earned \u2014 and other income covered only $2.12 of the gap, leaving a $21.25 loss per $100. The rows may not add exactly due to rounding.",
+  "otherDetail": "Other income of $29M, net: $41M of interest income, less $2M of interest expense and $10M of other expense, net.",
+  "footerNote": "Snowflake reports in thousands (revenue was $1,390,951K); figures here are shown in $M to three decimals so the lines foot exactly. Excluding stock-based pay and other non-GAAP items, operating income was $166M (a 12% margin) and adjusted free cash flow was $266M, a 19.1% margin. Chart note: Snowflake's running costs exceeded its gross profit by $326M; other income and a small tax benefit covered part of that, so the chart draws the remaining $296M net loss as a 'Covered by cash on hand' source.",
+  "takeaways": [
+    {
+      "stat": "+34%",
+      "statColor": "#3d7bc8",
+      "title": "Product growth hit an inflection point",
+      "text": "Product revenue rose 34% to $1,334M \u2014 the strongest sequential dollar growth in Snowflake's history \u2014 and management raised full-year product revenue guidance to $5,840M, up 31%."
+    },
+    {
+      "stat": "$402M",
+      "statColor": "#5b6b7c",
+      "title": "Stock pay is the loss, on paper",
+      "text": "Stock-based compensation was $402M in the quarter \u2014 larger than the entire $296M net loss. It is a real cost to shareholders through dilution, but it is not cash out the door: adjusted free cash flow was $266M."
+    },
+    {
+      "stat": "126%",
+      "statColor": "#3e8e5a",
+      "title": "Customers keep expanding",
+      "text": "Net revenue retention was 126% \u2014 existing customers spent 26% more than a year ago \u2014 and 779 customers now spend over $1M a year on the platform, up 29%. Remaining performance obligations rose 38% to $9.21B."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation of $402M (cash-flow statement figure) sits inside every cost line and is the main reason GAAP results show a loss while non-GAAP results show a profit.",
+    "General and administrative costs fell 39% YoY to $129M \u2014 the year-ago quarter's $210M was unusually heavy, which flatters the comparison."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000027/fy2027q1earnings.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000027/snow-20260527.htm"
+    }
+  ]
+}

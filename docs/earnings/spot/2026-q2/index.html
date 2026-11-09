@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spotify — Q2 2026 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Spotify Q2 2026 earnings in plain English: Spotify grew revenue 14% to €4.8B (about $5.5B) as Premium subscribers reached 300 million, and a 33.4% gross margin turned that into €655M of operating income and €545M of net income.">
+<meta property="og:title" content="Spotify — Q2 2026 Earnings, Explained Simply">
+<meta property="og:description" content="Spotify grew revenue 14% to €4.8B (about $5.5B) as Premium subscribers reached 300 million, and a 33.4% gross margin turned that into €655M of operating income and €545M of net income.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/spot/2026-q2/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/spot/2026-q2/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Spotify quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Spotify <span class="thin">(SPOT)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+16%</span>
+        <span class="q-meta">Reported 2026-10-22 · Revenue $5,628.9M</span>
+      </a>
+      <a class="q-item active" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+14%</span>
+        <span class="q-meta">Reported 2026-08-04 · Revenue $5,455.7M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Spotify — Q2 2026 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q2 2026</strong> · Quarter ended 2026-06-30<br>
+      Reported 2026-08-04
+    </div>
+  </header>
+
+  <p class="verdict">Spotify grew revenue 14% to €4.8B (about $5.5B) as Premium subscribers reached 300 million, and a 33.4% gross margin turned that into €655M of operating income and €545M of net income.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+14%</b></span><span class="chip">EPS (IFRS, diluted)<b>€2.61</b></span><span class="chip">Premium subscribers<b>300M</b></span><span class="chip">Free cash flow<b>€797M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Spotify's Q2 2026 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Spotify took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Premium</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$90.66</span></div>
+          <div class="hrow"><span class="hlabel">Ad-Supported</span><div class="htrack"><div class="hfill" data-w="10.3" style="background:#3D7BC8"></div></div><span class="hval">$9.34</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="73.5" style="background:#D96A57"></div></div><span class="hval">−$66.59</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="9.3" style="background:#CF5F4E"></div></div><span class="hval">−$8.44</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="9.0" style="background:#CF5F4E"></div></div><span class="hval">−$8.16</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="3.4" style="background:#CF5F4E"></div></div><span class="hval">−$3.10</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="1.5" style="background:#3D7BC8"></div></div><span class="hval">$1.36</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="4.0" style="background:#B8443C"></div></div><span class="hval">−$3.66</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="97.7" style="background:#3E8E5A"></div></div><span class="hval">$88.59</span></div>
+      <p class="hnote">Premium subscriptions are about $91 of every $100 Spotify takes in; the free tier is the funnel, not the engine. Rows add up with a small rounding difference.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">300M</div>
+            <h3>Subscribers carry the business</h3>
+            <p>Premium subscribers grew 9% to 300 million — 7 million net adds, ahead of guidance — and Premium revenue rose 15%. Total monthly users reached 777 million, up 12%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">33.4%</div>
+            <h3>Margins keep expanding</h3>
+            <p>Gross margin reached 33.4%, up from 31.5% a year ago, and operating income rose 61% to €655M — ahead of guidance, helped by lower social charges (payroll taxes tied to the share price).</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">€797M</div>
+            <h3>Cash generation is now routine</h3>
+            <p>Free cash flow was €797M in the quarter and €3.3B over the last twelve months. For Q3 Spotify guided to €5.0B of revenue and €670M of operating income.</p>
+          </article>
+    </div>
+  </section>
+  
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="current">Q2 2026</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1639920/000162828026052543/spot-20260630x6xk.htm">Official Q2 2026 interim report (SEC EDGAR 6-K)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1639920/000114036126031044/ef20078867_ex99-1.htm">Q2 2026 shareholder deck (SEC EDGAR 6-K Exhibit 99.1)</a></p>
+      <p>Educational only — not financial advice. Spotify reports in euros under IFRS. Dollar figures are converted at €1 = $1.1421 (USD:Euro 0.8756 at Jun 30, 2026, the rate in Spotify&#x27;s own release), with small rounding adjustments so the converted lines foot exactly. As reported: revenue €4,777M · gross profit €1,596M · operating income €655M · net income €545M.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":5.456,"nodes":{"seg0":{"name":"Premium","amt":"$4.9B","value":4.946,"col":0,"color":"#3D7BC8","note":"+15% \u00b7 90.7% of revenue","plain":"Subscriptions \u2014 the paid tier. Revenue per subscriber rose as price increases flowed through.","quarter":"90.7% of all revenue this quarter."},"seg1":{"name":"Ad-Supported","amt":"$509M","value":0.509,"col":0,"color":"#7A68C4","note":"+1% \u00b7 9.3% of revenue","plain":"The free tier, funded by advertising. A funnel that converts listeners into subscribers.","quarter":"9.3% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$5.5B","value":5.456,"col":1,"color":"#2F3B4C","note":"+14%","plain":"All the money Spotify took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$5.5B, +14% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.8B","value":1.823,"col":2,"color":"#69B578","note":"33.4% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"33.4 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($3.6B)","value":3.633,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$3.6B \u2014 about 66.6 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$74M","value":0.074,"col":3,"color":"#69B578","note":"","plain":"Finance items netted a gain \u2014 interest earned on Spotify's large cash pile (\u20ac86M as reported), minus finance costs (\u20ac21M as reported).","quarter":"$74M added to profit."},"op":{"name":"Operating profit","amt":"$748M","value":0.748,"col":3,"color":"#4C9A67","note":"13.7% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 13.7% margin."},"opex":{"name":"Operating expenses","amt":"($1.1B)","value":1.075,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.1B total, split into Research & development, Sales & marketing, General & administrative on the right."},"ox0":{"name":"Research & development","amt":"($460M)","value":0.46,"col":4,"color":"#CF5F4E","note":"8.4% of revenue","plain":"Building the app, recommendation systems and new formats like video podcasts and audiobooks.","quarter":"$460M \u2014 8.4% of revenue."},"ox1":{"name":"Sales & marketing","amt":"($445M)","value":0.445,"col":4,"color":"#CF5F4E","note":"8.2% of revenue","plain":"Winning listeners and advertisers.","quarter":"$445M \u2014 8.2% of revenue."},"ox2":{"name":"General & administrative","amt":"($169M)","value":0.169,"col":4,"color":"#CF5F4E","note":"3.1% of revenue","plain":"Running the company day to day.","quarter":"$169M \u2014 3.1% of revenue."},"net":{"name":"Net profit","amt":"$622M","value":0.622,"col":4,"color":"#3E8E5A","note":"11.4% margin","plain":"The bottom line \u2014 what Spotify actually earned after everything.","quarter":"$622M \u2014 about 11.4 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($200M)","value":0.2,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$200M \u2014 roughly a 24.3% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":4.946,"c":"#94b6e1","amt":"$4.9B"},{"s":"seg1","d":"rev","v":0.509,"c":"#b6acdf","amt":"$509M"},{"s":"rev","d":"gross","v":1.823,"c":"#BFE0C6","amt":"$1.8B"},{"s":"rev","d":"cost","v":3.633,"c":"#F4C7B9","amt":"$3.6B"},{"s":"gross","d":"op","v":0.748,"c":"#ACD8B8","amt":"$748M"},{"s":"gross","d":"opex","v":1.075,"c":"#F2B3A4","amt":"$1.1B"},{"s":"op","d":"net","v":0.548,"c":"#ACD8B8","amt":"$548M"},{"s":"otherin","d":"net","v":0.074,"c":"#ACD8B8","amt":"$74M"},{"s":"op","d":"tax","v":0.2,"c":"#dfaba7","amt":"$200M"},{"s":"opex","d":"ox0","v":0.46,"c":"#F6C0B1","amt":"$460M"},{"s":"opex","d":"ox1","v":0.445,"c":"#F6C0B1","amt":"$445M"},{"s":"opex","d":"ox2","v":0.169,"c":"#F6C0B1","amt":"$169M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

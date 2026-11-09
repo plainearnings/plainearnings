@@ -1,0 +1,133 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-11-10",
+  "revenueYoY": "+134%",
+  "verdict": "CoreWeave's revenue more than doubled to $1.36B and the core business scraped an operating profit of $52M \u2014 but $311M of net interest expense turned that into a $110M net loss, softened by a $127M tax benefit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+134%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.22",
+      "note": "diluted net loss per share, vs -$1.82 a year ago"
+    },
+    {
+      "label": "Revenue backlog",
+      "value": "$55B+",
+      "note": "nearly doubled in the quarter, at Sep 30, 2025"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$838M",
+      "note": "non-GAAP, a 61% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "AI cloud infrastructure",
+      "amountM": 1364.676,
+      "yoy": "+134%",
+      "note": "Renting out AI computing power \u2014 clusters of GPUs in data centers \u2014 to AI labs, hyperscalers and large enterprises; up 134% YoY as capacity expanded."
+    }
+  ],
+  "flow": {
+    "revenueM": 1364.676,
+    "costOfRevenueM": 368.824,
+    "grossProfitM": 995.852,
+    "opex": [
+      {
+        "name": "Technology and infrastructure",
+        "amountM": 747.479,
+        "note": "Running and expanding the platform: data-center operations and the engineering behind the AI cloud; up from $286M a year ago as capacity grew."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 44.645,
+        "note": "Selling the cloud to AI labs, hyperscalers and large enterprises; up from $5M a year ago as the sales effort scaled."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 151.878,
+        "note": "The back office: finance, legal and company-wide administration; up from $34M a year ago."
+      }
+    ],
+    "operatingIncomeM": 51.85,
+    "otherIncomeM": -288.654,
+    "taxM": -126.68,
+    "netIncomeM": -110.124
+  },
+  "follow100": [
+    {
+      "label": "AI cloud infrastructure",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -27.03
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -54.77
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -3.27
+    },
+    {
+      "label": "G&A",
+      "amount": -11.13
+    },
+    {
+      "label": "Other expense",
+      "amount": -21.15
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 9.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 108.07
+    }
+  ],
+  "follow100Note": "Interest and other non-operating costs took $21.15 of every $100 \u2014 more than the quarter's entire operating profit. A $127M tax benefit added back $9.28, but the business still lost $8.07 of every $100 it took in.",
+  "otherDetail": "Net non-operating expense of $289M: interest expense, net was $311M \u2014 the cost of borrowing heavily to build data centers \u2014 partly offset by $22M of other income, net. There was no fair-value gain or loss this quarter. The tax line was a $127M benefit, not a bill.",
+  "footerNote": "Gross profit = revenue less cost of revenue. The $110M net loss is drawn as 'Covered by cash on hand'.",
+  "takeaways": [
+    {
+      "stat": "+134%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue more than doubled, again",
+      "text": "Revenue hit $1,365M, up from $584M a year ago, and the revenue backlog \u2014 work customers have committed to \u2014 almost doubled in one quarter to more than $55B."
+    },
+    {
+      "stat": "$52M",
+      "statColor": "#5b6b7c",
+      "title": "An operating profit, swallowed by interest",
+      "text": "The core business earned $52M of operating income, but interest expense, net of $311M on the debt used to build data centers pushed the quarter to a $237M pre-tax loss. A $127M tax benefit cut the final net loss to $110M."
+    },
+    {
+      "stat": "$838M",
+      "statColor": "#3e8e5a",
+      "title": "Cash earnings look very different",
+      "text": "Adjusted EBITDA \u2014 a non-GAAP cash-earnings view that strips out interest, taxes and non-cash costs \u2014 was $838M, a 61% margin, and adjusted operating income was $217M versus $52M on a GAAP basis."
+    }
+  ],
+  "oneTimers": [
+    "The tax line was a $127M benefit, not a bill \u2014 without it, the net loss would have been $237M instead of $110M.",
+    "Unlike a year ago, there was no fair-value adjustment this quarter; Q3 2024's results carried a $341M fair-value loss, which is a big reason the year-ago net loss was $360M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000059/coreweave3q25earningspress.htm"
+    }
+  ]
+}

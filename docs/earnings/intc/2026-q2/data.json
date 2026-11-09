@@ -1,0 +1,166 @@
+{
+  "ticker": "INTC",
+  "company": "Intel",
+  "quarterLabel": "Q2 2026",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-06-27",
+  "reportedDate": "2026-07-23",
+  "revenueYoY": "+25%",
+  "verdict": "Intel's revenue jumped 25% to $16.1B \u2014 its fastest growth in more than fifteen years \u2014 and the core business made $1.8B of operating profit, but a $12.5B paper charge on the U.S. government escrow shares turned the bottom line into a $10.8B net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+25%",
+      "note": "vs a year ago; strongest growth in over 15 years"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$2.16",
+      "note": "diluted, attributable to Intel; non-GAAP EPS was $0.42"
+    },
+    {
+      "label": "Data Center and AI revenue",
+      "value": "$6.3B",
+      "note": "+59% YoY, 39% of total revenue"
+    },
+    {
+      "label": "Cash from operations",
+      "value": "$7.0B",
+      "note": "generated in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Client Computing and Physical AI Group",
+      "amountM": 8877,
+      "yoy": "+13%",
+      "note": "Chips for PCs and edge devices \u2014 still Intel's biggest business."
+    },
+    {
+      "name": "Data Center and AI",
+      "amountM": 6262,
+      "yoy": "+59%",
+      "note": "Server CPUs and AI accelerators for data centers \u2014 the growth engine this quarter."
+    },
+    {
+      "name": "Intel Foundry",
+      "amountM": 288,
+      "note": "Chip manufacturing for outside customers only \u2014 most of Foundry's $5,765M of segment revenue is internal, making chips for Intel itself."
+    },
+    {
+      "name": "All other",
+      "amountM": 701,
+      "yoy": "-33%",
+      "note": "Mobileye, IMS and smaller businesses; down YoY after the Altera sale in Sep 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 16128,
+    "costOfRevenueM": 9619,
+    "grossProfitM": 6509,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3368,
+        "note": "Developing new CPUs, AI accelerators and process technology; down from $3,684M a year ago."
+      },
+      {
+        "name": "Marketing, general and administrative",
+        "amountM": 1175,
+        "note": "Sales, marketing and back-office costs; up slightly from $1,144M a year ago."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 170,
+        "note": "Severance and related costs, mostly from the 2025 Restructuring Plan; Intel excludes these from its non-GAAP results."
+      }
+    ],
+    "operatingIncomeM": 1796,
+    "otherIncomeM": -12615,
+    "taxM": 29,
+    "netIncomeM": -10848
+  },
+  "follow100": [
+    {
+      "label": "Client Computing and Physical AI Group",
+      "amount": 55.04
+    },
+    {
+      "label": "Data Center and AI",
+      "amount": 38.83
+    },
+    {
+      "label": "Intel Foundry (outside sales)",
+      "amount": 1.79
+    },
+    {
+      "label": "All other",
+      "amount": 4.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -59.64
+    },
+    {
+      "label": "R&D",
+      "amount": -20.88
+    },
+    {
+      "label": "MG&A",
+      "amount": -7.29
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.05
+    },
+    {
+      "label": "Other expense",
+      "amount": -78.22
+    },
+    {
+      "label": "Tax",
+      "amount": -0.18
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 167.25
+    }
+  ],
+  "follow100Note": "Other expense took $78.21 of every $100 \u2014 almost all of it the non-cash escrow-shares charge \u2014 which is how a profitable operating quarter ends as a $67.26 loss per $100. The rows may not add exactly due to rounding.",
+  "otherDetail": "Other expense of $12,615M combines a $39M loss on equity investments, net, with $12,576M of interest and other, net \u2014 and that line is dominated by a $12,529M mark-to-market loss on the U.S. government Escrowed Shares: as Intel's share price rose, the value of the shares Intel must hand over rose too, and accounting books that as a loss. It is a paper charge, not cash.",
+  "footerNote": "Foundry is shown at its $288M of outside sales only (its $5,765M segment revenue is mostly internal; intersegment eliminations were -$5,477M). Net income attributable to Intel was a loss of $11,033M, after $185M of income attributable to non-controlling interests; the chart uses the total net loss of $10,848M.",
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "title": "The core business is growing again",
+      "text": "Revenue rose 25% to $16,128M \u2014 Intel's strongest growth in over fifteen years \u2014 with Data Center and AI up 59% to $6,262M and client computing up 13%. Gross margin jumped to 40.4% from 27.5% a year ago, and operating income was $1,796M versus a $3,176M loss a year ago."
+    },
+    {
+      "stat": "$12.5B",
+      "statColor": "#5b6b7c",
+      "title": "A paper charge created the headline loss",
+      "text": "The $12,529M mark-to-market loss on the U.S. government Escrowed Shares is non-cash: Intel's rising share price increased the value of shares it owes the government under the CHIPS Act agreement. Excluding it and other items, non-GAAP net income attributable to Intel was a profit of about $2.2B (EPS $0.42)."
+    },
+    {
+      "stat": "$7.0B",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed strong",
+      "text": "Intel generated $7.0B of cash from operations in the quarter despite the paper loss. For Q3 it guided revenue of $15.8B to $16.8B, while flagging heavier investment in equipment, clean-room space and substrates to support growth."
+    }
+  ],
+  "oneTimers": [
+    "Mark-to-market loss on Escrowed Shares: $12,529M, inside 'interest and other, net' \u2014 a non-cash charge that rises when Intel's share price rises; Intel excludes it from non-GAAP results.",
+    "Restructuring and other charges were $170M in the quarter, mostly severance under the 2025 Restructuring Plan (versus $1,890M a year ago)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Jun 27, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm"
+    }
+  ]
+}
