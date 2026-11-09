@@ -1,0 +1,150 @@
+{
+  "ticker": "SBUX",
+  "company": "Starbucks",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-04-30",
+  "revenueYoY": "-2%",
+  "verdict": "Starbucks revenue fell 2% to $8.6B as global comparable sales dropped 4% on fewer customer visits \u2014 and higher store labor costs and promotions cut net earnings 15% to $772M.",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "value": "-4%",
+      "note": "transactions -6%, average ticket +2%"
+    },
+    {
+      "label": "Revenue",
+      "value": "-2%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.68",
+      "note": "-14% YoY"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$772M",
+      "note": "-15% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 6380,
+      "yoy": "0%",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales fell 3%, with 7% fewer transactions partly offset by a 4% higher average ticket; new stores kept revenue flat."
+    },
+    {
+      "name": "International",
+      "amountM": 1757,
+      "yoy": "-5%",
+      "note": "Coffeehouses outside North America \u2014 comparable sales fell 6%, with China down 11% on a lower average ticket and fewer transactions."
+    },
+    {
+      "name": "Channel Development",
+      "amountM": 418,
+      "yoy": "-13%",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 8,
+      "yoy": "",
+      "note": "Small leftover businesses and unallocated items."
+    }
+  ],
+  "flow": {
+    "revenueM": 8563,
+    "costOfRevenueM": 6505,
+    "grossProfitM": 2058,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 655,
+        "note": "Running the company \u2014 support centers and head office."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 372,
+        "note": "Wear and tear on coffeehouses, roasteries and equipment."
+      }
+    ],
+    "operatingIncomeM": 1031,
+    "otherIncomeM": -39,
+    "taxM": 220,
+    "netIncomeM": 772
+  },
+  "otherDetail": "Income from equity investees of $68M and $34M of interest and other income, less $141M of interest expense.",
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 74.51
+    },
+    {
+      "label": "International",
+      "amount": 20.52
+    },
+    {
+      "label": "Channel Development",
+      "amount": 4.88
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.09
+    },
+    {
+      "label": "Cost of running stores",
+      "amount": -75.97
+    },
+    {
+      "label": "G&A",
+      "amount": -7.65
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.34
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.46
+    },
+    {
+      "label": "Tax",
+      "amount": -2.57
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.02
+    }
+  ],
+  "follow100Note": "Net earnings of $772M are essentially all attributable to Starbucks (noncontrolling interests took $0.1M). Rows may not add exactly due to rounding.",
+  "footerNote": "Reported operating income of $1,099M includes $68M of income from equity investees, shown here in Other income. Starbucks reports in tenths of a million; this page rounds to whole millions (reported net earnings were $772.5M, of which $772.4M attributable to Starbucks).",
+  "takeaways": [
+    {
+      "stat": "-4%",
+      "statColor": "#3d7bc8",
+      "title": "Customers came less often",
+      "text": "Global comparable store sales fell 4% as transactions dropped 6% \u2014 a 2% higher average ticket only partly offset the lost visits. North America comparable sales fell 3% and China's fell 11%."
+    },
+    {
+      "stat": "12.8%",
+      "statColor": "#3e8e5a",
+      "title": "Margins squeezed by labor and deals",
+      "text": "GAAP operating margin contracted 240 basis points to 12.8%: Starbucks spent more on store partner wages and benefits and ran more promotions while selling less. Store operating expenses rose 2% to $3,724M even as revenue fell."
+    },
+    {
+      "stat": "$0.68",
+      "statColor": "#5b6b7c",
+      "title": "Profit fell, stores kept opening",
+      "text": "EPS fell 14% to $0.68 and net earnings 15% to $772M. Starbucks still opened 364 net new stores in the quarter, ending with 38,951 \u2014 52% company-operated and 48% licensed."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000023/sbux-3312024xexhibit991.htm"
+    }
+  ]
+}

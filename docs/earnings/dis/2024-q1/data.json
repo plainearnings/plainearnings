@@ -1,0 +1,138 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2023-12-30",
+  "reportedDate": "2024-02-07",
+  "revenueYoY": "0%",
+  "verdict": "Disney earned $1.9B for shareholders as segment profit rose 27% to $3.9B \u2014 Experiences profit hit $3.1B and streaming losses narrowed sharply \u2014 even though total revenue was flat at $23.5B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "flat vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.22",
+      "note": "+23% YoY, excludes certain items"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$3.9B",
+      "note": "+27% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.04",
+      "note": "vs $0.70 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 20975,
+      "yoy": "0%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2574,
+      "yoy": "+2%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "segmentNote": "Segment operating income: Entertainment $874M, Sports -$103M (a loss), Experiences $3,105M (before corporate costs).",
+  "flow": {
+    "revenueM": 23549,
+    "costOfRevenueM": 15587,
+    "grossProfitM": 7962,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 3783,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1243,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      }
+    ],
+    "operatingIncomeM": 2936,
+    "otherIncomeM": -65,
+    "taxM": 720,
+    "netIncomeM": 2151
+  },
+  "otherDetail": "Interest expense, net, of $246M on Disney's debt, partly offset by $181M of equity income from companies Disney part-owns.",
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.07
+    },
+    {
+      "label": "Products",
+      "amount": 10.93
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -66.19
+    },
+    {
+      "label": "SG&A",
+      "amount": -16.06
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.28
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -0.28
+    },
+    {
+      "label": "Tax",
+      "amount": -3.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.13
+    }
+  ],
+  "follow100Note": "Of the $9.14 kept as profit per $100 of revenue, $1.02 belongs to noncontrolling partners \u2014 Disney shareholders' share was $8.11. Rows may not add exactly due to rounding.",
+  "footerNote": "Of the $2,151M of net income, $240M belongs to noncontrolling interests, leaving $1,911M attributable to Disney (the $1.04 EPS figure). The earnings release reports one combined cost line; the split between cost of services/products, SG&A and depreciation comes from the Q1 FY24 10-Q.",
+  "takeaways": [
+    {
+      "stat": "+27%",
+      "statColor": "#3d7bc8",
+      "title": "Segment profit jumped",
+      "text": "Total segment operating income rose 27% to $3,876M: Experiences grew 8% to $3,105M, Entertainment more than doubled to $874M, and Sports narrowed its loss to $103M on the timing of College Football Playoff games."
+    },
+    {
+      "stat": "-$138M",
+      "statColor": "#3e8e5a",
+      "title": "Streaming losses shrank fast",
+      "text": "Entertainment direct-to-consumer (Disney+ and Hulu) lost $138M, versus a $984M loss a year ago, as price rises and ad revenue grew. Hulu added 1.2 million subscribers; Disney+ Core lost 1.3 million after a price increase."
+    },
+    {
+      "stat": "$1.04",
+      "statColor": "#5b6b7c",
+      "title": "Profit rose even on flat revenue",
+      "text": "Revenue was flat at $23,549M, but cost cuts \u2014 over $500M of savings realized in the quarter \u2014 lifted EPS 49% to $1.04 and free cash flow swung to $886M from -$2,155M a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Disney's 'excluding certain items' EPS of $1.22 adds back $451M of amortization of the Fox (TFCF) and Hulu acquisition intangible assets ($0.18 per share) \u2014 a non-cash purchase-accounting charge Disney excludes every quarter. There were no restructuring or impairment charges this quarter."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000079/fy2024_q1xprxex991.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000081/dis-20231230.htm"
+    }
+  ]
+}

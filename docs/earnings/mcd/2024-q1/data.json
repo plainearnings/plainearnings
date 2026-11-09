@@ -1,0 +1,134 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-04-30",
+  "revenueYoY": "+5%",
+  "verdict": "McDonald's grew revenue 5% to $6.2B and operating income 8% to $2.7B as global comparable sales rose 1.9% \u2014 a 13th straight positive quarter \u2014 though licensed markets stayed under pressure from the war in the Middle East.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+5%",
+      "note": "vs a year ago; +4% in constant currencies"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.66",
+      "note": "+9% YoY; $2.70 excluding charges"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+1.9%",
+      "note": "U.S. +2.5%; International Operated +2.7%; Developmental Licensed -0.2%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$2.7B",
+      "note": "+8% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 3723,
+      "yoy": "+4%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2355,
+      "yoy": "+6%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 91,
+      "yoy": "+6%",
+      "note": "Fees and other income beyond rent, royalties and restaurant sales."
+    }
+  ],
+  "segmentNote": "Comparable sales rose in two of three segments: U.S. +2.5% on higher average checks from menu price increases, International Operated Markets +2.7% led by the U.K. and Germany, and International Developmental Licensed Markets -0.2% on the continued impact of the war in the Middle East. Systemwide sales to loyalty members were over $6B in the quarter.",
+  "flow": {
+    "revenueM": 6169,
+    "costOfRevenueM": 2730,
+    "grossProfitM": 3439,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 703,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $721M of SG&A (including $99M of depreciation and amortization), less $17M of other operating income, net."
+      }
+    ],
+    "operatingIncomeM": 2736,
+    "otherIncomeM": -327,
+    "taxM": 480,
+    "netIncomeM": 1929
+  },
+  "otherDetail": "Interest expense of $372M on McDonald's debt, partly offset by $45M of net nonoperating income.",
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 60.35
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 38.17
+    },
+    {
+      "label": "Other revenues",
+      "amount": 1.48
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -44.25
+    },
+    {
+      "label": "SG&A",
+      "amount": -11.4
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.3
+    },
+    {
+      "label": "Tax",
+      "amount": -7.78
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.27
+    }
+  ],
+  "footerNote": "The release's rounded lines sum to $3,434M of operating costs against the $3,433M printed, and its printed $479M tax provision implies net income $1M above the reported $1,929M; the two $1M rounding differences are carried in the SG&A and tax lines so this page ties exactly to reported operating income of $2,736M and net income of $1,929M.",
+  "takeaways": [
+    {
+      "stat": "+1.9%",
+      "statColor": "#3d7bc8",
+      "title": "Comparable sales stayed positive",
+      "text": "Global comparable sales rose 1.9% \u2014 a 13th consecutive positive quarter: the U.S. grew 2.5% on higher average checks, International Operated Markets 2.7% led by the U.K. and Germany, and Developmental Licensed Markets slipped 0.2% on the war in the Middle East."
+    },
+    {
+      "stat": "$6.2B",
+      "statColor": "#3e8e5a",
+      "title": "Revenue grew 5%",
+      "text": "Total revenue rose 5% to $6,169M (+4% in constant currencies): franchised rent and royalties rose 4% to $3,723M and company-run restaurant sales rose 6% to $2,355M."
+    },
+    {
+      "stat": "$2.66",
+      "statColor": "#5b6b7c",
+      "title": "Charges trimmed EPS slightly",
+      "text": "Operating income rose 8% to $2,736M despite $35M of pre-tax restructuring charges for 'Accelerating the Organization.' Excluding charges, EPS was $2.70 versus the reported $2.66."
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $35M ($0.04 per share), primarily restructuring charges for 'Accelerating the Organization,' the company's internal modernization program. Excluding them, EPS was $2.70."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000089/exhibit991-33124xq1.htm"
+    }
+  ]
+}

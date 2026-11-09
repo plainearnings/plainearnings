@@ -1,0 +1,173 @@
+{
+  "ticker": "UBER",
+  "company": "Uber",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-05-08",
+  "revenueYoY": "+15%",
+  "verdict": "Uber grew revenue 15% to $10.1B on 2.6 billion trips and made a small operating profit \u2014 but a $721M paper loss on its equity investments swung the bottom line to a $663M net loss.",
+  "kpis": [
+    {
+      "label": "Gross Bookings",
+      "value": "$37.7B",
+      "note": "+20% YoY; trips grew 21% to 2.6 billion"
+    },
+    {
+      "label": "Revenue growth",
+      "value": "+15%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.32",
+      "note": "vs -$0.08 a year ago \u2014 hit by the investment loss below"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.4B",
+      "note": "+82% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mobility",
+      "amountM": 5633,
+      "yoy": "+30%",
+      "note": "Rides \u2014 the original Uber business. Gross Bookings rose 25% to $18.7B; revenue growth was boosted by business-model changes in some countries."
+    },
+    {
+      "name": "Delivery",
+      "amountM": 3214,
+      "yoy": "+4%",
+      "note": "Food and grocery delivery \u2014 Uber Eats and couriers. Gross Bookings rose 18% to $17.7B."
+    },
+    {
+      "name": "Freight",
+      "amountM": 1284,
+      "yoy": "-8%",
+      "note": "Trucking logistics \u2014 matching shippers with carriers. Revenue fell 8% as a soft freight market cut revenue per load."
+    }
+  ],
+  "flow": {
+    "revenueM": 10131,
+    "costOfRevenueM": 6168,
+    "grossProfitM": 3963,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 685,
+        "note": "Running the platform day to day \u2014 support, operations and local teams."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 917,
+        "note": "Promotions, advertising and winning riders, eaters and drivers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 790,
+        "note": "Building the platform and its autonomous-vehicle partnerships."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1209,
+        "note": "Running the company \u2014 legal, finance and the back office. This quarter it included $527M of legal, tax and regulatory reserve charges (see one-time items)."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 190,
+        "compact": true,
+        "note": "Spreading the cost of equipment and past acquisitions over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 172,
+    "otherIncomeM": -802,
+    "taxM": 29,
+    "equityM": -4,
+    "netIncomeM": -663
+  },
+  "otherDetail": "Other expense, net of $678M \u2014 including a $721M pre-tax loss from revaluing Uber's equity investments \u2014 plus $124M of interest expense and a $4M loss from equity method investments.",
+  "follow100": [
+    {
+      "label": "Mobility",
+      "amount": 55.6
+    },
+    {
+      "label": "Delivery",
+      "amount": 31.72
+    },
+    {
+      "label": "Freight",
+      "amount": 12.67
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.88
+    },
+    {
+      "label": "Operations & support",
+      "amount": -6.76
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.05
+    },
+    {
+      "label": "R&D",
+      "amount": -7.8
+    },
+    {
+      "label": "G&A",
+      "amount": -11.93
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.88
+    },
+    {
+      "label": "Other expense",
+      "amount": -7.96
+    },
+    {
+      "label": "Tax",
+      "amount": -0.29
+    },
+    {
+      "label": "Net loss",
+      "amount": -6.54
+    }
+  ],
+  "follow100Note": "Of the $6.54 lost per $100 of revenue, $6.45 was the loss attributable to Uber shareholders and $0.09 belonged to non-controlling partners. Rows may not add exactly due to rounding.",
+  "footerNote": "Net loss of $663M is the total including non-controlling interests; $654M is attributable to Uber shareholders (the -$0.32 EPS figure) because non-controlling partners absorbed a $9M loss. This was a net-loss quarter: the loss was covered by cash on Uber's balance sheet.",
+  "takeaways": [
+    {
+      "stat": "$172M",
+      "statColor": "#3e8e5a",
+      "title": "The core business turned an operating profit",
+      "text": "Income from operations was $172M, up from a $262M loss a year ago, and Adjusted EBITDA jumped 82% to a record $1,382M as revenue growth outpaced costs."
+    },
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "Bookings kept growing",
+      "text": "Gross Bookings rose 20% to $37.7B on 2.6 billion trips (+21%). Mobility revenue jumped 30% to $5,633M and Delivery rose 4% to $3,214M; Freight fell 8% to $1,284M in a soft trucking market."
+    },
+    {
+      "stat": "$721M",
+      "statColor": "#5b6b7c",
+      "title": "A paper loss flipped the bottom line to red",
+      "text": "Net loss was $663M only because Uber marked down the value of its equity investments by $721M (pre-tax) \u2014 a paper loss, not cash out the door. Free cash flow was $1,359M, up 148%."
+    }
+  ],
+  "oneTimers": [
+    "Net loss includes a $721M pre-tax loss from net unrealized losses on the revaluation of Uber's equity investments \u2014 a paper loss that could reverse if those stocks rise.",
+    "General & administrative expense included $527M of legal, tax and regulatory reserve changes and settlements; excluding these and other items, non-GAAP G&A was $582M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000017/uberq124earningspressrelea.htm"
+    }
+  ]
+}
