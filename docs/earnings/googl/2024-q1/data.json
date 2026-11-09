@@ -1,0 +1,165 @@
+{
+  "company": "Alphabet",
+  "flow": {
+    "costOfRevenueM": 33712,
+    "grossProfitM": 46827,
+    "netIncomeM": 23662,
+    "operatingIncomeM": 25472,
+    "opex": [
+      {
+        "amountM": 11903,
+        "name": "Research & development",
+        "note": "Engineers and researchers building the products and AI models."
+      },
+      {
+        "amountM": 6426,
+        "name": "Sales & marketing",
+        "note": "Selling ads and devices, and promoting the products."
+      },
+      {
+        "amountM": 3026,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, finance and facilities."
+      }
+    ],
+    "otherIncomeM": 2843,
+    "revenueM": 80539,
+    "taxM": 4653
+  },
+  "follow100": [
+    {
+      "amount": 87.41,
+      "label": "Google Services"
+    },
+    {
+      "amount": 11.89,
+      "label": "Google Cloud"
+    },
+    {
+      "amount": 0.61,
+      "label": "Other Bets"
+    },
+    {
+      "amount": 0.09,
+      "label": "Hedging gains"
+    },
+    {
+      "amount": -41.86,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -14.78,
+      "label": "R&D"
+    },
+    {
+      "amount": -7.98,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -3.76,
+      "label": "G&A"
+    },
+    {
+      "amount": 3.53,
+      "label": "Other income"
+    },
+    {
+      "amount": -5.78,
+      "label": "Tax"
+    },
+    {
+      "amount": 29.38,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "A $2.2B paper gain on investments is inside the $3.53 of other income per $100. The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+15%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.17 a year ago",
+      "value": "$1.89"
+    },
+    {
+      "label": "Google Cloud",
+      "note": "revenue $9.6B; operating profit $900M",
+      "value": "+28%"
+    },
+    {
+      "label": "First dividend",
+      "note": "plus a new $70B buyback authorization",
+      "value": "$0.20"
+    }
+  ],
+  "oneTimers": [
+    "A $2,243M gain on equity securities \u2014 paper gains on stakes Alphabet holds \u2014 is inside the $2,843M of net other income; together with a $104M reversal of previously accrued performance fees, it added $1.9B to net income (about $0.15 a share), per the release's own footnote.",
+    "Employee severance and related charges of $716M were spread across cost of revenues and operating expenses, down from $1,994M a year ago."
+  ],
+  "otherDetail": "A $2,243M gain on equity securities and $1,061M of interest income, partly offset by a $462M loss on debt securities, currency losses and interest expense, net.",
+  "periodEnd": "2024-03-31",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-04-25",
+  "revenueYoY": "+15%",
+  "segments": [
+    {
+      "amountM": 70398,
+      "name": "Google Services",
+      "note": "Search, YouTube, subscriptions and devices \u2014 Search & other revenue rose 14% to $46.2B and YouTube ads 21% to $8.1B.",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 9574,
+      "name": "Google Cloud",
+      "note": "Cloud computing rented to companies \u2014 up 28%, and its operating profit rose to $900M from $191M a year ago.",
+      "yoy": "+28%"
+    },
+    {
+      "amountM": 495,
+      "name": "Other Bets",
+      "note": "Moonshot projects such as Waymo \u2014 small revenue and a $1.0B operating loss this quarter.",
+      "yoy": "+72%"
+    },
+    {
+      "amountM": 72,
+      "name": "Hedging gains",
+      "note": "Gains from currency hedging that sit outside the three businesses."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/goog-20240425.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+28%",
+      "statColor": "#3d7bc8",
+      "text": "Google Cloud revenue jumped 28% to $9.6B, and its operating profit rose to $900M from $191M a year ago \u2014 the cloud is becoming a real second engine.",
+      "title": "Cloud is compounding"
+    },
+    {
+      "stat": "32%",
+      "statColor": "#3e8e5a",
+      "text": "Operating margin expanded to 32% from 25% a year ago as revenue grew 15% and operating expenses actually fell 2% \u2014 severance charges dropped to $716M from $2.0B a year ago.",
+      "title": "Margins widened sharply"
+    },
+    {
+      "stat": "$0.20",
+      "statColor": "#5b6b7c",
+      "text": "The board declared Alphabet's first-ever cash dividend, $0.20 a share, and authorized up to $70B more in buybacks; net income rose 57% to $23.7B.",
+      "title": "Alphabet started paying a dividend"
+    }
+  ],
+  "ticker": "GOOGL",
+  "verdict": "Alphabet grew revenue 15% to $80.5B as Search rose 14% and Google Cloud jumped 28% \u2014 and it kept $23.7B as profit, helped by a $2.2B paper gain on its investment stakes."
+}

@@ -1,0 +1,165 @@
+{
+  "company": "Apple",
+  "flow": {
+    "costOfRevenueM": 64720,
+    "grossProfitM": 54855,
+    "netIncomeM": 33916,
+    "operatingIncomeM": 40373,
+    "opex": [
+      {
+        "amountM": 7696,
+        "name": "Research and development",
+        "note": "Designing future iPhones, Macs, chips and services."
+      },
+      {
+        "amountM": 6786,
+        "name": "SG&A",
+        "note": "Stores, marketing and running the company day to day."
+      }
+    ],
+    "otherIncomeM": -50,
+    "revenueM": 119575,
+    "taxM": 6407
+  },
+  "follow100": [
+    {
+      "amount": 58.3,
+      "label": "iPhone"
+    },
+    {
+      "amount": 6.51,
+      "label": "Mac"
+    },
+    {
+      "amount": 5.87,
+      "label": "iPad"
+    },
+    {
+      "amount": 10.0,
+      "label": "Wearables, Home and Accessories"
+    },
+    {
+      "amount": 19.33,
+      "label": "Services"
+    },
+    {
+      "amount": -54.13,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -6.44,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.68,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.04,
+      "label": "Other income"
+    },
+    {
+      "amount": -5.36,
+      "label": "Tax"
+    },
+    {
+      "amount": 28.36,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Services alone is $19.33 of every $100 Apple takes in. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+2%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "all-time record, up 16% YoY; vs $1.88 a year ago",
+      "value": "$2.18"
+    },
+    {
+      "label": "Services revenue",
+      "note": "an all-time record, up 11%",
+      "value": "$23.1B"
+    },
+    {
+      "label": "Operating cash flow",
+      "note": "returned almost $27B to shareholders",
+      "value": "$39.9B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other expense of $50M, net.",
+  "periodEnd": "2023-12-30",
+  "quarterLabel": "Q1 FY24",
+  "quarterSlug": "2024-q1",
+  "reportedDate": "2024-02-01",
+  "revenueYoY": "+2%",
+  "segments": [
+    {
+      "amountM": 69702,
+      "name": "iPhone",
+      "note": "Apple's flagship phone \u2014 sales rose 6% on the iPhone 15 lineup.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 7780,
+      "name": "Mac",
+      "note": "Mac computers \u2014 up 1%.",
+      "yoy": "+1%"
+    },
+    {
+      "amountM": 7023,
+      "name": "iPad",
+      "note": "Tablets \u2014 down 25% with no new models in the quarter.",
+      "yoy": "-25%"
+    },
+    {
+      "amountM": 11953,
+      "name": "Wearables, Home and Accessories",
+      "note": "Apple Watch, AirPods and home devices \u2014 down 11%.",
+      "yoy": "-11%"
+    },
+    {
+      "amountM": 23117,
+      "name": "Services",
+      "note": "App Store, Apple Music, iCloud, TV+ and advertising \u2014 an all-time record, up 11%.",
+      "yoy": "+11%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000005/a8-kex991q1202412302023.htm"
+    },
+    {
+      "label": "Form 8-K furnishing the release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000005/aapl-20240201.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$23.1B",
+      "statColor": "#3d7bc8",
+      "text": "Services revenue hit an all-time record of $23.1B, up 11% \u2014 now nearly a fifth of all sales \u2014 as Apple's installed base of active devices passed 2.2 billion, also an all-time high.",
+      "title": "Services set another record"
+    },
+    {
+      "stat": "+16%",
+      "statColor": "#3e8e5a",
+      "text": "EPS rose 16% to an all-time high of $2.18, helped by margin expansion: gross margin widened to 45.9% from 43.0% a year ago, even as total sales grew just 2%.",
+      "title": "Record earnings per share"
+    },
+    {
+      "stat": "13 weeks",
+      "statColor": "#5b6b7c",
+      "text": "This December quarter had 13 weeks versus 14 a year ago \u2014 so the 2% sales growth came on one fewer week; iPhone rose 6% to $69.7B while iPad fell 25% with no new models.",
+      "title": "A shorter quarter than last year"
+    }
+  ],
+  "ticker": "AAPL",
+  "verdict": "Apple's sales grew 2% to $119.6B as Services set an all-time record and iPhone rose 6% \u2014 and EPS hit an all-time high of $2.18, with $33.9B kept as profit."
+}
