@@ -1,0 +1,132 @@
+{
+  "ticker": "RKLB",
+  "company": "Rocket Lab",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-26",
+  "verdict": "Rocket Lab closed 2025 with record quarterly revenue of $180M, up 36%, and a record $1.85B backlog \u2014 but Neutron development and overhead still outran gross profit, leaving a $53M loss, widened by an $11M tax charge.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "Revenue was a record $180M, up from $132M in Q4 2024"
+    },
+    {
+      "label": "EPS (GAAP, diluted)",
+      "value": "\u2212$0.09",
+      "note": "Basic and diluted; net loss was $53M, vs $52M a year earlier"
+    },
+    {
+      "label": "Backlog",
+      "value": "$1.85B",
+      "note": "Orders booked but not yet flown or built; up 73% year over year"
+    },
+    {
+      "label": "Cash",
+      "value": "$829M",
+      "note": "Cash and equivalents at December 31, plus $270M in marketable securities"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product revenues",
+      "amountM": 94.046,
+      "yoy": "+12%",
+      "note": "Spacecraft, satellite components and systems sold \u2014 reaction wheels, propulsion, solar power and the Photon spacecraft platform."
+    },
+    {
+      "name": "Service revenues",
+      "amountM": 85.606,
+      "yoy": "+77%",
+      "note": "Launch services (Electron and HASTE missions) and mission services \u2014 flying and operating things in space for customers. Seven launches flew in Q4, a quarterly record."
+    }
+  ],
+  "flow": {
+    "revenueM": 179.652,
+    "costOfRevenueM": 111.42,
+    "grossProfitM": 68.232,
+    "opex": [
+      {
+        "name": "Research and development, net",
+        "amountM": 78.779,
+        "note": "Developing the Neutron rocket, Electron and spacecraft \u2014 up 63% from $48M a year earlier."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 40.495,
+        "note": "Running and selling the company \u2014 roughly flat versus $40M a year earlier."
+      }
+    ],
+    "operatingIncomeM": -51.042,
+    "otherIncomeM": 9.398,
+    "taxM": 11.278,
+    "netIncomeM": -52.922
+  },
+  "follow100": [
+    {
+      "label": "Product revenues",
+      "amount": 52.35
+    },
+    {
+      "label": "Service revenues",
+      "amount": 47.65
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -62.02
+    },
+    {
+      "label": "R&D",
+      "amount": -43.85
+    },
+    {
+      "label": "SG&A",
+      "amount": -22.54
+    },
+    {
+      "label": "Other income",
+      "amount": 5.23
+    },
+    {
+      "label": "Tax",
+      "amount": -6.28
+    },
+    {
+      "label": "Net loss",
+      "amount": -29.46
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.85B",
+      "statColor": "#3d7bc8",
+      "title": "The order book jumped 73%",
+      "text": "Backlog hit a record $1.85B, helped by Rocket Lab's largest single contract to date \u2014 $816M from the Space Development Agency to build 18 satellites. Full-year revenue was a record $602M, up 38%."
+    },
+    {
+      "stat": "38.0%",
+      "statColor": "#3e8e5a",
+      "title": "Margins keep improving",
+      "text": "GAAP gross margin reached 38.0%, up from 27.8% a year ago, as higher-margin space systems work grows \u2014 services revenue alone rose 77%."
+    },
+    {
+      "stat": "$53M",
+      "statColor": "#b8443c",
+      "title": "Losses are not shrinking yet",
+      "text": "The net loss was $53M, about the same as a year ago despite 36% revenue growth: R&D rose to $79M as the Neutron program ramps, and an $11M tax charge widened the loss."
+    }
+  ],
+  "oneTimers": [
+    "Unlike most loss-making quarters, Rocket Lab still recorded income tax: an $11.3M expense widened the net loss from $41.6M before tax to $52.9M."
+  ],
+  "otherDetail": "Other income was $9.4M net: $9.6M of interest income on the large cash pile and $5.1M of other income, partly offset by $5.0M of interest expense and a $0.2M currency loss.",
+  "footerNote": "Net loss is the filed $52.9M; the loss per share was \u2212$0.09.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Form 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000012/rklb-02262026ex991.htm"
+    }
+  ]
+}

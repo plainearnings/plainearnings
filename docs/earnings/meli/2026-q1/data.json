@@ -1,0 +1,150 @@
+{
+  "ticker": "MELI",
+  "company": "MercadoLibre",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "verdict": "MercadoLibre grew revenue 49% to $8.8B as Mercado Pago processed $87B of payments and the credit book jumped 87% to $14.6B \u2014 but the cost of that credit growth, a $1.24B bad-debt provision, held operating profit to $611M and net income fell 16% to $417M.",
+  "revenueYoY": "+49%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+49%",
+      "note": "Net revenues & financial income of $8.8B vs $5.9B in Q1 2025, in dollars; up 46% ignoring currency moves"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$8.23",
+      "note": "Diluted earnings per share, vs $9.74 a year ago; net income was $417M"
+    },
+    {
+      "label": "Gross merchandise volume",
+      "value": "$19.0B",
+      "note": "The total value of goods sold on the marketplace (GMV), up 42% in dollars"
+    },
+    {
+      "label": "Total payment volume",
+      "value": "$87.2B",
+      "note": "The total value of payments processed by Mercado Pago (TPV), up 50% in dollars"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Commerce",
+      "amountM": 4868,
+      "note": "Marketplace fees, shipping, first-party product sales, advertising and MELI+ subscriptions. Brazil alone brought in $4.8B of total company revenue."
+    },
+    {
+      "name": "Fintech",
+      "amountM": 3977,
+      "note": "Mercado Pago payment fees, financing fees and interest earned on consumer and merchant credit, plus point-of-sale devices. The credit portfolio reached $14.6B, up 87% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 8845,
+    "costOfRevenueM": 4983,
+    "grossProfitM": 3862,
+    "opex": [
+      {
+        "name": "Product and technology development",
+        "amountM": 699,
+        "note": "Building and running the marketplace, payments platform and AI tools."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 982,
+        "note": "Advertising and customer acquisition across Latin America."
+      },
+      {
+        "name": "Provision for doubtful accounts",
+        "amountM": 1244,
+        "note": "Money set aside for loans and credit-card balances that may not be repaid, as the credit book grows \u2014 it more than doubled YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 326,
+        "note": "Staff and running the company."
+      }
+    ],
+    "operatingIncomeM": 611,
+    "otherIncomeM": -32,
+    "taxM": 162,
+    "netIncomeM": 417
+  },
+  "follow100": [
+    {
+      "label": "Commerce",
+      "amount": 55.04
+    },
+    {
+      "label": "Fintech",
+      "amount": 44.96
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -56.34
+    },
+    {
+      "label": "Product & tech",
+      "amount": -7.9
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.1
+    },
+    {
+      "label": "Bad-debt provision",
+      "amount": -14.06
+    },
+    {
+      "label": "General & admin",
+      "amount": -3.69
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.36
+    },
+    {
+      "label": "Tax",
+      "amount": -1.83
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.71
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+49%",
+      "statColor": "#3d7bc8",
+      "title": "Growth re-accelerated",
+      "text": "Revenue grew 49% in dollars \u2014 84 million unique buyers bought 722 million items, and Mercado Pago's monthly active users reached 83 million."
+    },
+    {
+      "stat": "6.9%",
+      "statColor": "#b8443c",
+      "title": "Margin is a choice, for now",
+      "text": "Operating margin fell to 6.9% from 12.9% a year ago. Two-thirds of the squeeze is the bad-debt provision growing with the credit book; the rest is deliberate spending on shipping and logistics."
+    },
+    {
+      "stat": "$14.6B",
+      "statColor": "#3d7bc8",
+      "title": "The credit book is ballooning",
+      "text": "The loan and credit-card portfolio grew 87% YoY to $14.6B, its largest-ever quarterly increase; credit cards alone more than doubled to $6.6B. The bad-debt provision \u2014 $1.24B this quarter \u2014 grows with it."
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Below operating income, $27M of interest income and other financial gains and a $6M currency gain were outweighed by $65M of interest expense and other financial losses, for a net other expense of $32M.",
+  "footerNote": "MercadoLibre reports 'net revenues and financial income' \u2014 marketplace sales plus Mercado Pago's financial income; its cost line includes financial expenses.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000014/meli-20260507xex991.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/meli-20260331.htm"
+    }
+  ]
+}

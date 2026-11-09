@@ -1,0 +1,150 @@
+{
+  "ticker": "RBLX",
+  "company": "Roblox",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-30",
+  "verdict": "Roblox grew revenue 39% to $1.44B and bookings 43% to $1.73B as daily users hit 132 million, but heavy spending \u2014 including a $57M legal settlement charge \u2014 kept it at a $248M loss.",
+  "revenueYoY": "+39%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+39%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "\u2212$0.35",
+      "note": "net loss per share"
+    },
+    {
+      "label": "Bookings",
+      "value": "$1.73B",
+      "note": "+43% YoY \u2014 the cash players actually spent"
+    },
+    {
+      "label": "Daily active users",
+      "value": "132M",
+      "note": "+35% YoY; hours engaged 31B, up 43%"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Platform revenue",
+      "amountM": 1442,
+      "yoy": "+39%",
+      "note": "Sales of Robux (the platform's virtual currency) and subscriptions, recognized gradually over the ~27 months players are expected to keep spending. The cash collected upfront ('bookings') was $1,731M."
+    }
+  ],
+  "flow": {
+    "revenueM": 1442,
+    "costOfRevenueM": 294,
+    "grossProfitM": 1148,
+    "opex": [
+      {
+        "name": "Developer exchange fees",
+        "amountM": 423,
+        "note": "The cut paid out to creators when players spend Robux in their games \u2014 Roblox raised creator pay rates in September 2025."
+      },
+      {
+        "name": "Infrastructure and trust & safety",
+        "amountM": 324,
+        "note": "Servers and computing (including AI) plus the safety operation that polices the platform \u2014 Q1 included the rollout of age-checking for users."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 422,
+        "note": "Building the platform, tools and AI features."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 209,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 64,
+        "note": "Winning new players and creators."
+      }
+    ],
+    "operatingIncomeM": -294,
+    "otherIncomeM": 47,
+    "taxM": 1,
+    "netIncomeM": -248
+  },
+  "follow100": [
+    {
+      "label": "Platform revenue",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -20.39
+    },
+    {
+      "label": "Developer exchange fees",
+      "amount": -29.33
+    },
+    {
+      "label": "Infrastructure and trust & safety",
+      "amount": -22.47
+    },
+    {
+      "label": "R&D",
+      "amount": -29.26
+    },
+    {
+      "label": "G&A",
+      "amount": -14.49
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -4.44
+    },
+    {
+      "label": "Other income",
+      "amount": 3.26
+    },
+    {
+      "label": "Tax",
+      "amount": -0.07
+    },
+    {
+      "label": "Net loss",
+      "amount": -17.2
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference. Costs ran to about $120 per $100 of revenue \u2014 the extra is the loss, covered by cash the company already had.",
+  "takeaways": [
+    {
+      "stat": "132M",
+      "statColor": "#3d7bc8",
+      "title": "The audience kept growing",
+      "text": "Daily active users rose 35% to 132 million and hours engaged jumped 43% to 31 billion \u2014 even as a Russia platform ban and the age-check rollout tempered growth."
+    },
+    {
+      "stat": "$1.73B",
+      "statColor": "#3d7bc8",
+      "title": "Bookings jumped 43%",
+      "text": "Bookings \u2014 Robux cash sales \u2014 reached $1,731M, and free cash flow was $596M despite the accounting loss: players pay upfront, and $275M of costs were stock pay, not cash."
+    },
+    {
+      "stat": "$57M",
+      "statColor": "#b8443c",
+      "title": "A legal charge sits in the loss",
+      "text": "GAAP results include $57M of legal settlement expenses from negotiations with U.S. states over youth consumer-protection and digital-safety matters. Excluding them and other non-cash items, Adjusted EBITDA was $99M."
+    }
+  ],
+  "oneTimers": [
+    "GAAP expenses include $57M of legal settlement expenses related to settlement negotiations with certain states regarding youth-related consumer protection and digital safety matters \u2014 Roblox excludes them from its Adjusted EBITDA of $99M.",
+    "Revenue is not the cash in: bookings were $1,731M but revenue was $1,442M. Roblox defers most bookings and recognizes them over the 27-month average paying-user lifetime, so reported revenue lags the cash by design."
+  ],
+  "otherDetail": "Interest and other items netted +$47M: $55M of interest earned on Roblox's investment pile, minus $10M of interest expense, plus $2M of other income.",
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028882/ex991-q12026earningsshar.htm"
+    }
+  ]
+}

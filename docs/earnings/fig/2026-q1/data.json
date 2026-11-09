@@ -1,0 +1,132 @@
+{
+  "ticker": "FIG",
+  "company": "Figma",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-14",
+  "verdict": "Figma grew revenue 46% to $333M \u2014 growth accelerating for a second straight quarter as AI products pulled in bigger customers \u2014 but $169M of post-IPO stock pay drove a $142M GAAP loss; excluding stock pay, operations earned $52M.",
+  "revenueYoY": "+46%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+46%",
+      "note": "vs a year ago \u2014 accelerating from +40% in Q4 2025"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "\u2212$0.27",
+      "note": "net loss per share"
+    },
+    {
+      "label": "Non-GAAP operating income",
+      "value": "$52M",
+      "note": "16% margin"
+    },
+    {
+      "label": "Paid customers >$10k ARR",
+      "value": "15,218",
+      "note": "+37% in a year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscriptions & AI credits",
+      "amountM": 333.439,
+      "yoy": "+46%",
+      "note": "Design-tool subscriptions (per-seat plans for Figma, Dev Mode, Make and Sites) plus usage credits for AI features. Figma reports one revenue stream. AI credit limits for all seats began March 18, 2026."
+    }
+  ],
+  "flow": {
+    "revenueM": 333.439,
+    "costOfRevenueM": 68.666,
+    "grossProfitM": 264.773,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 172.974,
+        "note": "Building the design platform and its AI features \u2014 includes $79.0M of stock pay."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 125.568,
+        "note": "Selling seats to design and product teams."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 103.629,
+        "note": "Running the company day to day \u2014 includes $63.9M of stock pay."
+      }
+    ],
+    "operatingIncomeM": -137.398,
+    "otherIncomeM": -4.325,
+    "taxM": 0.678,
+    "netIncomeM": -142.401
+  },
+  "follow100": [
+    {
+      "label": "Subscriptions & AI credits",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -20.59
+    },
+    {
+      "label": "R&D",
+      "amount": -51.88
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -37.66
+    },
+    {
+      "label": "G&A",
+      "amount": -31.08
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.3
+    },
+    {
+      "label": "Tax",
+      "amount": -0.2
+    },
+    {
+      "label": "Net loss",
+      "amount": -42.71
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference. Costs ran to about $143 per $100 of revenue \u2014 the extra is the loss, covered by cash the company already had.",
+  "takeaways": [
+    {
+      "stat": "+46%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated again",
+      "text": "Revenue growth quickened from 38% in Q3 2025 to 40% in Q4 and 46% in Q1, and Figma raised its full-year revenue outlook to $1.422\u20131.428B."
+    },
+    {
+      "stat": "139%",
+      "statColor": "#3d7bc8",
+      "title": "Customers keep expanding",
+      "text": "Net dollar retention hit 139% \u2014 its highest in over two years \u2014 as existing customers spent 39% more than a year ago; customers paying over $100k a year grew 48%."
+    },
+    {
+      "stat": "$169M",
+      "statColor": "#b8443c",
+      "title": "Stock pay is the loss",
+      "text": "Stock-based compensation was $169M in the quarter. Without it and related items, Figma earned $52M of operating income and $57M of net income (non-GAAP), and free cash flow was $89M."
+    }
+  ],
+  "oneTimers": [
+    "Figma listed on the NYSE in July 2025. Newly public companies often show large GAAP losses as employee stock awards vest: stock-based compensation was $169M this quarter, versus just $0.2M in Q1 2025 before the IPO."
+  ],
+  "otherDetail": "Other expense of $4.3M, net \u2014 a $15.6M unrealized loss on equity investments and a $3.3M writedown of digital assets, partly offset by interest earned on Figma's cash and investments.",
+  "footerNote": "GAAP figures include $169M of stock-based compensation.",
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 8-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026035087/q126pressrelease.htm"
+    }
+  ]
+}

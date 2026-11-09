@@ -1,0 +1,168 @@
+{
+  "ticker": "CRCL",
+  "company": "Circle",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-11",
+  "verdict": "Circle grew revenue 20% to $694M as USDC in circulation rose 28% to $77.0B, and it stayed profitable with $55M of net income \u2014 though a lower return on reserves capped reserve income growth at 17%.",
+  "revenueYoY": "+20%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+20%",
+      "note": "Total revenue and reserve income was $694M, up from $579M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.21",
+      "note": "net income was $55M"
+    },
+    {
+      "label": "USDC in circulation",
+      "value": "$77.0B",
+      "note": "End of period, up 28% YoY; onchain transaction volume was $21.5 trillion, up 263%"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$151M",
+      "note": "Up 24% YoY (non-GAAP \u2014 see one-time items)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Reserve income",
+      "amountM": 652.508,
+      "yoy": "+17%",
+      "note": "Interest earned on the cash and U.S. Treasuries backing USDC (a dollar-tracking crypto token). USDC in circulation grew 28%, but the return rate on reserves fell 66 basis points, so income grew only 17%."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 41.625,
+      "yoy": "+101%",
+      "note": "Transaction, subscription and services revenue \u2014 doubled on growth in subscription and services."
+    }
+  ],
+  "flow": {
+    "revenueM": 694.133,
+    "costOfRevenueM": 406.781,
+    "grossProfitM": 287.352,
+    "opex": [
+      {
+        "name": "Compensation expenses",
+        "amountM": 138.127,
+        "note": "Pay and benefits for staff, including $51.8M of stock-based compensation."
+      },
+      {
+        "name": "General and administrative expenses",
+        "amountM": 57.261,
+        "note": "Running the company \u2014 offices, legal, finance and admin."
+      },
+      {
+        "name": "Depreciation and amortization expenses",
+        "amountM": 26.767,
+        "note": "Spreading the cost of software, equipment and acquired assets over their useful lives."
+      },
+      {
+        "name": "IT infrastructure costs",
+        "amountM": 12.722,
+        "note": "The computing and systems that run the platform."
+      },
+      {
+        "name": "Marketing expenses",
+        "amountM": 6.617,
+        "note": "Promoting USDC and Circle's platform."
+      },
+      {
+        "name": "Digital assets losses (gains)",
+        "amountM": 0.856,
+        "note": "A $0.9M loss \u2014 digital assets held in day-to-day operations fell slightly in value."
+      }
+    ],
+    "operatingIncomeM": 45.002,
+    "otherIncomeM": 11.683,
+    "taxM": 1.439,
+    "netIncomeM": 55.246
+  },
+  "follow100": [
+    {
+      "label": "Reserve income",
+      "amount": 94.0
+    },
+    {
+      "label": "Other revenue",
+      "amount": 6.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -58.6
+    },
+    {
+      "label": "Compensation",
+      "amount": -19.9
+    },
+    {
+      "label": "G&A",
+      "amount": -8.25
+    },
+    {
+      "label": "Depreciation & amort.",
+      "amount": -3.86
+    },
+    {
+      "label": "IT infrastructure",
+      "amount": -1.83
+    },
+    {
+      "label": "Marketing",
+      "amount": -0.95
+    },
+    {
+      "label": "Digital asset losses",
+      "amount": -0.12
+    },
+    {
+      "label": "Other income",
+      "amount": 1.68
+    },
+    {
+      "label": "Tax",
+      "amount": -0.21
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 7.96
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$77.0B",
+      "statColor": "#3d7bc8",
+      "title": "USDC kept growing",
+      "text": "USDC in circulation ended the quarter at $77.0B, up 28% YoY, and onchain transaction volume hit $21.5 trillion, up 263% \u2014 USDC handled 63% of all stablecoin transaction volume."
+    },
+    {
+      "stat": "+17%",
+      "statColor": "#b8443c",
+      "title": "Falling rates bite",
+      "text": "Reserve income grew 17% even though USDC balances grew 28%: the return Circle earns on reserves fell 66 basis points. Reserve income is 94% of all revenue, so it rises and falls with interest rates."
+    },
+    {
+      "stat": "$55M",
+      "statColor": "#3e8e5a",
+      "title": "Profitable again",
+      "text": "Net income was $55M and Adjusted EBITDA $151M (up 24%). Stock pay was $52M \u2014 back to normal levels after the IPO-era spike that distorted 2025 comparisons."
+    }
+  ],
+  "oneTimers": [
+    "Operating expenses include a $7.7M charitable donation of shares to the Circle Foundation, $7.0M of one-off legal expenses and $1.9M of acquisition-related costs \u2014 items Circle excludes from its non-GAAP Adjusted EBITDA of $151M."
+  ],
+  "otherDetail": "Other income of $11.7M, net \u2014 mainly $13.7M of interest earned on corporate cash and a $5.1M currency gain, partly offset by fair-value losses on convertible debt and derivatives and by losses and impairments on digital assets and strategic investments.",
+  "footerNote": "Circle's cost of revenue is mostly the cut of reserve income paid to USDC distribution partners like Coinbase.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000148/final_05x11q1epr30.htm"
+    }
+  ]
+}

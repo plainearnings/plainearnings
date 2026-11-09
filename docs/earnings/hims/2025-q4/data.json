@@ -1,0 +1,152 @@
+{
+  "ticker": "HIMS",
+  "company": "Hims & Hers",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-23",
+  "verdict": "Hims & Hers grew revenue 28% to $618M and stayed profitable \u2014 $21M of net income with 2.5 million subscribers \u2014 closing a year in which revenue jumped 59% to $2.35B.",
+  "revenueYoY": "+28%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+28%",
+      "note": "Revenue was $618M, vs $481M a year ago"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "value": "$0.08",
+      "note": "net income was $21M"
+    },
+    {
+      "label": "Subscribers",
+      "value": "2.5M",
+      "note": "Up 13% YoY \u2014 people on a recurring subscription plan at year end"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$66M",
+      "note": "11% margin (non-GAAP)"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Online revenue",
+      "amountM": 609.113,
+      "yoy": "+29%",
+      "note": "Sales through the website and apps \u2014 telehealth subscriptions for weight loss, hair, skin, sexual health and other treatments, plus the products that go with them."
+    },
+    {
+      "name": "Wholesale revenue",
+      "amountM": 8.705,
+      "yoy": "\u221216%",
+      "note": "Sales of products through retail stores and platform partners \u2014 a small, shrinking side channel."
+    }
+  ],
+  "flow": {
+    "revenueM": 617.818,
+    "costOfRevenueM": 173.383,
+    "grossProfitM": 444.435,
+    "opex": [
+      {
+        "name": "Marketing",
+        "amountM": 238.049,
+        "note": "Ads and the cost of signing up new customers \u2014 the biggest running cost, at 39% of sales."
+      },
+      {
+        "name": "Operations and support",
+        "amountM": 80.073,
+        "note": "Fulfilling orders, running pharmacies and supporting customers."
+      },
+      {
+        "name": "Technology and development",
+        "amountM": 40.962,
+        "note": "Building the app, website and clinical tools, and paying the engineers behind them."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 76.165,
+        "note": "Running the company \u2014 finance, legal and admin; includes $20M of stock pay."
+      }
+    ],
+    "operatingIncomeM": 9.186,
+    "otherIncomeM": 9.167,
+    "taxM": -2.248,
+    "netIncomeM": 20.601
+  },
+  "follow100": [
+    {
+      "label": "Online revenue",
+      "amount": 98.59
+    },
+    {
+      "label": "Wholesale revenue",
+      "amount": 1.41
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.06
+    },
+    {
+      "label": "Marketing",
+      "amount": -38.53
+    },
+    {
+      "label": "Operations & support",
+      "amount": -12.96
+    },
+    {
+      "label": "Tech & development",
+      "amount": -6.63
+    },
+    {
+      "label": "General & admin",
+      "amount": -12.33
+    },
+    {
+      "label": "Other income",
+      "amount": 1.48
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.36
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.33
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+59%",
+      "statColor": "#3d7bc8",
+      "title": "A breakout year",
+      "text": "Q4 revenue rose 28% to $618M, capping a year in which revenue jumped 59% to $2.35B and Adjusted EBITDA more than doubled to $318M. Monthly revenue per subscriber rose 11% to $83."
+    },
+    {
+      "stat": "72%",
+      "statColor": "#b8443c",
+      "title": "Margins are thinner",
+      "text": "Gross margin was 72%, down from 77% a year ago, as the product mix shifted \u2014 profitability now depends on marketing staying efficient at 39% of sales."
+    },
+    {
+      "stat": "\u2212$3M",
+      "statColor": "#b8443c",
+      "title": "Cash went into buildings",
+      "text": "Adjusted EBITDA was +$66M, but free cash flow was \u2212$3M in Q4: the company spent $59M in the quarter on property and equipment, building its own fulfillment and pharmacy capacity."
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other income was $9.2M, net: equity securities the company holds gained $4.4M in value and other income added $6.4M, partly offset by a $1.6M rise in the value of liabilities it owes.",
+  "footerNote": "Filed in thousands; shown in $M to three decimals so the lines add up.",
+  "sources": [
+    {
+      "label": "Official shareholder letter \u2014 8-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000019/finalq42025shareholderle.htm"
+    },
+    {
+      "label": "Form 10-K for 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm"
+    }
+  ]
+}
