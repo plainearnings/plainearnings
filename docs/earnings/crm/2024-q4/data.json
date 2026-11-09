@@ -1,0 +1,151 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-01-31",
+  "reportedDate": "2024-02-28",
+  "revenueYoY": "+11%",
+  "verdict": "Salesforce closed its fiscal year with revenue up 11% to $9.29B and net income of $1.45B \u2014 versus a loss a year ago \u2014 then used the moment to launch its first-ever dividend and add $10B to its buyback.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+11%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.47",
+      "note": "diluted \u2014 vs a $0.10 loss a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "17.5%",
+      "note": "GAAP; non-GAAP was 31.4%"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.45B",
+      "note": "vs a $98M loss a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 8748,
+      "yoy": "+12%",
+      "note": "The core software subscriptions \u2014 Sales, Service, Slack, Tableau and Data Cloud."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 539,
+      "yoy": "-9%",
+      "note": "Consulting and training that help customers roll the software out \u2014 shrinking as customers pull back on big projects."
+    }
+  ],
+  "flow": {
+    "revenueM": 9287,
+    "costOfRevenueM": 2148,
+    "grossProfitM": 7139,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1275,
+        "note": "Building the platform \u2014 including Einstein AI and Data Cloud."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3437,
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 632,
+        "note": "Running the company day to day."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 173,
+        "note": "Costs of a workforce-reduction initiative announced in the quarter; restructuring cut GAAP EPS by $0.18."
+      }
+    ],
+    "operatingIncomeM": 1622,
+    "otherIncomeM": 23,
+    "taxM": 199,
+    "netIncomeM": 1446
+  },
+  "otherDetail": "A $35M loss on strategic investments (stakes Salesforce holds in other companies), partly offset by $58M of other income \u2014 mostly interest earned, net of interest on Salesforce's debt: a net $23M.",
+  "follow100": [
+    {
+      "label": "Subscription & support",
+      "amount": 94.2
+    },
+    {
+      "label": "Professional services",
+      "amount": 5.8
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -23.13
+    },
+    {
+      "label": "R&D",
+      "amount": -13.73
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -37.01
+    },
+    {
+      "label": "G&A",
+      "amount": -6.81
+    },
+    {
+      "label": "Restructuring",
+      "amount": -1.86
+    },
+    {
+      "label": "Other income",
+      "amount": 0.25
+    },
+    {
+      "label": "Tax",
+      "amount": -2.14
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.57
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+11%",
+      "statColor": "#3d7bc8",
+      "title": "A steady finish to the fiscal year",
+      "text": "Revenue rose 11% from a year ago to $9.29B, led by subscription and support at $8.75B, up 12%. Professional services shrank 9% to $539M. Current remaining performance obligations \u2014 work signed but not yet billed \u2014 rose 12% to $27.6B."
+    },
+    {
+      "stat": "$1.47",
+      "statColor": "#3e8e5a",
+      "title": "From a loss to $1.47 a share",
+      "text": "Net income was $1.45B, versus a $98M loss a year ago when restructuring charges peaked; GAAP EPS swung from -$0.10 to $1.47. Fourth-quarter operating cash flow was $3.40B, up 22%, and free cash flow $3.26B."
+    },
+    {
+      "stat": "$0.40",
+      "statColor": "#3e8e5a",
+      "title": "Salesforce's first-ever dividend",
+      "text": "Salesforce declared its first quarterly dividend of $0.40 a share and added $10B to its share-buyback authorization \u2014 a marker of its shift toward returning cash to shareholders as growth settles to around 10%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000002/crm-q4fy24xexhibit991.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000005/crm-20240131.htm"
+    }
+  ]
+}

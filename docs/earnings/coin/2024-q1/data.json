@@ -1,0 +1,153 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-05-02",
+  "revenueYoY": "+112%",
+  "verdict": "Coinbase's revenue more than doubled from a year ago to $1.64B on the post-ETF crypto rally, and a $737M paper gain on the crypto it holds turned that into $1.18B of net income \u2014 a 72% net margin.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+112%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.40",
+      "note": "diluted \u2014 vs a $0.34 loss a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.18B",
+      "note": "helped by $737M of pre-tax paper gains on crypto holdings"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.01B",
+      "note": "62% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 1076.741,
+      "yoy": "+187%",
+      "note": "Fees from crypto trading \u2014 consumer trading $935M, institutional $85M and other transaction revenue $56M, on total volume of $312B."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 510.936,
+      "yoy": "+41%",
+      "note": "The steadier, non-trading side \u2014 stablecoin revenue $197M, blockchain rewards $151M, interest and finance fees $67M, custody fees $32M and other $64M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 49.893,
+      "yoy": "+38%",
+      "note": "Interest on Coinbase's corporate cash and other smaller revenue items."
+    }
+  ],
+  "flow": {
+    "revenueM": 1637.57,
+    "costOfRevenueM": 217.407,
+    "grossProfitM": 1420.163,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 357.863,
+        "note": "Building and running the trading platform and its apps."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 287.236,
+        "note": "Running the company \u2014 finance, legal, compliance and the back office."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 98.585,
+        "note": "Winning new customers and promoting Coinbase's products."
+      }
+    ],
+    "operatingIncomeM": 676.479,
+    "otherIncomeM": 760.945,
+    "taxM": 261.179,
+    "netIncomeM": 1176.245
+  },
+  "otherDetail": "A $650M gain on crypto Coinbase holds as an investment and $46M of other income, less $19M of interest expense \u2014 plus the $84M net of operating lines moved here from operating expenses (an $86M gain on crypto held for operations, less $2M of other operating expense; see the note under the chart): a net $761M.",
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 65.75
+    },
+    {
+      "label": "Subscription and services",
+      "amount": 31.2
+    },
+    {
+      "label": "Other revenue",
+      "amount": 3.05
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.28
+    },
+    {
+      "label": "Technology & development",
+      "amount": -21.85
+    },
+    {
+      "label": "G&A",
+      "amount": -17.54
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -6.02
+    },
+    {
+      "label": "Other income",
+      "amount": 46.47
+    },
+    {
+      "label": "Tax",
+      "amount": -15.95
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 71.83
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. The 'Other income' row includes the $84M net of operating gains (crypto held for operations, net of other operating expense) that Coinbase reports inside operating expenses, moved here to match the chart \u2014 see the note under the chart.",
+  "takeaways": [
+    {
+      "stat": "+112%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue more than doubled",
+      "text": "Revenue rose 112% from a year ago to $1.64B as the January launch of spot bitcoin ETFs pulled traders back: total trading volume hit $312B, and transaction revenue alone was $1.08B, up 187%."
+    },
+    {
+      "stat": "$737M",
+      "statColor": "#3e8e5a",
+      "title": "Paper crypto gains did the heavy lifting",
+      "text": "A new accounting rule (ASU 2023-08) let Coinbase mark the crypto it holds to market prices, adding $737M of pre-tax gains \u2014 $650M on crypto held for investment and $86M on crypto held for operations. Most of it is unrealized, and it made up the bulk of the quarter's $1.18B net income."
+    },
+    {
+      "stat": "$1.01B",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EBITDA topped $1B",
+      "text": "Adjusted EBITDA was $1,014M \u2014 62% of revenue \u2014 as costs grew far more slowly than revenue. Subscription and services revenue, the steadier half of the business, rose 41% to $511M, led by $197M of stablecoin revenue."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 Q1 2024 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000087/secshareholderletterq120.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000089/coin-20240331.htm"
+    }
+  ],
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. Coinbase also reports two lines inside operating expenses that the chart shows in the 'other income' step instead: an $86M gain on crypto held for operations and $2M of other operating expense \u2014 a net $84M gain. The chart's operating profit is therefore $676M rather than the reported $760M \u2014 net income is unchanged at $1,176M. Figures are from Coinbase's Q1 2024 shareholder letter (Exhibit 99.1) and Form 10-Q."
+}

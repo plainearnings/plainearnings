@@ -1,0 +1,168 @@
+{
+  "ticker": "MU",
+  "company": "Micron",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "periodEnd": "2024-02-29",
+  "reportedDate": "2024-03-20",
+  "revenueYoY": "+58%",
+  "verdict": "Micron's revenue rose 58% in a year to $5.82B as the memory recovery took hold, and although the core business was roughly break-even, a $622M tax benefit and a $200M patent-license gain lifted net income to $793M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+58%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.71",
+      "note": "diluted; non-GAAP was $0.42"
+    },
+    {
+      "label": "Gross margin",
+      "value": "19%",
+      "note": "vs -33% a year ago, in the depths of the memory glut"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "-$29M",
+      "note": "operating cash flow of $1.22B less $1.25B of net capex"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Compute and Networking",
+      "amountM": 2185,
+      "note": "Memory for cloud and enterprise servers, client PCs, graphics and networking \u2014 a 1% operating margin this quarter ($28M of operating income)."
+    },
+    {
+      "name": "Mobile",
+      "amountM": 1598,
+      "note": "Memory and storage for smartphones and other mobile devices \u2014 a small operating loss of $9M this quarter."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 1111,
+      "note": "Memory and storage for cars, industrial and consumer markets \u2014 roughly break-even, with a $1M operating loss."
+    },
+    {
+      "name": "Storage",
+      "amountM": 905,
+      "note": "SSDs and component storage for enterprise and cloud, client and consumer markets \u2014 the drag this quarter, with a $217M operating loss as storage pricing lagged the recovery."
+    },
+    {
+      "name": "All other",
+      "amountM": 25,
+      "note": "Small residual outside the four business units, so the units sum to total revenue."
+    }
+  ],
+  "flow": {
+    "revenueM": 5824,
+    "costOfRevenueM": 4745,
+    "grossProfitM": 1079,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 832,
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 280,
+        "note": "Sales teams and the cost of running the company."
+      }
+    ],
+    "operatingIncomeM": -33,
+    "otherIncomeM": 203,
+    "equityM": 1,
+    "taxM": -622,
+    "netIncomeM": 793
+  },
+  "otherDetail": "Interest income of $130M on Micron's cash pile, less $144M of interest expense and $7M of other non-operating expense \u2014 plus the $224M of other operating income described in the note under the chart, which includes a $200M patent cross-license gain: a net +$203M in this step; equity-method investments added a further $1M, shown in their own step.",
+  "follow100": [
+    {
+      "label": "Compute and Networking",
+      "amount": 37.51
+    },
+    {
+      "label": "Mobile",
+      "amount": 27.44
+    },
+    {
+      "label": "Embedded",
+      "amount": 19.08
+    },
+    {
+      "label": "Storage",
+      "amount": 15.54
+    },
+    {
+      "label": "All other",
+      "amount": 0.43
+    },
+    {
+      "label": "Cost of goods sold",
+      "amount": -81.47
+    },
+    {
+      "label": "R&D",
+      "amount": -14.29
+    },
+    {
+      "label": "SG&A",
+      "amount": -4.81
+    },
+    {
+      "label": "Other income",
+      "amount": 3.49
+    },
+    {
+      "label": "Equity-method income",
+      "amount": 0.02
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 10.68
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 13.62
+    }
+  ],
+  "follow100Note": "Rows reconcile to $100 at this rounding; the $224M other operating income credit sits inside 'Other income' \u2014 see the note under the chart.",
+  "takeaways": [
+    {
+      "stat": "+58%",
+      "statColor": "#3d7bc8",
+      "title": "The memory recovery arrives",
+      "text": "Revenue rose 58% from a year ago to $5.82B and gross margin swung from -33% to 19%, as pricing recovered from the 2023 glut. Gross profit also benefited from $382M of lower costs on selling inventory that had been written down earlier."
+    },
+    {
+      "stat": "$622M",
+      "statColor": "#3e8e5a",
+      "title": "A tax benefit made the bottom line",
+      "text": "Net income of $793M was far bigger than the $170M of pre-tax profit: Micron booked a $622M income-tax benefit after switching to an estimated annual effective tax rate applied to year-to-date results, as its 10-Q explains."
+    },
+    {
+      "stat": "$200M",
+      "statColor": "#3e8e5a",
+      "title": "A patent deal padded the quarter",
+      "text": "Other operating income of $224M included a $200M gain from a patent cross-license agreement. Setting that gain and the tax benefit aside, the core memory business was roughly break-even \u2014 reported operating income was $191M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Q2 FY24 earnings release (SEC EDGAR, 8-K Ex 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000004/a2024q2ex991-pressrelease.htm"
+    },
+    {
+      "label": "Q2 FY24 Form 10-Q \u2014 segment note, as-originally-reported business units (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000007/mu-20240229.htm"
+    },
+    {
+      "label": "Fiscal 2025 Form 10-K, Note 27 \u2014 recast business units (checked: recast figures exist only for full-year FY24 and FQ4-24) (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+    }
+  ],
+  "footerNote": "Business units are shown as originally reported for fiscal 2024 \u2014 Compute and Networking, Mobile, Embedded, and Storage (Q2 FY24 Form 10-Q segment note; operating margins are from that note) \u2014 because no SEC filing reports this quarter on the recast structure Micron adopted in fiscal 2026 (Cloud Memory, Core Data Center, Mobile and Client, Automotive and Embedded). On the recast basis Micron has filed only full-year FY24 unit revenue and the FQ4-24 quarter, so no quarterly recast split of FQ2-24 exists. Reported operating income was $191M; Micron's $224M 'Other operating (income) expense, net' line was income this quarter \u2014 it includes a $200M patent cross-license gain \u2014 so the chart shows it in the other-income step rather than as a negative expense: chart operating income is therefore -$33M, with net income unchanged at $793M. The $622M tax line was a benefit this quarter, so it is drawn as money in, not a tax bill."
+}

@@ -1,0 +1,143 @@
+{
+  "ticker": "RDDT",
+  "company": "Reddit",
+  "quarterLabel": "Q1 2024",
+  "quarterSlug": "2024-q1",
+  "periodEnd": "2024-03-31",
+  "reportedDate": "2024-05-07",
+  "revenueYoY": "+48%",
+  "verdict": "Reddit's first quarter as a public company grew revenue 48% to $243M and turned adjusted EBITDA positive, but a $596M one-off stock-compensation charge from IPO share vesting drove a $575M GAAP net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+48%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$8.19",
+      "note": "diluted"
+    },
+    {
+      "label": "Net loss",
+      "value": "-$575M",
+      "note": "driven by $596M of stock compensation and related taxes from IPO vesting"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$10.0M",
+      "note": "first positive Q1 \u2014 vs -$50.2M a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Advertising",
+      "amountM": 222.682,
+      "yoy": "+39%",
+      "note": "Ads shown across Reddit's communities \u2014 still more than nine dollars in every ten of revenue."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 20.281,
+      "yoy": "+454%",
+      "note": "Data licensing \u2014 including AI training deals \u2014 plus Reddit Premium subscriptions; up more than fivefold as licensing deals kicked in."
+    }
+  ],
+  "flow": {
+    "revenueM": 242.963,
+    "costOfRevenueM": 27.616,
+    "grossProfitM": 215.347,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 437.03,
+        "note": "Engineering \u2014 swollen this quarter by the one-off stock-compensation charge booked when IPO restricted stock units vested."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 124.095,
+        "note": "The ad sales team and marketing \u2014 also carrying a share of the IPO stock-compensation charge."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 243.477,
+        "note": "Running the company \u2014 finance, legal and the back office, plus its share of the IPO stock charge."
+      }
+    ],
+    "operatingIncomeM": -589.255,
+    "otherIncomeM": 14.554,
+    "taxM": 0.365,
+    "netIncomeM": -575.066
+  },
+  "otherDetail": "Other income of $14.6M, net \u2014 $15.4M of interest income, net, earned on Reddit's $1,670.4M of cash and marketable securities, less $0.9M of other expense, net.",
+  "follow100": [
+    {
+      "label": "Advertising",
+      "amount": 91.65
+    },
+    {
+      "label": "Other revenue",
+      "amount": 8.35
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -11.37
+    },
+    {
+      "label": "R&D",
+      "amount": -179.88
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -51.08
+    },
+    {
+      "label": "G&A",
+      "amount": -100.21
+    },
+    {
+      "label": "Other income",
+      "amount": 5.99
+    },
+    {
+      "label": "Tax",
+      "amount": -0.15
+    },
+    {
+      "label": "Kept as profit",
+      "amount": -236.69
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Reddit lost $236.69 for every $100 of revenue this quarter \u2014 almost all of it the one-off stock-compensation charge triggered by the IPO, not cash out the door.",
+  "takeaways": [
+    {
+      "stat": "+48%",
+      "statColor": "#3d7bc8",
+      "title": "First quarter as a public company",
+      "text": "Revenue grew 48% from a year ago to $243M in the quarter Reddit listed on the NYSE, with Daily Active Uniques up 37% to 82.7 million and Weekly Active Uniques up 40% to 306.2 million."
+    },
+    {
+      "stat": "$596M",
+      "statColor": "#d96a57",
+      "title": "One charge explains the loss",
+      "text": "When Reddit went public in March, years of employee restricted stock units vested at once, booking $595.5M of stock-based compensation and related payroll taxes across the cost lines. That single non-cash-heavy charge is why a fast-growing ad business still posted a $575M GAAP net loss."
+    },
+    {
+      "stat": "$10.0M",
+      "statColor": "#3e8e5a",
+      "title": "Adjusted EBITDA turned positive",
+      "text": "Adjusted EBITDA was $10.0M \u2014 Reddit's first positive first quarter on that basis, versus -$50.2M a year ago \u2014 and operating cash flow was $32.1M despite the GAAP loss, with gross margin at 88.6%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000003/earningspressreleaseq124.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000006/rddt-20240331.htm"
+    }
+  ],
+  "footerNote": "Figures are from Reddit's Q1 2024 earnings release (Exhibit 99.1) and Form 10-Q, which report in thousands. Stock-based compensation and related payroll taxes of $595.5M \u2014 most of it a one-time charge as restricted stock units vested at the March 2024 IPO \u2014 sit inside the research & development, sales & marketing and general & administrative lines, which is why those lines dwarf revenue this quarter."
+}
