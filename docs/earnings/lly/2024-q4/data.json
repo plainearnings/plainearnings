@@ -1,0 +1,167 @@
+{
+  "ticker": "LLY",
+  "company": "Eli Lilly",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-06",
+  "verdict": "Lilly's revenue jumped 45% to $13.5B as Mounjaro and Zepbound volumes surged \u2014 and reported profit more than doubled to $4.4B, even after a $344M impairment charge tied to Vitrakvi.",
+  "revenueYoY": "+45%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$13.5B",
+      "note": "+45% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.88",
+      "note": "vs $2.42 a year ago; $5.32 non-GAAP"
+    },
+    {
+      "label": "Mounjaro",
+      "value": "$3.5B",
+      "note": "+60% YoY"
+    },
+    {
+      "label": "Net income",
+      "value": "$4.4B",
+      "note": "+101% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mounjaro",
+      "amountM": 3530,
+      "yoy": "+60%",
+      "note": "The diabetes shot (tirzepatide) \u2014 U.S. revenue rose 25% to $2.6B and revenue outside the U.S. jumped to $0.9B as it entered new markets, partly offset by lower realized prices."
+    },
+    {
+      "name": "Zepbound",
+      "amountM": 1907,
+      "yoy": "+985%",
+      "note": "The weight-loss shot sold in the U.S. \u2014 sales leapt from just $176M in its launch quarter a year ago as demand and supply both ramped."
+    },
+    {
+      "name": "All other medicines",
+      "amountM": 8096,
+      "yoy": "+16%",
+      "note": "Everything else Lilly sells, including Verzenio at $1.6B and Jardiance at $1.2B \u2014 the Jardiance figure includes a one-time $300M collaboration benefit."
+    }
+  ],
+  "flow": {
+    "revenueM": 13533,
+    "costOfRevenueM": 2404,
+    "grossProfitM": 11129,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 3023,
+        "note": "Developing new medicines \u2014 up 18%, driven by continued investments in the early and late-stage pipeline."
+      },
+      {
+        "name": "Marketing, selling & administrative",
+        "amountM": 2424,
+        "note": "Sales teams, advertising and running the company \u2014 up 26%, mainly promotional efforts supporting ongoing and future launches."
+      },
+      {
+        "name": "Acquired IPR&D",
+        "amountM": 189,
+        "note": "Research bought in from other companies, expensed on the spot."
+      },
+      {
+        "name": "Asset impairment & restructuring",
+        "amountM": 344,
+        "note": "Charges primarily from an intangible asset impairment associated with Vitrakvi."
+      }
+    ],
+    "operatingIncomeM": 5149,
+    "otherIncomeM": -110,
+    "taxM": 629,
+    "netIncomeM": 4410
+  },
+  "otherDetail": "Net other expense of $110M \u2014 net interest expense of $180M, partly offset by $70M of net other income.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $4,806M (EPS $5.32). The release reports figures to one decimal place; they are rounded to whole millions here.",
+  "follow100Note": "Mounjaro and Zepbound together supplied $40.17 of every $100 Lilly took in \u2014 two versions of the same drug, tirzepatide. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$5.4B",
+      "statColor": "#3d7bc8",
+      "title": "Two drugs drove the growth",
+      "text": "Mounjaro ($3.5B, +60%) and Zepbound ($1.9B, up from $176M in its launch quarter) together brought in $5.4B \u2014 40% of all revenue. Overall volume rose 48%, partly offset by 4% lower realized prices."
+    },
+    {
+      "stat": "82.2%",
+      "statColor": "#3e8e5a",
+      "title": "Margins widened again",
+      "text": "Gross margin rose 1.3 points to 82.2% on a favorable product mix, partly offset by lower realized prices \u2014 so operating income more than doubled, to $5.1B."
+    },
+    {
+      "stat": "$58\u201361B",
+      "statColor": "#5b6b7c",
+      "title": "2025 guidance issued",
+      "text": "Lilly guided 2025 revenue to $58.0\u201361.0B with reported EPS of $22.05\u201323.55, and said it would produce at least 1.6 times as many salable incretin doses in the first half of 2025 as a year earlier."
+    }
+  ],
+  "oneTimers": [
+    "Asset impairment, restructuring and other special charges of $344M \u2014 primarily an intangible asset impairment associated with Vitrakvi. They cost $0.30 of the quarter's EPS on a non-GAAP comparison basis.",
+    "Acquired IPR&D charges of $189M ($0.19 of EPS), down from $623M a year ago, when the charges mainly related to Mablink Biosciences and a Beam Therapeutics transaction.",
+    "Jardiance revenue included a one-time benefit of $300M from an amendment to the Boehringer Ingelheim collaboration that adjusted who sells Jardiance in certain markets \u2014 that benefit sits inside 'All other medicines' revenue."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000037/q424lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-K, year ended December 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Mounjaro",
+      "amount": 26.08
+    },
+    {
+      "label": "Zepbound",
+      "amount": 14.09
+    },
+    {
+      "label": "All other medicines",
+      "amount": 59.82
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -17.76
+    },
+    {
+      "label": "Research & development",
+      "amount": -22.34
+    },
+    {
+      "label": "Marketing, selling & administrative",
+      "amount": -17.91
+    },
+    {
+      "label": "Acquired IPR&D",
+      "amount": -1.4
+    },
+    {
+      "label": "Impairment & restructuring",
+      "amount": -2.54
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.81
+    },
+    {
+      "label": "Tax",
+      "amount": -4.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.59
+    }
+  ]
+}

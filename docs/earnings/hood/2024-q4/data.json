@@ -1,0 +1,171 @@
+{
+  "ticker": "HOOD",
+  "company": "Robinhood",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-12",
+  "verdict": "Robinhood's revenue more than doubled to $1.01B as crypto revenue jumped over 700% to $358M \u2014 and profit hit a record $916M, though $369M of it was a one-time tax benefit rather than money from the business.",
+  "revenueYoY": "+115%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$1.01B",
+      "note": "+115% YoY"
+    },
+    {
+      "label": "EPS (diluted)",
+      "value": "$1.01",
+      "note": "vs $0.03 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$916M",
+      "note": "up over 10x YoY \u2014 a record"
+    },
+    {
+      "label": "Net deposits",
+      "value": "$16.1B",
+      "note": "assets under custody reached $193B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction-based revenues",
+      "amountM": 672,
+      "yoy": "+236%",
+      "note": "Fees from customers' trades \u2014 crypto $358M, options $222M and equities $61M."
+    },
+    {
+      "name": "Net interest revenues",
+      "amountM": 296,
+      "yoy": "+25%",
+      "note": "Interest on customers' cash and margin loans, plus securities lending \u2014 up on growth in interest-earning assets, partly offset by a lower federal funds rate."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 46,
+      "yoy": "+31%",
+      "note": "Mostly Robinhood Gold subscriptions \u2014 2.6M subscribers, up 86%."
+    }
+  ],
+  "flow": {
+    "revenueM": 1014,
+    "costOfRevenueM": 50,
+    "grossProfitM": 964,
+    "opex": [
+      {
+        "name": "Technology and development",
+        "amountM": 208,
+        "note": "Engineers and the platform \u2014 up 6%."
+      },
+      {
+        "name": "Operations",
+        "amountM": 29,
+        "note": "Customer support and running the service \u2014 up 12%."
+      },
+      {
+        "name": "Provision for credit losses",
+        "amountM": 19,
+        "note": "Money set aside for customer loans that may not be repaid \u2014 up 36%."
+      },
+      {
+        "name": "Marketing",
+        "amountM": 82,
+        "note": "Advertising and promotions to win new customers \u2014 up 91%."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 70,
+        "note": "Legal, finance and head office \u2014 down 47%, because the line includes a $55M benefit from reversing a regulatory settlement accrual."
+      }
+    ],
+    "operatingIncomeM": 556,
+    "otherIncomeM": 2,
+    "taxM": -358,
+    "netIncomeM": 916
+  },
+  "otherDetail": "Other income, net was $2M \u2014 small next to the main business. The tax line is a $358M benefit, driven by a $369M deferred tax benefit from releasing the valuation allowance on most of Robinhood's deferred tax assets.",
+  "footerNote": "Robinhood does not report a separate cost of revenue; 'Brokerage and transaction' \u2014 the direct cost of executing customers' trades \u2014 is shown as the direct cost here.",
+  "follow100Note": "Crypto alone supplied $35.31 of every $100 of revenue \u2014 $358M of the $1,014M total \u2014 as digital-asset trading rose over 700% from a year ago. The tax benefit added back another $35.31 of every $100.",
+  "takeaways": [
+    {
+      "stat": "$358M",
+      "statColor": "#3e8e5a",
+      "title": "Crypto revenue exploded",
+      "text": "Transaction revenue rose 236% to $672M \u2014 crypto revenue jumped over 700% to $358M, options rose 83% to $222M and equities rose 144% to $61M as customers traded actively across asset classes."
+    },
+    {
+      "stat": "$16.1B",
+      "statColor": "#5b6b7c",
+      "title": "Record net deposits",
+      "text": "Net deposits hit $16.1B in the quarter \u2014 an annualized growth rate of 42% \u2014 and assets under custody rose 88% to $193B, helped by higher equity and cryptocurrency valuations."
+    },
+    {
+      "stat": "2.6M",
+      "statColor": "#5b6b7c",
+      "title": "Gold subscribers hit a record",
+      "text": "Robinhood Gold subscribers rose 86% to a record 2.6M, lifting other revenues 31% to $46M \u2014 steady subscription income growing alongside the trading business."
+    }
+  ],
+  "oneTimers": [
+    "A $369M deferred tax benefit ($0.41 of diluted EPS) from releasing the valuation allowance on most of Robinhood's deferred tax assets \u2014 management concluded the company is now likely to earn enough to use them. It is a one-time accounting benefit, not cash from the business, and it is most of why the tax line shows a $358M benefit.",
+    "A $55M benefit ($0.06 of diluted EPS) from reversing an accrual as part of a regulatory settlement. It sits inside general & administrative expenses, which is why that line fell 47% from a year ago even as the company grew."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000045/q42024robinhoodexhibit991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Transaction-based revenues",
+      "amount": 66.27
+    },
+    {
+      "label": "Net interest revenues",
+      "amount": 29.19
+    },
+    {
+      "label": "Other revenues",
+      "amount": 4.54
+    },
+    {
+      "label": "Brokerage and transaction",
+      "amount": -4.93
+    },
+    {
+      "label": "Technology and development",
+      "amount": -20.51
+    },
+    {
+      "label": "Operations",
+      "amount": -2.86
+    },
+    {
+      "label": "Provision for credit losses",
+      "amount": -1.87
+    },
+    {
+      "label": "Marketing",
+      "amount": -8.09
+    },
+    {
+      "label": "General & administrative",
+      "amount": -6.9
+    },
+    {
+      "label": "Other income",
+      "amount": 0.2
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 35.31
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 90.34
+    }
+  ]
+}

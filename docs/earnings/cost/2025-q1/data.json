@@ -1,0 +1,124 @@
+{
+  "ticker": "COST",
+  "company": "Costco",
+  "quarterLabel": "Q1 FY25",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2024-11-24",
+  "reportedDate": "2024-12-12",
+  "verdict": "Costco's net sales rose 7.5% to $61.0B as comparable sales climbed 5.2% \u2014 and with $1.17B of nearly cost-free membership fees on top, profit rose 13% to $1.80B, helped by a $100M tax benefit.",
+  "revenueYoY": "+7.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$62.2B",
+      "note": "+7.5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.04",
+      "note": "+12.8% YoY"
+    },
+    {
+      "label": "Comparable sales",
+      "value": "+5.2%",
+      "note": "total company; +7.1% adjusted"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.80B",
+      "note": "+13.2% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net sales",
+      "amountM": 60985,
+      "yoy": "+7.5%",
+      "note": "Everything sold in the warehouses and online. Comparable sales rose 5.2% (7.1% adjusted for gas prices and currency), and e-commerce sales rose 13.0%."
+    },
+    {
+      "name": "Membership fees",
+      "amountM": 1166,
+      "yoy": "+7.8%",
+      "note": "Annual membership fees \u2014 almost pure profit, and the engine of Costco's earnings."
+    }
+  ],
+  "flow": {
+    "revenueM": 62151,
+    "costOfRevenueM": 54109,
+    "grossProfitM": 8042,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 5846,
+        "note": "Running the warehouses, paying staff and the back office."
+      }
+    ],
+    "operatingIncomeM": 2196,
+    "otherIncomeM": 110,
+    "taxM": 508,
+    "netIncomeM": 1798
+  },
+  "otherDetail": "Interest income and other of $147M, less $37M of interest expense.",
+  "footerNote": "Costco's merchandise costs include buying, freight and shrink (lost or damaged goods) \u2014 the direct cost of what's on the shelves. The quarter is 12 weeks, ended November 24, 2024.",
+  "follow100Note": "Membership fees are only $1.88 of every $100 \u2014 but they arrive with almost no cost attached, which is why they cover about two-thirds of the $2.89 Costco kept as profit.",
+  "takeaways": [
+    {
+      "stat": "+5.2%",
+      "statColor": "#3e8e5a",
+      "title": "Comparable sales still climbing",
+      "text": "Comparable sales rose 5.2% across the company (7.1% adjusted for gas prices and currency), and e-commerce sales jumped 13.0% \u2014 members kept spending in the warehouses and online."
+    },
+    {
+      "stat": "+7.8%",
+      "statColor": "#3d7bc8",
+      "title": "Membership fees keep growing",
+      "text": "Membership fee income rose 7.8% to $1.17B \u2014 steady, recurring income with no cost of goods attached to it. Costco ended the quarter with 897 warehouses."
+    },
+    {
+      "stat": "$1.80B",
+      "statColor": "#5b6b7c",
+      "title": "Profit up 13% with a tax assist",
+      "text": "Net income rose to $1.80B ($4.04 per share) from $1.59B a year ago. Operating income itself rose 10.7% to $2.20B, and this year's figure also included a $100M tax benefit linked to stock-based compensation."
+    }
+  ],
+  "oneTimers": [
+    "A $100M tax benefit ($0.22 per diluted share) related to stock-based compensation flattered net income; a year ago the same benefit was $44M ($0.10 per share)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000075/costex9918-k121224.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Net sales",
+      "amount": 98.12
+    },
+    {
+      "label": "Membership fees",
+      "amount": 1.88
+    },
+    {
+      "label": "Merchandise costs",
+      "amount": -87.06
+    },
+    {
+      "label": "Selling, general & admin",
+      "amount": -9.41
+    },
+    {
+      "label": "Other income",
+      "amount": 0.18
+    },
+    {
+      "label": "Tax",
+      "amount": -0.82
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.89
+    }
+  ]
+}

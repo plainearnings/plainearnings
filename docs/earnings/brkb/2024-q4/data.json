@@ -1,0 +1,214 @@
+{
+  "ticker": "BRK.B",
+  "company": "Berkshire Hathaway",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-22",
+  "verdict": "Berkshire's operating earnings jumped 71% to $14.5B as insurance underwriting quadrupled to $3.4B \u2014 and $6.6B of investment gains lifted headline profit to $19.7B, though that was still only half of a year ago's $37.6B, when the stock portfolio soared.",
+  "revenueYoY": "+2%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$94.9B",
+      "note": "+2% YoY"
+    },
+    {
+      "label": "EPS (GAAP, Class B)",
+      "value": "$9.13",
+      "note": "vs $17.36 a year ago"
+    },
+    {
+      "label": "Operating earnings",
+      "value": "$14.5B",
+      "note": "+71% YoY \u2014 the number Buffett says matters"
+    },
+    {
+      "label": "Insurance underwriting",
+      "value": "$3.4B",
+      "note": "vs $0.8B a year ago, after tax"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Insurance premiums earned",
+      "amountM": 22775,
+      "yoy": "+5%",
+      "note": "Premiums from GEICO, reinsurance and primary insurance \u2014 GEICO's premiums earned rose on higher average premiums per policy."
+    },
+    {
+      "name": "Sales and service revenues",
+      "amountM": 51107,
+      "yoy": "",
+      "note": "The biggest bucket: everything the manufacturing, service and retailing businesses sell."
+    },
+    {
+      "name": "Leasing revenues",
+      "amountM": 2382,
+      "yoy": "+9%",
+      "note": "Renting out railcars, aircraft and other equipment."
+    },
+    {
+      "name": "Investment income",
+      "amountM": 6275,
+      "yoy": "+35%",
+      "note": "What the insurance float and the cash pile earn \u2014 mostly interest and dividends. Interest on Treasury Bills climbed with the cash pile."
+    },
+    {
+      "name": "Railroad revenues",
+      "amountM": 6113,
+      "yoy": "\u22121%",
+      "note": "BNSF freight revenue \u2014 what shippers pay to move goods by rail."
+    },
+    {
+      "name": "Utilities & energy revenues",
+      "amountM": 5168,
+      "yoy": "",
+      "note": "Berkshire Hathaway Energy: electric and gas utilities, pipelines and renewables."
+    },
+    {
+      "name": "Service & other income",
+      "amountM": 1096,
+      "yoy": "",
+      "note": "Smaller service income inside the railroad and energy group."
+    }
+  ],
+  "flow": {
+    "revenueM": 94916,
+    "costOfRevenueM": 65951,
+    "grossProfitM": 28965,
+    "opex": [
+      {
+        "name": "Insurance underwriting expenses",
+        "amountM": 4075,
+        "note": "Commissions, agents and running the insurance operations."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 5849,
+        "note": "Offices, sales teams and admin across the non-insurance businesses."
+      },
+      {
+        "name": "Interest \u2014 Insurance & Other",
+        "amountM": 537,
+        "compact": true,
+        "note": "Interest on borrowings outside the railroad and energy group."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 1002,
+        "note": "Miscellaneous operating costs in the railroad and energy group."
+      },
+      {
+        "name": "Interest \u2014 railroad, utilities & energy",
+        "amountM": 903,
+        "compact": true,
+        "note": "Interest on BNSF and Berkshire Hathaway Energy debt."
+      }
+    ],
+    "operatingIncomeM": 16599,
+    "otherIncomeM": 7426,
+    "equityM": -57,
+    "taxM": 4274,
+    "netIncomeM": 19694
+  },
+  "otherDetail": "Investment gains of $6,552M \u2014 mostly paper gains on Berkshire's stock portfolio \u2014 plus $874M of equity-method earnings, less $57M attributable to noncontrolling interests.",
+  "footerNote": "Berkshire has no single gross-profit line: costs are split following the 10-K's own structure. Fourth-quarter figures are full-year 2024 results from the 10-K minus the first nine months of 2024 as restated in the Q3 2025 10-Q. Berkshire reclassified some businesses between its Insurance and Other and Railroad, Utilities and Energy sections in 2024, so no year-ago growth rate is shown for the sales-and-service, utility and service revenue lines.",
+  "follow100Note": "Paper gains on the stock portfolio added $6.90 of every $100 of revenue \u2014 without them, the businesses and everything else kept $13.85. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$3.4B",
+      "statColor": "#3e8e5a",
+      "title": "Underwriting quadrupled",
+      "text": "After-tax underwriting earnings rose to $3.4B from $0.8B a year ago, led by GEICO: higher average premiums per policy, lower claims frequencies and improved efficiency took GEICO's full-year pre-tax underwriting profit to $7.8B. Hurricane losses from Helene and Milton were about $360M at GEICO."
+    },
+    {
+      "stat": "$14.5B",
+      "statColor": "#5b6b7c",
+      "title": "Operating earnings jumped 71%",
+      "text": "The businesses themselves earned $14.5B after tax, up from $8.5B \u2014 insurance investment income rose to $4.1B after tax on the bigger cash pile, and 'Other' earnings got a roughly $1.2B boost from currency gains on foreign-denominated debt."
+    },
+    {
+      "stat": "$171B",
+      "statColor": "#3d7bc8",
+      "title": "The float kept growing",
+      "text": "Insurance float \u2014 the premiums Berkshire holds and invests before claims come due \u2014 reached about $171B at year-end, up $2B in the year. Berkshire also sold down investments during 2024, realizing about $79.6B of after-tax gains, much of it from trimming Apple."
+    }
+  ],
+  "oneTimers": [
+    "Investment gains of $6,552M before tax are mostly paper gains. Of the after-tax investment gains of $5,167M, about $2.1B was an increase in unrealized gains on stocks Berkshire still owns and $3.1B was realized gains on stocks sold. Next quarter the unrealized part can just as easily reverse \u2014 a year ago this line was $29.1B after tax, which is why headline profit then was $37.6B.",
+    "Currency gains on foreign debt: revaluing Berkshire's euro-, pound- and yen-denominated borrowings produced a gain of about $1.2B after tax in the quarter, versus a loss of about $684M a year ago. It sits inside the 'Other' operating earnings line and flatters the 71% jump."
+  ],
+  "sources": [
+    {
+      "label": "Form 10-K, year ended December 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm"
+    },
+    {
+      "label": "Earnings news release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525033393/d935582dex991.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended September 30, 2025 \u2014 restated 2024 comparatives (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm"
+    },
+    {
+      "label": "Berkshire Hathaway investor relations",
+      "url": "https://www.berkshirehathaway.com"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Insurance premiums earned",
+      "amount": 23.99
+    },
+    {
+      "label": "Sales and service revenues",
+      "amount": 53.84
+    },
+    {
+      "label": "Leasing revenues",
+      "amount": 2.51
+    },
+    {
+      "label": "Investment income",
+      "amount": 6.61
+    },
+    {
+      "label": "Railroad revenues",
+      "amount": 6.44
+    },
+    {
+      "label": "Utilities & energy revenues",
+      "amount": 5.44
+    },
+    {
+      "label": "Service & other income",
+      "amount": 1.15
+    },
+    {
+      "label": "All costs and expenses",
+      "amount": -82.51
+    },
+    {
+      "label": "Investment gains",
+      "amount": 6.9
+    },
+    {
+      "label": "Equity method earnings",
+      "amount": 0.92
+    },
+    {
+      "label": "Tax",
+      "amount": -4.5
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.75
+    }
+  ]
+}

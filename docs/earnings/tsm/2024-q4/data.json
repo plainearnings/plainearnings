@@ -1,0 +1,166 @@
+{
+  "ticker": "TSM",
+  "company": "TSMC",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-01-16",
+  "verdict": "TSMC's revenue rose 39% to NT$868.5B ($26.9B) on strong demand for its industry-leading 3- and 5-nanometer technologies \u2014 and with a 59.0% gross margin, it kept NT$374.7B ($11.6B) as profit, up 57% in a year.",
+  "revenueYoY": "+39%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$26.9B",
+      "note": "+37% YoY in US$"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "value": "$2.24",
+      "note": "+57% YoY"
+    },
+    {
+      "label": "Gross margin",
+      "value": "59.0%",
+      "note": "vs 53.0% a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$11.6B",
+      "note": "43.1% margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "High-performance computing",
+      "amountM": 14246,
+      "yoy": "+19% QoQ",
+      "note": "Chips for AI data centers and servers \u2014 53% of everything TSMC sells, and up 19% from the third quarter."
+    },
+    {
+      "name": "Smartphone",
+      "amountM": 9408,
+      "yoy": "+17% QoQ",
+      "note": "Chips for phones \u2014 35% of revenue, up 17% from the third quarter."
+    },
+    {
+      "name": "Internet of Things",
+      "amountM": 1344,
+      "yoy": "\u221215% QoQ",
+      "note": "Chips for connected devices of every kind."
+    },
+    {
+      "name": "Automotive",
+      "amountM": 1075,
+      "yoy": "+6% QoQ",
+      "note": "Chips for cars."
+    },
+    {
+      "name": "Digital consumer electronics",
+      "amountM": 269,
+      "yoy": "\u22126% QoQ",
+      "note": "Chips for TVs, game consoles and gadgets."
+    },
+    {
+      "name": "Others",
+      "amountM": 538,
+      "yoy": "+2% QoQ",
+      "note": "Everything else, including older-node specialty work."
+    }
+  ],
+  "flow": {
+    "revenueM": 26880,
+    "costOfRevenueM": 11021,
+    "grossProfitM": 15859,
+    "opex": [
+      {
+        "name": "Operating expenses",
+        "amountM": 2681,
+        "note": "Research, engineering and running the business side of the fabs \u2014 shown as one line, including other operating expenses, net."
+      }
+    ],
+    "operatingIncomeM": 13178,
+    "otherIncomeM": 715,
+    "taxM": 2296,
+    "netIncomeM": 11597
+  },
+  "otherDetail": "Non-operating income of NT$23.1B (about $0.7B) \u2014 mostly interest income earned on TSMC's cash pile, plus foreign-exchange gains and a share of profits from associates, partly offset by finance costs and other losses.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$868.5B; net income attributable to shareholders NT$374.7B). Dollar figures are converted at NT$32.31 per US$1 \u2014 implied by TSMC's own stated US-dollar revenue of $26.88B. Operating expenses are shown as one line, as in TSMC's earnings release, combining operating expenses with other operating expenses, net, and segment dollars are the platform shares from TSMC's official Q4 2024 materials applied to revenue. The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+  "follow100Note": "For every $100 TSMC took in, $43.14 survived as profit. AI data-center chips (high-performance computing) supplied $53.00 of the $100 \u2014 and advanced nodes (7-nanometer and below) made up 74% of wafer revenue.",
+  "takeaways": [
+    {
+      "stat": "53%",
+      "statColor": "#3e8e5a",
+      "title": "AI chips run the show",
+      "text": "High-performance computing \u2014 mostly AI accelerators \u2014 was 53% of revenue and rose 19% from the third quarter; smartphone chips were another 35%, up 17% on seasonal launches."
+    },
+    {
+      "stat": "59.0%",
+      "statColor": "#3d7bc8",
+      "title": "Margins jumped in a year",
+      "text": "Gross margin reached 59.0%, up from 53.0% a year ago, and net margin was 43.1% \u2014 TSMC charges premium prices for leading-edge capacity nobody else can supply, so profit grew 57% on 39% revenue growth."
+    },
+    {
+      "stat": "$38\u201342B",
+      "statColor": "#5b6b7c",
+      "title": "A huge building budget",
+      "text": "TSMC set its 2025 capital budget at $38\u201342B and guided Q1 2025 revenue of $25.0\u201325.8B with a gross margin of 57\u201359% \u2014 a seasonal step down, with AI demand still growing underneath."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/a4q24e_withguidancexfinal.htm"
+    },
+    {
+      "label": "Consolidated financial statements, Q4 2024 (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000019/tsmc2024q4consolidatedfina.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "High-performance computing",
+      "amount": 53.0
+    },
+    {
+      "label": "Smartphone",
+      "amount": 35.0
+    },
+    {
+      "label": "Internet of Things",
+      "amount": 5.0
+    },
+    {
+      "label": "Automotive",
+      "amount": 4.0
+    },
+    {
+      "label": "Digital consumer electronics",
+      "amount": 1.0
+    },
+    {
+      "label": "Others",
+      "amount": 2.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -41.0
+    },
+    {
+      "label": "Operating expenses",
+      "amount": -9.97
+    },
+    {
+      "label": "Other income",
+      "amount": 2.66
+    },
+    {
+      "label": "Tax",
+      "amount": -8.54
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 43.14
+    }
+  ]
+}

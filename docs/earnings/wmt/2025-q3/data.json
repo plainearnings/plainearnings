@@ -1,0 +1,153 @@
+{
+  "ticker": "WMT",
+  "company": "Walmart",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2024-10-31",
+  "reportedDate": "2024-11-19",
+  "verdict": "Walmart's revenue rose 5.5% to $169.6B and operating income grew 8.2% as U.S. comparable sales rose 5.3% \u2014 and headline profit jumped to $4.6B from $0.5B a year ago, when a $4.75B paper loss on investment stakes crushed it.",
+  "revenueYoY": "+5.5%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$169.6B",
+      "note": "+5.5% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.57",
+      "note": "vs $0.17 a year ago; adjusted $0.58"
+    },
+    {
+      "label": "Operating income",
+      "value": "$6.7B",
+      "note": "+8.2% YoY"
+    },
+    {
+      "label": "eCommerce",
+      "value": "+27%",
+      "note": "global growth, all segments"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Walmart U.S.",
+      "amountM": 114875,
+      "yoy": "+5.0%",
+      "note": "The big U.S. stores \u2014 comparable sales up 5.3% on more transactions and bigger baskets, with eCommerce contributing about 290 basis points of the comp."
+    },
+    {
+      "name": "Walmart International",
+      "amountM": 30277,
+      "yoy": "+8.0%",
+      "note": "Stores and e-commerce outside the U.S., including Flipkart in India \u2014 net sales up 8.0% in dollars and 12.4% in constant currency."
+    },
+    {
+      "name": "Sam's Club U.S.",
+      "amountM": 22851,
+      "yoy": "+3.9%",
+      "note": "The warehouse-club business \u2014 net sales up 7.2% excluding fuel, with comparable sales up 7.0% excluding fuel, led by food and health & wellness."
+    },
+    {
+      "name": "Membership & other income",
+      "amountM": 1585,
+      "yoy": "+16.1%",
+      "note": "Sam's Club membership fees plus advertising (the global advertising business grew 28%) and other income."
+    }
+  ],
+  "flow": {
+    "revenueM": 169588,
+    "costOfRevenueM": 127340,
+    "grossProfitM": 42248,
+    "opex": [
+      {
+        "name": "Operating, selling, general & administrative",
+        "amountM": 35540,
+        "note": "Running the stores, the supply chain and the back office."
+      }
+    ],
+    "operatingIncomeM": 6708,
+    "otherIncomeM": -610,
+    "equityM": -137,
+    "taxM": 1384,
+    "netIncomeM": 4577
+  },
+  "otherDetail": "Interest of $478M, net, plus a $132M loss on equity and other investments \u2014 mostly fair-value moves. A year ago that investments line was a $4,750M loss, which is why the year-ago profit was so small.",
+  "footerNote": "Net profit shown is the $4,577M attributable to Walmart; consolidated net income was $4,714M, of which $137M belongs to noncontrolling interests.",
+  "follow100Note": "Walmart keeps just $2.70 of every $100 \u2014 but on $169.6B of quarterly revenue that is still $4.6B. A year ago the same quarter kept only about $0.30 of every $100, after a $4.75B paper loss on investment stakes.",
+  "takeaways": [
+    {
+      "stat": "+8.2%",
+      "statColor": "#3e8e5a",
+      "title": "Stores earned faster than sales",
+      "text": "Operating income rose 8.2% to $6.7B \u2014 faster than sales \u2014 as the gross margin rate improved 21 basis points, membership income grew, and eCommerce losses shrank."
+    },
+    {
+      "stat": "+27%",
+      "statColor": "#3d7bc8",
+      "title": "eCommerce and ads surged",
+      "text": "Global eCommerce sales grew 27%, led by store-fulfilled pickup and delivery and the marketplace, and the global advertising business grew 28% \u2014 newer, higher-margin income streams growing far faster than the stores."
+    },
+    {
+      "stat": "Raised",
+      "statColor": "#5b6b7c",
+      "title": "Full-year guidance lifted",
+      "text": "Walmart raised its FY25 outlook: net sales growth of 4.8% to 5.1% and adjusted operating income growth of 8.5% to 9.25% in constant currency."
+    }
+  ],
+  "oneTimers": [
+    "Other (gains) and losses was a $132M loss on equity and other investments \u2014 mostly fair-value moves. Adjusted EPS of $0.58 excludes a $0.01 net-of-tax loss from these items. A year ago the same line was a $4,750M loss, which cut that quarter's attributable profit to $453M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000170/earningsreleasefy25q3.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended October 31, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Walmart U.S.",
+      "amount": 67.74
+    },
+    {
+      "label": "Walmart International",
+      "amount": 17.85
+    },
+    {
+      "label": "Sam's Club U.S.",
+      "amount": 13.47
+    },
+    {
+      "label": "Membership & other income",
+      "amount": 0.93
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -75.09
+    },
+    {
+      "label": "Operating & admin costs",
+      "amount": -20.96
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.36
+    },
+    {
+      "label": "Tax",
+      "amount": -0.82
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.7
+    }
+  ]
+}
