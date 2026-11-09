@@ -1,0 +1,157 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-13",
+  "revenueYoY": "+138%",
+  "verdict": "Coinbase rode the post-election crypto rally to its biggest quarter yet: revenue jumped 88% from Q3 to $2.27B as trading surged, and it kept $1.29B as profit \u2014 helped by a $476M paper gain on the crypto it holds as an investment.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+138%",
+      "note": "vs a year ago \u2014 and +88% from Q3 as crypto rallied"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$4.68",
+      "note": "diluted \u2014 vs $1.04 a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.29B",
+      "note": "vs $273M a year ago"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.29B",
+      "note": "57% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Transaction revenue",
+      "amountM": 1555.966,
+      "yoy": "+194%",
+      "note": "Fees from crypto trading \u2014 consumer $1,347M, institutional $141M, other $68M. Trading volume hit $439B as crypto prices and volatility surged after the US election."
+    },
+    {
+      "name": "Subscription and services",
+      "amountM": 641.064,
+      "yoy": "+71%",
+      "note": "Steadier income: stablecoin revenue $226M, blockchain rewards $215M, interest and finance fees $66M, custody fees $43M and other services $91M."
+    },
+    {
+      "name": "Other revenue",
+      "amountM": 74.607,
+      "yoy": "+52%",
+      "note": "Interest earned on Coinbase's own corporate cash."
+    }
+  ],
+  "flow": {
+    "revenueM": 2271.637,
+    "costOfRevenueM": 317.042,
+    "grossProfitM": 1954.595,
+    "opex": [
+      {
+        "name": "Technology & development",
+        "amountM": 368.691,
+        "note": "Building the platform \u2014 engineering and product."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 362.519,
+        "note": "Running the company \u2014 legal, compliance and the back office."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 225.827,
+        "note": "Advertising, USDC rewards and winning customers \u2014 more than double a year ago as Coinbase marketed into the crypto rally."
+      }
+    ],
+    "operatingIncomeM": 997.558,
+    "otherIncomeM": 499.318,
+    "taxM": 205.7,
+    "netIncomeM": 1291.176
+  },
+  "otherDetail": "A $476M gain on crypto Coinbase holds as an investment \u2014 a paper gain as prices rose \u2014 plus $7M of other income and $37M of net operating gains Coinbase reports inside its expense lines (a $16M gain on crypto held for operations and $21M of other operating income), less $21M of interest expense: a net $499M.",
+  "follow100": [
+    {
+      "label": "Transaction revenue",
+      "amount": 68.5
+    },
+    {
+      "label": "Subscription and services",
+      "amount": 28.22
+    },
+    {
+      "label": "Other revenue",
+      "amount": 3.28
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -13.96
+    },
+    {
+      "label": "Technology & development",
+      "amount": -16.23
+    },
+    {
+      "label": "G&A",
+      "amount": -15.96
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -9.94
+    },
+    {
+      "label": "Other income",
+      "amount": 21.98
+    },
+    {
+      "label": "Tax",
+      "amount": -9.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 56.84
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$439B",
+      "statColor": "#3d7bc8",
+      "title": "Trading exploded after the election",
+      "text": "Trading volume reached $439B in the quarter, and transaction revenue rose 172% from Q3 to $1.56B as crypto prices and volatility surged in November and December. Trading is still the engine: it brought in 68 cents of every revenue dollar."
+    },
+    {
+      "stat": "$1.29B",
+      "statColor": "#3e8e5a",
+      "title": "A record profit",
+      "text": "Net income was $1.29B, nearly five times a year ago. About $476M of it was a paper gain on crypto Coinbase holds as an investment \u2014 real only if prices hold \u2014 but the core business was strongly profitable on its own, with $1.03B of reported operating income."
+    },
+    {
+      "stat": "$641M",
+      "statColor": "#3d7bc8",
+      "title": "The steady side kept growing too",
+      "text": "Subscription and services revenue \u2014 stablecoins, staking rewards, custody \u2014 rose 15% from Q3 to $641M. It is smaller than trading but far less dependent on market mood swings."
+    }
+  ],
+  "oneTimers": [
+    "A $476M pre-tax gain on crypto assets held for investment \u2014 unrealized, and it reverses if crypto prices fall.",
+    "$37M of net operating gains (crypto held for operations, and other operating income) that Coinbase reports inside its expense lines; the chart shows them in the other-income step \u2014 see the note under the chart."
+  ],
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. Coinbase also reports two gain lines inside operating expenses (a $16M gain on crypto held for operations and $20M of other operating income \u2014 $37M in total); the chart shows that $37M in the 'other income' step instead, so the chart's operating profit is $998M rather than the reported $1,034M \u2014 net income is unchanged. Segment revenue is exact from Coinbase's Form 10-K (full year) less its Q3 2024 Form 10-Q (nine months). Figures are from Coinbase's Q4 2024 shareholder letter (Exhibit 99.1) and Form 10-K.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000021/q424shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000022/coin-20241231.htm"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "periodEnd": "2024-10-31",
+  "reportedDate": "2024-12-03",
+  "revenueYoY": "+8%",
+  "verdict": "Salesforce grew revenue 8% to $9.44B and \u2014 by holding cost growth below sales growth \u2014 turned it into $1.53B of profit, up 25% from a year ago, in the quarter it launched Agentforce, its AI-agent platform.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.58",
+      "note": "diluted \u2014 vs $1.25 a year ago"
+    },
+    {
+      "label": "Operating margin",
+      "value": "20%",
+      "note": "vs 17% a year ago"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.53B",
+      "note": "up 25% from a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription and support",
+      "amountM": 8879,
+      "yoy": "+9%",
+      "note": "Renting Salesforce's software \u2014 sales, service, marketing, Slack, Tableau and the rest \u2014 plus support. The recurring base of the business: 94 cents of every revenue dollar."
+    },
+    {
+      "name": "Professional services",
+      "amountM": 565,
+      "yoy": "-2%",
+      "note": "Consultants who help customers set the software up \u2014 a people-heavy business Salesforce is deliberately keeping small."
+    }
+  ],
+  "flow": {
+    "revenueM": 9444,
+    "costOfRevenueM": 2105,
+    "grossProfitM": 7339,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1356,
+        "note": "Building the platform \u2014 including Agentforce, Salesforce's AI agents, launched this quarter \u2014 up 13% YoY."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 3323,
+        "note": "The largest running cost \u2014 Salesforce's big sales force and marketing machine, up 5% YoY."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 711,
+        "note": "Running the company day to day \u2014 up 12% YoY."
+      },
+      {
+        "name": "Restructuring",
+        "amountM": 56,
+        "note": "One-off costs of reorganizing teams and facilities."
+      }
+    ],
+    "operatingIncomeM": 1893,
+    "otherIncomeM": -147,
+    "taxM": 219,
+    "netIncomeM": 1527
+  },
+  "otherDetail": "A $217M loss on Salesforce's strategic investments \u2014 paper markdowns on stakes it holds in other companies \u2014 partly offset by $70M of other income: a net $147M cost.",
+  "follow100": [
+    {
+      "label": "Subscription and support",
+      "amount": 94.02
+    },
+    {
+      "label": "Professional services",
+      "amount": 5.98
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -22.29
+    },
+    {
+      "label": "R&D",
+      "amount": -14.36
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -35.19
+    },
+    {
+      "label": "G&A",
+      "amount": -7.53
+    },
+    {
+      "label": "Restructuring",
+      "amount": -0.59
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.56
+    },
+    {
+      "label": "Tax",
+      "amount": -2.32
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 16.17
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "20%",
+      "statColor": "#3e8e5a",
+      "title": "Margin discipline is the story",
+      "text": "Operating margin reached 20%, up from 17% a year ago: Salesforce grew revenue 8% while its costs grew more slowly. Profit rose 25% even though a $217M paper loss on strategic investments sat below the operating line."
+    },
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Subscriptions did the growing",
+      "text": "Subscription and support revenue rose 9% to $8.88B \u2014 94 cents of every dollar \u2014 while professional services shrank slightly. This was also the launch quarter for Agentforce, Salesforce's AI agents and its biggest product bet of the year."
+    },
+    {
+      "stat": "$56M",
+      "statColor": "#d96a57",
+      "title": "Restructuring is now a habit",
+      "text": "Salesforce booked another $56M restructuring charge \u2014 its third straight year of periodic reorganization costs. Small next to $9.4B of revenue, but a recurring feature of how the company now manages its cost base."
+    }
+  ],
+  "oneTimers": [
+    "A $217M loss on strategic investments \u2014 unrealized markdowns on stakes Salesforce holds in other tech companies.",
+    "A $56M restructuring charge inside operating expenses."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000033/crm-q3fy25xexhibit991.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000034/crm-20241031.htm"
+    }
+  ]
+}
