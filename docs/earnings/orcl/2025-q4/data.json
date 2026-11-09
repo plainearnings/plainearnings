@@ -1,0 +1,180 @@
+{
+  "company": "Oracle",
+  "flow": {
+    "costOfRevenueM": 4740,
+    "grossProfitM": 11163,
+    "netIncomeM": 3427,
+    "operatingIncomeM": 5109,
+    "opex": [
+      {
+        "amountM": 2654,
+        "name": "Research & development",
+        "note": "Building the cloud platform and the database software \u2014 up 19% YoY as Oracle races to add AI capacity."
+      },
+      {
+        "amountM": 2306,
+        "name": "Sales & marketing",
+        "note": "Selling to enterprises \u2014 up 9% YoY."
+      },
+      {
+        "amountM": 467,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 finance, legal and the back office, up 16% YoY."
+      },
+      {
+        "amountM": 544,
+        "name": "Amortization of intangible assets",
+        "note": "Writing down the value of past acquisitions over time \u2014 a non-cash charge, down 27% YoY."
+      },
+      {
+        "amountM": 83,
+        "name": "Restructuring and other",
+        "note": "Restructuring charges of $79M plus $4M of acquisition-related costs."
+      }
+    ],
+    "otherIncomeM": -958,
+    "revenueM": 15903,
+    "taxM": 724
+  },
+  "follow100": [
+    {
+      "amount": 73.56,
+      "label": "Cloud services & support"
+    },
+    {
+      "amount": 12.62,
+      "label": "Licenses"
+    },
+    {
+      "amount": 5.34,
+      "label": "Hardware"
+    },
+    {
+      "amount": 8.48,
+      "label": "Services"
+    },
+    {
+      "amount": -29.81,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -16.69,
+      "label": "R&D"
+    },
+    {
+      "amount": -14.5,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -2.94,
+      "label": "G&A"
+    },
+    {
+      "amount": -3.42,
+      "label": "Amortization"
+    },
+    {
+      "amount": -0.52,
+      "label": "Restructuring & other"
+    },
+    {
+      "amount": -6.02,
+      "label": "Other expense"
+    },
+    {
+      "amount": -4.55,
+      "label": "Tax"
+    },
+    {
+      "amount": 21.55,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Oracle reports its delivery costs as 'Cloud services and license support', 'Hardware' and 'Services' expense lines; those three are combined here as cost of revenue. Segment names follow Oracle's fiscal 2025 presentation; from fiscal 2026 Oracle regrouped its reporting into Cloud, Software, Hardware and Services.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+11%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted; non-GAAP $1.70",
+      "value": "$1.19"
+    },
+    {
+      "label": "Backlog (RPO)",
+      "note": "+41% YoY",
+      "value": "$138B"
+    },
+    {
+      "label": "Cloud revenue",
+      "note": "+27% YoY \u2014 IaaS plus SaaS",
+      "value": "$6.7B"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges of $79M sit inside operating expenses."
+  ],
+  "otherDetail": "Interest expense of $978M on Oracle's debt, partly offset by $20M of non-operating income, net.",
+  "periodEnd": "2025-05-31",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-06-11",
+  "revenueYoY": "+11%",
+  "segments": [
+    {
+      "amountM": 11698,
+      "name": "Cloud services & license support",
+      "note": "Renting Oracle's cloud, plus support for the software customers already run \u2014 the steady base of the business, 74% of all revenue.",
+      "yoy": "+14%"
+    },
+    {
+      "amountM": 2007,
+      "name": "Cloud license & on-premise license",
+      "note": "New software licenses sold outright, for customers running Oracle on their own machines.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 850,
+      "name": "Hardware",
+      "note": "Servers and engineered systems.",
+      "yoy": "+1%"
+    },
+    {
+      "amountM": 1348,
+      "name": "Services",
+      "note": "Consulting and support services that help customers run Oracle products.",
+      "yoy": "-2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025084831/orcl-ex99_1.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$138B",
+      "statColor": "#3d7bc8",
+      "text": "Remaining performance obligations \u2014 contracts signed but not yet delivered \u2014 reached $138B, up 41% in a year, as big customers committed to Oracle's cloud for AI workloads.",
+      "title": "The backlog jumped 41%"
+    },
+    {
+      "stat": "+27%",
+      "statColor": "#3e8e5a",
+      "text": "Total cloud revenue \u2014 applications plus infrastructure \u2014 rose 27% to $6.7B, with cloud infrastructure alone up 52% to $3.0B. Oracle said it expected triple-digit growth in MultiCloud database revenue to continue.",
+      "title": "Cloud kept compounding"
+    },
+    {
+      "stat": "$3.4B",
+      "statColor": "#3d7bc8",
+      "text": "Net income rose 9% to $3.4B even as cloud delivery costs jumped 33% \u2014 Oracle is spending heavily to build AI data centers against that backlog. Non-GAAP EPS was $1.70.",
+      "title": "Profit grew through the build-out"
+    }
+  ],
+  "ticker": "ORCL",
+  "verdict": "Oracle closed fiscal 2025 with revenue up 11% to $15.9B and net income up 9% to $3.4B \u2014 and the real headline was the backlog of signed contracts not yet delivered, which jumped 41% in a year to $138B."
+}

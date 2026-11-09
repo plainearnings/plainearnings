@@ -1,0 +1,167 @@
+{
+  "company": "Coinbase",
+  "flow": {
+    "costOfRevenueM": 245.261,
+    "grossProfitM": 1251.947,
+    "netIncomeM": 1428.9,
+    "operatingIncomeM": -24.65,
+    "opex": [
+      {
+        "amountM": 387.322,
+        "name": "Technology & development",
+        "note": "Building the platform \u2014 engineering and product. Headcount grew 8% in the quarter to 4,279."
+      },
+      {
+        "amountM": 353.707,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, compliance and the back office."
+      },
+      {
+        "amountM": 236.245,
+        "name": "Sales & marketing",
+        "note": "Advertising, USDC rewards and winning customers."
+      },
+      {
+        "amountM": 299.323,
+        "name": "Other operating expense, net",
+        "note": "$308M of other operating costs \u2014 substantially all of it tied to the May 2025 data-theft incident, including customer reimbursements \u2014 partly offset by a $9M paper gain on crypto Coinbase holds to run its business."
+      }
+    ],
+    "otherIncomeM": 1848.423,
+    "revenueM": 1497.208,
+    "taxM": 394.873
+  },
+  "follow100": [
+    {
+      "amount": 51.05,
+      "label": "Transaction revenue"
+    },
+    {
+      "amount": 43.8,
+      "label": "Subscriptions & services"
+    },
+    {
+      "amount": 5.15,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -16.38,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -25.87,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -23.63,
+      "label": "G&A"
+    },
+    {
+      "amount": -15.78,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -19.99,
+      "label": "Other operating expense, net"
+    },
+    {
+      "amount": 123.45,
+      "label": "Investment gains"
+    },
+    {
+      "amount": -26.37,
+      "label": "Tax"
+    },
+    {
+      "amount": 95.44,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Of every $100 Coinbase took in, its running costs came to $101.65 \u2014 the quarter only ended in profit because paper gains on its investments added $123.45. Rows may not add exactly due to rounding.",
+  "footerNote": "Coinbase reports no gross-profit line; 'Transaction expense' \u2014 the direct cost of processing trades \u2014 is shown as cost of revenue. The core business made a $25M operating loss this quarter, so the chart has no operating-profit step: the investment gains (shown as other income) cover the small shortfall, pay the tax bill, and make up the net profit. 'Other operating expense, net' of $299M nets a $9M gain on crypto held for operations against $308M of other operating costs, substantially all data-theft incident costs. Figures are from Coinbase's Q2 2025 shareholder letter (Exhibit 99.1) and Form 10-Q.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 but down 26% from Q1 as crypto volatility faded",
+      "value": "+3%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs $0.14 a year ago",
+      "value": "$5.14"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "34% of revenue",
+      "value": "$512M"
+    },
+    {
+      "label": "$USD resources",
+      "note": "cash, USDC and investments at quarter end",
+      "value": "$9.3B"
+    }
+  ],
+  "oneTimers": [
+    "A roughly $1.5B pre-tax gain on strategic investments, mostly an unrealized mark-up of Coinbase's stake in Circle after its June 2025 IPO \u2014 non-cash.",
+    "A $362M pre-tax gain on crypto assets held for investment \u2014 largely unrealized.",
+    "$308M of costs tied to the May 2025 data-theft incident, inside other operating expense."
+  ],
+  "otherDetail": "A $1,507M gain on strategic investments \u2014 mostly the Circle stake \u2014 plus a $362M gain on crypto held as an investment, less $21M of interest expense: a net $1,848M. These paper gains are why a quarter with an operating loss still shows a large net profit.",
+  "periodEnd": "2025-06-30",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2025-07-31",
+  "revenueYoY": "+3%",
+  "segments": [
+    {
+      "amountM": 764.27,
+      "name": "Transaction revenue",
+      "note": "Fees from crypto trading \u2014 consumer $650M, institutional $61M, other $54M. Volumes fell as crypto market volatility dropped sharply from the start of the year.",
+      "yoy": "-2%"
+    },
+    {
+      "amountM": 655.826,
+      "name": "Subscription and services",
+      "note": "Steadier income: stablecoin revenue $332M, blockchain rewards $145M, interest and finance fees $59M, and other services $119M.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 77.112,
+      "name": "Other revenue",
+      "note": "Interest earned on Coinbase's own corporate cash.",
+      "yoy": "+11%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000153/q225shareholderletter.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000154/coin-20250630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1.5B",
+      "statColor": "#3e8e5a",
+      "text": "Coinbase's stake in Circle \u2014 the stablecoin company that went public in June \u2014 was marked up by about $1.5B, and the crypto it holds as an investment gained another $362M. Neither is cash, and both reverse if prices fall: adjusted net income, which strips both out, was just $33M.",
+      "title": "A paper gain did the heavy lifting"
+    },
+    {
+      "stat": "-26%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue fell 26% from the first quarter to $1.50B as crypto volatility \u2014 the fuel of trading fees \u2014 dropped. Transaction revenue fell 39% to $764M, while subscription and services revenue held up better, slipping 6% to $656M.",
+      "title": "Trading cooled from Q1"
+    },
+    {
+      "stat": "$308M",
+      "statColor": "#d96a57",
+      "text": "Other operating costs were $308M, substantially all tied to the May 2025 data-theft incident \u2014 customer reimbursements, remediation and legal costs. That one item is what pushed the core business to a $25M operating loss.",
+      "title": "The data-theft bill arrived"
+    }
+  ],
+  "ticker": "COIN",
+  "verdict": "Coinbase's core business ran at a small operating loss in a quieter crypto quarter \u2014 revenue fell 26% from Q1 as trading cooled \u2014 but paper gains on its investments, above all a roughly $1.5B mark-up on its Circle stake, turned the quarter into a $1.43B net profit."
+}

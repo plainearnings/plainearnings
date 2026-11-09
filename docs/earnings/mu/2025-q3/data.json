@@ -1,0 +1,169 @@
+{
+  "company": "Micron",
+  "flow": {
+    "costOfRevenueM": 5793,
+    "equityM": 7,
+    "grossProfitM": 3508,
+    "netIncomeM": 1885,
+    "operatingIncomeM": 2169,
+    "opex": [
+      {
+        "amountM": 965,
+        "name": "Research & development",
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "amountM": 318,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams and the cost of running the company."
+      },
+      {
+        "amountM": 56,
+        "name": "Other operating expense",
+        "note": "Small other operating costs, net."
+      }
+    ],
+    "otherIncomeM": -56,
+    "revenueM": 9301,
+    "taxM": 235
+  },
+  "follow100": [
+    {
+      "amount": 36.4,
+      "label": "Cloud Memory"
+    },
+    {
+      "amount": 16.45,
+      "label": "Core Data Center"
+    },
+    {
+      "amount": 35.0,
+      "label": "Mobile and Client"
+    },
+    {
+      "amount": 12.12,
+      "label": "Automotive & embedded"
+    },
+    {
+      "amount": 0.03,
+      "label": "All other"
+    },
+    {
+      "amount": -62.28,
+      "label": "Cost of goods sold"
+    },
+    {
+      "amount": -10.38,
+      "label": "R&D"
+    },
+    {
+      "amount": -3.42,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.6,
+      "label": "Other operating expense"
+    },
+    {
+      "amount": -0.6,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.53,
+      "label": "Tax"
+    },
+    {
+      "amount": 20.27,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Business-unit revenues are on Micron's recast segment basis (adopted in fiscal 2026), as reported for this quarter in the segment note of Micron's Q3 FY26 Form 10-Q; 'All other' is the small residual outside the four units.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 the AI memory supercycle",
+      "value": "+37%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted",
+      "value": "$1.68"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 27% a year ago",
+      "value": "38%"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "note": "after $2.7B of capex",
+      "value": "$1.95B"
+    }
+  ],
+  "otherDetail": "Interest income of $135M on Micron's growing cash pile, less $123M of interest expense and $68M of other non-operating expense, plus a $7M gain from equity-method investments \u2014 a net -$56M.",
+  "periodEnd": "2025-05-29",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-06-25",
+  "revenueYoY": "+37%",
+  "segments": [
+    {
+      "amountM": 3386,
+      "name": "Cloud Memory",
+      "note": "High-bandwidth memory (HBM) stacked right beside AI processors in cloud servers \u2014 the scarcest, most valuable memory Micron makes, at a 58% gross margin this quarter."
+    },
+    {
+      "amountM": 1530,
+      "name": "Core Data Center",
+      "note": "DRAM and NAND for conventional cloud and enterprise data-center servers \u2014 a 38% gross margin this quarter."
+    },
+    {
+      "amountM": 3255,
+      "name": "Mobile and Client",
+      "note": "Memory for smartphones, PCs and other consumer devices \u2014 a 24% gross margin this quarter."
+    },
+    {
+      "amountM": 1127,
+      "name": "Automotive and Embedded",
+      "note": "Memory for cars, factories and industrial equipment \u2014 a 26% gross margin this quarter."
+    },
+    {
+      "amountM": 3,
+      "name": "All other",
+      "note": "Small leftovers outside the four business units."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000019/a2025q3ex991-pressrelease.htm"
+    },
+    {
+      "label": "Form 10-Q segment detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.4B",
+      "statColor": "#3d7bc8",
+      "text": "High-bandwidth memory for AI servers brought in $3.4B at a 58% gross margin \u2014 already Micron's largest business unit, and by far its most profitable per dollar of sales.",
+      "title": "Cloud Memory leads"
+    },
+    {
+      "stat": "38%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin hit 38%, up from 27% a year ago \u2014 with AI memory in short supply, higher prices fall almost straight through to profit. Non-GAAP gross margin was 39%.",
+      "title": "Margins widened"
+    },
+    {
+      "stat": "$1.9B",
+      "statColor": "#3e8e5a",
+      "text": "Net income rose to $1.9B from $332M a year ago, and Micron guided the next quarter's revenue to $10.7B as the AI build-out accelerated.",
+      "title": "Profit jumped five-fold"
+    }
+  ],
+  "ticker": "MU",
+  "verdict": "Micron's revenue rose 37% to $9.3B as AI demand for its memory chips kept booming \u2014 gross margin widened to 38% and net income jumped to $1.9B, more than five times a year ago."
+}

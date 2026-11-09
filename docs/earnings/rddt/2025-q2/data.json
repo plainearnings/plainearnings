@@ -1,0 +1,138 @@
+{
+  "company": "Reddit",
+  "flow": {
+    "costOfRevenueM": 45.9,
+    "grossProfitM": 453.727,
+    "netIncomeM": 89.297,
+    "operatingIncomeM": 67.711,
+    "opex": [
+      {
+        "amountM": 196.61,
+        "name": "Research & development",
+        "note": "Building the product and the ad platform \u2014 up 38% YoY."
+      },
+      {
+        "amountM": 120.619,
+        "name": "Sales & marketing",
+        "note": "Winning advertisers and users \u2014 up 69% YoY."
+      },
+      {
+        "amountM": 68.787,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 roughly flat vs a year ago."
+      }
+    ],
+    "otherIncomeM": 21.586,
+    "revenueM": 499.627,
+    "taxM": 0
+  },
+  "follow100": [
+    {
+      "amount": 93.03,
+      "label": "Advertising"
+    },
+    {
+      "amount": 6.97,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -9.19,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -39.35,
+      "label": "R&D"
+    },
+    {
+      "amount": -24.14,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -13.77,
+      "label": "G&A"
+    },
+    {
+      "amount": 4.32,
+      "label": "Other income"
+    },
+    {
+      "amount": 17.87,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Figures are from Reddit's Q2 2025 earnings release (Exhibit 99.1) and Form 10-Q; the advertising/other revenue split is from the 10-Q. Reddit's tax line was a $0.4M benefit this quarter; it is folded into other income so the chart's tax step reads $0.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+78%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs a $0.06 loss a year ago",
+      "value": "$0.45"
+    },
+    {
+      "label": "Daily users",
+      "note": "DAUq, +21% YoY",
+      "value": "110.4M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "33% of revenue",
+      "value": "$167M"
+    }
+  ],
+  "otherDetail": "Other income of $21M, net \u2014 mostly interest earned on Reddit's cash and marketable securities \u2014 plus a small $0.4M tax benefit: Reddit's tax line was slightly negative this quarter, so it is counted here and the tax step reads $0.",
+  "periodEnd": "2025-06-30",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2025-07-31",
+  "revenueYoY": "+78%",
+  "segments": [
+    {
+      "amountM": 464.785,
+      "name": "Advertising",
+      "note": "Ads shown across Reddit's communities \u2014 powered by more users, more time on site, and better ad targeting.",
+      "yoy": "+84%"
+    },
+    {
+      "amountM": 34.842,
+      "name": "Other revenue",
+      "note": "Mostly data licensing \u2014 deals that let AI companies train on Reddit's public posts \u2014 plus Reddit Premium subscriptions.",
+      "yoy": "+24%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000194/earningspressreleaseq225.htm"
+    },
+    {
+      "label": "Form 10-Q financial statements (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000196/rddt-20250630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+78%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue growth hit 78%, powered by advertising (+84%) as daily users reached 110.4M, up 21% \u2014 more people, spending more time, in more communities Reddit can sell ads against.",
+      "title": "Growth accelerated"
+    },
+    {
+      "stat": "$89M",
+      "statColor": "#3e8e5a",
+      "text": "Net income was $89M, versus a $10M loss a year ago. Operating income swung from a $31M loss to a $68M profit, because revenue grew far faster than costs.",
+      "title": "A year-ago loss became a profit"
+    },
+    {
+      "stat": "$111M",
+      "statColor": "#3d7bc8",
+      "text": "Operating cash flow was $111M, up from $28M a year ago \u2014 the profit is turning into cash, not just accounting gains.",
+      "title": "Cash flow followed"
+    }
+  ],
+  "ticker": "RDDT",
+  "verdict": "Reddit's revenue grew 78% to $500M as ad sales jumped 84% \u2014 and the young public company turned solidly profitable, with net income of $89M, 18 cents of every revenue dollar."
+}
