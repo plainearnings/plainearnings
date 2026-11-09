@@ -1,0 +1,159 @@
+{
+  "company": "Tesla",
+  "flow": {
+    "costOfRevenueM": 20922,
+    "grossProfitM": 4578,
+    "netIncomeM": 1494,
+    "operatingIncomeM": 1605,
+    "opex": [
+      {
+        "amountM": 1074,
+        "name": "Research & development",
+        "note": "New vehicles, AI and other development \u2014 up from $943M a year ago as Tesla spent more on AI projects."
+      },
+      {
+        "amountM": 1277,
+        "name": "Selling, general & administrative",
+        "note": "Selling cars and running the company day to day."
+      },
+      {
+        "amountM": 622,
+        "name": "Restructuring & other",
+        "note": "One-off cost-cutting charge \u2014 $583M of it was employee termination expenses from actions initiated and substantially completed in Q2."
+      }
+    ],
+    "otherIncomeM": 282,
+    "revenueM": 25500,
+    "taxM": 393
+  },
+  "follow100": [
+    {
+      "amount": 77.95,
+      "label": "Automotive"
+    },
+    {
+      "amount": 11.82,
+      "label": "Energy generation and storage"
+    },
+    {
+      "amount": 10.23,
+      "label": "Services and other"
+    },
+    {
+      "amount": -82.05,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -4.21,
+      "label": "R&D"
+    },
+    {
+      "amount": -5.01,
+      "label": "SG&A"
+    },
+    {
+      "amount": -2.44,
+      "label": "Restructuring & other"
+    },
+    {
+      "amount": 1.11,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.54,
+      "label": "Tax"
+    },
+    {
+      "amount": 5.86,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Net income here is Tesla's total net income of $1,494M; $1,478M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries). Financial statement figures are from the Q2 2024 Form 10-Q, with the summary cross-checked to the Q2 2024 update letter filed as 8-K Exhibit 99.1; deliveries and storage deployments are from the July 2, 2024 production and deliveries release.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "$25.5B total revenue vs a year ago",
+      "value": "+2%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.78 a year ago",
+      "value": "$0.42"
+    },
+    {
+      "label": "Deliveries",
+      "note": "-5% vs a year ago, up 15% vs Q1",
+      "value": "443,956"
+    },
+    {
+      "label": "Energy storage deployed",
+      "note": "record deployment, +158% vs a year ago",
+      "value": "9.4 GWh"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and other charge of $622M in Q2 2024, including $583M of employee termination expenses from restructuring actions initiated and substantially completed in the quarter to reduce costs and improve efficiency (Form 10-Q Note 13) \u2014 there was no such charge a year ago."
+  ],
+  "otherDetail": "Interest income of $348M and $20M of other income, less $86M of interest expense \u2014 a net +$282M below operating profit.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-07-23",
+  "revenueYoY": "+2%",
+  "segments": [
+    {
+      "amountM": 19878,
+      "name": "Automotive",
+      "note": "Selling and leasing cars, including a record $890M in regulatory credits from other automakers \u2014 revenue still fell 7% as Tesla cut prices and delivered 5% fewer cars.",
+      "yoy": "-7%"
+    },
+    {
+      "amountM": 3014,
+      "name": "Energy generation and storage",
+      "note": "Megapack batteries and solar \u2014 revenue doubled as storage deployments hit a record 9.4 GWh, with record revenue and gross profit for the segment.",
+      "yoy": "+100%"
+    },
+    {
+      "amountM": 2608,
+      "name": "Services and other",
+      "note": "Supercharging, repairs, insurance and used-car sales \u2014 grew 21% as the fleet of Teslas on the road keeps expanding.",
+      "yoy": "+21%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q for quarter ended June 30, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032662/tsla-20240630.htm"
+    },
+    {
+      "label": "Q2 2024 Update Letter \u2014 8-K Exhibit 99.1, July 23, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032603/exhibit.htm"
+    },
+    {
+      "label": "Production & Deliveries release \u2014 8-K Exhibit 99.1, July 2, 2024 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024030714/exhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "9.4 GWh",
+      "statColor": "#3e8e5a",
+      "text": "Energy generation and storage revenue doubled to $3,014M as Tesla deployed a record 9.4 GWh of storage in the quarter, up 158% from a year ago on higher Megapack deployments.",
+      "title": "Energy storage hit a record"
+    },
+    {
+      "stat": "-7%",
+      "statColor": "#cf5f4e",
+      "text": "Automotive revenue fell 7% to $19,878M as lower average selling prices and 5% fewer deliveries outweighed a record $890M in regulatory credits, up from $282M a year ago.",
+      "title": "Car revenue fell despite record credits"
+    },
+    {
+      "stat": "$622M",
+      "statColor": "#b98a1c",
+      "text": "A $622M restructuring and other charge helped push operating income down 33% to $1,605M and narrowed the operating margin to 6.3% from 9.6% a year ago; $583M of the charge was employee termination expenses.",
+      "title": "Restructuring charge cut into profit"
+    }
+  ],
+  "ticker": "TSLA",
+  "verdict": "Tesla's revenue rose just 2% to $25.5B as a record energy-storage quarter and record regulatory credits offset lower car prices and fewer deliveries, while a $622M restructuring charge cut operating profit by a third."
+}

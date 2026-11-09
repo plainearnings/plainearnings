@@ -1,0 +1,147 @@
+{
+  "company": "Broadcom",
+  "flow": {
+    "costOfRevenueM": 4711,
+    "grossProfitM": 7776,
+    "netIncomeM": 2121,
+    "operatingIncomeM": 2965,
+    "opex": [
+      {
+        "amountM": 2415,
+        "name": "Research & development",
+        "note": "Designing the next chips and software \u2014 swelled by VMware's engineers joining after the acquisition."
+      },
+      {
+        "amountM": 1277,
+        "name": "Selling, general & administrative",
+        "note": "Selling the products and running the company."
+      },
+      {
+        "amountM": 1119,
+        "name": "Amortization & restructuring",
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring charges from integrating VMware."
+      }
+    ],
+    "otherIncomeM": -960,
+    "revenueM": 12487,
+    "taxM": -116
+  },
+  "follow100": [
+    {
+      "amount": 57.68,
+      "label": "Semiconductor solutions"
+    },
+    {
+      "amount": 42.32,
+      "label": "Infrastructure software"
+    },
+    {
+      "amount": -37.73,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -19.34,
+      "label": "R&D"
+    },
+    {
+      "amount": -10.23,
+      "label": "SG&A"
+    },
+    {
+      "amount": -8.96,
+      "label": "Amortization & restructuring"
+    },
+    {
+      "amount": -7.69,
+      "label": "Other expense"
+    },
+    {
+      "amount": 0.93,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 16.99,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "EPS is shown exactly as reported in the release \u2014 GAAP diluted EPS of $4.42 \u2014 on a pre-split basis. The 10-for-1 forward stock split was announced in this same release, with split-adjusted trading expected to commence on July 15, 2024, so later filings restate this quarter's EPS as $0.44. All figures are GAAP, in $ millions unless noted; free cash flow is cash from operations of $4,580M less $132M of capital expenditures.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+43%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $8.15 a year ago \u2014 pre-split, as reported",
+      "value": "$4.42"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "note": "record AI products revenue in the quarter",
+      "value": "$3.1B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "36% of revenue",
+      "value": "$4.4B"
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $2,343M of amortization of acquisition-related intangible assets ($1,516M inside cost of revenue and $827M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $5,394M instead of $2,121M.",
+    "Restructuring and other charges totaled $345M ($53M inside cost of revenue and $292M inside operating expenses), and the non-GAAP reconciliation also adds back $90M of acquisition-related costs and a $22M loss on debt extinguishment \u2014 the costs of integrating VMware.",
+    "The tax line was a $116M benefit, not an expense \u2014 it added to profit instead of subtracting from it. Broadcom's non-GAAP tax provision for the same quarter was $823M."
+  ],
+  "otherDetail": "Interest expense of $1,047M on Broadcom's debt, much of it taken on to buy VMware, partly offset by $87M of other income \u2014 a net -$960M below operating profit.",
+  "periodEnd": "2024-05-05",
+  "quarterLabel": "Q2 FY24",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-06-12",
+  "revenueYoY": "+43%",
+  "segments": [
+    {
+      "amountM": 7202,
+      "name": "Semiconductor solutions",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI products revenue was a record $3.1B in the quarter.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 5285,
+      "name": "Infrastructure software",
+      "note": "VMware and other enterprise software \u2014 the jump is VMware, acquired in November 2023 and included for the full quarter, as more enterprises adopted the VMware stack to build their own private clouds.",
+      "yoy": "+175%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000077/avgo-05052024x8kxex99.htm"
+    },
+    {
+      "label": "Q2 FY24 Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.1B",
+      "statColor": "#3e8e5a",
+      "text": "Revenue from AI products was a record $3.1B \u2014 roughly 43% of all semiconductor revenue \u2014 driven by custom accelerators and networking gear for data centers, and management raised full-year guidance on the strength of AI and VMware.",
+      "title": "AI demand set a record"
+    },
+    {
+      "stat": "+175%",
+      "statColor": "#3d7bc8",
+      "text": "Infrastructure software revenue rose 175% to $5.3B \u2014 42% of all revenue, up from 22% a year ago \u2014 because VMware was included for a full quarter, giving Broadcom a large subscription software business alongside its chips.",
+      "title": "VMware remade the mix"
+    },
+    {
+      "stat": "-39%",
+      "statColor": "#cf5f4e",
+      "text": "GAAP net income fell 39% to $2.1B despite revenue rising 43%, weighed down by $2,343M of acquisition amortization, $345M of restructuring charges and $1,047M of interest expense. On Broadcom's non-GAAP view, net income was $5,394M.",
+      "title": "Profit fell even as sales soared"
+    }
+  ],
+  "ticker": "AVGO",
+  "verdict": "Broadcom's revenue jumped 43% to $12.5B as VMware made software nearly half the company and AI chip sales hit a record, but the cost of absorbing VMware pulled GAAP profit down to $2.1B."
+}

@@ -1,0 +1,162 @@
+{
+  "company": "Netflix",
+  "flow": {
+    "costOfRevenueM": 5174,
+    "grossProfitM": 4385,
+    "netIncomeM": 2147,
+    "operatingIncomeM": 2603,
+    "opex": [
+      {
+        "amountM": 711,
+        "name": "Technology & development",
+        "note": "The streaming platform, apps, recommendation systems and product development."
+      },
+      {
+        "amountM": 644,
+        "name": "Sales & marketing",
+        "note": "Advertising Netflix itself and winning subscribers."
+      },
+      {
+        "amountM": 427,
+        "name": "General & administrative",
+        "note": "Running the company: legal, finance and offices."
+      }
+    ],
+    "otherIncomeM": -89,
+    "revenueM": 9559,
+    "taxM": 367
+  },
+  "follow100": [
+    {
+      "amount": 44.93,
+      "label": "United States & Canada"
+    },
+    {
+      "amount": 31.47,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 12.6,
+      "label": "Latin America"
+    },
+    {
+      "amount": 11.01,
+      "label": "Asia-Pacific"
+    },
+    {
+      "amount": -54.13,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -7.44,
+      "label": "Technology & development"
+    },
+    {
+      "amount": -6.74,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -4.47,
+      "label": "G&A"
+    },
+    {
+      "amount": -0.93,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.84,
+      "label": "Tax"
+    },
+    {
+      "amount": 22.46,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Netflix reports in whole dollars; every line here is rounded to the nearest $M, with one $1M rounding adjustment (United States & Canada revenue shown as $4,295M, vs $4,296M in the shareholder letter) so the regional parts sum to total revenue and the chart ties to reported net income.",
+  "footerNote": "Figures are rounded to whole $M; United States & Canada revenue is shown as $4,295M ($4,296M in the shareholder letter) so the regional parts sum exactly to reported total revenue and the chart ties exactly to the reported $2,147M of net income. All other flow lines round directly from the as-reported thousands with no adjustment. Regional revenues are from the shareholder letter's regional breakdown.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago; +22% on an F/X-neutral basis",
+      "value": "+17%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $3.29 a year ago (both as reported, before the 10-for-1 stock split)",
+      "value": "$4.88"
+    },
+    {
+      "label": "Paid net additions",
+      "note": "memberships ended the quarter at 277.65M",
+      "value": "8.05M"
+    },
+    {
+      "label": "Operating margin",
+      "note": "operating income of $2.6B, +42% YoY",
+      "value": "27.2%"
+    }
+  ],
+  "oneTimers": [
+    "Currency gain: 'interest and other income' includes a $43M non-cash unrealized gain from F/X remeasurement on Netflix's euro-denominated debt \u2014 a paper gain below operating income, not revenue from running the service."
+  ],
+  "otherDetail": "Interest expense of $168M on Netflix's debt, partly offset by $79M of interest and other income \u2014 including a $43M non-cash unrealized gain from F/X remeasurement on its euro-denominated debt \u2014 a net -$89M below operating profit.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-07-18",
+  "revenueYoY": "+17%",
+  "segments": [
+    {
+      "amountM": 4295,
+      "name": "United States & Canada",
+      "note": "The biggest and richest market \u2014 84.11M paid memberships after 1.45M net additions, with revenue per member of $17.17 a month, up 7% year over year.",
+      "yoy": "+19%"
+    },
+    {
+      "amountM": 3008,
+      "name": "Europe, Middle East & Africa",
+      "note": "The second-largest region \u2014 93.96M paid memberships after 2.24M net additions; revenue per member was $10.80 a month, down 1% year over year as reported but up 1% on an F/X-neutral basis.",
+      "yoy": "+17%"
+    },
+    {
+      "amountM": 1204,
+      "name": "Latin America",
+      "note": "49.25M paid memberships after 1.53M net additions; revenue per member was $8.28 a month, down 3% as reported but up 24% on an F/X-neutral basis, reflecting large peso price increases in Argentina and the peso's devaluation.",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 1052,
+      "name": "Asia-Pacific",
+      "note": "The most net additions of any region \u2014 2.83M added to reach 50.32M paid memberships; revenue per member was $7.17 a month, down 6% year over year.",
+      "yoy": "+14%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000199/ex991_q224.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "8.05M",
+      "statColor": "#3d7bc8",
+      "text": "Netflix added 8.05M paid memberships, up from 5.89M a year ago, to end the quarter at 277.65M \u2014 paid memberships were up 16.5% year over year, with Asia-Pacific adding the most members (2.83M).",
+      "title": "Member growth stayed strong"
+    },
+    {
+      "stat": "+42%",
+      "statColor": "#3e8e5a",
+      "text": "Operating income rose 42% year over year to $2.6B on revenue growth of 17% \u2014 the operating margin reached 27.2%, five points better than 22.3% a year ago, and net income rose 44% to $2.1B.",
+      "title": "Profit grew much faster than revenue"
+    },
+    {
+      "stat": "26%",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $1.2B in the quarter, and Netflix raised its full-year 2024 outlook to revenue growth of 14% to 15% (from 13% to 15%) and an operating margin of 26% (from 25%).",
+      "title": "Cash flow, and a higher full-year bar"
+    }
+  ],
+  "ticker": "NFLX",
+  "verdict": "Netflix added 8.1M members and grew revenue 17% to $9.6B, and because costs grew far more slowly than sales, operating income jumped 42% to $2.6B and net income rose 44% to $2.1B."
+}

@@ -1,0 +1,167 @@
+{
+  "company": "JPMorgan Chase",
+  "costNodeName": "Credit costs",
+  "costNodePlain": "Money set aside for loans that may not be repaid \u2014 the provision for credit losses: $2,231M of loans were charged off in the quarter and an $821M net reserve build was added, mostly in Consumer, primarily Card Services.",
+  "flow": {
+    "costOfRevenueM": 3052,
+    "grossProfitM": 47148,
+    "netIncomeM": 18149,
+    "operatingIncomeM": 23435,
+    "opex": [
+      {
+        "amountM": 12953,
+        "name": "Compensation expense",
+        "note": "Pay and benefits for the bank's workforce \u2014 its biggest cost, up 15% YoY on employee growth and higher revenue-related compensation."
+      },
+      {
+        "amountM": 2722,
+        "name": "Professional & outside services",
+        "note": "Professional fees and outside services, as reported in the supplement \u2014 up 6% YoY."
+      },
+      {
+        "amountM": 2447,
+        "name": "Technology, communications & equipment",
+        "note": "Technology, communications and equipment \u2014 up 8% YoY as the bank invests in its platforms.",
+        "pngName": "Technology & equipment",
+        "shortName": "Technology & equipment"
+      },
+      {
+        "amountM": 1221,
+        "name": "Marketing",
+        "note": "Advertising and card marketing \u2014 up 9% YoY."
+      },
+      {
+        "amountM": 4370,
+        "name": "Occupancy & other expense",
+        "note": "Branches and offices ($1,248M of occupancy) plus other expense ($3,122M) \u2014 that other-expense line includes the $1.0B donation of Visa shares to the Firm's Foundation and $317M of legal expense.",
+        "pngName": "Occupancy & other expense"
+      }
+    ],
+    "otherIncomeM": 0,
+    "revenueM": 50200,
+    "taxM": 5286
+  },
+  "follow100": [
+    {
+      "amount": 45.31,
+      "label": "Net interest income"
+    },
+    {
+      "amount": 54.69,
+      "label": "Noninterest revenue"
+    },
+    {
+      "amount": -6.08,
+      "label": "Credit costs"
+    },
+    {
+      "amount": -25.8,
+      "label": "Compensation expense"
+    },
+    {
+      "amount": -5.42,
+      "label": "Professional & outside services"
+    },
+    {
+      "amount": -4.87,
+      "label": "Technology & equipment"
+    },
+    {
+      "amount": -2.43,
+      "label": "Marketing"
+    },
+    {
+      "amount": -8.71,
+      "label": "Occupancy & other expense"
+    },
+    {
+      "amount": -10.53,
+      "label": "Tax"
+    },
+    {
+      "amount": 36.15,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "JPMorgan reports revenue two ways: $50.2B reported (GAAP), used here, or $51.0B on a 'managed' basis that grosses up tax-exempt income by $792M ($115M of net interest income and $677M of noninterest revenue). Net income is identical either way. The rows reconcile to the $100 total within a cent of rounding.",
+  "footerNote": "JPMorgan headlines 'managed' revenue of $51.0B; this page uses reported (GAAP) revenue of $50.2B \u2014 the $792M difference is a fully taxable-equivalent gross-up of tax-exempt income ($115M in net interest income and $677M in noninterest revenue) that does not change net income. For a bank, credit costs (the provision for credit losses) play the role of cost of revenue, and 'operating profit' here is income before income taxes.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "reported basis, vs a year ago",
+      "value": "+22%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $4.75 a year ago \u2014 $4.40 excluding significant items",
+      "value": "$6.12"
+    },
+    {
+      "label": "Net interest income",
+      "note": "+4% YoY, reported basis",
+      "value": "$22.7B"
+    },
+    {
+      "label": "Credit costs",
+      "note": "$2,231M charged off, $821M reserve build",
+      "value": "$3.1B"
+    }
+  ],
+  "oneTimers": [
+    "$7.9B net gain related to Visa shares \u2014 JPMorgan tendered its 37.2 million Visa Class B-1 shares into Visa's exchange offer, receiving a combination of Visa Class B-2 and Class C shares; the gain on the Class C shares, held at fair value, was recorded in other income within noninterest revenue in Corporate. The release states it increased EPS by $2.04.",
+    "$1.0B donation of Visa shares to pre-fund contributions to the JPMorgan Chase Foundation \u2014 recorded in other expense in Corporate (it sits inside the 'Occupancy & other expense' bucket on this page) and reduced EPS by $0.18.",
+    "$546M of net investment securities losses in Corporate \u2014 the third 'significant item' flagged in the release; it reduced EPS by $0.14.",
+    "Excluding all three significant items, net income was $13.1B, EPS was $4.40 and ROTCE was 20%, versus reported net income of $18.1B, EPS of $6.12 and ROTCE of 28% \u2014 a $5.0B after-tax, $1.72-per-share difference, per the release."
+  ],
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-07-12",
+  "revenueYoY": "+22%",
+  "segments": [
+    {
+      "amountM": 22746,
+      "name": "Net interest income",
+      "note": "Interest earned on loans and securities, minus the interest paid on deposits and borrowings \u2014 the bank's core engine, up 4% as balance-sheet mix, higher rates, higher revolving Card balances and one extra month of First Republic income outweighed deposit margin compression.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 27454,
+      "name": "Noninterest revenue",
+      "note": "Fees, trading and asset-management income \u2014 up 41%, largely because it included the $7.9B gain on Visa shares in other income; investment banking fees rose 52% to $2,304M and asset management fees 14% to $4,302M.",
+      "yoy": "+41%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000446/a2q24erfexhibit991narrative.htm"
+    },
+    {
+      "label": "Earnings release financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000446/a2q24erfex992supplement.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$7.9B",
+      "statColor": "#b98a1c",
+      "text": "Exchanging its Visa Class B-1 shares added a $7.9B net gain in Corporate and $2.04 to EPS. Together with the related $1.0B Foundation donation and $546M of securities losses, the quarter's significant items added $5.0B after tax \u2014 excluding them, net income was $13.1B and ROTCE was 20%, not 28%.",
+      "title": "One Visa gain did the heavy lifting"
+    },
+    {
+      "stat": "+52%",
+      "statColor": "#3d7bc8",
+      "text": "Investment banking fees rose 52% to $2.3B, asset management fees 14% to $4.3B, and Markets revenue rose 10% (Fixed Income +5%, Equity Markets +21%) \u2014 so the underlying quarter grew even without the Visa gain.",
+      "title": "The fee engine was strong too"
+    },
+    {
+      "stat": "$3.1B",
+      "statColor": "#cf5f4e",
+      "text": "The provision was $3,052M, up 5% YoY: net charge-offs of $2,231M were up 58% YoY, predominantly driven by Card Services, plus an $821M net reserve build, mostly in Consumer.",
+      "title": "Credit costs are normalizing upward"
+    }
+  ],
+  "ticker": "JPM",
+  "verdict": "JPMorgan reported $18.1B of profit on $50.2B of revenue, but the headline was flattered by a $7.9B one-off gain on its Visa B shares \u2014 excluding the quarter's significant items, net income was $13.1B ($4.40 per share)."
+}
