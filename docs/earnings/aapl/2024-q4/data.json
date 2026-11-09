@@ -1,0 +1,167 @@
+{
+  "company": "Apple",
+  "flow": {
+    "costOfRevenueM": 51051,
+    "grossProfitM": 43879,
+    "netIncomeM": 14736,
+    "operatingIncomeM": 29591,
+    "opex": [
+      {
+        "amountM": 7765,
+        "name": "Research and development",
+        "note": "Designing future iPhones, Macs, chips and services."
+      },
+      {
+        "amountM": 6523,
+        "name": "SG&A",
+        "note": "Stores, marketing and running the company day to day."
+      }
+    ],
+    "otherIncomeM": 19,
+    "revenueM": 94930,
+    "taxM": 14874
+  },
+  "follow100": [
+    {
+      "amount": 48.69,
+      "label": "iPhone"
+    },
+    {
+      "amount": 8.16,
+      "label": "Mac"
+    },
+    {
+      "amount": 7.32,
+      "label": "iPad"
+    },
+    {
+      "amount": 9.53,
+      "label": "Wearables, Home and Accessories"
+    },
+    {
+      "amount": 26.31,
+      "label": "Services"
+    },
+    {
+      "amount": -53.78,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -8.18,
+      "label": "R&D"
+    },
+    {
+      "amount": -6.87,
+      "label": "SG&A"
+    },
+    {
+      "amount": 0.02,
+      "label": "Other income"
+    },
+    {
+      "amount": -15.67,
+      "label": "Tax"
+    },
+    {
+      "amount": 15.52,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The tax slice is swollen by a one-time $10.2B charge (see below) \u2014 in a normal quarter it would be about $4.92 of every $100. The rows may not add exactly due to rounding.",
+  "footerNote": "Segments are net sales by product category, as Apple reports them.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+6%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "about $1.64 without the one-time tax charge",
+      "value": "$0.97"
+    },
+    {
+      "label": "iPhone revenue",
+      "note": "up 6% YoY, 49% of sales",
+      "value": "$46.2B"
+    },
+    {
+      "label": "Services revenue",
+      "note": "an all-time record, up 12%",
+      "value": "$25.0B"
+    }
+  ],
+  "oneTimers": [
+    "A one-time, non-cash income tax charge of $10.2B sits inside the $14.9B tax line \u2014 fallout from the European General Court overturning the State Aid decision on Apple's Irish tax arrangements. It does not reflect the quarter's trading: income before taxes rose 10% to $29.6B."
+  ],
+  "otherDetail": "Other income of $19M, net.",
+  "periodEnd": "2024-09-28",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2024-10-31",
+  "revenueYoY": "+6%",
+  "segments": [
+    {
+      "amountM": 46222,
+      "name": "iPhone",
+      "note": "Apple's flagship phone \u2014 the iPhone 16 lineup joined the 15 series and lifted sales 6%.",
+      "yoy": "+6%"
+    },
+    {
+      "amountM": 7744,
+      "name": "Mac",
+      "note": "Mac computers \u2014 up 2%, just before the M4 Mac launches.",
+      "yoy": "+2%"
+    },
+    {
+      "amountM": 6950,
+      "name": "iPad",
+      "note": "Tablets \u2014 the redesigned iPad Pro and iPad Air drove an 8% rise.",
+      "yoy": "+8%"
+    },
+    {
+      "amountM": 9042,
+      "name": "Wearables, Home and Accessories",
+      "note": "Apple Watch, AirPods and home devices \u2014 down 3% against a tough comparison.",
+      "yoy": "-3%"
+    },
+    {
+      "amountM": 24972,
+      "name": "Services",
+      "note": "App Store, Apple Music, iCloud, TV+ and advertising \u2014 an all-time record, up 12%.",
+      "yoy": "+12%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000120/a8-kex991q4202409282024.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$10.2B",
+      "statColor": "#b8443c",
+      "text": "A European court decision on Apple's Irish taxes forced a one-time, non-cash tax charge of $10.2B. Reported EPS fell to $0.97 \u2014 without the charge it would have been about $1.64, and pre-tax profit actually rose 10%.",
+      "title": "A one-off tax charge drove the headline"
+    },
+    {
+      "stat": "$25.0B",
+      "statColor": "#3e8e5a",
+      "text": "Services revenue reached $25.0B, an all-time high, up 12% \u2014 more than a quarter of everything Apple sells now comes from subscriptions, the App Store and other services.",
+      "title": "Services hit another record"
+    },
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "text": "iPhone sales rose 6% to $46.2B \u2014 about $49 of every $100 Apple took in \u2014 as the iPhone 16 launch landed in the final weeks of the quarter.",
+      "title": "iPhone still carries the quarter"
+    }
+  ],
+  "ticker": "AAPL",
+  "verdict": "Apple grew sales 6% to $94.9B on record Services revenue, but a one-time $10.2B European tax charge cut reported profit to $14.7B \u2014 without it, profit would have been about $24.9B."
+}

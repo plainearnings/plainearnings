@@ -1,0 +1,163 @@
+{
+  "company": "Alphabet (Google)",
+  "flow": {
+    "costOfRevenueM": 40613,
+    "grossProfitM": 55856,
+    "netIncomeM": 26536,
+    "operatingIncomeM": 30972,
+    "opex": [
+      {
+        "amountM": 13116,
+        "name": "Research & development",
+        "note": "Engineers and researchers building the products and AI models."
+      },
+      {
+        "amountM": 7363,
+        "name": "Sales & marketing",
+        "note": "Selling ads and devices, and promoting the products."
+      },
+      {
+        "amountM": 4405,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 legal, finance and facilities."
+      }
+    ],
+    "otherIncomeM": 1271,
+    "revenueM": 96469,
+    "taxM": 5707
+  },
+  "follow100": [
+    {
+      "amount": 87.17,
+      "label": "Google Services"
+    },
+    {
+      "amount": 12.39,
+      "label": "Google Cloud"
+    },
+    {
+      "amount": 0.41,
+      "label": "Other Bets"
+    },
+    {
+      "amount": 0.02,
+      "label": "Hedging gains"
+    },
+    {
+      "amount": -42.1,
+      "label": "Cost of revenues"
+    },
+    {
+      "amount": -13.6,
+      "label": "R&D"
+    },
+    {
+      "amount": -7.63,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -4.57,
+      "label": "G&A"
+    },
+    {
+      "amount": 1.32,
+      "label": "Other income"
+    },
+    {
+      "amount": -5.92,
+      "label": "Tax"
+    },
+    {
+      "amount": 27.51,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Google Services is $87.17 of every $100 Alphabet takes in; Cloud's $12.39 slice grows fastest. The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.64 a year ago",
+      "value": "$2.15"
+    },
+    {
+      "label": "Google Cloud",
+      "note": "revenue $12.0B",
+      "value": "+30%"
+    },
+    {
+      "label": "Cloud op. income",
+      "note": "vs $0.9B a year ago",
+      "value": "$2.1B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Interest income $1,088M and a $364M gain on equity investments, less a $431M loss on debt securities, $53M of interest expense and other items, net.",
+  "periodEnd": "2024-12-31",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2025-02-04",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "amountM": 84094,
+      "name": "Google Services",
+      "note": "Search, YouTube, subscriptions and devices \u2014 Search & other revenue rose 13% to $54.0B and YouTube ads 14% to $10.5B.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 11955,
+      "name": "Google Cloud",
+      "note": "Cloud computing rented to companies \u2014 up 30%, and its operating profit more than doubled to $2.1B.",
+      "yoy": "+30%"
+    },
+    {
+      "amountM": 400,
+      "name": "Other Bets",
+      "note": "Moonshot projects such as Waymo \u2014 small revenue and a $1.2B operating loss this quarter.",
+      "yoy": "-39%"
+    },
+    {
+      "amountM": 20,
+      "name": "Hedging gains",
+      "note": "Gains from currency hedging that sit outside the three businesses.",
+      "yoy": "-87%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+30%",
+      "statColor": "#3d7bc8",
+      "text": "Google Cloud revenue jumped 30% to $12.0B, and its operating profit more than doubled to $2.1B \u2014 the cloud has become a real second engine, not just a growth story.",
+      "title": "Cloud is compounding"
+    },
+    {
+      "stat": "$54.0B",
+      "statColor": "#3e8e5a",
+      "text": "Search & other revenue rose 13% to $54.0B and YouTube ads grew 14% to $10.5B \u2014 the advertising core still supplies the great bulk of Alphabet's money.",
+      "title": "Search still pays for everything"
+    },
+    {
+      "stat": "$26.5B",
+      "statColor": "#5b6b7c",
+      "text": "Net income rose 28% to $26.5B \u2014 about 28 cents of every revenue dollar \u2014 even after spending $14.3B in the quarter on property and equipment, mostly data centers.",
+      "title": "Profit kept 28 cents per dollar"
+    }
+  ],
+  "ticker": "GOOGL",
+  "verdict": "Alphabet grew revenue 12% to $96.5B as Search rose 13% and Google Cloud jumped 30% \u2014 and it kept $26.5B as profit, with Cloud's profit more than doubling."
+}

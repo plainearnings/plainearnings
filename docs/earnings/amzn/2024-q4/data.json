@@ -1,0 +1,176 @@
+{
+  "company": "Amazon",
+  "flow": {
+    "costOfRevenueM": 98893,
+    "equityM": -20,
+    "grossProfitM": 88899,
+    "netIncomeM": 20004,
+    "operatingIncomeM": 21203,
+    "opex": [
+      {
+        "amountM": 27962,
+        "name": "Fulfillment",
+        "note": "Running the warehouses and delivering packages \u2014 the biggest single running cost."
+      },
+      {
+        "amountM": 23571,
+        "name": "Technology & infrastructure",
+        "note": "Servers, data centers, and the engineers who build and run the products."
+      },
+      {
+        "amountM": 13124,
+        "name": "Sales & marketing",
+        "note": "Advertising Amazon's products and winning customers."
+      },
+      {
+        "amountM": 2863,
+        "name": "General & administrative",
+        "note": "Back office \u2014 finance, legal and management."
+      },
+      {
+        "amountM": 176,
+        "name": "Other operating expense, net",
+        "note": "Small net charges that do not fit the other lines."
+      }
+    ],
+    "otherIncomeM": 1146,
+    "revenueM": 187792,
+    "taxM": 2325
+  },
+  "follow100": [
+    {
+      "amount": 61.55,
+      "label": "North America"
+    },
+    {
+      "amount": 23.12,
+      "label": "International"
+    },
+    {
+      "amount": 15.33,
+      "label": "AWS"
+    },
+    {
+      "amount": -52.66,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -14.89,
+      "label": "Fulfillment"
+    },
+    {
+      "amount": -12.55,
+      "label": "Technology & infrastructure"
+    },
+    {
+      "amount": -6.99,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -1.52,
+      "label": "General & administrative"
+    },
+    {
+      "amount": -0.09,
+      "label": "Other operating expense"
+    },
+    {
+      "amount": 0.61,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.01,
+      "label": "Equity-method activity"
+    },
+    {
+      "amount": -1.24,
+      "label": "Tax"
+    },
+    {
+      "amount": 10.65,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "AWS is only $15.33 of every $100 of sales but produces about half of the operating profit. The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+10%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.00 a year ago",
+      "value": "$1.86"
+    },
+    {
+      "label": "AWS growth",
+      "note": "cloud revenue $28.8B",
+      "value": "+19%"
+    },
+    {
+      "label": "Operating income",
+      "note": "vs $13.2B a year ago",
+      "value": "$21.2B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Interest income $1,248M, plus $468M of other income, less $570M interest expense, net; a $20M equity-method investment loss is recorded below the tax line.",
+  "periodEnd": "2024-12-31",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2025-02-06",
+  "revenueYoY": "+10%",
+  "segments": [
+    {
+      "amountM": 115586,
+      "name": "North America",
+      "note": "Stores, subscriptions and ads in North America \u2014 the biggest piece, and it earned a $9.3B operating profit.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 43420,
+      "name": "International",
+      "note": "The same businesses outside North America \u2014 swung to a $1.3B operating profit after losses a year earlier.",
+      "yoy": "+8%"
+    },
+    {
+      "amountM": 28786,
+      "name": "AWS",
+      "note": "Cloud computing rented to other companies \u2014 grew 19%, and its $10.6B operating profit was half of Amazon's total.",
+      "yoy": "+19%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+19%",
+      "statColor": "#3d7bc8",
+      "text": "AWS sales grew 19% to $28.8B and the segment earned $10.6B of operating profit \u2014 half of Amazon's total \u2014 as companies kept moving computing, and new AI work, onto its cloud.",
+      "title": "AWS growth re-accelerated"
+    },
+    {
+      "stat": "$21.2B",
+      "statColor": "#3e8e5a",
+      "text": "Consolidated operating income jumped 60% from a year ago: North America earned $9.3B and International swung from a loss to a $1.3B profit as the regional store networks got more efficient.",
+      "title": "Operating income jumped 60%"
+    },
+    {
+      "stat": "$187.8B",
+      "statColor": "#5b6b7c",
+      "text": "The holiday quarter set a sales record at $187.8B, up 10%, and net income nearly doubled to $20.0B \u2014 about 11 cents of every sales dollar stayed as profit.",
+      "title": "A record holiday quarter"
+    }
+  ],
+  "ticker": "AMZN",
+  "verdict": "Amazon's holiday quarter set records: sales rose 10% to $187.8B, AWS grew 19%, and operating income jumped 60% to $21.2B \u2014 and it kept $20.0B as profit."
+}

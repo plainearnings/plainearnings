@@ -1,0 +1,155 @@
+{
+  "company": "Meta",
+  "flow": {
+    "costOfRevenueM": 8839,
+    "grossProfitM": 39546,
+    "netIncomeM": 20838,
+    "operatingIncomeM": 23365,
+    "opex": [
+      {
+        "amountM": 12180,
+        "name": "Research & development",
+        "note": "Engineers building the apps, the AI models and the headsets."
+      },
+      {
+        "amountM": 3240,
+        "name": "Marketing & sales",
+        "note": "Selling ads and devices, and promoting the apps."
+      },
+      {
+        "amountM": 761,
+        "name": "General & administrative",
+        "note": "Legal and overhead \u2014 unusually low this quarter because of a $1.55B favorable legal adjustment."
+      }
+    ],
+    "otherIncomeM": 188,
+    "revenueM": 48385,
+    "taxM": 2715
+  },
+  "follow100": [
+    {
+      "amount": 96.69,
+      "label": "Advertising"
+    },
+    {
+      "amount": 1.07,
+      "label": "Family of Apps other revenue"
+    },
+    {
+      "amount": 2.24,
+      "label": "Reality Labs"
+    },
+    {
+      "amount": -18.27,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -25.17,
+      "label": "R&D"
+    },
+    {
+      "amount": -6.7,
+      "label": "Marketing & sales"
+    },
+    {
+      "amount": -1.57,
+      "label": "G&A"
+    },
+    {
+      "amount": 0.39,
+      "label": "Other income"
+    },
+    {
+      "amount": -5.61,
+      "label": "Tax"
+    },
+    {
+      "amount": 43.07,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Advertising is $96.69 of every $100 Meta takes in. The rows may not add exactly due to rounding.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+21%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $5.33 a year ago",
+      "value": "$8.02"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "operating cash flow $28.0B",
+      "value": "$13.2B"
+    },
+    {
+      "label": "Family DAP",
+      "note": "people using a Meta app daily",
+      "value": "3.35B"
+    }
+  ],
+  "oneTimers": [
+    "Inside the small $761M G&A line is a favorable $1.55B adjustment: Meta reduced what it had previously set aside for certain legal cases. Without it, operating income would have been about $21.8B instead of $23.4B."
+  ],
+  "otherDetail": "Interest and other income of $188M, net.",
+  "periodEnd": "2024-12-31",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2025-01-29",
+  "revenueYoY": "+21%",
+  "segments": [
+    {
+      "amountM": 46783,
+      "name": "Advertising",
+      "note": "Ads across Facebook, Instagram and WhatsApp \u2014 ad impressions rose 6% and the average price per ad rose 14%.",
+      "yoy": "+21%"
+    },
+    {
+      "amountM": 519,
+      "name": "Family of Apps other revenue",
+      "note": "Mostly WhatsApp business messaging and other fees from the social apps.",
+      "yoy": "+55%"
+    },
+    {
+      "amountM": 1083,
+      "name": "Reality Labs",
+      "note": "Quest headsets and Ray-Ban Meta glasses \u2014 $1.1B of revenue against a $5.0B operating loss.",
+      "yoy": "+1%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "text": "Advertising revenue grew 21% to $46.8B \u2014 97 cents of every dollar Meta made \u2014 helped by 6% more ad views and a 14% higher average price per ad.",
+      "title": "Ads did the lifting"
+    },
+    {
+      "stat": "$1.55B",
+      "statColor": "#5b6b7c",
+      "text": "Meta cut what it had set aside for certain legal cases by $1.55B, a one-off boost that sits inside G&A and flatters this quarter's profit; the underlying business was still strongly profitable.",
+      "title": "A legal adjustment flattered profit"
+    },
+    {
+      "stat": "-$5.0B",
+      "statColor": "#b8443c",
+      "text": "Reality Labs lost $5.0B in the quarter on $1.1B of revenue \u2014 the metaverse and headset bet is still funded entirely by the ad business.",
+      "title": "Reality Labs still burns cash"
+    }
+  ],
+  "ticker": "META",
+  "verdict": "Meta's revenue jumped 21% to $48.4B as advertising grew 21% \u2014 and a $1.55B favorable legal adjustment made the quarter look even better, lifting profit to $20.8B, about 43 cents of every dollar."
+}

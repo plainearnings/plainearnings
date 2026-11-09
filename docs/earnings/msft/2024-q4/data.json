@@ -1,0 +1,154 @@
+{
+  "company": "Microsoft",
+  "flow": {
+    "costOfRevenueM": 19684,
+    "grossProfitM": 45043,
+    "netIncomeM": 22036,
+    "operatingIncomeM": 27925,
+    "opex": [
+      {
+        "amountM": 8056,
+        "name": "Research & development",
+        "note": "Spending on building products, led by AI and cloud \u2014 up 20% YoY."
+      },
+      {
+        "amountM": 6816,
+        "name": "Sales & marketing",
+        "note": "Selling and marketing the product line \u2014 up 10% YoY."
+      },
+      {
+        "amountM": 2246,
+        "name": "General & administrative",
+        "note": "Running the company day to day \u2014 up 2% YoY."
+      }
+    ],
+    "otherIncomeM": -675,
+    "revenueM": 64727,
+    "taxM": 5214
+  },
+  "follow100": [
+    {
+      "amount": 31.39,
+      "label": "Productivity and Business Processes"
+    },
+    {
+      "amount": 44.05,
+      "label": "Intelligent Cloud"
+    },
+    {
+      "amount": 24.56,
+      "label": "More Personal Computing"
+    },
+    {
+      "amount": -30.41,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -12.45,
+      "label": "R&D"
+    },
+    {
+      "amount": -10.53,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -3.47,
+      "label": "G&A"
+    },
+    {
+      "amount": -1.04,
+      "label": "Other expense"
+    },
+    {
+      "amount": -8.05,
+      "label": "Tax"
+    },
+    {
+      "amount": 34.04,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The rows reconcile to the $34.04 kept as profit within $0.01 of rounding; other expense is a $1.04 drag per $100 of revenue.",
+  "footerNote": "Segments use Microsoft's FY24 reporting structure (three segments, as reported at the time).",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+15%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.69 a year ago",
+      "value": "$2.95"
+    },
+    {
+      "label": "Azure growth",
+      "note": "fastest-growing large piece",
+      "value": "+29%"
+    },
+    {
+      "label": "Microsoft Cloud",
+      "note": "+21% YoY, 57% of revenue",
+      "value": "$36.8B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Other expense of $675M, net.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "reportedDate": "2024-07-30",
+  "revenueYoY": "+15%",
+  "segments": [
+    {
+      "amountM": 20317,
+      "name": "Productivity and Business Processes",
+      "note": "Office 365, LinkedIn and Dynamics \u2014 LinkedIn revenue grew 10% and Microsoft 365 Commercial cloud services kept expanding.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 28515,
+      "name": "Intelligent Cloud",
+      "note": "Azure and server products \u2014 Azure and other cloud services grew 29%, the fastest-growing large piece.",
+      "yoy": "+19%"
+    },
+    {
+      "amountM": 15895,
+      "name": "More Personal Computing",
+      "note": "Windows, Xbox and search ads \u2014 Xbox content and services up 61% on the Activision acquisition, Windows OEM up 4%.",
+      "yoy": "+14%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087835/msft-ex99_1.htm"
+    },
+    {
+      "label": "Annual report (10-K, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "text": "Azure and other cloud services grew 29% (30% in constant currency), and Microsoft Cloud overall reached $36.8B \u2014 about 57% of all revenue \u2014 as AI demand pulled customers onto the platform.",
+      "title": "Azure is the growth engine"
+    },
+    {
+      "stat": "$36.8B",
+      "statColor": "#3e8e5a",
+      "text": "Microsoft Cloud revenue hit $36.8B, up 21%. The flip side of the growth story: the cost of revenue rose 17% as Microsoft built out the data centers behind it.",
+      "title": "The cloud is most of Microsoft now"
+    },
+    {
+      "stat": "+61%",
+      "statColor": "#5b6b7c",
+      "text": "Xbox content and services revenue jumped 61%, but 58 points of that came from the Activision acquisition \u2014 the underlying games business grew much more slowly, and Windows OEM revenue rose just 4%.",
+      "title": "Xbox got an acquisition lift"
+    }
+  ],
+  "ticker": "MSFT",
+  "verdict": "Microsoft grew 15% to $64.7B as Azure jumped 29% and Microsoft Cloud revenue hit $36.8B \u2014 and it kept $22.0B as profit, about 34 cents of every dollar."
+}
