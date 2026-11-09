@@ -1,0 +1,136 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-31",
+  "reportedDate": "2025-05-14",
+  "revenueYoY": "+420%",
+  "verdict": "CoreWeave's revenue jumped 420% to $982M in its first quarter as a public company \u2014 but $264M of net interest on its datacenter debt and a one-off $177M IPO share-pay charge left a $315M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+420%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$1.49",
+      "note": "diluted net loss per share"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$606M",
+      "note": "non-GAAP, a 62% margin"
+    },
+    {
+      "label": "Revenue backlog",
+      "value": "$25.9B",
+      "note": "committed future revenue at Mar 31, 2025"
+    }
+  ],
+  "segments": [
+    {
+      "name": "AI cloud infrastructure",
+      "amountM": 981.632,
+      "yoy": "+420%",
+      "note": "Renting out AI computing power \u2014 clusters of Nvidia GPUs in datacenters \u2014 to AI labs, hyperscalers and large enterprises; up 420% YoY as capacity and demand surged."
+    }
+  ],
+  "flow": {
+    "revenueM": 981.632,
+    "costOfRevenueM": 262.394,
+    "grossProfitM": 719.238,
+    "opex": [
+      {
+        "name": "Technology and infrastructure",
+        "amountM": 561.402,
+        "note": "Running and expanding the platform: data-center operations and the engineering behind the AI cloud; up from $93M a year ago as capacity grew."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 10.549,
+        "note": "Selling the cloud to AI labs, hyperscalers and large enterprises; up from $4M a year ago."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 174.757,
+        "note": "The back office: finance, legal and company-wide administration; up from $16M a year ago, swollen by the one-off $177M IPO share-pay charge (see one-time items)."
+      }
+    ],
+    "operatingIncomeM": -27.47,
+    "otherIncomeM": -241.135,
+    "taxM": 46.036,
+    "netIncomeM": -314.641
+  },
+  "follow100": [
+    {
+      "label": "AI cloud infrastructure",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.73
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -57.19
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -1.07
+    },
+    {
+      "label": "G&A",
+      "amount": -17.8
+    },
+    {
+      "label": "Other expense",
+      "amount": -24.56
+    },
+    {
+      "label": "Tax",
+      "amount": -4.69
+    },
+    {
+      "label": "Net loss",
+      "amount": -32.05
+    }
+  ],
+  "follow100Note": "Interest on the debt that funds CoreWeave's datacenters is the big leak: other expense \u2014 mostly $264M of net interest \u2014 took $24.57 of every $100 of revenue.",
+  "otherDetail": "Other expense of $241M net was almost all interest: $264M of net interest expense on the borrowing that funds GPUs and datacenters, partly offset by a $27M gain on fair-value adjustments, less $4M of other expense.",
+  "footerNote": "CoreWeave reports one segment. Tax was a $46M charge even on a pre-tax loss, driven by its structure and foreign operations.",
+  "takeaways": [
+    {
+      "stat": "+420%",
+      "statColor": "#3d7bc8",
+      "title": "Growth exploded in the first public quarter",
+      "text": "Revenue rose 420% to $982M from $189M a year ago, and revenue backlog reached $25.9B \u2014 including the $11.2B strategic deal with OpenAI announced in the quarter."
+    },
+    {
+      "stat": "$606M",
+      "statColor": "#3e8e5a",
+      "title": "The cloud itself is profitable before interest",
+      "text": "Adjusted EBITDA was $606M, a 62% margin, and adjusted operating income was $163M. The GAAP operating loss of $27M includes the one-off $177M IPO share-pay charge."
+    },
+    {
+      "stat": "$264M",
+      "statColor": "#b8443c",
+      "title": "Debt costs turned operations into a net loss",
+      "text": "Net interest expense of $264M on the borrowing behind CoreWeave's GPU fleet drove the $315M net loss (EPS -$1.49 diluted), even as demand kept accelerating."
+    }
+  ],
+  "oneTimers": [
+    "Stock-based compensation: $177M of share-pay expense came from awards whose liquidity-event vesting condition was satisfied at CoreWeave's IPO in March 2025 \u2014 a one-off spike that sits mostly in general and administrative costs."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000010/coreweave1q25earningspress.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Mar 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000014/crwv-20250331.htm"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "SHOP",
+  "company": "Shopify",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-11",
+  "revenueYoY": "+31%",
+  "verdict": "Shopify closed 2025 with revenue up 31% to $3,672M on a record $123.8B of merchant sales \u2014 operating income rose 36% to $631M and net income was $743M, helped by a $182M gain on its investment stakes.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+31%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.57",
+      "note": "diluted"
+    },
+    {
+      "label": "GMV",
+      "value": "$123.8B",
+      "note": "merchant sales through the platform, +31% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$715M",
+      "note": "a 19% free cash flow margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription solutions",
+      "amountM": 777,
+      "yoy": "+17%",
+      "note": "Monthly fees merchants pay to use the Shopify platform. Up 17% YoY."
+    },
+    {
+      "name": "Merchant solutions",
+      "amountM": 2895,
+      "yoy": "+35%",
+      "note": "Payment processing, shipping and other services that grow with merchant sales. Up 35% YoY as GMV hit a record."
+    }
+  ],
+  "flow": {
+    "revenueM": 3672,
+    "costOfRevenueM": 1979,
+    "grossProfitM": 1693,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 433,
+        "note": "Selling the platform and winning new merchants. Up 24% YoY."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 390,
+        "note": "Building the platform and new commerce and AI features. Up 11% YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 125,
+        "note": "The back office \u2014 finance, legal and admin. Up 12% YoY."
+      },
+      {
+        "name": "Transaction and loan losses",
+        "amountM": 114,
+        "note": "Losses on merchant loans and cash advances, and transaction losses. Up 50% YoY."
+      }
+    ],
+    "operatingIncomeM": 631,
+    "otherIncomeM": 233,
+    "equityM": 28,
+    "taxM": 149,
+    "netIncomeM": 743
+  },
+  "follow100": [
+    {
+      "label": "Subscription solutions",
+      "amount": 21.16
+    },
+    {
+      "label": "Merchant solutions",
+      "amount": 78.84
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -53.89
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -11.79
+    },
+    {
+      "label": "R&D",
+      "amount": -10.62
+    },
+    {
+      "label": "G&A",
+      "amount": -3.4
+    },
+    {
+      "label": "Transaction & loan losses",
+      "amount": -3.1
+    },
+    {
+      "label": "Other income",
+      "amount": 6.35
+    },
+    {
+      "label": "Gain on equity method investment",
+      "amount": 0.76
+    },
+    {
+      "label": "Tax",
+      "amount": -4.06
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.23
+    }
+  ],
+  "follow100Note": "Merchant solutions \u2014 mostly payment processing that grows with merchant sales \u2014 are $78.84 of every $100 Shopify takes in.",
+  "otherDetail": "Other income of $261M net (including the separate equity-method line) combined a $248M gain on equity and other investments and $79M of other income, net \u2014 mostly interest income \u2014 partly offset by a $94M loss on the embedded derivative tied to Shopify's convertible notes, which were settled in the quarter; the equity-method investment (Flexport) added a $28M gain, shown on the separate equity line.",
+  "footerNote": "Excluding the gains on equity investments, Shopify's own measure of net income was $594M. The GAAP net income was $743M.",
+  "takeaways": [
+    {
+      "stat": "+31%",
+      "statColor": "#3d7bc8",
+      "title": "A record holiday quarter",
+      "text": "Revenue rose 31% to $3,672M and merchants sold a record $123.8B through the platform (GMV, also +31%). Full-year revenue grew 30% to $11.6B."
+    },
+    {
+      "stat": "$631M",
+      "statColor": "#3e8e5a",
+      "title": "Operating profit kept compounding",
+      "text": "Operating income rose 36% to $631M, and free cash flow was $715M \u2014 a 19% margin, the tenth straight quarter of double-digit free-cash-flow margins. Shopify also launched a $2B share repurchase program."
+    },
+    {
+      "stat": "$743M",
+      "statColor": "#5b6b7c",
+      "title": "Investment gains helped, but were smaller than last year",
+      "text": "Net income was $743M, down from $1,293M a year ago \u2014 that quarter's investment gains were far larger ($906M vs $182M this quarter). Excluding equity-investment gains, net income was $594M."
+    }
+  ],
+  "oneTimers": [
+    "Convertible-note derivative: a $94M loss on the embedded derivative held to settle Shopify's convertible senior notes, which were settled in the quarter (the full-year loss was $123M).",
+    "Equity investments: a $248M net gain on equity and other investments in the quarter, mostly mark-to-market (paper) gains that can reverse \u2014 Shopify's own net income excluding equity investments was $594M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000006/exhibit991pressreleaseq420.htm"
+    },
+    {
+      "label": "Form 10-K for the year ended Dec 31, 2025 \u2014 quarterly data (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "ticker": "ARM",
+  "company": "Arm Holdings",
+  "quarterLabel": "Q1 FY26",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-07-30",
+  "revenueYoY": "+12%",
+  "verdict": "Arm's revenue rose 12% to a record first-quarter $1,053M as royalties jumped 25% to $585M \u2014 but record R&D spending cut GAAP net income to $130M, down from $223M a year ago.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+12%",
+      "note": "vs a year ago; a record first quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.12",
+      "note": "diluted, vs $0.21 a year ago"
+    },
+    {
+      "label": "Royalty revenue",
+      "value": "$585M",
+      "note": "+25% YoY; a record first quarter"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$150M",
+      "note": "non-GAAP; operating cash flow was $332M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "License and other revenue",
+      "amountM": 468,
+      "yoy": "-1%",
+      "note": "Fees for licensing Arm chip designs, plus support and related services; down 1% YoY on the normal timing and size of high-value license agreements and contributions from backlog."
+    },
+    {
+      "name": "Royalty revenue",
+      "amountM": 585,
+      "yoy": "+25%",
+      "note": "A cut of every chip shipped with Arm technology inside; up 25% YoY on adoption of the newer Armv9 designs, the ramp of chips based on Arm CSS (ready-made compute subsystems), and more Arm-based chips in data centers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1053,
+    "costOfRevenueM": 30,
+    "grossProfitM": 1023,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 650,
+        "note": "Designing new processors and platform technology; the GAAP figure includes $174M of share-based pay (paying staff in shares) and $36M of related employer taxes."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 259,
+        "note": "Selling and running the company; the GAAP figure includes $60M of share-based pay and $17M of related employer taxes."
+      }
+    ],
+    "operatingIncomeM": 114,
+    "otherIncomeM": 28,
+    "equityM": 4,
+    "taxM": 16,
+    "netIncomeM": 130
+  },
+  "follow100": [
+    {
+      "label": "License and other revenue",
+      "amount": 44.44
+    },
+    {
+      "label": "Royalty revenue",
+      "amount": 55.56
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -2.85
+    },
+    {
+      "label": "R&D",
+      "amount": -61.73
+    },
+    {
+      "label": "SG&A",
+      "amount": -24.6
+    },
+    {
+      "label": "Other income",
+      "amount": 2.66
+    },
+    {
+      "label": "Gain on equity investments",
+      "amount": 0.38
+    },
+    {
+      "label": "Tax",
+      "amount": -1.52
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 12.35
+    }
+  ],
+  "follow100Note": "Royalties alone are $55.56 of every $100 Arm takes in \u2014 and R&D, at $61.73 of every $100, is by far the biggest use of it.",
+  "otherDetail": "Combined other income was $32M: $27M of net interest income plus $1M of other non-operating income, plus a $4M gain from equity investments (the separate equity line). Tax was a $16M charge, an 11.0% effective rate on $146M of pre-tax income.",
+  "footerNote": "Arm calls its direct cost 'cost of sales' ($30M).",
+  "takeaways": [
+    {
+      "stat": "+25%",
+      "statColor": "#3d7bc8",
+      "title": "Royalties set a first-quarter record",
+      "text": "Royalty revenue rose 25% to $585M, a record for a first quarter, while license revenue eased 1% to $468M \u2014 total revenue of $1,053M was Arm's second billion-dollar quarter in a row."
+    },
+    {
+      "stat": "$650M",
+      "statColor": "#5b6b7c",
+      "title": "Record R&D spending squeezed operating profit",
+      "text": "GAAP research and development jumped to $650M from $485M a year ago as engineering headcount grew, so operating income fell to $114M from $182M despite the record revenue."
+    },
+    {
+      "stat": "$0.12",
+      "statColor": "#3e8e5a",
+      "title": "GAAP profit fell; the adjusted picture was steadier",
+      "text": "GAAP EPS was $0.12, down from $0.21 a year ago, while non-GAAP EPS was $0.35. Arm generated $332M of operating cash flow and $150M of non-GAAP free cash flow."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000023/exhibit991fye26q130-junx25.htm"
+    },
+    {
+      "label": "Shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000023/exhibit992fye26q130-junx25.htm"
+    }
+  ]
+}

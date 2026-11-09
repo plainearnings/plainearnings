@@ -1,0 +1,129 @@
+{
+  "ticker": "NET",
+  "company": "Cloudflare",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-10",
+  "revenueYoY": "+34%",
+  "verdict": "Cloudflare grew revenue 34% to $615M and narrowed its GAAP net loss to $12M \u2014 the operating loss was $49M, softened by $42M of interest income on its cash pile.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.03",
+      "note": "diluted net loss per share, vs -$0.04 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$99M",
+      "note": "16% of revenue; operating cash flow was $190M"
+    },
+    {
+      "label": "Non-GAAP operating income",
+      "value": "$90M",
+      "note": "a 15% margin, vs a $49M GAAP operating loss"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloudflare platform",
+      "amountM": 614.507,
+      "yoy": "+34%",
+      "note": "One connectivity cloud: network, security and developer services sold mostly as subscriptions. Cloudflare reports a single segment."
+    }
+  ],
+  "flow": {
+    "revenueM": 614.507,
+    "costOfRevenueM": 161.956,
+    "grossProfitM": 452.551,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 251.138,
+        "note": "Selling the platform and winning customers; includes $36.038M of stock-based compensation and related payroll taxes, and $0.659M of amortization of acquired intangible assets."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 141.887,
+        "note": "Building the platform and new products (R&D); includes $46.947M of stock-based compensation and related payroll taxes."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 108.76,
+        "note": "The back office (G&A); includes $45.391M of stock-based compensation and related payroll taxes, $3.797M of acquisition-related and other expenses and $1.257M of lease impairment charges, partly offset by a $2.886M legal reserve release."
+      }
+    ],
+    "operatingIncomeM": -49.234,
+    "otherIncomeM": 38.726,
+    "taxM": 1.569,
+    "netIncomeM": -12.077
+  },
+  "follow100": [
+    {
+      "label": "Cloudflare platform",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -26.36
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -40.87
+    },
+    {
+      "label": "R&D",
+      "amount": -23.09
+    },
+    {
+      "label": "G&A",
+      "amount": -17.7
+    },
+    {
+      "label": "Other income",
+      "amount": 6.3
+    },
+    {
+      "label": "Tax",
+      "amount": -0.26
+    },
+    {
+      "label": "Net loss",
+      "amount": -1.97
+    }
+  ],
+  "follow100Note": "Cloudflare spends $40.87 of every $100 on selling \u2014 its go-to-market machine is the biggest single running cost.",
+  "otherDetail": "Non-operating income of $39M net was $42M of interest income on Cloudflare's cash and securities, plus a small amount of other items, minus $3M of interest expense (mostly amortization of debt issuance costs) and $0.3M of other expense, net.",
+  "footerNote": "Stock-based compensation and related payroll taxes totaled $132M in the quarter across all lines \u2014 the main gap between the GAAP loss and non-GAAP profit.",
+  "takeaways": [
+    {
+      "stat": "+34%",
+      "statColor": "#3d7bc8",
+      "title": "Growth re-accelerated into year-end",
+      "text": "Revenue rose 34% to $615M. Cloudflare closed its largest annual-contract-value deal ever (about $42.5M a year), total new ACV grew nearly 50%, and remaining performance obligations grew 48%."
+    },
+    {
+      "stat": "$90M",
+      "statColor": "#5b6b7c",
+      "title": "Non-GAAP profit vs GAAP loss",
+      "text": "Non-GAAP operating income was $90M, a 15% margin. The GAAP operating loss of $49M is after $132M of stock-based compensation and related payroll taxes in the quarter."
+    },
+    {
+      "stat": "$99M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow doubled",
+      "text": "Free cash flow was $99M, 16% of revenue, up from $48M a year ago; Cloudflare ended 2025 with $4,101M of cash and available-for-sale securities."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000008/q425exhibit991.htm"
+    }
+  ]
+}

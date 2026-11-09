@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snowflake — Q3 FY26 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Snowflake Q3 FY26 earnings in plain English: Snowflake grew revenue 29% to $1,213M, with product revenue of $1,158M — but $1,152M of running costs, much of it share-based pay, kept the GAAP result a $292M net loss.">
+<meta property="og:title" content="Snowflake — Q3 FY26 Earnings, Explained Simply">
+<meta property="og:description" content="Snowflake grew revenue 29% to $1,213M, with product revenue of $1,158M — but $1,152M of running costs, much of it share-based pay, kept the GAAP result a $292M net loss.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/snow/2026-q3/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/snow/2026-q3/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Snowflake quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Snowflake <span class="thin">(SNOW)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2027-q2/">
+        <span class="q-label">Q2 FY27</span>
+        <span class="q-badge">+35%</span>
+        <span class="q-meta">Reported 2026-09-02 · Revenue $1,547M</span>
+      </a>
+      <a class="q-item" href="../2027-q1/">
+        <span class="q-label">Q1 FY27</span>
+        <span class="q-badge">+33%</span>
+        <span class="q-meta">Reported 2026-05-27 · Revenue $1,390.951M</span>
+      </a>
+      <a class="q-item" href="../2026-q4/">
+        <span class="q-label">Q4 FY26</span>
+        <span class="q-badge">+30%</span>
+        <span class="q-meta">Reported 2026-02-25 · Revenue $1,283.994M</span>
+      </a>
+      <a class="q-item active" href="../2026-q3/">
+        <span class="q-label">Q3 FY26</span>
+        <span class="q-badge">+29%</span>
+        <span class="q-meta">Reported 2025-12-03 · Revenue $1,212.909M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Snowflake — Q3 FY26 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q3 FY26</strong> · Quarter ended 2025-10-31<br>
+      Reported 2025-12-03
+    </div>
+  </header>
+
+  <p class="verdict">Snowflake grew revenue 29% to $1,213M, with product revenue of $1,158M — but $1,152M of running costs, much of it share-based pay, kept the GAAP result a $292M net loss.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+29%</b></span><span class="chip">EPS (GAAP)<b>-$0.87</b></span><span class="chip">Product revenue<b>$1,158M</b></span><span class="chip">Adjusted free cash flow<b>$136M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Snowflake's Q3 FY26 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Snowflake took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Product</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$95.50</span></div>
+          <div class="hrow"><span class="hlabel">Professional services and other</span><div class="htrack"><div class="hfill" data-w="4.7" style="background:#3D7BC8"></div></div><span class="hval">$4.50</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="33.7" style="background:#D96A57"></div></div><span class="hval">−$32.23</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="47.5" style="background:#CF5F4E"></div></div><span class="hval">−$45.38</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="42.6" style="background:#CF5F4E"></div></div><span class="hval">−$40.73</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="9.2" style="background:#CF5F4E"></div></div><span class="hval">−$8.83</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="3.6" style="background:#3D7BC8"></div></div><span class="hval">$3.43</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="0.3" style="background:#B8443C"></div></div><span class="hval">−$0.30</span></div>
+          <div class="hrow"><span class="hlabel">Net loss</span><div class="htrack"><div class="hfill" data-w="25.2" style="background:#D96A57"></div></div><span class="hval">−$24.04</span></div>
+      <p class="hnote">Running costs took $94.94 of every $100 of revenue — share-based pay to staff is a large part of Snowflake&#x27;s GAAP expenses.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+29%</div>
+            <h3>Product growth held near 30%</h3>
+            <p>Product revenue rose 29% to $1,158M, the net revenue retention rate was 125%, and remaining performance obligations (booked future work) jumped 37% to $7.88B.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$131M</div>
+            <h3>Adjusted profit, GAAP loss — the gap is share pay</h3>
+            <p>Non-GAAP operating income was $131M (an 11% margin), but GAAP showed a $329M operating loss and a $292M net loss, mostly because of stock-based compensation.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">688</div>
+            <h3>Big customers kept spending</h3>
+            <p>Snowflake ended the quarter with 688 customers spending over $1M a year on the platform (+29% YoY) and 766 Forbes Global 2000 customers; adjusted free cash flow was $136M.</p>
+          </article>
+    </div>
+  </section>
+  
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2027-q2/" class="">Q2 FY27</a></li><li><a href="../2027-q1/" class="">Q1 FY27</a></li><li><a href="../2026-q4/" class="">Q4 FY26</a></li><li><a href="../2026-q3/" class="current">Q3 FY26</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1640147/000164014725000207/fy2026q3earnings.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1640147/000164014725000211/snow-20251031.htm">Form 10-Q for the quarter ended Oct 31, 2025 (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Snowflake&#x27;s fiscal year ends Jan 31, so this is Q3 FY26. Non-GAAP operating income was $131M — the gap to GAAP is mostly share-based pay.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":1.213,"nodes":{"seg0":{"name":"Product","amt":"$1.2B","value":1.158,"col":0,"color":"#3D7BC8","note":"+29% \u00b7 95.5% of revenue","plain":"Customers paying to store and crunch data on Snowflake's platform, billed by how much they use. Up 29% YoY.","quarter":"95.5% of all revenue this quarter."},"seg1":{"name":"Professional services and other","amt":"$55M","value":0.055,"col":0,"color":"#7A68C4","note":"+30% \u00b7 4.5% of revenue","plain":"Consulting, training and support that help customers get set up. Up 30% YoY.","quarter":"4.5% of all revenue this quarter.","compact":true,"compactLabel":"Professional services and other: $55M (+30%)"},"rev":{"name":"Revenue","amt":"$1.2B","value":1.213,"col":1,"color":"#2F3B4C","note":"+29%","plain":"All the money Snowflake took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$1.2B, +29% vs a year ago."},"gross":{"name":"Gross profit","amt":"$822M","value":0.822,"col":2,"color":"#69B578","note":"67.8% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"67.8 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($391M)","value":0.391,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$391M \u2014 about 32.2 cents per revenue dollar."},"opex":{"name":"Operating expenses","amt":"($1.2B)","value":1.152,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.2B total, split into Sales and marketing, Research and development, General and administrative on the right."},"otherin":{"name":"Other income","amt":"$42M","value":0.042,"col":3,"color":"#69B578","note":"","plain":"Other income of $42M net was $45M of interest income on Snowflake's cash and investments, minus $2M of interest expense and $2M of other expense, net. Net loss attributable to Snowflake Inc. was $294M (EPS -$0.87), after $2M of income attributable to noncontrolling interests.","quarter":"$42M added to profit."},"shortfall":{"name":"Covered by cash on hand","amt":"($292M)","value":0.292,"col":3,"color":"#94A3B8","note":"","plain":"The business spent more than it took in. The $292M net loss was covered by cash Snowflake already had on its balance sheet.","quarter":"A net loss of $292M this quarter."},"tax":{"name":"Tax","amt":"($4M)","value":0.004,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$4M \u2014 roughly a -1.3% tax rate on pre-tax profit."},"ox0":{"name":"Sales and marketing","amt":"($550M)","value":0.55,"col":4,"color":"#CF5F4E","note":"45.4% of revenue","plain":"Sales teams and marketing. Up 26% YoY.","quarter":"$550M \u2014 45.4% of revenue."},"ox1":{"name":"Research and development","amt":"($494M)","value":0.494,"col":4,"color":"#CF5F4E","note":"40.7% of revenue","plain":"Building the platform and its AI products. Up 12% YoY.","quarter":"$494M \u2014 40.7% of revenue."},"ox2":{"name":"General and administrative","amt":"($107M)","value":0.107,"col":4,"color":"#CF5F4E","note":"8.8% of revenue","plain":"The back office \u2014 finance, legal and admin. Up 1% YoY.","quarter":"$107M \u2014 8.8% of revenue."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","shortfall","opex"],["tax","ox0","ox1","ox2"]],"links":[{"s":"seg0","d":"rev","v":1.158,"c":"#94b6e1","amt":"$1.2B"},{"s":"seg1","d":"rev","v":0.055,"c":"#b6acdf","amt":"$55M"},{"s":"rev","d":"gross","v":0.822,"c":"#BFE0C6","amt":"$822M"},{"s":"rev","d":"cost","v":0.391,"c":"#F4C7B9","amt":"$391M"},{"s":"gross","d":"opex","v":0.822,"c":"#F2B3A4","amt":"$822M"},{"s":"otherin","d":"opex","v":0.042,"c":"#F2B3A4","amt":"$42M"},{"s":"shortfall","d":"opex","v":0.288,"c":"#c4ccd8","amt":"$288M"},{"s":"shortfall","d":"tax","v":0.004,"c":"#c4ccd8","amt":"$4M"},{"s":"opex","d":"ox0","v":0.55,"c":"#F6C0B1","amt":"$550M"},{"s":"opex","d":"ox1","v":0.494,"c":"#F6C0B1","amt":"$494M"},{"s":"opex","d":"ox2","v":0.107,"c":"#F6C0B1","amt":"$107M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

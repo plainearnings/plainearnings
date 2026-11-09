@@ -1,0 +1,156 @@
+{
+  "ticker": "INTC",
+  "company": "Intel",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-27",
+  "reportedDate": "2026-01-22",
+  "revenueYoY": "-4%",
+  "verdict": "Intel's revenue fell 4% to $13,674M and the core business made a $580M operating profit \u2014 but a $671M tax charge on just $338M of pre-tax income turned the quarter into a $333M total net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-4%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.12",
+      "note": "diluted, attributable to Intel; non-GAAP EPS was $0.15"
+    },
+    {
+      "label": "Data Center and AI",
+      "value": "$4,737M",
+      "note": "+9% YoY \u2014 the growth engine this quarter"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$4.3B",
+      "note": "generated in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Client Computing Group",
+      "amountM": 8193,
+      "yoy": "-7%",
+      "note": "Chips for PCs. Down 7% YoY."
+    },
+    {
+      "name": "Data Center and AI",
+      "amountM": 4737,
+      "yoy": "+9%",
+      "note": "Server CPUs and AI products for datacenters. Up 9% YoY."
+    },
+    {
+      "name": "Intel Foundry",
+      "amountM": 170,
+      "note": "Chip manufacturing for outside customers only (most Foundry revenue is internal and eliminated on consolidation)."
+    },
+    {
+      "name": "All other",
+      "amountM": 574,
+      "yoy": "-48%",
+      "note": "Mostly Mobileye, plus smaller businesses; down 48% YoY mainly because Altera was deconsolidated in Sep 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 13674,
+    "costOfRevenueM": 8731,
+    "grossProfitM": 4943,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3219,
+        "note": "Developing new CPUs, AI accelerators and process technology; down from $3,876M a year ago."
+      },
+      {
+        "name": "Marketing, general and administrative",
+        "amountM": 1144,
+        "note": "Sales, marketing and back-office costs of $1,174M, partly offset by a $30M net restructuring credit \u2014 reversals on earlier restructuring actions were larger than new charges \u2014 for a net $1,144M. Down from $1,239M a year ago on the gross figure."
+      }
+    ],
+    "operatingIncomeM": 580,
+    "otherIncomeM": -242,
+    "taxM": 671,
+    "netIncomeM": -333
+  },
+  "follow100": [
+    {
+      "label": "Client Computing Group",
+      "amount": 59.92
+    },
+    {
+      "label": "Data Center and AI",
+      "amount": 34.64
+    },
+    {
+      "label": "Intel Foundry (outside sales)",
+      "amount": 1.24
+    },
+    {
+      "label": "All other",
+      "amount": 4.2
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -63.85
+    },
+    {
+      "label": "R&D",
+      "amount": -23.54
+    },
+    {
+      "label": "MG&A",
+      "amount": -8.37
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.77
+    },
+    {
+      "label": "Tax",
+      "amount": -4.91
+    },
+    {
+      "label": "Net loss",
+      "amount": -2.44
+    }
+  ],
+  "follow100Note": "One line dominates the bottom line: tax took $4.91 of every $100 of revenue \u2014 more than the quarter's entire operating profit per $100 ($4.24).",
+  "otherDetail": "Other expense of $242M net combines two lines: interest and other, net of -$145M and a $97M loss on equity investments, net. Tax was a $671M charge \u2014 a 198.5% effective rate on $338M of pre-tax income, as reported by Intel.",
+  "footerNote": "Net loss attributable to Intel was $591M (EPS -$0.12); the $333M total net loss is after $258M of income attributable to non-controlling interests.",
+  "takeaways": [
+    {
+      "stat": "+9%",
+      "statColor": "#3d7bc8",
+      "title": "Data center carried the quarter",
+      "text": "Data Center and AI revenue rose 9% to $4,737M, while client computing fell 7% to $8,193M. Total revenue fell 4% to $13,674M and gross margin eased to 36.1% from 39.2%."
+    },
+    {
+      "stat": "$671M",
+      "statColor": "#b8443c",
+      "title": "Tax turned a profit into a loss",
+      "text": "Intel made a $580M operating profit, but a $671M tax charge on $338M of pre-tax income (a 198.5% rate) produced a $333M total net loss. On Intel's non-GAAP basis, EPS was a $0.15 profit."
+    },
+    {
+      "stat": "$4.3B",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation was strong",
+      "text": "Intel generated $4.3B of operating cash flow in the quarter, launched its first 18A products (Core Ultra Series 3), and completed the $5.0B sale of stock to Nvidia."
+    }
+  ],
+  "oneTimers": [
+    "Tax: the $671M tax charge on just $338M of pre-tax income \u2014 a 198.5% effective rate, as reported \u2014 is what turned an operating profit into a net loss. Intel's non-GAAP tax rate was 12% and its non-GAAP EPS was a $0.15 profit."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000009/q425earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-K for the year ended Dec 27, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+    }
+  ]
+}

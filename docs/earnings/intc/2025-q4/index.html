@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intel — Q4 2025 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Intel Q4 2025 earnings in plain English: Intel&#x27;s revenue fell 4% to $13,674M and the core business made a $580M operating profit — but a $671M tax charge on just $338M of pre-tax income turned the quarter into a $333M total net loss.">
+<meta property="og:title" content="Intel — Q4 2025 Earnings, Explained Simply">
+<meta property="og:description" content="Intel&#x27;s revenue fell 4% to $13,674M and the core business made a $580M operating profit — but a $671M tax charge on just $338M of pre-tax income turned the quarter into a $333M total net loss.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/intc/2025-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/intc/2025-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Intel quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Intel <span class="thin">(INTC)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+21%</span>
+        <span class="q-meta">Reported 2026-10-29 · Revenue $16.5B</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+25%</span>
+        <span class="q-meta">Reported 2026-07-23 · Revenue $16.1B</span>
+      </a>
+      <a class="q-item" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+7%</span>
+        <span class="q-meta">Reported 2026-04-23 · Revenue $13.6B</span>
+      </a>
+      <a class="q-item active" href="../2025-q4/">
+        <span class="q-label">Q4 2025</span>
+        <span class="q-badge">-4%</span>
+        <span class="q-meta">Reported 2026-01-22 · Revenue $13.7B</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Intel — Q4 2025 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 2025</strong> · Quarter ended 2025-12-27<br>
+      Reported 2026-01-22
+    </div>
+  </header>
+
+  <p class="verdict">Intel&#x27;s revenue fell 4% to $13,674M and the core business made a $580M operating profit — but a $671M tax charge on just $338M of pre-tax income turned the quarter into a $333M total net loss.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>-4%</b></span><span class="chip">EPS (GAAP)<b>-$0.12</b></span><span class="chip">Data Center and AI<b>$4,737M</b></span><span class="chip">Operating cash flow<b>$4.3B</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Intel's Q4 2025 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Intel took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Client Computing Group</span><div class="htrack"><div class="hfill" data-w="93.8" style="background:#3D7BC8"></div></div><span class="hval">$59.92</span></div>
+          <div class="hrow"><span class="hlabel">Data Center and AI</span><div class="htrack"><div class="hfill" data-w="54.3" style="background:#3D7BC8"></div></div><span class="hval">$34.64</span></div>
+          <div class="hrow"><span class="hlabel">Intel Foundry (outside sales)</span><div class="htrack"><div class="hfill" data-w="1.9" style="background:#CF5F4E"></div></div><span class="hval">$1.24</span></div>
+          <div class="hrow"><span class="hlabel">All other</span><div class="htrack"><div class="hfill" data-w="6.6" style="background:#3D7BC8"></div></div><span class="hval">$4.20</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#D96A57"></div></div><span class="hval">−$63.85</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="36.9" style="background:#CF5F4E"></div></div><span class="hval">−$23.54</span></div>
+          <div class="hrow"><span class="hlabel">MG&amp;A</span><div class="htrack"><div class="hfill" data-w="13.1" style="background:#CF5F4E"></div></div><span class="hval">−$8.37</span></div>
+          <div class="hrow"><span class="hlabel">Other expense</span><div class="htrack"><div class="hfill" data-w="2.8" style="background:#D96A57"></div></div><span class="hval">−$1.77</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="7.7" style="background:#B8443C"></div></div><span class="hval">−$4.91</span></div>
+          <div class="hrow"><span class="hlabel">Net loss</span><div class="htrack"><div class="hfill" data-w="3.8" style="background:#D96A57"></div></div><span class="hval">−$2.44</span></div>
+      <p class="hnote">One line dominates the bottom line: tax took $4.91 of every $100 of revenue — more than the quarter&#x27;s entire operating profit per $100 ($4.24).</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+9%</div>
+            <h3>Data center carried the quarter</h3>
+            <p>Data Center and AI revenue rose 9% to $4,737M, while client computing fell 7% to $8,193M. Total revenue fell 4% to $13,674M and gross margin eased to 36.1% from 39.2%.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#b8443c">$671M</div>
+            <h3>Tax turned a profit into a loss</h3>
+            <p>Intel made a $580M operating profit, but a $671M tax charge on $338M of pre-tax income (a 198.5% rate) produced a $333M total net loss. On Intel&#x27;s non-GAAP basis, EPS was a $0.15 profit.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$4.3B</div>
+            <h3>Cash generation was strong</h3>
+            <p>Intel generated $4.3B of operating cash flow in the quarter, launched its first 18A products (Core Ultra Series 3), and completed the $5.0B sale of stock to Nvidia.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Tax: the $671M tax charge on just $338M of pre-tax income — a 198.5% effective rate, as reported — is what turned an operating profit into a net loss. Intel&#x27;s non-GAAP tax rate was 12% and its non-GAAP EPS was a $0.15 profit.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="">Q1 2026</a></li><li><a href="../2025-q4/" class="current">Q4 2025</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/50863/000005086326000009/q425earningsrelease.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm">Form 10-K for the year ended Dec 27, 2025 (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Net loss attributable to Intel was $591M (EPS -$0.12); the $333M total net loss is after $258M of income attributable to non-controlling interests.</p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+    <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":13.674,"nodes":{"seg0":{"name":"Client Computing Group","amt":"$8.2B","value":8.193,"col":0,"color":"#3D7BC8","note":"-7% \u00b7 59.9% of revenue","plain":"Chips for PCs. Down 7% YoY.","quarter":"59.9% of all revenue this quarter."},"seg1":{"name":"Data Center and AI","amt":"$4.7B","value":4.737,"col":0,"color":"#7A68C4","note":"+9% \u00b7 34.6% of revenue","plain":"Server CPUs and AI products for datacenters. Up 9% YoY.","quarter":"34.6% of all revenue this quarter."},"seg2":{"name":"Intel Foundry","amt":"$170M","value":0.17,"col":0,"color":"#2E7CC4","note":"1.2% of revenue","plain":"Chip manufacturing for outside customers only (most Foundry revenue is internal and eliminated on consolidation).","quarter":"1.2% of all revenue this quarter.","compact":true,"compactLabel":"Intel Foundry: $170M (1.2% of revenue)"},"seg3":{"name":"All other","amt":"$574M","value":0.574,"col":0,"color":"#76B900","note":"-48% \u00b7 4.2% of revenue","plain":"Mostly Mobileye, plus smaller businesses; down 48% YoY mainly because Altera was deconsolidated in Sep 2025.","quarter":"4.2% of all revenue this quarter.","compact":true,"compactLabel":"All other: $574M (-48%)"},"rev":{"name":"Revenue","amt":"$13.7B","value":13.674,"col":1,"color":"#2F3B4C","note":"-4%","plain":"All the money Intel took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$13.7B, -4% vs a year ago."},"gross":{"name":"Gross profit","amt":"$4.9B","value":4.943,"col":2,"color":"#69B578","note":"36.1% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"36.1 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($8.7B)","value":8.731,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$8.7B \u2014 about 63.9 cents per revenue dollar."},"op":{"name":"Operating profit","amt":"$580M","value":0.58,"col":3,"color":"#4C9A67","note":"4.2% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 4.2% margin."},"opex":{"name":"Operating expenses","amt":"($4.4B)","value":4.363,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$4.4B total, split into Research and development, Marketing, general and administrative on the right."},"netloss":{"name":"Net loss","amt":"($333M)","value":0.333,"col":4,"color":"#94A3B8","note":"","plain":"After other items and tax, the quarter ended in the red \u2014 the $333M net loss was covered by cash on the balance sheet.","quarter":"A net loss of $333M this quarter."},"otherexp":{"name":"Other expense","amt":"($242M)","value":0.242,"col":4,"color":"#B8443C","note":"","plain":"Other expense of $242M net combines two lines: interest and other, net of -$145M and a $97M loss on equity investments, net. Tax was a $671M charge \u2014 a 198.5% effective rate on $338M of pre-tax income, as reported by Intel.","quarter":"$242M taken out of profit."},"tax":{"name":"Tax","amt":"($671M)","value":0.671,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$671M \u2014 roughly a 198.5% tax rate on pre-tax profit."},"ox0":{"name":"Research and development","amt":"($3.2B)","value":3.219,"col":4,"color":"#CF5F4E","note":"23.5% of revenue","plain":"Developing new CPUs, AI accelerators and process technology; down from $3,876M a year ago.","quarter":"$3.2B \u2014 23.5% of revenue."},"ox1":{"name":"Marketing, general and administrative","amt":"($1.1B)","value":1.144,"col":4,"color":"#CF5F4E","note":"8.4% of revenue","plain":"Sales, marketing and back-office costs of $1,174M, partly offset by a $30M net restructuring credit \u2014 reversals on earlier restructuring actions were larger than new charges \u2014 for a net $1,144M. Down from $1,239M a year ago on the gross figure.","quarter":"$1.1B \u2014 8.4% of revenue."}},"cols":[["seg0","seg1","seg2","seg3"],["rev"],["gross","cost"],["op","opex"],["netloss","otherexp","tax","ox0","ox1"]],"links":[{"s":"seg0","d":"rev","v":8.193,"c":"#94b6e1","amt":"$8.2B"},{"s":"seg1","d":"rev","v":4.737,"c":"#b6acdf","amt":"$4.7B"},{"s":"seg2","d":"rev","v":0.17,"c":"#8cb7df","amt":"$170M"},{"s":"seg3","d":"rev","v":0.574,"c":"#b4d873","amt":"$574M"},{"s":"rev","d":"gross","v":4.943,"c":"#BFE0C6","amt":"$4.9B"},{"s":"rev","d":"cost","v":8.731,"c":"#F4C7B9","amt":"$8.7B"},{"s":"gross","d":"op","v":0.58,"c":"#ACD8B8","amt":"$580M"},{"s":"gross","d":"opex","v":4.363,"c":"#F2B3A4","amt":"$4.4B"},{"s":"op","d":"otherexp","v":0.242,"c":"#dfaba7","amt":"$242M"},{"s":"op","d":"tax","v":0.338,"c":"#dfaba7","amt":"$338M"},{"s":"netloss","d":"tax","v":0.333,"c":"#dfaba7","amt":"$333M"},{"s":"opex","d":"ox0","v":3.219,"c":"#F6C0B1","amt":"$3.2B"},{"s":"opex","d":"ox1","v":1.144,"c":"#F6C0B1","amt":"$1.1B"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

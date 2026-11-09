@@ -1,0 +1,147 @@
+{
+  "ticker": "SPOT",
+  "company": "Spotify",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-02-10",
+  "revenueYoY": "+7%",
+  "verdict": "Spotify closed 2025 with revenue up 7% to \u20ac4,531M (about $5,322M) \u2014 13% in constant currency \u2014 a record 33.1% gross margin, and net income of \u20ac1,174M, lifted by a \u20ac320M net finance gain and a \u20ac153M tax benefit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago (+13% in constant currency)"
+    },
+    {
+      "label": "EPS (IFRS, diluted)",
+      "value": "\u20ac4.43",
+      "note": "as reported, in euros"
+    },
+    {
+      "label": "Premium subscribers",
+      "value": "290M",
+      "note": "+10% YoY; 751M monthly users in total"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "\u20ac834M",
+      "note": "in the quarter; \u20ac2.9B for the full year"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premium",
+      "amountM": 4713.3,
+      "yoy": "+8%",
+      "note": "Paid subscriptions. Revenue up 8% YoY (14% in constant currency) on subscriber growth to 290M."
+    },
+    {
+      "name": "Ad-Supported",
+      "amountM": 608.4,
+      "yoy": "-4%",
+      "note": "The free tier, funded by advertising. Revenue down 4% YoY as reported, but up 4% in constant currency."
+    }
+  ],
+  "flow": {
+    "revenueM": 5321.7,
+    "costOfRevenueM": 3561.1,
+    "grossProfitM": 1760.6,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 340.6,
+        "note": "Building the app, recommendation systems and new formats like video podcasts and audiobooks (\u20ac290M as reported)."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 468.6,
+        "note": "Winning listeners and advertisers (\u20ac399M as reported)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 128.0,
+        "note": "Running the company day to day (\u20ac109M as reported); held down by a \u20ac50M social-charge credit as the share price fell."
+      }
+    ],
+    "operatingIncomeM": 823.4,
+    "otherIncomeM": 375.8,
+    "taxM": -179.7,
+    "netIncomeM": 1378.9
+  },
+  "follow100": [
+    {
+      "label": "Premium",
+      "amount": 88.57
+    },
+    {
+      "label": "Ad-Supported",
+      "amount": 11.43
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -66.92
+    },
+    {
+      "label": "R&D",
+      "amount": -6.4
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -8.81
+    },
+    {
+      "label": "G&A",
+      "amount": -2.41
+    },
+    {
+      "label": "Other income",
+      "amount": 7.06
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 3.38
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 25.91
+    }
+  ],
+  "follow100Note": "Premium subscriptions are about $89 of every $100 Spotify takes in; the free tier is the funnel, not the engine.",
+  "otherDetail": "Finance items netted a gain of \u20ac320M as reported: finance income of \u20ac349M minus \u20ac29M of finance costs. Tax was a benefit of \u20ac153M this quarter \u2014 it added to the bottom line instead of reducing it.",
+  "footerNote": "Converted at \u20ac1 = $1.1745 (USD:Euro 0.8514 at Dec 31, 2025, Spotify's own stated rate). As reported: revenue \u20ac4,531M \u00b7 operating income \u20ac701M \u00b7 net income \u20ac1,174M.",
+  "takeaways": [
+    {
+      "stat": "33.1%",
+      "statColor": "#3e8e5a",
+      "title": "A record gross margin",
+      "text": "Gross margin hit a record 33.1% (\u20ac1,499M of gross profit), and operating income of \u20ac701M beat the \u20ac620M guidance \u2014 helped by social charges coming in \u20ac67M below forecast as the share price fell."
+    },
+    {
+      "stat": "751M",
+      "statColor": "#3d7bc8",
+      "title": "Record user growth",
+      "text": "Monthly users jumped by a record 38M in the quarter to 751M (+11% YoY), and Premium subscribers rose 10% to 290M. The year's Wrapped engaged more than 300M people."
+    },
+    {
+      "stat": "\u20ac834M",
+      "statColor": "#5b6b7c",
+      "title": "Cash generation stayed strong",
+      "text": "Free cash flow was \u20ac834M in the quarter and \u20ac2.9B for 2025, taking cash and short-term investments to \u20ac9.5B. Net income of \u20ac1,174M also got a lift from a \u20ac153M tax benefit."
+    }
+  ],
+  "oneTimers": [
+    "Social charges: operating expenses included a \u20ac50M social-charge credit (a negative charge) because Spotify's share price fell in the quarter \u2014 \u20ac67M below forecast. These share-price-linked charges swing either way and flattered operating income.",
+    "Tax benefit: the \u20ac153M income-tax benefit, instead of a normal tax charge, lifted net income above the \u20ac1,021M pre-tax profit."
+  ],
+  "sources": [
+    {
+      "label": "Q4 2025 shareholder update (SEC EDGAR 6-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000114036126004482/ef20065075_ex99-1.htm"
+    },
+    {
+      "label": "Form 20-F for the year ended Dec 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm"
+    }
+  ]
+}

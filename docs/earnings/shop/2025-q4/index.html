@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P5PWXRJH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shopify — Q4 2025 Earnings, Explained Simply | Plain Earnings</title>
+<meta name="description" content="Shopify Q4 2025 earnings in plain English: Shopify closed 2025 with revenue up 31% to $3,672M on a record $123.8B of merchant sales — operating income rose 36% to $631M and net income was $743M, helped by a $182M gain on its investment stakes.">
+<meta property="og:title" content="Shopify — Q4 2025 Earnings, Explained Simply">
+<meta property="og:description" content="Shopify closed 2025 with revenue up 31% to $3,672M on a record $123.8B of merchant sales — operating income rose 36% to $631M and net income was $743M, helped by a $182M gain on its investment stakes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plainearnings.github.io/plainearnings/earnings/shop/2025-q4/">
+<meta property="og:image" content="https://plainearnings.github.io/plainearnings/earnings/shop/2025-q4/chart.png">
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="stylesheet" href="../../../assets/report.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="../../../">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://earnings.bragdoc.net/">earnings.bragdoc.net</a></span>
+  <nav>
+    <a href="../../../#companies">Companies</a>
+    <a href="../">All Shopify quarters</a>
+    <a href="../../../feed.xml">RSS</a>
+  </nav>
+</header>
+<div class="company-layout">
+  <aside class="timeline">
+    <h1>Shopify <span class="thin">(SHOP)</span></h1>
+    <p class="timeline-sub">Earnings, quarter by quarter — newest first. Pick a quarter to read it.</p>
+    <nav class="q-list">
+      <a class="q-item" href="../2026-q3/">
+        <span class="q-label">Q3 2026</span>
+        <span class="q-badge">+32%</span>
+        <span class="q-meta">Reported 2026-11-03 · Revenue $3,742M</span>
+      </a>
+      <a class="q-item" href="../2026-q2/">
+        <span class="q-label">Q2 2026</span>
+        <span class="q-badge">+34%</span>
+        <span class="q-meta">Reported 2026-08-05 · Revenue $3,583M</span>
+      </a>
+      <a class="q-item" href="../2026-q1/">
+        <span class="q-label">Q1 2026</span>
+        <span class="q-badge">+34%</span>
+        <span class="q-meta">Reported 2026-05-05 · Revenue $3,170M</span>
+      </a>
+      <a class="q-item active" href="../2025-q4/">
+        <span class="q-label">Q4 2025</span>
+        <span class="q-badge">+31%</span>
+        <span class="q-meta">Reported 2026-02-11 · Revenue $3,672M</span>
+      </a>
+    </nav>
+  </aside>
+<div class="report-wrap">
+  <header class="top">
+    <h1>Shopify — Q4 2025 Earnings
+      <span class="thin">Explained simply: where the money came from, and where it went</span>
+    </h1>
+    <div class="meta">
+      <strong>Q4 2025</strong> · Quarter ended 2025-12-31<br>
+      Reported 2026-02-11
+    </div>
+  </header>
+
+  <p class="verdict">Shopify closed 2025 with revenue up 31% to $3,672M on a record $123.8B of merchant sales — operating income rose 36% to $631M and net income was $743M, helped by a $182M gain on its investment stakes.</p>
+
+  <div class="chips" aria-label="Key figures">
+    <span class="chip">Revenue growth<b>+31%</b></span><span class="chip">EPS (GAAP)<b>$0.57</b></span><span class="chip">GMV<b>$123.8B</b></span><span class="chip">Free cash flow<b>$715M</b></span>
+  </div>
+
+  <p class="hint"><b>Follow the money, left → right.</b> Hover or tap any block or band to trace where that money comes from and where it goes. Tap a block to pin it and read what it means below. Tap the background to reset.</p>
+
+  <div class="chart-box" id="chartBox">
+    <svg id="chart" viewBox="0 0 1300 600" role="group" aria-label="Sankey diagram of Shopify's Q4 2025 income statement"></svg>
+    <div id="tooltip" role="status"></div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    <span><i class="dot" style="background:#3d7bc8"></i>Where money comes from</span>
+    <span><i class="dot" style="background:#2f3b4c"></i>Total revenue</span>
+    <span><i class="dot" style="background:#69b578"></i>Profit kept</span>
+    <span><i class="dot" style="background:#d96a57"></i>Money spent</span>
+    <span><i class="dot" style="background:#b8443c"></i>Tax</span>
+  </div>
+
+  <section class="panel" id="panel" aria-live="polite">
+    <div class="panel-head">
+      <h2 id="pName">Revenue</h2>
+      <span class="p-amt" id="pAmt"></span>
+      <span class="p-share" id="pShare"></span>
+    </div>
+    <div class="p-cols">
+      <div>
+        <h3>In plain English</h3>
+        <p id="pPlain"></p>
+      </div>
+      <div>
+        <h3>This quarter</h3>
+        <p id="pQuarter"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hundred">
+    <div class="hundred-head">
+      <div>
+        <h2>Follow $100 of revenue</h2>
+        <p>Charts in billions are hard to feel. Here is the same quarter, shrunk down: for every $100 Shopify took in, this is where it went.</p>
+      </div>
+      <button id="hundredBtn" aria-expanded="false" aria-controls="hundredBody">Show the $100 breakdown</button>
+    </div>
+    <div id="hundredBody">
+      <div class="hrow"><span class="hlabel">Subscription solutions</span><div class="htrack"><div class="hfill" data-w="26.8" style="background:#3D7BC8"></div></div><span class="hval">$21.16</span></div>
+          <div class="hrow"><span class="hlabel">Merchant solutions</span><div class="htrack"><div class="hfill" data-w="100.0" style="background:#3D7BC8"></div></div><span class="hval">$78.84</span></div>
+          <div class="hrow"><span class="hlabel">Cost of revenue</span><div class="htrack"><div class="hfill" data-w="68.4" style="background:#D96A57"></div></div><span class="hval">−$53.89</span></div>
+          <div class="hrow"><span class="hlabel">Sales &amp; marketing</span><div class="htrack"><div class="hfill" data-w="15.0" style="background:#CF5F4E"></div></div><span class="hval">−$11.79</span></div>
+          <div class="hrow"><span class="hlabel">R&amp;D</span><div class="htrack"><div class="hfill" data-w="13.5" style="background:#CF5F4E"></div></div><span class="hval">−$10.62</span></div>
+          <div class="hrow"><span class="hlabel">G&amp;A</span><div class="htrack"><div class="hfill" data-w="4.3" style="background:#CF5F4E"></div></div><span class="hval">−$3.40</span></div>
+          <div class="hrow"><span class="hlabel">Transaction &amp; loan losses</span><div class="htrack"><div class="hfill" data-w="3.9" style="background:#D96A57"></div></div><span class="hval">−$3.10</span></div>
+          <div class="hrow"><span class="hlabel">Other income</span><div class="htrack"><div class="hfill" data-w="8.1" style="background:#3D7BC8"></div></div><span class="hval">$6.35</span></div>
+          <div class="hrow"><span class="hlabel">Gain on equity method investment</span><div class="htrack"><div class="hfill" data-w="1.0" style="background:#3D7BC8"></div></div><span class="hval">$0.76</span></div>
+          <div class="hrow"><span class="hlabel">Tax</span><div class="htrack"><div class="hfill" data-w="5.1" style="background:#B8443C"></div></div><span class="hval">−$4.06</span></div>
+          <div class="hrow"><span class="hlabel">Kept as profit</span><div class="htrack"><div class="hfill" data-w="25.7" style="background:#3E8E5A"></div></div><span class="hval">$20.23</span></div>
+      <p class="hnote">Merchant solutions — mostly payment processing that grows with merchant sales — are $78.84 of every $100 Shopify takes in.</p>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <h2>Three things to take away</h2>
+    <p class="sub">If you only remember three numbers from this quarter, make it these.</p>
+    <div class="cards">
+      <article class="card">
+            <div class="stat" style="color:#3d7bc8">+31%</div>
+            <h3>A record holiday quarter</h3>
+            <p>Revenue rose 31% to $3,672M and merchants sold a record $123.8B through the platform (GMV, also +31%). Full-year revenue grew 30% to $11.6B.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#3e8e5a">$631M</div>
+            <h3>Operating profit kept compounding</h3>
+            <p>Operating income rose 36% to $631M, and free cash flow was $715M — a 19% margin, the tenth straight quarter of double-digit free-cash-flow margins. Shopify also launched a $2B share repurchase program.</p>
+          </article><article class="card">
+            <div class="stat" style="color:#5b6b7c">$743M</div>
+            <h3>Investment gains helped, but were smaller than last year</h3>
+            <p>Net income was $743M, down from $1,293M a year ago — that quarter&#x27;s investment gains were far larger ($906M vs $182M this quarter). Excluding equity-investment gains, net income was $594M.</p>
+          </article>
+    </div>
+  </section>
+  <section class="onetimers">
+        <h2>One-time items to know about</h2>
+        <p class="sub">Things that make this quarter look different from a normal one — so you don't mistake them for the trend.</p>
+        <ul><li>Convertible-note derivative: a $94M loss on the embedded derivative held to settle Shopify&#x27;s convertible senior notes, which were settled in the quarter (the full-year loss was $123M).</li><li>Equity investments: a $248M net gain on equity and other investments in the quarter, mostly mark-to-market (paper) gains that can reverse — Shopify&#x27;s own net income excluding equity investments was $594M.</li></ul>
+      </section>
+  <section class="quarternav">
+        <h2>Other quarters</h2>
+        <p class="sub">The same chart, for every quarter we've covered.</p>
+        <ul><li><a href="../2026-q3/" class="">Q3 2026</a></li><li><a href="../2026-q2/" class="">Q2 2026</a></li><li><a href="../2026-q1/" class="">Q1 2026</a></li><li><a href="../2025-q4/" class="current">Q4 2025</a></li></ul>
+      </section>
+  <footer>
+    <div>
+      <p>Sources (official only):</p>
+      <p><a href="https://www.sec.gov/Archives/edgar/data/1594805/000159480526000006/exhibit991pressreleaseq420.htm">Official earnings release (SEC EDGAR)</a></p><p><a href="https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm">Form 10-K for the year ended Dec 31, 2025 — quarterly data (SEC EDGAR)</a></p>
+      <p>Educational only — not financial advice. Excluding the gains on equity investments, Shopify&#x27;s own measure of net income was $594M. The GAAP net income was $743M.</p>
+      <p>Contact us: <a href="mailto:plainearnings@googlegroups.com">plainearnings@googlegroups.com</a></p>
+    </div>
+    <p>Band width = dollars · All figures in $M</p>
+  </footer>
+</div>
+</div>
+<script>window.REPORT = {"revenueB":3.672,"nodes":{"seg0":{"name":"Subscription solutions","amt":"$777M","value":0.777,"col":0,"color":"#3D7BC8","note":"+17% \u00b7 21.2% of revenue","plain":"Monthly fees merchants pay to use the Shopify platform. Up 17% YoY.","quarter":"21.2% of all revenue this quarter."},"seg1":{"name":"Merchant solutions","amt":"$2.9B","value":2.895,"col":0,"color":"#7A68C4","note":"+35% \u00b7 78.8% of revenue","plain":"Payment processing, shipping and other services that grow with merchant sales. Up 35% YoY as GMV hit a record.","quarter":"78.8% of all revenue this quarter."},"rev":{"name":"Revenue","amt":"$3.7B","value":3.672,"col":1,"color":"#2F3B4C","note":"+31%","plain":"All the money Shopify took in during the three months \u2014 the top line everything else is carved out of.","quarter":"$3.7B, +31% vs a year ago."},"gross":{"name":"Gross profit","amt":"$1.7B","value":1.693,"col":2,"color":"#69B578","note":"46.1% margin","plain":"What's left after paying the direct cost of delivering what was sold.","quarter":"46.1 cents of every revenue dollar survived this step."},"cost":{"name":"Cost of revenue","amt":"($2.0B)","value":1.979,"col":2,"color":"#D96A57","note":"","plain":"The direct bill for making and delivering what was sold.","quarter":"$2.0B \u2014 about 53.9 cents per revenue dollar."},"otherin":{"name":"Other income","amt":"$261M","value":0.261,"col":3,"color":"#69B578","note":"","plain":"Other income of $261M net (including the separate equity-method line) combined a $248M gain on equity and other investments and $79M of other income, net \u2014 mostly interest income \u2014 partly offset by a $94M loss on the embedded derivative tied to Shopify's convertible notes, which were settled in the quarter; the equity-method investment (Flexport) added a $28M gain, shown on the separate equity line.","quarter":"$261M added to profit."},"op":{"name":"Operating profit","amt":"$631M","value":0.631,"col":3,"color":"#4C9A67","note":"17.2% margin","plain":"What the core business earned after all running costs, before tax and other income.","quarter":"A 17.2% margin."},"opex":{"name":"Operating expenses","amt":"($1.1B)","value":1.062,"col":3,"color":"#CF5F4E","note":"","plain":"The cost of running and growing the company: research, selling, and the back office.","quarter":"$1.1B total, split into Sales and marketing, Research and development, General and administrative, Transaction and loan losses on the right."},"ox0":{"name":"Sales and marketing","amt":"($433M)","value":0.433,"col":4,"color":"#CF5F4E","note":"11.8% of revenue","plain":"Selling the platform and winning new merchants. Up 24% YoY.","quarter":"$433M \u2014 11.8% of revenue."},"ox1":{"name":"Research and development","amt":"($390M)","value":0.39,"col":4,"color":"#CF5F4E","note":"10.6% of revenue","plain":"Building the platform and new commerce and AI features. Up 11% YoY.","quarter":"$390M \u2014 10.6% of revenue."},"ox2":{"name":"General and administrative","amt":"($125M)","value":0.125,"col":4,"color":"#CF5F4E","note":"3.4% of revenue","plain":"The back office \u2014 finance, legal and admin. Up 12% YoY.","quarter":"$125M \u2014 3.4% of revenue."},"ox3":{"name":"Transaction and loan losses","amt":"($114M)","value":0.114,"col":4,"color":"#CF5F4E","note":"3.1% of revenue","plain":"Losses on merchant loans and cash advances, and transaction losses. Up 50% YoY.","quarter":"$114M \u2014 3.1% of revenue."},"net":{"name":"Net profit","amt":"$743M","value":0.743,"col":4,"color":"#3E8E5A","note":"20.2% margin","plain":"The bottom line \u2014 what Shopify actually earned after everything.","quarter":"$743M \u2014 about 20.2 cents of every revenue dollar."},"tax":{"name":"Tax","amt":"($149M)","value":0.149,"col":4,"color":"#B8443C","note":"","plain":"Income tax on the quarter's profit.","quarter":"$149M \u2014 roughly a 16.7% tax rate on pre-tax profit."}},"cols":[["seg0","seg1"],["rev"],["gross","cost"],["otherin","op","opex"],["net","tax","ox0","ox1","ox2","ox3"]],"links":[{"s":"seg0","d":"rev","v":0.777,"c":"#94b6e1","amt":"$777M"},{"s":"seg1","d":"rev","v":2.895,"c":"#b6acdf","amt":"$2.9B"},{"s":"rev","d":"gross","v":1.693,"c":"#BFE0C6","amt":"$1.7B"},{"s":"rev","d":"cost","v":1.979,"c":"#F4C7B9","amt":"$2.0B"},{"s":"gross","d":"op","v":0.631,"c":"#ACD8B8","amt":"$631M"},{"s":"gross","d":"opex","v":1.062,"c":"#F2B3A4","amt":"$1.1B"},{"s":"op","d":"net","v":0.482,"c":"#ACD8B8","amt":"$482M"},{"s":"otherin","d":"net","v":0.261,"c":"#ACD8B8","amt":"$261M"},{"s":"op","d":"tax","v":0.149,"c":"#dfaba7","amt":"$149M"},{"s":"opex","d":"ox0","v":0.433,"c":"#F6C0B1","amt":"$433M"},{"s":"opex","d":"ox1","v":0.39,"c":"#F6C0B1","amt":"$390M"},{"s":"opex","d":"ox2","v":0.125,"c":"#F6C0B1","amt":"$125M"},{"s":"opex","d":"ox3","v":0.114,"c":"#F6C0B1","amt":"$114M"}],"captions":["WHERE THE MONEY COMES FROM","TOTAL REVENUE","AFTER DIRECT COSTS","AFTER RUNNING COSTS","THE BOTTOM LINE"]};</script>
+<script src="../../../assets/chart.js"></script>
+</body>
+</html>

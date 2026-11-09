@@ -1,0 +1,143 @@
+{
+  "ticker": "SNOW",
+  "company": "Snowflake",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2025-10-31",
+  "reportedDate": "2025-12-03",
+  "revenueYoY": "+29%",
+  "verdict": "Snowflake grew revenue 29% to $1,213M, with product revenue of $1,158M \u2014 but $1,152M of running costs, much of it share-based pay, kept the GAAP result a $292M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+29%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.87",
+      "note": "diluted net loss per share"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$1,158M",
+      "note": "+29% YoY; 96% of total revenue"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$136M",
+      "note": "non-GAAP, 11% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 1158.377,
+      "yoy": "+29%",
+      "note": "Customers paying to store and crunch data on Snowflake's platform, billed by how much they use. Up 29% YoY."
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 54.532,
+      "yoy": "+30%",
+      "note": "Consulting, training and support that help customers get set up. Up 30% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 1212.909,
+    "costOfRevenueM": 390.873,
+    "grossProfitM": 822.036,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 550.364,
+        "note": "Sales teams and marketing. Up 26% YoY."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 494.027,
+        "note": "Building the platform and its AI products. Up 12% YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 107.118,
+        "note": "The back office \u2014 finance, legal and admin. Up 1% YoY."
+      }
+    ],
+    "operatingIncomeM": -329.473,
+    "otherIncomeM": 41.552,
+    "taxM": 3.682,
+    "netIncomeM": -291.603
+  },
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 95.5
+    },
+    {
+      "label": "Professional services and other",
+      "amount": 4.5
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -32.23
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -45.38
+    },
+    {
+      "label": "R&D",
+      "amount": -40.73
+    },
+    {
+      "label": "G&A",
+      "amount": -8.83
+    },
+    {
+      "label": "Other income",
+      "amount": 3.43
+    },
+    {
+      "label": "Tax",
+      "amount": -0.3
+    },
+    {
+      "label": "Net loss",
+      "amount": -24.04
+    }
+  ],
+  "follow100Note": "Running costs took $94.94 of every $100 of revenue \u2014 share-based pay to staff is a large part of Snowflake's GAAP expenses.",
+  "otherDetail": "Other income of $42M net was $45M of interest income on Snowflake's cash and investments, minus $2M of interest expense and $2M of other expense, net. Net loss attributable to Snowflake Inc. was $294M (EPS -$0.87), after $2M of income attributable to noncontrolling interests.",
+  "footerNote": "Snowflake's fiscal year ends Jan 31, so this is Q3 FY26. Non-GAAP operating income was $131M \u2014 the gap to GAAP is mostly share-based pay.",
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "title": "Product growth held near 30%",
+      "text": "Product revenue rose 29% to $1,158M, the net revenue retention rate was 125%, and remaining performance obligations (booked future work) jumped 37% to $7.88B."
+    },
+    {
+      "stat": "$131M",
+      "statColor": "#5b6b7c",
+      "title": "Adjusted profit, GAAP loss \u2014 the gap is share pay",
+      "text": "Non-GAAP operating income was $131M (an 11% margin), but GAAP showed a $329M operating loss and a $292M net loss, mostly because of stock-based compensation."
+    },
+    {
+      "stat": "688",
+      "statColor": "#3e8e5a",
+      "title": "Big customers kept spending",
+      "text": "Snowflake ended the quarter with 688 customers spending over $1M a year on the platform (+29% YoY) and 766 Forbes Global 2000 customers; adjusted free cash flow was $136M."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000207/fy2026q3earnings.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Oct 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000211/snow-20251031.htm"
+    }
+  ]
+}
