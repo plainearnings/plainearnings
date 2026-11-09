@@ -1,0 +1,172 @@
+{
+  "company": "Nike",
+  "flow": {
+    "costOfRevenueM": 6628,
+    "grossProfitM": 4469,
+    "netIncomeM": 211,
+    "operatingIncomeM": 321,
+    "opex": [
+      {
+        "amountM": 1253,
+        "name": "Demand creation",
+        "note": "Advertising and sports marketing \u2014 up 15%, primarily on higher sports and brand marketing."
+      },
+      {
+        "amountM": 2895,
+        "name": "Operating overhead",
+        "note": "Salaries, technology and running the business \u2014 down 3%, as the year-ago quarter carried restructuring charges."
+      }
+    ],
+    "otherIncomeM": -3,
+    "revenueM": 11097,
+    "taxM": 107
+  },
+  "follow100": [
+    {
+      "amount": 42.38,
+      "label": "North America"
+    },
+    {
+      "amount": 27.03,
+      "label": "Europe, Middle East & Africa"
+    },
+    {
+      "amount": 14.19,
+      "label": "Asia Pacific & Latin America"
+    },
+    {
+      "amount": 13.3,
+      "label": "Greater China"
+    },
+    {
+      "amount": 3.22,
+      "label": "Converse"
+    },
+    {
+      "amount": -0.13,
+      "label": "Global Brand & Corporate"
+    },
+    {
+      "amount": -59.73,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -11.29,
+      "label": "Demand creation"
+    },
+    {
+      "amount": -26.09,
+      "label": "Operating overhead"
+    },
+    {
+      "amount": -0.03,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.96,
+      "label": "Tax"
+    },
+    {
+      "amount": 1.9,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "Segment revenues are Nike's divisional revenues; 'Global Brand & Corporate' combines Global Brand Divisions ($9M) and Corporate (-$23M, mostly currency-hedge results) \u2014 a small negative this quarter.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago (-11% currency-neutral)",
+      "value": "-12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $1.01 a year ago",
+      "value": "$0.14"
+    },
+    {
+      "label": "Gross margin",
+      "note": "down 440 basis points, on discounts and channel mix",
+      "value": "40.3%"
+    },
+    {
+      "label": "Net income",
+      "note": "-86% YoY",
+      "value": "$211M"
+    }
+  ],
+  "oneTimers": [
+    "The effective tax rate was 33.6%, versus 13.1% a year ago \u2014 Nike said lower stock-compensation benefits and one-time items had an outsized impact because pre-tax income was so small."
+  ],
+  "otherDetail": "$22M of net interest income, less $25M of other expense, net.",
+  "periodEnd": "2025-05-31",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-06-26",
+  "revenueYoY": "-12%",
+  "segments": [
+    {
+      "amountM": 4703,
+      "name": "North America",
+      "note": "Nike's home market \u2014 footwear fell 13% and apparel 7%; equipment rose 1%.",
+      "yoy": "-11%"
+    },
+    {
+      "amountM": 3000,
+      "name": "Europe, Middle East & Africa",
+      "note": "Europe, the Middle East and Africa \u2014 down 9% on reported numbers, down 10% without currency help.",
+      "yoy": "-9%"
+    },
+    {
+      "amountM": 1575,
+      "name": "Asia Pacific & Latin America",
+      "note": "Asia-Pacific (outside Greater China) and Latin America \u2014 down 8% reported, down 3% without currency help.",
+      "yoy": "-8%"
+    },
+    {
+      "amountM": 1476,
+      "name": "Greater China",
+      "note": "China \u2014 the weakest region this quarter, with footwear down 21%.",
+      "yoy": "-21%"
+    },
+    {
+      "amountM": 357,
+      "name": "Converse",
+      "note": "The Converse sneaker brand \u2014 down across all territories.",
+      "yoy": "-26%"
+    },
+    {
+      "amountM": -14,
+      "name": "Global Brand & Corporate",
+      "note": "Global brand divisions plus corporate leftovers (mostly currency-hedge results) \u2014 a small negative this quarter.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000034/q4fy25exhibit991er.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-12%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue fell 12% to $11.1B (down 11% without currency effects). Nike Direct fell 14% as digital sales dropped 26%, wholesale fell 9%, and every geography declined \u2014 Greater China most, at \u221221%.",
+      "title": "Sales fell everywhere"
+    },
+    {
+      "stat": "40.3%",
+      "statColor": "#5b6b7c",
+      "text": "Gross margin fell 440 basis points to 40.3%, primarily on higher discounts and changes in channel mix, as Nike cleared inventory to make room for new product. Inventories ended flat at $7.5B.",
+      "title": "Discounts squeezed the margin"
+    },
+    {
+      "stat": "$211M",
+      "statColor": "#3e8e5a",
+      "text": "Net income fell 86% to $211M and EPS to $0.14. Management called the quarter the largest financial impact from its 'Win Now' actions and said the headwinds should moderate from here.",
+      "title": "Profit fell 86%"
+    }
+  ],
+  "ticker": "NKE",
+  "verdict": "Nike's revenue fell 12% to $11.1B and profit dropped 86% to $211M \u2014 the quarter management called the largest financial hit from its 'Win Now' reset, with discounts cutting the gross margin by more than four points."
+}

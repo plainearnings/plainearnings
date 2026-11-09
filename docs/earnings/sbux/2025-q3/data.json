@@ -1,0 +1,163 @@
+{
+  "company": "Starbucks",
+  "flow": {
+    "costOfRevenueM": 7452,
+    "grossProfitM": 2004,
+    "netIncomeM": 558,
+    "operatingIncomeM": 878,
+    "opex": [
+      {
+        "amountM": 677,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 this quarter it also carried the one-off Leadership Experience 2025 gathering of more than 14,000 store leaders."
+      },
+      {
+        "amountM": 428,
+        "name": "Depreciation & amortization",
+        "note": "Wear and tear on coffeehouses, roasteries and equipment."
+      },
+      {
+        "amountM": 21,
+        "name": "Restructuring & impairments",
+        "note": "Restructuring under 'Back to Starbucks' \u2014 small this quarter; the big store-closure charges landed the following quarter."
+      }
+    ],
+    "otherIncomeM": -60,
+    "revenueM": 9456,
+    "taxM": 260
+  },
+  "follow100": [
+    {
+      "amount": 73.25,
+      "label": "North America"
+    },
+    {
+      "amount": 21.27,
+      "label": "International"
+    },
+    {
+      "amount": 5.12,
+      "label": "Channel Development"
+    },
+    {
+      "amount": 0.36,
+      "label": "Corporate & other"
+    },
+    {
+      "amount": -78.81,
+      "label": "Cost of running stores"
+    },
+    {
+      "amount": -7.16,
+      "label": "G&A"
+    },
+    {
+      "amount": -4.53,
+      "label": "Depreciation & amortization"
+    },
+    {
+      "amount": -0.22,
+      "label": "Restructuring & impairments"
+    },
+    {
+      "amount": -0.63,
+      "label": "Other expense"
+    },
+    {
+      "amount": -2.75,
+      "label": "Tax"
+    },
+    {
+      "amount": 5.9,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Starbucks reports in tenths of a million; the figures on this page are rounded to whole $M.",
+  "footerNote": "Reported operating income of $936M includes $57M of income from equity investees, shown here in Other income. Net earnings of $558M are essentially all attributable to Starbucks (noncontrolling interests took $0.2M).",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "note": "transactions -2%, average ticket +1%",
+      "value": "-2%"
+    },
+    {
+      "label": "Revenue",
+      "note": "to $9.5B, a record (+3% in constant currencies)",
+      "value": "+4%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "non-GAAP EPS was $0.50; one-offs cost $0.11",
+      "value": "$0.49"
+    },
+    {
+      "label": "Net earnings",
+      "note": "-47% YoY",
+      "value": "$558M"
+    }
+  ],
+  "oneTimers": [
+    "A non-recurring investment in Leadership Experience 2025 \u2014 a three-day conference for more than 14,000 North American store leaders \u2014 plus a discrete tax item reduced EPS by $0.11 in total; much of the conference cost sits in general & administrative expense, which rose 18% to $677M.",
+    "Restructuring charges were $21M under 'Back to Starbucks' \u2014 minor next to the $755M of store-closure charges that landed the following quarter."
+  ],
+  "otherDetail": "Income from equity investees of $57M and $26M of interest and other income, less $142M of interest expense.",
+  "periodEnd": "2025-06-29",
+  "quarterLabel": "Q3 FY25",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-07-29",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "amountM": 6927,
+      "name": "North America",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales fell 2%, with 3% fewer transactions partly offset by a 1% higher average ticket.",
+      "yoy": "+2%"
+    },
+    {
+      "amountM": 2011,
+      "name": "International",
+      "note": "Coffeehouses outside North America \u2014 comparable sales were flat, with China up 2% on 6% more transactions.",
+      "yoy": "+9%"
+    },
+    {
+      "amountM": 484,
+      "name": "Channel Development",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores \u2014 growth came from the Global Coffee Alliance.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 34,
+      "name": "Corporate & other",
+      "note": "Small leftover businesses and unallocated items.",
+      "yoy": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000057/sbux-06292025xexhibit991.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-2%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable store sales fell 2% on 2% fewer transactions, partly offset by a 1% higher average ticket. North America comps fell 2% (U.S. \u22122%); International was flat, with China up 2% on 6% more transactions.",
+      "title": "Comps were still negative"
+    },
+    {
+      "stat": "$0.11",
+      "statColor": "#5b6b7c",
+      "text": "GAAP EPS was $0.49 and non-GAAP EPS $0.50. Management said the Leadership Experience 2025 investment for 14,000+ store leaders, plus a discrete tax item, cut EPS by $0.11 in the aggregate.",
+      "title": "One-offs cost 11 cents of EPS"
+    },
+    {
+      "stat": "41,097",
+      "statColor": "#3e8e5a",
+      "text": "Starbucks opened 308 net new stores in the quarter, ending with 41,097 \u2014 53% company-operated and 47% licensed. New stores helped revenue grow 4% to a record $9.5B.",
+      "title": "Still opening stores"
+    }
+  ],
+  "ticker": "SBUX",
+  "verdict": "Starbucks grew revenue 4% to a record $9.5B, but comparable sales fell 2% and profit dropped 47% to $558M as it poured money into store staffing and a one-off leadership conference under 'Back to Starbucks'."
+}

@@ -1,0 +1,138 @@
+{
+  "company": "McDonald's",
+  "flow": {
+    "costOfRevenueM": 2881,
+    "grossProfitM": 3962,
+    "netIncomeM": 2253,
+    "operatingIncomeM": 3232,
+    "opex": [
+      {
+        "amountM": 730,
+        "name": "Selling, general & administrative",
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $701M of SG&A (including $106M of depreciation and amortization), plus $29M of other operating expense, net."
+      }
+    ],
+    "otherIncomeM": -371,
+    "revenueM": 6843,
+    "taxM": 608
+  },
+  "follow100": [
+    {
+      "amount": 61.56,
+      "label": "Franchised restaurants"
+    },
+    {
+      "amount": 35.92,
+      "label": "Company-owned restaurants"
+    },
+    {
+      "amount": 2.51,
+      "label": "Other revenues"
+    },
+    {
+      "amount": -42.1,
+      "label": "Cost of restaurants"
+    },
+    {
+      "amount": -10.67,
+      "label": "SG&A"
+    },
+    {
+      "amount": -5.42,
+      "label": "Other expense"
+    },
+    {
+      "amount": -8.89,
+      "label": "Tax"
+    },
+    {
+      "amount": 32.92,
+      "label": "Kept as profit"
+    }
+  ],
+  "footerNote": "The release's printed lines are rounded: interest expense less nonoperating income sums to $372M, while printed pre-tax income of $2,861M implies $371M of net other expense; this page follows the printed pre-tax total and net income.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago (+4% in constant currencies)",
+      "value": "+5%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "+12% YoY; $3.19 excluding restructuring charges",
+      "value": "$3.14"
+    },
+    {
+      "label": "Global comparable sales",
+      "note": "U.S. +2.5%",
+      "value": "+3.8%"
+    },
+    {
+      "label": "Operating income",
+      "note": "+11% YoY",
+      "value": "$3.2B"
+    }
+  ],
+  "oneTimers": [
+    "Pre-tax charges of $43M ($0.05 per share), primarily restructuring charges under the 'Accelerating the Organization' program to modernize how the company works; excluding them, operating income rose 7% and EPS was $3.19."
+  ],
+  "otherDetail": "Interest expense of $390M on McDonald's debt, partly offset by $18M of net nonoperating income.",
+  "periodEnd": "2025-06-30",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "reportedDate": "2025-08-06",
+  "revenueYoY": "+5%",
+  "segmentNote": "Systemwide sales grew 8% (6% in constant currency); comparable sales: U.S. +2.5%, International Operated Markets +4.0%, International Developmental Licensed Markets +5.6%.",
+  "segments": [
+    {
+      "amountM": 4213,
+      "name": "Franchised restaurants",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model.",
+      "yoy": "+7%"
+    },
+    {
+      "amountM": 2458,
+      "name": "Company-owned restaurants",
+      "note": "Food and drink sold at restaurants McDonald's runs itself.",
+      "yoy": "0%"
+    },
+    {
+      "amountM": 172,
+      "name": "Other revenues",
+      "note": "Fees from franchisees for technology and digital platforms, plus brand-licensing income \u2014 nearly double a year ago.",
+      "yoy": "+92%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000036/exhibit991-6302025.htm"
+    },
+    {
+      "label": "Supplemental financial information \u2014 Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000036/exhibit992-6302025.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+3.8%",
+      "statColor": "#3d7bc8",
+      "text": "Global comparable sales rose 3.8% \u2014 the U.S. +2.5%, International Operated Markets +4.0% and licensed markets +5.6%, led by Japan. Systemwide sales rose 8%.",
+      "title": "Comps rose across the board"
+    },
+    {
+      "stat": "$3.14",
+      "statColor": "#3e8e5a",
+      "text": "Diluted EPS was $3.14, up 12%. Excluding $43M of pre-tax restructuring charges under 'Accelerating the Organization', it was $3.19. Net income was $2,253M.",
+      "title": "EPS rose 12%"
+    },
+    {
+      "stat": "62%",
+      "statColor": "#5b6b7c",
+      "text": "Franchise revenue \u2014 rent and royalties from other people's restaurants \u2014 was $4.2B, 62% of all revenue, and grew 7%. Company-run store sales were flat at $2.5B at much thinner margins.",
+      "title": "Franchisees carry the model"
+    }
+  ],
+  "ticker": "MCD",
+  "verdict": "McDonald's grew revenue 5% to $6.8B and operating income 11% to $3.2B \u2014 comparable sales rose 3.8% across every segment \u2014 as franchise rent and royalties grew 7% while company-run restaurant sales stayed flat."
+}
