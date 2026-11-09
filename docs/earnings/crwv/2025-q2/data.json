@@ -1,0 +1,130 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave",
+  "quarterLabel": "Q2 2025",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2025-06-30",
+  "reportedDate": "2025-08-12",
+  "revenueYoY": "+207%",
+  "verdict": "CoreWeave's revenue more than tripled to $1.21B and the core business made a small operating profit \u2014 but $267M of net interest costs on its datacenter debt turned that into a $291M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+207%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.60",
+      "note": "diluted net loss per share"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$753M",
+      "note": "non-GAAP, a 62% margin"
+    },
+    {
+      "label": "Revenue backlog",
+      "value": "$30.1B",
+      "note": "committed future revenue at Jun 30, 2025"
+    }
+  ],
+  "segments": [
+    {
+      "name": "AI cloud infrastructure",
+      "amountM": 1212.788,
+      "yoy": "+207%",
+      "note": "Renting out GPU-powered datacenter capacity to AI labs, hyperscalers and large enterprises; revenue more than tripled as new capacity came online."
+    }
+  ],
+  "flow": {
+    "revenueM": 1212.788,
+    "costOfRevenueM": 312.667,
+    "grossProfitM": 900.121,
+    "opex": [
+      {
+        "name": "Technology and infrastructure",
+        "amountM": 669.913,
+        "note": "Running and expanding the platform: data-center operations and the engineering behind the AI cloud; up from $183M a year ago as capacity grew."
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 36.799,
+        "note": "Selling the cloud to AI labs, hyperscalers and large enterprises; up from $4M a year ago as the sales effort scaled."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 174.2,
+        "note": "The back office: finance, legal and company-wide administration; up from $22M a year ago, including costs of becoming a public company."
+      }
+    ],
+    "operatingIncomeM": 19.209,
+    "otherIncomeM": -261.943,
+    "taxM": 47.775,
+    "netIncomeM": -290.509
+  },
+  "follow100": [
+    {
+      "label": "AI cloud infrastructure",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -25.78
+    },
+    {
+      "label": "Technology & infrastructure",
+      "amount": -55.24
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -3.03
+    },
+    {
+      "label": "G&A",
+      "amount": -14.36
+    },
+    {
+      "label": "Other expense",
+      "amount": -21.6
+    },
+    {
+      "label": "Tax",
+      "amount": -3.94
+    },
+    {
+      "label": "Net loss",
+      "amount": -23.95
+    }
+  ],
+  "follow100Note": "Interest on the debt that funds CoreWeave's datacenters is the big leak: other expense \u2014 mostly $267M of net interest \u2014 took $21.60 of every $100 of revenue.",
+  "otherDetail": "Other expense of $262M net was almost all interest: $267M of net interest expense on the borrowing that funds GPUs and datacenters, partly offset by $5M of other income. There was no fair-value adjustment gain or loss this quarter.",
+  "footerNote": "CoreWeave reports one segment. Tax was a $48M charge even on a pre-tax loss, driven by its structure and foreign operations.",
+  "takeaways": [
+    {
+      "stat": "+207%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue more than tripled",
+      "text": "Revenue rose 207% to $1,213M as CoreWeave raced to add GPU capacity, ending the quarter with about 470 MW of active power. Revenue backlog reached $30.1B, including a $4B expansion deal with OpenAI on top of the earlier $11.9B agreement."
+    },
+    {
+      "stat": "$267M",
+      "statColor": "#5b6b7c",
+      "title": "Interest turned a profit into a loss",
+      "text": "The core business earned $19M of operating income, but $267M of net interest expense \u2014 the cost of borrowing to build datacenters \u2014 plus a $48M tax charge produced a $291M GAAP net loss. On the company's adjusted basis, operating income was $200M."
+    },
+    {
+      "stat": "$753M",
+      "statColor": "#3e8e5a",
+      "title": "The rental economics still show through",
+      "text": "Adjusted EBITDA was $753M, a 62% margin \u2014 the cash earnings of the datacenters before interest, tax and the heavy upfront cost of the machines themselves, which is exactly the bill the interest line represents."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000039/coreweave2q25earningspress.htm"
+    }
+  ]
+}

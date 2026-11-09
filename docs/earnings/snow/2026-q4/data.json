@@ -1,0 +1,144 @@
+{
+  "ticker": "SNOW",
+  "company": "Snowflake",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-01-31",
+  "reportedDate": "2026-02-25",
+  "revenueYoY": "+30%",
+  "verdict": "Snowflake closed its fiscal year with revenue up 30% to $1.28B and $782M of adjusted free cash flow \u2014 but heavy share-based pay kept the GAAP result a $310M net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+30%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.90",
+      "note": "diluted net loss per share"
+    },
+    {
+      "label": "Product revenue",
+      "value": "$1,227M",
+      "note": "+30% YoY; 96% of total revenue"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "value": "$782M",
+      "note": "non-GAAP, 61% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Product",
+      "amountM": 1226.631,
+      "yoy": "+30%",
+      "note": "Customers paying to store and analyze data on Snowflake's platform, billed mostly by usage. Up 30% YoY."
+    },
+    {
+      "name": "Professional services and other",
+      "amountM": 57.363,
+      "yoy": "+32%",
+      "note": "Consulting and training that helps customers get running on the platform. Up 32% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 1283.994,
+    "costOfRevenueM": 426.331,
+    "grossProfitM": 857.663,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 551.262,
+        "note": "Sales teams and marketing. Up 27% YoY."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 511.038,
+        "note": "Building the platform and its AI products. Up 4% YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 113.522,
+        "note": "The back office \u2014 finance, legal and admin. Down 1% YoY."
+      }
+    ],
+    "operatingIncomeM": -318.159,
+    "otherIncomeM": 16.261,
+    "taxM": 7.652,
+    "netIncomeM": -309.55
+  },
+  "follow100": [
+    {
+      "label": "Product",
+      "amount": 95.53
+    },
+    {
+      "label": "Professional services and other",
+      "amount": 4.47
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -33.2
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -42.93
+    },
+    {
+      "label": "R&D",
+      "amount": -39.8
+    },
+    {
+      "label": "G&A",
+      "amount": -8.84
+    },
+    {
+      "label": "Other income",
+      "amount": 1.27
+    },
+    {
+      "label": "Tax",
+      "amount": -0.6
+    },
+    {
+      "label": "Net loss",
+      "amount": -24.1
+    }
+  ],
+  "follow100Note": "Running costs took $91.56 of every $100 of revenue \u2014 share-based pay to staff is a large part of Snowflake's GAAP expenses.",
+  "otherDetail": "Other income of $16M net was $42M of interest income on Snowflake's cash and investments, minus $2M of interest expense and $24M of other expense, net.",
+  "footerNote": "Snowflake's fiscal year ends Jan 31, so this is Q4 FY26. Non-GAAP operating income was $139M \u2014 the gap to GAAP is mostly share-based pay.",
+  "takeaways": [
+    {
+      "stat": "+30%",
+      "statColor": "#3d7bc8",
+      "title": "Product growth held at 30%",
+      "text": "Product revenue rose 30% to $1,227M and total revenue to $1,284M. Remaining performance obligations \u2014 work customers have committed to \u2014 jumped 42% to $9.77B, and net revenue retention was 125%, meaning existing customers spent a quarter more than a year earlier."
+    },
+    {
+      "stat": "-$310M",
+      "statColor": "#5b6b7c",
+      "title": "Still a GAAP loss, by design of pay",
+      "text": "The GAAP net loss was $310M, narrower than $326M a year ago. Snowflake pays staff heavily in shares, which counts as a GAAP expense: on the company's non-GAAP basis, operating income was a profit of $139M."
+    },
+    {
+      "stat": "$782M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow is the counterweight",
+      "text": "Operating cash flow was $781M and adjusted free cash flow $782M \u2014 61% of revenue \u2014 in the seasonally strong collection quarter. Snowflake added 740 net new customers, up 40% YoY, and 733 customers now spend over $1M a year."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026011631/fy2026q4earnings.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026011631/snow-20260225.htm"
+    }
+  ]
+}

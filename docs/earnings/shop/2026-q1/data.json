@@ -1,0 +1,160 @@
+{
+  "ticker": "SHOP",
+  "company": "Shopify",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-05",
+  "revenueYoY": "+34%",
+  "verdict": "Shopify grew revenue 34% to $3.17B and merchants cleared $100B of sales in a quarter for the first time \u2014 but a $1,064M paper loss on its equity investments turned a $382M operating profit into a $581M GAAP net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.45",
+      "note": "diluted, after the investment paper loss"
+    },
+    {
+      "label": "GMV",
+      "value": "$100.7B",
+      "note": "merchant sales through the platform, +35% YoY"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$476M",
+      "note": "a 15% free cash flow margin"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription solutions",
+      "amountM": 750,
+      "yoy": "+21%",
+      "note": "Monthly fees merchants pay to use the platform. Up 21% YoY; monthly recurring revenue was $212M at quarter end."
+    },
+    {
+      "name": "Merchant solutions",
+      "amountM": 2420,
+      "yoy": "+39%",
+      "note": "Payments, shipping and other services that scale with merchant sales. Up 39% YoY as gross merchandise volume rose 35% to $100,743M."
+    }
+  ],
+  "flow": {
+    "revenueM": 3170,
+    "costOfRevenueM": 1624,
+    "grossProfitM": 1546,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 496,
+        "note": "Selling the platform and winning new merchants. Up 22% YoY."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 437,
+        "note": "Building the platform and new commerce and AI features. Up 16% YoY."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 115,
+        "note": "The back office \u2014 finance, legal and admin. Up 6% YoY."
+      },
+      {
+        "name": "Transaction and loan losses",
+        "amountM": 116,
+        "note": "Losses on merchant loans and cash advances, and transaction losses. Up 55% YoY."
+      }
+    ],
+    "operatingIncomeM": 382,
+    "otherIncomeM": -995,
+    "equityM": -21,
+    "taxM": -53,
+    "netIncomeM": -581
+  },
+  "follow100": [
+    {
+      "label": "Subscription solutions",
+      "amount": 23.66
+    },
+    {
+      "label": "Merchant solutions",
+      "amount": 76.34
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -51.23
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -15.65
+    },
+    {
+      "label": "R&D",
+      "amount": -13.79
+    },
+    {
+      "label": "G&A",
+      "amount": -3.63
+    },
+    {
+      "label": "Transaction and loan losses",
+      "amount": -3.66
+    },
+    {
+      "label": "Other expense",
+      "amount": -31.39
+    },
+    {
+      "label": "Equity-method loss",
+      "amount": -0.66
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 1.67
+    },
+    {
+      "label": "Net loss",
+      "amount": -18.34
+    }
+  ],
+  "follow100Note": "The swing factor sits below the operating line: paper losses on Shopify's stakes in other companies took $31.39 of every $100 of revenue.",
+  "otherDetail": "Other expense of $1,016M net (including the separate equity-method line) was dominated by a $1,064M unrealized \u2014 paper \u2014 loss on equity and other investments, partly offset by $75M of interest income, a $3M realized gain and a $9M foreign-exchange loss; the equity-method investment lost a further $21M. Tax was a $53M recovery (benefit).",
+  "footerNote": "Excluding the paper loss on equity investments, Shopify's own measure of net income was $360M. The GAAP net loss was $581M.",
+  "takeaways": [
+    {
+      "stat": "+34%",
+      "statColor": "#3d7bc8",
+      "title": "Growth accelerated, GMV passed $100B",
+      "text": "Revenue rose 34% to $3,170M as gross merchandise volume \u2014 everything merchants sold through Shopify \u2014 grew 35% to $100,743M, the first $100B quarter. Merchant solutions revenue rose 39% to $2,420M."
+    },
+    {
+      "stat": "-$1,064M",
+      "statColor": "#5b6b7c",
+      "title": "A paper loss created the headline loss",
+      "text": "Shopify's stakes in other companies fell in value by $1,064M on paper in the quarter. That non-cash mark-to-market loss sits below operating income, which was actually up 88% to $382M; excluding equity-investment effects, net income was $360M."
+    },
+    {
+      "stat": "$476M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed at a 15% margin",
+      "text": "Free cash flow was $476M, 15% of revenue \u2014 the same margin as a year ago \u2014 while monthly recurring revenue reached $212M. For Q2, Shopify guided revenue growth in the high twenties percent."
+    }
+  ],
+  "oneTimers": [
+    "Unrealized loss on equity and other investments: $1,064M \u2014 a non-cash mark-to-market loss on Shopify's stakes in other companies; Shopify excludes equity-investment effects from its own adjusted net income measure ($360M this quarter)."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000018/exhibit991pressreleaseq120.htm"
+    },
+    {
+      "label": "Form 10-Q \u2014 detailed statements of operations (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000019/shop-20260331.htm"
+    }
+  ]
+}

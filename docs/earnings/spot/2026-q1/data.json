@@ -1,0 +1,146 @@
+{
+  "ticker": "SPOT",
+  "company": "Spotify",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-28",
+  "revenueYoY": "+8%",
+  "verdict": "Spotify grew revenue 8% to \u20ac4.53B (about $5.24B) \u2014 14% in constant currency \u2014 and a \u20ac184M one-off gain on its exchangeable notes helped lift net income to \u20ac721M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+8%",
+      "note": "vs a year ago (+14% in constant currency)"
+    },
+    {
+      "label": "EPS (IFRS, diluted)",
+      "value": "\u20ac3.45",
+      "note": "as reported, in euros"
+    },
+    {
+      "label": "Premium subscribers",
+      "value": "293M",
+      "note": "+9% YoY; 761M monthly users in total"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "\u20ac824M",
+      "note": "in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Premium",
+      "amountM": 4791.5,
+      "yoy": "+10%",
+      "note": "Paid subscriptions \u2014 the engine of the business. Revenue up 10% YoY in euros (\u20ac4,148M as reported) with 293M subscribers."
+    },
+    {
+      "name": "Ad-Supported",
+      "amountM": 444.7,
+      "yoy": "-5%",
+      "note": "The free tier's advertising revenue. Down 5% YoY in euros (\u20ac385M as reported) as ad demand softened."
+    }
+  ],
+  "flow": {
+    "revenueM": 5236.2,
+    "costOfRevenueM": 3509.3,
+    "grossProfitM": 1726.9,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 382.3,
+        "note": "Building the app, recommendation systems and new formats like video podcasts and audiobooks (\u20ac331M as reported)."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 395.1,
+        "note": "Winning listeners and advertisers (\u20ac342M as reported)."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 123.6,
+        "note": "Running the company day to day (\u20ac107M as reported); lower this quarter as share-price-linked social charges fell."
+      }
+    ],
+    "operatingIncomeM": 825.9,
+    "otherIncomeM": 256.4,
+    "taxM": 249.4,
+    "netIncomeM": 832.9
+  },
+  "follow100": [
+    {
+      "label": "Premium",
+      "amount": 91.51
+    },
+    {
+      "label": "Ad-Supported",
+      "amount": 8.49
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -67.02
+    },
+    {
+      "label": "R&D",
+      "amount": -7.3
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -7.55
+    },
+    {
+      "label": "G&A",
+      "amount": -2.36
+    },
+    {
+      "label": "Other income",
+      "amount": 4.9
+    },
+    {
+      "label": "Tax",
+      "amount": -4.76
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 15.91
+    }
+  ],
+  "follow100Note": "Premium subscriptions are about $92 of every $100 Spotify takes in; the free tier is the funnel, not the engine. Rows add up with a small rounding difference.",
+  "otherDetail": "Finance items netted a gain of \u20ac222M as reported: finance income of \u20ac248M \u2014 including a \u20ac184M fair-value gain on the Exchangeable Notes and \u20ac52M of interest income \u2014 minus \u20ac26M of finance costs, which included \u20ac18M of foreign-exchange losses.",
+  "footerNote": "Spotify reports in euros under IFRS. Dollar figures are converted at \u20ac1 = $1.1551 (USD:Euro 0.8657 at Mar 31, 2026, the rate in Spotify's own release), with small rounding adjustments so the converted lines foot exactly. As reported: revenue \u20ac4,533M \u00b7 gross profit \u20ac1,495M \u00b7 operating income \u20ac715M \u00b7 net income \u20ac721M.",
+  "takeaways": [
+    {
+      "stat": "+14%",
+      "statColor": "#3d7bc8",
+      "title": "Constant-currency growth accelerated",
+      "text": "Reported revenue rose 8% to \u20ac4,533M, held back by currency moves; in constant currency it grew 14%. Premium subscribers rose 9% to 293M and monthly users reached 761M, both ahead of guidance."
+    },
+    {
+      "stat": "\u20ac184M",
+      "statColor": "#5b6b7c",
+      "title": "A notes gain padded the bottom line",
+      "text": "Finance income included a \u20ac184M fair-value gain on Spotify's Exchangeable Notes, which were then settled and taken off the balance sheet during the quarter. Even without it, operating income rose 40% to \u20ac715M on a 33.0% gross margin."
+    },
+    {
+      "stat": "\u20ac824M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow stayed very strong",
+      "text": "Free cash flow was \u20ac824M in the quarter, taking the last-twelve-months total to \u20ac3.2B, while operating cash flow was \u20ac836M."
+    }
+  ],
+  "oneTimers": [
+    "Fair-value gain on Exchangeable Notes: \u20ac184M inside finance income \u2014 a non-cash gain recorded before the notes were settled and derecognized in the quarter (a \u20ac1,304M cash settlement)."
+  ],
+  "sources": [
+    {
+      "label": "Official Q1 2026 interim report (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026027951/spot-20260331x6xk.htm"
+    },
+    {
+      "label": "Q1 2026 shareholder deck (SEC EDGAR 6-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000114036126017211/ef20071303_ex99-1.htm"
+    }
+  ]
+}

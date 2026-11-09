@@ -1,0 +1,142 @@
+{
+  "ticker": "ARM",
+  "company": "Arm Holdings",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2025-09-30",
+  "reportedDate": "2025-11-05",
+  "revenueYoY": "+34%",
+  "verdict": "Arm grew revenue 34% to a record second-quarter $1.14B, with royalties at a record $620M \u2014 and a $131M one-off gain on selling a business lifted GAAP net income to $238M, more than double a year ago.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago; a record second quarter"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.22",
+      "note": "diluted, vs $0.10 a year ago"
+    },
+    {
+      "label": "Royalty revenue",
+      "value": "$620M",
+      "note": "+21% YoY; a record quarter"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$411M",
+      "note": "non-GAAP; operating cash flow was $567M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "License and other revenue",
+      "amountM": 515,
+      "yoy": "+56%",
+      "note": "Fees for licensing Arm chip designs, plus support and related services; up 56% YoY on the timing and size of high-value license agreements and contributions from backlog."
+    },
+    {
+      "name": "Royalty revenue",
+      "amountM": 620,
+      "yoy": "+21%",
+      "note": "A cut of every chip shipped with Arm technology inside; up 21% YoY on higher royalty rates from newer designs such as Armv9 and Arm CSS, and more Arm-based chips in data centers."
+    }
+  ],
+  "flow": {
+    "revenueM": 1135,
+    "costOfRevenueM": 29,
+    "grossProfitM": 1106,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 691,
+        "note": "Designing new processors and platform technology; the GAAP figure includes $197M of share-based pay (paying staff in shares) and $28M of related employer taxes."
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 252,
+        "note": "Selling and running the company; the GAAP figure includes $61M of share-based pay and $9M of related employer taxes."
+      }
+    ],
+    "operatingIncomeM": 163,
+    "otherIncomeM": 155,
+    "equityM": -16,
+    "taxM": 64,
+    "netIncomeM": 238
+  },
+  "follow100": [
+    {
+      "label": "License and other revenue",
+      "amount": 45.37
+    },
+    {
+      "label": "Royalty revenue",
+      "amount": 54.63
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -2.56
+    },
+    {
+      "label": "R&D",
+      "amount": -60.88
+    },
+    {
+      "label": "SG&A",
+      "amount": -22.2
+    },
+    {
+      "label": "Other income",
+      "amount": 13.66
+    },
+    {
+      "label": "Loss on equity investments",
+      "amount": -1.41
+    },
+    {
+      "label": "Tax",
+      "amount": -5.64
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 20.97
+    }
+  ],
+  "follow100Note": "Royalties alone are $54.63 of every $100 Arm takes in. A one-off $131M gain on a business sale sits inside other income this quarter.",
+  "otherDetail": "Combined other income was $139M: $27M of net interest income plus $128M of other non-operating income (which includes a $131M gain on the sale of a business), minus a $16M loss from equity investments (the separate equity line). Tax was a $64M charge, a 21.2% effective rate on $302M of pre-tax income.",
+  "footerNote": "Arm calls its direct cost 'cost of sales' ($29M). Other income includes a one-off $131M gain on a business divestiture.",
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Royalties set a record",
+      "text": "Royalty revenue rose 21% to a record $620M and license revenue jumped 56% to $515M, taking total revenue to $1,135M \u2014 Arm's third straight billion-dollar quarter, above the high end of guidance."
+    },
+    {
+      "stat": "$131M",
+      "statColor": "#5b6b7c",
+      "title": "A one-off gain flattered the bottom line",
+      "text": "GAAP net income more than doubled to $238M, but $131M of that came from a one-time gain on selling a business, booked in other income. Excluding one-offs and share-based pay, non-GAAP net income was $417M (EPS $0.39)."
+    },
+    {
+      "stat": "$411M",
+      "statColor": "#3e8e5a",
+      "title": "Cash generation was strong",
+      "text": "Operating cash flow was $567M and non-GAAP free cash flow $411M in the quarter. Annualized contract value rose 28% to $1,600M, while remaining performance obligations were $2,246M."
+    }
+  ],
+  "oneTimers": [
+    "Gain on business divestiture: $131M inside other non-operating income \u2014 a one-time gain on a sale; Arm excludes it from non-GAAP results."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release \u2014 shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000042/exhibit992fye26q230-sepx25.htm"
+    },
+    {
+      "label": "Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000042/exhibit991fye26q230-sepx25.htm"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "ticker": "NET",
+  "company": "Cloudflare",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-07",
+  "revenueYoY": "+34%",
+  "verdict": "Cloudflare grew revenue 34% to $640M and cut its GAAP net loss to $23M \u2014 the operating loss was $62M, softened by $40M of interest income on its cash pile.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+34%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.07",
+      "note": "diluted net loss per share, vs -$0.11 a year ago"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$84M",
+      "note": "13% of revenue; operating cash flow was $158M"
+    },
+    {
+      "label": "Non-GAAP operating income",
+      "value": "$73M",
+      "note": "an 11% margin, vs a $62M GAAP operating loss"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Cloudflare platform",
+      "amountM": 639.755,
+      "yoy": "+34%",
+      "note": "One platform business: network services, security, and developer/AI tools sold mostly as subscriptions. Revenue up 34% YoY."
+    }
+  ],
+  "flow": {
+    "revenueM": 639.755,
+    "costOfRevenueM": 184.158,
+    "grossProfitM": 455.597,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 271.6,
+        "note": "Selling the platform and winning customers; includes $42.824M of stock-based compensation and related payroll taxes, and $1.250M of amortization of acquired intangible assets."
+      },
+      {
+        "name": "Research and development",
+        "amountM": 150.972,
+        "note": "Building the platform and new products (R&D); includes $49.501M of stock-based compensation and related payroll taxes."
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 95.019,
+        "note": "The back office (G&A); includes $30.988M of stock-based compensation and related payroll taxes, and $0.423M of acquisition-related and other expenses."
+      }
+    ],
+    "operatingIncomeM": -61.994,
+    "otherIncomeM": 40.593,
+    "taxM": 1.526,
+    "netIncomeM": -22.927
+  },
+  "follow100": [
+    {
+      "label": "Cloudflare platform",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -28.79
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -42.45
+    },
+    {
+      "label": "R&D",
+      "amount": -23.6
+    },
+    {
+      "label": "G&A",
+      "amount": -14.85
+    },
+    {
+      "label": "Other income",
+      "amount": 6.35
+    },
+    {
+      "label": "Tax",
+      "amount": -0.24
+    },
+    {
+      "label": "Net loss",
+      "amount": -3.58
+    }
+  ],
+  "follow100Note": "Cloudflare spends $42.45 of every $100 on selling \u2014 its go-to-market machine is the biggest single running cost.",
+  "otherDetail": "Non-operating income of $41M net was $40M of interest income on Cloudflare's cash and securities, plus $3M of other income, minus $3M of interest expense (mostly amortization of debt issuance costs).",
+  "footerNote": "Stock-based compensation and related payroll taxes totaled $127M in the quarter across all lines \u2014 the main gap between the GAAP loss and non-GAAP profit.",
+  "takeaways": [
+    {
+      "stat": "+34%",
+      "statColor": "#3d7bc8",
+      "title": "Growth re-accelerated",
+      "text": "Revenue rose 34% to $640M, with current remaining performance obligations also up 34% YoY. Gross margin was 71.2%, down from 75.9% a year ago as network costs grew with traffic and AI workloads."
+    },
+    {
+      "stat": "-$23M",
+      "statColor": "#5b6b7c",
+      "title": "The GAAP loss keeps shrinking",
+      "text": "The net loss narrowed to $23M from $38M a year ago. The $62M operating loss includes $127M of stock-based pay; excluding it and related items, non-GAAP operating income was $73M and non-GAAP net income $94M."
+    },
+    {
+      "stat": "$84M",
+      "statColor": "#3e8e5a",
+      "title": "Free cash flow margin improved",
+      "text": "Operating cash flow was $158M and free cash flow $84M, 13% of revenue versus 11% a year ago. Cash and available-for-sale securities stood at $4,164M at quarter end."
+    }
+  ],
+  "oneTimers": [],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000033/q126exhibit991.htm"
+    }
+  ]
+}

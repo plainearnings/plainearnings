@@ -1,0 +1,166 @@
+{
+  "ticker": "INTC",
+  "company": "Intel",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-28",
+  "reportedDate": "2026-04-23",
+  "revenueYoY": "+7%",
+  "verdict": "Intel grew revenue 7% to $13.6B with data-center sales up 22% \u2014 but a $4,070M restructuring line, mostly a non-cash $3.9B goodwill impairment, drove a $4,281M total net loss.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "-$0.73",
+      "note": "diluted, attributable to Intel; non-GAAP EPS was $0.29"
+    },
+    {
+      "label": "Data Center and AI",
+      "value": "$5,052M",
+      "note": "+22% YoY \u2014 the growth engine this quarter"
+    },
+    {
+      "label": "Operating cash flow",
+      "value": "$1,096M",
+      "note": "generated in the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Client Computing Group",
+      "amountM": 7727,
+      "yoy": "+1%",
+      "note": "Chips for PCs. Up 1% YoY."
+    },
+    {
+      "name": "Data Center and AI",
+      "amountM": 5052,
+      "yoy": "+22%",
+      "note": "Server CPUs and AI products for datacenters. Up 22% YoY on higher server prices and demand."
+    },
+    {
+      "name": "Intel Foundry",
+      "amountM": 170,
+      "note": "Chip manufacturing for outside customers only (most Foundry revenue is internal and eliminated on consolidation)."
+    },
+    {
+      "name": "All other",
+      "amountM": 628,
+      "yoy": "-33%",
+      "note": "Mostly Mobileye ($558M of it), plus smaller businesses; down 33% YoY mainly because Altera was deconsolidated in 2025."
+    }
+  ],
+  "flow": {
+    "revenueM": 13577,
+    "costOfRevenueM": 8230,
+    "grossProfitM": 5347,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 3375,
+        "note": "Developing new CPUs, AI accelerators and process technology; down from $3,640M a year ago."
+      },
+      {
+        "name": "Marketing, general and administrative",
+        "amountM": 1038,
+        "note": "Sales, marketing and back-office costs; down from $1,177M a year ago."
+      },
+      {
+        "name": "Restructuring and other charges",
+        "amountM": 4070,
+        "note": "Mostly a $3,965M asset impairment charge \u2014 including about $3.9B of non-cash goodwill impairment \u2014 plus $74M of severance and $31M of litigation and other charges; Intel excludes these from non-GAAP results."
+      }
+    ],
+    "operatingIncomeM": -3136,
+    "otherIncomeM": -810,
+    "taxM": 335,
+    "netIncomeM": -4281
+  },
+  "follow100": [
+    {
+      "label": "Client Computing Group",
+      "amount": 56.91
+    },
+    {
+      "label": "Data Center and AI",
+      "amount": 37.21
+    },
+    {
+      "label": "Intel Foundry (outside sales)",
+      "amount": 1.25
+    },
+    {
+      "label": "All other",
+      "amount": 4.63
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.62
+    },
+    {
+      "label": "R&D",
+      "amount": -24.86
+    },
+    {
+      "label": "MG&A",
+      "amount": -7.65
+    },
+    {
+      "label": "Restructuring",
+      "amount": -29.98
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.97
+    },
+    {
+      "label": "Tax",
+      "amount": -2.47
+    },
+    {
+      "label": "Net loss",
+      "amount": -31.55
+    }
+  ],
+  "follow100Note": "One line dominates: restructuring and impairments took $29.98 of every $100 of revenue. Without that line, the quarter would have been operating-profitable.",
+  "otherDetail": "Other expense of $810M net combines two lines: interest and other, net of -$738M \u2014 which includes a $1,090M mark-to-market loss on the U.S. government Escrowed Shares \u2014 and a $72M loss on equity investments. Of the $4,281M total net loss, $553M was attributable to non-controlling interests, leaving $3,728M attributable to Intel.",
+  "footerNote": "Net loss attributable to Intel was $3,728M (EPS -$0.73); the $4,281M total includes $553M attributable to non-controlling interests.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Data center is carrying growth",
+      "text": "Data Center and AI revenue rose 22% to $5,052M on higher server prices and demand, while client computing was roughly flat at $7,727M. Total revenue rose 7% to $13,577M and gross margin improved to 39.4% from 36.9%."
+    },
+    {
+      "stat": "$3.9B",
+      "statColor": "#5b6b7c",
+      "title": "A goodwill impairment drove the loss",
+      "text": "Restructuring and other charges were $4,070M, of which $3,965M was asset impairments \u2014 including about $3.9B of non-cash goodwill impairment \u2014 versus just $156M of total charges a year ago. Excluding one-offs, non-GAAP EPS was a profit of $0.29."
+    },
+    {
+      "stat": "$1.1B",
+      "statColor": "#3e8e5a",
+      "title": "Cash held up, guidance rose",
+      "text": "Intel generated $1,096M of operating cash flow despite the paper charges, repurchased the 49% minority stake in its Fab 34 Ireland venture, and guided Q2 revenue to $13.8B\u2013$14.8B."
+    }
+  ],
+  "oneTimers": [
+    "Asset impairment charges: $3,965M inside restructuring \u2014 including about $3.9B of non-cash goodwill impairment \u2014 plus $74M of severance and $31M of litigation and other charges.",
+    "Mark-to-market loss on Escrowed Shares: $1,090M inside 'interest and other, net' \u2014 a non-cash charge linked to the U.S. government CHIPS Act share agreement; Intel excludes it from non-GAAP results."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/q126earningsrelease.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Mar 28, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm"
+    }
+  ]
+}
