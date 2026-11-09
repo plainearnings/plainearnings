@@ -1,0 +1,211 @@
+{
+  "ticker": "BRK.B",
+  "company": "Berkshire Hathaway",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-31",
+  "reportedDate": "2025-05-03",
+  "verdict": "Berkshire's operating earnings fell 14% to $9.6B as California wildfire losses halved insurance underwriting \u2212 and a $6.4B paper loss on its stock portfolio cut headline profit to $4.6B, down from $12.7B a year ago.",
+  "revenueYoY": "0%",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$89.7B",
+      "note": "0% YoY"
+    },
+    {
+      "label": "EPS (GAAP, Class B)",
+      "value": "$2.13",
+      "note": "vs $5.88 a year ago"
+    },
+    {
+      "label": "Operating earnings",
+      "value": "$9.6B",
+      "note": "\u221214% YoY \u2212 the number Buffett says matters"
+    },
+    {
+      "label": "Insurance underwriting",
+      "value": "$1.3B",
+      "note": "\u221249% YoY, after tax"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Insurance premiums earned",
+      "amountM": 21804,
+      "yoy": "+2%",
+      "note": "Premiums from GEICO, reinsurance and primary insurance \u2014 GEICO grew 5%, reinsurance eased."
+    },
+    {
+      "name": "Sales and service revenues",
+      "amountM": 47815,
+      "yoy": "\u22124%",
+      "note": "The biggest bucket: everything the manufacturing, service and retailing businesses sell \u2014 lower fuel prices cut Pilot travel centers' revenue by $2.1B."
+    },
+    {
+      "name": "Leasing revenues",
+      "amountM": 2431,
+      "yoy": "+9%",
+      "note": "Renting out railcars, aircraft and other equipment."
+    },
+    {
+      "name": "Investment income",
+      "amountM": 5632,
+      "yoy": "+30%",
+      "note": "What the insurance float and the cash pile earn \u2014 mostly interest and dividends. Interest on Treasury Bills climbed with the cash pile."
+    },
+    {
+      "name": "Railroad revenues",
+      "amountM": 5671,
+      "yoy": "+1%",
+      "note": "BNSF freight revenue \u2014 what shippers pay to move goods by rail."
+    },
+    {
+      "name": "Utilities & energy revenues",
+      "amountM": 5494,
+      "yoy": "+5%",
+      "note": "Berkshire Hathaway Energy: electric and gas utilities, pipelines and renewables."
+    },
+    {
+      "name": "Service & other income",
+      "amountM": 878,
+      "yoy": "\u221215%",
+      "note": "Smaller service income inside the railroad and energy group \u2014 down on a year ago."
+    }
+  ],
+  "flow": {
+    "revenueM": 89725,
+    "costOfRevenueM": 64116,
+    "grossProfitM": 25609,
+    "opex": [
+      {
+        "name": "Insurance underwriting expenses",
+        "amountM": 4368,
+        "note": "Commissions, agents and running the insurance operations."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 7681,
+        "note": "Offices, sales teams and admin across the non-insurance businesses."
+      },
+      {
+        "name": "Interest \u2014 Insurance & Other",
+        "amountM": 340,
+        "compact": true,
+        "note": "Interest on borrowings outside the railroad and energy group."
+      },
+      {
+        "name": "Other expenses",
+        "amountM": 846,
+        "note": "Miscellaneous operating costs in the railroad and energy group."
+      },
+      {
+        "name": "Interest \u2014 railroad, utilities & energy",
+        "amountM": 917,
+        "compact": true,
+        "note": "Interest on BNSF and Berkshire Hathaway Energy debt."
+      }
+    ],
+    "operatingIncomeM": 11457,
+    "otherIncomeM": -6309,
+    "equityM": -69,
+    "taxM": 476,
+    "netIncomeM": 4603
+  },
+  "otherDetail": "Investment losses of $6,435M \u2014 mostly paper losses on Berkshire's stock portfolio \u2014 plus $126M of equity-method earnings, less $69M attributable to noncontrolling interests.",
+  "footerNote": "Berkshire has no single gross-profit line: costs are split following the 10-Q's own structure.",
+  "follow100": [
+    {
+      "label": "Insurance premiums earned",
+      "amount": 24.3
+    },
+    {
+      "label": "Sales and service revenues",
+      "amount": 53.29
+    },
+    {
+      "label": "Leasing revenues",
+      "amount": 2.71
+    },
+    {
+      "label": "Investment income",
+      "amount": 6.28
+    },
+    {
+      "label": "Railroad revenues",
+      "amount": 6.32
+    },
+    {
+      "label": "Utilities & energy revenues",
+      "amount": 6.12
+    },
+    {
+      "label": "Service & other income",
+      "amount": 0.98
+    },
+    {
+      "label": "All costs and expenses",
+      "amount": -87.23
+    },
+    {
+      "label": "Investment losses",
+      "amount": -7.17
+    },
+    {
+      "label": "Equity method earnings",
+      "amount": 0.14
+    },
+    {
+      "label": "Tax",
+      "amount": -0.53
+    },
+    {
+      "label": "Noncontrolling interests",
+      "amount": -0.08
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 5.13
+    }
+  ],
+  "follow100Note": "Paper losses on the stock portfolio took $7.17 of every $100 of revenue, on top of $87.23 of costs that included the California wildfire claims \u2014 leaving just $5.13 kept as profit. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "$9.6B",
+      "statColor": "#5b6b7c",
+      "title": "Operating earnings fell 14%",
+      "text": "The businesses themselves earned $9.6B after tax, down from $11.2B \u2212 insurance underwriting dropped to $1.3B from $2.6B after roughly $860M of after-tax losses from the Southern California wildfires, and a currency swing on foreign debt dragged 'Other' earnings from $1.1B to $41M."
+    },
+    {
+      "stat": "\u2212$6.4B",
+      "statColor": "#5b6b7c",
+      "title": "A paper loss on the stock pile",
+      "text": "Investment losses of $6.4B before tax were mostly unrealized: stocks Berkshire still holds fell $6.8B in value, partly offset by small gains on stocks sold during the quarter ($4.7B of sales). After tax, the investment loss was $5.0B."
+    },
+    {
+      "stat": "$342.4B",
+      "statColor": "#3d7bc8",
+      "title": "The cash pile hit another record",
+      "text": "Cash and Treasury Bills at the insurance and other businesses rose to $342.4B, up from $330.8B at year-end \u2014 Berkshire sold $4.7B of stocks against $3.2B of purchases, parked the money in Treasury Bills, and bought back none of its own shares."
+    }
+  ],
+  "oneTimers": [
+    "Southern California wildfires: the insurance businesses took about $1.1B of pre-tax catastrophe losses ($860M after tax) \u2014 the quarter's only significant catastrophe event, versus none a year ago. GEICO itself improved (pre-tax underwriting profit of $2,173M, up from $1,928M); the wildfire losses pushed the primary and reinsurance groups into underwriting losses.",
+    "Currency swing on foreign debt: revaluing Berkshire's euro-, pound- and yen-denominated borrowings produced a $936M pre-tax loss this quarter versus a $781M gain a year ago. The pre-tax loss sits inside selling, general and administrative expenses; after tax ($713M loss versus a $597M gain) it is the main reason 'Other' operating earnings fell from $1,078M to $41M.",
+    "Investment losses are mostly paper losses. Of the $5,038M after-tax investment losses, about $7.4B was a fall in unrealized gains on stocks Berkshire still holds, partly offset by $2.4B of after-tax realized gains on stocks sold. Next quarter the unrealized part can just as easily reverse."
+  ],
+  "sources": [
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm"
+    },
+    {
+      "label": "Earnings news release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525113900/d910967dex991.htm"
+    },
+    {
+      "label": "Berkshire Hathaway investor relations",
+      "url": "https://www.berkshirehathaway.com"
+    }
+  ]
+}

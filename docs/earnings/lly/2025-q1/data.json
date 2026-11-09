@@ -1,0 +1,167 @@
+{
+  "company": "Eli Lilly",
+  "flow": {
+    "costOfRevenueM": 2224,
+    "grossProfitM": 10505,
+    "netIncomeM": 2759,
+    "operatingIncomeM": 3695,
+    "opex": [
+      {
+        "amountM": 2734,
+        "name": "Research & development",
+        "note": "Developing new medicines \u2014 up 8%, driven by continued investments in the early and late-stage pipeline."
+      },
+      {
+        "amountM": 2469,
+        "name": "Marketing, selling & administrative",
+        "note": "Sales teams, advertising and running the company \u2014 up 26%, mainly promotional efforts supporting ongoing and future launches."
+      },
+      {
+        "amountM": 1572,
+        "name": "Acquired IPR&D",
+        "note": "Research bought in from other companies, expensed on the spot \u2014 mainly Scorpion Therapeutics' STX-478 program this quarter."
+      },
+      {
+        "amountM": 35,
+        "name": "Asset impairment & restructuring",
+        "note": "Charges related to intangible asset impairments."
+      }
+    ],
+    "otherIncomeM": -239,
+    "revenueM": 12729,
+    "taxM": 697
+  },
+  "follow100": [
+    {
+      "amount": 30.18,
+      "label": "Mounjaro"
+    },
+    {
+      "amount": 18.16,
+      "label": "Zepbound"
+    },
+    {
+      "amount": 51.66,
+      "label": "All other medicines"
+    },
+    {
+      "amount": -17.47,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -21.48,
+      "label": "Research & development"
+    },
+    {
+      "amount": -19.4,
+      "label": "Marketing, selling & administrative"
+    },
+    {
+      "amount": -12.35,
+      "label": "Acquired IPR&D"
+    },
+    {
+      "amount": -0.27,
+      "label": "Impairment & restructuring"
+    },
+    {
+      "amount": -1.88,
+      "label": "Other expense"
+    },
+    {
+      "amount": -5.48,
+      "label": "Tax"
+    },
+    {
+      "amount": 21.67,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Mounjaro and Zepbound together supplied $48.34 of every $100 Lilly took in \u2014 two versions of the same drug, tirzepatide. Rows may not add exactly due to rounding.",
+  "footerNote": "Reported (GAAP) figures throughout; Lilly's non-GAAP net income was $3,004M (EPS $3.34), and both reported and non-GAAP EPS include the $1.72 of acquired IPR&D charges.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+45% YoY",
+      "value": "$12.7B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $2.48 a year ago; $3.34 non-GAAP",
+      "value": "$3.06"
+    },
+    {
+      "label": "Mounjaro",
+      "note": "+113% YoY",
+      "value": "$3.8B"
+    },
+    {
+      "label": "Net income",
+      "note": "+23% YoY",
+      "value": "$2.8B"
+    }
+  ],
+  "oneTimers": [
+    "Acquired IPR&D charges of $1,572M \u2014 primarily the acquisition of Scorpion Therapeutics' PI3K\u03b1 inhibitor program STX-478 \u2014 expensed in full this quarter. They account for $1.72 of EPS and, being largely non-deductible, pushed the effective tax rate up to 20.2%.",
+    "Jardiance revenue included a one-time benefit of $370M from an amendment to the Boehringer Ingelheim collaboration that adjusted who sells Jardiance in certain markets \u2014 that benefit sits inside 'All other medicines' revenue.",
+    "Asset impairment, restructuring and other special charges of $35M, related to intangible asset impairments."
+  ],
+  "otherDetail": "Net other expense of $239M \u2014 net interest expense of $195M, plus $44M of net other expense, including losses on investments in equity securities.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-05-01",
+  "revenueYoY": "+45%",
+  "segments": [
+    {
+      "amountM": 3842,
+      "name": "Mounjaro",
+      "note": "The diabetes shot (tirzepatide) \u2014 sales more than doubled, with U.S. revenue up 75% to $2.7B and revenue outside the U.S. up to $1.2B as it entered new markets, partly offset by lower realized prices.",
+      "yoy": "+113%"
+    },
+    {
+      "amountM": 2312,
+      "name": "Zepbound",
+      "note": "The weight-loss shot sold in the U.S. \u2014 sales more than quadrupled on increased demand, partly offset by lower realized prices.",
+      "yoy": "+347%"
+    },
+    {
+      "amountM": 6575,
+      "name": "All other medicines",
+      "note": "Everything else Lilly sells, including Verzenio at $1.2B and Jardiance at $1.0B \u2014 the Jardiance figure includes a one-time $370M collaboration benefit.",
+      "yoy": "+2%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000129/q125lillysalesandearningsp.htm"
+    },
+    {
+      "label": "Form 10-Q, quarter ended March 31, 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000132/lly-20250331.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$6.2B",
+      "statColor": "#3d7bc8",
+      "text": "Mounjaro ($3.8B, +113%) and Zepbound ($2.3B) together brought in $6.2B \u2014 48% of all revenue. Volume rose 53% overall, partly offset by lower realized prices.",
+      "title": "Two drugs drove the growth"
+    },
+    {
+      "stat": "$1.72",
+      "statColor": "#cf5f4e",
+      "text": "Acquired IPR&D charges of $1.57B \u2014 mainly for Scorpion Therapeutics' STX-478 program \u2014 cost $1.72 of the quarter's $3.06 reported EPS. Because the charge is largely non-deductible, the effective tax rate rose to 20.2% from 11.6% a year ago.",
+      "title": "The bought-research charge"
+    },
+    {
+      "stat": "82.5%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin rose 1.6 points to 82.5% on improved production costs and a favorable product mix, partly offset by lower realized prices. Lilly reaffirmed full-year 2025 revenue guidance of $58.0\u201361.0B.",
+      "title": "Margins widened, guidance held"
+    }
+  ],
+  "ticker": "LLY",
+  "verdict": "Lilly's revenue jumped 45% to $12.7B as Mounjaro and Zepbound sales surged \u2014 but a $1.6B charge for research bought from Scorpion Therapeutics held reported profit growth to 23%, at $2.8B."
+}

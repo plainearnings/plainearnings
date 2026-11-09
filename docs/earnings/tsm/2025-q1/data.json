@@ -1,0 +1,166 @@
+{
+  "company": "TSMC",
+  "flow": {
+    "costOfRevenueM": 10521,
+    "grossProfitM": 15009,
+    "netIncomeM": 10999,
+    "operatingIncomeM": 12383,
+    "opex": [
+      {
+        "amountM": 2626,
+        "name": "Operating expenses",
+        "note": "Research, engineering and running the business side of the fabs \u2014 shown as one line, including other operating expenses, net."
+      }
+    ],
+    "otherIncomeM": 724,
+    "revenueM": 25530,
+    "taxM": 2108
+  },
+  "follow100": [
+    {
+      "amount": 58.77,
+      "label": "High-performance computing"
+    },
+    {
+      "amount": 27.84,
+      "label": "Smartphone"
+    },
+    {
+      "amount": 4.61,
+      "label": "Internet of Things"
+    },
+    {
+      "amount": 5.13,
+      "label": "Automotive"
+    },
+    {
+      "amount": 1.38,
+      "label": "Digital consumer electronics"
+    },
+    {
+      "amount": 2.28,
+      "label": "Others"
+    },
+    {
+      "amount": -41.21,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -10.29,
+      "label": "Operating expenses"
+    },
+    {
+      "amount": 2.84,
+      "label": "Other income"
+    },
+    {
+      "amount": -8.26,
+      "label": "Tax"
+    },
+    {
+      "amount": 43.08,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "For every $100 TSMC took in, $43.08 survived as profit. AI data-center chips (high-performance computing) supplied $58.77 of the $100 \u2014 and advanced nodes (7-nanometer and below) made up 73% of wafer revenue. Segment dollars are the platform amounts from TSMC's official financial statements, converted to US dollars; the largest segment was adjusted by $1M so the segments sum exactly to revenue, as rounding is inherent in the converted platform mix.",
+  "footerNote": "TSMC reports in New Taiwan dollars (revenue NT$839.3B; net income attributable to shareholders NT$361.6B). Dollar figures are converted at NT$32.87 per US$1 \u2014 implied by TSMC's own stated US-dollar revenue of $25.53B. Operating expenses are shown as one line, as in TSMC's earnings release, combining NT$85.2B of operating expenses with NT$1.1B of other operating expenses, net, and segment dollars are the platform figures from TSMC's official consolidated financial statements. The tax line is set so the flow lands on net income attributable to TSMC shareholders.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+35% YoY in US$",
+      "value": "$25.5B"
+    },
+    {
+      "label": "EPS (per ADR)",
+      "note": "+60% YoY",
+      "value": "$2.12"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 53.1% a year ago",
+      "value": "58.8%"
+    },
+    {
+      "label": "Net income",
+      "note": "43.1% margin",
+      "value": "$11.0B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Non-operating income of NT$23.8B (about $0.7B) \u2014 mostly interest income of NT$24.9B earned on TSMC's cash pile, plus foreign-exchange gains and a share of profits from associates, partly offset by finance costs and other losses.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "reportedDate": "2025-04-17",
+  "revenueYoY": "+42%",
+  "segments": [
+    {
+      "amountM": 15005,
+      "name": "High-performance computing",
+      "note": "Chips for AI data centers and servers \u2014 now 59% of everything TSMC sells.",
+      "yoy": "+80% YoY"
+    },
+    {
+      "amountM": 7106,
+      "name": "Smartphone",
+      "note": "Chips for phones.",
+      "yoy": "+4% YoY"
+    },
+    {
+      "amountM": 1178,
+      "name": "Internet of Things",
+      "note": "Chips for connected devices of every kind.",
+      "yoy": "+10% YoY"
+    },
+    {
+      "amountM": 1309,
+      "name": "Automotive",
+      "note": "Chips for cars.",
+      "yoy": "+34% YoY"
+    },
+    {
+      "amountM": 351,
+      "name": "Digital consumer electronics",
+      "note": "Chips for TVs, game consoles and gadgets.",
+      "yoy": "-2% YoY"
+    },
+    {
+      "amountM": 581,
+      "name": "Others",
+      "note": "Everything else, including older-node specialty work.",
+      "yoy": "+40% YoY"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000035/a1q25e_withguidancexfinal.htm"
+    },
+    {
+      "label": "Consolidated financial statements, Q1 2025 (SEC EDGAR 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000059/tsmc2025q1consolidatdfinan.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "59%",
+      "statColor": "#3e8e5a",
+      "text": "High-performance computing \u2014 mostly AI accelerators \u2014 was 59% of revenue and rose about 80% from a year ago, more than making up for a seasonal dip in smartphone chips, which were still 28% of sales.",
+      "title": "AI chips run the show"
+    },
+    {
+      "stat": "58.8%",
+      "statColor": "#3d7bc8",
+      "text": "Gross margin reached 58.8%, up from 53.1% a year ago, and net margin was 43.1% \u2014 TSMC charges premium prices for leading-edge capacity nobody else can supply, so profit grew 60% on 42% revenue growth.",
+      "title": "Margins jumped in a year"
+    },
+    {
+      "stat": "$28.4\u201329.2B",
+      "statColor": "#5b6b7c",
+      "text": "For Q2 2025 TSMC guided revenue of $28.4\u201329.2B with a gross margin of 57\u201359% \u2014 another step up, on strong demand for its industry-leading 3-nanometer and 5-nanometer technologies.",
+      "title": "Guidance points higher"
+    }
+  ],
+  "ticker": "TSM",
+  "verdict": "TSMC's revenue rose 42% to NT$839.3B ($25.5B) as continued growth in AI-related demand more than offset smartphone seasonality \u2014 and with a 58.8% gross margin, it kept NT$361.6B ($11.0B) as profit, up 60% in a year."
+}
