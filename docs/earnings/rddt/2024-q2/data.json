@@ -1,0 +1,143 @@
+{
+  "company": "Reddit",
+  "flow": {
+    "costOfRevenueM": 29.501,
+    "grossProfitM": 251.683,
+    "netIncomeM": -10.099,
+    "operatingIncomeM": -31.039,
+    "opex": [
+      {
+        "amountM": 142.777,
+        "name": "Research & development",
+        "note": "Building the product and the ad platform \u2014 up 30% YoY, driven by higher stock-based pay post-IPO, including $29.9M of stock-based compensation."
+      },
+      {
+        "amountM": 71.458,
+        "name": "Sales & marketing",
+        "note": "Winning advertisers and users \u2014 up 21% YoY, driven by higher stock-based pay post-IPO, including $6.9M of stock-based compensation."
+      },
+      {
+        "amountM": 68.487,
+        "name": "General & administrative",
+        "note": "Running the company \u2014 up 79% YoY, the fastest-growing cost line, driven by higher stock-based pay post-IPO, including $27.4M of stock-based compensation."
+      }
+    ],
+    "otherIncomeM": 20.724,
+    "revenueM": 281.184,
+    "taxM": -0.216
+  },
+  "follow100": [
+    {
+      "amount": 90.02,
+      "label": "Advertising"
+    },
+    {
+      "amount": 9.98,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -10.49,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -50.78,
+      "label": "R&D"
+    },
+    {
+      "amount": -25.41,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -24.36,
+      "label": "G&A"
+    },
+    {
+      "amount": 7.37,
+      "label": "Other income"
+    },
+    {
+      "amount": 0.08,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": -3.59,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding. Reddit lost $3.59 for every $100 of revenue this quarter.",
+  "footerNote": "Figures are from Reddit's Q2 2024 earnings release (Exhibit 99.1) and Form 10-Q, which report in thousands. Reddit's tax line was a $0.22M benefit this quarter. The 10-Q says income tax expense (benefit) was immaterial and that Reddit continues to maintain a full valuation allowance on its remaining federal and state deferred tax assets \u2014 it still carries large tax losses from earlier years, so it pays almost no income tax.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+54%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted \u2014 vs a $0.70 loss a year ago",
+      "value": "-$0.06"
+    },
+    {
+      "label": "Net loss",
+      "note": "vs a $41.1M loss a year ago",
+      "value": "-$10.1M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "14% of revenue \u2014 vs -$35.4M a year ago",
+      "value": "$39.5M"
+    }
+  ],
+  "otherDetail": "Other income of $20.7M, net \u2014 $20.9M of interest income, net, earned on Reddit's $1,699.1M of cash and marketable securities, less $0.2M of other expense, net. Interest income is what narrowed a $31.0M operating loss to a $10.3M pre-tax loss.",
+  "periodEnd": "2024-06-30",
+  "quarterLabel": "Q2 2024",
+  "quarterSlug": "2024-q2",
+  "reportedDate": "2024-08-06",
+  "revenueYoY": "+54%",
+  "segments": [
+    {
+      "amountM": 253.125,
+      "name": "Advertising",
+      "note": "Ads shown across Reddit's communities \u2014 powered by more impressions delivered as users surged, partly offset by lower pricing.",
+      "yoy": "+41%"
+    },
+    {
+      "amountM": 28.059,
+      "name": "Other revenue",
+      "note": "Mostly data licensing \u2014 deals that let AI companies train on Reddit's public posts \u2014 plus Reddit Premium subscriptions. Up nearly eight-fold from just $3.5M a year ago as the licensing deals executed in 2024 kicked in.",
+      "yoy": "+691%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000052/earningspressreleaseq224.htm"
+    },
+    {
+      "label": "Form 10-Q (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000054/rddt-20240630.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "91.2M",
+      "statColor": "#3d7bc8",
+      "text": "Daily Active Uniques reached 91.2 million, up 51% from 60.4 million a year ago, and Weekly Active Uniques rose 57% to 342.3 million \u2014 the audience growth behind the 41% jump in ad revenue.",
+      "title": "Daily users surged 51%"
+    },
+    {
+      "stat": "$39.5M",
+      "statColor": "#3e8e5a",
+      "text": "Adjusted EBITDA was $39.5 million, a 14.0% margin, up $74.9 million from -$35.4 million a year ago. The net loss also narrowed to $10.1 million from $41.1 million a year ago, with gross margin improving to 89.5% from 84.2%.",
+      "title": "Adjusted EBITDA turned strongly positive"
+    },
+    {
+      "stat": "$64.3M",
+      "statColor": "#d96a57",
+      "text": "Stock-based compensation was $64.3 million in the quarter \u2014 $66.8 million including related taxes \u2014 more than six times the $10.1 million net loss and 23% of revenue. That gap is why Adjusted EBITDA looks so much stronger than the GAAP loss; this quarter's charge is the normal post-IPO run rate, not the Q1 2024 IPO catch-up charge.",
+      "title": "Stock pay still dwarfs the result"
+    }
+  ],
+  "ticker": "RDDT",
+  "verdict": "Reddit's revenue grew 54% to $281M as daily users jumped 51% to 91.2 million, cutting its net loss to just $10M \u2014 but stock pay kept it in the red on a GAAP basis."
+}

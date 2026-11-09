@@ -1,0 +1,184 @@
+{
+  "company": "Micron",
+  "flow": {
+    "costOfRevenueM": 4979,
+    "equityM": -6,
+    "grossProfitM": 1832,
+    "netIncomeM": 332,
+    "operatingIncomeM": 691,
+    "opex": [
+      {
+        "amountM": 850,
+        "name": "Research & development",
+        "note": "Designing the next generations of DRAM, HBM and NAND memory."
+      },
+      {
+        "amountM": 291,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams and the cost of running the company."
+      }
+    ],
+    "otherIncomeM": 24,
+    "revenueM": 6811,
+    "taxM": 377
+  },
+  "follow100": [
+    {
+      "amount": 37.78,
+      "label": "Compute and Networking"
+    },
+    {
+      "amount": 23.32,
+      "label": "Mobile"
+    },
+    {
+      "amount": 19.0,
+      "label": "Embedded"
+    },
+    {
+      "amount": 19.86,
+      "label": "Storage"
+    },
+    {
+      "amount": 0.04,
+      "label": "All other"
+    },
+    {
+      "amount": -73.1,
+      "label": "Cost of goods sold"
+    },
+    {
+      "amount": -12.48,
+      "label": "R&D"
+    },
+    {
+      "amount": -4.27,
+      "label": "SG&A"
+    },
+    {
+      "amount": 0.35,
+      "label": "Other income"
+    },
+    {
+      "amount": -0.09,
+      "label": "Equity-method loss"
+    },
+    {
+      "amount": -5.54,
+      "label": "Tax"
+    },
+    {
+      "amount": 4.87,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows reconcile to $100 at this rounding; the $28M other operating income credit sits inside 'Other income' \u2014 see the footer note.",
+  "footerNote": "Business units are shown as originally reported for fiscal 2024 \u2014 Compute and Networking, Storage, Mobile, and Embedded (Q3 FY24 Form 10-Q segment note; operating margins are from that note, as Micron reported no gross margin by unit that quarter) \u2014 because no SEC filing reports this quarter on the recast structure Micron adopted in fiscal 2026 (Cloud Memory, Core Data Center, Mobile and Client, Automotive and Embedded). The reorganization took effect in the fourth quarter of fiscal 2025 (FY25 Form 10-K, Note 27), and the Q3 FY25 earnings release contains no business-unit table; on the recast basis Micron has filed only full-year FY24 unit revenue (FY25 10-K: Cloud Memory $3,792M, Core Data Center $4,984M, Mobile and Client $11,667M, Automotive and Embedded $4,631M, All other $37M) and the FQ4-24 quarter (Q4 FY25 earnings release), so no quarterly recast split of FQ3-24 exists. Reported operating income was $719M; Micron's $28M 'Other operating (income) expense, net' line was income this quarter, so the chart shows it in the other-income step rather than as a negative expense \u2014 chart operating income is therefore $691M, $28M below the reported figure, with net income unchanged at $332M.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago \u2014 and +17% from the prior quarter",
+      "value": "+82%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted; non-GAAP was $0.62",
+      "value": "$0.30"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs -18% a year ago",
+      "value": "27%"
+    },
+    {
+      "label": "Adjusted free cash flow",
+      "note": "after $2.06B of net capex; operating cash flow was $2.48B",
+      "value": "$425M"
+    }
+  ],
+  "oneTimers": [
+    "The GAAP tax bill was unusually heavy \u2014 a $377M provision on $715M of pre-tax income (about 53%); Micron's non-GAAP reconciliation includes $150M of estimated tax effects and other tax adjustments, a large part of the gap between GAAP net income of $332M and non-GAAP net income of $702M (which also excludes $217M of stock-based compensation).",
+    "There were no restructure and asset-impairment charges this quarter (versus $68M a year ago) and no inventory write-down charge \u2014 a clean quarter after the glut-era charges of fiscal 2023."
+  ],
+  "otherDetail": "Interest income of $136M on Micron's cash pile, less $150M of interest expense, plus $10M of other non-operating income and the $28M net other operating income credit described in the footer \u2014 a net +$24M in this step; equity-method investments lost a further $6M, shown in their own step.",
+  "periodEnd": "2024-05-30",
+  "quarterLabel": "Q3 FY24",
+  "quarterSlug": "2024-q3",
+  "reportedDate": "2024-06-26",
+  "revenueYoY": "+82%",
+  "segments": [
+    {
+      "amountM": 2573,
+      "name": "Compute and Networking",
+      "note": "Memory for client PCs, cloud and enterprise servers, graphics and networking \u2014 the unit where HBM for AI servers sits; revenue rose 18% sequentially on data-center DRAM pricing, at a 17% operating margin this quarter ($442M of operating income)."
+    },
+    {
+      "amountM": 1588,
+      "name": "Mobile",
+      "note": "Memory and storage for smartphones and other mobile devices \u2014 at a 19% operating margin this quarter ($301M of operating income), the highest of the four units."
+    },
+    {
+      "amountM": 1294,
+      "name": "Embedded",
+      "note": "Memory and storage for cars, industrial and consumer markets \u2014 revenue rose 16% sequentially on automotive demand, at a 10% operating margin this quarter ($124M of operating income)."
+    },
+    {
+      "amountM": 1353,
+      "name": "Storage",
+      "note": "SSDs and component storage for enterprise and cloud, client and consumer markets \u2014 revenue jumped 50% sequentially on data-center NAND demand and record data-center SSD sales, at a 6% operating margin ($76M of operating income)."
+    },
+    {
+      "amountM": 3,
+      "name": "All other",
+      "note": "Small residual outside the four business units, so the units sum to total revenue."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Q3 FY24 earnings release (SEC EDGAR, 8-K Ex 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000016/a2024q3ex991-pressrelease.htm"
+    },
+    {
+      "label": "Q3 FY24 Form 10-Q \u2014 segment note, as-originally-reported business units (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000019/mu-20240530.htm"
+    },
+    {
+      "label": "Fiscal 2024 Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm"
+    },
+    {
+      "label": "Q3 FY25 earnings release (SEC EDGAR, 8-K Ex 99.1) \u2014 checked for recast comparatives; it contains no business-unit table",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000019/a2025q3ex991-pressrelease.htm"
+    },
+    {
+      "label": "Fiscal 2025 Form 10-K, Note 27 \u2014 recast business units and full-year FY24 recast revenue (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+    },
+    {
+      "label": "Q4 FY25 earnings release \u2014 first recast business-unit table, with FQ4-24 comparatives (SEC EDGAR, 8-K Ex 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000024/a2025q4ex991-pressrelease.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+82%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose to $6.81B from $3.75B a year ago and beat Micron's guidance, as AI demand drove data-center revenue up 50% in a single quarter to a record share of the mix \u2014 with share gains in high-bandwidth memory and record data-center SSD revenue.",
+      "title": "AI demand ignites data center"
+    },
+    {
+      "stat": "27%",
+      "statColor": "#3e8e5a",
+      "text": "Gross margin reached 26.9%, up from -17.8% a year ago when a memory glut forced write-downs \u2014 and reported operating income was $719M, versus a $1,761M operating loss in the same quarter last year.",
+      "title": "Margins swung from red to green"
+    },
+    {
+      "stat": "$332M",
+      "statColor": "#d96a57",
+      "text": "Net income was $332M ($0.30 a share) versus a $1,896M loss a year ago. A $377M tax provision on just $715M of pre-tax income held GAAP profit well below the $702M non-GAAP figure ($0.62 a share).",
+      "title": "Profit again \u2014 after a heavy tax bill"
+    }
+  ],
+  "ticker": "MU",
+  "verdict": "Micron's revenue rose 82% in a year to $6.81B as AI demand lit up data-center memory \u2014 gross margin swung from -18% to 27%, and the company earned $332M after losing $1.9B in the same quarter a year earlier, even after a $377M tax bill."
+}
