@@ -1,0 +1,174 @@
+{
+  "ticker": "UBER",
+  "company": "Uber",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-05",
+  "revenueYoY": "+20%",
+  "verdict": "Uber grew revenue 20% to $12.0B in its strongest quarter ever, with operating profit of $770M \u2014 and a $6.4B one-off tax benefit then swelled net income to $6.9B.",
+  "kpis": [
+    {
+      "label": "Gross Bookings",
+      "value": "$44.2B",
+      "note": "+18% YoY; trips grew 18% to 3.1 billion"
+    },
+    {
+      "label": "Revenue growth",
+      "value": "+20%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$3.21",
+      "note": "vs $0.66 a year ago \u2014 flattered by the tax benefit below"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "value": "$1.8B",
+      "note": "+44% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Mobility",
+      "amountM": 6911,
+      "yoy": "+25%",
+      "note": "Rides \u2014 the original Uber business. Gross Bookings rose 18% to $22.8B."
+    },
+    {
+      "name": "Delivery",
+      "amountM": 3773,
+      "yoy": "+21%",
+      "note": "Food and grocery delivery \u2014 Uber Eats and couriers. Gross Bookings rose 18% to $20.1B."
+    },
+    {
+      "name": "Freight",
+      "amountM": 1275,
+      "yoy": "0%",
+      "note": "Trucking logistics \u2014 matching shippers with carriers. Revenue was flat year over year."
+    }
+  ],
+  "flow": {
+    "revenueM": 11959,
+    "costOfRevenueM": 7234,
+    "grossProfitM": 4725,
+    "opex": [
+      {
+        "name": "Operations and support",
+        "amountM": 678,
+        "note": "Running the platform day to day \u2014 support, operations and local teams."
+      },
+      {
+        "name": "Sales & marketing",
+        "amountM": 1209,
+        "note": "Promotions, advertising and winning riders, eaters and drivers."
+      },
+      {
+        "name": "Research & development",
+        "amountM": 785,
+        "note": "Building the platform and its autonomous-vehicle partnerships."
+      },
+      {
+        "name": "General & administrative",
+        "amountM": 1114,
+        "note": "Running the company \u2014 legal, finance and the back office. This quarter it includes large legal and regulatory reserve charges (see one-time items)."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 169,
+        "compact": true,
+        "note": "Spreading the cost of equipment and past acquisitions over their useful lives."
+      }
+    ],
+    "operatingIncomeM": 770,
+    "otherIncomeM": 139,
+    "equityM": -10,
+    "taxM": -6002,
+    "netIncomeM": 6901
+  },
+  "follow100": [
+    {
+      "label": "Mobility",
+      "amount": 57.79
+    },
+    {
+      "label": "Delivery",
+      "amount": 31.55
+    },
+    {
+      "label": "Freight",
+      "amount": 10.66
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -60.49
+    },
+    {
+      "label": "Operations & support",
+      "amount": -5.67
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -10.11
+    },
+    {
+      "label": "R&D",
+      "amount": -6.56
+    },
+    {
+      "label": "G&A",
+      "amount": -9.32
+    },
+    {
+      "label": "Depreciation",
+      "amount": -1.41
+    },
+    {
+      "label": "Other income",
+      "amount": 1.08
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 50.19
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 57.71
+    }
+  ],
+  "follow100Note": "Of the $57.71 kept as profit per $100 of revenue, $57.56 accrued to Uber shareholders and $0.15 to non-controlling partners. The huge tax-benefit row is the one-off valuation-allowance release described below. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+20%",
+      "statColor": "#3d7bc8",
+      "title": "The strongest quarter yet",
+      "text": "Revenue grew 20% to $12.0B as trips rose 18% to 3.1 billion and Gross Bookings 18% to $44.2B. Mobility revenue jumped 25% and Delivery 21%; Freight was flat."
+    },
+    {
+      "stat": "$770M",
+      "statColor": "#3e8e5a",
+      "title": "Operating profit kept compounding",
+      "text": "Income from operations rose 18% to $770M, and Adjusted EBITDA jumped 44% to $1.8B \u2014 4.2% of Gross Bookings, up from 3.4% a year ago. Operating cash flow was $1.8B and free cash flow $1.7B."
+    },
+    {
+      "stat": "$6.4B",
+      "statColor": "#5b6b7c",
+      "title": "A paper tax benefit stole the headline",
+      "text": "Net income of $6.9B is not money Uber earned selling rides: releasing a $6.4B tax valuation allowance \u2014 plus $556M of investment revaluation gains \u2014 did the heavy lifting. Costs also jumped: G&A hit $1,114M on legal and regulatory reserve charges."
+    }
+  ],
+  "oneTimers": [
+    "Income taxes were a $6,002M benefit, not a bill \u2014 dominated by a $6.4B release of the valuation allowance on Uber's deferred tax assets, a non-cash accounting move reflecting that Uber now expects to use those past losses against future profits.",
+    "Net income includes a $556M pre-tax benefit from net unrealized gains on the revaluation of Uber's equity investments.",
+    "General & administrative expense jumped to $1,114M from $603M a year ago, including roughly $462M of legal, tax and regulatory reserve charges and settlements that Uber excludes from its non-GAAP figures."
+  ],
+  "otherDetail": "Other income, net of $256M \u2014 including a $556M pre-tax gain from revaluing Uber's equity investments, partly offset by other items \u2014 less $117M of interest expense and a $10M loss from equity method investments.",
+  "footerNote": "Net income of $6,901M includes $18M attributable to non-controlling interests; $6,883M is attributable to Uber shareholders (the $3.21 EPS figure). Because the tax line is a benefit, the chart draws it as a green source flowing into net profit rather than as a tax bill.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000004/uberq424earningspressrelea.htm"
+    }
+  ]
+}

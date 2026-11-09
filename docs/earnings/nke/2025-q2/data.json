@@ -1,0 +1,170 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "quarterLabel": "Q2 FY25",
+  "quarterSlug": "2025-q2",
+  "periodEnd": "2024-11-30",
+  "reportedDate": "2024-12-19",
+  "revenueYoY": "-8%",
+  "verdict": "Nike's revenue fell 8% to $12.4B as wholesale and direct sales both shrank during its turnaround reset, and net income fell 26% to $1.2B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-8%",
+      "note": "vs a year ago (-9% currency-neutral)"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.78",
+      "note": "vs $1.03 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "43.6%",
+      "note": "down 100 basis points, mainly on discounts and inventory reserves"
+    },
+    {
+      "label": "Net income",
+      "value": "$1.2B",
+      "note": "-26% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 5179,
+      "yoy": "-8%",
+      "note": "Nike's home market \u2014 footwear fell 14% to $3.2B while apparel grew 1%."
+    },
+    {
+      "name": "Europe, Middle East & Africa",
+      "amountM": 3303,
+      "yoy": "-7%",
+      "note": "Footwear fell 9% and apparel 5%."
+    },
+    {
+      "name": "Asia Pacific & Latin America",
+      "amountM": 1744,
+      "yoy": "-3%",
+      "note": "The smallest decline of the regions \u2014 footwear fell 5% and apparel was flat."
+    },
+    {
+      "name": "Greater China",
+      "amountM": 1711,
+      "yoy": "-8%",
+      "note": "Footwear fell 12%; apparel grew 1%."
+    },
+    {
+      "name": "Converse",
+      "amountM": 429,
+      "yoy": "-17%",
+      "note": "The Chuck Taylor brand \u2014 sales fell as demand cooled."
+    },
+    {
+      "name": "Global Brand & Corporate",
+      "amountM": -12,
+      "yoy": "",
+      "note": "Global Brand Divisions licensing revenue, less corporate items such as currency-hedge results."
+    }
+  ],
+  "flow": {
+    "revenueM": 12354,
+    "costOfRevenueM": 6965,
+    "grossProfitM": 5389,
+    "opex": [
+      {
+        "name": "Demand creation",
+        "amountM": 1122,
+        "note": "Advertising and sports marketing \u2014 up 1%."
+      },
+      {
+        "name": "Operating overhead",
+        "amountM": 2883,
+        "note": "Salaries, technology and running the business \u2014 down 5%."
+      }
+    ],
+    "operatingIncomeM": 1384,
+    "otherIncomeM": 32,
+    "taxM": 253,
+    "netIncomeM": 1163
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 41.92
+    },
+    {
+      "label": "Europe, Middle East & Africa",
+      "amount": 26.74
+    },
+    {
+      "label": "Asia Pacific & Latin America",
+      "amount": 14.12
+    },
+    {
+      "label": "Greater China",
+      "amount": 13.85
+    },
+    {
+      "label": "Converse",
+      "amount": 3.47
+    },
+    {
+      "label": "Global Brand & Corporate",
+      "amount": -0.1
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -56.38
+    },
+    {
+      "label": "Demand creation",
+      "amount": -9.08
+    },
+    {
+      "label": "Operating overhead",
+      "amount": -23.34
+    },
+    {
+      "label": "Other income",
+      "amount": 0.26
+    },
+    {
+      "label": "Tax",
+      "amount": -2.05
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.41
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-8%",
+      "statColor": "#3d7bc8",
+      "title": "Revenue shrank in the reset",
+      "text": "Revenue fell 8% to $12.4B: NIKE Direct dropped 13% to $5.0B as digital sales fell 21% on fewer promotions, and wholesale fell 3% to $6.9B. Every region declined; North America fell 8%."
+    },
+    {
+      "stat": "43.6%",
+      "statColor": "#5b6b7c",
+      "title": "Discounts squeezed margins",
+      "text": "Gross margin narrowed 100 basis points to 43.6% on higher discounts and inventory reserves; inventories were flat at $8.0B. Demand creation spending rose 1% while operating overhead fell 5%."
+    },
+    {
+      "stat": "$1.2B",
+      "statColor": "#3e8e5a",
+      "title": "Profit fell by a quarter",
+      "text": "Net income fell 26% to $1.2B and EPS to $0.78 from $1.03. New CEO Elliott Hill, who took over in October, framed the quarter as the start of a turnaround built on sport and full-price selling."
+    }
+  ],
+  "otherDetail": "$24M of net interest income, plus $8M of other income, net.",
+  "footerNote": "Segment revenues are Nike's divisional revenues; 'Global Brand & Corporate' combines Global Brand Divisions ($13M) and Corporate (-$25M, mostly currency-hedge results) \u2014 a small negative this quarter.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018724000069/q2fy25exhibit991er.htm"
+    }
+  ]
+}

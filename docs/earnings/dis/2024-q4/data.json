@@ -1,0 +1,151 @@
+{
+  "ticker": "DIS",
+  "company": "Disney",
+  "quarterLabel": "Q4 FY24",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-09-28",
+  "reportedDate": "2024-11-14",
+  "revenueYoY": "+6%",
+  "verdict": "Disney's revenue rose 6% to $22.6B and segment profit jumped 23% as streaming turned profitable \u2014 but $1.5B of impairment charges held reported EPS to $0.25, versus $1.14 excluding those items.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+6%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "Adjusted EPS",
+      "value": "$1.14",
+      "note": "+39% YoY, excludes charges"
+    },
+    {
+      "label": "Segment operating income",
+      "value": "$3.7B",
+      "note": "+23% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.25",
+      "note": "vs $0.14 a year ago"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Services",
+      "amountM": 20273,
+      "yoy": "+7%",
+      "note": "Streaming subscriptions, TV networks and channels, park tickets and hotel stays \u2014 the large majority of Disney's money."
+    },
+    {
+      "name": "Products",
+      "amountM": 2301,
+      "yoy": "+1%",
+      "note": "Merchandise, food and drinks, and other things Disney physically sells."
+    }
+  ],
+  "segmentNote": "Segment operating income: Entertainment $1,067M, Sports $929M, Experiences $1,659M (before corporate costs).",
+  "flow": {
+    "revenueM": 22574,
+    "costOfRevenueM": 14230,
+    "grossProfitM": 8344,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 4314,
+        "note": "Marketing the movies, shows and parks, and running the company."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 1285,
+        "note": "The wear and tear on parks, cruise ships and equipment, spread over their working lives."
+      },
+      {
+        "name": "Restructuring & impairment charges",
+        "amountM": 1543,
+        "note": "Writing down assets that lost value \u2014 goodwill at the general entertainment networks, retail stores, Star India and content (detailed below)."
+      }
+    ],
+    "operatingIncomeM": 1202,
+    "otherIncomeM": -254,
+    "taxM": 384,
+    "netIncomeM": 564
+  },
+  "follow100": [
+    {
+      "label": "Services",
+      "amount": 89.81
+    },
+    {
+      "label": "Products",
+      "amount": 10.19
+    },
+    {
+      "label": "Cost of services & products",
+      "amount": -63.04
+    },
+    {
+      "label": "SG&A",
+      "amount": -19.11
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -5.69
+    },
+    {
+      "label": "Restructuring & impairments",
+      "amount": -6.84
+    },
+    {
+      "label": "Other expense (interest, net)",
+      "amount": -1.13
+    },
+    {
+      "label": "Tax",
+      "amount": -1.7
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.5
+    }
+  ],
+  "follow100Note": "Of the $2.50 kept as profit per $100 of revenue, about $0.46 belongs to noncontrolling partners \u2014 $2.04 is Disney shareholders'. Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "+23%",
+      "statColor": "#3d7bc8",
+      "title": "Segment profit jumped",
+      "text": "Total segment operating income rose 23% to $3.7B: Entertainment more than quadrupled to $1,067M as streaming swung to a profit and Inside Out 2 and Deadpool & Wolverine powered content sales, while Experiences eased 6% to $1,659M on softer international park attendance."
+    },
+    {
+      "stat": "$253M",
+      "statColor": "#3e8e5a",
+      "title": "Streaming turned the corner",
+      "text": "Entertainment's Direct-to-Consumer business earned $253M versus a $420M loss a year ago, on revenue up 15% to $5.8B; Disney's combined streaming businesses made $321M. Linear networks went the other way \u2014 operating income fell 38% to $498M."
+    },
+    {
+      "stat": "$0.25",
+      "statColor": "#5b6b7c",
+      "title": "Charges masked the progress",
+      "text": "Reported EPS was just $0.25 because the quarter absorbed $1,543M of restructuring and impairment charges. Excluding such items, adjusted EPS rose 39% to $1.14."
+    }
+  ],
+  "oneTimers": [
+    "Restructuring and impairment charges were $1,543M \u2014 impairments of goodwill ($584M, at the general entertainment linear networks), retail assets ($328M), Star India ($210M), content ($187M) and equity investments ($165M), plus $69M of severance."
+  ],
+  "otherDetail": "Interest expense, net, of $361M on Disney's debt, partly offset by $107M of equity income from companies Disney part-owns.",
+  "footerNote": "Of the $564M of net income, $104M belongs to noncontrolling partners; $460M is attributable to Disney (the $0.25 EPS figure). Costs are split between services and products using the fiscal 2024 10-K less the first nine months reported in the Q3 FY24 10-Q, since the earnings release reports one combined cost line; operating income of $1,202M is derived as revenue less those costs and the restructuring charge.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000275/fy2024_q4xprxex991.htm"
+    },
+    {
+      "label": "Annual report 10-K \u2014 cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm"
+    },
+    {
+      "label": "Quarterly report 10-Q \u2014 nine-month cost detail (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000232/dis-20240629.htm"
+    }
+  ]
+}

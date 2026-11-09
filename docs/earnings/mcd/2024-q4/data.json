@@ -1,0 +1,134 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "quarterLabel": "Q4 2024",
+  "quarterSlug": "2024-q4",
+  "periodEnd": "2024-12-31",
+  "reportedDate": "2025-02-10",
+  "revenueYoY": "0%",
+  "verdict": "McDonald's revenue was flat at $6.4B as U.S. comparable sales slipped 1.4% on weaker guest counts, while franchised margins and cost discipline still nudged operating income up 2% to $2.9B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "0%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$2.80",
+      "note": "flat YoY; $2.83 excluding charges"
+    },
+    {
+      "label": "Global comparable sales",
+      "value": "+0.4%",
+      "note": "U.S. -1.4%; International Operated +0.1%; Developmental Licensed +4.1%"
+    },
+    {
+      "label": "Operating income",
+      "value": "$2.9B",
+      "note": "+2% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Franchised restaurants",
+      "amountM": 3958,
+      "yoy": "+2%",
+      "note": "Rent and royalties paid by the local owners who run most McDonald's restaurants \u2014 the heart of the business model."
+    },
+    {
+      "name": "Company-owned restaurants",
+      "amountM": 2310,
+      "yoy": "-7%",
+      "note": "Food and drink sold at restaurants McDonald's runs itself."
+    },
+    {
+      "name": "Other revenues",
+      "amountM": 120,
+      "yoy": "+88%",
+      "note": "Fees and other income beyond rent, royalties and restaurant sales."
+    }
+  ],
+  "segmentNote": "Systemwide sales increased 2% (2% in constant currencies); comparable sales: U.S. -1.4%, International Operated Markets +0.1%, International Developmental Licensed Markets +4.1%. Loyalty members drove about $8B of the quarter's systemwide sales.",
+  "flow": {
+    "revenueM": 6388,
+    "costOfRevenueM": 2710,
+    "grossProfitM": 3678,
+    "opex": [
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 810,
+        "note": "Head office, marketing support and running the global franchising machine \u2014 $800M of SG&A (including $136M of depreciation and amortization), plus $10M of other operating expense, net."
+      }
+    ],
+    "operatingIncomeM": 2868,
+    "otherIncomeM": -331,
+    "taxM": 520,
+    "netIncomeM": 2017
+  },
+  "follow100": [
+    {
+      "label": "Franchised restaurants",
+      "amount": 61.96
+    },
+    {
+      "label": "Company-owned restaurants",
+      "amount": 36.16
+    },
+    {
+      "label": "Other revenues",
+      "amount": 1.88
+    },
+    {
+      "label": "Cost of restaurants",
+      "amount": -42.42
+    },
+    {
+      "label": "SG&A",
+      "amount": -12.68
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.18
+    },
+    {
+      "label": "Tax",
+      "amount": -8.14
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 31.57
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+0.4%",
+      "statColor": "#3d7bc8",
+      "title": "Comparable sales barely grew",
+      "text": "Global comparable sales rose 0.4%: the U.S. fell 1.4% on fewer guests and a lower average check, International Operated Markets were nearly flat at +0.1%, and Developmental Licensed Markets grew 4.1%. Total revenue was flat at $6.4B."
+    },
+    {
+      "stat": "$30B",
+      "statColor": "#3e8e5a",
+      "title": "Loyalty is becoming the engine",
+      "text": "Systemwide sales topped $130B for the full year; loyalty members accounted for about $30B of that \u2014 roughly $8B in this quarter alone \u2014 across 60 loyalty markets, with more than 175 million 90-day active users."
+    },
+    {
+      "stat": "$2.80",
+      "statColor": "#5b6b7c",
+      "title": "Profit held up on franchised margins",
+      "text": "Operating income rose 2% to $2.9B as higher franchised margins offset weaker company-owned restaurant margins, and EPS was flat at $2.80 ($2.83 excluding $18M of net charges)."
+    }
+  ],
+  "oneTimers": [
+    "Results included net pre-tax charges of $18M ($0.03 per share) \u2014 restructuring charges under the 'Accelerating the Organization' program and a write-off of impaired software no longer in use, partly offset by gains. Excluding them, EPS was $2.83."
+  ],
+  "otherDetail": "Interest expense of $380M on McDonald's debt, partly offset by $49M of net nonoperating income.",
+  "footerNote": "The release's rounded lines do not tie exactly: printed pre-tax income of $2,537M less the printed tax provision of $521M gives $2,016M, $1M below reported net income of $2,017M; the tax line here is $520M so the page ties to reported net income. The printed cost lines sum to $3,520M against a printed total of $3,519M; the component lines are followed here.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000006/exhibit991-12312024.htm"
+    }
+  ]
+}

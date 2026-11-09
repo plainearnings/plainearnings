@@ -1,0 +1,150 @@
+{
+  "ticker": "SBUX",
+  "company": "Starbucks",
+  "quarterLabel": "Q1 FY25",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2024-12-29",
+  "reportedDate": "2025-01-28",
+  "revenueYoY": "-0.3%",
+  "verdict": "Starbucks revenue was flat at $9.4B as comparable sales fell 4% on fewer customer visits, and net earnings fell 24% to $781M as higher store labor costs squeezed margins.",
+  "kpis": [
+    {
+      "label": "Global comparable sales",
+      "value": "-4%",
+      "note": "transactions -6%, average ticket +3%"
+    },
+    {
+      "label": "Revenue",
+      "value": "-0.3%",
+      "note": "to $9.4B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.69",
+      "note": "vs $0.90 a year ago"
+    },
+    {
+      "label": "Net earnings",
+      "value": "$781M",
+      "note": "-24% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "North America",
+      "amountM": 7072,
+      "yoy": "-1%",
+      "note": "Coffeehouses in the U.S. and Canada \u2014 comparable store sales fell 4%, with 8% fewer transactions partly offset by a 4% higher average ticket."
+    },
+    {
+      "name": "International",
+      "amountM": 1871,
+      "yoy": "+1%",
+      "note": "Coffeehouses outside North America \u2014 comparable sales fell 4%, with China down 6% on a lower average ticket and fewer transactions."
+    },
+    {
+      "name": "Channel Development",
+      "amountM": 436,
+      "yoy": "-3%",
+      "note": "Packaged coffee and ready-to-drink drinks sold in grocery and convenience stores."
+    },
+    {
+      "name": "Corporate & other",
+      "amountM": 19,
+      "yoy": "",
+      "note": "Small leftover businesses and unallocated items."
+    }
+  ],
+  "flow": {
+    "revenueM": 9398,
+    "costOfRevenueM": 7249,
+    "grossProfitM": 2149,
+    "opex": [
+      {
+        "name": "General & administrative",
+        "amountM": 666,
+        "note": "Running the company \u2014 support centers and head office."
+      },
+      {
+        "name": "Depreciation & amortization",
+        "amountM": 408,
+        "note": "Wear and tear on coffeehouses, roasteries and equipment."
+      }
+    ],
+    "operatingIncomeM": 1075,
+    "otherIncomeM": -53,
+    "taxM": 241,
+    "netIncomeM": 781
+  },
+  "follow100": [
+    {
+      "label": "North America",
+      "amount": 75.25
+    },
+    {
+      "label": "International",
+      "amount": 19.91
+    },
+    {
+      "label": "Channel Development",
+      "amount": 4.64
+    },
+    {
+      "label": "Corporate & other",
+      "amount": 0.2
+    },
+    {
+      "label": "Cost of running stores",
+      "amount": -77.13
+    },
+    {
+      "label": "G&A",
+      "amount": -7.09
+    },
+    {
+      "label": "Depreciation & amortization",
+      "amount": -4.34
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.56
+    },
+    {
+      "label": "Tax",
+      "amount": -2.56
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 8.31
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "takeaways": [
+    {
+      "stat": "-4%",
+      "statColor": "#3d7bc8",
+      "title": "Fewer visits, bigger tickets",
+      "text": "Global comparable store sales fell 4% \u2014 6% fewer transactions partly offset by a 3% higher average ticket. North America fell 4% and China 6%, and total revenue slipped 0.3% to $9.4B despite 377 net new stores (40,576 in all)."
+    },
+    {
+      "stat": "54.0%",
+      "statColor": "#5b6b7c",
+      "title": "Store costs ate the margin",
+      "text": "Store operating expenses jumped to 54.0% of company-operated store revenue from 49.7% a year ago, on labor investment and lost leverage from lower sales; operating margin narrowed to 11.9% from 15.8%."
+    },
+    {
+      "stat": "$781M",
+      "statColor": "#3e8e5a",
+      "title": "Profit fell by a quarter",
+      "text": "Net earnings fell 24% to $781M and EPS to $0.69 from $0.90, as the margin squeeze outweighed a lower tax bill. This was the first full quarter under CEO Brian Niccol's 'Back to Starbucks' plan to win back customers."
+    }
+  ],
+  "otherDetail": "Income from equity investees of $47M and $28M of interest and other income, less $127M of interest expense.",
+  "footerNote": "Reported operating income of $1,122M includes $47M of income from equity investees, shown here in Other income. Net earnings of $781M are essentially all attributable to Starbucks (noncontrolling interests took $0.1M). Segment revenues are rounded to whole millions; Corporate & other carries a $1M rounding difference so segments sum to total revenue.",
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000013/sbux-12292024xexhibit991.htm"
+    }
+  ]
+}
