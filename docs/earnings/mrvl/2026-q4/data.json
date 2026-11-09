@@ -1,0 +1,146 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-01-31",
+  "reportedDate": "2026-03-05",
+  "revenueYoY": "+22%",
+  "verdict": "Marvell set a revenue record at $2.22B, up 22% on AI data-center demand, and turned it into $396M of GAAP profit \u2014 helped by a $14.5M tax benefit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+22%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.46",
+      "note": "vs $0.80 non-GAAP; $0.23 a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$1.65B",
+      "note": "+21% YoY, 74% of revenue"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "$374M",
+      "note": "in Q4; capex was $114M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data center",
+      "amountM": 1651.3,
+      "note": "Chips for AI data centers \u2014 custom silicon, optics and Ethernet switches; 74% of all revenue.",
+      "yoy": "+21%"
+    },
+    {
+      "name": "Communications and other",
+      "amountM": 567.4,
+      "note": "Enterprise networking, carrier, consumer and automotive/industrial markets, combined into one group from this quarter.",
+      "yoy": "+26%"
+    }
+  ],
+  "flow": {
+    "revenueM": 2218.7,
+    "costOfRevenueM": 1070.8,
+    "grossProfitM": 1147.9,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 536.0,
+        "note": "Designing new data-infrastructure chips and platforms; up 7% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 198.0,
+        "note": "Selling the chips and running the company; roughly flat YoY.",
+        "short": "SG&A"
+      },
+      {
+        "name": "Restructuring related charges (gains), net",
+        "amountM": 9.5,
+        "note": "Restructuring charges this quarter \u2014 severance and facility-exit costs, net of gains \u2014 versus a net gain a year ago.",
+        "short": "Restructuring charges"
+      }
+    ],
+    "operatingIncomeM": 404.4,
+    "otherIncomeM": -22.8,
+    "taxM": -14.5,
+    "netIncomeM": 396.1
+  },
+  "otherDetail": "Interest expense of $50.8M, partly offset by $28.0M of interest income and other, net \u2014 a net $22.8M non-operating expense.",
+  "oneTimers": [
+    "GAAP profit is below non-GAAP profit ($396M vs $685M) mainly because GAAP includes $143.0M of stock-based compensation and $223.6M of amortization of acquired intangible assets, both excluded from non-GAAP.",
+    "The tax line was a $14.5M benefit, not a charge, in the quarter."
+  ],
+  "footerNote": "Marvell guided Q1 FY27 revenue to $2.4B \u00b15%.",
+  "takeaways": [
+    {
+      "stat": "+21%",
+      "statColor": "#3d7bc8",
+      "title": "Data Center set the record",
+      "text": "Data Center revenue hit $1.65B \u2014 74% of the company \u2014 on AI demand, and total revenue set a record at $2.22B, capping a record $8.19B fiscal year, up 42%."
+    },
+    {
+      "stat": "$0.46 vs $0.80",
+      "statColor": "#b8443c",
+      "title": "Two very different profits",
+      "text": "GAAP EPS was 46 cents against 80 cents non-GAAP: $143M of stock pay and $224M of acquisition amortization sit in the GAAP column only."
+    },
+    {
+      "stat": "$374M",
+      "statColor": "#3e8e5a",
+      "title": "Solid cash generation",
+      "text": "Operating cash flow was $373.7M in the quarter despite a $640M jump in receivables as sales surged into the year-end."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000006/q426_8kx1312026ex-991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data center",
+      "amount": 74.43
+    },
+    {
+      "label": "Communications and other",
+      "amount": 25.57
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -48.26
+    },
+    {
+      "label": "R&D",
+      "amount": -24.16
+    },
+    {
+      "label": "SG&A",
+      "amount": -8.92
+    },
+    {
+      "label": "Restructuring charges",
+      "amount": -0.43
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.03
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 17.85
+    }
+  ],
+  "follow100Note": "Marvell kept $17.85 of every $100 \u2014 a $14.5M tax benefit added a little to what operations earned."
+}

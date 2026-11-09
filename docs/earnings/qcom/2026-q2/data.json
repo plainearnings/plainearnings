@@ -1,0 +1,160 @@
+{
+  "ticker": "QCOM",
+  "company": "Qualcomm",
+  "quarterLabel": "Q2 FY26",
+  "quarterSlug": "2026-q2",
+  "periodEnd": "2026-03-29",
+  "reportedDate": "2026-04-29",
+  "revenueYoY": "-3%",
+  "verdict": "Qualcomm's revenue slipped 3% to $10.6B as handset chips fell 13%, but a $5.1B tax benefit from releasing a valuation allowance lifted GAAP profit to $7.37B \u2014 a paper gain, not operating performance.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-3%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$6.88",
+      "note": "vs $2.65 non-GAAP; $2.52 a year ago"
+    },
+    {
+      "label": "Automotive revenue",
+      "value": "$1.3B",
+      "note": "+38% YoY, a record at the time"
+    },
+    {
+      "label": "Cash returned",
+      "value": "$3.7B",
+      "note": "$2.8B buybacks + $945M dividends in Q2"
+    }
+  ],
+  "segments": [
+    {
+      "name": "QCT",
+      "amountM": 9076,
+      "note": "The chip business. Inside it: Handsets $6,024M (\u221213% YoY), Automotive $1,326M (+38%), IoT $1,726M (+9%).",
+      "yoy": "-4%"
+    },
+    {
+      "name": "QTL",
+      "amountM": 1382,
+      "note": "Licensing phone makers to use Qualcomm's patents \u2014 very high margin (72% pre-tax).",
+      "yoy": "+5%"
+    },
+    {
+      "name": "Other and reconciling items",
+      "amountM": 141,
+      "note": "QSI strategic investments and corporate items not in QCT or QTL; the difference between segment revenue and the reported total.",
+      "yoy": null
+    }
+  ],
+  "flow": {
+    "revenueM": 10599,
+    "costOfRevenueM": 4900,
+    "grossProfitM": 5699,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 2463,
+        "note": "Building chips, modems and AI platforms; up 11% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 898,
+        "note": "Selling, legal costs and running the company; up 27% YoY.",
+        "short": "SG&A"
+      },
+      {
+        "name": "Other",
+        "amountM": 29,
+        "note": "Restructuring and restructuring-related charges of $29M (10-Q) \u2014 a one-time cost Qualcomm excludes from its non-GAAP results.",
+        "short": "Other"
+      }
+    ],
+    "operatingIncomeM": 2309,
+    "otherIncomeM": -77,
+    "taxM": -5138,
+    "netIncomeM": 7370
+  },
+  "otherDetail": "Investment and other income, net of $94M, less $171M of interest expense \u2014 a net $77M non-operating expense.",
+  "oneTimers": [
+    "GAAP results include a $5.7B income-tax benefit ($5.33 a share) from releasing a valuation allowance set up in Q4 FY25, after new corporate alternative minimum tax guidance \u2014 the entire reason GAAP EPS ($6.88) dwarfs non-GAAP EPS ($2.65). The total tax benefit on the income statement is $5,138M.",
+    "The $29M 'Other' operating-expense line is restructuring and restructuring-related charges (10-Q) \u2014 excluded from non-GAAP results."
+  ],
+  "footerNote": "Qualcomm guided Q3 FY26 in its release; see the release for the outlook.",
+  "takeaways": [
+    {
+      "stat": "-13%",
+      "statColor": "#b8443c",
+      "title": "Handsets dragged",
+      "text": "Handset chip revenue fell to $6.02B in a challenging memory environment \u2014 the whole reason total revenue slipped 3% despite growth elsewhere."
+    },
+    {
+      "stat": "+38%",
+      "statColor": "#3d7bc8",
+      "title": "Cars keep climbing",
+      "text": "Automotive chip revenue set a record at $1.33B and IoT grew 9% to $1.73B \u2014 combined, the two grew 20% YoY as diversification beyond phones continued."
+    },
+    {
+      "stat": "$5.7B",
+      "statColor": "#3e8e5a",
+      "title": "A tax paper gain",
+      "text": "Releasing a deferred-tax valuation allowance added a $5.7B benefit \u2014 profit on paper that brought no cash with it. Underlying non-GAAP profit was $2.84B, down 10% YoY."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000060/qcom032926erex991.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Mar 29, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000061/qcom-20260329.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "QCT",
+      "amount": 85.63
+    },
+    {
+      "label": "QTL",
+      "amount": 13.04
+    },
+    {
+      "label": "Other and reconciling items",
+      "amount": 1.33
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -46.23
+    },
+    {
+      "label": "R&D",
+      "amount": -23.24
+    },
+    {
+      "label": "SG&A",
+      "amount": -8.47
+    },
+    {
+      "label": "Other",
+      "amount": -0.27
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.73
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 48.48
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 69.53
+    }
+  ],
+  "follow100Note": "Qualcomm kept $69.53 of every $100 on paper (rows rounded to cents) \u2014 almost all of the extra is the one-time $5.1B tax benefit; without it, profit would have been about $21 per $100."
+}

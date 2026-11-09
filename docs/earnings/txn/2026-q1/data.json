@@ -1,0 +1,155 @@
+{
+  "ticker": "TXN",
+  "company": "Texas Instruments",
+  "quarterLabel": "Q1 2026",
+  "quarterSlug": "2026-q1",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-04-22",
+  "revenueYoY": "+19%",
+  "verdict": "Texas Instruments' revenue rose 19% to $4.83B as Analog sales surged 22%, and flat running costs turned that growth into a 31% jump in net income to $1.55B.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+19%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.68",
+      "note": "vs $1.28 a year ago"
+    },
+    {
+      "label": "Analog revenue",
+      "value": "$3.9B",
+      "note": "+22% YoY, 81% of revenue"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$1,399M",
+      "note": "in Q1, incl. $555M of CHIPS Act incentive proceeds"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Analog",
+      "amountM": 3924,
+      "note": "Analog chips \u2014 sensing and power products used in nearly every electronic device; growth led by industrial and data center.",
+      "yoy": "+22%"
+    },
+    {
+      "name": "Embedded Processing",
+      "amountM": 723,
+      "note": "Processors that sit inside cars, appliances and factory equipment.",
+      "yoy": "+12%"
+    },
+    {
+      "name": "Other",
+      "amountM": 178,
+      "note": "DLP products, calculators and custom chips.",
+      "yoy": "-16%"
+    }
+  ],
+  "flow": {
+    "revenueM": 4825,
+    "costOfRevenueM": 2026,
+    "grossProfitM": 2799,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 510,
+        "note": "R&D \u2014 designing new analog and embedded chips; down slightly from $517M a year ago.",
+        "short": "R&D"
+      },
+      {
+        "name": "Selling, general and administrative",
+        "amountM": 464,
+        "note": "Sales, marketing and the back office (SG&A); down slightly from $472M a year ago.",
+        "short": "SG&A"
+      },
+      {
+        "name": "Acquisition charges",
+        "amountM": 17,
+        "note": "Charges tied to acquisitions; none a year ago.",
+        "short": "Acquisition charges"
+      }
+    ],
+    "operatingIncomeM": 1808,
+    "otherIncomeM": -94,
+    "taxM": 169,
+    "netIncomeM": 1545
+  },
+  "otherDetail": "Other income (expense), net was $47M, less $141M of interest and debt expense \u2014 a net $94M expense outside operations.",
+  "oneTimers": [
+    "Earnings per share included a 5-cent benefit that was not in the company's original guidance, as stated in the release.",
+    "Free cash flow of $1,399M includes $555M of CHIPS Act incentive proceeds received in the quarter."
+  ],
+  "footerNote": "Segment operating profit: Analog $1,638M, Embedded Processing $122M, Other $48M.",
+  "takeaways": [
+    {
+      "stat": "+22%",
+      "statColor": "#3d7bc8",
+      "title": "Analog is driving the quarter",
+      "text": "Analog revenue rose 22% to $3.92B with growth led by industrial and data center demand \u2014 TI's biggest business did the heavy lifting."
+    },
+    {
+      "stat": "58.0%",
+      "statColor": "#3e8e5a",
+      "title": "Margins expanded",
+      "text": "Gross margin reached 58.0% (from 56.9% a year ago) as revenue grew 19% while R&D and SG&A slightly fell \u2014 operating profit jumped 37%."
+    },
+    {
+      "stat": "$1,449M",
+      "statColor": "#3e8e5a",
+      "title": "Cash returned to owners",
+      "text": "TI returned $1,449M in the quarter \u2014 $1,291M of dividends and $158M of buybacks; trailing-12-month free cash flow was $4.4B."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000097/q12026txnex99-eredgar.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Analog",
+      "amount": 81.33
+    },
+    {
+      "label": "Embedded Processing",
+      "amount": 14.98
+    },
+    {
+      "label": "Other",
+      "amount": 3.69
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -41.99
+    },
+    {
+      "label": "R&D",
+      "amount": -10.57
+    },
+    {
+      "label": "SG&A",
+      "amount": -9.62
+    },
+    {
+      "label": "Acquisition charges",
+      "amount": -0.35
+    },
+    {
+      "label": "Other expense",
+      "amount": -1.95
+    },
+    {
+      "label": "Tax",
+      "amount": -3.5
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 32.02
+    }
+  ]
+}

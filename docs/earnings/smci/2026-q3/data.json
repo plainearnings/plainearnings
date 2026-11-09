@@ -1,0 +1,145 @@
+{
+  "ticker": "SMCI",
+  "company": "Super Micro Computer",
+  "quarterLabel": "Q3 FY26",
+  "quarterSlug": "2026-q3",
+  "periodEnd": "2026-03-31",
+  "reportedDate": "2026-05-05",
+  "revenueYoY": "+122.7%",
+  "verdict": "Supermicro's sales more than doubled to $10.2B from a year ago and gross margin recovered to 9.9%, lifting profit to $483M \u2014 though working capital swallowed $6.6B of cash in the quarter.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+122.7%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.72",
+      "note": "diluted; vs $0.17 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "9.9%",
+      "note": "vs 6.3% in Q2 FY26 and 9.6% a year ago"
+    },
+    {
+      "label": "Cash flow from operations",
+      "value": "-$6.6B",
+      "note": "used in Q3; capex and investments were $97M"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Total net sales",
+      "amountM": 10243.014,
+      "note": "Supermicro reports a single operating segment and printed no product split this quarter. Sales are mostly complete AI server and rack systems built on its Data Center Building Block Solutions.",
+      "yoy": "+122.7%"
+    }
+  ],
+  "flow": {
+    "revenueM": 10243.014,
+    "costOfRevenueM": 9224.334,
+    "grossProfitM": 1018.68,
+    "opex": [
+      {
+        "name": "Research and development",
+        "amountM": 215.659,
+        "note": "Designing next-generation servers, racks and Data Center Building Block Solutions; up 32% YoY.",
+        "short": "R&D"
+      },
+      {
+        "name": "Sales and marketing",
+        "amountM": 89.51,
+        "note": "Sales teams and marketing; up 49% YoY.",
+        "short": "Sales & marketing"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 87.643,
+        "note": "Back office, legal and facilities; up 24% YoY.",
+        "short": "G&A"
+      }
+    ],
+    "operatingIncomeM": 625.868,
+    "otherIncomeM": -14.899,
+    "equityM": -0.695,
+    "taxM": 126.887,
+    "netIncomeM": 483.387
+  },
+  "otherDetail": "Non-operating items were a net $14.9M expense: $4.1M of other income, plus $45.4M of interest income, less $64.5M of interest expense. A separate $0.7M share of loss from an equity investee, net of taxes, is shown as equityM (amounts from thousands).",
+  "oneTimers": [
+    "The May 5 release called its figures preliminary; the Form 10-Q filed May 11, 2026 reported the same quarter totals (net sales $10,243M, net income $483M).",
+    "Stock-based compensation was $125.9M in the quarter \u2014 the main gap between GAAP net income ($483M) and non-GAAP net income ($581M basic)."
+  ],
+  "footerNote": "Supermicro guided Q4 FY26 net sales to $11.0B\u2013$12.5B.",
+  "takeaways": [
+    {
+      "stat": "+122.7%",
+      "statColor": "#3d7bc8",
+      "title": "Sales more than doubled",
+      "text": "Net sales rose to $10.2B from $4.6B a year ago, driven by AI rack demand \u2014 though sales eased from $12.7B in Q2 as large deals timed differently."
+    },
+    {
+      "stat": "9.9%",
+      "statColor": "#3e8e5a",
+      "title": "Margins recovered",
+      "text": "Gross margin rose to 9.9% from 6.3% in Q2, which management credited to its growing Data Center Building Block Solutions business."
+    },
+    {
+      "stat": "-$6.6B",
+      "statColor": "#b8443c",
+      "title": "Cash went the other way",
+      "text": "Operations used $6.6B of cash in the quarter as receivables and inventories ballooned with the sales surge; cash ended at $1.3B against $8.8B of bank debt and convertible notes."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000013/exhibit991_20260331.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Mar 31, 2026 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000014/smci-20260331.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Total net sales",
+      "amount": 100.0
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -90.05
+    },
+    {
+      "label": "R&D",
+      "amount": -2.11
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -0.87
+    },
+    {
+      "label": "G&A",
+      "amount": -0.86
+    },
+    {
+      "label": "Other expense",
+      "amount": -0.15
+    },
+    {
+      "label": "Equity investee loss",
+      "amount": -0.01
+    },
+    {
+      "label": "Tax",
+      "amount": -1.24
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 4.72
+    }
+  ],
+  "follow100Note": "Supermicro kept $4.72 of every $100 \u2014 margin recovered from Q2, but at 9.9% gross margin most of each sales dollar still goes straight to building the systems."
+}

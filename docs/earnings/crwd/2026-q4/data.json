@@ -1,0 +1,146 @@
+{
+  "ticker": "CRWD",
+  "company": "CrowdStrike",
+  "quarterLabel": "Q4 FY26",
+  "quarterSlug": "2026-q4",
+  "periodEnd": "2026-01-31",
+  "reportedDate": "2026-03-03",
+  "revenueYoY": "+23%",
+  "verdict": "CrowdStrike grew revenue 23% to $1.31B and cut its operating loss to just $7M; interest income and a tax benefit turned that into a $41M net profit.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+23%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.15",
+      "note": "attributable, diluted; vs $1.12 non-GAAP"
+    },
+    {
+      "label": "ARR",
+      "value": "$5.25B",
+      "note": "+24% YoY; $331M net new ARR in Q4"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$376M",
+      "note": "in Q4 FY26, a record for the quarter"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Subscription",
+      "amountM": 1242.265,
+      "note": "The Falcon security platform, sold by subscription \u2014 95% of all revenue.",
+      "yoy": "+23%"
+    },
+    {
+      "name": "Professional services",
+      "amountM": 63.11,
+      "note": "Security experts for hire \u2014 incident response and setup help.",
+      "yoy": "+26%"
+    }
+  ],
+  "flow": {
+    "revenueM": 1305.375,
+    "costOfRevenueM": 315.913,
+    "grossProfitM": 989.462,
+    "opex": [
+      {
+        "name": "Sales and marketing",
+        "amountM": 464.795,
+        "note": "Selling Falcon to enterprises \u2014 the biggest running cost.",
+        "short": "Sales & marketing"
+      },
+      {
+        "name": "Research and development",
+        "amountM": 367.727,
+        "note": "Building the Falcon platform and its AI defenses.",
+        "short": "R&D"
+      },
+      {
+        "name": "General and administrative",
+        "amountM": 163.84,
+        "note": "Running the company day to day \u2014 includes costs tied to the July 19 Incident and related matters.",
+        "short": "G&A"
+      }
+    ],
+    "operatingIncomeM": -6.9,
+    "otherIncomeM": 44.054,
+    "taxM": -3.621,
+    "netIncomeM": 40.775
+  },
+  "otherDetail": "Interest and other items netted +$44.1M: $47.9M of interest income and $3.8M of other income, net, less $7.6M of interest expense.",
+  "oneTimers": [
+    "Costs tied to the July 19 Incident and related matters were $16.2M in the quarter, down from $21.0M a year ago.",
+    "Stock-based compensation and related payroll taxes were $302.2M \u2014 the main reason non-GAAP net income attributable to CrowdStrike ($289.1M) is far above the GAAP attributable figure ($38.7M).",
+    "$2.1M of the quarter's $40.8M consolidated net income belonged to a non-controlling interest; net income attributable to CrowdStrike was $38.7M."
+  ],
+  "footerNote": "$40.8M net income is the consolidated total; $2.1M of it belonged to a non-controlling interest.",
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3d7bc8",
+      "title": "ARR crossed $5B",
+      "text": "Annual recurring revenue grew 24% to $5.25B, with a record $330.7M of net new ARR added in the quarter \u2014 demand for the Falcon platform stayed strong."
+    },
+    {
+      "stat": "-$7M",
+      "statColor": "#b8443c",
+      "title": "Operating loss nearly gone",
+      "text": "The operating loss narrowed to $6.9M from $79.3M a year ago; interest income of $44.1M net, plus a $3.6M tax benefit, turned the quarter profitable overall."
+    },
+    {
+      "stat": "$376M",
+      "statColor": "#3e8e5a",
+      "title": "Cash flow tells another story",
+      "text": "Free cash flow was $376.4M on $497.9M of operating cash flow \u2014 CrowdStrike's cash generation is far stronger than its GAAP profit suggests."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000007/crwd-20260303xex991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Subscription",
+      "amount": 95.17
+    },
+    {
+      "label": "Professional services",
+      "amount": 4.83
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -24.2
+    },
+    {
+      "label": "Sales & marketing",
+      "amount": -35.61
+    },
+    {
+      "label": "R&D",
+      "amount": -28.17
+    },
+    {
+      "label": "G&A",
+      "amount": -12.55
+    },
+    {
+      "label": "Other income",
+      "amount": 3.37
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.28
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 3.12
+    }
+  ]
+}
