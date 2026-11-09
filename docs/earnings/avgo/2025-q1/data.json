@@ -1,0 +1,141 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "quarterLabel": "Q1 FY25",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-02-02",
+  "reportedDate": "2025-03-06",
+  "verdict": "Broadcom grew revenue 25% to a record $14.9B as AI chip sales jumped 77% and VMware lifted software revenue 47%, and net income more than quadrupled to $5.5B as the heavy one-off costs of the VMware deal faded.",
+  "revenueYoY": "+25%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+25%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$1.14",
+      "note": "vs $0.28 a year ago"
+    },
+    {
+      "label": "AI semiconductor revenue",
+      "value": "$4.1B",
+      "note": "+77% YoY \u2014 guided to $4.4B next quarter"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$6.0B",
+      "note": "40% of revenue"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Semiconductor solutions",
+      "amountM": 8212,
+      "yoy": "+11%",
+      "note": "Chips \u2014 above all custom AI accelerators and networking gear for data centers. AI semiconductor revenue grew 77% YoY to $4.1B."
+    },
+    {
+      "name": "Infrastructure software",
+      "amountM": 6704,
+      "yoy": "+47%",
+      "note": "VMware and other enterprise software \u2014 the steady, subscription side of the company, up 47% YoY with a full quarter of VMware included."
+    }
+  ],
+  "flow": {
+    "revenueM": 14916,
+    "costOfRevenueM": 4771,
+    "grossProfitM": 10145,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 2253,
+        "note": "Designing the next chips and software \u2014 a smaller share of each revenue dollar than most chip rivals spend."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 949,
+        "note": "Selling the products and running the company."
+      },
+      {
+        "name": "Amortization & restructuring",
+        "amountM": 683,
+        "note": "Writing down the value of brands and technology bought in acquisitions (VMware above all) \u2014 a bookkeeping charge, not cash \u2014 plus restructuring and other charges."
+      }
+    ],
+    "operatingIncomeM": 6260,
+    "otherIncomeM": -770,
+    "taxM": -13,
+    "netIncomeM": 5503
+  },
+  "otherDetail": "Interest expense of $873M on Broadcom's debt, partly offset by $103M of other income \u2014 a net -$770M below operating profit.",
+  "footerNote": "The tax line was a small benefit, not a bill: a $13M income-tax benefit is drawn as a green source into net profit.",
+  "takeaways": [
+    {
+      "stat": "+77%",
+      "statColor": "#3e8e5a",
+      "title": "AI chips are the growth engine",
+      "text": "AI semiconductor revenue grew 77% YoY to $4.1B, and Broadcom guided it to $4.4B in the next quarter as hyperscale customers kept investing in custom AI chips and data-center networking."
+    },
+    {
+      "stat": "+47%",
+      "statColor": "#3d7bc8",
+      "title": "VMware is the steady half",
+      "text": "Infrastructure software revenue rose 47% to $6.7B \u2014 45% of all revenue \u2014 giving Broadcom a subscription base that smooths the ups and downs of chip sales."
+    },
+    {
+      "stat": "$6.0B",
+      "statColor": "#3e8e5a",
+      "title": "A cash machine",
+      "text": "Free cash flow was $6.0B \u2014 40% of revenue \u2014 even while carrying the debt taken on to buy VMware; interest on that debt cost $873M in the quarter."
+    }
+  ],
+  "oneTimers": [
+    "GAAP profit carries $1,995M of amortization of acquisition-related intangible assets ($1,484M inside cost of revenue and $511M inside operating expenses) \u2014 mostly bookkeeping from the VMware deal, not cash. On Broadcom's non-GAAP view, net income was $7,823M instead of $5,503M."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000009/avgo-02022025x8kxex99.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Semiconductor solutions",
+      "amount": 55.05
+    },
+    {
+      "label": "Infrastructure software",
+      "amount": 44.95
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -31.99
+    },
+    {
+      "label": "R&D",
+      "amount": -15.1
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.36
+    },
+    {
+      "label": "Amortization & restructuring",
+      "amount": -4.58
+    },
+    {
+      "label": "Other expense",
+      "amount": -5.16
+    },
+    {
+      "label": "Tax benefit",
+      "amount": 0.09
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 36.89
+    }
+  ]
+}

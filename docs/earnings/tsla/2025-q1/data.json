@@ -1,0 +1,152 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-31",
+  "reportedDate": "2025-04-22",
+  "verdict": "Tesla's revenue fell 9% to $19.3B as every factory switched over to the new Model Y, and with car prices lower too, operating profit shrank 66% to $0.4B \u2014 though the energy business kept booming.",
+  "revenueYoY": "-9%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "-9%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.12",
+      "note": "vs $0.41 a year ago"
+    },
+    {
+      "label": "Deliveries",
+      "value": "336,681",
+      "note": "down 13% YoY \u2014 the Model Y changeover cost weeks of production"
+    },
+    {
+      "label": "Free cash flow",
+      "value": "$664M",
+      "note": "operating cash flow of $2.2B, capex of $1.5B"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Automotive",
+      "amountM": 13967,
+      "yoy": "-20%",
+      "note": "Selling and leasing cars \u2014 revenue fell 20% as deliveries dropped 13% during the Model Y changeover and average prices came down; regulatory credits rose to $595M."
+    },
+    {
+      "name": "Energy generation and storage",
+      "amountM": 2730,
+      "yoy": "+67%",
+      "note": "Megapack batteries and solar \u2014 storage deployments hit 10.4 GWh, more than double a year ago, and revenue jumped 67%."
+    },
+    {
+      "name": "Services and other",
+      "amountM": 2638,
+      "yoy": "+15%",
+      "note": "Supercharging, repairs, insurance and used-car sales \u2014 up 15%."
+    }
+  ],
+  "flow": {
+    "revenueM": 19335,
+    "costOfRevenueM": 16182,
+    "grossProfitM": 3153,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1409,
+        "note": "AI, the Optimus robot, Cybercab and new vehicles \u2014 up 22% YoY as Tesla invests in autonomy."
+      },
+      {
+        "name": "Selling, general & administrative",
+        "amountM": 1251,
+        "note": "Selling cars and running the company day to day \u2014 down 9% YoY."
+      },
+      {
+        "name": "Restructuring & other",
+        "amountM": 94,
+        "note": "One-off costs of reshaping the business \u2014 there was no such charge a year ago."
+      }
+    ],
+    "operatingIncomeM": 399,
+    "otherIncomeM": 190,
+    "taxM": 169,
+    "netIncomeM": 420
+  },
+  "otherDetail": "Interest income of $400M, less $91M of interest expense and $119M of other expense (mostly currency losses) \u2014 a net +$190M below operating profit.",
+  "footerNote": "Net income here is Tesla's total net income of $420M; $409M of it is attributable to common stockholders (the rest belongs to minority partners in subsidiaries).",
+  "takeaways": [
+    {
+      "stat": "-13%",
+      "statColor": "#cf5f4e",
+      "title": "Deliveries fell",
+      "text": "Tesla delivered 336,681 cars, down 13% YoY, after the Model Y update shut production lines at all four vehicle factories for several weeks \u2014 and lower prices cut automotive revenue 20%."
+    },
+    {
+      "stat": "2.1%",
+      "statColor": "#b98a1c",
+      "title": "Margins squeezed hard",
+      "text": "Operating income fell 66% to $399M \u2014 a 2.1% operating margin \u2014 as lower prices and lost production overwhelmed cheaper costs per car and higher regulatory-credit sales."
+    },
+    {
+      "stat": "+67%",
+      "statColor": "#3e8e5a",
+      "title": "Energy is quietly surging",
+      "text": "Energy generation and storage revenue jumped 67% to $2.7B on record storage deployments of 10.4 GWh, and services revenue rose 15% \u2014 the non-car business kept growing through the car slump."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018851/exhbit991.htm"
+    },
+    {
+      "label": "Quarterly report (Form 10-Q, SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Automotive",
+      "amount": 72.24
+    },
+    {
+      "label": "Energy generation and storage",
+      "amount": 14.12
+    },
+    {
+      "label": "Services and other",
+      "amount": 13.64
+    },
+    {
+      "label": "Cost of revenue",
+      "amount": -83.69
+    },
+    {
+      "label": "R&D",
+      "amount": -7.29
+    },
+    {
+      "label": "SG&A",
+      "amount": -6.47
+    },
+    {
+      "label": "Restructuring & other",
+      "amount": -0.49
+    },
+    {
+      "label": "Other income",
+      "amount": 0.98
+    },
+    {
+      "label": "Tax",
+      "amount": -0.87
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 2.17
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "ticker": "AMD",
+  "company": "AMD",
+  "quarterLabel": "Q1 2025",
+  "quarterSlug": "2025-q1",
+  "periodEnd": "2025-03-29",
+  "reportedDate": "2025-05-06",
+  "verdict": "AMD's revenue jumped 36% to $7.4B on record PC chip sales and 57% growth in data-center chips, and with costs growing far more slowly than sales, operating income leapt from $36M to $806M and net income reached $709M.",
+  "revenueYoY": "+36%",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "value": "+36%",
+      "note": "vs a year ago"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.44",
+      "note": "vs $0.07 a year ago"
+    },
+    {
+      "label": "Gross margin",
+      "value": "50%",
+      "note": "vs 47% a year ago"
+    },
+    {
+      "label": "Data Center revenue",
+      "value": "$3.7B",
+      "note": "+57% YoY"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Data Center",
+      "amountM": 3674,
+      "yoy": "+57%",
+      "note": "EPYC server processors and Instinct AI accelerators \u2014 demand for both drove the segment up 57% YoY."
+    },
+    {
+      "name": "Client",
+      "amountM": 2294,
+      "yoy": "+68%",
+      "note": "Ryzen processors for PCs \u2014 up 68% on strong demand for the latest 'Zen 5' chips and a richer product mix."
+    },
+    {
+      "name": "Gaming",
+      "amountM": 647,
+      "yoy": "-30%",
+      "note": "Graphics cards and console chips \u2014 down 30% YoY as semi-custom console chip sales fell."
+    },
+    {
+      "name": "Embedded",
+      "amountM": 823,
+      "yoy": "-3%",
+      "note": "Chips built into cars, industrial gear and communications equipment (the Xilinx business) \u2014 down 3% YoY as end markets stayed mixed."
+    }
+  ],
+  "flow": {
+    "revenueM": 7438,
+    "costOfRevenueM": 3702,
+    "grossProfitM": 3736,
+    "opex": [
+      {
+        "name": "Research & development",
+        "amountM": 1728,
+        "note": "Designing the next generations of CPUs, GPUs and AI accelerators."
+      },
+      {
+        "name": "Marketing, general & administrative",
+        "amountM": 886,
+        "note": "Selling products and running the company."
+      },
+      {
+        "name": "Amortization of intangibles",
+        "amountM": 316,
+        "note": "Writing down the value of technology bought in acquisitions (Xilinx above all) \u2014 a bookkeeping charge, not cash."
+      }
+    ],
+    "operatingIncomeM": 806,
+    "otherIncomeM": 26,
+    "taxM": 123,
+    "netIncomeM": 709
+  },
+  "otherDetail": "Other income of $39M, plus $7M of equity income, less $20M of interest expense \u2014 a net +$26M.",
+  "takeaways": [
+    {
+      "stat": "+57%",
+      "statColor": "#3e8e5a",
+      "title": "Data Center carried the growth",
+      "text": "Data Center revenue rose 57% YoY to $3.7B \u2014 half of everything AMD sells \u2014 on EPYC server processors and Instinct AI accelerators."
+    },
+    {
+      "stat": "+68%",
+      "statColor": "#3e8e5a",
+      "title": "PC chips boomed too",
+      "text": "Client revenue jumped 68% to $2.3B on 'Zen 5' Ryzen demand, more than offsetting a 30% drop in Gaming as console chip sales faded."
+    },
+    {
+      "stat": "$806M",
+      "statColor": "#3d7bc8",
+      "title": "Profits finally leveraged",
+      "text": "Operating income jumped from just $36M a year ago to $806M \u2014 revenue grew 36% while costs grew far more slowly, lifting the gross margin to 50% from 47%."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000045/q12025991.htm"
+    }
+  ],
+  "follow100": [
+    {
+      "label": "Data Center",
+      "amount": 49.4
+    },
+    {
+      "label": "Client",
+      "amount": 30.84
+    },
+    {
+      "label": "Gaming",
+      "amount": 8.7
+    },
+    {
+      "label": "Embedded",
+      "amount": 11.06
+    },
+    {
+      "label": "Cost of sales",
+      "amount": -49.77
+    },
+    {
+      "label": "R&D",
+      "amount": -23.23
+    },
+    {
+      "label": "Marketing, general & administrative",
+      "amount": -11.91
+    },
+    {
+      "label": "Amortization of intangibles",
+      "amount": -4.25
+    },
+    {
+      "label": "Other income",
+      "amount": 0.35
+    },
+    {
+      "label": "Tax",
+      "amount": -1.65
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 9.53
+    }
+  ]
+}
