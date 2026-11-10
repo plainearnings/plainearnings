@@ -1,0 +1,163 @@
+{
+  "company": "Hims & Hers",
+  "flow": {
+    "costOfRevenueM": 381.174,
+    "grossProfitM": 509.199,
+    "netIncomeM": -33.04,
+    "operatingIncomeM": -66.146,
+    "opex": [
+      {
+        "amountM": 247.28,
+        "name": "Marketing",
+        "note": "Ads and customer acquisition \u2014 the company's biggest single expense line, 28% of revenue. Up only 7%, so marketing was not the margin problem this quarter."
+      },
+      {
+        "amountM": 107.196,
+        "name": "Operations and support",
+        "note": "Fulfillment, customer care and the care teams behind the platform. Up 39% as the subscriber base and international footprint grew."
+      },
+      {
+        "amountM": 69.387,
+        "name": "Technology and development",
+        "note": "The product and engineering teams, including the AI-native experience management keeps talking about. Up 71% \u2014 the fastest-growing opex line."
+      },
+      {
+        "amountM": 151.482,
+        "name": "General and administrative",
+        "note": "Offices, legal, finance and executive costs. Up 88% \u2014 nearly doubled, the biggest absolute jump in opex (+$70.8M), reflecting acquisition integration and the cost of running a much bigger, more global company."
+      }
+    ],
+    "otherIncomeM": 19.896,
+    "revenueM": 890.373,
+    "taxM": -13.21
+  },
+  "follow100": [
+    {
+      "amount": 73.8,
+      "label": "U.S. revenue"
+    },
+    {
+      "amount": 26.2,
+      "label": "Rest-of-world revenue"
+    },
+    {
+      "amount": -42.81,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -27.77,
+      "label": "Marketing"
+    },
+    {
+      "amount": -12.04,
+      "label": "Operations and support"
+    },
+    {
+      "amount": -7.79,
+      "label": "Technology and development"
+    },
+    {
+      "amount": -17.01,
+      "label": "General and administrative"
+    },
+    {
+      "amount": 2.23,
+      "label": "Other income, net"
+    },
+    {
+      "amount": 1.48,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": -3.71,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: the company spends $27.77 of every $100 on marketing and another $17.01 on G&A \u2014 together more than the entire gross profit left after product costs. A year ago, cost of revenue took only ~$26 of every $100; now it takes ~$43, and that 17-point margin collapse is what turned a profitable quarter into a loss.",
+  "footerNote": "Chart note: Hims & Hers' running costs exceeded its gross profit, so the chart draws the $33.040M net loss as a 'Covered by cash on hand' source that funds the operating gap \u2014 the shortfall came from the balance sheet, not from revenue. The $13.210M tax benefit is drawn as its own green source.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+49% YoY",
+      "value": "$890.4M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.06 a year ago",
+      "value": "-$0.14"
+    },
+    {
+      "label": "Subscribers",
+      "note": "+13% YoY, $105/month each",
+      "value": "2.79M"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "+5% YoY, 9% margin",
+      "value": "$82.4M"
+    }
+  ],
+  "oneTimers": [
+    "Restructuring charges ($3.8M in Q3; $41.9M in the first nine months): costs from the February 2026 strategic shift in the U.S. weight-loss offering \u2014 moving to branded GLP-1 drugs and offering compounded GLP-1s only on a limited scale. The company adds these back in Adjusted EBITDA.",
+    "Acquisition, transaction and investment earn-out costs ($35.4M in Q3; $77.6M in nine months): deal costs and earn-outs tied to the international acquisitions behind the rest-of-world surge. Also added back in Adjusted EBITDA.",
+    "Legal contingencies ($62.5M in the first nine months, $0 in Q3): booked earlier in 2026, not in this quarter's numbers \u2014 but it is why the nine-month net loss (\u2212$211.4M) is far worse than Q3 alone.",
+    "Stock-based compensation ($64.5M in Q3; $143.5M in nine months): a real, recurring cost of paying employees in shares \u2014 excluded from Adjusted EBITDA, but it dilutes shareholders.",
+    "Adjusted vs GAAP gap: Adjusted EBITDA of $82.4M vs a GAAP net loss of \u2212$33.0M. The bridge is mostly stock comp ($64.5M), acquisition costs ($35.4M), depreciation ($38.2M) and the tax benefit. Adjusted net income is only $6.5M \u2014 even on management's preferred basis, the quarter was barely profitable."
+  ],
+  "otherDetail": "A $21.112M paper gain on equity securities, plus a $3.821M gain on liabilities, less $5.037M of other expense \u2014 net $19.896M.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-09",
+  "revenueYoY": "+49%",
+  "segments": [
+    {
+      "amountM": 657.089,
+      "name": "United States",
+      "note": "The home market: subscription sales of prescription and non-prescription health products plus medical consultations. Still 74% of revenue, but growing slower (+21%) than the total.",
+      "yoy": "+21%"
+    },
+    {
+      "amountM": 233.284,
+      "name": "Rest of world",
+      "note": "International sales more than quadrupled (+321%) \u2014 the big growth story this quarter, driven by the company's international expansion and acquisitions. Now 26% of revenue, up from 9% a year ago.",
+      "yoy": "+321%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20261109.htm"
+    },
+    {
+      "label": "Hims & Hers investor relations",
+      "url": "https://investors.hims.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+49%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue +49% with international sales up 321% \u2014 but that growth came with acquisitions, a much higher cost base, and a gross margin down 17 points. This is no longer the high-margin U.S. subscription story of a year ago.",
+      "title": "The growth is real, but it changed shape"
+    },
+    {
+      "stat": "2.79M",
+      "statColor": "#3e8e5a",
+      "text": "Subscribers grew 13% to 2.79M and each subscriber now pays $105/month (up 30%). Demand is healthy \u2014 the problem is that opex grew $145M while gross profit grew only $67M, with G&A nearly doubling.",
+      "title": "The loss is a spending story, not a demand story"
+    },
+    {
+      "stat": "$3.13\u20133.15B",
+      "statColor": "#5b6b7c",
+      "text": "Full-year revenue was tightened to $3.13\u20133.15B while Adjusted EBITDA guidance was reduced to $257\u2013277M. Management is spending ahead of Q4 platform expansions it says will set up 2027 \u2014 investors have to take on trust that the spending pays off.",
+      "title": "Guidance got more cautious on profit, not on sales"
+    }
+  ],
+  "ticker": "HIMS",
+  "verdict": "Revenue jumped 49% as international sales more than quadrupled, but Hims & Hers swung to a $33 million loss as gross margin collapsed 17 points and spending on marketing, admin and acquisitions piled up \u2014 growth bought at the cost of profitability."
+}

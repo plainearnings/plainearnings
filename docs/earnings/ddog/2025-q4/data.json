@@ -1,0 +1,137 @@
+{
+  "company": "Datadog",
+  "flow": {
+    "costOfRevenueM": 186.894,
+    "grossProfitM": 766.3,
+    "netIncomeM": 46.567,
+    "operatingIncomeM": 9.356,
+    "opex": [
+      {
+        "amountM": 417.926,
+        "name": "Research & development",
+        "note": "Building the platform and its AI features \u2014 by far the biggest running cost. Includes $127.058M of stock-based compensation."
+      },
+      {
+        "amountM": 264.377,
+        "name": "Sales & marketing",
+        "note": "Selling to engineering and security teams at large companies. Includes $43.442M of stock-based compensation."
+      },
+      {
+        "amountM": 74.641,
+        "name": "General & administrative",
+        "note": "Running the company day to day. Includes $26.629M of stock-based compensation."
+      }
+    ],
+    "otherIncomeM": 44.114,
+    "revenueM": 953.194,
+    "taxM": 6.903
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Platform subscriptions"
+    },
+    {
+      "amount": -19.61,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -43.84,
+      "label": "Research & development"
+    },
+    {
+      "amount": -27.74,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -7.83,
+      "label": "General & administrative"
+    },
+    {
+      "amount": 4.63,
+      "label": "Other income, net"
+    },
+    {
+      "amount": -0.72,
+      "label": "Tax"
+    },
+    {
+      "amount": 4.89,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: R&D alone eats about $44 of every $100 \u2014 more than four times the operating profit it leaves behind. Datadog's GAAP profit is thin because stock-based pay ($205M in the quarter) runs through those same lines; on management's preferred non-GAAP basis the operating margin was 24%, not 1%. Rows add up with a small rounding difference.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+29%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.59 non-GAAP",
+      "value": "$0.13"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "31% of revenue",
+      "value": "$291M"
+    },
+    {
+      "label": "$1M+ ARR customers",
+      "note": "+31% YoY",
+      "value": "603"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Interest income and other income of $46.714M, less $2.6M of interest expense \u2014 net $44.114M.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-10",
+  "revenueYoY": "+29%",
+  "segments": [
+    {
+      "amountM": 953.194,
+      "name": "Platform subscriptions",
+      "note": "One integrated platform \u2014 monitoring, security and AI observability, priced per host and per feature. Datadog reports a single revenue stream.",
+      "yoy": "+29%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026006645/ex-991x20251231x8k.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026006645/ddog-20260210.htm"
+    },
+    {
+      "label": "Datadog investor relations",
+      "url": "https://investors.datadoghq.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+29%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue grew 29% to $953M, and the customers that matter most keep spending more: 603 customers now pay $1M+ a year, up 31% from 462 a year ago.",
+      "title": "Growth held at 29% into year-end"
+    },
+    {
+      "stat": "$291M",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $291M \u2014 31 cents of every revenue dollar \u2014 while GAAP operating income was just $9M. The gap is mostly stock-based pay ($205M), which costs no cash.",
+      "title": "A cash machine underneath a thin GAAP profit"
+    },
+    {
+      "stat": "1% vs 24%",
+      "statColor": "#b8443c",
+      "text": "GAAP operating margin was 1%; non-GAAP was 24% after adding back stock pay and amortization. The full year tells the same story: a $44M GAAP operating loss vs $768M non-GAAP.",
+      "title": "Two margins, one gap"
+    }
+  ],
+  "ticker": "DDOG",
+  "verdict": "Revenue grew 29% to $953 million and Datadog stayed profitable on a GAAP basis, but the GAAP operating margin was just 1% \u2014 stock-based pay is the wedge between the $9 million GAAP operating profit and $230 million non-GAAP."
+}

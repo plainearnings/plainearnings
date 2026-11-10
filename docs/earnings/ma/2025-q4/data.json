@@ -1,0 +1,168 @@
+{
+  "company": "Mastercard",
+  "flow": {
+    "costOfRevenueM": 0,
+    "grossName": "Net revenue",
+    "grossNote": "already net of $5.6B of rebates",
+    "grossPlain": "Mastercard reports revenue already net of the $5,631M of rebates and incentives it pays banks and merchants to win card business \u2014 so there is no separate cost-of-revenue line in its books. The costs were taken out before revenue was counted.",
+    "grossProfitM": 8806,
+    "netIncomeM": 4060,
+    "operatingIncomeM": 4910,
+    "opex": [
+      {
+        "amountM": 3106,
+        "name": "General and administrative",
+        "note": "Salaries, technology and offices for the people who run the network \u2014 by far Mastercard's biggest cost. Tempered in part by new government grants recognized after agreements signed in late 2025."
+      },
+      {
+        "amountM": 319,
+        "name": "Advertising and marketing",
+        "note": "Brand campaigns, sponsorships and the 'Priceless' advertising."
+      },
+      {
+        "amountM": 297,
+        "name": "Depreciation and amortization",
+        "note": "Spreading the cost of buildings, data centers, equipment and acquired technology."
+      },
+      {
+        "amountM": 174,
+        "name": "Provision for litigation",
+        "note": "Settlements with merchants who opted out of the U.S. merchant class litigation \u2014 Mastercard flags this as a special item."
+      }
+    ],
+    "otherIncomeM": -34,
+    "revenueM": 8806,
+    "taxM": 816
+  },
+  "follow100": [
+    {
+      "amount": 55.87,
+      "label": "Payment network"
+    },
+    {
+      "amount": 44.13,
+      "label": "Value-added services"
+    },
+    {
+      "amount": -35.27,
+      "label": "General and administrative"
+    },
+    {
+      "amount": -3.62,
+      "label": "Advertising and marketing"
+    },
+    {
+      "amount": -3.37,
+      "label": "Depreciation and amortization"
+    },
+    {
+      "amount": -1.98,
+      "label": "Provision for litigation"
+    },
+    {
+      "amount": -0.39,
+      "label": "Other expense, net"
+    },
+    {
+      "amount": -9.27,
+      "label": "Tax"
+    },
+    {
+      "amount": 46.1,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: Mastercard keeps $46.10 of every $100 \u2014 a net margin most businesses can only dream of \u2014 because the network's costs are mostly people and technology, not goods. But $5,631M of the $10,551M it billed in assessments went straight back to banks as rebates before revenue was even counted.",
+  "kpis": [
+    {
+      "label": "Net revenue",
+      "note": "+18% YoY",
+      "value": "$8.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $4.76 adjusted",
+      "value": "$4.52"
+    },
+    {
+      "label": "Cross-border volume",
+      "note": "growth, local currency",
+      "value": "+14%"
+    },
+    {
+      "label": "Value-added services",
+      "note": "net revenue, +26% YoY",
+      "value": "$3.9B"
+    }
+  ],
+  "oneTimers": [
+    "A $174M litigation provision \u2014 settlements with merchants who opted out of the U.S. merchant class litigation \u2014 is flagged by Mastercard as a special item. Excluding it and a $104M equity-investment loss, adjusted net income was $4.3B and adjusted EPS was $4.76.",
+    "G&A was tempered by new government grants recognized after agreements signed in late 2025, and other income includes a one-time tax-related interest benefit \u2014 both flagged in the release as favorable one-offs.",
+    "Mastercard bought back 6.4 million shares for $3.6B in the quarter and paid $684M in dividends."
+  ],
+  "otherDetail": "Investment income of $86M and other income of $143M, outweighed by a $104M loss on equity investments and $159M of interest expense \u2014 net \u2212$34M.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-01-29",
+  "revenueYoY": "+18%",
+  "segments": [
+    {
+      "amountM": 4920,
+      "name": "Payment network",
+      "note": "The toll for running the card network \u2014 the fees banks pay per swipe, after the $5,631M of rebates Mastercard pays to win and keep card business. Gross assessments before those rebates were $10,551M: domestic $2,773M, cross-border $3,265M, transaction processing $4,241M.",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 3886,
+      "name": "Value-added services and solutions",
+      "note": "Everything beyond the swipe: fraud screening, data analytics, consulting, identity and cybersecurity tools sold to banks and merchants \u2014 now 44% of net revenue and the fastest-growing part.",
+      "shortName": "Value-added services",
+      "yoy": "+26%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma-20260129.htm"
+    },
+    {
+      "label": "Form 10-K FY2025, revenue split (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+    },
+    {
+      "label": "Form 10-Q, 9 months ended Sep 30, 2025, revenue split (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000193/ma-20250930.htm"
+    },
+    {
+      "label": "Mastercard investor relations",
+      "url": "https://investor.mastercard.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+26%",
+      "statColor": "#3d7bc8",
+      "text": "Value-added services net revenue hit $3,886M \u2014 fraud tools, data and consulting now bring in 44 cents of every revenue dollar, and they grew more than twice as fast as the payment network itself (+12%).",
+      "title": "The services side is the growth engine"
+    },
+    {
+      "stat": "$2.8T",
+      "statColor": "#3e8e5a",
+      "text": "Gross dollar volume grew 7% to $2.8 trillion, cross-border volume jumped 14% and switched transactions rose 10% \u2014 people are spending, and spending abroad.",
+      "title": "Cross-border is the volume story"
+    },
+    {
+      "stat": "$3.6B",
+      "statColor": "#5b6b7c",
+      "text": "Mastercard repurchased 6.4 million shares for $3.6B in the quarter and paid $684M in dividends \u2014 returning $4.3B to shareholders in three months.",
+      "title": "The buyback machine kept running"
+    }
+  ],
+  "ticker": "MA",
+  "verdict": "Net revenue rose 18% to $8.8 billion as cross-border spending jumped 14% and value-added services grew 26% \u2014 and Mastercard kept $4.1 billion as profit, a 46% net margin."
+}

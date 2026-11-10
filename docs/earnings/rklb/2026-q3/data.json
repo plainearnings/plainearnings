@@ -1,0 +1,167 @@
+{
+  "company": "Rocket Lab",
+  "flow": {
+    "costOfRevenueM": 177.763,
+    "grossProfitM": 90.071,
+    "netIncomeM": -79.677,
+    "operatingIncomeM": -79.189,
+    "opex": [
+      {
+        "amountM": 98.388,
+        "name": "Research & development, net",
+        "note": "The engineers building Neutron and the next generation of spacecraft \u2014 the company's biggest single expense, 37% of revenue. Up 39%. R&D alone is bigger than gross profit, which is why the company loses money.",
+        "shortName": "R&D, net"
+      },
+      {
+        "amountM": 70.872,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams, offices, admin. Up 55% as the company scales.",
+        "shortName": "SG&A"
+      }
+    ],
+    "otherIncomeM": 3.015,
+    "revenueM": 267.834,
+    "taxM": 3.503
+  },
+  "follow100": [
+    {
+      "amount": 73.74,
+      "label": "Product revenues"
+    },
+    {
+      "amount": 26.26,
+      "label": "Service revenues"
+    },
+    {
+      "amount": -49.69,
+      "label": "Cost of product revenues"
+    },
+    {
+      "amount": -16.68,
+      "label": "Cost of service revenues"
+    },
+    {
+      "amount": -36.73,
+      "label": "R&D, net"
+    },
+    {
+      "amount": -26.46,
+      "label": "SG&A"
+    },
+    {
+      "amount": -0.12,
+      "label": "Interest expense"
+    },
+    {
+      "amount": 10.69,
+      "label": "Interest income"
+    },
+    {
+      "amount": 0.18,
+      "label": "Foreign-exchange gain"
+    },
+    {
+      "amount": -10.18,
+      "label": "Loss on extinguishment of debt"
+    },
+    {
+      "amount": 0.56,
+      "label": "Other income, net"
+    },
+    {
+      "amount": -1.31,
+      "label": "Tax"
+    },
+    {
+      "amount": -29.75,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "The striking thing: R&D alone eats $36.73 of every $100 \u2014 more than the entire gross profit. Rocket Lab is a development-stage company that happens to sell rockets; the business only works if Neutron and the backlog convert into much bigger, higher-margin revenue later. Meanwhile, the $4.4B cash pile already earns $10.69 per $100 of revenue in interest \u2014 a side business in its own right.",
+  "footerNote": "Chart note: Rocket Lab's running costs exceeded its gross profit, so the chart draws the $79.677M net loss as a 'Covered by cash on hand' source that funds the operating gap and the $3.503M tax bill \u2014 the shortfall came from the balance sheet, not from revenue.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+73% YoY, a record quarter",
+      "value": "$267.8M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs -$0.03 a year ago",
+      "value": "-$0.12"
+    },
+    {
+      "label": "Backlog",
+      "note": "+52% vs Q2 2026",
+      "value": "$3.57B"
+    },
+    {
+      "label": "Adjusted EBITDA",
+      "note": "loss narrowed from -$26.3M",
+      "value": "-$18.0M"
+    }
+  ],
+  "oneTimers": [
+    "Loss on extinguishment of debt ($27.3M): a one-time charge for retiring the convertible senior notes early \u2014 the balance sheet shows convertible notes down to $1.3M from $152.4M at Dec 31, 2025. Without this charge, the net loss would have been ~$52M instead of ~$80M.",
+    "Transaction costs ($21.3M in Q3; $31.6M in nine months): deal costs for the pending acquisition of Iridium Communications \u2014 the company says it is now fully funded (via the ATM equity offering) and Iridium shareholders have overwhelmingly approved it. These costs are excluded from Adjusted EBITDA and non-GAAP opex.",
+    "The ATM equity offering ($3.91B raised in nine months): Rocket Lab sold a large block of new shares at-the-market, which is why cash jumped from $828.7M (Dec 31, 2025) to $4,447.7M and the share count rose to ~652M weighted-average shares (from ~529M a year ago). The cash funds the Iridium acquisition and Neutron development \u2014 but existing shareholders were diluted by roughly 23%.",
+    "Stock-based compensation ($18.3M in Q3; $66.0M in nine months): excluded from Adjusted EBITDA, but a real cost to shareholders.",
+    "The tax swing: Q3 2025 included a $41.1M tax benefit (deferred tax assets), while Q3 2026 has a $3.5M tax expense \u2014 a $44.6M year-over-year swing that explains most of why the net loss quadrupled while the operating loss widened only 34%."
+  ],
+  "otherDetail": "$28.627M of interest income, less a $27.259M one-time debt-extinguishment charge and $0.323M of interest expense, plus a $0.473M foreign-exchange gain and $1.497M of other income \u2014 net $3.015M.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-09",
+  "revenueYoY": "+73%",
+  "segments": [
+    {
+      "amountM": 197.487,
+      "name": "Product revenues",
+      "note": "Rockets, spacecraft and components sold as hardware \u2014 Electron launches, satellite platforms and parts. Nearly doubled (+90%) and now 74% of revenue.",
+      "yoy": "+90%"
+    },
+    {
+      "amountM": 70.347,
+      "name": "Service revenues",
+      "note": "Launch services, mission operations and related work billed as services rather than hardware. Up 38%.",
+      "yoy": "+38%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-20261109.htm"
+    },
+    {
+      "label": "Rocket Lab investor relations",
+      "url": "https://investors.rocketlabcorp.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.57B",
+      "statColor": "#3d7bc8",
+      "text": "$3.57B, up 52% in a single quarter, with 117 launches booked and Neutron already sold out 16 missions deep at up to $70M a launch \u2014 before it has ever flown. Demand is not the constraint; execution is.",
+      "title": "The backlog is the story"
+    },
+    {
+      "stat": "\u2212$18.0M",
+      "statColor": "#3e8e5a",
+      "text": "The operating loss grew $20M on Neutron R&D, and the net loss quadrupled mostly because of a $27.3M one-time debt charge and a $44.6M tax swing vs last year. Adjusted EBITDA loss actually narrowed to \u2212$18.0M, and operating cash flow turned positive (+$7.2M) for the first time.",
+      "title": "The loss widened, but look at why"
+    },
+    {
+      "stat": "$4.4B",
+      "statColor": "#5b6b7c",
+      "text": "The ATM offering raised $3.9B to fund Iridium and Neutron, but the share count is up ~23% year over year. The question for shareholders is whether that cash buys a second business (Iridium) and a bigger rocket (Neutron) that earn their keep.",
+      "title": "A $4.4 billion war chest \u2014 paid for with dilution"
+    }
+  ],
+  "ticker": "RKLB",
+  "verdict": "Rocket Lab posted a record $268 million quarter with its backlog up 52% to $3.6 billion, but it still lost $80 million as Neutron development spending outran revenue \u2014 and the balance sheet now holds $4.4 billion in cash after a $3.9 billion share sale to fund the Iridium deal."
+}
