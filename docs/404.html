@@ -111,24 +111,43 @@
 <main class="not-found">
   <span class="code">404</span>
   <h1>We couldn’t find that page.</h1>
-  <p class="sub">The link may be old, mistyped, or the report hasn’t been published yet. Taking you home in a moment.</p>
+  <p class="sub" id="redirect-message">The link may be old, mistyped, or the report hasn’t been published yet. Taking you home in a moment.</p>
 
   <div class="countdown-wrap" aria-live="polite">
     <span id="countdown" class="countdown">10</span>
     <span class="countdown-label">seconds until redirect</span>
   </div>
 
-  <p><a class="go-now" id="go-home" href="https://plainearnings.github.io/">Go home now</a></p>
+  <p><a class="go-now" id="go-now" href="https://plainearnings.github.io/">Go now</a></p>
 </main>
 
 <script>
 (function () {
-  var home = "https://plainearnings.github.io/";
-  var seconds = 10;
+  var origin = "https://plainearnings.github.io";
+  var home = origin + "/";
+  var path = location.pathname || "/";
+  var target = home;
+  var msg = document.getElementById("redirect-message");
+  var go = document.getElementById("go-now");
   var el = document.getElementById("countdown");
+  var seconds = 10;
+
+  // Old project-pages URLs: /plainearnings/... → /...
+  if (path === "/plainearnings" || path === "/plainearnings/") {
+    target = origin + "/" + location.search + location.hash;
+    msg.textContent = "That old /plainearnings/ link moved. Sending you to the new home page.";
+    go.textContent = "Go to the new URL now";
+  } else if (path.indexOf("/plainearnings/") === 0) {
+    var rest = path.slice("/plainearnings".length); // keeps leading /
+    target = origin + rest + location.search + location.hash;
+    msg.textContent = "That old /plainearnings/ link moved. Trying the matching page at the new address.";
+    go.textContent = "Go to the new URL now";
+  }
+
+  go.href = target;
 
   function redirect() {
-    location.replace(home);
+    location.replace(target);
   }
 
   function tick() {
