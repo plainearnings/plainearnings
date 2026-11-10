@@ -120,3 +120,24 @@ footer { max-width: 1080px; margin: 0 auto; padding: 34px 20px 46px; color: var(
 .fbtn:hover { border-color: var(--accent); color: var(--accent); }
 .fbtn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .fbtn .fcount { font-weight: 500; opacity: 0.75; font-size: 12.5px; }
+
+/* Top AdSense band: keep a compact horizontal slot; hide empty fills */
+.ad-slot-top {
+  max-width: 1080px;
+  margin: 8px auto 0;
+  padding: 0 20px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.ad-slot-top ins.adsbygoogle {
+  display: block;
+  max-height: 100px;
+  overflow: hidden;
+}
+.ad-slot-top:has(ins.adsbygoogle[data-ad-status="unfilled"]),
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

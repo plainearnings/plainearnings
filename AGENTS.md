@@ -12,9 +12,10 @@ When you create any new HTML page, add this tag. Do not omit it from generated r
 
 ## Google AdSense horizontal ad
 
-Every content HTML page under `docs/` (landing, company indexes, quarter reports — not redirect-only pages) must place this ad block immediately after the closing `</header>` of `<header class="topbar">`:
+Every content HTML page under `docs/` (landing, company indexes, quarter reports — not redirect-only pages) must place this ad block immediately after the closing `</header>` of `<header class="topbar">`, wrapped in `div.ad-slot-top` so shared CSS can cap height (~100px) and hide unfilled slots:
 
 ```html
+<div class="ad-slot-top">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6709464128865038"
      crossorigin="anonymous"></script>
 <!-- plainearnings -->
@@ -27,6 +28,7 @@ Every content HTML page under `docs/` (landing, company indexes, quarter reports
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 ```
 
-Keep the ad directly under the site topbar header and above the main page content.
+Keep the ad directly under the site topbar header and above the main page content. Do not remove the `ad-slot-top` wrapper.
