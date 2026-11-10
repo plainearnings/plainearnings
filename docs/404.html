@@ -37,9 +37,37 @@
   .not-found .sub {
     font-size: 18px;
     color: #44506a;
-    margin: 0 auto 28px;
-    max-width: 520px;
+    margin: 0 auto 18px;
+    max-width: 560px;
   }
+  .redirect-url {
+    display: none;
+    margin: 0 auto 28px;
+    max-width: 640px;
+    text-align: left;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .redirect-url.is-visible { display: block; }
+  .redirect-url-label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .redirect-url a {
+    color: var(--accent);
+    font-size: 15.5px;
+    font-weight: 650;
+    word-break: break-all;
+    text-decoration: none;
+  }
+  .redirect-url a:hover { text-decoration: underline; }
   .countdown-wrap {
     display: inline-flex;
     flex-direction: column;
@@ -112,6 +140,10 @@
   <span class="code">404</span>
   <h1>We couldn’t find that page.</h1>
   <p class="sub" id="redirect-message">The link may be old, mistyped, or the report hasn’t been published yet. Taking you home in a moment.</p>
+  <div class="redirect-url" id="redirect-url" hidden>
+    <span class="redirect-url-label">New URL</span>
+    <a id="redirect-url-link" href="https://plainearnings.github.io/"></a>
+  </div>
 
   <div class="countdown-wrap" aria-live="polite">
     <span id="countdown" class="countdown">10</span>
@@ -129,22 +161,33 @@
   var target = home;
   var msg = document.getElementById("redirect-message");
   var go = document.getElementById("go-now");
+  var urlBox = document.getElementById("redirect-url");
+  var urlLink = document.getElementById("redirect-url-link");
   var el = document.getElementById("countdown");
   var seconds = 10;
+  var showNewUrl = false;
 
   // Old project-pages URLs: /plainearnings/... → /...
   if (path === "/plainearnings" || path === "/plainearnings/") {
     target = origin + "/" + location.search + location.hash;
-    msg.textContent = "That old /plainearnings/ link moved. Sending you to the new home page.";
+    msg.textContent = "That old /plainearnings/ link moved. You’ll be sent to the new home page:";
     go.textContent = "Go to the new URL now";
+    showNewUrl = true;
   } else if (path.indexOf("/plainearnings/") === 0) {
     var rest = path.slice("/plainearnings".length); // keeps leading /
     target = origin + rest + location.search + location.hash;
-    msg.textContent = "That old /plainearnings/ link moved. Trying the matching page at the new address.";
+    msg.textContent = "That old /plainearnings/ link moved. You’ll be sent to:";
     go.textContent = "Go to the new URL now";
+    showNewUrl = true;
   }
 
   go.href = target;
+  if (showNewUrl) {
+    urlLink.href = target;
+    urlLink.textContent = target;
+    urlBox.hidden = false;
+    urlBox.classList.add("is-visible");
+  }
 
   function redirect() {
     location.replace(target);
