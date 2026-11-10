@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-adsense-account" content="ca-pub-6709464128865038">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Plain Earnings</title>
+<meta name="description" content="That page isn’t here. You’ll be redirected to Plain Earnings in a few seconds.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+  .not-found {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+    text-align: center;
+  }
+  .not-found .code {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: #dbe7fd;
+    border-radius: 999px;
+    padding: 6px 12px;
+    margin-bottom: 18px;
+  }
+  .not-found h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -1.2px;
+    margin: 0 0 14px;
+    font-weight: 850;
+  }
+  .not-found .sub {
+    font-size: 18px;
+    color: #44506a;
+    margin: 0 auto 28px;
+    max-width: 520px;
+  }
+  .countdown-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px 28px;
+    margin-bottom: 22px;
+    min-width: 180px;
+  }
+  .countdown {
+    font-size: 56px;
+    font-weight: 850;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .countdown-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .not-found .go-now {
+    display: inline-block;
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #fff;
+    background: var(--ink);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+  }
+  .not-found .go-now:hover { background: #243041; }
+  @media (max-width: 640px) {
+    .not-found { padding-top: 36px; }
+    .not-found h1 { font-size: 32px; }
+    .countdown { font-size: 48px; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <span class="brand-stack"><a class="brand" href="https://plainearnings.github.io/">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="6" width="10" height="20" rx="2" fill="#2f3b4c"/><rect x="15" y="11" width="6" height="15" rx="2" fill="#3f7fbf"/><rect x="24" y="16" width="6" height="10" rx="2" fill="#3d9970"/></svg>
+    Plain&nbsp;Earnings
+  </a><a class="brand-url" href="https://plainearnings.github.io/">plainearnings.github.io</a></span>
+  <nav>
+    <a href="https://plainearnings.github.io/#companies">Companies</a>
+    <a href="https://plainearnings.github.io/feed.xml">RSS</a>
+  </nav>
+</header>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6709464128865038"
+     crossorigin="anonymous"></script>
+<!-- plainearnings -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6709464128865038"
+     data-ad-slot="7743095279"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<main class="not-found">
+  <span class="code">404</span>
+  <h1>We couldn’t find that page.</h1>
+  <p class="sub">The link may be old, mistyped, or the report hasn’t been published yet. Taking you home in a moment.</p>
+
+  <div class="countdown-wrap" aria-live="polite">
+    <span id="countdown" class="countdown">10</span>
+    <span class="countdown-label">seconds until redirect</span>
+  </div>
+
+  <p><a class="go-now" id="go-home" href="https://plainearnings.github.io/">Go home now</a></p>
+</main>
+
+<script>
+(function () {
+  var home = "https://plainearnings.github.io/";
+  var seconds = 10;
+  var el = document.getElementById("countdown");
+
+  function redirect() {
+    location.replace(home);
+  }
+
+  function tick() {
+    el.textContent = String(seconds);
+    if (seconds <= 0) {
+      redirect();
+      return;
+    }
+    seconds -= 1;
+    setTimeout(tick, 1000);
+  }
+
+  tick();
+})();
+</script>
+</body>
+</html>
