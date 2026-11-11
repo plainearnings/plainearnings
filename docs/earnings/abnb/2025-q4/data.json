@@ -1,0 +1,144 @@
+{
+  "company": "Airbnb",
+  "flow": {
+    "costOfRevenueM": 487,
+    "grossProfitM": 2291,
+    "netIncomeM": 341,
+    "operatingIncomeM": 269,
+    "opex": [
+      {
+        "amountM": 327,
+        "name": "Operations and support",
+        "note": "Supporting hosts and guests \u2014 customer service, trust & safety and host insurance."
+      },
+      {
+        "amountM": 589,
+        "name": "Product development",
+        "note": "Building the app and new products like experiences and services."
+      },
+      {
+        "amountM": 695,
+        "name": "Sales & marketing",
+        "note": "Marketing to win travelers and hosts."
+      },
+      {
+        "amountM": 411,
+        "name": "General & administrative",
+        "note": "Running the company day to day."
+      }
+    ],
+    "otherIncomeM": 124,
+    "revenueM": 2778,
+    "taxM": 52
+  },
+  "follow100": [
+    {
+      "amount": 100.0,
+      "label": "Stays & experiences"
+    },
+    {
+      "amount": -17.53,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -11.77,
+      "label": "Operations & support"
+    },
+    {
+      "amount": -21.2,
+      "label": "Product development"
+    },
+    {
+      "amount": -25.02,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -14.79,
+      "label": "G&A"
+    },
+    {
+      "amount": 4.46,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.87,
+      "label": "Tax"
+    },
+    {
+      "amount": 12.28,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows add up with a small rounding difference.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "vs a year ago",
+      "value": "+12%"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted",
+      "value": "$0.56"
+    },
+    {
+      "label": "Nights & seats booked",
+      "note": "+10% YoY",
+      "value": "121.9M"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "19% of revenue",
+      "value": "$521M"
+    }
+  ],
+  "oneTimers": [
+    "About $90M of non-income tax matters weighed on the quarter \u2014 Airbnb says planned investments in new growth and policy initiatives plus these tax charges are why net income fell even as revenue grew 12%."
+  ],
+  "otherDetail": "Interest income of $162M, less $38M of other expense, net \u2014 a $124M net addition to profit.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-12",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "amountM": 2778,
+      "name": "Stays & experiences",
+      "note": "Service fees charged to hosts and guests on every booking \u2014 Airbnb owns almost no property, so its revenue is a cut of each stay. One revenue stream.",
+      "yoy": "+12%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192dex991.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "121.9M",
+      "statColor": "#3d7bc8",
+      "text": "Nights and seats booked grew 10% \u2014 the strongest growth quarter of the year \u2014 and gross booking value rose 16% to $20.4B as the average daily rate climbed 6% to $168.",
+      "title": "Bookings accelerated"
+    },
+    {
+      "stat": "12%",
+      "statColor": "#3e8e5a",
+      "text": "Net income fell to $341M from $461M a year ago as planned investments in new growth and policy initiatives, plus about $90M of non-income tax matters, outweighed 12% revenue growth. Net margin fell to 12% from 19%.",
+      "title": "Profit shrank while revenue grew"
+    },
+    {
+      "stat": "13.6%",
+      "statColor": "#5b6b7c",
+      "text": "Airbnb's implied take rate \u2014 revenue divided by gross booking value \u2014 slipped to 13.6% from 14.1% a year ago, as it simplified fees by moving hosts to a single 15.5% service fee, alongside FX and booking-timing effects.",
+      "title": "A smaller cut of each booking"
+    }
+  ],
+  "ticker": "ABNB",
+  "verdict": "Airbnb's revenue grew 12% to $2.8B on its strongest bookings quarter of the year \u2014 121.9 million nights and seats \u2014 but planned investments and about $90M of non-income tax charges pushed net income down to $341M, 12 cents of every revenue dollar."
+}

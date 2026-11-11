@@ -1,0 +1,198 @@
+{
+  "ticker": "BAC",
+  "company": "Bank of America",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "periodEnd": "2025-12-31",
+  "reportedDate": "2026-01-14",
+  "verdict": "Bank of America's revenue rose 7% to $28.4B with net interest income up 10% to $15.8B, and net income grew 12% to $7.6B as EPS rose 18% to $0.98 \u2014 capping a year in which profit reached $30.5B.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "value": "$28.4B",
+      "note": "+7% YoY"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "value": "$0.98",
+      "note": "vs $0.83 a year ago"
+    },
+    {
+      "label": "Net interest income",
+      "value": "$15.8B",
+      "note": "+10% YoY"
+    },
+    {
+      "label": "CET1 ratio",
+      "value": "11.4%",
+      "note": "capital strength, standardized"
+    }
+  ],
+  "segments": [
+    {
+      "name": "Net interest income",
+      "amountM": 15750,
+      "yoy": "+10%",
+      "note": "The spread between what the bank earns on loans and securities and what it pays depositors and lenders \u2014 up 10% on bigger loan and deposit balances and repricing of older fixed-rate assets. The net interest yield was 2.08% (fully taxable-equivalent), up from 1.97% a year ago."
+    },
+    {
+      "name": "Noninterest income",
+      "amountM": 12617,
+      "yoy": "+4%",
+      "shortName": "Fees & trading income",
+      "note": "Fees and trading: investment and brokerage fees of $5,300M (asset management fees $4,193M, up 13%), market making of $2,074M, investment banking fees of $1,666M, service charges of $1,649M, card income of $1,566M and $362M of other income."
+    }
+  ],
+  "flow": {
+    "revenueM": 28367,
+    "costName": "Provision for credit losses",
+    "costOfRevenueM": 1308,
+    "costPlain": "Money set aside for loans expected to go bad \u2014 the closest thing a bank has to a cost of goods sold.",
+    "grossName": "Revenue after credit costs",
+    "grossNote": "after credit costs",
+    "grossProfitM": 27059,
+    "opName": "Profit before tax",
+    "operatingIncomeM": 9622,
+    "opex": [
+      {
+        "name": "Compensation and benefits",
+        "amountM": 10602,
+        "note": "Pay and benefits for the bank's roughly 213,000 employees \u2014 well over half of all running costs."
+      },
+      {
+        "name": "Info processing & comms",
+        "amountM": 1913,
+        "shortName": "Info processing & comms",
+        "note": "Technology, data processing and communications \u2014 the plumbing of a digital bank.",
+        "compact": true
+      },
+      {
+        "name": "Occupancy and equipment",
+        "amountM": 1884,
+        "note": "Branches, offices, ATMs and the equipment in them.",
+        "compact": true
+      },
+      {
+        "name": "Product delivery",
+        "amountM": 1011,
+        "shortName": "Product delivery",
+        "note": "The cost of moving money: processing payments, producing cards and handling transactions.",
+        "compact": true
+      },
+      {
+        "name": "Professional fees",
+        "amountM": 682,
+        "note": "Lawyers, auditors and outside consultants.",
+        "compact": true
+      },
+      {
+        "name": "Marketing",
+        "amountM": 563,
+        "note": "Advertising and promoting the bank's products.",
+        "compact": true
+      },
+      {
+        "name": "Other operating",
+        "amountM": 782,
+        "shortName": "Other operating",
+        "note": "Everything else \u2014 this quarter it includes higher litigation costs, partly offset by a lower FDIC special assessment accrual.",
+        "compact": true
+      }
+    ],
+    "otherIncomeM": 0,
+    "taxM": 1975,
+    "netIncomeM": 7647
+  },
+  "follow100": [
+    {
+      "label": "Net interest income",
+      "amount": 55.52
+    },
+    {
+      "label": "Fees & trading income",
+      "amount": 44.48
+    },
+    {
+      "label": "Credit costs",
+      "amount": -4.61
+    },
+    {
+      "label": "Compensation & benefits",
+      "amount": -37.37
+    },
+    {
+      "label": "Info processing & comms",
+      "amount": -6.74
+    },
+    {
+      "label": "Occupancy & equipment",
+      "amount": -6.64
+    },
+    {
+      "label": "Product delivery",
+      "amount": -3.56
+    },
+    {
+      "label": "Professional fees",
+      "amount": -2.4
+    },
+    {
+      "label": "Marketing",
+      "amount": -1.98
+    },
+    {
+      "label": "Other operating",
+      "amount": -2.76
+    },
+    {
+      "label": "Tax",
+      "amount": -6.96
+    },
+    {
+      "label": "Kept as profit",
+      "amount": 26.96
+    }
+  ],
+  "follow100Note": "People are the bank's biggest cost: $37.37 of every $100 goes to pay and benefits. Rows may not add exactly due to rounding.",
+  "footerNote": "Banks don't report gross profit; the chart follows BAC's own structure.",
+  "pngFooterNote": "Component lines are from its Q4 2025 financial supplement.",
+  "revenueYoY": "+7%",
+  "takeaways": [
+    {
+      "stat": "+10%",
+      "statColor": "#3d7bc8",
+      "title": "The lending engine is earning more",
+      "text": "Net interest income reached $15,750M as average loans grew 8% to $1.17 trillion and deposits topped $2 trillion, while old fixed-rate assets repriced to today's higher rates. The net interest yield widened to 2.08%, up 11 basis points from a year ago."
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "title": "Profit grew faster than revenue",
+      "text": "Net income rose 12% to $7,647M and EPS rose 18% to $0.98, helped by a smaller credit-loss provision ($1,308M, down from $1,452M) and an efficiency ratio that improved to 61%. For the full year, net income was $30.5B and EPS $3.81, up 19%."
+    },
+    {
+      "stat": "$8.4B",
+      "statColor": "#3e8e5a",
+      "title": "Capital is strong and going back to shareholders",
+      "text": "The bank returned $8.4B to shareholders ($6.3B of buybacks, $2.1B of dividends) while keeping its CET1 capital ratio at 11.4%. Net charge-offs were $1,287M \u2014 0.44% of loans, better than 0.54% a year ago."
+    }
+  ],
+  "oneTimers": [
+    "Preferred stock dividends of $328M sit between net income ($7,647M) and the $7,319M attributable to common shareholders.",
+    "4Q24 comparatives in the release reflect BAC's retrospective accounting change for certain tax-related equity investments, effective 4Q25 \u2014 year-over-year comparisons use the restated figures."
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000020/bac12312025ex991.htm"
+    },
+    {
+      "label": "Quarterly financial supplement (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000020/bac-12312025ex993.htm"
+    },
+    {
+      "label": "Form 8-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000020/bac-20260114.htm"
+    }
+  ]
+}
