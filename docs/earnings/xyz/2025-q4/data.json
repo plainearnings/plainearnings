@@ -1,0 +1,191 @@
+{
+  "company": "Block",
+  "flow": {
+    "costOfRevenueM": 3380.252,
+    "costPlain": "What Block pays to run each transaction and product: card-network fees for sellers, the cost of Cash App's money features, and the bitcoin Block buys to resell \u2014 $1,863M of the total is bitcoin cost alone.",
+    "grossProfitM": 2872.226,
+    "netIncomeM": 115.556,
+    "operatingIncomeM": 485.371,
+    "opex": [
+      {
+        "amountM": 710.667,
+        "name": "Product development",
+        "note": "Engineers and designers building Square, Cash App and Block's bitcoin products."
+      },
+      {
+        "amountM": 619.548,
+        "name": "Sales and marketing",
+        "note": "Winning sellers for Square and new users for Cash App, including Cash App peer-to-peer processing costs."
+      },
+      {
+        "amountM": 512.579,
+        "name": "General and administrative",
+        "note": "Running the company \u2014 finance, legal, people and offices. Down from $728M a year ago, when it carried heavy litigation and regulatory accruals."
+      },
+      {
+        "amountM": 510.012,
+        "name": "Transaction & loan losses",
+        "note": "Money Block expects not to collect on Cash App Borrow, Afterpay and seller loans \u2014 the cost of being a lender. More than double the $245M a year ago as lending volumes surged."
+      },
+      {
+        "amountM": 34.049,
+        "compact": true,
+        "name": "Amortization",
+        "note": "Spreading the cost of companies Block has bought."
+      }
+    ],
+    "otherIncomeM": -283.418,
+    "revenueM": 6252.478,
+    "taxM": 86.397
+  },
+  "follow100": [
+    {
+      "amount": 48.78,
+      "label": "Commerce enablement"
+    },
+    {
+      "amount": 19.55,
+      "label": "Financial solutions"
+    },
+    {
+      "amount": 31.67,
+      "label": "Bitcoin ecosystem"
+    },
+    {
+      "amount": -54.06,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -11.37,
+      "label": "Product development"
+    },
+    {
+      "amount": -9.91,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -8.2,
+      "label": "G&A"
+    },
+    {
+      "amount": -8.16,
+      "label": "Transaction & loan losses"
+    },
+    {
+      "amount": -0.54,
+      "label": "Amortization"
+    },
+    {
+      "amount": -0.86,
+      "label": "Interest expense"
+    },
+    {
+      "amount": -3.75,
+      "label": "Bitcoin revaluation loss"
+    },
+    {
+      "amount": 0.07,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.38,
+      "label": "Tax"
+    },
+    {
+      "amount": 1.85,
+      "label": "Net income"
+    }
+  ],
+  "follow100Note": "For every $100 of revenue, Block's products earned $45.94 of gross profit \u2014 then running costs left $7.76 of operating income, and a $234M bitcoin paper loss plus tax left $1.85 of net income per $100. Rows may not add exactly due to rounding.",
+  "footerNote": "Net income attributable to common stockholders was $116M.",
+  "kpis": [
+    {
+      "label": "Gross profit",
+      "note": "+24% YoY \u2014 the number Block steers by",
+      "value": "$2.9B"
+    },
+    {
+      "label": "Revenue",
+      "note": "+4% YoY; +20% excluding bitcoin",
+      "value": "$6.3B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.65 adjusted",
+      "value": "$0.19"
+    },
+    {
+      "label": "Adjusted operating income",
+      "note": "+46% YoY \u2014 a 20% margin on gross profit",
+      "value": "$588M"
+    }
+  ],
+  "oneTimers": [
+    "A $234M non-cash loss from revaluing Block's bitcoin holdings (a $252M gain a year ago) sits below operating income \u2014 the main reason GAAP net income of $116M trails adjusted net income of $402M.",
+    "Operating expenses include $54M of contingencies, restructuring and other charges.",
+    "Adjusted figures strip out share-based compensation, amortization, contingencies and restructuring charges: adjusted operating income was $588M versus $485M GAAP, and adjusted EPS was $0.65 versus $0.19 GAAP."
+  ],
+  "otherDetail": "Interest expense, net of $54M and a $234M paper loss from revaluing Block's bitcoin holdings, partly offset by $5M of other income \u2014 a net $283M cost below operating income.",
+  "periodEnd": "2025-12-31",
+  "pngFooterNote": "Bitcoin paper loss shrank the quarter \u2014 see one-time items.",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-26",
+  "revenueYoY": "+4%",
+  "segments": [
+    {
+      "amountM": 3049.832,
+      "name": "Commerce enablement",
+      "note": "Square's business: payment processing and tools for sellers, plus Cash App's commerce features. Square's gross payment volume grew 10% \u2014 international volume up 24% \u2014 and gross profit from this category rose 11% to $1,623M.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 1222.245,
+      "name": "Financial solutions",
+      "note": "Cash App's money products \u2014 Borrow loans, Afterpay buy-now-pay-later, the Cash App Card and banking features. Gross profit jumped 51% to $1,132M as consumer lending origination volume grew 69%. Costs were just $91M against $1,222M of revenue.",
+      "yoy": "+48%"
+    },
+    {
+      "amountM": 1980.401,
+      "name": "Bitcoin ecosystem",
+      "note": "Bitcoin bought and sold through Cash App, plus Block's bitcoin hardware and mining efforts. Revenue fell as bitcoin trading cooled; $1,863M of costs against $1,980M of revenue left just $118M of gross profit, up 10%.",
+      "yoy": "-20%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official Q4 2025 shareholder letter (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590dex991.htm"
+    },
+    {
+      "label": "Form 10-K for fiscal 2025 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm"
+    },
+    {
+      "label": "Form 10-Q for the quarter ended Sep 30, 2025 (SEC EDGAR) \u2014 nine-month figures used to derive Q4 line items",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025050234/sq-20250930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+24%",
+      "statColor": "#3e8e5a",
+      "text": "Gross profit rose 24% to $2,872M \u2014 Cash App contributed $1,831M (+33%) and Square $993M (+7%) \u2014 beating Block's guidance. Block raised its full-year 2026 gross profit guidance to $12.20B, up 18%.",
+      "title": "Gross profit growth accelerated"
+    },
+    {
+      "stat": "$588M",
+      "statColor": "#3d7bc8",
+      "text": "Adjusted operating income grew 46% to $588M \u2014 a 20% margin on gross profit \u2014 putting Block's Rule of 40 at 44% (24% growth plus 20% margin). The same day, Block announced plans to cut headcount nearly in half, from over 10,000 to just under 6,000, betting on AI-led productivity.",
+      "title": "Adjusted profit hit a new gear"
+    },
+    {
+      "stat": "$234M",
+      "statColor": "#cf5f4e",
+      "text": "A $234M non-cash loss from revaluing Block's bitcoin holdings, versus a $252M gain a year ago, pulled GAAP net income to $116M (EPS $0.19) against $0.65 adjusted. The year-ago $1,946M net income also included a $1.9B one-time tax benefit, so the drop overstates any slowdown.",
+      "title": "Bitcoin's paper loss shrank the bottom line"
+    }
+  ],
+  "ticker": "XYZ",
+  "verdict": "Block's gross profit jumped 24% to $2.9B as Cash App surged 33%, but a $234M paper loss on its bitcoin holdings held net income to just $116M."
+}

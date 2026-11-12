@@ -1,0 +1,146 @@
+{
+  "company": "Moderna",
+  "flow": {
+    "costOfRevenueM": 452,
+    "grossProfitM": 226,
+    "netIncomeM": -826,
+    "operatingIncomeM": -857,
+    "opex": [
+      {
+        "amountM": 775,
+        "name": "Research & development",
+        "note": "The labs: developing new vaccines and drugs. Down 31% \u2014 big Phase 3 respiratory trials wound down, plus deliberate cost cuts across the company."
+      },
+      {
+        "amountM": 308,
+        "name": "Selling, general & administrative",
+        "note": "Sales teams, offices, admin. Down 12% \u2014 consulting and outside services cut back."
+      }
+    ],
+    "otherIncomeM": 58,
+    "revenueM": 678,
+    "taxM": 27
+  },
+  "follow100": [
+    {
+      "amount": 95.13,
+      "label": "Net product sales"
+    },
+    {
+      "amount": 4.87,
+      "label": "Other revenue"
+    },
+    {
+      "amount": -66.67,
+      "label": "Cost of sales"
+    },
+    {
+      "amount": -114.31,
+      "label": "R&D"
+    },
+    {
+      "amount": -45.43,
+      "label": "SG&A"
+    },
+    {
+      "amount": 10.32,
+      "label": "Interest income"
+    },
+    {
+      "amount": -1.77,
+      "label": "Other expense"
+    },
+    {
+      "amount": -3.98,
+      "label": "Tax"
+    },
+    {
+      "amount": -121.83,
+      "label": "Net loss"
+    }
+  ],
+  "follow100Note": "R&D alone eats $114 of every $100 of revenue \u2014 Moderna spent $1.54 billion running the business against $678 million of sales. The $826 million loss was covered from its $8.1 billion cash pile, not from this quarter's sales.",
+  "footerNote": "Loss quarter: the $826M shortfall is covered by cash on hand.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "-30% YoY",
+      "value": "$678M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs \u2212$2.91 a year ago",
+      "value": "\u2212$2.11"
+    },
+    {
+      "label": "Gross margin",
+      "note": "vs 23.5% a year ago",
+      "value": "33.3%"
+    },
+    {
+      "label": "Cash & investments",
+      "note": "vs $9.5B at Dec 31, 2024",
+      "value": "$8.1B"
+    }
+  ],
+  "oneTimers": [
+    "$144M of inventory write-downs sits inside Q4 cost of sales ($291M for the full year) \u2014 unsold vaccine stock written off as demand shrinks. It is not a separate line item, but it is a big reason cost of sales stays high even as sales fall.",
+    "Cash of $8.1B at December 31 includes a $600M initial draw on Moderna's $1.5B credit facility \u2014 borrowed money, not operating cash. Without it, the year-end balance would have been $7.5B, down from $9.5B a year earlier."
+  ],
+  "otherDetail": "Interest income of $70M, less $12M of other expense \u2014 net $58M.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-02-13",
+  "revenueYoY": "-30%",
+  "segments": [
+    {
+      "amountM": 645,
+      "name": "Net product sales",
+      "note": "Selling vaccines \u2014 mainly COVID shots, $264M in the U.S. and $381M abroad. Down 31% as COVID vaccine demand keeps shrinking.",
+      "yoy": "-31%"
+    },
+    {
+      "amountM": 33,
+      "name": "Other revenue",
+      "note": "Grants, collaborations, licensing and royalties \u2014 plus new stand-ready manufacturing revenue from long-term partnerships.",
+      "yoy": "+18%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000015/exhibit9912025q4pressrelea.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000015/mrna-20260213.htm"
+    },
+    {
+      "label": "Moderna investor relations",
+      "url": "https://investors.modernatx.com"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-30%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue of $678M vs $966M a year ago, almost all of it lower COVID vaccine volume. Yet the net loss narrowed to $826M from $1.12B: costs fell faster than sales, with R&D down 31% and cost of sales down 39%.",
+      "title": "Revenue fell by nearly a third \u2014 but the loss shrank"
+    },
+    {
+      "stat": "up to +10%",
+      "statColor": "#3e8e5a",
+      "text": "Management targets up to 10% revenue growth in 2026 \u2014 roughly half U.S., half international \u2014 with R&D of about $3.0B, cost of sales of about $0.9B, and year-end cash of $5.5\u20136.0B. The cost-cutting that saved 2025 is now the plan, not a one-off.",
+      "title": "2026: growth returns, costs keep falling"
+    },
+    {
+      "stat": "3",
+      "statColor": "#5b6b7c",
+      "text": "Spikevax, mNEXSPIKE and mRESVIA are now three approved products. The flu vaccine filing was accepted in the EU, Canada and Australia but got a Refusal-to-File letter from the U.S. FDA; the norovirus Phase 3 trial is fully enrolled with a readout expected in 2026.",
+      "title": "Three approved products, and the pipeline is doing the talking"
+    }
+  ],
+  "ticker": "MRNA",
+  "verdict": "Moderna lost $826 million in Q4 as COVID vaccine sales fell 30%, but the loss narrowed from $1.1 billion a year ago because deep cost cuts \u2014 R&D down 31% \u2014 outpaced the revenue decline, and management now promises growth again in 2026."
+}

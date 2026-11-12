@@ -1,0 +1,206 @@
+{
+  "company": "Exxon Mobil",
+  "flow": {
+    "costOfRevenueM": 56350,
+    "grossProfitM": 23689,
+    "netIncomeM": 6501,
+    "operatingIncomeM": 5762,
+    "opex": [
+      {
+        "amountM": 3028,
+        "name": "Selling, general and administrative expenses",
+        "note": "Sales teams, offices and running the company."
+      },
+      {
+        "amountM": 7715,
+        "name": "Depreciation and depletion",
+        "note": "The cost of wells, refineries and plants wearing out over time, including impairments."
+      },
+      {
+        "amountM": 6400,
+        "name": "Other taxes and duties",
+        "note": "Taxes and duties on products and operations \u2014 separate from income tax."
+      },
+      {
+        "amountM": 543,
+        "name": "Exploration expenses",
+        "note": "Searching for new oil and gas, including dry holes."
+      },
+      {
+        "amountM": 163,
+        "name": "Interest expense",
+        "note": "The cost of borrowing money."
+      },
+      {
+        "amountM": 78,
+        "name": "Non-service pension and postretirement benefit expense",
+        "note": "Pension and retiree-benefit costs outside service cost."
+      }
+    ],
+    "otherIncomeM": 2161,
+    "revenueM": 80039,
+    "taxM": 1422
+  },
+  "follow100": [
+    {
+      "amount": 10.56,
+      "label": "Upstream"
+    },
+    {
+      "amount": 77.2,
+      "label": "Energy Products"
+    },
+    {
+      "amount": 6.78,
+      "label": "Chemical Products"
+    },
+    {
+      "amount": 5.43,
+      "label": "Specialty Products"
+    },
+    {
+      "amount": 0.03,
+      "label": "Other"
+    },
+    {
+      "amount": -70.4,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -3.78,
+      "label": "SG&A"
+    },
+    {
+      "amount": -9.64,
+      "label": "Depreciation & depletion"
+    },
+    {
+      "amount": -8.0,
+      "label": "Other taxes & duties"
+    },
+    {
+      "amount": -0.68,
+      "label": "Exploration"
+    },
+    {
+      "amount": -0.2,
+      "label": "Interest"
+    },
+    {
+      "amount": -0.1,
+      "label": "Pension"
+    },
+    {
+      "amount": 2.7,
+      "label": "Other income"
+    },
+    {
+      "amount": -1.78,
+      "label": "Tax"
+    },
+    {
+      "amount": 8.12,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Revenue is sales and other operating revenue; equity and other income are shown as other income in the flow.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "Sales and other operating revenue of $80.0B, down from $81.1B a year ago; total revenue including other income was $82.3B",
+      "value": "-1%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "Down from $1.72 a year ago; adjusted EPS was $1.71, excluding identified items",
+      "value": "$1.53"
+    },
+    {
+      "label": "Energy Products earnings",
+      "note": "Refining and fuels earnings (GAAP), up from $0.4B a year ago as refining margins surged; $2.9B on an adjusted basis",
+      "value": "$3.4B"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "Cash flow from operations was $12.7B; $9.5B was returned to shareholders in dividends and buybacks",
+      "value": "$5.6B"
+    }
+  ],
+  "oneTimers": [
+    "Impairments of $1,700M \u2014 including a $640M charge to optimize materials and supply inventory \u2014 cut GAAP earnings, partly offset by a $720M gain on the sale of assets in non-U.S. Energy Products.",
+    "Tax-related items added $288M and restructuring charges cost $64M. Total identified items were a net $755M drag; excluding them, earnings were $7,256M, or $1.71 a share."
+  ],
+  "otherDetail": "Income from equity affiliates of $966M plus other income of $1,303M, less the $108M of net income attributable to noncontrolling interests \u2014 outside partners' shares of joint ventures \u2014 leaving $2,161M.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-01-30",
+  "revenueYoY": "-1%",
+  "segments": [
+    {
+      "amountM": 8449,
+      "name": "Upstream",
+      "note": "Oil and gas production \u2014 crude and gas sold to outside buyers. Most output goes to ExxonMobil's own refineries, so earnings are the better gauge: $3.5B, down from $6.5B a year ago on lower crude prices, even as production hit a record 4,988 thousand barrels a day.",
+      "yoy": "-21%"
+    },
+    {
+      "amountM": 61792,
+      "name": "Energy Products",
+      "note": "Refining and fuels \u2014 gasoline, diesel and jet fuel sold worldwide, by far the largest sales line. Earnings jumped to $3.4B from $0.4B a year ago as refining margins surged.",
+      "yoy": "+2%"
+    },
+    {
+      "amountM": 5427,
+      "compact": true,
+      "name": "Chemical Products",
+      "note": "Basic chemicals and plastics that go into packaging, cars and everyday goods. The segment swung to a $281M loss from $120M of earnings a year ago on weak chemical margins.",
+      "yoy": "+2%"
+    },
+    {
+      "amountM": 4346,
+      "compact": true,
+      "name": "Specialty Products",
+      "note": "Higher-value products \u2014 lubricants, basestocks and specialty fluids. Earnings were $682M, down from $746M a year ago.",
+      "yoy": "0%"
+    },
+    {
+      "amountM": 25,
+      "name": "Other",
+      "note": "Sales and other operating revenue in Corporate and Financing that is not part of a reportable segment \u2014 the small remainder so the segments add up to the company total.",
+      "yoy": "\u2014"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000033/livef8k4q25991.htm"
+    },
+    {
+      "label": "Form 10-K (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$3.4B",
+      "statColor": "#3e8e5a",
+      "text": "Energy Products earnings jumped to $3.4B from $0.4B a year ago as refining margins surged \u2014 without it, the quarter would have looked much worse, since Upstream earnings nearly halved on lower crude prices.",
+      "title": "Refining rescued the quarter"
+    },
+    {
+      "stat": "-46%",
+      "statColor": "#3d7bc8",
+      "text": "Upstream earned $3.5B, down from $6.5B a year ago on lower crude prices, even as production hit a quarterly record of nearly 5.0 million barrels a day, with Guyana passing 700,000 gross barrels a day and advantaged assets now 59% of production.",
+      "title": "Upstream earnings nearly halved"
+    },
+    {
+      "stat": "$1.03",
+      "statColor": "#5b6b7c",
+      "text": "ExxonMobil declared a first-quarter dividend of $1.03 a share, payable March 10, 2026 \u2014 its 43rd straight year of raising the annual dividend. It returned $9.5B to shareholders in the quarter ($4.4B of dividends and $5.1B of buybacks).",
+      "title": "Dividend up for a 43rd year"
+    }
+  ],
+  "ticker": "XOM",
+  "verdict": "ExxonMobil's profit fell 15% to $6.5 billion as lower oil prices cut Upstream earnings nearly in half, but surging refining margins lifted Energy Products earnings to $3.4 billion and the company still returned $9.5 billion to shareholders."
+}

@@ -1,0 +1,196 @@
+{
+  "company": "Vylor",
+  "flow": {
+    "costOfRevenueM": 598,
+    "grossProfitM": 340,
+    "netIncomeM": -480,
+    "operatingIncomeM": -562,
+    "opex": [
+      {
+        "amountM": 268,
+        "name": "Research and development",
+        "note": "Breeding, biotech and the trait pipeline \u2014 12 new technology platforms are planned over the next decade. Up 14%."
+      },
+      {
+        "amountM": 416,
+        "name": "Selling, general and administrative",
+        "note": "Selling, marketing and running the new standalone company. Up 4%."
+      },
+      {
+        "amountM": 120,
+        "name": "Amortization of intangibles",
+        "note": "A non-cash charge writing down intangibles carried over from the DowDuPont/Corteva separation. It recurs every quarter."
+      },
+      {
+        "amountM": 99,
+        "name": "Separation costs",
+        "note": "One-time costs of splitting out of Corteva on October 1 \u2014 legal, advisory and standalone setup. Excluded from adjusted EBITDA."
+      },
+      {
+        "amountM": -1,
+        "name": "Restructuring, net",
+        "note": "A net $1M credit this quarter \u2014 small reversals outweighing new charges."
+      }
+    ],
+    "otherIncomeM": -44,
+    "revenueM": 938,
+    "taxM": -126
+  },
+  "follow100": [
+    {
+      "amount": 64.71,
+      "label": "Corn"
+    },
+    {
+      "amount": 14.18,
+      "label": "Soybeans"
+    },
+    {
+      "amount": 15.99,
+      "label": "Other oilseeds"
+    },
+    {
+      "amount": 5.12,
+      "label": "Other products"
+    },
+    {
+      "amount": -63.75,
+      "label": "Cost of goods sold"
+    },
+    {
+      "amount": -28.57,
+      "label": "Research and development"
+    },
+    {
+      "amount": -44.35,
+      "label": "Selling, general and administrative"
+    },
+    {
+      "amount": -12.79,
+      "label": "Amortization of intangibles"
+    },
+    {
+      "amount": -10.55,
+      "label": "Separation costs"
+    },
+    {
+      "amount": 0.11,
+      "label": "Restructuring credit"
+    },
+    {
+      "amount": -1.07,
+      "label": "Other expense, net"
+    },
+    {
+      "amount": -3.62,
+      "label": "Interest expense"
+    },
+    {
+      "amount": 13.43,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": -51.17,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Seed is a seasonal business: Q3 is the smallest quarter, and this one carried $99M of spin-off costs on top of a $268M R&D bill. For every $100 of sales, $63.75 went to the cost of the seed itself and $44.35 to selling and admin \u2014 together more than revenue \u2014 so the quarter ended $51.17 in the red per $100, funded from the balance sheet.",
+  "footerNote": "Chart note: the $480M net loss is drawn as covered by cash on hand.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "-1% YoY",
+      "value": "$938M"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs -$0.58 a year ago",
+      "value": "-$0.72"
+    },
+    {
+      "label": "Adj. Pro Forma Operating EBITDA",
+      "note": "vs a $202M loss a year ago, down 33%",
+      "value": "-$269M"
+    },
+    {
+      "label": "2026 guidance",
+      "note": "Full-year Adj. Pro Forma Operating EBITDA, reaffirmed",
+      "value": "~$2.8B"
+    }
+  ],
+  "oneTimers": [
+    "Separation costs ($99M in Q3; $228M in the first nine months): legal, advisory and standalone-setup costs from the October 1 spin-off out of Corteva. Excluded from Adjusted Pro Forma Operating EBITDA.",
+    "Restructuring and asset-related charges, net: a $1M net credit in Q3 ($31M charge year-to-date).",
+    "A further ~$21M of one-time separation expenses are expected after the separation, per the release \u2014 not yet in these numbers.",
+    "Amortization of intangibles ($120M in Q3): a recurring non-cash charge on intangibles carried over from the DowDuPont/Corteva separation \u2014 excluded from adjusted EPS, but it recurs every quarter until the assets are fully amortized.",
+    "GAAP vs adjusted gap: a GAAP net loss of $480M vs an Adjusted Pro Forma Operating EBITDA loss of $269M. The bridge is mostly separation costs ($99M), amortization ($120M), R&D ($268M) and the tax benefit."
+  ],
+  "otherDetail": "Other expense, net of $10M plus $34M of interest expense on the new standalone capital structure \u2014 a combined $44M outside operating income.",
+  "periodEnd": "2026-09-30",
+  "quarterLabel": "Q3 2026",
+  "quarterSlug": "2026-q3",
+  "reportedDate": "2026-11-11",
+  "revenueYoY": "-1%",
+  "segments": [
+    {
+      "amountM": 607,
+      "name": "Corn",
+      "note": "Seed corn plus trait licensing \u2014 the engine of the business, 65% of sales. Up 4% on price and licensing income, even as volumes fell.",
+      "yoy": "+4%"
+    },
+    {
+      "amountM": 133,
+      "name": "Soybeans",
+      "note": "Seed soybeans, hurt by the shift to a licensing model in Brazil and an earlier North American planting season. Down 26%.",
+      "yoy": "-26%"
+    },
+    {
+      "amountM": 150,
+      "name": "Other Oilseeds",
+      "note": "Sunflower and canola \u2014 up 11% as European farmers shifted acres to sunflowers after drought hit corn.",
+      "yoy": "+11%"
+    },
+    {
+      "amountM": 48,
+      "name": "Other",
+      "note": "Cotton, sorghum, wheat, rice, inoculants and millet. Up 9%.",
+      "yoy": "+9%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2128626/000212862626000009/a3q_2026xearningsxnewsxr.htm"
+    },
+    {
+      "label": "Pro forma financial statements, Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2128626/000212862626000009/a9302026enrschedules.htm"
+    },
+    {
+      "label": "8-K filing (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2128626/000212862626000009/vylr-20261111.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "-$480M",
+      "statColor": "#b3543f",
+      "text": "Q3 is the seasonally smallest quarter \u2014 most seed is sold in the first half \u2014 but the $480M GAAP loss still widened from $391M a year ago as $99M of separation costs hit and R&D rose 14% to $268M. Even excluding spin-off costs, adjusted operating EBITDA was a $269M loss, 33% worse than last year.",
+      "title": "A loss quarter is normal for seed \u2014 but this one was deeper"
+    },
+    {
+      "stat": "+6%",
+      "statColor": "#3d7bc8",
+      "text": "Volume fell 9% \u2014 lower corn acres in North America and Europe (drought), delayed monsoons in India, and the shift to a licensing model for Brazil soybeans \u2014 but price/mix rose 6% on demand for the latest hybrids and more licensing income. Corn sales still grew 4% to $607M; soybeans fell 26% to $133M.",
+      "title": "Prices rose while volumes fell"
+    },
+    {
+      "stat": "$2.8B",
+      "statColor": "#3e8e5a",
+      "text": "Year-to-date pro forma sales are up 4% to $8.53B with $1.01B of net income, and management reaffirmed full-year adjusted operating EBITDA of ~$2.8B and adjusted EPS of $2.25\u2013$2.35. The board also started a $0.13 quarterly dividend and a $3B buyback \u2014 a standalone company acting like one.",
+      "title": "The full year still points up"
+    }
+  ],
+  "ticker": "VYLR",
+  "verdict": "Vylor's first quarter as a standalone seed company was a $480 million loss, as a seasonally small third quarter collided with $99 million of spin-off costs and weather-hit volumes, even as prices rose 6% and full-year guidance was reaffirmed."
+}

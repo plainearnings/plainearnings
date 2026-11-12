@@ -1,0 +1,164 @@
+{
+  "company": "Adobe",
+  "flow": {
+    "costOfRevenueM": 649,
+    "costPlain": "Running Adobe's cloud services \u2014 data centers, customer support and the cost of delivering its software.",
+    "grossProfitM": 5545,
+    "netIncomeM": 1856,
+    "operatingIncomeM": 2261,
+    "opex": [
+      {
+        "amountM": 1098,
+        "name": "Research & development",
+        "note": "Building Photoshop, Acrobat, Firefly AI and the rest of the product line."
+      },
+      {
+        "amountM": 1728,
+        "name": "Sales & marketing",
+        "note": "Sales teams, advertising and marketing \u2014 Adobe's biggest running cost."
+      },
+      {
+        "amountM": 421,
+        "name": "General & administrative",
+        "note": "Running the company day to day: finance, legal, HR, offices."
+      },
+      {
+        "amountM": 37,
+        "compact": true,
+        "name": "Amortization",
+        "note": "Spreading the cost of technology and customer relationships bought in past acquisitions."
+      }
+    ],
+    "otherIncomeM": 3,
+    "revenueM": 6194,
+    "taxM": 408
+  },
+  "follow100": [
+    {
+      "amount": 96.69,
+      "label": "Subscription"
+    },
+    {
+      "amount": 1.19,
+      "label": "Product"
+    },
+    {
+      "amount": 2.11,
+      "label": "Services & other"
+    },
+    {
+      "amount": -10.48,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -17.73,
+      "label": "R&D"
+    },
+    {
+      "amount": -27.9,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -6.8,
+      "label": "G&A"
+    },
+    {
+      "amount": -0.6,
+      "label": "Amortization"
+    },
+    {
+      "amount": 0.05,
+      "label": "Other income"
+    },
+    {
+      "amount": -6.59,
+      "label": "Tax"
+    },
+    {
+      "amount": 29.96,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Adobe keeps about $29.96 of every $100 \u2014 and note that sales & marketing ($27.90) still costs it more per $100 than research & development ($17.73). Rows may not add exactly due to rounding.",
+  "footerNote": "Revenue is split by type, not by customer group.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+10% YoY \u2014 a quarterly record",
+      "value": "$6.2B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $5.50 non-GAAP",
+      "value": "$4.45"
+    },
+    {
+      "label": "Total ARR",
+      "note": "annualized recurring revenue at year end, +11.5% YoY (revalued to $25.66B entering FY2026)",
+      "value": "$25.20B"
+    },
+    {
+      "label": "Operating cash flow",
+      "note": "$3.16B \u2014 a quarterly record; $10.03B for the full year",
+      "value": "$3.2B"
+    }
+  ],
+  "oneTimers": [],
+  "otherDetail": "Non-operating items added $3M: $57M of other income and $12M of investment gains, less $66M of interest expense.",
+  "periodEnd": "2025-11-28",
+  "pngFooterNote": "Revenue is split by type, not by customer group.",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-12-10",
+  "revenueYoY": "+10%",
+  "segments": [
+    {
+      "amountM": 5989,
+      "name": "Subscription",
+      "note": "Creative Cloud, Acrobat and Experience Cloud subscriptions \u2014 97 cents of every revenue dollar. Creative & Marketing Professionals paid $4,250M (+11%); Business Professionals & Consumers paid $1,720M (+15%).",
+      "yoy": "+12%"
+    },
+    {
+      "amountM": 74,
+      "name": "Product",
+      "note": "One-time software licenses \u2014 a small legacy line from before Adobe moved to subscriptions.",
+      "shortName": "Product",
+      "yoy": "-9%"
+    },
+    {
+      "amountM": 131,
+      "name": "Services and other",
+      "note": "Consulting, training and support services sold alongside the software.",
+      "shortName": "Services & other",
+      "yoy": "-18%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$6.19B",
+      "statColor": "#3e8e5a",
+      "text": "Revenue hit a record $6,194M, up 10% (10% in constant currency), and GAAP net income rose to $1,856M, up 10% year over year. For the full fiscal year, revenue was $23.77B, up 11%, and remaining performance obligations \u2014 work customers have already committed to \u2014 stood at $22.52B.",
+      "title": "A record quarter to close a record year"
+    },
+    {
+      "stat": "+12%",
+      "statColor": "#3d7bc8",
+      "text": "Subscription revenue grew 12% to $5.99B, and total ARR reached $25.20B at year end, up 11.5%. Business Professionals & Consumers subscription revenue grew 15% to $1.72B, faster than the creative professional line's 11% to $4.25B.",
+      "title": "Subscriptions keep compounding"
+    },
+    {
+      "stat": "$3.16B",
+      "statColor": "#5b6b7c",
+      "text": "Operating cash flow was a quarterly record $3.16B \u2014 more than the quarter's $1.86B of net income, because customers pay for subscriptions up front. Adobe also repurchased 7.2 million shares in the quarter, 30.8 million for the full year.",
+      "title": "Cash flow hit a record too"
+    }
+  ],
+  "ticker": "ADBE",
+  "verdict": "Adobe closed FY2025 with record quarterly revenue of $6.19B, up 10%, and record operating cash flow of $3.16B, as subscriptions grew 12% and total ARR reached $25.20B."
+}

@@ -1,0 +1,155 @@
+{
+  "company": "UnitedHealth Group",
+  "flow": {
+    "costOfRevenueM": 94721,
+    "grossProfitM": 18494,
+    "netIncomeM": 218,
+    "operatingIncomeM": 380,
+    "opex": [
+      {
+        "amountM": 16997,
+        "name": "Operating costs",
+        "note": "The day-to-day cost of running the company \u2014 people, technology and offices. At 15.0% of revenue (the operating cost ratio, up from 12.4% a year ago), it includes $799M of final cyberattack response costs and restructuring items; the adjusted ratio was 13.5%."
+      },
+      {
+        "amountM": 1117,
+        "name": "Depreciation and amortization",
+        "note": "A non-cash charge spreading the cost of buildings, equipment, software and acquired businesses over their useful lives."
+      }
+    ],
+    "otherIncomeM": -1100,
+    "revenueM": 113215,
+    "taxM": -938
+  },
+  "follow100": [
+    {
+      "amount": 78.44,
+      "label": "Premiums"
+    },
+    {
+      "amount": 11.91,
+      "label": "Products"
+    },
+    {
+      "amount": 9.07,
+      "label": "Services"
+    },
+    {
+      "amount": 0.57,
+      "label": "Investment and other income"
+    },
+    {
+      "amount": -83.67,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -15.01,
+      "label": "Operating costs"
+    },
+    {
+      "amount": -0.99,
+      "label": "Depreciation"
+    },
+    {
+      "amount": -0.97,
+      "label": "Other expense"
+    },
+    {
+      "amount": 0.83,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 0.19,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Rows may not add exactly due to rounding.",
+  "footerNote": "Net earnings of $218M include $208M belonging to noncontrolling interests; $10M is attributable to common shareholders \u2014 $0.01 per share.",
+  "kpis": [
+    {
+      "label": "Revenue growth",
+      "note": "$113.2B in revenue, vs $100.8B a year ago",
+      "value": "+12%"
+    },
+    {
+      "label": "EPS (GAAP diluted)",
+      "note": "vs $5.98 a year ago; adjusted EPS was $2.11",
+      "value": "$0.01"
+    },
+    {
+      "label": "Medical care ratio",
+      "note": "Share of premiums paid out as medical care \u2014 up from 87.6% a year ago; adjusted ratio was 91.5%",
+      "value": "92.4%"
+    },
+    {
+      "label": "Earnings from operations",
+      "note": "UnitedHealthcare $0.3B, Optum $0.1B \u2014 down from $7.8B a year ago",
+      "value": "$0.4B"
+    }
+  ],
+  "oneTimers": [
+    "A fourth-quarter charge of $2,878M before tax ($1,622M after tax, $1.78 per share): $799M of final direct costs from the 2024 cyberattack, $2,521M of restructuring and other actions \u2014 including a $623M reserve for loss-making third-party contracts, $746M for real estate rationalization and workforce reductions, $573M of contract reassessments, $329M of net valuation losses on equity securities and $250M to advance-fund the United Health Foundation \u2014 partly offset by $442M of net gains on portfolio divestitures.",
+    "Below operating earnings, UnitedHealth booked a $126M loss on the sale of a subsidiary and subsidiaries held for sale, tied to the remaining South American businesses it is exiting as it refocuses on U.S. health care.",
+    "The quarter's adjusted EPS of $2.11 (versus $0.01 GAAP) also excludes $386M of intangible amortization; adjusted earnings from operations were $3,132M versus $380M GAAP."
+  ],
+  "otherDetail": "Other expense of $1,100M is $974M of interest expense plus a $126M loss on sale of subsidiary and subsidiaries held for sale (mainly the remaining South American businesses). Investment income is not in this line \u2014 it is already counted in revenue. The $938M tax line is a benefit, not a charge: the quarter lost $720M before tax, so taxes added $938M back to net earnings.",
+  "periodEnd": "2025-12-31",
+  "quarterLabel": "Q4 2025",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2026-01-27",
+  "revenueYoY": "+12%",
+  "segments": [
+    {
+      "amountM": 88811,
+      "name": "Premiums",
+      "note": "Health-insurance premiums from members, employers and government programs \u2014 the money people pay for coverage. UnitedHealthcare served 49.8 million people in the quarter, and Medicare & Retirement revenue grew sharply on Inflation Reduction Act Part D changes.",
+      "yoy": "+16%"
+    },
+    {
+      "amountM": 13484,
+      "name": "Products",
+      "note": "Prescription drugs and other products sold, mainly through Optum Rx pharmacies.",
+      "yoy": "+0%"
+    },
+    {
+      "amountM": 10273,
+      "name": "Services",
+      "note": "Fees for delivering care and for health technology and data services, mainly from Optum Health clinics and Optum Insight.",
+      "yoy": "+10%"
+    },
+    {
+      "amountM": 647,
+      "name": "Investment and other income",
+      "note": "Income from the company's investment portfolio and other small sources \u2014 down sharply from $1.6B a year ago.",
+      "yoy": "-58%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000025/a991unherq42025.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "92.4%",
+      "statColor": "#c25b4e",
+      "text": "The medical care ratio \u2014 the share of premiums paid out as medical care \u2014 jumped to 92.4%, from 87.6% a year ago, as Medicare funding cuts, Inflation Reduction Act changes and accelerating cost trends outran premium increases. Even stripping out the quarter's charge, the adjusted ratio was 91.5%. Medical costs of $82.0B left only $18.5B of gross profit on $113.2B of revenue.",
+      "title": "Medical costs ate almost everything"
+    },
+    {
+      "stat": "$2.9B",
+      "statColor": "#3d7bc8",
+      "text": "UnitedHealth booked a $2,878M pre-tax charge: $799M of final cyberattack costs and $2,521M of restructuring and other actions \u2014 including a $623M reserve for loss-making contracts, $746M for real estate and workforce cuts and $329M of investment valuation losses \u2014 partly offset by $442M of divestiture gains. Optum Health swung to a $2,783M operating loss; Optum Rx was the one bright spot, earning $2,885M, up from $1,739M.",
+      "title": "A one-time charge crushed the quarter"
+    },
+    {
+      "stat": ">$17.75",
+      "statColor": "#5b6b7c",
+      "text": "UnitedHealth guided 2026 revenue above $439B \u2014 a planned ~2% decline as it sheds members and right-sizes Optum Health \u2014 with earnings from operations above $24B and adjusted earnings above $17.75 a share. The medical care ratio is expected to improve to 88.8%. Cash flow from operations was $19.7B in 2025, 1.5 times net income.",
+      "title": "2026 outlook: smaller, more profitable"
+    }
+  ],
+  "ticker": "UNH",
+  "verdict": "UnitedHealth Group's revenue grew 12% to $113.2B, but a 92.4% medical care ratio and a $2.9 billion one-time charge left operating profit at just $0.4B and earnings at a penny a share."
+}
