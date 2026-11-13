@@ -1,0 +1,161 @@
+{
+  "company": "Shopify",
+  "flow": {
+    "costOfRevenueM": 1453,
+    "equityM": -21,
+    "grossProfitM": 1391,
+    "netIncomeM": 264,
+    "operatingIncomeM": 343,
+    "opex": [
+      {
+        "amountM": 410,
+        "name": "Sales and marketing",
+        "note": "Selling the platform and winning new merchants. Up 24% YoY."
+      },
+      {
+        "amountM": 375,
+        "name": "Research and development",
+        "note": "Building the platform and new commerce and AI features. Up 13% YoY."
+      },
+      {
+        "amountM": 115,
+        "name": "General and administrative",
+        "note": "The back office \u2014 finance, legal and admin. Up 1% YoY."
+      },
+      {
+        "amountM": 148,
+        "name": "Transaction and loan losses",
+        "note": "Losses on merchant loans and cash advances, and transaction losses. Up 155% YoY."
+      }
+    ],
+    "otherIncomeM": -14,
+    "revenueM": 2844,
+    "taxM": 44
+  },
+  "follow100": [
+    {
+      "amount": 24.58,
+      "label": "Subscription solutions"
+    },
+    {
+      "amount": 75.42,
+      "label": "Merchant solutions"
+    },
+    {
+      "amount": -51.09,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -14.42,
+      "label": "Sales & marketing"
+    },
+    {
+      "amount": -13.19,
+      "label": "R&D"
+    },
+    {
+      "amount": -4.04,
+      "label": "G&A"
+    },
+    {
+      "amount": -5.2,
+      "label": "Transaction & loan losses"
+    },
+    {
+      "amount": -0.49,
+      "label": "Other expense"
+    },
+    {
+      "amount": -0.74,
+      "label": "Loss on equity investment"
+    },
+    {
+      "amount": -1.55,
+      "label": "Tax"
+    },
+    {
+      "amount": 9.28,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "Merchant solutions brings in $75.42 of every $100 \u2014 mostly a cut of merchants' sales \u2014 but it is also the expensive part to run: direct costs eat $51.09 of every $100 overall. Rows may not add exactly due to rounding.",
+  "footerNote": "The earnings release prints a condensed statement (operating income $343M, net other expense including taxes of $79M, net income $264M); the split of that $79M into other expense, the equity-method loss and tax comes from the detailed statement in Shopify's Form 10-Q filed the same day, as the release itself directs.",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+32% YoY",
+      "value": "$2.8B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "vs $0.64 a year ago",
+      "value": "$0.20"
+    },
+    {
+      "label": "Free cash flow",
+      "note": "18% of revenue",
+      "value": "$507M"
+    },
+    {
+      "label": "GMV",
+      "note": "sales through the platform, +32% YoY",
+      "value": "$92.0B"
+    }
+  ],
+  "oneTimers": [
+    "A $103M after-tax drag from equity investments: a $62M unrealized (paper) loss on equity and other investments, a $29M unrealized loss on the embedded derivative tied to Shopify's convertible notes (due November 1, 2025), and a $21M loss on its equity-method investment. Shopify says net income excluding the impact of equity investments was $367M (non-GAAP), versus $264M GAAP."
+  ],
+  "otherDetail": "Other expense of $35M in total: $81M of interest income was outweighed by a $62M unrealized (paper) loss on equity and other investments, a $29M unrealized loss on the embedded derivative tied to the convertible notes, and a $4M foreign-exchange loss. The $21M equity-method loss is the separate equityM line; the rest nets to otherIncomeM of -$14M.",
+  "periodEnd": "2025-09-30",
+  "pngFooterNote": "Merchant solutions is mostly a cut of merchants' sales.",
+  "quarterLabel": "Q3 2025",
+  "quarterSlug": "2025-q3",
+  "reportedDate": "2025-11-04",
+  "revenueYoY": "+32%",
+  "segments": [
+    {
+      "amountM": 699,
+      "name": "Subscription solutions",
+      "note": "The monthly plans merchants pay to run their stores on Shopify. Up 15% YoY.",
+      "yoy": "+15%"
+    },
+    {
+      "amountM": 2145,
+      "name": "Merchant solutions",
+      "note": "Mostly payment processing (Shopify Payments) \u2014 a cut of the sales flowing through merchants' stores \u2014 plus shipping and other merchant services. Up 38% YoY and 75% of all revenue.",
+      "yoy": "+38%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official earnings release (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000088/exhibit991pressreleaseq320.htm"
+    },
+    {
+      "label": "Form 10-Q \u2014 detailed statements of operations (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000089/shop-20250930.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "+32%",
+      "statColor": "#3d7bc8",
+      "text": "Revenue rose 32% to $2.84B, the ninth straight quarter of double-digit free cash flow margins, as GMV grew 32% to $92.0B. Merchant solutions led, up 38% to $2.15B, while subscription revenue grew 15% to $699M and monthly recurring revenue reached $193M.",
+      "title": "Growth held at full speed"
+    },
+    {
+      "stat": "$507M",
+      "statColor": "#3e8e5a",
+      "text": "Free cash flow was $507M \u2014 18% of revenue \u2014 from $513M of operating cash flow and just $6M of capital spending (capex \u2014 money spent on property and equipment). Operating income rose 21% to $343M.",
+      "title": "Cash generation is the quiet story"
+    },
+    {
+      "stat": "-$103M",
+      "statColor": "#5b6b7c",
+      "text": "Net income fell to $264M from $828M a year ago, even though operating income rose 21%. A year ago Shopify booked a $512M paper gain on equity investments; this quarter it booked a $62M paper loss, a $29M loss on an embedded derivative and a $21M equity-method loss \u2014 $103M after tax. Excluding equity investments, net income was $367M.",
+      "title": "Investment swings shrank the bottom line"
+    }
+  ],
+  "ticker": "SHOP",
+  "verdict": "Shopify grew revenue 32% to $2.8B and generated $507M of free cash flow, but paper losses on its equity investments cut net income to $264M even as operating income rose 21%."
+}

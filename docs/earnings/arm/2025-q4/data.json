@@ -1,0 +1,143 @@
+{
+  "company": "Arm Holdings",
+  "flow": {
+    "costOfRevenueM": 28,
+    "costPlain": "The direct cost of delivering Arm's designs and support \u2014 tiny next to revenue, which is why gross margin is 97.7%.",
+    "equityM": -290,
+    "grossProfitM": 1213,
+    "netIncomeM": 210,
+    "operatingIncomeM": 410,
+    "opex": [
+      {
+        "amountM": 546,
+        "name": "Research and development",
+        "note": "Designing new processors and platform technology; the GAAP figure includes $139M of share-based pay (paying staff in shares) and $37M of related employer taxes."
+      },
+      {
+        "amountM": 257,
+        "name": "Selling, general and administrative",
+        "note": "Selling and running the company; the GAAP figure includes $48M of share-based pay and $11M of related employer taxes."
+      }
+    ],
+    "otherIncomeM": 24,
+    "revenueM": 1241,
+    "taxM": -66
+  },
+  "follow100": [
+    {
+      "amount": 51.09,
+      "label": "License and other revenue"
+    },
+    {
+      "amount": 48.91,
+      "label": "Royalty revenue"
+    },
+    {
+      "amount": -2.26,
+      "label": "Cost of revenue"
+    },
+    {
+      "amount": -44.0,
+      "label": "R&D"
+    },
+    {
+      "amount": -20.71,
+      "label": "SG&A"
+    },
+    {
+      "amount": 1.93,
+      "label": "Other income"
+    },
+    {
+      "amount": -23.37,
+      "label": "Loss on equity investments"
+    },
+    {
+      "amount": 5.32,
+      "label": "Tax benefit"
+    },
+    {
+      "amount": 16.92,
+      "label": "Kept as profit"
+    }
+  ],
+  "follow100Note": "License and royalty revenue split the $100 almost evenly \u2014 but R&D took $44.00 of it and a $290M loss on equity investments took another $23.37. Rows may not add exactly due to rounding.",
+  "footerNote": "Arm calls its direct cost 'cost of sales' ($28M).",
+  "kpis": [
+    {
+      "label": "Revenue",
+      "note": "+34% YoY \u2014 a quarterly record, first above $1B",
+      "value": "$1.2B"
+    },
+    {
+      "label": "EPS (GAAP)",
+      "note": "diluted, vs $0.21 a year ago; non-GAAP $0.55",
+      "value": "$0.20"
+    },
+    {
+      "label": "Royalty revenue",
+      "note": "+18% YoY; a record, first above $600M",
+      "value": "$607M"
+    },
+    {
+      "label": "Remaining performance obligations",
+      "note": "unearned revenue to be recognized later; ACV $1,365M, +15% YoY",
+      "value": "$2,226M"
+    }
+  ],
+  "oneTimers": [
+    "Arm recorded a $290M loss from equity investments in the quarter, which it strips out of its non-GAAP results: excluding it (and share-based pay), non-GAAP net income was $584M versus $210M GAAP."
+  ],
+  "otherDetail": "Combined other items took $266M out of profit: a $290M loss from equity investments, partly offset by $27M of net interest income less a $3M other non-operating loss. Tax was a $66M benefit \u2014 a 45.8% effective benefit rate \u2014 thanks to windfall gains and R&D tax credits.",
+  "periodEnd": "2025-03-31",
+  "quarterLabel": "Q4 FY25",
+  "quarterSlug": "2025-q4",
+  "reportedDate": "2025-05-07",
+  "revenueYoY": "+34%",
+  "segments": [
+    {
+      "amountM": 634,
+      "name": "License and other revenue",
+      "note": "Fees for licensing Arm chip designs, plus support and related services; up 53% YoY on the timing and size of high-value license agreements and contributions from backlog \u2014 a record.",
+      "yoy": "+53%"
+    },
+    {
+      "amountM": 607,
+      "name": "Royalty revenue",
+      "note": "A cut of every chip shipped with Arm technology inside; up 18% YoY on wider use of the Armv9 architecture, the ramp of chips based on Arm CSS (ready-made compute subsystems), and more Arm-based chips in data centers.",
+      "yoy": "+18%"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Results announcement, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000010/exhibit991fye25q431-marx25.htm"
+    },
+    {
+      "label": "Shareholder letter, Form 6-K Exhibit 99.2 (SEC EDGAR)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000010/exhibit992fye25q431-marx25.htm"
+    }
+  ],
+  "takeaways": [
+    {
+      "stat": "$1,241M",
+      "statColor": "#3e8e5a",
+      "text": "Revenue rose 34% to a record $1,241M \u2014 the first time Arm has crossed $1B in a quarter. License revenue jumped 53% to a record $634M and royalty revenue rose 18% to a record $607M. For the full fiscal year, revenue was a record $4,007M, up 24%, with royalty revenue above $2B for the first time.",
+      "title": "First billion-dollar quarter"
+    },
+    {
+      "stat": "+18%",
+      "statColor": "#3d7bc8",
+      "text": "Royalty revenue grew 18% to $607M on wider use of the Armv9 architecture, the ramp of Arm CSS ready-made compute subsystems, and more Arm-based chips in data centers. Smartphone royalties grew about 30% even as phone shipments rose under 2% \u2014 Arm is earning more per chip.",
+      "title": "Royalties keep climbing on Armv9 and CSS"
+    },
+    {
+      "stat": "$290M",
+      "statColor": "#5b6b7c",
+      "text": "GAAP operating income was $410M, up from $22M a year ago, but a $290M loss from equity investments cut pre-tax income to $144M. A $66M tax benefit lifted GAAP net income to $210M, or $0.20 per share; excluding the equity loss and share-based pay, non-GAAP net income was $584M, or $0.55 per share.",
+      "title": "An equity-investment loss shrank the bottom line"
+    }
+  ],
+  "ticker": "ARM",
+  "verdict": "Arm's revenue jumped 34% to a record $1,241M \u2014 its first quarter above $1 billion \u2014 as both license and royalty revenue set records, but a $290M loss on equity investments held GAAP net income to $210M, down 6% from a year ago."
+}
